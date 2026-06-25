@@ -302,7 +302,7 @@ Return valid objects for nested fields (company_info, responsibilities, skills).
     for attempt in range(max_attempts):
         try:
             response = zai_client.messages.create(
-                model=os.getenv("ZAI_MODEL", "glm-5.1"),
+                model=os.getenv("ZAI_MODEL", "glm-5.2"),
                 max_tokens=int(os.getenv("ZAI_MAX_TOKENS", "4096")),
                 system=EXTRACTION_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_prompt}],
