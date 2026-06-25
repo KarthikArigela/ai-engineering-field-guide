@@ -131,6 +131,78 @@ Common mistakes:
 - Not preparing for the walkthrough/defence round - the follow-up interview is often more important than the code itself
 
 
+## June 2026 Additions
+
+New assignments discovered in a GitHub search pass covering Q2 2026. These extend the patterns above and introduce several new assignment archetypes.
+
+
+### Legal Document AI
+
+Legal document processing emerged as a distinct category in 2026, with a repeating pattern: ingest messy legal documents, retrieve grounded evidence, generate cited drafts, and learn from operator edits.
+
+- Build a legal document AI workflow with a three-tier extraction cascade and an improvement-from-edits loop. The system must ingest, extract, ground, and iteratively improve based on operator corrections. [^gh-labib-legal] [^gh-takey-legal] [^gh-sufian-legal] [^gh-cloud-legal]
+- Pearson Specter Litt: Take-home requiring ingestion of messy legal documents, grounded retrieval, cited draft generation, and learning from operator edits. Delivered as a scrum sprint plan. [^gh-sufian-legal]
+
+
+### RAG and Document Q&A (New Companies)
+
+- Quorium: Build a RAG Q&A chatbot for an AI Engineer Trainee role. Standard RAG pipeline with document ingestion and question answering. [^gh-quorium]
+- ITJ: RAG-based document QA system as a take-home challenge. [^gh-itj]
+- NTT DATA: RAG system over sustainability reports. [^gh-ntt-rag]
+- NeoStats: Chatbot assignment for an AI Engineer case study. [^gh-neostats]
+- Trinamix: Supply chain RAG chatbot over a 2,000-PO supplier register and governance policy. Built with Flowise, Pinecone, and GPT. [^gh-trinamix]
+- GoTyme Bank: Full-stack document extraction system combining OCR and LLM, with a React frontend. [^gh-gotyme]
+
+
+### Agents and Multi-Agent Systems (New)
+
+- Go Fig AI: Build an inbox-triage agent skill with a human-in-the-loop approval gate. 2-hour cap. [^gh-go-fig]
+- Yuno: Multi-agent orchestration platform with Ollama, Streamlit, and Telegram. [^gh-yuno]
+- RefundPilot: Containerized internal support workspace that evaluates e-commerce refund requests, applies refund policy, resists prompt-injection attempts, and records structured decision logs. [^gh-refundpilot]
+- AgentCollect: Full-Stack AI Engineer (AI-Native) hiring challenge. [^gh-agentcollect]
+- Neon Health: AI Agent with OpenAI integration. [^gh-neon]
+- Future Research: LangGraph multi-agent fitness coach with hub routing to sub-agents (coach, workout-generator, workout-logger) via Claude structured output. [^gh-spotter]
+- KarthikTools: Full-stack web app where a backend agent executes predefined tools with a clear execution trace. [^gh-karthik]
+
+
+### LLM Applications and Infrastructure
+
+- GenAI Labs: Production-ready LLM-driven SQL analytics pipeline with token counting, SQL validation, observability, and benchmarking. Multiple submissions. [^gh-genai-labs-1] [^gh-genai-labs-2] [^gh-genai-labs-3]
+- VantageScore: GenAI-powered credit risk scoring with ML ensemble, explainability, and LLM enrichment. [^gh-vantagescore]
+- AEGIS: AEO content scoring, LLM query fan-out, and embedding-based semantic gap analysis. [^gh-aegis]
+- SHL: GenAI assessment recommendation system. [^gh-shl]
+- Camplight: LLM interview task. [^gh-camplight]
+- VijaySaravanaPandi: NL-to-app "compiler" — turns a natural-language app description into a working application via structured, validated intermediate representations (not just prompt to code). [^gh-ai-compiler]
+- Jpower3145: Local LLM pre-interview task. [^gh-cql-translator]
+- Cerebras: AI Engineer Model Quality and Performance hiring challenge (perf UI, eval pruning). [^gh-cerebras]
+- nickusevich: Novelty detection for football news using hybrid retrieval (pgvector + tsvector + RRF), LLM reranking, and LLM-based publish/skip/review decisions. [^gh-novelty]
+
+
+### Embeddable and Conversational AI
+
+- EloquentAI: Build an embeddable AI agent chat widget. [^gh-eloquentai]
+- Fleetio: Hybrid deterministic + LLM weekly fleet digest. [^gh-fleetio]
+- Zap: AI-powered client onboarding automation. [^gh-zap]
+- Adobe (FDE): GenAI-powered creative automation pipeline for social ad campaigns. [^gh-adobe]
+
+
+### Official Company Challenges
+
+Official repos published by companies as part of their hiring process:
+
+- [ML6 (laine)](https://github.com/ml6team/laine-engineer-coding-challenge) - Coding challenge for evaluating AI Engineer candidates
+- [Jaseci Labs](https://github.com/jaseci-labs/take-home-ai-engineer) - Take-home for AI Software Engineer candidates
+- [Jitera](https://github.com/Jitera-Interviews/genai-takehome) - Take-home task for GenAI roles
+- [AuxoAI](https://github.com/AuxoAI-Hiring/ai-engineer-assignment) - AI Engineering Take-Home
+- [Coginis Research](https://github.com/CoginisResearch/ai-engineer-challenge) - AI Product Engineer Hiring Challenge
+- [Future Research](https://github.com/future-research/candidate-assessment) - AI Engineer take-home assessment + exercise dataset
+- [Go Fig AI](https://github.com/go-fig-ai/take-home-inbox-triage) - Inbox-triage agent with human-in-the-loop
+- [Cerebras](https://github.com/danielkim-cerebras/ai-model-quality-challenge) - Model Quality and Performance challenge
+- [AI:AT](https://github.com/AIAT-AIandBusinessgrowth/standort-agent-challenge-public) - Multi-criteria location evaluation agent
+- [Bloom (radialreview)](https://github.com/radialreview/bloom-coffee-ai) - Pre-built coffee ordering app candidates extend with an AI order taker
+
+
+
 ## Sources
 
 [^devto-aidi]: [dev.to - Learn From My Mistakes: My First Take-Home Code Challenge](https://dev.to/aidiri/learn-from-my-mistakes-my-first-take-home-code-challenge-778)
@@ -194,3 +266,35 @@ Common mistakes:
 [^gh-fynd]: [GitHub - fynd-ai-feedback-system](https://github.com/pranaymanapure/fynd-ai-feedback-system) - Fynd AI feedback system
 [^gh-krisp]: [GitHub - krisp_ai_engineer_role_task](https://github.com/Artush-Baghdasaryan/krisp_ai_engineer_role_task) - Krisp dedup and clustering
 [^gh-deel]: [GitHub - deel-assignment](https://github.com/kamran-14/deel-assignment) - Deel transaction matching
+[^gh-labib-legal]: [GitHub - Legal-Document-AI-Workflow](https://github.com/Labib98989/Legal-Document-AI-Workflow) - Legal document AI workflow
+[^gh-takey-legal]: [GitHub - Legal-AI-Assessment](https://github.com/Takey-Osman/Legal-AI-Assessment) - Legal document understanding, grounded retrieval
+[^gh-sufian-legal]: [GitHub - legal-ai-assessment](https://github.com/sufian07/legal-ai-assessment) - Pearson Specter Litt legal docs
+[^gh-cloud-legal]: [GitHub - grounded-legal-drafting](https://github.com/cloud-007/grounded-legal-drafting) - Grounded drafting, improvement from edits
+[^gh-quorium]: [GitHub - quorium-rag-chatbot](https://github.com/mohamed-sabbar/quorium-rag-chatbot) - Quorium RAG Q&A chatbot
+[^gh-itj]: [GitHub - itj-rag-challenge](https://github.com/StevenCole01/itj-rag-challenge) - ITJ RAG document QA
+[^gh-ntt-rag]: [GitHub - ntt-rag](https://github.com/utkusayan/ntt-rag) - NTT DATA sustainability reports RAG
+[^gh-neostats]: [GitHub - riviera-paradise](https://github.com/whoisreethick/riviera-paradise) - NeoStats chatbot
+[^gh-trinamix]: [GitHub - scm-assistant-bot](https://github.com/anujdevsingh/scm-assistant-bot) - Trinamix supply chain RAG chatbot
+[^gh-gotyme]: [GitHub - tymebank-document-extraction](https://github.com/thabangTheActuaryCoder/tymebank-document-extraction) - GoTyme Bank document extraction
+[^gh-go-fig]: [GitHub - take-home-inbox-triage](https://github.com/go-fig-ai/take-home-inbox-triage) - Go Fig AI inbox-triage agent
+[^gh-yuno]: [GitHub - yuno-agent-platform](https://github.com/ashok1995/yuno-agent-platform) - Yuno multi-agent platform
+[^gh-refundpilot]: [GitHub - refundpilot-ai-agent](https://github.com/Jatin29AFK/refundpilot-ai-agent) - RefundPilot AI agent
+[^gh-agentcollect]: [GitHub - AgentCollect-Challenge](https://github.com/noopurdiv/AgentCollect-Challenge) - AgentCollect Full-Stack AI Engineer challenge
+[^gh-neon]: [GitHub - Neon_assesment](https://github.com/Nithinreddyyarradla/Neon_assesment) - Neon Health AI agent
+[^gh-spotter]: [GitHub - spotter](https://github.com/melmallow/spotter) - Future Research multi-agent fitness coach
+[^gh-karthik]: [GitHub - ai-engineer-coding-challenge](https://github.com/KarthikTools/ai-engineer-coding-challenge) - Agent execution with tool traces
+[^gh-genai-labs-1]: [GitHub - gal-assignment](https://github.com/abhishekDeshmukh74/gal-assignment) - GenAI Labs LLM analytics pipeline
+[^gh-genai-labs-2]: [GitHub - genai-labs](https://github.com/bhvbhushan/genai-labs) - GenAI Labs LLM analytics pipeline
+[^gh-genai-labs-3]: [GitHub - SQLToText-project](https://github.com/bondmojo/SQLToText-project) - GenAI Labs SQL-to-text
+[^gh-vantagescore]: [GitHub - vantagescore-credit-intelligence-platform](https://github.com/Jash-stack/vantagescore-credit-intelligence-platform) - VantageScore GenAI credit scoring
+[^gh-aegis]: [GitHub - aegis-ai-engineer-assignment](https://github.com/UmairQureshi20/aegis-ai-engineer-assignment) - AEGIS AEO content scoring
+[^gh-shl]: [GitHub - shl-assessment-recommendation](https://github.com/rasmirajesh/shl-assessment-recommendation) - SHL GenAI assessment recommendation
+[^gh-camplight]: [GitHub - camplight-llm-task](https://github.com/RadoslavGenov/camplight-llm-task) - Camplight LLM interview task
+[^gh-ai-compiler]: [GitHub - ai-app-compiler](https://github.com/VijaySaravanaPandi/ai-app-compiler) - NL-to-app compiler
+[^gh-cql-translator]: [GitHub - CQL-Translator](https://github.com/jpower3145/CQL-Translator) - Local LLM pre-interview task
+[^gh-cerebras]: [GitHub - ai-model-quality-challenge](https://github.com/danielkim-cerebras/ai-model-quality-challenge) - Cerebras Model Quality challenge
+[^gh-novelty]: [GitHub - ai-engineering-assignment](https://github.com/nickusevich/ai-engineering-assignment) - Novelty detection with hybrid retrieval
+[^gh-eloquentai]: [GitHub - Embeddable-Chat-Widget-EloquentAI](https://github.com/joaoscheuermann/Embeddable-Chat-Widget-EloquentAI) - EloquentAI embeddable chat widget
+[^gh-fleetio]: [GitHub - fleet-weekly-digest](https://github.com/vnponce/fleet-weekly-digest) - Fleetio hybrid LLM fleet digest
+[^gh-zap]: [GitHub - zap-onboarding-ai](https://github.com/shaiaviv/zap-onboarding-ai) - Zap AI client onboarding
+[^gh-adobe]: [GitHub - creative-automation-pipeline](https://github.com/jtdman/creative-automation-pipeline) - Adobe FDE GenAI creative automation

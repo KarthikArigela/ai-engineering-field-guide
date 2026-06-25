@@ -57,33 +57,59 @@ grep -ohE 'github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+' ../../interview/question
 comm -23 all_searched_repos.txt existing_repos.txt > new_candidate_repos.txt
 ```
 
-### 3. Filter for genuine assignments
+### 3. Filter for genuine AI engineering assignments
 
-Most search results are noise: course assignments, bootcamp homework, academic projects, interview prep tools, and ML research papers using the word "assignment." Filter in two passes.
+Most search results are noise: course assignments, bootcamp homework, academic
+projects, interview prep tools, ML research papers using the word "assignment,"
+and traditional ML assignments that fall outside our AI engineering scope.
 
-**Keep** repos whose name or description contains interview-signal keywords:
-- `take-home`, `take home`, `home assessment`, `home test`
-- `assignment` (combined with AI/LLM/RAG/GenAI/agent keywords)
-- `case study`, `coding challenge`, `hiring challenge`, `technical test`, `interview task`
+**Scoping: AI engineering vs. ML engineering.** This guide covers AI engineering
+(LLMs, RAG, agents, GenAI) — not traditional ML engineering (training models
+from scratch, classical ML, computer vision without LLMs). Before filtering,
+read [`_internal/ai-vs-ml-scoping.md`](../../_internal/ai-vs-ml-scoping.md) for
+the full criteria, edge cases, and a decision checklist. The key rule: if the
+assignment could be completed without an LLM or foundation model, it is
+probably traditional ML, not AI engineering.
 
-**Exclude** repos matching any of:
+Filter in two passes.
+
+**Pass 1 — Exclude noise:**
 - Course/academic: `course`, `tutorial`, `bootcamp`, `udemy`, `classroom`, `university`, `CS###`, `lab`, `assignment-N`
 - Prep tools: `interview-prep`, `interview-coach`, `mock-`, `leetcode`, `practice-`
 - Research papers using "assignment" in the RL sense: `credit assignment`, `assignment grader`
-- Non-AI: generic web dev, fraud detection, credit scoring without AI focus
 
-**Require** at least one AI keyword: `ai engineer`, `llm`, `rag`, `genai`, `agent`, `generative ai`, `langchain`, `chatbot`, `gpt`.
+**Pass 2 — Require AI engineering keywords:**
+- Keep only repos whose name or description contains interview-signal keywords
+  (`take-home`, `assignment`, `case study`, `coding challenge`, `hiring
+  challenge`, `technical test`, `interview task`)
+- AND at least one AI engineering keyword: `ai engineer`, `llm`, `rag`,
+  `genai`, `agent`, `generative ai`, `langchain`, `chatbot`, `gpt`
+
+**Pass 3 — Exclude traditional ML (see scoping doc):**
+- Training models from scratch: `CIFAR`, `neural network training`, `backpropagation`
+- Classical ML: `xgboost`, `random forest`, `logistic regression` as primary deliverable
+- Computer vision without LLMs: `mask rcnn`, `object detection`, `image classification`
+- Recommender systems without foundation models: `collaborative filtering`, `matrix factorization`
 
 ```bash
+# Pass 1+2: keep interview signals + AI engineering keywords, exclude noise
 grep -iE "(take.?home|home.?assessment|case.?study|hiring.?challenge|coding.?challenge|interview.?task|technical.?assign)" all_searched_full.txt \
   | grep -ivE "(course|tutorial|bootcamp|university|CS[0-9]|lab|interview-prep|mock-|credit.assignment)" \
   | grep -iE "(ai.engineer|llm|rag|genai|agent|generative|langchain|chatbot)" \
   | sort -u > genuine_candidates.txt
+
+# Pass 3: remove traditional ML (manual review guided by ai-vs-ml-scoping.md)
+# Examples of what to exclude: self-pruning neural networks on CIFAR-10,
+# loan approval with DL/RL, recommender systems, Mask R-CNN, salary prediction
 ```
 
 ### 4. Manual curation
 
-The remaining candidates (typically 150-250 after filtering) need manual review:
+The remaining candidates (typically 150-250 after filtering) need manual review.
+Apply the [AI vs. ML scoping criteria](../../_internal/ai-vs-ml-scoping.md)
+to each repo during this step — many repos are titled "AI Engineer" but
+contain traditional ML tasks (e.g., the Tredence self-pruning neural network
+assignment generated 20+ submissions, all pure deep learning).
 
 - **Company-issued challenges**: official org repos (e.g., `AuxoAI-Hiring/`, `ml6team/`, `jaseci-labs/`). These are the highest-value finds because they contain the original problem statement.
 - **Candidate submissions with named companies**: repos where the description or README names the company (e.g., "KPN AI Engineer role," "VantageScore case study"). These reveal what companies actually ask.
@@ -108,7 +134,7 @@ Save curated results in `.tmp/home-assignments-search/curated_new_assignments.md
 | `"genai" "take-home"` | 15 | Low volume, high relevance |
 | `"rag" "interview"` | 100 | Noisy, many prep repos |
 | `"llm" "task" "interview"` | 30 | Good for LLM-specific tasks |
-| `"ml engineer" "take home"` | 20 | Catches ML-focused assignments |
+| `"ml engineer" "take home"` | 20 | Mostly traditional ML — exclude per [scoping doc](../../_internal/ai-vs-ml-scoping.md) |
 
 ## Quality Indicators
 
@@ -126,6 +152,9 @@ Genuine assignments tend to have:
 - **RL credit assignment**: research papers using "assignment" in the reinforcement learning sense
 - **Resume screening tools**: "AI hiring" platforms, not hiring assignments
 - **Hackathon entries**: competitive coding challenges, not interview assessments
+- **Traditional ML assignments**: titled "AI Engineer" but the task is model training,
+  recommender systems, or computer vision without LLMs. See
+  [ai-vs-ml-scoping.md](../../_internal/ai-vs-ml-scoping.md) for the full criteria
 
 ## Results
 
