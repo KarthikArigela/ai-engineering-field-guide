@@ -1,0 +1,53 @@
+company:
+  name: AlgoLeap Technologies Private Limited
+  stage: null
+  focus: Applied AI research and production engineering
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building, architecting, and
+      deploying agentic AI systems using LLMs as reasoning
+      engines. The engineer will work hands-on with agent
+      frameworks, tool-use pipelines, memory systems, and
+      evaluation frameworks — all core AI/ML system development
+      activities.
+  responsibilities:
+  - Architect multi-agent systems using frameworks such as LangGraph, AutoGen, CrewAI,
+    or custom orchestration layers with a focus on reliability and observability
+  - Design and implement tool-use pipelines including function calling, MCP integrations,
+    browser agents, and code interpreters for model interaction with real-world systems
+  - Build memory systems (short-term, episodic, and semantic) and context management
+    strategies for long-horizon task completion
+  - Define and run evaluation frameworks for agentic performance covering task completion
+    rates, error propagation, cost-efficiency, and latency benchmarks
+  - Establish guardrails, safety checks, and human-in-the-loop escalation paths to
+    ensure predictable agent behavior in edge cases
+  - Monitor deployed agents in production using tracing tools and iterate based on
+    failure analysis
+  - Collaborate with product, research, and data teams to translate business goals
+    into concrete agent specifications and acceptance criteria
+  use_cases:
+  - Multi-agent orchestration for complex task automation
+  - Tool-augmented LLM agents interacting with real-world systems via APIs and browsers
+  - Long-horizon autonomous task completion with memory and context management
+  - Production-grade agent deployment with safety guardrails and human oversight
+  - Agent performance evaluation and continuous improvement based on production telemetry
+  skills:
+    genai: [LangGraph, AutoGen, CrewAI, LLM APIs, Function Calling, MCP, Prompt Engineering,
+      RAG, Browser Agents]
+    ml: []
+    web: [REST APIs, Async APIs]
+    databases: [Vector Stores]
+    data: []
+    cloud: []
+    ops: [Docker, Git, CI/CD, LangSmith, Weights & Biases]
+    languages: [Python]
+    domains: []
+    other: [Evaluation Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9395878'
+  extracted_at: '2026-06-25T19:41:08.473850'

@@ -1,0 +1,55 @@
+company:
+  name: Hypha
+  stage: Early-stage startup
+  focus: AI-native asset management platform for real estate
+position:
+  title: Senior/Staff Backend Engineer, Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and scaling AI systems
+      including extraction agents, entity resolution, RAG systems,
+      and multi-step AI workflows that transform unstructured data
+      into structured insights. The engineer will own architecture
+      for LLM-based workflows including evaluation, observability,
+      and guardrail systems for production AI.
+  responsibilities:
+  - Architect and scale AI-powered backend systems for document extraction, entity
+    resolution, retrieval, and structured data generation
+  - Design resilient pipelines, queues, orchestration layers, and failure-handling
+    mechanisms for production AI workflows
+  - Own data modeling and backend design decisions across PostgreSQL and related storage
+    systems for complex financial and operational data
+  - Establish observability, evaluation, and debugging standards for AI systems including
+    tracing, monitoring, and cost/performance tradeoffs
+  - Improve platform reliability and developer velocity through better abstractions,
+    tooling, and engineering patterns
+  - Partner with product and frontend teams to design backend capabilities that translate
+    into intuitive product experiences
+  - Provide technical leadership through architecture reviews, design feedback, and
+    mentorship of other engineers
+  use_cases:
+  - Document processing and extraction from unstructured financial/legal documents
+  - Entity resolution across complex financial and operational data
+  - AI-driven multidimensional optimization including risk scores, tax strategies,
+    and benchmarking
+  - Conversational interfaces for interacting with complex financial data
+  - Real-time observability into asset performance, deal progress, and market conditions
+  skills:
+    genai: [RAG, LLM agent architectures, Extraction pipelines, Tool-use patterns,
+      Prompt engineering]
+    ml: []
+    web: [REST API design]
+    databases: [PostgreSQL]
+    data: [Workflow orchestration, Inngest, Temporal, Data pipeline design]
+    cloud: [AWS Step Functions]
+    ops: [Docker, Kubernetes, Monitoring and tracing, Evaluation systems for LLM workflows]
+    languages: [TypeScript, Node.js, Python, SQL]
+    domains: []
+    other: [OCR, Document intelligence, Search, Concurrent systems design, AI coding
+        tools]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9728537'
+  extracted_at: '2026-06-25T19:51:32.452810'

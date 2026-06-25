@@ -1,0 +1,67 @@
+company:
+  name: Anthelion Capital
+  stage: Unknown
+  focus: |-
+    Investment firm building AI and data platform for private
+    credit and structured finance
+position:
+  title: AI Infrastructure / Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an infrastructure/platform engineer role focused on
+      building and maintaining the foundational systems that
+      SUPPORT data science and AI workflows. The role works
+      "across the infrastructure layer beneath our ML and AI
+      workflows" on data pipelines, orchestration, compute
+      provisioning, and model serving infrastructure - these are
+      enabling technologies, not hands-on model building or
+      deployment. While the role involves operationalizing agentic
+      AI platforms and model serving, it's focused on hosting,
+      monitoring, and infrastructure rather than building, fine-
+      tuning, or training models directly.
+  responsibilities:
+  - Design, build, and maintain production data pipelines that ingest, transform,
+    and deliver structured and unstructured data to downstream ML workflows
+  - Own and extend Prefect-based orchestration layer including flow scheduling, error
+    handling, retry logic, and human-in-the-loop patterns
+  - Build and maintain scalable infrastructure for model training, retraining, and
+    inference including GPU compute provisioning and container orchestration
+  - Implement and manage model serving infrastructure including containerized endpoints,
+    API gateways, and self-serve deployment frameworks
+  - Support the buildout and operationalization of agentic AI workflows including
+    agent hosting, lifecycle management, and integration with MCP servers
+  - Deploy, configure, and maintain shared AI platform services as containerized workloads
+    on Azure with end-to-end ownership of networking and connectivity
+  - Maintain CI/CD pipelines, branch protection policies, and release management workflows
+    across data science repositories
+  - Design and implement evaluation frameworks and quality standards for AI agents
+    including automated benchmarking and regression testing
+  use_cases:
+  - Investment lifecycle automation from underwriting to portfolio management in private
+    credit and structured finance
+  - Integration of structured and unstructured data for investment decision-making
+  - Advanced analytics and automated workflows for risk-adjusted returns
+  - Agentic AI workflows for institutional investment decisions
+  - Real-time and batch model inference for investment analytics
+  - Data quality and traceability from raw ingestion through model consumption
+  skills:
+    genai: [Model Context Protocol (MCP), LangChain]
+    ml: []
+    web: [Real-time APIs]
+    databases: [Snowflake]
+    data: [Prefect, Airflow, Dagster, ETL/ELT, dbt, Feature stores, Data pipelines]
+    cloud: [Azure, Azure Container Apps, Azure Container Instances (ACI), Azure Container
+        Registry (ACR), Azure Blob Storage, Azure Key Vault, Azure Managed Identities,
+      Azure Virtual Networks]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Langfuse, Model serving infrastructure,
+      GPU compute provisioning, Batch inference, Monitoring and observability, Data
+        drift detection]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9156532'
+  extracted_at: '2026-05-29T08:55:05.947220'

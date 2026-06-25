@@ -1,0 +1,54 @@
+company:
+  name: EisnerAmper
+  stage: Public (large firm with 5000 employees, 450 partners)
+  focus: |-
+    Professional services AI solutions for tax, audit, and
+    advisory
+position:
+  title: Artificial Intelligence Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is hands-on with AI model deployment, monitoring,
+      and optimization. Responsibilities include deploying AI
+      models, implementing MLOps pipelines, optimizing inference
+      infrastructure, and managing model lifecycles. Preferred
+      qualifications explicitly mention post-training techniques
+      like fine-tuning, instruction tuning, and RLHF, indicating
+      direct work with AI models.
+  responsibilities:
+  - Deploy and monitor AI models across Azure services with robust telemetry for performance,
+    drift, and availability
+  - Manage model upgrades including APIs and UIs with structured rollout, version
+    control, and rollback support
+  - Optimize performance and cost through testing, profiling, and tuning of inference
+    infrastructure and pipelines
+  - Implement MLOps pipelines for continuous integration, deployment, and lifecycle
+    management using Azure ML and GitHub Actions
+  - Ensure compliant change management for all AI-related deployments, with auditability,
+    security, and governance controls
+  use_cases:
+  - AI-powered tax, audit, and advisory services
+  - Enterprise AI solutions for professional services
+  - Client-facing AI applications
+  - Secure and governed machine learning deployments
+  - Automated workflows with human-in-the-loop systems
+  - Model performance monitoring and observability
+  skills:
+    genai: [Instruction tuning, RLHF, Prompt flow]
+    ml: [Fine-tuning, A/B testing, Performance metrics]
+    web: [APIs]
+    databases: [Cosmos DB]
+    data: [Azure Synapse, Azure Data Lake]
+    cloud: [Azure ML, Azure AI Foundry, Azure App Services, Managed Identity]
+    ops: [Azure DevOps, GitHub Actions, App Insights, Log Analytics, Key Vault, MLOps,
+      AIOps, Model deployment, Model monitoring, Model observability, Inference optimization,
+      Locust, K6, Telemetry, Incident response, Change management]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9524945'
+  extracted_at: '2026-05-29T09:08:56.301870'

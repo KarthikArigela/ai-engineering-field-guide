@@ -1,0 +1,56 @@
+company:
+  name: Alpaca
+  stage: Series D
+  focus: Brokerage infrastructure and APIs for financial trading
+position:
+  title: Senior AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role requires hands-on experience building agentic AI
+      systems — LLM-powered workflows, tool-calling agents,
+      evaluation loops, and autonomous execution. The engineer
+      will design execution environments for agents and own AI
+      governance for agentic workflows, making this a role that
+      works directly ON AI systems rather than just supporting
+      them.
+  responsibilities:
+  - Own the connector and service integration layer that powers AI workflows across
+    the company
+  - Design and ship execution environments for agents and higher-autonomy AI workflows
+    including isolation boundaries and access controls
+  - Build reusable platform services, golden paths, and self-service templates for
+    teams building on AI
+  - Productize onboarding for both developers and non-developers without manual intervention
+  - Define and enforce technical standards for agent execution, evaluation loops,
+    and deployment
+  - Partner with Security and IT to ship deployable patterns for higher-risk AI capabilities
+  - Own the AI governance layer including access controls, audit trails, approval
+    criteria, and deployment boundaries
+  - Set the reliability, observability, and operational bar for AI-specific infrastructure
+  use_cases:
+  - Agentic AI workflows for company-wide productivity enablement
+  - Safe and reliable agent execution with tool access in a regulated fintech environment
+  - Self-service AI onboarding and golden path templates for engineering and business
+    teams
+  - AI governance including access controls, audit trails, and approval workflows
+    for autonomous systems
+  - Standardized deployment patterns for higher-autonomy AI capabilities
+  skills:
+    genai: [Claude SDK, Google Agent Development Kit (ADK), LangGraph, Agentic AI
+        systems, Tool-calling agents, LLM-powered workflows, Evaluation loops]
+    ml: []
+    web: [OAuth, REST APIs]
+    databases: []
+    data: []
+    cloud: [Google Vertex AI Agent Builder, Google Agent Engine, GCP]
+    ops: [Kubernetes, Docker, Infrastructure-as-code, Terraform, Secrets management,
+      AI governance controls, Observability]
+    languages: [Python]
+    domains: [Fintech compliance]
+    other: [CLI tooling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9337426'
+  extracted_at: '2026-06-25T19:40:47.078623'

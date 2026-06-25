@@ -1,0 +1,57 @@
+company:
+  name: Komodo Health
+  stage: Series D+ (implied - established healthcare platform with 100M+ ARR)
+  focus: Healthcare data analytics and AI platform
+position:
+  title: Senior AI Engineer, Forward Deployed
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a Forward Deployed Engineering role that hands-on
+      builds and deploys AI-native solutions (agentic workflows,
+      MCP servers, LLM-powered applications) directly into
+      customer environments. The engineer owns end-to-end delivery
+      of production AI systems, writes production code for AI
+      integrations, and works with LangGraph/agent frameworks -
+      this is building and deploying AI, not just supporting it.
+  responsibilities:
+  - Design, build, and deploy AI-native solutions inside customer environments, including
+    MCP servers, agentic workflows, and custom integrations
+  - Own the infrastructure layer for customer deployments, including Terraform-managed
+    AWS environments, VPC networking, IAM, and security controls
+  - Work with data at scale across Databricks, Delta Lake, Snowflake, and S3 - debugging
+    pipeline failures and optimizing performance
+  - Drive day-to-day technical engagement with customer stakeholders by scoping work,
+    communicating progress, and building trust
+  - Translate customer requirements into scalable, product-adjacent solutions and
+    communicate tradeoffs clearly
+  - Turn field learnings into reusable deployment patterns, templates, and engineering
+    standards for the FDE playbook
+  - Lead architecture reviews and navigate compliance constraints to convert pilots
+    into broader programs
+  - Build and ship production-grade agentic workflows and MCP servers that solve customer-specific
+    problems
+  use_cases:
+  - Healthcare data analytics and patient journey tracking
+  - Enterprise healthcare intelligence and insights generation
+  - AI-powered healthcare Q&A and knowledge retrieval
+  - Treatment pattern analysis and care gap identification
+  - Patient behavior tracking and outcomes analysis
+  - Healthcare data integration and workflow automation
+  skills:
+    genai: [LangGraph, CrewAI, OpenAI API, Anthropic API, LLM agents, agentic workflows,
+      MCP servers, prompt engineering, RAG]
+    ml: []
+    web: [REST APIs, GraphQL, async patterns]
+    databases: [Snowflake, Delta Lake]
+    data: [Databricks]
+    cloud: [AWS, VPC networking, IAM, S3]
+    ops: [LangSmith, Terraform, Docker, Kubernetes, CI/CD, Braintrust, Ragas]
+    languages: [Python]
+    domains: [HIPAA]
+    other: [SOC 2]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9537720'
+  extracted_at: '2026-05-29T09:10:08.213939'

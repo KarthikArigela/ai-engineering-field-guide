@@ -1,0 +1,224 @@
+job_id: 9157429
+title: Staff AI Engineer
+company: GreenLite
+location: New York, USA
+work_type: FULL_TIME
+company_size: 78 Employees
+description: |
+  Our Company
+  
+  The U.S. construction permitting process is a black box.
+  Over 500,000 forms and 20,000 processes, yet 95% of cities
+  use the same building code. Every permitting delay costs
+  businesses revenue, stalls expansion, and disrupts
+  construction schedules. Founded in 2022 by builders,
+  entrepreneurs, and industry experts, GreenLite eliminates
+  permitting uncertainty for developers nationwide. We combine
+  AI-powered technology with an in-house team of registered
+  architects, engineers, and city planners to deliver the
+  fastest, most predictable path to permit approval. Our
+  expert-led compliance process ensures plans are code-ready
+  before submission, reducing revisions, delays, and costs.
+  GreenLite has raised $86M in venture funding from leading
+  investors including Insight Partners, Energize Capital,
+  Craft Ventures, LiveOak Ventures, Trust Ventures, and
+  Chicago Ventures. National brands, including Walgreens, TD
+  Bank, and Driven Brands, trust us to accelerate approvals,
+  reduce risk, and unlock growth.
+  
+  Why this role matters
+  
+  We're on a mission to automate one of the most costly and
+  expertise-dependent bottlenecks in the built environment —
+  construction plan review. Today, plan review is slow,
+  expensive, and highly manual, requiring licensed experts to
+  navigate thousands of unique jurisdictional construction
+  codes and complex architectural documents. We believe AI can
+  help.
+  
+  As a key hire in our AI engineering organization, you’ll
+  operate with a founder mindset, help in defining our
+  long‑term data strategy, and help to grow multiple squads
+  behind it. GreenLite is building agentic workflows that
+  compress permitting cycle time across thousands of
+  jurisdictions—spanning permit intake, checklist generation,
+  document QA, code citation, and review ops inside LiteTable.
+  Your work turns messy PDFs/CAD plans and scattered code
+  texts into decisive, auditable agent actions that help
+  customers get permits faster.
+  
+  Our agent stack leans on:
+  
+  - Bedrock AgentCore to deploy and operate agents securely at
+    scale with session isolation, long-running workloads,
+    built-in tools, memory, identity, gateway, and
+    observability.
+  - LangGraph for graph-based orchestration and error-tolerant
+    control flow.
+  - Strands Agents for structured reasoning and tool use.
+  
+  What you’ll do:
+  
+  - Design & ship production agents: Own one or more high-impact
+    agent workflows (e.g., Permit Intake Triage, Smart
+    Document QA, Compliance Comment Copilot, Code Lookup
+    inside LiteTable). Compose multi-step graphs (LangGraph)
+    with Strands-based reasoning/tooling and develop
+    internal/external tools for targeting heterogeneous
+    datasets.
+  - Operationalize on Bedrock AgentCore: Use Runtime for secure,
+    scalable hosting and streaming; Gateway to expose APIs as
+    agent-ready tools; Memory for persistent context; Identity
+    for least-privilege access; Observability for
+    traces/metrics; and built-in Browser/Code-Interpreter
+    where appropriate.
+  - Evaluation & safety harness: Stand up task-level and end-to-
+    end evals (success rate, cost, latency, human-handoff
+    rate) and regression suites; borrow ideas from
+    AgentBench/WebArena/SWE-bench where useful but bias toward
+    domain-grounded tests for permitting.
+  - Retrieval & knowledge: Partner with Data to wire agents to
+    building-code knowledge (RAG), evaluate vector store
+    options (incl. S3 Vectors preview, or Pinecone) and set up
+    durable knowledge interfaces the agents can trust.
+  - UX handoffs: Collaborate with Product/Design to craft agent-
+    first reviewer UX in LiteTable (great inline citations,
+    diffs, and remediation suggestions).
+  - Quality & reliability: Build fault-tolerant flows
+    (retries/rollbacks/compensation), observability
+    dashboards, and on-call runbooks for agent incidents.
+  - Technical leadership: Create internal libraries/templates
+    for agent patterns; mentor engineers; review designs with
+    domain experts (architects/code officials).
+  
+  You may be a fit if you have:
+  
+  - Agent frameworks: Depth with LangGraph (graph orchestration,
+    state, recovery) and Strands Agents (structured tool
+    reasoning); experience integrating MCP clients/servers.
+  - Production chops: 7–12+ years shipping high-reliability
+    backend or ML systems (Python/TypeScript), cloud infra
+    (AWS), containers (ECS/EKS), CI/CD, IaC, and secure
+    integration patterns.
+  - Retrieval & data: Hands-on with RAG, document stores/vector
+    DBs (bonus: knowledge of Pinecone or early exposure to S3
+    Vectors), schema/versioning for code texts and comments.
+  - Evaluation mindset: Ability to design realistic, auditable
+    testbeds; familiarity with agent benchmarks (and their
+    pitfalls) and how to turn real user flows into acceptance
+    tests.
+  - Safety & governance: Policy-driven guardrails (Grounding
+    checks, topic/word filters), auditability, and human-in-
+    the-loop controls.
+  - Domain empathy: Curiosity for building codes, plan sets, and
+    reviewer workflows; comfort working with messy PDFs/CAD
+    and plan-review UX.
+  - Bedrock AgentCore knowledge: Nice to have - comfort with
+    Runtime (session isolation, 8-hour sessions, large
+    payloads), Memory, Gateway, Identity, Observability, and
+    built-in Browser/Code-Interpreter.
+  - Nice-to-haves: CrewAI/AutoGen/LlamaIndex experience; Apryse
+    or similar PDF tooling; geospatial data; prior work in
+    AEC/reg-tech.
+  
+  What success looks like
+  
+  - 30 days: One production agent behind a feature flag with
+    observability and a basic evaluation harness; measurable
+    reduction in reviewer clicks/time on a scoped task in
+    LiteTable. Hands on work with some aspect of our data to
+    improve it for agentic work.
+  - 60 days: A small portfolio of cooperating agents (intake +
+    doc QA + code lookup) in shadow/beta with Guardrails and
+    human-handoff paths; clear reliability SLOs.
+  - 90 days: Participation in developing a plan for agents
+    driving ≥25% faster reviews on target flows; stable on-
+    call; cost/latency under thresholds; repeatable
+    patterns/template repos useful for future agents.
+  
+  Why Join Us?
+  
+  - Shape the data platform and labeling strategy that future
+    hires will depend on.
+  - Be an early technical leader on a high-impact AI product and
+    trailblaze the first AI model for the building compliance
+    industry.
+  - Work directly with architects, engineers, and domain experts
+    who shape the system
+  - Contribute to making the built world more efficient,
+    sustainable, and safe
+  - Solve one of the most under-explored AI problems in the real
+    world (with a huge market size)
+  
+  Operating principles in action
+  
+  Own It: You act like the CEO of our data layer—no broken
+  pipelines on your watch.
+  
+  Solve Real Problems: Every schema, pipeline, and quality
+  check exists to deliver ML‑ready data that shortens training
+  cycles and lifts model performance—turning raw construction
+  files into fuel for CV & LLM models.
+  
+  Full Send: You move with urgency, never at the expense of
+  data integrity.
+  
+  Be Real: Radical candor about trade‑offs and technical debt
+  keeps the team honest.
+  
+  If you’re ready to turn raw architectural drawings into the
+  data engine that powers the first AI plan‑reviewer, we’d
+  love to meet you.
+  
+  Thrive With GreenLite
+  
+  - Competitive Compensation - Generous base salary & access to
+    our Employee Equity Program, so you can grow with us.
+  - Performance-Based Annual Bonuses - Rewards for high-impact
+    results and contributions that move the needle.
+  - Premium Health Coverage - Comprehensive medical, dental, and
+    vision insurance for full-time team members and their
+    families.
+  - 401(k) Retirement Plan - Helping you invest in your future
+    with smart saving options.
+  - Parental Leave - Generous parental leave for all parents to
+    support your growing family.
+  - Wellness Support - Monthly Wellness Stipend and full access
+    to Wellhub, Talkspace, & Teladoc for your physical and
+    mental well-being.
+  - Weekly Team Lunches - Enjoy catered lunches every week in
+    our NYC office. Great food, better company.
+  - Company-Wide Team All Hands - Held twice a year, fostering
+    transparency, alignment, and inspiration.
+  - Team-Building Events - Regular opportunities to connect,
+    collaborate, and celebrate as a team.
+  - Unlimited PTO - Flexible time off so you can recharge,
+    travel, or take care of life as needed.
+  - Hybrid Work Environment – Our team thrives on collaboration,
+    so we’re in the office 4 days per week. In the summer, we
+    switch to a 3-day in-office schedule to give everyone
+    extra flexibility.
+  
+  Equal Opportunity Statement
+  
+  GreenLite values people from all walks of life and
+  professional backgrounds. We understand not everyone will
+  meet all the above qualifications on day one. That's okay.
+  If you’re passionate about the construction industry and
+  want the opportunity to grow in your career, we encourage
+  you to apply. GreenLite is an equal employment opportunity
+  employer, committed to an inclusive workplace where we do
+  not discriminate on the basis of race, sex, gender, national
+  origin, religion, sexual orientation, gender identity,
+  marital or familial status, age, ancestry, disability,
+  genetic information, or any other characteristic protected
+  by applicable laws. We believe in diversity and encourage
+  any qualified individual to apply.
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Software
+  - PropTech
+posted_date: 2026-05-20
+url: "https://builtin.com/job/staff-ai-engineer/9157429"
+source: Built In

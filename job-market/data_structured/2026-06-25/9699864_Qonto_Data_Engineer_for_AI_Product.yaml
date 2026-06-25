@@ -1,0 +1,51 @@
+company:
+  name: Qonto
+  stage: Profitable (Series D+)
+  focus: SME finance workspace with banking
+position:
+  title: Data Engineer for AI Product
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds data pipelines, feature stores, and model
+      serving infrastructure that supports ML engineers but
+      explicitly does NOT build models. The job description states
+      "You don't build models, but you understand the full ML
+      lifecycle" and the focus is on data engineering and
+      infrastructure enabling ML workflows.
+  responsibilities:
+  - Build and own ML data pipelines using Python to ingest, transform, and deliver
+    datasets for model training and inference
+  - Design and maintain the feature store, balancing latency and cost for reliable
+    feature retrieval at training and serving time
+  - Drive model serving infrastructure including versioning, scaling, and rollback
+    for production model deployment
+  - Build data quality and drift detection systems to catch data issues before they
+    degrade model performance
+  - Establish reusable Python and pipeline patterns as data engineering standards
+    for the team
+  - Collaborate with 15 ML Engineers to ensure infrastructure meets the needs of all
+    ML lifecycle stages
+  use_cases:
+  - Fraud detection for financial transactions
+  - Credit scoring for SMEs and freelancers
+  - Accounting automation
+  - Transaction processing for SMEs across Europe
+  - Production ML data infrastructure for financial services
+  skills:
+    genai: []
+    ml: [ML Lifecycle]
+    web: []
+    databases: []
+    data: [Spark, dbt, Airflow, Ray, ETL/Data Pipelines]
+    cloud: []
+    ops: [Feature Store, Model Serving, Model Registry, Data Quality Monitoring, Continuous
+        Delivery]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9699864'
+  extracted_at: '2026-06-25T19:52:50.405213'

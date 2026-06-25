@@ -1,0 +1,55 @@
+company:
+  name: DigitalOcean
+  stage: Public
+  focus: Cloud computing and AI infrastructure platform
+position:
+  title: Senior Software Engineer II(Go,AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds the multi-tenant control plane,
+      orchestration layer, and API gateways that power a sandbox
+      platform for Agentic AI applications. While the role
+      interfaces with AI workloads, the engineer is NOT building,
+      training, fine-tuning, or deploying AI models themselves —
+      they are building the distributed systems infrastructure
+      (state management, routing proxies, authentication) that
+      supports AI applications. AI/LLM orchestration is listed
+      only as a "preferred" attribute, not a core responsibility.
+  responsibilities:
+  - Design and scale the core Orchestrator in Go, managing global state, session lifecycles,
+    and rapid allocation of sandboxes for millions of user requests
+  - Design and implement multi-tenant API Gateways and authentication layers to securely
+    isolate customer workloads, rate-limit abuse, and track usage for billing
+  - Build high-performance routing proxies (HTTP/WebSocket/gRPC) for tunneling traffic
+    from external client SDKs to internal service endpoints
+  - Manage complex state synchronization and service discovery across distributed
+    clusters using Consul, Nomad, or Kubernetes
+  - Own the developer interface, optimizing how the control plane surfaces real-time
+    execution telemetry, structured logging pipelines, and file streaming
+  - Maintain sub-20ms control plane API latency and 99.99% uptime SLA for the control
+    plane API and proxy layers
+  use_cases:
+  - Multi-tenant sandbox platform for running Agentic AI applications
+  - Secure isolation and orchestration of customer code execution environments
+  - High-throughput API gateway and proxy layer for developer SDKs interfacing with
+    AI sandboxes
+  - Real-time execution telemetry and logging for AI agent workloads
+  - Rapid allocation and lifecycle management of compute sandboxes at scale
+  skills:
+    genai: [Agentic AI Orchestration, LLM Orchestration Frameworks]
+    ml: []
+    web: [REST APIs, gRPC, WebSocket, Reverse Proxies, Multi-tenant API Gateways]
+    databases: [PostgreSQL, ClickHouse, Etcd]
+    data: []
+    cloud: []
+    ops: [Kubernetes, Consul, Nomad, Distributed Systems Orchestration, Service Discovery,
+      Service Mesh]
+    languages: [Go (Golang)]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9716919'
+  extracted_at: '2026-06-25T19:48:54.885042'

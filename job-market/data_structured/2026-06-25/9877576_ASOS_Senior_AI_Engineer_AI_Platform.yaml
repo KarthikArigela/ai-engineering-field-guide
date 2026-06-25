@@ -1,0 +1,61 @@
+company:
+  name: ASOS
+  stage: Public
+  focus: Online fashion retail
+position:
+  title: Senior AI Engineer (AI Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing and building agentic AI
+      platform capabilities on Azure, including agent runtimes,
+      orchestration, tool integration, LLM access patterns, and
+      LLMOps/AgentOps. While it is a platform-layer role, it
+      requires hands-on engineering of AI/agent systems and their
+      operational foundations, making it ai-first.
+  responsibilities:
+  - Design and build AI platform capabilities on Azure with a strong focus on agentic
+    AI patterns such as agent runtimes, orchestration and tool integration
+  - Contribute to the Agentic AI Platform initiative, defining how agents are built,
+    integrated and operated across the organisation
+  - Design and maintain standardised templates and reference implementations for LLM
+    and Generative AI workflows including prompt design, tool calling, multi-step
+    agent flows, retries and failure handling
+  - Implement secure, governed access patterns for LLMs and enterprise tools using
+    APIM, platform gateways, Entra ID, RBAC and managed identities
+  - Contribute to LLMOps and model runtime patterns including model access, routing,
+    caching, token optimisation and cost-aware usage controls
+  - Support lifecycle and evaluation practices for agent configurations, prompts and
+    AI workflows including testing, controlled change and release readiness
+  - Design secure tool-access patterns for agents including MCP/tool abstraction,
+    credential management and enterprise API integration
+  - Embed observability by default and partner with Cloud Infrastructure and Security
+    teams to design secure, scalable and cost-effective Azure environments
+  use_cases:
+  - Enterprise-scale agentic AI platform enabling application teams to deploy and
+    operate AI agents
+  - Standardised LLM and Generative AI workflow templates for consistent prompt design,
+    tool calling and multi-step agent flows
+  - Secure governed access to LLMs and enterprise tools for production AI systems
+  - AgentOps and GenAIOps capabilities including telemetry, run history, error analysis
+    and feedback loops
+  - Production reliability patterns for AI systems including latency monitoring, alerting
+    and scaling
+  skills:
+    genai: [LLMs, Generative AI, Agentic AI, Agent orchestration, Prompt engineering,
+      Tool calling, MCP (Model Context Protocol), Azure AI Foundry]
+    ml: []
+    web: [REST APIs, Service-oriented architecture]
+    databases: []
+    data: []
+    cloud: [Azure API Management (APIM), Azure, Entra ID, RBAC]
+    ops: [LLMOps, AgentOps, GenAIOps, CI/CD, 'Observability (logging, metrics, tracing,
+        alerting)']
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9877576'
+  extracted_at: '2026-06-25T19:56:29.688336'

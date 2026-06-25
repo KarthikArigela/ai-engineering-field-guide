@@ -1,0 +1,54 @@
+company:
+  name: Acquisition.com
+  stage: null
+  focus: AI-powered business systems and agents
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role that directly builds,
+      deploys, and maintains production-grade AI agents and
+      agentic workflows. The role requires direct work with RAG
+      systems, LLM orchestration, model routing, embedding
+      strategies, and evaluation frameworks - all core AI/ML
+      engineering tasks. This is not supporting infrastructure but
+      actively developing AI systems.
+  responsibilities:
+  - Design, build, and deploy production-grade AI agents and end-to-end agentic workflows
+    that solve real business problems across ACQ Vantage
+  - Integrate LLMs with internal systems, APIs, and data sources, ensuring reliability,
+    performance, and clean abstractions
+  - Collaborate with product and engineering teams to prioritize, ship, and iterate
+    on AI features quickly
+  - Own and improve RAG pipelines across multiple Pinecone namespaces, including chunking
+    strategy, embedding model selection, hybrid retrieval, and reranking
+  - Build and maintain an evaluation framework, including golden datasets, automated
+    quality scoring, retrieval metrics, latency benchmarks, and regression detection
+  - Optimize model routing and tiering to improve unit economics while maintaining
+    output quality
+  - Instrument the AI layer for observability, including cost-per-request, token usage,
+    quality signals, and anomaly detection
+  use_cases:
+  - AI agents and agentic workflows for ACQ Vantage business platform
+  - RAG-powered systems for enterprise data retrieval and knowledge access
+  - LLM-based features integrated with internal tools and data systems
+  - Automated evaluation and quality monitoring for AI systems
+  - Cost-optimized model routing and deployment strategies
+  skills:
+    genai: [LangChain, agents, RAG, OpenAI API, Anthropic API, LLM orchestration,
+      prompt engineering]
+    ml: []
+    web: [REST APIs]
+    databases: [vector databases, Pinecone, Qdrant, FAISS, Weaviate]
+    data: []
+    cloud: []
+    ops: [Distributed systems, Deployment pipelines, Monitoring, Observability]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9263822'
+  extracted_at: '2026-05-29T08:57:44.325138'

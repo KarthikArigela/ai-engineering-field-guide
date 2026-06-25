@@ -1,0 +1,62 @@
+company:
+  name: Andromeda (andromeda.ai)
+  stage: Early-stage
+  focus: |-
+    AI compute infrastructure marketplace and GPU cluster
+    platform
+position:
+  title: Senior Site Reliability Engineer - AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on designing, operating, and debugging
+      GPU infrastructure (clusters, networking, storage,
+      observability) that supports distributed training and
+      inference workloads. The engineer does not build, train, or
+      deploy models themselves — they enable AI labs and customers
+      to run their training/inference jobs reliably. However, the
+      role requires deep understanding of ML frameworks and
+      distributed training internals at the systems level, which
+      places it firmly in ai-support (infrastructure/platform
+      enabling AI work).
+  responsibilities:
+  - Design and evolve multi-provider, multi-region GPU compute clusters optimized
+    for large-scale distributed training
+  - Serve as the primary technical point of contact for customers running large-scale
+    training workloads, including onboarding, troubleshooting, and real-time optimization
+  - Define SLOs, error budgets, and capacity planning across heterogeneous GPU fleets
+    accounting for GPU-specific failure modes
+  - Ensure health and performance of high-speed interconnects (InfiniBand, RoCE, NVLink)
+    underpinning distributed training
+  - Build deep observability into GPU utilization, memory pressure, interconnect throughput,
+    and hardware health
+  - Develop production-grade automation for cluster provisioning, GPU health checks,
+    job scheduling, self-healing, and firmware lifecycle management
+  - Lead incident response for complex multi-layer failures spanning hardware, networking,
+    orchestration, and ML frameworks
+  use_cases:
+  - Large-scale distributed model training infrastructure
+  - GPU inference workload serving
+  - Multi-provider multi-region GPU compute routing and scheduling
+  - AI compute marketplace and liquidity for global GPU supply
+  - High-performance networking fabric health for distributed collective operations
+  - Automated GPU cluster lifecycle management and self-healing
+  skills:
+    genai: []
+    ml: [NCCL, CUDA, PyTorch distributed, DeepSpeed, Megatron, FSDP, Distributed training
+        optimization]
+    web: []
+    databases: [VAST, Weka, Lustre, GPFS]
+    data: []
+    cloud: []
+    ops: [NVIDIA A100/H100/B200, GPU cluster operations, InfiniBand, RoCE, NVLink,
+      Kubernetes, Slurm, Terraform, Helm, Ansible, Prometheus, Grafana, DCGM, Linux
+        kernel tuning, Docker, Incident response, SLO management]
+    languages: [Python, Go, Bash]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9024256'
+  extracted_at: '2026-06-25T19:40:28.823111'

@@ -1,0 +1,62 @@
+company:
+  name: Thomson Reuters
+  stage: Public
+  focus: Tax, accounting, and audit information products
+position:
+  title: Principal Software Engineer – AI – CoCounsel Audit
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and owning AI
+      orchestration systems — routing, tool calling, MCP servers,
+      multi-step agent workflows, guardrails, and LLM integration
+      for production-grade AI agents. The engineer works hands-on
+      with frontier models (OpenAI, Anthropic), designing and
+      implementing the AI backbone, not merely supporting
+      infrastructure for others.
+  responsibilities:
+  - Own and architect the backend and AI orchestration layer powering AI agents, conversations,
+    workspaces, and knowledge base across CoCounsel for Audit
+  - Design and implement backend services using Python, FastAPI, PostgreSQL, and AWS
+    that power generative AI agents and complex tax/audit workflows
+  - Build and evolve AI orchestration including routing, tool calling, MCP servers,
+    multi-step workflows, safety guardrails, and error handling around third-party
+    LLMs
+  - Lead multi-quarter cross-functional initiatives spanning AI, product, and infrastructure
+    such as new orchestration layers and retrieval systems
+  - Design for high-throughput, low-latency AI workloads including caching, queuing,
+    rate-limiting, model failover, and cost/performance optimization
+  - Mentor staff and senior engineers, raising the bar on system design, code quality,
+    and AI integration practices
+  - Establish SLOs, observability, and incident response for AI systems requiring
+    correctness, auditability, and trustworthiness
+  - Define platform integration strategy across new and existing Thomson Reuters audit
+    systems
+  use_cases:
+  - AI-powered tax filing, advisory, and audit workflows for accountants
+  - Multi-step AI agent orchestration for professional accounting tasks
+  - Large-scale document retrieval and semantic search over millions of tax and accounting
+    documents
+  - Real-time AI conversations and workspaces for accountants doing time-sensitive
+    client work
+  - Knowledge base systems tailored to highly structured tax data and ever-changing
+    laws
+  skills:
+    genai: ['LLM integration (OpenAI, Anthropic)', AI agents, MCP servers, 'AI orchestration
+        (routing, tool calling)', Prompt engineering, RAG / retrieval pipelines, Guardrails
+        and safety systems]
+    ml: [Embeddings]
+    web: [FastAPI]
+    databases: [PostgreSQL, Vector databases]
+    data: []
+    cloud: [AWS, Vercel]
+    ops: [Distributed systems, 'Observability (SLOs, monitoring)', Docker, Kubernetes,
+      CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9287773'
+  extracted_at: '2026-06-25T19:42:59.625595'

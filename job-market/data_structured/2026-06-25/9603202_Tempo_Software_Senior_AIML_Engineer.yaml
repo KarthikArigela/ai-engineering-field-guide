@@ -1,0 +1,65 @@
+company:
+  name: Tempo Software
+  stage: Late-stage / Bootstrapped (founded 2007, 30,000+ customers, profitable)
+  focus: |-
+    Enterprise productivity and project management software for
+    Atlassian ecosystem
+position:
+  title: Senior AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, shipping, and owning
+      production AI systems powered by LLMs and autonomous agents
+      — including an LLM-powered correlation engine, a natural
+      language-to-structured-parameters compiler, MCP tool
+      definitions, and evaluation frameworks. The engineer works
+      hands-on with model selection, prompt design, agent
+      architecture, and RAG, making this clearly an AI-first role.
+  responsibilities:
+  - Build and ship production AI systems working alongside domain engineers for enterprise
+    customers
+  - Design and implement LLM-powered insight synthesis engine that produces actionable
+    insights with root causes, confidence scores, and evidence chains
+  - Develop statistical and ML-based anomaly detection systems for portfolio signals
+    from CDC event streams
+  - Build a Planning Rules compiler that translates natural language planning rules
+    into structured parameters for a Monte Carlo scheduling engine
+  - Create evaluation and testing frameworks including regression suites for prompts,
+    A/B testing for model updates, and confidence calibration
+  - Define MCP tool specifications for domain capabilities within a hub-and-spoke
+    MCP architecture
+  - Serve as the internal anchor for AI engineering — guiding prompt design, evaluation
+    strategy, model selection, and agent architecture decisions
+  - Absorb and internalize work from external AI partners, establishing patterns for
+    the broader engineering team
+  use_cases:
+  - Real-time signal detection and anomaly detection for portfolio management (velocity
+    changes, capacity saturation, dependency risks)
+  - LLM-powered insight synthesis with root cause analysis and confidence scoring
+    for enterprise decision-making
+  - Natural language to structured parameter translation for Monte Carlo scheduling
+    and planning
+  - Runtime tool discovery and invocation via MCP for domain capabilities like capacity
+    lookups and scenario simulations
+  - AI output reliability through evaluation frameworks, regression testing, and confidence
+    calibration at enterprise scale
+  skills:
+    genai: [LangChain, LlamaIndex, CrewAI, AutoGen, Prompt Engineering, RAG, Function
+        Calling / Tool Use, Context Management, MCP (Model Context Protocol), Autonomous
+        Agents, Agent Orchestration]
+    ml: [Anomaly Detection, Time-Series Analysis, Statistical Signal Processing, Confidence
+        Scoring / Calibration, Monte Carlo Simulation]
+    web: []
+    databases: []
+    data: [CDC Event Streams, Event-Driven Architecture, Real-Time Data Pipelines]
+    cloud: [AWS Bedrock, Azure OpenAI, GCP Vertex AI]
+    ops: [CI/CD, Observability, A/B Testing Infrastructure]
+    languages: [Python, Kotlin, TypeScript]
+    domains: [Enterprise SaaS, Portfolio Management, Resource Planning]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9603202'
+  extracted_at: '2026-06-25T19:46:17.420843'

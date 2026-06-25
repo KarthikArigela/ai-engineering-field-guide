@@ -1,0 +1,57 @@
+company:
+  name: Kyndryl
+  stage: Public
+  focus: Managed enterprise IT infrastructure and services
+position:
+  title: Senior Elastic ML & Gen AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and tuning
+      ML and GenAI solutions end-to-end, including RAG pipelines,
+      semantic search with vector embeddings, NLP model deployment
+      in Elasticsearch, and anomaly detection. The engineer owns
+      the ML/GenAI capabilities hands-on, not just supporting
+      infrastructure for others.
+  responsibilities:
+  - Design and implement Elastic ML solutions including anomaly detection, data frame
+    analytics (classification, regression, outlier detection), and forecasting
+  - Build semantic and hybrid search using vector search (kNN), dense/sparse vectors,
+    and ELSER
+  - Develop Gen AI / RAG pipelines using Elasticsearch as a vector store, integrating
+    embeddings and LLMs
+  - Deploy and manage NLP and transformer models in Elasticsearch via Eland and build
+    inference ingest pipelines
+  - Design data models, mappings, and ingestion flows optimized for vector and ML
+    workloads
+  - Tune relevance, embeddings, and retrieval quality; evaluate and improve search
+    and RAG performance
+  - Build Kibana dashboards and ML jobs for monitoring, alerting, and explainability
+  - Partner with data, platform, and product teams to operationalize ML/Gen AI features
+    at scale
+  use_cases:
+  - Anomaly detection for operational data monitoring
+  - Semantic and hybrid search for intelligent information retrieval
+  - RAG-powered GenAI experiences grounded in enterprise data
+  - Classification, regression, and outlier detection on structured data
+  - Time-series forecasting for business metrics
+  - Production-grade search and insight experiences at enterprise scale
+  skills:
+    genai: [ELSER, RAG, OpenAI APIs, Azure OpenAI, Embeddings, Prompt Engineering,
+      Semantic Search, Hybrid Search]
+    ml: [Elastic ML, Eland, Anomaly Detection, Data Frame Analytics, NLP Model Deployment,
+      Transformer Models, PyTorch, Hugging Face Transformers, scikit-learn]
+    web: []
+    databases: [Elasticsearch, Vector Search (kNN), Dense/Sparse Vectors, Elasticsearch
+        DSL, ES|QL]
+    data: [Kafka]
+    cloud: [AWS, Azure, GCP]
+    ops: [Inference Ingest Pipelines, Kibana, Docker, Kubernetes, MLOps]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9823804'
+  extracted_at: '2026-06-25T19:59:37.048796'

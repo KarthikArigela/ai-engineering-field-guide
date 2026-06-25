@@ -1,0 +1,52 @@
+company:
+  name: Orion Innovation
+  stage: Public
+  focus: Global business and technology services firm
+position:
+  title: AI/ML Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This is a data/ML engineering role focused on building
+      traditional ML systems for customer segmentation and
+      recommendations using Snowflake Cortex. While the role
+      involves model development and deployment, it's centered on
+      classical ML techniques (behavioral segmentation,
+      recommendation models) rather than LLMs or GenAI agents. The
+      engineer owns the data layer and deploys ML models but the
+      work is about traditional ML, not generative AI.
+  responsibilities:
+  - Build and maintain customer data pipelines that unify transaction, reservation,
+    loyalty, and marketing data
+  - Develop and operate the Customer Personalization Engine using Snowflake Cortex
+    for trend analysis and behavioral segmentation
+  - Build analytical foundation for Actionable Customer Behavior Insights from transaction
+    history
+  - Support Global Diner Unification by designing cross-merchant customer identity
+    resolution approaches
+  - Partner with full-stack engineers to define APIs and data contracts for merchant-facing
+    features
+  - Own data quality, observability, and pipeline reliability for customer data products
+  use_cases:
+  - Customer segmentation and behavioral analysis for restaurants
+  - Personalized recommendations and communications targeting diners
+  - Merchant-facing analytics tools including Pre-Shift Report and Diner Profiles
+  - Cross-merchant customer identity resolution and unification
+  - Actionable insights from transaction history for restaurant merchants
+  skills:
+    genai: []
+    ml: [Snowflake Cortex, feature engineering, Databricks ML, BigQuery ML, customer
+        segmentation, recommendation systems]
+    web: [API design]
+    databases: [Snowflake]
+    data: [dbt, data modeling, data pipelines, identity resolution, data quality]
+    cloud: []
+    ops: [observability]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9508833'
+  extracted_at: '2026-05-29T09:08:22.771001'

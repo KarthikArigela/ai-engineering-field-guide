@@ -1,0 +1,56 @@
+company:
+  name: Wayve
+  stage: Series B+
+  focus: Embodied AI for autonomous vehicles
+position:
+  title: Staff Cloud SRE – AI/ML Platform & GPU Compute
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an SRE role focused on building and maintaining the
+      infrastructure platform that supports AI/ML workloads. While
+      the role works with GPU compute and model training/inference
+      pipelines, the primary responsibility is ensuring
+      reliability, availability, and performance of the cloud
+      infrastructure and Model Dev Platform - not building,
+      training, or deploying AI models directly. The role enables
+      AI research teams through observability, automation, and
+      reliable infrastructure.
+  responsibilities:
+  - Own the reliability, availability, and performance of the Model Development Platform
+    and GPU Compute environments
+  - Define and operationalise SLOs, SLIs, and error budgets across platform services
+  - Improve capacity planning, scaling strategies, and resource efficiency across
+    large GPU-backed clusters
+  - Participate in 24/7 on-call rotation as first-line response for cloud and cluster-related
+    incidents
+  - Lead incident triage, escalation, communications, and root cause analysis
+  - Design and operate monitoring, logging, tracing, and alerting systems for rapid
+    detection and recovery
+  - Build automation for cluster operations, training workflows, remediation, and
+    scaling tasks
+  - Implement self-healing patterns and resilient recovery workflows
+  use_cases:
+  - Large-scale GPU compute clusters for autonomous driving AI model training
+  - Multi-tenant GPU scheduling systems for distributed model training
+  - Model development platform supporting end-to-end ML pipelines from raw data to
+    on-road experimentation
+  - Production inference infrastructure for autonomous driving AI systems
+  - Fleet management and resource optimization for GPU-backed compute environments
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Storage]
+    data: []
+    cloud: [AWS, GCP, Azure, GPU Computing]
+    ops: [Kubernetes, Terraform, Datadog, Prometheus, Grafana, OpenTelemetry, CI/CD,
+      Docker, Linux, MLOps, Distributed Systems, SLOs/SLIs, Networking]
+    languages: [Python, Go, C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9272348'
+  extracted_at: '2026-05-29T08:59:08.808301'

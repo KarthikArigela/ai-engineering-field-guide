@@ -1,0 +1,48 @@
+company:
+  name: Employ Inc.
+  stage: Public
+  focus: AI-powered talent acquisition and ATS solutions
+position:
+  title: AI Product Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly designing and building AI-
+      powered systems including agents, retrieval pipelines (RAG),
+      orchestration layers, and evaluation frameworks. The
+      engineer is responsible for turning LLM capabilities into
+      production-grade systems, which is hands-on work with AI/LLM
+      infrastructure and deployment.
+  responsibilities:
+  - Architect and evolve AI-powered systems that transform model outputs into reliable
+    production-grade capabilities
+  - Design and ship systems around agents, retrieval pipelines, orchestration layers,
+    and evaluation frameworks
+  - Define architectural standards ensuring AI-driven features operate safely and
+    at scale
+  - Persist and manage state across sessions including context windows and concurrency
+    handling
+  - Enforce structured outputs using schema validation to ensure AI-generated outputs
+    are reliable
+  - Design and integrate APIs with authentication, rate limiting, and idempotent patterns
+  use_cases:
+  - AI Companions that free recruiters from administrative work
+  - Automated candidate connection and hiring workflows at scale
+  - Agent-based orchestration for talent acquisition product features
+  - Reliable AI-generated structured outputs for downstream product consumption
+  skills:
+    genai: [LLMs, RAG systems, Agents, Orchestration frameworks, Pydantic]
+    ml: []
+    web: [Zod, JSON Schema, REST, GraphQL, RPC]
+    databases: []
+    data: [Kafka, BullMQ]
+    cloud: [Amazon SQS]
+    ops: []
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8793091'
+  extracted_at: '2026-06-25T19:40:12.807614'

@@ -1,0 +1,55 @@
+company:
+  name: TENEX.AI
+  stage: Seed
+  focus: |-
+    AI-native Managed Detection and Response (MDR) cybersecurity
+    provider
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely ai-first: the Principal AI Engineer is
+      directly responsible for designing and building AI systems
+      including LLMs, RAG-backed investigation, graph-based
+      reasoning engines, and tool-calling agents. They own prompt
+      engineering, fine-tuning, and evaluation of AI models—all
+      hands-on work building and deploying AI/ML systems for
+      cybersecurity.
+  responsibilities:
+  - Design and build the AI layer powering autonomous detection, RAG-backed investigation,
+    and auto-remediation workflows
+  - Develop and productionize large-scale LLMs, graph-based reasoning engines, and
+    streaming feature pipelines processing billions of security events
+  - Own evaluation and reliability including prompt libraries, fine-tuning, red-team
+    testing, latency budgets, and fallback strategies
+  - Mentor and grow a team of AI engineers through design reviews, code quality standards,
+    and security-first practices
+  - Partner with Product, Detection Engineering, and Customer Success to translate
+    attacker behavior into robust ML and rule-based detections
+  - Experiment with RAG, tool-calling agents, and multi-modal models (text, logs,
+    graphs) to advance threat detection capabilities
+  use_cases:
+  - Autonomous threat detection and response in cybersecurity operations
+  - RAG-backed security investigation workflows
+  - Automated remediation of security incidents
+  - Graph-based reasoning over security events and knowledge graphs
+  - Large-scale processing and analysis of billions of security events for threat
+    detection
+  skills:
+    genai: [LLM architecture, Prompt engineering, RAG, LangChain, LangGraph, Agno
+        AGI, Tool-calling agents]
+    ml: [Fine-tuning, Multi-modal models]
+    web: [REST, gRPC]
+    databases: [Vector databases, Graph databases]
+    data: [Streaming feature pipelines]
+    cloud: [AWS, GCP, Azure]
+    ops: [Docker, Kubernetes, Red-team testing, Evaluation harnesses]
+    languages: [Python, Go, Rust, Java]
+    domains: [Cybersecurity]
+    other: [Google SecOps / Chronicle]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '7080796'
+  extracted_at: '2026-05-29T08:44:15.413742'

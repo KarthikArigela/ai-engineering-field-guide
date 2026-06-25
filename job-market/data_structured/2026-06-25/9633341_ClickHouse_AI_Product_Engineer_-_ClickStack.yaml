@@ -1,0 +1,54 @@
+company:
+  name: ClickHouse
+  stage: Series D
+  focus: |-
+    Real-time analytics, data warehousing, and observability
+    platform
+position:
+  title: AI Product Engineer - ClickStack
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly about building, deploying, and owning
+      agentic AI systems in production — including multi-step tool
+      use, skill design, MCP servers, context engineering, and
+      agent evaluations. The engineer works hands-on with LLM-
+      powered agents that investigate incidents, making this
+      squarely ai-first.
+  responsibilities:
+  - Build agents that investigate production incidents, surface anomalies, and answer
+    root cause questions using ClickStack telemetry as their substrate
+  - Design and maintain a reusable library of skills encoding debugging playbooks,
+    root cause analysis, ClickHouse query patterns, and incident response workflows
+  - Own the agent stack end-to-end including context engineering, tool design, evals,
+    tracing, and cost optimization
+  - Build MCP servers, SDKs, and integrations that enable customer agents to read
+    telemetry, take action, and stay observable
+  - Collaborate with open-source contributors and customers to debug issues and incorporate
+    learnings into the product
+  - Tackle production challenges including latency, cost, context window limits, eval
+    coverage, and hallucinations on real telemetry data
+  use_cases:
+  - Automated incident investigation and root cause analysis for observability platforms
+  - Agentic systems that surface anomalies and explain why production systems are
+    failing
+  - MCP-powered agent integrations for reading and acting on telemetry data
+  - AI-assisted on-call workflows with concise incident summaries
+  - Agent observability including tracing, cost attribution, and evaluation pipelines
+  skills:
+    genai: [LLM agents, MCP servers, Context engineering, Tool design, Prompt engineering,
+      Prompt caching, Context compaction, LLM-as-judge, Agent planning, Agent memory]
+    ml: []
+    web: []
+    databases: [ClickHouse, Columnar databases]
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, OpenTelemetry, Agent tracing, Regression detection]
+    languages: [TypeScript, Node.js, Python, SQL, Go, Rust]
+    domains: []
+    other: [Open source]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9633341'
+  extracted_at: '2026-06-25T19:49:08.719814'

@@ -1,0 +1,60 @@
+company:
+  name: GE Aerospace
+  stage: Public
+  focus: Aerospace technology and aviation
+position:
+  title: Sr AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role focused on building the data
+      infrastructure and foundation for AI systems (knowledge
+      graphs, semantic layers, retrieval corpora, RAG pipelines).
+      While the role supports AI/ML systems, the actual work
+      involves data modeling, pipeline engineering, and
+      infrastructure - not building, training, fine-tuning, or
+      deploying models. The role designs and implements the data
+      substrate that AI systems consume, working with embeddings
+      and vector stores to support others who build AI features.
+  responsibilities:
+  - Lead design and evolution of knowledge graphs and ontologies powering AI's reasoning,
+    retrieval, and explainability
+  - Align enterprise data into coherent queryable graphs with clear provenance across
+    structured and unstructured sources
+  - Own retrieval substrate including graph queries, vector indexes, and hybrid retrieval
+    for grounding quality
+  - Curate grounding corpora, evaluation datasets, and retrieval benchmarks for LLM-based
+    features
+  - Build ingestion and transformation pipelines in Python and SQL using AWS services
+    like Glue, Lambda, Step Functions, and S3
+  - Design data models and establish modeling standards, naming conventions, and reuse
+    patterns
+  - Integrate data access with enterprise identity and access policies for AI modernization
+  - Set technical direction and mentor engineers on data modeling, ontology design,
+    and retrieval engineering
+  use_cases:
+  - Enterprise AI applications leveraging knowledge graphs for reasoning and explainability
+  - RAG (Retrieval-Augmented Generation) systems for LLM-based features
+  - Semantic search and retrieval across engineering handbooks, parts manuals, and
+    service records
+  - Grounding and attribution for AI systems using enterprise data sources
+  - Data quality and governance for AI/ML pipelines
+  - Attribute- and context-based access control for AI-powered data access
+  skills:
+    genai: [RAG, Bedrock Knowledge Bases]
+    ml: [Embeddings]
+    web: []
+    databases: [Knowledge Graphs, Neo4j, TigerGraph, Vector Indexes]
+    data: [Ontologies, RDF, Data Modeling, ETL, Data Pipelines, Data Governance, Data
+        Quality]
+    cloud: [Neptune, OpenSearch, AWS, CloudFormation, CDK, Glue, Lambda, Step Functions,
+      S3, Athena, Bedrock, IAM]
+    ops: []
+    languages: [SPARQL, Cypher, Gremlin, Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9400900'
+  extracted_at: '2026-05-29T09:03:27.909742'

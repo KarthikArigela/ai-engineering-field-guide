@@ -1,0 +1,57 @@
+company:
+  name: Product.ai
+  stage: Bootstrapped (Profitable, no outside investors)
+  focus: Verified product intelligence and truth layer for shopping
+position:
+  title: Artificial Intelligence Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is centered on designing, building, and owning
+      production AI agent systems — the agent harness, runtime
+      architecture, verification gates, token economics, and model
+      routing. The person directly builds and governs autonomous
+      agent runs, designs verification architectures for
+      generative model outputs, and manages the infrastructure
+      that makes long-lived AI agents reliable in production. This
+      is hands-on work building and deploying AI/agent systems,
+      not supporting someone else's ML work.
+  responsibilities:
+  - Own the agent harness for the Office of the CEO including recruiting evaluations,
+    merchant discovery, and ops automation run designs
+  - Design and implement verification systems including regression corpora, oracle-separated
+    checkers, and sampling protocols that scale beyond manual review
+  - Build liveness checks and deterministic companions for every production automation
+    to ensure nothing fails silently
+  - Manage token economics and model routing across the fleet, deciding which model
+    runs which job and adjusting spend mid-run
+  - Design architectural rules, fuel budgets, and verification gates that govern long-lived
+    unattended agent runs (1-4 hours)
+  - Maintain and extend a shared knowledge base of 8,600+ indexed documents that agents
+    query and feed
+  - Model where the agent architecture is heading and act proactively without waiting
+    for direction
+  use_cases:
+  - Recruiting evaluation pipeline scoring 30+ candidates per day across open roles
+  - Merchant discovery pipeline landing approximately 1,200 merchants per day
+  - Content, data, and ops automation for a 20-person company operating at scale
+  - Long-lived autonomous agent runs (1-4 hours) for business process automation
+  - Verified truth systems that prevent generative models from grading their own output
+  skills:
+    genai: [AI agent systems, Agent orchestration, Prompt engineering, Model routing,
+      LLM APIs, Token economics]
+    ml: []
+    web: []
+    databases: []
+    data: [Data pipelines, Document indexing / knowledge base]
+    cloud: []
+    ops: [Evaluation harnesses, Regression testing, CI/CD, Monitoring and alerting,
+      Liveness checks]
+    languages: [Python]
+    domains: []
+    other: [Verification system design, System architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9828853'
+  extracted_at: '2026-06-25T19:51:26.931542'

@@ -1,0 +1,58 @@
+company:
+  name: Amigo
+  stage: Series A
+  focus: Healthcare AI agents for clinical workflows
+position:
+  title: Forward Deployed AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, configuring, and
+      deploying production AI agents end-to-end — implementing
+      agent architectures, context graphs, verification loops, and
+      evaluation suites. The engineer writes Python code for tool
+      integrations and orchestrates agent behaviors in customer
+      environments, making this hands-on work on AI/LLM systems.
+  responsibilities:
+  - Implement context graphs that enable agents to select appropriate reasoning modes
+    based on problem complexity
+  - Build and optimize agent configurations including static personas, dynamic behaviors,
+    and functional memory systems
+  - Design bounded Operational Patient Domains with explicit inclusions, exclusions,
+    capabilities, and escalation rules
+  - Implement verification loops and simulation-based testing to validate agent performance
+    against customer KPIs
+  - Write Python code for tool integrations and API orchestration within customer
+    environments
+  - Build evaluation suites that gate deployments using customer-specific success
+    metrics
+  - Collaborate with domain experts through structured interviews to capture reasoning
+    patterns and clinical protocols
+  - Implement adversarial testing to systematically identify and prevent agent failure
+    modes
+  use_cases:
+  - Clinical workflow automation including pre-visit intake, care navigation, and
+    post-visit care plans
+  - Patient engagement and monitoring across the entire healthcare journey
+  - AI agents handling patient encounters at scale in healthcare organizations
+  - Care navigation and clinical protocol automation
+  - Audit-ready agent provenance with version pinning and evidence links for regulated
+    healthcare environments
+  skills:
+    genai: [LLM application development, Prompt engineering, AI agent architecture,
+      RAG / context graphs, Agent configuration and memory systems, Verification and
+        evaluation frameworks, Adversarial testing for AI systems]
+    ml: []
+    web: [API integration and orchestration]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Git workflows, Simulation-based testing, Observability and monitoring]
+    languages: [Python]
+    domains: [Healthcare domain expertise]
+    other: [HIPAA compliance, SOC 2 compliance, Distributed systems]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9885336'
+  extracted_at: '2026-06-25T19:56:52.367986'

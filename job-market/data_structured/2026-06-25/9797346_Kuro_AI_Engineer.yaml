@@ -1,0 +1,51 @@
+company:
+  name: Kuro
+  stage: Early stage (Seed/Series A) - 14 people, 1 year on market
+  focus: Intelligent project data system for construction
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, optimizing, and
+      productionizing AI-driven workflows using LLMs, prompt
+      engineering, RAG/search, and evaluation systems. The
+      engineer works hands-on with GenAI models and techniques
+      (LLM-as-judge, prompt rewriting, hybrid search) to solve
+      complex unstructured data problems for customers.
+  responsibilities:
+  - Prototype, optimize, and productionize AI-driven workflows and automation use
+    cases for complex construction projects
+  - Manage experimentation pipelines and perform error analysis on AI solutions
+  - Oversee evaluations, scoring, and golden data set creation to ensure robust performance
+  - Continuously improve ML and data pipelines to support new and existing use cases
+  - Optimize evaluation and scoring systems for performance monitoring
+  - Work directly with the CPO and customers to identify and implement high-impact
+    AI automation use cases
+  - Shape tech stack decisions for the AI and document pipeline infrastructure
+  use_cases:
+  - Automated processing of unstructured construction documents (PDFs, technical drawings,
+    scans, 3D models)
+  - Intelligent document search and retrieval using hybrid/BM25 search across thousands
+    of project files
+  - 3D model metadata mapping and extraction using LLMs
+  - Reducing hallucinations in AI-generated outputs using LLM-as-judge approaches
+  - Workflow automation for construction back-office operations
+  - Decision support for construction enterprises to reduce manual data handling
+  skills:
+    genai: [Prompt Engineering, LLM-as-judge, RAG, OpenAI API, Gemini, Cohere, BM25
+        / Hybrid Search]
+    ml: [Experimentation pipelines, Error analysis, Evaluation and scoring systems]
+    web: [Vite, Fastify]
+    databases: [PostgreSQL, Weaviate]
+    data: []
+    cloud: [Azure AI, AWS, AWS S3]
+    ops: [Langfuse, Datadog, Railway]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Supabase]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9797346'
+  extracted_at: '2026-06-25T19:53:13.027730'

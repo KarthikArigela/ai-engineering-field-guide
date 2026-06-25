@@ -1,0 +1,55 @@
+company:
+  name: Octus
+  stage: null
+  focus: Credit intelligence, data, and analytics
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building, deploying, and optimizing
+      GenAI/LLM systems — including multi-agent orchestration, RAG
+      pipelines, model fine-tuning, and RLHF. The engineer owns
+      the full AI stack for CreditAI, a flagship GenAI product,
+      working hands-on with models, agents, and inference
+      infrastructure.
+  responsibilities:
+  - Design and implement multi-agent orchestration frameworks using agent SDKs with
+    tools, memory, and state management
+  - Build and maintain MCP servers and integrations to extend AI system capabilities
+  - Build and optimize RAG pipelines including embedding strategies, vector databases,
+    and retrieval quality tuning
+  - Fine-tune, optimize, and deploy open-source deep learning models leveraging GPU
+    infrastructure
+  - Design and implement automated evaluation frameworks to assess LLM system quality
+    and performance
+  - Architect and manage high-throughput real-time data pipelines using Kafka
+  - Deploy and scale production AI services on AWS with containerization, CI/CD, and
+    infrastructure-as-code
+  - Implement observability frameworks tracking token usage, latency, error rates,
+    and model performance
+  use_cases:
+  - Credit intelligence and analytics powered by GenAI
+  - Multi-agent workflows for financial data processing and analysis
+  - Semantic search and retrieval over credit market data
+  - Automated evaluation of LLM-generated insights for accuracy and reliability
+  - Real-time data pipelines for credit market intelligence
+  skills:
+    genai: [Claude Agent SDK, Google ADK, AWS AgentCore, Multi-agent orchestration,
+      MCP (Model Context Protocol), RAG pipelines, Prompt engineering, Embeddings,
+      RLHF, RLAIF]
+    ml: [PyTorch, TensorFlow, Model fine-tuning, Deep learning model deployment, GPU
+        training and inference]
+    web: []
+    databases: [Vector databases, Postgres]
+    data: [Kafka, Real-time data pipelines]
+    cloud: [AWS, AWS Batch, AWS Lambda, AWS ECS, AWS S3, Managed LLM services]
+    ops: [Docker, CI/CD, Infrastructure-as-code, Datadog, GitHub, LLM evaluation frameworks]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9613503'
+  extracted_at: '2026-06-25T19:44:10.812766'

@@ -1,0 +1,48 @@
+company:
+  name: Noon
+  stage: Backed by top investors (early-stage, likely Seed/Series A)
+  focus: AI-powered design-to-code tool for product teams
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying LLM-powered
+      code generation, editing, and transformation systems,
+      including agentic coding architectures with tool-calling and
+      multi-step reasoning. The person owns production-grade AI
+      systems end-to-end, including model evaluation and fine-
+      tuning.
+  responsibilities:
+  - Architect and build agentic code generation systems with multi-step tool-calling
+    from design inputs
+  - Ship LLM-powered code editing pipelines that apply intelligent multi-file edits
+    from natural language
+  - Build a design-to-code engine converting Figma designs to production React components
+  - Establish technical direction for AI initiatives and lead the AI engineering team
+  - Develop code quality infrastructure with automated benchmarking and production
+    feedback loops
+  - Conduct model evaluation and benchmarking for code-related AI tasks
+  use_cases:
+  - Design-to-code conversion from Figma to React components
+  - Agentic code generation from design inputs with multi-step reasoning
+  - Intelligent multi-file code editing from natural language instructions
+  - Automated code quality benchmarking and evaluation
+  - Code transformation and developer tooling acceleration
+  skills:
+    genai: [LLM APIs, Prompt engineering, Agentic AI systems, Tool calling / function
+        calling, RAG, LoRA, Adapters, Distillation]
+    ml: [Model evaluation and benchmarking, Fine-tuning LLMs]
+    web: [React, WebSocket]
+    databases: [Redis]
+    data: []
+    cloud: []
+    ops: [BullMQ]
+    languages: [TypeScript, Node.js]
+    domains: [Design-to-code, Developer tools]
+    other: [tree-sitter, LSP, AST manipulation]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9566533'
+  extracted_at: '2026-06-25T19:43:29.385939'

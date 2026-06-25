@@ -1,0 +1,57 @@
+company:
+  name: Create Music Group
+  stage: Series B+ (Private)
+  focus: Music and entertainment technology platform
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role focused on building,
+      deploying, and maintaining production LLM-powered agents and
+      RAG systems. The role explicitly requires designing
+      orchestration patterns, RAG pipelines, and agent
+      infrastructure - not just supporting AI work or building
+      data pipelines for others.
+  responsibilities:
+  - Architect AI agents and orchestration, tool-use, memory, and routing patterns
+    for a cohesive agent platform
+  - Design RAG pipelines, retrieval architectures, and semantic search grounded in
+    structured music industry data
+  - Define guardrails, evaluation, observability, and human-in-the-loop standards
+    for agentic systems
+  - Drive model, prompt, and tool-use choices including cost and latency tradeoffs
+    at production scale
+  - Integrate frontier LLMs (OpenAI, Anthropic) and open-source models into user-facing
+    features
+  - Partner with product, M&A, A&R, and Marketing stakeholders to translate business
+    needs into AI features
+  - Ship full-stack AI-native features end-to-end from data model to UI including
+    chat interfaces and copilot tools
+  - Drive architecture decisions and set development patterns and standards for the
+    broader AI team
+  use_cases:
+  - Agentic AI systems for music industry operations including contract analysis and
+    royalty management
+  - Semantic search and RAG-powered retrieval across music catalogs, contracts, and
+    deal terms
+  - AI copilots and workflow automation for A&R, M&A, and marketing workflows
+  - LLM-powered chat interfaces for internal users to query music industry data
+  - Intelligent document processing for royalty statements and catalog metadata
+  skills:
+    genai: [LangChain, LangGraph, RAG, agents, prompt engineering, OpenAI API, Anthropic
+        API]
+    ml: [embeddings]
+    web: [React, Next.js, REST APIs]
+    databases: [vector databases, PostgreSQL]
+    data: [Airflow, dbt]
+    cloud: []
+    ops: [Docker, Kubernetes, CI/CD, LLM evaluation, observability]
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9467892'
+  extracted_at: '2026-05-29T09:06:30.578269'

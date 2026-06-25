@@ -1,0 +1,61 @@
+company:
+  name: Hewlett Packard Enterprise
+  stage: Public
+  focus: |-
+    Edge-to-cloud company advancing data and applications,
+    offering financial services, IT asset management, and
+    technology solutions
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that supports AI work rather
+      than building AI models. The role is described as the "data
+      backbone that powers our AI capabilities" and involves
+      preparing data FOR AI Engineers to use in RAG pipelines,
+      model training, and agentic workflows. While the role
+      requires familiarity with LLM data requirements and AI-
+      assisted tooling (Copilot), the core work is building
+      ETL/ELT pipelines, data transformation, governance, and
+      reporting infrastructure.
+  responsibilities:
+  - Design, build, and maintain scalable ETL/ELT pipelines using Azure Data Factory,
+    Databricks, and Microsoft Fabric
+  - Transform raw multi-source data into clean analytics-ready datasets following
+    Medallion Architecture principles
+  - Define and monitor data quality rules and implement automated validation frameworks
+  - Administer Collibra data governance platform including business glossary and data
+    lineage
+  - Build and manage Lakehouses, Warehouses, and Dataflows within Microsoft Fabric
+    ecosystem
+  - Develop and maintain Power BI semantic models and production-grade dashboards
+  - Partner with AI Engineers to prepare high-quality feature datasets for ML and
+    LLM use cases
+  - Contribute to shared data contracts and API schemas between data engineering and
+    AI engineering layers
+  use_cases:
+  - Financial services data transformation and analytics
+  - AI/ML model training and RAG pipeline data preparation
+  - Business intelligence and reporting dashboards
+  - Data governance and quality management
+  - LLM data preparation including embeddings and chunking
+  - Self-service analytics for business stakeholders
+  skills:
+    genai: [Microsoft Copilot, RAG, LLM data requirements, embeddings, chunking]
+    ml: []
+    web: [Power BI, DAX]
+    databases: []
+    data: [Databricks, PySpark, Azure Data Factory, Microsoft Fabric, ETL/ELT, Delta
+        Lake, dbt, Collibra, Medallion Architecture, Data Modeling, Unity Catalog,
+      Data governance, Data quality, OneLake, Structured Streaming]
+    cloud: [Azure, Azure Data Lake Storage, Azure Synapse, Azure Key Vault]
+    ops: [Git, CI/CD, Great Expectations]
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9143225'
+  extracted_at: '2026-05-29T08:55:18.556762'

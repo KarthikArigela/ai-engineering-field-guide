@@ -1,0 +1,59 @@
+company:
+  name: DXC Technology
+  stage: Public
+  focus: Global IT services and consulting
+position:
+  title: Job Description Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on Generative AI Engineer role responsible
+      for coding, deploying, and integrating LLMs. The engineer
+      builds RAG systems, implements agents using
+      LangChain/LangGraph/CrewAI, develops MCP servers, and
+      directly works with model APIs and vector databases. This is
+      direct work ON AI systems (building, deploying, fine-tuning,
+      optimizing), not just supporting infrastructure.
+  responsibilities:
+  - Code and integrate LLM APIs (OpenAI, Anthropic) or local models into backend services
+    using Python and FastAPI
+  - Design and implement custom MCP servers using official SDKs to expose internal
+    databases, APIs, and file systems to AI agents
+  - Build and maintain RAG infrastructure including data ingestion scripts, text chunking
+    logic, and metadata filtering
+  - Manage vector database operations (Pinecone, Milvus) including indexing, querying,
+    and optimizing search retrieval
+  - Develop, version-control, and refine complex prompt templates using Jinja2 to
+    ensure consistent structured outputs
+  - Implement multi-step agent workflows using LangChain, LangGraph, and CrewAI with
+    tool-calling logic and error handling
+  - Build automated test suites to detect hallucinations and measure accuracy using
+    evaluation frameworks
+  - Implement caching layers, streaming responses, and token optimization to reduce
+    latency and improve user experience
+  use_cases:
+  - Retrieval-Augmented Generation (RAG) systems for knowledge retrieval and context-aware
+    responses
+  - AI agents with multi-step workflows and tool-calling capabilities for automation
+  - MCP servers enabling AI agents to access internal databases, APIs, and file systems
+  - Prompt engineering and template management for consistent structured outputs (JSON/YAML)
+  - Vector search and similarity retrieval for enterprise data and documents
+  - Automated evaluation and testing systems to detect hallucinations and measure
+    model accuracy
+  skills:
+    genai: [OpenAI API, Anthropic API, LangChain, LangGraph, LlamaIndex, CrewAI, MCP,
+      RAG, Prompt Engineering]
+    ml: [Hugging Face Transformers]
+    web: [FastAPI, Jinja2, RESTful APIs, Streaming HTTP, JSONRPC, Pydantic]
+    databases: [Pinecone, Milvus]
+    data: []
+    cloud: []
+    ops: [Docker, GitHub Actions, OpenTelemetry, LangSmith, Weights & Biases]
+    languages: [Python, TypeScript, SQL, Asyncio]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9248614'
+  extracted_at: '2026-05-29T08:57:22.871821'

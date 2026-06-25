@@ -1,0 +1,49 @@
+company:
+  name: MaxIQ
+  stage: Startup (stage not explicitly stated)
+  focus: AI-powered revenue platform for B2B SaaS
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building autonomous AI agents
+      using LangChain, LlamaIndex, and LLM fine-tuning, along with
+      RAG implementation and model optimization (quantization,
+      pruning). The engineer is hands-on with GenAI/LLM systems,
+      not just supporting infrastructure.
+  responsibilities:
+  - Architect and build autonomous AI agents using LangChain, LlamaIndex, Python,
+    and Java to automate deal qualification, churn prediction, and customer health
+    scoring
+  - Design role-specific sales intelligence agents providing deal guidance for AEs
+    and renewal alerts for CSMs, integrating with Salesforce
+  - Develop prompt engineering and RAG-based systems to evolve chat assistants into
+    autonomous agents with real-time data pipelines
+  - Implement observability stack with tracing, logging, and monitoring for agent
+    decisions in revenue-critical operations
+  - Optimize LLM inference performance for high-throughput environments using quantization,
+    model pruning, and cloud-native deployment
+  use_cases:
+  - Autonomous deal qualification and churn prediction
+  - Customer health scoring and real-time customer journey analysis
+  - Role-specific sales intelligence (deal guidance for AEs, renewal alerts for CSMs)
+  - Revenue operations automation replacing fragmented workflows
+  - Predictive insights for sales, customer success, and RevOps teams
+  skills:
+    genai: [LangChain, LlamaIndex, RAG (Retrieval-Augmented Generation), Prompt Engineering,
+      Agentic Architectures]
+    ml: [LLM Fine-tuning, Quantization, Model Pruning]
+    web: []
+    databases: []
+    data: [Real-time Data Pipelines]
+    cloud: [AWS, GCP]
+    ops: [Containerized Microservices, Observability/Tracing/Logging]
+    languages: [Python, Java]
+    domains: []
+    other: [Salesforce]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9687824'
+  extracted_at: '2026-06-25T19:44:46.781820'

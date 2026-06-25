@@ -1,0 +1,66 @@
+company:
+  name: Saviynt
+  stage: Not specified in description
+  focus: |-
+    Identity security and AI-powered access governance platform
+    for enterprises
+position:
+  title: Principal Software Engineer, AI Platform Engineering
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating the data
+      infrastructure platform that ENABLES ML engineers and data
+      scientists to train models and build AI applications. The
+      engineer owns data pipelines, feature stores, vector
+      databases, and RAG data infrastructure, but does NOT build,
+      train, or deploy the actual models - they provide the
+      foundational data platform and tooling that others use for
+      AI development. This is the classic distinction: ai-support
+      builds the platforms and pipelines that support AI work
+      rather than working directly on the models themselves.
+  responsibilities:
+  - Set architectural direction for training data flows, evolution, and governance
+    across the AI Platform
+  - Design and operate AI Data Lake on GCS with bucket layout, tiered storage, CMEK
+    encryption, and lifecycle rules
+  - Build batch and streaming pipelines using Spark on Dataproc and Apache Beam on
+    Dataflow for data ingestion
+  - Implement multi-tenant data architecture with strict per-tenant isolation and
+    cross-contamination validation
+  - Operate feature store using Feast with offline and online serving, point-in-time
+    correctness, and consistency SLAs
+  - Manage vector database operations with Pgvector and Qdrant, including index strategies
+    and ANN query latency optimization
+  - Build and maintain RAG data pipelines for embedding generation, chunking, encoding,
+    and upsert to vector store
+  - Develop Data Anonymizer and Data Labeler microservices to strip PII and attach
+    ML labels before data leaves customer environments
+  use_cases:
+  - Identity security and access governance for enterprise applications and data
+  - RAG (Retrieval-Augmented Generation) systems for document embedding storage and
+    retrieval
+  - Feature serving for ML model training and inference with point-in-time correctness
+  - Multi-tenant data isolation and PII protection for ML training datasets
+  - Real-time CDC ingestion and streaming data processing for ML pipelines
+  - Synthetic data generation for development and staging environments where customer
+    data is restricted
+  skills:
+    genai: [RAG]
+    ml: []
+    web: [gRPC, Protobuf, mTLS]
+    databases: [Qdrant, Pgvector, Redis, Vector databases]
+    data: [Apache Spark, PySpark, Apache Beam, Dataflow, Airflow, Prefect, Great Expectations,
+      dbt, Apache Iceberg, Avro, Data lakes, ETL, Data pipelines, Streaming pipelines,
+      Data governance, Differential privacy, PII anonymization]
+    cloud: [Google Cloud Storage, Dataproc, Cloud SQL, Multi-tenancy]
+    ops: [Flyte, Kubeflow Pipelines, Feast, Google Kubernetes Engine, Kubernetes,
+      Feature store, Schema registry]
+    languages: [Python, Scala, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9499039'
+  extracted_at: '2026-05-29T09:07:59.331071'

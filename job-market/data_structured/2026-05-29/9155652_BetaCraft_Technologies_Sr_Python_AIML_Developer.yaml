@@ -1,0 +1,50 @@
+company:
+  name: BetaCraft Technologies
+  stage: Series B
+  focus: Web and mobile product development with AI/ML solutions
+position:
+  title: Sr. Python AI/ML Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building multi-agent
+      systems that use LLMs for file ingestion, metadata
+      extraction, query generation, and content summarization. The
+      role involves hands-on work with LLM APIs, prompt
+      engineering, and orchestrating agent workflows - not model
+      training or pure infrastructure support.
+  responsibilities:
+  - Build multi-agent systems for intelligent file ingestion and processing of structured
+    and unstructured data
+  - Extract metadata and determine relevant data through LLM-powered reasoning
+  - Generate database queries and summarize retrieved content using LLMs
+  - Architect communication protocols for agent orchestration and microservice architecture
+  - Develop chunking, tagging, and schema inference pipelines for data processing
+  - Build clean API interfaces using Flask or similar web frameworks
+  - Optimize LLM call performance with retry logic and reliability patterns
+  - Write modular, test-covered, and well-documented Python code
+  use_cases:
+  - Intelligent document processing and metadata extraction from PDFs, DOCX, CSV,
+    and Excel files
+  - Multi-agent systems for query understanding and database query generation
+  - Enterprise search and content summarization using LLMs
+  - Knowledge management systems with automated schema inference
+  - Research tools and automation platforms with AI-powered insights
+  - Data pipeline orchestration for structured and unstructured data workflows
+  skills:
+    genai: [OpenAI API, Anthropic API, Multi-agent orchestration, Prompt engineering,
+      LLM integration]
+    ml: []
+    web: [Flask, API development]
+    databases: [MongoDB, Pinecone, FAISS, Redis]
+    data: [XML/JSON schema design, Data pipelines]
+    cloud: []
+    ops: [Celery, RQ, Microservice architecture]
+    languages: [Python, OOP]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9155652'
+  extracted_at: '2026-05-29T08:55:14.924395'

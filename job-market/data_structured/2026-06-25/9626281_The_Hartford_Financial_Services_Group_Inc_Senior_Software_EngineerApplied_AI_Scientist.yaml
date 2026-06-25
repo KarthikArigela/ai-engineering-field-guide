@@ -1,0 +1,61 @@
+company:
+  name: The Hartford Financial Services Group, Inc.
+  stage: Public
+  focus: Insurance and financial services
+position:
+  title: Senior Software Engineer/Applied AI Scientist
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying
+      generative/agentic AI solutions including RAG pipelines,
+      chat/assistants, prompt engineering, agent design, and fine-
+      tuning LLMs with PEFT/LoRA. The engineer owns the end-to-end
+      AI lifecycle from problem framing through deployment,
+      working hands-on with models, embeddings, retrieval
+      strategies, and evaluation frameworks.
+  responsibilities:
+  - Design and deliver AI solutions spanning RAG pipelines, chat/assistants, classification,
+    forecasting, and recommendation systems
+  - Deploy GenAI capabilities for regulatory filing automation including DOI objection
+    response generation and legacy filing ingestion
+  - Engineer and maintain domain-specific knowledge bases for regulatory intelligence,
+    competitive insights, and customer sentiment
+  - Own end-to-end AI lifecycle from problem framing through deployment including
+    data prep, modeling, evaluation, CI/CD, and safety guardrails
+  - Design retrieval strategies including chunking, embeddings, hybrid search, and
+    rerankers for unstructured multi-format content
+  - Author system prompts, few-shot patterns, structured outputs, and agent tool-use
+    policies for reliable AI behavior
+  - Define evaluation metrics and monitoring across use cases including test set creation,
+    A/B testing, and drift detection
+  - Collaborate with enterprise architects and platform teams for scalable MLOps integration
+    and standardized experiment tracking
+  use_cases:
+  - Regulatory filing automation and compliance intelligence for insurance
+  - Domain-specific knowledge base search and retrieval across underwriting, pricing,
+    and service
+  - Self-service virtual assistants and inspection automation for customer experience
+  - Classification, forecasting, and recommendation systems for insurance operations
+  - Automated DOI objection response generation
+  - Synthetic data generation for low-frequency perils and emerging insurance segments
+  skills:
+    genai: [RAG pipelines, Prompt engineering, LangChain, LangGraph, LlamaIndex, PEFT/LoRA,
+      Function calling, Guardrails, Synthetic data generation, Diffusion models, Embeddings,
+      Hybrid search, Rerankers, RAGAS, TruLens, DeepEval, OpenAI embeddings, Cohere
+        embeddings, Voyage embeddings, BGE embeddings, E5 embeddings]
+    ml: [scikit-learn, PyTorch, TensorFlow, Distillation, LayoutLM, Timeseries forecasting,
+      Anomaly detection, Fraud detection]
+    web: []
+    databases: [HNSW, pgvector, Postgres, OpenSearch, Vertex AI RAG Engine]
+    data: [pandas, NumPy, Knowledge graphs]
+    cloud: [Google Vertex AI, AWS SageMaker, AWS Bedrock, Azure AI Services]
+    ops: [MLflow, Weights & Biases, Docker, Git, CI/CD, Unix]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [PyMuPDF, pdfplumber, Apache Tika, Tesseract OCR, Camelot, Tabula]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9626281'
+  extracted_at: '2026-06-25T19:46:44.331314'

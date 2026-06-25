@@ -1,0 +1,52 @@
+company:
+  name: Social Discovery Group
+  stage: null
+  focus: Social discovery and online dating platforms
+position:
+  title: Senior .Net Developer (AI Product)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a senior .NET developer role at a social
+      discovery/dating company that involves building product
+      features and integrations including an "AI layer" (voice,
+      real-time, video, emotion recognition). The core work is
+      software engineering on high-load distributed systems in
+      C#/.NET, with AI features being one integration area rather
+      than the primary focus of building, training, or deploying
+      ML models. The developer builds the infrastructure and
+      product features that AI capabilities plug into, rather than
+      working directly on model development.
+  responsibilities:
+  - Contribute to the architecture of high-load services and grow the existing C#
+    / .NET Core codebase
+  - Build new product features and integrations, including the AI layer (voice, real-time,
+    and future video and emotion recognition)
+  - 'Design and operate async pipelines on RabbitMQ: delivery guarantees, idempotency,
+    error handling, backpressure'
+  - 'Work with MS SQL schema and queries under load: indexes, execution plans, hot-path
+    optimization'
+  - 'Hold the bar on code quality across the team: code review, testing, observability,
+    engineering standards'
+  - Influence technical decisions beyond immediate area of responsibility
+  use_cases:
+  - Real-time voice and communication features for social discovery platforms
+  - AI-powered video and emotion recognition for dating products (on the horizon)
+  - High-load async messaging pipelines for social platforms
+  - Integration of AI capabilities into existing social discovery product ecosystem
+  skills:
+    genai: [Voice AI Integration]
+    ml: []
+    web: [.NET Core]
+    databases: [MS SQL Server]
+    data: [RabbitMQ, Kafka, NATS]
+    cloud: [Azure Service Bus]
+    ops: []
+    languages: [C#]
+    domains: [Emotion Recognition]
+    other: [Distributed Systems, Real-time Video Processing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9314138'
+  extracted_at: '2026-06-25T19:42:15.039468'

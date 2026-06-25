@@ -1,0 +1,48 @@
+company:
+  name: NXP Semiconductors
+  stage: Public
+  focus: Semiconductors and AI silicon chips
+position:
+  title: Senior Software Engineer- AI NPU Runtime
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role involves developing application and system
+      software for AI silicon (NPU runtime), but the work is
+      focused on C/C++ system-level software, debugging, and
+      kernel drivers rather than directly building, training, or
+      deploying ML models. The engineer enables AI hardware to
+      function by writing the runtime/system layer, which supports
+      AI workloads but does not involve hands-on model development
+      or deployment.
+  responsibilities:
+  - Design and develop application and system software for cutting-edge AI silicon/NPU
+    runtime
+  - Collaborate with cross-functional teams locally and globally in a fast-paced environment
+  - Define feature requirements with customers and internal teams, gathering feedback
+    to improve products
+  - Document implementation strategies and ensure clear understanding of requirements
+  - Review and test features to prevent issues, conducting impact analysis to mitigate
+    potential problems
+  - Debug and optimize system-level software using advanced debugging tools
+  use_cases:
+  - AI neural processing unit (NPU) runtime software for on-device AI inference
+  - System software enabling AI workloads on specialized AI silicon
+  - Hardware-software interface for AI accelerator chips
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [GDB, Valgrind, WinDbg, Address Sanitizer, PCIe kernel driver, USB kernel
+        driver, Debugging]
+    languages: [C/C++11, Concurrent programming]
+    domains: []
+    other: [System software development]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9717591'
+  extracted_at: '2026-06-25T19:48:48.752361'

@@ -1,0 +1,63 @@
+company:
+  name: Bullish
+  stage: Public
+  focus: Digital asset exchange and market infrastructure
+position:
+  title: Principal Engineer, AI & Data Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves architecting and deploying production AI
+      systems including agentic data platforms, GraphRAG,
+      conversational analytics backed by LLMs, and MCP-based agent
+      connectivity. The engineer directly builds AI infrastructure
+      that enables agents to reason over and act on enterprise
+      data, making this hands-on AI/ML work rather than support or
+      infrastructure-only.
+  responsibilities:
+  - Design and own the enterprise knowledge layer including governed semantic models,
+    ontologies, and knowledge graph structures that ground both human analytics and
+    AI agents
+  - Lead strategy and delivery of natural-language conversational analytics interfaces
+    over complex business datasets
+  - Architect agentic data platform infrastructure enabling AI agents to discover,
+    reason over, and act on enterprise data via MCP-based tool connectivity and agent-facing
+    data services
+  - Drive adoption of graph databases, knowledge bases, and hybrid query engines supporting
+    multi-hop reasoning, entity resolution, and GraphRAG patterns
+  - Partner with domain stakeholders across trading, treasury, compliance, and media
+    to ensure the data platform serves the full breadth of the business
+  - Establish evaluation frameworks for AI systems ensuring groundedness, factual
+    consistency, and output reliability
+  - Set architectural direction, mentor engineers, drive build-vs-buy decisions, and
+    represent the team's technical vision to senior stakeholders
+  use_cases:
+  - Conversational analytics over enterprise data for business stakeholders with citation-backed
+    answers
+  - Agentic data discovery and reasoning over governed enterprise knowledge graphs
+  - Multi-hop reasoning and entity resolution across structured and unstructured enterprise
+    data
+  - Grounded generation using GraphRAG for trustworthy AI outputs in regulated financial
+    environments
+  - Enterprise knowledge management with governed semantic layers serving both human
+    BI and AI agent consumers
+  - Compliance-aware data governance and regulatory reporting infrastructure
+  skills:
+    genai: [GraphRAG, RAG, MCP (Model Context Protocol), Agent orchestration frameworks,
+      Conversational analytics / NL-to-SQL, Prompt engineering, Vector-augmented retrieval]
+    ml: []
+    web: []
+    databases: [Neo4j, TigerGraph, Amazon Neptune, BigQuery Graph, Qdrant, Pinecone,
+      pgvector, BigQuery, Snowflake, Spanner]
+    data: [RDF/OWL, Property graphs, Taxonomy design, dbt Semantic Layer, Looker,
+      AtScale, Google Knowledge Catalog/Dataplex, Collibra, Alation, Atlan]
+    cloud: [GCP, Vertex AI, Cloud Composer, AlloyDB, Databricks]
+    ops: [CI/CD, Infrastructure as Code, Data quality frameworks, Observability]
+    languages: [Python, SQL]
+    domains: [Knowledge graphs, Semantic modeling, Ontology-driven data architecture]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9542659'
+  extracted_at: '2026-06-25T19:41:37.112463'

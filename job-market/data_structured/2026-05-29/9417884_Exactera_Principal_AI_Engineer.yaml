@@ -1,0 +1,61 @@
+company:
+  name: Exactera
+  stage: Series B
+  focus: |-
+    AI-powered corporate tax and transfer pricing solutions for
+    financial compliance
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a Principal AI Engineer role building the core AI/ML
+      platform infrastructure including agentic workflows, RAG
+      systems, knowledge graphs, and LLM integrations. The role
+      involves hands-on development of retrieval systems, agent
+      platforms, model serving, and evaluation frameworks - all
+      direct work on AI systems rather than support functions.
+  responsibilities:
+  - Design and operate the domain knowledge graph with entity resolution and relationship
+    extraction across tax domain entities
+  - Build and maintain hybrid retrieval systems combining graph traversal, vector
+    search, and structured queries with intelligent orchestration
+  - Develop the agent platform including memory infrastructure, tool access patterns,
+    and audit trails for compliance-grade AI
+  - Create evaluation frameworks that capture expert judgment as ground truth and
+    measure retrieval/decision quality
+  - Implement production model serving infrastructure with real-time inference endpoints
+    and SLA guarantees
+  - Design and optimize LLM integrations including cost management, prompt caching,
+    and rate limiting
+  - Build domain-meaningful API abstractions and SDKs for product engineers to compose
+    agentic workflows
+  - Ensure determinism and replayability for audit defense through versioned graph
+    snapshots, indexes, and prompts
+  use_cases:
+  - Automated tax compliance and transfer pricing analysis for multinational corporations
+  - Comparable company selection for intercompany transactions and transfer pricing
+    documentation
+  - Document classification and data extraction from SEC filings and tax reports
+  - Audit-defensible report generation with expert reasoning traceability
+  - Knowledge retrieval from 34,000 expert reports and curated financial data
+  - Agentic workflow automation for tax advisory tasks and regulatory compliance
+  skills:
+    genai: [RAG, LangChain, LangGraph, LlamaIndex, Anthropic API, OpenAI API, MCP
+        (Model Context Protocol), Agents, Prompt Engineering, LLM]
+    ml: [Relationship Extraction, Information Retrieval]
+    web: [Node, GraphQL, REST, gRPC, SDK Development, API Design, OAuth]
+    databases: [Neo4j, Vector Search, Vector Database]
+    data: [Knowledge Graphs, Cypher, Gremlin, SPARQL, Databricks, Spark, Unity Catalog,
+      Entity Resolution, Airflow, Kafka, ETL, Data Pipelines]
+    cloud: [AWS, SageMaker]
+    ops: [MLflow, Model Serving, Inference, Experiment Tracking, Model Registry, Terraform,
+      Docker, Kubernetes, CI/CD, Monitoring, Observability, Version Control]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9417884'
+  extracted_at: '2026-05-29T09:05:42.643382'

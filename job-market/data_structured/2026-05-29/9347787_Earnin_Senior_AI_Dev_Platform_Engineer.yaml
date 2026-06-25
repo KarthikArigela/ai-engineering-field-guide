@@ -1,0 +1,56 @@
+company:
+  name: Earnin
+  stage: Series B+
+  focus: Financial services with earned wage access platform
+position:
+  title: Senior AI Dev Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building of AI systems including
+      MCP servers, LLM gateways, agentic workflows, and RAG
+      implementation. The engineer is directly designing and
+      operationalizing AI features (structured prompting, tool-use
+      patterns, agent guardrails) and integrating them into
+      platform infrastructure, not just providing support
+      infrastructure for others.
+  responsibilities:
+  - Design and build MCP servers that expose platform capabilities as safe tools for
+    AI agents and developer assistants
+  - Design structured agentic workflows for platform operations including incident
+    triage, deployment validation, and capacity planning
+  - Operationalize LLM-based features including structured prompting, RAG, output
+    validation, and evaluation harnesses
+  - Implement LLM gateway and router patterns to control costs, route models, and
+    enable observability of AI workloads
+  - Design and evolve GitOps-based continuous delivery and Kubernetes infrastructure
+    on AWS EKS with Terraform
+  - Strengthen observability and reliability with SLOs, error budgets, and automation
+    to improve MTTD/MTTR
+  - Build FinOps automation to surface waste and support cost-aware engineering decisions
+  - Define success metrics and run experiments to evaluate impact on developer efficiency
+    and cost
+  use_cases:
+  - AI-assisted developer workflows and tooling integration
+  - Automated incident triage and deployment validation
+  - LLM-powered code review and configuration remediation
+  - AI-driven capacity planning and operational diagnostics
+  - Cost optimization for cloud and AI/LLM spend
+  - Enterprise MCP patterns and agentic guardrails
+  skills:
+    genai: [MCP, LLM Gateway, RAG, Agentic Workflows, Prompt Engineering]
+    ml: []
+    web: [Service Mesh]
+    databases: []
+    data: []
+    cloud: [EKS, AWS, FinOps]
+    ops: [Kubernetes, Terraform, Helm, Kustomize, Argo CD, GitHub Actions, Datadog,
+      GitOps]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9347787'
+  extracted_at: '2026-05-29T09:00:51.931803'

@@ -1,0 +1,58 @@
+company:
+  name: Altisource
+  stage: Public
+  focus: Mortgage and real estate technology solutions
+position:
+  title: Senior Software Engineer (Java FullStack + Agentic Ai)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and integrating Agentic
+      AI systems — designing autonomous agent workflows, agent
+      orchestration, tool-use/function-calling interfaces, and
+      multi-agent architectures. While it also includes
+      traditional backend development, the core AI
+      responsibilities involve hands-on implementation of LLM-
+      powered agent systems, making it ai-first.
+  responsibilities:
+  - Design, develop, and maintain backend applications using Java, Spring Boot, and
+    Hibernate
+  - Build and integrate RESTful APIs and event-driven services for microservices and
+    AI agent communication
+  - Deploy and manage applications on AWS Cloud infrastructure
+  - Design and implement autonomous AI agent workflows with planning, multi-step execution,
+    tool invocation, and exception handling
+  - Develop agent orchestration patterns including agent-to-agent handovers, state
+    persistence, retry logic, and fallback strategies
+  - Integrate with foundation model APIs (AWS Bedrock, OpenAI, Anthropic) for LLM-powered
+    reasoning and decision-making
+  - Build tool-use and function-calling interfaces for AI agents to interact with
+    databases, APIs, document stores, and external services
+  - Collaborate with cross-functional teams on prompt engineering, agent behavior
+    tuning, and accuracy evaluation
+  use_cases:
+  - Autonomous AI agents for mortgage and real estate workflow automation
+  - Multi-agent orchestration for complex business process execution
+  - LLM-powered reasoning and decision-making within agent pipelines
+  - Human-in-the-loop approval workflows for low-confidence agent decisions
+  - Event-driven async agent communication via message queues
+  - AI-assisted development workflows
+  skills:
+    genai: [Agentic AI, Agent orchestration, Function calling, Prompt engineering,
+      LLM APIs, OpenAI API, Anthropic API, Human-in-the-loop patterns, Structured
+        output parsing]
+    ml: []
+    web: [Spring Boot, Hibernate, JPA, RESTful APIs, Microservices]
+    databases: [PostgreSQL, MySQL]
+    data: [Apache Kafka]
+    cloud: [AWS, AWS EC2, AWS S3, AWS Lambda, AWS SQS/SNS, AWS EventBridge, AWS API
+        Gateway, AWS Cognito, AWS Bedrock]
+    ops: []
+    languages: [Java]
+    domains: []
+    other: [Event-driven architecture, GitHub Copilot, Kiro]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9864166'
+  extracted_at: '2026-06-25T19:51:52.257808'

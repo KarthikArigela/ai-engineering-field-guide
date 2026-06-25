@@ -1,0 +1,54 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Airline transportation and aviation services
+position:
+  title: Sr Data Engineer – AI Ops
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a data engineer supporting AI Platform
+      Operations, building data pipelines and infrastructure that
+      ENABLE AI workloads rather than working directly on models.
+      The responsibilities focus on data infrastructure, ETL
+      processes, observability, and scalability—working NEAR AI
+      but not ON AI. Key distinction: they implement retraining
+      pipelines and data quality checks for models, but don't
+      build, train, fine-tune, or deploy the models themselves.
+  responsibilities:
+  - Build and operate data pipelines that power production AI workloads at scale
+  - Design reliable, observable, and scalable data infrastructure using modern AWS
+    data services and cloud-native practices
+  - Own pipeline performance and data quality end-to-end through monitoring, troubleshooting,
+    and tuning systems
+  - Implement retraining pipelines and data-quality checks for AI models and agentic
+    systems
+  - Redesign infrastructure for scalability while improving lineage and observability
+  - Automate manual processes and build analytical tools for actionable business insights
+  - Collaborate with Data, Product, Engineering, and Executive stakeholders on data
+    infrastructure needs
+  use_cases:
+  - Production AI workload orchestration and data pipelines
+  - AI model retraining pipelines with data quality checks
+  - Agentic systems data infrastructure
+  - Batch retraining workloads for ML/AI systems
+  - Feature stores and vector database support
+  - Business analytics and operational efficiency metrics
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Snowflake, Redshift, BigQuery, Vector DBs, SQL]
+    data: [Airflow, dbt, Spark, Databricks, Kafka, ETL, DataLake, Lakehouse formats,
+      XML, JSON, Parquet]
+    cloud: [AWS, AWS Glue, AWS EMR, AWS Kinesis, AWS S3, AWS Athena, AWS ServiceBus]
+    ops: [Monte Carlo, Great Expectations, OpenLineage, CI/CD, IaC, Container Technologies,
+      Unit Testing, Code Quality tools]
+    languages: [Python]
+    domains: []
+    other: [Agile, Data contracts, Schema registry, Governance tooling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394075'
+  extracted_at: '2026-05-29T09:03:03.081672'

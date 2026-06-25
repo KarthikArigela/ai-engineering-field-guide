@@ -1,0 +1,55 @@
+company:
+  name: WEKA
+  stage: Pre-IPO, growth-stage
+  focus: |-
+    AI-native data infrastructure and storage platform for
+    enterprise AI workloads
+position:
+  title: Software Engineer (Distributed Systems & AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Software Engineer in Test (SET) role building
+      distributed systems and validation infrastructure for WEKA's
+      AI-native data platform. While the role uses AI tools (LLMs,
+      GenAI) to automate testing and build agents, the core work
+      is building adversarial testing frameworks, chaos
+      engineering tools, and telemetry pipelines for storage
+      systems - infrastructure that SUPPORTS AI workloads rather
+      than directly building/training AI models. The role is a
+      backend SWE position focused on reliability engineering, not
+      model development.
+  responsibilities:
+  - Design and implement Python-based distributed frameworks orchestrating millions
+    of concurrent IO operations to identify race conditions and memory leaks
+  - Leverage LLMs and Generative AI to automate scenario generation and build intelligent
+    agents for root-cause analysis
+  - Develop chaos engineering tools that inject real-world failures like latency,
+    packet loss, and hardware crashes to test Raft and RDMA implementations
+  - Build telemetry pipelines to track P99 latency and jitter and provide architectural
+    feedback to Core Kernel teams
+  - Operate with rigorous engineering standards including design docs, production-grade
+    code reviews, and high-level architectural planning
+  use_cases:
+  - Enterprise data stack and storage infrastructure for AI model training and inference
+  - GPU utilization optimization for compute-intensive workloads
+  - High-performance data pipelines for AI and ML workloads
+  - Massive-scale validation and reliability testing for distributed storage systems
+  - Adversarial testing and chaos engineering for AI infrastructure
+  skills:
+    genai: [LLMs, Generative AI, AI Agents]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Distributed Systems, 'Networking (TCP/IP, RDMA)', Storage Protocols, Chaos
+        Engineering, Raft, Telemetry, Site Reliability Engineering (SRE)]
+    languages: [Python, C++, Rust, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9137377'
+  extracted_at: '2026-05-29T08:54:37.285009'

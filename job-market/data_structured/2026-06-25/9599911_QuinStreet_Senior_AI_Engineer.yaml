@@ -1,0 +1,57 @@
+company:
+  name: QuinStreet
+  stage: Public
+  focus: Performance marketing and online marketplace technology
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building of a production AI
+      pipeline that uses Claude API for contextual compliance
+      analysis, including prompt engineering, token optimization,
+      and designing a two-stage rule-engine-plus-AI pipeline. The
+      engineer directly implements and deploys LLM-powered systems
+      in production.
+  responsibilities:
+  - Design and configure the production AWS environment using infrastructure as code
+    (Terraform or CDK) with ECS/Fargate, SQS, API Gateway, RDS PostgreSQL, S3, IAM,
+    and CloudWatch
+  - Build a stateless containerized worker fleet integrating Playwright-based page
+    rendering, structured rule evaluation, and Claude API analysis
+  - Implement token optimization strategies across the LLM pipeline including prompt
+    engineering, context pruning, caching, model selection, and batching
+  - Define and document API contracts, job payload schemas, and database write patterns
+    with the internal Laravel portal team
+  - Build third-party API ingestion and field-level diff-detection logic that automatically
+    adjusts monitoring rules when product data changes
+  - Handle modern web rendering challenges at scale including JavaScript-heavy SPAs,
+    interstitials, cookie consent overlays, and full-page screenshot capture
+  - Design the two-stage rule-engine-plus-AI pipeline, evaluating when LLM analysis
+    versus classifier or rules-based approaches are appropriate
+  - Build and maintain unit test suite, document architecture decisions continuously,
+    and deliver runbook with knowledge transfer at engagement close
+  use_cases:
+  - Automated compliance monitoring of up to 70,000 credit card offer pages per month
+  - AI-powered detection of compliance violations across issuer offer pages
+  - Large-scale web scraping with JavaScript rendering and screenshot evidence capture
+  - Field-level diff detection and automatic adjustment of monitoring rules
+  - Cost-optimized LLM analysis pipeline with controlled token spend
+  skills:
+    genai: [Anthropic Claude API, Prompt engineering, Token optimization, Structured
+        output, Context pruning, LLM model selection]
+    ml: [Machine learning fundamentals, Classification vs rules-based evaluation]
+    web: [Playwright, REST APIs, Laravel]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [AWS ECS/Fargate, AWS SQS, AWS API Gateway, AWS RDS PostgreSQL, AWS S3,
+      AWS IAM, AWS CloudWatch, AWS ECR]
+    ops: [Terraform, AWS CDK, Docker, CI/CD]
+    languages: [Python, Async Python, PHP]
+    domains: []
+    other: [Salesforce API, SOC 2 compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9599911'
+  extracted_at: '2026-06-25T19:43:19.010177'

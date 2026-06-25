@@ -1,0 +1,61 @@
+company:
+  name: Lynx Software Technologies
+  stage: unknown
+  focus: |-
+    Secure edge computing and mission-critical systems for
+    aerospace, defense, automotive, and industrial
+position:
+  title: Principal AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is an AI Platform Engineer building the
+      infrastructure and tooling platform for AI-assisted
+      workflows, not building or deploying AI models directly. The
+      role focuses on platform engineering, LLMOps observability,
+      CI/CD, infrastructure as code, and secure integrations -
+      enabling others to use AI tools while working on the
+      supporting platform, orchestration, and operational
+      infrastructure.
+  responsibilities:
+  - Define and enforce platform standards for AI orchestration frameworks, prompt
+    assets, tracing, and metadata
+  - Build and maintain Azure-based production infrastructure including networking,
+    identity, secrets, storage, database, monitoring, and deployment patterns
+  - Implement infrastructure as code and CI/CD for sandbox-to-production promotion
+  - Deepen LLMOps capabilities including prompt versioning, golden datasets, automated
+    evaluations, cost tracking, feedback loops, regression detection, and release
+    controls
+  - Own secure integrations with CodeBeamer, GitHub, and event-driven APIs or webhooks
+  - Establish operational discipline through logging, alerting, rollback, test coverage,
+    runbooks, rate limiting, and supportability
+  - Partner with engineering, IT, security, and compliance stakeholders to support
+    auditable AI-assisted workflows
+  - Mentor and coach other senior and intermediate engineers, provide technical guidance,
+    and conduct architectural review
+  use_cases:
+  - AI-assisted certification workflows for safety-critical systems
+  - Mission-critical edge computing AI deployment with deterministic, certifiable
+    workloads
+  - Engineering workflow automation in regulated aerospace, defense, and automotive
+    environments
+  - C/C++ code analysis and test generation workflows
+  - Traceability and human-in-the-loop review processes for safety-critical systems
+  skills:
+    genai: [LangChain, LangGraph, LLM observability, prompt engineering, RAG, agents]
+    ml: []
+    web: [REST APIs, webhooks, React]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [Azure, Azure Container Apps, Azure Key Vault, Entra ID, RBAC]
+    ops: [Langfuse, GitHub Actions, Terraform, Bicep, Azure DevOps, CI/CD, Infrastructure
+        as Code, secrets management, audit logging, rate limiting, monitoring, alerting,
+      logging]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9370910'
+  extracted_at: '2026-05-29T09:02:08.250548'

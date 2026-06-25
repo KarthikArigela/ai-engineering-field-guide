@@ -1,0 +1,51 @@
+company:
+  name: ImagineArt
+  stage: Series B+ (bootstrapped, $35M+ ARR)
+  focus: GenAI platform for image generation and creative AI tools
+position:
+  title: Principal AI Engineer (LLM Agents & Orchestration)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on technical role building autonomous LLM
+      agents with agentic workflows, RAG systems, and tool
+      integration. The engineer is directly working with LLMs,
+      building stateful agent architectures, optimizing inference,
+      and implementing retrieval systems - all core AI/ML model
+      work.
+  responsibilities:
+  - Design and implement stateful agentic workflows using LangGraph or custom solutions
+    for planning, execution, and self-correction
+  - Build robust integration layers enabling LLM interaction with internal APIs, databases,
+    and third-party tools
+  - Optimize inference pipelines for speed through streaming, token optimization,
+    and reliability improvements
+  - Architect advanced RAG systems to provide persistent memory and context awareness
+    across sessions
+  - Establish rigorous testing frameworks for non-deterministic model outputs to ensure
+    expected agent behavior
+  - Leverage specific model strengths for different use cases and implement function
+    calling/tool use capabilities
+  use_cases:
+  - Autonomous agents capable of complex reasoning beyond simple chat interfaces
+  - Seamless integration with external workflows and third-party tools
+  - Persistent memory and context awareness across user sessions
+  - Event-driven architectures where agents respond to triggers not just user prompts
+  - Tool usage and function calling for complex task execution
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, DSPy, RAG, Function Calling, Tool Use,
+      Prompt Engineering]
+    ml: [Embeddings]
+    web: []
+    databases: [Pinecone, Milvus, Weaviate]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9271669'
+  extracted_at: '2026-05-29T08:58:47.090185'

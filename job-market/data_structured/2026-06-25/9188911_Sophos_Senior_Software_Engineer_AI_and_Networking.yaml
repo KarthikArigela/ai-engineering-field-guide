@@ -1,0 +1,57 @@
+company:
+  name: Sophos
+  stage: Public
+  focus: AI-driven cybersecurity platform and services
+position:
+  title: Senior Software Engineer (AI and Networking)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and deploying production-grade
+      AI agents using frameworks like LangGraph, Claude Agent SDK,
+      and OpenAI Agents, along with fine-tuning models, KV-cache
+      optimization, and prompt engineering. The engineer works
+      directly ON AI systems — specifically a conversational AI
+      assistant for firewall management — rather than merely
+      supporting infrastructure for other AI teams.
+  responsibilities:
+  - Build and deploy production-grade AI agents for the Firewall Assistant team to
+    interpret natural language queries and deliver intelligent recommendations
+  - Design and own end-to-end distributed systems including APIs, data models, storage,
+    caching, and queuing for AI-driven firewall operations
+  - Develop evaluation frameworks, tracing mechanisms, and regression safeguards for
+    LLM-based systems
+  - Implement multi-agent orchestration with tool integrations and MCP servers for
+    automating firewall operations
+  - Optimize AI system performance through prompt caching, KV-cache optimization,
+    model routing, and context engineering
+  - Deploy and manage large-scale cloud infrastructure on AWS with IaC, observability,
+    and safe rollout practices
+  - Fine-tune models using techniques like LoRA, QLoRA, SFT, and DPO for real-world
+    firewall management use cases
+  - Ensure safety mechanisms for agent-driven actions including approvals, dry runs,
+    blast-radius control, and audit trails
+  use_cases:
+  - Natural language firewall management and conversational security operations
+  - Intelligent security recommendations and automated firewall configuration
+  - Network security automation with enterprise-grade safety and compliance
+  - AI-driven threat monitoring and response within firewall systems
+  - Simplifying complex network security operations through conversational interfaces
+  skills:
+    genai: [LangGraph, Claude Agent SDK, OpenAI Agents, Pydantic-AI, MCP servers,
+      FastMCP, Multi-agent orchestration, Prompt engineering, Context engineering,
+      Prompt caching, KV-cache optimization, Model routing, LoRA, QLoRA]
+    ml: [SFT, DPO, Model fine-tuning]
+    web: [Pydantic, FastAPI, Temporal]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Infrastructure as Code, Observability]
+    languages: [Python, Go, Java]
+    domains: [Network security]
+    other: [Distributed systems design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9188911'
+  extracted_at: '2026-06-25T19:40:26.221257'

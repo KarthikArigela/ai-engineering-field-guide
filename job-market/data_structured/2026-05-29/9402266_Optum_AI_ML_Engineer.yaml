@@ -1,0 +1,58 @@
+company:
+  name: Optum
+  stage: Public
+  focus: |-
+    Healthcare technology and services, AI-enabled health
+    optimization
+position:
+  title: AI ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role requiring hands-on work with LLMs
+      and advanced AI techniques. The role involves developing
+      end-to-end training and fine-tuning of Large Language Models
+      (open-source and closed-source), architecting GraphRAG
+      pipelines, implementing RLHF/RLAIF for model alignment, and
+      building distributed training environments. This is direct
+      work on AI models and systems, not supporting infrastructure
+      or data pipelines for others.
+  responsibilities:
+  - Develop end-to-end training and fine-tuning of Large Language Models (LLMs) across
+    open-source and closed-source ecosystems
+  - Architect and implement GraphRAG pipelines with knowledge graph representation
+    and retrieval for contextual grounding
+  - Design, train, and optimize semantic and dense vector embeddings for document
+    understanding, search, and retrieval
+  - Build and scale distributed training environments using NCCL and InfiniBand for
+    multi-GPU and multi-node training
+  - Apply reinforcement learning techniques (RLHF, RLAIF) to align model behavior
+    with human preferences and domain-specific goals
+  - Develop semantic retrieval systems with advanced document segmentation and indexing
+    strategies
+  - Collaborate with cross-functional teams to translate business needs into AI-driven
+    solutions and deploy them in production
+  use_cases:
+  - Enterprise document understanding and semantic search across healthcare data
+  - Graph-based knowledge retrieval enhanced with RAG for contextual grounding
+  - Healthcare domain-specific LLMs fine-tuned on medical and business data
+  - AI-driven health optimization solutions connecting people with care and resources
+  - Production AI systems for improving health outcomes and care delivery
+  skills:
+    genai: [OpenAI/Anthropic APIs, LLM fine-tuning, GraphRAG, Knowledge graphs, RAG,
+      DSPy]
+    ml: [Embedding models, PyTorch, RLHF, PPO, DPO, GRPO, LoRA, QLoRA, SFT, NCCL,
+      InfiniBand, Deep Learning, Transformers]
+    web: []
+    databases: [Semantic search, Vector databases, FAISS, Weaviate, Milvus]
+    data: [Document segmentation, OCR, Layout parsing]
+    cloud: [Azure ML, AWS]
+    ops: []
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9402266'
+  extracted_at: '2026-05-29T09:03:23.283377'

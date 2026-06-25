@@ -1,0 +1,61 @@
+company:
+  name: Experian
+  stage: Public
+  focus: |-
+    Global data and technology company across financial
+    services, healthcare, automotive, and insurance
+position:
+  title: Staff Backend AI Engineer, Remote
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role requires hands-on experience building agentic AI
+      systems, including agent orchestration with
+      LangGraph/AutoGen/CrewAI, tool/function calling, RAG
+      pipelines, and LLM integration patterns. The engineer
+      directly designs and implements agentic AI workflows as a
+      core responsibility, not merely supporting others' AI work.
+  responsibilities:
+  - Architect, build, and own high-throughput transactional platforms ensuring high
+    availability, fault tolerance, and sub-second performance at massive scale
+  - Lead end-to-end design of agentic AI workflows using orchestration frameworks
+    such as LangGraph, AutoGen, and CrewAI with tool-calling patterns and multi-agent
+    coordination on AWS
+  - Write production-grade Python and Go services and establish language-specific
+    idioms, patterns, and performance baselines across engineering teams
+  - Design and govern AWS-native infrastructure including ECS, EKS, Lambda, MSK, RDS
+    Aurora, DynamoDB, and SageMaker aligned with the AWS Well-Architected Framework
+  - Establish engineering standards including code review practices, test coverage,
+    CI/CD pipelines, and observability instrumentation
+  - Conduct and lead technical design reviews producing architecture decision records
+    and technical specs
+  - Guide proof-of-concept work for new technologies and evaluate production readiness
+    for engineering leadership
+  - Mentor and level up senior and mid-level engineers through structured code reviews,
+    pairing sessions, and technical coaching
+  use_cases:
+  - Large-scale transactional processing platforms handling millions of transactions
+    per second
+  - Agentic AI workflow automation using multi-agent coordination and tool-calling
+    patterns
+  - Retrieval-augmented generation (RAG) pipelines for LLM-powered applications
+  - Event-driven architectures for high-volume OLTP systems
+  skills:
+    genai: [LangGraph, AutoGen, CrewAI, Agent orchestration, Tool/function calling,
+      RAG pipelines, LLM integration patterns]
+    ml: []
+    web: [FastAPI, Pydantic, REST, gRPC]
+    databases: [PostgreSQL, Aurora, DynamoDB, Redis, ElasticSearch]
+    data: [Kafka, Event-driven architecture, Async processing patterns]
+    cloud: [AWS, AWS ECS, AWS EKS, AWS Lambda, AWS MSK, Amazon SageMaker, AWS EventBridge,
+      AWS S3, AWS SQS, AWS API Gateway, AWS CloudFront, AWS VPC]
+    ops: [Docker, Kubernetes, Terraform, AWS CDK, Helm, CI/CD, Jenkins, GitHub Actions,
+      Harness, Datadog, OpenTelemetry, CloudWatch, Distributed tracing]
+    languages: [Python, Go, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9813616'
+  extracted_at: '2026-06-25T19:51:11.955165'

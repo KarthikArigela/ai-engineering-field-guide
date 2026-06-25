@@ -1,0 +1,47 @@
+company:
+  name: G2i
+  stage: null
+  focus: Technical hiring marketplace for developers
+position:
+  title: Software Engineer, AI (Rust)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role involves ranking code snippets, refactoring AI-
+      generated code, and providing feedback for RLHF pipelines.
+      While it contributes to training LLMs, the work is
+      evaluating and improving model outputs rather than building,
+      training, or deploying models directly. The position focuses
+      on providing human feedback signals for reinforcement
+      learning, which is enabling work for AI systems rather than
+      hands-on AI development.
+  responsibilities:
+  - Compare and rank multiple code snippets, explaining which is best and why
+  - Repair and refactor AI-generated code for correctness, efficiency, and style
+  - Inject feedback including ratings, edits, and test results into the RLHF pipeline
+  - Maintain smooth operation of the RLHF feedback pipeline
+  - Identify logic errors, performance traps, and security issues in generated code
+  - Provide detailed written explanations justifying code quality decisions
+  use_cases:
+  - Train large language models to write production-grade code across multiple programming
+    languages
+  - Enable LLMs to propose, critique, and improve code similar to expert engineers
+  - Convert human engineering expertise into reward signals for reinforcement learning
+  - Generate and evaluate code through iterative feedback loops
+  - Improve model code generation through expert ranking and editing
+  skills:
+    genai: [RLHF]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Rust]
+    domains: []
+    other: [Code Review, Written Communication]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9427337'
+  extracted_at: '2026-05-29T09:05:56.493333'

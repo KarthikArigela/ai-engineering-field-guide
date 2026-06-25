@@ -1,0 +1,57 @@
+company:
+  name: OnePointFive
+  stage: null
+  focus: AI carbon emissions measurement research
+position:
+  title: AI/ML Systems Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is implementing measurement instrumentation and
+      data collection for LLM inference systems, not building,
+      training, or deploying the AI models themselves. The
+      engineer creates a Python testing harness to capture
+      power/telemetry data from edge devices and cloud GPUs where
+      models are already deployed via existing frameworks
+      (OpenVINO, vLLM, Triton). The work is
+      infrastructure/measurement-focused rather than model
+      development.
+  responsibilities:
+  - Design and build Python-based testing harness for inference runtime, energy consumption,
+    and power measurements across multiple hardware platforms
+  - Capture synchronized telemetry data using software-based estimation (CodeCarbon)
+    and on-die telemetry tools (RAPL, NVML, DCGM, HWiNFO64, μProf)
+  - Execute proof-of-concept phase on AMD Ryzen 7 Pro laptop, then scale methodology
+    to three edge devices and cloud GPU instance
+  - Provision and configure NVIDIA L4 cloud GPU instance with appropriate deployment
+    stacks (vLLM for LLMs, Triton/FastAPI for vision/audio/diffusion)
+  - Deliver analysis-ready datasets with validation checks for missing trials, telemetry
+    dropouts, thermal artifacts, and outlier flagging
+  - Create reproducibility package including harness code, environment specifications,
+    configurations, run logs, and comprehensive documentation
+  use_cases:
+  - Multi-modal AI workload emissions measurement comparing edge versus cloud LLM
+    inference
+  - Energy consumption and power telemetry collection across Intel Core Ultra with
+    NPU, AMD Ryzen AI with XDNA NPU, and NVIDIA L4 GPU platforms
+  - Six multi-modal AI tasks including basic queries, vision, audio, and diffusion
+    models using open-source models and Hugging Face datasets
+  - Hardware power instrumentation study producing industry publication on AI carbon
+    measurement with defensible methodology
+  skills:
+    genai: []
+    ml: [OpenVINO, Hugging Face]
+    web: [FastAPI, Lemonade Server]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CodeCarbon, Intel RAPL, NVIDIA NVML, DCGM, nvidia-smi, Intel SoC Watch,
+      VTune, AMD μProf, HWiNFO64, vLLM, Triton, Linux, Windows]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9323727'
+  extracted_at: '2026-05-29T09:00:14.988847'

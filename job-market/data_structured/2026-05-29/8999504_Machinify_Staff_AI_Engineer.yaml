@@ -1,0 +1,53 @@
+company:
+  name: Machinify
+  stage: Late-stage (deployed by 85+ health plans, 270M+ lives covered)
+  focus: |-
+    AI-powered healthcare payment intelligence platform for
+    health plans
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building LLM-powered products
+      including RAG pipelines, agents, prompt engineering, fine-
+      tuning (LoRA/QLoRA, SFT, DPO), and production LLM
+      infrastructure. The engineer works hands-on with foundation
+      models to create deployable AI systems, clearly fitting the
+      ai-first category.
+  responsibilities:
+  - Design and build LLM applications including RAG pipelines, agents, tool-use systems,
+    structured generation, and multi-step workflows
+  - Own prompt engineering and evaluation, treating evals and prompts as code
+  - Integrate foundation models (Claude, GPT, Gemini, open-weight Llama/Qwen/Mistral)
+    and select the right model for each use case
+  - Build production-grade LLM infrastructure including caching, streaming, retries,
+    fallbacks, cost controls, observability, and guardrails
+  - Fine-tune or distill models using LoRA/QLoRA, SFT, and DPO when prompting alone
+    is insufficient
+  - Partner with product and design on AI-specific UX patterns such as latency masking,
+    streaming UIs, confidence display, and human-in-the-loop workflows
+  use_cases:
+  - Healthcare payment intelligence and claims processing
+  - Maximizing financial outcomes for health plans
+  - Reducing healthcare costs through AI-driven automation
+  - Transparent and efficient payment continuum management
+  - LLM-powered structured data extraction and decision support for health plans
+  skills:
+    genai: [RAG pipelines, AI agents, Prompt engineering, Structured generation, Function
+        calling, LoRA/QLoRA, SFT (Supervised Fine-Tuning), DPO, LangGraph, MCP (Model
+        Context Protocol), OpenAI API (GPT), Claude API, Gemini API, Embedding models]
+    ml: []
+    web: []
+    databases: [Vector search, pgvector, Pinecone, Weaviate]
+    data: []
+    cloud: []
+    ops: [vLLM, TGI, SGLang, LLM observability, Temporal, LLM evaluation, LLM red-teaming]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8999504'
+  extracted_at: '2026-05-29T08:48:36.893957'

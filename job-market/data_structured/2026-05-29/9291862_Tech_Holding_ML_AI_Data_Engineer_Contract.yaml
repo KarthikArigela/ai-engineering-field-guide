@@ -1,0 +1,54 @@
+company:
+  name: Tech Holding
+  stage: null
+  focus: |-
+    Full-service consulting firm delivering predictable outcomes
+    and high-quality solutions
+position:
+  title: ML / AI Data Engineer (Contract)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on building data pipelines and
+      infrastructure that ENABLE ML model training rather than
+      directly building or training models. The engineer designs
+      scalable data systems, processes multimodal data, and
+      optimizes compute environments - all supporting
+      infrastructure work for ML teams rather than hands-on model
+      development.
+  responsibilities:
+  - Design, deploy, and scale large-scale ML and data processing pipelines across
+    cloud infrastructure
+  - Build systems to ingest, process, and serve 250,000+ hours of multimodal data
+    (video, audio, metadata)
+  - Architect and optimize GPU-based compute environments for distributed training
+    and inference
+  - Develop high-throughput backend systems for video ingestion from desktop and mobile
+    platforms
+  - Implement distributed processing workflows including job scheduling, fault tolerance,
+    and resource allocation
+  - Design and build human-in-the-loop and automated annotation systems for data quality
+  - Translate ML and multimodal research into scalable, production-grade cloud architectures
+  - Collaborate with ML, data, and engineering teams to deliver end-to-end data workflows
+  use_cases:
+  - Large-scale video and audio multimodal data processing for AI training
+  - High-throughput video ingestion systems from desktop and mobile platforms
+  - GPU-based distributed training and inference compute environments
+  - Human-in-the-loop annotation and data labeling workflows
+  - Scalable data pipeline architectures for multimodal AI systems
+  skills:
+    genai: []
+    ml: [GPU computing, Distributed training, ML pipelines]
+    web: []
+    databases: [Data lakes, Object storage, Distributed file systems]
+    data: [Spark, Ray, Kafka, Airflow, Distributed systems]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Inference systems]
+    languages: [Python, Scala]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9291862'
+  extracted_at: '2026-05-29T08:59:20.937573'

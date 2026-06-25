@@ -1,0 +1,51 @@
+company:
+  name: Scorpion Enterprises
+  stage: null
+  focus: Technology and services for local businesses
+position:
+  title: Senior AI Software Engineer, Python
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building and operating LLM
+      orchestration workloads, LLM inference pipelines, and the
+      runtime infrastructure for real-time AI processing. While it
+      leans heavily on infrastructure and reliability engineering,
+      the engineer is hands-on with LLM inference infrastructure
+      and orchestration, making it ai-first.
+  responsibilities:
+  - Own reliability of the event-driven messaging layer including backpressure management,
+    idempotency, dead-letter handling, and retry strategies
+  - Build and operate infrastructure that runs LLM orchestration workloads at scale
+  - Own the operational data layer for the CI runtime including state management,
+    session persistence, and real-time data access patterns
+  - Own observability for the CI platform including structured logging, distributed
+    tracing with OpenTelemetry, and error tracking with Sentry
+  - Maintain and harden interfaces between CI and downstream platforms including contract
+    testing, versioning, and failure handling
+  - Conduct code reviews and mentor team members on Python engineering practices and
+    production readiness
+  - Own production support for CI infrastructure including on-call responsibilities
+    and incident response
+  use_cases:
+  - Conversational intelligence platform for customer interactions
+  - Real-time LLM inference pipelines with streaming responses
+  - Event-driven messaging across multiple communication channels
+  - Local business marketing and customer engagement automation
+  skills:
+    genai: [LLM orchestration, Streaming responses]
+    ml: []
+    web: [Pydantic]
+    databases: [NoSQL data modeling]
+    data: []
+    cloud: [Azure]
+    ops: [LLM inference infrastructure, Event-driven architecture, Backpressure management,
+      Idempotency, Dead-letter handling, OpenTelemetry, Sentry, Distributed tracing]
+    languages: [Python, async/await concurrency]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9874610'
+  extracted_at: '2026-06-25T19:54:23.167883'

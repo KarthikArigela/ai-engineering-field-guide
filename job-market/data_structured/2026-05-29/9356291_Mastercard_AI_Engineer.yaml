@@ -1,0 +1,61 @@
+company:
+  name: Mastercard
+  stage: Public
+  focus: Global payments technology and financial services
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on technical leadership role requiring
+      direct work with LLMs, agentic systems, RAG pipelines, and
+      model fine-tuning. The role involves building, deploying,
+      and optimizing production-grade generative AI systems from
+      prototype to production.
+  responsibilities:
+  - Architect and lead development of multi-agent AI systems using frameworks such
+    as LangGraph, CrewAI, and AutoGen for enterprise-scale autonomous reasoning
+  - Design and operationalize multimodal generative AI pipelines unifying text, image,
+    tabular, and graph data using transformer architectures
+  - Build production-grade RAG and Graph-RAG systems integrating vector databases
+    and knowledge graphs for semantic retrieval and entity-aware reasoning
+  - Lead LLM fine-tuning, prompt engineering, and model alignment strategies including
+    RLHF, PEFT, LoRA, and instruction tuning for enterprise use cases
+  - Establish robust LLMOps and MLOps pipelines on Databricks using MLflow, feature
+    stores, and continuous retraining workflows
+  - Develop high-performance Python backend services for LLM inference orchestration,
+    async job handling, and streaming responses
+  - Engineer state, memory, and context management subsystems enabling temporal reasoning
+    and session continuity across agents
+  - Implement Responsible AI practices including bias detection, hallucination mitigation,
+    explainability dashboards, and safety guardrails
+  use_cases:
+  - Operational intelligence and business insights for enterprise decision-making
+  - Multi-agent systems for autonomous reasoning and adaptive decision-making at enterprise
+    scale
+  - Semantic search and entity-aware reasoning over proprietary payment and transaction
+    data
+  - Cross-modal intelligence unifying text, image, tabular, and graph data for financial
+    analytics
+  - Hybrid AI systems combining traditional ML with LLMs for interpretable, explainability-first
+    decisions
+  - Responsible AI applications ensuring transparency and fairness in financial services
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, RAG, Graph-RAG, OpenAI, Anthropic,
+      Gemini, prompt engineering, chain-of-thought reasoning, function calling, agent
+        memory architectures, GPT-4o]
+    ml: [Hugging Face, LLM fine-tuning, RLHF, PEFT, LoRA, instruction tuning, vector
+        embeddings, semantic search, PyTorch, TensorFlow, BERT, CLIP, LLaVA, T5, Whisper]
+    web: [FastAPI]
+    databases: [Pinecone, pgvector, OpenSearch, Neo4j, AWS Neptune]
+    data: [Databricks]
+    cloud: [AWS SageMaker, AWS Bedrock, Azure OpenAI, GCP Vertex AI]
+    ops: [MLflow, Weights & Biases, LLMOps, MLOps, feature stores, model lineage tracking]
+    languages: [Python, async programming, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9356291'
+  extracted_at: '2026-05-29T09:01:11.215958'

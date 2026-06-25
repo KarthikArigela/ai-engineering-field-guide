@@ -1,0 +1,60 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family location sharing and safety services
+position:
+  title: Senior Machine Learning Operations Engineer II (AI Native)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an MLOps engineering role that directly involves
+      deploying, scaling, and serving ML models and LLMs in
+      production, including hands-on work with inference
+      frameworks like vLLM, Triton, and TGI. The role bridges
+      model development and operations by actively building the
+      infrastructure to train, deploy, and monitor AI/ML systems,
+      which constitutes working directly ON AI systems. The
+      mention of "agentic AI" best practices and LLM deployment
+      further confirms ai-first classification.
+  responsibilities:
+  - Design, implement, and manage automated CI/CD and Continuous Training (CT) pipelines
+    for ML model development, evaluation, and delivery
+  - Containerize, deploy, and scale machine learning models as high-availability microservices
+    or batch processing workflows
+  - Establish unified logging, alerting, and monitoring solutions to track model inference
+    performance, latency, data drift, and concept drift
+  - Provision and optimize cloud-based ML infrastructure including GPU/CPU computing
+    clusters using Infrastructure as Code
+  - Collaborate with product development teams to drive infrastructure adoption through
+    SDK/API development and automation
+  - Implement robust lineage tracking for data, code, and model artifacts to ensure
+    compliance, reproducibility, and security across the ML lifecycle
+  - Work with data engineering to improve data ecosystem and scalable pipelines including
+    streaming tools like Kafka and Flink for low-latency online inference
+  - Act as a mentor and thought leader, defining best practices in ML engineering,
+    scalable ML service ops, and agentic AI
+  use_cases:
+  - Real-time crash detection with emergency dispatch for family safety
+  - Location sharing and geospatial services for family coordination
+  - Subscription lifecycle optimization and user acquisition
+  - Targeted advertising and partnership revenue optimization
+  - Safe driver reporting and behavior analysis
+  - Online inference for low-latency ML predictions in a consumer mobile app
+  skills:
+    genai: [LLM Deployment, Agentic AI]
+    ml: [SparkML, Synapse ML]
+    web: [FastAPI]
+    databases: []
+    data: [Airflow, dbt, Apache Spark, PySpark, Databricks, Apache Kafka, Apache Flink,
+      Ray, Dask]
+    cloud: [Amazon EKS, Google GKE, AWS, GCP]
+    ops: [Docker, Kubernetes, MLflow, Kubeflow, Terraform, vLLM, Triton Inference
+        Server, TGI, Feast, Tecton, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [Git]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9633516'
+  extracted_at: '2026-06-25T19:49:31.680124'

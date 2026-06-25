@@ -1,0 +1,57 @@
+company:
+  name: Ascertain
+  stage: Series A
+  focus: AI agents for healthcare administrative automation
+position:
+  title: Applied AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building, deploying, and
+      operating AI agents in production. The engineer will develop
+      voice agents that handle IVR navigation, multi-turn dialogue
+      with human reps, and structured data capture using LLMs,
+      speech-to-text, and text-to-speech components. The role
+      involves designing agentic systems, implementing evaluation
+      frameworks for LLM-based systems, and owning these systems
+      end-to-end in production environments.
+  responsibilities:
+  - Design, build, and ship voice agents that conduct outbound calls to payers handling
+    IVR navigation, hold queues, multi-turn dialogue, and structured data capture
+  - Integrate telephony, speech-to-text, text-to-speech, and LLM components into reliable
+    end-to-end production pipelines
+  - Build evaluation and QA infrastructure to measure agent quality, catch regressions,
+    and continuously improve performance
+  - Develop and maintain APIs and integrations connecting agent outputs to prior authorization
+    workflows
+  - Instrument and monitor call outcomes, agent behavior, latency, and failure modes
+    to drive system improvements
+  - Partner with operations and clinical teams to identify high-leverage workflows
+    and translate them into agent designs
+  use_cases:
+  - Automated prior authorization status checking through voice agents that call payers
+  - IVR navigation and hold queue management for automated phone interactions with
+    insurance payers
+  - Multi-turn dialogue systems for interacting with human representatives at payer
+    organizations
+  - Structured data capture from phone conversations for integration into healthcare
+    workflows
+  - Document understanding and processing for healthcare administrative tasks
+  - Internal tooling automation for healthcare operations and revenue cycle management
+  skills:
+    genai: [LLM applications, RAG systems, AI agents, Speech-to-text, Text-to-speech,
+      IVR systems, Conversational agents]
+    ml: []
+    web: [RESTful APIs, Twilio]
+    databases: [SQL, NoSQL databases]
+    data: []
+    cloud: []
+    ops: [CI/CD, Docker, Kubernetes, Monitoring, Observability, Evaluation frameworks]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9227772'
+  extracted_at: '2026-05-29T08:58:31.264794'

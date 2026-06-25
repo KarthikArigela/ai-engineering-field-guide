@@ -1,0 +1,61 @@
+company:
+  name: LINQ (linq.com)
+  stage: PE-backed, ~$100M ARR
+  focus: |-
+    K-12 cloud software for school district operations
+    management
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely focused on building, deploying, and
+      shipping production AI agents — multi-step, tool-using LLM
+      workflows using frameworks like LangGraph, OpenAI Agents
+      SDK, and MCP servers. The job description explicitly states
+      this is about building agents, not ML training or research.
+      The Principal AI Engineer will design, ship, and iterate on
+      agents that automate real workflows across the company.
+  responsibilities:
+  - Embed with cross-functional teams (starting with GTM and CX) to map workflows,
+    identify friction, and ship agents that automate real work
+  - Design and ship multi-step, tool-using agents using foundation model APIs, agent
+    frameworks, and MCP servers with production-ready quality
+  - Build reusable agent skills, patterns, and primitives that can be adopted across
+    teams — not disposable one-off solutions
+  - Implement evals, guardrails, and instrumentation for all agents; define metrics
+    and dashboards to prove impact
+  - Help define LINQ's internal agent platform including orchestration patterns, skills
+    library, and evaluation discipline
+  - Enable internal AI champions with agent templates, reusable skills, evaluation
+    harnesses, and MCP integrations through workshops and office hours
+  - Partner with CTO on AI strategy and ensure all agents meet FERPA, COPPA, PCI,
+    and CCPA compliance requirements
+  - Evaluate and recommend AI tooling with clear build-vs-buy-vs-integrate recommendations
+  use_cases:
+  - Sales pipeline hygiene and RFP support automation via agents
+  - Customer support deflection and ticket triage
+  - Knowledge management automation for CX teams
+  - Internal workflow automation across finance, HR, nutrition management, and payments
+    functions
+  - Reusable internal agent platform for cross-team AI adoption
+  - Agent-based automation of administrative tasks across K-12 district operations
+  skills:
+    genai: [LangGraph, OpenAI Agents SDK, Anthropic tool use patterns, MCP (Model
+        Context Protocol), 'Foundation model APIs (OpenAI, Anthropic)', Agent evaluation
+        and guardrails, Prompt engineering, Multi-step agent orchestration]
+    ml: []
+    web: [React, Node.js, REST APIs]
+    databases: []
+    data: [Data pipelines]
+    cloud: [AWS]
+    ops: [Evaluation harnesses, Dashboarding and observability]
+    languages: [TypeScript, JavaScript, Python]
+    domains: []
+    other: [FERPA compliance, COPPA compliance, PCI compliance, CCPA compliance, SOC
+        2]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9056850'
+  extracted_at: '2026-05-29T08:49:36.901007'

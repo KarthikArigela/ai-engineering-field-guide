@@ -1,0 +1,53 @@
+company:
+  name: NXP Semiconductors
+  stage: Public
+  focus: Semiconductors and edge AI processors
+position:
+  title: Lead Software Engineer – AI Operators
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role focuses on developing and optimizing low-level
+      AI/ML operator kernels for custom edge AI hardware (ISA-
+      based processors). It involves kernel-level systems
+      programming in C/C++ and assembly for ML operators, which is
+      traditional ML/DL performance engineering rather than
+      LLM/agent-based GenAI work. The role works directly on the
+      performance optimization of ML compute kernels, making it
+      ml-first.
+  responsibilities:
+  - Define and lead the evolution of AI operator/kernel architecture to maximize performance
+    and efficiency on custom ISA-based hardware
+  - Design and develop high-performance AI operator modules/kernels for edge AI processors
+  - Develop, optimize, and maintain kernel-level code in C/C++ and assembly for AI/ML
+    operators
+  - Utilize advanced profiling and debugging tools to diagnose and resolve performance
+    bottlenecks
+  - Collaborate with hardware architects, compiler teams, and application developers
+    for seamless integration of kernel components
+  - Drive proof of concepts for new operators and solutions to improve software stack
+    performance and stability
+  - Mentor and guide developers technically to ensure on-time deliverables
+  - Evaluate cutting-edge technologies and methodologies to enhance AI operator capabilities
+  use_cases:
+  - Edge AI/ML operator kernel optimization for custom ISA-based processors
+  - High-performance compute kernels for AI inference on embedded hardware
+  - Hardware-software co-design for AI hardware acceleration
+  - Performance tuning and bottleneck resolution in edge AI systems
+  skills:
+    genai: []
+    ml: [AI/ML operator development, ISA optimization, Compiler optimizations]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Performance tuning, GDB, Gprof, Profiling and debugging tools]
+    languages: [C/C++, Assembly]
+    domains: []
+    other: [Kernel development, OS internals, Memory management, Hardware/software
+        co-design]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9657931'
+  extracted_at: '2026-06-25T19:50:58.532442'

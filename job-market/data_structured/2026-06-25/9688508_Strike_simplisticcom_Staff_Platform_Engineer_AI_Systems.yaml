@@ -1,0 +1,59 @@
+company:
+  name: Strike (simplistic.com)
+  stage: Startup (funded)
+  focus: Bitcoin payments and financial services platform
+position:
+  title: Staff Platform Engineer, AI Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic systems
+      infrastructure — MCP servers, agent
+      authentication/authorization patterns, tiered autonomy
+      frameworks, and the connective tissue for agentic systems to
+      interact with real infrastructure. While it's not model
+      training, the engineer is hands-on implementing agent
+      tooling, function calling, MCP, and eval patterns, making it
+      ai-first.
+  responsibilities:
+  - Define and drive the internal AI strategy and vision across the organization
+  - Build a unified, secure platform layer connecting AI tools (Copilot Agents, Gemini,
+    Claude, agentic CLIs, n8n) to core systems via internal MCP servers
+  - Design tiered agent autonomy security patterns ranging from advisory read-only
+    to autonomous action-taking with verifiable state and revert mechanisms
+  - Implement authentication, authorization, and human-in-the-loop safeguards for
+    agentic access following Zero Trust principles
+  - Identify Units of Toil across teams and target them with appropriate AI-driven
+    abstractions
+  - Embed with engineering teams to unblock workflows and drive adoption of AI-native
+    practices
+  - Serve as the organizational expert on frontier AI tools and patterns
+  use_cases:
+  - Secure agent infrastructure for autonomous and semi-autonomous AI agents interacting
+    with production financial systems
+  - Internal AI platform unifying multiple LLM tools and agent runtimes into a cohesive,
+    governed ecosystem
+  - Agent authentication and authorization framework enabling tiered autonomy with
+    safety guarantees
+  - Automated workflow acceleration through agentic CLIs and n8n integrations for
+    engineering teams
+  - Pragmatic AI tooling to reduce operational toil across the organization
+  skills:
+    genai: [MCP (Model Context Protocol), RAG, Function calling, AI evaluations (evals),
+      AI as a Judge, Agent self-improvement, Copilot Agents, Gemini API, Claude API,
+      Agentic CLIs, Prompt engineering]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [GCP, Google Kubernetes Engine (GKE)]
+    ops: [Helm, ArgoCD, Infrastructure as Code, Docker, Kubernetes, Zero Trust security,
+      Shift-Left security, Secrets management, Least-privilege access]
+    languages: [C#/.NET, Python, TypeScript]
+    domains: []
+    other: [n8n, Distributed systems]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9688508'
+  extracted_at: '2026-06-25T19:46:43.913841'

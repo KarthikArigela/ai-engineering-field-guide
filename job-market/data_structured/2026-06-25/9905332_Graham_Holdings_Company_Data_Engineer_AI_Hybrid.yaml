@@ -1,0 +1,59 @@
+company:
+  name: Graham Holdings Company
+  stage: Public
+  focus: Education and test preparation services
+position:
+  title: Data Engineer, AI (Hybrid)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a data engineering position building
+      pipelines and lakehouse transformations in Databricks to
+      deliver analytics-ready data. While it supports AI/ML
+      initiatives through data preparation, feature engineering
+      datasets, and RAG-style data preparation, the core work is
+      data pipeline construction and governance, not directly
+      building, training, or deploying ML models or agents.
+  responsibilities:
+  - Design, build, and operate reliable ELT/ETL pipelines to ingest, transform, and
+    curate analytics-ready datasets
+  - Own the Lakehouse transformation layer in Databricks including workflows, notebooks,
+    and jobs using Spark/SQL/Python
+  - Build data quality controls, validation, reconciliation, and observability (monitoring,
+    alerting, SLAs) for pipelines and jobs
+  - Optimise performance and cost through efficient compute usage, incremental processing,
+    partitioning, and tuning of Spark/SQL workloads
+  - Support AI/ML initiatives through data preparation, pipeline build-out, feature/training
+    dataset curation, and integration into production patterns
+  - Collaborate on GenAI projects including prompt engineering iteration support,
+    evaluation datasets, and telemetry/metrics
+  - Apply security-by-design principles and governance requirements including data
+    classification, retention, lineage, and access controls
+  - Contribute to Lakehouse design decisions (data layout, medallion architecture,
+    Delta patterns, access strategies) with AI team and stakeholders
+  use_cases:
+  - Lakehouse data transformation and analytics-ready dataset delivery for Kaplan
+    Australia
+  - Data pipeline construction for reporting, analytics, and AI/ML consumption
+  - Feature and training dataset preparation for ML model enablement
+  - RAG-style data preparation including document ingestion, chunking, and metadata
+    enrichment
+  - Prompt engineering evaluation and performance telemetry for GenAI solutions
+  - Data governance, security, and compliance in a regulated education environment
+  skills:
+    genai: [RAG, Prompt Engineering]
+    ml: [Embeddings]
+    web: []
+    databases: [Vector Search]
+    data: [Databricks, Apache Spark, ETL/ELT Pipelines, Data Modelling, Medallion
+        Architecture, Delta Lake, Data Quality Management]
+    cloud: [AWS]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [Data Governance, Jira, Confluence, Microsoft 365, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9905332'
+  extracted_at: '2026-06-25T19:57:04.831000'

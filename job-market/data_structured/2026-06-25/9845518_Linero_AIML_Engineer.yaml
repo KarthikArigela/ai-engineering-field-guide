@@ -1,0 +1,56 @@
+company:
+  name: Linero
+  stage: Venture-backed (early stage)
+  focus: Operational infrastructure for sensitive technology controls
+position:
+  title: AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for designing AI
+      architecture, fine-tuning foundation models, building RAG
+      pipelines, and orchestrating multi-agent systems in
+      production environments. The engineer works hands-on with
+      models, agents, and inference infrastructure — not merely
+      supporting AI built by others.
+  responsibilities:
+  - Design and own Linero's AI architecture, selecting, fine-tuning, and deploying
+    models for each use case within controlled, private environments
+  - Build and maintain RAG pipelines that allow models to reason over sensitive, proprietary
+    enterprise data without exposing it to public APIs
+  - Fine-tune foundation models on domain-specific data to achieve high classification
+    accuracy and reliability
+  - Design and orchestrate a fleet of specialized AI agents for document processing,
+    tagging, and external data monitoring
+  - Build evaluation frameworks, benchmarks, and observability tooling to ensure model
+    reliability, accuracy, and auditability in production
+  - Own private inference infrastructure ensuring all AI runs in controlled environments
+    meeting stringent security requirements
+  - Collaborate with platform and infrastructure teams to securely integrate and scale
+    AI systems across the product
+  use_cases:
+  - Reasoning over sensitive enterprise data in controlled, private environments
+  - Document classification and information extraction from proprietary enterprise
+    documents
+  - Automated document tagging and processing via specialized AI agents
+  - Monitoring and analyzing external data sources via AI agents
+  - Private inference for national security and industrial infrastructure applications
+  skills:
+    genai: [RAG pipelines, Multi-agent systems, Agent orchestration, Retrieval architecture,
+      Chunking strategies]
+    ml: [Fine-tuning LLMs, Foundation models, Embedding models, Model evaluation,
+      Information extraction, Document classification]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Private inference infrastructure, Model observability, Air-gapped/restricted
+        environment deployment]
+    languages: [Python]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9845518'
+  extracted_at: '2026-06-25T19:55:04.494108'

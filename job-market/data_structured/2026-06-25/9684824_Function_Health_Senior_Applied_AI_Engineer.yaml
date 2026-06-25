@@ -1,0 +1,59 @@
+company:
+  name: Function Health
+  stage: Series B
+  focus: AI-powered health diagnostics and insights platform
+position:
+  title: Senior Applied AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and operating production
+      multi-agent systems, integrating frontier LLMs, implementing
+      RAG/retrieval, and optimizing model inference for
+      latency/cost. The engineer owns end-to-end agentic AI
+      systems including orchestration, tool use, memory, and evals
+      — classic ai-first work.
+  responsibilities:
+  - Architect and build stateful, graph-based agent workflows with tool use, planning,
+    and memory
+  - Integrate LLMs and multimodal models via structured I/O (JSON Schema, Pydantic
+    validators) and function/tool calling
+  - Build high-reliability APIs and streaming services for real-time inference, speech,
+    and vision
+  - Own production readiness including tracing, logging, metrics, rate limiting, circuit
+    breakers, and SLOs
+  - Stand up eval pipelines including offline golden sets, LLM-as-judge, online A/B
+    testing, and CI regression tests
+  - Implement retrieval and memory systems using hybrid search, vector/graph retrieval,
+    semantic caches, and long-horizon context
+  - Optimize cost and latency through model routing, prompt and tool selection, quantization,
+    and KV cache strategies
+  - Mentor engineers through design docs and architecture decisions
+  use_cases:
+  - Concierge health agent that reasons over labs, imaging, and wearable signals to
+    recommend next steps
+  - Turning longitudinal health datasets into actionable decisions rather than passive
+    dashboards
+  - Early signal detection across 160+ biomarkers to catch issues before they become
+    diagnoses
+  - Clinically-safe AI recommendations gated by evaluation and clinician review
+  - Real-time multimodal health interactions including speech and vision pipelines
+  skills:
+    genai: [LangGraph, PydanticAI, DSPy, LlamaIndex, RAG, Multi-agent systems, Function/tool
+        calling, Prompt engineering, Graph RAG, LLM-as-judge, Frontier LLM integration,
+      Pydantic]
+    ml: [PyTorch, Fine-tuning]
+    web: [FastAPI, Flask, REST API design, GraphQL, WebRTC]
+    databases: [PostgreSQL, pgvector, Pinecone, Weaviate, Milvus]
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Kubernetes, Terraform, Docker, OpenTelemetry, GitHub Actions, CI/CD, GPU
+        scheduling/autoscaling, Model routing and quantization]
+    languages: [Python, Go, SQL]
+    domains: [Streaming ASR, Low-latency TTS, Vision pipelines, Healthcare AI]
+    other: [HIPAA compliance, SOC 2 compliance, GDPR compliance]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9684824'
+  extracted_at: '2026-06-25T19:45:15.008034'

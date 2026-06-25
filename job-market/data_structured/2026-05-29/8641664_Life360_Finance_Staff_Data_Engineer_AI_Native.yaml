@@ -1,0 +1,59 @@
+company:
+  name: Life360
+  stage: Public
+  focus: |-
+    Family safety and location sharing mobile app with GPS
+    tracking devices
+position:
+  title: Finance Staff Data Engineer, AI Native
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Staff Data Engineer role focused on building data
+      platforms, ingestion/egress pipelines, and CI/CD
+      infrastructure for Finance & Accounting. While the team uses
+      LLM tools (Claude Code, Cursor) for development velocity and
+      the candidate is expected to leverage AI tools, the core
+      work is data engineering and platform building — not
+      building, training, fine-tuning, or deploying AI/ML models.
+      The AI usage is as a development aid, not the primary
+      product focus.
+  responsibilities:
+  - Architect and evolve scalable data ingestion and egress frameworks and pipelines
+    with strong data quality monitoring
+  - Architect and evolve CI/CD processes including LLM-driven code reviews with context
+    awareness through data diffing and lineage analysis
+  - Architect delivery architecture of data assets to external partners to reduce
+    manual operational overhead
+  - Enhance LLM development support capabilities by creating tools, skills, and agents
+    for improved debugging and code generation
+  - Design and implement distributed data processing systems using Spark and Databricks
+    on AWS
+  - Establish clear ingestion and integration boundaries that eliminate single points
+    of failure
+  - Design logical and physical data models balancing flexibility, performance, governance,
+    and scalability
+  - Harden pipelines with monitoring, alerting, SLAs, and recovery mechanisms while
+    mentoring engineers across the team
+  use_cases:
+  - Finance data warehouse ingestion and transformation for SOX compliance
+  - Automated data asset delivery to reduce month-end close manual overhead
+  - LLM-assisted code generation and review for data engineering development velocity
+  - Data quality monitoring and validation across distributed data pipelines
+  - Cross-system data integration from multiple sources into finance reporting destinations
+  skills:
+    genai: [Claude Code, Cursor]
+    ml: []
+    web: []
+    databases: []
+    data: [Databricks, Apache Spark, Airflow, dbt, Fivetran, Data Modeling]
+    cloud: [AWS, VPC Networking]
+    ops: [Terraform, CI/CD, GitHub Actions, Docker]
+    languages: [Python, SQL]
+    domains: []
+    other: [SOX Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8641664'
+  extracted_at: '2026-05-29T08:48:18.936709'

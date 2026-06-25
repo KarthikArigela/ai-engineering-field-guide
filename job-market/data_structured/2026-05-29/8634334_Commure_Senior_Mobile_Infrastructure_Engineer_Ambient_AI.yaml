@@ -1,0 +1,57 @@
+company:
+  name: Commure
+  stage: Late-stage (Series C+, $7B valuation)
+  focus: |-
+    AI operating system for healthcare — ambient AI, clinical
+    documentation, and revenue cycle management
+position:
+  title: Senior Mobile Infrastructure Engineer, Ambient AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on mobile infrastructure (Flutter, iOS,
+      Android) — building the mobile platform foundation for an AI
+      healthcare product. The engineer works ON mobile
+      architecture, audio capture pipelines, and offline
+      reliability, not ON the AI/ML models themselves. AI is the
+      product domain, but the role is mobile platform engineering
+      that enables AI features built by other teams.
+  responsibilities:
+  - Own and evolve the Flutter-based mobile platform including native iOS and Android
+    integrations for audio capture, background execution, offline reliability, and
+    observability
+  - Build foundational mobile frameworks for audio recording, caching, state management,
+    networking, sync, and diagnostics tooling
+  - Strengthen mobile reliability by reducing crashes, improving release readiness,
+    and preventing regressions
+  - Partner with product, backend, AI, and design teams to identify infrastructure
+    needs and unblock product development
+  - Shape technical direction for mobile architecture as the Ambient AI product line
+    scales
+  - Contribute to adjacent surfaces like Chrome extension and web app where mobile
+    and AI infrastructure needs intersect
+  - Mentor engineers and help raise the technical bar across the mobile team
+  use_cases:
+  - Ambient clinical AI that captures and structures doctor-patient conversations
+    in real time
+  - Real-time audio streaming and transcription for healthcare documentation
+  - Offline-first mobile clinical workflows with background sync and recovery
+  - AI-assisted clinical workflows including agentic actions and multimodal UX
+  - Automated clinical documentation reducing administrative burden for clinicians
+  skills:
+    genai: []
+    ml: []
+    web: [Flutter, Riverpod]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Mobile observability, Firebase Crashlytics, Sentry, Datadog, Fastlane]
+    languages: [Swift, Kotlin, Dart, TypeScript, JavaScript]
+    domains: [HIPAA compliance]
+    other: [iOS, Android, Audio streaming, Offline-first architecture, Real-time audio
+        capture, Cross-platform mobile development, Mobile architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8634334'
+  extracted_at: '2026-05-29T08:47:28.804150'

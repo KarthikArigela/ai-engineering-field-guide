@@ -1,0 +1,55 @@
+company:
+  name: Telnyx
+  stage: Public
+  focus: |-
+    Global connectivity and communications platform with AI-
+    powered developer APIs
+position:
+  title: Software Engineer, AI Squads
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a platform engineering role that builds
+      infrastructure, tools, and services supporting AI products
+      rather than directly building/training models. The role
+      focuses on microservices, APIs, observability, data systems,
+      and platform foundations that enable ML teams, with possible
+      work on inference pipelines but primarily as platform
+      support rather than core model development.
+  responsibilities:
+  - Build, test, and deploy scalable microservices for AI-powered systems, including
+    text and voice processing
+  - Design developer-friendly APIs, agents and internal tools that make AI easy to
+    use across the Telnyx product ecosystem
+  - Contribute to AI inference, embeddings, and platform services that support real-time
+    and low-latency workloads
+  - Optimize performance, reliability, and observability in production environments
+  - Collaborate closely with Product, Infrastructure, and ML teams to bring features
+    from ideation to production
+  - Troubleshoot, debug, and support critical systems running in production
+  - Participate in code reviews and uphold high engineering and operational standards
+  use_cases:
+  - Store and serve vector embeddings at scale
+  - Use open-source models with hosted inference infrastructure
+  - Deploy multimodal AI features across text, voice, and storage seamlessly
+  - Text and voice processing systems
+  - Real-time low-latency AI workloads
+  - Developer APIs for AI-powered products
+  skills:
+    genai: [RAG, Retrieval Augmented Generation]
+    ml: [PyTorch, Transformers, DeepSpeed, LLM optimization, quantization, speculative
+        decoding]
+    web: [microservices, API design, REST, GraphQL, FastAPI]
+    databases: [vector databases, embeddings]
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, CI/CD, Prometheus, Jaeger, observability, monitoring,
+      vLLM, Ray, Ray Core, Ray Serve, Ray Train]
+    languages: [Python, Go, Rust, async programming, concurrency, parallel execution]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9538449'
+  extracted_at: '2026-05-29T09:09:49.298258'

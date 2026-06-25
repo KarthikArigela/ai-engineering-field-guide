@@ -1,0 +1,137 @@
+job_id: 9499039
+title: Principal Software Engineer, AI Platform Engineering
+company: Saviynt
+location: El Segundo, USA
+work_type: FULL_TIME
+description: |
+  ABOUT SAVIYNT
+  
+  Saviynt is a leader in identity security, delivering an AI-
+  powered platform that governs and secures access to
+  applications, data, and business processes for global
+  enterprises and government institutions. Built for the AI
+  era, Saviynt helps organizations move faster — securely and
+  compliantly.
+  
+  
+  
+  ABOUT THE ROLE
+  
+  You set the architectural direction for how training data
+  flows, evolves, and is governed across the AI Platform. You
+  define the standards ML engineers and scientists build on,
+  and ensure every training signal is tenant-isolated, PII-
+  free, and traceable from source to model.
+  
+  
+  
+  WHAT YOU'LL OWN
+  
+  - AI Data Lake on GCS: bucket layout, raw → silver → gold tier
+    separation, CMEK encryption, lifecycle rules
+  - Batch pipelines: Spark on Dataproc for TB-scale feature
+    backfills, Iceberg compaction, and daily S3→GCS
+    incremental sync
+  - Streaming pipelines: Apache Beam on Dataflow for sub-5-min
+    CDC ingestion with exactly-once semantics and PII
+    assertion gates
+  - Schema registry: Avro / Protobuf schema versioning,
+    compatibility modes, and migration playbooks for safe
+    schema evolution
+  - Orchestration: Flyte as primary DAG layer — task authoring
+    standards, domain isolation, retry policies, DataCatalog
+    memoization; evaluate Kubeflow Pipelines where relevant
+  - Multi-tenancy: strict per-tenant GCS prefix isolation, quota
+    policies, and cross-tenant contamination validation
+  - Data Anonymizer and Data Labeler microservices: strip PII
+    and attach ML labels before signals leave each customer
+    environment
+  - Feature store: Feast offline (GCS Parquet) and online
+    (Redis) with point-in-time correctness and < 0.1%
+    consistency SLA
+  - Vector database: operate Pgvector (Cloud SQL) for POC and
+    Qdrant on GKE for production-scale embedding storage;
+    design index strategies (IVFFlat, HNSW) and manage ANN
+    query latency SLAs
+  - RAG data pipeline: build embedding generation pipelines that
+    chunk, encode, and upsert document embeddings into the
+    vector store; own the data refresh cadence and staleness
+    SLAs for retrieval context
+  - Service APIs: expose data platform services (feature
+    serving, embedding upsert, schema validation) over HTTPS
+    with mTLS and gRPC where low-latency streaming is required
+  - Synthetic data pipelines for dev/staging where real customer
+    data is not permitted
+  - Data quality gates: Great Expectations / dbt checks as Flyte
+    tasks, blocking on schema and PII-absence failures
+  
+  
+  
+  YOU'LL THRIVE HERE IF YOU HAVE
+  
+  - 8+ years of data engineering at production scale across
+    multiple companies
+  - Demonstrated principal impact: platform standards you
+    defined adopted org-wide, or major cross-team
+    pipeline/schema migrations you led
+  - Data lake ownership (essential): you have designed and
+    operated a production data lake end-to-end — storage
+    layout, partitioning strategy, tiered retention
+    (hot/warm/cold), table format (Iceberg or Delta Lake),
+    compaction, and access control; not just consumed one
+  - Deep Spark (PySpark / Scala): executor tuning, shuffle
+    diagnosis, Iceberg table maintenance
+  - Hands-on Beam / Dataflow: windowing, exactly-once, side
+    inputs, autoscaling
+  - Schema registry experience: Protobuf / Avro compatibility
+    rules, breaking-change migrations in production
+  - Orchestration at scale: Flyte, Kubeflow Pipelines, Airflow,
+    or Prefect — operated in production, ideally benchmarked
+    two
+  - Multi-tenant data architecture: per-tenant isolation as a
+    hard requirement, not a post-hoc concern
+  - Feature store operations: Feast or Tecton, point-in-time
+    joins, online/offline consistency
+  - Vector databases: Pgvector or Qdrant in production — index
+    tuning, ANN search, embedding upsert pipelines
+  - RAG data fundamentals: chunking strategies, embedding model
+    selection, retrieval quality evaluation, and context
+    freshness management
+  - API transport: gRPC and HTTPS/mTLS for service-to-service
+    communication; comfortable defining proto contracts and
+    managing certificate lifecycle
+  - Bachelor's degree in Computer Science, Engineering, or a
+    related field, or equivalent practical experience or
+    equivalent military experience
+  
+  
+  
+  NICE TO HAVE
+  
+  - Differential privacy or k-anonymity for ML training datasets
+  - Open source contributions: Feast, Great Expectations, Apache
+    Beam, or dbt
+  - Familiarity with IAM / access governance data: entitlements,
+    provisioning events, access graphs
+  - Iceberg or Delta Lake at petabyte scale
+  
+  
+  
+  WHY JOIN SAVIYNT
+  
+  - Work on a large-scale, Kubernetes-based SaaS platform
+  - Solve challenging cloud and reliability problems at scale
+  - Collaborate with strong engineers in a reliability-focused
+    culture
+  - Competitive compensation, benefits, and growth opportunities
+  
+  
+  
+  SECURITY & COMPLIANCE
+  
+  This role requires adherence to Saviynt's information
+  security and privacy policies, including annual security
+  training.
+posted_date: 2026-05-26
+url: "https://www.builtinla.com/job/principal-software-engineer-ai-platform-engineering/9499039"
+source: Built In

@@ -1,0 +1,56 @@
+company:
+  name: JetBrains
+  stage: Public
+  focus: Developer tools and IDEs
+position:
+  title: Staff/Senior AI Engineer, AI for Code
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building and
+      deploying coding agents. The engineer will work directly on
+      model training, fine-tuning, context engineering, tool use,
+      and evaluation of LLM-powered agents for production use.
+  responsibilities:
+  - Build production-ready coding agents and agentic workflows for real developer
+    tasks inside JetBrains products
+  - Turn promising model capabilities into dependable product behavior through prompt
+    design, context construction, fine-tuning, and instruction-tuning
+  - Design and improve the agent loop itself, including tool use, execution strategy,
+    safeguards, and task completion quality
+  - Create evaluation suites and quality infrastructure for agent behavior, including
+    online and offline evaluations, regression checks, and release criteria
+  - Build feedback loops from real usage, using logs, user signals, and edge cases
+    to improve data, evaluations, and agent behavior
+  - Work with both hosted frontier APIs and self-hosted or open-weight models, making
+    pragmatic decisions based on capability, latency, reliability, privacy, and cost
+  - Collaborate closely with product managers, software engineers, ML engineers, and
+    researchers to ship features end to end
+  - Help define the technical direction for future work, especially in ambiguous areas
+    requiring strong judgment
+  use_cases:
+  - Coding agents that understand codebases and plan and execute multi-step tasks
+  - Agentic workflows that collaborate with developers and ship reliable results inside
+    real development environments
+  - Context engineering for coding models to improve task completion quality
+  - Tool use and execution strategies for autonomous coding assistance
+  - Evaluation and quality assurance for LLM-powered coding agents
+  - Feedback-driven improvement of agent behavior from real user usage
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, prompt engineering, RAG, agents, function
+        calling, OpenAI API, Anthropic API, PEFT, LoRA, instruction-tuning]
+    ml: [PyTorch, Hugging Face, model training, fine-tuning, preference optimization]
+    web: [FastAPI, REST, GraphQL]
+    databases: [Postgres, Redis, Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector]
+    data: []
+    cloud: [AWS, Azure, GCP, SageMaker, Vertex AI, Azure AI Studio]
+    ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, LangSmith, evaluation,
+      benchmarking, VLLM, Triton, TensorRT]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9441411'
+  extracted_at: '2026-05-29T09:05:52.473590'

@@ -1,0 +1,55 @@
+company:
+  name: Mistral AI
+  stage: Series A
+  focus: Open-source LLM models and AI platform for enterprises
+position:
+  title: Applied AI Engineer, Site Reliability Engineer - EMEA
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an SRE role focused on building and operating
+      reliability frameworks for Mistral AI's customer
+      deployments. While the role operates within the Applied AI
+      team and involves managing LLM/model-serving infrastructure,
+      the core work is site reliability engineering
+      (observability, incident response, security operations,
+      Kubernetes fleet management) — not building, training, fine-
+      tuning, or deploying AI models directly. The SRE enables AI
+      solutions to run reliably at scale.
+  responsibilities:
+  - Design and build reliability frameworks across a fleet of Mistral platforms and
+    applications, including SLO templates, runbooks, and observability
+  - Operate Tier-1 customer environments ensuring SLO compliance, owning on-call and
+    incident response
+  - Productize deployment, security, and scaling processes for Applied AI solutions
+    including automated provisioning and security baselines
+  - Own security operations for customer-side deployments including CVE response,
+    supply-chain integrity controls, and secure-config enforcement
+  - Serve as L3 escalation partner with Technical Support and champion high-signal
+    post-mortems
+  - Manage multi-tenant Kubernetes operations at scale including namespace segmentation,
+    network policy, and RBAC
+  use_cases:
+  - Reliable deployment and operation of LLM-based AI solutions for enterprise customers
+  - Scalable fleet management of AI platforms across Mistral-hosted and customer-hosted
+    environments
+  - Security and supply-chain integrity for production AI deployments
+  - Observability and incident response for customer-facing AI infrastructure
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubernetes, Prometheus, Grafana, OpenTelemetry, Loki, Tempo, Signoz, Terraform,
+      Ansible, Docker, Linux, LLM model serving, CI/CD, 'Supply-chain security (SBOM,
+        cosign, SLSA)', RBAC, Network policy]
+    languages: [Python, Golang]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9546548'
+  extracted_at: '2026-06-25T19:42:01.298969'

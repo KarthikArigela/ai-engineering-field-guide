@@ -1,0 +1,53 @@
+company:
+  name: Pakket AI
+  stage: Series A
+  focus: |-
+    Warehouse operations intelligence using cameras and AI for
+    real-time tracking
+position:
+  title: Founding AI Backend Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an AI-support role because the candidate works with
+      a computer vision pipeline and deploys AI systems, but does
+      not build, train, or fine-tune models. The CV pipeline uses
+      pre-existing YOLO-based detection, and the role focuses on
+      debugging, deployment, backend infrastructure, and system
+      reliability rather than ML model development.
+  responsibilities:
+  - Debug and improve the computer vision pipeline including YOLO-based detection
+    and geometric positioning
+  - Own backend reliability with FastAPI, PostgreSQL, async SQLAlchemy, and edge-to-cloud
+    data pipeline
+  - Build and ship customer-facing features including alerts, dashboards, historical
+    playback, and zone monitoring
+  - Manage edge server deployments at warehouse sites including Linux configuration,
+    process management, and remote access
+  - Containerize and harden the system using Docker for consistent deployments across
+    edge hardware
+  - Identify and fix performance bottlenecks across compute, VRAM, storage, and networking
+  - Work with the founder on architecture decisions as the system scales from one
+    warehouse to many
+  use_cases:
+  - Real-time visibility into warehouse operations and activity
+  - Automated alerts for delays, congestion, and detention risk
+  - Historical analytics on warehouse performance
+  - Live tracking of forklifts, people, trailers, and yard movement
+  - System of record for the warehouse floor
+  skills:
+    genai: []
+    ml: [OpenCV, YOLO/Ultralytics, CUDA, GPU compute]
+    web: [FastAPI, WebSockets, pub/sub]
+    databases: [PostgreSQL, SQLAlchemy]
+    data: [streaming architectures]
+    cloud: [AWS, GCP, Render, DigitalOcean]
+    ops: [Docker, Linux, TensorRT]
+    languages: [Python]
+    domains: []
+    other: [RTSP, FFmpeg, HLS]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9354127'
+  extracted_at: '2026-05-29T09:00:58.476884'

@@ -1,0 +1,49 @@
+company:
+  name: G2i
+  stage: null
+  focus: |-
+    Platform connecting developers with technical roles and
+    companies
+position:
+  title: Software Engineer, AI (Java)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily about providing human feedback
+      (ranking, rating, editing code) for RLHF pipelines to train
+      LLMs, not building or deploying models directly. The
+      engineer's work feeds into the training process but does not
+      involve hands-on model development, fine-tuning, or
+      productionization. They are experts in code quality who
+      serve as human trainers for AI systems rather than AI system
+      builders.
+  responsibilities:
+  - Compare and rank multiple code snippets, explaining which is best and why
+  - Repair and refactor AI-generated code for correctness, efficiency, and style
+  - Inject feedback including ratings, edits, and test results into the RLHF pipeline
+  - Maintain smooth operation of the reinforcement learning from human feedback loop
+  - Identify logic errors, performance traps, and security issues in generated code
+  - Provide detailed written explanations for code quality judgments
+  use_cases:
+  - Training large language models to write production-grade code
+  - Improving AI code generation through human expert feedback
+  - RLHF pipeline for code generation models
+  - Teaching models to propose, critique, and improve code
+  - Multi-language code generation and refinement
+  skills:
+    genai: []
+    ml: [RLHF]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Java]
+    domains: []
+    other: [code review, constraint programming, written communication, asynchronous
+        work]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9427347'
+  extracted_at: '2026-05-29T09:05:10.775938'

@@ -1,0 +1,284 @@
+job_id: 9661539
+title: Senior AI Platform Engineer
+company: PAR Technology
+location: 
+work_type: FULL_TIME
+company_size: 2,000 Employees
+description: |
+  For over four decades, PAR Technology Corporation (NYSE:
+  PAR) has been a leader in restaurant technology, empowering
+  brands worldwide to create lasting connections with their
+  guests. Our innovative solutions and commitment to
+  excellence provide comprehensive software and hardware that
+  enable seamless experiences and drive growth for over
+  100,000 restaurants in more than 110 countries. Embracing
+  our "Better Together" ethos, we offer Unified Customer
+  Experience solutions, combining point-of-sale, digital
+  ordering, loyalty and back-office software solutions as well
+  as industry-leading hardware and drive-thru offerings. To
+  learn more, visit partech.com or connect with us on
+  LinkedIn, X (formerly Twitter), Facebook, and Instagram.
+  
+  Position Description:
+  
+  PAR is looking for a Senior AI Platform Engineer to be the
+  technical cornerstone of our newly formed AI Platform team.
+  You will design, build, and operate a production-grade,
+  multi-tenant AI Platform on AWS using LLM orchestration
+  services, tools and libraries, enabling engineering teams in
+  PAR Restaurant group to build, deploy, and scale AI agents
+  and agentic workflows that surface directly to customers.
+  
+  
+  
+  The ideal candidate is deeply technical with 7–8 years of
+  hands-on ML/AI engineering experience, especially with
+  building AI platform components, and equally effective as a
+  communicator, team player and a collaborator. You write
+  production code, define architectural standards, and can
+  explain a policy-as-code framework, a RAG pipeline, and a
+  team sprint plan with equal clarity.
+  
+  
+  
+  This is an ideal role for someone who is hands-on, obsessed
+  with performance and scalability, and deeply experienced
+  with productionizing multi-agent systems, from graph-based
+  orchestration and real-time streaming to RAG pipelines and
+  multi-model routing at production scale.
+  
+  
+  
+  Position Location: Gurugram / Jaipur, India (Hybrid)
+  
+  Reports To:  Director of AI and Analytics
+  
+  What We’re Looking For:
+  
+   AI Platform Engineering – Core Orchestration & Runtime
+  
+  Build the PAR Restaurant AI Platform - a dual-purpose system
+  that at build time gives product engineering teams the APIs,
+  SDKs, tool registry, and knowledgebase services to author
+  and deploy agents, and at runtime hosts those agents in
+  production across all PAR product lines with multi-tenant
+  isolation, security guardrails, content safety, governance,
+  and compliance controls
+  
+  Design and build production-grade GenAI microservices (e.g.
+  FastAPI) and stateful multi-agent workflows, including
+  selection of the appropriate orchestration pattern (model-
+  driven, graph-based etc.) based on auditability, latency,
+  and complexity requirements of each agent class
+  
+  Design and operate an automated content ingestion pipeline
+  that includes content upload, chunking, embedding model
+  selection, vector storage, and OpenSearch Serverless
+  indexing - exposing knowledgebase retrieval as a fully
+  managed, self-service capability for all product teams
+  
+  
+  
+  AI Platform Engineering – Tooling & Developer Experience
+  
+  Build and maintain the platform APIs and developer tooling,
+  including MCP-compatible tool interfaces, real-time
+  streaming APIs (SSE / WebSocket), and agent configuration
+  SDKs, that allow engineers to create, deploy, run, and
+  observe multi-agent workflows with configurable guardrails
+  and content safety controls per agent class
+  
+  Own internal AI SDK ergonomics for both audiences: agent-
+  authoring engineers and application-backend engineers
+  consuming the streaming invocation API
+  
+  Build and maintain the Platform Onboarding Copilot (Slack-
+  integrated); produce clear, actionable technical
+  documentation and architectural decision records (ADRs);
+  present platform strategy to non-technical stakeholders
+  
+  Own the platform observability stack as a product, not an
+  afterthought. Provides platform tools for engineers to fetch
+  observability metrics, and distributed traces auto-
+  provisioned on every agent deployment; an LLM eval suite
+  (e.g. LangSmith, Ragas) that gates CI/CD on quality
+  regressions; and per-tenant cost attribution with spend
+  alerting giving every engineering team full visibility into
+  their inference consumption
+  
+  Define quality bars and eval suites per agent class; no
+  agent reaches production without a documented, passing score
+  threshold, thereby establish evaluation as a first-class
+  engineering discipline across the team
+  
+  Governance, Compliance, Multi-Tenancy
+  
+  Design multi-tenant isolation from day one, including
+  namespace isolation, tenant_id injection, and policy-as-code
+  enforcement ensuring there is no cross-brand data or context
+  pollution.
+  
+  Own the policy-as-code library for PAR-specific policy sets
+  covering PAR Restaurant product lines while ensuring
+  platform compliance with SOC 2 Type II, PCI DSS, GDPR, and
+  CCPA; author and maintain the GDPR deletion pipeline
+  
+  Define and implement content safety guardrails: grounding
+  checks and content filtering mandatory for all customer-
+  facing agents
+  
+  Act as the quality and cost-economics gatekeeper for all
+  agents entering pre-production, such as running standardised
+  eval suites, enforcing agent best practices, and validating
+  inference cost-per-run against approved thresholds before
+  any agent is cleared for production deployment
+  
+  Collaborate with DevOps (owners of CI/CD automation) through
+  a well-defined infrastructure contract and build version
+  promotion pipeline (e.g. GitHub Actions)
+  
+  
+  
+  Unleash your potential: What you will be doing and owning:
+  
+   7–8 years of hands-on Machine Learning / AI Engineering
+  experience, with at least 3 years focused on production
+  GenAI or LLM systems
+  
+  Master's in Computer Science, Machine Learning, or a closely
+  related field
+  
+  Demonstrated experience designing and building multi-tenant,
+  production-grade ML platforms or developer-facing AI
+  infrastructure
+  
+  Proven track record of shipping ML systems end-to-end, from
+  architecture and deployment through to operational
+  observability, eval pipelines, and cost management
+  
+  
+  
+  
+  
+  Technical Skills
+  
+  AWS (Deep): API Gateway, Amazon Bedrock AgentCore, Lambda,
+  S3, CloudFront, EKS (Kubernetes + IRSA), OpenSearch
+  Serverless, KMS, SageMaker, Step Functions, WAF,
+  PrivateLink, CloudWatch, IAM
+  
+  GenAI & LLM Frameworks: LangChain, LangGraph, LlamaIndex,
+  Hugging Face Transformers, OpenAI API, Anthropic API, AWS-
+  native GenAI services
+  
+  RAG & Knowledge Systems: Vector stores (FAISS, ChromaDB,
+  Pinecone, Weaviate), OpenSearch Serverless - designing end-
+  to-end ingestion, chunking, embedding, and hybrid retrieval
+  pipelines
+  
+  ML Ops: MLflow (tracking, model registry, job
+  orchestration), Databricks (PySpark, Delta Lake, notebooks),
+  automated retraining workflows
+  
+  Programming: Expert-level Python (FastAPI / Flask / Django);
+  proficient TypeScript / Node.js (Express / NestJS); clean
+  code, OOP, scalable architecture
+  
+  Data Stores: Delta Lake, Elasticsearch, Redis, NoSQL,
+  columnar stores (Databricks, BigQuery)
+  
+  CI/CD & DevOps Collaboration: GitHub Actions; familiarity
+  with Terraform Cloud / HCP Terraform workflows; container-
+  native development on EKS
+  
+  Observability & Monitoring: CloudWatch (metrics, logs,
+  dashboards, alarms), distributed tracing (AWS X-Ray or
+  equivalent), LLM evaluation frameworks (LangSmith, Ragas, or
+  similar)
+  
+  Security & Policy: Policy-as-code frameworks, IAM policy
+  design, multi-tenant namespace isolation, PCI DSS and GDPR
+  technical controls
+  
+  Soft Skills
+  
+  Exceptional written and verbal communication - you can
+  explain a policy-as-code enforcement model to a security
+  auditor and a RAG pipeline to a product manager in the same
+  meeting
+  
+  Strong collaboration instincts - platform engineers serve
+  internal customers; you measure success by adoption, not
+  just uptime
+  
+  Emerging leadership skills - you have mentored engineers,
+  led design reviews, or owned a technical domain end-to-end
+  
+  Comfort with ambiguity - this is a greenfield platform with
+  real architectural decisions to make, not a maintenance role
+  
+  Flexibility to occasionally collaborate with teams in
+  California (PST) and Toronto (EST) for cross-time zone syncs
+  
+  Bonus Points
+  
+  Familiarity with restaurant, hospitality, or retail domains
+  
+  Experience building or fine-tuning domain-specific LLMs or
+  embedding models
+  
+  Experience building enterprise-scale Text-to-SQL
+  applications
+  
+  Multi-agent orchestration and A2A protocols; familiarity
+  with workflow automation tools (e.g. n8n) for MCP-compatible
+  tool interoperability
+  
+  Experience building LLM-specific observability beyond
+  standard infra monitoring, e.g. hallucination tracking,
+  groundedness scoring, per-session cost and cost attribution
+  
+  Contributions to open-source ML or GenAI projects
+  
+  Experience with policy-as-code frameworks for cloud access
+  control at scale
+  
+  Familiarity with defining and executing sprint plans,
+  technical roadmaps, managing weekly standups and quarterly
+  OKRs for a team
+  
+  Prior people management or tech lead experience
+  
+  
+  
+  Interview Process:
+  
+  Interview #1: Phone Screen with Talent Acquisition Team
+  
+  Interview #2: Video interview with the Technical Teams (via
+  MS Teams/F2F)
+  
+  Interview #3: Video interview with the Hiring Manager (via
+  MS Teams/F2F)
+  
+  
+  
+  PAR is proud to provide equal employment opportunities (EEO)
+  to all employees and applicants for employment without
+  regard to race, color, religion, sex, national origin, age,
+  disability or genetics. We also provide reasonable
+  accommodations to individuals with disabilities in
+  accordance with applicable laws. If you require reasonable
+  accommodation to complete a job application, pre-employment
+  testing, a job interview or to otherwise participate in the
+  hiring process, or for your role at PAR, please contact
+  accommodations@partech.com. If you’d like more information
+  about your EEO rights as an applicant, please visit the US
+  Department of Labor's website.
+industries:
+  - Food
+  - Software
+  - Hospitality
+posted_date: 2026-06-09
+url: "https://builtin.com/job/senior-ai-platform-engineer/9661539"
+source: Built In

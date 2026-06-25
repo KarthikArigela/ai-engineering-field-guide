@@ -1,0 +1,51 @@
+company:
+  name: Everpure
+  stage: Public
+  focus: Data storage and AI automation
+position:
+  title: Application Engineer (AI Automation)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building AI agentic systems — MCP
+      servers, RAG pipelines, multi-agent orchestration, and
+      agent-to-agent communication. The engineer is hands-on with
+      designing and deploying AI agents that interact with
+      enterprise platforms, not merely supporting infrastructure
+      for others' AI work.
+  responsibilities:
+  - Architect and implement MCP servers to expose Salesforce services (Quote, Opportunity,
+    Renewal) and other enterprise platforms to AI agents
+  - Decompose data models of enterprise applications like Zuora, Salesforce, and ServiceNow
+    to build effective schemas for AI interaction
+  - Develop and optimize RAG workflows and AI agents that execute complex tasks autonomously
+  - Lead agentic orchestration focusing on multi-agent collaboration and Agent-to-Agent
+    communication
+  - Build and maintain secure, scalable REST API integrations across disparate cloud
+    environments
+  - Provide technical leadership as a subject matter expert for AI automation, guiding
+    automation strategy and mentoring junior engineers
+  use_cases:
+  - Autonomous Quote-to-Cash and renewal automation across Salesforce, Zuora, and
+    ServiceNow
+  - Agent-to-Agent negotiation between Sales, Billing, and Contract agents to close
+    renewals without manual data entry
+  - RAG-based retrieval over enterprise data models for intelligent business workflows
+  - Enterprise platform integration with AI agents via Model Context Protocol (MCP)
+    servers
+  skills:
+    genai: [Model Context Protocol (MCP), RAG, AI Agents, Multi-Agent Orchestration]
+    ml: []
+    web: [REST APIs, OAuth]
+    databases: [Pinecone, Weaviate, Milvus]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python, JavaScript, TypeScript, Java]
+    domains: [SalesOps Automation]
+    other: [Salesforce Sales Cloud, Apex, Zuora, ServiceNow]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9901309'
+  extracted_at: '2026-06-25T19:56:54.929971'

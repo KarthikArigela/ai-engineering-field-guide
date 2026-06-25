@@ -1,0 +1,53 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Airline transportation and travel services
+position:
+  title: Software Engineer – AI Ops
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an AI Ops/SRE role focused on operating and
+      supporting AI workloads, not building or deploying models.
+      The engineer monitors system health, responds to incidents,
+      and manages infrastructure for AI applications, partnering
+      with senior engineers to diagnose problems rather than
+      directly working on models or AI systems.
+  responsibilities:
+  - Operate and support AWS-based AI workloads at L1/L2 level as first responder for
+    production issues
+  - Monitor system health using cloud-native services, observability tools, and automation
+  - Partner with senior engineers to diagnose production problems and deliver effective
+    fixes
+  - Respond to incidents and improve reliability of AI and agentic applications in
+    production
+  - Apply software development and testing knowledge to solve a range of operational
+    problems
+  - Document system and application aspects for future upgrades and maintenance
+  - Collaborate with customers and cross-functional departments to communicate project
+    statuses
+  - Mentor junior team members on operational best practices
+  use_cases:
+  - AI platform operations and support for airline applications
+  - Agentic AI applications running in production environments
+  - Vector database-backed AI systems for enterprise workloads
+  - LLM-based applications requiring reliable production operations
+  - Back-office workflow automation using AI technologies
+  - Real-time monitoring and incident response for AI inference workloads
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, Ragas, DeepEval, Promptfoo, LLMs, agentic
+        frameworks]
+    ml: []
+    web: []
+    databases: [DynamoDB, vector databases]
+    data: []
+    cloud: [AWS, Lambda, ECS, EKS, API Gateway, S3]
+    ops: [Datadog, CloudWatch, OpenTelemetry, Terraform, Docker, Kubernetes, CI/CD]
+    languages: [Python, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394086'
+  extracted_at: '2026-05-29T09:04:09.400696'

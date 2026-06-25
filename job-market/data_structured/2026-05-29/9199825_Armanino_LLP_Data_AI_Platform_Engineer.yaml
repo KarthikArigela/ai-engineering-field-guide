@@ -1,0 +1,63 @@
+company:
+  name: Armanino LLP
+  stage: Public (large accounting/consulting firm)
+  focus: |-
+    Accounting, consulting, and technology services with data
+    analytics and AI solutions
+position:
+  title: Data & AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating cloud
+      data/analytics platforms (Microsoft Fabric, Snowflake,
+      Databricks) and supporting BI delivery. While the job
+      mentions "AI/ML/GenAI enablement" as a nice-to-have, the
+      core responsibilities are platform operations,
+      infrastructure maintenance, CI/CD workflows, and
+      governance—supporting others who work on AI rather than
+      directly building models. The role is an early-career
+      engineering position that enables data and analytics work
+      through platform reliability and operational runbooks.
+  responsibilities:
+  - Support day-to-day operations for cloud data platforms including workspace setup,
+    access requests, configuration, and troubleshooting
+  - Implement and maintain platform guardrails including naming conventions, access
+    patterns, and cost awareness
+  - Contribute to CI/CD workflows for data and analytics assets including pipelines,
+    jobs, semantic models, and reports
+  - Assist teams with onboarding and enablement across core platforms (Fabric, Snowflake,
+    or Databricks) and BI tools (Power BI or Tableau)
+  - Support basic performance triage for query failures, refresh issues, and workspace
+    capacity constraints
+  - Build and maintain runbooks with standard operating procedures, known issues,
+    and escalation paths
+  - Participate in incident response support including triage and contribute to preventative
+    improvements
+  - Follow least-privilege access practices and secure secret handling using Key Vault
+    or secret scopes
+  use_cases:
+  - Cloud data platform operations and infrastructure management for Snowflake, Microsoft
+    Fabric, or Databricks
+  - Business intelligence delivery and analytics support using Power BI or Tableau
+  - Data governance and security implementation with PII handling, row-level security,
+    and access controls
+  - CI/CD automation for data pipelines, analytics jobs, and report deployments
+  - Platform reliability and incident response for data and analytics workloads
+  - AI/ML enablement through model lifecycle support and MLOps infrastructure
+  skills:
+    genai: [Azure OpenAI, AI Search]
+    ml: []
+    web: []
+    databases: [Snowflake]
+    data: [Databricks, Power BI, Tableau, Data Governance]
+    cloud: [Microsoft Fabric, Key Vault]
+    ops: [CI/CD, Git, MLOps]
+    languages: [Python, PowerShell, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9199825'
+  extracted_at: '2026-05-29T08:57:01.387698'

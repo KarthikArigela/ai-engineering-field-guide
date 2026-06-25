@@ -1,0 +1,139 @@
+job_id: 9632751
+title: "Staff Software Engineer - Backend & AI Infra"
+company: MLabs
+location: USA
+work_type: FULL_TIME
+description: |
+  Staff Software Engineer - Backend & AI Infra
+  
+  Remote | Full-time Location: Based in US to GMT timezones
+  
+  Compensation: Competitive Compensation Package
+  
+  Our client is a high-growth technology firm. They are
+  seeking a Staff Software Engineer to spearhead two critical
+  domains: the core agent runtime and backend infrastructure
+  powering a high-frequency trading fleet, and the
+  comprehensive migration of model hosting and agent
+  deployment to in-house, proprietary infrastructure.
+  
+  This is a foundational, high-impact building role. The
+  successful candidate will design and implement the backend
+  services, runtime engines, and deployment systems that
+  enable a fleet of autonomous agents to operate with superior
+  speed, reliability, and intelligence. By moving away from
+  third-party LLM providers and hosted platforms, this role
+  will establish the sovereign infrastructure necessary for
+  the next generation of autonomous financial software.
+  
+  Key Responsibilities
+  
+  Agent Runtime & Backend Development
+  
+  - Plugin Runtime Ownership: Lead the evolution of the per-
+    agent process, migrating from a distributed Go/Python
+    hybrid to a centralized, high-performance Go service
+    utilizing Postgres state and real-time websocket price
+    feeds.
+  - Rules Engine Engineering: Build a YAML-configurable "Scanner
+    Gateway" to bridge signal production and execution,
+    allowing for complex scoring and filtering without direct
+    code manipulation.
+  - Advanced Execution Systems: Develop and maintain the
+    RatchetStop Backend, a centralized profit-trailing service
+    capable of sub-second evaluation and websocket-based order
+    execution to protect capital even when agents are offline.
+  - Data & Connectivity: Manage the Model Context Protocol (MCP)
+    server bridging agents to platform tools, and oversee a
+    high-throughput data pipeline (Redis, Postgres,
+    ClickHouse) for real-time market intelligence ingestion.
+  
+  Model & Agent Hosting Migration
+  
+  - Infrastructure Sovereignty: Lead the technical execution of
+    migrating agents from third-party platforms to a custom-
+    built, Senpi-hosted environment featuring isolated
+    workspaces and state persistence.
+  - Model Serving: Evaluate and implement the transition from
+    external LLM APIs (Anthropic, Google) to self-hosted
+    inference, optimizing for telemetry capture and
+    performance.
+  - Telemetry & Feedback Loops: Architect systems to capture
+    every agent decision and score, creating a self-
+    reinforcing loop where the fleet learns and improves from
+    collective performance data.
+  - Deployment Pipelines: Build robust CI/CD pipelines for zero-
+    downtime rollouts, ensuring that updates to scanner logic
+    or runtime patches do not interrupt active market
+    positions.
+  
+  Infrastructure & Operations
+  
+  - System Reliability: Design monitoring and alerting
+    frameworks to detect agent failures, state corruption, or
+    authentication expirations before they impact financial
+    performance.
+  - Cloud Orchestration: Manage AWS/EKS environments using
+    Infrastructure-as-Code (IaC).
+  - Incident Response: Own the operational health of the fleet,
+    acting as the primary responder for high-stakes trading
+    system incidents.
+  
+  
+  
+  IInterview Process
+  
+  - Founder / CEO Interview: Introduction to the vision and
+    strategic goals.
+  - Take-Home Test: A practical assessment of technical design
+    and coding capabilities.
+  - Technical Interview: A deep dive into systems architecture
+    and engineering expertise.
+  - Final Interview: Cultural alignment and final technical
+    synthesis.
+  
+  Requirements
+  
+  - Technical Essentials
+  
+  - Preferred Qualifications
+  
+  Benefits
+  
+  Due to the high volume of applications we anticipate, we
+  regret that we are unable to provide individual feedback to
+  all candidates. If you do not hear back from us within 4
+  weeks of your application, please assume that you have not
+  been successful on this occasion. We genuinely appreciate
+  your interest and wish you the best in your job search.
+  
+  Commitment to Equality and Accessibility:
+  
+  At MLabs, we are committed to offer equal opportunities to
+  all candidates. We ensure no discrimination, accessible job
+  adverts, and providing information in accessible formats.
+  Our goal is to foster a diverse, inclusive workplace with
+  equal opportunities for all. If you need any reasonable
+  adjustments during any part of the hiring process or you
+  would like to see the job-advert in an accessible format
+  please let us know at the earliest opportunity by emailing
+  human-resources@mlabs.city.
+  
+  MLabs Ltd collects and processes the personal information
+  you provide such as your contact details, work history,
+  resume, and other relevant data for recruitment purposes
+  only. This information is managed securely in accordance
+  with MLabs Ltd’s Privacy Policy and Information Security
+  Policy, and in compliance with applicable data protection
+  laws. Your data may be shared only with clients and trusted
+  partners where necessary for recruitment purposes. You may
+  request the deletion of your data or withdraw your consent
+  at any time by contacting legal@mlabs.city.
+industries:
+  - Artificial Intelligence
+  - Blockchain
+  - Information Technology
+  - Consulting
+posted_date: 2026-06-05
+url: "https://www.builtinla.com/job/staff-software-engineer-backend-ai-infra/9632751"
+source: Built In

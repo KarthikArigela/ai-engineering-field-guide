@@ -1,0 +1,50 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing platform for AI and accelerated computing
+position:
+  title: Senior Software Engineer - AI Inference
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building and optimizing LLM
+      inference engines (vLLM, SGLang) to run on NVIDIA GPUs. The
+      engineer will contribute upstream to inference runtimes,
+      optimize CUDA kernels, improve KV-cache efficiency, and
+      implement batching/scheduling policies—all core work on
+      AI/LLM systems.
+  responsibilities:
+  - Contribute features, fixes, and optimizations upstream to vLLM/SGLang including
+    authoring PRs, participating in reviews, and writing benchmarks and tests
+  - Implement and optimize inference-runtime capabilities including batching, scheduling
+    policies, streaming, request lifecycle management, and KV-cache efficiency (paging/sharding)
+  - Profile and improve hot paths across layers from Python orchestration to C++/CUDA
+    kernels using data-driven optimization
+  - Improve multi-GPU inference performance and reliability through parallelism strategies,
+    communication patterns, and resource utilization
+  - Build and maintain performance and correctness regression tests to prevent slowdowns
+    across model and hardware configurations
+  - Collaborate with model, platform, and SRE teams to translate production requirements
+    into upstreamable solutions
+  use_cases:
+  - High-throughput, low-latency LLM serving at scale on NVIDIA GPUs
+  - Open-source LLM inference engine optimization (vLLM, SGLang)
+  - Multi-GPU distributed inference performance and reliability
+  - Production LLM deployment with improved throughput and tail latency
+  skills:
+    genai: [KV-cache optimization, LLM inference serving, Quantization-aware serving,
+      Speculative decoding]
+    ml: [CUDA, PyTorch, Kernel fusion]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, SGLang, Triton, NCCL, GPU profiling, Benchmarking]
+    languages: [Python, C++]
+    domains: []
+    other: [Distributed systems, InfiniBand, NVLink, Open-source collaboration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9050456'
+  extracted_at: '2026-05-29T08:49:54.101739'

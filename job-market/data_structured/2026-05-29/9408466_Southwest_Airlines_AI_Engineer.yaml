@@ -1,0 +1,65 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Airline transportation and customer service
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role is hands-on building agentic AI systems -
+      implementing task-oriented agents with tool routing,
+      RAG/retrieval pipelines, embeddings, and working directly
+      with LLMs and agentic frameworks (LangGraph, AWS Bedrock
+      Agents). This is core AI engineering work on deploying and
+      operating AI models/agents in production.
+  responsibilities:
+  - Design, build, and operate task-oriented agents with planner/executor patterns,
+    tool routing, human-in-the-loop checkpoints, fallbacks, and circuit breakers
+  - Design, develop, and productionize retrieval and grounding pipelines including
+    RAG, structured APIs, metadata/knowledge graphs, chunking, summarization, embeddings
+    lifecycle, and relevance tuning
+  - Develop and document modular system and instruction prompts, manage versioned
+    prompt libraries, run A/B variants, and document promotion criteria
+  - Collaborate with AgentOps to define and implement per-use-case evaluation suites
+    covering functional, behavioral, safety, latency, and cost metrics
+  - Automate offline and online evaluations and wire evaluation gates into CI/CD pipelines
+  - Implement PII redaction, policy-as-code checks, guardrails, and compliant audit
+    trails across agents and context pipelines
+  - Optimize context size, caching, rerankers, model selection, and tool routing to
+    reduce cost per successful task
+  - Prepare and maintain schemas and data contracts, batch and stream ETL for context
+    stores, embedding jobs, and freshness SLAs
+  - Integrate runtime frameworks such as LangGraph/AgentCore and Bedrock Agents/Guardrails
+    with enterprise systems
+  - Maintain agent cards, runbooks, and playbooks; contribute templates and internal
+    libraries for repeatable delivery
+  use_cases:
+  - Customer-facing AI experiences that simplify journeys and enable faster, more
+    intuitive interactions across digital channels
+  - Enterprise search and retrieval augmented generation for customer support and
+    commercial operations
+  - Internal AI tools that make enterprise teams more effective through practical
+    agentic AI solutions
+  - Task-oriented agents for automating operational workflows with human-in-the-loop
+    safeguards
+  - Safe and compliant AI interactions with PII redaction and audit trails for regulated
+    airline industry
+  skills:
+    genai: [LangGraph, LangChain, AWS Bedrock Agents, RAG, prompt engineering, agents,
+      agentic frameworks]
+    ml: [embeddings]
+    web: []
+    databases: [vector databases, pgvector, OpenSearch k-NN, Redshift]
+    data: [Kafka, Flink, ETL]
+    cloud: [AWS Bedrock, AWS SageMaker, AWS Lambda, AWS S3, AWS VPC]
+    ops: [AWS Bedrock Guardrails, Docker, Kubernetes, CI/CD, Infrastructure as Code,
+      Git, unit/integration tests, observability tooling, tracing and evaluation]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9408466'
+  extracted_at: '2026-05-29T09:03:25.854303'

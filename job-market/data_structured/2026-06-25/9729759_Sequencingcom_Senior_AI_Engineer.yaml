@@ -1,0 +1,62 @@
+company:
+  name: Sequencing.com
+  stage: Venture-backed, profitable
+  focus: |-
+    Direct-to-consumer whole genome sequencing and AI-powered
+    personalized health
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying multi-agent AI
+      systems (planner, orchestrator, worker, evaluator agents)
+      that power personalized genetics-based health guidance. The
+      engineer works hands-on with LLM APIs, agent orchestration,
+      RAG pipelines, fine-tuning, and evaluation systems—not just
+      supporting infrastructure for others.
+  responsibilities:
+  - Design and improve multi-agent AI systems with planner, orchestrator, worker,
+    and evaluator agents for each request
+  - Build planner and router agents that decide which worker agent handles each task
+    across genome research, health, and drug domains
+  - Create autonomous AI agents that can select, use, and chain tools independently
+    including ReAct-style agents with code execution in safe loops
+  - Build critic and review layers that validate responses for quality, safety, and
+    scientific accuracy before user delivery
+  - Design and run production AI backend services in TypeScript connecting agents
+    to genomics and health data
+  - Build and maintain evaluation pipelines and benchmarks to measure answer quality,
+    response speed, and reliability
+  - Build prompt flows, retrieval pipelines, and guardrails to keep models grounded
+    in real genetic and health evidence
+  - Design persistent memory, personalization, and learning systems that improve AI
+    experiences while maintaining privacy and security
+  use_cases:
+  - Personalized genetics-based health guidance through conversational AI
+  - Multi-agent orchestration for routing health and genomics queries to specialized
+    worker agents
+  - Autonomous code-executing agents for analyzing genomic and health data
+  - Scientific accuracy validation of AI-generated health recommendations
+  - Retrieval-augmented generation grounded in genetic and clinical evidence
+  - Self-improving AI systems that learn across users while preserving privacy
+  skills:
+    genai: [Multi-agent AI systems, Agent orchestration patterns, ReAct agents, LangGraph,
+      AutoGen, CrewAI, RAG pipelines, Prompt engineering, Fine-tuning, Distillation,
+      Guardrails, Function calling / tool use, Anthropic API, OpenAI API, DeepSeek,
+      Google AI]
+    ml: []
+    web: []
+    databases: [PostgreSQL, MySQL, Redis, DuckDB]
+    data: [AWS SQS, BullMQ, AWS Glue, Apache Spark]
+    cloud: [AWS Bedrock, AWS SageMaker, AWS]
+    ops: [Evaluation pipelines, Service-oriented architecture, Parallel execution
+        and caching]
+    languages: [TypeScript, Rust, Python]
+    domains: [Genomics, Bioinformatics, Health data systems]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9729759'
+  extracted_at: '2026-06-25T19:47:38.127523'

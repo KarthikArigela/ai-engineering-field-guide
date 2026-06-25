@@ -2,7 +2,7 @@
 
 Data-driven field guide to AI engineering roles, skills, and interviews.
 
-Everything here is based on real data: 2,445 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
+Everything here is based on real data: 4,894 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
 
 My vision for this repo is to become **the** go-to resource for AI engineering. Like [data-science-interviews](https://github.com/alexeygrigorev/data-science-interviews) but broader:
 
@@ -60,7 +60,7 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 
 ## Job Market Data
 
-2,445 job descriptions scraped from builtin.com covering LA, NY, London, Amsterdam, Berlin, and India.
+4,894 job descriptions scraped from builtin.com covering LA, NY, London, Amsterdam, Berlin, and India.
 
 - [Structured job descriptions](job-market/data_structured/) - YAML files grouped by scrape date
 - [Raw extracted postings](job-market/data_raw/) - original extracted data grouped by scrape date

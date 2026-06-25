@@ -1,0 +1,55 @@
+company:
+  name: Disseqt AI
+  stage: null
+  focus: Agentic AI systems and enterprise developer platforms
+position:
+  title: Senior Platform & SRE Engineer (On-Prem & AI Systems)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the
+      infrastructure platform (SRE, DevOps, on-prem deployments)
+      that supports AI/ML workloads, not on building or deploying
+      the models themselves. The engineer works NEAR AI by
+      enabling reliable, scalable environments for AI services,
+      but does not directly build, train, fine-tune, or deploy
+      models. AI/ML workload support is listed as "great-to-have,"
+      confirming it is secondary to the core platform/SRE
+      responsibilities.
+  responsibilities:
+  - Own end-to-end infrastructure architecture for cloud, hybrid, and on-prem deployments
+  - Ensure platform reliability through SLO/SLA definitions, incident response, and
+    postmortems
+  - Build and manage CI/CD pipelines, GitOps workflows, and automated release processes
+  - Implement observability stacks using OpenTelemetry, Prometheus, Grafana, and ELK
+  - Design security-first infrastructure with secrets management, IAM, isolation,
+    and least-privilege access
+  - Create reusable Terraform, Helm, and Ansible modules for reproducible deployments
+  - Orchestrate scalable deployments of AI, ML, and microservice workloads including
+    CPU-based model serving
+  - Collaborate with backend, ML, and product teams on platform architecture decisions
+  use_cases:
+  - On-prem and hybrid AI system deployments for enterprise customers
+  - Reliable and secure hosting of agentic AI services
+  - Observability and monitoring of AI/ML platform infrastructure
+  - Cost-efficient CPU-based model serving in enterprise environments
+  - Streamlined compliance and operational efficiency for enterprise IT and DevOps
+    teams
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [Amazon EKS, Google GKE]
+    ops: [Terraform, Helm, Kubernetes, Ansible, Docker, Prometheus, Grafana, OpenTelemetry,
+      ELK Stack, GitHub Actions, GitLab CI, ArgoCD, Linux, CPU-based model serving,
+      Networking]
+    languages: [Python]
+    domains: []
+    other: [SOC2 Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9715583'
+  extracted_at: '2026-06-25T19:48:01.973165'

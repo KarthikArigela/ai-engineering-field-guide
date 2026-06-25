@@ -1,0 +1,51 @@
+company:
+  name: Luma AI
+  stage: Early-stage (implied Series B+ given scale of 10k+ GPU fleet)
+  focus: |-
+    Building multimodal foundation models for video, image,
+    audio, and language
+position:
+  title: Staff AI Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating GPU
+      infrastructure (scheduling, reliability, networking,
+      storage) that enables AI/ML research and inference, but does
+      not directly involve building, training, or fine-tuning
+      models. The engineer works ON the infrastructure layer that
+      supports AI workloads, not on the models themselves.
+  responsibilities:
+  - Architect and operate large heterogeneous GPU environments under extreme demand
+  - Improve utilization and performance of GPU clusters to materially impact company
+    outcomes
+  - Resolve failures spanning hardware, OS, runtimes, and orchestration layers
+  - Design scheduling, placement, and resource management approaches for complex training
+    and inference workloads
+  - Ensure inference platforms scale rapidly without sacrificing reliability or latency
+  - Hire and develop exceptional systems and reliability engineers
+  - Shape long-term platform strategy and architecture through partnerships with research
+    and product teams
+  use_cases:
+  - Operating 10k+ GPU fleets for multimodal AI research and inference
+  - Scaling training infrastructure for next-generation multimodal foundation models
+  - Ensuring reliable inference for customer-facing creative AI products
+  - Scheduling and resource management for complex distributed AI workloads
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Cloud Infrastructure (AWS/GCP/Azure)]
+    ops: [Linux, Distributed Systems, GPU Cluster Operations, Kubernetes, Container
+        Technologies, Distributed Scheduling, Networking, Storage Systems, Kernel-level
+        Debugging, GPU Optimization, Inference Serving, Terraform]
+    languages: [Python, Go, C++]
+    domains: [Multimodal Foundation Models]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '8638601'
+  extracted_at: '2026-06-25T19:40:15.243050'

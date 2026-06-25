@@ -1,0 +1,58 @@
+company:
+  name: Ando Technologies
+  stage: Seed
+  focus: AI-native workforce infrastructure for hourly workers
+position:
+  title: ML Engineer (AI-Native Systems & Forecasting)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      maintaining both traditional ML systems (demand forecasting,
+      labor optimization) and LLM-native systems including RAG
+      pipelines, prompt systems, and evaluation frameworks. The
+      engineer owns the full ML lifecycle from data ingestion
+      through production deployment, making hands-on modeling
+      decisions about when to use APIs, fine-tuning, or custom
+      models.
+  responsibilities:
+  - Design, build, and deploy production-grade ML systems for demand forecasting and
+    labor optimization
+  - Own the full ML lifecycle including data ingestion, feature engineering, model
+    training, deployment, and monitoring
+  - Architect data systems across ingestion, warehousing, transformation, and feature
+    stores
+  - Build and maintain LLM-native systems including RAG pipelines, prompt systems,
+    and evaluation frameworks
+  - Make pragmatic decisions on modeling approaches including when to use APIs, fine-tuning,
+    or custom models
+  - Design and implement model evaluation systems with continuous performance monitoring
+    and drift detection
+  - Design and run experiments including A/B testing and statistical validation of
+    model performance
+  - Collaborate with Product, Engineering, and Operations to integrate ML into core
+    workflows
+  use_cases:
+  - AI-generated demand forecasting for hourly labor markets
+  - Labor allocation and workforce optimization
+  - LLM-powered workflows for workforce management
+  - Persistent labor graph capturing skills, reliability, availability, and performance
+    across time and employers
+  - Professional identity layer serving enterprises and frontline workers
+  skills:
+    genai: [RAG, Prompt engineering, LLM evaluation frameworks]
+    ml: [Fine-tuning, Time-series forecasting, Model training, Feature engineering,
+      A/B testing, Statistics]
+    web: []
+    databases: [Data warehousing]
+    data: [Airflow, dbt, Feature stores, Data ingestion, Data pipelines]
+    cloud: []
+    ops: [Model serving, Model monitoring, Drift detection, Model evaluation]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9649924'
+  extracted_at: '2026-06-25T19:42:37.199268'

@@ -1,0 +1,62 @@
+company:
+  name: Citizens
+  stage: Public
+  focus: Financial services and consumer banking
+position:
+  title: Sr Data Engineer- Data Platform & AI Enablement
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role focused on building data
+      pipelines and platforms that ENABLE AI/GenAI use cases, but
+      the engineer does not directly build, train, fine-tune, or
+      deploy models themselves. They prepare AI-ready data
+      foundations, build retrieval/embeddings pipelines, and
+      partner with data scientists and ML engineers who do the
+      actual model work.
+  responsibilities:
+  - Design, build, and maintain scalable data pipelines to acquire, transform, and
+    store large datasets across financial consumer business domains
+  - Develop robust data pipelines to collect, process, and compute metrics from various
+    financial data sources adhering to quality standards
+  - Apply database design principles and data modeling techniques to translate business
+    requirements into scalable data solutions
+  - Build data pipelines and platform capabilities supporting AI, Generative AI, and
+    Agentic AI use cases including model training, inference, retrieval, and orchestration
+    workflows
+  - Develop and optimize pipelines for structured, semi-structured, and unstructured
+    data to support GenAI use cases such as semantic search, document intelligence,
+    and RAG
+  - Partner with data scientists, ML engineers, architects, and product teams to integrate
+    AI/GenAI capabilities into enterprise data platforms
+  - Implement metadata, lineage, governance, security, and access controls for responsible
+    AI and enterprise-scale GenAI adoption
+  - Troubleshoot data-related issues, execute unit testing, validate results, and
+    ensure data quality and observability across pipelines
+  use_cases:
+  - Financial data processing and analytics pipelines for consumer banking domains
+  - AI-ready data foundations for machine learning, LLM, and intelligent automation
+    solutions
+  - Retrieval-augmented generation (RAG) and semantic search on unstructured and semi-structured
+    data
+  - Document intelligence and GenAI-powered workflows for enterprise data platforms
+  - Model training, inference, and orchestration data pipelines
+  - Enterprise data governance, lineage, and compliance for regulated financial environments
+  skills:
+    genai: [RAG, Semantic search, Embeddings workflows, Document intelligence, Model
+        inference workflows]
+    ml: []
+    web: [Java Spring Boot, React, Angular]
+    databases: [Redshift, PostgreSQL, Snowflake, MongoDB, Vector databases]
+    data: [Apache Spark, Apache Beam, Apache Flink, Apache Kafka, ETL, Talend, DataStage,
+      Data governance, Data lineage]
+    cloud: [AWS, Azure]
+    ops: [CI/CD, Git, Bitbucket, MLOps/LLMOps, Workflow orchestration]
+    languages: [Java, Scala, Python, SQL, TypeScript]
+    domains: []
+    other: [Microservices]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9635178'
+  extracted_at: '2026-06-25T19:46:49.179223'

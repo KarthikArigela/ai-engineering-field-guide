@@ -1,0 +1,63 @@
+company:
+  name: Ovative Group
+  stage: Established (Inc. 5000, 500+ employees)
+  focus: Media, measurement, and marketing analytics firm
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing and building the core AI
+      workflow infrastructure, including agent orchestration,
+      multi-step automated workflows, and LLM-based systems in
+      production. The engineer works directly with LLMs, MCP/agent
+      orchestration frameworks, and integration layers that
+      connect AI to enterprise tools — this is building and
+      deploying AI systems, not just supporting them.
+  responsibilities:
+  - Develop reusable infrastructure patterns and guardrails enabling non-engineers
+    to build their own AI workflows independently
+  - Design and own Ovative's AI workflow infrastructure from initial architecture
+    through production deployment
+  - Build the integration layer connecting the enterprise AI platform to tools like
+    project management, communications, and analytics systems
+  - Architect orchestration logic for multi-step automated workflows including input
+    routing, output connections, and human review checkpoints
+  - Own the bidirectional write-back layer that reads from and writes results back
+    to task management and operational systems
+  - Establish and enforce security and governance framework including access controls,
+    credential management, audit logging, and least privilege
+  - Build CI/CD pipelines and infrastructure-as-code practices for the AI platform
+    layer
+  - Design post-deployment monitoring framework for agents and automated workflows
+    with ongoing production observability
+  - Serve as technical reviewer and escalation point for complex agent and workflow
+    builds before organization-wide deployment
+  use_cases:
+  - Enterprise AI workflow automation for a 500+ person marketing and media organization
+  - Automated multi-step workflows connecting project management, communications,
+    and analytics tools
+  - Agent-based automation enabling non-technical practitioners to build and run AI-powered
+    workflows
+  - Bidirectional integration between AI platform and operational/task management
+    systems
+  - Governed AI system deployment in a compliance-sensitive professional services
+    environment
+  skills:
+    genai: [MCP (Model Context Protocol), Agent orchestration frameworks, LLM production
+        deployment, Prompt engineering, Multi-agent workflows, Claude Enterprise /
+        Anthropic API]
+    ml: []
+    web: [API integrations]
+    databases: []
+    data: [Databricks]
+    cloud: [AWS, GCP, Azure]
+    ops: [CI/CD pipelines, Infrastructure as Code, Docker, SOC2 compliance]
+    languages: [Python, SQL]
+    domains: []
+    other: [SOC2 compliance]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9725525'
+  extracted_at: '2026-06-25T19:52:17.321511'

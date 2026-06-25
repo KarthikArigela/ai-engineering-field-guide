@@ -1,0 +1,55 @@
+company:
+  name: LINQ (linq.com)
+  stage: PE-backed
+  focus: K-12 school district operations software
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly about designing, building, and
+      shipping multi-step, tool-using LLM agents in production
+      using frameworks like LangGraph, OpenAI Agents SDK, and
+      Anthropic tool use. The engineer works directly on agent
+      systems — orchestration, evaluation, guardrails, and
+      deployment — making this hands-on AI building, not
+      supporting infrastructure or general SWE.
+  responsibilities:
+  - Embed with teams across LINQ to map workflows, identify friction, and ship agents
+    that take real work off people's plates
+  - Design and ship production-ready multi-step, tool-using agents using foundation
+    model APIs, agent frameworks, and MCP servers
+  - Build reusable agent skills, patterns, and primitives that compound across teams
+  - Establish evaluation harnesses, guardrails, and observability instrumentation
+    for shipped agents
+  - Define LINQ's internal agent platform architecture including orchestration patterns,
+    skills library, and evaluation discipline
+  - Co-launch an internal AI champions network with agent templates, reusable skills,
+    and MCP integrations
+  - Run enablement sessions and office hours to drive AI adoption across the organization
+  - Partner with CTO on AI strategy and ensure compliance with FERPA, COPPA, PCI,
+    and CCPA requirements
+  use_cases:
+  - Sales motion automation including pipeline hygiene and RFP support
+  - Customer experience automation including support deflection and ticket triage
+  - Knowledge management and internal workflow automation
+  - Internal agent platform for cross-team AI adoption and orchestration
+  - Reusable agent skills library for enterprise workflow simplification
+  skills:
+    genai: [LangGraph, OpenAI Agents SDK, Anthropic tool use, OpenAI API, Anthropic
+        API, MCP (Model Context Protocol), Agent orchestration, Prompt engineering,
+      Agent evaluation and guardrails]
+    ml: []
+    web: [React, Node.js]
+    databases: [SQL]
+    data: []
+    cloud: [AWS]
+    ops: [Docker, Monitoring and observability tooling]
+    languages: [JavaScript, TypeScript, Python]
+    domains: [FERPA/COPPA compliance, PCI compliance, CCPA compliance]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9617071'
+  extracted_at: '2026-06-25T19:46:07.468306'

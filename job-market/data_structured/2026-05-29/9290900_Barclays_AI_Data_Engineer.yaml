@@ -1,0 +1,54 @@
+company:
+  name: Barclays
+  stage: Public
+  focus: Global banking and financial services
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that supports AI/ML systems
+      rather than building them directly. The role focuses on
+      building AI-ready data pipelines, data warehouses, and
+      infrastructure that enable AI/LLM workflows to function,
+      rather than training, fine-tuning, or deploying models
+      themselves. The candidate implements retrieval pipelines,
+      MCP integrations, and data access patterns for agentic
+      workflows - all supporting infrastructure for AI systems
+      built by others.
+  responsibilities:
+  - Build and maintain data architecture pipelines for durable, complete, and consistent
+    data transfer and processing
+  - Design and implement data warehouses and data lakes managing data volume and velocity
+    with security measures
+  - Develop processing and analysis algorithms for data complexity and volume requirements
+  - Collaborate with data scientists to build and deploy machine learning models
+  - Implement AI-ready data access patterns with entitlement enforcement before AI/LLM
+    exposure
+  - Design and maintain MCP (Model Context Protocol) integrations with entitlement-aware
+    context construction
+  use_cases:
+  - Next-gen AI-ready time-series analytics system for financial data
+  - AI and LLM workflows with secure, governed data access
+  - RAG (Retrieval Augmented Generation) for enterprise knowledge retrieval
+  - Agentic AI workflows with context-aware data pipelines
+  - Structured and unstructured data retrieval for AI model consumption
+  skills:
+    genai: [LLMs, RAG, Agentic workflows, Context engineering, MCP (Model Context
+        Protocol), Prompt construction, Retrieval pipelines]
+    ml: []
+    web: [APIs, REST]
+    databases: [Postgres]
+    data: [Data pipelines, ETL, Data warehousing, Data lakes, Data modeling, Schema
+        design, Data transformation, Orchestration, Data lineage, Metadata management,
+      Streaming pipelines, Event-driven integration]
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9290900'
+  extracted_at: '2026-05-29T09:00:46.973247'

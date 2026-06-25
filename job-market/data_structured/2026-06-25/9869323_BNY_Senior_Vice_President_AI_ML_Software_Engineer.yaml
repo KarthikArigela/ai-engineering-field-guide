@@ -1,0 +1,61 @@
+company:
+  name: BNY
+  stage: Public
+  focus: Global financial services and asset management
+position:
+  title: Senior Vice President, AI / ML Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for architecting and
+      building production-grade agentic AI systems, custom multi-
+      agent orchestration frameworks, and full RAG pipelines. The
+      SVP leads hands-on engineering of LLM orchestration,
+      embedding strategies, and autonomous extraction agents — not
+      just supporting AI infrastructure for others.
+  responsibilities:
+  - Architect and build agentic AI systems including multi-agent orchestration, tool-use
+    patterns, planning/reasoning loops, and autonomous decision chains
+  - Design and evolve RAG infrastructure covering chunking strategies, embedding pipelines,
+    vector store selection, retrieval ranking, and context window optimization
+  - Own the AI pipeline orchestration framework including blocks, memory stores, blackboards,
+    and content policy enforcement
+  - Lead, mentor, and grow a team of 4-8 engineers and directly manage a VP-level
+    AI engineer
+  - Implement core agentic components such as agent loops, tool registries, memory
+    persistence, and reasoning traces
+  - Contribute to platform services (Java/Spring Boot) and AI service layer (Python/FastAPI)
+  - Build AI-assisted developer tooling including code generation workflows, automated
+    test generation, and intelligent code review
+  - Own CI/CD pipelines, containerized deployments, observability, and cross-team
+    coordination with platform and data engineering
+  use_cases:
+  - Autonomous extraction and validation of complex unstructured financial documents
+  - Knowledge graph construction from unstructured documents via entity extraction
+    and relationship mapping
+  - Multi-agent reasoning over financial documents with self-correction and validation
+  - AI-assisted code generation and automated developer tooling
+  - Enterprise document intelligence with OCR pipelines and structured extraction
+  - Retrieval-augmented generation for financial operations and decision support
+  skills:
+    genai: [LLM orchestration, Prompt engineering, Chain-of-thought reasoning, RAG,
+      Multi-agent systems, ReAct patterns, Agentic frameworks, Function calling /
+        tool-use, LangChain, CrewAI, Guardrails, Graph RAG, LoRA/QLoRA, RLHF, Azure
+        OpenAI, GPT-4o]
+    ml: [Fine-tuning, Embedding models, Sentence-transformers, NLP, OCR pipelines,
+      Document intelligence]
+    web: [FastAPI, Spring Boot, Angular, REST APIs, D3.js, ECharts, Pydantic]
+    databases: [PostgreSQL, Oracle, FAISS, Pinecone, Weaviate, Vector databases, Knowledge
+        graphs]
+    data: []
+    cloud: [AWS]
+    ops: [Docker, GitLab CI/CD, Artifactory, Observability / monitoring, Maven, Resilience4j,
+      Hazelcast]
+    languages: [Python, Java, TypeScript, SQL]
+    domains: [Capital markets domain knowledge]
+    other: [Poetry, pytest, Evaluation frameworks]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9869323'
+  extracted_at: '2026-06-25T19:57:09.742981'

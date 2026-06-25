@@ -1,0 +1,51 @@
+company:
+  name: Atari
+  stage: Public
+  focus: Video games, hardware, and interactive entertainment
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying AI-driven
+      products, including integrating LLMs into production,
+      engineering RAG systems, and optimizing AI inference and
+      prompt engineering. While it has a full-stack component, the
+      core differentiator is hands-on work with generative AI
+      models and systems.
+  responsibilities:
+  - Design and implement scalable front-end interfaces and back-end microservices
+    for AI-driven products
+  - Build, document, and secure RESTful and GraphQL APIs for data and model communication
+  - Configure and optimize relational and vector databases to support AI workloads
+  - Integrate LLMs and ML artifacts into production environments with focus on latency,
+    reliability, and cost
+  - Lead the design and development of RAG systems including data chunking, embedding,
+    indexing, and retrieval
+  - Optimize AI application performance through prompt engineering, caching, and inference
+    optimization
+  - Collaborate with Data Scientists and MLOps Engineers to deploy, monitor, and improve
+    AI systems
+  - Develop unit, integration, and end-to-end tests and manage CI/CD deployment pipelines
+  use_cases:
+  - AI-driven gaming products and experiences
+  - Retrieval-Augmented Generation for contextual responses
+  - Intelligent user-facing features powered by LLMs and ML models
+  - Production AI systems serving Atari's portfolio of games and platforms
+  skills:
+    genai: [LangChain, LlamaIndex, OpenAI API, Gemini API, Claude API, RAG, Prompt
+        Engineering]
+    ml: []
+    web: [React, Vue, Angular, Next.js, FastAPI, REST APIs, GraphQL, Node.js]
+    databases: [PostgreSQL, MySQL, Pinecone, Weaviate, Chroma]
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, CI/CD, MLOps, Inference Optimization]
+    languages: [Python, TypeScript, JavaScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9544020'
+  extracted_at: '2026-06-25T19:43:15.480662'

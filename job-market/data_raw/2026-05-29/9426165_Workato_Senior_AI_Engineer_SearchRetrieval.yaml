@@ -1,0 +1,175 @@
+job_id: 9426165
+title: Senior AI Engineer (Search/Retrieval)
+company: Workato
+location: Hyderabad, IND
+work_type: FULL_TIME
+company_size: 650 Employees
+description: |
+  About Workato
+  
+  Workato delivers enterprise infrastructure for the agentic
+  era, redefining iPaaS and helping enterprises unify data,
+  applications, processes, and AI into a single, governed
+  platform. A leader in Enterprise MCP and trusted by 50% of
+  the Fortune 500, Workato’s cloud-native architecture
+  connects every application, data source, and process to
+  power real-time orchestration at scale. With enterprise-
+  grade security and continuous innovation at its core,
+  Workato provides the trusted foundation for organizations to
+  automate with confidence and operationalize AI across the
+  business. To learn more, visit www.workato.com
+  
+  Why join us?
+  
+  Ultimately, Workato believes in fostering a flexible, trust-
+  oriented culture that empowers everyone to take full
+  ownership of their roles. We are driven by innovation and
+  looking for team players who want to actively build our
+  company.
+  
+  But, we also believe in balancing productivity with self-
+  care. That’s why we offer all of our employees a vibrant and
+  dynamic work environment along with a multitude of benefits
+  they can enjoy inside and outside of their work lives.
+  
+  If this sounds right up your alley, please submit an
+  application. We look forward to getting to know you!
+  
+  Also, feel free to check out why:
+  
+  - Business Insider named us an “enterprise startup to bet your
+    career on”
+  - Forbes’ Cloud 100 recognized us as one of the top 100
+    private cloud companies in the world
+  - Deloitte Tech Fast 500 ranked us as the 17th fastest growing
+    tech company in the Bay Area, and 96th in North America
+  - Quartz ranked us the #1 best company for remote workers
+  
+  Responsibilities
+  
+  As a Senior Software Engineer on our Enterprise Retrieval
+  team, you’ll help build the retrieval layer that powers
+  enterprise AI agents at Workato. Your work will let an agent
+  answer “what’s the status of the Acme renewal?” by stitching
+  together a Salesforce opportunity, a call summary, the
+  latest Zendesk ticket, a Jira blocker, and a SharePoint
+  contract — all in one ranked, permission-aware response.
+  
+  This is the kind of problem where classical Information
+  Retrieval, dense vector retrieval, knowledge graphs, and
+  LLM-driven reasoning all collide. You’ll work across
+  heterogeneous content (docs, tickets, tasks, CRM records,
+  call transcripts, chat threads), heterogeneous permissions
+  (every source has its own ACL model), and very real
+  freshness constraints (yesterday’s answer is often wrong).
+  
+  It’s a hands-on Senior IC role for someone who wants to go
+  deep on retrieval quality and see their work directly shape
+  how thousands of enterprises put AI agents to work.
+  
+  In this role, you will also be responsible to:
+  
+  - Build a unified retrieval layer across enterprise systems —
+    Google Drive, SharePoint, Confluence, Jira, Asana,
+    Zendesk, Freshdesk, Salesforce, Notion, and more —
+    exposing a clean, agent-friendly interface.
+  - Design hybrid retrieval pipelines that combine lexical
+    (BM25), dense vector, and structured (SQL/graph)
+    retrieval, with smart re-ranking tuned for cross-source
+    results.
+  - Engineer ingestion and freshness pipelines that
+    incrementally sync millions of documents, tickets, tasks,
+    and CRM records with low end-to-end latency and
+    predictable cost.
+  - Own permission-aware retrieval (ACL preservation) — make
+    sure the engine never returns a document a user (or their
+    agent) isn’t entitled to see, mirroring source-system
+    permissions exactly.
+  - Build query understanding for agents — intent parsing,
+    entity linking across systems (a “customer” in Salesforce
+    is the same as in Zendesk), and LLM-assisted query
+    rewriting and decomposition.
+  - Design chunking and embedding strategies tailored to each
+    content type — long docs, short tickets, threaded
+    conversations, structured records, call transcripts.
+  - Build evaluation and experimentation harnesses (NDCG, MRR,
+    recall@k, faithfulness, citation accuracy) for both
+    retrieval and end-to-end agent answers.
+  - Ship production-grade, observable systems with strong SLOs
+    on latency, freshness, recall, and cost — and the
+    dashboards/tracing to prove it.
+  - Mentor teammates and raise the bar on retrieval
+    architecture, evaluation rigor, and engineering craft.
+  
+  RequirementsQualifications / Experience / Technical Skills
+  
+  - 3-5 years building production search, retrieval, knowledge-
+    base, or recommendation systems.
+  - Strong proficiency in at least one modern backend language —
+    Python, Go, Java, or similar.
+  - Hands-on experience with search engines such as OpenSearch,
+    Elasticsearch, Solr, or Vespa, including index design and
+    analyzers.
+  - Solid grounding in IR fundamentals: TF-IDF, BM25, learning-
+    to-rank, query parsing, and relevance evaluation.
+  - Working experience with vector search and embeddings —
+    FAISS, pgvector, Pinecone, Weaviate, Qdrant, Milvus, or
+    native Elasticsearch/OpenSearch kNN.
+  - Experience designing or contributing to RAG pipelines and
+    semantic search systems in production.
+  - Familiarity with modern NLP/LLM tooling: transformer
+    embeddings, cross-encoder re-rankers, prompt engineering,
+    and frameworks like LangChain, LlamaIndex, or Haystack.
+  - Comfortable building integrations against SaaS APIs
+    (REST/GraphQL/webhooks), handling OAuth, rate limits,
+    pagination, and incremental sync.
+  - Solid intuition for ACL/permission models in enterprise
+    systems (Drive sharing, SharePoint groups, Jira project
+    roles, Salesforce sharing rules, etc.) and how to preserve
+    them in a retrieval layer.
+  - Strong SQL skills, comfort with NoSQL/document stores, and
+    experience with large-scale distributed systems.
+  - Familiarity with cloud platforms (AWS, GCP, or Azure),
+    containerization, and CI/CD.
+  
+  Soft Skills / Personal Characteristics
+  
+  - Clear communicator who can explain technical trade-offs to
+    engineers, PMs, and executives alike.
+  - Collaborative — you partner naturally with ML, product,
+    security, and platform teams.
+  - Quality-obsessed and detail-oriented, with an instinct for
+    measurable outcomes over vibes.
+  - Self-directed; comfortable taking an ambiguous problem from
+    zero to shipped.
+  - Genuinely curious about the hard, interesting problems
+    hiding inside enterprise retrieval — heterogeneity,
+    permissions, freshness, and trust.
+  
+  Nice to Have
+  
+  - Experience with knowledge graphs, entity resolution, or
+    cross-source identity linking.
+  - Experience tuning or fine-tuning embedding models (sentence-
+    transformers, BGE, E5, etc.) for domain-specific
+    retrieval.
+  - Exposure to agentic AI patterns — tool use, function
+    calling, MCP, or multi-step retrieval planning.
+  - Experience with streaming/real-time ingestion (Kafka, Flink,
+    Spark) and cost optimization at scale.
+  - Background in enterprise search, e-discovery, observability,
+    or DLP — anywhere you’ve had to handle messy multi-source
+    content with strict access controls.
+  - Open-source contributions, published research, or writing on
+    retrieval, IR, or applied ML.
+  
+  (REQ ID: 2779)
+industries:
+  - Cloud
+  - Enterprise Web
+  - Information Technology
+  - Productivity
+  - Software
+posted_date: 2026-05-20
+url: "https://builtin.com/job/senior-ai-engineer-search-information-retrieval/9426165"
+source: Built In

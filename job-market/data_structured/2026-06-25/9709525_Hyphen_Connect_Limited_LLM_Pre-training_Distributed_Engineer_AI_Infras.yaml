@@ -1,0 +1,47 @@
+company:
+  name: Hyphen Connect Limited
+  stage: null
+  focus: AI infrastructure and large-scale ML training
+position:
+  title: LLM Pre-training & Distributed Engineer (AI Infrastructure)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly involved in building and optimizing
+      LLM pre-training infrastructure at scale, including
+      orchestrating distributed training across massive GPU
+      clusters. The engineer works hands-on with parallelism
+      strategies, memory optimization, and fault tolerance for LLM
+      training runs, which is core to building AI systems.
+  responsibilities:
+  - Orchestrate distributed training runs across 1,000+ GPUs using PyTorch, DeepSpeed,
+    or Megatron-LM
+  - Optimize networking (InfiniBand/RDMA) and memory management to prevent out-of-memory
+    errors
+  - Automate checkpointing and failure recovery during month-long training runs
+  - Manage SLURM or Kubernetes-based GPU clusters for large-scale training
+  - Apply 3D parallelism (Data, Tensor, Pipeline) strategies for efficient distributed
+    training
+  use_cases:
+  - Large-scale LLM pre-training across 1,000+ GPU clusters
+  - Distributed training optimization with 3D parallelism
+  - Fault-tolerant training with automated checkpointing and recovery
+  - High-performance GPU cluster management for AI workloads
+  skills:
+    genai: []
+    ml: [PyTorch, DeepSpeed, Megatron-LM, '3D Parallelism (Data, Tensor, Pipeline)',
+      Distributed Training]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CUDA, SLURM, Kubernetes, InfiniBand/RDMA, GPU Cluster Management, Checkpointing
+        and Failure Recovery]
+    languages: [C++, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9709525'
+  extracted_at: '2026-06-25T19:48:26.956540'

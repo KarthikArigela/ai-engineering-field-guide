@@ -1,0 +1,53 @@
+company:
+  name: Alpas
+  stage: null
+  focus: Automating supplier search and procurement
+position:
+  title: Senior AI Engineer (f/m/d)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, training, and
+      deploying ML/NLP models, developing AI agents with
+      LangGraph, building RAG systems with vector databases, and
+      implementing MLOps pipelines for model lifecycle management.
+      The engineer owns the full AI architecture from training to
+      inference, making this clearly an ai-first position.
+  responsibilities:
+  - Lead AI and agentic architecture from training to inference, ensuring stable performance
+    and integration with internal software
+  - Develop scalable AI agents with LangGraph and NLP pipelines for automating supplier
+    search decision-making
+  - Build RAG systems using vector databases and apply agentic workflow patterns
+  - Implement MLOps pipelines including auto-retraining systems and monitoring for
+    AI agents at scale
+  - Train and evaluate PyTorch NLP models, benchmark models and solutions, and continuously
+    improve them
+  - Optimize model performance and inference efficiency while controlling costs of
+    agentic workloads
+  - Ensure seamless integration of AI components into the Alpas platform and backend
+    systems
+  - Mentor and support junior engineers while guiding the team toward automation goals
+  use_cases:
+  - Automated supplier search and discovery at scale
+  - Agentic decision-making during supplier evaluation and selection
+  - RAG-powered information retrieval for supplier data
+  - Automated retraining and continuous improvement of NLP models
+  - Cost-efficient AI agent orchestration for business workflows
+  skills:
+    genai: [LangGraph, RAG, Agentic workflows, LLMs]
+    ml: [PyTorch, scikit-learn, NLP, Model training and fine-tuning, Model inference
+        optimization]
+    web: [FastAPI, REST APIs]
+    databases: [Vector databases]
+    data: [PubSub, Pandas, SciPy]
+    cloud: [GCP, Vertex AI, Cloud Run, Cloud Functions, Azure AI]
+    ops: [MLflow, Kubeflow, KServe, Docker, Argo, CI/CD, Kubernetes, Terraform, MLOps]
+    languages: [Python, PyTest, SQL]
+    domains: []
+    other: [System design]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9867893'
+  extracted_at: '2026-06-25T19:54:32.098773'

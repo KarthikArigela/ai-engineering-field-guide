@@ -1,0 +1,58 @@
+company:
+  name: iHerb
+  stage: Public
+  focus: eCommerce health and wellness products
+position:
+  title: Principal Engineer - AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly owns the end-to-end technical strategy
+      for iHerb's AI Platform and GenAI product experiences,
+      including building RAG pipelines, agentic systems, evals
+      frameworks, guardrails, and LLM-driven features in
+      production. The engineer is hands-on building production AI
+      systems with LangChain/LlamaIndex, not just supporting
+      infrastructure for other teams' AI work.
+  responsibilities:
+  - Define and own the AI platform architecture including retrieval infrastructure,
+    model lifecycle, evals framework, guardrails, and GenAI product feature design
+  - Lead the build of the shared AI platform layer consumed by all AI product features
+    and reusable by internal business teams
+  - Build production AI systems hands-on, write proofs of concept, and validate architecture
+    through working software
+  - Set and enforce technical standards for the AI Platform team, driving architecture
+    reviews and model quality reviews
+  - Coordinate with the Personalization team to define boundaries between the GenAI
+    product layer and existing ML personalization infrastructure
+  - Establish and evolve iHerb's AI-driven SDLC golden path including shared standards,
+    Claude Code skills, guardrails, and automation patterns
+  - Lead complex multi-team technical efforts by coordinating architecture reviews
+    and aligning peer Principals and EMs
+  - Mentor and raise the technical bar across the engineering organization through
+    code review, architecture review, and direct coaching
+  use_cases:
+  - Wellness Agent for customer-facing AI experiences
+  - LLM-driven product recommendations
+  - RAG over product catalog and customer reviews
+  - Generative content creation for product experiences
+  - Shared AI infrastructure for reusable internal business team use cases
+  - AI-assisted software development lifecycle with Claude Code and Copilot
+  skills:
+    genai: [LangChain, LlamaIndex, RAG, LLM evaluation frameworks, Prompt engineering,
+      Agentic systems, Guardrails, Claude Code, GitHub Copilot, Cursor]
+    ml: [Embedding infrastructure]
+    web: [APIs]
+    databases: [Vector search]
+    data: [Data pipelines]
+    cloud: []
+    ops: [MLOps, Model deployment and lifecycle management, CI/CD, Observability]
+    languages: [Python]
+    domains: []
+    other: [Distributed systems architecture, Event-driven architecture, Microsoft
+        Office Suite, Google Business Suite]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9835797'
+  extracted_at: '2026-06-25T19:51:31.195283'

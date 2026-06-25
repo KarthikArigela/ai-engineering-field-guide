@@ -1,0 +1,60 @@
+company:
+  name: Las Vegas Sands
+  stage: Public
+  focus: Hospitality, gaming, and casino resorts
+position:
+  title: Sr Software Engineer - AI-First Development
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly AI-First, focused on designing,
+      orchestrating, and validating AI agent workflows that
+      produce software artifacts. The engineer works directly with
+      AI models, agent frameworks (LangGraph, CrewAI, AutoGen),
+      MCP servers, context engineering, and RAG pipelines as core
+      job responsibilities. The role operates within an "AI-First
+      SDLC" where AI agents are the primary code producers.
+  responsibilities:
+  - Design, build, and maintain AI agent workflows that produce application code,
+    infrastructure configuration, test suites, and documentation
+  - Decompose complex application requirements into discrete, well-scoped tasks for
+    AI agents to execute within defined boundaries
+  - Construct and maintain context stores providing agents with organizational knowledge,
+    coding standards, and architectural patterns
+  - Author agent toolchains including Skills (SKILL.md), hooks for deterministic automation,
+    and project memory files (CLAUDE.md, AGENTS.md)
+  - Apply multi-layer verification framework to validate functional correctness, security,
+    performance, code quality, and regulatory compliance of AI-generated outputs
+  - Architect and deliver full-stack applications across web, API, and data layers
+    using AI-First methodologies
+  - Design and build custom MCP servers exposing internal tools, databases, and business
+    systems to AI agents
+  - Mentor team members on AI-First development practices, context engineering techniques,
+    and verification methodologies
+  use_cases:
+  - AI-driven software development lifecycle where agents autonomously generate code,
+    tests, configs, and documentation
+  - Multi-agent orchestration for complex application development workflows
+  - Automated code verification and quality assurance pipelines for AI-generated outputs
+  - Enterprise integration of internal systems with AI agents via custom MCP servers
+  - Agent observability and telemetry for monitoring workflow quality, token consumption,
+    and cost
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, Semantic Kernel, MCP servers, RAG pipelines,
+      Prompt engineering, Context engineering, Multi-agent architectures, Claude Code,
+      GitHub Copilot, Cursor, Windsurf]
+    ml: []
+    web: [FastAPI, REST APIs]
+    databases: [Postgres]
+    data: [Kafka, RabbitMQ, Azure Service Bus]
+    cloud: [Azure, AWS, GCP]
+    ops: [Docker, Kubernetes, CI/CD, Infrastructure as Code, Static analysis, Telemetry
+        and observability]
+    languages: [Python, C#, TypeScript, JavaScript, Java, Go, SQL]
+    domains: []
+    other: [OWASP security guidelines]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9788268'
+  extracted_at: '2026-06-25T19:57:39.254531'

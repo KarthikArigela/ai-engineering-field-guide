@@ -1,0 +1,64 @@
+company:
+  name: Oligo
+  stage: Series A
+  focus: AI-driven generative spacecraft design and manufacturing
+position:
+  title: Generative Spacecraft Design Software Engineer (ML/AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role requires hands-on development and deployment of AI
+      models including vision-language models, reinforcement
+      learning agents, CNN-based topology optimizers, and multi-
+      agent AI systems. The engineer will directly build, train,
+      and deploy these models for generative spacecraft design,
+      working at the intersection of ML/AI and physical
+      engineering. This is core AI/ML systems work, not support
+      infrastructure.
+  responsibilities:
+  - Develop and deploy vision-language models (VLMs) that parse technical documents,
+    datasheets, and system specs into structured engineering constraints
+  - Build and train reinforcement learning agents that explore multivariable design
+    spaces balancing structural, thermal, orbital, and manufacturability objectives
+  - Design and run CNN-based topology optimizers for reducing mass in structural components
+    while maintaining stiffness and compliance
+  - Construct multi-agent AI systems that simulate, evaluate, decompose, and iteratively
+    redesign spacecraft configurations using embedded physics models
+  - Contribute to infrastructure for automated, high-context model training using
+    flight data, past simulations, and test results
+  - Work on automated system decomposition engines that convert high-level mission
+    goals into detailed subsystem design specifications
+  - Interface with physical simulation tools (Ansys, GMAT, Thermal Desktop) and CAD
+    environments (OpenCascade, CadQuery) to ground designs in physical constraints
+  - Collaborate daily with hardware engineers where code is tested in thermal chambers,
+    vibration tables, and flown on orbit
+  use_cases:
+  - Automated spacecraft design and manufacturing using AI-driven generative design
+  - Parsing technical documents and system specifications into engineering constraints
+    using vision-language models
+  - Multi-domain optimization for structural, thermal, orbital, and manufacturability
+    objectives
+  - Topology optimization for mass reduction in structural components while maintaining
+    performance
+  - Simulation-aware spacecraft design using embedded physics models and hardware-in-the-loop
+    validation
+  - Converting high-level mission requirements into detailed subsystem specifications
+    and flight-ready designs
+  skills:
+    genai: [LangChain, Multi-Agent Systems, Prompt Engineering, Tool Calling, Memory
+        Routing]
+    ml: [PyTorch, JAX, TensorFlow, Reinforcement Learning, Vision-Language Models,
+      CNN Architectures, Physics-Informed ML]
+    web: [FastAPI]
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [Docker, DVC]
+    languages: [Python]
+    domains: []
+    other: [OpenCascade, Onshape API, SolidWorks API, Ansys, GMAT, Thermal Desktop]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9228060'
+  extracted_at: '2026-05-29T08:57:53.336789'

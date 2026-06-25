@@ -1,0 +1,52 @@
+company:
+  name: Andromeda (andromeda.ai)
+  stage: Early-stage (founded by Nat Friedman and Daniel Gross)
+  focus: AI compute infrastructure marketplace platform
+position:
+  title: Software Engineer - AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds infrastructure platforms (orchestration,
+      provisioning, control planes) that SUPPORT AI/ML workloads,
+      but does not directly build, train, fine-tune, or deploy AI
+      models. The engineer works on Kubernetes, VMs, bare-metal
+      environments, and APIs that abstract over compute
+      infrastructure used by AI labs — classic enabler work rather
+      than hands-on model work.
+  responsibilities:
+  - Design and develop core platform components for infrastructure orchestration,
+    provisioning, and lifecycle management
+  - Build robust APIs, services, and control planes abstracting over diverse infrastructure
+    types (VMs, Kubernetes, bare metal, schedulers)
+  - Translate customer usage patterns into product requirements and deliver impactful
+    features
+  - Create automation and internal tooling to eliminate manual operational work
+  - Enhance reliability, performance, and observability at the platform level
+  - Collaborate with peer teams to define ownership boundaries between platform and
+    customer-specific solutions
+  - Contribute to architectural evolution and technical design of the platform
+  use_cases:
+  - Global orchestration of AI training and inference jobs across data centers and
+    cloud providers
+  - Infrastructure provisioning and lifecycle management for diverse compute environments
+  - Abstraction layer over VMs, Kubernetes, bare metal, and schedulers for AI workloads
+  - Multi-tenant platform for AI labs to access compute resources
+  - Marketplace for AI compute connecting labs, data centers, and cloud providers
+  skills:
+    genai: []
+    ml: []
+    web: [REST API design]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Kubernetes, Docker, Terraform, Ansible, Helm, Linux, Networking, VMs, Bare-metal
+        infrastructure, Observability, GPU infrastructure, Control-plane systems]
+    languages: [Python, Go]
+    domains: []
+    other: [Distributed Systems, Multi-tenant architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9024260'
+  extracted_at: '2026-06-25T19:41:28.472444'

@@ -1,0 +1,59 @@
+company:
+  name: Fora
+  stage: Series B/C
+  focus: Modern travel agency platform technology
+position:
+  title: Senior/Staff Backend Engineer, Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and shipping LLM-
+      powered agent systems — MCP tools, agent orchestration,
+      tool-calling loops, evals for non-deterministic systems, and
+      prompt/model optimization in production. The engineer works
+      hands-on with LLMs, agent harnesses, and the modern GenAI
+      stack to build "Via," an AI co-pilot for travel advisors.
+  responsibilities:
+  - Partner with Product Manager and Designer to define and prioritize Fora's Applied
+    AI roadmap, turning ambiguous goals into shippable agent capabilities
+  - Design and build MCP tooling exposing Fora's data and service layers through permission-aware
+    MCP tools with proper guardrails
+  - Build and harden agent orchestration including tool-calling loops, streaming responses,
+    multi-step workflows, retries, guardrails, and contracts between advisor portal
+    and AI service
+  - Design evaluations, regression suites, tracing, and logging to improve reliability
+    of non-deterministic AI systems and enable safe shipping of prompt, model, and
+    tool changes
+  - Focus on performance, latency, architecture, and clean code for optimal advisor
+    experience
+  - Collaborate with engineers across the company to define end-to-end solutions spanning
+    AI services, core Django platform, and portal frontend
+  - Own features from design through implementation to delivery, taking them from
+    0 to 1
+  - Establish patterns, primitives, and best practices for Applied AI at Fora as the
+    team grows
+  use_cases:
+  - AI co-pilot (Via) for travel advisors to automate time-consuming workflows
+  - Agent-driven task delegation including itinerary planning, booking management,
+    and client communications
+  - Business intelligence and insights generation for travel advisors
+  - Permission-aware data access and actions on behalf of advisors via MCP tools
+  - Scaling solo travel advisor operations to handle higher business volume
+  skills:
+    genai: [MCP (Model Context Protocol), Agent orchestration, 'LLM provider SDKs
+        (Anthropic, OpenAI)', Prompt engineering, Structured outputs, RAG / Retrieval,
+      LLM evaluations, LLM-as-judge]
+    ml: []
+    web: [Django, Flask, Streaming (SSE)]
+    databases: [Relational databases, ORMs]
+    data: [Celery, RabbitMQ]
+    cloud: [AWS]
+    ops: [Kubernetes, Tracing and observability for AI systems]
+    languages: [Python, SQL]
+    domains: []
+    other: [Distributed systems design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9614253'
+  extracted_at: '2026-06-25T19:45:36.224370'

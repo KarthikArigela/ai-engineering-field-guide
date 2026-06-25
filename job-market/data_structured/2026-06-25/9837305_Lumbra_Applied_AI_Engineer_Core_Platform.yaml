@@ -1,0 +1,61 @@
+company:
+  name: Lumbra
+  stage: null
+  focus: Agentic AI harness for analytical work
+position:
+  title: Applied AI Engineer, Core Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building production agentic AI systems
+      — designing agent orchestration, LLM integration layers, MCP
+      servers, and agentic memory/retrieval architectures. The
+      engineer owns the "intelligence layer" of an agentic harness
+      and works hands-on with agent reasoning, tool use, and
+      evaluation, making this clearly ai-first.
+  responsibilities:
+  - Design and evolve a provider-agnostic LLM integration layer supporting streaming,
+    tool calling, structured output, and context management across multiple models
+  - Develop advanced agent orchestration techniques combining deterministic and non-deterministic
+    tool use for complex multi-step action chains
+  - Build MCP servers over internal data sources to provide agent-native interfaces
+    to organizational knowledge
+  - Extend MCP-based tool interaction framework with structured citations, multimodal
+    output, and provenance metadata
+  - Architect agentic memory layer for short-, medium-, and long-term recall across
+    vector, text, graph, and filesystem stores
+  - Design retrieval strategies that efficiently surface relevant context to agents
+    at scale
+  - Establish evaluation methodology including offline benchmarks, human-in-the-loop
+    review, and systematic prompt testing
+  - Implement AI safety practices such as output filtering, hallucination detection,
+    and grounding techniques
+  use_cases:
+  - Reliable AI agents for analytical work in high-consequence environments like intelligence
+    and investigations
+  - Multi-agent conversations with traceable, interpretable outputs grounded in verifiable
+    citations
+  - Agent-native access to organizational knowledge via MCP servers over internal
+    data sources
+  - Short- and long-term agentic memory for context-aware task and project execution
+  - Trustworthy AI outputs for practitioners making high-stakes decisions in due diligence
+    and research
+  skills:
+    genai: [LLM integration, Agent orchestration, Model Context Protocol (MCP), Prompt
+        engineering, Few-shot optimization, Chain-of-thought patterns, Structured
+        output generation, Tool calling, RAG, Constrained generation, Hallucination
+        detection]
+    ml: []
+    web: []
+    databases: [Vector databases, Graph stores]
+    data: [Hybrid keyword and semantic search, Information retrieval]
+    cloud: []
+    ops: [AI evaluation methodology, Agent observability]
+    languages: [Python]
+    domains: [NLP]
+    other: [AI safety]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9837305'
+  extracted_at: '2026-06-25T19:54:53.611204'

@@ -1,0 +1,67 @@
+company:
+  name: Ecolab
+  stage: Public
+  focus: |-
+    Global leader in water, hygiene, and infection prevention
+    solutions
+position:
+  title: Lead Responsible AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on technical leadership in
+      designing and implementing responsible AI controls, safety
+      guardrails, evaluation frameworks, and testing strategies
+      directly for GenAI and agentic AI systems (LLMs, RAG,
+      agents). While it focuses on quality/safety rather than
+      model training, it requires deep technical work on AI system
+      behavior, prompt safety, runtime guardrails, and production
+      AI observability — making it an ai-first role working
+      directly ON AI systems.
+  responsibilities:
+  - Lead the design and implementation of responsible AI, safety, and quality engineering
+    practices for GenAI and agentic AI products
+  - Define and operationalize AI validation strategies covering functional correctness,
+    hallucination risk, retrieval quality, prompt safety, agent behavior, and failure
+    handling
+  - Establish test approaches for LLM-powered applications, RAG systems, agentic workflows,
+    multi-step reasoning, and tool orchestration
+  - Design and implement evaluation frameworks for relevance, safety, groundedness,
+    consistency, latency, token usage, and business outcome alignment
+  - Work with AI engineers and architects to embed guardrails, prompt controls, model
+    usage boundaries, escalation paths, and fallback strategies
+  - Drive adoption of governance and auditability practices including automated test
+    scripts, traceability, risk controls, and evidence collection
+  - Implement AI observability, logging, trace analysis, usage monitoring, cost awareness,
+    and incident diagnostics
+  - Mentor engineers and quality professionals on AI testing, safety validation, and
+    responsible AI engineering practices
+  use_cases:
+  - Responsible AI governance and safety validation for enterprise GenAI and agentic
+    AI systems
+  - RAG pipeline quality assurance including retrieval validation, grounding checks,
+    and chunking strategy testing
+  - Agentic AI workflow testing including multi-step reasoning, tool orchestration,
+    and multi-agent coordination
+  - LLM evaluation covering hallucination detection, factual reliability, prompt safety,
+    and content filtering
+  - Enterprise AI observability, monitoring, and incident diagnostics for production
+    AI systems
+  skills:
+    genai: [RAG, Prompt Engineering, Guardrails AI, NeMo Guardrails, LangChain, MCP
+        (Model Context Protocol), Agentic AI]
+    ml: [Fairlearn, AIF360]
+    web: []
+    databases: [Azure AI Search, Pinecone, Weaviate, FAISS]
+    data: []
+    cloud: [Azure AI Content Safety, Azure Monitor, Application Insights, Vertex AI]
+    ops: [LangSmith, TruLens, DeepEval, MLflow, Azure DevOps, OpenTelemetry, pytest,
+      CI/CD, Docker, Kubernetes, GitHub]
+    languages: [Python]
+    domains: []
+    other: [NIST AI RMF, Red-teaming]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9096379'
+  extracted_at: '2026-05-29T08:51:27.735547'

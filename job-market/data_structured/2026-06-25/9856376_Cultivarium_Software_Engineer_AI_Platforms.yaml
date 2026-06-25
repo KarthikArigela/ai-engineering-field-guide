@@ -1,0 +1,53 @@
+company:
+  name: Cultivarium
+  stage: Early-stage / Research organization
+  focus: |-
+    Scientific tools for engineering biology and non-model
+    organisms
+position:
+  title: Software Engineer, AI Platforms
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building agentic AI systems,
+      integrating LLM agents with lab systems via MCP tool
+      servers, benchmarking and hardening agentic workflows, and
+      building retrieval-augmented applications in production. The
+      engineer works ON AI systems — not just supporting them —
+      making this clearly ai-first despite also involving full-
+      stack infrastructure work.
+  responsibilities:
+  - Design, build, and own full-stack AI platform systems including backend services,
+    data pipelines, frontends, and cloud infrastructure on AWS
+  - Build APIs, MCP tool servers, and integrations connecting LLM agents to lab data
+    systems, instruments, and scientific databases
+  - Prototype with coding agents and integrate LLM-based features, benchmarking and
+    hardening agentic workflows for reliability
+  - Drive architecture decisions spanning agents, data, infrastructure, and UX with
+    engineering rigor
+  - Present work, mentor teammates, and share software engineering best practices
+  - Own compute orchestration for interactive and batch scientific workloads including
+    deployment and observability
+  use_cases:
+  - Agentic research platform for co-driving biological research with scientists
+  - LLM agent integration with laboratory instruments and scientific databases
+  - Retrieval-augmented applications for scientific data and lab automation
+  - Engineering biology workflows powered by AI and robotic systems
+  - Tool servers and plugin ecosystems enabling AI agents to interact with lab ecosystems
+  skills:
+    genai: [MCP (Model Context Protocol), LLM APIs, Agent frameworks, RAG, Prompt
+        engineering]
+    ml: []
+    web: [React, Next.js]
+    databases: []
+    data: [Airflow, Prefect, Dagster]
+    cloud: [AWS, GCP, Azure]
+    ops: [Terraform, AWS CDK, CI/CD, Docker, Git]
+    languages: [Python, Go]
+    domains: [Lab automation integration, Robotics integration]
+    other: [Benchling, LIMS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9856376'
+  extracted_at: '2026-06-25T19:55:29.654481'

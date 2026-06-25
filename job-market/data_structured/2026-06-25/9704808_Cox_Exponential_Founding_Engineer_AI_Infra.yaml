@@ -1,0 +1,53 @@
+company:
+  name: Cox Exponential
+  stage: Seed
+  focus: Affordable custom AI training and serving platform
+position:
+  title: Founding Engineer, AI Infra
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and optimizing ML/AI
+      infrastructure for training and serving LLMs at scale,
+      including kernel-level optimizations (CUDA/Triton,
+      FlashAttention), inference serving systems (vLLM,
+      quantization, speculative decoding), and distributed
+      training pipelines. The engineer works hands-on with model
+      training and inference optimization, making this clearly ai-
+      first.
+  responsibilities:
+  - Improve LLM training and inference efficiency through memory utilization optimization,
+    parallelism strategies, and kernel-level innovations (FlashAttention, CUDA/Triton)
+  - Build scalable and stable training and RL pipelines with reproducibility, observability,
+    and debuggability
+  - Design and tune high-throughput, low-latency model serving systems including quantization,
+    caching, and speculative decoding
+  - Own end-to-end training and inference infrastructure from data ingestion and checkpointing
+    to multi-GPU and multi-cloud orchestration
+  - Collaborate with researchers and product engineers to turn new algorithms into
+    reliable production-ready systems
+  use_cases:
+  - Affordable custom AI training and adaptation for businesses
+  - High-throughput low-latency LLM and multimodal model serving at scale
+  - Distributed training of large language models across multi-GPU and multi-cloud
+    environments
+  - Reinforcement learning pipeline infrastructure for production AI systems
+  - Domain-specific model fine-tuning achieving near-SOTA performance at reduced cost
+  skills:
+    genai: []
+    ml: [FlashAttention, CUDA, Triton, PyTorch, DeepSpeed, Megatron, Distributed training,
+      Quantization, Speculative decoding]
+    web: []
+    databases: [Vector databases]
+    data: [Ray]
+    cloud: [Multi-cloud orchestration]
+    ops: [vLLM, SGLang, Triton Inference Server, TGI, Kubernetes, Terraform, Pulumi,
+      Prometheus, Grafana, OpenTelemetry, LLM serving optimization, Multi-GPU orchestration]
+    languages: [Python, C++, Rust, Go]
+    domains: [Reinforcement learning]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9704808'
+  extracted_at: '2026-06-25T19:47:29.242825'

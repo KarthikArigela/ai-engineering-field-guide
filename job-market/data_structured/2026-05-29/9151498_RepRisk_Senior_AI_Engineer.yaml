@@ -1,0 +1,52 @@
+company:
+  name: RepRisk
+  stage: Series B+
+  focus: |-
+    Reputational risk data and responsible business conduct
+    analytics
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role focused on building
+      production AI agents, agentic systems, and LLM-powered
+      applications. The responsibilities include designing multi-
+      agent systems, building MCP servers, implementing
+      LangChain/LangGraph workflows, and deploying models via AWS
+      Bedrock - all core AI development work.
+  responsibilities:
+  - Design and build single- and multi-agent production systems with planning, memory,
+    and tool-use capabilities meeting regulatory compliance standards
+  - Build and operate MCP (Model Context Protocol) servers using FastMCP with Databricks
+    or Snowflake integration and secure access controls
+  - Develop agentic workflows using LangChain and LangGraph with robust prompt engineering,
+    tool-use, and multi-agent coordination patterns
+  - Implement testing, evaluation, monitoring, and observability best practices using
+    LangSmith/LangFuse for production agent systems
+  - Develop and maintain LLM-powered microservices and APIs using Python, FastAPI,
+    gRPC, and Postgres deployed on AWS
+  - Identify and adopt state-of-the-art LLM and autonomous agent architectures including
+    AWS Bedrock and Bedrock AgentCore
+  use_cases:
+  - Agentic AI systems for reputational risk analysis and business conduct monitoring
+  - Responsible business conduct intelligence and ESG risk assessment
+  - Corporate responsibility and compliance monitoring through AI-powered workflows
+  - Data analysis for regulated industries (finance, legal, healthcare) with agent-based
+    systems
+  skills:
+    genai: [LangChain, LangGraph, Model Context Protocol (MCP), FastMCP, Prompt Engineering]
+    ml: []
+    web: [FastAPI, gRPC, SQLAlchemy]
+    databases: [PostgreSQL, Snowflake]
+    data: [Databricks]
+    cloud: [AWS Bedrock, AWS Bedrock AgentCore]
+    ops: [LangSmith, LangFuse, Kubernetes]
+    languages: [Python, AsyncIO]
+    domains: []
+    other: [SOLID principles]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9151498'
+  extracted_at: '2026-05-29T08:55:21.334385'

@@ -1,0 +1,56 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family location tracking and safety services
+position:
+  title: Staff Software Engineer, Ads Engineering (AI-Native)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Staff Backend Engineer role focused on building
+      high-throughput ad server and exchange infrastructure. While
+      the team uses AI coding tools (Claude Code, Cursor, Copilot)
+      as productivity aids, the role itself does not involve
+      building, training, fine-tuning, or deploying ML/LLM models.
+      The AI usage is for development workflow acceleration, not
+      for creating AI systems. The core work is distributed
+      systems engineering for AdTech.
+  responsibilities:
+  - Shape the technical direction of Life360's Ads AdServer and Exchange platform,
+    ensuring it scales reliably to support 20+ billion daily events
+  - Drive architectural decisions that improve system resiliency, fault tolerance,
+    and performance across distributed, multi-data center environments
+  - Integrate demand and supply partners and strengthen Real-Time Bidding and auction
+    capabilities to enable revenue growth
+  - Partner with Product and Design to unlock new monetization opportunities through
+    innovative ad formats and platform capabilities
+  - Lead complex technical initiatives end-to-end, aligning multiple teams around
+    clear architectural outcomes
+  - Advance automation and quality practices, including AI-driven API validation and
+    testing strategies
+  - Improve platform reliability by strengthening monitoring, incident response, and
+    root cause analysis practices
+  - Mentor senior engineers and act as a force multiplier across the organization
+  use_cases:
+  - High-throughput ad serving platform processing billions of daily requests
+  - Real-Time Bidding (RTB) and auction systems for digital advertising
+  - Third-party demand and supply partner integration for ad monetization
+  - Distributed ad event processing at massive scale (20+ billion daily events)
+  - Low-latency ad transaction delivery for mobile applications
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, Agentic workflows]
+    ml: []
+    web: [API Design]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Infrastructure as Code (IaC), 'Monitoring (Datadog, Prometheus, Grafana)',
+      CI/CD]
+    languages: [Java, SQL]
+    domains: [Real-Time Bidding (RTB), AdTech]
+    other: [Distributed systems design, Multi-threaded programming]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9707378'
+  extracted_at: '2026-06-25T19:47:56.968046'

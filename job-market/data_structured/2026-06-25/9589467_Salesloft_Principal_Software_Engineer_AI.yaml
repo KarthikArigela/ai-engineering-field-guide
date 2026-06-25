@@ -1,0 +1,58 @@
+company:
+  name: Salesloft
+  stage: Late-stage / Merged entity (Clari + Salesloft)
+  focus: |-
+    Enterprise revenue intelligence and predictive revenue
+    platform
+position:
+  title: Principal Software Engineer, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building RAG engines,
+      retrieval/search infrastructure, and a knowledge graph that
+      powers AI agents — these are core AI system components. The
+      engineer designs and owns the systems that give AI agents
+      their context, including embedding-based retrieval, vector
+      databases, and RAG architectures, which are hands-on AI
+      building work.
+  responsibilities:
+  - Design and build the AI Context Layer platform including knowledge graph, RAG
+    engines, and retrieval/search infrastructure
+  - Embed with feature teams to understand context layer data requirements and drive
+    the platform roadmap
+  - Design and own access control and RBAC model across multi-tenant data, agent identity,
+    and fine-grained permissions
+  - Define and evolve APIs, SDKs, and developer interfaces for interacting with the
+    context layer
+  - Collaborate with data engineering to ensure underlying data infrastructure reliably
+    services the context layer
+  - Drive architecture discussions, design and code reviews, and set technical standards
+    for context modeling, storage, retrieval, and governance
+  - Address governance and security requirements around data access, lineage, and
+    auditability in an AI context
+  - Contribute to hiring, internal documentation, onboarding, and platform adoption
+    programs
+  use_cases:
+  - AI agent context layer for enterprise revenue intelligence
+  - Knowledge graph and RAG systems for revenue process data
+  - Retrieval and search infrastructure powering AI-driven revenue decisions
+  - Multi-tenant access control and governance for AI agents
+  - Predictive revenue system combining human and AI decision-making
+  skills:
+    genai: [RAG architectures, Embedding-based retrieval, Evaluation and quality tuning
+        for retrieval, Relevance optimization]
+    ml: []
+    web: [Developer-facing API design, SDK design]
+    databases: [Vector databases]
+    data: [Knowledge graphs, Large-scale retrieval and search systems, Data engineering]
+    cloud: []
+    ops: []
+    languages: [Python, Java]
+    domains: []
+    other: [Access control and RBAC, Data governance and lineage, Multi-tenant architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9589467'
+  extracted_at: '2026-06-25T19:44:49.800045'

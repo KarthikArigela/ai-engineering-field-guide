@@ -1,0 +1,62 @@
+company:
+  name: PAR Technology
+  stage: Public
+  focus: Restaurant technology (POS, ordering, loyalty, hardware)
+position:
+  title: Senior AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      operating a production-grade multi-tenant AI Platform with
+      LLM orchestration, multi-agent workflows, RAG pipelines, and
+      multi-model routing. The engineer designs and implements the
+      core GenAI infrastructure (orchestration patterns, embedding
+      pipelines, guardrails) that other teams use, making this
+      hands-on AI system building at its core.
+  responsibilities:
+  - Design, build, and operate a production-grade, multi-tenant AI Platform on AWS
+    enabling engineering teams to deploy AI agents and agentic workflows
+  - Build production-grade GenAI microservices and stateful multi-agent workflows
+    with appropriate orchestration patterns based on auditability, latency, and complexity
+  - Design and operate automated content ingestion pipelines including chunking, embedding,
+    vector storage, and OpenSearch Serverless indexing for knowledgebase retrieval
+  - Build platform APIs, developer tooling, MCP-compatible tool interfaces, real-time
+    streaming APIs, and agent configuration SDKs for engineers
+  - Own platform observability stack including LLM eval suites (LangSmith, Ragas),
+    distributed tracing, per-tenant cost attribution, and CI/CD quality gating
+  - Design multi-tenant isolation with namespace isolation, tenant_id injection, and
+    policy-as-code enforcement ensuring no cross-brand data pollution
+  - Define and implement content safety guardrails, grounding checks, and compliance
+    controls (SOC 2, PCI DSS, GDPR, CCPA) for all customer-facing agents
+  - Maintain the Platform Onboarding Copilot, technical documentation, ADRs, and collaborate
+    with DevOps on version promotion pipelines
+  use_cases:
+  - Multi-tenant AI agent platform for restaurant technology products
+  - Agentic workflows surfaced directly to restaurant customers
+  - Self-service RAG-based knowledgebase retrieval across product teams
+  - Multi-agent orchestration with real-time streaming for customer-facing applications
+  - Automated content ingestion and hybrid retrieval pipelines
+  - Enterprise-scale governance and compliance for AI agents across multiple restaurant
+    brands
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, OpenAI API, Anthropic API, RAG, Multi-agent
+        orchestration, MCP, Prompt engineering]
+    ml: [Hugging Face Transformers]
+    web: [FastAPI, Flask, Django, Node.js, Express, NestJS, SSE/WebSocket streaming]
+    databases: [OpenSearch Serverless, FAISS, ChromaDB, Pinecone, Weaviate, Redis,
+      Elasticsearch, BigQuery]
+    data: [Databricks, PySpark, Delta Lake, Apache Airflow]
+    cloud: [AWS, Amazon Bedrock, AWS SageMaker, AWS Step Functions, AWS API Gateway,
+      AWS Lambda, Amazon S3, Amazon CloudFront, AWS WAF, AWS PrivateLink, AWS CloudWatch,
+      AWS KMS, AWS IAM, Amazon EKS (Kubernetes)]
+    ops: [MLflow, LangSmith, Ragas, AWS X-Ray, GitHub Actions, Terraform, Docker,
+      Policy-as-code frameworks]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: [PCI DSS compliance, GDPR compliance, SOC 2 compliance, Text-to-SQL]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9661539'
+  extracted_at: '2026-06-25T19:52:14.736749'

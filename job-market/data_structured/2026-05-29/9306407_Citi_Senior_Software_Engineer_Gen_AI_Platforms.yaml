@@ -1,0 +1,61 @@
+company:
+  name: Citi
+  stage: Public
+  focus: |-
+    Global bank providing financial services and banking
+    products
+position:
+  title: Senior Software Engineer –Gen AI Platforms
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on building platforms, infrastructure, and
+      tooling (CLIs, SDKs, runtimes, control planes, sandboxing
+      systems) that enable others to use GenAI capabilities at
+      Citi. While the role involves "architecting" GenAI
+      applications and understanding RAG architectures, the
+      primary responsibilities are building distributed systems,
+      microservices, and enterprise-grade AI platforms that
+      support AI work rather than directly training, fine-tuning,
+      or deploying models themselves. The heavy emphasis on Go,
+      Kubernetes, OpenShift, MongoDB/Redis, and general
+      distributed systems engineering indicates this is an
+      infrastructure/platform engineering role supporting AI
+      initiatives.
+  responsibilities:
+  - Build scaled, robust services and platforms centered around generative AI, including
+    CLIs, SDKs, and runtimes
+  - Drive architectural vision and lead the 0-1 build of foundational, enterprise-grade
+    AI platforms and products
+  - Design and build high-quality, highly reliable, and secure distributed systems
+    with developer and user experience at the center
+  - Continually iterate and scale Generative AI products to handle massive throughput
+    for internal customers
+  - Drive technical alignment across multiple engineering organizations to deliver
+    cohesive AI capabilities
+  - Design control planes, sandboxing systems for AI experimentation, and manage large-scale
+    vector stores and search algorithms
+  use_cases:
+  - Enterprise-grade generative AI platforms for banking applications
+  - Internal AI capabilities platform serving Citi's engineering teams
+  - Control planes and sandboxing systems for safe AI experimentation
+  - Vector stores and search algorithms for AI-powered banking solutions
+  - AI safety and guardrail implementations for financial services
+  - Distributed systems supporting generative AI at planetary scale
+  skills:
+    genai: [Claude, Gemini, RAG architectures, AI safety/guardrails]
+    ml: []
+    web: [React 19+, REST, gRPC, WebSockets, OAuth, JWT]
+    databases: [MongoDB, Redis, Vector stores]
+    data: [Large-scale ETL, Data pipelines]
+    cloud: [S3]
+    ops: [OpenShift, Kubernetes, Vault, GitOps, CI/CD, Prometheus, Grafana, ELK, Zero-trust
+        security]
+    languages: [Golang, Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9306407'
+  extracted_at: '2026-05-29T09:01:38.407501'

@@ -1,0 +1,46 @@
+company:
+  name: Qontext
+  stage: Series A
+  focus: Context layer infrastructure for AI systems
+position:
+  title: Backend Engineer – AI/ML
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Backend Engineer role focused on building
+      infrastructure (ingestion pipelines, retrieval layers, APIs)
+      that enables AI systems to access context. The engineer is
+      not building, training, or fine-tuning AI models directly,
+      but rather creating the data pipelines, knowledge graphs,
+      and retrieval systems that support AI processes - making
+      this ai-support.
+  responsibilities:
+  - Design and implement the core backend logic of our AI context engine
+  - Build and optimize data ingestion pipeline transforming raw tool data into structured
+    knowledge graphs
+  - Develop high-performance retrieval and ranking systems combining vector search,
+    rule-based logic, and entity recognition
+  - Productize complex processes via APIs and modular components (MCP, SDK)
+  - Create evaluation and experimentation frameworks to continuously improve performance
+    and contextual accuracy
+  use_cases:
+  - AI reasoning over live company knowledge instead of static data
+  - Real-time context access for AI systems across customer organizations
+  - Transforming unstructured information into structured, queryable context
+  - Vector search with rule-based logic and entity recognition for knowledge retrieval
+  skills:
+    genai: []
+    ml: [entity recognition]
+    web: [APIs, MCP]
+    databases: [vector search]
+    data: [knowledge graphs, data pipelines]
+    cloud: [distributed systems]
+    ops: []
+    languages: [TypeScript, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9190849'
+  extracted_at: '2026-05-29T08:56:56.880228'

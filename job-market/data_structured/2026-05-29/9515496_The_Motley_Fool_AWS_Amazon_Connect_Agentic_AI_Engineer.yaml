@@ -1,0 +1,61 @@
+company:
+  name: The Motley Fool
+  stage: Established company (30 years in business)
+  focus: Financial services and investment advice platform
+position:
+  title: AWS Amazon Connect Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on engineering role focused on building and
+      deploying AI agents for customer service. The role involves
+      implementing agentic AI systems, RAG patterns, Bedrock
+      Knowledge Bases, and Amazon Q in Connect - all direct work
+      on AI/ML systems rather than supporting infrastructure or
+      general software engineering.
+  responsibilities:
+  - Deliver AI-first call handling, intelligent routing, and autonomous resolution
+    of common login, account, and password-reset queries in Amazon Connect
+  - Design AI-first workflows for voice and email that prioritize autonomous resolution
+    with intelligent routing decisions
+  - Extract real interaction patterns and customer language from call recordings and
+    transcripts to ground AI in actual member needs
+  - Build handoff patterns that preserve member interaction history, intent, and attempted
+    actions for seamless agent transitions
+  - Write production-ready Python backend code and AWS Lambda integrations for secure
+    account lookups, validation, and CRM updates
+  - Integrate Amazon Connect workflows with HubSpot and internal systems to provide
+    AI agents with real-time customer context
+  - Tune RAG patterns and Bedrock Knowledge Bases to keep AI responses grounded in
+    approved policies and procedures
+  - Implement guardrails that keep AI responses focused on approved topics with secure
+    verification for sensitive workflows
+  - Deploy and manage AWS resources using CloudFormation, CDK, or Terraform with version-controlled
+    Connect flow deployments
+  use_cases:
+  - Automated customer service for financial services including login assistance,
+    account management, and password resets
+  - Intelligent voice and email routing with autonomous resolution of routine customer
+    inquiries
+  - RAG-powered AI agent that provides accurate responses grounded in approved policies
+    and procedures
+  - Seamless handoff between AI agents and human representatives with full context
+    preservation
+  - Secure authentication and verification for sensitive financial account workflows
+  skills:
+    genai: [Amazon Q in Connect, Bedrock Knowledge Bases, RAG, MCP, Prompt engineering,
+      Agentic AI]
+    ml: []
+    web: [CRM integration]
+    databases: [DynamoDB]
+    data: [Kinesis]
+    cloud: [Amazon Connect, Amazon Lex, Amazon Bedrock, AWS Lambda, AWS, S3, IAM]
+    ops: [CloudWatch, CloudFormation, CDK, Terraform, Infrastructure as Code]
+    languages: [Python]
+    domains: []
+    other: [HubSpot]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9515496'
+  extracted_at: '2026-05-29T09:08:55.051726'

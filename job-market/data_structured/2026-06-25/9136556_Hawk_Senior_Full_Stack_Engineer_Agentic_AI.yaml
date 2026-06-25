@@ -1,0 +1,54 @@
+company:
+  name: Hawk
+  stage: null
+  focus: AI-supported anti-money laundering and fraud detection
+position:
+  title: Senior Full Stack Engineer (Agentic AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying agentic
+      AI systems — specifically designing LangGraph workflows that
+      drive an AI Investigation Agent's reasoning, building eval
+      harnesses and tracing for LLM behavior, and establishing
+      engineering practices for agentic products. The engineer
+      owns the full agentic AI stack end-to-end, from agent
+      orchestration to production observability.
+  responsibilities:
+  - 'Design, build, and operate backend systems powering the Investigation Agent:
+    LangGraph workflows, FastAPI services, Postgres/Redis data layers, and Kubernetes
+    deployments'
+  - Build the React/TypeScript frontend that surfaces agent reasoning, evidence, and
+    explainability to financial crime analysts
+  - Own features end-to-end from spec to production — backend, frontend, infra, observability,
+    and evals
+  - Build eval harnesses, tracing, and feedback loops in Langfuse to ensure agent
+    reliability and correctness
+  - Partner with Product/UX, Data Science, and Engineering to shape product direction
+    and push back on questionable features
+  - Champion AI-native engineering workflows using tools like Claude Code and Cursor
+    across the team
+  - 'Establish engineering best practices for agentic products: testing, deployment,
+    monitoring, and rollback strategies'
+  use_cases:
+  - Autonomous AI investigation agent for financial crime (AML and fraud detection)
+  - Human-AI collaboration for financial crime investigations with explainability
+    and trust
+  - Agent reasoning visualization and evidence surfacing for compliance analysts
+  - LLM observability and evaluation for agentic AI in regulated financial environments
+  skills:
+    genai: [LangGraph, Langfuse, Agentic AI, LLM observability, Claude Code, Cursor]
+    ml: []
+    web: [FastAPI, React, shadcn/ui]
+    databases: [Postgres, Redis]
+    data: []
+    cloud: []
+    ops: [Kubernetes, Docker]
+    languages: [TypeScript, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9136556'
+  extracted_at: '2026-06-25T19:40:58.679926'

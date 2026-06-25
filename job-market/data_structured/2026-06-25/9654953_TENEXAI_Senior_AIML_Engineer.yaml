@@ -1,0 +1,56 @@
+company:
+  name: TENEX.AI
+  stage: Seed (led by Andreessen Horowitz/a16z), with additional substantial funding
+    from Crosspoint Capital Partners and others
+  focus: AI-native Managed Detection and Response (MDR) cybersecurity
+position:
+  title: Senior AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and productionizing
+      LLMs, graph-based reasoning engines, RAG-backed
+      investigation systems, and agentic multi-agent architectures
+      for cybersecurity. The engineer owns the AI layer including
+      fine-tuning, prompt engineering, and evaluation — clearly
+      hands-on work on AI/ML systems.
+  responsibilities:
+  - Lead and own the architecture and delivery of technical components for complex
+    AI-driven cybersecurity projects
+  - Design and build the AI layer powering autonomous threat detection, RAG-backed
+    investigation, and auto-remediation workflows
+  - Develop and productionize large-scale LLMs, graph-based reasoning engines, and
+    streaming feature pipelines operating on billions of security events
+  - Own evaluation and reliability including prompt libraries, fine-tuning, red-team
+    testing, latency budgets, and fallback strategies
+  - Partner with Product, Detection Engineering, and Customer Success to translate
+    real-world attacker behavior into robust ML and rule-based detections
+  - Experiment with RAG, tool-calling agents, and multi-modal models to advance threat
+    detection capabilities
+  - Provide technical mentorship to junior engineers and contribute to architectural
+    design reviews
+  use_cases:
+  - Autonomous cybersecurity threat detection on billions of security events
+  - RAG-backed security investigation and analysis
+  - Automated remediation of cybersecurity threats
+  - Graph-based reasoning over attacker behavior and security logs
+  - Multi-modal threat intelligence combining text, logs, and graph data
+  - Rule-based and ML-driven detection of real-world attack patterns
+  skills:
+    genai: [Multi-Agent Systems (MAS), LangChain, LangGraph, Agentic systems design,
+      RAG (Retrieval-Augmented Generation), Tool-calling agents, Prompt engineering,
+      Fine-tuning, Multi-modal models, LLM productionization]
+    ml: []
+    web: [REST APIs, gRPC]
+    databases: [Graph databases]
+    data: [Event-driven systems]
+    cloud: [AWS, GCP, Azure]
+    ops: [Docker, Kubernetes, Microservices architecture, Evaluation harnesses]
+    languages: [Python, Go, Rust, Java, SQL]
+    domains: ['Cybersecurity (SIEM, EDR, SOAR, MDR)']
+    other: [Red-team testing]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9654953'
+  extracted_at: '2026-06-25T19:44:22.828074'

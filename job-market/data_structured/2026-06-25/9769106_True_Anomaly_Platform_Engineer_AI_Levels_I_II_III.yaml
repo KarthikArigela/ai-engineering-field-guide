@@ -1,0 +1,59 @@
+company:
+  name: True Anomaly
+  stage: Series A/B
+  focus: Space defense technology and autonomous spacecraft
+position:
+  title: Platform Engineer, AI (Levels I, II, III)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building AI-powered applications, custom
+      workflows, connectors between AI models and internal systems
+      (including MCP, tool use, RAG, and agent frameworks), and
+      API integrations that put AI into production workflows.
+      While it is a platform engineering role rather than ML
+      research, the engineer directly implements and deploys AI
+      capabilities — building with LLM APIs, agent frameworks, and
+      RAG — making it ai-first.
+  responsibilities:
+  - Build and maintain AI platform components including API integrations, system connectors
+    (MCP, tool use), authentication flows, and data pipelines connecting AI models
+    to internal tools
+  - Develop custom AI-powered applications and workflows for specific business use
+    cases based on technical designs from senior engineers
+  - Write clean, well-tested code in Python, TypeScript, or similar languages following
+    team standards and best practices
+  - Participate in code reviews, technical discussions, and platform architecture
+    decisions
+  - Maintain documentation for AI platform services including API references, integration
+    guides, and troubleshooting resources
+  - Support AI training and enablement efforts across the company by contributing
+    to internal resources and helping teams adopt AI tools
+  - Work with engineering, security, and IT teams to ensure AI implementations meet
+    government security and compliance requirements
+  - Stay current with AI developments and implement them into company solutions
+  use_cases:
+  - AI-assisted workflows for engineering, program management, operations, and business
+    teams
+  - Connecting AI models to internal enterprise systems (Slack, Jira, Confluence)
+  - Custom AI-powered applications for specific defense company workflows
+  - RAG-based knowledge retrieval across internal data sources
+  - Agent-based automation for routine business processes
+  - AI platform infrastructure serving the entire enterprise
+  skills:
+    genai: [LangChain, CrewAI, Pydantic AI, LLM APIs, RAG, Prompt engineering, MCP
+        (Model Context Protocol), Function calling / tool use, Agent frameworks]
+    ml: []
+    web: [REST APIs, Webhooks]
+    databases: [Vector databases]
+    data: [Data pipelines]
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, Infrastructure as Code, DevOps, Testing frameworks]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Slack integrations, Jira integrations, Confluence integrations]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9769106'
+  extracted_at: '2026-06-25T19:49:08.008106'

@@ -1,0 +1,55 @@
+company:
+  name: Avontix
+  stage: Series B
+  focus: |-
+    Revenue cycle management for surgical organizations and
+    healthcare providers
+position:
+  title: Senior AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves hands-on work building, deploying, and
+      operating ML models and NLP pipelines that directly automate
+      revenue cycle processes. The engineer will build ML
+      services, set up MLOps infrastructure, and implement NLP/OCR
+      systems for document analysis. This is core model
+      engineering work, not just enabling infrastructure or
+      general software engineering.
+  responsibilities:
+  - Design, build, and run machine learning systems that make healthcare revenue operations
+    faster, more accurate, and less manual
+  - Turn business problems into ML solutions with clear goals and success metrics
+  - Build, deploy, and operate ML services used by internal teams and clients
+  - Set up automated tests and dashboards that track quality, speed, cost, and drift
+    with clear rollback criteria
+  - Work with data engineering to prepare clean, well-documented datasets from claims,
+    remits, eligibility, status, and operational logs
+  - Collaborate daily with the existing AI team, product managers, and platform engineers
+    to land models in real workflows with privacy and audit controls
+  - Build and refine NLP pipelines for document analysis, OCR, and entity extraction
+  - Mentor junior engineers in best practices for model design, coding, and MLOps
+  use_cases:
+  - Healthcare revenue cycle management automation
+  - Reducing preventable claim denials and improving first pass yield
+  - Document analysis with OCR and entity extraction for medical claims
+  - Automating eligibility checks and status tracking
+  - NLP on clinical and operational text for revenue operations
+  - Decision support systems for revenue cycle optimization
+  skills:
+    genai: [RAG, LLMs]
+    ml: [PyTorch, TensorFlow, scikit-learn, feature engineering]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS Textract, AWS, Azure, GCP]
+    ops: [MLflow, Kubeflow, ML pipelines, model versioning, model monitoring, model
+        drift detection, Docker, Kubernetes, MLOps]
+    languages: [Python, SQL]
+    domains: [NLP, OCR, entity extraction]
+    other: [Tesseract]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9330721'
+  extracted_at: '2026-05-29T09:00:26.458639'

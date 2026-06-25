@@ -1,0 +1,60 @@
+company:
+  name: Risepoint
+  stage: null
+  focus: Education technology for online university degree programs
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is primarily a cloud infrastructure architecture role
+      responsible for the platform supporting AI workloads
+      (Kubernetes, event streaming, multi-tenant deployments), not
+      directly building or fine-tuning AI/ML models. While the
+      platform serves ML models and handles AI-mediated
+      communications, the role's focus is on architecture,
+      scalability, reliability, and infrastructure standards
+      rather than hands-on model development or deployment.
+  responsibilities:
+  - Lead the architecture and evolution of cloud-native infrastructure for the Student
+    Journey Platform including Kubernetes-based AI services on Azure (AKS)
+  - Establish and promote architecture standards, design patterns, and deployment
+    best practices across engineering teams including service mesh, autoscaling, and
+    container orchestration
+  - Lead architecture design across platform components integrating Kafka, Azure Event
+    Hubs, Azure Service Bus, and AI Foundry for resilient asynchronous AI workloads
+  - Present architecture proposals to the Architecture Review Board ensuring alignment
+    with enterprise SLAs, security, compliance, and scalability standards
+  - Identify and resolve architectural risks early, working across engineering teams
+    to close gaps in design, security, or operational readiness
+  - Debug and resolve production-level infrastructure issues driving root cause resolution
+  - Implement and manage event streaming and real-time processing pipelines at production
+    scale supporting high-volume asynchronous AI workloads
+  - Design and manage multi-tenant cloud infrastructure across university partner
+    deployments with distinct compliance and data isolation requirements
+  use_cases:
+  - Real-time AI-mediated student communication across web chat, phone, and SMS with
+    sub-second latency
+  - ML-based propensity scoring and lead prioritization for university student enrollment
+  - Durable stateful student engagement workflow orchestration (Cadence Engine)
+  - Speech analytics pipeline processing call transcript data at volume
+  - Multi-tenant student intelligence platform across 10+ university partner environments
+  - Event-driven workflow execution for student success and marketing operations
+  skills:
+    genai: [RAG, MCP server architecture]
+    ml: []
+    web: []
+    databases: [Vector stores]
+    data: [Kafka, Azure Event Hubs, Azure Service Bus, Databricks, Speech analytics]
+    cloud: [Azure Kubernetes Service (AKS), Azure, Azure AI Foundry]
+    ops: [Kubernetes, Docker, Terraform, Databricks Model Serving, New Relic, Azure
+        Monitor, Prometheus, Grafana, Infrastructure as code, Service mesh, ML model
+        serving]
+    languages: [Python, C#, Java]
+    domains: []
+    other: [Salesforce, Distributed system design]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9745378'
+  extracted_at: '2026-06-25T19:48:14.527967'

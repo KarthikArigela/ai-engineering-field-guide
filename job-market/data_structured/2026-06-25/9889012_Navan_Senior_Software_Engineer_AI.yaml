@@ -1,0 +1,56 @@
+company:
+  name: Navan
+  stage: Public
+  focus: Corporate travel and expense management
+position:
+  title: Senior Software Engineer, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic workflows, LLM-
+      powered flows with tool calling, structured outputs,
+      guardrails, and eval pipelines for production customer-
+      facing use cases. The engineer works hands-on with AI agents
+      and LLM orchestration to create intelligent product
+      experiences.
+  responsibilities:
+  - Design and develop agentic workflows that help users view, understand, connect,
+    and manage their loyalty programs through chat, wallet surfaces, and personalized
+    recommendations
+  - Build reliable production LLM-powered flows with structured outputs, tool calling,
+    guardrails, human-in-the-loop confirmation, evals, and monitoring
+  - Own agent and workflow quality through scenario tests, adversarial evals, prompt/tool
+    contracts, and quality metrics for safe behavior around loyalty data and PII
+  - Integrate across frontend, backend, and AI orchestration layers including wallet
+    APIs, streaming chat, UI components, and data services
+  - Transform loyalty balances, tier progress, membership data, and trip context into
+    personalized recommendations and next-best actions
+  - Collaborate cross-functionally with product, design, backend, data, and platform
+    teams to ship measurable customer experiences
+  - Champion maintainable code, strong tests, observability, documentation, and operational
+    ownership
+  use_cases:
+  - Agentic loyalty program management and insights for travelers
+  - AI-powered chat experiences for viewing and connecting loyalty memberships
+  - Personalized travel recommendations based on loyalty data and trip context
+  - Safe handling of PII and financial guidance in AI interactions
+  - Next-best-action recommendations for loyalty program optimization
+  skills:
+    genai: [LangChain/LangGraph, LLM tool calling, Structured LLM outputs, RAG, AI
+        agents and agentic workflows, AI guardrails, Human-in-the-loop confirmation,
+      Prompt engineering]
+    ml: []
+    web: [FastAPI/Flask/Django, REST APIs, Streaming chat experiences]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Distributed systems, Observability and monitoring, Caching, Eval pipelines,
+      MLflow/W&B]
+    languages: [TypeScript/Node.js, Java, Python]
+    domains: [Travel and loyalty programs, Personalization]
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9889012'
+  extracted_at: '2026-06-25T19:57:30.726797'

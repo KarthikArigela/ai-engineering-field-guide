@@ -1,0 +1,53 @@
+company:
+  name: 1GLOBAL
+  stage: Series B+
+  focus: Global mobile communications and eSIM connectivity provider
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building LLM-powered
+      systems and platforms. The engineer will directly work with
+      RAG pipelines, LLM gateways (AWS Bedrock, LiteLLM), vector
+      search, MCP servers, and conversational interfaces - all
+      core GenAI implementation work rather than support
+      infrastructure.
+  responsibilities:
+  - Design and build central AI platform development and governance using AWS Bedrock
+    fronted by an LLM gateway with token budgets, rate limits, key management, guardrails,
+    and observability
+  - Engineer the technical architecture of internal AI tools and MCP servers including
+    RAG pipelines, vector search, LLM integration, and conversational interfaces
+  - Build secure ingestion and indexing pipelines for internal knowledge sources with
+    appropriate access controls
+  - Develop backend services and APIs that expose AI capabilities to internal users
+    and product teams
+  - Establish engineering standards for the AI function including testing, deployment,
+    monitoring, and model evaluation frameworks
+  - Own the full development lifecycle from requirements through production monitoring
+    with a bias toward shipping and iterating
+  use_cases:
+  - Internal knowledge management and search via RAG-powered systems
+  - AI-powered productivity tools for engineers and operations teams
+  - Secure document ingestion and indexing from enterprise sources
+  - AI capabilities integrated into commercial telecom product lines
+  - Conversational interfaces for internal and external users
+  - LLM-based developer tools and workflows
+  skills:
+    genai: [LiteLLM, Portkey, RAG, LLM integration, MCP servers, Conversational interfaces,
+      AI coding agents]
+    ml: []
+    web: [REST APIs]
+    databases: [Vector search]
+    data: []
+    cloud: [AWS Bedrock]
+    ops: [LLM evaluation, Docker, Kubernetes, CI/CD, LLM gateway]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9226812'
+  extracted_at: '2026-05-29T08:58:19.309934'

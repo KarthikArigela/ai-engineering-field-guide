@@ -1,0 +1,58 @@
+company:
+  name: Machinify
+  stage: Late-stage / Growth
+  focus: |-
+    AI-powered healthcare claims intelligence and payment
+    optimization
+position:
+  title: AI Engineer | Agentic Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely ai-first: the engineer will design and
+      ship production-grade agentic systems from scratch, making
+      architectural decisions about agent loops, tool interfaces,
+      context strategies, and evaluation harnesses. The core work
+      involves building LLM-based agent systems that reason over
+      medical documents, not merely supporting infrastructure for
+      others' AI work.
+  responsibilities:
+  - Design agent systems from first principles including loop architecture, tools,
+    context strategy, and evaluation harness
+  - Engineer prompt context including context windows, tool surfaces, structured outputs,
+    citation grounding, and prompts
+  - Build rigorous evaluation frameworks — create evals before agents, diagnose failures,
+    and prove fixes with metrics
+  - Use AI coding tools (Claude Code, Codex) as a power user to plan, scaffold, refactor,
+    and debug work
+  - Become a domain expert in healthcare claims, coding guidelines, and medical records
+  - Ship production-quality agentic systems that audit medical claims end-to-end with
+    human-expert accuracy
+  - Choose and defend architectural decisions (single vs multi-agent, LLM reasoning
+    vs deterministic passes, retrieval vs direct context)
+  use_cases:
+  - Automated auditing of medical claims using agentic AI systems
+  - Reading and reasoning over raw medical records and clinical guidelines
+  - Medical coding validation against clinical and regulatory standards
+  - Producing defensible findings that withstand clinical and regulatory review
+  - Long-context document understanding with citation-grounded evidence extraction
+  skills:
+    genai: ['Agent SDKs (OpenAI Agents, Anthropic SDK, LangGraph)', Prompt engineering,
+      Structured outputs (Pydantic / JSON Schema), LLM agent loops and tool calling,
+      Citation-grounded generation, 'Reasoning models (o-series, Claude extended thinking)',
+      Claude Code / Codex, RAG (Retrieval-Augmented Generation)]
+    ml: [OCR / document understanding, Vision-language models]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: ['Git (branches, rebases, worktrees, PR workflows)', LLM observability and
+        cost control, LLM caching strategies, Evaluation frameworks for AI systems]
+    languages: [Python, Async Python]
+    domains: [Healthcare claims and medical coding]
+    other: [VS Code]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8940922'
+  extracted_at: '2026-05-29T08:48:49.698521'

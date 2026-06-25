@@ -1,0 +1,51 @@
+company:
+  name: Citi
+  stage: Public
+  focus: Global banking and financial services
+position:
+  title: Data Engineer - Python, AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a Data Engineer position with some
+      AI/ML integration responsibilities. The core work involves
+      building data pipelines (PySpark, Pandas), developing APIs
+      (Flask), and supporting infrastructure - all of which
+      enables AI work rather than directly building or training
+      models. While the role mentions NLP libraries (Flair, BERT,
+      LLM frameworks), these appear to be for integrating and
+      deploying existing models into production pipelines rather
+      than developing, training, or fine-tuning them.
+  responsibilities:
+  - Develop and optimize ETL/data processing jobs using PySpark, Pandas, PyArrow,
+    and related libraries
+  - Build and maintain NLP pipelines using Flair, BERT, and LLM-based models
+  - Build and maintain Flask-based APIs for model inference and service integrations
+  - Integrate caching and fast lookups using Redis
+  - Manage and deploy ML models using MLflow for tracking and versioning
+  - Support CI/CD workflows using GitHub, LightSpeed Enterprise, and deployment pipelines
+  - Create and maintain Autosys JILs for job scheduling and automation
+  - Monitor application and system health using ITRS Geneos
+  use_cases:
+  - NLP-based text processing and analysis using Flair, BERT, and LLM models
+  - Large-scale data processing and transformation for analytics
+  - Real-time model inference through Flask-based APIs
+  - Automated job scheduling for data pipelines
+  - Model tracking and versioning with MLflow
+  skills:
+    genai: [LLM frameworks]
+    ml: [Flair, BERT, HuggingFace Transformers, PyTorch, TensorFlow]
+    web: [Flask, REST APIs, FastAPI, Microservices]
+    databases: [Redis]
+    data: [PySpark, Pandas, PyArrow, Airflow, Prefect, Polars, Dask, ETL, Data pipelines]
+    cloud: [boto3, AWS]
+    ops: [MLflow, GitHub, Autosys JILs, Linux, ITRS Geneos, Docker, Kubernetes, Unit
+        testing, PyTest, unittest, CI/CD]
+    languages: [Python, Regular expressions, Shell scripting]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9516511'
+  extracted_at: '2026-05-29T09:09:20.359633'

@@ -1,0 +1,55 @@
+company:
+  name: Fluxon
+  stage: null
+  focus: |-
+    AI-driven technology consulting and engineering services for
+    enterprise clients
+position:
+  title: Senior Software Engineer (AI Engineer)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role that involves
+      building, deploying, and optimizing AI systems. The
+      responsibilities explicitly include RAG systems, agentic
+      workflows, fine-tuning models, and model inference - all
+      direct AI/ML work. This is not support infrastructure; they
+      are building the actual AI applications.
+  responsibilities:
+  - Design and implement end-to-end AI systems including data ingestion, preprocessing,
+    model inference, and output structuring
+  - Build and optimize RAG (Retrieval-Augmented Generation) systems and Agentic workflows
+    using frameworks like LangChain, LangGraph, ADK, and Genkit
+  - Deploy models to production environments (AWS/GCP/Azure) using Docker and Kubernetes,
+    ensuring high availability and scalability
+  - Implement feedback loops to evaluate model performance (accuracy, hallucinations,
+    relevance) and set up monitoring for drift in production
+  - Work closely with other engineers to integrate AI endpoints into the core product
+    and with product managers to define AI capabilities
+  - Fine-tune open-source models (e.g., Llama, Mistral) for specific domain tasks
+    and optimize them for latency and cost
+  use_cases:
+  - AI-powered applications for enterprise clients
+  - Retrieval-Augmented Generation (RAG) systems for information retrieval
+  - Agentic workflows with autonomous AI tool/API execution
+  - Domain-specific model fine-tuning for specialized tasks
+  - Vector similarity search and semantic applications
+  skills:
+    genai: [LangChain, LangGraph, OpenAI API, Anthropic API, Google ADK, Genkit, RAG,
+      Prompt Engineering, Few-shot Prompting, Chain-of-Thought, ReAct, Tree of Thoughts,
+      LLMs]
+    ml: [Transformer Architectures, Embeddings, Vector Similarity Search, Model Fine-tuning,
+      Model Optimization]
+    web: []
+    databases: [PostgreSQL, MongoDB, Firestore, Vector Databases]
+    data: []
+    cloud: [Vertex AI, GCP, AWS, Azure, Google Cloud Storage, AWS S3]
+    ops: [Docker, Kubernetes, Temporal, CI/CD, GCP Cloud Monitoring Suite, Git]
+    languages: [Python, Java, C++, Scala, JavaScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9343441'
+  extracted_at: '2026-05-29T09:01:06.912763'

@@ -1,0 +1,57 @@
+company:
+  name: Bristol Myers Squibb
+  stage: Public
+  focus: Pharmaceutical research and drug development
+position:
+  title: AI & ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and deploying AI/ML models and
+      GenAI capabilities (RAG, LLM-based agents, conversational
+      agents) and integrating them into applications. The employee
+      directly works on model development, feature engineering,
+      and deployment, which qualifies as hands-on AI work rather
+      than just enabling support infrastructure.
+  responsibilities:
+  - Build focused data pipelines that pull from GPS source systems and transform raw
+    data into clean, usable datasets
+  - Use Spark, Python, SQL, and AWS services to extract, transform, and load data
+    efficiently
+  - Apply Medallion architecture patterns (bronze → silver → gold) to organize data
+    layers
+  - Build and deploy machine learning models including predictive, classification,
+    anomaly detection, and optimization models
+  - Develop and integrate GenAI and LLM-based capabilities including conversational
+    agents, RAG, and agentic AI workflows
+  - Perform feature engineering to design and build feature sets from complex operational
+    data
+  - Partner with Software Engineers to define data contracts, APIs, and output formats
+    for application consumption
+  - Work with Systems Analysts to translate business requirements into data and AI
+    solution approaches
+  use_cases:
+  - Operational data transformation for pharmaceutical manufacturing and quality systems
+  - Predictive modeling for GPS (Global Pharmaceutical Supply) use cases including
+    anomaly detection and optimization
+  - Conversational AI agents for lab and manufacturing operational support
+  - RAG-based knowledge retrieval for operational and scientific applications
+  - Data-driven decision support for supply chain and production planning
+  - Feature engineering from complex operational data sources (SAP, MES, LIMS)
+  skills:
+    genai: [RAG, LLM-based agents, Conversational agents, Agentic AI workflows, Prompt
+        engineering]
+    ml: [Machine learning models, Feature engineering]
+    web: [React.js, Node.js]
+    databases: []
+    data: [Spark, Databricks, dbt, Medallion architecture, ETL]
+    cloud: [AWS, AWS S3, AWS Glue, AWS Lambda]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [SAP, MES, LIMS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9416822'
+  extracted_at: '2026-05-29T09:04:00.778501'

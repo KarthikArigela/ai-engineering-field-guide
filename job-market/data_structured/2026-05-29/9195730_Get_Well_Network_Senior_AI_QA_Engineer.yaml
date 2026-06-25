@@ -1,0 +1,51 @@
+company:
+  name: Get Well Network
+  stage: Public (SymphonyAI Group company)
+  focus: AI-native precision care technology and patient engagement
+position:
+  title: Senior AI QA Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a QA Engineer role focused on testing and validation
+      frameworks for AI/ML outputs. The role builds test
+      harnesses, evaluation metrics, and automated grading systems
+      - it does NOT build, train, or deploy models. The engineer
+      validates model outputs created by others, working on
+      infrastructure that supports AI work (testing frameworks,
+      data pipeline validation, grading systems).
+  responsibilities:
+  - Architect multi-layered validation frameworks combining deterministic checks,
+    semantic similarity metrics, and model-based evaluations
+  - Develop automated model grading systems to evaluate clinical pipeline outputs
+    for faithfulness, safety, and hallucination detection
+  - Leverage agentic AI tools to rapidly prototype test harnesses, red-team clinical
+    logic, and build internal validation utilities
+  - Execute integration and regression tests for data-heavy backend processes ensuring
+    medical data consistency
+  - Collaborate with Data Scientists and Product Managers to define Ground Truth datasets
+    and clinical evaluation rubrics
+  - Perform root cause analysis on system failures to identify issues stemming from
+    code logic, data drift, or model behavior
+  use_cases:
+  - Clinical precision care pipeline generating medical insights and treatment recommendations
+  - Healthcare data validation and integrity across ingestion to insight generation
+    workflows
+  - Automated grading and safety validation for non-deterministic medical AI outputs
+  - Patient engagement and care orchestration across health systems
+  skills:
+    genai: [Agentic AI tools]
+    ml: [BERTScore, ROUGE, Semantic Similarity, NLP metrics, Hallucination detection]
+    web: [Cypress, Playwright, Selenium, Postman, RestAssured, API testing]
+    databases: [SQL, NoSQL]
+    data: [Data pipeline validation]
+    cloud: []
+    ops: [PyTest, LangSmith, Arize Phoenix, MLflow, Automated testing]
+    languages: [Python]
+    domains: [FHIR, HL7, SNOMED CT, HIPAA]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9195730'
+  extracted_at: '2026-05-29T08:55:34.544638'

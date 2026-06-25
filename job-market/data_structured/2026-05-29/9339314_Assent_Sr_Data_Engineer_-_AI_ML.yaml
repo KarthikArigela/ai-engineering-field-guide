@@ -1,0 +1,64 @@
+company:
+  name: Assent
+  stage: Series B
+  focus: |-
+    SaaS platform for supply chain sustainability compliance and
+    management
+position:
+  title: Sr. Data Engineer - AI ML
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a Data Engineer focused on building the data
+      infrastructure and pipelines that power AI systems, not
+      building the AI models themselves. The responsibilities
+      emphasize knowledge base construction, vector stores, RAG
+      pipelines, and data orchestration - all of which are
+      enabling infrastructure for AI/ML teams rather than direct
+      model work. While the role requires deep understanding of
+      GenAI concepts like RAG, embeddings, and agents, the actual
+      work is on the data engineering side to supply context and
+      knowledge to autonomous AI agents built by others.
+  responsibilities:
+  - Design, build, and optimize data pipelines for Agentic and Generative AI systems
+    enabling context retrieval and multi-step reasoning
+  - Develop and manage knowledge bases, vector stores, and graph databases to organize
+    information across regulatory, product, and supplier domains
+  - Engineer retrieval-augmented reasoning (RAG/RAQ) pipelines integrating embedding
+    generation and contextual chunking for LLM-driven agents
+  - Implement and automate workflows for ingestion of structured and unstructured
+    content into searchable and continuously enriched data stores
+  - Design feedback and reinforcement loops that allow AI agents to validate, correct,
+    and refine their knowledge sources over time
+  - Collaborate cross-functionally with AI/ML, MLOps, Data, and Product teams to define
+    data strategies aligned with AI agent capabilities
+  - Ensure data quality, consistency, and traceability through schema validation,
+    metadata tagging, and lineage tracking within knowledge systems
+  use_cases:
+  - Supply chain sustainability compliance and risk assessment for manufacturers
+  - Enterprise knowledge management and retrieval across regulatory, product, and
+    supplier data
+  - Autonomous AI agents for context-aware decision support and planning in supply
+    chain operations
+  - Semantic search and reasoning over unstructured documents and enterprise data
+    sources
+  - Agentic AI systems for adaptive knowledge updates and multi-step reasoning in
+    sustainability workflows
+  skills:
+    genai: [RAG, LangChain, LlamaIndex, DSPy, Semantic Kernel, Model Context Protocol
+        (MCP), Embeddings, Semantic indexing, Prompt engineering]
+    ml: []
+    web: []
+    databases: [Vector databases, Pinecone, Weaviate, FAISS, Milvus, Neo4j, AWS Neptune,
+      ArangoDB, Graph databases]
+    data: [Airflow, Prefect, Data pipelines, ETL, Knowledge graphs]
+    cloud: [AWS, S3, AWS Glue, AWS Lambda, ECS, Athena, Redshift]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9339314'
+  extracted_at: '2026-05-29T09:02:15.791777'

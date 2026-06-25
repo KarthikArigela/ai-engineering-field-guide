@@ -1,0 +1,53 @@
+company:
+  name: Scale AI
+  stage: Series C+
+  focus: |-
+    AI data platform and infrastructure for enterprise AI
+    applications
+position:
+  title: Senior AI Infrastructure Engineer - Training Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is building infrastructure and orchestration
+      systems that support ML training workflows, not directly
+      building, training, or fine-tuning models. The engineer
+      focuses on scheduling, GPU cluster management,
+      observability, and platform reliability to enable
+      researchers to train models efficiently.
+  responsibilities:
+  - Architect and scale a multi-tenant orchestration layer that abstracts away GPU
+    cluster complexity for high utilization and seamless job recovery
+  - Design and implement scheduling primitives to optimize the lifecycle of training
+    jobs across multi-thousand GPU clusters
+  - Develop deep observability and automated health-checking into the training stack
+    to proactively identify and isolate hardware failures
+  - Evaluate and integrate emerging CNCF and AI ecosystem technologies like Ray and
+    Kueue, making data-driven build vs buy decisions
+  - Partner closely with Finance and Procurement teams to drive capacity planning
+    processes
+  - Own projects end-to-end from requirements through implementation in a cross-functional
+    environment
+  - Participate in on-call rotation to ensure availability and reliability of training
+    platform services
+  use_cases:
+  - Large-scale GPU cluster orchestration and management for AI model training
+  - Multi-tenant training platform supporting thousands of GPUs for research teams
+  - Automated fault detection and recovery systems for distributed training workloads
+  - Capacity planning and resource optimization for AI compute infrastructure
+  skills:
+    genai: []
+    ml: [CUDA, NCCL, DeepSpeed, FSDP, PyTorch]
+    web: []
+    databases: [S3, Lustre]
+    data: [Ray, Distributed storage]
+    cloud: [AWS, GCP]
+    ops: [Kubernetes, Terraform]
+    languages: [Go, Rust, C++, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9186618'
+  extracted_at: '2026-05-29T08:55:52.869706'

@@ -1,0 +1,57 @@
+company:
+  name: ujet.cx
+  stage: Late-stage / Growth
+  focus: AI-powered cloud contact center platform
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a data engineering position focused
+      on building customer data integrations and pipelines that
+      feed into UJET's Spiral product. While the Spiral product
+      uses LLMs for analytics, this role specifically owns the
+      data ingestion seam — adapting customer data, provisioning
+      cloud infrastructure, and orchestrating ETL — rather than
+      building, training, or deploying AI/ML models themselves.
+  responsibilities:
+  - Run technical discovery with new customers to scope available data, its location,
+    and how it will reach Spiral
+  - Design integration approaches for each customer including cloud-to-cloud bucket
+    access, vendor push uploads, scheduled API pulls, file drops, or auth-protected
+    exports
+  - Manage credential and access exchange between customers and Spiral including cloud
+    access policies, OAuth setup, and key handoff
+  - Write production code that adapts each customer's data shape into the ingestion
+    contract and ship through code review
+  - Make infrastructure-as-code changes to provision cloud resources, identity grants,
+    and secrets for each new customer
+  - Configure and operate data orchestration for recurring customer ingest and validate
+    end-to-end through run history, logs, and metrics
+  - Reconcile ingested data against source-system counts and diagnose and backfill
+    historical gaps
+  - Own customer relationships post-go-live including schema changes, new feed requests,
+    and data-format drift
+  use_cases:
+  - Customer conversation analytics from voice recordings, chat transcripts, surveys,
+    and ticket data
+  - Automated PII redaction and transcription of contact center data at scale
+  - LLM-powered surfacing of user stories, taxonomies, and trends for product and
+    operational decisions
+  - Contact center data integration across CCaaS, CRM, and storage systems
+  skills:
+    genai: [LLM APIs, Anthropic API, OpenAI API, Prompt design]
+    ml: []
+    web: []
+    databases: [ClickHouse, BigQuery, Snowflake, Redshift, DuckDB]
+    data: [Temporal, ETL, Data orchestration]
+    cloud: [AWS, AWS Bedrock, Identity and access management]
+    ops: [AWS CDK, Terraform, Git, CI/CD]
+    languages: [Python, SQL]
+    domains: [Contact center / CCaaS domain]
+    other: [OAuth, Salesforce JWT Bearer]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9889667'
+  extracted_at: '2026-06-25T19:54:25.029488'

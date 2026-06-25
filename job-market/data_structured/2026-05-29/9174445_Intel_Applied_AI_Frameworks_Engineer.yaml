@@ -1,0 +1,54 @@
+company:
+  name: Intel
+  stage: Public
+  focus: Data center and AI compute, AI accelerators and GPUs
+position:
+  title: Applied AI Frameworks Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building and optimizing
+      AI infrastructure - developing ML kernels, working on
+      inference serving frameworks (SGLang, vLLM), and optimizing
+      deep learning/LLM workloads. The role involves hands-on
+      implementation of AI systems including ML kernel development
+      (GEMM, convolution, Flash attention) and framework
+      enhancements for training/inference, not just supporting
+      tools for others.
+  responsibilities:
+  - Design and develop software features for AI frameworks including both hardware-agnostic
+    and hardware-aware ML kernel development
+  - Enhance and extend deep learning training and inference capabilities in the software
+    stack
+  - Identify and implement optimization opportunities in the software stack to enhance
+    performance of deep learning workloads and LLMs
+  - Develop machine learning kernels such as GEMM, convolution, and Flash attention
+    for Intel AI accelerators and GPUs
+  - Work with inference serving frameworks like SGLang and vLLM and ML frameworks
+    like PyTorch, TensorFlow, and JAX
+  - Participate in open-source community discussions and contribute to development
+    of open-source software
+  - Debug complex issues in multi-layered software systems and integrate software
+    into large open-source frameworks
+  use_cases:
+  - Inference serving for large language models and AI workloads
+  - Deep learning training and inference optimization on Intel AI accelerators
+  - AI software stack optimization for next-generation GPUs
+  - Hardware-specific kernel development for AI workloads
+  - Open-source AI framework development and integration
+  skills:
+    genai: [LLMs]
+    ml: [PyTorch, TensorFlow, JAX, GEMM, Convolution, Flash Attention, CUTLASS]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [SGLang, vLLM, Triton, parallel programming]
+    languages: [C++, Python]
+    domains: [computer architecture]
+    other: [open-source development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9174445'
+  extracted_at: '2026-05-29T08:55:59.652736'

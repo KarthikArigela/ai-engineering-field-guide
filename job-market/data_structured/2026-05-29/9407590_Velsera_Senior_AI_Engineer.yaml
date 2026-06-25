@@ -1,0 +1,67 @@
+company:
+  name: Velsera
+  stage: Series B or later (private)
+  focus: |-
+    AI-powered precision medicine software for drug discovery,
+    clinical genomics, and life sciences
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an internal AI platform role building tooling and
+      infrastructure for developer workflows and operations - NOT
+      building, training, or deploying production AI/ML models for
+      end users. The role focuses on integrating AI capabilities
+      into CI/CD pipelines, developer tools, and observability
+      systems to support engineering teams, which is
+      characteristic of ai-support work.
+  responsibilities:
+  - Build and operate an internal AI platform for developer workflows including code
+    assistance, PR review support, test generation, documentation, and automation
+  - Integrate AI capabilities into toolchain including CI/CD, code quality tools,
+    and repos through templates, examples, and self-service patterns
+  - Implement AI quality gates with policy checks, confidence thresholds, regression
+    tests, and secure-by-default configurations
+  - Design for regulated environments with logging, auditability, access controls,
+    and data-handling guardrails for HIPAA/GxP work
+  - Maintain FedRAMP-boundary-safe approach including separation where required and
+    evaluation of compliant alternatives
+  - Partner with engineering leads and security/compliance to define internal standards
+    for responsible AI use
+  - Build AI-assisted operations on top of observability signals including anomaly
+    detection, incident triage support, and self-healing patterns
+  - Measure impact through adoption metrics, cycle time, and incident metrics while
+    communicating progress to engineering leadership
+  use_cases:
+  - AI-assisted developer workflows including coding assistance, pull request review,
+    test generation, and documentation automation
+  - AI-powered operations and observability with anomaly detection, intelligent alerting,
+    incident triage, and runbook automation
+  - Automated and semi-automated agent workflows for executing scoped engineering
+    tasks
+  - Quality gates and policy enforcement for AI-generated code changes with confidence
+    thresholds and regression testing
+  - Regulated environment support for healthcare software with HIPAA, GxP, and FedRAMP
+    compliance guardrails
+  - Internal platform enabling multiple engineering teams to ship and operate software
+    faster and more reliably
+  skills:
+    genai: [LangChain, OpenAI/Anthropic APIs, agentic workflows, prompt engineering,
+      RAG]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, FedRAMP]
+    ops: [CI/CD, GitLab, Jenkins, SonarQube, Prometheus, ELK Stack, CloudWatch, AWS
+        DevOps Guru, Docker, Kubernetes, Terraform]
+    languages: [Python, Java, TypeScript, Go]
+    domains: []
+    other: [HIPAA compliance, GxP compliance, platform engineering, Developer Experience
+        (DevEx), Site Reliability Engineering (SRE)]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9407590'
+  extracted_at: '2026-05-29T09:04:44.165285'

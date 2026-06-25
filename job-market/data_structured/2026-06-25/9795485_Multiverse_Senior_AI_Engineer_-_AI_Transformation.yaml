@@ -1,0 +1,59 @@
+company:
+  name: Multiverse
+  stage: Series D
+  focus: AI and tech workforce upskilling platform
+position:
+  title: Senior AI Engineer - AI Transformation
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely ai-first: the engineer builds and
+      ships production AI agent systems end-to-end — including
+      context/retrieval strategy, tool integrations (MCPs),
+      evaluation frameworks, and model selection/routing. The job
+      explicitly excludes pure ML researchers and engineers who
+      only wrap LLM APIs, requiring depth in agent engineering
+      disciplines.
+  responsibilities:
+  - Own and deliver complete agent systems end-to-end, from architecture through implementation,
+    evaluation, and production operation
+  - Design context and retrieval strategies including retrieval pipelines, conversation
+    memory, summarisation, and chunking logic
+  - Build evaluation frameworks with automated eval pipelines and human-in-the-loop
+    review for accuracy, safety, helpfulness, and latency
+  - Design and build tool integration layers including MCPs, APIs, data contracts,
+    and error handling for reliable agent tool use
+  - Influence technical direction through architectural decisions, evidence-based
+    proposals, and constructive pushback
+  - Raise engineering standards through rigorous code review and pairing with less
+    experienced engineers
+  - Use Claude Code as the primary development workflow and mentor others in AI-assisted
+    development
+  - Work across the full stack including LLM integration, backend services, data pipelines,
+    and frontend to ship end to end
+  use_cases:
+  - AI agent systems that transform internal business functions across the company
+  - Context-aware retrieval and conversational memory for production AI assistants
+  - Automated evaluation of AI system quality including accuracy, safety, and domain-specific
+    criteria
+  - Tool-augmented agents that interact with external systems via MCP and API integrations
+  - AI-powered education and workforce development workflows in an EdTech context
+  skills:
+    genai: [AI agent engineering, Context management, Retrieval strategies (RAG),
+      Conversation memory, Prompt engineering, Model selection and routing, Token
+        economics and cost optimization, Multi-agent coordination, MCP (Model Context
+        Protocol), Claude Code, LLM integration]
+    ml: []
+    web: [REST APIs, Backend services, Frontend development]
+    databases: [Vector databases, Postgres]
+    data: [Data pipelines]
+    cloud: [AWS]
+    ops: [Evaluation frameworks, Docker, CI/CD]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9795485'
+  extracted_at: '2026-06-25T19:55:45.316365'

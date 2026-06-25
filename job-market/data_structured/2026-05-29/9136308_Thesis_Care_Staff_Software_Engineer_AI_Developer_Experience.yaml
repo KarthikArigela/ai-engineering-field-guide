@@ -1,0 +1,52 @@
+company:
+  name: Thesis Care
+  stage: Series B
+  focus: AI-powered care team platform for healthcare
+position:
+  title: Staff Software Engineer, AI Developer Experience
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an infrastructure/developer experience role building
+      platform primitives (API framework, data access layer, CI
+      tooling) that enable others to build with AI. The engineer
+      does NOT build, train, or deploy AI models themselves - they
+      create the paved road and guardrails for PMs and engineers
+      who build AI applications. The role requires AI fluency to
+      design safe code generation patterns, not hands-on model
+      work.
+  responsibilities:
+  - Design and build platform primitives including data access layer, endpoint framework,
+    feature flags, progressive delivery tooling, and migration scaffolding
+  - Encode conventions into type systems, CI, and runtime through TypeScript signatures,
+    lint rules, and runtime assertions
+  - Enable non-engineer builders with scaffolders, documentation, and agent-style
+    guides for product managers
+  - Partner with engineering teams on schema reviews, unblocking, and coaching engineers
+    on PM enablement duty
+  - Own governance rituals including weekly platform reviews, monthly architecture
+    reviews, and quarterly cleanup
+  - Handle production incidents on shared platform infrastructure
+  use_cases:
+  - AI-powered clinical care operations automation
+  - Care management activities for healthcare organizations
+  - Multi-tenant healthcare data access and isolation
+  - AI-assisted product development for non-engineers
+  - Healthcare regulatory compliance and security
+  - Progressive delivery for clinical features
+  skills:
+    genai: [AI Coding Tools]
+    ml: []
+    web: [API Design, tRPC, GraphQL]
+    databases: [Postgres, Drizzle, Row-level Security]
+    data: []
+    cloud: [Multi-tenant Architecture]
+    ops: [Feature Flags, LaunchDarkly, Statsig, CI/CD, SAST, Security Tooling]
+    languages: [TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9136308'
+  extracted_at: '2026-05-29T08:54:37.934687'

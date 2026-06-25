@@ -1,0 +1,53 @@
+company:
+  name: Wealth
+  stage: Series B
+  focus: AI wealth management platform for financial institutions
+position:
+  title: Senior Software Engineer, AI Enablement
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role requiring hands-on building and
+      shipping of production AI agents and Claude Skills. The role
+      directly involves implementing agentic systems, prompt
+      engineering, context management, and LLM-based applications
+      - not just supporting infrastructure or data pipelines.
+  responsibilities:
+  - Design and implement modular Claude Skills that connect to core systems including
+    Salesforce, Google Drive, Slack, and internal data sources
+  - Create clean abstractions enabling non-technical teammates to compose AI primitives
+    into useful workflows without writing code
+  - Build autonomous AI agents that operate across sales, marketing, finance, and
+    operations handling research, data enrichment, and proposal generation
+  - Design systems balancing autonomy, control, and reliability with clear escalation
+    paths for human judgment
+  - Establish and maintain infrastructure for AI development tools including Claude
+    Code and Cursor
+  - Build evaluation and feedback loops with guardrails and monitoring while optimizing
+    for latency, cost, and accuracy
+  - Work across the stack including backend services, APIs, data pipelines, and internal
+    frontend experiences
+  use_cases:
+  - Internal AI-powered workflow automation for business operations
+  - Autonomous agents for sales, marketing, finance, and operations research and decision-making
+  - Data enrichment and proposal generation using AI systems
+  - AI-native internal tools for non-technical team collaboration with agents
+  - Enterprise workflow integration connecting AI systems to CRM, marketing platforms,
+    and data sources
+  skills:
+    genai: [LangGraph, LangChain, Prompt engineering, Context management, Claude API,
+      RAG systems, LLM APIs]
+    ml: []
+    web: [FastAPI, REST APIs]
+    databases: [Vector databases]
+    data: [Data pipelines]
+    cloud: [GCP Cloud Run, AWS ECS, AWS Lambda]
+    ops: [Docker, CI/CD, Monitoring]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Salesforce, Google Drive, Slack, System design, Data structures]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9482505'
+  extracted_at: '2026-05-29T09:06:57.479046'

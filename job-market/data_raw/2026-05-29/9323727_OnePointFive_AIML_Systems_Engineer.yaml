@@ -1,0 +1,186 @@
+job_id: 9323727
+title: AI/ML Systems Engineer
+company: OnePointFive
+location: New York, USA
+work_type: FULL_TIME
+company_size: 15 Employees
+description: |
+  AI/ML Systems Engineer — Hardware Power Instrumentation
+  (Contract, 3–4 weeks)
+  
+  OPF is hiring a contract engineer to run the data collection
+  phase of an emissions measurement study comparing edge
+  versus cloud LLM inference across multi-modal AI workloads.
+  The methodology is being designed by external advisors with
+  prior published work on AI carbon measurement; the
+  engineer's role is to implement that methodology rigorously,
+  capture clean instrumented data, and hand it off cleanly to
+  OPF's internal team for analysis and modeling.
+  
+  Findings will appear in a co-branded industry publication
+  backed by a defensible methodology — meaning the public
+  artifact is industry-format, but the underlying data has to
+  withstand potential scrutiny.
+  
+  Engagement scope
+  
+  You will design, build, and run a Python-based testing
+  harness that captures inference runtime, energy consumption,
+  and component-level power across three edge devices and one
+  cloud GPU instance, then deliver clean, documented outputs
+  to the OPF analytical team for downstream modeling.
+  
+  The work spans Windows and Linux, three distinct hardware
+  platforms (Intel Core Ultra with NPU, AMD Ryzen AI with XDNA
+  NPU, NVIDIA L4 cloud GPU), multiple deployments (OpenVINO
+  and Lemonade Server for local; vLLM, Triton, and/or FastAPI
+  for cloud as appropriate per task); and two layers of
+  measurement (software-based estimation and on-die
+  telemetry).
+  
+  The engagement begins with a proof-of-concept phase on the
+  AMD Ryzen 7 Pro laptop, focused on a single task (Basic
+  Queries), to build the harness, telemetry, and methodology
+  end-to-end before scaling to the rest of the platforms and
+  tasks. Following this, a cloud GPU instance must be
+  provisioned for cloud data collection and harness
+  validation. Once the harness has been validated on one
+  laptop and in the cloud environment, the approach will be
+  scaled to the remaining laptops and tasks. Proof-of-concept
+  outcome serves as an interim milestone before proceeding
+  with the remainder of the engagement.
+  
+  Inputs you will receive on Day 1
+  
+  - Three pre-imaged production laptops with two chip platforms,
+    with the AMD Ryzen 7 Pro laptop prioritized for proof-of-
+    concept
+  - High-level methodology from OPF & external advisors
+  - Defined task list (six multi-modal AI tasks) with pre-
+    selected open-source models and Hugging Face datasets
+  - Access to advisors at scheduled checkpoints
+  
+  Outputs you will be responsible for
+  
+  - Reproducible Python test harness with pinned dependencies,
+    configurations, and seeds
+  - Cloud GPU instance (NVIDIA L4) provisioned with appropriate
+    deployment per task (vLLM for LLM workloads; Triton or
+    FastAPI for vision, audio, and diffusion workloads)
+  - Edge measurement dataset: six tasks × three laptop platforms
+    × ~100-1000 prompts per task (single measurement per
+    prompt), with batch size locked at 1. This requires
+    synchronized telemetry from both measurement layers
+    (software estimate via CodeCarbon/equivalent, and on-die
+    telemetry via RAPL for Intel and HWiNFO64 or µProf for
+    AMD, and vendor NPU/iGPU counters). Results should be
+    delivered in an analysis-ready file (CSV preferred) with
+    units, timestamps, and run metadata
+  - Cloud measurement dataset: six tasks × one cloud GPU
+    instance (NVIDIA L4) × task-specific batch size conditions
+    × ~100-1000 prompts per task (single measurement per
+    prompt), with synchronized GPU telemetry (NVML, DCGM,
+    nvidia-smi), CodeCarbon estimates, and per-run latency and
+    throughput metrics, delivered in the same analysis-ready
+    file as edge measurements
+  - If methodology requires pinning to GPU/CPU/NPU, then outputs
+    also include capturing offload fractions per run directly
+    from inference runtime logs, with technical context on
+    offload patterns and unsupported-op fallbacks documented
+    in the companion writeup; methodology decisions
+    (inclusion/exclusion/caveats) remain with OPF
+  - Data quality assurance: validation checks for missing
+    trials, telemetry dropouts, thermal artifacts, and outlier
+    flagging, with anomalies surfaced and interpreted (OPF to
+    address)
+  - Reproducibility package: harness code, environment
+    specification, run logs, configuration files, and a README
+    enabling reviewers of the industry publication to re-run,
+    slice, or extend the dataset
+  - Handoff session (60–90 minute walkthrough) and short
+    technical companion document covering dataset structure,
+    operator offload patterns and fallback notes, known
+    caveats, and operational notes
+  
+  Out of scope
+  
+  Statistical modeling, headline framings, chart production
+  for the publication, claims substantiation memos, and the
+  public-facing writeup all sit with the OPF team and external
+  advisors. The engineer produces clean, parsed, and organized
+  instrumented data and the documentation needed to use it;
+  OPF will use this as an input into the publication.
+  
+  Required experience
+  
+  - Strong Python proficiency, experimental discipline, and
+    reproducibility practices
+  - Hands-on hardware telemetry — Intel RAPL, NVIDIA NVML, plus
+    at least one of Intel SoC Watch / VTune, AMD μProf, or
+    HWiNFO64
+  - Working knowledge of at least one in-scope deployment
+    (OpenVINO, Lemonade Server, vLLM, or Triton)
+  - Linux and Windows systems experience, including hardware
+    performance counter telemetry
+  - Demonstrated reproducibility discipline: pinned
+    environments, version-controlled configs, documented
+    assumptions
+  
+  Strongly preferred
+  
+  - Prior MLPerf Power or MLCommons Power working group
+    submissions
+  - Published or contributed to AI energy / carbon measurement
+    research or related sustainability topics
+  - Experience with NPU-class accelerators (Intel AI Boost, AMD
+    XDNA, or comparable)
+  - Experience with GPU benchmarking methodology — DCGM
+    telemetry, clock-pinning for reproducibility, or
+    comparable practices
+  - Comfort working alongside external advisors and delivering
+    well-documented handoffs to a downstream analytical team
+  
+  Engagement structure
+  
+  - 3–4 week intensive engagement. If dependencies get delayed,
+    please budget 5–6 weeks.
+  - Compensation is based on the following milestones: working
+    harness and proof-of-concept on one platform, full pilot
+    run on one task across all platforms, complete data
+    collection, and final handoff. Cloud compute costs are
+    reimbursed.
+  - Screening is a paid <1 day technical trial task before any
+    commitment (e.g., set up RAPL + CodeCarbon + nvidia-smi on
+    your own machine, run a small benchmark, deliver a short
+    writeup with results).
+  
+  Logistics
+  
+  - Strong preference for NYC metro area; remote candidates
+    considered with a clear plan for hardware access (e.g.,
+    one laptop ships, two stay with the OPF team). Remote
+    candidates must have at least 4 hours of working-day
+    overlap with US Eastern time.
+  - Contributor may be acknowledged in the resulting
+    publication. Code may be open-sourced, subject to client
+    review.
+  
+  To apply
+  
+  Submit application via this link
+  (https://c4tnu.share.hsforms.com/2srxbvmjzTh6TdgSOJxs7KA).
+  Be ready to provide a portfolio or GitHub link, one example
+  of prior hardware instrumentation work, an estimate of cost
+  for this project, and a short note (≤300 words) on how you'd
+  approach the paid technical task. If selected for the paid
+  screening trial, OPF will request 2 professional references.
+industries:
+  - Greentech
+  - Professional Services
+  - Consulting
+  - Energy
+  - Generative AI
+  - Renewable Energy
+posted_date: 2026-05-12
+url: "https://builtin.com/job/ai-ml-systems-engineer/9323727"
+source: Built In

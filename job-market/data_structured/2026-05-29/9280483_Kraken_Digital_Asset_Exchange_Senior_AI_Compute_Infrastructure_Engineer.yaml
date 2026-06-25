@@ -1,0 +1,60 @@
+company:
+  name: Kraken Digital Asset Exchange
+  stage: Public
+  focus: Digital asset exchange and cryptocurrency trading platform
+position:
+  title: Senior AI Compute Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on infrastructure that SUPPORTS AI work
+      - building GPU clusters, scheduling systems, and
+      orchestration platforms for other teams to run their AI
+      workloads. The engineer is not building, training, fine-
+      tuning, or deploying models themselves, but rather creating
+      the compute infrastructure (GPU clusters, serving frameworks
+      like vLLM/Triton, scheduling systems) that enables ML
+      researchers and engineers to do that work. This is a classic
+      AI infrastructure/ML infrastructure role that supports the
+      ML/AI team rather than doing hands-on model development.
+  responsibilities:
+  - Own and operate GPU and accelerator clusters for training, inference, evaluation,
+    and experimentation
+  - Build and improve scheduling, orchestration, placement, quota management, and
+    utilization systems across heterogeneous accelerator environments
+  - Optimize inference pipelines for latency, throughput, reliability, memory efficiency,
+    and cost using vLLM, Triton, TensorRT, or equivalent serving stacks
+  - Design infrastructure to run models locally on GPUs reducing dependency on external
+    providers and containing compute costs
+  - Partner with ML engineers and researchers to remove bottlenecks in training, evaluation,
+    batch inference, online inference, deployment, and production debugging workflows
+  - Build observability for GPU utilization, memory pressure, queue depth, token throughput,
+    latency, and failed workloads
+  - Drive reliability, incident response, alerting, runbooks, and post-incident improvements
+    for always-on AI compute infrastructure
+  - Evaluate and integrate new hardware, cloud instance families, specialized accelerators,
+    runtimes, and serving frameworks
+  use_cases:
+  - Model training infrastructure for exchange operations
+  - Low-latency inference serving for production AI systems
+  - GPU cluster management for ML workloads
+  - Cost-efficient compute infrastructure for internal AI development
+  - High-performance compute infrastructure for privacy-sensitive AI workloads
+  - Production-grade infrastructure for real-time AI applications in trading
+  skills:
+    genai: []
+    ml: [DeepSpeed, Megatron-LM, FSDP, CUDA, NCCL]
+    web: []
+    databases: []
+    data: []
+    cloud: [GPU Clusters, Cost Optimization]
+    ops: [Kubernetes, vLLM, Triton Inference Server, TensorRT, TorchServe, KServe,
+      Ray Serve, Ray, Linux, Distributed Systems, Observability, Incident Response]
+    languages: [Python, Rust, C++, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9280483'
+  extracted_at: '2026-05-29T08:59:54.631019'

@@ -1,0 +1,57 @@
+company:
+  name: Capital One
+  stage: Public
+  focus: |-
+    Banking and financial services with AI/ML-powered customer
+    experiences
+position:
+  title: Senior Distinguished Engineer, AI Compute (Remote Eligible)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is building the compute infrastructure and
+      platform that powers AI/ML workloads, not building the AI
+      models themselves. The engineer designs distributed compute
+      engines (Ray/Spark), builds control planes, and creates the
+      platform that others use for LLM pre-training, fine-tuning,
+      and inference. This is ai-support - enabling AI work through
+      infrastructure, platforms, and tooling rather than directly
+      working with models.
+  responsibilities:
+  - Architect and build control and data plane implementations for a highly available,
+    multi-tenant, secure machine learning platform
+  - Develop Ray and Spark distributed compute engine solutions to accelerate diverse
+    workloads from LLM pre-training to large-scale data processing
+  - Engineer systemic improvements for operational excellence including automating
+    KTLO workflows
+  - Direct technical execution of diverse projects ranging from distributed microservices
+    to large foundation models
+  - Work cross-functionally with product, program management, and stakeholders to
+    optimize business outcomes and technology solutions
+  - Lead technical community engagement through design reviews, code reviews, and
+    participation in external technology communities
+  - Mentor internal talent and actively recruit external talent to bolster the engineering
+    organization
+  use_cases:
+  - Real-time personalized customer experiences and fraud detection
+  - Customer service chatbots and real-time question answering
+  - Large-scale data processing and feature generation pipelines
+  - LLM pre-training and fine-tuning for banking applications
+  - Generative AI inference and agentic AI applications
+  - ML/DL model training and model inference for banking products
+  skills:
+    genai: []
+    ml: [LLM Training, Fine-tuning, Reinforcement Learning]
+    web: []
+    databases: []
+    data: [Ray, Spark, Dask, Flink, Data Plane]
+    cloud: [AWS Lambda, EKS, EC2 UltraClusters, Graviton]
+    ops: [Kubernetes, Model Inference, Control Plane]
+    languages: [Python, Golang, Scala, Java]
+    domains: []
+    other: [Distributed Systems, Multi-tenant Architecture]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9303160'
+  extracted_at: '2026-05-29T08:59:51.466877'

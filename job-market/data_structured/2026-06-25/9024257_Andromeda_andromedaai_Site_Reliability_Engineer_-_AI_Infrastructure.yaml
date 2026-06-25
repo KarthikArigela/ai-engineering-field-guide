@@ -1,0 +1,49 @@
+company:
+  name: Andromeda (andromeda.ai)
+  stage: Early-stage
+  focus: AI compute infrastructure marketplace and orchestration
+position:
+  title: Site Reliability Engineer - AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an SRE role focused on operating Kubernetes
+      clusters, networking, and infrastructure that supports AI
+      training and inference workloads. The role does not involve
+      building, training, fine-tuning, or deploying models
+      directly — it enables AI workloads through infrastructure
+      management, automation, and observability. ML/AI
+      infrastructure experience is listed only as "nice to have."
+  responsibilities:
+  - Provision, configure, and operate Kubernetes-based clusters for customers across
+    multiple providers
+  - Build automation and tooling to streamline cluster deployments and integrations
+  - Debug customer issues across networking, storage, scheduling, and system layers
+  - Improve reliability and scalability of both training and inference infrastructure
+  - Design and implement monitoring, alerting, and observability for critical systems
+  - Collaborate with engineering and product teams to plan and deliver infrastructure
+    for new services
+  - Participate in on-call and incident response, leading postmortems and reliability
+    improvements
+  use_cases:
+  - Global AI compute routing for training and inference jobs
+  - Managed Kubernetes clusters for AI labs and startups
+  - AI infrastructure marketplace and liquidity layer for compute supply
+  - Reliable and scalable training and inference infrastructure operations
+  skills:
+    genai: []
+    ml: [CUDA]
+    web: []
+    databases: [Ceph]
+    data: []
+    cloud: []
+    ops: [Kubernetes, Terraform, Helm, Ansible, Docker, Prometheus, Grafana, Loki,
+      Datadog, Linux, Networking, Slurm, Triton, InfiniBand, NVLink, CI/CD]
+    languages: [Python, Go, Bash]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9024257'
+  extracted_at: '2026-06-25T19:41:19.104316'

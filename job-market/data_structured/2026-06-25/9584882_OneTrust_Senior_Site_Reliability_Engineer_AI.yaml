@@ -1,0 +1,60 @@
+company:
+  name: OneTrust
+  stage: Late-stage (Series C+)
+  focus: AI-ready data governance and compliance platform
+position:
+  title: Senior Site Reliability Engineer (AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is primarily a Site Reliability Engineer role focused
+      on production service reliability, SLI/SLO management, and
+      incident response. While the job description includes AI-
+      related responsibilities (LLM-based tools for MTTR
+      reduction, AI-assisted incident response, anomaly
+      detection), the AI work is in service of operational
+      reliability rather than building core AI/ML products. The
+      role supports AI-enhanced operations but is fundamentally an
+      SRE position.
+  responsibilities:
+  - Own production services end-to-end including reliability, scalability, and operational
+    excellence
+  - Participate in on-call rotation and lead incident response
+  - Define, implement, and maintain SLIs and SLOs aligned with customer experience
+    across critical services
+  - Manage and enforce error budgets to balance system reliability with product feature
+    velocity
+  - Improve alert quality by reducing noise and focusing on actionable, high-signal
+    alerts
+  - Embed with product teams to review architectures and catch reliability risks early
+  - Build operational automation scripts in Python, Bash, Java, or Ruby for incident
+    response
+  - Build and operate AI-assisted incident response systems including root cause analysis,
+    log summarization, and anomaly triage
+  - Develop and integrate LLM-based tools to reduce MTTR and improve alert quality
+  use_cases:
+  - AI-assisted incident response for root cause analysis, log summarization, and
+    anomaly triage
+  - LLM-based operational tools to reduce mean time to resolution (MTTR) and improve
+    alert quality
+  - Machine learning for anomaly detection, capacity prediction, and failure pattern
+    analysis
+  - RAG-based operational intelligence using vector databases and embeddings
+  - Automated production service reliability monitoring and remediation
+  skills:
+    genai: [RAG, LLM-based tooling, Prompt engineering]
+    ml: [Anomaly detection]
+    web: [Spring]
+    databases: [Vector databases, NoSQL databases]
+    data: []
+    cloud: [Azure, AWS, GCP, EKS, AKS, GKE]
+    ops: [Datadog, Prometheus, Grafana, Kubernetes, Docker, Terraform, Helm, Jenkins,
+      GitLab CI, PagerDuty, Gremlin, Service meshes, JVM tuning, CI/CD, SLI/SLO management]
+    languages: [Python, Bash, Java, Ruby, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9584882'
+  extracted_at: '2026-06-25T19:44:18.317959'

@@ -1,0 +1,60 @@
+company:
+  name: Juniper Square
+  stage: Series D+ (backed by $350M+ in funding)
+  focus: Private markets investment management platform
+position:
+  title: Staff Software Engineer, Data (AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role requires hands-on production experience building
+      with LLMs—prompt design, model orchestration, evaluation,
+      and output validation in real systems. The engineer will
+      design and implement AI evaluation infrastructure, build
+      cross-model comparison tooling, and work with RAG pipelines
+      and document extraction. While the role is heavy on data
+      engineering, the AI components are first-class deliverables,
+      not just supporting infrastructure for other teams.
+  responsibilities:
+  - Design and ship data normalization, schema mapping, validation, enrichment, and
+    distribution pipeline for a net-new intelligent data warehouse
+  - Write production code as a hands-on individual contributor with accountability
+    for reliability, performance, and correctness
+  - Define end-to-end architecture for an AI-native data warehouse serving institutional
+    financial clients
+  - Design and implement AI evaluation frameworks including cross-model comparison
+    tooling, deterministic validation checks, and human-in-the-loop review workflows
+  - Use agentic coding tools and LLM-assisted development as primary workflow and
+    contribute to evolving AI-accelerated SDLC practices
+  - Set coding standards, review practices, and architectural documentation that scale
+    as the team grows
+  - Mentor engineers and provide technical guidance as the team expands
+  - Evaluate and select technologies with a bias toward shipping well and scaling
+    sustainably
+  use_cases:
+  - Intelligent data platform for private markets that ingests, normalizes, validates,
+    enriches, and distributes financial data
+  - AI-native data warehouse serving institutional financial clients
+  - AI-generated output validation in high-stakes financial data contexts
+  - RAG pipelines and document extraction for financial services data
+  - Cross-model comparison and evaluation for trustworthy AI outputs in financial
+    workflows
+  skills:
+    genai: [LLM prompt design, Model orchestration, LLM evaluation and output validation,
+      RAG pipelines, Vector stores, Document extraction, Agentic coding tools, Human-in-the-loop
+        review workflows]
+    ml: []
+    web: []
+    databases: []
+    data: [ETL/ELT patterns, Data pipeline engineering, Schema design, Data normalization,
+      API-based data distribution]
+    cloud: [AWS data infrastructure, Redshift]
+    ops: []
+    languages: [Python, SQL]
+    domains: [Financial services data, Fund administration]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9509480'
+  extracted_at: '2026-06-25T19:42:43.100356'

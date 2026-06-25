@@ -1,0 +1,50 @@
+company:
+  name: Traba
+  stage: Series B+ (backed by Founders Fund, Khosla Ventures, General Catalyst)
+  focus: AI operating layer for industrial supply chain
+position:
+  title: Senior Software Engineer (AI Agents)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building production AI agent
+      systems—agent harnesses, orchestration, tool use, evals, and
+      model strategy on frontier LLMs. The engineer owns the agent
+      infrastructure and ships agents into production, which is
+      core hands-on work with LLM/agent systems.
+  responsibilities:
+  - Embed with customers and operators to understand supply chain operations and design
+    agents that automate meaningful work
+  - Build production agent systems on frontier LLMs including tool use, sub-agents,
+    retrieval, structured outputs, MCP servers, and orchestration
+  - Own evaluation as a first-class discipline—build datasets from real traces, rubrics,
+    graders, and run experiments to prove improvements
+  - Architect data services and APIs integrating internal systems with customer WMS,
+    TMS, and ERP environments
+  - Codify repeatable deployment patterns for faster customer rollouts
+  - Partner with CTO, product, and operators to take 0-to-1 ideas to scaled deployments
+  use_cases:
+  - Autonomous AI agents that operate inside customer supply chain workflows
+  - Agent-driven automation of industrial staffing and workforce management
+  - Synthesizing marketplace data to drive productivity gains in manufacturing and
+    logistics
+  - Integrating with enterprise systems (WMS, TMS, ERP) to automate operational workflows
+  - Agentic platform that takes meaningful operational work off customers' plates
+  skills:
+    genai: [Agent harnesses, Tool use / function calling, Sub-agents, Retrieval (RAG),
+      Structured outputs, MCP servers, Prompt engineering, Agent orchestration, 'Frontier
+        model APIs (OpenAI, Anthropic)', Evaluation frameworks]
+    ml: []
+    web: [API design]
+    databases: [PostgreSQL]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript, Node.js]
+    domains: []
+    other: [Distributed systems, WMS / TMS / ERP integration]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9846627'
+  extracted_at: '2026-06-25T19:55:16.301285'

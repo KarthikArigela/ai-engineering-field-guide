@@ -1,0 +1,58 @@
+company:
+  name: Scribd, Inc.
+  stage: Public
+  focus: Digital content subscription and reading platforms
+position:
+  title: Senior AI Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building AI agents and agentic
+      workflows on top of governed data, creating RAG pipelines,
+      and deploying LLM-powered applications to production. While
+      it sits within a data platform team, the engineer is hands-
+      on building AI layers, AI skills, and agent frameworks — not
+      merely providing infrastructure for others to do AI work.
+  responsibilities:
+  - Own the deployment path for Databricks Apps, creating infrastructure and guardrails
+    for non-technical users to deploy AI applications to production
+  - Build the AI layer on top of Scribd's Medallion Architecture and Semantic Layer,
+    connecting AI agents and agentic workflows to governed data
+  - Build AI skills and agents on top of existing declarative tooling to help platform
+    stakeholders ship pipelines faster
+  - Partner with cross-functional teams to identify AI tools, frameworks, and agentic
+    patterns that accelerate data product development
+  - Embed AI-assisted development tools into the Data Platform team's engineering
+    workflow including writing, testing, and shipping code
+  - Establish guardrails ensuring AI-generated code, queries, and pipelines are correct,
+    consistent, and production-ready
+  - Define and evolve data modeling and metadata patterns required to support AI use
+    cases such as context, documentation, and discoverability
+  - Mentor other engineers and define best practices for AI data engineering at Scribd
+  use_cases:
+  - Self-service AI-powered data exploration and natural language querying on governed
+    data
+  - Agentic workflows for accelerating data pipeline development by non-expert users
+  - AI-assisted code generation, testing, and deployment within data engineering workflows
+  - RAG pipelines and semantic search over Scribd's content and data catalog
+  - Safe deployment of AI applications for non-technical users via Databricks Apps
+  skills:
+    genai: [Genie Spaces, RAG pipelines, Semantic search, Agent frameworks, Natural
+        language interfaces, Prompt engineering, LLMs]
+    ml: [Fine-tuning, RLHF]
+    web: []
+    databases: []
+    data: [Databricks, Unity Catalog, Databricks Apps, Databricks SQL, DABs (Databricks
+        Asset Bundles), Apache Airflow, Apache Spark, dbt Semantic Layer, Medallion
+        Architecture, Data governance]
+    cloud: [AWS]
+    ops: [Terraform, Spacelift, Statsig, Eval harnesses for AI, Secret management,
+      Encryption at rest and in transit]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9671549'
+  extracted_at: '2026-06-25T19:48:49.721022'

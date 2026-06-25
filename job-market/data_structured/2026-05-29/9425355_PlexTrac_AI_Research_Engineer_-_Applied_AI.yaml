@@ -1,0 +1,62 @@
+company:
+  name: PlexTrac
+  stage: Series B
+  focus: |-
+    Cybersecurity SaaS platform for security reporting and
+    exposure management
+position:
+  title: AI Research Engineer - Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI Research Engineer role working directly on
+      building AI systems - including training/fine-tuning ML
+      models, developing RAG systems, prompt orchestration, and
+      LLM fine-tuning with SFT/RLHF. The role involves hands-on
+      model work across the full lifecycle from training to
+      production deployment, making it ai-first rather than
+      support.
+  responsibilities:
+  - Build, train, and evaluate machine learning models that detect security threats
+    and unusual system behavior
+  - 'Develop and maintain production AI features: prompt orchestration, retrieval-augmented
+    generation (RAG), model serving, and observability'
+  - Work with raw security data including logs, network traffic, and event streams
+    to build reliable training datasets
+  - Build and maintain automated pipelines for model performance reporting and operational
+    workflows
+  - Design and maintain data ingestion and transformation services used by downstream
+    AI systems
+  - Monitor models in production, identify performance issues, and ship fixes
+  - Fine-tune large language models using techniques like Supervised Fine-Tuning (SFT)
+    and Reinforcement Learning from Human Feedback (RLHF)
+  - Ensure model safety and alignment by testing for vulnerabilities, mitigating biases,
+    and ensuring predictable behavior
+  use_cases:
+  - Security threat detection and anomaly identification from system logs and network
+    traffic
+  - Agentic AI Offensive Security & Exposure Management Platform for automated security
+    analysis
+  - Retrieval-augmented generation (RAG) for security knowledge and contextual threat
+    intelligence
+  - Operationalizing security findings and improving collaboration across technical
+    and executive stakeholders
+  - Prompt orchestration for automated security workflows and reporting
+  skills:
+    genai: [LLM Fine-tuning, RAG, Prompt Orchestration, RLHF, Supervised Fine-Tuning
+        (SFT), Model Context Protocol (MCP), Model Safety]
+    ml: [PyTorch, TensorFlow, scikit-learn, Anomaly Detection, Classification, NLP,
+      Distributed Training]
+    web: [API Design]
+    databases: []
+    data: [Data Pipelines, ETL]
+    cloud: [AWS SageMaker, GCP Vertex AI, Azure ML]
+    ops: [Docker, Kubernetes, MLOps, Model Monitoring, GPU Clusters]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9425355'
+  extracted_at: '2026-05-29T09:04:29.406240'

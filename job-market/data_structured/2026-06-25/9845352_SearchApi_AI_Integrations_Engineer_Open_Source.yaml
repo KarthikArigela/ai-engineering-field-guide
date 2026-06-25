@@ -1,0 +1,57 @@
+company:
+  name: SearchApi
+  stage: Bootstrapped (profitable, no VC funding)
+  focus: Real-time SERP API for structured search data
+position:
+  title: AI Integrations Engineer (Open Source)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building integrations and MCP
+      servers that connect SearchApi into AI agent frameworks
+      (LangChain, LlamaIndex, CrewAI), making it a hands-on role
+      building AI tooling and infrastructure. The engineer is
+      building the glue that enables AI agents to function with
+      real search data, which is core AI ecosystem work.
+  responsibilities:
+  - Ship merged PRs into open-source repos adding and improving SearchApi support
+    in frameworks developers use
+  - Build integrations and MCP servers that make it trivial for developers or agents
+    to pull search data into their stack
+  - Write integration docs, example apps, and quickstart guides that work out of the
+    box
+  - Identify high-leverage integration opportunities across the agent and automation
+    ecosystem and prioritize accordingly
+  - Stay current with developments in the agent and automation space and move quickly
+    when new tools gain traction
+  - Contribute to external repos through maintainer review cycles following their
+    code standards
+  - Find gaps where developers and AI agents need search data and position SearchApi
+    there first
+  use_cases:
+  - Enabling AI agents and RAG systems to retrieve real-time search data via structured
+    APIs
+  - Connecting SERP data into agent frameworks like LangChain, LlamaIndex, and CrewAI
+    for grounding and retrieval
+  - Providing MCP servers and tools that let AI agents programmatically access search
+    engine results
+  - Integrating search data into automation platforms (n8n, Make, Zapier) for AI-powered
+    workflows
+  - Powering production workloads for AI startups and enterprises that need reliable
+    search data at scale
+  skills:
+    genai: [LangChain, LlamaIndex, CrewAI, MCP (Model Context Protocol), RAG]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [GitHub, CI/CD]
+    languages: [Python, TypeScript, Node.js, Ruby]
+    domains: []
+    other: [n8n, Make, ActivePieces, Zapier, Open Source Contribution, Technical Writing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9845352'
+  extracted_at: '2026-06-25T19:52:14.895274'

@@ -1,0 +1,54 @@
+company:
+  name: Kraken Digital Asset Exchange
+  stage: Late-stage / Established (founded 2011)
+  focus: Crypto and digital asset exchange platform
+position:
+  title: Senior Data Engineer - AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building streaming data pipelines,
+      feature stores, and data infrastructure that feed production
+      ML models and inference systems. While embedded in an AI-
+      focused team, the work itself is data engineering — not
+      building, training, fine-tuning, or deploying models
+      directly. The role enables ML/AI teams rather than working
+      hands-on with models or agents.
+  responsibilities:
+  - Own and evolve streaming data pipelines that power live inference and real-time
+    model serving across Kraken's AI infrastructure
+  - Design and build feature stores that serve low-latency, high-reliability features
+    to production ML models
+  - Implement and maintain streaming systems using RisingWave, Apache Flink, or Kafka
+    Streams, selecting the right tool for the workload
+  - Partner with ML engineers and AI infra teams to define data contracts, feature
+    schemas, and pipeline SLAs
+  - Drive pipelines toward real-time where batch exists today, reducing latency from
+    hours to seconds
+  - Ensure data quality, observability, and auditability across all streaming and
+    feature engineering systems
+  - Contribute to inference pipeline tooling where data engineering and model serving
+    intersect
+  - Evaluate emerging streaming and feature store technologies and shape the team's
+    technical roadmap
+  use_cases:
+  - Real-time model serving and live inference for intelligent agents at scale
+  - Low-latency feature serving for production ML models
+  - Streaming data pipelines for AI infrastructure operating under real-world load
+  - Agent platform orchestration and execution layers
+  skills:
+    genai: []
+    ml: [Feature stores]
+    web: []
+    databases: []
+    data: [Apache Flink, Kafka Streams, RisingWave, Apache Kafka, Data quality frameworks]
+    cloud: []
+    ops: [Pipeline observability, Inference pipeline architecture, Model serving infrastructure]
+    languages: [Python, Scala, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9861719'
+  extracted_at: '2026-06-25T19:53:20.798328'

@@ -1,0 +1,54 @@
+company:
+  name: Hudson Information Technology and Manpower Services
+  stage: null
+  focus: IT staffing and manpower services
+position:
+  title: AWS AI Engineer / USC and GC Candidates can ONLY Apply
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building of RAG architectures,
+      fine-tuning LLMs, deploying ML models to production using
+      AWS Bedrock and SageMaker. The engineer directly builds and
+      deploys AI/ML systems in production, not just supporting
+      infrastructure for others.
+  responsibilities:
+  - Architect, develop, and deploy RAG systems using AWS Bedrock, SageMaker, and LangChain
+    in production environments
+  - Fine-tune large language models, build datasets, and deploy ML models to production
+  - Develop cloud-native microservices, APIs, and serverless functions (Lambda) for
+    intelligent automation and real-time data processing
+  - Implement and maintain AWS infrastructure as code using Terraform, including reusable
+    modules and policy guardrails (SCP, AWS Config)
+  - Own the software release lifecycle including CI/CD pipelines and GitHub-based
+    SDLC
+  - Collaborate with internal stakeholders to translate business goals into secure,
+    scalable AI systems
+  - Build and evolve reusable platform components for AI/ML operations
+  - Create and maintain technical documentation for team and internal customers
+  use_cases:
+  - Enterprise AI automation connecting LLMs to live infrastructure data and system
+    telemetry
+  - Retrieval-augmented generation (RAG) for querying internal documentation and operational
+    data
+  - Intelligent automation of cloud operations and governance workflows
+  - Real-time data processing and insight generation via LLM-powered microservices
+  - Secure model deployment with data privacy and compliance (PII handling) in cloud
+    environments
+  skills:
+    genai: [RAG, LangChain]
+    ml: [Transformers, PyTorch, TensorFlow, Fine-tuning LLMs, Hugging Face]
+    web: []
+    databases: [DynamoDB]
+    data: []
+    cloud: [AWS Bedrock, AWS SageMaker, AWS ECS, AWS Lambda, AWS Step Functions, AWS
+        Organizations (SCP), AWS Config, Amazon S3]
+    ops: [Terraform, CI/CD, GitHub, Docker, Terraform Sentinel, Git version control]
+    languages: [Python, Node.js, Golang]
+    domains: []
+    other: [Data privacy and compliance (PII handling), FinOps]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9695050'
+  extracted_at: '2026-06-25T19:45:47.359401'

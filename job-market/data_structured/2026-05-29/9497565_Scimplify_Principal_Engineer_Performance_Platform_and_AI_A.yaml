@@ -1,0 +1,53 @@
+company:
+  name: Scimplify
+  stage: Series B
+  focus: Specialty chemicals B2B fulfillment platform
+position:
+  title: Principal Engineer (Performance, Platform and AI Acceleration)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an infrastructure/platform engineering role focused
+      on performance optimization, DevOps, and cloud efficiency.
+      While AI is mentioned as "AI-assisted development workflows"
+      for test generation and refactoring, the role does NOT
+      involve building, training, or deploying AI/ML models. The
+      AI aspect is about using AI tools to improve developer
+      productivity, which is ai-support.
+  responsibilities:
+  - Lead performance diagnosis and optimization across frontend and backend systems
+  - Improve API efficiency through caching, batching, pagination, and N+1 query elimination
+  - Optimize database performance including indexing, query analysis, and connection
+    pooling
+  - Strengthen CI/CD pipelines for faster builds and reliable deployments
+  - Implement resilience mechanisms including retries, circuit breakers, auto-scaling,
+    and async processing
+  - Identify and reduce infrastructure waste across compute, storage, logs, and networking
+  - Enable AI-assisted development workflows for test generation, refactoring, and
+    migrations
+  - Build reusable internal developer tools including templates, scaffolds, and golden
+    paths
+  use_cases:
+  - B2B fulfillment platform for chemicals manufacturing and global supply chain
+  - Chemical product development from lab to commercial scale
+  - Custom synthesis and route scouting services for manufacturers
+  - Global chemical distribution across 26+ countries
+  - R&D workflow management and collaboration tools
+  skills:
+    genai: [AI-assisted development]
+    ml: []
+    web: [FastAPI, React, Next.js, API Design, GraphQL, REST, Distributed Systems,
+      Caching]
+    databases: [Postgres, Redis]
+    data: []
+    cloud: [AWS, GCP, FinOps]
+    ops: [Docker, Kubernetes, CI/CD, Terraform, OpenTelemetry, Grafana, Datadog, ELK
+        Stack, Load Balancing, Incident Management, Observability]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9497565'
+  extracted_at: '2026-05-29T09:08:40.796380'

@@ -1,0 +1,51 @@
+company:
+  name: American Express
+  stage: Public
+  focus: Financial services and payment technology
+position:
+  title: Senior AI Engineer I
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for building, shipping,
+      and owning production-grade agentic AI systems and LLM-
+      powered features end-to-end, including agent orchestration,
+      RAG pipelines, and tool-invoking agents. The engineer works
+      hands-on with LLMs, agents, and retrieval systems in
+      production, not merely supporting infrastructure for others.
+  responsibilities:
+  - Design, build, and ship LLM-powered and agentic product features for customer
+    financial management
+  - Build agentic AI systems that reason over context, invoke tools, take real actions,
+    and recover gracefully from failure
+  - Architect and implement production-grade RAG pipelines over sensitive financial
+    data with strict correctness, auditability, and safety requirements
+  - Contribute to shared AI infrastructure including LLM services, agent orchestration
+    frameworks, and evaluation and monitoring tooling
+  - Own production systems including reliability, latency, cost, and failure mode
+    management
+  - Collaborate with product and design partners to deliver customer-outcome-driven
+    AI capabilities
+  use_cases:
+  - Customer-facing LLM-powered financial management features
+  - Autonomous agentic workflows automating financial processes
+  - Decision support systems for financial services
+  - Internal AI infrastructure enabling safe enterprise agentic AI development
+  - RAG over sensitive financial data for explainable and auditable retrieval
+  skills:
+    genai: [LLM integration, Agent orchestration, Retrieval-augmented generation (RAG),
+      LLM evaluation, AI-assisted development workflows]
+    ml: []
+    web: [REST, gRPC]
+    databases: [Vector storage]
+    data: [Kafka, Event-driven architecture]
+    cloud: [AWS, GCP]
+    ops: [Kubernetes]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9623253'
+  extracted_at: '2026-06-25T19:45:04.142690'

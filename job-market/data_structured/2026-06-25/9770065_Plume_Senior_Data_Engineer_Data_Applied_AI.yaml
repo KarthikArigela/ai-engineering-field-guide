@@ -1,0 +1,53 @@
+company:
+  name: Plume
+  stage: Series B
+  focus: Gender-affirming telehealth and hormone therapy
+position:
+  title: Senior Data Engineer (Data + Applied AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a data engineering position (dbt,
+      Airflow, data warehousing, BI dashboards) with applied AI
+      (RAG pipelines, MLOps) described as a "growing area, not the
+      primary focus today." The engineer builds and maintains data
+      infrastructure that supports AI workflows rather than
+      building, training, or fine-tuning models as their core
+      responsibility.
+  responsibilities:
+  - Build, maintain, and optimize data pipelines and transformation models for clinical
+    and operational data
+  - Write production dbt models including incremental models, tests, and multi-environment
+    workflows
+  - Design and manage Apache Airflow DAGs for workflow orchestration including scheduling,
+    monitoring, and failure handling
+  - Deliver clinical dashboards and BI reports in regulated healthcare environments
+  - Contribute to RAG pipeline development and MLOps workflows for AI-enabled features
+  - Review offshore contractor work and ensure quality and engineering standards are
+    met
+  - Implement data governance practices including lineage, access controls, data contracts,
+    and automated testing
+  - Ensure HIPAA compliance including PHI/PII classification, data masking, audit
+    logging, and access control
+  use_cases:
+  - Clinical data pipelines for gender-affirming healthcare operations
+  - BI dashboards for healthcare analytics in a regulated (HIPAA) environment
+  - RAG pipelines for AI-assisted healthcare information retrieval
+  - MLOps workflows for model deployment and monitoring in healthcare
+  - Healthcare data warehousing and dimensional modeling for analytics
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, RAG]
+    ml: []
+    web: []
+    databases: [BigQuery, Snowflake, Redshift]
+    data: [dbt, Apache Airflow, Pandas, PySpark, Dimensional Data Modeling, OpenMetadata]
+    cloud: []
+    ops: [MLOps, GitHub Actions, CI/CD]
+    languages: [SQL, Python]
+    domains: [HIPAA Compliance, Healthcare Data Standards]
+    other: [Looker, Power BI, Tableau]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9770065'
+  extracted_at: '2026-06-25T19:52:22.021122'

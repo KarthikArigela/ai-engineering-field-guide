@@ -1,0 +1,57 @@
+company:
+  name: Egra
+  stage: Early-stage (likely Seed/Pre-seed)
+  focus: |-
+    Training AI models on multimodal human physiological data to
+    optimize AI's impact on humans
+position:
+  title: AI Researcher / Engineer / Intern
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is fundamentally about training custom ML/DL
+      models (self-supervised pretraining, foundation models) on
+      multimodal physiological data (biosignals, eye-tracking,
+      pupillometry, video, audio). While the company's mission
+      relates to AI optimization for humans, the day-to-day work
+      involves traditional deep learning model training and
+      evaluation, not LLM/agent building or fine-tuning. The role
+      explicitly states "This is an ML role, not a neuro role" and
+      emphasizes general modeling ability on hard data.
+  responsibilities:
+  - Design self-supervised pretraining objectives on multimodal physiological and
+    content data
+  - Stress-test multimodal and signal foundation model papers under distribution shift
+  - Build evaluation protocols that distinguish real progress from benchmark noise
+  - Ship internal research tooling including experiment tracking, dataset versioning,
+    and agentic eval pipelines
+  - Close the loop between offline model results and the live product
+  - Write internal research memos documenting findings, failures, and insights
+  - Take vague research directions and ship concrete end-to-end implementations within
+    a week
+  use_cases:
+  - Modeling human physiological responses (biosignals, eye-tracking, pupillometry,
+    facial video, audio) at scale
+  - Self-supervised representation learning on multimodal physiological and content
+    data
+  - Foundation model evaluation and stress-testing under distribution shift
+  - Optimizing AI systems based on their impact on the human end-user
+  - Building research infrastructure that enables compounding progress
+  skills:
+    genai: [Claude Code, Cursor, 'AI coding tools (Codex, agents)', Agentic eval pipelines]
+    ml: [PyTorch, Self-supervised learning, Foundation models, Model training and
+        evaluation, Multimodal learning, Distribution shift analysis, Signal processing
+        (awareness of limitations)]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Experiment tracking, Dataset versioning]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9028770'
+  extracted_at: '2026-05-29T08:49:57.019680'

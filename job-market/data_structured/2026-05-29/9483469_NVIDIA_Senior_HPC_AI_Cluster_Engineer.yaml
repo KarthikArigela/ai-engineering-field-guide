@@ -1,0 +1,55 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing, accelerated computing, AI infrastructure
+position:
+  title: Senior HPC AI Cluster Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on infrastructure engineering for
+      HPC/AI clusters - building, deploying, and maintaining the
+      physical and software infrastructure (servers, networking,
+      storage, job schedulers) that SUPPORTS AI/ML workloads. The
+      engineer does not build, train, or fine-tune models, but
+      rather designs and maintains the compute clusters and
+      tooling that enable researchers and developers to run their
+      AI/HPC workloads at scale. This is clearly
+      infrastructure/platform engineering that enables AI work
+      rather than hands-on model development.
+  responsibilities:
+  - Design, implement and maintain large scale HPC/AI clusters with monitoring, logging
+    and alerting
+  - Manage Linux job/workload schedules and orchestration tools
+  - Develop and maintain continuous integration and delivery pipelines
+  - Develop tooling to automate deployment and management of large-scale infrastructure
+    environments
+  - Deploy monitoring solutions for servers, network and storage
+  - Perform troubleshooting from bare metal through OS, software stack and application
+    level
+  - Develop and document standard methodologies to share with internal teams
+  - Support R&D activities and engage in POCs for future infrastructure improvements
+  use_cases:
+  - Large-scale HPC and AI cluster infrastructure for supercomputing
+  - GPU-accelerated computing platforms for deep learning workloads
+  - High-performance networking fabrics with InfiniBand and Ethernet
+  - Scientific research computing and accelerated workloads
+  - Enterprise AI infrastructure with job scheduling and orchestration
+  - High-speed storage solutions for HPC data management
+  skills:
+    genai: []
+    ml: [CUDA, GPU architecture]
+    web: [TCP, DHCP, DNS, InfiniBand, Ethernet, RDMA, RoCE, microservices]
+    databases: []
+    data: [Lustre, GPFS, Weka.io]
+    cloud: [VMware, Hyper-V, KVM, Citrix, AWS, Azure, Google Cloud]
+    ops: [Slurm, Kubernetes, Linux, Redhat/CentOS, Ubuntu, Jenkins, Ansible, Puppet,
+      Chef, Docker, iptables, firewalld, Wireshark, CI/CD]
+    languages: [Python, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9483469'
+  extracted_at: '2026-05-29T09:07:25.613199'

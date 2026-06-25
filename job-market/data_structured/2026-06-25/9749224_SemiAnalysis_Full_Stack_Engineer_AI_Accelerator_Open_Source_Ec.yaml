@@ -1,0 +1,56 @@
+company:
+  name: SemiAnalysis
+  stage: null
+  focus: Semiconductor and AI industry research and analysis
+position:
+  title: Full Stack Engineer, AI Accelerator Open Source Ecosystem
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a full-stack engineering role building a web
+      application (Next.js) that tracks and visualizes CI health,
+      test parity, and performance benchmarks across AI
+      accelerator open-source ecosystems. The engineer builds data
+      pipelines and dashboards ABOUT AI infrastructure rather than
+      directly building, training, or deploying AI/ML models
+      themselves. The role supports the AI ecosystem through
+      tooling and analysis.
+  responsibilities:
+  - Build and scale the AI Accelerator Open Source Ecosystem Tracker, a full-stack
+    Next.js application
+  - Design database schemas for tracking pull requests, test parity, CI health, and
+    performance benchmarks across open-source CUDA/ROCm/Trainium/TPU projects
+  - Integrate GitHub API data pipelines and webhook-driven workflows to aggregate
+    contribution and CI metrics
+  - Write and prepare weekly digests and technical reports on upstream contribution
+    health, accelerator parity trends, and cross-accelerator benchmark results
+  - Synthesize CI test results, parity metrics, and benchmark data across AMD, NVIDIA,
+    Google TPU, and AWS Trainium platforms to draw actionable insights
+  - Build interactive data visualizations for benchmark and parity trends
+  - Engage with the open-source community around AI accelerator ecosystems
+  use_cases:
+  - Tracking pull requests and CI health across open-source AI accelerator software
+    ecosystems (CUDA, ROCm, Trainium, TPU)
+  - Monitoring test parity and benchmark performance across multiple hardware platforms
+    (AMD, NVIDIA, Google TPU, AWS Trainium)
+  - Generating weekly digests and technical reports on upstream contribution health
+    and cross-accelerator trends
+  - Visualizing CI test results and performance benchmarks for AI accelerator stacks
+  - Providing actionable insights on AI accelerator software ecosystem dynamics
+  skills:
+    genai: []
+    ml: [PyTorch, JAX]
+    web: [React, Next.js, Chart.js, D3.js, Recharts]
+    databases: [PostgreSQL, Neon]
+    data: []
+    cloud: [Vercel]
+    ops: [GitHub Actions, CI/CD]
+    languages: [TypeScript, SQL]
+    domains: []
+    other: [GitHub API, Webhooks, CUDA, ROCm, HIP, XLA/TPU, Neuron/Trainium, Data
+        visualization]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9749224'
+  extracted_at: '2026-06-25T19:51:03.754578'

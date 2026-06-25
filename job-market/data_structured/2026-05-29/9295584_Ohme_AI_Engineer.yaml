@@ -1,0 +1,52 @@
+company:
+  name: Ohme
+  stage: scale-up
+  focus: Smart-grid platform for residential EV charging
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role focused on building
+      and operating an agentic platform with LLMs, tool-using
+      agents, MCP connections, and multi-step workflows. The
+      engineer owns the agent runtime that orchestrates models and
+      tools, requiring deep expertise in agent architectures,
+      evaluation harnesses, and production deployment of AI
+      systems.
+  responsibilities:
+  - 'Own the design, build and operation of our agent runtime: the host service that
+    orchestrates models, tools, MCP connections and memory for everything we ship'
+  - 'Build and harden the integration layer between agents and the systems they reach:
+    our internal MCP server, third-party connectors, our data platform and our APIs'
+  - Contribute across the full stack (backend services, integration glue, AWS infrastructure-as-code,
+    dev experience) to keep the platform scaling reliably as load and use cases grow
+  - Maintain and evolve the evaluation, tracing and observability we rely on to measure
+    agent quality and operate confidently in production
+  - Keep agent services secure, cost-efficient and operationally healthy as they grow
+  - Productionise patterns from the wider MCP and agent ecosystem (advanced tool use,
+    code orchestration, agent skills, MCP server design, elicitation and sampling)
+    and translate them into our stack
+  use_cases:
+  - Smart residential EV charging optimization
+  - Grid and energy management through AI agents
+  - Integration between cars, chargers, energy providers and consumers
+  - Real-time agent orchestration for energy systems
+  - Applied AI solutions for clean energy transition
+  skills:
+    genai: [MCP, LLMs, tool-using agents, agent memory, multi-step workflows, coding
+        agents, agent skills, MCP servers]
+    ml: []
+    web: [API Gateway, REST APIs]
+    databases: [DynamoDB]
+    data: []
+    cloud: [AWS, infrastructure-as-code, Bedrock, AgentCore, Lambda, CDK]
+    ops: [evaluation harnesses, production tracing]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9295584'
+  extracted_at: '2026-05-29T09:00:53.660109'

@@ -1,0 +1,57 @@
+company:
+  name: Cortea AI
+  stage: Series A
+  focus: AI-powered audit automation software
+position:
+  title: Software Engineer, Data & AI Platform (m/f/x)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly working on and improving LLM
+      agents in production — building evaluation systems,
+      optimizing agent performance, debugging agent traces, and
+      even building new agents. While it has strong infrastructure
+      and data engineering components, the explicit mention of
+      working inside the agent architecture, building new agents,
+      and optimizing prompts/context/models makes this hands-on AI
+      work rather than purely support work.
+  responsibilities:
+  - Build online and offline evaluation systems for LLM agents using golden datasets,
+    ground-truth data, human review workflows, and experiment results
+  - Create automated quality gates for testing prompt, context, model, and agent logic
+    changes before production deployment
+  - Analyze agent traces and executions to identify failure modes, quality regressions,
+    latency issues, reliability gaps, and cost optimization opportunities
+  - Build observability tooling for trace analysis, experiment monitoring, production
+    dashboards, logging, tracing, and debugging
+  - Design and operate data infrastructure including columnar stores, analytical databases,
+    and data retention/replay mechanisms for production agent behaviour
+  - Work inside the core backend and agent architecture, building new agents or improving
+    existing ones
+  - Deploy and operate cloud infrastructure, ideally on GCP
+  - Design data pipelines, ETL/ELT workflows, and event-processing systems for production
+    data feedback loops
+  use_cases:
+  - AI-powered audit automation with specialized agents for document-heavy audit workflows
+  - LLM agent evaluation and quality assurance in production environments
+  - Agent trace analysis and observability for debugging and optimization
+  - Automated quality gating for prompt, context, and model changes
+  - Cost and latency optimization for production LLM agents
+  - Data retention and replay for long-term analysis of agent behaviour
+  skills:
+    genai: [LLM evaluation systems, LLM agents, Prompt optimization, Context window
+        optimization, Model selection]
+    ml: []
+    web: []
+    databases: [BigQuery, ClickHouse, Columnar data stores]
+    data: [ETL/ELT workflows, Data pipelines, Event processing systems]
+    cloud: [GCP]
+    ops: [LLM observability, Tracing and debugging, Temporal, Workflow orchestration]
+    languages: [Python, SQL]
+    domains: []
+    other: [System design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9722179'
+  extracted_at: '2026-06-25T19:53:32.865537'

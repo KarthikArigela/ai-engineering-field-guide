@@ -1,0 +1,54 @@
+company:
+  name: Cloaked, Inc.
+  stage: Series B
+  focus: Consumer privacy and data protection products
+position:
+  title: Senior Software Engineer, Voice AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying
+      production voice AI agents that conduct real-time
+      conversations with callers, integrating frontier LLMs and
+      speech models, and optimizing the full STT-to-LLM-to-TTS
+      pipeline. The engineer owns the design of voice agents,
+      adversarial defenses, and real-time orchestration — all
+      hands-on work with AI/ML systems.
+  responsibilities:
+  - Lead the technical roadmap and architecture for Call Guard's real-time voice AI
+    stack
+  - Design and build production voice agents that converse with unknown callers, classify
+    intent, and block scams autonomously
+  - Optimize real-time conversational latency end-to-end from STT through agent reasoning
+    to TTS
+  - Build defenses against adversarial AI callers including voice-cloned attacks
+  - Integrate and evaluate frontier models (LLMs, speech models, agent frameworks)
+    for production use
+  - Own VoIP routing, telephony integration, and cloud infrastructure for the voice
+    agent
+  - Collaborate with design, mobile, and product teams to ship voice experiences
+  - Serve as the voice AI domain expert, raising the engineering bar through code
+    reviews, architecture discussions, and mentorship
+  use_cases:
+  - Real-time AI call screening to block spam, scam, and fraudulent calls
+  - Autonomous voice agents that converse with unknown callers and classify intent
+  - Adversarial defense against AI voice-cloning attacks targeting consumers
+  - Consumer privacy protection through intelligent call interception and routing
+  skills:
+    genai: [Deepgram, ElevenLabs, Cartesia, LiveKit, Pipecat, LangChain, LlamaIndex,
+      LangGraph, LLM integration, Voice AI orchestration, Agent frameworks, Prompt
+        engineering]
+    ml: [Whisper, Speech recognition, Adversarial ML]
+    web: [REST API design]
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, VoIP routing, Telephony integration, SIP, WebRTC]
+    languages: [Python, Go]
+    domains: [Signal processing]
+    other: [Distributed systems, Cursor, Claude]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9690897'
+  extracted_at: '2026-06-25T19:48:36.620880'

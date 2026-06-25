@@ -1,0 +1,57 @@
+company:
+  name: Ericsson
+  stage: Public
+  focus: Telecommunications infrastructure and 5G networks
+position:
+  title: Graduate Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building production-
+      grade GenAI applications including LLM services, RAG
+      pipelines, and multi-agent systems. The engineer directly
+      implements agent workflows, optimizes RAG architectures, and
+      deploys models using orchestration frameworks like
+      LangChain, LangGraph, and CrewAI.
+  responsibilities:
+  - Contribute to design and delivery of production-grade GenAI applications including
+    LLM services, RAG pipelines, and multi-agent systems on AWS
+  - Develop agentic AI workflows using orchestration frameworks with tool-calling,
+    planning, reflection, and human-in-the-loop patterns
+  - Build and optimize RAG pipelines including document ingestion, chunking strategies,
+    embedding models, vector databases, hybrid search, and re-ranking
+  - Implement MCP integrations for standardized tool/resource exposure and A2A communication
+    protocols for multi-agent orchestration
+  - Implement guardrails, safety layers, output validation, and observability for
+    GenAI workloads including logging, tracing, and telemetry
+  - Develop and deploy GenAI microservices on AWS using Bedrock, SageMaker, Lambda,
+    ECS/Fargate, and Terraform
+  - Apply GenAI and LLM capabilities to telecom use cases including network optimization,
+    fault prediction, configuration management, and knowledge extraction
+  use_cases:
+  - Network optimization using AI-driven RAN optimization solutions
+  - Fault prediction and configuration management for telecom networks
+  - Knowledge extraction from 3GPP specifications using LLMs
+  - Multi-agent systems for telecom automation and orchestration
+  - RAG-based enterprise search and retrieval for telecom domain knowledge
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, OpenAI Agents SDK,
+      Semantic Kernel, RAG, prompt engineering, function calling, agents, MCP, Model
+        Context Protocol, A2A, PEFT, LoRA, QLoRA, RLHF, DPO, GraphRAG, multimodal
+        RAG]
+    ml: [PyTorch, embedding models]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Pinecone, Weaviate, Qdrant, ChromaDB, OpenSearch, graph databases]
+    data: []
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, ECS, Fargate, S3, IAM, CloudWatch,
+      API Gateway, Step Functions, AWS Strands, AWS AgentCore]
+    ops: [LangSmith, Langfuse, OpenTelemetry, Weights & Biases, Docker, Terraform,
+      CI/CD, GitHub Actions, GitLab CI, Jenkins]
+    languages: [Python, Git]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9480579'
+  extracted_at: '2026-05-29T09:06:56.731604'

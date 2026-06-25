@@ -1,0 +1,52 @@
+company:
+  name: Dave Inc.
+  stage: Public
+  focus: Consumer financial app and lending platform
+position:
+  title: Sr. IT Systems Engineer, AI & Business Solutions
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires designing and implementing
+      agentic workflows using LLM APIs (ChatGPT, Claude, Gemini)
+      to create conversational interfaces for non-engineering
+      stakeholders. The engineer builds agent-driven solutions
+      end-to-end, making this a hands-on role working directly
+      with AI/LLM systems rather than just supporting them.
+  responsibilities:
+  - Automate high-volume manual processes like audit evidence collection, data gathering,
+    and compliance reporting using APIs and workflows
+  - Build integrations pulling data from systems of record (Okta, Workspace, GitHub,
+    security tools, GCP, Snowflake) into BigQuery for audit readiness and analytics
+  - Design and implement agentic workflows enabling non-engineering stakeholders to
+    interact with company data through conversational interfaces
+  - Own the operational lifecycle of integrations including monitoring, alerting,
+    troubleshooting, and evolution
+  - Identify manual handoffs and repetitive tasks across IT, audit, and business functions
+    and build automation or agent-driven solutions to eliminate them
+  - Work cross-functionally with business teams to translate pain points into technical
+    solutions and measure impact
+  - Build scalable, resilient, and secure compliance and IT systems
+  use_cases:
+  - Automated audit evidence collection and compliance reporting
+  - Conversational AI interfaces for non-technical stakeholders to query company data
+    and reports
+  - Agent-driven automation of repetitive IT, audit, and business workflows
+  - Compliance monitoring and continuous control readiness
+  - Data consolidation and analytics for audit readiness across enterprise systems
+  skills:
+    genai: ['LLM APIs (ChatGPT, Claude, Gemini)', Agentic workflows, Prompt engineering]
+    ml: []
+    web: [REST APIs]
+    databases: [BigQuery, Snowflake]
+    data: [Data pipelines, ELT]
+    cloud: ['GCP (Compute Engine, Cloud Functions, Cloud Run, Cloud Storage)']
+    ops: [Terraform, GitHub Actions, CI/CD, Monitoring and observability]
+    languages: [Python, SQL]
+    domains: [SOC 2, SOX, ITGC, GDPR]
+    other: [Okta, Google Workspace, GitHub, Encryption and PII handling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9574464'
+  extracted_at: '2026-06-25T19:44:15.586957'

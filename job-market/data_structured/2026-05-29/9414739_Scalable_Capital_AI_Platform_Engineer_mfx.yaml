@@ -1,0 +1,54 @@
+company:
+  name: Scalable Capital
+  stage: Series C or later
+  focus: |-
+    Digital investment and banking platform offering brokerage,
+    wealth management, and financial services across Europe
+position:
+  title: AI Platform Engineer (m/f/x)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is an AI Platform Engineer focused on building
+      infrastructure and platforms that ENABLE AI Software
+      Engineers to build generative AI applications. The
+      responsibilities involve maintaining AI provisioning
+      platforms, observability systems, and governance - all
+      supporting infrastructure for AI work rather than building,
+      training, or deploying models directly.
+  responsibilities:
+  - Develop and maintain an internal AI provisioning platform to streamline access
+    to various LLMs and MCP Servers using tools like LiteLLM
+  - Implement comprehensive LLM observability, logging, and alerting systems using
+    tools like Datadog and Langfuse
+  - Enforce model governance, ensuring security, data privacy, rate limiting, and
+    strict LLM API cost management
+  - Collaborate closely with embedded AI Software Engineers to support cloud-native
+    architectures and agentic workflow integrations
+  - Build and maintain infrastructure for monitoring the reliability and performance
+    of production AI systems
+  use_cases:
+  - Internal LLM provisioning and gateway platform for model access across the organization
+  - Cost management and governance for AI/LLM API usage in financial services
+  - Observability and monitoring platform for agentic AI workflows and LLM-driven
+    applications
+  - Secure and compliant AI infrastructure for financial data and customer-facing
+    applications
+  - Scalable infrastructure supporting generative AI integrations in investment and
+    banking workflows
+  skills:
+    genai: [LiteLLM, MCP Servers, LLM gateways]
+    ml: []
+    web: [Rate limiting]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Terraform, Docker, CI/CD, Langfuse, Datadog, LLM observability]
+    languages: [Python, Go]
+    domains: []
+    other: [Model governance, API cost management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9414739'
+  extracted_at: '2026-05-29T09:03:52.765876'

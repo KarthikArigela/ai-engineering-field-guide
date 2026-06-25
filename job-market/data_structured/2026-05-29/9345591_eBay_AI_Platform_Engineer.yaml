@@ -1,0 +1,65 @@
+company:
+  name: eBay
+  stage: Public
+  focus: Global ecommerce marketplace and platform
+position:
+  title: AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating the
+      infrastructure and platforms that enable AI work, not
+      directly working on AI models themselves. The engineer
+      builds AI runtimes, distributed training infrastructure,
+      inference serving stacks, and MLOps tooling that supports ML
+      researchers and Applied Scientists. While the role is highly
+      technical and deals with LLM internals (KV cache,
+      quantization, distributed inference), the work is about
+      building the platforms and systems that OTHER researchers
+      and scientists use to train and serve models, not building
+      or training the models directly.
+  responsibilities:
+  - Build and operate production AI inference runtimes using vLLM and TensorRT-LLM
+    behind a standardized AI runtime layer
+  - Implement and optimize distributed inference architectures with prefill/decode
+    disaggregation and distributed KV cache management
+  - Develop and optimize large-scale distributed training pipelines using Megatron-LM
+    and DeepSpeed on GPU clusters
+  - Build and operate an Inference Request Router for authentication, routing, and
+    throughput management
+  - Develop and operate multi-LoRA adapter hosting with hot-swap routing and lifecycle
+    management
+  - Build and maintain the MLOps stack including experiment tracking, model versioning,
+    automated evaluation, and CI/CD
+  - Develop and operate fine-tuning pipelines such as SFT, RLHF, DPO, and LoRA
+  - Build fault-tolerant distributed training infrastructure with checkpointing, failure
+    detection, and recovery
+  use_cases:
+  - Large-scale foundation model pretraining and fine-tuning for ecommerce intelligence
+  - High-throughput production inference serving for LLM/VLM models powering global
+    marketplace experiences
+  - Commerce intelligence and AI-driven features for hundreds of millions of buyers
+    and sellers worldwide
+  - Distributed training and inference optimizations to enable efficient model lifecycle
+    management
+  - Multi-adapter LoRA serving to support multiple model variants and use cases in
+    production
+  skills:
+    genai: [LoRA]
+    ml: [Megatron-LM, DeepSpeed, SFT, RLHF, DPO, distributed training]
+    web: []
+    databases: []
+    data: []
+    cloud: [GPU clusters]
+    ops: [vLLM, TensorRT-LLM, Kubernetes, CUDA, Triton, Docker, ML infrastructure,
+      KV cache management, PagedAttention, continuous batching, quantization, speculative
+        decoding, FlashAttention, NCCL, DCGM, Nsight Systems, PyTorch Profiler, CI/CD,
+      MLOps, model parallelism]
+    languages: [Python, Golang]
+    domains: []
+    other: [distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9345591'
+  extracted_at: '2026-05-29T09:01:23.285381'

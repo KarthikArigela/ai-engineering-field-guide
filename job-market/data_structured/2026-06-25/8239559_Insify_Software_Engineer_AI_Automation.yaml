@@ -1,0 +1,56 @@
+company:
+  name: Insify
+  stage: Series B
+  focus: AI-powered SME insurance platform
+position:
+  title: Software Engineer, AI Automation
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and shipping LLM-
+      powered features, agentic workflows, and LLM orchestration
+      layers in production. The engineer designs prompts, builds
+      evaluation infrastructure, works with RAG, and deploys AI
+      systems — not just supporting an ML team's infrastructure.
+      The work is hands-on with models, agents, and GenAI tooling
+      throughout.
+  responsibilities:
+  - Extend and improve SmartGuide, Insify's live AI-powered funnel assistant, expanding
+    coverage to new products and countries while improving accuracy and conversion
+  - Design and ship agentic workflows that automate high-volume insurance tasks like
+    underwriting pre-screening, sanctions checks, document verification, claims triage,
+    and customer support routing
+  - Build the LLM orchestration layer and evaluation infrastructure including prompt
+    management, output validation, compliance guardrails, and monitoring for hallucinations
+  - Partner with Insurance, Operations, and Claims teams to identify automation opportunities
+    and convert manual workflows into observable, auditable AI systems
+  - Own AI reliability in production by diagnosing and fixing issues when SmartGuide
+    or automated workflows fail
+  - Contribute to Insify's AI platform including shared tooling, model integrations,
+    retrieval systems, and deployment infrastructure
+  - Set standards for responsible AI engineering including factual grounding, auditability,
+    regulatory compliance, and model fallbacks
+  use_cases:
+  - AI-powered sales funnel assistant for insurance customer acquisition
+  - Automated underwriting pre-screening and risk assessment
+  - Document verification and sanctions checks automation
+  - Claims triage and routing
+  - Customer support automation via Zendesk and WhatsApp
+  - Regulatory-compliant AI for the insurance industry
+  skills:
+    genai: [LLM Orchestration, LangChain, LangGraph, Claude API, OpenAI API, RAG,
+      Prompt Engineering, Claude Tool Use, Agentic Workflows, LLM Evaluation Pipelines]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS Lambda, AWS DynamoDB, Event-Driven Architecture]
+    ops: []
+    languages: [TypeScript, Python]
+    domains: []
+    other: [Zendesk, WhatsApp API, n8n, Zapier]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8239559'
+  extracted_at: '2026-06-25T19:40:23.861185'

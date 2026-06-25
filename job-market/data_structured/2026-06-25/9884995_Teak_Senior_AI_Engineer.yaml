@@ -1,0 +1,59 @@
+company:
+  name: Teak
+  stage: null
+  focus: Embedded refund protection SaaS platform
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building, deploying, and operating
+      production-grade agentic AI systems including multi-agent
+      orchestration, RAG pipelines, MCP servers, and LLM
+      integration with compliance guardrails. The engineer owns
+      the entire AI layer end-to-end, from architecture through
+      deployment and operation.
+  responsibilities:
+  - Design, build, and maintain production-grade agentic systems with multi-agent
+    orchestration, specialist agents, and Human-in-the-Loop workflows
+  - Develop MCP servers and tool integrations connecting AI agents to Teak's platform
+    APIs and partner systems
+  - Orchestrate LLMs across the AI layer, selecting models per task and managing prompt
+    strategies for compliant offer language
+  - Build RAG pipelines that ground agent responses in policy and product data with
+    versioning to prevent hallucination
+  - Implement guardrails enforcing compliant offer language and meeting regulatory
+    requirements
+  - Build evaluation frameworks to monitor, test, and continuously improve agent performance
+    and output quality
+  - Build and operate AI infrastructure on AWS with structured logging and tracing
+    for auditability
+  - Contribute to backend services and APIs in Python alongside AI work, including
+    code reviews and on-call rotation
+  use_cases:
+  - Agentic commerce layer enabling partner AI agents to offer and fulfill refund
+    protection at point of purchase
+  - Compliance-safe AI agents that explain refund solutions in pre-approved regulatory
+    language
+  - RAG-grounded agent responses for insurance and refund policy queries
+  - Multi-agent orchestration for refund offer, explanation, and fulfillment workflows
+  - Human-in-the-loop workflows for compliance-sensitive refund decisions
+  skills:
+    genai: [LangGraph, LangChain, MCP (Model Context Protocol), RAG, Multi-agent orchestration,
+      Tool calling, Prompt engineering, Guardrails, Anthropic Claude API, OpenAI API,
+      Gemini API, AWS Bedrock Agents]
+    ml: [Model fine-tuning, Model distillation]
+    web: [Django, REST APIs]
+    databases: [Vector search]
+    data: []
+    cloud: [AWS]
+    ops: [LLM evaluation frameworks, Structured logging and tracing, LLM latency optimization,
+      Caching]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9884995'
+  extracted_at: '2026-06-25T19:53:31.684920'

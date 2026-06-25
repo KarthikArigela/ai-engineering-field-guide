@@ -1,0 +1,62 @@
+company:
+  name: dv01
+  stage: Series B+
+  focus: |-
+    Data analytics platform for structured finance and loan
+    market transparency
+position:
+  title: AI/MLOps Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating the
+      infrastructure platform that supports AI/ML workloads —
+      CI/CD for AI, scalable inference infrastructure,
+      observability, cost management, and reliability. While the
+      engineer works with AI systems like LLM runtimes and agentic
+      platforms, their primary responsibility is the operational
+      and infrastructure layer (DevOps, platform engineering,
+      governance), not directly building, training, or fine-tuning
+      models themselves. They enable other teams to develop and
+      deploy AI-powered services.
+  responsibilities:
+  - Design, build, and operate cloud-native infrastructure and platform tooling that
+    accelerates AI development across the company
+  - Own DevOps and infrastructure for AI Ops and Agentic Systems including CI/CD,
+    scalable inference, observability, cost management, and reliability
+  - Build and maintain infrastructure supporting AI services such as LLM-backed APIs,
+    MCP servers, and agentic systems for production applications
+  - Apply MLOps concepts to improve platform operations including AI-driven monitoring,
+    alerting, anomaly detection, and incident response
+  - Define and implement infrastructure-level governance for AI systems including
+    access controls, deployment policies, and secure-by-default patterns
+  - Act as a technical leader influencing platform architecture, mentoring engineers,
+    and aligning AI platform capabilities with business goals
+  - Design and operate scalable benchmarking and evaluation frameworks for agentic
+    AI systems
+  - Contribute to dv01's AI and data roadmap and establish technical direction and
+    strategy
+  use_cases:
+  - Structured finance data analytics and risk assessment
+  - Loan performance monitoring across mortgages, personal loans, auto, BNPL, small
+    business, and student loans
+  - AI-driven anomaly detection and monitoring for platform operations
+  - LLM-backed API services and agentic systems for production applications
+  - Automated incident response and predictive alerting for infrastructure
+  skills:
+    genai: [Model Context Protocol (MCP), Agentic AI systems, LLM-as-a-judge]
+    ml: [PyTorch, LLVM/MLIR]
+    web: []
+    databases: [Data Warehousing]
+    data: [ETL/ELT]
+    cloud: [IAM, GCP, Cloudflare]
+    ops: [Kubernetes, Docker, Terraform, CI/CD, vLLM, llama.cpp, MLOps, LLM runtimes,
+      Pulumi, GitHub Actions, Harness, Observability and monitoring, Infrastructure-as-Code]
+    languages: [Go, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '8452378'
+  extracted_at: '2026-05-29T08:48:20.571740'

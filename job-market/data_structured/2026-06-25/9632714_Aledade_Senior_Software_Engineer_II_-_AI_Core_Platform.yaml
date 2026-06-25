@@ -1,0 +1,58 @@
+company:
+  name: Aledade
+  stage: null
+  focus: Value-based primary care healthcare technology
+position:
+  title: Senior Software Engineer II - (AI Core Platform)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a platform/infrastructure engineering
+      position focused on reliability, observability, auth,
+      networking, and runtime scalability for an AI Core Platform.
+      While there is exposure to LLM/agent ecosystems and some
+      involvement in AI/ML infrastructure, the core
+      responsibilities center on building and maintaining the
+      platform that supports AI work rather than directly
+      building, training, or fine-tuning models. The emphasis on
+      infrastructure, governance, and platform reliability places
+      this in the ai-support category.
+  responsibilities:
+  - Develop and implement scalable and performant platform solutions with focus on
+    reliability, observability/OTEL, and runtime scalability
+  - Build and maintain auth/networking integrations including IAM, OAuth, API gateways,
+    and service-to-service authentication
+  - Improve AI/ML infrastructure for model development, training, and deployment with
+    a focus on LLMs and generative AI
+  - Architect systems to enhance AI model capabilities and make complex healthcare
+    data sets more accessible and actionable
+  - Design and implement prompt engineering strategies for generative AI models
+  - Develop APIs and interfaces for integrating generative AI capabilities into existing
+    healthcare systems
+  - Partner with Engineering Managers, Product Managers, and stakeholders to develop
+    technical roadmaps using Agile processes
+  - Mentor and coach junior engineers through code reviews and technical guidance
+  use_cases:
+  - Text generation for healthcare applications
+  - Image synthesis and multimodal model applications
+  - Personalized content creation in a healthcare context
+  - Making complex healthcare data sets more accessible and actionable via AI
+  - Integrating generative AI capabilities into existing healthcare systems while
+    maintaining PHI security and compliance
+  skills:
+    genai: [LangGraph, LiteLLM, MCP, OpenAI APIs, Claude Code, Prompt Engineering]
+    ml: []
+    web: [OAuth, API Gateways, Service-to-service auth, Full-stack web development,
+      REST APIs]
+    databases: []
+    data: []
+    cloud: [AWS, Bedrock, IAM]
+    ops: [OpenTelemetry, Observability, Distributed systems]
+    languages: [SQL, Python]
+    domains: []
+    other: [Enterprise security/compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9632714'
+  extracted_at: '2026-06-25T19:48:45.126487'

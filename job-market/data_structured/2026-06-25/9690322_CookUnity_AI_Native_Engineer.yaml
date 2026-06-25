@@ -1,0 +1,59 @@
+company:
+  name: CookUnity
+  stage: Series C+
+  focus: Chef-crafted meal delivery marketplace
+position:
+  title: AI Native Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly designing, building, deploying,
+      and owning AI agents and LLM-powered workflows in
+      production. The engineer is responsible for managing evals
+      after model changes, building agentic workflows, and making
+      architectural decisions about when to use agents vs.
+      deterministic tools. This is hands-on work building and
+      running AI systems, not just supporting them.
+  responsibilities:
+  - Map cross-functional team workflows end-to-end to identify automation opportunities
+    with step-change impact
+  - Design future-state workflows deciding where agents act autonomously, where deterministic
+    apps handle logic, and where humans review
+  - Build production workflows and internal tools combining agentic and deterministic
+    approaches based on sound judgment
+  - Own agents and apps in production including monitoring KPIs, managing evals, and
+    regression testing after model or data changes
+  - Work across the company toolstack connecting APIs, CLIs, MCP servers, databases,
+    and business systems
+  - Create human-in-the-loop interfaces and determine when full automation vs. human
+    checkpoints are appropriate
+  - Interview stakeholders, build business cases, and explain technical tradeoffs
+    to non-technical leaders
+  - Document patterns, create playbooks, and level up team's compute fluency and AI
+    adoption
+  use_cases:
+  - Automating procurement processes with AI agents
+  - Campaign launch workflow automation
+  - Business process automation across ops, finance, and marketing functions
+  - Agent-assisted workflows for order processing and data handling at scale
+  - Internal tool development for collapsing multi-day processes into hours
+  - Workflow orchestration connecting business systems like NetSuite, Braze, Ramp,
+    and Jira
+  skills:
+    genai: [Anthropic Claude API, OpenAI API, Open-source LLMs, MCP (Model Context
+        Protocol), Claude Code, Agent SDK, Prompt engineering, Structured outputs,
+      Eval frameworks, Human-in-the-loop design]
+    ml: []
+    web: [REST APIs]
+    databases: [Snowflake, Postgres]
+    data: [dbt]
+    cloud: [Vercel, AWS]
+    ops: [n8n, Temporal, Git]
+    languages: [Python, TypeScript, Kotlin, SQL]
+    domains: []
+    other: [Braze, NetSuite, Linear, Jira, Slack, Notion]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9690322'
+  extracted_at: '2026-06-25T19:48:25.585985'

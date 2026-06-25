@@ -1,0 +1,52 @@
+company:
+  name: Supabase
+  stage: Series C
+  focus: Open-source Firebase alternative with Postgres
+position:
+  title: AI Tooling Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building AI tooling directly - creating
+      MCP interfaces, agent skills, dashboard assistant, and
+      evaluation frameworks. The engineer works hands-on with AI
+      patterns, agent implementations, and vector embeddings, not
+      just supporting infrastructure for others.
+  responsibilities:
+  - Build and maintain Supabase's AI tooling, including MCP, agent skills, and interfaces
+    for developers and agents
+  - Progress the dashboard assistant into a self-serve product for debugging and product
+    workflows
+  - Drive an eval-first approach by building evaluation frameworks, instrumentation,
+    and feedback loops
+  - Design and improve how documentation and product knowledge are exposed to AI agents
+  - Build tools and patterns for customers to incorporate AI into their apps, including
+    Edge Functions and vector embeddings
+  - Centralize shared AI logic and reduce duplicated patterns across products and
+    services
+  - Ensure tools are battle-tested with strong test coverage, benchmarking, and stress
+    testing
+  - Work cross-functionally with docs, CLI, frontend, API, and other teams
+  use_cases:
+  - Dashboard assistant for debugging and day-to-day product workflows
+  - MCP (Model Context Protocol) interfaces for agent-database interactions
+  - Agent skills and abstractions for building with Supabase
+  - AI-native workflows for developers building on Supabase
+  - Vector embeddings and semantic search integration
+  - Self-serve debugging and product workflow automation
+  skills:
+    genai: [MCP, Agents]
+    ml: []
+    web: [npm, ES modules]
+    databases: [Vector embeddings, pgvector, Postgres]
+    data: []
+    cloud: [Edge Functions]
+    ops: [Evaluation frameworks]
+    languages: [TypeScript, JavaScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9164987'
+  extracted_at: '2026-05-29T08:55:28.074713'

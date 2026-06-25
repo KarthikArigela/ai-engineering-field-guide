@@ -1,0 +1,63 @@
+company:
+  name: Accrete AI
+  stage: Unknown
+  focus: |-
+    Building intelligence-driven AI platforms for enterprise
+    decision-making using GenAI
+position:
+  title: AI Staff Engineer- Application Development
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely focused on building agentic, AI-native
+      systems where LLMs reason, plan, and act. The engineer will
+      directly implement agentic frameworks (LangGraph, CrewAI,
+      AutoGen), design agent-first architectures, integrate MCP
+      protocols, and apply agentic design patterns like planners,
+      routers, and tool-use. This is hands-on work building and
+      deploying AI systems, not just supporting infrastructure.
+  responsibilities:
+  - Design and implement agent-first systems where LLMs reason, plan, and act alongside
+    deterministic services
+  - Build scalable backend microservices, REST/gRPC APIs, and distributed systems
+    using Python and modern frameworks
+  - Implement and evaluate agentic frameworks such as LangGraph, CrewAI, AutoGen,
+    and apply agentic design patterns including planners, routers, evaluators, memory,
+    and tool-use
+  - Integrate Model Context Protocols (MCP) and equivalent mechanisms to standardize
+    tool access, context sharing, and orchestration across agents
+  - Design and build data-intensive systems including ETL pipelines, stream processing,
+    and transformation workflows
+  - Build and deploy cloud-native services on AWS using containers, Kubernetes, serverless,
+    and event-driven patterns
+  - Collaborate with ML teams to move models from experimentation into scalable production-grade
+    systems
+  - Lead technical design, mentor engineers, and own production outcomes including
+    monitoring and incident resolution
+  use_cases:
+  - Enterprise-scale AI platforms for understanding and acting on complex information
+    at scale
+  - Agentic systems where LLMs reason, plan, and act within production workflows
+  - Data integration and ingestion pipelines for enterprise information processing
+  - Real-time and batch workloads combining probabilistic AI behavior with deterministic
+    services
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, Model Context Protocol (MCP), Claude Agents,
+      Google ADK, 'Agentic design patterns (planners, routers, evaluators, memory,
+        tool-use)']
+    ml: []
+    web: [FastAPI, Flask, Django, REST APIs, GraphQL, gRPC]
+    databases: [PostgreSQL, MongoDB, DynamoDB, OpenSearch/Elasticsearch, Redis, Neo4j,
+      Snowflake, BigQuery]
+    data: [Apache Kafka, Apache Airflow, Dagster, Apache Spark, AWS Step Functions,
+      ETL pipelines, NumPy, Pandas]
+    cloud: [AWS, AWS Lambda, AWS EC2, AWS S3, AWS RDS]
+    ops: [Docker, Kubernetes, CI/CD, PyTest]
+    languages: [Python, Pydantic]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8248409'
+  extracted_at: '2026-05-29T08:47:06.682263'

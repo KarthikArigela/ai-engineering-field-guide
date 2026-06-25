@@ -1,0 +1,51 @@
+company:
+  name: Clarivate Analytics
+  stage: Public
+  focus: Analytics and insights provider with AI data platforms
+position:
+  title: Lead Product AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that builds data pipelines
+      and platforms to SUPPORT AI/ML workloads, but does not
+      directly build, train, or deploy models. The
+      responsibilities focus on data architecture, ETL/ELT
+      pipelines, dimensional modeling, and preparing datasets for
+      data scientists and ML teams rather than hands-on model
+      development.
+  responsibilities:
+  - Own and evolve product-level data architecture ensuring scalability and alignment
+    with AI/ML use cases
+  - Design and implement scalable data pipelines supporting product analytics and
+    AI/ML initiatives
+  - Define and maintain enterprise-aligned dimensional data models using star and
+    snowflake schemas
+  - Partner with cross-functional teams to translate requirements into architected
+    data models and pipelines
+  - Implement monitoring and testing for data quality, pipeline health, and freshness
+  - Mentor data engineers through architecture reviews, code reviews, and design discussions
+  use_cases:
+  - Product analytics and user behavior tracking
+  - Machine learning dataset preparation and validation
+  - Unstructured to structured data transformation for cross-referencing and analysis
+  - Internal tooling for data processing and service mesh communication
+  - AI-ready data pipeline enablement for downstream ML workflows
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Snowflake, BigQuery, Redshift]
+    data: [ETL, ELT, dbt, Airflow, Fivetran, Dimensional modeling, Star schemas, Snowflake
+        schemas, Data architecture, Data pipelines, JSON, Event-driven architecture,
+      Data quality, Data governance]
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9473282'
+  extracted_at: '2026-05-29T09:08:08.055167'

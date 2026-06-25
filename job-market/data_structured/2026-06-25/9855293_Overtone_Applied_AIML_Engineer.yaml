@@ -1,0 +1,52 @@
+company:
+  name: Overtone
+  stage: Seed
+  focus: AI-powered dating and matchmaking service
+position:
+  title: Applied AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and fine-
+      tuning LLM systems, including prompt architecture, model
+      experimentation, fine-tuning (SFT, DPO, RLHF), and model
+      serving infrastructure. The engineer owns the entire AI
+      layer of the product, from orchestration to production
+      inference.
+  responsibilities:
+  - Design and maintain LLM prompt systems, structured outputs, and orchestration
+    powering core product features
+  - Build evaluation infrastructure to measure AI quality at scale using tools like
+    Langfuse, TensorZero, and Promptfoo
+  - Run structured experiments across models, prompts, and configurations to optimize
+    quality, cost, and latency
+  - Own the model serving layer including deploying models, managing inference infrastructure,
+    and cost/latency optimization
+  - Identify opportunities to fine-tune open-source models using SFT, DPO, and RLHF
+  - Design and maintain vector databases and memory architectures for personalization
+    and context-aware experiences
+  - Apply data science and lightweight ML modeling to improve match quality and ranking
+  - Build internal AI observability tools, dashboards, and debugging workflows for
+    visibility into model behavior
+  use_cases:
+  - Conversational intelligence for dating interactions
+  - Matchmaking and insight generation between daters
+  - Personalized matching using memory and context-aware systems
+  - AI-driven recommendation and ranking for match quality
+  - Responsible AI evaluation ensuring fair, unbiased, and auditable matchmaking
+  skills:
+    genai: [Prompt Engineering, LLM Orchestration, RAG, SFT, DPO, RLHF]
+    ml: [Model Fine-Tuning, Recommender Systems, Ranking Systems]
+    web: [FastAPI, SQLAlchemy, React]
+    databases: [Vector Databases, PostgreSQL]
+    data: []
+    cloud: []
+    ops: [Langfuse, TensorZero, Promptfoo, MLOps, Model Serving, AI Evaluation Frameworks]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9855293'
+  extracted_at: '2026-06-25T19:56:17.133308'

@@ -1,0 +1,59 @@
+company:
+  name: LogicMonitor
+  stage: Late-stage / PE-backed
+  focus: |-
+    AI-first hybrid observability and IT infrastructure
+    monitoring platform
+position:
+  title: Sr. Software Engineer - AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds data pipelines, ETL infrastructure, and
+      backend APIs that feed AI systems (Edwin AI, Dexda) but does
+      not directly build, train, fine-tune, or deploy ML models.
+      The engineer works "at the intersection of backend systems
+      and data engineering" to make data AI-ready, managing
+      embeddings/metadata storage and retrieval frameworks in
+      support of AI teams. There is GenAI adjacency (LangGraph,
+      LLM orchestration) but the core responsibility is data and
+      API infrastructure enabling AI products.
+  responsibilities:
+  - Design and build streaming and batch data pipelines processing metrics, logs,
+    and events for AI workflows
+  - Develop ETL and feature-extraction pipelines using Python and Java microservices
+  - Build resilient data orchestration using Kafka, Airflow, and Redis Streams
+  - Develop data indexing and semantic search for large-scale observability and operational
+    data
+  - Work with structured and unstructured data lakes and warehouses including Delta
+    Lake, Iceberg, and ClickHouse
+  - Build and maintain Java microservices (Spring Boot) serving AI and analytics data
+    to Edwin and AIOps applications
+  - Develop Python APIs (FastAPI / LangGraph) for LLM orchestration, summarization,
+    and correlation reasoning
+  - Implement data validation, schema evolution, lineage tracking, and data privacy/RBAC
+    compliance across AI pipelines
+  use_cases:
+  - AI-driven observability data intelligence connecting telemetry streams with LLM
+    reasoning
+  - Real-time incident detection and anomaly alerting for IT infrastructure
+  - Semantic search and retrieval over large-scale operational and observability data
+  - LLM-powered summarization and correlation reasoning for AIOps workflows
+  - Automated root cause analysis and remediation guidance for digital infrastructure
+  skills:
+    genai: [LangGraph, LLM orchestration, Embeddings, Vector retrieval, Semantic search]
+    ml: []
+    web: [FastAPI, Spring Boot, REST, gRPC, GraphQL]
+    databases: [ClickHouse, Redis]
+    data: [Kafka, Apache Airflow, Redis Streams, Apache Spark, ETL, Delta Lake, Apache
+        Iceberg]
+    cloud: [AWS]
+    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
+    languages: [Python, Java, SQL]
+    domains: []
+    other: [Data governance, Schema evolution, Data lineage, RBAC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9860754'
+  extracted_at: '2026-06-25T19:52:26.274078'

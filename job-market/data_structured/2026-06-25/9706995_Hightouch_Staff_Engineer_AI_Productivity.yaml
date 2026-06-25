@@ -1,0 +1,54 @@
+company:
+  name: Hightouch
+  stage: Series C+ (inferred from traction, customers, and compensation)
+  focus: Agentic marketing platform and composable CDP
+position:
+  title: Staff Engineer, AI Productivity
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building AI agent
+      infrastructure — MCP server integrations, agentic
+      development environments, agent documentation/context files,
+      and tooling that makes AI coding agents effective. The
+      engineer works hands-on with AI agent systems (not just
+      supporting ML teams), building integrations and environments
+      where agents operate autonomously. This is squarely ai-first
+      work applied to developer productivity.
+  responsibilities:
+  - 'Own the agentic development environment: ensure AI agents can operate in independent
+    cloud-based development environments, execute test suites, and examine build results'
+  - Build MCP server integrations connecting AI agents to internal systems such as
+    CircleCI, Slack, Datadog, and GitHub
+  - Own repo-wide agent documentation (agents.md) and maintain a library of agent
+    guidance, skills, and conventions
+  - Enable engineering teams to use AI agents more effectively by identifying and
+    addressing root causes of agent struggles
+  - Develop tooling for non-engineers to make simple visual updates to the application
+  - Serve as an internal PM for AI agents, staying on the leading edge of AI productivity
+    trends and driving improvements across the company
+  - Drive cross-team efforts to raise the bar on AI-assisted development practices
+  use_cases:
+  - Autonomous AI coding agents operating in cloud development environments
+  - Agent-to-internal-systems integration via MCP for automated build, debug, and
+    deployment workflows
+  - AI-assisted software development with context-aware documentation and tooling
+  - Non-technical team members making application updates via AI-powered tooling
+  - Internal developer productivity acceleration through AI agent infrastructure
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, Devin, MCP (Model Context Protocol),
+      AI agent documentation and context files, Agent tooling integrations]
+    ml: []
+    web: [GraphQL]
+    databases: []
+    data: []
+    cloud: [Cloud development environments]
+    ops: [CircleCI, Docker, Kubernetes, CI/CD, Datadog, Sandboxed containerized environments]
+    languages: [TypeScript, JavaScript, Go]
+    domains: []
+    other: [Developer productivity tooling, Monorepo architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9706995'
+  extracted_at: '2026-06-25T19:47:42.960784'

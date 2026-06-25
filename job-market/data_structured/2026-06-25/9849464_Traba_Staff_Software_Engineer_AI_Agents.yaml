@@ -1,0 +1,51 @@
+company:
+  name: Traba
+  stage: Series B+
+  focus: AI operating layer for industrial supply chain
+position:
+  title: Staff Software Engineer (AI Agents)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly about building AI agents — the
+      harnesses, orchestration, evals, and model strategy that
+      power Traba's agentic platform. The engineer will architect
+      agent orchestration runtimes, design retrieval/memory
+      architecture, and own model strategy decisions including
+      when to prompt vs. fine-tune. This is hands-on, direct work
+      on AI/agent systems.
+  responsibilities:
+  - Architect Traba's agent platform end-to-end including orchestration runtime, eval
+    and observability stack, and integration layer to internal and customer systems
+    (WMS/TMS/ERP)
+  - 'Own foundational technical decisions: model strategy, harness design, retrieval
+    and memory architecture, tool/MCP surface, and quality measurement'
+  - Spend time in the field with customers and operators, translating observations
+    into durable product and repeatable deployment patterns
+  - Build evaluation as an engineering discipline including datasets, graders, regression
+    suites, and experimentation tooling
+  - Hire and mentor engineers and set standards for quality and reliability
+  - Partner with CTO, product, and ops leadership on the multi-year platform roadmap
+  use_cases:
+  - Autonomous agents that act inside customer facility workflows
+  - Agent-driven synthesis of marketplace data for industrial supply chain operations
+  - AI agents interfacing with customer operational systems (WMS, TMS, ERP)
+  - Automated decision-making for shift staffing and workforce management
+  - Operational productivity gains across manufacturing and logistics facilities
+  skills:
+    genai: [Agent orchestration, MCP (Model Context Protocol), RAG / Retrieval architecture,
+      Prompt engineering, LLM fine-tuning, Agent evals and observability]
+    ml: []
+    web: [API design]
+    databases: [PostgreSQL]
+    data: [Kafka, RabbitMQ]
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript, Node.js]
+    domains: [WMS/TMS/ERP integration, Supply chain and logistics]
+    other: [Distributed systems design]
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9849464'
+  extracted_at: '2026-06-25T19:56:00.308489'

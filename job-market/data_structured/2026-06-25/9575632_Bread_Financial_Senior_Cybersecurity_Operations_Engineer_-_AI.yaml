@@ -1,0 +1,63 @@
+company:
+  name: Bread Financial
+  stage: Public
+  focus: Financial services, payment and lending solutions
+position:
+  title: Senior Cybersecurity Operations Engineer - AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is primarily a cybersecurity operations engineering
+      role where AI is one of many tools used to enhance SOC
+      operations (alert triage, enrichment, incident response).
+      The role's core focus is detection engineering, SOAR
+      automation, and threat intelligence — AI/agentic workflows
+      are an emerging capability being integrated, not the primary
+      technical domain. The candidate uses AI to assist SOC
+      workflows rather than building, training, or fine-tuning
+      models themselves.
+  responsibilities:
+  - Design, develop, and continuously improve high-fidelity detections across enterprise
+    telemetry using detection-as-code practices
+  - Engineer automated SOAR playbooks and response workflows to reduce mean time to
+    detect and respond
+  - Integrate AI and agentic workflows into CSOC operations for alert triage, enrichment,
+    and incident response
+  - Translate threat intelligence into actionable detections, hunts, and prioritized
+    response actions
+  - Onboard and normalize logs across endpoint, identity, cloud, network, and application
+    sources
+  - Map detections and response playbooks to MITRE ATT&CK framework and kill chain
+    concepts
+  - Design guardrails for AI usage including human-in-the-loop approvals, audit logging,
+    and workflow governance
+  - Mentor junior engineers and analysts while driving operational maturity and continuous
+    improvement
+  use_cases:
+  - AI-assisted alert triage, summarization, and correlation in security operations
+  - Automated incident response and containment via SOAR playbooks
+  - Agentic SOC workflows with human-in-the-loop approvals for security operations
+  - Threat intelligence integration into detections, hunts, and enrichment pipelines
+  - Behavior-based threat detection across endpoint, identity, cloud, and network
+    telemetry
+  - Retrieval-augmented knowledge retrieval for security analysts
+  skills:
+    genai: [Prompt Engineering, RAG, Agentic Workflows]
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: []
+    cloud: [Cloud Architecture, AWS, Azure, GCP]
+    ops: [SOAR, Cortex XSOAR, Splunk SOAR, Git, CI/CD, Infrastructure as Code, Docker,
+      Kubernetes]
+    languages: [Python, PowerShell]
+    domains: []
+    other: [Splunk SPL, KQL, EQL, Sigma, Detection Engineering, SIEM, Splunk, CrowdStrike
+        Next-Gen SIEM, Palo Alto XSIAM, MITRE ATT&CK, Threat Intelligence, MISP, OpenCTI,
+      STIX/TAXII, EDR, DLP, IDS/IPS, WAF, NAC, PAM, EUBA, NIST Security Standards,
+      PCI-DSS, SOX Controls, Threat Hunting, Incident Response]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9575632'
+  extracted_at: '2026-06-25T19:45:01.287898'

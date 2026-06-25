@@ -1,0 +1,62 @@
+company:
+  name: Multiverse
+  stage: Series D
+  focus: AI and tech upskilling apprenticeship platform
+position:
+  title: Staff AI Engineer - AI Transformation
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is centered on building, architecting, and
+      shipping production AI agent systems — including multi-agent
+      orchestration, context strategy, evaluation frameworks, and
+      tool integrations. The engineer works directly on LLM/agent
+      systems as the core deliverable, not supporting
+      infrastructure for other AI teams.
+  responsibilities:
+  - Own the technical architecture of an internal agentic operating system including
+    agent orchestration, context strategy, tool integrations, evaluation framework,
+    and production operation
+  - Build and ship production multi-agent AI systems end to end, writing and reviewing
+    code with full ownership of production quality
+  - Design multi-agent coordination patterns including task decomposition, handoff
+    protocols, shared state management, and orchestration logic
+  - Build evaluation and quality infrastructure with automated eval pipelines, human-in-the-loop
+    review, regression testing, and domain-specific quality metrics
+  - Drive cost engineering through token economics, caching strategies, model routing,
+    and prompt optimisation
+  - Build the integration layer (APIs, MCPs, shared data contracts) connecting agents
+    to existing Multiverse platform and content systems
+  - Set organisation-wide standards for prompt management, retrieval, guardrails,
+    and testing through code and documentation
+  - Mentor engineers through code review, architectural guidance, and pairing on hard
+    problems
+  use_cases:
+  - Internal agentic operating system that transforms how Multiverse operates function
+    by function
+  - Multi-agent coordination for complex business workflows across the organisation
+  - Automated evaluation and quality assurance for AI-generated outputs in a regulated
+    education context
+  - Cost-optimised production AI systems with intelligent model routing and token
+    management
+  - Agent-accessible integration layer connecting AI agents to existing platform,
+    content, and business systems
+  skills:
+    genai: [Multi-agent orchestration, MCP (Model Context Protocol), Prompt engineering,
+      RAG / Retrieval strategies, LLM integration, Agent tool design, Context management,
+      Guardrails, Model routing and selection, Token economics / cost optimisation,
+      Claude Code]
+    ml: []
+    web: [FastAPI, REST APIs, React]
+    databases: [Postgres, Vector databases]
+    data: [ETL / Data pipelines]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, CI/CD, LangSmith]
+    languages: [Python, TypeScript, SQL]
+    domains: [EdTech / Regulated content domain]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9795484'
+  extracted_at: '2026-06-25T19:55:30.587930'

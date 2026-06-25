@@ -1,0 +1,57 @@
+company:
+  name: Rapid7
+  stage: Public
+  focus: |-
+    Cybersecurity - threat detection and attack surface
+    protection
+position:
+  title: AI Engineer II
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building LLM-powered
+      systems, agentic workflows, and RAG pipelines. The engineer
+      will directly implement LangChain/LangGraph orchestration,
+      design agent patterns (ReAct, tool-calling), prompt
+      engineering, and deploy models to production. While it
+      includes some traditional ML work, the primary focus is
+      hands-on GenAI engineering.
+  responsibilities:
+  - Contribute to building agentic AI workflows including tool-calling, agent loops,
+    and LLM-driven automation
+  - Develop and maintain RAG pipelines including document ingestion, chunking, embedding,
+    and retrieval
+  - Implement and iterate on prompt engineering techniques such as few-shot prompting
+    and chain-of-thought
+  - Work with LangChain and LangGraph for LLM orchestration and chaining tasks
+  - Support LLM evaluation tasks including writing eval datasets, measuring output
+    quality, and running benchmarks
+  - Deploy and test LLM-powered features on AWS Bedrock, Lambda, and SageMaker
+  - Build and evaluate supervised and unsupervised ML models for security use cases
+  - Contribute to observability and monitoring of LLM systems including latency, token
+    usage, and output quality dashboards
+  use_cases:
+  - Agentic AI systems for cybersecurity threat detection and response
+  - LLM-powered automation for security operations and attack surface protection
+  - RAG-based systems for reasoning across complex security data
+  - Autonomous agents that analyze and respond to security threats
+  - ML models for malware detection and user behavioral analysis
+  - Intelligent detection and response systems for MDR service
+  skills:
+    genai: [LangChain, LangGraph, Prompt Engineering, RAG, ReAct Patterns, Tool-calling,
+      Multi-agent Workflows, LLM Orchestration]
+    ml: [HuggingFace Transformers, scikit-learn, PyTorch, Embedding Models, SHAP,
+      LIME, TensorFlow]
+    web: []
+    databases: [Vector Databases, FAISS, Pinecone, OpenSearch]
+    data: [pandas, NumPy]
+    cloud: [AWS Bedrock, AWS SageMaker, AWS Lambda, AWS S3]
+    ops: [Langfuse, Promptfoo, GitHub Actions, Jenkins, CloudWatch, CI/CD]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9336256'
+  extracted_at: '2026-05-29T09:02:15.959962'

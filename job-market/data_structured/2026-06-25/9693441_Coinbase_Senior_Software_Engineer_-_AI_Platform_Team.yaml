@@ -1,0 +1,55 @@
+company:
+  name: Coinbase
+  stage: Public
+  focus: Cryptocurrency exchange and financial platform
+position:
+  title: Senior Software Engineer - AI Platform Team
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and operating LLM gateways,
+      agent/MCP runtimes, knowledge bases with vector stores,
+      evaluation harnesses with LLM-as-judge, and production AI
+      agents. The team directly builds, deploys, and fine-tunes
+      LLMs and agents — making this squarely ai-first work.
+  responsibilities:
+  - Own multi-quarter, high-impact initiatives on the AI platform covering LLM gateway,
+    agent runtime, knowledge bases, and governance
+  - Build and operate an LLM Gateway providing unified API access to 60+ models across
+    providers with auth, PII redaction, quotas, fallbacks, and cost optimization
+  - Develop agent and MCP runtime infrastructure including microVM sandboxes, governed
+    MCP gateway, and cross-trust agent identity
+  - Build knowledge base infrastructure connecting data sources with auto-provisioned
+    vector and markdown stores queryable by agents
+  - Create evaluation and observability tooling including an in-house LLM-as-judge
+    harness with full tracing
+  - Embed with teams across the company to build production AI agents and feedback
+    loops for subject matter expert refinement
+  - Apply traditional ML including fine-tuning where it outperforms prompting approaches
+  - Partner across engineering, security, legal, finance, and product teams and work
+    directly with frontier labs and major cloud providers
+  use_cases:
+  - Enterprise LLM gateway with multi-provider routing, cost optimization, and governance
+  - Production AI agents for code generation, analytics, and executive personas
+  - RAG-based knowledge bases connecting internal data sources for agent queryability
+  - AI FinOps with spend attribution and governance across the company
+  - Company-wide chat and low-code AI workflow surfaces serving thousands of weekly
+    active users
+  - AI-driven automation for blockchain node operations and internal decision-making
+  skills:
+    genai: [LLM Gateway, Agents, MCP servers, RAG, Prompt engineering, LLM-as-judge
+        evaluation]
+    ml: [Fine-tuning]
+    web: [Microservices, REST APIs]
+    databases: [Vector stores]
+    data: []
+    cloud: [AWS]
+    ops: [MicroVM sandboxes, LLM observability and tracing, FinOps for AI]
+    languages: [Python]
+    domains: []
+    other: [PII redaction, Cost optimization]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9693441'
+  extracted_at: '2026-06-25T19:45:33.530543'

@@ -1,0 +1,60 @@
+company:
+  name: Modular
+  stage: Series B
+  focus: |-
+    AI infrastructure and developer tools for building and
+    deploying AI systems
+position:
+  title: Senior AI Kernel Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a kernel engineering role focused on GPU
+      optimization and low-level systems programming to support AI
+      inference workloads. The engineer works on infrastructure
+      and performance optimization but does not build, train, or
+      deploy AI models directly - they create the high-performance
+      kernels and optimizations that enable AI systems to run
+      efficiently on hardware. This is clearly
+      infrastructure/platform work that supports AI rather than
+      hands-on AI/ML development.
+  responsibilities:
+  - Design, implement, and optimize performance-critical kernels for AI inference
+    workloads including GEMM, attention mechanisms, communication, and fusion operations
+  - Lead kernel-level optimization efforts across single-GPU, multi-GPU, and heterogeneous
+    hardware environments
+  - Analyze performance using profilers, hardware counters, and microbenchmarks to
+    translate insights into concrete improvements
+  - Work closely with compiler and runtime teams to influence code generation, scheduling,
+    and kernel fusion strategies
+  - Drive adoption of new hardware features such as Tensor Cores, asynchronous execution,
+    and advanced memory spaces
+  - Review and mentor other engineers on kernel design, performance tuning, and best
+    practices
+  - Contribute to technical roadmaps and long-term performance strategy for AI inference
+    systems
+  use_cases:
+  - High-performance AI inference on GPUs and custom accelerators
+  - Large-scale AI model deployment with optimized kernel implementations
+  - Multi-GPU and distributed inference pipelines
+  - Production AI systems requiring latency and throughput optimization
+  - LLM and transformer model inference acceleration
+  - Memory-efficient AI inference with advanced kernel fusion
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: [Distributed Systems]
+    cloud: []
+    ops: [CUDA, GPU Programming, Kernel Development, Performance Optimization, PTX,
+      Triton, GPU Architecture, Tensor Cores, GEMM, Multi-GPU Programming, Inference
+        Optimization, Hardware Acceleration, Compilers, Profiling]
+    languages: [C/C++, Assembly Programming]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9190172'
+  extracted_at: '2026-05-29T08:56:40.226562'

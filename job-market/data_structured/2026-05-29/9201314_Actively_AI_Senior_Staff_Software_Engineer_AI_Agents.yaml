@@ -1,0 +1,55 @@
+company:
+  name: Actively AI
+  stage: Series B ($68M raised)
+  focus: |-
+    AI-powered sales agents that automate revenue operations and
+    account research
+position:
+  title: Senior / Staff Software Engineer (AI Agents)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an ai-first role because the engineer is building AI
+      agents that reason over streaming data, make decisions, and
+      execute actions autonomously. The role involves architecting
+      agent workflows, orchestrating human-in-the-loop processes,
+      and implementing the core agent logic that powers Actively's
+      GTM AI platform. This is hands-on work building and
+      deploying AI agents, not just supporting infrastructure for
+      others.
+  responsibilities:
+  - Design and build AI agents that power Actively's platform, modeling complex customer
+    workflows into reliable agent logic
+  - Develop orchestration and workflow primitives for agent and human collaboration
+    with human-in-the-loop actions
+  - Ensure reliability through good modeling with clear state transitions, strong
+    data contracts, and fault tolerance
+  - Design scalable, event-driven infrastructure integrating with LLMs and orchestrating
+    complex workflows
+  - Continuously evolve agent design through better abstractions, documentation, and
+    testing as scale grows
+  use_cases:
+  - Automated account research and opportunity identification across customer's total
+    addressable market
+  - Continuous agent monitoring and triage of revenue accounts without human intervention
+  - Multi-step workflow execution for advancing sales opportunities with humans in
+    the loop
+  - Real-time reasoning over customer and external data to generate next-best actions
+  - Enterprise-scale agent orchestration for GTM teams including Ramp, Ironclad, and
+    Samsara
+  skills:
+    genai: [LLMs, Agents, RAG]
+    ml: []
+    web: [Event-driven architecture]
+    databases: [Vector databases, Relational databases, In-memory databases]
+    data: [Kafka]
+    cloud: [Pub/Sub]
+    ops: [Temporal, Concurrency, Fault tolerance]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9201314'
+  extracted_at: '2026-05-29T08:57:08.778481'

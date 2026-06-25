@@ -1,0 +1,54 @@
+company:
+  name: Tether.io
+  stage: Public
+  focus: Stablecoins, digital asset tokenization, AI infrastructure
+position:
+  title: AI Research Engineer (Kernel & Inference Optimization)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is hands-on working directly ON AI systems -
+      optimizing model serving, inference pipelines, and writing
+      GPU kernels for LLMs and diffusion models. The engineer will
+      implement advanced techniques like quantization, speculative
+      decoding, flash attention, and distributed inference, which
+      are core to building and deploying AI/ML systems.
+  responsibilities:
+  - Design and deploy state-of-the-art model serving architectures that deliver high
+    throughput and low latency while optimizing memory usage across diverse environments
+    including resource-constrained devices and edge platforms
+  - Build, run, and monitor controlled inference tests in both simulated and live
+    production environments, tracking key performance indicators such as response
+    latency, throughput, memory consumption, and error rates
+  - Identify and prepare high-quality test datasets and simulation scenarios tailored
+    to real-world deployment challenges, specifically those encountered on low-resource
+    devices
+  - Analyze computational efficiency and diagnose bottlenecks in the serving pipeline
+    by monitoring both processing and memory metrics, addressing issues like suboptimal
+    batch processing, network delays, and high memory usage
+  - Work closely with cross-functional teams to integrate optimized serving and inference
+    frameworks into production pipelines designed for edge and on-device applications
+  use_cases:
+  - Deploying AI models on resource-constrained mobile and edge devices including
+    smartphones
+  - Multi-modal AI systems integrating text, images, and audio data
+  - High-performance inference engines for massive models using distributed computing
+  - Diffusion models and Vision Transformers for generative AI applications
+  - Low-latency inference serving for real-time AI applications
+  skills:
+    genai: [Diffusion Models, LLMs]
+    ml: [Distributed Inference, Tensor Parallelism, Pipeline Parallelism, Expert Parallelism,
+      Vision Transformers, Pruning, Flash Attention, KV Cache, Speculative Decoding]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [GPU kernel development, Quantization, Model Serving, Inference Optimization]
+    languages: [Metal Shading Language (MSL)]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394632'
+  extracted_at: '2026-05-29T09:03:10.657502'

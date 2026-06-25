@@ -1,0 +1,63 @@
+company:
+  name: Eli Lilly and Company
+  stage: Public
+  focus: |-
+    Global pharmaceutical and healthcare leader developing life-
+    changing medicines
+position:
+  title: Agentic AI Sr. Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on engineering role focused on building,
+      deploying, and scaling agentic AI systems with multi-agent
+      orchestration, RAG architectures, and knowledge graph
+      integrations. The role requires writing production code for
+      LLM orchestration layers, developing autonomous workflows
+      using frameworks like LangGraph and CrewAI, and implementing
+      model deployment patterns - all core AI-first activities.
+  responsibilities:
+  - Design, build, and deploy multi-agent systems using frameworks such as LangGraph,
+    CrewAI, AutoGen, or Semantic Kernel
+  - Build agent workflows for clinical data lifecycle automation including study build,
+    CDISC mapping, and regulatory submission packaging
+  - Design and build end-to-end RAG and agentic knowledge pipelines including document
+    ingestion, vector databases, and retrieval evaluation
+  - Architect and build scalable MLOps and data pipelines across cloud platforms including
+    CI/CD, model versioning, and deployment automation
+  - Develop APIs, microservices, and event-driven interfaces that expose agent capabilities
+    to enterprise systems
+  - Coach and mentor AI engineers through code reviews, pair programming, and hands-on
+    problem-solving
+  - Establish platform standards and reusable components through reference implementations
+    that the broader team adopts
+  use_cases:
+  - Clinical data lifecycle automation including study build, CDISC mapping, analysis
+    dataset generation, and regulatory submission
+  - Regulatory document management with intelligent classification, extraction, quality
+    review, and lifecycle tracking
+  - Health-economics and outcomes research including systematic literature review
+    automation and evidence synthesis
+  - Network meta-analysis data extraction and cost-effectiveness model parameterization
+  - Multi-agent systems for autonomous orchestration across clinical, regulatory,
+    and health-economics domains
+  - Knowledge graph integrations and semantic search for reasoning over complex pharmaceutical
+    data
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, Semantic Kernel, Haystack, LangChain, RAG,
+      Prompt engineering, Multi-agent orchestration, Function calling, MCP (Model
+        Context Protocol), OpenAI API, Anthropic API, Guardrails]
+    ml: [Distillation]
+    web: [Node.js, API design, Microservices]
+    databases: [Pinecone, Weaviate, Chroma, pgvector, FAISS, Knowledge graphs]
+    data: []
+    cloud: [AWS, Azure]
+    ops: [Model deployment, vLLM, TGI, Docker, Kubernetes, CI/CD, MLOps, Model versioning]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9498891'
+  extracted_at: '2026-05-29T09:07:47.701092'

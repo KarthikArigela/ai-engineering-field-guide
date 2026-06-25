@@ -1,0 +1,58 @@
+company:
+  name: Thomson Reuters
+  stage: Public
+  focus: |-
+    Trusted content and technology for legal, tax, accounting,
+    compliance professionals
+position:
+  title: Senior Engineer, Enterprise AI Services
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating AI/LLM
+      observability infrastructure (monitoring, tracing,
+      evaluation platforms) rather than directly building,
+      training, or deploying AI models. The engineer enables
+      product teams and data scientists to observe and improve
+      their AI systems, making this a platform/infrastructure
+      support role for AI workloads.
+  responsibilities:
+  - Serve as the Kubernetes expert for AI services, defining and operating deployment
+    standards for scalability, resilience, security, and performance
+  - Own the AI observability platform, implementing tools such as Braintrust and Langfuse
+    for tracing, evaluation, analytics, and monitoring of LLM/ML workloads
+  - Define and standardize telemetry across AI products including traces, metrics,
+    logs, evaluations, and feedback while ensuring governance and privacy
+  - Build telemetry pipelines, dashboards, and reporting for visibility into model
+    performance, quality, safety, reliability, and cost
+  - Establish monitoring, alerting, SLOs/SLIs, and incident response practices for
+    AI systems including root cause analysis
+  - Integrate observability and evaluation into CI/CD so new models, prompts, and
+    workflows are automatically enrolled in monitoring and quality controls
+  - Partner with Product, Data Science, AI Engineering, SRE, and Cloud teams to onboard
+    new AI use cases and implement guardrails and policy enforcement
+  use_cases:
+  - AI/LLM observability and monitoring across Thomson Reuters multi-cloud footprint
+  - Evaluation and quality control for generative AI and classical ML workloads in
+    production
+  - Telemetry and tracing for model behavior analysis including latency, cost, and
+    quality tracking
+  - Incident detection and root cause analysis for production AI systems
+  - Drift detection and experimentation support for AI product teams
+  skills:
+    genai: [RAG, LLM fundamentals, Prompt engineering]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Kubernetes, Helm, Braintrust, Langfuse, Datadog, CI/CD, Docker, SLOs/SLIs,
+      SRE practices]
+    languages: [Python, TypeScript, Go, Java, C#]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8733365'
+  extracted_at: '2026-05-29T08:47:31.651311'

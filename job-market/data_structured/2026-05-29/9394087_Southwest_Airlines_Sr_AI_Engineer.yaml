@@ -1,0 +1,65 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Major US airline providing passenger transportation services
+position:
+  title: Sr AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is hands-on building and deploying production AI
+      systems with direct work on agents, RAG pipelines, prompt
+      engineering, and model orchestration. The engineer
+      implements agentic frameworks (LangGraph, CrewAI, Bedrock),
+      optimizes model performance, and operates LLM-based services
+      - all core AI engineering work rather than supporting
+      infrastructure.
+  responsibilities:
+  - Drive the design and building and operation of task-oriented agents including
+    planner/executor patterns, tool routing, HITL checkpoints, fallbacks, and circuit
+    breakers
+  - Drive the design and productionization of retrieval and grounding pipelines using
+    RAG, structured APIs, and knowledge graphs with embeddings lifecycle and relevance
+    tuning
+  - Serve as technical SME for prompt engineering including modular system prompts,
+    tool specs, versioned prompt libraries, and A/B variants
+  - Drive evaluation strategy by defining per-use-case eval suites covering functional,
+    behavioral, safety, latency, and cost metrics
+  - Drive implementation of PII redaction, policy-as-code checks, guardrails, and
+    compliant audit trails across agents and context pipelines
+  - Drive optimization efforts for context size, caching, rerankers, model selection,
+    and tool routing to reduce cost per successful task
+  - Serve as technical lead for data engineering efforts including schemas, data contracts,
+    batch and stream ETL for context stores, embedding jobs, and freshness SLAs
+  - Drive integration efforts with runtime frameworks such as LangGraph, AgentCore,
+    Bedrock Agents and Guardrails and enterprise systems
+  - Mentor AI engineers through coaching and training on agent development and evaluation-driven
+    delivery
+  use_cases:
+  - Customer-facing AI experiences for help, exploration, and completing transactions
+    through plain-language interactions
+  - Enterprise and back-office workflow automation to improve operational efficiency
+    for internal technology teams
+  - Production agentic AI systems with RAG and structured context for accurate, grounded
+    responses
+  - Intelligent agent systems with tool routing and planner/executor patterns for
+    task completion
+  - AI-powered customer support with retrieval, grounding, and safety guardrails for
+    trustworthy interactions
+  skills:
+    genai: [LangGraph, CrewAI, AWS Bedrock, AWS Bedrock Agents, AWS Bedrock Guardrails,
+      RAG, retrieval, embeddings, prompt engineering, agentic frameworks]
+    ml: []
+    web: [FastAPI]
+    databases: [vector DBs, pgvector, OpenSearch k-NN]
+    data: [ETL, knowledge graphs]
+    cloud: [AWS, AWS SageMaker, AWS Lambda, AWS S3, AWS Redshift, AWS VPC]
+    ops: [Git, CI/CD, IaC, observability]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9394087'
+  extracted_at: '2026-05-29T09:04:19.488550'

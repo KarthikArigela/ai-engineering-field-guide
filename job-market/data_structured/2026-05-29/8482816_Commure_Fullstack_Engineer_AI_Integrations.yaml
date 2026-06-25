@@ -1,0 +1,58 @@
+company:
+  name: Commure
+  stage: Series C (implied by $7B valuation and $70M raise)
+  focus: |-
+    AI Operating System for healthcare, RCM, and ambient
+    clinical documentation
+position:
+  title: Fullstack Engineer, AI Integrations
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly involves utilizing LLM technology to
+      automate the reverse-engineering of electronic health
+      records, which is direct hands-on work with AI models. While
+      the role is primarily a fullstack integration engineering
+      position, the LLM usage for EHR reverse-engineering makes it
+      ai-first rather than ai-support.
+  responsibilities:
+  - Design and implement complex integration solutions between the platform and third-party
+    healthcare systems (EHRs, insurance providers) ensuring high performance, reliability,
+    and scalability
+  - Utilize LLM technology to automate the reverse-engineering of electronic health
+    records
+  - Collaborate with cross-functional teams to gather integration requirements, define
+    technical approaches, and prioritize tasks
+  - Take ownership of end-to-end integration workflows from design and development
+    through deployment and post-launch monitoring
+  - Ensure all integration work adheres to healthcare compliance and security standards
+    (HIPAA, HL7, FHIR)
+  - Identify and resolve performance bottlenecks and proactively improve reliability
+    of integrations in production
+  - Mentor junior engineers and drive implementation of best practices for integration
+    development including testing, error handling, and CI
+  - Collaborate with DevOps and QA teams to implement monitoring and alerting systems
+    for integration reliability
+  use_cases:
+  - Automating reverse-engineering of electronic health records using LLMs
+  - Seamless data exchange between AI platform and 40+ EMR/EHR systems
+  - Revenue Cycle Management (RCM) processing billions in healthcare claims
+  - Ambient AI documentation eliminating documentation burden at point of care
+  - Intelligent agents automating patient and revenue workflows
+  - Healthcare interoperability via HL7 and FHIR standards
+  skills:
+    genai: [LLM technology]
+    ml: []
+    web: [REST APIs]
+    databases: [Relational databases, Non-relational databases]
+    data: []
+    cloud: [GCP, AWS]
+    ops: [Docker, Kubernetes, Git, Monitoring and alerting tools, CI/CD]
+    languages: [Python, Go, C++, JavaScript, HTML, CSS]
+    domains: []
+    other: [HL7, FHIR, HIPAA compliance, EHR/EMR integration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8482816'
+  extracted_at: '2026-05-29T08:47:30.121577'

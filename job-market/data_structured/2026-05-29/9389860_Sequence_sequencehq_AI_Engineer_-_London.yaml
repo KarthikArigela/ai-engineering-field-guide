@@ -1,0 +1,57 @@
+company:
+  name: Sequence (sequencehq)
+  stage: Series A
+  focus: AI-powered revenue platform for finance teams
+position:
+  title: AI Engineer - London
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role. The engineer will directly build
+      and deploy agentic workflows, AI-powered approval systems,
+      and intelligent collections agents. They will work hands-on
+      with LLMs, embeddings, tool use, and AI infrastructure
+      including prompt iteration, evals, and LangSmith.
+  responsibilities:
+  - Build and own AI infrastructure that enables reliable software on top of non-deterministic
+    models, including agentic workflows, prompt iteration, tools, and evals
+  - Design and implement AI-powered approval workflows that convert natural language
+    business rules into deterministic, auditable logic
+  - Build intelligent collections agents that autonomously execute workflows based
+    on natural language instructions and gather relevant context
+  - Develop and maintain evals infrastructure including datasets, LLM as a judge,
+    prompt regression tests, and monitoring systems
+  - Ensure AI security by scrutinizing threat vectors and treating models as untrusted
+    by default in production systems
+  - Ship production backend systems that handle revenue-critical infrastructure with
+    high reliability and correctness
+  - Collaborate cross-functionally with design and product teams, taking ownership
+    from ideation through deployment to customer success
+  use_cases:
+  - Enterprise deal approval workflows with flexible natural language configuration
+    for complex approval chains
+  - Automated collections agents that chase late payments through autonomous workflows
+    and context gathering
+  - Revenue platform processing $1bn+ in annual invoice volume across quoting, billing,
+    and revenue recognition
+  - AI-powered replacement of fragile spreadsheets and legacy finance systems with
+    modern software
+  - Natural language to deterministic business logic conversion for enterprise financial
+    operations
+  skills:
+    genai: [LangSmith, LLM-based systems, Agentic systems, RAG, Prompt engineering,
+      Tool use/function calling, LLM as a judge]
+    ml: [Embeddings]
+    web: [React, Http4k, Spring Boot]
+    databases: [Postgres, BigQuery]
+    data: [Google Cloud Pub/Sub]
+    cloud: [Vertex AI, Google Cloud]
+    ops: [Evals infrastructure, Terraform, Sentry]
+    languages: [Kotlin, TypeScript, Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9389860'
+  extracted_at: '2026-05-29T09:02:45.059846'

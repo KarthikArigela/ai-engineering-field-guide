@@ -1,0 +1,55 @@
+company:
+  name: LogicMonitor
+  stage: Series C+
+  focus: |-
+    AI-first hybrid observability and infrastructure monitoring
+    platform
+position:
+  title: Software Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role because the engineer builds and
+      implements AI/ML systems directly: RAG pipelines with vector
+      databases, LLM orchestration using LangGraph, embeddings
+      management, and semantic search for observability data. The
+      role focuses hands-on on building the data infrastructure
+      and retrieval frameworks that power GenAI-powered insights
+      in Edwin AI and Dexda products.
+  responsibilities:
+  - Design and build streaming and batch data pipelines that process metrics, logs,
+    and events for AI workflows
+  - Develop ETL and feature-extraction pipelines using Python and Java microservices
+  - Build resilient data orchestration using Kafka, Airflow, and Redis Streams
+  - Implement retrieval-augmented generation (RAG) pipelines with vector databases
+    for semantic search
+  - Develop data indexing and semantic search for large-scale observability and operational
+    data
+  - Build and maintain Java microservices (Spring Boot) that serve AI and analytics
+    data
+  - Develop Python APIs (FastAPI / LangGraph) for LLM orchestration, summarization,
+    and correlation reasoning
+  - Instrument services with OpenTelemetry for unified metrics, tracing, and logging
+  use_cases:
+  - AIOps and IT infrastructure monitoring with AI-driven insights
+  - Real-time anomaly detection and issue prediction in hybrid environments
+  - Observability data correlation and root cause analysis using LLMs
+  - Enterprise search and semantic retrieval across metrics, logs, and events
+  - Automated incident response and operational intelligence
+  skills:
+    genai: [LangGraph, RAG, LLM orchestration, embeddings, vector retrieval]
+    ml: []
+    web: [Spring Boot, FastAPI, REST, gRPC, SSE, WebSockets]
+    databases: [Milvus, Qdrant, OpenSearch, Neo4j Vector, Redis Streams, Delta Lake,
+      Iceberg, ClickHouse]
+    data: [Kafka, Spark, Airflow, ETL, data pipelines]
+    cloud: []
+    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
+    languages: [Python, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9528934'
+  extracted_at: '2026-05-29T09:08:52.661324'

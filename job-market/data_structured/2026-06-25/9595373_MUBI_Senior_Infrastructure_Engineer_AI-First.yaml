@@ -1,0 +1,60 @@
+company:
+  name: MUBI
+  stage: null
+  focus: |-
+    Global streaming service, production company and film
+    distributor
+position:
+  title: Senior Infrastructure Engineer (AI-First)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      While this is primarily an infrastructure engineering role,
+      a core and explicit responsibility is designing and building
+      agentic workflows for infrastructure operations — incident
+      response automation, MCP servers, AI-powered automation
+      connecting systems, and agentic workflow tooling. The role
+      involves hands-on building with LLM APIs (Claude) and MCP to
+      deploy working agentic solutions, making it ai-first despite
+      the infrastructure domain.
+  responsibilities:
+  - Design and build agentic workflows for infrastructure operations including automated
+    incident response, observability, and support ticket triaging
+  - Build and maintain MCP servers and AI-powered automation that connects infrastructure
+    systems
+  - Assess and own the security surface of agentic tools and workflows, ensuring proper
+    lockdown
+  - Design, run, and evolve EKS Kubernetes clusters as the primary platform for all
+    MUBI services
+  - Build and improve CI/CD pipelines using Jenkins, ArgoCD, and Helm
+  - Operate and extend the in-house bare-metal CDN spanning multiple global locations
+  - Manage cloud infrastructure on AWS using Terraform and Chef
+  - Build and maintain Kubernetes operators and controllers to automate platform workflows
+  - Design and operate data pipelines and event-driven architectures using Kafka
+  - Maintain and improve observability stack and define SLO commitments
+  use_cases:
+  - Automated incident response for infrastructure operations
+  - Intelligent observability and alerting
+  - Support ticket triaging automation
+  - MCP servers connecting disparate infrastructure systems
+  - AI-powered workflow automation across the infrastructure stack
+  - Platform engineering for service deployment, scaling, and monitoring
+  skills:
+    genai: [Claude (Anthropic API), MCP (Model Context Protocol), Agentic workflows,
+      LLM APIs]
+    ml: []
+    web: []
+    databases: [MariaDB, PostgreSQL]
+    data: [Kafka]
+    cloud: [AWS]
+    ops: [Kubernetes (EKS), Terraform, Chef, Jenkins, ArgoCD, Helm, Kustomize, Docker,
+      ELK Stack, Prometheus, Thanos, Grafana, Datadog, Nginx, Bare-metal CDN operations,
+      Linux, Kubernetes operators and controllers, CI/CD]
+    languages: [Lua, Python, Ruby, Go]
+    domains: []
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9595373'
+  extracted_at: '2026-06-25T19:43:30.397554'

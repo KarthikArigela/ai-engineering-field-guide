@@ -1,0 +1,56 @@
+company:
+  name: BNY
+  stage: Public
+  focus: Global financial services and asset management
+position:
+  title: Vice President, AI / ML Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and implementing
+      agentic AI systems, RAG pipelines, and intelligent document
+      processing services. The engineer owns embedding pipelines,
+      vector retrieval, multi-agent extraction workflows, and
+      builds a custom agent orchestration engine — all hands-on
+      AI/ML system development, not infrastructure or platform
+      support for others.
+  responsibilities:
+  - Design and implement agentic AI systems including agent loops, tool registries,
+    memory stores, reasoning traces, and self-correction mechanisms
+  - Build and optimize end-to-end RAG systems spanning document ingestion, chunking,
+    embedding, retrieval orchestration, and context assembly
+  - Develop vectorization pipelines with embedding model integration, batch processing,
+    incremental index updates, and similarity search tuning
+  - Implement multi-agent coordination patterns including shared blackboards, inter-agent
+    messaging, task decomposition, and consensus mechanisms
+  - Build FastAPI services exposing AI capabilities as production APIs and contribute
+    to Java/Spring Boot platform services for business workflow integration
+  - Develop evaluation harnesses with automated accuracy measurement, retrieval quality
+    metrics, regression detection, and A/B comparison tooling
+  - Mentor 2-3 mid-level engineers on AI engineering practices and participate in
+    architecture reviews and design sessions
+  - Implement content policy enforcement and data governance controls within AI pipelines
+  use_cases:
+  - Intelligent document processing for financial operations
+  - Multi-agent extraction workflows for structured/unstructured financial documents
+  - RAG-based knowledge retrieval and question answering
+  - Automated document classification and validation
+  - Entity extraction and knowledge graph construction from unstructured text
+  skills:
+    genai: [LangGraph, Agent orchestration, RAG, Prompt engineering, Function calling,
+      Multi-agent coordination, Structured output parsing, Embedding models, Hybrid
+        search, Re-ranking, Chunking strategies, Azure OpenAI, GPT-4o, Graph RAG]
+    ml: [Fine-tuning, Hugging Face, sentence-transformers]
+    web: [FastAPI, REST APIs, OpenAPI, Spring Boot, Angular]
+    databases: [FAISS, Pinecone, Weaviate, Chroma, pgvector, PostgreSQL, Oracle]
+    data: []
+    cloud: [Azure, Azure Document Intelligence]
+    ops: [Docker, GitLab CI/CD, Pytest, Evaluation harnesses]
+    languages: [Python, Java, TypeScript, SQL]
+    domains: [NLP, OCR post-processing, Entity extraction, Knowledge graph construction]
+    other: [Pydantic, Poetry, Gunicorn, Uvicorn, NLTK, Async patterns]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9869320'
+  extracted_at: '2026-06-25T19:56:56.870115'

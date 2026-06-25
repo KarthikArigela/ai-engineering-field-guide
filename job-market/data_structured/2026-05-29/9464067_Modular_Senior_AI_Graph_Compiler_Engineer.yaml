@@ -1,0 +1,50 @@
+company:
+  name: Modular
+  stage: Series B
+  focus: AI infrastructure and compiler technology for ML deployment
+position:
+  title: Senior AI Graph Compiler Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a compiler engineering role focused on building
+      infrastructure for ML model execution, not building or
+      training models. The role involves developing compiler
+      optimizations, kernel fusion, and heterogeneous computation
+      to enable others to deploy ML models efficiently, which is
+      clearly ai-support infrastructure work.
+  responsibilities:
+  - Design and develop compiler optimizations for inference efficiency across CPUs,
+    GPUs, and ML accelerators
+  - Compile large-scale workloads onto heterogeneous hardware by mapping hardware-agnostic
+    graphs to hardware-specific implementations
+  - Collaborate with kernels, serving, and Mojo compiler teams to deliver end-to-end
+    performance
+  - Write design documents for new features and drive alignment with cross-functional
+    teams
+  - Collaborate with customer success team to understand customer performance requirements
+    and use cases
+  - Improve graph compiler performance and usability for developer experience
+  use_cases:
+  - ML model inference optimization across CPUs, GPUs, and accelerators
+  - Hogeneous compilation for mapping models to diverse hardware platforms
+  - Large-scale ML workload compilation and deployment
+  - Kernel fusion and memory planning for inference efficiency
+  - Distributed model execution across hardware platforms
+  skills:
+    genai: []
+    ml: [MLIR, LLVM, Kernel fusion, Shape optimization, Heterogeneous computation,
+      Distributed programming, Code generation, PyTorch, JAX, TensorFlow]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Compilers, Memory planning]
+    languages: [C++, Mojo]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9464067'
+  extracted_at: '2026-05-29T09:06:11.112421'

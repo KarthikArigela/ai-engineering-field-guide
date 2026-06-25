@@ -1,0 +1,64 @@
+company:
+  name: CVS Health
+  stage: Public
+  focus: Healthcare, pharmacy, and health services
+position:
+  title: Principal Network Engineer - AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the network
+      infrastructure (leaf-spine fabrics, EVPN/VXLAN, GPU cluster
+      networking) that supports AI/ML workloads, rather than
+      directly building, training, or deploying AI models. The
+      engineer works ON the infrastructure layer that enables AI,
+      not ON the AI systems themselves, making this an ai-support
+      classification.
+  responsibilities:
+  - Design and implement high-performance data center networks optimized for AI/GPU
+    workloads, including leaf-spine and EVPN/VXLAN fabrics
+  - Integrate networking with GPU clusters and high-performance storage systems supporting
+    training and inference workloads
+  - Partner with compute, storage, platform, and security teams to design integrated
+    AI infrastructure solutions aligned with NVIDIA, Cisco, and industry reference
+    architectures
+  - Optimize network performance including latency, throughput, and congestion management
+    for large-scale distributed environments
+  - Support 24/7 infrastructure operations including incident response, root cause
+    analysis, and resilience improvements across cloud, on-prem, and colocation environments
+  - Mentor and develop engineers, promoting best practices in networking and security
+  - Define and drive the data center network strategy supporting AI/ML platforms and
+    establish reference architecture standards
+  - Evaluate and adopt emerging AI infrastructure and networking technologies such
+    as high-speed interconnects and next-gen switching
+  use_cases:
+  - High-performance data center networking for large-scale AI model training and
+    inference
+  - GPU cluster network integration for distributed training workloads
+  - Network performance optimization for AI/GPU-driven workloads including congestion
+    management and RoCE
+  - Secure and scalable network infrastructure for healthcare AI platforms
+  - AI factory and GPU cluster environments at enterprise scale
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [NVIDIA reference architectures, Cisco data center platforms, Palo Alto
+        Networks firewalls, Cisco Nexus, Cisco ACI, AWS Networking, Azure Networking,
+      GCP Networking]
+    ops: [EVPN/VXLAN, Leaf-spine/Clos fabric architecture, RoCE (RDMA over Converged
+        Ethernet), F5 load balancing, NetFlow, Wireshark, SolarWinds, Network automation,
+      Infrastructure as Code, Docker, Kubernetes, Terraform, High-availability and
+        disaster recovery design, GPU cluster networking]
+    languages: [Python]
+    domains: []
+    other: [BGP, OSPF, MPLS, SD-WAN, Software-Defined Networking (SDN), NGFW, IDS/IPS,
+      ZTNA, Zero Trust architecture, PFC, ECN, HIPAA, HITRUST, PCI, NIST, Micro-segmentation,
+      DLP, STP]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9707750'
+  extracted_at: '2026-06-25T19:50:40.297872'

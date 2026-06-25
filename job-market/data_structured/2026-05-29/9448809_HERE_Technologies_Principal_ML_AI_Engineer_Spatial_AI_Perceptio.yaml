@@ -1,0 +1,59 @@
+company:
+  name: HERE Technologies
+  stage: Public
+  focus: |-
+    Location data and technology platform for mapping,
+    navigation, and spatial intelligence
+position:
+  title: Principal ML & AI Engineer (Spatial AI & Perception)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role focuses on traditional computer vision and deep
+      learning for perception systems (lane detection, road
+      boundaries, traffic signs) using BEVFormer, BEVFusion, and
+      occupancy networks. While it involves advanced ML
+      techniques, it's centered on CV/DL workloads, not LLMs or
+      generative AI systems. The engineer builds, trains, and
+      deploys custom deep learning models for autonomous driving
+      perception.
+  responsibilities:
+  - Develop and train infrastructure perception models for lane detection, road boundaries,
+    traffic signs, and road surface attributes using BEV-based architectures
+  - Build large-scale distributed training pipelines and integrate geospatial priors
+    with synthetic data validation
+  - Own model optimisation for edge deployment including ONNX export, TensorRT/QNN
+    compilation, quantisation, compression, and accuracy recovery
+  - Profile and benchmark models on embedded hardware to optimize latency, throughput,
+    memory, and bottleneck issues
+  - Translate state-of-the-art research (CVPR/NeurIPS papers) into reproducible, scalable
+    training pipelines with rigorous experimentation
+  - Partner with research, simulation, and technical leadership to ensure perception
+    outputs meet downstream training and deployment requirements
+  - Mentor junior engineers and maintain high standards for code quality, documentation,
+    and knowledge sharing
+  use_cases:
+  - Autonomous driving perception for lane detection and road boundary recognition
+  - Traffic sign and traffic light detection for ADAS/AD systems
+  - Road surface attribute analysis and classification
+  - Bird's eye view (BEV) scene representation for spatial understanding
+  - Model-driven intelligence transforming maps and drive data into spatial intelligence
+  - Edge-optimized perception models for embedded automotive SOCs
+  skills:
+    genai: []
+    ml: [PyTorch, BEVFormer, BEVFusion, BEVDet, Occupancy Networks, Distributed Training,
+      DDP/FSDP, Model Quantisation, Model Compression, QAT (Quantisation Aware Training),
+      PTQ (Post-Training Quantisation), Multi-task Learning, Transformers]
+    web: []
+    databases: []
+    data: []
+    cloud: [Qualcomm Snapdragon Ride, NVIDIA Orin]
+    ops: [ONNX, TensorRT, QNN, MLflow, Weights & Biases]
+    languages: [Python]
+    domains: [Computer Vision, Semantic Segmentation, Instance Segmentation]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9448809'
+  extracted_at: '2026-05-29T09:05:56.393629'

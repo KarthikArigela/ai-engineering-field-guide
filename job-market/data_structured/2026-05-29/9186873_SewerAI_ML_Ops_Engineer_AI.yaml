@@ -1,0 +1,59 @@
+company:
+  name: SewerAI
+  stage: Series B
+  focus: |-
+    AI-powered sewer inspection and infrastructure risk analysis
+    platform
+position:
+  title: ML Ops Engineer (AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The MLOps Engineer is responsible for infrastructure,
+      pipelines, and deployment systems that SUPPORT AI work
+      rather than building or training models directly. They
+      architect cloud infrastructure, build CI/CD pipelines for
+      ML, optimize inference serving, and manage training
+      environments—enabling Data Scientists to experiment and
+      productionize models, but not working on the models
+      themselves. This is the classic distinction between MLOps
+      (ai-support) and ML Engineering (ai-first).
+  responsibilities:
+  - 'Architectural Hardening: Audit, secure, and optimize AWS cloud infrastructure
+    for high availability, fault tolerance, and security across training and production
+    workloads'
+  - 'Model Deployment & Inference: Design and maintain scalable architectures for
+    serving deep learning models with low latency and high throughput'
+  - 'CI/CD for Machine Learning: Build and maintain automated pipelines for model
+    testing, validation, deployment, and rollback'
+  - 'Training Infrastructure: Architect efficient, scalable compute environments for
+    training computer vision and time-series models on large datasets'
+  - 'Monitoring & Observability: Implement comprehensive monitoring for model drift,
+    data quality, and system health to detect performance degradation'
+  - Collaborate closely with Data Scientists to ensure smooth handoffs from experimentation
+    to production
+  use_cases:
+  - Sewer inspection data analysis using AI to convert manual video review into actionable
+    intelligence
+  - Defect detection and risk analysis for underground infrastructure and sewer lines
+  - Computer vision models for analyzing infrastructure data and identifying maintenance
+    issues
+  - Time-series analysis for infrastructure condition monitoring and predictive maintenance
+  - Edge computing and IoT deployment of models for on-site inspection analysis
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, ONNX]
+    web: []
+    databases: [ClickHouse]
+    data: [Hex, dbt, Anyscale, Ray, Deeplake]
+    cloud: [AWS, EC2, S3, EKS, SageMaker, Lambda]
+    ops: [Docker, Kubernetes, Terraform, AWS CloudFormation, GitHub Actions, GitLab
+        CI, Jenkins, MLflow, Weights & Biases, TensorRT]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9186873'
+  extracted_at: '2026-05-29T08:56:19.007461'

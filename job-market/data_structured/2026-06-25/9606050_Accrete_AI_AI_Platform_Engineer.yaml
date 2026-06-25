@@ -1,0 +1,45 @@
+company:
+  name: Accrete AI
+  stage: null
+  focus: AI agents for business and government intelligence
+position:
+  title: AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is explicitly focused on building backend
+      services, platform infrastructure, and internal tooling that
+      supports AI products and ML researchers — not on directly
+      building, training, or deploying models. The role enables
+      other teams (ML, research) to develop and deploy AI models,
+      making it a classic ai-support position.
+  responsibilities:
+  - Design, build, and maintain scalable backend services and APIs in Python
+  - Develop platform infrastructure and internal services supporting AI products
+  - Build and optimize containerized applications using Docker and Kubernetes
+  - Collaborate with ML, research, and product teams to support development and deployment
+    of AI models
+  - Improve system reliability, observability, and performance in production environments
+  - Contribute to CI/CD pipelines and infrastructure automation
+  - Participate in code reviews and help establish engineering best practices
+  use_cases:
+  - AI agents that autonomously analyze data and generate insights
+  - Intelligence and security solutions for government entities
+  - Operational efficiency and decision-making improvements for businesses
+  - Model deployment and ML pipeline infrastructure
+  skills:
+    genai: []
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: [Airflow, Prefect, Dagster, Data Modeling]
+    cloud: [AWS, GCP, Azure]
+    ops: [Docker, Kubernetes, CI/CD, MLOps]
+    languages: [Python]
+    domains: []
+    other: [System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9606050'
+  extracted_at: '2026-06-25T19:44:59.763621'

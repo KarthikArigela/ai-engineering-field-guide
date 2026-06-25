@@ -1,0 +1,60 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family safety, location tracking, and pet tracking services
+position:
+  title: Senior Software Engineer II AI-Native, Mobile - Pet Experiences
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is fundamentally a mobile engineering role building
+      consumer-facing iOS/Android features for pet tracking
+      experiences. While the team is "AI-native" in their
+      development workflow — using Claude Code, Cursor, and GitHub
+      Copilot as coding collaborators — the engineer builds mobile
+      product features, not AI/ML systems. AI tools accelerate
+      their work but are not the product or system being built.
+  responsibilities:
+  - Design, build, and ship mobile features for pet activity timelines, care coordination,
+    weekly summaries, and lost pet alert flows using AI coding tools as a first-class
+    development collaborator
+  - Use agentic workflows to increase delivery velocity including generating feature
+    scaffolding, writing and validating test coverage, and performing root cause analysis
+    during incidents
+  - Collaborate with cloud, design, and product teams to define APIs, data contracts,
+    and end-to-end workflows across the pet product surface
+  - Consume event-driven data pipelines including trip/dwell events, care routines,
+    and Kafka-backed aggregations and translate them into user experiences
+  - Own feature quality on iOS or Android platforms including observability, crash-free
+    sessions, and quality compliance
+  - Instrument features for observability and partner with the release team on Crashlytics
+    triage
+  - Write clean, testable, performant code and contribute to CI/CD automation and
+    team-wide engineering standards
+  - Help establish and evolve AI-native engineering practices for the Pet Experiences
+    team
+  use_cases:
+  - Pet activity timelines and weekly roundup summaries for families
+  - Care coordination routines for pet owners
+  - Lost pet alert flows and notifications
+  - Third-party integrations extending pet product capabilities beyond the core app
+  - Real-time translation of event-driven pet tracking data into clear mobile user
+    experiences
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, Agentic workflows, Prompt engineering,
+      MCP (Model Context Protocol), Function calling, Context window management]
+    ml: []
+    web: [SwiftUI, RIBs, Jetpack Compose, Dagger/Hilt, Combine, UIKit, REST, gRPC]
+    databases: []
+    data: [Kafka, Event-driven data pipelines]
+    cloud: []
+    ops: [SPM (Swift Package Manager), Gradle, CI/CD, Firebase Crashlytics, Datadog,
+      Amplitude, XCUITest, Espresso, Maestro]
+    languages: [Swift, Kotlin, async-await, Coroutines/Flow, SQL]
+    domains: []
+    other: [Push notifications]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9654783'
+  extracted_at: '2026-06-25T19:43:54.224891'

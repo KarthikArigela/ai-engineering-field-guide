@@ -1,0 +1,61 @@
+company:
+  name: Toast
+  stage: Public
+  focus: Restaurant technology platform and point-of-sale systems
+position:
+  title: Staff Software Engineer, AI Foundations
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is hands-on building AI infrastructure and
+      autonomous agents, including LLM proxy systems, agentic
+      frameworks, and AI-powered developer tools. The engineer
+      directly architects and deploys AI agents (AI Review GitHub
+      App, MCP integrations) and works with Model Context
+      Protocol, prompt engineering, and agentic development
+      patterns. This is core AI engineering work, not just
+      supporting infrastructure.
+  responsibilities:
+  - Design, build, and ship core AI platform infrastructure including the LLM proxy,
+    AI key management, and observability pipelines powering Toast's internal AI ecosystem
+  - Architect and deliver autonomous agents that participate in the SDLC, including
+    the AI Review GitHub App and Developer Platform MCP integrations
+  - Build on and help maintain the internal plugin marketplace, developing plugins
+    that encode Toast's architectural standards, PR patterns, and quality practices
+    directly into AI assistant behavior
+  - Lead technical design and implementation of MCP (Model Context Protocol) services
+    and no-code service templates that accelerate AI-powered development across Toast
+  - Drive adoption of agentic development practices through tooling, internal evangelism,
+    and hands-on enablement across engineering teams
+  - Mentor engineers through code reviews, architecture discussions, and pairing sessions
+  - Partner with product and platform teams to define and expand the AI Foundations
+    roadmap
+  use_cases:
+  - Internal LLM proxy that routes all AI traffic across Toast's engineering organization
+  - Autonomous agents that participate in software development lifecycle through code
+    review and PR automation
+  - Claude Plugin Marketplace for extending AI assistants with custom tools and integrations
+  - AI-powered developer tooling including GitHub Copilot extensions and MCP service
+    templates
+  - Observability pipelines for monitoring and tracing LLM applications and agent
+    behavior
+  - Internal developer platform that encodes architectural standards into AI assistant
+    behavior
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, OpenAI API, Anthropic API, Claude, MCP
+        (Model Context Protocol), prompt engineering, RAG, agents, agentic frameworks,
+      autonomous agents, function calling]
+    ml: []
+    web: [REST, GraphQL, gRPC, API design]
+    databases: []
+    data: []
+    cloud: [Cloud infrastructure]
+    ops: [Distributed systems, Docker, Kubernetes, Langfuse, Datadog, LLM infrastructure]
+    languages: [Java, Kotlin, Python]
+    domains: []
+    other: [GitHub Copilot, Cursor]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9291330'
+  extracted_at: '2026-05-29T08:59:08.947860'

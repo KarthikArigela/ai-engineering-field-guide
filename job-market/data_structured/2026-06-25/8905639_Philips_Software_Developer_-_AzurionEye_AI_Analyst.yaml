@@ -1,0 +1,58 @@
+company:
+  name: Philips
+  stage: Public
+  focus: Health technology and image-guided therapy solutions
+position:
+  title: Software Developer - AzurionEye AI Analyst
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is for building and maintaining the data platform
+      infrastructure (data lake, data warehouse, ingestion
+      pipelines) that supports an AI-enabled clinical imaging
+      product (AzurionEye). The developer works on data services,
+      microservices, and pipelines — not on building, training, or
+      deploying AI/ML models themselves. AI is mentioned only as a
+      product context and as AI-assisted development tools for
+      coding.
+  responsibilities:
+  - Act as technical coach for the team, ensuring consistent application of best practices
+    and high engineering standards
+  - Design and develop scalable data ingestion and transformation pipelines for the
+    clinical data lake platform
+  - Design and extend the data lake architecture including partitioning strategies,
+    storage formats, metadata layers, and data models
+  - Build and maintain a high-performance, secure, and compliant data warehouse platform
+    with companion tools for data exploration and movement
+  - Develop REST-based, microservice-first applications that power imaging workflows
+    and connected clinical solutions
+  - Implement automated testing, data validation checks, and CI/CD pipelines to support
+    safe and frequent deployments
+  - Integrate software components and third-party libraries into existing systems
+    ensuring seamless interoperability
+  - Diagnose and fix issues related to ingestion failures, schema drifts, latency
+    bottlenecks, and data inconsistencies while maintaining operational dashboards
+    and alerting systems
+  use_cases:
+  - Clinical data lake platform for image-guided therapy solutions
+  - Medical imaging data ingestion, storage, and transformation workflows
+  - Secure data warehouse for healthcare data exploration and movement
+  - Monitoring and logging for connected medical imaging devices and solutions
+  - Healthcare data interoperability using DICOM and FHIR standards
+  skills:
+    genai: []
+    ml: []
+    web: [RESTful API design, Swagger/OpenAPI, React, Angular, Microservices architecture]
+    databases: [MS SQL Server, PostgreSQL]
+    data: [NATS, RabbitMQ, Kafka, Data warehouse design, Data lake architecture, ETL
+        pipelines]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, GitOps, CI/CD, Jenkins, GitHub, Azure DevOps]
+    languages: [C#]
+    domains: [DICOM, FHIR]
+    other: [BDD, OOAD/UML, SAFe, AI-assisted development tools]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '8905639'
+  extracted_at: '2026-06-25T19:40:14.163757'

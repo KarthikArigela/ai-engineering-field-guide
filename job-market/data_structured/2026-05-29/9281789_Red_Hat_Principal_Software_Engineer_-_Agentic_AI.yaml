@@ -1,0 +1,59 @@
+company:
+  name: Red Hat
+  stage: Public
+  focus: |-
+    Enterprise open source software solutions - Linux, cloud,
+    containers, and Kubernetes technologies
+position:
+  title: Principal Software Engineer - Agentic AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on work building AI agent systems
+      for quality engineering - designing evaluation frameworks
+      for RAG/LLMs, architecting self-healing test suites using AI
+      agents, and implementing multi-step prompts for AI agents.
+      The role focuses on building, validating, and deploying
+      agentic AI systems rather than just using AI tools or
+      supporting AI infrastructure.
+  responsibilities:
+  - Define evaluation frameworks for AI agents focusing on hallucination detection,
+    reasoning accuracy, and non-deterministic outcome validation in OpenShift environments
+  - Ensure AI agents used in SDLC adhere to enterprise-grade security primitives,
+    particularly regarding secure tool-use and data leakage
+  - Lead research and integration of AI/ML technologies to innovate quality processes
+    including automated test generation, predictive defect analysis, and intelligent
+    system diagnostics
+  - Architect self-healing test suites where AI agents autonomously identify regressions
+    and rewrite test logic based on spec-driven changes
+  - Define and oversee end-to-end quality strategy for OpenShift Container Platform
+    ensuring alignment with product goals and enterprise standards
+  - Architect, design, and lead development of scalable intelligent test automation
+    frameworks and infrastructure
+  - Govern failure analysis and bug triage process, analyzing trends to identify systemic
+    quality gaps and drive long-term resolutions
+  use_cases:
+  - AI-driven software delivery for cloud-native platforms
+  - Automated test generation using agentic AI
+  - Intelligent system diagnostics and predictive defect analysis
+  - Self-healing test automation with autonomous AI agents
+  - Spec-driven validation for enterprise-grade software delivery
+  - AI-augmented testing workflows for Kubernetes/OpenShift environments
+  skills:
+    genai: [RAG (Retrieval-Augmented Generation), LLM evaluation and benchmarking,
+      AI agents, prompt engineering, hallucination detection]
+    ml: []
+    web: [test automation frameworks]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Kubernetes, Docker, Red Hat OpenShift, CI/CD, Jenkins, Linux, distributed
+        systems, microservices]
+    languages: [Go, Java, Python, Ruby, Shell]
+    domains: []
+    other: [spec-driven validation, agentic SDLC, security testing]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9281789'
+  extracted_at: '2026-05-29T08:58:03.454289'

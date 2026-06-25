@@ -1,0 +1,60 @@
+company:
+  name: Life360
+  stage: Public
+  focus: |-
+    Family safety and location sharing app with GPS tracking
+    devices
+position:
+  title: Senior Backend Engineer II - AI-Native, Devices Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a backend engineering role focused on building cloud
+      services for connected hardware devices. While the team is
+      "AI-native" in their development workflow—using AI tools
+      like Claude Code, Cursor, and Copilot for code generation,
+      testing, and incident triage—the engineer is not building,
+      training, fine-tuning, or deploying AI/ML models. They are
+      using AI as a development productivity tool to build
+      traditional backend services. The core work is
+      backend/microservices engineering for IoT device
+      connectivity and telemetry.
+  responsibilities:
+  - Design, build, and maintain backend services for device connectivity, telemetry
+    ingest, health monitoring, and command/control operations
+  - Use agentic AI workflows (Claude Code) to accelerate development from scaffolding
+    to testing and incident triage
+  - Define and codify AI-native engineering practices and playbooks for the broader
+    organization
+  - Collaborate with firmware, mobile, and product teams to define APIs and workflows
+    for device-driven features
+  - Build and own data pipelines for high-throughput telemetry streams using Kafka
+    or similar streaming technologies
+  - Deliver scalable, resilient microservices on AWS infrastructure (EKS, Lambda,
+    DynamoDB, SQS)
+  - Instrument services for observability, reliability, and SLO compliance
+  - Participate in on-call rotation, mentor teammates, and help evolve the team's
+    AI-native engineering culture
+  use_cases:
+  - Real-time device state management and telemetry ingest for GPS trackers and wearables
+  - Cloud infrastructure for connected hardware (Tile trackers, Jiobit wearables)
+  - Translating physical-world device signals into family-facing safety experiences
+  - High-throughput telemetry data streaming and processing
+  - Device health monitoring and command/control operations
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, Agentic workflows, Prompt engineering,
+      MCP/Function calling, Context window management]
+    ml: []
+    web: [RESTful API design, Microservices architecture]
+    databases: [DynamoDB, NoSQL databases, Redis]
+    data: [Kafka, Kinesis]
+    cloud: [AWS, AWS EKS, AWS Lambda, Amazon SQS]
+    ops: [Docker, Kubernetes, CI/CD, Prometheus, Grafana, OpenTelemetry, Datadog]
+    languages: [Java, Go, Python]
+    domains: [IoT systems]
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9119671'
+  extracted_at: '2026-05-29T08:50:00.813444'

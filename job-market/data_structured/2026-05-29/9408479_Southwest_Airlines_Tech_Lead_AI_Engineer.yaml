@@ -1,0 +1,54 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Airline transportation and travel services
+position:
+  title: Tech Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is hands-on building agentic AI systems with
+      direct work on LLMs, RAG architectures, and agent
+      orchestration frameworks. The tech lead designs and deploys
+      task-oriented agents, manages retrieval pipelines, and
+      implements evaluation frameworks for non-deterministic AI
+      systems.
+  responsibilities:
+  - Lead and motivate team in building and operating task-oriented agents with planning,
+    tool routing, fallbacks, and circuit breakers
+  - Provide technical direction for retrieval and grounding pipelines including RAG,
+    embeddings lifecycle, and relevance tuning
+  - Create and maintain prompt engineering strategies including modular system prompts,
+    versioned libraries, and A/B variants
+  - Plan and oversee evaluation frameworks including functional, behavioral, safety,
+    and latency metrics with CI/CD integration
+  - Provide oversight for security and compliance strategies including PII redaction,
+    guardrails, and audit trails
+  - Identify and resolve optimization challenges for context size, caching, rerankers,
+    model selection, and tool routing
+  - Act as technical interface for data engineering architecture including schemas,
+    ETL pipelines, and embedding jobs
+  - Investigate and approve integration strategies with runtime frameworks like LangGraph
+    and AWS Bedrock
+  use_cases:
+  - Customer-facing AI agents for help, exploration, and transaction completion
+  - Enterprise back-office workflow automation and operational efficiency support
+  - RAG-based knowledge retrieval and grounding for agent systems
+  - Multi-agent orchestration with tool use and safety constraints
+  - AI observability and evaluation for non-deterministic systems
+  skills:
+    genai: [LangGraph, RAG, Prompt engineering, LLMs, Agent orchestration]
+    ml: []
+    web: []
+    databases: [Vector databases, pgvector, OpenSearch]
+    data: []
+    cloud: [AWS Bedrock, AWS SageMaker, AWS Lambda, AWS S3, AWS Redshift, VPC]
+    ops: [CI/CD, Git, MLOps, LLMOps]
+    languages: [Python]
+    domains: []
+    other: [Agile methodologies]
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9408479'
+  extracted_at: '2026-05-29T09:04:50.564247'

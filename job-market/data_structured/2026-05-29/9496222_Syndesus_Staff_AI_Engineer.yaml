@@ -1,0 +1,59 @@
+company:
+  name: Syndesus
+  stage: Seed
+  focus: Autonomous AI trading agents for cryptocurrency markets
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an ai-first role focused on building autonomous
+      trading agents with a closed-loop reinforcement learning
+      system. The engineer will implement the learning pipeline
+      connecting live trade outcomes to strategy improvement,
+      build multi-agent coordination systems, and handle model
+      hosting/inference decisions for the agent fleet.
+  responsibilities:
+  - Design and implement the closed-loop pipeline connecting live trade outcomes back
+    to strategy improvement across signal quality, position sizing, timing, and risk
+    parameters
+  - Build evaluation frameworks to separate genuine predictive signal from noise across
+    agents, market conditions, and configurations
+  - Automate the strategy generation and testing cycle including exploring new configurations
+    and validating against real fleet data
+  - Detect regime shifts in market conditions and adapt fleet behavior accordingly
+  - Manage fleet-level coordination including concentration risk, capital allocation,
+    and exploration vs exploitation balance
+  - Own model hosting decisions evaluating proxied external APIs versus fine-tuned
+    models on owned infrastructure
+  - Optimize inference for large autonomous agent fleets including concurrent agents,
+    structured outputs, and cost efficiency at scale
+  - Build agent telemetry layer capturing every decision, signal score, and evaluation
+    across the fleet
+  use_cases:
+  - Autonomous cryptocurrency trading with agents operating 24/7 with real capital
+  - Fleet-level learning system where agents share winning patterns and improve continuously
+    without human intervention
+  - Real-time signal generation for trading decisions including position sizing, timing,
+    and risk parameters
+  - Regime shift detection to adapt trading strategies based on changing market conditions
+  - Multi-agent coordination for capital allocation and risk management across the
+    trading fleet
+  - Closed-loop reinforcement learning system where live trade outcomes automatically
+    improve future trading decisions
+  skills:
+    genai: [LLM Fine-tuning, Multi-agent Systems]
+    ml: [Reinforcement Learning, Online Learning, PEFT/LoRA, Signal Generation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, TGI, Inference Optimization]
+    languages: [Python, Go, TypeScript]
+    domains: [Financial ML, DeFi]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9496222'
+  extracted_at: '2026-05-29T09:07:03.009604'

@@ -1,0 +1,56 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: |-
+    GPU computing, AI hardware, and accelerated computing
+    platforms
+position:
+  title: Principal Software Engineer, AI Networking
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on networking systems (BlueField,
+      ConnectX, InfiniBand, RoCE) that enable AI workloads at
+      scale. While the networking infrastructure is critical for
+      AI factories and hyperscalers, the role itself involves
+      networking protocols, firmware/drivers, and system-level
+      debugging rather than building, training, fine-tuning, or
+      deploying AI/ML models directly. It supports AI
+      infrastructure rather than working on AI itself.
+  responsibilities:
+  - Lead technical strategy for AI Factory networking deployments at strategic customers,
+    including architecture reviews and multi-phase execution plans
+  - Serve as principal-level technical authority for embedded networking products
+    (BlueField, ConnectX) and surrounding ecosystem (DOCA, RDMA, RoCE, InfiniBand)
+  - Lead deep technical engagements with hyperscalers and AI Factory customers involving
+    design-in, coding, bring-up, performance tuning, and production hardening
+  - Partner with internal engineering, product, and architecture teams to transform
+    customer needs into product features and reference architectures
+  - Drive performance, reliability, and debuggability improvements across customer
+    stacks and translate findings into product roadmap items
+  - Lead multi-team initiatives across geographies, influencing cross-organizational
+    teams without direct authority
+  use_cases:
+  - AI Factory networking infrastructure for hyperscaler and enterprise deployments
+  - High-performance networking for distributed AI training and inference workloads
+  - Embedded networking product development (DPUs, NICs) for AI-accelerated data centers
+  - Network performance optimization for large-scale GPU clusters
+  - Production hardening and reliability of networking stacks supporting AI workloads
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [C/C++]
+    domains: []
+    other: [InfiniBand, RoCE, RDMA, DOCA, DPDK, NCCL, CUDA-aware networking, BlueField,
+      ConnectX, Networking protocols (L1-L4), Distributed systems, Firmware debugging,
+      Performance tuning, Congestion control, QoS]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8666383'
+  extracted_at: '2026-05-29T08:46:45.396321'

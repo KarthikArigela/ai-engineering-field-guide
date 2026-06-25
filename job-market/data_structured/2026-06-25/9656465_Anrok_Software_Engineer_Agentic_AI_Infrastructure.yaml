@@ -1,0 +1,53 @@
+company:
+  name: Anrok
+  stage: Series B
+  focus: Tax automation platform for digital businesses
+position:
+  title: Software Engineer, Agentic AI Infrastructure
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing and building the core
+      infrastructure that powers AI agent capabilities—memory,
+      state management, execution, evaluation, and observability
+      for autonomous LLM-powered systems. The engineer directly
+      builds agent systems and their foundational primitives,
+      placing this squarely in ai-first territory despite the
+      infrastructure focus.
+  responsibilities:
+  - Design and build distributed, fault-tolerant infrastructure powering AI agent
+    capabilities including memory, state management, and execution for autonomous
+    systems
+  - Own technical architecture decisions for agent infrastructure services end-to-end
+    from design through production deployment
+  - Build evaluation, observability, and reliability tooling enabling the team to
+    ship agents on top of the infrastructure
+  - Collaborate with product engineers and tax data teams to translate compliance
+    workflows into scalable agent primitives
+  - Drive engineering best practices including code quality, testing discipline, system
+    design, and operational health
+  - Identify and resolve performance, reliability, and scalability bottlenecks as
+    agent systems grow
+  - Mentor engineers and contribute to technical culture and team growth
+  use_cases:
+  - AI agents reasoning about complex tax data across jurisdictions
+  - Autonomous agents taking action on tax compliance workflows end-to-end
+  - Reliable LLM-powered agent systems operating at production scale in fintech
+  - Automated tax monitoring, calculation, and filing powered by agentic infrastructure
+  skills:
+    genai: [Prompt Engineering, RAG, Tool Calling, Agent Orchestration, LLM Evaluation
+        Frameworks]
+    ml: []
+    web: []
+    databases: [Postgres, Redis]
+    data: []
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, CI/CD]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9656465'
+  extracted_at: '2026-06-25T19:47:32.048877'

@@ -1,0 +1,55 @@
+company:
+  name: Natera
+  stage: Public
+  focus: |-
+    Cell-free DNA testing and genetic diagnostics for oncology,
+    women's health, and organ health
+position:
+  title: Senior Software Engineer, Voice AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building, deploying, and
+      orchestrating voice AI systems with LLMs. The engineer works
+      directly on multi-agent architectures, LLM orchestration,
+      tool calling, and conversational AI systems - hands-on
+      development of AI systems rather than supporting
+      infrastructure for other AI engineers.
+  responsibilities:
+  - Own end-to-end voice AI architecture from Twilio media streams through LLM orchestration
+    to TTS output
+  - Design and implement multi-agent systems using tool calling, agent handoffs, and
+    shared conversation state for complex patient workflows
+  - Build and optimize real-time audio pipelines including WebSocket streaming, codec
+    handling, VAD configuration, and interruption management
+  - Architect analytics and observability infrastructure for voice-specific metrics
+    including per-segment latency, call efficacy, and ASR error rates
+  - Solve voice-specific challenges including turn-taking timing, silence detection,
+    barge-in recovery, medical term recognition, and latency optimization
+  - Integrate voice agents with internal services via secure authenticated APIs and
+    drive platform reliability with multi-provider LLM failover
+  use_cases:
+  - Automated test status delivery for genetic testing results via voice conversations
+  - Patient identity verification and OTP validation through voice AI interactions
+  - Intelligent routing and escalation from AI agents to human agents for complex
+    inquiries
+  - Billing support and automated responses to patient billing questions
+  - Healthcare conversational AI for genetic testing information and patient support
+  skills:
+    genai: [LLM orchestration, Multi-agent systems, Tool calling, Prompt engineering,
+      Agent handoffs, OpenAI API, Anthropic Claude, RAG]
+    ml: []
+    web: [WebSocket, REST APIs, Twilio, NestJS]
+    databases: [Vector databases]
+    data: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS ECS Fargate, AWS DynamoDB, AWS API Gateway,
+      AWS CDK]
+    ops: [Kafka, MSK, Datadog, LLM observability]
+    languages: [TypeScript, Node.js, Python, SQL]
+    domains: []
+    other: [HIPAA compliance, Real-time systems, STT providers, TTS providers, VAD]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9510026'
+  extracted_at: '2026-05-29T09:07:57.881955'

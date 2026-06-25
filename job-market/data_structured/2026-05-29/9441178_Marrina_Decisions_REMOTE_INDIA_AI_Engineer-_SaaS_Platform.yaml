@@ -1,0 +1,54 @@
+company:
+  name: Marrina Decisions
+  stage: null
+  focus: |-
+    SaaS platform for AI-driven content generation, compliance
+    scoring, and campaign testing
+position:
+  title: 'REMOTE (INDIA):   AI Engineer- SaaS Platform'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role is hands-on with LLMs/VLMs including prompt
+      engineering, fine-tuning, evaluation, and maintaining
+      production LLM/VLM pipelines. The engineer directly works on
+      optimizing model interactions, building feedback loops, and
+      designing prompt engineering strategies for AI outputs,
+      which are core ai-first responsibilities.
+  responsibilities:
+  - Maintain and optimize LLM- and VLM-powered services for content generation, compliance
+    scoring, and campaign testing
+  - Manage and scale Flask/FastAPI microservices, ensuring high uptime and low latency
+  - Maintain Dramatiq queues for async AI workflows, campaign generation, and pipeline
+    orchestration
+  - Deploy, monitor, and debug Uvicorn/Gunicorn-based hosting in production environments
+  - Integrate with OpenRouter and equivalent LLM routing tools to balance cost, latency,
+    and quality
+  - Design and refine prompt engineering strategies for reliability, context-awareness,
+    and compliance
+  - Build and maintain feedback pipelines for AI model evaluation including human-in-the-loop
+    scoring and automated quality checks
+  - Expose and maintain REST APIs for AI services, ensuring secure, versioned endpoints
+  use_cases:
+  - AI-driven content generation for marketing campaigns
+  - Compliance scoring using LLM/VLM analysis
+  - Campaign testing and optimization through AI evaluation
+  - Asynchronous AI workflow orchestration for content processing
+  - Multi-modal (text and vision) AI pipeline operations
+  - Real-time AI service routing with cost-latency-quality optimization
+  skills:
+    genai: [LLMs, VLMs, prompt engineering]
+    ml: [fine-tuning]
+    web: [Flask, FastAPI, Uvicorn/Gunicorn, REST APIs, microservices]
+    databases: []
+    data: [Dramatiq, Celery/RQ]
+    cloud: [AWS, GCP]
+    ops: [model evaluation, OpenRouter, Docker, CI/CD, logging/monitoring]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9441178'
+  extracted_at: '2026-05-29T09:05:16.398041'

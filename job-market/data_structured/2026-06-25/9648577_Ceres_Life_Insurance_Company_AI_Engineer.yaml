@@ -1,0 +1,56 @@
+company:
+  name: Ceres Life Insurance Company
+  stage: Startup (backed by Westaim and CC Capital)
+  focus: Technology-driven annuity insurance and insurtech
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, fine-tuning, and
+      deploying LLMs and ML models in production, including prompt
+      engineering, model selection, and MLOps pipelines. The
+      engineer works hands-on with generative AI and ML systems
+      across customer-facing tools and internal pipelines.
+  responsibilities:
+  - Evaluate, select, and fine-tune large language models and specialty AI frameworks
+    for document summarization, risk scoring, and other use cases
+  - Craft and optimize prompts for automated eApp summarization, policy recommendation
+    engines, and conversational assistants
+  - Build reproducible, scalable MLOps pipelines for model training, validation, monitoring,
+    and versioning using MLflow, Kubeflow, or SageMaker
+  - Create robust APIs and microservices to surface AI capabilities such as chatbots,
+    document ingestion, and predictive alerts within agent portals and dashboards
+  - Partner with Operations and Customer Experience to automate tasks like licensing
+    checks, claims triage, and commission forecasting using AI-driven workflows
+  - Instrument A/B tests and performance metrics to monitor model accuracy, latency,
+    and user satisfaction, iterating on models and prompts
+  - Work closely with Data Engineering and Analytics teams to ensure high-quality
+    feature engineering, data preprocessing, and real-time data access
+  - Embed AI governance practices including bias mitigation, privacy controls, and
+    audit trails in accordance with industry regulations
+  use_cases:
+  - Automated electronic application (eApp) summarization using LLMs
+  - Policy recommendation engines for insurance products
+  - Customer service chatbots and conversational assistants
+  - Risk scoring models using transformer architectures
+  - Automated workflow tasks including licensing checks, claims triage, and commission
+    forecasting
+  - Document ingestion and processing for agent portals
+  skills:
+    genai: [LLM fine-tuning, Prompt engineering, OpenAI APIs, Anthropic APIs, Transformer
+        architectures, RAG]
+    ml: [PyTorch, TensorFlow, Model training]
+    web: [REST APIs, Microservices]
+    databases: []
+    data: []
+    cloud: [AWS SageMaker]
+    ops: [MLflow, Kubeflow, Docker, Kubernetes, CI/CD, A/B testing]
+    languages: [Python, SQL]
+    domains: [NLP, Insurance and financial services]
+    other: [AI governance and compliance]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9648577'
+  extracted_at: '2026-06-25T19:46:59.847443'

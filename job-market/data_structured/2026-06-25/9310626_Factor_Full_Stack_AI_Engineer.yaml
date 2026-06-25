@@ -1,0 +1,58 @@
+company:
+  name: Factor
+  stage: null
+  focus: AI-integrated legal services and contracting
+position:
+  title: Full Stack AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building production-grade AI products
+      including RAG, document retrieval, LLM orchestration, and
+      AI-assisted contract intelligence workflows. While it is a
+      full-stack role, the core product is AI-powered legal
+      tooling and the engineer is expected to work hands-on with
+      AI/ML components like embeddings, vector search, and LLM
+      orchestration, not just supporting infrastructure for
+      others.
+  responsibilities:
+  - Build production services using Python, FastAPI and Pydantic models for AI-enabled
+    document and contract intelligence
+  - Design and operate reliable data layers using PostgreSQL, SQLAlchemy and Alembic
+    including migrations and data modeling
+  - Build and maintain asynchronous job systems with queue processing, retries, idempotency,
+    dead-letter handling and failure recovery
+  - Build React and TypeScript interfaces that consume backend services and provide
+    transparent job states and polished UX
+  - Support document-heavy workflows including ingestion, retrieval, structured extraction,
+    redlining and AI-assisted review
+  - Operate within Azure-based environments including Blob Storage, Key Vault, managed
+    databases and containerised deployments
+  - Use AI coding tools to accelerate implementation, debugging, refactoring, testing
+    and documentation while maintaining high code quality
+  - Instrument production systems using Application Insights or equivalent observability
+    tooling
+  use_cases:
+  - Contract intelligence and automated legal document processing
+  - AI-assisted contract review, redlining and structured extraction
+  - RAG-based document retrieval and search across legal corpora
+  - Asynchronous workflow automation for complex legal transactions
+  - Enterprise-grade secure legal service delivery at scale
+  skills:
+    genai: [RAG, Embeddings, LLM orchestration, Document chunking, Retrieval evaluation,
+      Codex, Cursor, Claude Code]
+    ml: []
+    web: [FastAPI, Pydantic, React, TanStack Query, OAuth/OIDC, Radix UI, shadcn/ui,
+      Tailwind CSS, TipTap, Vite]
+    databases: [PostgreSQL, SQLAlchemy, Alembic, Redis, Vector search]
+    data: []
+    cloud: [Azure, Azure Blob Storage, Azure Key Vault, Azure MSAL]
+    ops: [Docker, Application Insights, OpenTelemetry]
+    languages: [Python, TypeScript]
+    domains: [Legal tech, Contract intelligence]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9310626'
+  extracted_at: '2026-06-25T19:40:39.354091'

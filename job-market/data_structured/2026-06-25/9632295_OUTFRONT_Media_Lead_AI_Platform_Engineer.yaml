@@ -1,0 +1,55 @@
+company:
+  name: OUTFRONT Media
+  stage: Public
+  focus: Out-of-home advertising and media
+position:
+  title: Lead AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves direct hands-on ownership of LLM-backed
+      systems (OUTGPT built on Vercel AI SDK + AWS Bedrock),
+      building and operating agent infrastructure including model
+      routing, guardrails, and evaluation, and evolving an MCP
+      server for agent-native ad buying. The person writes
+      production code that directly builds and deploys AI/agent
+      systems.
+  responsibilities:
+  - Own and evolve OUTGPT, the internal AI assistant built on Vercel AI SDK and AWS
+    Bedrock, moving it into full production and expanding model and agent capabilities
+  - Develop and scale the Agency Connect MCP server that exposes OUTFRONT inventory
+    and campaign tools to external AI buyer agents
+  - Design and build shared agent platform infrastructure including model routing,
+    evaluation, guardrails, observability, secrets handling, and cost controls
+  - Operate as the deepest technical voice on the AWS AI stack (Bedrock, AgentCore),
+    evaluating and operationalizing new capabilities
+  - Own architectural decisions spanning AI surfaces, including integrations with
+    Salesforce, Snowflake, and internal data sources
+  - Mentor and set the engineering bar for the AI & Automation pod, reviewing designs
+    and guiding junior engineers
+  - Partner with CTO and VP of AI on platform direction and roadmap
+  use_cases:
+  - Internal AI assistant for 75-person tech org and broader business operations
+  - Agent-native advertising platform enabling AI buyer agents to access inventory
+    and campaign tools
+  - Automated ad buying workflows via MCP server for external agency partners
+  - Safe agent deployment platform with model routing, guardrails, and cost controls
+    for internal automation teams
+  skills:
+    genai: [Vercel AI SDK, AWS Bedrock, MCP (Model Context Protocol), Agent frameworks,
+      A2A protocol, LLM agent development, Model routing, Prompt engineering, Guardrails,
+      Claude Code]
+    ml: []
+    web: [Next.js, REST API design]
+    databases: [PostgreSQL, Snowflake]
+    data: []
+    cloud: [AWS Lambda, AWS ECS, AWS App Runner, AWS RDS, AWS Cognito, AWS IAM, AgentCore]
+    ops: [Observability and monitoring, Cost controls, Bitbucket]
+    languages: [TypeScript, Node.js, Python, SQL]
+    domains: []
+    other: [Salesforce, M365 / Power Platform, Sigma]
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9632295'
+  extracted_at: '2026-06-25T19:47:00.296275'

@@ -1,0 +1,54 @@
+company:
+  name: Rockwell Automation
+  stage: Public
+  focus: Industrial automation technology and manufacturing solutions
+position:
+  title: Senior Agentic AI Architect/Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves hands-on building and architecting of AI
+      agents, RAG pipelines, and Generative AI solutions. The
+      engineer is directly implementing model systems (tool/skill
+      integration, embeddings, vector databases) rather than just
+      supporting infrastructure.
+  responsibilities:
+  - Architect AI Agents that use Tools and Skills including instantiation of MCP clients
+    and servers
+  - Architect scalable end-to-end Retrieval-Augmented Generation (RAG) pipelines including
+    data ingestion, document processing, and prompt generation
+  - Increase model serving layers and high-throughput data processing pipelines employing
+    advanced libraries like Polars to ensure ultra-low latency
+  - Design and implement secure system architectures for all new AI products with
+    PII filtering and guarded conversation frameworks
+  - Use Terraform for provisioning and manage Azure infrastructure-as-code for AI
+    solutions
+  - Implement centralized observability, logging, and alerting to support automated
+    and reproducible CI/CD pipelines
+  - Lead projects within the AI Engineering organization and implement enterprise
+    AI vision
+  use_cases:
+  - Industrial manufacturing automation and optimization
+  - Enterprise AI solutions for manufacturing productivity
+  - Enterprise search and knowledge retrieval through RAG systems
+  - Multi-agent systems for industrial workflows
+  - Document processing and data extraction for manufacturing operations
+  - Secure AI applications with data governance and compliance
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, OpenAI, Anthropic, RAG, Prompt engineering,
+      Agents, Function calling, MCP]
+    ml: [XGBoost, Causal Inference, Matrix Factorization]
+    web: []
+    databases: [Cosmos DB, Azure AI Search, Redis, pgvector, MongoDB Atlas]
+    data: [Airflow, Polars]
+    cloud: [Azure OpenAI, Azure, AWS, Google Cloud Platform]
+    ops: [Terraform, Docker, Kubernetes, CI/CD, MLflow]
+    languages: [Python, SQL]
+    domains: []
+    other: [PII filtering, Data governance, SAFe, Enterprise architecture, System
+        architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9514988'
+  extracted_at: '2026-05-29T09:09:30.966259'

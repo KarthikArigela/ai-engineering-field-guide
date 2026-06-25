@@ -1,0 +1,56 @@
+company:
+  name: KKR
+  stage: Public
+  focus: Global investment and asset management
+position:
+  title: AI Infrastructure Engineer - AI, Data & Platforms
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and operating model
+      training, fine-tuning, and inference infrastructure —
+      deploying and fine-tuning models in production, optimizing
+      inference across accelerators, and implementing custom fine-
+      tuning workflows. While it is an infrastructure/platform
+      role, it requires hands-on work with model serving,
+      optimization, and deployment, not just enabling others'
+      pipelines.
+  responsibilities:
+  - Design and operate model training, fine-tuning, and inference infrastructure supporting
+    enterprise AI applications
+  - Build deployment pipelines for LLMs and classical ML models across batch, real-time,
+    and streaming workloads
+  - Drive inference optimization across accelerator types (GPU/TPU) and support custom
+    fine-tuning workflows
+  - Establish evaluation, monitoring, alerting, and rollback systems for production
+    models
+  - Partner with AI Engineering teams to remove infrastructure friction and accelerate
+    deployment
+  - Define best practices for model versioning, artifact management, reproducibility,
+    and responsible AI in a regulated environment
+  - Contribute to the long-term AI platform roadmap ensuring infrastructure scales
+    with growing AI ambitions
+  use_cases:
+  - Enterprise AI applications across a global investment firm
+  - Model training and fine-tuning at scale for financial services
+  - Real-time and batch inference for LLMs and classical ML models
+  - Production AI systems in a regulated financial services environment
+  - Cost-optimized AI infrastructure across accelerator and cloud spend
+  skills:
+    genai: [LLMs]
+    ml: [Model fine-tuning, Distributed training, Quantization]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [vLLM, Triton, Ray, TorchServe, Inference optimization, Docker, Kubernetes,
+      Model versioning, MLOps, Model serving, Model evaluation, Model observability,
+      Autoscaling for inference]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9659377'
+  extracted_at: '2026-06-25T19:51:45.878209'

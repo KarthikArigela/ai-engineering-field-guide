@@ -1,0 +1,48 @@
+company:
+  name: South Geeks
+  stage: Fortune 500
+  focus: Global energy company with SAP data migration
+position:
+  title: AI/ML Engineer (Hybrid NLP + Classification)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI/ML Engineer role that directly involves
+      designing and building a hybrid NLP + classification system.
+      Key responsibilities include implementing text
+      classification models, building anomaly detection modules,
+      and designing model feedback loops - all hands-on ML
+      development work. The role requires expertise in NLP/text
+      classification with scikit-learn or HuggingFace
+      transformers, rule-based NLP, and ML pipeline development.
+  responsibilities:
+  - Author the AI/ML Architecture Design Document
+  - Recommend an accuracy threshold for the catalog mapping engine
+  - Build the 4-tier catalog code mapping engine for SAP catalog types
+  - Implement the AI anomaly detection module
+  - Design and implement the Train Model feedback loop where operator corrections
+    retrain the model
+  - Wrap the model as a microservice for the main app
+  use_cases:
+  - Mapping contractor free-text into 4-tier SAP catalog hierarchy
+  - Flagging anomalies in plant maintenance data
+  - Historical plant maintenance data migration to SAP S/4HANA
+  - Learning from operator corrections to improve mapping accuracy
+  - Hybrid rule-based plus ML classification for enterprise data
+  skills:
+    genai: []
+    ml: [text classification, scikit-learn, HuggingFace transformers, anomaly detection,
+      spaCy]
+    web: [microservices, API]
+    databases: []
+    data: [pandas, numpy]
+    cloud: []
+    ops: []
+    languages: [Python, regex]
+    domains: [NLP, rule-based NLP, keyword extraction]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9257082'
+  extracted_at: '2026-05-29T08:58:29.814581'

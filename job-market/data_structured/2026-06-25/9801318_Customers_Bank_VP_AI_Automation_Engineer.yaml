@@ -1,0 +1,58 @@
+company:
+  name: Customers Bank
+  stage: Public
+  focus: Super-community bank with digital banking services
+position:
+  title: VP, AI Automation Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic workflows,
+      designing multi-step AI pipelines, developing prompts for
+      LLMs (OpenAI/Anthropic), implementing RAG, and deploying
+      voice agents. The engineer is hands-on with models, agent
+      frameworks, and prompt engineering in a production capacity.
+      While it involves some DevOps/monitoring, the core work is
+      building and deploying AI systems.
+  responsibilities:
+  - Build and scale agentic workflows across Loans, Deposits, and Payments domains
+    using multi-step autonomous AI pipelines
+  - Develop, version, and evaluate prompts for OpenAI and Anthropic models with regression
+    testing and evaluation frameworks
+  - Implement human-in-the-loop review gates, confidence scoring thresholds, and exception
+    handling in automated workflows
+  - Design conversation flows, voice persona prompts, and escalation routing for the
+    call center voice agent
+  - Monitor live workflow outputs, detect drift or quality degradation, and manage
+    model and prompt version rollouts
+  - Build NLP-based intelligent document processing pipelines for extraction, classification,
+    and analysis
+  - Evaluate AI and automation vendors and make build-vs-buy recommendations across
+    the partner portfolio
+  - Mentor junior engineers and establish engineering culture and delivery standards
+  use_cases:
+  - Loan origination document processing and workflow automation
+  - Deposit onboarding and account management automation
+  - Payment reconciliation and exception handling
+  - Regulatory reporting automation
+  - Call center voice agent for customer service and containment
+  - Intelligent document processing for banking operations
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, OpenAI API, Anthropic Claude API, Prompt
+        Engineering, RAG, Function Calling, Voice AI, Conversational AI]
+    ml: [NLP, Intelligent Document Processing]
+    web: []
+    databases: [PostgreSQL, Vector Databases]
+    data: []
+    cloud: [Microsoft Azure, Azure Functions, Azure Logic Apps, Azure Service Bus,
+      Microsoft Foundry, Azure Data Factory, Azure DevOps, Azure AI]
+    ops: [CI/CD, Automated Testing, Monitoring and Alerting, Docker, Git/Version Control]
+    languages: [Python, SQL]
+    domains: [Banking/Financial Services, Regulatory Compliance, SOC Compliance, Model
+        Risk Management]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9801318'
+  extracted_at: '2026-06-25T19:54:16.703401'

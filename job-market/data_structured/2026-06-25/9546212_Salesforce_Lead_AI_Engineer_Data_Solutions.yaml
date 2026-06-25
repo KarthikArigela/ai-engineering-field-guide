@@ -1,0 +1,57 @@
+company:
+  name: Salesforce
+  stage: Public
+  focus: AI-powered CRM and enterprise SaaS
+position:
+  title: Lead AI Engineer, Data Solutions
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying AI agents
+      that combine LLM reasoning, tool usage, and ML decisioning,
+      along with fine-tuning, prompt optimization, and model
+      selection. The engineer owns the full agent flywheel—from
+      building models and agents to the evaluation loops that
+      continuously improve them in production.
+  responsibilities:
+  - Design and build feedback loops that enable agents and ML systems to improve from
+    real-world outcomes
+  - Build and deploy ML models including classification, ranking, forecasting, and
+    recommendation systems
+  - Design AI agents combining LLM reasoning, tool usage, and ML decisioning integrated
+    into business-critical workflows
+  - Design and build scalable data pipelines (batch and near real-time) for training,
+    evaluation, and inference
+  - Build offline and online evaluation frameworks with golden traces and regression-style
+    test sets
+  - Run A/B experiments and track key metrics including quality, revenue impact, and
+    latency
+  - Build scalable Python services and APIs powering agent workflows with reliability
+    and observability
+  use_cases:
+  - Agent flywheel system for continuous improvement of AI agent performance via feedback
+    loops
+  - Intelligent decisioning systems combining LLM reasoning with ML models for CRM
+    workflows
+  - Agent performance evaluation and optimization through production signal tracking
+  - Automated classification, ranking, forecasting, and recommendation for enterprise
+    SaaS
+  - Continuous retraining and evaluation pipelines enabling safe and fast agent iteration
+  skills:
+    genai: [LLM prompting and orchestration, AI agent workflows, Multi-step reasoning,
+      Tool orchestration]
+    ml: [Fine-tuning, Model selection, Supervised learning, Classification models,
+      Ranking models, Forecasting models, Recommendation systems]
+    web: [API development, Backend systems]
+    databases: [Snowflake, BigQuery]
+    data: [Spark, Airflow, Dagster, ETL/ELT pipelines]
+    cloud: []
+    ops: [A/B testing, LangSmith, Braintrust]
+    languages: [Python]
+    domains: [Enterprise SaaS / CRM]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9546212'
+  extracted_at: '2026-06-25T19:41:48.768770'

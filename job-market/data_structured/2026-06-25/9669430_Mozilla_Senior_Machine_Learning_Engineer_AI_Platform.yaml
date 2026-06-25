@@ -1,0 +1,58 @@
+company:
+  name: Mozilla
+  stage: Public (non-profit-backed)
+  focus: Open-source web browser and internet technology
+position:
+  title: Senior Machine Learning Engineer, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and operating the
+      foundational AI platform infrastructure — model serving,
+      inference services, GPU orchestration, and deployment
+      automation — rather than building, training, or fine-tuning
+      models themselves. The work enables ML teams to deploy and
+      serve models at scale, making this an ai-support role.
+  responsibilities:
+  - Design, build, and operate core AI platform components for training, deploying,
+    and serving ML models in production
+  - Own model serving and inference workflows end-to-end, driving improvements in
+    reliability, scalability, and performance
+  - Optimize inference systems for throughput, latency, and cost efficiency across
+    CPU and GPU workloads
+  - Design and manage GPU-based inference and training workloads including performance
+    tuning and capacity planning
+  - Improve critical parts of the model lifecycle including packaging, versioning,
+    testing, validation, and deployment automation
+  - Implement and evolve observability practices including metrics, logging, tracing,
+    and alerting for ML services
+  - Partner with product, infrastructure, security, and data teams to design scalable
+    platform capabilities
+  - Mentor junior engineers and contribute to technical design discussions and architectural
+    improvements
+  use_cases:
+  - Model training pipelines at global scale
+  - High-throughput inference services for Mozilla products
+  - GPU orchestration for AI workloads
+  - Privacy-respecting AI systems for browser and content products
+  - Intelligent experiences across Mozilla's product ecosystem including Firefox and
+    Pocket
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Cloud infrastructure]
+    ops: [Model serving architectures, Inference optimization, GPU computing, Distributed
+        systems, CI/CD pipelines, Docker, Kubernetes, 'Observability (metrics, logging,
+        tracing, alerting)', Model packaging and versioning, Batching, Quantization,
+      Model conversion, ML system deployment]
+    languages: [Python, SQL]
+    domains: []
+    other: [Privacy-preserving ML]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9669430'
+  extracted_at: '2026-06-25T19:45:08.937676'

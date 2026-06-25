@@ -1,0 +1,53 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family location tracking and safety services
+position:
+  title: Software Engineer II AI-Native, Backend Devices Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a backend software engineer building cloud
+      services for IoT/hardware devices (telemetry ingest, state
+      management, data pipelines). While the team uses AI coding
+      assistants (Claude Code, Cursor, Copilot) as development
+      tools, the engineer does not build, train, fine-tune, or
+      deploy AI/ML models. AI is used as a productivity tool, not
+      as the core deliverable of the role.
+  responsibilities:
+  - Build and maintain Devices Cloud services including telemetry ingest, state management,
+    command/control, and data pipelines for connected hardware
+  - Own well-defined features and smaller designs from implementation through production
+    with occasional guidance from senior engineers
+  - Use AI-native engineering practices daily including AI assistants for coding,
+    testing, refactoring, and debugging
+  - Collaborate with firmware, mobile, product, and platform teams to implement APIs
+    across the hardware-software boundary
+  - Write thoroughly tested, low-defect code and follow code review best practices
+  - Participate in on-call rotation and contribute to incident response and post-mortems
+  - Translate technical specifications into high-quality code and contribute to team
+    documentation
+  use_cases:
+  - Real-time device state management for IoT hardware fleet (Tile trackers, Jiobit
+    wearables, Pet GPS)
+  - High-frequency telemetry data ingestion from connected devices
+  - Hardware-to-cloud integration translating physical-world signals into family-facing
+    experiences
+  - Command and control of connected hardware devices at scale
+  - Streaming data pipelines for time-series device telemetry
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot]
+    ml: []
+    web: [REST APIs]
+    databases: [DynamoDB]
+    data: [Kafka, Time-series data]
+    cloud: [AWS EKS, AWS Lambda, AWS SQS, AWS Kinesis]
+    ops: [Prometheus, Grafana, OpenTelemetry, Datadog, CI/CD, Kubernetes]
+    languages: [Python, Go]
+    domains: [IoT]
+    other: [MQTT, BLE, CoAP, Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9711608'
+  extracted_at: '2026-06-25T19:48:45.997258'

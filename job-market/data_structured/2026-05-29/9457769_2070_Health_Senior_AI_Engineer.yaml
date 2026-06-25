@@ -1,0 +1,59 @@
+company:
+  name: 2070 Health
+  stage: null
+  focus: |-
+    AI-first enterprise automation platform for healthcare and
+    insurance
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a core AI engineering role focused directly on
+      building, fine-tuning, and deploying language models. The
+      role involves hands-on work with LLMs/SLMs including prompt
+      engineering, fine-tuning with LoRA/QLoRA, instruction
+      tuning, RAG implementation, and model deployment - all
+      direct work on AI systems rather than supporting
+      infrastructure.
+  responsibilities:
+  - Design production-grade prompt architectures for 8B-class models including LLaMA,
+    Mistral, and Qwen
+  - Develop structured prompts for enterprise tasks such as classification, extraction,
+    reasoning, and summarization
+  - Build prompt evaluation frameworks to measure accuracy, hallucination rates, and
+    consistency
+  - Develop prompt-to-model migration strategies converting high-performing prompts
+    into fine-tuned SLMs
+  - Design and fine-tune LLMs and Small Language Models (SLMs) for domain-specific
+    enterprise tasks
+  - Build instruction tuning and supervised fine-tuning (SFT) pipelines
+  - Implement retrieval augmented generation (RAG) pipelines and tool-augmented workflows
+  - Deploy models in private cloud or on-premise environments with strong security
+    controls
+  use_cases:
+  - Healthcare Revenue Cycle Management (RCM) automation
+  - Understanding and processing unstructured conversations and documents
+  - Autonomous execution of complex human-intensive business processes
+  - Enterprise classification, extraction, reasoning, and summarization tasks
+  - Multimodal systems combining speech AI and document AI
+  - Regulated environment automation with strong security and compliance
+  skills:
+    genai: [Prompt Engineering, LLM Fine-tuning, Small Language Models (SLMs), LoRA,
+      QLoRA, Instruction Tuning, Supervised Fine-Tuning (SFT), Retrieval Augmented
+        Generation (RAG), LLaMA, Mistral, Qwen, Falcon]
+    ml: [Model Distillation, Transformers, Tokenization, Embeddings, Attention Mechanisms,
+      PyTorch, Hugging Face, Accelerate, DeepSpeed, Model Evaluation, Benchmarking]
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: []
+    ops: [Triton, Docker, Kubernetes, GPU Training, GPU Inference]
+    languages: [Python]
+    domains: []
+    other: [AI Guardrails, Human-in-the-loop Workflows]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9457769'
+  extracted_at: '2026-05-29T09:05:51.269243'

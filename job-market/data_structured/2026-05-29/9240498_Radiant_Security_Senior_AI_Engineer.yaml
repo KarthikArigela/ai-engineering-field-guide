@@ -1,0 +1,53 @@
+company:
+  name: Radiant Security
+  stage: Series B
+  focus: |-
+    AI-powered SOC platform for automated security alert triage
+    and investigation
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building agentic
+      systems with LLMs, RAG, and multi-agent pipelines. The
+      engineer owns the full lifecycle of AI agents from prompt
+      engineering to production deployment, making this clearly
+      ai-first rather than support.
+  responsibilities:
+  - Design and implement DAG-based pipeline architecture for cybersecurity workflows
+  - Build context retrieval and enrichment systems using vector search, structured
+    queries, and API integrations
+  - Develop and optimize AI agents with production-ready prompts for alert classification
+    and threat analysis
+  - Evaluate and manage LLM lifecycle including model selection, cost optimization,
+    and performance metrics
+  - Monitor production pipeline performance including latency, accuracy, cost, and
+    failure modes
+  - Build labeled datasets from production telemetry for evaluation, regression testing,
+    and fine-tuning
+  use_cases:
+  - Automated security alert triage and investigation at scale
+  - AI-powered threat detection and classification across SIEM, EDR, identity, and
+    cloud sources
+  - Multi-agent collaboration systems that reason and escalate like security analysts
+  - Context-aware retrieval systems that surface relevant threat intelligence
+  - False positive filtering and severity scoring for security alerts
+  - Reducing alert fatigue and analyst burnout through AI automation
+  skills:
+    genai: [OpenAI API, Anthropic API, Gemini, Prompt Engineering, LangGraph, CrewAI,
+      AutoGen, RAG]
+    ml: [Fine-tuning, RLHF, Model Distillation]
+    web: []
+    databases: [Vector Search]
+    data: [DAG-based workflows]
+    cloud: []
+    ops: [Pipeline Orchestration, LLM Lifecycle Management, RAGAS, LangSmith]
+    languages: [Python]
+    domains: []
+    other: [A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9240498'
+  extracted_at: '2026-05-29T08:58:10.732330'

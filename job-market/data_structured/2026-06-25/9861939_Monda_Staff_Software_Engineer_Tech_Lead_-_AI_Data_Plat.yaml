@@ -1,0 +1,56 @@
+company:
+  name: Monda
+  stage: Startup (exact round not specified)
+  focus: AI data monetization platform
+position:
+  title: Staff Software Engineer (Tech Lead) - AI Data Platform (d/f/m, Berlin)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      While the core platform is a data infrastructure product,
+      the role explicitly requires building AI data agents, MCP
+      servers, and AI-driven features using tools like Snowflake
+      Cortex AI and Vertex AI. The engineer is directly
+      responsible for implementing and deploying agentic AI
+      capabilities into production, making this an ai-first role
+      with strong data platform engineering foundations.
+  responsibilities:
+  - Own, build, and innovate on the AI Data Platform running ~400K pipeline jobs per
+    month at petabyte scale
+  - Design and improve cross-cloud data architecture for high scalability, low latency,
+    and cost efficiency
+  - Develop and maintain automated data pipeline orchestration supporting structured
+    and unstructured data sources
+  - Implement AI-driven features and AI data agents (e.g. via MCP) that help customers
+    create AI-ready data products
+  - Ensure data observability including monitoring data quality and anomaly detection
+    across the platform
+  - Lead technical direction as an individual contributor (IC) Tech Lead within the
+    engineering team
+  use_cases:
+  - Data monetization platform turning enterprise data into sellable AI-ready data
+    products
+  - AI data agents assisting customers in creating and exposing semantically-rich
+    data products
+  - Large-scale data pipeline orchestration at petabyte volume (~400K jobs/month)
+  - Cross-cloud data architecture supporting structured and unstructured data ingestion
+    and egress
+  - Automated data quality monitoring and observability across heterogeneous data
+    sources
+  skills:
+    genai: [Snowflake Cortex AI, MCP (Model Context Protocol), AI Data Agents]
+    ml: []
+    web: [Django]
+    databases: [Snowflake, Databricks, BigQuery, Redshift, Azure Synapse, ClickHouse,
+      Snowflake Data Sharing, Delta Sharing, BigQuery Sharing, Azure Data Share]
+    data: [Prefect, Airflow, Dagster, Flyte, ETL]
+    cloud: [Amazon S3, GCS, Azure Blob Storage, Google Vertex AI]
+    ops: [Metaplane, Monte Carlo, Soda, Great Expectations, Data Observability]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9861939'
+  extracted_at: '2026-06-25T19:53:55.284654'

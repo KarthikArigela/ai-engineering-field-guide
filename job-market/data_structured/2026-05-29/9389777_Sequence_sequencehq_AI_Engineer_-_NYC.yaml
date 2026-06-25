@@ -1,0 +1,54 @@
+company:
+  name: Sequence (sequencehq)
+  stage: Series A
+  focus: |-
+    AI-powered revenue platform for finance teams, automating
+    billing, quoting, and revenue recognition
+position:
+  title: AI Engineer - NYC
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves hands-on building of LLM-based systems,
+      agentic workflows, and AI infrastructure. The engineer will
+      directly design and deploy AI systems including agents,
+      evaluation infrastructure, and production AI platforms for
+      natural language workflows and autonomous collections.
+  responsibilities:
+  - Build and own AI infrastructure including agentic workflows, prompt iteration,
+    tools, and evals to ensure reliable software on non-deterministic models
+  - Design and implement flexible AI-powered approval workflows that convert natural
+    language rules into deterministic business logic
+  - Build an intelligent collections agent that processes natural language instructions
+    and autonomously executes payment collection workflows
+  - Design agentic systems with components like embeddings, memory, tool use, and
+    long-running state with recovery mechanisms
+  - Build and maintain evals infrastructure including datasets, LLM as a judge, prompt
+    regression tests, and monitoring systems
+  - Ensure AI security by scrutinizing threat vectors and treating models as untrusted
+    by default in production
+  use_cases:
+  - AI-powered approval workflows for enterprise deals that translate natural language
+    rules into configurable routing logic
+  - Intelligent collections agent that automates payment chasing through natural language
+    instructions and autonomous workflow execution
+  - Agentic workflows for revenue cycle management across quoting, billing, and revenue
+    recognition processes
+  - AI infrastructure supporting multi-provider AI systems with non-deterministic
+    models for business-critical financial operations
+  skills:
+    genai: [LLMs, agents, RAG, prompt engineering, embeddings, Langsmith]
+    ml: []
+    web: [Http4k, Spring Boot, React]
+    databases: [Postgres, BigQuery]
+    data: [Google Cloud Pub/Sub]
+    cloud: [Vertex AI, Google Cloud]
+    ops: [Terraform, Sentry]
+    languages: [Kotlin, TypeScript, Python]
+    domains: []
+    other: [AI security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9389777'
+  extracted_at: '2026-05-29T09:02:56.299841'

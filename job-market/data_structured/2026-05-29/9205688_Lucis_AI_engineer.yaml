@@ -1,0 +1,51 @@
+company:
+  name: Lucis
+  stage: Series A
+  focus: Building AI-powered preventive health and longevity platform
+position:
+  title: AI engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role focused on building,
+      deploying, and maintaining AI agents that function as
+      preventive health doctors. The engineer is directly
+      responsible for the reasoning engine, multi-agent
+      architecture, RAG systems, and LLM endpoints - all core
+      AI/ML implementation work, not just supporting
+      infrastructure.
+  responsibilities:
+  - Design and ship multi-agent system behind AI doctor including reasoning, planning,
+    tool use, clinical citation, and safe fallback behavior
+  - Build vector infrastructure, embedding pipelines, and RAG architecture over clinical
+    literature and user health data
+  - Develop data pipelines for ingestion and normalization from labs, wearables, and
+    third-party partners
+  - Ensure production reliability with LLM endpoints that reason correctly at scale,
+    including observability, evals, and failure modes
+  - Collaborate with medical team to translate clinical requirements into agent workflows
+    and earn trust from medical advisors
+  - Make AI system smarter, faster, and ready for millions of users while closing
+    the gap between demos and trustworthy AI doctor
+  use_cases:
+  - Preventive health AI doctor that analyzes 110+ biomarkers
+  - Clinical reasoning over patient health data and biomarkers
+  - Delivery of personalized preventive health protocols and recommendations
+  - Knowledge retrieval from clinical literature and user health history
+  - Translation of complex clinical requirements into automated agent workflows
+  skills:
+    genai: [LangChain, AI agents, RAG, LLM orchestration, Prompt engineering, Claude]
+    ml: [Embeddings]
+    web: [Prisma]
+    databases: [Vector databases, PostgreSQL]
+    data: [Data pipelines, ETL]
+    cloud: [AWS]
+    ops: [Terraform, GitHub Actions, Evaluation frameworks]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9205688'
+  extracted_at: '2026-05-29T08:56:34.789820'

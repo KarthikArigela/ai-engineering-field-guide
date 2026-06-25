@@ -1,0 +1,59 @@
+company:
+  name: DXC Technology
+  stage: Public
+  focus: Enterprise IT services and solutions
+position:
+  title: 'Sr Analyst II: AI Systems Engineer - Storage & Backup'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and tuning LangGraph
+      ReAct agents that orchestrate LLM-driven tool calls,
+      implementing RAG-backed knowledge retrieval, and developing
+      MCP tool servers. The engineer works hands-on with agentic
+      AI patterns (tool calling, ReAct, prompt engineering) as
+      core job responsibilities, not as supporting infrastructure
+      for other AI teams.
+  responsibilities:
+  - Design, code, and test Python-based components for OASIS storage/backup integrations
+    including agents, MCP tool servers, vendor REST API connectors, and Pydantic models
+  - Develop FastAPI/Uvicorn services exposing JSON-RPC 2.0, REST, and SSE-streamed
+    endpoints consuming vendor REST APIs via async HTTP clients
+  - Implement and tune LangGraph ReAct agents that orchestrate LLM-driven tool calls
+    against MCP servers with parallel tool execution and RAG-backed knowledge retrieval
+  - Debug and resolve complex production issues across the agent, MCP server, and
+    vendor API stack using structured logs and OpenTelemetry traces
+  - Author and maintain unit, integration, and end-to-end tests and contribute to
+    CI workflows
+  - Participate in design discussions and code reviews with clean pull requests and
+    appropriate test coverage
+  - Mentor junior team members and contribute to onboarding documentation
+  - Research emerging agentic AI patterns and propose innovative solutions for the
+    integration portfolio
+  use_cases:
+  - LLM-driven orchestration of storage and backup management operations via agentic
+    tool calling
+  - RAG-backed knowledge retrieval for enterprise storage/backup systems
+  - Automated storage and backup integrations through MCP servers and vendor REST
+    APIs
+  - AI-assisted enterprise IT operations for storage technologies (NetApp, Dell, Veeam,
+    Commvault, etc.)
+  skills:
+    genai: [LangGraph, LangChain, MCP (Model Context Protocol), A2A (Agent-to-Agent),
+      RAG, ReAct agents, Prompt engineering, LLM tool calling, Claude Code]
+    ml: []
+    web: [Pydantic v2, FastAPI, Uvicorn, REST APIs, JSON-RPC 2.0, GraphQL, SSE streaming,
+      httpx, aiohttp]
+    databases: [asyncpg, oracledb]
+    data: []
+    cloud: [AWS, AWS Bedrock]
+    ops: [OpenTelemetry, GitHub Actions, CodeQL, Git, Linux]
+    languages: [Python, Bash, SQL]
+    domains: ['Enterprise storage and backup (NetApp ONTAP, Dell PowerProtect, Veeam,
+        Commvault, Cohesity, Rubrik)']
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9559975'
+  extracted_at: '2026-06-25T19:42:31.358513'

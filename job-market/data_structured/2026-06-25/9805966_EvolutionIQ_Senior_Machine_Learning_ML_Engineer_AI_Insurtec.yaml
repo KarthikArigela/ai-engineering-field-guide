@@ -1,0 +1,49 @@
+company:
+  name: EvolutionIQ
+  stage: Series B+
+  focus: AI-powered insurance claims management technology
+position:
+  title: Senior Machine Learning (ML) Engineer (AI Insurtech)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is focused on building traditional ML models (time
+      series forecasting, NLP text understanding) using frameworks
+      like PyTorch, Keras, and sklearn for production use. There
+      is no mention of LLMs, agents, RAG, or GenAI techniques —
+      the work centers on classical/deep learning model building
+      and deployment for insurance claims.
+  responsibilities:
+  - Build ML models for production use at scale
+  - Perform in-depth exploratory data analysis to scope ML opportunities and identify
+    data issues
+  - Design, implement, and evaluate new features to improve model performance and
+    business logic
+  - Translate client business problems into ML problems
+  - Build scalable machine learning models for claim time series forecasting and NLP
+    text understanding
+  - Write and review production-quality pull requests daily
+  - Maintain and deploy model-serving pipelines in production
+  use_cases:
+  - Insurance claims time series forecasting to predict claim outcomes and durations
+  - NLP-based text understanding of unstructured insurance claim data
+  - Improving accuracy, fairness, and efficiency of insurance claims handling
+  - Making sense of large-scale structured and unstructured datasets for insurance
+    decision-making
+  skills:
+    genai: [Claude Code]
+    ml: [PyTorch, Keras, scikit-learn, Time Series Forecasting, Probabilistic Programming,
+      Model Tuning Frameworks]
+    web: []
+    databases: [BigQuery]
+    data: [Pandas, Jupyter, Dagster, Spark]
+    cloud: [Vertex AI, GCP]
+    ops: [Terraform, Kubernetes, Model Serving Pipelines]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9805966'
+  extracted_at: '2026-06-25T19:54:24.570054'

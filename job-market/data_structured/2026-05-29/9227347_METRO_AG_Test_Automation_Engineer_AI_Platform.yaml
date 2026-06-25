@@ -1,0 +1,59 @@
+company:
+  name: METRO AG
+  stage: Public
+  focus: International wholesale retailer with digital solutions
+position:
+  title: Test Automation Engineer – AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a Test Automation Engineer working ON the AI
+      Platform team but NOT building, training, fine-tuning, or
+      deploying models. The responsibilities focus on testing
+      infrastructure, automated test frameworks, evaluation
+      pipelines, and quality engineering for systems built by
+      others. While the role requires domain knowledge of AI/LLM
+      systems (prompt evaluation, model behavior validation), it
+      supports AI engineers by ensuring quality through automation
+      rather than directly implementing AI capabilities.
+  responsibilities:
+  - Design, implement, and maintain scalable automated test suites for API, integration,
+    end-to-end, and workflow-level testing of agentic AI systems
+  - Build automation frameworks that validate correctness, robustness, safety, and
+    determinism in LLM-driven behaviors and multi-agent orchestration
+  - Develop synthetic datasets, fixtures, and mocks to replicate complex agentic scenarios
+    and edge cases
+  - Implement automated evaluation pipelines for LLM outputs, including functional
+    tests, regression checks, safety tests, and model-behavior verification
+  - Collaborate with AI Engineers to integrate model evaluation metrics such as hallucination
+    detection, grounding accuracy, and response consistency into CI/CD systems
+  - Validate prompt templates, agent tools, retrieval workflows, and chain-of-thought
+    instrumentation
+  - Integrate automated testing pipelines into GitHub Actions ensuring fast feedback
+    cycles and continuous verification
+  - Implement quality gates, flakiness detection, and test result analytics to improve
+    reliability and reduce manual QA overhead
+  use_cases:
+  - Agentic AI workflows with multi-agent orchestration for enterprise automation
+  - LLM-powered capabilities testing including prompt evaluation and model behavior
+    validation
+  - Retrieval-augmented generation pipelines and knowledge workflows
+  - Safety testing and hallucination detection for AI-driven outputs
+  - Synthetic data generation for complex agentic scenarios and edge cases
+  - High-scale distributed backend services with event-driven architectures
+  skills:
+    genai: [LLM evaluation, Prompt engineering, RAG, Agentic frameworks]
+    ml: []
+    web: [API testing, REST, Microservices]
+    databases: []
+    data: [Synthetic data generation]
+    cloud: [Google Cloud Platform]
+    ops: [GitHub Actions, CI/CD, Distributed systems, Test automation frameworks]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9227347'
+  extracted_at: '2026-05-29T08:56:32.011718'

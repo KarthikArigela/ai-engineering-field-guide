@@ -1,0 +1,62 @@
+company:
+  name: Illumina
+  stage: Public
+  focus: Genomic sequencing and precision health technology
+position:
+  title: Sr Staff, AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on engineering of AI-native
+      interfaces including prompt engineering, structured output
+      schemas, tool definitions, streaming systems for LLMs, and
+      agentic experiences. The engineer writes production code
+      that directly shapes model behavior for UI consumption,
+      integrating LLMs (OpenAI, Anthropic) into user-facing
+      applications with tool calling and structured outputs. This
+      goes beyond infrastructure support into actively engineering
+      how AI models behave and are deployed in production
+      products.
+  responsibilities:
+  - Design and build production AI-native interfaces including conversational UIs,
+    agentic experiences, generative UI, multi-modal interactions, and artifact-style
+    canvases
+  - Implement streaming experiences end-to-end including token streaming, progressive
+    rendering, structured output streaming, and interruption/resumption patterns
+  - Engineer prompts, structured output schemas, and tool definitions that produce
+    outputs optimized for UI rendering
+  - Establish company-wide AI UX patterns and standards for chat, agents, autocomplete,
+    generative UI, voice, and emerging modalities
+  - Lead architecture reviews for AI-facing product features and serve as senior technical
+    reviewer for high-stakes AI experience initiatives
+  - Partner with designers, researchers, product managers, and ML engineers to shape
+    AI product direction and ensure coherent end-to-end experiences
+  - Mentor senior and staff engineers across AI Engineering and Frontend Engineering
+  - Prototype emerging interaction patterns including generative UI, voice agents,
+    multi-modal canvases, and ambient AI, leading path from experiment to production
+  use_cases:
+  - AI-powered genomic and healthcare product interfaces
+  - Conversational AI assistants for scientific and clinical users
+  - Agentic workflows with reasoning traces, tool use, and human-in-the-loop interventions
+  - Generative UI experiences where models dynamically produce structured interface
+    specifications
+  - Voice and multi-modal AI interactions including ASR, TTS, and turn-taking
+  skills:
+    genai: [OpenAI API, Anthropic API, Prompt Engineering, Structured Outputs / JSON
+        Mode, Function Calling / Tool Calling, ASR/TTS]
+    ml: []
+    web: [React, Next.js, Tailwind CSS, Framer Motion, Zustand, Redux, Jotai, Server-Sent
+        Events, WebSockets, REST API, GraphQL, Streaming JSON Parsers, CRDTs]
+    databases: []
+    data: []
+    cloud: ['Edge Runtimes (Vercel, Cloudflare Workers)']
+    ops: [Vitest, Playwright, CI/CD, Sentry, LogRocket, Feature Flags, A/B Testing,
+      Git]
+    languages: [TypeScript, Node.js, Python]
+    domains: []
+    other: [Figma, WCAG Accessibility Standards, Design Systems]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9698334'
+  extracted_at: '2026-06-25T19:46:28.033616'

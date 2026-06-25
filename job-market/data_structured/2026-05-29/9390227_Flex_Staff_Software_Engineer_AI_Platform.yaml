@@ -1,0 +1,57 @@
+company:
+  name: Flex
+  stage: Growth-stage
+  focus: FinTech company creating flexible rent payment solutions
+position:
+  title: Staff Software Engineer, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an AI Platform Engineer role building the
+      infrastructure and tooling that enables other teams to
+      create and deploy agents. While the role requires deep
+      understanding of AI/agentic systems, the work is focused on
+      building the platform, SDKs, orchestration, observability,
+      and developer tools rather than directly deploying AI
+      solutions to end customers. The role supports internal teams
+      in building AI workflows by providing the underlying
+      platform and capabilities.
+  responsibilities:
+  - Design, implement, and maintain the agent platform including orchestration, tool
+    execution, sandboxed code runtimes, observability, and developer-facing SDKs and
+    UI
+  - Design and develop APIs, SDKs, and developer surfaces for onboarding agents with
+    evals, guardrails, human-in-the-loop review, and audit capabilities
+  - Scale the platform to support a growing catalog of agents, skills, and MCP integrations
+    while maintaining performance, reliability, and cost efficiency
+  - Improve daily operations with automation, tooling, and observability including
+    agent-trace visibility, evaluation pipelines, and sandbox runtime monitoring
+  - Work with cross-functional teams to identify high-leverage AI use cases and transform
+    them into production-ready agents on the platform
+  - Set technical standards for AI-assisted engineering practices and mentor engineers
+    on designing, building, and operating agentic systems
+  use_cases:
+  - Agentic workflows for internal business processes across multiple departments
+  - Multi-agent orchestration systems with tool/skill registries and MCP integrations
+  - AI-assisted engineering and development workflows with CLIs and dev tools
+  - RAG and context-aware systems for enterprise knowledge retrieval
+  - Human-in-the-loop workflows with guardrails, evals, and audit trails
+  - Sandboxed code execution environments for AI agents
+  skills:
+    genai: [LangGraph, MCP, RAG, Prompt Engineering, Agentic Systems, Claude Code,
+      Codex, OpenCode, Cursor, Guardrails, Human-in-the-loop]
+    ml: []
+    web: [API Gateway, SDKs, CLIs, REST APIs]
+    databases: [PostgreSQL, MySQL, DynamoDB, Vector Stores]
+    data: []
+    cloud: [AWS, VPC, RDS]
+    ops: [Modal, E2B, Cloudflare Sandboxes, Daytona, Firecracker, gVisor, Docker,
+      ECS, EKS, Lambda, Terraform, AWS CDK, AWS CLI]
+    languages: [Python, Java, Golang, TypeScript, Node.js, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9390227'
+  extracted_at: '2026-05-29T09:03:03.742048'

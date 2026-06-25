@@ -1,0 +1,53 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Airline transportation and commercial aviation services
+position:
+  title: Data Engineer – AI Ops
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role focused on building and
+      operating data pipelines that SUPPORT AI/ML and agentic
+      systems, but not directly working on the models themselves.
+      The role handles infrastructure, ETL/ELT pipelines, data
+      quality, and observability for AI solutions, which is
+      enabling work for others rather than hands-on model
+      development or deployment.
+  responsibilities:
+  - Build, operate, and improve data pipelines that power AI and analytics solutions
+    at scale
+  - Design and maintain ETL/ELT pipelines, retraining loops, and feedback systems
+    for AI/ML workloads
+  - Implement data quality checks, schema validation, and basic observability to keep
+    systems healthy
+  - Build infrastructure for optimal data extraction, transformation, and loading
+    using AWS and SQL technologies
+  - Assemble large, complex datasets that meet functional and non-functional business
+    requirements
+  - Partner with Data, Product, and Engineering teams to automate processes and support
+    analytics driving operational insights
+  use_cases:
+  - AI-powered operational insights for airline operations
+  - Agentic systems for customer service and business automation
+  - ML retraining pipelines and feedback loops for continuous model improvement
+  - Analytics for operational efficiency and customer acquisition metrics
+  - Real-time data flows supporting AI platform operations at enterprise scale
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [S3, Pinecone, OpenSearch, pgvector]
+    data: [Glue, Athena, Kinesis, Airflow, ETL, ELT, Data quality checks, Schema validation,
+      Spark, Databricks, Iceberg, Delta Lake, Hudi, Kafka, ServiceBus, JSON, XML,
+      Parquet]
+    cloud: [AWS]
+    ops: [Step Functions, CI/CD, Git, Data observability, Unit Testing, Docker, Kubernetes]
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394089'
+  extracted_at: '2026-05-29T09:03:57.605945'

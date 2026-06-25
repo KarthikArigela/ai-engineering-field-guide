@@ -1,0 +1,58 @@
+company:
+  name: RhythmX AI
+  stage: Acquired/Subsidiary (SymphonyAI Group company)
+  focus: AI-native healthcare precision care and patient engagement
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, fine-tuning, and
+      deploying LLMs, ML models, and multimodal AI systems in
+      production. The engineer works hands-on with model
+      customization (PEFT, LoRA), speech models, RAG, and end-to-
+      end model deployment. This is squarely an ai-first role
+      focused on building and deploying AI systems.
+  responsibilities:
+  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases including
+    domain adaptation via PEFT, LoRA, and prompt engineering
+  - Build multimodal AI systems integrating text, structured medical data, and images
+  - Lead end-to-end model deployment using cloud-native infrastructure (Azure ML)
+    including monitoring, drift detection, and auto-retraining pipelines
+  - Evaluate and integrate speech-to-text and text-to-speech models into conversational
+    interfaces and voice assistants
+  - Process and curate large-scale structured and unstructured healthcare datasets,
+    designing synthetic data generation strategies
+  - Lead bias mitigation, adversarial stress testing, and governance ensuring models
+    meet safety, fairness, and ethical standards
+  - Provide technical leadership to junior engineers including design reviews, best
+    practices, and architectural decisions
+  - Collaborate cross-functionally with clinical experts, product, and engineering
+    teams to translate needs into scalable AI solutions
+  use_cases:
+  - Healthcare voice assistants and conversational interfaces for patient and caregiver
+    workflows
+  - Multimodal AI systems combining text, medical data, and images for clinical decision
+    support
+  - Speech-to-text and text-to-speech for real-world care settings
+  - RAG-based retrieval over clinical knowledge and EHR data
+  - Clinical outcome prediction and patient safety monitoring using healthcare data
+  - Care orchestration and precision care intelligence across health systems
+  skills:
+    genai: [LLM Fine-tuning, PEFT, LoRA, Prompt Engineering, RAG, LangChain, Generative
+        AI, NLP/NLU, Speech-to-Text (STT), Text-to-Speech (TTS), Tacotron]
+    ml: [PyTorch, TensorFlow, Deep Learning, Model Training, Whisper, Multimodal AI]
+    web: []
+    databases: [Vector Databases]
+    data: [ETL, Data Pipelines]
+    cloud: [Azure ML, Azure]
+    ops: [MLOps, Model Serving, Experiment Tracking, Container Orchestration, CI/CD,
+      Docker, Git]
+    languages: [Python, SQL]
+    domains: [Healthcare/Provider Domain, EHR Systems, HIPAA Compliance]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9713264'
+  extracted_at: '2026-06-25T19:48:25.847029'

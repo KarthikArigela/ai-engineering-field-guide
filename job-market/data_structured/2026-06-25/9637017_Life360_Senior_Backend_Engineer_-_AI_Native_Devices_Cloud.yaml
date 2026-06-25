@@ -1,0 +1,55 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family location tracking and connected safety devices
+position:
+  title: Senior Backend Engineer - AI Native Devices Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a backend engineering role focused on building cloud
+      services for IoT/hardware devices (telemetry ingest, device
+      connectivity, state management). While the team is "AI-
+      Native" in their workflow — using AI coding assistants like
+      Claude Code, Cursor, and Copilot for development tasks — the
+      role does not involve building, training, fine-tuning, or
+      deploying AI/ML models. The AI tools are used as development
+      productivity aids, not as the core product being built.
+  responsibilities:
+  - Design, build, and operate Devices Cloud services including device connectivity,
+    telemetry ingest, state management, command/control, and data pipelines
+  - Own complete features and subsystems from technical design through production,
+    breaking down complex work and delivering accurate estimates
+  - Apply AI-native engineering practices using AI assistants for spec writing, code
+    generation, test coverage, and incident response
+  - Partner with firmware, mobile, product, and platform teams to define APIs and
+    integration patterns across the hardware-software boundary
+  - Lead medium-sized cross-functional initiatives coordinating work of other engineers
+  - Mentor junior engineers through code reviews and coaching on engineering best
+    practices
+  - Identify risks, bottlenecks, and security gaps, building automation and tests
+    to prevent regressions
+  - Participate in on-call rotation and contribute to high-severity incident response
+    and post-mortems
+  use_cases:
+  - Real-time device state management for connected hardware fleet
+  - High-frequency telemetry ingestion from IoT tracking devices
+  - Command and control of remote hardware devices
+  - Cloud infrastructure translating physical-world signals into family-facing experiences
+  - Scalable data pipelines for device telemetry at massive scale
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot]
+    ml: []
+    web: []
+    databases: [DynamoDB]
+    data: [Kinesis, Kafka, Data Pipelines, Time-Series Data]
+    cloud: [AWS, EKS, AWS Lambda, SQS]
+    ops: [Prometheus, Grafana, OpenTelemetry, Datadog, Kubernetes, CI/CD]
+    languages: [Python, Go, SQL]
+    domains: [IoT]
+    other: [Distributed Systems, MQTT, BLE, CoAP]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9637017'
+  extracted_at: '2026-06-25T19:49:57.582766'

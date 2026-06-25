@@ -1,0 +1,58 @@
+company:
+  name: Zinnia (zinnia.com)
+  stage: Series C or later (public-equivalent scale with $180B AUA)
+  focus: Technology platform for life insurance and annuities
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves building, deploying, and productionizing
+      agentic AI systems directly, including multi-step tool-using
+      agents, RAG systems, and LLM-based transaction processing.
+      The engineer designs orchestration frameworks, implements
+      evaluation pipelines, and deploys models in production
+      environments - this is hands-on work with AI models and
+      agents, not just infrastructure support.
+  responsibilities:
+  - Design and implement core architecture of AI agentic platform including orchestration
+    frameworks for multi-step tool-using agents and retrieval systems
+  - Build and maintain agentic transaction processing systems that embed AI into operational
+    workflows for classification, validation, routing, and task completion
+  - Develop experimentation backbone with offline evaluation pipelines, regression
+    test suites for non-deterministic systems, and backtesting frameworks
+  - Design and execute controlled A/B tests in production and define statistical guardrails
+    for AI/ML model promotion
+  - Implement continuous monitoring systems tracking accuracy, confidence, grounding
+    fidelity, latency, cost, and drift
+  - Establish reusable components and standards to enable platform adoption without
+    duplicating logic or fragmenting architecture
+  use_cases:
+  - Insurance transaction automation - classification, validation, routing, and automated
+    completion of insurance transactions
+  - Enterprise knowledge retrieval - unified retrieval systems combining structured
+    and unstructured insurance data
+  - Customer interaction assistance - intelligent agent networks serving multiple
+    user experience personas
+  - Operational workflow intelligence - embedding AI directly into insurance buying,
+    selling, and administration workflows
+  - Regulated environment decisioning - safe, auditable AI systems for financial and
+    insurance operations
+  skills:
+    genai: [RAG (Retrieval-Augmented Generation), MCP (Model Context Protocol), Multi-step
+        agentic workflows]
+    ml: []
+    web: [FastAPI, Pydantic, Express, Fastify]
+    databases: [Knowledge graphs, Vector databases]
+    data: []
+    cloud: [Cloud-native distributed systems]
+    ops: [Langfuse, LangSmith, Ragas, A/B testing, LLM evaluation and guardrails,
+      pytest, jest, Git/PR hygiene, CI/CD, Observability and monitoring]
+    languages: [Python, TypeScript, async]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9417623'
+  extracted_at: '2026-05-29T09:03:57.902041'

@@ -1,0 +1,54 @@
+company:
+  name: Turing
+  stage: Series B or later
+  focus: |-
+    Research accelerator for frontier AI labs and enterprise AI
+    systems deployment
+position:
+  title: Senior Gen AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on role directly building AI/ML systems. The
+      engineer will design and deploy LLM-powered agents,
+      implement RAG pipelines, train GNNs, and work with
+      LangChain/LangGraph/LlamaIndex frameworks to create
+      autonomous reasoning systems. This is core AI engineering
+      work, not support infrastructure.
+  responsibilities:
+  - Design, build and maintain large-scale property graphs and RDF triplestores using
+    Neo4j, Amazon Neptune, or Stardog
+  - Architect and implement autonomous agents that plan multi-step reasoning chains
+    over knowledge graph data using LLMs
+  - Build graph-aware RAG pipelines that blend structured graph context with unstructured
+    document retrieval
+  - Implement graph ingestion pipelines that extract, transform, and link entities
+    from structured and unstructured data
+  - Train and deploy graph neural networks for node classification, link prediction,
+    and subgraph retrieval
+  - Package agents as scalable microservices with observability tooling for tracing,
+    latency, and token cost monitoring
+  use_cases:
+  - Intelligence analysis and knowledge reasoning over large-scale knowledge graphs
+  - Enterprise data fusion integrating web sources, APIs, and structured databases
+  - Autonomous agent systems for multi-step reasoning and decision support
+  - Real-time context enrichment using OSINT, news feeds, and streaming data
+  - Link analysis and entity resolution for trade-craft and intelligence applications
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Semantic Kernel, RAG,
+      prompt engineering, function calling, LLMs]
+    ml: [GNNs]
+    web: [Playwright, Scrapy, REST, GraphQL]
+    databases: [Neo4j, Amazon Neptune, TigerGraph, Stardog, Pinecone, Weaviate, pgvector,
+      Cypher, SPARQL, Gremlin]
+    data: [GraphML, RDF, OWL, JSON-LD, Kafka, Kinesis]
+    cloud: [AWS, GCP, Azure]
+    ops: [Docker, Kubernetes, CI/CD]
+    languages: [Python, Java, Kotlin]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9281550'
+  extracted_at: '2026-05-29T09:00:25.189611'

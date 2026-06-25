@@ -1,0 +1,50 @@
+company:
+  name: GlobalFoundries
+  stage: Public
+  focus: Semiconductor foundry and RISC-V CPU design
+position:
+  title: AI CPU Design Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing the actual hardware
+      architecture of an AI-enabled RISC-V CPU processor,
+      including AI matrix engines and vector extensions. The
+      engineer directly builds the compute substrate that enables
+      AI workloads at the silicon level, which is foundational AI
+      system design rather than support work.
+  responsibilities:
+  - Drive microarchitecture and design of critical blocks of the AI-enabled RISC-V
+    CPU core
+  - Design the RISC-V Vector CPU core and its custom extensions
+  - Design AI-enabled Matrix engine to augment the Vector CPU for AI workloads
+  - Develop microarchitecture specifications from early architectural exploration
+    through detailed design
+  - Develop, assess, and refine RTL design targeting power, performance, area, and
+    timing goals
+  - Perform functional verification support and assist in design verification strategy
+  - Partner with multi-functional engineering teams to validate physical design aspects
+    including timing, area, reliability, testability, and power
+  use_cases:
+  - AI-enabled RISC-V CPU processors for Physical AI applications
+  - Vector and matrix processing for AI/ML acceleration in hardware
+  - High-performance computing with AI matrix extensions
+  - SoC-level CPU integration for AI-capable systems
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Functional Verification]
+    languages: [SystemVerilog, Verilog, VHDL, Python, Perl]
+    domains: [RISC-V CPU Architecture, MIPS CPU Architecture, ARM CPU Architecture,
+      Microprocessor Architecture, Vector Processor Design, Matrix Processing Design,
+      Hardware Multi-threading, SIMD Design, Low-power Microarchitecture]
+    other: [RTL Design, SoC Integration, Logic Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9702127'
+  extracted_at: '2026-06-25T19:44:34.835894'

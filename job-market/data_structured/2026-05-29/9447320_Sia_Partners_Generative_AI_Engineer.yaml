@@ -1,0 +1,56 @@
+company:
+  name: Sia Partners
+  stage: Unknown - established firm (founded 1999)
+  focus: |-
+    Global management consulting with AI, data science, and
+    digital transformation services across industries
+position:
+  title: Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role requiring hands-on work building
+      GenAI applications including LLM integration, RAG pipelines,
+      prompt engineering, fine-tuning strategies (PEFT, LoRA), and
+      deploying models on cloud platforms. The engineer directly
+      implements agents, chains, and semantic search solutions,
+      not just enabling infrastructure for others.
+  responsibilities:
+  - Build applications powered by LLMs using LangChain, LlamaIndex, and related GenAI
+    frameworks
+  - Implement RAG pipelines with vector databases for grounding LLM responses with
+    internal knowledge
+  - Develop multimodal AI solutions and build autonomous agents
+  - Drive MLOps excellence including CI/CD pipelines, drift detection, canary releases,
+    and retraining schedules
+  - Design robust prompt templates using CoT, ReAct, Graph-of-Thought, and Agent flows
+  - Deploy GenAI models on AWS/GCP/Azure using SageMaker, Bedrock, and Vertex AI
+  - Ensure performance observability, security guardrails, and compliance including
+    GDPR and Responsible AI
+  - Evaluate fine-tuning strategies and benchmark LLMs for use-case fit and cost-performance
+    tradeoffs
+  use_cases:
+  - Enterprise knowledge management and semantic search across internal documents
+  - Customer support automation with RAG-powered conversational AI
+  - Business process automation using autonomous agents and LLM workflows
+  - Industry-specific GenAI solutions for banking, energy, healthcare, and technology
+    sectors
+  - Multimodal AI applications combining text, audio, and image processing
+  - Regulatory compliance and responsible AI implementations with guardrails
+  skills:
+    genai: [LangChain, LlamaIndex, OpenAI API, Claude, Mistral, RAG, Semantic Search,
+      Agents, Prompt Engineering, CoT, ReAct, Graph-of-Thought, PEFT, LoRA]
+    ml: [RLHF, PyTorch, Hugging Face, Transformer Architectures, Embeddings]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Pinecone, FAISS, pgvector, ChromaDB, Qdrant, Milvus, Weaviate]
+    data: []
+    cloud: [AWS, GCP, Azure, SageMaker, Bedrock, Vertex AI]
+    ops: [MLflow, CI/CD, Drift Detection, Canary Releases, MLOps, Docker, Kubernetes]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9447320'
+  extracted_at: '2026-05-29T09:05:46.687380'

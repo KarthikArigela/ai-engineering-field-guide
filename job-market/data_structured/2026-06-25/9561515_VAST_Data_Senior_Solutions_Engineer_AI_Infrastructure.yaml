@@ -1,0 +1,55 @@
+company:
+  name: VAST Data
+  stage: Public
+  focus: AI-scale unstructured data storage and computing
+position:
+  title: Senior Solutions Engineer, AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a customer-facing solutions architect role focused
+      on designing and deploying AI/HPC infrastructure (storage,
+      networking, GPU clusters) for customers, not building or
+      training AI/ML models directly. The role enables AI
+      workloads by architecting the underlying infrastructure
+      platform, making it clearly ai-support.
+  responsibilities:
+  - Lead technical discovery with customers across infrastructure, platform, ML, data,
+    and executive stakeholders
+  - Design architectures for large-scale AI, HPC, analytics, and enterprise data workloads
+  - Help customers evaluate infrastructure involving GPUs, storage, networking, orchestration,
+    and data movement
+  - Translate complex technical requirements into clear solution designs, reference
+    architectures, and deployment guidance
+  - Debug customer issues across Linux, storage, networking, Kubernetes, schedulers,
+    GPUs, and application workloads
+  - Build technical assets, runbooks, and field guidance for repeatable customer engagements
+  - Partner with product and engineering to communicate customer requirements, gaps,
+    and roadmap opportunities
+  - Guide customers from architecture design through to production deployment
+  use_cases:
+  - Large-scale GPU cluster infrastructure design for distributed AI training
+  - Petabyte-scale high-performance storage systems for data-intensive workloads
+  - High-performance networking architecture for 10,000+ GPU environments
+  - Kubernetes and orchestration platforms for AI/HPC workloads
+  - Inference platform and model-serving infrastructure deployment
+  - Enterprise data lakehouse and analytics infrastructure
+  skills:
+    genai: []
+    ml: [Distributed training]
+    web: []
+    databases: ['Storage systems (NAND, write amplification)', Lustre, Ceph, Weka,
+      BeeGFS, GPFS, Distributed filesystems, Object storage]
+    data: [Ray, Spark, Dataset staging]
+    cloud: [Cloud infrastructure]
+    ops: [Linux, Kubernetes, GPU infrastructure, CUDA, NCCL, DCGM, GPUDirect, InfiniBand,
+      RoCE, RDMA, Slurm, MLOps, Inference infrastructure, Checkpointing, Model-serving
+        infrastructure, Load balancing, Production operations]
+    languages: []
+    domains: []
+    other: ['Distributed systems (PAXOS, Raft)', NVIDIA/Mellanox networking, HPC systems]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9561515'
+  extracted_at: '2026-06-25T19:43:34.083031'

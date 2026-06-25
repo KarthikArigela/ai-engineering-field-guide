@@ -1,0 +1,61 @@
+company:
+  name: TWG Global
+  stage: Public
+  focus: |-
+    AI-first business transformation across financial services,
+    insurance, technology, media, and sports
+position:
+  title: iOS Software Engineer, AI Engineering
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a Forward Deployed Engineer role that builds and
+      deploys AI capabilities directly to users through a native
+      mobile client. The engineer implements on-device ML (CoreML,
+      Whisper, TTS), integrates with LLM/agent backends, handles
+      streaming AI responses, and surfaces agent capabilities in
+      the iOS application. This is hands-on work with AI systems
+      (building, deploying, optimizing AI user experiences), not
+      just infrastructure support.
+  responsibilities:
+  - Architect and build iOS application using Swift and SwiftUI, establishing patterns
+    for UI, state management, and data flow
+  - Integrate with backend AI agent services, including streaming responses, tool-call
+    results, and multi-step workflow state
+  - Implement push notifications, background refresh, and local persistence to support
+    real-time agent interactions
+  - Build and maintain networking layers for authenticated API calls, streaming, retries,
+    and offline resilience
+  - Explore and implement on-device ML capabilities including CoreML models, NLContextualEmbedding,
+    and audio pipelines
+  - Own App Store release process end-to-end including builds, certificates, provisioning,
+    TestFlight distribution, and production releases
+  - Drive code quality and testing discipline through unit tests, UI tests, and code
+    review
+  - Mentor junior engineers and raise engineering standards across the mobile codebase
+  use_cases:
+  - Agentic AI platform delivering real-time intelligence and interactive business
+    applications
+  - AI-powered conversational interfaces with streaming responses and tool-call capabilities
+  - On-device speech processing with Whisper and TTS for audio interactions
+  - Multi-step agent workflows surfaced through native mobile client
+  - Real-time agent interactions with push notifications and background processing
+  - AI-driven decision support for financial services, insurance, technology, media,
+    and sports industries
+  skills:
+    genai: [MCP (Model Context Protocol), Anthropic API, OpenAI API, Google LLM API,
+      LLM streaming, Tool calls, Agent workflows]
+    ml: [CoreML, NLContextualEmbedding, Whisper, TTS]
+    web: [SwiftUI, UIKit, APNs, URLSession, REST API, OAuth]
+    databases: []
+    data: []
+    cloud: [RBAC]
+    ops: [Instruments]
+    languages: [Swift, XCTest]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9539314'
+  extracted_at: '2026-05-29T09:11:12.868412'

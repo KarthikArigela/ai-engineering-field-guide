@@ -1,0 +1,49 @@
+company:
+  name: Coder
+  stage: Unknown
+  focus: |-
+    Self-hosted AI development environment for agentic AI
+    governance
+position:
+  title: Software Engineer (AI Governance)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an AI governance role building infrastructure (AI
+      Gateway, Agent Firewall) that controls and monitors LLM
+      usage rather than building, training, or fine-tuning models.
+      The role focuses on full-stack engineering for a platform
+      that enables AI governance, security, and policy enforcement
+      - working alongside AI systems but not directly on them.
+  responsibilities:
+  - Build and maintain AI Gateway for centralized LLM management and audit trails
+  - Develop Agent Firewall with default-deny network policies for workspace security
+  - Ship full-stack features from Go backend to React frontend
+  - Implement token tracking, cost control, and centralized authentication mechanisms
+  - Collaborate with enterprise customers on real-world policy and governance requirements
+  - Integrate with LLM provider APIs and maintain compatibility with coding agents
+  - Contribute to Coder's open-source ecosystem and document system designs
+  - Work with Customer Success to support enterprise user base
+  use_cases:
+  - AI governance and auditability for enterprise LLM usage
+  - Security policy enforcement for AI coding agents
+  - Cost control and token tracking for LLM spend management
+  - Centralized authentication and access control for AI tools
+  - Network policy management for agent workspace isolation
+  - Self-hosted AI development environment with policy-driven controls
+  skills:
+    genai: [LLM Provider APIs]
+    ml: []
+    web: [React, Vite, gRPC, APIs]
+    databases: [Postgres]
+    data: []
+    cloud: [GCP]
+    ops: [Kubernetes, Docker, GitHub Actions, Prometheus, Grafana]
+    languages: [Go, TypeScript]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9443775'
+  extracted_at: '2026-05-29T09:05:59.653155'

@@ -1,0 +1,60 @@
+company:
+  name: Genius Sports
+  stage: Public
+  focus: |-
+    Sports technology, live data, AI-powered sports analysis and
+    broadcasting
+position:
+  title: Senior Software Engineer, Sports AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building real-time AI
+      systems that process live sports broadcasts using multimodal
+      models (video, audio, commentary) to generate structured
+      insights. The role involves directly integrating LLMs and AI
+      models into production pipelines, handling model outputs,
+      and operating AI-powered systems that deliver automated
+      sports analysis.
+  responsibilities:
+  - Design, build, and operate real-time streaming systems that convert live sports
+    broadcasts into structured events, attributes, and insights
+  - Ingest and synchronize signals from video, audio, commentary, and data feeds under
+    real-world latency and reliability constraints
+  - Integrate modern AI models into production systems, including multi-step pipelines
+    where model outputs are composed, validated, and refined
+  - Design and implement evaluation and observability frameworks to measure system
+    quality, including offline benchmarks, real-time metrics, and regression testing
+  - Develop mechanisms for identifying and handling uncertainty in model outputs,
+    such as confidence scoring, validation checks, and human-in-the-loop workflows
+  - Own systems end-to-end from early prototypes through production, making key architectural
+    decisions around scalability, reliability, and performance
+  - Collaborate closely with product and data partners to shape, prioritize, and ship
+    high-impact systems
+  - Mentor engineers and help establish best practices for building and operating
+    applied AI systems in production
+  use_cases:
+  - Automated highlight clipping from live sports broadcasts
+  - Augmented broadcasts with real-time AI-generated overlays and insights
+  - Semi-automatic play-by-play collection using multimodal signal processing
+  - Natural-language insight generation for sports commentary and analysis
+  - Real-time event detection such as goals, player attribution, and localization
+    on the field
+  - Game context understanding from combined video, audio, commentary, and crowd noise
+    signals
+  skills:
+    genai: [LLMs]
+    ml: [multimodal AI models]
+    web: [HLS, DASH, RTP]
+    databases: []
+    data: [Kafka, Pulsar, Flink, streaming systems]
+    cloud: [Vertex AI, AWS Bedrock]
+    ops: [distributed systems, human-in-the-loop workflows, FFmpeg, GStreamer, observability]
+    languages: [Rust, Python]
+    domains: []
+    other: [system design, testing]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9302212'
+  extracted_at: '2026-05-29T09:01:10.421724'

@@ -1,0 +1,64 @@
+company:
+  name: Navitas Business Consulting
+  stage: null
+  focus: |-
+    Digital transformation solutions and technology consulting
+    for commercial, federal, and state/local markets
+position:
+  title: '26-2253: Data Engineer, AI/BI: Hyderabad, India'
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Data Engineer role focused on building data
+      infrastructure, pipelines, and platforms that enable AI/ML
+      work. The responsibilities involve designing data lakes,
+      ETL/ELT pipelines, and data governance - all supporting
+      AI/ML teams rather than directly building or deploying
+      models. While the role mentions "AI/ML-ready data
+      foundation" and supporting MLflow deployments, the core work
+      is data engineering infrastructure to enable others to work
+      with AI.
+  responsibilities:
+  - Design, implement, and optimize end-to-end data pipelines on Databricks following
+    Medallion Architecture principles
+  - Build robust and scalable ETL/ELT pipelines using Apache Spark and Delta Lake
+    to transform raw data into trusted curated layers
+  - Operationalize Databricks Workflows for orchestration, dependency management,
+    and pipeline automation
+  - Connect and ingest data from enterprise systems such as PeopleSoft, D2L, and Salesforce
+    using APIs and JDBC
+  - Develop data quality checks, validation rules, and anomaly detection mechanisms
+    to ensure data integrity
+  - Implement Unity Catalog for centralized metadata management, data lineage, and
+    governance policy enforcement
+  - Architect and manage data lakes on Azure Data Lake Storage or Amazon S3 and design
+    ingestion pipelines
+  - Enable data scientists by delivering high-quality data sets for model training
+    and inference, supporting MLflow for experiment tracking
+  use_cases:
+  - Building data platforms for machine learning, AI/BI, and analytics at scale
+  - Orchestrating complex data workflows integrating enterprise systems like PeopleSoft,
+    D2L, and Salesforce
+  - Delivering high-quality, governed data for predictive modeling and strategic decision-making
+  - Supporting AIOps/MLOps lifecycle workflows with feature stores and training pipelines
+  - Enabling row-level security and data masking for compliance with privacy regulations
+  - Providing data foundation for AI/ML model training and inference in cloud-native
+    environments
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Delta Lake, Unity Catalog]
+    data: [Databricks, Apache Spark, Medallion Architecture, ETL/ELT, PeopleSoft,
+      D2L, Salesforce, Databricks Workflows, data governance, data lineage, metadata
+        management]
+    cloud: [Azure Data Lake Storage, Amazon S3]
+    ops: [Grafana, MLflow, MLOps]
+    languages: [SQL, Python, Scala]
+    domains: []
+    other: [GDPR, FERPA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9223487'
+  extracted_at: '2026-05-29T08:57:17.450801'

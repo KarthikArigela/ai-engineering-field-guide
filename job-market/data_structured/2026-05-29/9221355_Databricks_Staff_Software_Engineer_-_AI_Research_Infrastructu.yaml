@@ -1,0 +1,56 @@
+company:
+  name: Databricks
+  stage: Public
+  focus: |-
+    Data and AI platform (Lakehouse, Spark, MLflow, AI/ML
+    infrastructure)
+position:
+  title: Staff Software Engineer - AI Research Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an infrastructure engineering role focused on
+      building the platform and tooling that supports AI research
+      workloads. The engineer designs schedulers, orchestration
+      systems, and dev tooling to enable researchers to train and
+      evaluate models, but does not directly build, train, fine-
+      tune, or deploy the models themselves. The role is about
+      enabling others to do AI work through robust infrastructure
+      and abstractions.
+  responsibilities:
+  - Design and implement infrastructure that supports large-scale experiments, data
+    processing, and model training using HPC clusters, GPU fleets, or cloud-based
+    systems
+  - Enable researchers to go from idea to large-scale experiment in minutes by building
+    powerful abstractions for job submission, scheduling, and monitoring
+  - Create tooling that improves research developer productivity including experiment
+    management systems, CI/testing infrastructure, and workflows that reduce iteration
+    time
+  - Influence the long-term roadmap for research computation and shape how Databricks
+    AI Research trains, evaluates, and ships models to customers
+  - Partner closely with research scientists, ML engineers, and platform teams to
+    turn experimental workloads into robust, repeatable pipelines
+  use_cases:
+  - Large-scale ML model training and inference experiments across thousands of GPUs
+  - Research experiment orchestration and scheduling for AI model development
+  - Multi-agent architecture development and LLM post-training workflows
+  - High-performance computing clusters for AI research workloads
+  - Experiment management and CI/CD infrastructure for research code
+  skills:
+    genai: []
+    ml: [GPU Computing, Distributed Training, Model Parallelism, Fine-tuning, Model
+        Evaluation]
+    web: []
+    databases: []
+    data: [Ray, Data Pipelines]
+    cloud: [Cloud Platforms, HPC Clusters]
+    ops: [Distributed Systems, Kubernetes, Slurm, Job Scheduling, Resource Management,
+      MLflow, CI/CD, Monitoring]
+    languages: [C++, Rust, Go, Java, Scala]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9221355'
+  extracted_at: '2026-05-29T08:56:24.905363'

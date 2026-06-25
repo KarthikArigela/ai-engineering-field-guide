@@ -1,0 +1,56 @@
+company:
+  name: Gallatin AI, Inc.
+  stage: null
+  focus: AI-powered logistics infrastructure for national security
+position:
+  title: AI Engineer - Allocation and Packing Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing and implementing
+      AI/optimization models for allocation and packing systems
+      that directly determine logistics decisions. The engineer
+      builds, tunes, and deploys allocation models (heuristic,
+      exact, and constraint-based) into production workflows,
+      which constitutes hands-on work building and deploying
+      AI/optimization systems. While it leans heavily on
+      operations research rather than LLMs, the role is explicitly
+      building AI systems for decision-making.
+  responsibilities:
+  - Design and implement packing and allocation models for transport assets
+  - Encode constraints related to volume, weight, compatibility, sequencing, and asset
+    usage
+  - Implement and tune heuristics or exact approaches for packing and allocation problems
+  - Scale packing solutions across large fleets and dynamic inputs
+  - Own data inputs required for allocation and packing, including asset and supply
+    properties
+  - Validate, normalize, and maintain packing-related datasets
+  - Integrate packing outputs into resupply and routing workflows
+  - Validate solutions through scenario testing and operational feedback to ensure
+    physical feasibility
+  use_cases:
+  - Transport asset packing and allocation for military logistics
+  - Bin packing, knapsack, and multidimensional (2D/3D) packing optimization
+  - Constraint-based resource allocation under competing demands in contested environments
+  - Vehicle loading and palletization planning
+  - Resupply and routing workflow optimization for national security missions
+  - Decision advantage systems for defense operations and disaster response
+  skills:
+    genai: []
+    ml: [Linear Programming, Mixed-Integer Programming, Heuristic and Approximation
+        Methods, Machine Learning, Causal Inference]
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: [Operations Research, Optimization, Bin Packing, Knapsack Problems, Multidimensional
+        (2D/3D) Packing, Constraint-Based Allocation, Resource Allocation Algorithms,
+      Applied Mathematics]
+    other: [A/B Testing, Simulation Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9575015'
+  extracted_at: '2026-06-25T19:42:26.928765'

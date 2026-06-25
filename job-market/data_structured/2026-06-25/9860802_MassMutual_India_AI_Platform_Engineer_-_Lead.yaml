@@ -1,0 +1,56 @@
+company:
+  name: MassMutual India
+  stage: Public
+  focus: Life insurance and financial services
+position:
+  title: AI Platform Engineer - Lead
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a platform/infrastructure lead focused on
+      building cloud-native platforms (Kubernetes, IaC, GitOps)
+      that support engineering teams. While it requires hands-on
+      experience with AI/ML infrastructure (model serving,
+      inference pipelines, GPU management), the primary
+      responsibility is platform engineering and infrastructure
+      leadership, not directly building or deploying AI models.
+      The AI/ML infrastructure work is enabling other teams to run
+      AI workloads.
+  responsibilities:
+  - Lead platform engineering initiatives from design through production, managing
+    ambiguity and technical risk across multi-month projects
+  - Architect and operate cloud-native infrastructure at scale including Kubernetes
+    clusters, networking, identity federation, and multi-tenancy patterns
+  - Standardize platform tooling and deployment patterns across engineering teams
+    using IaC and GitOps practices
+  - Build and maintain AI/ML infrastructure including model serving, inference pipelines,
+    and GPU resource management
+  - Drive technical alignment and influence design decisions across teams without
+    direct authority
+  - Ensure platform compliance with enterprise frameworks such as SOC 2, ISO 27001,
+    or GDPR
+  - Write clear design docs and architectural decision records (ADRs) for both technical
+    and non-technical stakeholders
+  use_cases:
+  - Cloud-native platform infrastructure for engineering teams
+  - AI/ML model serving and inference infrastructure
+  - GPU resource management for ML workloads
+  - Multi-tenant Kubernetes platform operations
+  - Standardized deployment and infrastructure automation
+  skills:
+    genai: [LLM Integration Patterns]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubernetes, Terraform, Pulumi, ArgoCD, GitOps, Docker, Model Serving, Inference
+        Pipelines, GPU Resource Management, Multi-tenancy Patterns, Identity Federation]
+    languages: [Python]
+    domains: []
+    other: [SOC 2, ISO 27001, GDPR]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9860802'
+  extracted_at: '2026-06-25T19:52:37.753481'

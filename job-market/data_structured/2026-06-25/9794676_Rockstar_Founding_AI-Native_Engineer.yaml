@@ -1,0 +1,57 @@
+company:
+  name: Rockstar
+  stage: Pre-seed / Seed
+  focus: AI-native patient access operations platform for biopharma
+position:
+  title: Founding AI-Native Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly designing, building, and
+      shipping AI agents that run core business workflows (patient
+      case lifecycle), including evaluation harnesses, confidence
+      thresholds, and human-in-the-loop systems. The candidate
+      will work with LLMs as a primary architectural primitive —
+      orchestration, retrieval, tool use, structured output, and
+      evals — not merely supporting someone else's AI work.
+  responsibilities:
+  - Design and ship AI agents that manage the full patient case lifecycle including
+    intake, document extraction, data validation, coverage verification, and patient
+    communication
+  - Build evaluation harnesses, confidence thresholds, and human-in-the-loop boundaries
+    for AI agent decision-making
+  - Design and implement PHI-aware data architecture including de-identification pipelines,
+    tokenization layers, and audit trails for model calls
+  - Build integrations with healthcare systems of record and dependent services, plus
+    the orchestration layer coordinating across them
+  - Own production reliability including on-call, incident response, rollback strategy,
+    and strict uptime SLAs
+  - Work directly with operations, IT, and clinical teams during discovery, UAT, and
+    go-live
+  - Make foundational architectural decisions as a founding engineer that shape the
+    product for years
+  use_cases:
+  - AI-driven patient case lifecycle management including application intake and document
+    extraction
+  - Automated coverage verification and data validation for patient assistance programs
+  - Patient communication and missing-information follow-up automation
+  - PHI-safe AI inference with de-identification and re-identification tokenization
+  - Human-in-the-loop AI agent governance for regulated healthcare workflows
+  skills:
+    genai: [LLM orchestration, Retrieval / RAG, LLM tool use / function calling, Structured
+        output generation, LLM evaluation harnesses, AI agents, Model failure mode
+        handling]
+    ml: []
+    web: [API design]
+    databases: [Relational databases]
+    data: [Document extraction]
+    cloud: [AWS]
+    ops: [Containerized services]
+    languages: [Python, TypeScript, Kotlin, Go, SQL]
+    domains: [Healthcare compliance (PHI/HIPAA)]
+    other: [Figma, Salesforce ecosystem]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9794676'
+  extracted_at: '2026-06-25T19:58:19.181500'

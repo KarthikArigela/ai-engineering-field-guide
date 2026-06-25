@@ -1,0 +1,60 @@
+company:
+  name: MLabs
+  stage: Seed
+  focus: Autonomous agent runtime for high-frequency trading
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and deploying autonomous AI
+      agents, fine-tuning domain-specific models (PEFT/LoRA),
+      optimizing LLM inference (vLLM, TGI), and implementing
+      reinforcement/online learning systems for a fleet of trading
+      agents. The engineer directly works on training, fine-
+      tuning, serving, and optimizing AI models and multi-agent
+      systems in production.
+  responsibilities:
+  - Design and implement feedback loop systems connecting trade outcomes to strategy
+    improvement including signal selection, risk parameters, position sizing, and
+    timing
+  - Build evaluation frameworks to quantify which signals and market conditions predict
+    profitable trades versus noise
+  - Develop automated strategy generation systems that explore new configurations,
+    backtest against real fleet data, and surface deployment candidates
+  - Build market adaptation mechanisms to detect shifts in market conditions and adapt
+    fleet behavior in real-time
+  - Create higher-order monitoring agents to catch configuration errors and performance
+    degradation across concurrent agents
+  - Decompose trades into component drivers to feed insights back into strategy design
+    and manage concentration risk across the fleet
+  - Own model infrastructure transition from external LLM dependence to controlled
+    intelligence including hosting strategies and fine-tuned domain-specific models
+  - Build telemetry and data capture layer ensuring every decision and outcome is
+    structured and queryable
+  - Optimize inference for many concurrent agents ensuring structured decision outputs
+    and cost-efficiency at scale
+  use_cases:
+  - Autonomous trading agents that learn from real-time market outcomes
+  - Real-time market condition detection and adaptive fleet behavior
+  - Automated strategy generation and backtesting against live trading data
+  - Multi-agent coordination with concentration risk and capital allocation management
+  - Domain-specific model fine-tuning for financial decision-making in DeFi/on-chain
+    environments
+  skills:
+    genai: [PEFT/LoRA, LLM fine-tuning, Multi-agent systems]
+    ml: [Reinforcement learning, Online learning, Production ML engineering]
+    web: []
+    databases: []
+    data: [Data pipelines]
+    cloud: []
+    ops: [vLLM, TGI, Custom inference pipelines, ML model deployment]
+    languages: [Python, Go, TypeScript]
+    domains: [Signal generation, Alpha research, Portfolio optimization, On-chain
+        data, DeFi protocols]
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9632799'
+  extracted_at: '2026-06-25T19:46:49.396030'

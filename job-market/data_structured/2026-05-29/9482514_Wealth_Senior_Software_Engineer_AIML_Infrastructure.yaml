@@ -1,0 +1,57 @@
+company:
+  name: Wealth
+  stage: Series B+
+  focus: Estate planning platform for wealth management firms
+position:
+  title: Senior Software Engineer, AI/ML (Infrastructure & Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is AI-first because the engineer works directly ON
+      AI systems - building platforms for LLM orchestration, agent
+      workflows, RAG pipelines, and tool/skill abstractions. They
+      design and implement the core infrastructure for model
+      integrations, agentic systems, and AI evaluation frameworks,
+      which is hands-on work with AI/ML systems rather than just
+      supporting infrastructure for other teams.
+  responsibilities:
+  - Design and implement platforms for LLM orchestration, tool execution, and agent
+    workflows
+  - Build reusable tool and skill abstractions including APIs, workflows, and integrations
+    for AI systems
+  - Develop infrastructure to support multi-step agents with state management, tool
+    routing, and failure handling
+  - Build frameworks for offline and online evaluation of AI systems with logging
+    and monitoring
+  - Design scalable RAG pipelines, indexing systems, and data processing workflows
+    for unstructured data
+  - Create internal platforms, SDKs, and developer tooling to enable safe AI capability
+    integration
+  - Ensure high availability, fault tolerance, and cost optimization across AI workloads
+  - Partner with AI Applications engineers to translate product needs into scalable
+    infrastructure solutions
+  use_cases:
+  - Estate planning document generation and processing
+  - Agentic workflows for financial guidance and client support
+  - Retrieval-augmented generation for legal and financial knowledge
+  - Multi-step reasoning agents for complex estate planning strategies
+  - Tool-based integrations with financial systems and data sources
+  - Real-time AI evaluation and monitoring in regulated financial environment
+  skills:
+    genai: [LangChain, LangGraph, RAG, Agent orchestration, Tool/skill abstractions,
+      Function calling, LLM orchestration]
+    ml: []
+    web: [System design, APIs]
+    databases: [Pinecone, Weaviate, pgvector, Vector databases]
+    data: []
+    cloud: [GCP, AWS, Cloud Run, ECS, Lambda]
+    ops: [Docker, Kubernetes, CI/CD, MLOps, Production monitoring, Distributed systems,
+      Event-driven systems, Queues, Async processing]
+    languages: [Python, TypeScript, C#]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9482514'
+  extracted_at: '2026-05-29T09:08:26.322800'

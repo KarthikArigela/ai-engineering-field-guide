@@ -1,0 +1,53 @@
+company:
+  name: Version 1
+  stage: Established (30+ years, €350m revenue)
+  focus: Technology and digital transformation consulting services
+position:
+  title: AI Infrastructure Engineer / AI Infrastructure Consultant
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on building and operating the
+      infrastructure backbone (Kubernetes, cloud, MLOps pipelines,
+      DevOps) that supports AI/ML workloads, rather than directly
+      building, training, or deploying models. The engineer
+      enables ML and application teams by providing scalable
+      infrastructure, making this an AI-support role.
+  responsibilities:
+  - Architect and implement scalable infrastructure for AI and ML workloads including
+    training, evaluation, and inference
+  - Design and operate Kubernetes-based platforms for multi-tenant production AI systems
+  - Build and refine MLOps pipelines covering model versioning, experiment tracking,
+    CI/CD, deployment, monitoring, and rollback
+  - Establish DevOps best practices across infrastructure, application, and ML layers
+  - Lead security-first infrastructure design including access control, secrets management,
+    isolation, observability, and auditability
+  - Deploy and operate enterprise-grade production systems with strong uptime and
+    reliability standards
+  - Leverage AI coding agents and developer copilots to accelerate engineering workflows
+  - Partner with ML engineers and application teams to translate research and product
+    requirements into scalable infrastructure
+  use_cases:
+  - Scalable infrastructure for AI/ML training, evaluation, and inference workloads
+  - Multi-tenant Kubernetes platforms for production AI systems
+  - MLOps pipelines for model lifecycle management including versioning, deployment,
+    and rollback
+  - Security-first infrastructure for regulated or high-reliability AI environments
+  - Internal developer platforms serving multiple engineering teams
+  skills:
+    genai: [AI coding agents / AI-assisted development tools]
+    ml: []
+    web: []
+    databases: [Snowflake]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Kubernetes, MLOps, MLflow, Terraform, Pulumi, Docker, CI/CD, 'Monitoring
+        (Datadog, Prometheus, Grafana)', Infrastructure-as-Code, GPU workload management]
+    languages: [Go, Python]
+    domains: []
+    other: [SOC2, ISO standards, Zero-trust architectures]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9659899'
+  extracted_at: '2026-06-25T19:44:24.788027'

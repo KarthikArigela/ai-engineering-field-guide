@@ -1,0 +1,53 @@
+company:
+  name: Flora Fauna AI
+  stage: Series A/B (backed by tier-one VCs)
+  focus: Creative operating system for generative AI
+position:
+  title: Backend Engineer - Applied AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds backend infrastructure (execution engine,
+      routing layer, caching) that supports Flora's multi-modal AI
+      engine, but does not involve directly building, training,
+      fine-tuning, or deploying AI models. The engineer works near
+      AI (routing generative APIs, managing payloads) but the work
+      is platform/infrastructure engineering enabling the AI
+      systems to run.
+  responsibilities:
+  - Design and own a centralized execution engine that routes every generative tool,
+    external model API, and canvas transformation through a standard path
+  - Architect backend systems to keep the canvas fast and reliable as the platform
+    scales to more generative models and tools
+  - Optimize performance by reducing database query overhead and moving tool configs
+    and execution state into caching and in-memory stores
+  - Build resilience into the routing layer with retries, circuit breakers, and fallbacks
+    to handle generative API timeouts, rate limits, and large payloads
+  - Scale the multi-modal pipeline to millions of users, handling movement, processing,
+    and storage of heavy text, image, and video payloads
+  - Collaborate with product and applied AI teams on infrastructure design and payload
+    management
+  use_cases:
+  - Multi-modal generative AI canvas for creative professionals
+  - Real-time execution of multi-step generative workflows at scale
+  - Routing and orchestration of external generative model APIs and tools
+  - High-resolution image and video processing and streaming
+  - Collaborative creative platform used by enterprises like Pentagram, Lionsgate,
+    and Nike
+  skills:
+    genai: []
+    ml: []
+    web: [Liveblocks, CRDT / multiplayer interfaces]
+    databases: [Caching, In-memory stores, Database query optimization, Convex]
+    data: ['Multi-modal data handling (text, image, video)', Streaming]
+    cloud: [Vercel, Serverless / edge runtime]
+    ops: [Distributed systems, Circuit breakers, Event-driven architecture, Durable
+        workflow engines, Sandboxed code execution]
+    languages: [TypeScript]
+    domains: []
+    other: [Execution graphs / state machines]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9890760'
+  extracted_at: '2026-06-25T19:58:00.386752'

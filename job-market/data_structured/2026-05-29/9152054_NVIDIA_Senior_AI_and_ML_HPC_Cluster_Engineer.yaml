@@ -1,0 +1,55 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: |-
+    GPU computing, AI infrastructure, and high-performance
+    computing
+position:
+  title: Senior AI and ML HPC Cluster Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on infrastructure and operations for
+      GPU clusters that run AI/ML workloads, rather than building,
+      training, or deploying models. The engineer designs,
+      operates, and optimizes HPC systems (compute, networking,
+      storage) that support researchers running AI/HPC workloads.
+      The role involves cluster management, automation, job
+      scheduling, and performance tuning of infrastructure - all
+      enabling work for others who build and run AI models.
+  responsibilities:
+  - Provide leadership and strategic guidance on management of large-scale HPC systems
+    including deployment of compute, networking, and storage
+  - Develop and improve GPU-accelerated computing ecosystem including scalable automation
+    solutions
+  - Build and maintain AI and ML heterogeneous clusters on-premises and in the cloud
+  - Create and cultivate customer and cross-team relationships to sustain clusters
+    and meet evolving user needs
+  - Support researchers to run workloads including performance analysis and optimizations
+  - Conduct root cause analysis and suggest corrective action proactively to prevent
+    issues
+  use_cases:
+  - Deep learning training and inference workloads on GPU clusters
+  - High performance computing workloads requiring large-scale parallel processing
+  - AI/ML research and model development requiring heterogeneous compute environments
+  - Distributed training using MPI and GPU acceleration
+  - Performance analysis and optimization of computationally intensive workloads
+  - Resource utilization management in hybrid cloud/on-premises environments
+  skills:
+    genai: []
+    ml: [CUDA, NCCL, MLPerf, PyTorch, TensorFlow]
+    web: []
+    databases: []
+    data: [Lustre, GPFS]
+    cloud: [InfiniBand, IPoIB, RDMA, GPU computing]
+    ops: [Slurm, Kubernetes, PBS, LSF, Centos/RHEL, Ubuntu, Ansible, Puppet, Salt,
+      Docker, Singularity, Podman, MPI, Cluster management, Performance tuning, Infrastructure
+        automation]
+    languages: [Python, Bash]
+    domains: []
+    other: [HPC]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9152054'
+  extracted_at: '2026-05-29T08:55:30.074434'

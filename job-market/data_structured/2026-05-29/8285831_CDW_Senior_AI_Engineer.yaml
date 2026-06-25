@@ -1,0 +1,59 @@
+company:
+  name: CDW
+  stage: Public
+  focus: |-
+    Fortune 500 IT solutions provider for business, government,
+    education, and healthcare
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building, deploying, and
+      operating Agentic AI systems using LLMs. The engineer will
+      architect multi-agent workflows, build RAG pipelines,
+      implement tool calling layers, and manage LLMOps — all
+      hands-on work with AI models and agents in production.
+  responsibilities:
+  - Architect complex, multi-agent workflows using Microsoft AI tech stack with loops,
+    interruptions, and human-in-the-loop interventions
+  - Build reliable tool layers enabling LLMs to safely interact with internal APIs,
+    databases, and third-party SaaS platforms (Salesforce, Workday, ServiceNow)
+  - Design persistence layers to manage agent memory, conversational history, and
+    context windows efficiently
+  - Build production-grade RAG retrieval pipelines, optimizing vector indexing, document
+    chunking, and re-ranking algorithms
+  - Build CI/CD pipelines for AI including LLM-as-a-Judge testing, scoring agent outputs
+    for accuracy, hallucination, and safety
+  - Instrument applications with tracing tools for observability of agent reasoning
+    chains, latency monitoring, and production debugging
+  - Monitor token usage and latency, optimizing prompt density and caching strategies
+    for cost-effective performance
+  - Rapidly validate new ideas with state-of-the-art models and refactor prototypes
+    into maintainable production code
+  use_cases:
+  - Enterprise AI agents that plan, reason, and execute complex workflows autonomously
+  - Multi-agent orchestration for diverse business user needs across the enterprise
+  - Tool-calling agents interacting with enterprise SaaS platforms like Salesforce,
+    Workday, and ServiceNow
+  - Production-grade RAG for high-precision context retrieval across enterprise data
+  - LLM-as-a-Judge automated evaluation for agent accuracy, hallucination detection,
+    and safety
+  skills:
+    genai: [LangChain, LangGraph, Prompt Engineering, Chain-of-Thought, ReAct, Few-Shot
+        Prompting, RAG, Agentic Systems, Function Calling]
+    ml: []
+    web: [REST APIs]
+    databases: [Pinecone, Weaviate, pgvector, Vector Indexing]
+    data: []
+    cloud: [Microsoft AI tech stack]
+    ops: [CI/CD, LLM-as-a-Judge, LLMOps, Observability and tracing, Token optimization
+        and caching]
+    languages: [Python]
+    domains: []
+    other: [Salesforce integration, Workday integration, ServiceNow integration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8285831'
+  extracted_at: '2026-05-29T08:47:31.347770'

@@ -1,0 +1,59 @@
+company:
+  name: Bright Vision Technologies
+  stage: null
+  focus: Software development and business process automation
+position:
+  title: Edge AI Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is focused on deploying and optimizing traditional
+      ML/DL models on edge devices—quantization, pruning,
+      distillation, and hardware-aware optimization using
+      frameworks like TensorFlow Lite, ONNX Runtime, and Core ML.
+      While there is a preferred mention of LLM on-device
+      inference, the core work is traditional ML model compression
+      and edge deployment, not building LLMs, agents, or RAG
+      systems.
+  responsibilities:
+  - Design and implement edge AI solutions optimized for diverse hardware including
+    mobile SoCs, NPUs, and embedded accelerators
+  - Apply quantization, pruning, distillation, and architectural optimization to fit
+    models within edge constraints
+  - Tune model performance for latency, energy efficiency, and memory footprint on
+    target hardware
+  - Build cross-platform inference runtimes using TensorFlow Lite, ONNX Runtime, and
+    Core ML
+  - Implement on-device model update, versioning, and rollback workflows for large
+    device populations
+  - Design hybrid edge-cloud architectures that gracefully degrade based on connectivity
+    and device capability
+  - Build telemetry pipelines respecting privacy while enabling continuous improvement
+  - Implement secure execution paths, model protection, and integrity verification
+    on edge devices
+  use_cases:
+  - On-device machine learning inference on mobile and embedded platforms
+  - Model compression and optimization for resource-constrained edge hardware (SoCs,
+    NPUs, DSPs)
+  - Hybrid edge-cloud AI architectures with graceful degradation for intermittent
+    connectivity
+  - On-device model updates and versioning for fleet-scale device management
+  - Privacy-preserving on-device AI with secure execution and integrity verification
+  skills:
+    genai: [LLM On-Device Inference]
+    ml: [TensorFlow Lite, Core ML, Model Quantization, Model Pruning, Knowledge Distillation,
+      Model Compression, Hardware-Aware Optimization, Federated Learning]
+    web: []
+    databases: []
+    data: [Telemetry Pipelines]
+    cloud: []
+    ops: [ONNX Runtime, Edge AI Deployment, Cross-Platform Inference, Performance
+        Profiling, Model Versioning and Rollback, Benchmarking]
+    languages: [Python, C++]
+    domains: []
+    other: [NPU/DSP Accelerators, Mobile SoCs, Secure Execution]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9847421'
+  extracted_at: '2026-06-25T19:55:48.894780'

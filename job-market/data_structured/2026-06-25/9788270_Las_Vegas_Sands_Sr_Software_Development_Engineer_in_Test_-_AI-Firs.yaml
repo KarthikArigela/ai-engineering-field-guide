@@ -1,0 +1,64 @@
+company:
+  name: Las Vegas Sands
+  stage: Public
+  focus: Hospitality, gaming, and resort operations
+position:
+  title: Sr Software Development Engineer in Test - AI-First Development
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing, building, and orchestrating AI
+      agent workflows that generate test suites,
+      selecting/configuring AI models and agent frameworks,
+      constructing context for LLMs (prompt design, RAG pipelines,
+      MCP servers), and managing agent toolchains. The SDET works
+      directly ON AI systems — orchestrating agents, engineering
+      context, and configuring models for automated test
+      generation. While the role is in testing/QA, the core work
+      involves hands-on building and deployment of AI agent
+      workflows and LLM context engineering.
+  responsibilities:
+  - Design, build, and maintain AI agent workflows that produce unit, integration,
+    end-to-end, performance, and security test suites from specifications
+  - Select and configure appropriate AI models, agent frameworks, and test-generation
+    tooling based on risk level, coverage requirements, and cost
+  - Construct and maintain structured test context including prompt design, fixture
+    strategies, and domain information for agent-driven test generation
+  - Operate a multi-layer verification framework on every pull request, validating
+    functional correctness, security posture, performance, and regulatory compliance
+  - Review, test, and approve AI-generated code and test suites to ensure they meet
+    architectural, security, and testing standards
+  - Architect and deliver scalable test automation frameworks across web, API, mobile,
+    and data layers using AI-first methodologies
+  - Evaluate emerging AI models, agent frameworks, and test automation tools to continuously
+    improve verification effectiveness
+  - Mentor team members on AI-assisted testing practices, context engineering techniques,
+    and verification methodologies
+  use_cases:
+  - AI agent-driven automated test generation for unit, integration, end-to-end, performance,
+    and security suites
+  - Multi-layer verification framework gating software changes through an AI-first
+    SDLC
+  - Context engineering and prompt design to produce reliable, correct test outputs
+    from AI agents
+  - Agent observability and monitoring of test behavior, flakiness, coverage trends,
+    and defect escape rates
+  - Automated quality assurance for regulated gaming and hospitality software systems
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, Windsurf, Prompt engineering, RAG
+        pipelines, Context window optimization, MCP servers, Agent orchestration]
+    ml: []
+    web: [Playwright, Cypress, REST Assured, pytest, REST APIs]
+    databases: [SQL, Relational databases, Non-relational databases]
+    data: []
+    cloud: [Azure, AWS, GCP]
+    ops: [CI/CD pipelines, DevOps practices, K6, JMeter, Gatling, OWASP guidelines,
+      SAST/DAST/SCA tooling]
+    languages: [C#, JavaScript, TypeScript, Python, Java, Go]
+    domains: []
+    other: [.NET, Contract testing, Mutation testing, Chaos engineering]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9788270'
+  extracted_at: '2026-06-25T19:57:54.202310'

@@ -1,0 +1,49 @@
+company:
+  name: Infinitive
+  stage: null
+  focus: Data and AI consultancy for enterprise modernization
+position:
+  title: Junior AI/ML Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is focused on building the "factory" and
+      infrastructure that supports ML models - CI/CD pipelines,
+      deployment infrastructure, monitoring dashboards, and cloud
+      infrastructure management. The engineer bridges the gap
+      between data scientists (who build models) and software
+      engineers, indicating they support rather than directly
+      build or train models.
+  responsibilities:
+  - Build and maintain CI/CD pipelines specifically for machine learning (Continuous
+    Training)
+  - Package ML models into reproducible environments using Docker and deploy via REST
+    APIs or batch processing
+  - Set up dashboards to track model performance, data drift, and system health
+  - Manage cloud resources using Infrastructure as Code tools like Terraform or CloudFormation
+  - Bridge the gap between Data Scientists and Software Engineers to ensure seamless
+    integration
+  - Assist in maintaining the automated pipelines that keep machine learning models
+    running in production
+  use_cases:
+  - Machine learning model deployment and serving in production environments
+  - Continuous training and automated ML pipelines
+  - Model performance monitoring and data drift detection
+  - Cloud infrastructure management for ML workloads
+  - Containerized ML application deployment
+  skills:
+    genai: []
+    ml: [NumPy, Scikit-learn]
+    web: [REST APIs]
+    databases: [SQL, NoSQL]
+    data: [Pandas]
+    cloud: [AWS, AWS SageMaker, GCP, Google Vertex AI, Azure, Azure ML, CloudFormation]
+    ops: [Docker, Git, MLflow, Kubeflow, DVC, Terraform, Kubernetes, CI/CD]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9522655'
+  extracted_at: '2026-05-29T09:10:39.314812'

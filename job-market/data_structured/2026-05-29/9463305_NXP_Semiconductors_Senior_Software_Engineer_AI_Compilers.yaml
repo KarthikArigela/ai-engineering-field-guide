@@ -1,0 +1,53 @@
+company:
+  name: NXP Semiconductors
+  stage: Public
+  focus: |-
+    Semiconductor company building AI accelerator chips and
+    compiler software stack for edge AI inference
+position:
+  title: Senior Software Engineer, AI Compilers
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is building compiler infrastructure (MLIR
+      dialects, lowering passes, code generation) for AI/NPU
+      hardware rather than directly working with models. While it
+      supports AI workloads, the focus is on systems software and
+      compiler technology that enables model deployment, not model
+      development, training, or fine-tuning. The work is enabling
+      AI inference but through infrastructure development rather
+      than direct model work.
+  responsibilities:
+  - Implement compiler modules including MLIR dialects, lowering passes, operator
+    fusion strategies, and target code generation for NPU
+  - Participate in design and deployment of quantization flows and numerical-correctness
+    verification
+  - Develop and ship production-grade compiler passes and runtime integration components
+  - Perform low-level optimizations and collaborate with kernel teams to address HW/SW
+    performance gaps
+  - Debug and root-cause performance and correctness issues on customer models
+  - Contribute to compiler CI pipelines, test suites, profiling, and release processes
+  - Mentor junior engineers and contribute to design reviews
+  use_cases:
+  - Edge AI inference for vision applications and industrial automation
+  - Real-time AI inference under tight latency and power constraints
+  - Deep learning inference at the edge for consumer electronics
+  - Power-efficient AI decision making in edge devices where milliseconds matter
+  - Deployment and optimization of complex AI models for production inference
+  skills:
+    genai: []
+    ml: [Quantization]
+    web: []
+    databases: []
+    data: []
+    cloud: [NPU/Accelerator Targeting]
+    ops: [MLIR, TOSA, StableHLO, TorchMLIR, Performance Profiling, CI/CD]
+    languages: [C++, Python]
+    domains: []
+    other: [Compiler Design, Code Generation, Graph Lowering, IR Design, Operator
+        Fusion, Scheduling, Debugging]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9463305'
+  extracted_at: '2026-05-29T09:06:03.468227'

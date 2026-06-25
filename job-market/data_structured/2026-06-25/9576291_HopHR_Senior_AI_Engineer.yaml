@@ -1,0 +1,56 @@
+company:
+  name: HopHR
+  stage: Private (Family Office)
+  focus: Family office management for investments and foundations
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying LLM
+      agents, RAG pipelines, and fine-tuning foundation models
+      (LoRA, PEFT, RLHF). The candidate is expected to architect
+      production-grade GenAI systems and own the full ML lifecycle
+      from data prep to GPU-scaled deployment, making this clearly
+      an ai-first position.
+  responsibilities:
+  - Design, prototype, and build GenAI solutions including RAG document pipelines
+    and task-specific agents using LangChain/LlamaIndex, microservices, and Ray/KubeRay
+  - Design and orchestrate multi-step agent pipelines integrating LLM prompts, external
+    APIs, and human-in-the-loop escalations
+  - Own the end-to-end ML lifecycle from requirements and data prep through fine-tuning
+    (LoRA, PEFT, RLHF), evaluation, and MLflow registry with automated drift and quality
+    alerts
+  - Architect data and storage systems ingesting from BigQuery and object-store lakes,
+    generating embeddings persisted to vector databases with governance enforcement
+  - Package and deploy scalable infrastructure using Docker, Helm, and Kubernetes
+    with GPU scheduling, autoscaling, blue-green rollouts, and cost telemetry
+  - Instrument observability with tracking, metrics, structured logs, A/B testing,
+    and security/privacy guardrails across all pipelines
+  - Lead and mentor peers by translating ambiguous business ideas into roadmaps, running
+    build-vs-buy analysis, and setting code standards for agentic patterns
+  use_cases:
+  - RAG-based document pipelines for multi-entity family office knowledge retrieval
+  - Task-specific AI agents supporting multiple business functions across investments,
+    foundations, and operations
+  - Multi-step agent workflows with human-in-the-loop escalation for critical decision-making
+  - LLM fine-tuning for domain-specific applications within the family office context
+  - Cost-aware and secure GenAI platform serving diverse organizational needs from
+    grants to private investments
+  skills:
+    genai: [LangChain, LlamaIndex, RAG, LLM Agents, LoRA, PEFT, RLHF, n8n]
+    ml: [PyTorch, Fine-tuning foundation models]
+    web: []
+    databases: [BigQuery, Redshift, Qdrant, PgVector]
+    data: [Spark, Kafka, Airbyte, Pub-Sub, Parquet, Avro]
+    cloud: []
+    ops: [MLflow, Ray, KubeRay, Docker, Kubernetes, Helm, Prometheus, Grafana, GitHub
+        Actions, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [OpenMetadata]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9576291'
+  extracted_at: '2026-06-25T19:42:43.301348'

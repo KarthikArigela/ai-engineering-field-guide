@@ -1,0 +1,54 @@
+company:
+  name: Wayve
+  stage: Series B+
+  focus: Embodied AI for autonomous driving systems
+position:
+  title: Senior Cloud SRE - AI/ML Platform & GPU Compute
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Site Reliability Engineer role focused on building
+      and maintaining cloud infrastructure (GPU compute platforms,
+      model development platforms) that supports AI/ML teams. The
+      SRE doesn't build, train, fine-tune, or deploy models
+      themselves—they ensure the infrastructure and platforms
+      enabling ML work are reliable and scalable. This is classic
+      "enabling work for others who work on AI."
+  responsibilities:
+  - Own reliability, availability, and performance of the Model Dev Platform and GPU
+    Compute environments
+  - Define and operationalize SLOs, SLIs, and error budgets across platform services
+  - Improve capacity planning, scaling strategies, and resource efficiency across
+    GPU-backed clusters
+  - Participate in 24/7 on-call rotation and lead incident triage, escalation, and
+    root cause analysis
+  - Design and operate monitoring, logging, tracing, and alerting systems for rapid
+    detection and recovery
+  - Build automation for cluster operations, training workflows, remediation, and
+    scaling tasks
+  - Harden CI/CD and release processes to improve deployment safety and velocity
+  - Partner with ML, platform, and software teams to establish production readiness
+    standards
+  use_cases:
+  - Reliable infrastructure for end-to-end AI model development from raw data to on-road
+    experimentation
+  - Large-scale GPU compute fleet management for model training workloads
+  - Scalable and resilient inference infrastructure for AI model deployment
+  - Automated driving system development powered by embodied AI foundation models
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubernetes, Datadog, Prometheus, Grafana, OpenTelemetry, Terraform, CI/CD,
+      Linux, GPU infrastructure, MLOps, Distributed systems, Infrastructure as Code]
+    languages: [Python, Go, C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8713985'
+  extracted_at: '2026-05-29T08:47:20.117751'

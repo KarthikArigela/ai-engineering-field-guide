@@ -1,0 +1,197 @@
+job_id: 9828853
+title: Artificial Intelligence Engineer
+company: Product.ai
+location: Los Angeles, USA
+work_type: FULL_TIME
+description: |
+  A builder with a high technical bar whose leverage is
+  judgment, not keystrokes - in the Office of the CEO.
+  
+  Product.ai is the verified truth layer for shopping - the
+  intelligence that tells you what's actually true about a
+  product, including when not to buy. Profitable.
+  Bootstrapped. No outside investors. No board. 20 people
+  outbuilding companies 10× our size.
+  
+  Strong people find us and keep finding us - they apply over
+  months and years, because the field moves fast and the exact
+  profile we need moves with it.
+  
+  Why This Role ExistsMost of our software is now written by
+  AI agents. So the job that matters is no longer typing the
+  code - it's deciding what to build, designing the systems
+  the agents run inside, and knowing how you'll prove the work
+  is correct. You'll be a builder closer to a product engineer
+  than a heads-down coder: your leverage is judgment and
+  taste, not typing speed.
+  
+  Your first surface is the agent harness behind the Office of
+  the CEO - the live automation that lets 20 people move like
+  a company many times our size. A recruiting-evaluation
+  pipeline scoring 30+ candidates a day across open roles. A
+  merchant-discovery pipeline landing ~1,200 merchants a day.
+  The content, data, and ops automation underneath it all.
+  This year these crossed a threshold: agent runs that go 1-4
+  hours unattended became a normal unit of work for us, and
+  that fleet now deserves a dedicated owner.
+  
+  But you won't stay boxed into one surface. This is a
+  generalist builder's seat, working directly with the
+  founder. The harness is where you start, not the ceiling of
+  what you'll touch.
+  
+  The System You'll Need to Model
+  
+  - A fleet of production automations whose failure mode is
+    silent death. Pipelines here rarely fail loudly - they
+    stop, and the cost accrues invisibly until someone notices
+    days later. The real engineering problem is liveness:
+    designing alarms and deterministic checks so that no
+    automation in the fleet can die unnoticed.
+  - Long-lived agent runs that go 1-4 hours unattended. They
+    hold together not because someone watches them, but
+    because they run on architectural law (the rules an agent
+    run is bound by), a fuel budget, and verification built
+    in. You design what governs a run, what it's allowed to
+    spend, and what proves it worked.
+  - Verification the agent cannot author. A generative model
+    cannot reliably grade its own output, so a verifier that
+    shares the generator's context will launder its own
+    mistakes. The architecture is external truth anchors,
+    regression corpora, and oracle-separated checkers - a
+    separate judge that never sees what the builder saw. This
+    separation is the whole game, and it's also the company's
+    thesis: verified truth a model can't fake.
+  - Token spend judged by what it moved, not what it cost. Every
+    run is instrumented for the outcome it produced, and
+    budget gets redirected toward what's working while the run
+    is still going. We're quality-maximalist: the expensive
+    thing is a redo cycle, never tokens.
+  - A shared knowledge base the agents stand on - a brain of
+    8,600+ indexed documents your automations query to answer
+    their own questions, governed by the same architectural
+    law your work is. Your systems read from it, feed it, and
+    are bound by it.
+  - Architecture that moves weekly. We built this harness before
+    unattended runs were even possible at scale, and the
+    ground keeps shifting. You'll model where it's going and
+    act without waiting for a brief.
+  
+   If reading that energizes you, keep going. If it feels
+  overwhelming or underspecified, this isn't the right fit.
+  
+  What You Will Own
+  
+  - The agent harness for the Office of the CEO. Recruiting
+    evaluations, merchant discovery, ops automation - the run
+    designs, the runtime they execute in, and the
+    architectural law that governs them. When a new automation
+    is needed, you decide how it runs, what governs it, and
+    what proves it correct.
+  - Verification that scales as the work compounds. Ad-hoc human
+    review collapses somewhere around 100-150 artifacts a day,
+    and we're heading straight through that ceiling. You build
+    what replaces it: regression corpora, oracle-separated
+    checkers, sampling protocols, and escalation paths that
+    put a human in the loop only where real judgment is
+    needed.
+  - A liveness check on every automation. Each system ships with
+    a deterministic companion that proves it's alive and
+    correct - you own the standard and the coverage. Nothing
+    runs in production without one; nothing dies unnoticed.
+  - Token economics and model-routing for the fleet. You decide
+    which model runs which job and why, pointing real compute
+    at business outcomes and adjusting the spend mid-run.
+    You'll own falsifiable outcomes - each with an evidence
+    test a stranger could run.
+  
+  Who You AreYou form working models of running systems on
+  your own. You can read a pipeline you've never seen and
+  sketch its failure modes the same day, notice where your
+  model is wrong, and update fast. When a build comes out
+  wrong, you fix the spec that produced it, not just the
+  symptom in front of you. You write clearly, because clear
+  writing is evidence of clear thought - and here, what you
+  write becomes the law your agents execute.
+  
+  You move between architecture and implementation without
+  getting stuck at either altitude: designing a verification
+  gate in the morning, shipping it alarmed and instrumented by
+  the afternoon. You have strong, earned opinions about
+  guardrails, evaluations, and agent behavior, and you make
+  good calls in the gray instead of queuing questions. High
+  agency is your resting state.
+  
+  You can do this job by hand, and prove it - that depth of
+  craft is exactly what lets you direct agents and still trust
+  the result. You've built automations that ran in production
+  for months, and you can say precisely how you knew when one
+  was failing. Evaluation harnesses, CI gates that actually
+  block, data pipelines with verification companions, agent
+  systems with regression suites. You treat agents as leverage
+  you verify, not autocomplete you trust - depth is what lets
+  you trust the verdict. We care about the artifact and the
+  reasoning behind it far more than where you built it or
+  what's on your diploma.
+  
+  Who this isn't for. This isn't the seat for everyone. It's
+  wrong if your code is whatever the model handed you and you
+  couldn't say why it's right - directing agents without depth
+  of your own breaks down fast here. It's wrong if you're
+  comfortable letting an agent grade its own work. It's wrong
+  if you work best as a watched assistant or want a ticket
+  queue to execute and report done. It's wrong if you think
+  mainly in projects, timelines, and programs - the steering
+  here happens in real time, mid-run. And it's wrong if you
+  mostly optimize for logos on a resume. You'll be happiest if
+  you ship the verification companion with the feature, fix
+  the spec instead of the symptom, and want your visibility to
+  come from registered architecture decisions and outcomes
+  moved - not hours, meetings, or activity.
+  
+  How We EvaluateWe don't run traditional systems-engineering
+  interviews.
+  
+  - Written artifact. Submitted with your application. Show us a
+    system you built and the hardest failure you personally
+    diagnosed in it - what broke, how you found it, and what
+    you changed. A postmortem, a monitoring design, a runbook,
+    code, a live dashboard. This is the first filter, and
+    writing quality plus depth of diagnosis are what we read
+    for - a real story of a failure you owned is the thing we
+    can't fake-detect any other way.
+  - Video screen. Brief and async: 5-6 questions, about 15
+    minutes total, done whenever works for you.
+  - Calls with company stakeholders. Short conversations with
+    key members of the team.
+  - Conversation with the founder. Chemistry and comprehension -
+    can you model the system you just read about?
+  - Paid work trial. One to two weeks of real work in our real
+    environment. We watch how you ground yourself, whether you
+    write the spec before the build, how you verify what your
+    agents produce, and whether your self-assessment is
+    honest.
+  
+  Compensation & OwnershipTotal first-year comp:
+  $250,000-$500,000 (base + equity + profit sharing). We hire
+  at two levels and place you by your demonstrated work, not
+  your résumé: an Engineer level (≈$250K-$350K total /
+  $170K-$220K base) and a Senior Engineer level (≈$400K-$500K
+  total / $300K-$340K base). We set your level from what
+  you've actually built - a sharp builder early in their craft
+  and a seasoned architect are both welcome, each at the level
+  their work earns.
+  
+  Ownership is real: Profits Interest Units (Class B, $0
+  strike, capital-gains treatment), annual profit sharing from
+  free cash flow, annual tender liquidity, 100% family premium
+  coverage, and an effectively unlimited token budget steered
+  by ROI.
+industries:
+  - Artificial Intelligence
+  - Big Data
+  - Consumer Web
+  - eCommerce
+posted_date: 2026-06-19
+url: "https://www.builtinla.com/job/ai-engineer/9828853"
+source: Built In

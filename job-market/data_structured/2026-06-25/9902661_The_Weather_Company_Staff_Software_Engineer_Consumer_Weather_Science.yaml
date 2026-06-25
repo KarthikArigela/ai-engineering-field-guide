@@ -1,0 +1,52 @@
+company:
+  name: The Weather Company
+  stage: Public
+  focus: Weather forecasting, data, and media solutions
+position:
+  title: Staff Software Engineer, Consumer Weather Science & AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on integration of LLM-driven
+      content generation including prompt engineering, evaluation
+      harnesses, and guardrails, as well as operationalizing AI-
+      derived forecast products. The engineer directly builds and
+      deploys AI/LLM systems into production consumer experiences,
+      making this an ai-first role.
+  responsibilities:
+  - Own technical and scientific delivery of consumer vertical experiences from atmospheric
+    model output through production APIs to user-facing features
+  - Build and maintain data pipelines and APIs serving forecast products from GRAF,
+    MPAS, ECMWF, and TWC ML models
+  - Integrate LLM-driven content generation including prompt engineering, evaluation
+    harnesses, and guardrails for AI briefings and alerts
+  - Act as science-side product owner for vertical experiences, scoping with product
+    and design partners
+  - Collaborate with research scientists on reduction-to-practice work for new forecast
+    products
+  - Shepherd experiences from lab experiments into flagship product features
+  - Use AI coding assistants and agentic workflows as part of day-to-day engineering
+  use_cases:
+  - Consumer weather vertical experiences for outdoor sports (sailing, golf, hiking,
+    skiing, fishing)
+  - LLM-generated weather briefings, condition explanations, and alerts
+  - Translating atmospheric model output and observations into scalable consumer-facing
+    APIs
+  - Labs experimentation and graduation of new consumer weather products
+  skills:
+    genai: [LLM APIs, Prompt engineering, LLM guardrails, LiteLLM, LLM evaluation
+        harnesses, 'AI coding assistants (Claude Code, Cursor, Cline)', Agentic workflows]
+    ml: [ML model operationalization, Ensemble post-processing]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS S3, AWS Lambda, AWS ECS, AWS API Gateway, AWS SQS/SNS]
+    ops: [Langfuse, CI/CD, Infrastructure as Code, Linux/Unix]
+    languages: [Python, TypeScript, JavaScript]
+    domains: [Atmospheric Science / NWP]
+    other: [GRIB, NetCDF, HDF, Zarr, Geospatial processing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9902661'
+  extracted_at: '2026-06-25T19:58:30.721586'

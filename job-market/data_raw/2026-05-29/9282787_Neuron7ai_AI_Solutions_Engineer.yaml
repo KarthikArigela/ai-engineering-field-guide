@@ -1,0 +1,396 @@
+job_id: 9282787
+title: AI Solutions Engineer
+company: Neuron7.ai
+location: Bengaluru, IND
+work_type: FULL_TIME
+company_size: 23 Employees
+description: |
+  About Us
+  
+  Neuron7.ai is a rapidly growing AI‑first SaaS company
+  focused on building a category‑defining Service Resolution
+  Intelligence platform. Backed by leading venture capital
+  firms in Silicon Valley and a distinguished group of angel
+  advisors and investors, Neuron7 is widely recognized as a
+  startup to watch.
+  
+  Our platform enables enterprises to resolve complex
+  operational issues faster by delivering accurate root‑cause
+  analysis and fix recommendations in seconds—leveraging a
+  combination of structured data, unstructured data, and
+  advanced AI agents. Learn more at Neuron7.ai.
+  
+  Why Join Us
+  
+  - Work at the frontier of applied AI - LangGraph, LLM,
+    streaming anomaly detection, evidence-based RCA reasoning
+    on real enterprise problems, not toy datasets.
+  
+  - Both modes of LogIQ (reactive and proactive) are expanding
+    fast; you'll help define how the platform scales to new
+    industries and log ecosystems.
+  
+  - Your work ships quickly and visibly: demos you build turn
+    into signed contracts; parsers you write run in production
+    within days; tools you create become platform features.
+  
+  - Engineering depth with customer exposure — you commit to the
+    main repo and influence product direction, while building
+    relationships with some of the world's most complex
+    operations teams.
+  
+  - Bangalore team with global reach — you'll work closely with
+    the US product and engineering leadership, giving you
+    visibility and mentorship far beyond a typical India
+    engineering role.
+  
+  The Role:
+  
+  We are hiring AI Solutions Engineers based in Bangalore who
+  will own the full customer journey from first onboarding
+  call to a live, production LogIQ deployment reactive and
+  proactive. You will work directly with enterprise customers,
+  understand their operational domain, prepare their data,
+  configure the platform, and build compelling demos that show
+  exactly how LogIQ reduces mean-time-to-resolution (MTTR) on
+  their hardest problems.
+  
+  This is not a support or ticket-handling role. You will
+  write Python, build and register new agent tools, create
+  custom log parsers, configure streaming pipelines, tune LLM
+  prompts, debug async agent failures, and contribute directly
+  to the core platform codebase. You are part engineer, part
+  domain expert, and fully accountable for customer outcomes.
+  
+  What You’ll Do
+  
+  We are looking for an AI Solutions Engineer with 2–5 years
+  of relevant experience to own the technical customer journey
+  from onboarding and configuration to live production
+  deployments and advanced AI customization.
+  
+  In this role, you will blend strong software engineering
+  skills, hands‑on AI/LLM experience, and customer‑facing
+  problem solving. You will help enterprises operationalize
+  LogIQ by preparing their data, configuring AI agents,
+  building compelling demos, tuning models, and ensuring
+  successful outcomes at scale.
+  
+  Key Responsibilities :
+  
+  1.Customer Onboarding & Platform Configuration
+  
+  - Provision multi-tenant environments: tenant creation, log
+    file type registration, product family configuration,
+    severity thresholds, and API key management.
+  
+  - Guide customers through LogIQ's Signature Onboarding Wizard.
+  
+  - Configure per-tenant defaults and document every
+    configuration decision in customer-specific runbooks for
+    long-term maintainability.
+  
+  - Validate the full detection lifecycle end-to-end on customer
+    log samples before any go-live, including quality
+    benchmarks on hold-out data.
+  
+  2. Streaming Log Ingestion & Proactive Monitoring
+  
+  - Set up real-time log stream ingestion pipelines — Kafka,
+    Kinesis, Fluentd, syslog-ng, or customer-native agents —
+    into LogIQ's streaming layer.
+  
+  - Configure the Anomaly Detection engine: define healthy
+    baselines, tune sensitivity thresholds, and map deviation
+    patterns to specific signature triggers.
+  
+  - Wire streaming triggers to the RCA Agent so that when an
+    anomaly fires, root-cause investigation begins
+    automatically with no human intervention.
+  
+  - Monitor stream health: lag, throughput, parsing error rates,
+    and alert on pipeline degradation before it affects
+    customer outcomes.
+  
+  - Work with customers to identify which log sources to
+    prioritize for streaming vs. batch ingestion, balancing
+    latency requirements against infrastructure cost.
+  
+  3. RCA Agent Configuration & Knowledge Enrichment
+  
+  - Ingest and index customer knowledge articles, historical
+    case resolutions, and equipment documentation into the RCA
+    Agent's retrieval layer (OpenSearch + pgvector).
+  
+  - Configure evidence-weighting rules so the RCA Agent knows
+    which sources to trust most for a given equipment type or
+    failure mode.
+  
+  - Tune reasoning prompts and retrieval strategies based on
+    observed RCA quality — iterating until root-cause accuracy
+    meets the customer's acceptance criteria.
+  
+  - Build fix-strategy libraries: map known root causes to
+    recommended remediation steps, pulling from customer SOPs
+    and historical tickets.
+  
+  - Validate RCA output against historical cases where the true
+    root cause is known; track precision and recall over
+    iteration cycles.
+  
+  4. Custom Demo Engineering
+  
+  - Ingest, clean, and pre-label customer-provided log samples
+    to build compelling, domain-specific demos that speak
+    directly to the customer's operational pain.
+  
+  - Demonstrate both reactive (case upload → signature detection
+    → RCA → fix recommendation) and proactive (live stream →
+    anomaly trigger → automated RCA) workflows against real
+    data.
+  
+  - Create demo scripts, scenario walkthroughs, before/after
+    MTTR comparisons, and leave-behind documentation for
+    prospects.
+  
+  - Adapt demos quickly to new industries or log types — a
+    customer in manufacturing should see their alarm formats,
+    their fault patterns, their fix vocabulary.
+  
+  5.  Agent Tool & Skill Development
+  
+  - Design, build, and register new LangGraph agent tools as
+    customer use cases demand — e.g., a tool that queries a
+    customer's CMDB, pulls ticket history from ServiceNow, or
+    fetches firmware changelogs from an internal API.
+  
+  - Package reusable capabilities as LogIQ Skills: self-
+    contained, versioned bundles of tools, prompts, and
+    configuration that can be applied across customers in the
+    same domain.
+  
+  - Maintain a tool allowlist and review process so new tools
+    integrate safely with the agent's execution context and
+    tenant isolation guarantees.
+  
+  - Contribute high-quality tools back to the platform's shared
+    tool library so the whole team benefits.
+  
+  6.  Log Parser & Data Connector Development
+  
+  - Write custom log parsers for proprietary or undocumented
+    equipment formats (Python, plugged into the FastAPI parser
+    registry).
+  
+  - Build data connectors for customer-specific ingestion
+    sources: REST APIs, SFTP drops, database exports, or cloud
+    storage buckets.
+  
+  - Define record-splitting rules, type classifiers, and deep-
+    parsed field schemas for new log file types using the
+    Signature Onboarding pipeline.
+  
+  - Maintain a parser test suite — real sample lines, expected
+    field outputs — so parsers don't regress across platform
+    updates.
+  
+  7.  Platform Customization & Code Contributions
+  
+  - Tune LLM system prompts, memory strategies, context windows,
+    and few-shot examples based on observed agent behavior on
+    customer data.
+  
+  - Modify the signature workflow DAG to handle customer-
+    specific detection logic that the automated agent
+    generation doesn't cover out of the box.
+  
+  - Ship targeted bug fixes and feature additions back to the
+    core platform codebase — you are a contributor, not just a
+    consumer.
+  
+  - Debug async pipeline failures.
+  
+  8.  Customer Partnership & Knowledge Transfer
+  
+  - Own the technical relationship for your customer portfolio:
+    onboarding calls, weekly syncs, async Slack/email, and
+    escalation handling.
+  
+  - Translate customer domain knowledge — telecom alarm
+    semantics, SCADA event codes, IT operations terminology —
+    into LogIQ configuration and agent guidance.
+  
+  - Train customer teams to operate LogIQ independently: run
+    their own demos, onboard new signatures, and interpret RCA
+    outputs.
+  
+  - Surface recurring pain points and propose product
+    improvements; your customer exposure gives you signal the
+    core product team cannot get from anywhere else.
+  
+  Core Requirements:
+  
+  Python Engineering - 2+ years of production Python.
+  Comfortable with asyncio, FastAPI, Pydantic v2, and
+  SQLAlchemy 2.0. Ability to read and extend an unfamiliar
+  codebase quickly.
+  
+  LLM & Agent Frameworks - Hands-on experience building or
+  operating LLM-powered agent pipelines — LangChain,
+  LangGraph, CrewAI, AutoGen, or equivalent. Understands state
+  graphs, tool calls, memory, and multi-step reasoning loops.
+  
+  Agent Tool Development - Can design, implement, and register
+  new agent tools using the @tool decorator pattern
+  (LangGraph/LangChain). Understands tool allowlists,
+  input/output schemas, and safe integration with existing
+  agent contexts.
+  
+  Prompt Engineering - Can systematically diagnose LLM failure
+  modes and improve prompts through controlled iteration.
+  Understands token budgeting, few-shot construction, output
+  format control, and context window management.
+  
+  Streaming & Event Systems - Working knowledge of at least
+  one streaming or log-shipping technology — Kafka, Kinesis,
+  Fluentd, Logstash, syslog-ng, or similar. Understands
+  consumer lag, backpressure, and at-least-once delivery
+  semantics.
+  
+  Async & Distributed Systems - Understands async task queues
+  (Celery, SQS, Redis), message broker patterns, and how to
+  debug distributed pipeline failures from logs and traces.
+  
+  Databases & Search - Solid PostgreSQL fundamentals: schema
+  design, JSONB queries, indexing. Exposure to time-series
+  stores (TimescaleDB) and full-text search (OpenSearch /
+  Elasticsearch) is a plus.
+  
+  Cloud & Infrastructure - Comfortable with AWS (S3, SQS, IAM,
+  Kinesis) or Azure equivalents. Docker and container-based
+  local deployments. Familiarity with docker-compose for
+  multi-service dev environments.
+  
+  Customer Communication - Strong written and spoken English.
+  Can explain a multi-stage agent failure to a non-technical
+  operations director. Experience in customer-facing technical
+  roles — solutions engineering, implementation, pre-sales, or
+  technical consulting — is a strong plus.
+  
+  Education Qualification: B.E. / B.Tech or M.Tech in Computer
+  Science, Electronics, or a related engineering discipline.
+  Equivalent industry experience is fully acceptable.
+  
+  Nice to Have :
+  
+  - Direct experience with LangGraph (our production agent
+    runtime) and the Azure OpenAI SDK.
+  
+  - Familiarity with multi-tenant SaaS architecture and row-
+    level security (RLS) patterns in PostgreSQL.
+  
+  - Experience building RAG (retrieval-augmented generation)
+    pipelines — chunking, embedding, retrieval strategies,
+    reranking.
+  
+  - Knowledge of vector databases or pgvector for semantic
+    search over log and knowledge article corpora.
+  
+  - TypeScript or Angular familiarity — helpful for front-end
+    troubleshooting and demo customization.
+  
+  - Domain exposure to telecom (Ciena, Nokia, Ericsson alarms),
+    industrial control systems (SCADA, DCS, PLC events), or
+    large-scale IT infrastructure operations.
+  
+  - Experience integrating with ITSM tools: ServiceNow, Jira
+    Service Management, PagerDuty, or Salesforce Service
+    Cloud.
+  
+  - Observability and monitoring experience: Datadog, Grafana,
+    Prometheus — especially for distributed tracing of agent
+    pipelines.
+  
+  - Open-source contributions, published technical writing, or
+    conference presentations on AI/ML or distributed systems
+    topics.
+  
+  Education
+  
+  - Bachelor’s or Master’s degree in Computer Science,
+    Engineering, or a related technical field, or equivalent
+    industry experience.
+  
+  
+  
+  What 'Great' Looks Like in This Role
+  
+  - The engineers who unlock the most value for customers — and
+    grow fastest at Neuron7 — share a distinct profile:
+  
+  - Full-stack ownership: They own the problem from raw customer
+    log file to production RCA recommendation, without waiting
+    to be handed the next step.
+  
+  - Diagnostic depth: When an agent misbehaves, they go three
+    levels deep — past the surface symptom into prompt
+    context, retrieval quality, parser correctness, or queue
+    configuration.
+  
+  - Streaming intuition: They think about live log data as a
+    first-class signal, not an afterthought, and proactively
+    suggest proactive monitoring setups to customers who
+    haven't asked for them yet.
+  
+  - Tool-builder mindset: When a customer need can't be met with
+    existing tools, they scope, build, and register a new one
+    — and document it well enough that the next customer can
+    benefit.
+  
+  - Domain curiosity: They ask why a telecom alarm sequence is
+    ordered the way it is, and use that understanding to write
+    better annotations, parsers, and RCA evidence weights.
+  
+  - Iterative instinct: They treat prompt tuning, retrieval
+    calibration, and anomaly threshold setting as controlled
+    experiments with measurable outcomes.
+  
+  - Clear communication: They can translate a LangGraph agent
+    failure into a one-paragraph summary that a customer's VP
+    of Operations can act on.
+  
+  What We Do and Value:
+  
+    At Neuron7.ai, we prioritize integrity, innovation, and a
+  customer-centric approach. Our mission is to enhance service
+  decision-making through advanced AI technology, and we are
+  dedicated to delivering excellence in all aspects of our
+  work.
+  
+  Company Perks & Benefits:
+  
+  - Competitive salary, equity, and spot bonuses.
+  
+  - Paid sick leave.
+  
+  - Comprehensive health insurance.
+  
+  - Paid parental leave.
+  
+  - Flexible work arrangements.
+  
+  Our Commitment to Diversity and Inclusion:
+  
+  Neuron7.ai is committed to fostering a diverse and inclusive
+  workplace. We ensure equal employment opportunities without
+  discrimination or harassment based on race, color, religion,
+  sex (including pregnancy, childbirth, or related medical
+  conditions), sexual orientation, gender identity or
+  expression, age, disability, national origin, marital
+  status, or any other characteristic protected by law.
+industries:
+  - Artificial Intelligence
+  - Software
+posted_date: 2026-05-07
+url: "https://builtin.com/job/ai-solutions-engineer/9282787"
+source: Built In

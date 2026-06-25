@@ -1,0 +1,56 @@
+company:
+  name: Thomson Reuters
+  stage: Public
+  focus: Legal, tax, accounting, and compliance information solutions
+position:
+  title: Automation and AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building, deploying, and
+      debugging production GenAI/LLM systems including multi-agent
+      LangGraph workflows, advanced RAG pipelines, and AWS Bedrock
+      deployments. The developer directly implements, fine-tunes,
+      and scales AI solutions from POC to production, making this
+      clearly an ai-first role.
+  responsibilities:
+  - Engage internal SMEs to understand current processes and translate them into buildable
+    AI requirements
+  - Build complex AI solution components end-to-end on AWS AgentCore and LangGraph
+    through hands-on coding
+  - Scale solutions from POC to production including performance optimization, reliability,
+    monitoring, and cost management
+  - Debug production failures including hallucination patterns, retrieval degradation,
+    agent loops, and latency regressions
+  - Co-invest in upfront solution design with the Architect and own day-to-day technical
+    decisions during build
+  - Guide Developer and Associate through implementation, code reviews, and debugging
+  - Build Low Code automations using Copilot Studio and Power Automate when use cases
+    fit
+  - Demo working AI solutions to internal stakeholders up to business leadership level
+  use_cases:
+  - Automating internal business workflows using multi-agent LLM systems
+  - Advanced RAG for enterprise knowledge retrieval and document intelligence
+  - Natural language to SQL querying for business data access
+  - Production-scale multi-model AI deployments on AWS infrastructure
+  - Low-code automation of internal processes
+  - Document intelligence including OCR and layout-aware chunking
+  skills:
+    genai: [LangGraph, LangChain, Advanced RAG, MCP (Model Context Protocol), A2A
+        (Agent-to-Agent), Multi-agent state machines, LoRA/QLoRA fine-tuning, OpenAI
+        APIs, Claude, Gemini, Llama, Hybrid search, Re-ranking, Query reformulation]
+    ml: []
+    web: [REST API development]
+    databases: [Snowflake]
+    data: [NL-to-SQL]
+    cloud: [AWS Bedrock, AWS AgentCore]
+    ops: [RAGAS, TruLens, LangSmith, LangFuse, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [Copilot Studio, Power Automate, Claude Code, GitHub Copilot, Cursor, Cline,
+      OCR]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9893657'
+  extracted_at: '2026-06-25T19:56:42.420430'

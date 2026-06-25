@@ -1,0 +1,61 @@
+company:
+  name: Digital Green
+  stage: Non-profit (backed by BMGF, USAID, Walmart Foundation, UKFCDO)
+  focus: |-
+    Global non-profit using technology to empower smallholder
+    farmers
+position:
+  title: Associate AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, evaluating, and
+      deploying LLM-powered features for FarmerChat, including
+      prompt engineering, agentic workflows with MCP, embedding
+      pipelines, vector stores, and multimodal AI systems. The
+      engineer works hands-on with LLM provider APIs, evaluation
+      frameworks, and production AI features—clearly building and
+      deploying AI systems.
+  responsibilities:
+  - Build and integrate LLM-powered features for FarmerChat using provider APIs (Anthropic
+    Claude, OpenAI, Google Gemini)
+  - Write and refine prompts and wire up tool-use patterns using provider SDKs and
+    the Model Context Protocol (MCP)
+  - Run and extend automated evaluation test suites to check LLM outputs for accuracy,
+    hallucination, and bias using frameworks like Ragas, DeepEval, or Promptfoo
+  - Test agent workflows end-to-end and document edge cases, failure modes, and regressions
+  - Maintain embedding pipelines and vector stores (Qdrant, pgvector, FAISS) that
+    ground LLM responses with agricultural knowledge
+  - Support multimodal AI work including speech-to-text (Whisper, Deepgram), text-to-speech,
+    and image classification for crop and pest detection
+  - Monitor system health and flag issues using observability tools (Langfuse, Arize
+    Phoenix, Weights & Biases)
+  - Document prompts, experiments, and runbooks for team reproducibility
+  use_cases:
+  - Conversational AI advisory platform (FarmerChat) serving millions of smallholder
+    farmers with agricultural guidance
+  - Multilingual and low-resource AI systems for real-world agricultural contexts
+    in developing regions
+  - Automated evaluation pipelines to catch hallucination and bias before production
+    deployment
+  - Multimodal crop and pest detection via image classification
+  - Speech-based farmer interaction through speech-to-text and text-to-speech systems
+  - Agentic workflows for agricultural tool-use and advisory reasoning
+  skills:
+    genai: [Anthropic Claude API, OpenAI API, Google Gemini API, Prompt Engineering,
+      Model Context Protocol (MCP), Agentic Workflows, RAG, LoRA / PEFT, Ragas, DeepEval,
+      Promptfoo]
+    ml: [Whisper, Deepgram, ViT, CLIP, YOLO]
+    web: []
+    databases: [Qdrant, pgvector, FAISS]
+    data: []
+    cloud: [AWS Bedrock, SageMaker, GCP Vertex AI]
+    ops: [Langfuse, Arize Phoenix, Weights & Biases, Docker]
+    languages: [Python]
+    domains: [Computer Vision, NLP]
+    other: [Git]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9127823'
+  extracted_at: '2026-05-29T08:49:31.735777'

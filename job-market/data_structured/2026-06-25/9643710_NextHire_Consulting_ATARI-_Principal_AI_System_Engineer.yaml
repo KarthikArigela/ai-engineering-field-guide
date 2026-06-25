@@ -1,0 +1,55 @@
+company:
+  name: NextHire Consulting
+  stage: Public
+  focus: Video game development and publishing
+position:
+  title: ATARI- Principal AI System Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly about architecting, building, and
+      owning AI automation systems including multi-agent systems,
+      MCP servers, agent scaffolding, and production AI pipelines.
+      The engineer works hands-on with LLM orchestration,
+      prompt/context engineering, and deployment of AI systems —
+      clearly building and deploying AI solutions end-to-end.
+  responsibilities:
+  - Own end-to-end architecture of AI automation systems including workflow decomposition,
+    component communication, human checkpoints, and failure behavior
+  - Design and build internal CLI frameworks, reusable libraries, agent scaffolding,
+    and MCP server definitions
+  - Build production-grade AI pipelines in Python including orchestration, structured
+    prompting, context assembly, schema validation, and retry strategies
+  - Design, version, and maintain system prompts and agent instructions as first-class
+    engineering artifacts with output schema design and regression testing
+  - Build and operate multi-agent systems with orchestrator-worker patterns, agent
+    memory, structured handoffs, and conflict resolution
+  - Build and own the evaluation framework including test suites, regression benchmarks,
+    LLM-as-judge pipelines, and production monitoring using LangFuse or Arize
+  - Implement governance including full audit trails, versioning of agent instructions,
+    and controlled rollout of system prompts
+  - Set technical standards for AI development across the organization and collaborate
+    with engineering, product, and domain teams
+  use_cases:
+  - Automating expert-intensive technical workflows end-to-end using AI agents
+  - Internal engineering automation via CLI frameworks and agent tooling
+  - Multi-agent orchestration for complex technical task decomposition and execution
+  - AI-driven game development pipeline automation and platform certification processes
+  - Measuring and tracking business effectiveness of deployed AI automation systems
+  skills:
+    genai: [Claude Code, Codex CLI, Cursor, MCP servers, LangChain, LangGraph, LlamaIndex,
+      AutoGen, Prompt engineering, RAG, Multi-agent systems, LLM-as-judge]
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [LangFuse, Arize, Docker]
+    languages: [Python, SQL]
+    domains: []
+    other: [Unity, Unreal Engine, Xbox GDK, PlayStation SDK]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9643710'
+  extracted_at: '2026-06-25T19:41:48.261844'

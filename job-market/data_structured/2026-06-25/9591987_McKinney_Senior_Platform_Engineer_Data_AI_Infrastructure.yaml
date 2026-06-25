@@ -1,0 +1,61 @@
+company:
+  name: McKinney
+  stage: Part of Cheil Worldwide network
+  focus: Creative advertising agency for brands
+position:
+  title: Senior Platform Engineer, Data & AI Infrastructure
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on integration of LLMs with agentic
+      architectures (tool/function calling, multi-step
+      orchestration, RAG, memory) using OpenAI, Anthropic, and
+      Gemini APIs, along with evaluation, guardrails, and safety
+      implementation. While it also includes significant
+      platform/infrastructure work, the AI/LLM integration
+      responsibilities are core and hands-on, involving building
+      and deploying AI-powered systems.
+  responsibilities:
+  - Design, build, and maintain backend services and APIs primarily in Python (FastAPI/Starlette)
+    with emphasis on clean design, performance, and reliability
+  - Integrate LLM/AI capabilities using agentic approaches including tool/function
+    calling, multi-step orchestration, retrieval/RAG, and memory with providers such
+    as OpenAI, Anthropic, and Google Gemini
+  - Model data and write high-quality SQL in BigQuery; use document databases (Firestore,
+    MongoDB) where appropriate
+  - Deploy containerized services on GCP with Cloud Run and Compute Engine, leveraging
+    Secret Manager, Artifact Registry, and Cloud Build/Deploy
+  - Utilize enterprise AI platform (Abacus.ai) and define reusable patterns and abstractions
+    across products
+  - Collaborate with data partners on ELT pipelines using BigQuery and Dataform for
+    transformations and analytics
+  - Establish observability (metrics, logs, traces), conduct performance tuning, and
+    maintain CI/CD pipelines
+  - Apply security and privacy best practices including authn/z, IAM least-privilege,
+    secret handling, and rate limiting
+  use_cases:
+  - AI-powered platforms and tools for creative agency client work
+  - Agentic AI workflows with multi-step orchestration and planning for internal teams
+  - Retrieval-augmented generation (RAG) for knowledge access across creative, strategy,
+    operations, and account teams
+  - Multi-model AI integration (language, image, and video) via unified enterprise
+    AI platform
+  - Data-driven analytics and ELT pipelines for agency operations
+  skills:
+    genai: [OpenAI API, Anthropic API, Google Gemini, Agentic architectures, Function
+        calling, RAG, Prompt engineering, AI evaluation and guardrails, Abacus.ai]
+    ml: []
+    web: [FastAPI/Starlette, REST, GraphQL]
+    databases: [BigQuery, Firestore, MongoDB]
+    data: [Dataform, ELT pipelines]
+    cloud: [GCP, Cloud Run, Compute Engine, Secret Manager, Artifact Registry, Cloud
+        Build/Deploy, Cloud Monitoring/Logging]
+    ops: [Docker, Kubernetes, CI/CD, Pytest, Git]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9591987'
+  extracted_at: '2026-06-25T19:41:34.147616'

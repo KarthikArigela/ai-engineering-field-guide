@@ -1,0 +1,77 @@
+job_id: 9890760
+title: Backend Engineer - Applied AI
+company: Flora Fauna AI
+location: New York, USA
+work_type: FULL_TIME
+company_size: 74 Employees
+description: |
+  About FLORA
+  
+  We are building the first creative operating system: an
+  infinite canvas designed for the generative computing
+  paradigm. We’re a team of ~45 focused on elevating
+  professional craft, backed by tier-one investors including
+  Redpoint, Menlo Ventures, and a16z, as well as founders like
+  Guillermo Rauch and Justin Kan. Our platform is already the
+  choice of world-class creative powerhouses like Pentagram,
+  Lionsgate, and Nike. About the role We're hiring a backend
+  engineer to build and scale the infrastructure behind
+  FLORA's multi-modal AI engine.
+  
+  You'll work directly with the founders. The core problem:
+  creatives run heavy, multi-step workflows on the canvas in
+  real time, and the backend infra has to keep up. Your main
+  job is a centralized execution engine that manages every
+  model and tool we plug in.
+  
+  What you'll do
+  
+  Build the architecture that keeps the canvas fast and
+  reliable as we scale to more generative models and tools.
+  
+  - Own and design the execution engine. One system that routes
+    every generative tool, external model API, and canvas
+    transformation through a standard path.
+  - Speed up the canvas and cut data overhead.Cut database query
+    overhead. Move tool configs and execution state into
+    caching and in-memory stores so the canvas stays fast even
+    when a workflow spans many nodes.
+  - Handle failure well. Generative APIs time out, hit rate
+    limits, and choke on big payloads. Build retries, circuit
+    breakers, and fallbacks into the routing layer so one
+    failed model doesn't kill the user's session.
+  - Scale the multi-modal pipeline to millions of users. Work
+    with product and applied AI to move, process, and store
+    heavy payloads (text, high-res images, video) without
+    bottlenecks.
+  
+  Requirements
+  
+  - 3+ years on backend infrastructure, platform engineering, or
+    distributed systems.
+  - Hands-on experience building execution layers, execution
+    graphs, state machines, or routing services.
+  - A track record of finding database bottlenecks and fixing
+    them: caching, query tuning, schema redesigns.
+  - Comfort with multi-modal infrastructure: managing state and
+    streaming for text, image, and video.
+  - You care how backend latency and reliability show up in what
+    the user can actually do on the canvas.
+  - TypeScript familiarity and comfort in a serverless/edge
+    runtime world
+  
+  Bonus
+  
+  - Event-driven architectures, durable-workflow/state-machine
+    engines, or graph execution engines.
+  - Backends for node-based, real-time, or collaborative
+    (CRDT/multiplayer) interfaces.
+  - Familiarity with our stack - Convex, Liveblocks, Vercel
+    Workflow, sandboxed code execution - or experience
+    standing up an internal model/config registry.
+industries:
+  - Artificial Intelligence
+  - Design
+posted_date: 2026-06-25
+url: "https://builtin.com/job/backend-engineer-applied-ai/9890760"
+source: Built In

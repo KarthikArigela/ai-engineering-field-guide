@@ -1,0 +1,51 @@
+company:
+  name: Fundamental
+  stage: Backed by world-class investors (stage not explicitly stated, likely early-to-growth
+    stage)
+  focus: Enterprise AI for tabular data prediction
+position:
+  title: Applied AI Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role involves direct hands-on work on a Large Tabular
+      Model — developing, optimizing, and productionizing a neural
+      network-based ML model. It is classified ml-first rather
+      than ai-first because the focus is on traditional neural
+      network/tabular ML systems (training, inference
+      optimization, custom ops in Rust/C++) rather than LLMs,
+      agents, RAG, or generative AI tooling.
+  responsibilities:
+  - Develop and optimize a large neural network-based tabular model implemented in
+    Python
+  - Profile training and inference pipelines to identify performance bottlenecks
+  - Rewrite critical components in Rust (PyO3) or C++ (PyBind11) where Python limits
+    performance
+  - Improve memory efficiency, latency, and throughput across model pipelines
+  - Ensure correctness, numerical stability, and reproducibility as the model evolves
+  - Collaborate with ML researchers on productionizing new capabilities
+  - Shape architectural decisions for ML systems handling tabular data
+  - Maintain clean abstractions, comprehensive tests, and clear documentation
+  use_cases:
+  - Large Tabular Model (LTM) development for enterprise decision-making
+  - Predictive analytics on structured enterprise records
+  - Foundation model development for tabular data
+  - Performance optimization of ML training and inference pipelines
+  skills:
+    genai: []
+    ml: [PyO3, PyBind11, Cython, PyTorch, Neural Networks, Model Training Optimization,
+      Custom ML Ops (Rust/C++), 'Tabular ML (transformers, tree/NN hybrids, learned
+        embeddings)', ndarray, SIMD/Parallelism, Maturin]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: ['Profiling (CPU, memory, latency)', Distributed Training]
+    languages: [Python, Rust, C++]
+    domains: []
+    other: [Tokio, Rayon, Numerical Computing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9646076'
+  extracted_at: '2026-06-25T19:50:48.264336'

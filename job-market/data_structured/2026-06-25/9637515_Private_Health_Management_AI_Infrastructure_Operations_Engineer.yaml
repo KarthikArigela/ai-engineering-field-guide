@@ -1,0 +1,63 @@
+company:
+  name: Private Health Management
+  stage: null
+  focus: |-
+    Independent patient advocacy and healthcare navigation for
+    serious medical care
+position:
+  title: AI Infrastructure Operations Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on operating and maintaining the
+      infrastructure (Kubernetes/AKS), observability, and security
+      for an AI-enabled platform called Companion. The engineer
+      does NOT build, train, fine-tune, or deploy AI models/agents
+      themselves — they ensure the underlying infrastructure runs
+      reliably. The work is enabling AI systems through DevOps/SRE
+      practices, not directly working on the AI.
+  responsibilities:
+  - Operate and maintain AKS Kubernetes infrastructure, AI agent workloads, deployment
+    pipelines, and supporting Azure services
+  - Investigate production incidents, troubleshoot issues, and improve platform resilience
+    through better operational patterns
+  - Develop observability practices including dashboards, alerts, logging patterns,
+    and operational baselines using Azure Log Analytics and Application Insights
+  - Maintain operational hygiene for patching, CVE remediation, secrets rotation,
+    dependency management, and cloud maintenance cycles
+  - Support security-first infrastructure practices across Kubernetes, CI/CD pipelines,
+    and Azure environments in a HIPAA-regulated setting
+  - Support release operations to ensure deployments remain stable, observable, and
+    recoverable
+  - Collaborate with technology leadership, platform engineers, security stakeholders,
+    and AI architects to evolve operational maturity
+  - Create documentation, operational runbooks, and shared knowledge to reduce platform
+    fragility over time
+  use_cases:
+  - AI-enabled clinical platform supporting healthcare professionals in serious medical
+    care navigation
+  - Headless AI agents acting as intelligent workstations integrating with enterprise
+    applications and workflows
+  - Clinical and operational workflow automation in a high-trust, HIPAA-regulated
+    healthcare environment
+  - Observability and reliability for AI agent workloads under real user load
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure Kubernetes Service (AKS), Azure]
+    ops: [Kubernetes, Azure Log Analytics, Azure Application Insights, Observability,
+      Incident Response, Site Reliability Engineering (SRE), CI/CD, GitHub Actions,
+      Kaniko, cosign, Image signing, Actions Runner Controller, Bicep, Infrastructure
+        as Code, Docker, Monitoring, Secrets management, CVE remediation, Admission
+        controllers, Cluster networking]
+    languages: []
+    domains: []
+    other: [HIPAA compliance, SOC2 compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9637515'
+  extracted_at: '2026-06-25T19:50:09.449505'

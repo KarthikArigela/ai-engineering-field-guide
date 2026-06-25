@@ -1,0 +1,57 @@
+company:
+  name: Sequencing.com
+  stage: Profitable, venture-backed
+  focus: |-
+    Direct-to-consumer whole genome sequencing and AI-powered
+    personalized health
+position:
+  title: AI Bioinformatics Benchmarking Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and operating evaluation,
+      validation, and benchmarking systems that directly test LLM-
+      based AI outputs against genomic datasets. While the focus
+      is on evaluation/testing rather than model building itself,
+      the hands-on work with evaluating LLM systems, standing up
+      automated QA for AI, and diagnosing failure modes in AI
+      outputs constitutes direct work ON AI systems, making it ai-
+      first.
+  responsibilities:
+  - Design, implement, and maintain benchmarking systems that continuously test AI
+    outputs against curated genomic datasets
+  - Build and run automated evaluation pipelines for AI outputs end-to-end
+  - Expand regression datasets covering variant normalization, transcript ambiguity,
+    and disease-level mapping
+  - Execute large-scale validation runs across curated VCF datasets and track performance
+    over time
+  - Grow a structured question bank encoding edge cases that matter most for genomic
+    AI accuracy
+  - Ship automated regression tests for every AI release and build dashboards showing
+    variant-level and case-level accuracy
+  - Wire validation directly into CI/CD pipelines and diagnose and document AI failure
+    modes
+  use_cases:
+  - Evaluating and benchmarking LLM-based genomic interpretation systems for accuracy
+  - Automated regression testing of AI outputs against curated genomic datasets
+  - Variant-level and disease-level accuracy validation of AI-powered DNA analysis
+  - Continuous quality assurance for AI systems that provide personalized health insights
+    from whole genome sequencing
+  skills:
+    genai: [LLM evaluation, Langfuse]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Automated QA at scale, CI/CD, Regression testing, Evaluation frameworks,
+      Dashboards and monitoring]
+    languages: []
+    domains: [VCF (Variant Call Format), Genomic datasets, ClinVar, dbSNP, HGVS standards,
+      Transcript mapping, Variant normalization, Bioinformatics]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9729769'
+  extracted_at: '2026-06-25T19:50:18.492872'

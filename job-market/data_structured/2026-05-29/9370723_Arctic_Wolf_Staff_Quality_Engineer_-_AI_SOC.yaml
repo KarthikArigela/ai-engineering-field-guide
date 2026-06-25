@@ -1,0 +1,55 @@
+company:
+  name: Arctic Wolf
+  stage: Series B+
+  focus: |-
+    Cybersecurity operations platform with AI-driven threat
+    detection
+position:
+  title: Staff Quality Engineer - AI SOC
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Quality Engineer role that builds testing
+      frameworks and automation pipelines FOR AI systems, not the
+      AI systems themselves. The role validates AI model behavior,
+      tests AI APIs, and ensures quality of AI applications built
+      by others, which is enabling/support work rather than direct
+      model development.
+  responsibilities:
+  - Create and extend software frameworks and tools to execute, monitor, and report
+    on automated tests
+  - Build and maintain automation frameworks and continuous integration and continuous
+    delivery pipelines
+  - Architect, design, and build automation solutions for API validation, performance
+    testing, load testing, and fuzz testing
+  - Develop and maintain testing frameworks for generative AI and ML applications
+  - Validate model behavior, prompt-response consistency, hallucination detection,
+    and regression testing for AI inference APIs
+  - Implement evaluation pipelines to measure LLM accuracy, latency, bias, toxicity,
+    and reliability
+  - Review testing strategies and test plans while providing guidance to development
+    teams
+  - Continuously improve engineering quality, automation practices, and testing methodologies
+  use_cases:
+  - Large language model-driven cybersecurity applications
+  - AI-powered threat detection and security operations
+  - Real-time analysis of 600 billion daily security events
+  - Prompt-response validation and hallucination detection for AI inference
+  - LLM evaluation for accuracy, bias, toxicity, and reliability
+  - Distributed microservices for security event processing
+  skills:
+    genai: [LangChain, Ragas, LLM evaluation, Prompt engineering, Hallucination detection]
+    ml: []
+    web: [Selenium, Playwright, OpenAPI]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS SQS, AWS S3]
+    ops: [Docker, Kubernetes, CI/CD, Locust, CATS]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9370723'
+  extracted_at: '2026-05-29T09:01:54.783921'

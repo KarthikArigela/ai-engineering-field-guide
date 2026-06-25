@@ -1,0 +1,57 @@
+company:
+  name: Hummingbird Healthcare
+  stage: null
+  focus: |-
+    Technology-enabled patient access services for healthcare
+    systems
+position:
+  title: Senior Integration Engineer, Client Data & AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily about building data integration
+      pipelines (ETL, Epic EHR integrations) that make data AI-
+      accessible for others. While the role uses AI-assisted
+      coding and mentions "AI-native" workflows, the engineer is
+      not building, training, fine-tuning, or deploying AI/ML
+      models themselves. They are enabling AI work by preparing
+      and structuring data for downstream AI consumption and
+      citizen developers.
+  responsibilities:
+  - Lead technical integration with client Epic EHR systems, building extraction and
+    ETL pipelines across Clarity, Caboodle, FHIR, or other access methods
+  - Work directly with client technical teams to scope integrations, resolve configuration
+    issues, and validate data quality before pipelines go live
+  - Assess client telephony systems and build pipelines that ingest historical telephony
+    data and pair it with Epic clinical data
+  - Model and structure ingested data so it is readily available for AI to access
+    and usable by citizen developers
+  - Own the technical integration workstream during client onboarding, coordinating
+    with client contacts and internal teams
+  - Design reusable integration frameworks and automation using agents, templated
+    pipelines, and self-service tooling
+  - Apply AI-native development practices including AI-assisted coding and agent-driven
+    monitoring within CI/CD and IaC standards
+  - Mentor less experienced engineers by reviewing pipeline work and coaching them
+    through client-specific complexity
+  use_cases:
+  - Healthcare patient access data integration from Epic EHR systems
+  - ETL pipeline development for ingesting clinical and telephony data
+  - Data modeling for AI-accessible healthcare data platforms
+  - Client onboarding automation for healthcare system integrations
+  skills:
+    genai: [AI-assisted coding, AI agents]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: [ETL pipelines, Data modeling]
+    cloud: []
+    ops: [CI/CD, Infrastructure as Code]
+    languages: [SQL, Python]
+    domains: ['Epic EHR (Clarity, Caboodle, FHIR)', Telephony data systems]
+    other: [Mentorship]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9854070'
+  extracted_at: '2026-06-25T19:52:58.085711'

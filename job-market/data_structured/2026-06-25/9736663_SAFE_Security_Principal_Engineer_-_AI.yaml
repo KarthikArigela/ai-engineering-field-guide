@@ -1,0 +1,55 @@
+company:
+  name: SAFE Security
+  stage: Series C
+  focus: AI-driven cybersecurity risk quantification platform
+position:
+  title: Principal Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and architecting AI
+      systems including LLM orchestration, RAG pipelines, agentic
+      workflows, and AI agent productionization. The engineer will
+      be hands-on with model serving, evaluation, and deployment
+      of AI-native systems, which is core AI/ML engineering work.
+  responsibilities:
+  - Architect and scale AI-driven components including LLM orchestration, RAG pipelines,
+    vector stores, prompt pipelines, and AI microservices
+  - Build and productionize multi-turn, goal-oriented AI agent systems that automate
+    reasoning across TPRM, CTEM, and CRQ domains
+  - Operationalize model serving infrastructure using AWS SageMaker, Bedrock, or self-hosted
+    Llama with model lifecycle and versioning management
+  - Design data pipelines for structured and unstructured data ingestion, semantic
+    indexing, and context retrieval
+  - Define and implement AI evaluation frameworks including golden dataset validation,
+    LLM evaluation, safety enforcement, and human-in-the-loop mechanisms
+  - Mentor and guide AI and backend engineers on architectural design, experimentation
+    methodologies, and prompt optimization
+  - Collaborate with product leaders to translate abstract AI goals into measurable
+    engineering deliverables
+  use_cases:
+  - Cyber risk quantification (CRQ) providing real-time security posture visibility
+    for C-Suite
+  - Continuous threat exposure management (CTEM) through automated reasoning and analysis
+  - Third-party risk management (TPRM) via AI agent automation for control reviews
+    and issue root cause analysis
+  - Automated security responses with deterministic, traceable agent behavior in production
+  - Enterprise AI safety and governance with hallucination detection and evaluation
+    monitoring
+  skills:
+    genai: [LLM orchestration, RAG pipelines, Prompt engineering, LlamaIndex, LangGraph,
+      CrewAI, AutoGen, Multi-agent systems, Self-hosted Llama, Hallucination detection]
+    ml: [Embedding management, Feature stores]
+    web: []
+    databases: [Vector stores, Snowflake]
+    data: [Iceberg, Knowledge graphs, Semantic search]
+    cloud: [AWS SageMaker, AWS Bedrock, AWS]
+    ops: [LangFuse, LangSmith, CI/CD for ML, MLOps, Model versioning, AI observability]
+    languages: [Python]
+    domains: [Cybersecurity]
+    other: [SOC2, ISO 27001]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9736663'
+  extracted_at: '2026-06-25T19:49:29.370745'

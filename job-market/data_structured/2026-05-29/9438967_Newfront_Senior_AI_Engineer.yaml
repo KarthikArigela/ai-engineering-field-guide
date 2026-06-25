@@ -1,0 +1,61 @@
+company:
+  name: Newfront
+  stage: null
+  focus: Insurance brokerage and modern insurance platform
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on work building and deploying LLM-
+      based systems, including agent runtimes with tool use,
+      planning, and multi-agent orchestration. The engineer will
+      design and own RAG pipelines, self-host model inference with
+      vLLM/TGI/TensorRT-LLM, and fine-tune models using LoRA/PEFT.
+      This is core AI systems development working directly ON
+      AI/ML models and infrastructure, not support work.
+  responsibilities:
+  - Build and scale the agent runtime with tool use, planning, memory, multi-agent
+    orchestration, human-in-the-loop handoff, and SDKs
+  - Design and own RAG and document understanding pipelines for insurance artifacts
+    including ingestion, chunking, indexing, retrieval, and structured extraction
+  - Build the connector framework enabling AI agents to integrate with broker systems
+    (AMS, carrier portals, email, document stores)
+  - Establish evaluation and observability backbone with offline eval harnesses, regression
+    suites, hallucination checks, and quality telemetry
+  - Own model routing and gateway selecting between hosted frontier models and self-hosted
+    models based on quality, latency, cost, and data-residency
+  - Operate on-premise model hosting including GPU capacity planning, inference serving,
+    quantization, optimization, and lifecycle management
+  - Ship AI product features end-to-end from problem discovery through implementation
+    to user-facing surfaces
+  - Mentor engineers on production AI systems and establish best practices for reliable
+    AI in financial services
+  use_cases:
+  - Insurance brokerage workflows for brokers, underwriters, and operations teams
+  - Document processing and understanding for insurance artifacts (submissions, policies,
+    endorsements, loss runs, SOVs)
+  - Agent-based automation for brokering, underwriting, and client service workflows
+  - Integration with broker management systems, carrier portals, and email/document
+    stores
+  - Compliant AI systems meeting financial services regulatory requirements
+  - User-facing AI features for non-technical insurance professionals
+  skills:
+    genai: [RAG, agents, tool use, multi-agent orchestration, human-in-the-loop, document
+        understanding, LLMs, fine-tuning, LoRA, PEFT, hallucination checks, grounding]
+    ml: []
+    web: [Node.js, API design, REST, connector framework, rate-limiting]
+    databases: []
+    data: [data modeling]
+    cloud: [auth]
+    ops: [vLLM, TensorRT-LLM, quantization, model routing, model gateway, on-premise
+        deployment, evaluation harnesses, observability, containerization, CI/CD,
+      infrastructure-as-code, auditability, GPU capacity planning, DevOps]
+    languages: [TypeScript, Python, Go]
+    domains: [model risk management]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9438967'
+  extracted_at: '2026-05-29T09:05:12.889852'

@@ -1,0 +1,65 @@
+company:
+  name: Salesforce
+  stage: Public
+  focus: |-
+    AI-powered CRM platform with autonomous AI agents
+    (Agentforce) for enterprise customer success
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building autonomous AI
+      agents and agent infrastructure. The engineer directly
+      designs agent harness infrastructure, implements agentic
+      loop patterns with LLM calls and tool orchestration, and
+      optimizes agent behavior through techniques including prompt
+      tuning, fine-tuning, and model selection. While the role
+      involves platform infrastructure, the core work is hands-on
+      development and deployment of AI agents rather than just
+      enabling others to work on AI.
+  responsibilities:
+  - Design and build agent harness infrastructure including LLM call management, tool
+    use orchestration, and policy enforcement
+  - Implement agentic loop patterns with multi-turn reasoning, tool orchestration,
+    and structured output handling
+  - Build automated agent flywheel pipelines that collect traces, surface regressions,
+    and route failures to evaluation
+  - Create sandboxed execution environments with isolating code execution and tiered
+    autonomy models
+  - Implement evaluation frameworks covering task success, tool selection accuracy,
+    hallucination rates, and cost optimization
+  - Build and maintain CI/CD pipelines with agent evaluation gates, Docker builds,
+    and self-healing patterns
+  - Develop internal tools and developer self-service interfaces for agent iteration
+    and platform management
+  - Establish monitoring and alerting for platform health and agent-specific signals
+    with security best practices
+  use_cases:
+  - Autonomous AI agents for marketing, sales, and service workflows in enterprise
+    CRM context
+  - Multi-turn conversational agents with tool orchestration for business process
+    automation
+  - Agent sandboxing and safe execution with tiered autonomy for enterprise compliance
+  - Continuous agent improvement through production trace analysis and automated regression
+    testing
+  - Enterprise-scale agent deployment with A/B testing, shadow deployments, and rollback
+    mechanisms
+  skills:
+    genai: [LLM Tool Orchestration, Agentic Loop Patterns, Prompt Engineering, RAG
+        Pipelines, Multi-Agent Systems]
+    ml: ['Fine-tuning (SFT, DPO, RLHF)']
+    web: []
+    databases: [Vector Databases, Graph Databases, Snowflake]
+    data: [Kafka, Flink]
+    cloud: [AWS]
+    ops: [GitHub Actions, ArgoCD, Docker, Kubernetes, Terraform, Grafana, PagerDuty,
+      CI/CD, 'Agent Evaluation Frameworks (Braintrust, LangSmith)', AgentOps]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9535687'
+  extracted_at: '2026-05-29T09:11:07.841428'

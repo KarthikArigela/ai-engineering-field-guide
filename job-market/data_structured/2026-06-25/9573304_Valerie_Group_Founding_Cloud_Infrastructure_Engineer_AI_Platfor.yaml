@@ -1,0 +1,57 @@
+company:
+  name: Valerie Group
+  stage: Early-stage (Founding role)
+  focus: AI-native technology and MarTech platform
+position:
+  title: Founding Cloud Infrastructure Engineer (AI Platform)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and managing cloud
+      infrastructure (AWS, IaC, CI/CD, DevSecOps) that supports
+      AI/LLM workloads rather than directly building, training, or
+      fine-tuning models. While the role involves supporting
+      inference systems, embeddings pipelines, and RAG
+      architectures, the core responsibility is infrastructure
+      architecture and operations — enabling AI teams rather than
+      working on the models themselves.
+  responsibilities:
+  - Architect, build, and manage secure, scalable AWS cloud infrastructure from scratch
+  - Design and operationalize cloud-native infrastructure for AI-native and SaaS products
+  - Build and maintain production-grade CI/CD pipelines and deployment workflows using
+    Infrastructure as Code (Terraform/CloudFormation)
+  - Manage containerized environments using Docker and modern deployment practices
+  - Build scalable distributed systems, async processing pipelines, and event-driven
+    architectures
+  - Support AI/LLM production workloads including inference systems, embeddings pipelines,
+    semantic retrieval, and RAG-based architectures
+  - Implement DevSecOps practices including IAM architecture, secrets management,
+    IaC scanning, container security, and automated security checks
+  - Design observability, monitoring, logging, alerting, and incident response systems
+  use_cases:
+  - Cloud infrastructure for AI-native and MarTech products
+  - AI/LLM production workloads with inference systems
+  - Embeddings pipelines and semantic retrieval
+  - RAG-based architectures
+  - Scalable distributed systems with async processing and event-driven workflows
+  - Secure DevSecOps infrastructure across development and production environments
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, Embeddings pipelines]
+    ml: []
+    web: []
+    databases: [Redis, 'Vector databases (Pinecone, Weaviate, Qdrant, pgvector)',
+      Snowflake, Amazon Redshift, BigQuery]
+    data: [Kafka, dbt]
+    cloud: ['AWS (EC2, VPC, IAM, S3, RDS, Route53, Load Balancers, CloudFront, CloudWatch)',
+      Amazon EKS, AWS Lambda, Amazon EventBridge, AWS Step Functions, Amazon SQS]
+    ops: [Terraform, AWS CloudFormation, Docker, CI/CD pipelines, Kubernetes, Linux,
+      Infrastructure as Code, DevSecOps, GPU workloads, AI inference infrastructure,
+      MLOps, Observability and monitoring, Networking]
+    languages: [Python]
+    domains: []
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9573304'
+  extracted_at: '2026-06-25T19:43:41.311555'

@@ -1,0 +1,58 @@
+company:
+  name: Capital One
+  stage: Public
+  focus: Banking and financial services with AI/ML
+position:
+  title: Distinguished AI Engineer (Agentic AI Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying an
+      enterprise agentic AI platform including agent
+      orchestration, RAG pipelines, guardrails, and LLM inference
+      systems. The engineer evaluates and hardens agentic
+      frameworks (LangGraph, AutoGen, CrewAI, LlamaIndex) and
+      designs canonical APIs for agent workflows, RAG, and prompt
+      libraries — all hands-on work with AI/LLM systems.
+  responsibilities:
+  - Design and architect the enterprise Generative AI platform including agentic workflow
+    framework, shared services (memory, guardrails, vector search), SDKs, and blueprints
+  - Evaluate and harden agentic frameworks such as LangGraph, AutoGen, Semantic Kernel,
+    CrewAI, and LlamaIndex for enterprise-grade SLAs
+  - Build central guardrail services including prompt firewalls, content-filter hooks,
+    red team harnesses, and audit APIs
+  - Develop end-to-end GenAI SDK, CLI, and starter kits enabling rapid prototyping
+    of secure agentic workflows
+  - Define north star platform architecture with canonical APIs for agent orchestration,
+    RAG pipelines, prompt libraries, and multi-tenant policy enforcement
+  - Optimize orchestration-level performance through batching, retrieval caching,
+    and heuristic tuning to reduce per-token spend
+  - Own central Helm charts, operators, and CRDs for auto-scaling agents to meet tenant
+    SLAs
+  - Coach and mentor Staff, Principal, and Senior engineers; host architecture office
+    hours and represent Capital One at AI conferences
+  use_cases:
+  - Enterprise agentic AI platform for composing safe and explainable AI capabilities
+    across product teams
+  - Agent orchestration and RAG pipelines for production-grade applications serving
+    millions of users
+  - Centralized guardrails and trust/safety services for responsible AI at scale
+  - Multi-tenant AI infrastructure with automated scaling and policy enforcement
+  - Developer tooling and SDKs for rapid GenAI application prototyping and deployment
+  skills:
+    genai: [LangGraph, AutoGen, Semantic Kernel, CrewAI, LlamaIndex, LangChain, RAG,
+      Prompt Engineering, Agent Orchestration, Guardrails]
+    ml: [LLM Inference, Similarity Search]
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS, Google Cloud, Azure, Vertex AI, Amazon SageMaker, Azure Machine Learning]
+    ops: [Kubernetes, Helm, LLMOps, Docker]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    domains: []
+    other: [Responsible AI, Multi-tenant Security]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9891768'
+  extracted_at: '2026-06-25T19:57:47.629349'

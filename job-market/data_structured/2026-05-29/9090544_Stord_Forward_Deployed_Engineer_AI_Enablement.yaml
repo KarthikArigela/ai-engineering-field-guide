@@ -1,0 +1,58 @@
+company:
+  name: Stord
+  stage: Series C+
+  focus: Cloud-based supply chain and commerce logistics platform
+position:
+  title: Forward Deployed Engineer, AI Enablement
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly about building agentic AI systems
+      that automate internal workflows in production. The engineer
+      will design, build, and ship AI agents, LLM-powered
+      interfaces, and agentic workflows — directly working with
+      LLMs, tool use, structured outputs, and prompt engineering.
+      This is hands-on AI system building, not infrastructure
+      support.
+  responsibilities:
+  - Embed with internal teams (CX, Finance, Ops, Logistics) to map workflows end-to-end
+    and identify highest-leverage automation targets
+  - Build production agentic AI systems that permanently eliminate manual work across
+    operational teams
+  - Design and ship LLM-powered interfaces enabling non-technical teams to query and
+    act on operational data
+  - Create end-to-end automation pipelines from observation through prototyping, validation,
+    and production deployment
+  - Build reusable automation modules and patterns that accelerate future workflow
+    projects across the organization
+  - Integrate agentic systems with internal platforms (OMS, WMS, TMS, Billing) via
+    APIs and event streams
+  - Develop internal developer productivity tools using agentic workflows to help
+    engineers write, review, and ship code faster
+  - Instrument AI agents with proper logging, tracing, monitoring, and alerting for
+    production reliability
+  use_cases:
+  - AI-powered triaging and resolution of customer experience issues
+  - Automating finance reconciliation, exception handling, and reporting workflows
+  - Intelligent dashboards and alerting for warehouse and transportation operations
+  - Self-serve data interfaces for non-technical teams to query operational data via
+    LLMs
+  - Internal developer productivity tooling using agentic AI workflows
+  - Automated reporting and alerting to replace manual data pulling and analysis
+  skills:
+    genai: [OpenAI API, Anthropic API, Prompt Engineering, AI Agents, LLM Integration,
+      Structured Outputs, Claude Code, Cursor]
+    ml: []
+    web: [RESTful APIs, Phoenix Framework]
+    databases: [Vector Databases, PostgreSQL]
+    data: [Kafka, Temporal, Prefect, Airflow]
+    cloud: [GCP]
+    ops: [Docker, 'Observability (Logging, Tracing, Monitoring)']
+    languages: [TypeScript, Node.js, Python, SQL, Elixir]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9090544'
+  extracted_at: '2026-05-29T08:50:07.894921'

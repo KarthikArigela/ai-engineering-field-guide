@@ -1,0 +1,60 @@
+company:
+  name: Workato
+  stage: Series B+
+  focus: Enterprise automation and AI integration platform
+position:
+  title: Senior AI Engineer (Search/Retrieval)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role focused on building retrieval
+      systems for AI agents. The engineer designs RAG pipelines,
+      vector search, embedding strategies, and LLM-powered query
+      understanding to enable enterprise AI agents to access and
+      reason over data. Hands-on work with semantic search,
+      retrieval evaluation, and agent-friendly interfaces.
+  responsibilities:
+  - Build unified retrieval layer across enterprise systems including Google Drive,
+    SharePoint, Jira, Zendesk, Salesforce, and Notion
+  - Design hybrid retrieval pipelines combining lexical BM25, dense vector, and structured
+    SQL/graph retrieval with smart re-ranking
+  - Engineer ingestion and freshness pipelines that incrementally sync millions of
+    documents with low latency and predictable cost
+  - Implement permission-aware retrieval ACL preservation to ensure proper access
+    control across heterogeneous systems
+  - Build query understanding for agents including intent parsing, entity linking,
+    and LLM-assisted query rewriting
+  - Design chunking and embedding strategies tailored to different content types like
+    long docs, tickets, conversations, and transcripts
+  - Build evaluation harnesses using NDCG, MRR, recall@k, faithfulness, and citation
+    accuracy for retrieval quality
+  - Ship production-grade systems with strong SLOs on latency, freshness, recall,
+    and cost with observability dashboards
+  use_cases:
+  - Enterprise AI agents answer complex cross-system queries about customers, opportunities,
+    and support tickets
+  - Unified enterprise search across documents, CRM records, tickets, tasks, contracts,
+    and call transcripts
+  - Permission-aware semantic search that respects source system ACLs and sharing
+    rules
+  - Real-time agent query understanding with entity linking across Salesforce, Zendesk,
+    and other enterprise systems
+  - Cross-source ranked retrieval combining structured database queries with unstructured
+    document search
+  skills:
+    genai: [LangChain, LlamaIndex, Haystack, RAG, prompt engineering]
+    ml: [embeddings, transformers]
+    web: [REST, GraphQL]
+    databases: [OpenSearch, Elasticsearch, Solr, Vespa, FAISS, pgvector, Pinecone,
+      Weaviate, Qdrant, Milvus, NoSQL]
+    data: [Kafka, Flink, Spark]
+    cloud: [AWS, GCP, Azure]
+    ops: [Docker, Kubernetes, CI/CD]
+    languages: [Python, Go, Java, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9426165'
+  extracted_at: '2026-05-29T09:04:17.607198'

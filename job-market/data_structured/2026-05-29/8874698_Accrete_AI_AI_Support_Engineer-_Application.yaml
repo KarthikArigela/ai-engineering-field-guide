@@ -1,0 +1,55 @@
+company:
+  name: Accrete AI
+  stage: Unknown
+  focus: |-
+    AI agents and solutions for business intelligence and
+    government security
+position:
+  title: AI Support Engineer- Application
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an L1/L2 Application Support Engineer role focused
+      on monitoring, incident response, and system health for
+      production systems. The role explicitly states "no deep
+      debugging or code-level fixes" and involves working NEAR AI
+      systems (monitoring data pipelines, APIs, dashboards) but
+      NOT building, training, fine-tuning, or deploying AI models.
+      The candidate supports the infrastructure and operations
+      around AI-driven platforms.
+  responsibilities:
+  - Monitor production systems using Datadog, CloudWatch, and internal dashboards
+    across APIs, data pipelines, databases, and third-party integrations
+  - Respond to system alerts in real-time including failures, latency spikes, and
+    downtime, performing initial incident triage
+  - Execute predefined runbooks and recovery actions such as job restarts and retries,
+    escalating to engineering when required
+  - Monitor scheduled jobs and workflows including Dagster, SageMaker, and batch pipelines
+    for missing, delayed, or failed processes
+  - Perform basic database health checks covering connection issues, slow queries,
+    replication lag, and storage utilization
+  - Monitor third-party APIs, proxies, and vendor systems, coordinating with internal
+    teams for resolution
+  - Maintain incident logs, provide structured shift handovers, and highlight recurring
+    issues and patterns
+  use_cases:
+  - AI agent platform reliability and uptime monitoring
+  - Data pipeline health and integrity for AI-driven insights
+  - Real-time incident management for high-availability AI systems
+  - Production system stability for government and business AI solutions
+  skills:
+    genai: []
+    ml: []
+    web: [REST APIs, HTTP]
+    databases: []
+    data: [Dagster]
+    cloud: [CloudWatch, AWS, Lambda, SageMaker]
+    ops: [Datadog, Grafana, Kibana]
+    languages: [SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8874698'
+  extracted_at: '2026-05-29T08:49:00.423677'

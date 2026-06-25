@@ -1,0 +1,57 @@
+company:
+  name: NatWest Group
+  stage: Public
+  focus: Banking and financial services
+position:
+  title: AI Engineer, Director
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, architecting, and
+      shipping production generative and agentic AI systems
+      including multi-agent workflows, RAG pipelines, and LLM
+      integrations. Despite the "Data Engineer-AI" title, the
+      hands-on work with frontier LLMs, agent frameworks, and RAG
+      architecture clearly places this as an ai-first role with
+      management responsibilities.
+  responsibilities:
+  - Lead and line-manage a team of AI engineers, setting objectives, managing performance,
+    and coaching careers while building an inclusive culture
+  - Own the technical vision and roadmap for AI systems, making architectural decisions
+    for building, evaluating, and safely operating LLM-powered applications
+  - Stay hands-on contributing to design, code, and reviews across multi-agent workflows,
+    RAG pipelines, and LLM integrations
+  - Design agent-to-agent communication frameworks including structured messaging,
+    shared state, coordination protocols, and failure handling
+  - Architect and optimise RAG pipelines covering document chunking, embedding generation,
+    vector storage, retrieval evaluation, ranking, and freshness handling
+  - Design and own data pipelines that feed AI systems — ingestion, transformation,
+    and feature/embedding preparation
+  - Integrate and orchestrate frontier LLM providers, balancing capability, cost,
+    latency, and risk with portability across models
+  - Drive optimisation for low latency, reliability, throughput, and cost across production
+    AI workloads on AWS
+  use_cases:
+  - Generative and agentic AI systems for millions of banking customers and colleagues
+  - Multi-agent workflows for automated business processes in a regulated financial
+    environment
+  - Retrieval-Augmented Generation pipelines for enterprise knowledge retrieval and
+    document search
+  - LLM-powered applications with frontier model orchestration for customer-facing
+    banking services
+  skills:
+    genai: [LangGraph, LangChain, OpenAI API, Anthropic API, RAG, Multi-agent workflows]
+    ml: [PyTorch]
+    web: []
+    databases: [Snowflake, Vector storage]
+    data: [Apache Airflow]
+    cloud: [AWS, Amazon Bedrock, SageMaker, AWS ECS/EKS, AWS Lambda]
+    ops: [Docker, Kubernetes, CI/CD pipelines, Infrastructure as Code, Git]
+    languages: [Python, PySpark, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9826402'
+  extracted_at: '2026-06-25T19:59:57.687827'

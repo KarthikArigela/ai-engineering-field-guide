@@ -1,0 +1,60 @@
+company:
+  name: Andromeda (andromeda.ai)
+  stage: Early-stage (backed by Nat Friedman and Daniel Gross)
+  focus: AI compute infrastructure and GPU cluster provider
+position:
+  title: Staff SRE, AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an SRE role focused on operating and maintaining GPU
+      infrastructure that AI labs depend on. The engineer ensures
+      reliability of clusters, networking, and hardware but does
+      not build, train, fine-tune, or deploy ML models themselves.
+      They work NEAR AI (supporting distributed training
+      workloads) but their primary craft is infrastructure
+      reliability, not model development.
+  responsibilities:
+  - Own end-to-end reliability of GPU infrastructure from node provisioning through
+    schedulers to customer-facing surfaces
+  - Lead highest-priority incidents including multi-cluster outages and degraded training
+    runs, walking the full stack from PyTorch through NCCL, drivers, fabric, and hardware
+  - Operate production GPU fleets across providers and generations including node
+    lifecycle, burn-in, validation, firmware rollouts, and driver upgrades
+  - Build and own observability systems including GPU health checks, fabric monitoring,
+    and automated remediation
+  - Define on-call practices including rotations, escalation, runbooks, incident command,
+    and blameless reviews
+  - Serve as senior reliability voice in customer-facing engagements with AI infrastructure
+    customers and providers
+  - Partner with engineering and data center teams on hardware design, rack layout,
+    network topology, and cooling envelopes
+  - Mentor other engineers through incident reviews, pairing on diagnosis, and written
+    guidance
+  use_cases:
+  - Reliable GPU compute provisioning for AI labs and startups
+  - Large-scale distributed training workload execution across multi-thousand-GPU
+    clusters
+  - GPU fleet health monitoring and automated remediation across providers
+  - High-performance networking fabric management for distributed training (InfiniBand,
+    RoCE, NVLink)
+  - Incident response and reliability assurance for customer training runs
+  - GPU node lifecycle management from racking through production validation
+  skills:
+    genai: []
+    ml: [CUDA, PyTorch Distributed, FSDP, DeepSpeed, Megatron]
+    web: []
+    databases: [VAST, Weka, Lustre, GPFS]
+    data: []
+    cloud: []
+    ops: [NCCL, NVIDIA H100/H200/B200/GB200, NVLink/NVSwitch, InfiniBand, RoCE, Kubernetes
+        with GPUs, Slurm, Terraform, Helm, Ansible, Linux kernel tuning, BPF, DCGM,
+      Docker]
+    languages: [Go, Python, Rust]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9461591'
+  extracted_at: '2026-06-25T19:41:10.591067'

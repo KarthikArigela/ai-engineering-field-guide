@@ -1,0 +1,52 @@
+company:
+  name: NXP Semiconductors
+  stage: Public
+  focus: Semiconductors and edge AI processing
+position:
+  title: Senior Quantization Engineer - Edge AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly working on AI model optimization
+      — quantization, pruning, speculative decoding, and
+      compression of CNNs, LLMs, and VLMs for on-device
+      deployment. The engineer is hands-on with model optimization
+      techniques and translates research into production
+      deployment on NPUs, which is core AI model engineering work.
+  responsibilities:
+  - Survey latest research from NeurIPS, ICLR, CVPR on model optimization and compression,
+    focusing on neural network quantization, speculative decoding, and pruning
+  - Develop and adapt state-of-the-art optimization methods to NXP hardware constraints,
+    building proofs of concept on NXP hardware
+  - Translate research prototypes into robust, optimized production code in C++/Python
+    with strict memory and compute efficiency standards
+  - Document algorithmic tradeoffs, derive deployment recipes, and mentor the engineering
+    team on numerical methods and optimization
+  - Act as the technical bridge between AI Research, Hardware Engineering, and other
+    teams, providing quantified guidance on model accuracy and performance impacts
+  - Contribute to NXP's intellectual property portfolio through patents and technical
+    publications
+  use_cases:
+  - On-device AI inference for edge devices using NXP Ara2 NPUs
+  - Model quantization and compression for LLMs, VLMs, and CNNs on embedded hardware
+  - Efficient deployment of generative AI models on resource-constrained edge devices
+  - Hardware-accelerated AI inference optimization for latency, power, and memory
+    bandwidth constraints
+  skills:
+    genai: [Speculative decoding, Transformers, LLMs, VLMs]
+    ml: [PyTorch, ONNX, Model quantization, Model pruning, GPTQ, SpinQuant, CNN architectures,
+      Model conversion and optimization pipelines]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [NPU hardware acceleration, Custom kernel development, MLIR, TVM, Device-level
+        profiling]
+    languages: [Python, C++]
+    domains: [Embedded systems]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9557003'
+  extracted_at: '2026-06-25T19:42:52.387717'

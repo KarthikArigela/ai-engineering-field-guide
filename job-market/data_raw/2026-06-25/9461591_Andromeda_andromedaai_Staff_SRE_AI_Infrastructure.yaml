@@ -1,0 +1,177 @@
+job_id: 9461591
+title: Staff SRE, AI Infrastructure
+company: Andromeda (andromeda.ai)
+location: USA
+work_type: FULL_TIME
+description: |
+  Staff SRE, AI Infrastructure
+  
+  Location: North America Remote / San Francisco · Full-Time
+  
+  About Andromeda
+  
+  Andromeda Cluster was founded by Nat Friedman and Daniel
+  Gross to give early-stage startups access to the kind of
+  scaled AI infrastructure once reserved only for
+  hyperscalers.
+  
+  Today, Andromeda works with leading AI labs, data centers,
+  and cloud providers to deliver compute when and where it's
+  needed most. Our aim is to become a liquidity layer for
+  global AI compute — routing workloads across providers, GPU
+  generations, and geographies the way financial markets route
+  capital.
+  
+  We're a small, senior team where one engineer's judgment
+  shapes every customer's experience. You'll join early enough
+  to define how we run infrastructure at scale, work directly
+  with the world's most demanding AI customers, and build a
+  career operating at the frontier of what compute can do.
+  
+  The Role
+  
+  We're hiring a Staff SRE to own the reliability of
+  Andromeda's infrastructure end to end — from a node being
+  racked and joined to a cluster, through the schedulers and
+  control planes that place jobs on it, up to the customer-
+  facing surface where a training run either succeeds or
+  doesn't.
+  
+  We're looking for someone with multiple years of hands-on
+  experience operating GPU infrastructure at scale. You read
+  NVIDIA release notes the day they drop. You have war stories
+  about NCCL, fabric topology choices, and what it takes to
+  keep a multi-thousand-GPU run healthy. You move comfortably
+  from a kernel-level perf trace to a customer incident bridge
+  in the same hour, and you write the postmortem yourself.
+  
+  What You'll Own
+  
+  - Highest-Priority Incident Leadership: Carry the pager. When
+    a top-customer training run degrades or a multi-cluster
+    incident hits, you're the engineer who walks the stack
+    from PyTorch → NCCL → driver → fabric → hardware until the
+    answer is found. You lead the response, write the
+    postmortem, and ship the systemic fix.
+  - Production Operations of GPU Fleets: Own the day-to-day
+    health of thousands of GPUs across providers and
+    generations. Node lifecycle, burn-in, validation,
+    draining, repair workflows, firmware rollouts, driver
+    upgrades — the unglamorous work that decides whether the
+    platform actually holds up.
+  - Observability & Health Systems: Build and own the telemetry,
+    GPU health checks, fabric monitoring, and automated
+    remediation that let us catch a degraded NVLink or a flaky
+    transceiver before a customer does. Tooling lives on your
+    laptop; you ship it.
+  - On-Call Practice: Define how on-call works at Andromeda —
+    rotations, escalation, runbooks, incident command,
+    blameless review. As the team grows, you set the bar.
+  - Customer-Facing Technical Presence: Be the senior
+    reliability voice in the room with sophisticated AI infra
+    customers and providers. Run incident reviews with a
+    customer's principal engineer. Scope demanding workloads.
+    Sit in on architecture deep-dives and deal cycles where
+    reliability credibility closes the room.
+  - Partnership with Engineering: Work shoulder-to-shoulder with
+    the product team. You design with SLOs, error budgets, and
+    failure modes in mind; they ship features; together you
+    close the loop on every systemic issue. Translate customer
+    pain into actionable priorities for product teams.
+  - Hardware & Buildout Influence: Partner with providers and DC
+    teams on physical design — rack and pod layout, power and
+    cooling envelopes, network topology, burn-in and
+    validation — to keep failure modes out of production
+    before they arrive.
+  - Mentorship as a Daily Practice: Spend real time every day
+    making other engineers better. Incident reviews, pairing
+    on diagnosis, written guidance, hiring.
+  
+  What We're Looking For
+  
+  - Years in This Space, Not Months: Multiple years building and
+    operating large-scale GPU infrastructure as your primary
+    job. You came up through this industry.
+  - Staff-Level SRE Track Record: A clear history of owning the
+    reliability of load-bearing infrastructure. You've been
+    the senior engineer a team relies on when production is on
+    fire and the failure mode is in a layer no one's touched
+    yet.
+  - GPU Systems Obsession: Deep, hands-on with NVIDIA
+    H100/H200/B200/GB200 (or equivalent) at scale. You
+    understand memory hierarchies, ECC and SBE/DBE behavior,
+    thermal envelopes, NVLink and NVSwitch topology, and
+    hardware failure modes from direct production experience.
+    You also have opinions about what's coming next and why.
+  - High-Performance Networking, in Production: Real production
+    experience with InfiniBand, RoCE, and NVLink fabrics for
+    distributed training. You can diagnose a slow all-reduce,
+    find a degraded link in a fat-tree, reason about
+    congestion control, and design topology for the workloads
+    it'll actually carry.
+  - Distributed Training Internals: Working knowledge of how
+    large training jobs actually run — NCCL, CUDA, PyTorch
+    distributed, FSDP, DeepSpeed, Megatron, and modern
+    checkpointing/recovery patterns. When a 1,000+ GPU job
+    stalls, you know where to look first.
+  - Production-Grade Engineering: Strong Go, Python, or Rust.
+    You build production tooling, controllers, and automation
+    — not throwaway scripts. Comfortable in Kubernetes-with-
+    GPUs (device plugins, topology-aware scheduling, multi-
+    cluster) and/or Slurm/HPC schedulers.
+    Terraform/Helm/Ansible is table stakes.
+  - Linux & Systems Internals: Expert-level: kernel tuning,
+    NVIDIA driver and CUDA toolkit lifecycle,
+    cgroups/namespaces, perf and BPF, firmware management.
+  - On-Call Composure: Comfortable being the senior engineer on
+    a P0 bridge with the customer on the line and the provider
+    listening. You triage calmly, decide fast, and document
+    afterward.
+  - Customer Presence: Comfortable being the senior technical
+    voice in a room with sophisticated AI infra customers,
+    providers, and prospects. You can run an incident review
+    with a customer's principal engineer, then walk into a
+    deal review and frame the same content for a CTO buying
+    compute.
+  
+  Strong Candidates May Have
+  
+  - Built or significantly contributed to a custom GPU health
+    system, fleet manager, fabric controller, or on-
+    call/incident tooling in production.
+  - Distributed storage depth (VAST, Weka, Lustre, GPFS) and a
+    clear opinion on checkpoint I/O patterns at scale.
+  - Profiling and diagnosis of distributed training — MFU work,
+    straggler mitigation, collective tuning across multi-
+    thousand-GPU runs.
+  - Experience as the senior SRE partner in enterprise
+    relationships for AI infrastructure or HPC.
+  - Open-source contributions in the GPU/AI infra stack (NCCL,
+    Kubernetes scheduler plugins, GPU operators, DCGM tooling,
+    etc.).
+  - Public talks, writing, or community presence in the GPU/AI
+    infra industry.
+  
+  Why You'll Love It Here
+  
+  This is the role where one engineer's reliability decisions
+  show up in every customer's training run. You'll have
+  significant autonomy and the leverage of working on
+  infrastructure that the most ambitious AI labs in the world
+  depend on — staying as hands-on as you want in the code, in
+  the room with customers, and on the bridge when it matters.
+  
+  Andromeda Cluster is an equal opportunity employer. We
+  celebrate diversity and are committed to creating an
+  inclusive environment for all employees. We do not
+  discriminate on the basis of race, religion, color, national
+  origin, gender, sexual orientation, age, marital status,
+  veteran status, or disability status.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Information Technology
+  - Software
+posted_date: 2026-06-16
+url: "https://www.builtinla.com/job/staff-sre-ai-infrastructure/9461591"
+source: Built In

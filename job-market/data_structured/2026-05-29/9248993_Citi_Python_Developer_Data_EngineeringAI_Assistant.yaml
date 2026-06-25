@@ -1,0 +1,51 @@
+company:
+  name: Citi
+  stage: Public
+  focus: Global banking and financial services
+position:
+  title: Python Developer (Data Engineering/AI) – Assistant Vice President
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves building NLP pipelines using BERT, Flair,
+      and LLM-based models, with hands-on work on ML model
+      deployment and inference APIs. The candidate is actively
+      implementing AI/ML models and serving them via Flask APIs,
+      not just providing infrastructure support.
+  responsibilities:
+  - Develop and optimize ETL/data processing jobs using PySpark, Pandas, and PyArrow
+    for large-scale data processing
+  - Build and maintain NLP pipelines using Flair, BERT, and LLM-based models for AI
+    and analytics use cases
+  - Create Flask-based APIs for model inference and service integrations with caching
+    via Redis
+  - Implement data parsing and serialization with high-performance JSON libraries
+    (json, ujson, orjson)
+  - Manage and deploy ML models using MLflow for tracking, versioning, and lifecycle
+    management
+  - Support CI/CD workflows using GitHub, LightSpeed Enterprise, and deployment pipelines
+  - Create and maintain Autosys JILs for job scheduling and automation tasks
+  use_cases:
+  - NLP text processing pipelines using BERT, Flair, and LLM-based models for financial
+    data analysis
+  - Large-scale data ingestion and transformation pipelines for AI/analytics workloads
+  - Model inference APIs serving NLP/ML predictions to internal applications
+  - ETL processing of financial data using distributed frameworks (PySpark) and Parquet
+    storage
+  - Automated job scheduling for data pipeline orchestration in enterprise environment
+  skills:
+    genai: []
+    ml: [Flair, BERT, HuggingFace Transformers, PyTorch, TensorFlow]
+    web: [Flask, FastAPI, REST APIs]
+    databases: [Redis]
+    data: [PySpark, Pandas, PyArrow, Airflow, Prefect, Polars, Dask, Parquet]
+    cloud: [AWS, boto3]
+    ops: [MLflow, Git, CI/CD, Linux, Docker, Kubernetes]
+    languages: [Python, PyTest]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9248993'
+  extracted_at: '2026-05-29T08:57:13.943725'

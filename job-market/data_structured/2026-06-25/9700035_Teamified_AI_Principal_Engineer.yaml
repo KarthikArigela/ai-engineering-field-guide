@@ -1,0 +1,64 @@
+company:
+  name: Teamified
+  stage: null
+  focus: Remote team building and staffing for enterprises
+position:
+  title: AI Principal Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role requires hands-on design and implementation of
+      agentic orchestration pipelines — multi-step agent workflows
+      with guardrails, human checkpoints, CI/CD integration, and
+      webhook-driven pipelines. The engineer is expected to build
+      AI-first development workflows and agentic SDLC automation
+      systems, not just use AI tools passively. While there is
+      significant engineering leadership involved, the core
+      differentiator is building and deploying agent-based
+      systems.
+  responsibilities:
+  - 'Lead an AI-first engineering pod end-to-end: backlog refinement, technical breakdown,
+    implementation, review, and release'
+  - Design and build agentic orchestration pipelines connecting real systems (Slack,
+    issue trackers, Git, CI/CD) with multi-step agent workflows, guardrails, and human
+    checkpoints
+  - Wire agentic review triggers into PR and CI/CD workflows including security analysis,
+    bug-risk review, test gap detection, and dependency checks
+  - Ship production-visible outcomes in the payments codebase using AI-assisted development
+    workflows
+  - Codify proven AI-first practices into standards, guardrails, and tooling choices
+    for org-wide adoption
+  - Provide technical leadership on pod-owned work and high-risk cross-cutting decisions
+    including legacy .NET modernization
+  - Grow the pod through hiring, onboarding, scrum maturity, and mentorship across
+    distributed engineers
+  - Ensure fintech-grade security, compliance, auditability, and operational discipline
+    in all AI-assisted workflows
+  use_cases:
+  - 'Agentic bug triage-to-fix pipeline: bugs reported in Slack flowing through triage,
+    context gathering, fix attempt, PR creation, and automated review'
+  - Automated PR and CI/CD review agents with security analysis, bug-risk detection,
+    and test gap identification
+  - AI-assisted codebase comprehension, refactoring, test generation, and migration
+    planning for legacy systems
+  - Intake-to-PR agentic workflows with human approval gates for regulated payments
+    platform changes
+  - Engineering org-wide adoption of AI-first development practices via playbook and
+    coaching
+  skills:
+    genai: [Agentic orchestration pipelines, Multi-step agent workflows, MCP / tool
+        integration, Cursor, GitHub Copilot, Prompt engineering]
+    ml: []
+    web: [React, TypeScript, REST APIs]
+    databases: [SQL Server]
+    data: []
+    cloud: [AWS]
+    ops: [Jenkins, GitHub Actions, CI/CD, Git, Webhook-driven pipelines]
+    languages: [.NET / C#, Java, Go, Python, SQL]
+    domains: [Fintech / payments domain, Regulated environments / compliance]
+    other: [Plane (issue tracker), Jira, Slack integrations, Secure SDLC practices]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9700035'
+  extracted_at: '2026-06-25T19:55:24.432832'

@@ -1,0 +1,57 @@
+company:
+  name: DXC Technology
+  stage: Public
+  focus: Enterprise IT services and technology consulting
+position:
+  title: Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves hands-on development, coding, and
+      deployment of AI-powered features with direct work on LLMs,
+      RAG systems, and agents. The engineer will integrate LLM
+      APIs, build RAG pipelines, implement multi-step workflows
+      using LangChain/LangGraph, and handle vector database
+      operations - all core AI implementation tasks.
+  responsibilities:
+  - Code and integrate LLM APIs (OpenAI, Anthropic, etc.) or local models into backend
+    services using Python and FastAPI
+  - Design and implement custom MCP servers using Python/TypeScript SDKs to expose
+    internal systems to AI agents
+  - Build and maintain RAG systems including data ingestion scripts, text chunking
+    logic, and metadata filtering
+  - Manage vector database operations including indexing, querying, and optimizing
+    search retrieval
+  - Develop multi-step agent workflows using LangChain, LangGraph, and CrewAI with
+    tool-calling and error handling
+  - Implement prompt templates using Jinja2 and version-control them for consistent
+    structured outputs
+  - Build automated test suites to detect hallucinations and measure model accuracy
+    using evaluation frameworks
+  - Implement caching layers, streaming responses, and token optimization to reduce
+    latency
+  use_cases:
+  - Backend services powered by LLM integration for enterprise applications
+  - AI agent systems that interact with internal databases, APIs, and file systems
+    via MCP servers
+  - RAG-based knowledge retrieval systems for domain-specific information access
+  - Structured output generation (JSON/YAML) using advanced prompt engineering
+  - Automated model evaluation and hallucination detection systems
+  - Low-latency AI features with streaming and caching optimizations
+  skills:
+    genai: [OpenAI API, Anthropic API, LangChain, LangGraph, LlamaIndex, CrewAI, RAG,
+      MCP, Prompt Engineering]
+    ml: [Hugging Face Transformers]
+    web: [Node.js, FastAPI, Pydantic, RESTful APIs, Jinja2]
+    databases: [Pinecone, Milvus]
+    data: []
+    cloud: []
+    ops: [Docker, GitHub Actions, OpenTelemetry, LangSmith, Weights & Biases]
+    languages: [Python, TypeScript, Asyncio, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9490192'
+  extracted_at: '2026-05-29T09:07:59.120466'

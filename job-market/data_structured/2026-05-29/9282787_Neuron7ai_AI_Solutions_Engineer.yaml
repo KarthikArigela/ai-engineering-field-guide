@@ -1,0 +1,51 @@
+company:
+  name: Neuron7.ai
+  stage: Series B
+  focus: |-
+    AI-first SaaS for service resolution intelligence and
+    operational issue diagnostics
+position:
+  title: AI Solutions Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI Solutions Engineer role that directly builds,
+      deploys, and customizes AI/LLM systems. The engineer hands-
+      on tunes LLM prompts, configures LangGraph agents, develops
+      agent tools, builds RAG pipelines, and debugs async agent
+      failures - all core AI/ML implementation work, not just
+      support or infrastructure.
+  responsibilities:
+  - Own full customer technical journey from onboarding to production deployment
+  - Configure and tune LangGraph AI agents, LLM prompts, and RAG retrieval systems
+  - Build custom log parsers and data connectors using Python and FastAPI
+  - Design and register new agent tools using LangGraph tool decorator patterns
+  - Set up and monitor real-time streaming log ingestion pipelines
+  - Create compelling demos showing proactive and reactive RCA workflows
+  - Contribute bug fixes and features to the core platform codebase
+  - Translate customer domain knowledge into AI agent configurations
+  use_cases:
+  - Root cause analysis for complex operational issues using AI agents
+  - Real-time anomaly detection on streaming enterprise log data
+  - Automated fix recommendations based on historical case resolutions
+  - Evidence-based reasoning combining structured and unstructured data
+  - Service resolution intelligence across telecom, industrial, and IT operations
+  - Proactive monitoring that triggers automated investigation when anomalies fire
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, OpenAI API, RAG, prompt engineering,
+      agent tool development]
+    ml: []
+    web: [FastAPI, Pydantic, Angular]
+    databases: [SQLAlchemy, Redis, PostgreSQL, TimescaleDB, OpenSearch, Elasticsearch,
+      pgvector]
+    data: [Kafka, Fluentd]
+    cloud: [Azure OpenAI, Kinesis, SQS, AWS]
+    ops: [asyncio, Celery, Docker, Datadog, Grafana, Prometheus]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [ServiceNow, Jira]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9282787'
+  extracted_at: '2026-05-29T09:00:38.297483'

@@ -1,0 +1,55 @@
+company:
+  name: Gusto
+  stage: Late-stage / IPO-ready (private company with 500K+ customers)
+  focus: Payroll, benefits, and HR platform for small businesses
+position:
+  title: Staff Software Engineer,  AI Developer Tools
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building AI infrastructure and
+      tools — designing autonomous agents, custom RAG systems,
+      multi-agent workflows, and LLM-integrated developer
+      platforms. The engineer works hands-on with LLMs, prompt
+      engineering, fine-tuning, and model optimization, making
+      this clearly ai-first.
+  responsibilities:
+  - Architect and scale internal AI platform and APIs that integrate LLMs into the
+    developer workflow, focusing on autonomous agents, RAG, and smart context-delivery
+    systems
+  - Establish engineering best practices for building with AI, including evaluation
+    frameworks, guardrails for code safety, and model latency/token spend optimization
+  - Partner with product engineering, Infrastructure, and Security teams to ensure
+    AI tooling is scalable, compliant, and secure
+  - Identify and eliminate critical bottlenecks in the local-to-production development
+    lifecycle across Gusto
+  - Maintain production-grade reliability of AI infrastructure, monitoring system
+    health and mitigating model drift or downtime
+  - Build bespoke internal coding assistants and automate large-scale codebase refactors
+    using AI
+  - Deploy AI to self-heal CI/CD pipelines and absorb operational toil for engineers
+  use_cases:
+  - Internal AI-powered coding assistants for Gusto engineers
+  - Automated codebase refactoring across large-scale monorepos
+  - AI-driven self-healing of CI/CD pipelines
+  - Multi-agent systems for developer productivity automation
+  - Context-aware RAG systems for intelligent code and documentation retrieval
+  - Developer lifecycle friction elimination through intelligent automation
+  skills:
+    genai: [RAG (Retrieval-Augmented Generation), Multi-agent systems, Prompt engineering,
+      LLM integration, Evaluation frameworks (evals), Guardrails for AI safety, Model
+        latency optimization]
+    ml: [Fine-tuning]
+    web: [API design]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, System monitoring]
+    languages: [Python, Ruby, TypeScript]
+    domains: []
+    other: [Distributed systems, Data privacy and security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9647255'
+  extracted_at: '2026-06-25T19:46:35.313264'

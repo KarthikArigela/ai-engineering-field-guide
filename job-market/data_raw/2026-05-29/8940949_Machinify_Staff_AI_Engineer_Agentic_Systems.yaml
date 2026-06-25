@@ -1,0 +1,266 @@
+job_id: 8940949
+title: "Staff AI Engineer | Agentic Systems"
+company: Machinify
+location: USA
+work_type: FULL_TIME
+description: |
+  Machinify is a leading healthcare intelligence company with
+  expertise across the payment continuum, delivering unmatched
+  value, transparency, and efficiency to health plan clients
+  across the country. Deployed by over 85 health plans,
+  including many of the top 20, and representing more than 270
+  million lives, Machinify brings together a fully
+  configurable and content-rich, AI-powered platform along
+  with best-in-class expertise. We’re constantly reimagining
+  what’s possible in our industry, creating disruptively
+  simple, powerfully clear ways to maximize financial outcomes
+  and drive down healthcare costs.
+  
+  Machinify is a leading healthcare intelligence company with
+  expertise across the payment continuum, delivering unmatched
+  value, transparency, and efficiency to health plan clients
+  across the country. Deployed by over 85 health plans —
+  including many of the top 20 and representing more than 270
+  million lives — Machinify brings together a fully
+  configurable, content-rich, AI-powered platform along with
+  best-in-class expertise. We're constantly reimagining what's
+  possible in our industry, creating disruptively simple,
+  powerfully clear ways to maximize financial outcomes and
+  drive down healthcare costs.
+  
+  The Role
+  
+  We're building production-grade agentic systems that audit
+  medical claims end-to-end — reading raw medical records,
+  reasoning over coding and clinical guidelines, and producing
+  defensible findings that hold up to clinical and regulatory
+  review. Reaching human-expert accuracy on noisy, long-
+  context documents is one of the hardest unsolved problems in
+  applied AI, and the field is moving weekly.
+  
+  We're hiring an L6 AI Engineer to own entire problem areas,
+  not tickets. You'll walk into vague, high-stakes business
+  problems — "our DRG audit findings aren't holding up on
+  appeal," "we need to expand into a new claim type next
+  quarter," "the agent is too slow and too expensive to roll
+  out broadly" — and you'll be accountable for translating
+  them into a technical bet, scoping it with the business,
+  defining the success metric, building the system, and
+  proving it worked. You'll set the technical direction for a
+  problem area and pull other engineers along with you.
+  
+  
+  
+  What You'll Do
+  
+  Drive vague business problems to closure. Sit with clinical
+  leads, product, and ops to understand what's actually
+  broken, where the money is, and what "good" looks like.
+  Translate that into a concrete technical problem statement
+  with a measurable target — and push back when the framing is
+  wrong.
+  
+  Define the metric before you build the system. Decide what
+  you're optimizing (recall on overpayments? appeal-survival
+  rate? cost per case? agreement with senior coders?), how it
+  will be measured, what the baseline is, and what number
+  constitutes shipping. Build the eval harness that produces
+  it. No metric, no project.
+  
+  Scope and sequence the work. Break an ambiguous initiative
+  into a phased plan with explicit decision points, kill
+  criteria, and dependencies. Decide what's in scope, what's
+  deferred, and what's not worth doing — and communicate that
+  crisply to non-technical stakeholders.
+  
+  Set the technical direction for a problem area. Choose the
+  agent topology, the context strategy, the model mix, the
+  evaluation regime, the deterministic guardrails. Own the
+  architectural call and the tradeoffs behind it. Other
+  engineers — including senior ones — should be able to build
+  against the foundation you set.
+  
+  Raise the bar on agent engineering. Lead by example on
+  context engineering, structured outputs, citation grounding,
+  eval discipline, and cost/latency control. Review designs
+  and PRs from other engineers on the team and leave the
+  codebase and the patterns sharper than you found them.
+  
+  Be the technical interface to the business. Present results
+  to clinical, product, and executive stakeholders. Defend the
+  methodology when findings are challenged. Know the domain
+  well enough to argue with a senior coder about why a code is
+  or isn't supported.
+  
+  Use AI tooling like a force multiplier. A meaningful
+  fraction of your day will be spent driving Claude Code,
+  Codex, and similar tools to plan, scaffold, refactor, debug,
+  and evaluate. We expect you to be dramatically faster with
+  these tools than most engineers are without them, and to
+  teach the rest of the team to be the same.
+  
+  
+  
+  What We're Looking For
+  
+  Required
+  
+  6+ years of applied ML / AI / software engineering
+  experience with a Bachelor's in CS, Math, Engineering or
+  equivalent — or 4+ years with a Master's / PhD in a similar
+  program. At least two production systems you owned end-to-
+  end from ambiguous problem statement through measured
+  impact, ideally including at least one LLM- or agent-based
+  system.
+  
+  A track record of driving vague problems to closure. You can
+  point to initiatives where the brief was a paragraph, you
+  scoped it, defined the metric, ran the work, and shipped a
+  result that moved the business — not just a model or a PR.
+  
+  Strong stakeholder fluency. You can sit with non-technical
+  domain experts (clinicians, coders, ops leads, product),
+  extract what they actually mean, translate it into a
+  technical problem, and translate technical tradeoffs back
+  into terms they can decide on.
+  
+  Deep, hands-on agent engineering. You've designed agent
+  loops from scratch, decided between single-agent and multi-
+  agent topologies, engineered context (system prompts, tool
+  surfaces, structured outputs, citation grounding), and
+  debugged failure modes that other engineers couldn't.
+  
+  Eval-first instincts. You don't ship without an eval; you
+  don't believe a number you can't reproduce; and you've built
+  eval harnesses that other engineers on the team now depend
+  on.
+  
+  Strong Python engineering. Clean abstractions, type
+  discipline, async, tested code — at a level where junior and
+  mid engineers learn from your PRs.
+  
+  Hands-on experience with at least one major agent SDK —
+  OpenAI Agents SDK, Anthropic SDK / claude-agent-sdk,
+  LangGraph, or equivalent — with strong opinions on the
+  tradeoffs and the scars to back them up.
+  
+  Fluency with Claude Code / Codex as a power user — able to
+  plan, execute, and debug non-trivial engineering tasks with
+  these tools, including reading their source when needed.
+  
+  Solid command of VS Code and git — branches, rebases,
+  worktrees, conflict resolution, PR workflows. Not optional.
+  
+  
+  
+  Strongly preferred
+  
+  Experience defining and owning a metric that the business
+  actually trusts — precision/recall against expert ground
+  truth, dollar-weighted impact, appeal-survival rate, or
+  equivalent — including the data pipeline behind it.
+  
+  Prior work on long-context, citation-grounded systems where
+  the model must point to evidence, not just answer.
+  
+  Healthcare, legal, finance, or any other domain where
+  "mostly right" is unacceptable and where findings get
+  challenged by domain experts.
+  
+  Experience setting technical direction for a small group of
+  engineers (formal or informal tech lead), including
+  reviewing designs, mentoring on agent patterns, and being
+  accountable for an area's quality.
+  
+  Familiarity with reasoning models (o-series, Claude extended
+  thinking, Gemini thinking) and a sharp sense of when they
+  earn their cost.
+  
+  Production experience with caching, observability, and cost
+  control on LLM workloads at scale.
+  
+  
+  
+  Nice to have
+  
+  Document understanding (OCR, layout-aware models, table
+  extraction).
+  
+  Vision-language models, multimodal retrieval.
+  
+  Experience presenting technical results to executive or
+  external (customer / regulator) audiences.
+  
+  
+  
+  What We Offer
+  
+  Hybrid role — we have a strong preference for in-office
+  collaboration, with flexibility for exceptional candidates.
+  
+  Top Medical / Dental / Vision offerings.
+  
+  FSA / HSA.
+  
+  Tuition reimbursement.
+  
+  Competitive salary, 401(k) with company match.
+  
+  Unlimited PTO.
+  
+  Meaningful equity.
+  
+  A flexible, trusting environment where you'll be empowered
+  to do your best work.
+  
+  
+  
+  Compensation: Base salary for this L6 role ranges
+  $180k–$260k+, based on level assessment, depth of
+  experience, and skill match. Compensation also includes
+  meaningful equity in a fast growing startup and the benefits
+  above.
+  
+  
+  
+  Equal Employment Opportunity at Machinify
+  
+  
+  
+  We are committed to equal employment opportunity regardless
+  of race, color, ancestry, religion, sex, national origin,
+  sexual orientation, age, citizenship, marital status,
+  disability, gender, gender identity or expression, or
+  veteran status. We are proud to be an equal opportunity
+  workplace. Machinify is an employment-at-will employer. We
+  participate in E-Verify as required by applicable law. In
+  accordance with applicable state laws, we do not inquire
+  about salary history during the recruitment process. If you
+  require a reasonable accommodation to complete any part of
+  the application or recruitment process, please let our
+  recruiters know. See our Candidate Privacy Notice at:
+  https://www.machinify.com/candidate-privacy-notice/
+  
+  Equal Employment Opportunity at Machinify
+  
+  
+  
+  We are committed to equal employment opportunity regardless
+  of race, color, ancestry, religion, sex, national origin,
+  sexual orientation, age, citizenship, marital status,
+  disability, gender, gender identity or expression, or
+  veteran status. We are proud to be an equal opportunity
+  workplace. Machinify is an employment at will employer. We
+  participate in E-Verify as required by applicable law. In
+  accordance with applicable state laws, we do not inquire
+  about salary history during the recruitment process. If you
+  require a reasonable accommodation to complete any part of
+  the application or recruitment process, please let our
+  recruiters know. See our Candidate Privacy Notice at:
+  https://www.machinify.com/candidate-privacy-notice/
+industries:
+  - Machine Learning
+  - Software
+posted_date: 2026-05-24
+url: "https://www.builtinla.com/job/staff-nlp-scientist/8940949"
+source: Built In

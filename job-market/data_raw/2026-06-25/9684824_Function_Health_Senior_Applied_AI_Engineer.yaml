@@ -1,0 +1,221 @@
+job_id: 9684824
+title: Senior Applied AI Engineer
+company: Function Health
+location: Los Angeles, USA
+work_type: FULL_TIME
+description: |
+  Company Overview:
+  
+  Function Health is the AI operating system for health,
+  designed to empower people to live 100 healthy years. We are
+  redefining how individuals understand, measure, and improve
+  their health by moving beyond reactive care and enabling
+  proactive, data-driven insight into human biology. Function
+  has been recognized as one of Fast Company’s Most Innovative
+  Companies of 2024, and is venture-backed by Andreessen
+  Horowitz (a16z). Hundreds of thousands of members have
+  joined Function to take control of their health.
+  
+  Through advanced diagnostics, deep biomarker testing,
+  longitudinal data, and AI-enabled insights, Function equips
+  members with actionable intelligence to take control of both
+  the quality and length of their lives.
+  
+  Function recently announced a $298M Series B and is entering
+  its next chapter of growth. As we scale, the quality and
+  durability of our People systems, data, and insights will
+  directly shape our ability to attract, retain, and support
+  exceptional talent.
+  
+  We are growing our team and seeking out world-class talent
+  that deeply believes in our mission to positively impact
+  global health, has a relentless bias toward action, and a
+  growth mindset. Function fosters a collaborative and dynamic
+  environment where every day we build the future.
+  
+  Role:
+  
+  We sit on something rare: a fast-growing longitudinal health
+  dataset spanning 50M+ lab tests, 160+ biomarkers per member,
+  advanced imaging, and wearable signals, captured
+  continuously rather than once a year at a checkup.
+  
+  You'll own the agentic system that turns a member's health
+  data into clear next steps, working alongside their
+  clinicians. Day to day, that means building and operating
+  production multi-agent systems end to end: orchestration
+  graphs, tool use and memory, retrieval over a member's
+  records, and the evals and observability to keep it
+  reliable. You'll wire frontier LLMs into Function's
+  proprietary data, and hold the whole thing to the safety,
+  latency, and cost controls healthcare demands.
+  
+  This is a hands-on, high-ownership role for an engineer who
+  has built agents at scale and wants their work measured in
+  healthy years of human life, not just benchmarks.
+  
+  Impact You'll Drive:
+  
+  - Put a concierge doctor in every member's pocket: an agent
+    that reasons over a lifetime of labs, imaging, and
+    wearable signals and tells them what to do next.
+  - Turn our longitudinal health dataset into decisions, not
+    dashboards, so members act on their health rather than
+    just view it.
+  - Make health AI that people trust with their lives: every
+    recommendation earns its way past evaluation gates and
+    clinician review before it reaches a member.
+  - Catch what a once-a-year physical misses, surfacing the
+    early signal across 160+ biomarkers before it becomes a
+    diagnosis.
+  
+  Key Responsibilities:
+  
+  - Architect and build stateful, graph-based agent workflows
+    with tool use, planning, and memory.
+  - Integrate LLMs and multimodal models via structured I/O
+    (JSON Schema, Pydantic validators) and function/tool
+    calling.
+  - Build high-reliability APIs and streaming services for real-
+    time inference, speech, and vision.
+  - Own production readiness: tracing, logging, metrics, rate
+    limiting, circuit breakers, and SLOs
+  - Stand up eval pipelines: offline golden sets, LLM-as-judge
+    with human rubrics, online A/B, and regression tests in
+    CI.
+  - Implement retrieval and memory: hybrid search, vector and
+    graph retrieval, semantic caches, and long-horizon
+    context.
+  - Optimize cost/latency: model routing, prompt and tool
+    selection, quantization, and KV cache/prefill strategies.
+  - Partner cross-functionally to translate research into robust
+    production systems and iterate quickly behind evaluation
+    gates.
+  - Mentor engineers through design docs and architecture
+    decisions.
+  
+  Qualifications/Skills:
+  
+  To excel in this role, candidates must bring a unique
+  combination of skills and experiences:
+  
+  - 1+ years building agentic AI systems; 6+ years as a full-
+    stack or ML engineer, building production backends or ML
+    systems in Python, Go, or similar.
+  - Fluency with agentic orchestration (e.g., LangGraph,
+    PydanticAI, DSPy, LlamaIndex) and tool/function calling.
+  - Experience integrating frontier LLMs and multimodal models
+    via managed APIs or self-hosted serving.
+  - Strong with API design and backend frameworks (FastAPI,
+    Flask) and event-driven architectures.
+  - Data systems expertise with PostgreSQL, including token
+    streaming and throughput tuning.
+  - Retrieval and memory: vector databases (pgvector, Pinecone,
+    Weaviate, Milvus), hybrid search, and graph/knowledge
+    storage.
+  - Production evals: LLM-as-judge, human-in-the-loop, rubric
+    design, and CI-integrated regression tests.
+  - Observability and SRE: OpenTelemetry traces, metrics,
+    structured logs, SLOs, dashboards, and on-call triage.
+  - Cloud-native delivery: Kubernetes, Terraform, Docker, GPU
+    scheduling/autoscaling on AWS or GCP.
+  - CI/CD proficiency with GitHub Actions and test automation
+    for prompts, tools, and agents.
+  - Clear, concise communication and high ownership in fast-
+    paced environments.
+  
+  Nice to Haves:
+  
+  - Real-time multimodal systems: streaming ASR, low-latency
+    TTS, WebRTC, and vision pipelines.
+  - RAG expertise beyond basics: Graph RAG, multi-hop retrieval,
+    sub-agents, query planning, and freshness policies.
+  - Safety and governance: policy-as-code, red-teaming, PII
+    handling, audit logs, and role-based tool authorization.
+  - Regulated data experience (HIPAA, SOC 2, GDPR) and data
+    residency controls.
+  - Personalization at inference time, long-term memory agents,
+    session state, and episodic memory stores.
+  - Experience with consumer-scale AI apps, high-traffic
+    systems, or on-device/edge acceleration (WebGPU).
+  
+  To be a strong fit, you also need:
+  
+  - Ruthless Prioritization:
+    - We don’t let perfect get in the way of progress.
+    - We move quickly to drive value, not perfection.
+    - We prioritize what drives impact.
+    - We never compromise on standards of excellence.
+  - Member-First, Always:
+    - We design and deliver like we’re caring for someone we love.
+    - We create calendar, actionable, human experience.
+    - We prioritize responsiveness, peace of mind, and outcomes.
+    - We empower members with truth, clarity, and care.
+  - One Team, Moving Fast:
+    - We are aligned in purpose, prioritization, and speed.
+    - We gather diverse perspectives to make informed decisions.
+    - We clear paths for each other and move fast together.
+    - We communicate clearly and respectfully, rallying around
+      shared goals.
+  - Radical Ownership, Relentless Execution:
+    - We don’t just ship– we own outcomes and drive results.
+    - We act with urgency and precision
+    - We anticipate, initiate, and follow through.
+    - We meet challenges with grit and pragmatism.
+    - We embrace new tech to deliver better outcomes.
+  - Mission Over Ego:
+    - We are ruthlessly aligned to our mission - and leave ego at
+      the door.
+    - We disagree and commit.
+    - We don't tolerate politics or withholding information.
+    - We operate with honesty, transparency, and respect.
+  - Sustained Integrity in Every Detail:
+    - We earn trust by obsessing over accuracy, quality, and
+      clarity in everything we do.
+    - We prioritize clinical precision - data must be right.
+    - We sweat the details because outcomes depend on them.
+  
+  Your dedication to these responsibilities will directly
+  contribute to the success of our platform and the
+  satisfaction of our users. We are looking for a proactive,
+  skilled, and forward-thinking individual to join our team
+  and help shape the future of our services.
+  
+  Why You'll Love Working With Us:
+  
+  We value our team at Function and offer a competitive salary
+  and benefits package, flexible working hours, and a dynamic
+  work environment where creativity and innovation are
+  encouraged. If you are a highly motivated and experienced
+  individual who is passionate about using technology to
+  improve people’s lives, we would love to hear from you.
+  
+  At Function, we celebrate diversity and are committed to
+  building a diverse and inclusive workforce. As an equal
+  opportunity employer, we do not discriminate on the basis of
+  race, color, gender identity, ancestry, religion, age,
+  sexual orientation, national origin, disability, marital
+  status, Veteran status, or any other occupationally
+  irrelevant criteria.
+  
+  Join the Function Health team and become a part of our
+  mission to build a healthier future for all. Discover more
+  about us and how we're changing the face of healthcare at
+  Function Health.
+  
+  Important Notice: Legitimate communication from the Function
+  Health team will always come from an email address ending in
+  @functionhealth.com. Function Health will never request
+  personal information such as banking details or payment
+  during the hiring process. Please be cautious of
+  communications or job offers that come from other email
+  domains, instant messaging platforms, or unsolicited calls.
+  If you ever have doubts about the legitimacy of a
+  communication, please reach out to us directly at
+  talent@functionhealth.com.
+industries:
+  - Information Technology
+  - Consulting
+posted_date: 2026-06-10
+url: "https://www.builtinla.com/job/senior-applied-ai-engineer/9684824"
+source: Built In

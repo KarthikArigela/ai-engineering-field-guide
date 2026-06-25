@@ -1,6 +1,6 @@
 # Job Market Data
 
-2,445 AI Engineer job descriptions from builtin.com (January - March 2026) covering LA (Global), New York, London, Amsterdam, Berlin, and India.
+4,894 AI Engineer job descriptions from builtin.com (January - June 2026) covering LA (Global), New York, London, Amsterdam, Berlin, and India.
 
 For analysis and insights based on this data, see [role/](../role/).
 
@@ -13,17 +13,17 @@ For analysis and insights based on this data, see [role/](../role/).
 
 ## Highlights
 
-- 1,683 jobs (72.0%) are AI-First (RAG, agents, LLMs)
-- 593 jobs (25.4%) are AI-Support (platforms, infrastructure, tooling)
-- 48 jobs (2.1%) are traditional ML rebranded as "AI Engineer"
-- 1,172 unique companies, led by Capital One (47), Jack & Jill AI (27), Optum (26)
+- 3,567 jobs (72.9%) are AI-First (RAG, agents, LLMs)
+- 1,199 jobs (24.5%) are AI-Support (platforms, infrastructure, tooling)
+- 91 jobs (1.9%) are traditional ML rebranded as "AI Engineer"
+- 1,954 unique companies, led by Capital One (91), Citi (74), Optum (58)
 
 Top skills:
 
-- Python (82.7%), TypeScript (20.8%), Java (18.3%)
-- RAG (34.5%), LLMs (21.2%), prompt engineering (18.0%)
-- AWS (41.3%), Docker (32.6%), Kubernetes (28.3%)
-- LangChain (23.1%), PyTorch (22.5%), SQL (21.0%)
+- Python (83.7%), TypeScript (21.3%), Java (17.6%)
+- RAG (34.1%), LLMs (17.7%), prompt engineering (15.9%)
+- AWS (40.0%), Docker (35.2%), Kubernetes (29.4%)
+- LangChain (23.8%), PyTorch (20.9%), SQL (25.8%)
 
 ## Data Format
 

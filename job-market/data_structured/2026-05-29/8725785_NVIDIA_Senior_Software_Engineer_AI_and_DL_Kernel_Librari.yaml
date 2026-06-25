@@ -1,0 +1,47 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing and AI hardware/software platforms
+position:
+  title: Senior Software Engineer, AI and DL Kernel Libraries
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building GPU kernels, inference
+      runtimes, and compiler technologies for LLM serving and AI
+      inference at NVIDIA. The engineer will design and implement
+      attention kernels, LLM inference runtime components, and
+      kernel code generators — all core work ON AI systems,
+      specifically LLM inference infrastructure.
+  responsibilities:
+  - Innovate and develop new AI systems technologies for efficient inference
+  - Design, implement, and optimize GPU kernels for high-impact AI workloads including
+    LLMs and agents
+  - Design and implement extensible abstractions for LLM serving engines
+  - Build efficient just-in-time domain-specific compilers and runtimes for AI inference
+  - Collaborate with engineers across deep learning frameworks, libraries, kernels,
+    and GPU architecture teams
+  - Contribute to open source communities including FlashInfer, vLLM, and SGLang
+  use_cases:
+  - GPU kernel acceleration for LLM inference
+  - Efficient attention kernel implementations for large language models
+  - LLM serving engine runtime components
+  - Kernel code generation for AI workloads
+  - Domain-specific compilation for AI inference and training
+  skills:
+    genai: [LLM inference optimization]
+    ml: [CUDA C/C++, PyTorch, JAX, TensorFlow, ONNX, cuTile, GPU kernel development]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, SGLang, FlashInfer, Flash Attention, MLC, Apache TVM, MLIR, Triton,
+      Inference runtime development, Domain-specific compilers]
+    languages: [Python, C/C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8725785'
+  extracted_at: '2026-05-29T08:47:33.106114'

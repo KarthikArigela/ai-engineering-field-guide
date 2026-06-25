@@ -1,0 +1,55 @@
+company:
+  name: MDCalc
+  stage: Series B
+  focus: Clinical decision tools and medical reference
+position:
+  title: QA Engineer, AI Products
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a QA Engineer role focused on testing and evaluating
+      LLM-powered features, not building or deploying models. The
+      work involves designing test strategies, building evaluation
+      pipelines, and measuring quality metrics for AI outputs,
+      which enables the work of AI engineers rather than directly
+      working on the models themselves.
+  responsibilities:
+  - Design and execute test strategies for LLM-powered features including prompt regression
+    testing, output evaluation, and hallucination detection
+  - Build and maintain automated evaluation pipelines with eval sets, golden datasets,
+    and LLM-as-judge frameworks to catch quality regressions
+  - Perform black-box and exploratory testing of AI features across web and mobile
+    with focus on clinical accuracy and safety
+  - Define quality metrics for AI outputs including accuracy, faithfulness, relevance,
+    safety, latency, and cost
+  - Collaborate cross-functionally with engineers, product managers, ML/AI engineers,
+    and clinical reviewers to define quality standards
+  - Investigate and triage AI failure modes distinguishing model issues, prompt issues,
+    retrieval issues, and integration bugs
+  - Develop QA strategies to expand testing capacity, automation, and evaluation coverage
+    as AI product surface grows
+  use_cases:
+  - Clinical decision support tools for medical professionals
+  - AI-powered medical reference and content delivery at point-of-care
+  - Evidence-based clinical decision tools covering 50+ specialties and 200+ patient
+    conditions
+  - Medical workflows used by 65% of physicians worldwide
+  - Safe and accurate AI responses for healthcare professionals treating patients
+  skills:
+    genai: [LLM testing, Prompt engineering, RAG systems, LLM-as-judge frameworks,
+      Hallucination detection, 'LLM APIs (OpenAI, Anthropic)']
+    ml: []
+    web: [Playwright]
+    databases: [SQL]
+    data: [Golden datasets, Data validation]
+    cloud: []
+    ops: ['Evaluation frameworks (Promptfoo, Braintrust, LangSmith, DeepEval, Ragas)',
+      Test automation]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9420205'
+  extracted_at: '2026-05-29T09:05:50.999170'

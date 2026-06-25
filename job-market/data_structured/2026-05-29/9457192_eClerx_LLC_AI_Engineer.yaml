@@ -1,0 +1,60 @@
+company:
+  name: eClerx LLC
+  stage: Public
+  focus: |-
+    Business process management, automation, and analytics
+    services for enterprise
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building, deployment, and
+      optimization of agentic AI solutions using LLMs, RAG,
+      function calling, and tool-calling agents. The engineer is
+      directly implementing model evaluation frameworks, prompt
+      synthesis, and guardrails for production AI systems, which
+      is core AI engineering work rather than infrastructure
+      support.
+  responsibilities:
+  - Build agentic AI systems with tool-calling agents that combine retrieval, structured
+    reasoning, and secure action execution following MCP protocol
+  - Productionize LLMs by building evaluation frameworks, implementing retrieval pipelines,
+    prompt synthesis, response validation, and self-correction loops
+  - Integrate agents with observability, incident management, and deployment systems
+    to enable automated diagnostics and remediation
+  - Collaborate with production engineers and application teams to translate pain
+    points into agentic AI roadmaps
+  - Build safety, reliability, and governance features including validator models,
+    adversarial prompts, policy checks, and deterministic fallbacks
+  - Optimize cost and latency through prompt engineering, context management, caching,
+    model routing, and distillation
+  - Build and maintain RAG pipelines with domain knowledge curation, data-quality
+    validation, and feedback loops for knowledge freshness
+  - Drive design reviews, experiment rigor, and mentor peers on agent architectures
+    and safe deployment patterns
+  use_cases:
+  - Production environment diagnostics and issue resolution through agentic AI systems
+  - Automated runbook execution and incident remediation with full traceability
+  - Risk reduction and cost management in large-scale production environments
+  - Production support automation with reasoning agents that can diagnose and take
+    actions
+  - Post-incident summarization and automated reporting
+  - Domain-aware knowledge retrieval for production operations
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, Function calling, MCP protocol,
+      Prompt engineering, OpenAI API, Anthropic Claude]
+    ml: [LLM fine-tuning]
+    web: [FastAPI]
+    databases: [Vector databases, PostgreSQL, Redis]
+    data: []
+    cloud: [SageMaker, AWS]
+    ops: [Model evaluation, Model deployment, Terraform, Docker, Kubernetes]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9457192'
+  extracted_at: '2026-05-29T09:05:48.790219'

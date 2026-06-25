@@ -1,0 +1,54 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing and AI infrastructure
+position:
+  title: Senior Software Engineer, AI Inference Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on work building and optimizing AI
+      inference systems, including implementing vLLM features,
+      optimizing GPU kernels for model inference, and developing
+      inference engines. The engineer works directly on model
+      serving, deployment, and optimization infrastructure, which
+      is building ON AI systems rather than supporting AI work
+      done by others.
+  responsibilities:
+  - Contribute features to vLLM inference framework with NVIDIA GPU hardware including
+    speculative decoding and various parallelism strategies
+  - Develop and optimize GPU kernels using fusion, autotuning, and memory/layout optimization
+    while extending compiler infrastructure
+  - Define and build inference benchmarking methodologies and contribute to MLPerf
+    Inference benchmark suite
+  - Architect scheduling and orchestration of large-scale inference deployments on
+    GPU clusters across clouds
+  - Conduct and publish original research on ML Systems and integrate research ideas
+    into NVIDIA's software products
+  use_cases:
+  - Large-scale model inference serving with extreme efficiency across multi-GPU and
+    multi-node environments
+  - High-performance LLM inference engines powering newest models with latest GPU
+    hardware features
+  - Speculative decoding and optimized inference techniques for accelerated AI deployment
+  - Production inference workloads across multi-cloud GPU clusters
+  - MLPerf benchmarking and industry-standard inference performance evaluation
+  skills:
+    genai: [Speculative decoding]
+    ml: [CUDA, GPU kernels, Triton, TorchDynamo, Torch Inductor, MLIR, XLA, CUTLASS,
+      CUDA Graph, Tensor Cores, NCCL, PyTorch, Deep learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [vLLM, SGLang, Tensor parallelism, Pipeline parallelism, Data parallelism,
+      LLVM, Nsight Systems, Nsight Compute, MLPerf, Docker, Kubernetes, Slurm, containerd,
+      CRI-O, CRIU, CI/CD]
+    languages: [Python, C++, Go, Rust]
+    domains: []
+    other: [Distributed systems, Parallel programming, Computer architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9221782'
+  extracted_at: '2026-05-29T08:58:13.688660'

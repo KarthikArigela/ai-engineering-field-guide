@@ -1,0 +1,62 @@
+company:
+  name: Salvo Software
+  stage: null
+  focus: |-
+    Global software solutions for enterprise digital
+    transformation
+position:
+  title: AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on work with LLM models including
+      training, fine-tuning (SFT, LoRA/Q-LoRA), optimization,
+      quantization (GGUF, GPTQ, AWQ), and deployment using
+      inference frameworks (vLLM, TGI, Ollama). The role also
+      requires building RAG pipelines, implementing MCP
+      integrations, and working with vector databases and
+      embeddings, all of which constitute direct work on AI/ML
+      systems rather than supporting infrastructure.
+  responsibilities:
+  - Train and fine-tune LLMs using supervised fine-tuning (SFT) with open-source models
+    like LLaMA, Mistral, and Qwen
+  - Build LoRA/Q-LoRA pipelines for efficient fine-tuning and implement data preprocessing
+    workflows including tokenization and long-context handling
+  - Design and implement end-to-end Retrieval-Augmented Generation (RAG) pipelines
+    for document-grounded question answering and knowledge retrieval
+  - Develop and maintain MCP (Model Context Protocol) server integrations to enable
+    LLMs to interact dynamically with tools, APIs, and external data sources
+  - Deploy, optimize, and maintain models in offline and air-gapped environments using
+    quantization techniques (GGUF, GPTQ, AWQ) and inference frameworks (vLLM, TGI,
+    Ollama)
+  - Build backend services in Python for ML training and inference workflows, working
+    with relational and vector databases for storage layers
+  - Optimize GPU usage (CUDA, cuDNN, VRAM-aware batching) and manage local CI/CD pipelines
+    for ML models without cloud dependencies
+  - Build and maintain vector stores and embedding pipelines using FAISS, Chroma,
+    Weaviate, or pgvector with optimized retrieval strategies
+  use_cases:
+  - Document-grounded question answering and knowledge retrieval systems
+  - Enterprise-grade RAG systems for offline and air-gapped environments
+  - Context-aware AI systems with structured access to internal systems via MCP
+  - Agentic workflows leveraging MCP for tool and API integration
+  - Local inference systems for on-premises LLM deployment
+  - Enterprise document parsing and processing for Office formats and XML/XSD
+  skills:
+    genai: [RAG, Retrieval-Augmented Generation, MCP, Model Context Protocol]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, Hugging Face
+        Datasets, Supervised Fine-Tuning (SFT), LoRA, Q-LoRA, GGUF, GPTQ, AWQ, bitsandbytes,
+      CUDA, cuDNN]
+    web: []
+    databases: [FAISS, Chroma, Weaviate, pgvector, Postgres, MySQL]
+    data: [pandas, XML/XSD, python-docx, OpenXML]
+    cloud: [Azure DevOps]
+    ops: [vLLM, TGI, Ollama, Docker, Git]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9469036'
+  extracted_at: '2026-05-29T09:07:04.629253'

@@ -1,0 +1,58 @@
+company:
+  name: Re:Build Manufacturing
+  stage: Growth stage (backed by Re:Build with potential for spinout)
+  focus: |-
+    AI-powered platform for hardware product development and
+    manufacturing coordination
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineer role focused on building,
+      deploying, and operating LLM-powered agent systems. The
+      engineer will own agent orchestration (LangChain DeepAgent),
+      implement tool-use patterns, design prompts/chains/retrieval
+      strategies, and build multi-agent systems with planning and
+      delegation capabilities. This is directly working ON AI
+      systems, not supporting infrastructure.
+  responsibilities:
+  - Designing, building, and iterating on LLM-powered agents that coordinate across
+    engineering disciplines, surface project risks, and generate structured deliverables
+  - Owning the agent orchestration layer (currently LangChain DeepAgent) and continuously
+    evaluating whether to extend, replace, or supplement it as new frameworks emerge
+  - Implementing robust tool-use patterns that connect agents to external systems
+    (project management tools, CAD/PLM platforms, communication channels) via APIs
+    and integrations
+  - Designing and tuning prompts, chains, and retrieval strategies to maximize agent
+    reliability, accuracy, and usefulness across diverse hardware project contexts
+  - Building evaluation and observability infrastructure for agent performance, including
+    tracing, cost tracking, latency monitoring, and automated quality benchmarks
+  - Developing streaming agent interfaces that surface real-time progress, reasoning
+    transparency, and proactive alerts to end users
+  - Collaborating with frontend engineers on AI-powered UX and backend engineers on
+    data pipelines and API design
+  use_cases:
+  - Proactive coordination across engineering disciplines in hardware product development
+  - Real-time risk surfacing and anticipation of problems in hardware workflows
+  - Generation of structured deliverables including proposals, SOWs, and status reports
+  - Coordinating change requests and critical context relay to the right people
+  - Maintaining a structured picture of hardware programs across tools teams already
+    use
+  skills:
+    genai: [LangChain, LangGraph, DeepAgent, CrewAI, AutoGen, RAG, prompt engineering,
+      function/tool calling, multi-agent systems]
+    ml: []
+    web: [React, APIs]
+    databases: [Pinecone, Weaviate, pgvector]
+    data: []
+    cloud: []
+    ops: [Celery, RQ, Temporal]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9188416'
+  extracted_at: '2026-05-29T08:55:27.713287'

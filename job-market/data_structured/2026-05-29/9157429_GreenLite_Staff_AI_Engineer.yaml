@@ -1,0 +1,51 @@
+company:
+  name: GreenLite
+  stage: Series B
+  focus: AI-powered construction permitting automation for developers
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building, deploying,
+      and operating agentic workflows using LangGraph, Bedrock
+      AgentCore, and Strands Agents. The engineer will design
+      multi-step agent graphs, implement RAG systems, and directly
+      work with LLM-based systems for construction permitting
+      automation.
+  responsibilities:
+  - Design and ship production agents using LangGraph orchestration and Strands-based
+    reasoning for permitting workflows
+  - Operationalize agents on Bedrock AgentCore with secure hosting, streaming APIs,
+    persistent memory, and observability
+  - Build evaluation and safety harnesses with task-level and end-to-end metrics,
+    regression suites, and guardrails
+  - Implement RAG systems for building-code knowledge retrieval with vector stores
+    and durable knowledge interfaces
+  - Develop fault-tolerant flows with retries, rollbacks, observability dashboards,
+    and on-call runbooks
+  - Create internal libraries and templates for agent patterns while mentoring engineers
+    and reviewing designs
+  use_cases:
+  - Permit intake triage and automated checklist generation for construction submissions
+  - Smart document QA for architectural plans and CAD files with code compliance checking
+  - Compliance comment copilot that suggests code citations and remediation actions
+  - Code lookup system for navigating thousands of jurisdictional construction codes
+  - Automated plan review that reduces permitting cycle time across thousands of jurisdictions
+  - Document analysis converting PDF/CAD plans into auditable agent actions
+  skills:
+    genai: [LangGraph, Strands Agents, MCP, RAG, CrewAI, AutoGen, LlamaIndex]
+    ml: []
+    web: [FastAPI]
+    databases: [Pinecone, S3 Vectors, PostgreSQL]
+    data: []
+    cloud: [Bedrock AgentCore, AWS]
+    ops: [ECS, EKS, CI/CD, Terraform, Docker, Kubernetes]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Apryse]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9157429'
+  extracted_at: '2026-05-29T08:55:43.140166'

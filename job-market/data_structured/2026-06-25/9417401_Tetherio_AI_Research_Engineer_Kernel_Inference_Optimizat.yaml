@@ -1,0 +1,58 @@
+company:
+  name: Tether.io
+  stage: null
+  focus: Stablecoin and blockchain-based digital finance solutions
+position:
+  title: AI Research Engineer (Kernel & Inference Optimization)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves direct, hands-on work optimizing AI model
+      inference and serving architectures, including writing
+      custom GPU kernels, implementing techniques like
+      quantization, speculative decoding, and flash attention, and
+      optimizing model deployment on resource-constrained devices.
+      The engineer works directly on AI systems (model serving,
+      inference optimization, kernel engineering) rather than
+      supporting infrastructure for others.
+  responsibilities:
+  - Design and deploy state-of-the-art model serving architectures optimizing throughput,
+    latency, and memory usage across diverse environments including resource-constrained
+    devices and edge platforms
+  - Build, run, and monitor controlled inference tests in simulated and live production
+    environments, tracking latency, throughput, memory consumption, and error rates
+    against benchmarks
+  - Prepare high-quality test datasets and simulation scenarios tailored to real-world
+    deployment challenges on low-resource devices
+  - Analyze computational efficiency and diagnose bottlenecks in serving pipelines,
+    addressing batch processing, network delays, and memory usage issues
+  - Collaborate with cross-functional teams to integrate optimized inference frameworks
+    into production pipelines for edge and on-device applications with continuous
+    monitoring and iterative refinement
+  use_cases:
+  - High-throughput, low-latency model inference on mobile and edge devices
+  - Multi-modal AI architectures integrating text, images, and audio
+  - Distributed inference of massive models on GPU clusters using tensor and pipeline
+    parallelism
+  - Resource-efficient AI model deployment for constrained hardware environments
+  - Optimized serving of diffusion models and vision transformers
+  skills:
+    genai: []
+    ml: [Pruning, Quantization, Flash Attention, Speculative Decoding (Eagle), Machine
+        Learning R&D]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Metal Shading Language (MSL), GPU kernel optimization, Custom compute shaders,
+      Model serving architectures, Inference optimization, Tensor Parallelism, Pipeline
+        Parallelism, Expert Parallelism, KV Cache, Mobile/edge inference, Distributed
+        inference systems]
+    languages: []
+    domains: [Diffusion Models, Vision Transformers, NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9417401'
+  extracted_at: '2026-06-25T19:40:58.243625'

@@ -1,0 +1,54 @@
+company:
+  name: Cisco
+  stage: Public
+  focus: Enterprise networking, security, and AI infrastructure
+position:
+  title: AI Infrastructure Engineer - GoLang, Kubernetes, Dockers, Linux - 8-12 years
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds the control plane infrastructure
+      (Kubernetes operators, microservices, APIs) that
+      orchestrates and manages AI workloads, but does not directly
+      build, train, fine-tune, or deploy AI/ML models. The work is
+      on the infrastructure and platform layer that enables AI
+      workloads to run, making it an ai-support role.
+  responsibilities:
+  - Design and implement control plane components using Golang and Python to manage
+    AI workloads
+  - Leverage Kubernetes CRDs, operator patterns (Kubebuilder), and Helm to build scalable
+    control plane services
+  - Develop highly available microservices spanning across regions with strong distributed
+    systems fundamentals
+  - Build and maintain gRPC, REST APIs, and CLI tools for integration and control
+    of AI infrastructure
+  - Establish CI/CD pipelines, release management best practices, and live upgrade
+    strategies to minimize downtime
+  - Implement telemetry collection using eBPF and other tools, and define/monitor
+    SLA/SLO metrics for reliability
+  - Design and manage stateful applications with high-performance underlying databases
+  - Collaborate with teams to ensure control plane compatibility with GPU/CUDA-related
+    technologies
+  use_cases:
+  - Orchestration and management of AI workloads across distributed environments
+  - Control plane for next-generation AI infrastructure platforms
+  - SaaS-based deployment and lifecycle management of AI infrastructure services
+  - Telemetry and observability for AI infrastructure system health and performance
+  - GPU/CUDA resource management and integration into infrastructure systems
+  skills:
+    genai: []
+    ml: []
+    web: [gRPC, REST APIs, Microservices architecture]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Kubernetes, Kubernetes CRDs, Kubebuilder, Helm, Docker, Linux, eBPF, CI/CD,
+      GPU/CUDA, SLA/SLO monitoring]
+    languages: [Golang, Python, C++]
+    domains: []
+    other: [Distributed systems, SaaS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9882869'
+  extracted_at: '2026-06-25T19:54:50.479122'

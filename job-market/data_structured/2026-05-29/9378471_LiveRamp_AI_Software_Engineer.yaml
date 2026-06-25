@@ -1,0 +1,52 @@
+company:
+  name: LiveRamp
+  stage: Public
+  focus: |-
+    Data collaboration platform for identity resolution and
+    customer data connectivity
+position:
+  title: AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role because the engineer is hands-on
+      building and deploying ML models for anomaly detection and
+      root-cause prediction. They work directly with PyTorch,
+      TensorFlow, and scikit-learn, implement statistical/ML
+      techniques, and build data pipelines for training,
+      evaluation, and inference of production models.
+  responsibilities:
+  - Develop backend services and APIs integrating AI/ML components for intelligent
+    monitoring and automated diagnostics
+  - Build data pipelines for training, evaluation, and inference of anomaly-detection
+    and root-cause-prediction models
+  - Implement statistical and ML techniques to analyze metrics, logs, and traces for
+    proactive incident detection
+  - Collaborate with engineers and analysts to translate data patterns into actionable
+    system insights and reliability improvements
+  - Contribute to internal dashboards and visualization tools that surface model predictions
+    and performance metrics
+  - Maintain CI/CD pipelines, testing suites, and lightweight model deployment workflows
+    using Docker and MLflow
+  use_cases:
+  - Anomaly detection in distributed systems and large-scale data pipelines
+  - Automated diagnostics and root cause prediction for system incidents
+  - Intelligent observability and monitoring for data reliability
+  - Self-healing capabilities for automated system recovery
+  - Proactive incident detection through log and trace analysis
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, scikit-learn]
+    web: [REST, gRPC]
+    databases: [Snowflake]
+    data: [Airflow, Spark, Kafka]
+    cloud: []
+    ops: [Docker, MLflow, CI/CD, Kubeflow, Grafana, Prometheus, OpenTelemetry, Git]
+    languages: [Python, Java, Go, TypeScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9378471'
+  extracted_at: '2026-05-29T09:03:49.398843'

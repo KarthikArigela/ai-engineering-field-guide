@@ -1,0 +1,61 @@
+company:
+  name: F5
+  stage: Public
+  focus: Cybersecurity and application security services
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an AI Data Engineer role focused on building data
+      pipelines and infrastructure to support AI initiatives, not
+      on building or deploying AI models directly. The role
+      creates the data foundation for other teams to train and use
+      AI models through ETL pipelines, data quality checks, and
+      data governance. While the role enables AI systems and
+      collaborates with AI Deployment Engineers, the core work is
+      data engineering (pipelines, transformation, quality
+      monitoring) rather than model development, training, or
+      deployment.
+  responsibilities:
+  - Implement automated data quality checks, validation rules, and anomaly detection
+    throughout data pipelines to ensure clean data for AI models
+  - Define and enforce data quality SLAs including completeness, timeliness, consistency,
+    and accuracy thresholds
+  - Build monitoring and alerting systems to detect pipeline failures, data drift,
+    and schema changes affecting AI model performance
+  - Implement and maintain end-to-end data pipelines for structured, semi-structured,
+    and unstructured datasets
+  - Collaborate with AI Deployment Engineers to optimize data pipelines for model
+    training and data stores for model retention
+  - Implement both batch and real-time streaming data pipelines to support diverse
+    AI and automation use cases
+  - Conduct root cause analysis on data quality incidents and implement preventative
+    controls
+  - Implement data retention, data lineage, and governance standards across various
+    data pipelines and products
+  use_cases:
+  - Corporate operations automation and AI initiatives
+  - Data quality monitoring for AI model training and reliability
+  - Operational AI systems across the organization
+  - Enterprise-scale data pipeline infrastructure
+  - Real-time and batch data processing for AI solutions
+  - Data governance and security compliance for AI deployments
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Snowflake]
+    data: [Hadoop, Spark, dbt, FiveTran, ETL, Data Pipelines, Streaming Data, Batch
+        Processing]
+    cloud: []
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [Tableau, Data Governance, Data Quality, Data Lineage, Data Privacy Compliance,
+      GDPR, CCPA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9145433'
+  extracted_at: '2026-05-29T08:55:06.214282'

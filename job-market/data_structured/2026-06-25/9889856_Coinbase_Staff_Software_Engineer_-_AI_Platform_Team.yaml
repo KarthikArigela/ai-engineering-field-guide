@@ -1,0 +1,57 @@
+company:
+  name: Coinbase
+  stage: Public
+  focus: Cryptocurrency exchange and financial services
+position:
+  title: Staff Software Engineer - AI Platform Team
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and operating LLM and agent
+      infrastructure (LLM Gateway, agent/MCP runtime, evaluation
+      harnesses) AND shipping production AI agents directly. The
+      team builds the platform for LLMs and deploys agents on top
+      of it, including fine-tuning where appropriate. This is
+      hands-on work with models and agents at an infrastructure
+      and applied level.
+  responsibilities:
+  - Build and operate the LLM Gateway providing a unified API for 60+ models across
+    major providers with auth, PII redaction, quotas, fallbacks, and cost optimization
+  - Develop the AI Hub serving as the single entry point for agents, skills, MCP servers,
+    knowledge bases, models, memories, and keys
+  - Build the agent and MCP runtime including microVM sandboxes, governed MCP gateway,
+    and cross-trust agent identity
+  - Create knowledge base infrastructure that connects any data source and auto-provisions
+    vector and markdown stores queryable by agents over MCP
+  - Build AI FinOps tooling for spend attribution and governance across the company
+  - Develop in-house evaluation and observability tooling including LLM-as-judge harness
+    with full tracing
+  - Embed with product teams to build production AI agents and apply traditional ML
+    including fine-tuning where it outperforms prompting
+  - Own multi-quarter high-impact initiatives partnering across engineering, security,
+    legal, finance, and product teams
+  use_cases:
+  - LLM gateway routing across 60+ models with cost optimization and governance
+  - Production AI agents for code, analytics, and executive personas
+  - Automated blockchain node upgrades via AI-driven automation
+  - Enterprise conversational AI for support, compliance, and productivity
+  - Company-wide chat and low-code AI workflow surfaces serving thousands of weekly
+    active users
+  - AI spend governance and FinOps attribution across the organization
+  skills:
+    genai: [LLM Gateway, MCP (Model Context Protocol), AI Agents, RAG / Knowledge
+        Bases, Prompt Engineering, LLM-as-Judge Evaluation]
+    ml: [Fine-tuning]
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS]
+    ops: [MicroVM Sandboxes, LLM Observability and Tracing, AI FinOps / Spend Governance]
+    languages: [Python]
+    domains: [Blockchain / Crypto]
+    other: [Low-code Workflow Platforms, PII Redaction]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9889856'
+  extracted_at: '2026-06-25T19:54:40.870415'

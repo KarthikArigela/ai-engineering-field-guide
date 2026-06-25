@@ -1,0 +1,50 @@
+company:
+  name: Scalable Capital
+  stage: Series C+ (founded 2014, 700+ employees)
+  focus: Digital investment and banking platform
+position:
+  title: AI Platform Engineer (m/f/x)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the
+      platform infrastructure that enables other AI engineers to
+      build generative AI applications. The engineer works on
+      provisioning, observability, governance, and cost management
+      for LLM access — not on building, training, or deploying AI
+      models themselves. This is classic enabling/support work for
+      AI teams.
+  responsibilities:
+  - Develop and maintain an internal AI provisioning platform to streamline access
+    to LLMs and MCP servers via tools like LiteLLM
+  - Implement comprehensive LLM observability, logging, and alerting systems using
+    Datadog and Langfuse
+  - Enforce model governance ensuring security, data privacy, rate limiting, and strict
+    LLM API cost management
+  - Collaborate with embedded AI Software Engineers to support cloud-native architectures
+    and agentic workflow integrations
+  - Build and maintain infrastructure for monitoring reliability and performance of
+    production AI systems
+  - Ensure AI integrations are secure, performant, and cost-effective across the organization
+  use_cases:
+  - Internal AI provisioning platform for streamlined LLM and MCP server access
+  - LLM observability and governance for production AI systems
+  - Cost management and rate limiting for enterprise LLM API usage
+  - Cloud-native infrastructure supporting agentic and LLM-driven workflows in fintech
+  skills:
+    genai: [LiteLLM, MCP Servers]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, Cloud-native architecture]
+    ops: [Langfuse, Datadog, Terraform, Docker, CI/CD, LLM API cost management, LLM
+        governance, Rate limiting]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9582255'
+  extracted_at: '2026-06-25T19:42:29.898452'

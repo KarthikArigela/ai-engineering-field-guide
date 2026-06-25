@@ -1,0 +1,50 @@
+company:
+  name: Kraken Digital Asset Exchange
+  stage: Public
+  focus: Cryptocurrency and digital asset exchange
+position:
+  title: Senior Software Engineer – AI Infrastructure
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and operating the
+      infrastructure layer that powers AI agent systems, including
+      model inference, orchestration, and execution in production.
+      While it's infrastructure-focused, the engineer works
+      directly on the systems that run model inference and agent
+      orchestration, making this ai-first rather than ai-support.
+  responsibilities:
+  - Design and build the infrastructure layer powering AI agent systems in production
+  - Develop high-performance Rust services that handle model inference, orchestration,
+    and execution
+  - Architect scalable systems capable of supporting millions of users and high request
+    throughput
+  - Build reliable ML infrastructure and MLOps patterns for model deployment, evaluation,
+    and monitoring
+  - Define guardrails, observability, and failure handling for agent-driven workflows
+  - Optimize latency, throughput, and cost across inference and orchestration layers
+  - Partner closely with the Agent Systems team to translate experimental prototypes
+    into hardened production systems
+  use_cases:
+  - AI agent systems operating across internal systems at Kraken
+  - Model inference serving at production scale for millions of users
+  - Agent orchestration and execution for financial workflows
+  - Real-time guardrails and failure handling for agent-driven operations
+  skills:
+    genai: [LLM-powered agent systems]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Cloud-native infrastructure]
+    ops: [Distributed systems, Model inference, Model serving, MLOps, ML infrastructure,
+      Observability and monitoring, Container orchestration, High-performance networking,
+      Asynchronous systems, Evaluation frameworks, Performance optimization]
+    languages: [Rust]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8842097'
+  extracted_at: '2026-06-25T19:40:32.678927'

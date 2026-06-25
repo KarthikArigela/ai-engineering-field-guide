@@ -1,0 +1,58 @@
+company:
+  name: Nagarro
+  stage: Private (established)
+  focus: Digital product engineering and IT services
+position:
+  title: Senior Staff Engineer (AI Developer SOC Automation)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and fine-
+      tuning LLM-powered solutions, developing RAG pipelines,
+      implementing NLP/ML models for security automation, and
+      prompt engineering for SOC use cases. The engineer is hands-
+      on with AI models and AI agents throughout the development
+      lifecycle.
+  responsibilities:
+  - Design, develop, and maintain AI-powered automation solutions for SOC workflows
+    including alert classification, anomaly detection, threat prioritization, and
+    incident response
+  - Build AI-powered security agents and bots that automate alert triage, investigation,
+    and remediation processes
+  - Develop and fine-tune NLP and machine learning models for log parsing, alert summarization,
+    phishing detection, IOC extraction, and threat intelligence analysis
+  - Design and implement feature engineering pipelines to process security telemetry
+    from cloud and on-premises monitoring platforms
+  - Build and optimize RAG pipelines leveraging enterprise threat intelligence repositories,
+    knowledge bases, and security playbooks
+  - Develop, evaluate, and optimize LLM-powered security use cases through prompt
+    engineering, model evaluation, and continuous performance improvement
+  - Build and maintain integrations with SIEM, SOAR, ticketing, monitoring, and security
+    platforms using REST APIs and custom connectors
+  - Monitor AI model performance, detect model drift, maintain dashboards, and improve
+    model accuracy using MLOps best practices
+  use_cases:
+  - AI-powered SOC alert classification, triage, and prioritization
+  - Automated incident response and remediation via security agents and bots
+  - Phishing detection and IOC extraction from security logs
+  - RAG-based threat intelligence retrieval and security playbook lookup
+  - NLP-driven log parsing and alert summarization
+  - Automated ticket creation and incident routing for security operations
+  skills:
+    genai: [OpenAI APIs, Azure OpenAI, Prompt Engineering, Retrieval-Augmented Generation
+        (RAG), LangChain, Semantic Kernel, Azure AI Search (Cognitive Search)]
+    ml: [Pandas, NumPy, scikit-learn, PyTorch, TensorFlow]
+    web: [FastAPI, Flask, REST APIs, Microservices]
+    databases: [Vector Databases, BigQuery]
+    data: [GCP Pub/Sub]
+    cloud: [Azure Machine Learning, Azure Functions, Azure Logic Apps, Azure Event
+        Hub, Microsoft Sentinel, Microsoft Azure, AWS, Google Cloud Platform]
+    ops: [Docker, CI/CD, Git, MLOps]
+    languages: [Python, SQL]
+    domains: [MITRE ATT&CK Framework, SIEM, SOAR, Cybersecurity, NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9730932'
+  extracted_at: '2026-06-25T19:49:25.020898'

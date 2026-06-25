@@ -1,0 +1,56 @@
+company:
+  name: Amach
+  stage: Growth
+  focus: |-
+    Aviation technology using cloud, data, and AI to optimize
+    airline operations
+position:
+  title: Senior SRE/Platform Engineer (AI Platforms)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an SRE/Platform Engineering role focused on building
+      and scaling cloud infrastructure that supports AI-driven
+      products. The role does NOT involve building, training, or
+      fine-tuning models directly. Instead, it enables AI teams by
+      providing standardized platforms, CI/CD pipelines, and
+      operational support for AI/ML workloads (inference services,
+      LLM integrations). The core work is infrastructure and
+      platform engineering with an AI enablement component.
+  responsibilities:
+  - Define and implement scalable, reusable architecture patterns for cloud-native
+    and AI-enabled services on AWS
+  - Build and manage Terraform-based infrastructure using modular, reusable design
+    principles
+  - Define and improve CI/CD patterns for infrastructure, applications, and AI workloads
+  - Apply SRE principles across services including monitoring, logging, tracing, SLIs/SLOs
+  - Support the deployment and operation of AI/ML workloads in production including
+    inference services and LLM integrations
+  - Contribute to how AI workloads are scaled, monitored and optimised within the
+    platform
+  - Support and operate API gateway and data plane technologies such as Kong
+  - Drive consistency in how services are deployed, integrated, and operated across
+    multiple projects
+  use_cases:
+  - AI workload deployment and inference serving for airline operations
+  - LLM integration pipelines for aviation intelligence products
+  - Standardized cloud platforms enabling AI teams to deliver production workloads
+  - Scalable infrastructure for compute-heavy AI/ML workloads
+  - Monitoring and optimization of AI services in production environments
+  skills:
+    genai: [LLM integration]
+    ml: []
+    web: [Kong API Gateway]
+    databases: [Vector databases, Feature stores]
+    data: []
+    cloud: [AWS, ECS, EKS, Cloud networking]
+    ops: [Terraform, CI/CD, Docker, Kubernetes, 'SRE principles (SLIs/SLOs, monitoring,
+        logging, tracing)', GPU workloads, Inference services]
+    languages: [Python]
+    domains: []
+    other: [Event-driven architectures]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9138667'
+  extracted_at: '2026-05-29T08:50:58.263406'

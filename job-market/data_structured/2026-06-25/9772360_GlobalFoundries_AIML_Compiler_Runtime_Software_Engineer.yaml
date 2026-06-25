@@ -1,0 +1,62 @@
+company:
+  name: GlobalFoundries
+  stage: Public
+  focus: Semiconductor foundry and chip manufacturing
+position:
+  title: AI/ML Compiler & Runtime Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building AI/ML compiler and
+      runtime software that enables efficient execution of AI
+      models on edge/NPU hardware. The engineer works on compiler
+      passes, code generation, quantization, and model
+      optimization — core work ON AI systems (compiling and
+      optimizing AI model execution). This is hands-on AI
+      deployment and optimization work, not infrastructure
+      supporting other AI teams.
+  responsibilities:
+  - Architect, design, and develop AI/ML compiler and runtime software for RISC-V
+    based IP, NPU, and SoC platforms
+  - Develop and enhance IREE-based compiler flows including MLIR lowering, code generation,
+    runtime integration, and deployment paths for edge AI workloads
+  - Create and maintain custom MLIR dialects, compiler passes, lowering pipelines,
+    and transformation flows to map AI workloads to custom NPU and accelerator hardware
+  - Optimize neural network workloads for edge deployment including operator fusion,
+    tiling, memory planning, quantization, and accelerator-aware scheduling
+  - Collaborate with architecture, hardware, firmware, FPGA, validation, and product
+    teams to bring up AI workloads on simulators, FPGA platforms, and silicon
+  - Define software architecture and technical direction for AI SDK components including
+    compiler pipelines, runtime interfaces, and accelerator integration
+  - Build test infrastructure, validation flows, benchmark suites, and CI pipelines
+    for AI compiler/runtime correctness and performance tracking
+  - Provide technical leadership to engineers working on AI compiler, runtime, model
+    deployment, and edge AI software development
+  use_cases:
+  - Edge AI model deployment on RISC-V and NPU hardware platforms
+  - Physical AI workloads on next-generation SoC platforms
+  - Hardware-software co-design for low-latency, power-efficient AI inference on edge
+    devices
+  - AI accelerator and NPU enablement for real-time embedded, automotive, industrial,
+    and robotics workloads
+  - Silicon-to-software lifecycle bring-up for AI workloads on custom semiconductor
+    IP
+  skills:
+    genai: [llama.cpp, GGML/GGUF]
+    ml: [LLVM, MLIR, Custom MLIR dialects and passes, Code generation, Quantization,
+      NPU acceleration, PyTorch, ONNX, TensorFlow Lite/TFLite, torch-mlir, TOSA, Linalg,
+      Operator fusion, Tiling, Memory planning, Vectorization, TVM, XNNPACK]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [IREE, Linux, Cross-compilation, ONNX Runtime, Jenkins, Git, CMake, Bazel,
+      Docker, Kubernetes]
+    languages: [C/C++, Python]
+    domains: [Edge AI deployment, Computer Vision, Robotics, Automotive AI]
+    other: [RISC-V, ARM, FPGA prototyping, Hardware-software co-design, DMA]
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9772360'
+  extracted_at: '2026-06-25T19:53:01.644111'

@@ -1,0 +1,55 @@
+company:
+  name: Experian
+  stage: Public
+  focus: Global data analytics and credit reporting services
+position:
+  title: Senior Staff Software Engineer (AI/ML)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on building and productionizing ML
+      models including fraud detection, credit risk scoring, and
+      LLM-enabled workflows with evaluation and guardrails. The
+      role covers end-to-end architecture from training to
+      deployment/retraining, with direct responsibility for model
+      evaluation, drift management, and implementing RAG/prompt
+      security for LLM applications. This is active work on AI/ML
+      systems rather than just supporting infrastructure or data
+      pipelines.
+  responsibilities:
+  - Lead end-to-end architecture for AI/ML systems from data through deployment and
+    monitoring
+  - Build and productionize models across fraud detection, credit risk, propensity,
+    and customer servicing
+  - Establish ML engineering standards including CI/CD, model registry, and release
+    strategies
+  - Build monitoring for data quality, model performance decay, and business KPI impact
+  - Partner with stakeholders to frame problems and navigate accuracy vs cost vs explainability
+    tradeoffs
+  - Implement Responsible AI practices including fairness, privacy, and governance
+    artifacts
+  - Mentor engineers and establish scalable patterns across teams
+  use_cases:
+  - Fraud and anomaly detection with low false positives
+  - Credit risk scoring and predictive risk indicators
+  - Propensity modeling and churn prediction
+  - Customer servicing intelligence with triage and routing
+  - LLM-enabled workflows with RAG and guardrails
+  - Personalization engines with ranking and next-best-action
+  skills:
+    genai: [RAG, LangChain, LlamaIndex, prompt engineering, guardrails]
+    ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow]
+    web: [FastAPI]
+    databases: [Postgres, vector databases, feature store]
+    data: [Spark, Databricks, Airflow, Dagster, Prefect, dbt, Kafka, Kinesis]
+    cloud: [AWS, Azure, GCP]
+    ops: [MLflow, Weights & Biases, Docker, Kubernetes, Triton, Seldon, KServe, OpenTelemetry,
+      Prometheus, Grafana, Datadog, CI/CD]
+    languages: [Python, SQL, Java, Scala]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9265230'
+  extracted_at: '2026-05-29T08:59:59.048639'

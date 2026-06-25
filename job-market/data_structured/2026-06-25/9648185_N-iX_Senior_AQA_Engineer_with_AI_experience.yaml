@@ -1,0 +1,48 @@
+company:
+  name: N-iX
+  stage: null
+  focus: IT services and software development
+position:
+  title: Senior AQA Engineer (with AI experience)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves testing and evaluating AI/LLM
+      systems, including RAG validation, prompt drift detection,
+      and building automated tests for non-deterministic AI
+      outputs. While it's a QA role rather than a model-building
+      role, the core responsibility is hands-on evaluation and
+      validation of LLM and AI system behavior using specialized
+      LLM evaluation tools.
+  responsibilities:
+  - Build automated tests to evaluate AI outputs for accuracy, consistency, and reliability
+  - Validate RAG systems using metrics like relevance and correctness
+  - Create regression tests to detect changes in AI behavior such as prompt drift
+  - Test integrations between AI systems and enterprise platforms like SAP
+  - Perform API testing including security and access control validation
+  - Design performance tests for latency, scalability, and system throughput
+  - Align test cases with system requirements and support release readiness
+  - Track and manage defects ensuring traceability to data, models, or requirements
+  use_cases:
+  - LLM output validation for accuracy, consistency, and reliability
+  - RAG system evaluation for relevance and correctness
+  - AI behavior regression testing and prompt drift detection
+  - AI-enterprise system integration testing for defense sector
+  - Performance and scalability testing of AI systems
+  skills:
+    genai: [DeepEval, TruLens, RAG evaluation, LLM evaluation]
+    ml: []
+    web: [API testing]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Pytest, Selenium, Playwright, JMeter, Locust, K6, GitLab CI/CD, Git, Allure,
+      TestRail]
+    languages: [Python, SQL]
+    domains: []
+    other: [SAP integration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9648185'
+  extracted_at: '2026-06-25T19:47:14.586211'

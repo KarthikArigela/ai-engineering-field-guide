@@ -1,0 +1,54 @@
+company:
+  name: DXC Technology
+  stage: Public
+  focus: Enterprise IT services and solutions
+position:
+  title: 'Sr Analyst III: AI Systems Engineer - Storage & Backup'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic AI systems —
+      including MCP tool servers, LLM tool calling, ReAct graphs,
+      RAG, and prompt engineering — for the OASIS storage/backup
+      platform. The engineer writes code for agents and MCP
+      servers that integrate with vendor APIs, making this hands-
+      on work with AI/agent infrastructure rather than supporting
+      someone else's AI work.
+  responsibilities:
+  - Develop Python-based components for OASIS storage/backup integrations including
+    MCP tools, vendor REST API integrations, and Pydantic data models
+  - Write, test, and debug code for agents, MCP tool servers, and FastAPI services
+  - Participate in design discussions, code reviews, and submit pull requests with
+    test coverage and changelog entries
+  - Troubleshoot and resolve technical issues across the agent to MCP server to vendor
+    API stack
+  - Use structured logging and OpenTelemetry traces for troubleshooting and incident
+    analysis
+  - Apply agentic AI patterns including LLM tool calling, ReAct graphs, RAG, and prompt
+    engineering to assigned work
+  - Use AI coding assistants like Claude Code as part of the development and documentation
+    workflow
+  - Contribute to knowledge sharing, onboarding documentation, and team learning
+  use_cases:
+  - Automated enterprise storage and backup management via AI agents
+  - Agent-driven orchestration of storage operations such as volumes, snapshots, replication,
+    and backups
+  - MCP-based tool servers bridging LLM agents to vendor storage/backup REST APIs
+  - RAG-powered intelligence for storage/backup troubleshooting and decision-making
+  skills:
+    genai: [MCP (Model Context Protocol), LangGraph, LangChain, RAG, Prompt Engineering,
+      LLM Tool Calling, ReAct Graphs, Claude Code]
+    ml: []
+    web: [Pydantic, FastAPI, REST APIs]
+    databases: []
+    data: []
+    cloud: [AWS Bedrock, AWS]
+    ops: [OpenTelemetry, Structured Logging, Git, GitHub, Linux]
+    languages: [Python, Bash]
+    domains: [Enterprise Storage and Backup]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9559982'
+  extracted_at: '2026-06-25T19:42:41.110692'

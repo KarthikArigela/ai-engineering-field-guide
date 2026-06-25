@@ -1,0 +1,61 @@
+company:
+  name: TaskRay
+  stage: Series B
+  focus: Post-sale work management platform for Salesforce
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineer role building production LLM-
+      based agents. The role explicitly focuses on prompt/agent
+      design, retrieval pipelines, tool integrations, and evals -
+      all core AI engineering work. The emphasis is on building
+      and deploying agentic systems, not just supporting
+      infrastructure.
+  responsibilities:
+  - Build production agent capabilities for PM Agent, Execution Agent, and External
+    Onboarding Agent that automate enterprise onboarding work
+  - Contribute to MCP server development as the platform layer connecting agents to
+    TaskRay data
+  - Design prompts, agent loops, and tool integrations that meet customer-grade reliability
+    standards
+  - Own retrieval pipelines, eval harnesses, prompt libraries, tool registries, and
+    observability infrastructure end to end
+  - Partner with design partner customers to ship custom agent workflows and translate
+    learnings into reusable platform features
+  - Develop integrations with adjacent systems including Google Drive, calendars,
+    meeting transcripts, document stores, and CRM data
+  - Build and maintain the off-platform service layer hosting agent capabilities and
+    supporting infrastructure
+  - Participate in code reviews and contribute to agentic coding standards while writing
+    clean, well-documented production code
+  use_cases:
+  - Automate PM Agent workflows for maintaining live project status and increasing
+    customer team productivity
+  - Power Execution Agent to complete tasks on behalf of human counterparts in enterprise
+    onboarding
+  - Enable External Onboarding Agent for customer-facing status updates, document
+    collection, and end-customer interaction
+  - Streamline post-sale work management and customer onboarding within Salesforce
+    ecosystem
+  - Integrate agents with enterprise systems of record including Salesforce, Google
+    Drive, calendars, and document stores
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, Anthropic Claude, OpenAI, prompt engineering,
+      RAG, agents, function calling, MCP, agent orchestration, retrieval pipelines,
+      tool use, evals]
+    ml: []
+    web: [FastAPI, REST APIs]
+    databases: [Postgres, vector databases]
+    data: []
+    cloud: [Google Drive API, Salesforce API]
+    ops: [Docker, Kubernetes, CI/CD, observability, LangSmith]
+    languages: [Python, Pydantic]
+    domains: []
+    other: [Claude Code, Cursor]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9302872'
+  extracted_at: '2026-05-29T09:00:35.203489'

@@ -1,0 +1,54 @@
+company:
+  name: CloudPSO
+  stage: null
+  focus: Cloud security and identity governance
+position:
+  title: AI-Assisted Full Stack Software Engineer (Remote)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a full-stack software engineering role that uses AI-
+      assisted tools (ChatGPT, Copilot) to enhance productivity,
+      but does not involve building, training, fine-tuning, or
+      deploying AI/ML models. The core work is building API
+      connectors, web dashboards, and data normalization layers
+      for an identity governance platform (YouAtattest). The role
+      works NEAR AI (using it as a tool) but not ON AI.
+  responsibilities:
+  - Develop, test, and maintain RESTful API connectors for enterprise systems such
+    as Salesforce, Workday, SAP, Oracle, and AWS
+  - Use AI-assisted tools such as ChatGPT and GitHub Copilot to enhance productivity
+    and generate clean, efficient code
+  - Design and implement the normalization layer to map identity and entitlement data
+    into a unified schema for YouAttest
+  - Build automation for data synchronization, delta detection, and versioning using
+    PostgreSQL or DynamoDB
+  - Develop and maintain modern web applications and dashboards using Next.js and
+    React for connector health monitoring and administrative workflows
+  - Implement secure, read-only authentication methods (OAuth2, SCIM, API keys) and
+    ensure compliance with data protection requirements
+  - Collaborate with project managers, architects, and QA teams to meet defined milestones
+  - Maintain detailed documentation, reusable code, and version control practices
+  use_cases:
+  - Enterprise system integration via API connectors for identity and access governance
+  - Identity and entitlement data normalization into a unified schema
+  - Data synchronization and delta detection across enterprise platforms
+  - Connector health monitoring and system metrics dashboards
+  - Secure read-only authentication for enterprise data access
+  skills:
+    genai: [ChatGPT, GitHub Copilot, OpenAI API, Codeium]
+    ml: []
+    web: [FastAPI, Express.js, Next.js, React, RESTful APIs, GraphQL, OAuth2, SCIM,
+      OpenID Connect]
+    databases: [PostgreSQL, DynamoDB]
+    data: []
+    cloud: ['AWS (EC2, Lambda, Secrets Manager, CloudWatch)']
+    ops: [GitHub]
+    languages: [Python, Node.js, TypeScript, JavaScript]
+    domains: []
+    other: [Salesforce API, Workday API, SAP API, Okta API]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9834330'
+  extracted_at: '2026-06-25T19:51:02.139289'

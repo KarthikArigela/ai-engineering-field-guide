@@ -1,0 +1,57 @@
+company:
+  name: Sandstone
+  stage: null
+  focus: AI-native platform for in-house legal teams
+position:
+  title: AI & ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building production AI systems
+      including agentic LLM systems, retrieval pipelines, document
+      understanding, and structured extraction for legal
+      workflows. The engineer owns end-to-end AI system design
+      from model behavior through orchestration and deployment.
+      This is clearly hands-on work building, deploying, and
+      optimizing AI/LLM systems, not support or infrastructure
+      work.
+  responsibilities:
+  - Build production AI systems for legal workflows such as contract review, redlining,
+    legal intake, drafting, negotiation, search, and knowledge management
+  - Improve retrieval and context systems that reason over contracts, playbooks, precedent,
+    customer data, and business context
+  - Build document parsing and understanding pipelines that extract structure, entities,
+    obligations, issues, and negotiation context from complex legal documents
+  - Develop agentic and workflow-based LLM systems for long-running, multi-step legal
+    tasks
+  - Create evals, datasets, metrics, and feedback loops to measure quality, reliability,
+    cost, and latency
+  - Partner with lawyers and customers to turn real workflow feedback into product
+    improvements
+  - Work across backend AI services, data pipelines, APIs, and product surfaces
+  - Make pragmatic system design decisions about when to use frontier models, smaller
+    models, retrieval, rules, human review, or product design
+  use_cases:
+  - Contract review and redlining automation
+  - Legal document parsing, understanding, and structured extraction
+  - Agentic multi-step legal workflow automation (drafting, negotiation, intake)
+  - Legal precedent retrieval and knowledge management
+  - Evaluating and measuring AI system quality for legal applications
+  skills:
+    genai: [LLM agents and workflow orchestration, RAG / retrieval systems, Prompt
+        engineering, Structured extraction with LLMs, Document understanding pipelines,
+      LLM evaluation and metrics]
+    ml: [PyTorch, Model fine-tuning]
+    web: [REST APIs, FastAPI]
+    databases: [Vector databases, Postgres]
+    data: [ETL / data pipelines]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, MLflow]
+    languages: [Python, SQL]
+    domains: [NLP, Legal tech / document AI]
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9624146'
+  extracted_at: '2026-06-25T19:46:13.655283'

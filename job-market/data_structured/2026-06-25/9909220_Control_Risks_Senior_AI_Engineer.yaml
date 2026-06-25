@@ -1,0 +1,58 @@
+company:
+  name: Control Risks
+  stage: null
+  focus: Risk and compliance consulting and technology
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying AI/ML systems —
+      agentic pipelines, LLM integrations, RAG architectures,
+      entity extraction with LLMs, and knowledge graph
+      interrogation layers. The engineer works hands-on with
+      models, prompt engineering, agentic workflows, and RAG,
+      making this clearly ai-first.
+  responsibilities:
+  - Own and evolve the platform's knowledge graph data model including entities, relationships,
+    and temporal attributes
+  - Implement custom entity and relationship extraction pipelines using LLMs with
+    structured output validation and confidence scoring
+  - Design and implement multi-step agentic workflows orchestrating LLM calls, web
+    search, database lookups, and graph writes
+  - Build RAG pipelines over the knowledge graph translating compliance queries into
+    Cypher and natural language answers
+  - Develop the graph interrogation layer — a conversational interface for compliance
+    analysts to query the knowledge graph
+  - Build and maintain Python-based data ingestion pipelines reading from Databricks
+    and external APIs, writing to Neo4j
+  - Design evaluation frameworks to measure extraction quality, entity disambiguation
+    accuracy, and graph coverage
+  - Contribute to architectural decisions with benchmarks, prototypes, and documented
+    trade-offs
+  use_cases:
+  - Knowledge graph construction for compliance and risk data
+  - Agentic entity enrichment via real-time web research
+  - Natural language to graph query translation for compliance analysts
+  - Named entity recognition and disambiguation from unstructured compliance documents
+  - Sanctions screening and KYC/AML data integration
+  - Topic modelling and classification of extracted facts as graph relationship attributes
+  skills:
+    genai: [Graphiti (Zep AI), LangChain, RAG, Agentic pipelines, Prompt engineering,
+      Function/tool calling, Anthropic Claude API, OpenAI API, Gemini API, Tavily,
+      Perplexity]
+    ml: [Hugging Face Transformers, Sentence-transformers, Named Entity Recognition
+        (NER), Topic modelling, Entity resolution and disambiguation]
+    web: [HTTP APIs]
+    databases: [Neo4j, Cypher, Vector search]
+    data: [Knowledge Graphs, Databricks, Delta Lake]
+    cloud: [GCP, Vertex AI, Cloud Run, Pub/Sub, Cloud Storage]
+    ops: [Claude Code]
+    languages: [Python, .NET]
+    domains: [Compliance/KYC/AML domain]
+    other: [Notion]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9909220'
+  extracted_at: '2026-06-25T19:55:32.855656'

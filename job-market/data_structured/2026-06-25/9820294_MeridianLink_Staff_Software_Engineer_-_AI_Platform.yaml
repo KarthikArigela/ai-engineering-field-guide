@@ -1,0 +1,60 @@
+company:
+  name: MeridianLink
+  stage: Public
+  focus: Financial services software and lending platforms
+position:
+  title: Staff Software Engineer - AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly designing and building shared AI
+      platform services including model integration layers, RAG
+      infrastructure, embedding pipelines, vector store
+      management, prompt management, and output evaluation. While
+      it's a platform role, the work is fundamentally on AI
+      systems — building, deploying, and operating AI capabilities
+      — not just general infrastructure that happens to support an
+      AI company.
+  responsibilities:
+  - Design and build shared AI platform services including model integration layers,
+    prompt management, RAG infrastructure, embedding pipelines, and vector store management
+  - Define reference architecture and integration standards for how AI capabilities
+    are consumed across product teams
+  - Evaluate and select AI infrastructure components such as cloud-managed model services,
+    orchestration frameworks, and vector databases
+  - Establish guardrail patterns, content safety standards, and compliance-relevant
+    approaches for AI in a regulated financial environment
+  - Design evaluation and monitoring pipelines for AI output quality, latency, cost,
+    and degradation tracking
+  - Partner with product engineering teams to understand AI consumption needs and
+    translate them into ergonomic platform APIs
+  - Own the technical roadmap for the AI platform, prioritizing based on what unblocks
+    the most product development
+  - Develop senior engineers toward staff-level scope and maintain technical knowledge
+    infrastructure across teams
+  use_cases:
+  - Retrieval-augmented generation for financial services products
+  - Model serving and routing across multiple AI use cases in regulated fintech
+  - Embedding pipelines and vector search for enterprise knowledge retrieval
+  - Prompt management and versioning at scale for product teams
+  - AI output quality monitoring and evaluation in production environments
+  - Compliant AI-driven decision-making with audit logging and PII handling in financial
+    services
+  skills:
+    genai: [RAG (Retrieval-Augmented Generation), Prompt engineering, Embedding pipelines,
+      LLM integration]
+    ml: []
+    web: [API design]
+    databases: [Vector databases, Vector search]
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI, Cloud-managed AI services]
+    ops: [Model serving and routing, AI observability and monitoring, AI evaluation
+        frameworks]
+    languages: [Python]
+    domains: [Regulated industry compliance]
+    other: [Platform architecture, Internal developer platforms]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9820294'
+  extracted_at: '2026-06-25T19:59:02.295995'

@@ -1,0 +1,55 @@
+company:
+  name: Harvey
+  stage: Series B+ (hyper-growth, 1500+ customers)
+  focus: AI-powered platform for legal and professional services
+position:
+  title: Staff Software Engineer, AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is squarely focused on building AI platform
+      infrastructure: model routing, agent architecture, context
+      management, evaluation frameworks, and integrating
+      foundation models. While it's a platform role, the work
+      directly involves building and deploying agentic AI systems,
+      multi-model routing, and AI evaluation infrastructure — not
+      just supporting infrastructure for others who build AI.
+  responsibilities:
+  - Design and build platform-level abstractions and systems that power all of Harvey's
+    agentic products
+  - Own infrastructure for model integration, routing, and evaluation to deploy the
+    right foundation model for any context
+  - Build evaluation frameworks and tooling that enable every team to iterate on AI
+    quality systematically
+  - Build context management, session state, and memory systems that all agents and
+    products rely on
+  - Create SDKs, platform primitives, and developer tooling for product teams to ship
+    AI-powered features
+  - Partner with product engineering teams, PMs, and design to launch cutting-edge
+    AI products
+  - Evaluate, prototype, and integrate the latest advancements in AI and agentic systems
+    as they emerge
+  use_cases:
+  - Agentic AI for legal and professional services knowledge work
+  - Model routing to select the best foundation model for each task
+  - Context management for long legal documents spanning hundreds of pages
+  - Evaluation infrastructure for measuring and improving AI quality in high-stakes
+    domains
+  - Agent infrastructure with session state and memory for complex legal workflows
+  skills:
+    genai: [Agent architectures, Function calling, Foundation model integration, Multi-model
+        routing, Context management, Evaluation frameworks, Agentic AI]
+    ml: []
+    web: [Backend systems]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: [Legal domain]
+    other: [SDK development, Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9158603'
+  extracted_at: '2026-05-29T08:52:27.778065'

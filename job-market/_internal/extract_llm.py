@@ -41,7 +41,8 @@ OUTPUT_DIR = STRUCTURED_YAML_DIR
 zai_client = Anthropic(
     api_key=os.getenv("ZAI_API_KEY"),
     base_url="https://api.z.ai/api/anthropic",
-    max_retries=6,
+    max_retries=int(os.getenv("ZAI_CLIENT_MAX_RETRIES", "2")),
+    timeout=float(os.getenv("ZAI_TIMEOUT", "120")),
 )
 
 
@@ -301,8 +302,8 @@ Return valid objects for nested fields (company_info, responsibilities, skills).
     for attempt in range(max_attempts):
         try:
             response = zai_client.messages.create(
-                model="glm-5",
-                max_tokens=4096,
+                model=os.getenv("ZAI_MODEL", "glm-5.1"),
+                max_tokens=int(os.getenv("ZAI_MAX_TOKENS", "4096")),
                 system=EXTRACTION_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_prompt}],
                 tools=[structured_output_tool],

@@ -1,0 +1,56 @@
+company:
+  name: BlackRock
+  stage: Public
+  focus: Investment, advisory, and risk management solutions
+position:
+  title: Rust, AI Engineer, Director
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the AI
+      platform infrastructure (Kubernetes clusters, cloud-native
+      abstractions, CI/CD pipelines, containerization) that
+      supports ML/AI workloads across BlackRock's Aladdin
+      ecosystem. While it involves enabling ML model training and
+      deployment pipelines, the core work is platform engineering
+      and infrastructure rather than directly building, training,
+      fine-tuning, or deploying AI models. The "nice to have"
+      section mentions AI model training and fine-tuning as
+      optional, confirming this is an infrastructure/support role.
+  responsibilities:
+  - Design, develop, and maintain a scalable AI platform for BlackRock's Aladdin investment
+    management technology
+  - Implement and manage Kubernetes clusters for deploying AI models
+  - Build platform abstractions to manage cloud-native infrastructure across AWS,
+    GCP, and Azure environments
+  - Build and maintain automated pipelines for continuous training, testing, and deployment
+    of machine learning models
+  - Ensure security and compliance of the AI platform
+  - Troubleshoot and resolve platform performance and reliability issues
+  - Translate business and functional requirements into scalable technical designs
+  - Apply quality software engineering practices throughout the development lifecycle
+  use_cases:
+  - AI model deployment and serving on Kubernetes infrastructure
+  - Cloud-native infrastructure management for AI/ML workloads across multiple cloud
+    providers
+  - Automated ML model lifecycle pipelines including training, testing, and deployment
+  - Enterprise-scale AI platform for investment management technology (Aladdin)
+  - Secure and compliant AI infrastructure for financial services
+  skills:
+    genai: []
+    ml: [PyTorch, JAX, NumPy]
+    web: [REST APIs, Microservices]
+    databases: [Cassandra]
+    data: [Spark, Dask, Kafka]
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubernetes, Helm, Kustomize, Docker, containerd, CI/CD, Jenkins, GitHub
+        Actions, ArgoCD, Terraform, CloudFormation, Prometheus, Grafana, GPU orchestration,
+      MLOps]
+    languages: [Rust, C++, Python]
+    domains: []
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9629914'
+  extracted_at: '2026-06-25T19:44:47.071836'

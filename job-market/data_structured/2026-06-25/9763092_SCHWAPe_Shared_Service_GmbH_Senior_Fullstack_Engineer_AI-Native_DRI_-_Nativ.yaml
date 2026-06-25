@@ -1,0 +1,56 @@
+company:
+  name: SCHWAPe Shared Service GmbH
+  stage: Early-stage startup
+  focus: |-
+    Digital platform connecting job seekers, government
+    agencies, and training providers in Germany
+position:
+  title: Senior Fullstack Engineer (AI-Native, DRI) - Native German (m/w/d)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a full-stack engineering role at an AI-enabled
+      company that builds employment/training platforms. The role
+      involves building web applications with AI-assisted
+      development tools (Claude Code, Cursor, MCP servers) rather
+      than building, training, or deploying AI/ML models. The "AI-
+      Native" designation refers to using AI coding agents as
+      development tools, not working on AI systems directly. The
+      actual product has AI-driven training recommendations, but
+      this role's focus is full-stack engineering and DevOps, not
+      model work.
+  responsibilities:
+  - Own end-to-end feature development from founder input through technical specs,
+    implementation, and automated E2E testing
+  - Set and maintain engineering standards for AI coding agents (CLAUDE.md, AGENTS.md,
+    cursorrules) and configure MCP servers
+  - Build and maintain production-grade Playwright test suites covering critical user
+    journeys
+  - Define SLOs, instrument observability (Sentry, OpenTelemetry), and carry incident
+    response for owned surfaces
+  - Design and maintain GDPR-compliant architectures with data minimization and EU-only
+    hosting
+  - Document architectural decisions (ADRs) and participate in high-bar technical
+    debates
+  use_cases:
+  - Skills profiling for job seekers
+  - AI-driven training recommendations
+  - Automated progress reporting
+  - B2G compliance platform connecting citizens with government agencies
+  - Connecting job seekers with training providers across Germany
+  skills:
+    genai: [Claude Code, Cursor, MCP servers, CLAUDE.md / AGENTS.md / cursorrules]
+    ml: []
+    web: [Next.js 15+, React 19+, App Router / Server Components / Server Actions]
+    databases: [PostgreSQL, Drizzle ORM, Prisma ORM]
+    data: []
+    cloud: [AWS, Vercel, Hetzner, Scaleway]
+    ops: [Playwright, Cypress, Sentry, OpenTelemetry, CI/CD, E2E testing]
+    languages: [TypeScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9763092'
+  extracted_at: '2026-06-25T19:54:45.978274'

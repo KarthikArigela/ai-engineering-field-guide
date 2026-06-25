@@ -1,0 +1,49 @@
+company:
+  name: Fulfil.IO
+  stage: Bootstrapped (11th year, profitable)
+  focus: Unified ERP platform for e-commerce and wholesale operations
+position:
+  title: Senior Engineer, Python & AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves integrating LLMs (OpenAI, Claude APIs)
+      and MCP integrations to embed AI-driven capabilities
+      directly into the ERP product, including natural language
+      interfaces and intelligent automation. While the company
+      explicitly does not train or fine-tune models, the engineer
+      is responsible for building and productizing AI features
+      using LLM APIs, making this an ai-first role.
+  responsibilities:
+  - Design and architect scalable backend systems handling millions of transactions
+    monthly
+  - Integrate LLMs (OpenAI, Claude APIs) and MCP to embed AI-driven capabilities into
+    the ERP platform
+  - Own architecture decisions, system reliability, and performance at scale
+  - Build and ship code for order management, financial systems, and third-party integrations
+  - Mentor SDE-IIs on edge cases, performance, and reliability patterns
+  - Engage directly with merchants to translate their operational problems into technical
+    solutions
+  - Deploy to production and monitor systems handling real traffic
+  use_cases:
+  - Natural language interfaces for ERP operations
+  - Intelligent automation for commerce workflows (order management, fulfillment)
+  - AI-driven financial analysis and insights
+  - Customer insights and logistics optimization
+  - MCP integrations with Claude for merchant-facing capabilities
+  skills:
+    genai: [Claude Code, OpenAI API, Claude API, MCP]
+    ml: []
+    web: []
+    databases: [PostgreSQL, Redis, SQLAlchemy]
+    data: [Celery, RabbitMQ]
+    cloud: []
+    ops: [Kubernetes, pytest]
+    languages: [Python, SQL]
+    domains: []
+    other: [Distributed Systems, 'E-commerce Integrations (Shopify, Amazon)']
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9690410'
+  extracted_at: '2026-06-25T19:54:09.501925'

@@ -1,0 +1,58 @@
+company:
+  name: Nozomi Networks
+  stage: Late-stage / Pre-IPO
+  focus: OT and IoT cybersecurity platform
+position:
+  title: AI Integrations Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying agentic
+      AI solutions — MCP servers, Vertex AI Agent Builder
+      architectures, and AI tool/function-calling integrations.
+      While the role has significant infrastructure and data
+      engineering components, the core purpose is enabling AI
+      agents to connect to systems and data, which is hands-on
+      work building and deploying AI/agent systems.
+  responsibilities:
+  - Build and maintain Model Context Protocol (MCP) servers that expose internal systems,
+    data, and tools to AI platforms in a secure, governed way
+  - Develop and document APIs that AI agents can call to read from and write to CRM,
+    ERP, and other systems of record
+  - Design and implement backend AI architecture on Google Cloud including Vertex
+    AI, Vertex AI Agent Builder, Apigee, Cloud Run, and Cloud Functions
+  - Build and optimize data pipelines that feed the data warehouse with clean, structured,
+    AI-ready data for agents
+  - Partner with business users building agents — help scope possibilities, unblock
+    integrations, and turn prototypes into production-grade workflows
+  - Implement authentication, authorization, logging, and observability across all
+    AI integrations
+  - Establish reusable connectors, patterns, and internal documentation to accelerate
+    future integrations
+  - Collaborate with security and compliance teams to ensure AI access to sensitive
+    data follows proper controls
+  use_cases:
+  - Agentic AI solutions for business functions across the organization
+  - Secure AI agent access to CRM, ERP, and internal systems of record
+  - AI-powered operational technology (OT) and IoT cybersecurity
+  - Data retrieval and retrieval-augmented generation (RAG) for business intelligence
+  - Enterprise workflow automation via AI agents
+  skills:
+    genai: [Model Context Protocol (MCP), Vertex AI Agent Builder, Vertex AI, Function
+        calling, RAG, Embeddings]
+    ml: []
+    web: [REST API design]
+    databases: [Vector databases, BigQuery, AlloyDB, Snowflake, Redshift]
+    data: [Databricks, ETL/ELT pipelines, Dimensional modeling]
+    cloud: [Google Cloud (GCP), Apigee, Cloud Run, Cloud Functions, Google Cloud Workflows,
+      Dataflow, Cloud Data Fusion, Secret Manager, Cloud IAM, Workload Identity Federation]
+    ops: []
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: [OAuth 2.0, OIDC, CRM integration, ERP integration, Data governance, PII
+        handling, AI safety/compliance frameworks]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9130929'
+  extracted_at: '2026-06-25T19:40:24.894906'

@@ -1,0 +1,49 @@
+company:
+  name: Intel
+  stage: Public
+  focus: |-
+    Semiconductor chips and AI hardware accelerators for data
+    centers and edge devices
+position:
+  title: AI SoC Design Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is designing hardware (SoC blocks) that will POWER
+      AI applications, but the engineer is not building, training,
+      fine-tuning, or deploying AI models themselves. They are
+      working on chip architecture and RTL design as hardware
+      infrastructure/engineering that supports AI workloads. This
+      is the definition of ai-support - working near AI but not on
+      AI models directly.
+  responsibilities:
+  - Define microarchitecture and implement RTL for SoC blocks
+  - Collaborate with IP providers to integrate IPs into the SoC
+  - Collaborate with verification and firmware teams to meet functional and performance
+    goals
+  - Own design quality including clock/reset/power domain crossings and timing constraints
+  - Collaborate with physical design teams to meet timing/area/power goals
+  - Drive high-quality design handoffs to partner teams
+  - Contribute to next-generation architecture discussions
+  use_cases:
+  - AI workloads from edge devices to data center accelerators
+  - General-purpose compute and web services
+  - High-performance computing (HPC) systems
+  - AI-accelerated systems and workloads
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Hardware verification]
+    languages: [SystemVerilog]
+    domains: []
+    other: [RTL design, Microarchitecture, SoC architecture, Digital design, Timing
+        constraints, Power domain crossings, Physical design, Firmware collaboration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9491471'
+  extracted_at: '2026-05-29T09:07:51.727770'

@@ -1,0 +1,51 @@
+company:
+  name: NICE
+  stage: Public
+  focus: Financial market compliance and surveillance software
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly training, fine-tuning, and
+      deploying LLMs, SLMs, and other ML/DL models, as well as
+      implementing RAG, agents, and inference optimization. The
+      engineer owns the full model lifecycle from training to
+      production deployment for compliance use cases.
+  responsibilities:
+  - Co-found and shape a new AI engineering team, influencing architecture, tooling,
+    and culture from day one
+  - Train and fine-tune LLMs, SLMs, and other ML/DL models for compliance use cases
+    including communication, market, and trade surveillance
+  - Architect training pipelines that integrate with the NTR-X data capture platform
+  - Optimize inference pipelines to deliver AI capabilities cost-efficiently at scale
+  - Evaluate emerging AI techniques (RAG, agents, distillation, fine-tuning strategies)
+    and bring promising ones into production
+  - Own explainability and auditability end-to-end, including interpretation techniques,
+    model cards, and evidence artefacts for regulators
+  - Build AI features including false-positive elimination, automated investigation
+    workflows, and advanced compliance search
+  use_cases:
+  - Communication surveillance for detecting financial misconduct
+  - Market surveillance for regulatory compliance
+  - Trade surveillance to identify suspicious trading activity
+  - False-positive elimination in compliance alerting
+  - Automated investigation workflows for compliance officers
+  - Advanced compliance search over unstructured financial communications
+  skills:
+    genai: [LLM fine-tuning, SLM training, RAG, AI agents]
+    ml: [PyTorch, TensorFlow, Hugging Face, Model distillation, Sequence classification,
+      Named entity recognition, Semantic search, SHAP, Attention analysis]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Model cards, GPU clusters, Training pipelines, MLOps, Inference optimization]
+    languages: [Python]
+    domains: [NLP, Financial regulatory text processing, RegTech]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9599144'
+  extracted_at: '2026-06-25T19:43:40.109478'

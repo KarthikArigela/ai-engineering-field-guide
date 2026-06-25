@@ -1,0 +1,64 @@
+company:
+  name: ZainTECH
+  stage: Public
+  focus: |-
+    Enterprise technology and digital solutions provider
+    (subsidiary of Zain Group)
+position:
+  title: Azure AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly hands-on with building, deploying, and
+      operationalizing AI/ML systems on Azure — including RAG
+      pipelines, fine-tuned model deployment, agent design, prompt
+      flows, and guardrails implementation. The engineer owns the
+      full lifecycle of AI solution delivery, making this clearly
+      an ai-first role.
+  responsibilities:
+  - Implement AI solutions on Azure AI Foundry including agent design, model selection,
+    prompt flows, evaluation pipelines, and deployment of fine-tuned and base models
+  - Build RAG pipelines using Azure AI Search, Azure OpenAI, and vector stores integrated
+    with enterprise data sources via Azure Data Lake and Databricks
+  - Deploy models and AI endpoints to Azure Machine Learning, Azure AI Foundry, AKS,
+    and Azure Container Apps with endpoint scaling and versioning
+  - Build and operationalize data pipelines, feature engineering jobs, and model training
+    notebooks on Azure Databricks using PySpark, Delta Lake, and Unity Catalog
+  - Implement input/output guardrails using Azure AI Content Safety, Prompt Shields,
+    and groundedness checks with PII and harmful-content filters
+  - Enforce security standards including private endpoints, VNet integration, Managed
+    Identity, Key Vault, and RBAC across all AI services
+  - Take ownership of the full deployment lifecycle from environment provisioning
+    and CI/CD pipeline build to go-live and handover
+  - Author and maintain Infrastructure as Code (Terraform/Bicep) modules for AI services
+    and build CI/CD pipelines for prompt flows, model training, and endpoint deployment
+  use_cases:
+  - Enterprise RAG pipelines for knowledge retrieval over corporate data sources
+  - Agentic AI solutions for enterprise workflow automation
+  - Responsible AI deployment with content safety and compliance guardrails for regulated
+    industries
+  - AI model serving and inference at scale on Azure infrastructure
+  - Feature engineering and model training pipelines on enterprise data lake platforms
+  - Enterprise AI solution integration with downstream business applications via REST
+    APIs
+  skills:
+    genai: [Azure OpenAI, Azure AI Content Safety, RAG, LangChain, Semantic Kernel,
+      LlamaIndex, Prompt Engineering, OpenAI SDK]
+    ml: []
+    web: [REST APIs]
+    databases: [Azure AI Search]
+    data: [Azure Databricks, Azure Data Lake Storage Gen2, Azure Data Factory, Azure
+        Synapse, PySpark, Delta Lake, Unity Catalog]
+    cloud: [Azure AI Foundry, Azure Machine Learning, Azure Kubernetes Service (AKS),
+      Azure Container Apps, Azure API Management, Azure Logic Apps, Azure Functions,
+      Azure Key Vault, Azure SDK]
+    ops: [Terraform, Bicep, Azure DevOps, GitHub Actions, Docker, CI/CD, Azure Monitor,
+      Application Insights, Log Analytics]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8976424'
+  extracted_at: '2026-05-29T08:48:50.188114'

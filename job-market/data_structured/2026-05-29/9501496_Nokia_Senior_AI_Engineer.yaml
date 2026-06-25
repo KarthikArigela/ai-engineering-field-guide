@@ -1,0 +1,49 @@
+company:
+  name: Nokia
+  stage: Public
+  focus: Global connectivity and networking solutions
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a hands-on AI engineering role building and
+      deploying LLM-based systems in production. The engineer
+      directly develops OCR+LLM pipelines, RAG-based copilots, and
+      deploys models via MLflow and Azure AI services, with direct
+      ownership of intelligent document processing systems.
+  responsibilities:
+  - Design and ship OCR + LLM pipelines that extract, classify, and validate information
+    from scanned documents and PDFs
+  - Build copilot-style assistants and query interfaces over enterprise data with
+    proper authentication and grounded responses
+  - Develop PySpark pipelines with Delta Lake and MLflow for experiment tracking and
+    model registry
+  - Deploy solutions on Azure with Azure OpenAI, Azure AI services, ADLS, Key Vault,
+    and monitoring
+  - Set up CI/CD and MLOps practices for reliable releases
+  - Create reusable prompt patterns, evaluation harnesses, pipeline components, and
+    model templates
+  use_cases:
+  - Intelligent document processing and automated extraction from business documents
+  - Conversational AI copilots for querying enterprise data and knowledge bases
+  - Document classification, entity extraction, and confidence scoring
+  - Enterprise search with role-based access control and authentication
+  - Automated workflows for document-heavy business processes
+  - RAG-based knowledge retrieval from Databricks data products
+  skills:
+    genai: [RAG, LLMs, prompt engineering, agents, claude, copilot]
+    ml: [classification, clustering, similarity, anomaly detection]
+    web: []
+    databases: []
+    data: [PySpark, Databricks, Delta Lake]
+    cloud: [Azure OpenAI, Azure AI services, Azure ADLS]
+    ops: [MLflow, CI/CD, MLOps, Git]
+    languages: [Python]
+    domains: [document AI]
+    other: [OCR, cursor]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9501496'
+  extracted_at: '2026-05-29T09:09:26.992019'

@@ -1,0 +1,54 @@
+company:
+  name: Remitly
+  stage: Public
+  focus: Global remittance and cross-border financial services
+position:
+  title: Senior AI Native Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly about building agentic LLM systems
+      end-to-end for Treasury operations — including coding
+      agents, orchestrating agent workflows, and shipping agentic
+      automation into production. The engineer directly builds and
+      deploys AI agents, making this clearly ai-first.
+  responsibilities:
+  - Build and deploy agentic LLM systems end-to-end to automate Treasury funding operations
+  - Develop cash flow monitoring agents for intraday position tracking, reconciliation,
+    and variance flagging across accounts and currencies
+  - Create funding execution agents handling instruction routing, approval workflows,
+    payment scheduling, and settlement tracking
+  - Build narrative agents for auto-generated funding commentary, exception summaries,
+    and context-aware alerts
+  - Embed with the Funding team to understand day-to-day workflows and identify manual
+    tasks for automation
+  - Build reusable, modular agent components and tool libraries that scale across
+    new markets and corridors
+  - Contribute to Treasury-wide agent governance standards, evaluation frameworks,
+    and shared infrastructure
+  - Research and recommend emerging LLM capabilities and agentic tooling to keep the
+    Funding function ahead of the curve
+  use_cases:
+  - Intraday cash flow monitoring and reconciliation across multi-currency accounts
+  - Automated funding execution including payment scheduling, cut-off monitoring,
+    and settlement tracking
+  - Auto-generated end-of-day and intraday funding commentary and exception summaries
+  - Treasury reporting packs, utilisation dashboards, and liquidity summaries
+  - Elimination of manual Treasury operations tasks through agentic automation
+  skills:
+    genai: [Coding agents, Agent orchestration, Agentic systems, LLM evaluation pipelines]
+    ml: []
+    web: []
+    databases: []
+    data: [Funnel analysis]
+    cloud: [Cloud infrastructure design, AWS S3, AWS Glue, AWS Redshift, AWS Lambda]
+    ops: [LangSmith, Arize, Weights & Biases]
+    languages: []
+    domains: [Treasury operations, FX and liquidity management, Payments]
+    other: [Distributed systems, Multi-service system architecture, Design thinking,
+      Bloomberg, Kyriba]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9641890'
+  extracted_at: '2026-06-25T19:45:37.457510'

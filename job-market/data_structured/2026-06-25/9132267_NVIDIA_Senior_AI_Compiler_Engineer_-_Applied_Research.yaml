@@ -1,0 +1,51 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU manufacturing and AI computing infrastructure
+position:
+  title: Senior AI Compiler Engineer - Applied Research
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, training, and fine-
+      tuning large models (SFT, RL pipelines) applied to compiler
+      optimization problems. The engineer works hands-on with
+      model architectures, prompt engineering, and reinforcement
+      learning to solve NP-hard compiler optimization problems,
+      making this squarely ai-first.
+  responsibilities:
+  - Design and implement AI-based technology for low-level GPU code generation
+  - Build SFT and RL training pipelines for compiler optimization models
+  - Define model inputs using low-level compiler representations and prepare datasets
+    from compiler traces and optimization passes
+  - Prototype and iterate on model architectures, prompts, and training strategies
+    for NP-hard compiler optimization problems
+  - Apply RL techniques to optimize downstream objectives and conduct rigorous benchmarking
+    across workloads and hardware targets
+  - Build benchmarks to assess code quality, correctness, and generation overhead
+  - Partner with compiler engineers to integrate learned policies with production
+    toolchains
+  use_cases:
+  - AI-driven low-level GPU code generation and optimization
+  - Applying large language models to solve NP-hard problems in optimizing compilers
+  - Reinforcement learning for compiler optimization policy learning
+  - Intelligent prompt engineering for compilation domain optimization
+  - Automated code generation quality and correctness benchmarking
+  skills:
+    genai: ['Prompt engineering (CoT, chaining, context adaptation)']
+    ml: [Reinforcement Learning, Model fine-tuning, SFT/Post-training, Reward modeling,
+      Large model training, Distributed training, Megatron, NeMo]
+    web: []
+    databases: []
+    data: []
+    cloud: [NVIDIA training stacks]
+    ops: [CUDA, GPU performance optimization, vLLM, Triton, Performance profiling
+        tools]
+    languages: [Python, C++]
+    domains: []
+    other: [Compiler optimization, Static analysis, Formal methods]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9132267'
+  extracted_at: '2026-06-25T19:40:35.562213'

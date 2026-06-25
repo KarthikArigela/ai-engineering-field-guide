@@ -1,0 +1,51 @@
+company:
+  name: DigitalOcean
+  stage: Public
+  focus: Cloud infrastructure and AI inference platform
+position:
+  title: Senior Software Engineer I -Agentic AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is on the Agentic AI Feedback Systems team,
+      directly building backend infrastructure that tests,
+      evaluates, and orchestrates AI agent execution workflows.
+      While the engineer builds infrastructure rather than
+      training models, they work directly with agent
+      orchestration, execution environments for agents, and
+      evaluation systems — core components of an agentic AI
+      platform.
+  responsibilities:
+  - Design, build, and maintain robust backend services and highly concurrent asynchronous
+    workflows in Python and Go
+  - Integrate backend control planes with isolated, secure execution environments
+    to safely run agents and capture execution artifacts
+  - Build and operate scalable APIs (gRPC, REST) connecting data pipelines, evaluation
+    engines, and internal platforms
+  - Collaborate with cross-functional teams to ensure infrastructure supports complex
+    evaluation scenarios and outcome metrics
+  - Drive engineering best practices including code reviews, comprehensive testing,
+    and technical design documentation
+  - Monitor system performance, investigate bottlenecks, and ensure high reliability
+    of orchestration systems
+  use_cases:
+  - AI agent testing and evaluation feedback systems
+  - Scalable AI inference cloud platform
+  - Managed AI agents with safe isolated execution
+  - Distributed workflow orchestration for agent evaluation pipelines
+  skills:
+    genai: [LLM APIs, Prompt engineering]
+    ml: []
+    web: [gRPC, REST APIs]
+    databases: []
+    data: [High-throughput event/message processing]
+    cloud: []
+    ops: [Docker, Kubernetes, MicroVMs, Workflow orchestration engines]
+    languages: [Python, Go]
+    domains: []
+    other: [Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9701299'
+  extracted_at: '2026-06-25T19:47:27.507920'

@@ -1,0 +1,62 @@
+company:
+  name: Life360
+  stage: Series C
+  focus: |-
+    Family safety and location sharing mobile app with 97.8M
+    MAU, offering location tracking, crash detection, and
+    Tile/Pet GPS integration
+position:
+  title: Senior Finance Analytics Engineer, AI Native
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an analytics engineering role focused on building
+      dbt models and semantic layers for Finance & Accounting.
+      While the role designs data products for AI agent
+      consumption (Claude, MCP servers), the engineer is not
+      building, training, or deploying AI models themselves. The
+      role explicitly states "you will not be expected to build AI
+      infrastructure or MCP servers" - the engineer creates well-
+      documented, semantically clear data models that AI agents
+      consume.
+  responsibilities:
+  - Design and build dbt models as source of truth for Finance & Accounting reporting,
+    planning, and analysis
+  - Partner with Finance, Accounting, Revenue, and FP&A stakeholders to define metrics
+    and translate business logic into structured models
+  - Write and optimize complex SQL against Databricks environment with attention to
+    accuracy
+  - Design semantic layer and metrics definitions (MetricFlow, Cube, or equivalent)
+    for both human and agent consumption
+  - Drive documentation flywheel across dbt, Databricks, Confluence, and semantic
+    layer so models are legible to LLMs and analysts
+  - Design model grain, naming, and structure so agents can find what they need without
+    human guidance
+  - Build and operate within SOX-controlled CI/CD environment with no direct human
+    touches to production
+  - Use AI tooling (Claude Code, Cursor) as daily part of development workflow and
+    feed signal back to team
+  use_cases:
+  - Financial reporting and analysis for Finance & Accounting teams
+  - Revenue and FP&A planning with semantic metrics layer
+  - AI agent consumption of warehouse data and metadata through MCP
+  - SOX-compliant data pipelines with auditability and change management
+  - Code generation and analysis using LLMs (Claude Code, Cursor, Gemini/Codex)
+  - Data warehouse documentation and semantic clarity for both humans and LLMs
+  skills:
+    genai: [MCP, Claude Code, Cursor, LLM-aware documentation]
+    ml: []
+    web: []
+    databases: [SQL, Unity Catalog]
+    data: [dbt, Databricks, semantic layer, MetricFlow, Cube, model contracts, data
+        modeling, metrics definitions, Airflow]
+    cloud: []
+    ops: [SOX compliance, CI/CD, Terraform, GitHub Actions]
+    languages: [Python]
+    domains: [Finance & Accounting domain]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9526680'
+  extracted_at: '2026-05-29T09:10:59.916294'

@@ -1,0 +1,57 @@
+company:
+  name: Stratus
+  stage: null
+  focus: MEP contractor workflow software solutions
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building production agentic AI systems
+      — multi-agent orchestration, tool calling, guardrails,
+      evals, and observability for LLM-based agents. The engineer
+      owns the entire agentic intelligence layer, from design to
+      deployment to production monitoring, making this squarely
+      ai-first.
+  responsibilities:
+  - Design and build multi-agent orchestration workflows using frameworks like LangGraph,
+    CrewAI, or AutoGen with tool calling, structured outputs, and human-in-the-loop
+    checkpoints
+  - Establish evaluation suites, guardrails, and failure-mode analysis for agent systems
+    including offline evals in CI and live production sampling
+  - Build the tool and context layer connecting agents to Stratus data via internal
+    and customer-facing APIs including MCP, context-window management, permissioning,
+    and cost control
+  - Set up observability and tracing for agent behavior to diagnose cost, latency,
+    and hallucination issues in production
+  - Integrate Stratus's published design and fabrication data into agent workflows
+  - Set technical direction for a small cross-functional team, mentor engineers, and
+    drive AI engineering best practices
+  - Act as a technical translator to executives and customers, explaining agentic
+    systems in plain language
+  - Perform requirements analysis with senior stakeholders and contribute to agile
+    workflows and roadmap development
+  use_cases:
+  - Automating complex MEP engineering tasks through multi-agent workflows
+  - Reasoning over MEP fabrication data (piping, plumbing, sheet metal, electrical)
+  - Agent-driven automation of contractor workflows from design to fabrication to
+    installation
+  - Safe and grounded agent actions on behalf of contractors with guardrails and human
+    oversight
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, Multi-agent orchestration, Tool calling, Structured
+        outputs, MCP, LLM guardrails, Agent evaluation frameworks, Prompt engineering]
+    ml: [Machine learning concepts]
+    web: [REST API design, API backend engineering]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Observability and tracing, LangSmith]
+    languages: [Python, C#, SQL]
+    domains: [CAD/BIM data, 2D/3D model data processing]
+    other: []
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '9782898'
+  extracted_at: '2026-06-25T19:50:15.927272'

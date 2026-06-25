@@ -1,0 +1,47 @@
+company:
+  name: JLL
+  stage: Public
+  focus: Commercial real estate and investment management services
+position:
+  title: Staff Software Engineer - AI Team
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and shipping AI
+      platform components including an MCP Gateway and shared RAG
+      services, which are core AI infrastructure. The engineer
+      sets technical direction for AI-native systems and ships
+      production AI code, making this hands-on AI platform
+      engineering rather than general infrastructure support.
+  responsibilities:
+  - Build and operate the central AI platform foundation including MCP Gateway and
+    shared RAG services
+  - Set technical direction for the AI platform layer through design documents and
+    personally ship core components
+  - Own reliability, observability, and developer ergonomics of AI platform services
+  - Track the AI tooling ecosystem and feed insights back into the platform roadmap
+  - Carry services end-to-end from design through production deployment
+  - Partner day-to-day with senior engineers across the company to maintain coherent
+    technical direction
+  use_cases:
+  - MCP Gateway providing shared infrastructure for AI applications across the enterprise
+  - Shared RAG platform enabling retrieval-augmented generation for internal applications
+  - AI-native platform layer supporting thousands of employees in commercial real
+    estate workflows
+  skills:
+    genai: [MCP, RAG, Agent frameworks, Claude Agent SDK]
+    ml: []
+    web: []
+    databases: [Vector databases, Relational databases, NoSQL databases, Object/blob
+        storage, Document databases]
+    data: []
+    cloud: []
+    ops: [Terraform, IAM, Networking, Observability]
+    languages: [Python, Node.js, .NET]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9299032'
+  extracted_at: '2026-06-25T19:40:56.358206'

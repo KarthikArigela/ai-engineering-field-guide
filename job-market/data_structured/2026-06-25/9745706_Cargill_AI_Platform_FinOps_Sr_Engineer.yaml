@@ -1,0 +1,60 @@
+company:
+  name: Cargill
+  stage: Public
+  focus: Global food and agriculture corporation
+position:
+  title: AI Platform FinOps Sr. Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on FinOps, cost management, and financial
+      governance for AI/ML workloads rather than building,
+      training, or deploying models. The engineer works near AI
+      (cost attribution, token economics, optimization levers) but
+      does not directly build or deploy AI systems. It is an
+      infrastructure/operations/financial role supporting AI
+      adoption.
+  responsibilities:
+  - Establish and operationalize cost models at token, model, and agent levels to
+    enable enterprise-wide AI cost transparency
+  - Identify cost optimization levers including model selection, token efficiency,
+    and workload sizing, and define cost guardrails for AI workloads
+  - Embed cost signals into CI/CD pipelines, ServiceNow workflows, and AI platform
+    tooling to enable shift-left financial decisioning
+  - Develop cost data pipelines, attribution models, and dashboards delivering decision-ready
+    insights across AI workloads
+  - Implement policy-based controls, anomaly detection, and automated enforcement
+    for AI cost management
+  - Build financial forecasting models for AI workload growth, token consumption,
+    and infrastructure spend with quarterly and annual projections
+  - Design and operate chargeback and showback systems to allocate AI infrastructure
+    costs to consuming teams
+  - Partner with platform and product teams to drive adoption of cost accountability
+    practices across engineering decisions
+  use_cases:
+  - Token-level cost economics and unit cost modeling for LLM-based workloads
+  - Cost guardrails and anomaly detection for AI/ML infrastructure spend
+  - Chargeback and showback models for fair allocation of AI costs across business
+    units
+  - Financial forecasting and budgeting for AI workload growth and token consumption
+  - Cost-optimized model selection and token efficiency analysis for enterprise AI
+    adoption
+  skills:
+    genai: [OpenAI API, Claude API, Abacus.ai, ChatGPT Enterprise, M365 Copilot, GitHub
+        Copilot, LLM token-based pricing models]
+    ml: []
+    web: []
+    databases: [Pinecone]
+    data: [Data engineering]
+    cloud: [Azure, AWS, Azure OpenAI, AWS Bedrock]
+    ops: [LangSmith, TrueFoundry, AgentCore, Datadog Cloud Cost Management, Cloudability,
+      CI/CD pipelines, Policy-as-code]
+    languages: [Python]
+    domains: []
+    other: [ServiceNow, FinOps, Unit economics modeling, Cost attribution and anomaly
+        detection, Distributed systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9745706'
+  extracted_at: '2026-06-25T19:56:21.734252'

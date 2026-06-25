@@ -1,0 +1,54 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing, AI hardware, and accelerated math libraries
+position:
+  title: Senior Math Libraries Engineer – AI and HPC
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role focuses on building GPU-accelerated math libraries
+      for linear algebra, kernel generation, JIT compilation, and
+      operator fusion — core HPC/DL infrastructure work. While it
+      supports AI workloads, the role is fundamentally about low-
+      level GPU kernel optimization and numerical computing using
+      C++ and CUDA, not about building LLMs, agents, or GenAI
+      systems directly. The ML/DL knowledge is desired but
+      secondary to the HPC and linear algebra focus.
+  responsibilities:
+  - Scope, design, and implement high-performance numerical dense linear algebra software
+    on GPUs
+  - Own execution of projects involving multiple engineers and cross-team coordination
+  - Provide technical leadership and mentorship to library engineers and interns
+  - Collaborate with product management and customers to define feature and performance
+    requirements and contribute to technical roadmaps
+  - Identify opportunities to improve library performance and reduce code maintenance
+    through re-architecture
+  - Find and explain complex solutions, exercise leadership, and coordinate across
+    multiple teams
+  - Drive kernel generation, JIT compilation, and operator fusion for AI and HPC workloads
+  use_cases:
+  - GPU-accelerated dense linear algebra for AI training and inference
+  - High-performance computing scientific and engineering simulations
+  - Kernel generation and JIT compilation for matrix operations
+  - Operator fusion to optimize GPU compute performance
+  - Supporting deep learning and autonomous vehicle workloads through optimized math
+    libraries
+  skills:
+    genai: []
+    ml: [CUDA, MPI, OpenMP, OpenACC, GPU kernel generation, JIT compilation, Operator
+        fusion, Dense linear algebra, Deep Learning, Machine Learning, GPU hardware
+        architecture, HPC software development, Parallel programming]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [JIRA]
+    languages: [C++, Python, Assembly programming]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7562243'
+  extracted_at: '2026-05-29T08:45:20.754524'

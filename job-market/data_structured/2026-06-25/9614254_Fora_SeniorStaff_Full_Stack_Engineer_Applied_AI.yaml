@@ -1,0 +1,60 @@
+company:
+  name: Fora
+  stage: Series B/C
+  focus: Modern travel agency platform empowering travel advisors
+position:
+  title: Senior/Staff Full Stack Engineer, Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly builds, ships, and optimizes LLM-powered
+      agent systems in production — including MCP tools, agent
+      orchestration, tool-calling loops, evaluations, and
+      observability for non-deterministic AI systems. The engineer
+      works hands-on with LLMs, agent harnesses, and prompt/model
+      changes, making this squarely an ai-first role.
+  responsibilities:
+  - Partner with Product Manager and Designer to define and prioritize Fora's Applied
+    AI roadmap, turning ambiguous goals into shippable agent capabilities
+  - Design and build MCP tooling that exposes Fora's data and service layers through
+    permission-aware tools agents can call on an advisor's behalf with proper guardrails
+  - Build and harden agent orchestration including tool-calling loops, streaming responses,
+    multi-step workflows, retries, guardrails, and contracts between the advisor portal
+    and AI service
+  - Improve reliability of the non-deterministic system by designing evals, regression
+    suites, tracing, and logging event metrics to measure quality and catch tool-call
+    drift
+  - Focus on performance, latency, architecture, and clean code for streamed AI responses
+    and tool calls
+  - Collaborate with engineers across the company to define end-to-end solutions spanning
+    AI services, the core Django platform, and the portal frontend
+  - Own features from 0 to 1, from design through implementation to delivery and beyond
+  - Establish patterns, primitives, and best practices for Applied AI at Fora as the
+    team's surface area grows
+  use_cases:
+  - AI co-pilot (Via) for travel advisors to automate time-consuming workflows
+  - Agent-driven delegation of travel planning and booking tasks on behalf of advisors
+  - MCP tools that allow agents to query and act on advisor data with permission-aware
+    guardrails
+  - Evaluation and observability for non-deterministic AI agent systems to ship changes
+    with confidence
+  - Scaling travel advisor businesses from solo operations to higher revenue through
+    AI assistance
+  skills:
+    genai: [MCP (Model Context Protocol), Agent orchestration, Tool-calling loops,
+      Prompt engineering, Structured outputs, RAG / Retrieval, 'Evaluations (LLM-as-judge,
+        offline evals)', OpenAI SDK, Anthropic SDK]
+    ml: []
+    web: [React, Vue.js, Angular, Django, Flask, REST APIs, SSE streaming]
+    databases: [Postgres, Relational databases, Redis]
+    data: [Celery, RabbitMQ]
+    cloud: [AWS]
+    ops: [Kubernetes, Tracing and observability]
+    languages: [Python, SQL, TypeScript]
+    domains: []
+    other: [Distributed systems design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9614254'
+  extracted_at: '2026-06-25T19:46:06.381674'

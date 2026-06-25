@@ -1,0 +1,62 @@
+company:
+  name: Norbert Health
+  stage: Series B
+  focus: |-
+    Autonomous robots for healthcare delivery with AI-powered
+    patient monitoring
+position:
+  title: Applied AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is hands-on AI/ML engineering role building, deploying,
+      and fine-tuning LLMs, VLMs, and foundation models directly.
+      The engineer will implement RAG, agents, PEFT/LoRA fine-
+      tuning, and deploy models across cloud and edge inference
+      surfaces - working directly ON the AI systems, not just
+      supporting infrastructure.
+  responsibilities:
+  - Integrate foundation models and ML components (VLMs, LLMs, ASR/TTS, detection/segmentation,
+    embeddings) into production pipelines using open-weight models and third-party
+    APIs
+  - Build RAG and agent-style orchestration for clinical reporting and conversational
+    interfaces
+  - Ship real-time streaming pipelines (voice agents) alongside batch and request-response
+    workloads
+  - Build evaluation harnesses that catch regressions across model swaps and measure
+    performance against clinical-grade accuracy targets
+  - Fine-tune and retrain models using LoRA, PEFT, and supervised fine-tuning with
+    data from deployed fleet
+  - Deploy across inference surfaces including third-party APIs, self-hosted, and
+    on-robot edge environments
+  - Build data flywheel pipelines that collect, label, version, and feed production
+    data back into model improvement
+  - Partner with algorithms team on integration with signal processing and computer
+    vision pipelines
+  use_cases:
+  - Autonomous patient monitoring and vital sign capture (FDA-cleared for pulse and
+    respiratory rate)
+  - Patient rounding and assessments without physical contact
+  - Real-time conversational AI and voice agents for clinical interactions
+  - Clinical documentation and EMR integration
+  - Care escalation and alerting when abnormalities detected
+  - Multimodal sensing using VLMs for healthcare robotics
+  skills:
+    genai: [LLMs, VLMs, RAG, agents, LangChain, LangGraph, OpenAI API, Anthropic API,
+      PEFT, LoRA, prompt engineering, ASR/TTS]
+    ml: [PyTorch, TensorFlow, Hugging Face, model fine-tuning, object detection, image
+        segmentation, embeddings, active learning, human-in-the-loop]
+    web: []
+    databases: []
+    data: []
+    cloud: [GCP Vertex AI, AWS SageMaker, Azure ML]
+    ops: [TensorRT, vLLM, llama.cpp, ONNX, quantization, MLflow, Weights & Biases,
+      DVC, Docker, Kubernetes, edge computing, NVIDIA Jetson]
+    languages: [Python, C++]
+    domains: [computer vision]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9189243'
+  extracted_at: '2026-05-29T08:56:28.872504'

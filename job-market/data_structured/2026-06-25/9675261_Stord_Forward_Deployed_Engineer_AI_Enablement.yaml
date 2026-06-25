@@ -1,0 +1,63 @@
+company:
+  name: Stord
+  stage: Late-stage (backed by Kleiner Perkins, Franklin Templeton, Founders Fund,
+    Salesforce Ventures; processing $10B+ commerce annually)
+  focus: Cloud-based supply chain and commerce enablement platform
+position:
+  title: Forward Deployed Engineer, AI Enablement
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is explicitly about building agentic AI systems
+      that automate internal workflows in production. The engineer
+      will build LLM-powered interfaces, agentic systems with tool
+      use, and AI agents — all hands-on work deploying and
+      building AI solutions. As a Forward Deployed Engineer
+      focused on AI Enablement, the core deliverable is production
+      AI tooling, not supporting infrastructure for others' AI
+      work.
+  responsibilities:
+  - Embed with internal teams to map workflows end-to-end and identify high-leverage
+    automation targets
+  - Design, build, and ship production agentic AI systems that automate manual work
+    across CX, Finance, Ops, and Logistics
+  - Build LLM-powered interfaces enabling non-technical teams to query and act on
+    operational data
+  - Create end-to-end automation pipelines from prototyping through production deployment
+    with proper logging, monitoring, and edge case handling
+  - Develop integrations with internal systems (OMS, WMS, TMS, Billing) via APIs and
+    event streams
+  - Build reusable automation modules and patterns that accelerate future workflow
+    projects
+  - Create internal developer productivity tools using agentic workflows to speed
+    up engineering
+  - Ship automated reporting, alerting, and self-serve data products that replace
+    manual data analysis
+  use_cases:
+  - Customer experience automation — triaging issues, surfacing context, and automating
+    resolution workflows
+  - Finance automation — reconciliation, exception handling, and reporting workflows
+  - Operations and logistics tooling — dashboards, alerting, and intelligent interfaces
+    for warehouse and transportation teams
+  - Self-serve LLM-powered data interfaces for non-technical teams to query operational
+    systems
+  - Internal developer productivity tooling to accelerate code writing, review, and
+    shipping
+  skills:
+    genai: [Agentic AI development, 'LLM integration (OpenAI, Anthropic)', Prompt
+        engineering, Structured outputs, Tool use / function calling, Claude Code,
+      Cursor]
+    ml: []
+    web: [Phoenix, RESTful API design]
+    databases: [PostgreSQL, Vector databases, Semantic search]
+    data: [Kafka, Temporal, Prefect, Airflow, Workflow orchestration]
+    cloud: [GCP]
+    ops: [Docker, 'Observability (logging, tracing, monitoring, alerting)']
+    languages: [TypeScript, Node.js, Python, Elixir, SQL]
+    domains: [Supply chain and logistics domain knowledge]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9675261'
+  extracted_at: '2026-06-25T19:45:49.827108'

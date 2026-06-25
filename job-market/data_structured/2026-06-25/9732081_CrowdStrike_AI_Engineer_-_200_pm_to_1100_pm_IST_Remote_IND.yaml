@@ -1,0 +1,59 @@
+company:
+  name: CrowdStrike
+  stage: Public
+  focus: AI-native cybersecurity platform and threat intelligence
+position:
+  title: AI Engineer - 2.00 pm to 11.00 pm IST (Remote, IND)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and owning
+      the full lifecycle of agentic AI solutions including LLM-
+      powered workflows, autonomous agents, multi-agent systems,
+      RAG pipelines, and enterprise AI architecture. While it also
+      includes DevOps responsibilities, the core work is hands-on
+      engineering with AI/LLM systems at production scale.
+  responsibilities:
+  - Lead engineering delivery for agentic AI capabilities across GTM technology stacks
+    (Salesforce, Slack, third-party apps, in-house platforms), owning requirements
+    through production deployment
+  - Design and build LLM-powered workflows, autonomous agents, and multi-agent systems
+    using Agentcore, LangChain, LangGraph, and MCP
+  - Design and optimize RAG systems, semantic search pipelines, vector retrieval strategies,
+    and enterprise knowledge-grounding frameworks
+  - Build Salesforce Apex, Lightning Web Components, Platform Events, and Agentforce
+    agent actions integrated with AI back-ends
+  - Build and operate platform observability stacks and manage infrastructure-as-code
+    (Terraform/CDK) across AWS Bedrock and Vertex AI
+  - Implement DevSecOps frameworks including supply-chain security, prompt benchmarking,
+    hallucination reduction, and automated regression testing
+  - Define error handling, fallback strategies, and graceful degradation patterns
+    for non-deterministic AI systems including circuit-breaker patterns
+  - Evaluate AI vendors and platforms with a build-vs-buy mindset, factoring in total
+    cost of ownership, compliance, and operational burden
+  use_cases:
+  - Autonomous AI agents and multi-agent systems for go-to-market workflow automation
+  - RAG-powered enterprise knowledge search and retrieval across GTM data domains
+  - Salesforce-integrated agentic workflows for sales operations and CRM automation
+  - Slack-integrated AI assistants for go-to-market team productivity
+  - Model routing and enterprise AI orchestration across multi-tenant infrastructure
+  - Automated evaluation and regression testing of non-deterministic AI outputs
+  skills:
+    genai: [LangChain, LangGraph, Semantic Kernel, CrewAI, AutoGen, Model Context
+        Protocol (MCP), RAG, Autonomous Agents, Multi-Agent Systems, Prompt Engineering,
+      LlamaIndex, LiteLLM, OpenRouter]
+    ml: [Fine-tuning, RLHF]
+    web: [FastAPI, REST APIs, Lightning Web Components, Salesforce, Slack Apps]
+    databases: [pgvector, Pinecone, Weaviate]
+    data: []
+    cloud: [AWS Bedrock, AWS, Vertex AI, GCP]
+    ops: [Docker, Kubernetes, Terraform, AWS CDK, GitHub Actions, Jenkins, Copado,
+      CI/CD, GitOps, MLflow, Observability/Tracing, DevSecOps]
+    languages: [Python, TypeScript, JavaScript, Apex, SQL]
+    domains: []
+    other: [Salesforce Agentforce, Salesforce Einstein, Infrastructure as Code]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9732081'
+  extracted_at: '2026-06-25T19:50:50.547414'

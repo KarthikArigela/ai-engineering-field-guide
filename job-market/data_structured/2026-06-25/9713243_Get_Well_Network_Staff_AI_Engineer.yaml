@@ -1,0 +1,62 @@
+company:
+  name: Get Well Network
+  stage: Private (SymphonyAI Group company)
+  focus: AI-native healthcare precision care and patient engagement
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, training, fine-tuning,
+      and deploying LLMs, SLMs, STT/TTS models, and agentic AI
+      systems in production. The engineer owns the end-to-end AI
+      lifecycle from data prep through model training, evaluation,
+      and deployment. Core responsibilities center on hands-on
+      AI/ML model development, not just supporting infrastructure
+      for others.
+  responsibilities:
+  - Architect and develop production-ready AI models trained on real-world clinical
+    datasets from hospital systems, EHRs, and patient engagement platforms
+  - Design and train STT and TTS models to power voice-enabled AI applications and
+    virtual assistants in healthcare settings
+  - Integrate and optimize agentic systems using LangChain, LangGraph, and CrewAI
+    for autonomous decision-making and workflow automation
+  - Lead the end-to-end model lifecycle from data ingestion and preprocessing through
+    training, evaluation, and deployment into hospital IT ecosystems
+  - Design and optimize cloud-based AI infrastructure on Azure focusing on scalability,
+    performance, observability, and cost-efficiency
+  - Establish CI/CD pipelines, GPU-optimized runtimes, and inference systems in Azure
+    healthcare-compliant environments
+  - Ensure AI solutions adhere to HIPAA, GDPR, and internal privacy standards with
+    focus on bias mitigation, explainability, and accountability
+  - Act as principal technical liaison between AI engineering, product, design, and
+    clinical stakeholders, mentoring junior engineers
+  use_cases:
+  - Voice-enabled AI virtual assistants for healthcare settings using STT/TTS
+  - Autonomous clinical workflow automation via agentic AI systems
+  - Clinical insight derivation from structured and unstructured health data (EHR
+    notes, FHIR, HL7)
+  - Patient engagement and care orchestration powered by AI-native intelligence
+  - Multimodal AI integrating text, image, and structured healthcare data for personalized
+    care
+  - AI-driven decision support for health systems serving millions of patients
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, Agentic AI Systems, LLM Fine-tuning, OpenAI
+        APIs, Multimodal Context Processing (MCP), Agent-to-Agent (A2A) Protocols]
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformer-based NLP Models, Multimodal
+        Learning Architectures, Model Training, Whisper, Tacotron, FastSpeech, DeepSpeech,
+      Speech-to-Text (STT), Text-to-Speech (TTS)]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure]
+    ops: [Docker, Kubernetes, CI/CD, Terraform, Langfuse, Prometheus, Grafana, GPU-optimized
+        Runtimes, Model Serving, Model Registries]
+    languages: [Python, C++, SQL]
+    domains: [FHIR, HL7, CCDA, SNOMED, ICD-10, Healthcare AI, HIPAA Compliance]
+    other: [Responsible AI / AI Safety]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9713243'
+  extracted_at: '2026-06-25T19:48:07.070817'

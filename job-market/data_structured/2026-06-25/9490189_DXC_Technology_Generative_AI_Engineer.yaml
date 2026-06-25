@@ -1,0 +1,55 @@
+company:
+  name: DXC Technology
+  stage: Public
+  focus: Enterprise IT services and solutions
+position:
+  title: Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on development and deployment of
+      AI-powered features including LLM integration, RAG
+      pipelines, agent development, and MCP server creation. The
+      engineer directly builds, codes, and optimizes GenAI systems
+      using LangChain, vector databases, and prompt engineering.
+  responsibilities:
+  - Code and integrate LLM APIs (OpenAI, Anthropic) and local models into backend
+    services using Python and FastAPI
+  - Design and implement custom MCP servers using official SDKs to expose internal
+    databases, APIs, and file systems to AI agents
+  - Build and maintain RAG data ingestion scripts, text chunking logic, and metadata
+    filtering
+  - Manage vector databases (Pinecone, Milvus) including indexing, querying, and optimizing
+    search retrieval
+  - Develop, version-control, and refine complex prompt templates for consistent structured
+    outputs
+  - Implement multi-step agent workflows using LangChain, LangGraph, and CrewAI with
+    tool-calling logic
+  - Build automated test suites to detect hallucinations and measure model accuracy
+  - Implement caching layers, streaming responses, and token optimization for performance
+    tuning
+  - Clean and tokenize datasets for model fine-tuning or high-quality context retrieval
+  use_cases:
+  - LLM-powered backend services with structured outputs
+  - Retrieval-Augmented Generation (RAG) for context-aware AI responses
+  - Multi-step AI agent workflows with tool-calling and error handling
+  - Vector search and semantic retrieval over internal data
+  - MCP-based AI agent integration with internal databases and APIs
+  - Hallucination detection and automated model evaluation
+  skills:
+    genai: [OpenAI API, Anthropic API, RAG, LangChain, LangGraph, CrewAI, LlamaIndex,
+      Prompt Engineering, MCP, Jinja2]
+    ml: [Hugging Face Transformers, Fine-tuning]
+    web: [FastAPI, RESTful APIs, Streaming HTTP, JSON-RPC]
+    databases: [Pinecone, Milvus, Vector Search]
+    data: []
+    cloud: []
+    ops: [Weights & Biases, Docker, GitHub Actions, OpenTelemetry, LangSmith, CI/CD]
+    languages: [Python, TypeScript, Node.js, SQL, Asyncio]
+    domains: []
+    other: [Pydantic]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9490189'
+  extracted_at: '2026-06-25T19:41:41.941649'

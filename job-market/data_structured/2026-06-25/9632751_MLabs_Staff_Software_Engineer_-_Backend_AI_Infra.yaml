@@ -1,0 +1,59 @@
+company:
+  name: MLabs
+  stage: High-growth
+  focus: Autonomous AI agents for high-frequency trading
+position:
+  title: Staff Software Engineer - Backend & AI Infra
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building agent runtime engines, deploying
+      autonomous agents for high-frequency trading, migrating from
+      third-party LLM APIs to self-hosted inference, and
+      architecting telemetry/feedback loops for agent fleets. The
+      engineer directly designs, deploys, and optimizes AI agent
+      infrastructure and model serving, making this an ai-first
+      role.
+  responsibilities:
+  - Lead the evolution of the per-agent plugin runtime, migrating from a distributed
+    Go/Python hybrid to a centralized high-performance Go service with Postgres state
+    and real-time websocket price feeds
+  - Build a YAML-configurable Rules Engine (Scanner Gateway) bridging signal production
+    and execution for complex scoring and filtering
+  - Develop and maintain a centralized profit-trailing execution system (RatchetStop
+    Backend) with sub-second evaluation and websocket-based order execution
+  - Manage the Model Context Protocol (MCP) server bridging agents to platform tools
+    and oversee high-throughput data pipelines for real-time market intelligence
+  - Lead the migration of agents from third-party platforms to custom in-house hosting
+    with isolated workspaces and state persistence
+  - Evaluate and implement the transition from external LLM APIs (Anthropic, Google)
+    to self-hosted inference optimized for telemetry and performance
+  - Architect telemetry and feedback loop systems to capture agent decisions and scores
+    for fleet-wide learning and improvement
+  - Build CI/CD pipelines for zero-downtime rollouts and manage AWS/EKS infrastructure
+    using Infrastructure-as-Code
+  use_cases:
+  - Autonomous AI agent fleet for high-frequency trading
+  - Real-time market intelligence ingestion and signal processing
+  - Sub-second capital protection via profit-trailing execution systems
+  - Self-hosted LLM inference replacing third-party model providers
+  - Agent decision telemetry and self-reinforcing learning loops
+  - Sovereign infrastructure for autonomous financial software
+  skills:
+    genai: [Model Context Protocol (MCP), Self-hosted LLM inference, Agent runtime
+        development, Anthropic API, Google AI API]
+    ml: []
+    web: [WebSockets, FastAPI]
+    databases: [Postgres, Redis, ClickHouse]
+    data: []
+    cloud: [AWS, Amazon EKS]
+    ops: [Docker, Kubernetes, Terraform, CI/CD, Infrastructure-as-Code, Telemetry
+        systems]
+    languages: [Go, Python]
+    domains: [High-frequency trading]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9632751'
+  extracted_at: '2026-06-25T19:48:57.405636'

@@ -1,0 +1,49 @@
+company:
+  name: AvantStay
+  stage: Series C
+  focus: Vacation rental technology platform and operations
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      maintaining LLM-powered agent systems (lead-qualification,
+      BI reporting, CX, infrastructure monitoring) using tools
+      like Claude, OpenAI, LangGraph, and MCP. The engineer will
+      ship production AI agents that take actions in real systems,
+      design evals, handle agent traces, and build tooling for
+      agent deployment — all squarely ai-first work.
+  responsibilities:
+  - Ship LLM systems that integrate with infrastructure including PostgreSQL, ClickHouse,
+    Kafka, APIs, and MCPs
+  - Maintain autonomous and human-in-the-loop agent systems ensuring uptime and accuracy
+  - Interact with stakeholders to understand problems and design AI-driven solutions
+  - Update existing systems and APIs to be agent-accessible for LLM interaction
+  - Build patterns and tooling that enable the broader engineering team to deploy
+    agents faster
+  - Stay current with latest trends in LLMs and applied AI practices
+  - Collaborate cross-functionally with engineers, product managers, and designers
+  use_cases:
+  - Lead qualification agent for sales/conversion funnel
+  - On-demand business intelligence reporting via natural language
+  - Customer experience (CX) automation agent
+  - Infrastructure monitoring agent that triages on-call alerts
+  - Agentic evolution of core pricing, listing, marketing, and operations products
+  skills:
+    genai: [LangGraph, Claude API, OpenAI API, MCP (Model Context Protocol), LLM evaluation
+        and observability, RAG / retrieval systems, DSPy, PydanticAI, Instructor]
+    ml: []
+    web: [GraphQL, REST]
+    databases: [PostgreSQL, ClickHouse]
+    data: [Kafka]
+    cloud: [AWS]
+    ops: [Kubernetes]
+    languages: [TypeScript, Scala, Python]
+    domains: []
+    other: [Functional programming]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9581395'
+  extracted_at: '2026-06-25T19:45:01.400689'

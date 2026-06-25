@@ -1,0 +1,57 @@
+company:
+  name: Kraken Digital Asset Exchange
+  stage: Late stage / Well-established (founded 2011)
+  focus: Crypto and digital asset exchange platform
+position:
+  title: Site Reliability Engineer - AI Agents
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Site Reliability Engineer role focused on building
+      and operating the infrastructure/platform that supports AI
+      agents, not directly building or fine-tuning the models
+      themselves. The role involves Kubernetes, Terraform, CI/CD,
+      observability, and platform APIs/SDKs that enable other
+      teams to consume AI infrastructure. While it works closely
+      with AI systems, the core work is infrastructure engineering
+      and platform building rather than hands-on model/agent
+      development.
+  responsibilities:
+  - Design, build, and operate the infrastructure layer supporting AI agent workflows
+    in production
+  - Ensure reliability, scalability, and observability of agentic systems across internal
+    and external products
+  - Design and develop platform services, APIs, SDKs, and self-service capabilities
+    for engineering teams to consume AI infrastructure
+  - Manage compute, orchestration, and serving infrastructure for model inference
+    and agent execution
+  - Implement monitoring, alerting, and incident response procedures tailored to AI/ML
+    workloads
+  - Provision and manage AWS cloud infrastructure using Terraform
+  - Build and maintain CI/CD pipelines for rapid deployment of AI services and agent
+    workflows
+  - Define and implement guardrails, failure handling, and recovery patterns for agentic
+    and LLM-powered systems
+  use_cases:
+  - Production AI agent orchestration and execution infrastructure
+  - Internal and external-facing AI agent products for a crypto exchange platform
+  - Model serving and inference infrastructure for LLM-powered systems
+  - Developer platform for AI, Data, and Engineering teams to consume agent infrastructure
+    as a service
+  skills:
+    genai: [LangGraph, CrewAI, Agent orchestration frameworks]
+    ml: [Model serving / inference, MLOps, Model performance monitoring]
+    web: [API design and development, SDK development]
+    databases: []
+    data: [Airflow, Kafka, Spark]
+    cloud: [AWS, Cloudflare]
+    ops: [Kubernetes, Docker, Terraform, CI/CD pipelines, Monitoring and observability
+        systems, Incident response]
+    languages: [Python, Bash/Shell scripting]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9702335'
+  extracted_at: '2026-06-25T19:47:18.716896'

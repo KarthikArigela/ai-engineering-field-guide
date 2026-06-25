@@ -1,0 +1,61 @@
+company:
+  name: Capital One
+  stage: Public
+  focus: |-
+    Banking and financial services with AI/ML-powered customer
+    experiences
+position:
+  title: Sr. Distinguished AI Engineer (Agentic AI Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying an Agentic AI
+      Platform, including agent orchestration, RAG pipelines,
+      agentic frameworks (LangGraph, AutoGen, CrewAI), prompt
+      libraries, guardrail services, and LLM inference
+      optimization. The engineer is hands-on with designing,
+      building, and hardening AI/LLM systems — not just supporting
+      them.
+  responsibilities:
+  - Partner with cross-functional teams to deliver AI-powered products that transform
+    how associates work and customers interact with Capital One
+  - Design and maintain north star platform architecture including agent orchestration,
+    RAG pipelines, prompt libraries, and multi-tenant policy enforcement
+  - Evaluate and harden agentic frameworks (LangGraph, AutoGen, Semantic Kernel, CrewAI,
+    LlamaIndex) to standardize agentic workflows across the enterprise
+  - Build end-to-end GenAI SDK, CLI, and starter kits enabling AI engineers to spin
+    up secure, observable agentic workflows rapidly
+  - Architect and implement central guardrail services including prompt firewalls,
+    content filters, red team harnesses, and audit APIs
+  - Optimize end-to-end performance through orchestration-level batching, retrieval
+    caching, and heuristic tuning to reduce per-token spend
+  - Own central Helm charts, operators, and CRDs that autoscale agents to meet tenant
+    SLAs
+  - Coach and mentor engineers, host architecture office hours, author technical design
+    documents and blogs, and represent Capital One at top-tier AI conferences
+  use_cases:
+  - Agentic AI platform for enterprise-wide AI application development
+  - Real-time personalized banking customer experiences
+  - Fraud detection and unusual charge notifications
+  - Customer-facing real-time question answering
+  - Automated agentic workflow standardization for rapid prototyping to production
+  - Centralized AI trust, safety, and compliance enforcement across all AI applications
+  skills:
+    genai: [LangGraph, AutoGen, Semantic Kernel, CrewAI, LlamaIndex, LangChain, RAG
+        pipelines, Prompt engineering, Agent orchestration, LLM Inference optimization,
+      Guardrails]
+    ml: []
+    web: []
+    databases: [Vector databases]
+    data: []
+    cloud: [AWS, Google Cloud, Azure, Amazon SageMaker, Google Cloud Vertex AI, Azure
+        Machine Learning]
+    ops: [LLMOps, Helm, Kubernetes, Docker, CI/CD, Service mesh]
+    languages: [Python, Go, Java, Scala, C++, C#]
+    domains: []
+    other: [Multi-tenant security patterns, Responsible AI, Red teaming]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9094288'
+  extracted_at: '2026-05-29T08:51:11.288543'

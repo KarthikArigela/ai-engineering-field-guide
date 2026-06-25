@@ -1,0 +1,59 @@
+company:
+  name: Future of Life Institute
+  stage: Nonprofit (fiscally sponsored)
+  focus: AI risk management and alignment research
+position:
+  title: AI Safety Argumentation Platform Research Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building and operating LLM-
+      assisted population pipelines, architecting agent
+      coordination patterns for multi-step research tasks, and
+      implementing quality-control scaffolds for LLM outputs. The
+      engineer works hands-on with agentic AI systems to build the
+      CARMA platform's core functionality.
+  responsibilities:
+  - Extend ontologies and knowledge graph schemas representing claims, evidence, argument
+    structures, defeaters, and confidence
+  - Implement defeasible argumentation frameworks (ASPIC+, Dung-style, argumentation
+    schemes) capturing logical structure and rebuttal vulnerability
+  - Operate and quality-control LLM-driven population pipelines with cross-check scaffolds,
+    provenance tracking, and human-in-the-loop curation
+  - Architect agent coordination patterns for multi-step research and population tasks
+    with robust error handling and graceful degradation
+  - Pre-harden argument structures by mapping strongest counterarguments, steel-manned
+    objections, and known defeaters
+  - Build export pipelines translating structured argumentation into diverse communications
+    formats across audiences
+  - Maintain current awareness across AI safety, capabilities, and governance to determine
+    when new developments require graph updates
+  - Collaborate with communications staff and researchers to ensure outputs serve
+    real persuasive needs
+  use_cases:
+  - Structured argumentation platform for systematizing AI safety risk evidence
+  - Knowledge graph population for claims, evidence, and argument relationships
+  - LLM-assisted argument mining and claim extraction pipelines
+  - Multi-agent coordination for automated research and argumentation tasks
+  - Policy communications generation from structured argument data
+  skills:
+    genai: [LLM agent coordination platforms, Prompt engineering at scale, 'LLM output
+        QC (adversarial probing, consistency checks, calibration)', LLM-assisted development
+        (vibecoding)]
+    ml: ['Argument mining, claim extraction, stance detection']
+    web: []
+    databases: [Knowledge graph development, Graph databases, Graph query languages]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: ['Formal argumentation theory (ASPIC+, Dung-style, argumentation schemes)',
+      'Ontology engineering (OWL/RDF, property graphs)', 'Computational argumentation
+        tools (AIF, Carneades)', AI safety and governance, 'Philosophy of science
+        (defeaters, burden of proof, inference to best explanation)']
+    other: [Cross-check and verification scaffold design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9576277'
+  extracted_at: '2026-06-25T19:44:28.502022'

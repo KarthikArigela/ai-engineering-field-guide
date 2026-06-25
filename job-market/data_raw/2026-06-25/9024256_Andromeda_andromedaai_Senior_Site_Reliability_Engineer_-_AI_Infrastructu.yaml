@@ -1,0 +1,168 @@
+job_id: 9024256
+title: Senior Site Reliability Engineer - AI Infrastructure
+company: Andromeda (andromeda.ai)
+location: USA
+work_type: FULL_TIME
+description: |
+  Senior Site Reliability Engineer - AI Infrastructure
+  
+  Location: Global Remote / San Francisco · Full-Time
+  
+  About Andromeda
+  
+  Andromeda Cluster was founded by Nat Friedman and Daniel
+  Gross to give early-stage startups access to the kind of
+  scaled AI infrastructure once reserved only for
+  hyperscalers.
+  
+  We began with a single managed cluster — but it filled
+  almost instantly. Since then, we’ve been quietly building
+  the systems, network, and orchestration layer that makes the
+  world’s AI infrastructure more accessible.
+  
+  Today, Andromeda works with leading AI labs, data centers,
+  and cloud providers to deliver compute when and where it’s
+  needed most. Our platform routes training and inference jobs
+  across global supply, unlocking flexibility and efficiency
+  in one of the fastest-growing markets on earth.
+  
+  Our long-term vision is to build the liquidity layer for
+  global AI compute — a marketplace that moves the
+  infrastructure and workloads powering AGI not dissimilar to
+  the flows of capital in the world’s financial markets.
+  
+  We are expanding to new frontiers to find the brightest that
+  work in AI infrastructure, research and engineering.
+  
+  The Role
+  
+  This is not a generalist SRE role.
+  
+  You will design, operate, and debug large-scale GPU
+  infrastructure used for distributed training and inference,
+  working directly with customers pushing the limits of modern
+  AI systems.
+  
+  We’re looking for engineers who have personally run GPU
+  clusters in production, understand the failure modes of
+  distributed training, and can reason about performance from
+  network fabric → kernel → framework.
+  
+  What You’ll Own
+  
+  - GPU Cluster Architecture: Design and evolve multi-provider,
+    multi-region GPU compute clusters optimized for large-
+    scale training. Make topology-aware scheduling,
+    networking, and storage decisions that directly impact
+    training throughput and cost efficiency.
+  - Customer Technical Partnership: Serve as the primary
+    technical point of contact for customers running large-
+    scale training workloads. Onboard, troubleshoot, and
+    optimize, often in real time.
+  - Reliability & Performance Engineering: Define SLOs and error
+    budgets that account for the unique failure modes of GPU
+    infrastructure (ECC errors, NVLink degradation, NCCL
+    timeouts). Own capacity planning across heterogeneous GPU
+    fleets optimized for training throughput.
+  - Networking & Fabric Health: Ensure the health and
+    performance of high-speed interconnects (InfiniBand, RoCE,
+    NVLink) that underpin distributed training. Diagnose and
+    resolve fabric-level issues that degrade collective
+    operations.
+  - Observability: Build deep visibility into GPU utilization,
+    memory pressure, interconnect throughput, training job
+    performance, and hardware health. Go well beyond standard
+    infrastructure metrics.
+  - Automation & Tooling: Build production-grade automation for
+    cluster provisioning, GPU health checks, job scheduling,
+    self-healing, and firmware/driver lifecycle management.
+  - Incident Leadership: Lead incident response for complex,
+    multi-layer failures spanning hardware, networking,
+    orchestration, and ML frameworks. Drive blameless
+    postmortems and systemic fixes.
+  
+  What We’re Looking For
+  
+  - GPU Systems Expertise: Deep, hands-on experience operating
+    large-scale GPU clusters (NVIDIA A100/H100/B200 or
+    equivalent). You understand GPU memory hierarchies, ECC
+    behavior, thermal throttling, and hardware failure modes
+    from direct experience not documentation.
+  - High-Performance Networking: Production experience with
+    InfiniBand, RoCE, or NVLink fabrics in the context of
+    distributed training. You can diagnose why an all-reduce
+    is slow, identify a degraded link in a fat-tree topology,
+    and reason about congestion control at scale.
+  - Distributed Training & ML Frameworks: Working knowledge of
+    how large training jobs actually run — NCCL, CUDA, PyTorch
+    distributed, DeepSpeed, Megatron, FSDP, or similar. You
+    don't need to write the models, but you need to understand
+    what's happening at the systems level when a 1,000-GPU
+    training run stalls.
+  - Linux & Systems Internals: Expert-level Linux knowledge:
+    kernel tuning, driver management (NVIDIA drivers, CUDA
+    toolkit), cgroup/namespace internals, performance
+    profiling at the syscall and hardware level.
+  - Kubernetes & Orchestration: Strong experience running
+    Kubernetes in production with GPU workloads, including
+    device plugins, topology-aware scheduling, multi-cluster
+    federation, and custom operators. Experience with Slurm or
+    other HPC schedulers is equally valued.
+  - Automation & Software Engineering: Strong engineering skills
+    in Python, Go, or Bash. You build production-grade tools
+    and services, not just scripts. Infrastructure-as-Code
+    proficiency (Terraform, Helm, Ansible, or equivalent).
+  - Observability & Monitoring: Hands-on experience building
+    monitoring and alerting for GPU infrastructure, not just
+    Prometheus/Grafana basics, but GPU-specific telemetry
+    (DCGM, nvidia-smi, fabric manager metrics) integrated into
+    actionable dashboards.
+  - Incident Management: Proven track record leading incident
+    response for complex distributed systems where the failure
+    could be in hardware, firmware, networking, drivers,
+    orchestration, or application code and you need to narrow
+    it down fast.
+  
+  Strong Candidates May Have
+  
+  - Distributed Storage: Experience with high-performance
+    parallel file systems (VAST, Weka, Lustre, GPFS) and the
+    checkpoint I/O and data-loading bottlenecks that come with
+    large training runs.
+  - Training Optimization: Experience profiling and optimizing
+    distributed training performance: identifying stragglers,
+    tuning collective communication strategies, improving MFU
+    (Model FLOPs Utilization), and reducing idle GPU time
+    across large runs.
+  - Cluster Buildout & Hardware: Experience involved in physical
+    cluster design - rack layout, power/cooling constraints,
+    network topology design, and hardware validation/burn-in
+    at scale.
+  - Team Leadership: Experience leading or mentoring a team of
+    infrastructure engineers. We're growing and need people
+    who raise the bar for everyone around them.
+  
+  Why You’ll Love It Here
+  
+  This is a high-impact, senior builder’s role. You’ll have
+  significant ownership and autonomy to shape how our systems
+  run at a foundational level, working directly with customers
+  and providers while architecting the infrastructure backbone
+  for reliable, scalable AI compute. You’ll influence
+  technical direction and help define what world-class AI
+  infrastructure operations look like.
+  
+  Andromeda Cluster is an equal opportunity employer. We
+  celebrate diversity and are committed to creating an
+  inclusive environment for all employees. We do not
+  discriminate on the basis of race, religion, color, national
+  origin, gender, sexual orientation, age, marital status,
+  veteran status, or disability status.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Information Technology
+  - Software
+posted_date: 2026-06-03
+url: "https://www.builtinla.com/job/senior-site-reliability-engineer-ai-infrastructure/9024256"
+source: Built In

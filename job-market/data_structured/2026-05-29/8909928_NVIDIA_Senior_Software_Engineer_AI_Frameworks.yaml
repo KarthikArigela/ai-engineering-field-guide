@@ -1,0 +1,57 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPU computing and AI hardware/software platform
+position:
+  title: Senior Software Engineer, AI Frameworks
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building integrations for NVIDIA
+      Grove with AI frameworks used in training and inference
+      stacks, including optimizing performance for distributed
+      training/inference on multi-node/multi-GPU environments. The
+      engineer works hands-on with PyTorch, Ray, CUDA/GPU
+      utilization, and model serving stacks, making it squarely an
+      ai-first role.
+  responsibilities:
+  - Design and implement end-to-end integrations of Grove with open-source AI frameworks
+    (Dynamo, llm-d, Ray, PyTorch, and related ecosystem projects)
+  - Build and maintain adapters, plugins, operators, and runtime components enabling
+    Grove features across training and inference stacks
+  - Partner with framework owners to upstream changes, contribute patches, and ensure
+    long-term maintainability of integrations
+  - Develop reference workflows, sample apps, and best-practice guides that accelerate
+    adoption by users and partners
+  - Optimize performance, scalability, and reliability for distributed training/inference
+    in multi-node and multi-GPU environments
+  - Improve observability and operational readiness including metrics, logging, tracing,
+    and debugging tools for Kubernetes-based deployments
+  - Define APIs/contracts and ensure compatibility across versions of frameworks and
+    dependencies
+  - Diagnose complex issues spanning containers, networking, scheduling, CUDA/GPU
+    utilization, and framework runtime behavior
+  use_cases:
+  - Distributed AI training orchestration across multi-node and multi-GPU clusters
+  - Large-scale model serving and distributed inference optimization
+  - AI framework integration enabling seamless adoption of NVIDIA Grove capabilities
+  - Performance optimization for AI workloads including throughput, latency, batching,
+    and memory management
+  - Kubernetes-based deployment and operational readiness for AI infrastructure
+  skills:
+    genai: []
+    ml: [PyTorch, CUDA, GPU performance profiling (Nsight), Multi-GPU training]
+    web: [gRPC]
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [Triton Inference Server, Kubernetes, Docker, Helm, CI/CD, Model serving,
+      Distributed inference]
+    languages: [Go, C++, Python]
+    domains: []
+    other: [Distributed systems, Open-source contribution]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8909928'
+  extracted_at: '2026-05-29T08:49:28.843138'

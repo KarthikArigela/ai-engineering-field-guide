@@ -1,0 +1,57 @@
+company:
+  name: Guidepoint
+  stage: null
+  focus: |-
+    Research enablement platform with expert network and on-
+    demand intelligence
+position:
+  title: Data/AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a Data/AI Engineer who builds data
+      infrastructure, pipelines, and platforms that support AI/ML
+      work but does not directly work on models. The candidate
+      builds ETL pipelines, Lakehouse architecture, streaming
+      APIs, and microservices that power AI/ML platforms - this is
+      enabling infrastructure rather than hands-on model
+      development. While they mention building "AI/ML platforms"
+      and "NLP-based insight pipelines," these are support systems
+      and data products, not actual model training, fine-tuning,
+      or deployment.
+  responsibilities:
+  - Design, build, and maintain ETL pipelines and data ingestion workflows on Azure
+    Databricks to support BI, analytics, and AI/ML use cases
+  - Architect and optimize Lakehouse using Delta Lake on Databricks ensuring reliability,
+    performance, and cost efficiency
+  - Develop scalable web APIs and microservices using Python on Azure Kubernetes Service
+    with Docker, Kubernetes, and Helm
+  - Design and implement real-time SSE endpoints and streaming data pipelines with
+    Kafka, Redis, or RabbitMQ
+  - Build and maintain Knowledge Graph models, entity relationship structures, and
+    NLP-based insight pipelines
+  - Implement CI/CD pipelines using Azure DevOps and maintain observability with Prometheus,
+    Datadog, or OpenTelemetry
+  use_cases:
+  - Business intelligence and analytics reporting on research and investment data
+  - Real-time event streaming for web and mobile clients
+  - Knowledge graph and NLP-based analytics for expert network insights
+  - Data integration from enterprise systems like Salesforce and NetSuite
+  - AI/ML platform infrastructure supporting data science teams
+  - Streaming APIs for research enablement and on-demand intelligence delivery
+  skills:
+    genai: []
+    ml: []
+    web: [FastAPI, Flask, Django, aiohttp, NGINX]
+    databases: [Redis, SQL Server, Neo4j, Elasticsearch, Cosmos DB]
+    data: [Spark, Delta Lake, Kafka, RabbitMQ, Power BI, Fivetran, Knowledge Graphs]
+    cloud: [Azure Databricks, Azure DevOps]
+    ops: [Kubernetes, Docker, Helm, MLflow, Prometheus, Datadog, OpenTelemetry]
+    languages: [Python, SQL, asyncio]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9323961'
+  extracted_at: '2026-05-29T09:01:46.203940'

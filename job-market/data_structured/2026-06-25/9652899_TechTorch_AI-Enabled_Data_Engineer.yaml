@@ -1,0 +1,60 @@
+company:
+  name: TechTorch
+  stage: High-growth (scale-up)
+  focus: Enterprise technology consultancy for private equity
+position:
+  title: AI-Enabled Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is fundamentally a data engineering role that builds
+      pipelines, platforms, and infrastructure to support AI
+      systems (RAG ingestion, vector store loading, embedding
+      pipelines). While the role uses LLMs within ETL logic and
+      builds data products for AI agents, the core craft is data
+      engineering — not building, training, or fine-tuning AI/ML
+      models themselves.
+  responsibilities:
+  - Design, build, and maintain scalable data pipelines and ETL/ELT workflows across
+    cloud and on-prem environments
+  - Work with Snowflake, Databricks, and Delta Lake for ingestion, transformation,
+    storage optimization, and access patterns
+  - Model data with dbt including modular SQL transformations, dependency management,
+    data contracts, and documentation
+  - Orchestrate workflows across Airflow, Dagster/Prefect, Azure Data Factory, and
+    Databricks Workflows
+  - Build data pipelines that feed AI systems including RAG ingestion, vector store
+    loading, document chunking, and embedding pipelines
+  - Use LLMs as active components in ETL logic for classification, entity extraction,
+    enrichment, and data quality remediation
+  - Expose data infrastructure as consumable tools for AI agents via MCP or similar
+    agent-integration patterns
+  - Apply DataOps practices including CI/CD, infrastructure as code, observability,
+    and incident response
+  use_cases:
+  - RAG ingestion workflows and embedding pipelines for AI-powered search and retrieval
+  - Vector store loading and document chunking for AI applications
+  - AI-augmented ETL using LLMs for classification, entity extraction, and data enrichment
+  - Enterprise data warehousing and data lake architecture for business intelligence
+  - Data quality frameworks with testing, validation, alerting, and lineage tracking
+  - Agent-integrated data tooling via MCP for AI agent consumption
+  skills:
+    genai: [RAG pipelines, Embedding pipelines, LLM integration in ETL, MCP (Model
+        Context Protocol), AI-paired programming (Claude Code)]
+    ml: [Feast, Tecton]
+    web: []
+    databases: [Snowflake, Vector stores, Data Warehousing, Data Lakes, Pinecone,
+      Weaviate, Qdrant, pgvector]
+    data: [Databricks, Delta Lake, dbt, Apache Airflow, Dagster, Prefect, Azure Data
+        Factory, Databricks Workflows, Apache Spark, PySpark, ETL/ELT, Semantic Layer,
+      Dimensional Modeling, Data Lineage, Kafka, Spark Streaming, Flink, Snowpark]
+    cloud: [AWS S3, AWS Glue, AWS Redshift, Azure ADLS, Azure Synapse, AWS, Azure]
+    ops: [Docker, CI/CD, Infrastructure as Code]
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9652899'
+  extracted_at: '2026-06-25T19:43:39.865923'

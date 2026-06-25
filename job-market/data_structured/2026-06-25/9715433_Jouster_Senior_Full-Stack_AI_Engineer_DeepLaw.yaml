@@ -1,0 +1,48 @@
+company:
+  name: Jouster
+  stage: Pre-seed / Seed
+  focus: AI-powered contract review for legal teams
+position:
+  title: Senior Full-Stack AI Engineer – DeepLaw
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building AI agent systems
+      including RAG pipelines, prompt orchestration, fine-tuning
+      loops, and agent-based architectures. The engineer will own
+      the entire AI pipeline end-to-end for contract review,
+      making this a hands-on AI/ML building role rather than a
+      support or infrastructure role.
+  responsibilities:
+  - Build the core AI agent pipeline including prompt orchestration, retrieval (RAG),
+    and fine-tuning
+  - Develop UX and tooling for interacting with the agent including web UI, annotation,
+    and structured contract data
+  - Design and implement data and model infrastructure to support iteration and experimentation
+  - Lead full-stack development from scratch connecting UI, LLM, and data layers
+  - Set up deployment infrastructure including CI/CD, cloud infra, and minimal ops
+  - Collaborate with the founding PM to define the product roadmap and features
+  - Help define value-aligned contract review logic in both product and code
+  use_cases:
+  - AI-powered contract review with business and legal risk analysis
+  - Assumption mapping from contracts to surface hidden dependencies
+  - Contract diagnostics to identify trade-offs and misalignments
+  - Value-aligned feedback comparing contract terms against company goals
+  - Structured extraction of contract data for analysis
+  skills:
+    genai: [LangChain, AutoGen, RAG, prompt engineering, agent-based architectures,
+      OpenAI API, Claude API]
+    ml: [fine-tuning, open-source models]
+    web: [React, Next.js]
+    databases: [Pinecone, Weaviate, Postgres, Supabase]
+    data: []
+    cloud: [GCP, AWS, Vercel]
+    ops: [CI/CD]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9715433'
+  extracted_at: '2026-06-25T19:52:11.652514'

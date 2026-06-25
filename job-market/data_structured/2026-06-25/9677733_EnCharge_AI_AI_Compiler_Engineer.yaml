@@ -1,0 +1,57 @@
+company:
+  name: EnCharge AI
+  stage: Seed/Early-stage (launched 2022)
+  focus: AI hardware and software for edge-to-cloud computing
+position:
+  title: AI Compiler Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role focuses on building and optimizing graph compilers
+      for ML model execution on custom AI inference hardware
+      (ASICs). While it involves AI/ML workloads, the core work is
+      compiler engineering for neural network acceleration — not
+      LLMs, agents, or GenAI systems. The emphasis on MLIR,
+      operator fusion, quantization, tiling, and IR generation
+      places it squarely in traditional ML/DL systems
+      optimization.
+  responsibilities:
+  - Architect, design, and implement optimizations for AI model execution on graph
+    compilers to improve performance, reduce latency, and maximize hardware utilization
+  - Collaborate with ML researchers, hardware engineers, and software developers to
+    design and deploy AI models addressing hardware-specific challenges
+  - Develop performance optimizations for neural network models including layer fusion,
+    operator fusion, and graph-level transformations
+  - Develop compiler optimizations and passes that convert high-level AI models from
+    frameworks like TensorFlow and PyTorch into intermediate representations
+  - Implement parsing, semantic analysis, and IR generation for deep learning frameworks
+  - Research and integrate advancements in compiler design, ML model optimizations,
+    and hardware acceleration into graph compilers
+  - Provide leadership, mentorship, and technical guidance to a team of engineers
+    focused on graph compiler optimizations
+  use_cases:
+  - Compiling and optimizing neural network models for execution on in-memory computing
+    inference accelerators
+  - Hardware-aware graph compilation for edge-to-cloud AI deployment in power and
+    space constrained environments
+  - Operator fusion and graph-level transformations to maximize hardware utilization
+    on custom ASICs
+  - Bridging deep learning frameworks (PyTorch, TensorFlow) to hardware-specific intermediate
+    representations
+  skills:
+    genai: []
+    ml: [MLIR, Torch-FX, PyTorch, TensorFlow, Graph compiler optimization, Operator
+        fusion, Quantization, Tiling, Intermediate representations (IR), Code generation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [GPU architecture, TPU architecture, ASIC architecture]
+    languages: [C++, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9677733'
+  extracted_at: '2026-06-25T19:53:32.168132'

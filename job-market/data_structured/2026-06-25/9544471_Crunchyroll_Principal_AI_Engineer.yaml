@@ -1,0 +1,61 @@
+company:
+  name: Crunchyroll
+  stage: Public (Joint venture between Sony Pictures Entertainment and Aniplex/Sony
+    Music Entertainment)
+  focus: Anime streaming, content, and fan community platform
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and shipping agentic systems
+      — agent harnesses, MCP integrations, evaluation layers, and
+      workflow orchestration that let agents read, write,
+      refactor, and test code. The engineer owns the full agentic
+      delivery platform end-to-end, from hands-on development to
+      instrumentation and rollout, making this clearly ai-first.
+  responsibilities:
+  - Design and evolve the lab's agentic delivery system including agent harness, CLI/skill
+    interfaces, workflow orchestration, isolation, evaluation, and observability layers
+  - Own the measurement layer defining and instrumenting KPIs (cycle time, quality,
+    rework rates, eval pass rates, cost per cycle, pod throughput, adoption) with
+    dashboards and learning reports
+  - Lead integration work making agents effective in the environment including context
+    engineering, repo/tool access patterns, and MCP servers connecting agents to codebases,
+    docs, and runtime systems
+  - Drive enablement and adoption across Product, Design, and Engineering by onboarding
+    pods, codifying playbooks, and embedding with teams during first cycles
+  - Set the technical bar for AI work including design reviews, code quality, eval
+    coverage, observability, cost management, and security practices
+  - Mentor engineers and contractors collaborating with the lab
+  - Advise leadership on cross-functional pod design, human-in-the-loop decisions,
+    and rollout strategy for agentic systems across the engineering organization
+  use_cases:
+  - Agentic code generation, refactoring, and testing across engineering repositories
+  - Accelerating idea-to-prototype and decision-to-production delivery cycles using
+    AI agents
+  - Measuring and evaluating agentic delivery effectiveness with instrumented KPIs
+    and evaluation harnesses
+  - Scaling agentic software delivery across large engineering organizations with
+    cross-functional pods
+  - Developer productivity tooling via agent harnesses, CLI interfaces, and MCP server
+    integrations
+  skills:
+    genai: [Agent harnesses, MCP (Model Context Protocol), Agentic systems, Prompt
+        engineering, Context engineering, Claude Code, Cursor, Devin, LLM evaluation
+        design, Workflow orchestration, Tool-use / function calling]
+    ml: []
+    web: [CLI development, SDK development]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Datadog, LangSmith, Langfuse, Observability and instrumentation, Internal
+        developer platforms, Cost management, Security practices]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9544471'
+  extracted_at: '2026-06-25T19:41:14.740540'

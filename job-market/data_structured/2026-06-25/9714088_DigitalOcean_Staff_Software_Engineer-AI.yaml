@@ -1,0 +1,59 @@
+company:
+  name: DigitalOcean
+  stage: Public
+  focus: Cloud computing and AI infrastructure services
+position:
+  title: Staff Software Engineer-AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly designing and architecting
+      systems that simulate, evaluate, and orchestrate multi-agent
+      AI deployments — including LLM orchestration, synthetic
+      persona generation, and building evaluation frameworks for
+      non-deterministic agentic workflows. While it's a software
+      engineering role at its core, the work is fundamentally
+      about building infrastructure that directly operates on and
+      tests AI agents at scale.
+  responsibilities:
+  - Lead end-to-end design and implementation of multi-agent, multi-turn simulation
+    environments where synthetic users and AI agents interact dynamically
+  - Design ML pipelines that analyze historical user conversations to automatically
+    extract and synthesize realistic user personas and simulation goals
+  - Build core methodology and scoring infrastructure for running 'what-if' configuration
+    scenarios and benchmarking agent behavior
+  - Define robust, scalable API contracts and system boundaries bridging upstream
+    telemetry data, asynchronous simulation engines, and secure remote execution environments
+  - Drive the technical roadmap for the Feedback Systems team, balancing long-term
+    scalability with iterative product delivery
+  - Design solutions for distributed systems challenges including rate limiting, backpressure,
+    state management, and reliable execution of non-deterministic workflows
+  - Mentor senior engineers, lead cross-organizational architectural reviews, and
+    establish engineering best practices
+  - Partner with Product Managers and peer engineering leaders to translate product
+    requirements into a scalable architectural roadmap
+  use_cases:
+  - Multi-agent, multi-turn simulation environments for testing AI agent behavior
+    at scale
+  - Automated user persona generation from historical telemetry and chat data
+  - What-if scenario evaluation for benchmarking alternative AI agent configurations
+  - Behavioral simulation of non-deterministic agentic workflows with tool integration
+  - Automated evaluation and regression testing of LLM-based agent deployments
+  skills:
+    genai: [LangChain, AutoGen, CrewAI, LLM Orchestration, Multi-Agent Frameworks,
+      Prompt Routing]
+    ml: [Behavioral Modeling, Persona Synthesis, Synthetic Data Generation]
+    web: [gRPC, API Design]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Distributed Systems, Workflow Orchestration, Stateful Systems, Event-Driven
+        Architecture, System Observability]
+    languages: [Python, Go]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9714088'
+  extracted_at: '2026-06-25T19:48:36.313165'

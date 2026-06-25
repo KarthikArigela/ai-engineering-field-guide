@@ -1,0 +1,66 @@
+company:
+  name: Tether.io
+  stage: Public
+  focus: |-
+    Digital finance, stablecoins, blockchain technology, and
+    AI/ML research for model compression
+position:
+  title: AI Research Engineer (Model Compression & Quantization)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role focuses on hands-on model compression and
+      optimization for LLMs and multimodal models. The engineer
+      will directly implement quantization, knowledge
+      distillation, and pruning techniques to improve model
+      inference on edge devices, which is core AI/ML system work.
+  responsibilities:
+  - Apply low-bit quantization to reduce model size and inference latency for generative
+    AI models (LLMs, VLMs, multimodal) while maintaining accuracy and output quality
+  - Leverage knowledge distillation to transfer capabilities from larger teacher models
+    to smaller student models, enabling efficient multimodal reasoning across text,
+    image, and audio inputs
+  - Implement pruning techniques to remove redundant parameters and attention heads,
+    reducing computational overhead without sacrificing task performance
+  - Analyze trade-offs between model efficiency (size, latency, memory) and accuracy
+    across quantization, distillation, and pruning methods; propose improvements based
+    on empirical findings
+  - Research and apply mixed-precision quantization and other advanced compression
+    strategies to optimize the accuracy-performance balance
+  - Stay current with the latest research in model compression, including emerging
+    techniques for multimodal and generative architectures
+  - Document methodologies, experiments, and results clearly to support reproducibility,
+    internal collaboration, and stakeholder communication
+  - Author technical papers and publish findings in top-tier conferences (NeurIPS,
+    ICML, ICLR, CVPR, ACL, AAAI) to advance the field of model compression for multimodal
+    AI
+  use_cases:
+  - Deploy compressed and optimized LLMs on resource-constrained edge devices like
+    smartphones
+  - Enable efficient multimodal AI reasoning across text, image, and audio inputs
+    for edge deployment
+  - Reduce computational costs and memory footprint for generative AI models while
+    maintaining output quality
+  - Optimize inference latency and throughput for multimodal AI systems in production
+    environments
+  - Deliver scalable, low-memory AI systems that maintain high fidelity and real-world
+    value
+  skills:
+    genai: []
+    ml: [PyTorch, Model Quantization, Quantization-Aware Training (QAT), Post-Training
+        Quantization (PTQ), Knowledge Distillation, Model Pruning, Large Language
+        Models (LLMs), Vision-Language Models (VLMs), Transformers, Multimodal Models,
+      Neural Network Architectures, Backpropagation, Model Optimization, Model Fine-tuning]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Edge Deployment, Inference Optimization]
+    languages: [C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9417469'
+  extracted_at: '2026-05-29T09:04:07.772231'

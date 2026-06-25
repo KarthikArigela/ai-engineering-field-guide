@@ -1,0 +1,58 @@
+company:
+  name: Bristol Myers Squibb
+  stage: Public
+  focus: Pharmaceutical biotechnology and life sciences
+position:
+  title: Principal AI Engineer, PDS BI&T
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is hands-on agentic AI engineering. The role directly
+      builds autonomous multi-agent systems using
+      LangGraph/CrewAI, implements complex state machines,
+      integrates LLMs (Bedrock, Azure OpenAI, Anthropic), and
+      deploys production AI workflows. This is clearly working ON
+      AI systems, not just supporting them.
+  responsibilities:
+  - Design and implement autonomous agent workflows using orchestration frameworks
+    like LangGraph, CrewAI, and Autogen
+  - Build complex state machines with conditional routing, parallel execution, and
+    error recovery for analytical and diagnostic tasks
+  - Develop graph-based workflows with 10+ nodes involving agent collaboration, task
+    decomposition, and sequential/parallel execution
+  - Build production FastAPI applications with async I/O patterns for PostgreSQL,
+    Redis, and external services
+  - Integrate cloud-based LLM providers including AWS Bedrock, Azure OpenAI, Anthropic
+    Claude, and OpenAI GPT-4
+  - Implement tool-calling protocols using Model Context Protocol and function calling
+    for external system integration
+  - Integrate observability platforms like Langfuse and LangSmith for end-to-end agent
+    tracing and telemetry
+  - Partner with data engineers and business analysts to translate requirements into
+    agent workflows
+  use_cases:
+  - Analytics, diagnostics, and decision support for Product Development and Supply
+  - Autonomous analytical workflows that go beyond conversational interfaces
+  - Automated validations and intelligent routing across diverse business domains
+  - Multi-step agentic tasks with conditional logic and state management
+  - Real-time agent streaming responses with Server-Sent Events and WebSocket protocols
+  - Response transformation converting raw data into structured analytical outputs
+    like charts and insights
+  skills:
+    genai: [LangGraph, CrewAI, Autogen, LangChain, ReAct, Plan-and-Execute, prompt
+        engineering, RAG, agents, function calling, Model Context Protocol, Anthropic
+        Claude, OpenAI GPT-4]
+    ml: []
+    web: [FastAPI, RESTful APIs, Server-Sent Events, WebSocket]
+    databases: [PostgreSQL, Redis]
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI, AWS, Azure, Google Cloud]
+    ops: [LDAP, SSO, Docker, CI/CD, Langfuse, LangSmith]
+    languages: [async I/O, Python, asyncio]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9522858'
+  extracted_at: '2026-05-29T09:08:27.832962'

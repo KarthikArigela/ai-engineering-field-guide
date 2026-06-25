@@ -1,0 +1,55 @@
+company:
+  name: Nolla Health
+  stage: Seed
+  focus: AI-powered healthcare apps and AI doctors
+position:
+  title: Founding AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is explicitly an AI engineering role focused on wiring
+      LLMs and custom models into production systems, building
+      prompt engineering, tool calling, eval infrastructure, and
+      inference optimization. While it includes backend
+      engineering work, the core AI responsibilities—prompts,
+      evals, abstention/routing strategies, and LLM
+      integration—make it squarely ai-first.
+  responsibilities:
+  - Build and maintain backends for existing apps and stand up new ones for specialty
+    healthcare verticals
+  - Own backend systems end to end from schema design to production
+  - Build clinician-facing dashboards and tooling for medical teams to review AI output
+  - Develop prompts, tool calling, and inference optimization for AI features in patient-facing
+    apps
+  - Build evaluation and observability infrastructure to ensure AI system safety and
+    correctness
+  - Implement abstention, routing, and fallback strategies that prioritize safety
+    in clinical contexts
+  - Support cross-functional work spanning payments, user flows, clinical infra, and
+    model deployment
+  - Architect systems to support rapid expansion into new verticals, states, and clinical
+    modalities
+  use_cases:
+  - AI-powered medical skincare treatment and acne care
+  - Skin cancer screening and detection
+  - Urgent care virtual consultations via NollaMD
+  - Specialty healthcare apps for conditions like birth control and allergies
+  - Clinical decision support with clinician review of AI output
+  - Safe and reliable AI-driven healthcare delivery in regulated environments
+  skills:
+    genai: [Prompt Engineering, Tool Calling, RAG, LLM Evals, OpenAI API, Anthropic
+        API]
+    ml: []
+    web: [Node.js]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [AWS]
+    ops: [Docker, CI/CD, Langfuse, Sentry]
+    languages: [TypeScript, Python]
+    domains: []
+    other: [FHIR, HL7, EMR Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9668001'
+  extracted_at: '2026-06-25T19:49:48.770769'

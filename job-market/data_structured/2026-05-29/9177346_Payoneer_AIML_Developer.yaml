@@ -1,0 +1,64 @@
+company:
+  name: Payoneer
+  stage: Public
+  focus: |-
+    Global financial platform for cross-border payments and
+    business operations
+position:
+  title: AI/ML Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is an AI-first role requiring hands-on experience
+      training and fine-tuning Small Language Models (SLMs),
+      implementing RAG solutions, and deploying models to
+      production. The candidate will work directly with model
+      training (SFT, RLHF, instruction tuning), optimization
+      techniques (quantization, pruning, distillation), and
+      inference deployment - all core AI/ML engineering tasks on
+      the models themselves.
+  responsibilities:
+  - Design, train, and fine-tune Small Language Models (SLMs) using PyTorch, TensorFlow,
+    or JAX
+  - Implement distributed training pipelines (DDP, FSDP) across GPU/TPU clusters and
+    conduct hyperparameter optimization
+  - Develop evaluation frameworks including perplexity, BLEU, ROUGE, BERTScore and
+    perform red-teaming for responsible AI
+  - Deploy models using Docker, Kubernetes and cloud platforms (AWS SageMaker, GCP
+    Vertex AI, Azure ML)
+  - Optimize inference performance through quantization, pruning, distillation and
+    ONNX/TensorRT conversion
+  - Build and maintain model registries, experiment tracking (MLflow, Comet) and monitor
+    model/data drift in production
+  - Implement RAG solutions and explore PEFT methods (LoRA, QLoRA), mixture-of-experts
+    (MoE), and agentic workflows
+  - Collaborate with product teams to translate business requirements into model objectives
+    and KPIs
+  use_cases:
+  - Cross-border payment processing and financial workflow automation
+  - Multi-currency and workforce management optimization
+  - Business intelligence and working capital solutions
+  - Global payments compliance and regulatory workflows
+  - Customer-facing AI solutions for financial services
+  - Document processing and NLP for financial transactions
+  skills:
+    genai: [RAG (Retrieval-Augmented Generation), Agentic Workflows, LangChain, LlamaIndex]
+    ml: [PyTorch, TensorFlow, JAX, Hugging Face Transformers, Hugging Face Datasets,
+      PEFT, TRL, Accelerate, SFT (Supervised Fine-Tuning), RLHF (Reinforcement Learning
+        from Human Feedback), Instruction Tuning, LoRA, QLoRA, Adapter Layers, DeepSpeed,
+      CUDA, Perplexity, BLEU, ROUGE, BERTScore, Red-teaming, Mixture-of-Experts (MoE)]
+    web: []
+    databases: [FAISS, Pinecone, Weaviate]
+    data: [Pandas, NumPy, Apache Spark, Dask]
+    cloud: [AWS, AWS SageMaker, GCP, GCP Vertex AI, Azure, Azure ML]
+    ops: [Model Quantization, Pruning, Distillation, ONNX, TensorRT, Docker, Kubernetes,
+      MLflow, Weights & Biases, Comet, Model Registry, Experiment Tracking, Model
+        Drift Monitoring, Data Drift Monitoring, CI/CD, Git, GitHub, GitLab]
+    languages: [Python, C++]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9177346'
+  extracted_at: '2026-05-29T08:55:12.629551'
