@@ -2,7 +2,6 @@
 
 - Date: February 16, 2026
 - Host: [Alexey Grigorev](https://www.linkedin.com/in/agrigorev/)
-- [Maven](https://maven.com/p/bf6ef3/a-day-of-ai-engineer)
 - [AI Shipping Labs](https://aishippinglabs.com/blog/what-is-an-ai-engineer-alexey-grigorev-perspective)
 
 ## Description

@@ -2,7 +2,6 @@
 
 - Date: March 3, 2026
 - Host: [Alexey Grigorev](https://www.linkedin.com/in/agrigorev/)
-- [Maven](https://maven.com/p/69550a/ai-engineering-the-interview-process)
 - [Recording on YouTube](https://www.youtube.com/watch?v=qjKAqMSD4Vw)
 - [Slides](slides/interview-process.pdf)
 

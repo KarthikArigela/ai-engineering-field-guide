@@ -87,17 +87,19 @@ See [awesome.md](awesome.md) for the list.
 
 ## [Webinars](webinars/)
 
-A 4-part event series on AI engineering careers, hosted through [Maven](https://maven.com/) and [AI Shipping Labs](https://aishippinglabs.com/):
+A 4-part event series on AI engineering careers, hosted through Maven and [AI Shipping Labs](https://aishippinglabs.com/):
 
-1. [A Day of an AI Engineer](webinars/01-a-day-of-ai-engineer.md) - the practical reality of the role ([Maven](https://maven.com/p/bf6ef3/a-day-of-ai-engineer), [AI Shipping Labs](https://aishippinglabs.com/blog/what-is-an-ai-engineer-alexey-grigorev-perspective)) - recording available
-2. [Defining the AI Engineer Role](webinars/02-defining-the-role.md) - what companies actually hire for, based on 2,400+ job descriptions ([Maven](https://maven.com/p/f0cada/defining-the-ai-engineer-role)) - recording available
-3. [The Interview Process](webinars/03-the-interview-process.md) - real hiring trends, technical questions, and live coding challenges ([Maven](https://maven.com/p/69550a/ai-engineering-the-interview-process)) - March 3, 2026
-4. [Take-Home Assignments](webinars/04-take-home-assignments.md) - analyzing real assignments and building production-ready solutions ([Maven](https://maven.com/p/250595/ai-engineering-take-home-assignments)) - March 9, 2026
-
-Have questions? [Submit them here](https://app.sli.do/event/vJEZ6h5zbFRAzPfrANZxZd) - all questions will be covered during the events or afterwards.
+1. [A Day of an AI Engineer](webinars/01-a-day-of-ai-engineer.md) - the practical reality of the role (Maven, [AI Shipping Labs](https://aishippinglabs.com/blog/what-is-an-ai-engineer-alexey-grigorev-perspective)) - recording available
+2. [Defining the AI Engineer Role](webinars/02-defining-the-role.md) - what companies actually hire for, based on 2,400+ job descriptions (Maven) - recording available
+3. [The Interview Process](webinars/03-the-interview-process.md) - real hiring trends, technical questions, and live coding challenges (Maven) - recording available
+4. [Take-Home Assignments](webinars/04-take-home-assignments.md) - analyzing real assignments and building production-ready solutions (Maven) - recording available
 
 
 
 ## Learn AI Engineering
 
-If you want to learn the core skills needed for being an AI engineer, check out my course [AI Engineering Buildcamp: From RAG to Agents](https://maven.com/alexey-grigorev/from-rag-to-agents) - a 9-week intensive on building production-ready AI applications.
+There's more to learning AI engineering than watching tutorials:
+
+- [AI Engineering Buildcamp: From RAG to Agents](https://maven.com/alexey-grigorev/from-rag-to-agents) - my 9-week intensive course on building production-ready AI applications, covering RAG, agents, testing, evaluation, and monitoring
+- [AI Shipping Labs](https://aishippinglabs.com/) - a community of practitioners building AI and with AI, with workshops, courses, case studies, and discussions on what actually works
+
