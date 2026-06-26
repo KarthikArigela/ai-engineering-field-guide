@@ -79,12 +79,6 @@ Curated collection of resources we compiled while researching content for this f
 See [awesome.md](awesome.md) for the list.
 
 
-## Coming Soon
-
-- Salary analysis and compensation data
-- Community-contributed interview experiences
-
-
 ## [Webinars](webinars/)
 
 A 4-part event series on AI engineering careers, hosted through Maven and [AI Shipping Labs](https://aishippinglabs.com/):
