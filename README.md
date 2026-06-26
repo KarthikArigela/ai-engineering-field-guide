@@ -1,16 +1,8 @@
 # AI Engineering Field Guide
 
-Data-driven field guide to AI engineering roles, skills, and interviews.
+Data-driven field guide to AI engineering roles, skills, and interviews. AI Engineering Field Guide is **the** go-to resource for AI engineering.
 
 Everything here is based on real data: 4,894 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
-
-My vision for this repo is to become **the** go-to resource for AI engineering. Like [data-science-interviews](https://github.com/alexeygrigorev/data-science-interviews) but broader:
-
-- role analysis
-- job market data
-- interview questions
-- learning paths
-- and more
 
 It's a work in progress, and I'm actively adding more content. Your input is very welcome - feedback and contributions help shape what goes in here.
 
