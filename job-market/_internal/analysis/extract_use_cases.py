@@ -17,7 +17,7 @@ def extract_all_use_cases(jobs):
         company = job.get('company', {}).get('name', 'Unknown')
         title = job.get('position', {}).get('title', 'Unknown')
         ai_type = job.get('position', {}).get('ai_type', {}).get('type', 'unknown')
-        use_cases = job.get('company', {}).get('use_cases', [])
+        use_cases = job.get('position', {}).get('use_cases', [])
 
         if isinstance(use_cases, list):
             for uc in use_cases:
