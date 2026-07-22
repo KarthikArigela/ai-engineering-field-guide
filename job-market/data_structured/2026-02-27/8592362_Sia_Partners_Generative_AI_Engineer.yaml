@@ -36,17 +36,17 @@ position:
   - Domain-specific solutions through fine-tuning on proprietary data
   - PoC development and enterprise-grade AI deployments for consulting clients
   skills:
-    genai: [LangChain, LlamaIndex, OpenAI API, Anthropic API, RAG, Prompt engineering,
-      Agents, CoT, ReAct, Graph-of-Thought, PEFT, LoRA, RLHF]
-    ml: [PyTorch, Hugging Face]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Pinecone, FAISS, pgvector, ChromaDB, Qdrant, Milvus, Weaviate]
-    data: []
-    cloud: [AWS, GCP, Azure, SageMaker, Bedrock, Vertex AI]
-    ops: [CI/CD, MLflow, Docker, Kubernetes, Drift detection, Canary releases]
-    languages: [Python]
     domains: [NLP]
+    languages: [Python]
+    ml: [PyTorch, Hugging Face]
+    cloud: [AWS, GCP, Azure, SageMaker, AWS Bedrock, Vertex AI]
+    genai: [LangChain, LlamaIndex, OpenAI API, Anthropic API, RAG, Prompt Engineering,
+      AI Agents, CoT, ReAct, Graph-of-Thought, LoRA, RLHF]
+    data: []
     other: []
+    ops: [CI/CD, MLflow, Docker, Kubernetes, Drift detection, Canary releases]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Pinecone, FAISS, pgvector, Chroma, Qdrant, Milvus, Weaviate]
   is_customer_facing: true
   is_management: false
 meta:

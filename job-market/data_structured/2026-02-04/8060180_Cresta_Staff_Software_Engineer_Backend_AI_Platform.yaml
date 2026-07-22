@@ -34,17 +34,17 @@ position:
   - Real-time AI assistance for contact center agents to improve performance
   - Large language model integration for customer conversation understanding and response
   skills:
-    genai: [LLM]
+    domains: [Conversational AI, speech AI]
+    languages: [Python, Go]
     ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
+    genai: [LLMs]
+    data: []
+    other: [Distributed Systems, networking]
     ops: [Kubernetes, vLLM, Triton, TorchServe, Terraform, Helm, Docker, MLflow, real-time
         streaming inference, container security, MLOps, CI/CD]
-    languages: [Python, Golang]
-    domains: [conversational AI, speech AI]
-    other: [distributed systems, networking]
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

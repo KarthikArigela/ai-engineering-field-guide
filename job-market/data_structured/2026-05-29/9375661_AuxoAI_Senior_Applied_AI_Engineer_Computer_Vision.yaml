@@ -38,20 +38,19 @@ position:
   - Visual grounding and captioning systems
   - 3D reconstruction, depth estimation, and spatial reasoning
   skills:
+    domains: [Computer Vision]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, CNNs, 'Vision Transformers (ViT, Swin, DeiT)', YOLO,
+      DETR, Mask R-CNN, 'Multi-object tracking (SORT, DeepSORT, ByteTrack)', RNNs,
+      Camera calibration, Epipolar geometry, Pose estimation, 3D reconstruction, Depth
+        estimation, NeRFs, SLAM, Point clouds, Fine-Tuning, Active learning]
+    cloud: []
     genai: [CLIP, Vision Language Models (VLMs), BLIP, Flamingo]
-    ml: [PyTorch, TensorFlow, 'CNNs (ResNet, EfficientNet)', 'Vision Transformers
-        (ViT, Swin, DeiT)', YOLO, DETR, Mask R-CNN, 'Multi-object tracking (SORT,
-        DeepSORT, ByteTrack)', RNNs, Camera calibration, Epipolar geometry, Pose estimation,
-      3D reconstruction, Depth estimation, NeRFs, SLAM, Point clouds, Model fine-tuning,
-      Active learning]
+    data: [Data Pipelines, Synthetic data generation]
+    other: []
+    ops: [Real-time inference optimization, Edge deployment, Distributed training]
     web: []
     databases: []
-    data: [Data pipelines, Synthetic data generation]
-    cloud: []
-    ops: [Real-time inference optimization, Edge deployment, Distributed training]
-    languages: [Python]
-    domains: [Computer Vision]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

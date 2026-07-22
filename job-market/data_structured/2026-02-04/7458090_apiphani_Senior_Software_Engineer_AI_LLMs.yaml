@@ -36,16 +36,16 @@ position:
   - Multi-model AI orchestration supporting various LLM providers
   - Enterprise IT and managed service provider automation through intelligent agents
   skills:
-    genai: [RAG, LangChain, OpenAI API, Anthropic API]
-    ml: [Vector embeddings, Similarity search]
-    web: [API design, Microservices]
-    databases: [pgvector, Pinecone, Qdrant, PostgreSQL]
-    data: [Event pipelines]
-    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS ECS, AWS S3, AWS CloudWatch]
-    ops: [Docker, GitHub Actions, CI/CD, Terraform, AWS CDK, Datadog]
-    languages: [Python, TypeScript, SQL]
     domains: []
+    languages: [Python, TypeScript, SQL]
+    ml: [Vector embeddings, Similarity search]
+    cloud: [AWS, AWS Bedrock, AWS Lambda, ECS, AWS S3, CloudWatch]
+    genai: [RAG, LangChain, OpenAI API, Anthropic API]
+    data: [Event pipelines]
     other: []
+    ops: [Docker, GitHub Actions, CI/CD, Terraform, AWS CDK, Datadog]
+    web: [APIs, Microservices]
+    databases: [pgvector, Pinecone, Qdrant, PostgreSQL]
   is_customer_facing: false
   is_management: false
 meta:

@@ -32,17 +32,17 @@ position:
   - Document processing and ingestion for insurance workflows
   - Real-time AI-powered customer interactions for insurance queries
   skills:
-    genai: ['LLMs (OpenAI, Gemini, Llama, Claude)', embeddings, prompt engineering,
-      function calling, RAG, Google ADK, MCP servers]
-    ml: [A/B testing]
-    web: [REST/JSON APIs, OAuth2]
-    databases: [vector databases, BigQuery, Postgres, Redis]
-    data: [Apache Tika]
-    cloud: [GCP Vertex AI, GCP Model Garden, Cloud Run, Cloud Functions, GCS]
-    ops: [pytest, Git, CI/CD, Azure DevOps, Docker, RBAC/IAM]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [A/B testing]
+    cloud: [Vertex AI, GCP Model Garden, Cloud Run, Cloud Functions, GCS]
+    genai: [LLMs, Embeddings, Prompt Engineering, Function Calling, RAG, Google ADK,
+      MCP servers]
+    data: [Apache Tika]
     other: [GDPR]
+    ops: [pytest, Git, CI/CD, Azure DevOps, Docker, RBAC/IAM]
+    web: [REST/JSON APIs, OAuth]
+    databases: [Vector Databases, BigQuery, PostgreSQL, Redis]
   is_customer_facing: false
   is_management: false
 meta:

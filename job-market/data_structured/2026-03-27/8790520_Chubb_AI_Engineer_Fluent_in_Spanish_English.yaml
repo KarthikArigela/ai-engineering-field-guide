@@ -32,17 +32,17 @@ position:
   - Domain-specific LLM applications for insurance sector
   - Semantic search and retrieval systems
   skills:
-    genai: [LoRA, QLoRA, PEFT, Prompt engineering, RAG]
+    domains: []
+    languages: [Python]
     ml: [CUDA, GPU optimization, Quantization, ASR (Automatic Speech Recognition),
       TTS (Text-to-Speech), OCR, LLM fine-tuning]
-    web: [WebSockets, SSE (Server-Sent Events)]
-    databases: [Vector databases]
-    data: []
     cloud: []
-    ops: [vLLM, Triton, TGI, Docker, Kubernetes, CI/CD, Linux]
-    languages: [Python]
-    domains: []
+    genai: [LoRA, Prompt Engineering, RAG]
+    data: []
     other: []
+    ops: [vLLM, Triton, TGI, Docker, Kubernetes, CI/CD, Linux]
+    web: [WebSockets, SSE (Server-Sent Events)]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

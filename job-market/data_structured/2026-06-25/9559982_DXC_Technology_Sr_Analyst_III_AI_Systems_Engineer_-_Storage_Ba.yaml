@@ -36,17 +36,17 @@ position:
   - MCP-based tool servers bridging LLM agents to vendor storage/backup REST APIs
   - RAG-powered intelligence for storage/backup troubleshooting and decision-making
   skills:
-    genai: [MCP (Model Context Protocol), LangGraph, LangChain, RAG, Prompt Engineering,
-      LLM Tool Calling, ReAct Graphs, Claude Code]
+    domains: [Enterprise Storage and Backup]
+    languages: [Python, Bash]
     ml: []
+    cloud: [AWS Bedrock, AWS]
+    genai: [MCP, LangGraph, LangChain, RAG, Prompt Engineering, LLM Tool Calling,
+      ReAct Graphs, Claude Code]
+    data: []
+    other: []
+    ops: [OpenTelemetry, Structured Logging, Git, GitHub, Linux]
     web: [Pydantic, FastAPI, REST APIs]
     databases: []
-    data: []
-    cloud: [AWS Bedrock, AWS]
-    ops: [OpenTelemetry, Structured Logging, Git, GitHub, Linux]
-    languages: [Python, Bash]
-    domains: [Enterprise Storage and Backup]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

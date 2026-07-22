@@ -39,17 +39,17 @@ position:
   - Intelligent integration between enterprise systems
   - Internal productivity improvement through AI-driven automation
   skills:
-    genai: [LangChain, AutoGen, CrewAI, Semantic Kernel, OpenAI API, Anthropic Claude,
-      Google Gemini, RAG pipelines, Prompt engineering, Function calling]
-    ml: [PyTorch, TensorFlow, Hugging Face]
-    web: [API design, Microservices, Event-driven architecture]
-    databases: [Pinecone, Weaviate, Chroma, FAISS]
-    data: [ETL, Data pipelines]
-    cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, CI/CD, LLMOps]
-    languages: [Python, TypeScript, JavaScript]
     domains: []
+    languages: [Python, TypeScript, JavaScript]
+    ml: [PyTorch, TensorFlow, Hugging Face]
+    cloud: [AWS, Azure, GCP]
+    genai: [LangChain, AutoGen, CrewAI, Semantic Kernel, OpenAI API, Anthropic API,
+      Gemini, RAG, Prompt Engineering, Function Calling]
+    data: [Data Pipelines]
     other: []
+    ops: [Docker, Kubernetes, CI/CD, LLMOps]
+    web: [APIs, Microservices, Event-driven architecture]
+    databases: [Pinecone, Weaviate, Chroma, FAISS]
   is_customer_facing: false
   is_management: true
 meta:

@@ -40,18 +40,18 @@ position:
   - Decision support systems using RAG and tool-calling for data-driven insights
   - Real-time and batch workflow automation connecting agents to enterprise data sources
   skills:
-    genai: [LangChain, LangGraph, Autogen, CrewAI, LlamaIndex, RAG, function calling,
-      tool-calling, prompt engineering, agents]
+    domains: []
+    languages: [Python]
     ml: [model deployment]
+    cloud: [AWS S3, AWS Batch, AWS, EventBridge, Snowflake Cortex, Databricks Mosaic,
+      NVIDIA NIMs]
+    genai: [LangChain, LangGraph, AutoGen, CrewAI, LlamaIndex, RAG, Function Calling,
+      tool-calling, Prompt Engineering, AI Agents]
+    data: [Kafka, Airflow, n8n, Data Pipelines]
+    other: []
+    ops: [Docker, CI/CD, MLOps, Monitoring]
     web: []
     databases: [Pinecone, pgvector, Elasticsearch, Snowflake]
-    data: [Kafka, Airflow, n8n, ETL]
-    cloud: [S3, AWS Batch, AWS, EventBridge, Snowflake Cortex, Databricks Mosaic,
-      NVIDIA NIMs]
-    ops: [Docker, CI/CD, MLOps, monitoring]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: true
   is_management: false
 meta:

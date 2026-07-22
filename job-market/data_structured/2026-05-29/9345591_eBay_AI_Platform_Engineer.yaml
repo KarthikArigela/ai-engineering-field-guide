@@ -45,19 +45,19 @@ position:
   - Multi-adapter LoRA serving to support multiple model variants and use cases in
     production
   skills:
-    genai: [LoRA]
+    domains: []
+    languages: [Python, Go]
     ml: [Megatron-LM, DeepSpeed, SFT, RLHF, DPO, distributed training]
-    web: []
-    databases: []
-    data: []
     cloud: [GPU clusters]
+    genai: [LoRA]
+    data: []
+    other: [Distributed Systems]
     ops: [vLLM, TensorRT-LLM, Kubernetes, CUDA, Triton, Docker, ML infrastructure,
       KV cache management, PagedAttention, continuous batching, quantization, speculative
         decoding, FlashAttention, NCCL, DCGM, Nsight Systems, PyTorch Profiler, CI/CD,
       MLOps, model parallelism]
-    languages: [Python, Golang]
-    domains: []
-    other: [distributed systems]
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

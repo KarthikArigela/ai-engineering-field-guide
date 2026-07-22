@@ -41,19 +41,19 @@ position:
     decisions
   - Responsible AI applications ensuring transparency and fairness in financial services
   skills:
-    genai: [LangChain, LangGraph, CrewAI, AutoGen, RAG, Graph-RAG, OpenAI, Anthropic,
-      Gemini, prompt engineering, chain-of-thought reasoning, function calling, agent
-        memory architectures, GPT-4o]
-    ml: [Hugging Face, LLM fine-tuning, RLHF, PEFT, LoRA, instruction tuning, vector
-        embeddings, semantic search, PyTorch, TensorFlow, BERT, CLIP, LLaVA, T5, Whisper]
+    domains: []
+    languages: [Python, asyncio, SQL]
+    ml: [Hugging Face, LLM fine-tuning, RLHF, LoRA, instruction tuning, vector embeddings,
+      semantic search, PyTorch, TensorFlow, BERT, CLIP, LLaVA, T5, Whisper]
+    cloud: [SageMaker, AWS Bedrock, Azure OpenAI, Vertex AI]
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, RAG, Graph-RAG, OpenAI API, Anthropic
+        API, Gemini, Prompt Engineering, chain-of-thought reasoning, Function Calling,
+      agent memory architectures, GPT-4o]
+    data: [Databricks]
+    other: []
+    ops: [MLflow, Weights & Biases, LLMOps, MLOps, feature stores, model lineage tracking]
     web: [FastAPI]
     databases: [Pinecone, pgvector, OpenSearch, Neo4j, AWS Neptune]
-    data: [Databricks]
-    cloud: [AWS SageMaker, AWS Bedrock, Azure OpenAI, GCP Vertex AI]
-    ops: [MLflow, Weights & Biases, LLMOps, MLOps, feature stores, model lineage tracking]
-    languages: [Python, async programming, SQL]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: true
 meta:

@@ -30,19 +30,18 @@ position:
   - Agent evaluation and monitoring system ensuring completeness, accuracy, and satisfactory
     outcomes for AI-driven interactions
   skills:
-    genai: [LLMs, OpenAI, Gemini, Llama, Claude, Prompt design, Function calling,
-      RAG]
+    domains: []
+    languages: [Python]
     ml: []
-    web: [REST APIs]
-    databases: [Vector databases, BigQuery, Postgres, Redis]
+    cloud: [GCP, Vertex AI, Model Garden, Cloud Run Functions, Azure Blob Storage]
+    genai: [LLMs, OpenAI API, Gemini, Llama, Anthropic API, Prompt Engineering, Function
+        Calling, RAG]
     data: [Text normalisation, Chunking strategies]
-    cloud: [Google Cloud Platform, Vertex AI, Model Garden, Cloud Run Functions, Azure
-        Blob Storage]
+    other: []
     ops: [Git, CI/CD, Azure DevOps, Docker, Observability, Evaluation frameworks,
       A/B testing]
-    languages: [Python]
-    domains: []
-    other: []
+    web: [REST APIs]
+    databases: [Vector Databases, BigQuery, PostgreSQL, Redis]
   is_customer_facing: false
   is_management: false
 meta:

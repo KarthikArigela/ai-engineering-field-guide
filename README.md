@@ -47,7 +47,7 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 
 ## Portfolio
 
-- [Project ideas](portfolio/) - real project examples that demonstrate AI engineering skills
+- [Portfolio guide](portfolio/) - how to choose, build, and present AI engineering portfolio projects
 
 
 ## Job Market Data
@@ -56,6 +56,7 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 
 - [Structured job descriptions](job-market/data_structured/) - YAML files grouped by scrape date
 - [Raw extracted postings](job-market/data_raw/) - original extracted data grouped by scrape date
+- [Job market trends](job-market/trends.md) - month-over-month analysis of role archetypes, skill stacks, and trajectories across 6 scrapes
 
 
 ## [Awesome AI Engineering](awesome.md)
@@ -73,12 +74,13 @@ See [awesome.md](awesome.md) for the list.
 
 ## [Webinars](webinars/)
 
-A 4-part event series on AI engineering careers, hosted through Maven and [AI Shipping Labs](https://aishippinglabs.com/):
+Webinars and workshops on AI engineering careers, hosted through Maven and [AI Shipping Labs](https://aishippinglabs.com/):
 
 1. [A Day of an AI Engineer](webinars/01-a-day-of-ai-engineer.md) - the practical reality of the role (Maven, [AI Shipping Labs](https://aishippinglabs.com/blog/what-is-an-ai-engineer-alexey-grigorev-perspective)) - recording available
 2. [Defining the AI Engineer Role](webinars/02-defining-the-role.md) - what companies actually hire for, based on 2,400+ job descriptions (Maven) - recording available
 3. [The Interview Process](webinars/03-the-interview-process.md) - real hiring trends, technical questions, and live coding challenges (Maven) - recording available
 4. [Take-Home Assignments](webinars/04-take-home-assignments.md) - analyzing real assignments and building production-ready solutions (Maven) - recording available
+5. [Selecting a Portfolio Project](https://aishippinglabs.com/events/14/selecting-a-portfolio-project-how-to-choose-what-to-build-and-start) - how to choose what to build and scope the first version (AI Shipping Labs, June 29, 2026)
 
 
 
@@ -88,4 +90,3 @@ There's more to learning AI engineering than watching tutorials:
 
 - [AI Engineering Buildcamp: From RAG to Agents](https://maven.com/alexey-grigorev/from-rag-to-agents) - my 9-week intensive course on building production-ready AI applications, covering RAG, agents, testing, evaluation, and monitoring
 - [AI Shipping Labs](https://aishippinglabs.com/) - a community of practitioners building AI and with AI, with workshops, courses, case studies, and discussions on what actually works
-

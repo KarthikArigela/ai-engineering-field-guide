@@ -32,18 +32,18 @@ position:
   - Service resolution intelligence across telecom, industrial, and IT operations
   - Proactive monitoring that triggers automated investigation when anomalies fire
   skills:
-    genai: [LangChain, LangGraph, CrewAI, AutoGen, OpenAI API, RAG, prompt engineering,
-      agent tool development]
+    domains: []
+    languages: [Python, TypeScript]
     ml: []
+    cloud: [Azure OpenAI, Kinesis, SQS, AWS]
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, OpenAI API, RAG, Prompt Engineering,
+      agent tool development]
+    data: [Kafka, Fluentd]
+    other: [ServiceNow, Jira]
+    ops: [asyncio, Celery, Docker, Datadog, Grafana, Prometheus]
     web: [FastAPI, Pydantic, Angular]
     databases: [SQLAlchemy, Redis, PostgreSQL, TimescaleDB, OpenSearch, Elasticsearch,
       pgvector]
-    data: [Kafka, Fluentd]
-    cloud: [Azure OpenAI, Kinesis, SQS, AWS]
-    ops: [asyncio, Celery, Docker, Datadog, Grafana, Prometheus]
-    languages: [Python, TypeScript]
-    domains: []
-    other: [ServiceNow, Jira]
   is_customer_facing: true
   is_management: false
 meta:

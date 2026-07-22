@@ -107,8 +107,6 @@ Each problem should name:
 - user
 - input
 - output
-- failure mode
-- success check
 
 If you can't name the input or success check, the problem is still too vague.
 

@@ -34,18 +34,17 @@ position:
   - Multi-step reasoning on complex supply chain and regulatory information
   - Dynamic knowledge graph updates for continuous AI agent learning
   skills:
-    genai: [RAG, LangChain, LlamaIndex, DSPy, Semantic Kernel, Model Context Protocol,
-      Prompt engineering]
-    ml: []
-    web: []
-    databases: [Vector databases, Weaviate, Pinecone, FAISS, Milvus, Graph databases,
-      Neo4j]
-    data: [Airflow, Prefect, ETL]
-    cloud: [AWS]
-    ops: []
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: []
+    cloud: [AWS]
+    genai: [RAG, LangChain, LlamaIndex, DSPy, Semantic Kernel, MCP, Prompt Engineering]
+    data: [Airflow, Prefect, Data Pipelines]
     other: []
+    ops: []
+    web: []
+    databases: [Vector Databases, Weaviate, Pinecone, FAISS, Milvus, Graph Databases,
+      Neo4j]
   is_customer_facing: false
   is_management: false
 meta:

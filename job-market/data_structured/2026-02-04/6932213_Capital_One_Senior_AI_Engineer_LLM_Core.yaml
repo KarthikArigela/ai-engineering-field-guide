@@ -32,18 +32,17 @@ position:
   - Enhancing banking products with transformative AI capabilities
   - Empowering associates with AI-powered tools to improve work processes
   skills:
-    genai: [OpenAI/Anthropic APIs, prompt engineering, RAG, function calling, PEFT,
-      LoRA]
-    ml: [PyTorch, huggingface, model training, fine-tuning, CUDA]
-    web: []
-    databases: [Pinecone, Weaviate, Chroma, Qdrant, Milvus, Faiss, pgvector]
-    data: []
-    cloud: [AWS, Bedrock, SageMaker]
-    ops: [Docker, Kubernetes, CI/CD, LangSmith, Arize, VLLM, Triton, TensorRT, MLflow,
-      inference/serving]
-    languages: [Python, C++, Java, Go, Golang, Scala, SQL]
     domains: []
+    languages: [Python, C++, Java, Go, Scala, SQL]
+    ml: [PyTorch, Hugging Face, Model Training, Fine-Tuning, CUDA]
+    cloud: [AWS, AWS Bedrock, SageMaker]
+    genai: [OpenAI/Anthropic APIs, Prompt Engineering, RAG, Function Calling, LoRA]
+    data: []
     other: [Nemo Guardrails]
+    ops: [Docker, Kubernetes, CI/CD, LangSmith, Arize, vLLM, Triton, TensorRT, MLflow,
+      inference/serving]
+    web: []
+    databases: [Pinecone, Weaviate, Chroma, Qdrant, Milvus, FAISS, pgvector]
   is_customer_facing: false
   is_management: false
 meta:

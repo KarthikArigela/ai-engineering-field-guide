@@ -32,17 +32,17 @@ position:
   - Fine-tuning and adapting generative models for specific customer use cases
   - Creating scalable and secure AI solutions using cloud services
   skills:
-    genai: [LangGraph, CrewAI, Bedrock Agents, smolagents, fine-tuning, prompt engineering,
-      RAG, LLM tool calling, Model Context Protocol]
-    ml: [model training]
-    web: []
-    databases: [vector stores, Pinecone, OpenSearch, PostgreSQL, pgvector]
-    data: [ETL]
-    cloud: [Amazon Bedrock, Databricks Mosaic AI, AWS S3, AWS Lambda]
-    ops: [LLMOps, MLOps, CI/CD, containerization, Docker, Kubernetes]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [Model Training]
+    cloud: [AWS Bedrock, Databricks Mosaic AI, AWS S3, AWS Lambda]
+    genai: [LangGraph, CrewAI, Bedrock Agents, smolagents, Fine-Tuning, Prompt Engineering,
+      RAG, LLM tool calling, MCP]
+    data: [Data Pipelines]
     other: []
+    ops: [LLMOps, MLOps, CI/CD, containerization, Docker, Kubernetes]
+    web: []
+    databases: [Vector Databases, Pinecone, OpenSearch, PostgreSQL, pgvector]
   is_customer_facing: true
   is_management: false
 meta:

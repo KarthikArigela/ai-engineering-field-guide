@@ -40,18 +40,18 @@ position:
   - Agent orchestration across multiple business domains in global life sciences
   - Real-time streaming AI interfaces for internal enterprise applications
   skills:
-    genai: [LangGraph, LangChain, CrewAI, Autogen, Anthropic Claude API, OpenAI GPT-4,
-      Model Context Protocol (MCP), prompt engineering, ReAct, Plan-and-Execute, agent-to-agent
-        (A2A) communication, function calling]
-    ml: []
-    web: [FastAPI, Server-Sent Events (SSE), WebSocket, RESTful APIs]
-    databases: [PostgreSQL, Redis]
-    data: []
-    cloud: [AWS Bedrock, Azure OpenAI, AWS, Azure, Google Cloud]
-    ops: [LLMOps, Langfuse, LangSmith, Docker, CI/CD, Git]
-    languages: [Python, asyncio]
     domains: []
+    languages: [Python, asyncio]
+    ml: []
+    cloud: [AWS Bedrock, Azure OpenAI, AWS, Azure, GCP]
+    genai: [LangGraph, LangChain, CrewAI, AutoGen, Anthropic Claude API, OpenAI GPT-4,
+      MCP, Prompt Engineering, ReAct, Plan-and-Execute, agent-to-agent (A2A) communication,
+      Function Calling]
+    data: []
     other: [LDAP/SSO, Responsible AI]
+    ops: [LLMOps, Langfuse, LangSmith, Docker, CI/CD, Git]
+    web: [FastAPI, Server-Sent Events (SSE), WebSockets, REST APIs]
+    databases: [PostgreSQL, Redis]
   is_customer_facing: false
   is_management: false
 meta:

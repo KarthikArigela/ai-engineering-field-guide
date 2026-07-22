@@ -32,18 +32,18 @@ position:
   - Scalable AI application deployment on cloud infrastructure
   - Advanced algorithm-driven data analytics for business growth and innovation
   skills:
-    genai: []
+    domains: []
+    languages: [Python, Pandas, NumPy]
     ml: []
-    web: [Flask, Django, FastAPI, RESTful APIs, Swagger]
-    databases: [PostgreSQL, MySQL, MongoDB, ElasticDB, SQL]
+    cloud: [AWS EC2, AWS Lambda, EKS, ECS, AWS S3, AWS VPC, AWS Route 53, AWS CloudFront,
+      IAM, AWS KMS]
+    genai: []
     data: [BeautifulSoup, Scrapy, Airflow, Kafka, Spark]
-    cloud: [AWS EC2, AWS Lambda, AWS EKS, AWS ECS, AWS S3, AWS VPC, AWS Route 53,
-      AWS CloudFront, AWS IAM, AWS KMS]
+    other: [Selenium, Playwright, Git, PyTest]
     ops: [Jenkins, GitLab CI, Terraform, Terragrunt, Flux CD, AWS CloudWatch, Datadog,
       PagerDuty, Docker, Kubernetes]
-    languages: [Python, Pandas, NumPy]
-    domains: []
-    other: [Selenium, Playwright, Git, PyTest]
+    web: [Flask, Django, FastAPI, REST APIs, Swagger]
+    databases: [PostgreSQL, MySQL, MongoDB, ElasticDB, SQL]
   is_customer_facing: false
   is_management: false
 meta:

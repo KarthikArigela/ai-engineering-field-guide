@@ -44,17 +44,17 @@ position:
   - Code generation and analysis using LLMs (Claude Code, Cursor, Gemini/Codex)
   - Data warehouse documentation and semantic clarity for both humans and LLMs
   skills:
-    genai: [MCP, Claude Code, Cursor, LLM-aware documentation]
+    domains: [Finance & Accounting domain]
+    languages: [Python]
     ml: []
+    cloud: []
+    genai: [MCP, Claude Code, Cursor, LLM-aware documentation]
+    data: [dbt, Databricks, semantic layer, MetricFlow, Cube, model contracts, Data
+        Modeling, metrics definitions, Airflow]
+    other: []
+    ops: [SOX compliance, CI/CD, Terraform, GitHub Actions]
     web: []
     databases: [SQL, Unity Catalog]
-    data: [dbt, Databricks, semantic layer, MetricFlow, Cube, model contracts, data
-        modeling, metrics definitions, Airflow]
-    cloud: []
-    ops: [SOX compliance, CI/CD, Terraform, GitHub Actions]
-    languages: [Python]
-    domains: [Finance & Accounting domain]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

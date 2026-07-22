@@ -36,20 +36,18 @@ position:
   - Scalable distributed systems with async processing and event-driven workflows
   - Secure DevSecOps infrastructure across development and production environments
   skills:
-    genai: [LangChain, LangGraph, LlamaIndex, RAG, Embeddings pipelines]
-    ml: []
-    web: []
-    databases: [Redis, 'Vector databases (Pinecone, Weaviate, Qdrant, pgvector)',
-      Snowflake, Amazon Redshift, BigQuery]
-    data: [Kafka, dbt]
-    cloud: ['AWS (EC2, VPC, IAM, S3, RDS, Route53, Load Balancers, CloudFront, CloudWatch)',
-      Amazon EKS, AWS Lambda, Amazon EventBridge, AWS Step Functions, Amazon SQS]
-    ops: [Terraform, AWS CloudFormation, Docker, CI/CD pipelines, Kubernetes, Linux,
-      Infrastructure as Code, DevSecOps, GPU workloads, AI inference infrastructure,
-      MLOps, Observability and monitoring, Networking]
-    languages: [Python]
     domains: []
-    other: [Distributed systems]
+    languages: [Python]
+    ml: []
+    cloud: [AWS, EKS, AWS Lambda, Amazon EventBridge, AWS Step Functions, Amazon SQS]
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, Embeddings pipelines]
+    data: [Kafka, dbt]
+    other: [Distributed Systems]
+    ops: [Terraform, CloudFormation, Docker, CI/CD, Kubernetes, Linux, Infrastructure
+        as Code, DevSecOps, GPU workloads, AI inference infrastructure, MLOps, Observability,
+      Networking]
+    web: []
+    databases: [Redis, Vector Databases, Snowflake, Redshift, BigQuery]
   is_customer_facing: false
   is_management: false
 meta:

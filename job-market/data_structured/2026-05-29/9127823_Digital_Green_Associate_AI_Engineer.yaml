@@ -42,18 +42,17 @@ position:
   - Speech-based farmer interaction through speech-to-text and text-to-speech systems
   - Agentic workflows for agricultural tool-use and advisory reasoning
   skills:
-    genai: [Anthropic Claude API, OpenAI API, Google Gemini API, Prompt Engineering,
-      Model Context Protocol (MCP), Agentic Workflows, RAG, LoRA / PEFT, Ragas, DeepEval,
-      Promptfoo]
+    domains: [Computer Vision, NLP]
+    languages: [Python]
     ml: [Whisper, Deepgram, ViT, CLIP, YOLO]
+    cloud: [AWS Bedrock, SageMaker, Vertex AI]
+    genai: [Anthropic Claude API, OpenAI API, Google Gemini API, Prompt Engineering,
+      MCP, Agentic Workflows, RAG, LoRA / PEFT, Ragas, DeepEval, Promptfoo]
+    data: []
+    other: [Git]
+    ops: [Langfuse, Arize Phoenix, Weights & Biases, Docker]
     web: []
     databases: [Qdrant, pgvector, FAISS]
-    data: []
-    cloud: [AWS Bedrock, SageMaker, GCP Vertex AI]
-    ops: [Langfuse, Arize Phoenix, Weights & Biases, Docker]
-    languages: [Python]
-    domains: [Computer Vision, NLP]
-    other: [Git]
   is_customer_facing: false
   is_management: false
 meta:

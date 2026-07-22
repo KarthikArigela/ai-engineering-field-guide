@@ -37,18 +37,17 @@ position:
   - Tool-enabled AI agents that interact with external systems, databases, and SaaS
     platforms
   skills:
-    genai: [LangGraph, CrewAI, OpenAI Agents SDK, Semantic Kernel, MCP (Model Context
-        Protocol), RAG, Prompting, Structured outputs, Function/tool calling, Conversation
-        state management]
+    domains: []
+    languages: [Python]
     ml: [Embeddings, Re-ranking]
+    cloud: [AWS]
+    genai: [LangGraph, CrewAI, OpenAI Agents SDK, Semantic Kernel, MCP, RAG, Prompting,
+      Structured Outputs, Function/tool calling, Conversation state management]
+    data: [Spark, Spark SQL, Hadoop, Hive, Airflow]
+    other: []
+    ops: [Docker, Kubernetes, CI/CD]
     web: []
     databases: [Apache Solr, Elasticsearch, MS SQL Server, Transact SQL]
-    data: [Apache Spark, Spark SQL, Hadoop, Hive, Airflow]
-    cloud: [AWS]
-    ops: [Docker, Kubernetes, CI/CD]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: true
   is_management: false
 meta:

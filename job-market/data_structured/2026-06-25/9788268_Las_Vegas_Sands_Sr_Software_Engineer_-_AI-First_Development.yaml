@@ -40,19 +40,19 @@ position:
   - Agent observability and telemetry for monitoring workflow quality, token consumption,
     and cost
   skills:
-    genai: [LangGraph, CrewAI, AutoGen, Semantic Kernel, MCP servers, RAG pipelines,
-      Prompt engineering, Context engineering, Multi-agent architectures, Claude Code,
-      GitHub Copilot, Cursor, Windsurf]
+    domains: []
+    languages: [Python, C#, TypeScript, JavaScript, Java, Go, SQL]
     ml: []
-    web: [FastAPI, REST APIs]
-    databases: [Postgres]
-    data: [Kafka, RabbitMQ, Azure Service Bus]
     cloud: [Azure, AWS, GCP]
+    genai: [LangGraph, CrewAI, AutoGen, Semantic Kernel, MCP servers, RAG, Prompt
+        Engineering, Context engineering, Multi-agent architectures, Claude Code,
+      GitHub Copilot, Cursor, Windsurf]
+    data: [Kafka, RabbitMQ, Azure Service Bus]
+    other: [OWASP security guidelines]
     ops: [Docker, Kubernetes, CI/CD, Infrastructure as Code, Static analysis, Telemetry
         and observability]
-    languages: [Python, C#, TypeScript, JavaScript, Java, Go, SQL]
-    domains: []
-    other: [OWASP security guidelines]
+    web: [FastAPI, REST APIs]
+    databases: [PostgreSQL]
   is_customer_facing: false
   is_management: false
 meta:

@@ -40,18 +40,18 @@ position:
   - LLM-powered analysis of security and observability data with domain-specific fine-tuning
   - Automated investigation and triage workflows using agent-based reasoning
   skills:
-    genai: [LangChain, LangGraph, Anthropic/Claude, CrewAI, OpenAI, LLM fine-tuning,
-      SFT, RAG, agents, prompt engineering, context engineering, multi-agent architectures,
-      tool orchestration]
+    domains: []
+    languages: [Python]
     ml: [RLHF/RLAIF, preference learning, PyTorch]
+    cloud: [AWS Bedrock, Vertex AI, AWS, GCP, Azure]
+    genai: [LangChain, LangGraph, Anthropic/Claude, CrewAI, OpenAI API, Fine-Tuning,
+      SFT, RAG, AI Agents, Prompt Engineering, context engineering, multi-agent architectures,
+      tool orchestration]
+    data: [Airflow]
+    other: []
+    ops: [LLMOps, inference optimization, MLflow, Docker, Kubernetes]
     web: []
     databases: []
-    data: [Airflow]
-    cloud: [AWS Bedrock, Vertex AI, AWS, GCP, Azure]
-    ops: [LLMOps, inference optimization, MLflow, Docker, Kubernetes]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: true
 meta:

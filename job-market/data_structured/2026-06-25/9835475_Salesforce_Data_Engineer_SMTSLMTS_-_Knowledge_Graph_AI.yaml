@@ -39,18 +39,18 @@ position:
   - Intelligent decision-making through ontology-driven knowledge representation
   - AI-powered developer tooling and engineering automation to improve productivity
   skills:
-    genai: [LangChain, RAG, AI Agents, Model Context Protocol (MCP), Prompt Engineering,
-      Semantic Routing, Vector Search, Claude, GitHub Copilot]
-    ml: []
-    web: [REST APIs, gRPC, Microservices]
-    databases: [Neo4j, RDF/OWL, SPARQL, SHACL, Property Graphs]
-    data: [Kafka, ETL/Data Pipelines]
-    cloud: [AWS, GCP, Azure]
-    ops: []
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: []
+    cloud: [AWS, GCP, Azure]
+    genai: [LangChain, RAG, AI Agents, MCP, Prompt Engineering, Semantic Routing,
+      Vector Search, Anthropic API, GitHub Copilot]
+    data: [Kafka, ETL/Data Pipelines]
     other: [Cursor, Windsurf, Protege, TopQuadrant, Salesforce Data Cloud, Knowledge
         Graphs, Ontology Engineering]
+    ops: []
+    web: [REST APIs, gRPC, Microservices]
+    databases: [Neo4j, RDF/OWL, SPARQL, SHACL, Property Graphs]
   is_customer_facing: false
   is_management: false
 meta:

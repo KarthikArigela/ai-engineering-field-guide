@@ -39,18 +39,18 @@ position:
   - Multi-agent orchestration for business process automation
   - Grounded AI assistants leveraging enterprise knowledge bases
   skills:
-    genai: [LangGraph, LangChain, LangSmith, RAG, Elasticsearch Relevance Engine (ESRE),
-      LLM fine-tuning, Multi-Agent Orchestration, Model Context Protocol (MCP), Jina
-        AI, Microsoft Copilot Studio, Salesforce Agentforce, ServiceNow AI Agents]
+    domains: []
+    languages: [Python, TypeScript]
     ml: []
+    cloud: [AWS, Azure, GCP]
+    genai: [LangGraph, LangChain, LangSmith, RAG, Elasticsearch Relevance Engine (ESRE),
+      Fine-Tuning, Agentic Workflows, MCP, Jina AI, Microsoft Copilot Studio, Salesforce
+        Agentforce, ServiceNow AI Agents]
+    data: [Logstash]
+    other: [Kibana]
+    ops: [Kubernetes, Docker, Terraform]
     web: []
     databases: [Elasticsearch]
-    data: [Logstash]
-    cloud: [AWS, Azure, GCP]
-    ops: [Kubernetes, Docker, Terraform]
-    languages: [Python, TypeScript]
-    domains: []
-    other: [Kibana]
   is_customer_facing: false
   is_management: false
 meta:

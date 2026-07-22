@@ -42,19 +42,19 @@ position:
     AI operations
   - Autonomous production issue resolution to free engineers from manual firefighting
   skills:
-    genai: [MCP]
+    domains: []
+    languages: [Python, Rust]
     ml: []
-    web: []
-    databases: [Postgres, ClickHouse]
-    data: [Kafka]
     cloud: [AWS, EKS]
-    ops: [Kubernetes, KEDA, HPA, Argo, Kueue, Terraform, Helm, Kustomize, OpenTelemetry,
+    genai: [MCP]
+    data: [Kafka]
+    other: []
+    ops: [Kubernetes, KEDA, HPA, ArgoCD, Kueue, Terraform, Helm, Kustomize, OpenTelemetry,
       OPA, Rego, GPU workload operations, MIG, Envoy, Istio, Cilium, eBPF, Circuit
         breaking, Autoscaling, Queuing systems, Incident response, Chaos testing,
       Capacity planning, Security, Canary deployments, Blue/green deployments]
-    languages: [Python, Rust]
-    domains: []
-    other: []
+    web: []
+    databases: [PostgreSQL, ClickHouse]
   is_customer_facing: false
   is_management: false
 meta:

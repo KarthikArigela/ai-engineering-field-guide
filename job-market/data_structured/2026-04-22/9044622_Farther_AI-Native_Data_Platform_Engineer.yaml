@@ -36,18 +36,17 @@ position:
   - LLM-driven financial data analysis with structured context
   - Enterprise data governance and lineage for regulated wealth management
   skills:
-    genai: [Embeddings, RAG architectures, Prompt engineering, OpenAI API, Anthropic
-        API]
+    domains: [Wealth management domain knowledge, Custodial financial data]
+    languages: [SQL, Python]
     ml: []
+    cloud: [AWS S3, AWS Lambda, ECS, AWS Glue, AWS Redshift]
+    genai: [Embeddings, RAG, Prompt Engineering, OpenAI API, Anthropic API]
+    data: [Data Governance, Data Pipelines, Canonical schema design, Event-driven
+        orchestration, Data lineage]
+    other: []
+    ops: [MLOps, CI/CD, Fine-grained access control]
     web: []
     databases: [OpenSearch, Vector Databases]
-    data: [Data governance, ETL pipelines, Canonical schema design, Event-driven orchestration,
-      Data lineage]
-    cloud: [AWS S3, AWS Lambda, AWS ECS, AWS Glue, AWS Redshift]
-    ops: [MLOps, CI/CD, Fine-grained access control]
-    languages: [SQL, Python]
-    domains: [Wealth management domain knowledge, Custodial financial data]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

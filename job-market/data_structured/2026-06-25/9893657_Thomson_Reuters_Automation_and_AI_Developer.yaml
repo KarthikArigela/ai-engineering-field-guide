@@ -36,19 +36,19 @@ position:
   - Low-code automation of internal processes
   - Document intelligence including OCR and layout-aware chunking
   skills:
-    genai: [LangGraph, LangChain, Advanced RAG, MCP (Model Context Protocol), A2A
-        (Agent-to-Agent), Multi-agent state machines, LoRA/QLoRA fine-tuning, OpenAI
-        APIs, Claude, Gemini, Llama, Hybrid search, Re-ranking, Query reformulation]
-    ml: []
-    web: [REST API development]
-    databases: [Snowflake]
-    data: [NL-to-SQL]
-    cloud: [AWS Bedrock, AWS AgentCore]
-    ops: [RAGAS, TruLens, LangSmith, LangFuse, CI/CD]
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: []
+    cloud: [AWS Bedrock, AWS AgentCore]
+    genai: [LangGraph, LangChain, RAG, MCP, A2A (Agent-to-Agent), Multi-agent state
+        machines, LoRA/QLoRA fine-tuning, OpenAI API, Anthropic API, Gemini, Llama,
+      Hybrid search, Re-ranking, Query reformulation]
+    data: [NL-to-SQL]
     other: [Copilot Studio, Power Automate, Claude Code, GitHub Copilot, Cursor, Cline,
       OCR]
+    ops: [RAGAS, TruLens, LangSmith, Langfuse, CI/CD]
+    web: [REST API development]
+    databases: [Snowflake]
   is_customer_facing: false
   is_management: true
 meta:

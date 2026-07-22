@@ -39,17 +39,17 @@ position:
   - Knowledge retrieval and RAG-based systems
   - Business workflow automation via APIs and automation platforms
   skills:
-    genai: [LangChain, LangGraph, Google ADK, OpenAI APIs, IBM watsonx.ai, Amazon
-        Bedrock, RAG, prompt engineering, agentic workflows]
-    ml: [fine-tuning LLMs]
-    web: [FastAPI]
-    databases: [Pinecone, pgvector, Elasticsearch, Redis, graph databases]
-    data: [Celery, Kafka]
-    cloud: [AWS, GCP, Azure]
-    ops: [Docker, LangSmith, OpenTelemetry]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [fine-tuning LLMs]
+    cloud: [AWS, GCP, Azure]
+    genai: [LangChain, LangGraph, Google ADK, OpenAI API, IBM watsonx.ai, Amazon Bedrock,
+      RAG, Prompt Engineering, Agentic Workflows]
+    data: [Celery, Kafka]
     other: [n8n, Make, Zapier]
+    ops: [Docker, LangSmith, OpenTelemetry]
+    web: [FastAPI]
+    databases: [Pinecone, pgvector, Elasticsearch, Redis, Graph Databases]
   is_customer_facing: true
   is_management: false
 meta:

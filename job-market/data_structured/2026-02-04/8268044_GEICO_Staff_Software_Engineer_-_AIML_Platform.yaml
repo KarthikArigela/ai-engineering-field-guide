@@ -40,20 +40,20 @@ position:
   - Research infrastructure for experimenting with cutting-edge LLM techniques and
     architectures
   skills:
+    domains: []
+    languages: [Python, Go, Rust, Java, SQL]
+    ml: [Transformers, Fine-Tuning, RLHF, Inference optimization]
+    cloud: [Azure, AKS, Azure ML, Azure Container Registry, AWS, GCP, DataRobot, ARM
+        templates, CloudFormation]
     genai: [LLMs, Llama, Mistral, Gemma, Qwen, Code Llama]
-    ml: [Transformer architectures, Fine-tuning, RLHF, Inference optimization]
+    data: [Feature stores]
+    other: []
+    ops: [Kubernetes, Docker, Terraform, Azure DevOps, GitHub Actions, CI/CD, Prometheus,
+      Grafana, Azure Monitor, MLflow, Kubeflow, vLLM, TensorRT-LLM, Triton, ELK Stack,
+      Distributed tracing, Pulumi]
     web: []
     databases: [Chronon, Feast, Tecton, Azure ML Feature Store, Milvus, Pinecone,
-      Weaviate, Qdrant, Postgres, NoSQL]
-    data: [Feature stores]
-    cloud: [Azure, Azure Kubernetes Service (AKS), Azure Machine Learning, Azure Container
-        Registry, AWS, GCP, DataRobot, ARM templates, CloudFormation]
-    ops: [Kubernetes, Docker, Terraform, Azure DevOps, GitHub Actions, CI/CD, Prometheus,
-      Grafana, Azure Monitor, MLflow, Kubeflow, vLLM, TensorRT-LLM, Triton Inference
-        Server, ELK stack, Distributed tracing, Pulumi]
-    languages: [Python, Go, Rust, Java, SQL]
-    domains: []
-    other: []
+      Weaviate, Qdrant, PostgreSQL, NoSQL]
   is_customer_facing: false
   is_management: false
 meta:

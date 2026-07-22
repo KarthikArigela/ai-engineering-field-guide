@@ -38,17 +38,17 @@ position:
   - Providing data infrastructure for real-time learning and career support applications
   - Facilitating employer access to internal talent data and skills development tracking
   skills:
-    genai: []
-    ml: []
-    web: []
-    databases: [SQL, Snowflake, Postgres, MySQL, AuroraDB, DynamoDB]
-    data: [Change Data Capture (CDC), Databricks, dbt, Fivetran, AWS Glue, Airflow,
-      ETL/ELT, Data modeling]
-    cloud: [S3]
-    ops: [MLFlow, Terraform, Git, CI/CD]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: []
+    cloud: [AWS S3]
+    genai: []
+    data: [Change Data Capture (CDC), Databricks, dbt, Fivetran, AWS Glue, Airflow,
+      Data Pipelines, Data Modeling]
     other: []
+    ops: [MLflow, Terraform, Git, CI/CD]
+    web: []
+    databases: [SQL, Snowflake, PostgreSQL, MySQL, AuroraDB, DynamoDB]
   is_customer_facing: false
   is_management: true
 meta:

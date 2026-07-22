@@ -35,18 +35,17 @@ position:
   - RAG over clinical knowledge bases and treatment protocols
   - Patient monitoring and early intervention to prevent hospitalizations
   skills:
-    genai: ['LLM APIs (OpenAI, Anthropic)', Prompt engineering, Tool use / function
-        calling, Structured outputs, RAG systems, Agent frameworks and orchestration,
-      Multi-agent coordination]
-    ml: ['Fine-tuning (SFT, RLHF, LoRA)']
+    domains: [Healthcare / clinical data handling]
+    languages: [Python]
+    ml: [Fine-Tuning]
+    cloud: []
+    genai: [LLMs, Prompt Engineering, Tool use / function calling, Structured Outputs,
+      RAG, Agent frameworks and orchestration, Multi-agent coordination]
+    data: []
+    other: [HIPAA Compliance]
+    ops: [CI/CD, LLM-as-judge evaluation, Observability]
     web: []
     databases: [Vector stores / embeddings]
-    data: []
-    cloud: []
-    ops: [CI/CD, LLM-as-judge evaluation, Observability and monitoring]
-    languages: [Python]
-    domains: [Healthcare / clinical data handling]
-    other: [HIPAA compliance]
   is_customer_facing: false
   is_management: false
 meta:

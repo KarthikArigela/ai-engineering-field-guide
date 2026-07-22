@@ -38,18 +38,17 @@ position:
   - Integration with enterprise platforms including ITSM, ERP, and Microsoft 365
   - RAG-based knowledge retrieval and automation
   skills:
-    genai: [LLM orchestration, agent framework composition, tool call design, MCP
-        (Model Context Protocol), A2A agent patterns, RAG pipeline design, prompt
-        engineering, API-based model providers]
-    ml: []
-    web: [React, REST APIs, OAuth 2.0, webhooks, SSO / MSAL authentication]
-    databases: [Azure SQL]
-    data: []
-    cloud: [Azure App Service, Azure Functions, Entra ID / RBAC]
-    ops: []
-    languages: [TypeScript, Python, SQL]
     domains: []
+    languages: [TypeScript, Python, SQL]
+    ml: []
+    cloud: [Azure App Service, Azure Functions, Entra ID / RBAC]
+    genai: [LLMs, agent framework composition, tool call design, MCP, A2A agent patterns,
+      RAG pipeline design, Prompt Engineering, API-based model providers]
+    data: []
     other: [RPA]
+    ops: []
+    web: [React, REST APIs, OAuth, webhooks, SSO / MSAL authentication]
+    databases: [Azure SQL]
   is_customer_facing: false
   is_management: false
 meta:

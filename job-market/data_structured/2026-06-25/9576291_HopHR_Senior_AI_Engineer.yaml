@@ -38,17 +38,17 @@ position:
   - Cost-aware and secure GenAI platform serving diverse organizational needs from
     grants to private investments
   skills:
-    genai: [LangChain, LlamaIndex, RAG, LLM Agents, LoRA, PEFT, RLHF, n8n]
+    domains: []
+    languages: [Python, SQL]
     ml: [PyTorch, Fine-tuning foundation models]
-    web: []
-    databases: [BigQuery, Redshift, Qdrant, PgVector]
-    data: [Spark, Kafka, Airbyte, Pub-Sub, Parquet, Avro]
     cloud: []
+    genai: [LangChain, LlamaIndex, RAG, LLM Agents, LoRA, RLHF, n8n]
+    data: [Spark, Kafka, Airbyte, Pub-Sub, Parquet, Avro]
+    other: [OpenMetadata]
     ops: [MLflow, Ray, KubeRay, Docker, Kubernetes, Helm, Prometheus, Grafana, GitHub
         Actions, CI/CD]
-    languages: [Python, SQL]
-    domains: []
-    other: [OpenMetadata]
+    web: []
+    databases: [BigQuery, Redshift, Qdrant, pgvector]
   is_customer_facing: false
   is_management: true
 meta:

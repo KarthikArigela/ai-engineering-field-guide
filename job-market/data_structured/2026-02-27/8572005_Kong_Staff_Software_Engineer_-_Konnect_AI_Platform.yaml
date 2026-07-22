@@ -41,20 +41,19 @@ position:
   - Hybrid search combining semantic and keyword approaches
   - Model monitoring and quality assurance telemetry
   skills:
-    genai: [RAG, Prompt compression, Context window optimization]
+    domains: [Information Retrieval, Search relevance, Ranking algorithms, NLP]
+    languages: [Python, Go, SQL]
     ml: [OpenAI Ada-3, Cohere, BGE, E5, Vector search, NER, Embeddings, Semantic search,
       Hybrid search, Reranking models, Cross-encoders, Synthetic data generation]
-    web: []
-    databases: [Pinecone, Weaviate, Qdrant, OpenSearch, NoSQL databases, Neo4j, Amazon
-        Neptune]
-    data: [Kafka, Kinesis, ETL, ELT, DVC, Pachyderm, Spark, Ray, Dask]
     cloud: [AWS Bedrock, AWS S3, AWS DynamoDB, AWS RDS, AWS Glue]
-    ops: [Weights & Biases, MLflow, Kubeflow, Seldon, KServe, BentoML, Kubernetes,
-      Docker]
-    languages: [Python, Go, SQL]
-    domains: [Information retrieval, Search relevance, Ranking algorithms, NLP]
+    genai: [RAG, Prompt compression, Context window optimization]
+    data: [Kafka, Kinesis, Data Pipelines, DVC, Pachyderm, Spark, Ray, Dask]
     other: [Knowledge graphs, Data anonymization, PII detection, GDPR, Knowledge graph
         construction]
+    ops: [Weights & Biases, MLflow, Kubeflow, Seldon, KServe, BentoML, Kubernetes,
+      Docker]
+    web: []
+    databases: [Pinecone, Weaviate, Qdrant, OpenSearch, NoSQL, Neo4j, Amazon Neptune]
   is_customer_facing: false
   is_management: false
 meta:

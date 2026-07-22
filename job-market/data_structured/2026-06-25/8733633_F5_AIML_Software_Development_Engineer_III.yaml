@@ -36,17 +36,16 @@ position:
   - RAG-based enterprise knowledge retrieval for internal employee support
   - Proactive AI-driven employee experience ecosystem replacing traditional support
   skills:
-    genai: ['LLMs (OpenAI, Anthropic, Gemini)', RAG (Retrieval-Augmented Generation),
-      LangChain, LlamaIndex, Haystack, AI Agents, Prompt Engineering]
-    ml: [PyTorch, TensorFlow, Scikit-learn, Fine-tuning]
-    web: [RESTful APIs]
-    databases: [Pinecone, Milvus, Weaviate, Vector Databases]
-    data: []
-    cloud: [AWS, GCP, Azure]
-    ops: [MLOps, Model Monitoring]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, scikit-learn, Fine-Tuning]
+    cloud: [AWS, GCP, Azure]
+    genai: [LLMs, RAG, LangChain, LlamaIndex, Haystack, AI Agents, Prompt Engineering]
+    data: []
     other: [ServiceNow, Workday, Salesforce]
+    ops: [MLOps, Model Monitoring]
+    web: [REST APIs]
+    databases: [Pinecone, Milvus, Weaviate, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

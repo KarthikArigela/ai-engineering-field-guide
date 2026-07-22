@@ -39,18 +39,18 @@ position:
   - Autonomous multi-agent workflows with vision and language integration
   - Scalable model deployment for cloud and edge devices
   skills:
-    genai: [LangChain, LangGraph, CrewAI, LoRA/QLoRA, PEFT, RLHF, RAG]
+    domains: [Computer Vision]
+    languages: [Python]
     ml: [PyTorch, TensorFlow, CNNs, RNNs/LSTM/GRU, Transformers, Vision Transformers
         (ViT), CUDA, Quantization and Pruning]
+    cloud: [SageMaker, Vertex AI]
+    genai: [LangChain, LangGraph, CrewAI, LoRA/QLoRA, LoRA, RLHF, RAG]
+    data: []
+    other: [Git]
+    ops: [Weights & Biases, MLflow, TorchServe, Triton, KServe, ONNX, TensorRT, Docker,
+      Kubernetes, CI/CD]
     web: [FastAPI, gRPC]
     databases: [FAISS, Weaviate, pgvector]
-    data: []
-    cloud: [AWS SageMaker, GCP Vertex AI]
-    ops: [W&B, MLflow, TorchServe, Triton, KServe, ONNX, TensorRT, Docker, Kubernetes,
-      CI/CD]
-    languages: [Python]
-    domains: [Computer Vision]
-    other: [Git]
   is_customer_facing: false
   is_management: false
 meta:

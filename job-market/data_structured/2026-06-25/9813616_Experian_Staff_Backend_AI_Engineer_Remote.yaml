@@ -41,19 +41,19 @@ position:
   - Retrieval-augmented generation (RAG) pipelines for LLM-powered applications
   - Event-driven architectures for high-volume OLTP systems
   skills:
-    genai: [LangGraph, AutoGen, CrewAI, Agent orchestration, Tool/function calling,
-      RAG pipelines, LLM integration patterns]
+    domains: []
+    languages: [Python, Go, SQL]
     ml: []
-    web: [FastAPI, Pydantic, REST, gRPC]
-    databases: [PostgreSQL, Aurora, DynamoDB, Redis, ElasticSearch]
+    cloud: [AWS, ECS, EKS, AWS Lambda, AWS MSK, SageMaker, AWS EventBridge, AWS S3,
+      AWS SQS, API Gateway, AWS CloudFront, AWS VPC]
+    genai: [LangGraph, AutoGen, CrewAI, Agentic Workflows, Tool/function calling,
+      RAG, LLM integration patterns]
     data: [Kafka, Event-driven architecture, Async processing patterns]
-    cloud: [AWS, AWS ECS, AWS EKS, AWS Lambda, AWS MSK, Amazon SageMaker, AWS EventBridge,
-      AWS S3, AWS SQS, AWS API Gateway, AWS CloudFront, AWS VPC]
+    other: []
     ops: [Docker, Kubernetes, Terraform, AWS CDK, Helm, CI/CD, Jenkins, GitHub Actions,
       Harness, Datadog, OpenTelemetry, CloudWatch, Distributed tracing]
-    languages: [Python, Go, SQL]
-    domains: []
-    other: []
+    web: [FastAPI, Pydantic, REST, gRPC]
+    databases: [PostgreSQL, Aurora, DynamoDB, Redis, Elasticsearch]
   is_customer_facing: false
   is_management: false
 meta:

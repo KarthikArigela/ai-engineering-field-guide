@@ -40,18 +40,18 @@ position:
   - AI agents that automate business processes with tool-using and multi-step orchestration
   - Credit risk modeling and classification
   skills:
-    genai: [RAG, Prompt Engineering, LLM-based agents, Conversational AI]
+    domains: []
+    languages: [Python, SQL]
     ml: [PyTorch, scikit-learn, Classification, Regression, Time-series forecasting,
-      Anomaly detection, Graph-based fraud detection, SHAP, LIME]
+      Anomaly Detection, Graph-based fraud detection, SHAP, LIME]
+    cloud: [AWS, Azure, GCP]
+    genai: [RAG, Prompt Engineering, LLM-based agents, Conversational AI]
+    data: [Spark, Databricks, Streaming/event-driven systems, Feature engineering]
+    other: [Model risk management, Responsible AI]
+    ops: [Docker, Kubernetes, CI/CD, Model Deployment, ML monitoring/observability,
+      A/B testing]
     web: [FastAPI, REST APIs, Microservices]
     databases: [BigQuery, Snowflake]
-    data: [Spark, Databricks, Streaming/event-driven systems, Feature engineering]
-    cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, CI/CD, Model serving, ML monitoring/observability, A/B
-        testing]
-    languages: [Python, SQL]
-    domains: []
-    other: [Model risk management, Responsible AI]
   is_customer_facing: false
   is_management: false
 meta:

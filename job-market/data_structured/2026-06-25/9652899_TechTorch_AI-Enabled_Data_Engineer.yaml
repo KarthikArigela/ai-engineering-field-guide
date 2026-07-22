@@ -39,20 +39,20 @@ position:
   - Data quality frameworks with testing, validation, alerting, and lineage tracking
   - Agent-integrated data tooling via MCP for AI agent consumption
   skills:
-    genai: [RAG pipelines, Embedding pipelines, LLM integration in ETL, MCP (Model
-        Context Protocol), AI-paired programming (Claude Code)]
-    ml: [Feast, Tecton]
-    web: []
-    databases: [Snowflake, Vector stores, Data Warehousing, Data Lakes, Pinecone,
-      Weaviate, Qdrant, pgvector]
-    data: [Databricks, Delta Lake, dbt, Apache Airflow, Dagster, Prefect, Azure Data
-        Factory, Databricks Workflows, Apache Spark, PySpark, ETL/ELT, Semantic Layer,
-      Dimensional Modeling, Data Lineage, Kafka, Spark Streaming, Flink, Snowpark]
-    cloud: [AWS S3, AWS Glue, AWS Redshift, Azure ADLS, Azure Synapse, AWS, Azure]
-    ops: [Docker, CI/CD, Infrastructure as Code]
-    languages: [SQL, Python]
     domains: []
+    languages: [SQL, Python]
+    ml: [Feast, Tecton]
+    cloud: [AWS S3, AWS Glue, AWS Redshift, Azure ADLS, Azure Synapse, AWS, Azure]
+    genai: [RAG, Embedding pipelines, LLM integration in ETL, MCP, AI-paired programming
+        (Claude Code)]
+    data: [Databricks, Delta Lake, dbt, Airflow, Dagster, Prefect, Azure Data Factory,
+      Databricks Workflows, Spark, PySpark, Data Pipelines, Semantic Layer, Dimensional
+        Modeling, Data Lineage, Kafka, Spark Streaming, Flink, Snowpark]
     other: []
+    ops: [Docker, CI/CD, Infrastructure as Code]
+    web: []
+    databases: [Snowflake, Vector Databases, Data Warehousing, Data Lakes, Pinecone,
+      Weaviate, Qdrant, pgvector]
   is_customer_facing: true
   is_management: false
 meta:

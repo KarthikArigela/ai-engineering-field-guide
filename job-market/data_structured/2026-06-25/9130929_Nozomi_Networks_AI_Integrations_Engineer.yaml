@@ -38,19 +38,18 @@ position:
   - Data retrieval and retrieval-augmented generation (RAG) for business intelligence
   - Enterprise workflow automation via AI agents
   skills:
-    genai: [Model Context Protocol (MCP), Vertex AI Agent Builder, Vertex AI, Function
-        calling, RAG, Embeddings]
-    ml: []
-    web: [REST API design]
-    databases: [Vector databases, BigQuery, AlloyDB, Snowflake, Redshift]
-    data: [Databricks, ETL/ELT pipelines, Dimensional modeling]
-    cloud: [Google Cloud (GCP), Apigee, Cloud Run, Cloud Functions, Google Cloud Workflows,
-      Dataflow, Cloud Data Fusion, Secret Manager, Cloud IAM, Workload Identity Federation]
-    ops: []
-    languages: [Python, TypeScript, SQL]
     domains: []
+    languages: [Python, TypeScript, SQL]
+    ml: []
+    cloud: [GCP, Apigee, Cloud Run, Cloud Functions, Google Cloud Workflows, Dataflow,
+      Cloud Data Fusion, Secret Manager, Cloud IAM, Workload Identity Federation]
+    genai: [MCP, Vertex AI Agent Builder, Vertex AI, Function Calling, RAG, Embeddings]
+    data: [Databricks, Data Pipelines, Dimensional modeling]
     other: [OAuth 2.0, OIDC, CRM integration, ERP integration, Data governance, PII
         handling, AI safety/compliance frameworks]
+    ops: []
+    web: [REST APIs]
+    databases: [Vector Databases, BigQuery, AlloyDB, Snowflake, Redshift]
   is_customer_facing: false
   is_management: false
 meta:

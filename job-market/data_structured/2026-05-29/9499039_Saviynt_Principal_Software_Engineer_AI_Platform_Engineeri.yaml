@@ -46,19 +46,19 @@ position:
   - Synthetic data generation for development and staging environments where customer
     data is restricted
   skills:
-    genai: [RAG]
+    domains: []
+    languages: [Python, Scala, SQL]
     ml: []
-    web: [gRPC, Protobuf, mTLS]
-    databases: [Qdrant, Pgvector, Redis, Vector databases]
-    data: [Apache Spark, PySpark, Apache Beam, Dataflow, Airflow, Prefect, Great Expectations,
-      dbt, Apache Iceberg, Avro, Data lakes, ETL, Data pipelines, Streaming pipelines,
-      Data governance, Differential privacy, PII anonymization]
     cloud: [Google Cloud Storage, Dataproc, Cloud SQL, Multi-tenancy]
+    genai: [RAG]
+    data: [Spark, PySpark, Apache Beam, Dataflow, Airflow, Prefect, Great Expectations,
+      dbt, Apache Iceberg, Avro, Data lakes, Data Pipelines, Streaming pipelines,
+      Data Governance, Differential privacy, PII anonymization]
+    other: []
     ops: [Flyte, Kubeflow Pipelines, Feast, Google Kubernetes Engine, Kubernetes,
       Feature store, Schema registry]
-    languages: [Python, Scala, SQL]
-    domains: []
-    other: []
+    web: [gRPC, Protobuf, mTLS]
+    databases: [Qdrant, pgvector, Redis, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

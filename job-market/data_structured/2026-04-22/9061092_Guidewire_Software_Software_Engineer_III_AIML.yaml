@@ -37,17 +37,17 @@ position:
   - Automated decision-making for insurance processes
   - LLM tool integration via MCP servers for enterprise AI workflows
   skills:
-    genai: [LangChain, LlamaIndex, LangGraph, CrewAI, MCP (Model Context Protocol),
-      RAG, ReAct, Agent-based reasoning, OpenAI API, Claude API, Gemini API]
-    ml: [ML model deployment, Model evaluation and retraining]
-    web: [Microservices, REST API, Event-driven architecture]
-    databases: [PostgreSQL, DynamoDB]
-    data: []
-    cloud: [AWS]
-    ops: [Docker, Kubernetes]
-    languages: [Python, TypeScript, JavaScript]
     domains: []
+    languages: [Python, TypeScript, JavaScript]
+    ml: [ML model deployment, Model evaluation and retraining]
+    cloud: [AWS]
+    genai: [LangChain, LlamaIndex, LangGraph, CrewAI, MCP, RAG, ReAct, Agent-based
+        reasoning, OpenAI API, Anthropic API, Gemini]
+    data: []
     other: [OAuth2, JWT]
+    ops: [Docker, Kubernetes]
+    web: [Microservices, REST APIs, Event-driven architecture]
+    databases: [PostgreSQL, DynamoDB]
   is_customer_facing: false
   is_management: false
 meta:

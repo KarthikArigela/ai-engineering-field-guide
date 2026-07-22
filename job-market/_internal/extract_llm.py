@@ -241,6 +241,40 @@ Categories:
 - domains: CV, NLP, RL, robotics, diffusion models, or similar (ONLY when primary focus)
 - other: Anything that doesn't fit the categories above
 
+## Skill Normalization (prevents duplicate skills)
+
+Always use the EXACT canonical spelling below, matching case and punctuation. Never invent variants. Most duplicate skills come from casing, parentheticals, and synonyms - eliminate all of them.
+
+Normalization rules:
+- No parenthetical expansions: write "MCP", NOT "MCP (Model Context Protocol)"; "RAG", NOT "RAG (Retrieval-Augmented Generation)".
+- No casing/plural duplicates - one form only: "Prompt Engineering" (not "prompt engineering"), "REST APIs" (not "REST API" or "RESTful APIs"), "Vector Databases" (not "vector db" or "VectorDBs").
+- No acronym/long-form duplicates: "LLMs" (not "Large Language Models"), "GCP" (not "Google Cloud Platform"), "AWS" (not "Amazon Web Services").
+- Map synonyms to the canonical name:
+  - "rag pipelines" / "rag architectures" -> "RAG"
+  - "ai agents" / "agentic ai" / "agents" -> "AI Agents"
+  - "agentic workflows" / "agent orchestration" / "multi-agent orchestration" -> "Agentic Workflows"
+  - "multi-agent systems" -> "Multi-Agent Systems"
+  - "function calling" / "tool use" -> "Function Calling"
+  - "openai" / "openai apis" -> "OpenAI API"; "anthropic" / "claude api" -> "Anthropic API"
+  - "fine-tuning" / "llm fine-tuning" -> "Fine-Tuning"
+  - "embeddings" / "embedding models" -> "Embeddings"
+- Each skill appears at most ONCE per job - deduplicate within the category.
+- Do NOT emit the same tool in multiple forms (emit "LangChain" once, not also "LangChain framework").
+
+Canonical skill vocabulary (frequently occurring skills, more than 30 postings; use these exact strings):
+- genai: LangChain, LlamaIndex, RAG, Prompt Engineering, LLMs, Anthropic API, Gemini, Mistral, Llama, Agentic Workflows, OpenAI API, Azure OpenAI, MCP, Claude Code, Codex, ChatGPT, GitHub Copilot, LangGraph, Generative AI, AI Agents, Embeddings, Multi-Agent Systems, Semantic Search, Haystack, CrewAI, Semantic Kernel, Function Calling, Cursor, AutoGen, Structured Outputs, Guardrails, LoRA, DSPy, Fine-Tuning, AWS Bedrock, LLM Evaluation, Context Engineering, RLHF, Copilot Studio, Google ADK, Conversational AI, Hugging Face
+- ml: scikit-learn, PyTorch, TensorFlow, Transformers, Hugging Face, Neural Networks, Machine Learning, CUDA, Fine-Tuning, Reinforcement Learning, Embeddings, Deep Learning, JAX, RLHF, Model Evaluation, NLP, Model Training, Foundation Model Training, CNNs, Anomaly Detection, Feature Engineering, Keras, XGBoost, Quantization, Pandas, NumPy
+- web: FastAPI, APIs, WebSockets, React, Microservices, Node.js, REST APIs, Webhooks, Next.js, Angular, Vue, Flask, Django, REST, GraphQL, Streamlit, gRPC, Spring Boot, Playwright, OAuth, CSS, Full-Stack Development, Ruby on Rails, JSON, HTML
+- cloud: Vertex AI, AWS, GCP, Azure, IAM, EKS, Azure AI Foundry, Azure OpenAI, SageMaker, Azure ML, AWS Lambda, AWS Bedrock, AWS S3, ECS, API Gateway, Azure Functions, AKS
+- ops: MLOps, CI/CD, Jenkins, GitLab CI, Azure DevOps, ArgoCD, Kubernetes, Docker, Linux, TensorRT, DevOps, vLLM, Triton, Git, OpenTelemetry, MLflow, Kubeflow, Model Deployment, Prometheus, Grafana, Distributed Systems, Monitoring, Observability, Terraform, CloudFormation, LangSmith, GitHub Actions, Weights & Biases, Model Monitoring, LLMOps, Langfuse, Datadog, CloudWatch, Infrastructure as Code, GitHub, ELK Stack, Helm, GitOps, DevSecOps, Ansible
+- languages: Python, Java, TypeScript, C++, JavaScript, C#, Rust, Go, Bash, PowerShell, SQL, Node.js, .NET, asyncio, Scala, Kotlin, R, Ruby
+- databases: Pinecone, Neo4j, Knowledge Graphs, PostgreSQL, Redis, Vector Databases, Milvus, Chroma, Weaviate, MySQL, MongoDB, BigQuery, SQL, NoSQL, pgvector, OpenSearch, Elasticsearch, FAISS, Qdrant, Vector Search, SQL Server, Snowflake, ClickHouse, Redshift, Relational Databases, DynamoDB, Graph Databases, Oracle, Cassandra
+- data: Pandas, NumPy, Kafka, Ray, Spark, Data Pipelines, PySpark, Databricks, RabbitMQ, Flink, Airflow, Dagster, Data Engineering, Data Modeling, dbt, Delta Lake, Prefect, Data Governance, Hadoop
+- domains: NLP, Computer Vision
+- other: Distributed Systems, Code Review, GDPR, Agile, Responsible AI, ServiceNow, Salesforce, HubSpot, System Design, GitHub Copilot, Cursor, n8n, Zapier, HIPAA Compliance, Jira, A/B Testing, Power BI, Power Automate, Tableau, Microservices, Event-Driven Architecture
+
+For a skill not in the vocabulary, still apply the rules: use one consistent Title Case form, no parentheticals, no duplicates.
+
 ## Responsibilities
 
 Extract as 4-8 bullet points covering key responsibilities.

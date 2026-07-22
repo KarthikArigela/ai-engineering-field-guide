@@ -48,21 +48,20 @@ position:
   - Cost and latency optimization of LLM-based agents for broad rollout across 85+
     health plans
   skills:
+    domains: [Healthcare claims processing and medical coding]
+    languages: [Python, SQL, Async Python programming]
+    ml: [OCR and document understanding, Vision-language models]
+    cloud: []
     genai: [LangGraph, OpenAI Agents SDK, Anthropic SDK / claude-agent-sdk, 'Agent
         engineering (multi-agent topologies, agent loops)', 'Context engineering (system
         prompts, structured outputs, citation grounding)', Claude Code, Codex, Prompt
-        engineering, 'Reasoning models (o-series, Claude extended thinking)', RAG
+        Engineering, 'Reasoning models (o-series, Claude extended thinking)', RAG
         / retrieval]
-    ml: [OCR and document understanding, Vision-language models]
+    data: []
+    other: [Evaluation harness design and metric definition]
+    ops: [LLM caching and cost control at scale, LLM observability, Git, VS Code]
     web: []
     databases: []
-    data: []
-    cloud: []
-    ops: [LLM caching and cost control at scale, LLM observability, 'Git (branches,
-        rebases, worktrees, conflict resolution)', VS Code]
-    languages: [Python, SQL, Async Python programming]
-    domains: [Healthcare claims processing and medical coding]
-    other: [Evaluation harness design and metric definition]
   is_customer_facing: false
   is_management: false
 meta:

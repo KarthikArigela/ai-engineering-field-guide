@@ -40,19 +40,18 @@ position:
   - RAG-powered knowledge retrieval connecting LLMs to customer data and business
     context
   skills:
-    genai: [LangChain, CrewAI, Anthropic MCP, RAG, Prompt engineering, Function calling/Tool
-        use, Structured output parsing, Multi-agent systems, Agent orchestration,
-      Model Context Protocol (MCP)]
-    ml: []
-    web: [FastAPI, React, Slack Block Kit, REST APIs, Microservices]
-    databases: [BigQuery, Pinecone, Weaviate, ChromaDB, Qdrant, pgvector]
-    data: [n8n, Workato, Temporal, Prefect, Airflow]
-    cloud: [GCP, Google Cloud Functions, Google Cloud Run]
-    ops: [LangSmith, Weights & Biases, CI/CD, Docker]
-    languages: [Python, JavaScript, Node.js, SQL]
     domains: []
+    languages: [Python, JavaScript, Node.js, SQL]
+    ml: []
+    cloud: [GCP, Google Cloud Functions, Cloud Run]
+    genai: [LangChain, CrewAI, Anthropic MCP, RAG, Prompt Engineering, Function calling/Tool
+        use, Structured output parsing, Multi-Agent Systems, Agentic Workflows, MCP]
+    data: [n8n, Workato, Temporal, Prefect, Airflow]
     other: [Salesforce, HubSpot, Marketo, Customer.io, Outreach, GitHub Copilot, Cursor,
       Claude Code, Gemini CLI, OpenAI Codex]
+    ops: [LangSmith, Weights & Biases, CI/CD, Docker]
+    web: [FastAPI, React, Slack Block Kit, REST APIs, Microservices]
+    databases: [BigQuery, Pinecone, Weaviate, Chroma, Qdrant, pgvector]
   is_customer_facing: false
   is_management: false
 meta:

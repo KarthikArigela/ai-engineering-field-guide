@@ -43,18 +43,18 @@ position:
   - Master data management initiatives establishing single sources of truth for key
     business entities
   skills:
-    genai: [RAG, LLM, embedding pipelines]
+    domains: []
+    languages: [SQL, Python]
     ml: [feature stores]
-    web: [Power BI, DAX, REST API]
-    databases: [vector data products, star schema, snowflake schema]
-    data: [Delta Live Tables, PySpark, Azure Data Factory, data quality, ETL, ELT,
-      data modeling, data vault, semantic layer, master data management]
     cloud: [Databricks, Unity Catalog, Microsoft Fabric, Azure, Azure ML, Synapse
         Analytics]
-    ops: [Collibra, data governance, CI/CD, GitHub Actions, Azure DevOps, Terraform]
-    languages: [SQL, Python]
-    domains: []
+    genai: [RAG, LLMs, embedding pipelines]
+    data: [Delta Live Tables, PySpark, Azure Data Factory, data quality, Data Pipelines,
+      Data Modeling, data vault, semantic layer, master data management]
     other: []
+    ops: [Collibra, data governance, CI/CD, GitHub Actions, Azure DevOps, Terraform]
+    web: [Power BI, DAX, REST APIs]
+    databases: [vector data products, star schema, snowflake schema]
   is_customer_facing: false
   is_management: true
 meta:

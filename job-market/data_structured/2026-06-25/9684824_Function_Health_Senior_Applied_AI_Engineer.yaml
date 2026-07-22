@@ -39,19 +39,19 @@ position:
   - Clinically-safe AI recommendations gated by evaluation and clinician review
   - Real-time multimodal health interactions including speech and vision pipelines
   skills:
-    genai: [LangGraph, PydanticAI, DSPy, LlamaIndex, RAG, Multi-agent systems, Function/tool
-        calling, Prompt engineering, Graph RAG, LLM-as-judge, Frontier LLM integration,
-      Pydantic]
-    ml: [PyTorch, Fine-tuning]
-    web: [FastAPI, Flask, REST API design, GraphQL, WebRTC]
-    databases: [PostgreSQL, pgvector, Pinecone, Weaviate, Milvus]
-    data: []
+    domains: [Streaming ASR, Low-latency TTS, Vision pipelines, Healthcare AI]
+    languages: [Python, Go, SQL]
+    ml: [PyTorch, Fine-Tuning]
     cloud: [AWS, GCP]
+    genai: [LangGraph, PydanticAI, DSPy, LlamaIndex, RAG, Multi-Agent Systems, Function/tool
+        calling, Prompt Engineering, Graph RAG, LLM-as-judge, Frontier LLM integration,
+      Pydantic]
+    data: []
+    other: [HIPAA Compliance, SOC 2, GDPR compliance]
     ops: [Kubernetes, Terraform, Docker, OpenTelemetry, GitHub Actions, CI/CD, GPU
         scheduling/autoscaling, Model routing and quantization]
-    languages: [Python, Go, SQL]
-    domains: [Streaming ASR, Low-latency TTS, Vision pipelines, Healthcare AI]
-    other: [HIPAA compliance, SOC 2 compliance, GDPR compliance]
+    web: [FastAPI, Flask, REST APIs, GraphQL, WebRTC]
+    databases: [PostgreSQL, pgvector, Pinecone, Weaviate, Milvus]
   is_customer_facing: false
   is_management: true
 meta:

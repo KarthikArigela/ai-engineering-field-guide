@@ -43,18 +43,17 @@ position:
   - Local inference systems for on-premises LLM deployment
   - Enterprise document parsing and processing for Office formats and XML/XSD
   skills:
-    genai: [RAG, Retrieval-Augmented Generation, MCP, Model Context Protocol]
-    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, Hugging Face
-        Datasets, Supervised Fine-Tuning (SFT), LoRA, Q-LoRA, GGUF, GPTQ, AWQ, bitsandbytes,
-      CUDA, cuDNN]
-    web: []
-    databases: [FAISS, Chroma, Weaviate, pgvector, Postgres, MySQL]
-    data: [pandas, XML/XSD, python-docx, OpenXML]
-    cloud: [Azure DevOps]
-    ops: [vLLM, TGI, Ollama, Docker, Git]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, Hugging Face Datasets, Supervised
+        Fine-Tuning (SFT), LoRA, Q-LoRA, GGUF, GPTQ, AWQ, bitsandbytes, CUDA, cuDNN]
+    cloud: [Azure DevOps]
+    genai: [RAG, MCP]
+    data: [Pandas, XML/XSD, python-docx, OpenXML]
     other: []
+    ops: [vLLM, TGI, Ollama, Docker, Git]
+    web: []
+    databases: [FAISS, Chroma, Weaviate, pgvector, PostgreSQL, MySQL]
   is_customer_facing: false
   is_management: false
 meta:

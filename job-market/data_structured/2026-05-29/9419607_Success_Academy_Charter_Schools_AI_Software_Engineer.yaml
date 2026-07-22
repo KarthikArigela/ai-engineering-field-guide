@@ -38,19 +38,19 @@ position:
   - Real-time data synchronization between AI tools and school management systems
   - Secure data exchange between educational platforms while maintaining FERPA compliance
   skills:
-    genai: [LLMs, AI-powered automation]
-    ml: []
-    web: [API Development, RESTful APIs, GraphQL, gRPC, FastAPI, Flask, Express.js,
-      OAuth 2.0, JWT, SAML, OpenID Connect, Postman, Swagger, Webhooks]
-    databases: []
-    data: [Kafka, RabbitMQ, Redis Pub/Sub, ETL, Talend, dbt, Pub/Sub]
-    cloud: [API Gateway, AWS, GCP, Azure, AWS Lambda, Google Cloud Functions, Azure
-        Functions, Step Functions, EventBridge, S3, DynamoDB, Firestore, BigQuery,
-      Event Grid, Cosmos DB]
-    ops: [IAM, RBAC, Data encryption, Serverless, Event-driven architectures]
-    languages: [Python, Node.js]
     domains: []
+    languages: [Python, Node.js]
+    ml: []
+    cloud: [API Gateway, AWS, GCP, Azure, AWS Lambda, Google Cloud Functions, Azure
+        Functions, Step Functions, EventBridge, AWS S3, DynamoDB, Firestore, BigQuery,
+      Event Grid, Cosmos DB]
+    genai: [LLMs, AI-powered automation]
+    data: [Kafka, RabbitMQ, Redis Pub/Sub, Data Pipelines, Talend, dbt, Pub/Sub]
     other: []
+    ops: [IAM, RBAC, Data encryption, Serverless, Event-driven architectures]
+    web: [APIs, REST APIs, GraphQL, gRPC, FastAPI, Flask, Express.js, OAuth, JWT,
+      SAML, OpenID Connect, Postman, Swagger, Webhooks]
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

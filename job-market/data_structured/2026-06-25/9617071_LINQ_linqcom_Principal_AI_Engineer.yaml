@@ -36,18 +36,17 @@ position:
   - Internal agent platform for cross-team AI adoption and orchestration
   - Reusable agent skills library for enterprise workflow simplification
   skills:
-    genai: [LangGraph, OpenAI Agents SDK, Anthropic tool use, OpenAI API, Anthropic
-        API, MCP (Model Context Protocol), Agent orchestration, Prompt engineering,
-      Agent evaluation and guardrails]
+    domains: [FERPA/COPPA compliance, PCI compliance, CCPA compliance]
+    languages: [JavaScript, TypeScript, Python]
     ml: []
+    cloud: [AWS]
+    genai: [LangGraph, OpenAI Agents SDK, Anthropic tool use, OpenAI API, Anthropic
+        API, MCP, Agentic Workflows, Prompt Engineering, Agent evaluation and guardrails]
+    data: []
+    other: []
+    ops: [Docker, Monitoring and observability tooling]
     web: [React, Node.js]
     databases: [SQL]
-    data: []
-    cloud: [AWS]
-    ops: [Docker, Monitoring and observability tooling]
-    languages: [JavaScript, TypeScript, Python]
-    domains: [FERPA/COPPA compliance, PCI compliance, CCPA compliance]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

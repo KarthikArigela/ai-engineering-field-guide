@@ -46,20 +46,18 @@ position:
   - Human-in-the-loop workflows for financial decision-making with agent oversight
   - Long-term memory systems using vector databases for agent knowledge retention
   skills:
-    genai: [LangChain, LangGraph, ReAct patterns, Multi-agent systems, Agent memory
-        architectures, Function calling, MCP (Model Context Protocol), AutoGen, CrewAI,
-      OpenAI Assistants API, RAG (Retrieval-Augmented Generation), Guardrails, Prompt
-        engineering, Tool integrations, Chain-of-thought reasoning]
-    ml: []
-    web: [FastAPI, REST APIs, Microservices]
-    databases: [Snowflake, Pinecone, Weaviate, pgvector, Vector databases]
-    data: [Databricks, Lakehouse architectures]
-    cloud: [Cloud-native development]
-    ops: [LangSmith, AIOps, CI/CD pipelines, Observability monitoring, Distributed
-        systems]
-    languages: [Python, Async programming]
     domains: []
+    languages: [Python, asyncio]
+    ml: []
+    cloud: [Cloud-native development]
+    genai: [LangChain, LangGraph, ReAct patterns, Multi-Agent Systems, Agent memory
+        architectures, Function Calling, MCP, AutoGen, CrewAI, OpenAI Assistants API,
+      RAG, Guardrails, Prompt Engineering, Tool integrations, Chain-of-thought reasoning]
+    data: [Databricks, Lakehouse architectures]
     other: []
+    ops: [LangSmith, AIOps, CI/CD, Observability monitoring, Distributed Systems]
+    web: [FastAPI, REST APIs, Microservices]
+    databases: [Snowflake, Pinecone, Weaviate, pgvector, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

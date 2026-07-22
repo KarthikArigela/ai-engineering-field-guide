@@ -40,17 +40,17 @@ position:
   - Document understanding and data extraction for healthcare payer and provider workflows
   - Pre-payment accuracy and integrity through AI-powered document analysis
   skills:
-    genai: [LLMs, fine-tuning, RAG, prompt engineering, Llama, Deepseek, multi-agentic
+    domains: [OCR, NLP, entity recognition, NER, text classification, semantic parsing]
+    languages: [Python]
+    ml: [PyTorch, Embeddings, Transformers]
+    cloud: [Amazon Textract, AWS, GCP, Azure]
+    genai: [LLMs, Fine-Tuning, RAG, Prompt Engineering, Llama, Deepseek, multi-agentic
         frameworks]
-    ml: [PyTorch, embeddings, transformers]
+    data: []
+    other: [Tesseract]
+    ops: [Kubeflow, MLOps, CI/CD, version control, Model Deployment]
     web: []
     databases: [Pinecone, Weaviate, FAISS, Postgres-pg-vector]
-    data: []
-    cloud: [Amazon Textract, AWS, GCP, Azure]
-    ops: [Kubeflow, MLOps, CI/CD, version control, model deployment]
-    languages: [Python]
-    domains: [OCR, NLP, entity recognition, NER, text classification, semantic parsing]
-    other: [Tesseract]
   is_customer_facing: false
   is_management: true
 meta:

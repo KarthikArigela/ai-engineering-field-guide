@@ -40,20 +40,20 @@ position:
   - Automated DOI objection response generation
   - Synthetic data generation for low-frequency perils and emerging insurance segments
   skills:
-    genai: [RAG pipelines, Prompt engineering, LangChain, LangGraph, LlamaIndex, PEFT/LoRA,
-      Function calling, Guardrails, Synthetic data generation, Diffusion models, Embeddings,
+    domains: [NLP]
+    languages: [Python, SQL]
+    ml: [scikit-learn, PyTorch, TensorFlow, Distillation, LayoutLM, Timeseries forecasting,
+      Anomaly Detection, Fraud detection]
+    cloud: [Vertex AI, SageMaker, AWS Bedrock, Azure AI Services]
+    genai: [RAG, Prompt Engineering, LangChain, LangGraph, LlamaIndex, PEFT/LoRA,
+      Function Calling, Guardrails, Synthetic data generation, Diffusion models, Embeddings,
       Hybrid search, Rerankers, RAGAS, TruLens, DeepEval, OpenAI embeddings, Cohere
         embeddings, Voyage embeddings, BGE embeddings, E5 embeddings]
-    ml: [scikit-learn, PyTorch, TensorFlow, Distillation, LayoutLM, Timeseries forecasting,
-      Anomaly detection, Fraud detection]
-    web: []
-    databases: [HNSW, pgvector, Postgres, OpenSearch, Vertex AI RAG Engine]
-    data: [pandas, NumPy, Knowledge graphs]
-    cloud: [Google Vertex AI, AWS SageMaker, AWS Bedrock, Azure AI Services]
-    ops: [MLflow, Weights & Biases, Docker, Git, CI/CD, Unix]
-    languages: [Python, SQL]
-    domains: [NLP]
+    data: [Pandas, NumPy, Knowledge graphs]
     other: [PyMuPDF, pdfplumber, Apache Tika, Tesseract OCR, Camelot, Tabula]
+    ops: [MLflow, Weights & Biases, Docker, Git, CI/CD, Unix]
+    web: []
+    databases: [HNSW, pgvector, PostgreSQL, OpenSearch, Vertex AI RAG Engine]
   is_customer_facing: false
   is_management: false
 meta:

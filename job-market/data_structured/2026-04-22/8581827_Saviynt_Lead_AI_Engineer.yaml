@@ -36,17 +36,17 @@ position:
   - Automated response generation for customer inquiries
   - RAG-based knowledge retrieval for support agents and self-service
   skills:
-    genai: [RAG architectures, LLM-powered solutions, Conversational AI, Agentic workflows,
-      Prompt engineering]
-    ml: [PyTorch, TensorFlow, Hugging Face, NLP, Sentiment analysis]
-    web: [REST APIs, Microservices]
-    databases: [Vector databases]
-    data: []
-    cloud: [AWS, AWS Bedrock]
-    ops: [Docker, Kubernetes, MLOps, Model versioning, Production observability]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Hugging Face, NLP, Sentiment analysis]
+    cloud: [AWS, AWS Bedrock]
+    genai: [RAG, LLM-powered solutions, Conversational AI, Agentic Workflows, Prompt
+        Engineering]
+    data: []
     other: [SOC2 compliance, GDPR]
+    ops: [Docker, Kubernetes, MLOps, Model versioning, Production observability]
+    web: [REST APIs, Microservices]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: true
 meta:

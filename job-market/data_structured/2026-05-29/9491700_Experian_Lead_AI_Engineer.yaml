@@ -42,19 +42,20 @@ position:
   - AI-assisted CI/CD workflows with automated testing and security remediation suggestions
   - Intelligent data governance with automated lineage tracking and compliance monitoring
   skills:
-    genai: [LangChain, agents, agentic workflows, multi-step reasoning, prompt engineering,
-      LLM optimization, tool use orchestration, Claude Code, Cursor, AWS AgentCore]
+    domains: []
+    languages: [Python]
     ml: []
+    cloud: [AWS, AWS S3, Glue, AWS Lambda, DynamoDB, EventBridge, MSK, SQS, event-driven
+        architectures, serverless architectures, IAM, encryption]
+    genai: [LangChain, AI Agents, Agentic Workflows, multi-step reasoning, Prompt
+        Engineering, LLM optimization, tool use orchestration, Claude Code, Cursor,
+      AWS AgentCore]
+    data: [PySpark, data pipeline design, distributed processing, batch processing,
+      stream processing, data quality, data lineage, Data Governance]
+    other: []
+    ops: [CI/CD, Jenkins, Harness, Bitbucket, Docker, Kubernetes, SonarQube, Veracode]
     web: []
     databases: []
-    data: [PySpark, data pipeline design, distributed processing, batch processing,
-      stream processing, data quality, data lineage, data governance]
-    cloud: [AWS, S3, Glue, Lambda, DynamoDB, EventBridge, MSK, SQS, event-driven architectures,
-      serverless architectures, IAM, encryption]
-    ops: [CI/CD, Jenkins, Harness, Bitbucket, Docker, Kubernetes, SonarQube, Veracode]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: true
 meta:

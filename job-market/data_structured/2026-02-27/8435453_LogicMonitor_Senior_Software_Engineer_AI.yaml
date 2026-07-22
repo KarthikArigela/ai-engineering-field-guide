@@ -37,16 +37,16 @@ position:
   - LLM-based summarization and correlation reasoning
   - Real-time alert intelligence and root cause analysis
   skills:
-    genai: [LangGraph, Embeddings, LLM orchestration]
-    ml: []
-    web: [FastAPI, Spring Boot, REST, gRPC]
-    databases: [Delta Lake, Iceberg, ClickHouse, Vector retrieval]
-    data: [Kafka, Airflow, Spark, Redis Streams, ETL]
-    cloud: []
-    ops: [Kubernetes, CI/CD, OpenTelemetry]
-    languages: [Python, Java, SQL]
     domains: []
+    languages: [Python, Java, SQL]
+    ml: []
+    cloud: []
+    genai: [LangGraph, Embeddings, LLMs]
+    data: [Kafka, Airflow, Spark, Redis Streams, Data Pipelines]
     other: []
+    ops: [Kubernetes, CI/CD, OpenTelemetry]
+    web: [FastAPI, Spring Boot, REST, gRPC]
+    databases: [Delta Lake, Iceberg, ClickHouse, Vector Search]
   is_customer_facing: false
   is_management: false
 meta:

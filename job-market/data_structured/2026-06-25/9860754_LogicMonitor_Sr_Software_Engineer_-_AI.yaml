@@ -41,17 +41,17 @@ position:
   - LLM-powered summarization and correlation reasoning for AIOps workflows
   - Automated root cause analysis and remediation guidance for digital infrastructure
   skills:
-    genai: [LangGraph, LLM orchestration, Embeddings, Vector retrieval, Semantic search]
+    domains: []
+    languages: [Python, Java, SQL]
     ml: []
+    cloud: [AWS]
+    genai: [LangGraph, LLMs, Embeddings, Vector retrieval, Semantic search]
+    data: [Kafka, Airflow, Redis Streams, Spark, Data Pipelines, Delta Lake, Apache
+        Iceberg]
+    other: [Data governance, Schema evolution, Data lineage, RBAC]
+    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
     web: [FastAPI, Spring Boot, REST, gRPC, GraphQL]
     databases: [ClickHouse, Redis]
-    data: [Kafka, Apache Airflow, Redis Streams, Apache Spark, ETL, Delta Lake, Apache
-        Iceberg]
-    cloud: [AWS]
-    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
-    languages: [Python, Java, SQL]
-    domains: []
-    other: [Data governance, Schema evolution, Data lineage, RBAC]
   is_customer_facing: false
   is_management: false
 meta:

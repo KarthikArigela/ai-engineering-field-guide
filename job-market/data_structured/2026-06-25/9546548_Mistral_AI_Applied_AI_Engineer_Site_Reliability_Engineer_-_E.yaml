@@ -36,18 +36,18 @@ position:
   - Security and supply-chain integrity for production AI deployments
   - Observability and incident response for customer-facing AI infrastructure
   skills:
-    genai: []
+    domains: []
+    languages: [Python, Go]
     ml: []
-    web: []
-    databases: []
-    data: []
     cloud: [AWS, GCP, Azure]
+    genai: []
+    data: []
+    other: []
     ops: [Kubernetes, Prometheus, Grafana, OpenTelemetry, Loki, Tempo, Signoz, Terraform,
       Ansible, Docker, Linux, LLM model serving, CI/CD, 'Supply-chain security (SBOM,
         cosign, SLSA)', RBAC, Network policy]
-    languages: [Python, Golang]
-    domains: []
-    other: []
+    web: []
+    databases: []
   is_customer_facing: true
   is_management: false
 meta:

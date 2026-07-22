@@ -37,17 +37,17 @@ position:
   - Retrieval-augmented generation (RAG) for knowledge management and search
   - Client-specific AI solutions for retail, manufacturing, and government industries
   skills:
-    genai: [LangChain, LangGraph, Google ADK, OpenAI API, IBM watsonx.ai, Amazon Bedrock,
-      prompt engineering, RAG, agentic workflows, tool calling, structured outputs]
-    ml: [fine-tuning LLMs, embeddings, vector search]
-    web: [FastAPI, APIs]
-    databases: [Pinecone, Elasticsearch, pgvector, graph databases, Redis]
-    data: [Celery, Kafka]
-    cloud: [AWS, GCP, Azure, IBM Cloud]
-    ops: [Docker, LangSmith, OpenTelemetry]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [fine-tuning LLMs, Embeddings, vector search]
+    cloud: [AWS, GCP, Azure, IBM Cloud]
+    genai: [LangChain, LangGraph, Google ADK, OpenAI API, IBM watsonx.ai, Amazon Bedrock,
+      Prompt Engineering, RAG, Agentic Workflows, Function Calling, Structured Outputs]
+    data: [Celery, Kafka]
     other: [n8n, Make, Zapier]
+    ops: [Docker, LangSmith, OpenTelemetry]
+    web: [FastAPI, APIs]
+    databases: [Pinecone, Elasticsearch, pgvector, Graph Databases, Redis]
   is_customer_facing: true
   is_management: false
 meta:

@@ -40,17 +40,17 @@ position:
   - Internal developer productivity tooling using agentic AI workflows
   - Automated reporting and alerting to replace manual data pulling and analysis
   skills:
-    genai: [OpenAI API, Anthropic API, Prompt Engineering, AI Agents, LLM Integration,
-      Structured Outputs, Claude Code, Cursor]
-    ml: []
-    web: [RESTful APIs, Phoenix Framework]
-    databases: [Vector Databases, PostgreSQL]
-    data: [Kafka, Temporal, Prefect, Airflow]
-    cloud: [GCP]
-    ops: [Docker, 'Observability (Logging, Tracing, Monitoring)']
-    languages: [TypeScript, Node.js, Python, SQL, Elixir]
     domains: []
+    languages: [TypeScript, Node.js, Python, SQL, Elixir]
+    ml: []
+    cloud: [GCP]
+    genai: [OpenAI API, Anthropic API, Prompt Engineering, AI Agents, LLMs, Structured
+        Outputs, Claude Code, Cursor]
+    data: [Kafka, Temporal, Prefect, Airflow]
     other: []
+    ops: [Docker, Observability]
+    web: [REST APIs, Phoenix Framework]
+    databases: [Vector Databases, PostgreSQL]
   is_customer_facing: false
   is_management: false
 meta:

@@ -37,20 +37,20 @@ position:
   - Producing defensible findings that withstand clinical and regulatory review
   - Long-context document understanding with citation-grounded evidence extraction
   skills:
-    genai: ['Agent SDKs (OpenAI Agents, Anthropic SDK, LangGraph)', Prompt engineering,
-      Structured outputs (Pydantic / JSON Schema), LLM agent loops and tool calling,
-      Citation-grounded generation, 'Reasoning models (o-series, Claude extended thinking)',
-      Claude Code / Codex, RAG (Retrieval-Augmented Generation)]
+    domains: [Healthcare claims and medical coding]
+    languages: [Python, Async Python]
     ml: [OCR / document understanding, Vision-language models]
+    cloud: []
+    genai: ['Agent SDKs (OpenAI Agents, Anthropic SDK, LangGraph)', Prompt Engineering,
+      Structured Outputs, LLM agent loops and tool calling, Citation-grounded generation,
+      'Reasoning models (o-series, Claude extended thinking)', Claude Code / Codex,
+      RAG]
+    data: []
+    other: [VS Code]
+    ops: [Git, LLM observability and cost control, LLM caching strategies, Evaluation
+        frameworks for AI systems]
     web: []
     databases: []
-    data: []
-    cloud: []
-    ops: ['Git (branches, rebases, worktrees, PR workflows)', LLM observability and
-        cost control, LLM caching strategies, Evaluation frameworks for AI systems]
-    languages: [Python, Async Python]
-    domains: [Healthcare claims and medical coding]
-    other: [VS Code]
   is_customer_facing: false
   is_management: false
 meta:

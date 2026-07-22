@@ -31,19 +31,18 @@ position:
   - Deep-trace observability for AI framework interactions
   - Protection against security vulnerabilities in AI-powered applications
   skills:
-    genai: [LangChain, CrewAI, OpenAI Agents, Google ADK, MCP (Model Context Protocol),
-      A2A]
+    domains: []
+    languages: [Python, JavaScript, Node.js, Rust]
     ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
+    genai: [LangChain, CrewAI, OpenAI Agents, Google ADK, MCP, A2A]
+    data: []
+    other: [Monkey patching, Import hooking, Dynamic instrumentation, OWASP, Deserialization
+        security, SSRF, Privilege escalation, Claude Code, Cursor, GitHub Copilot]
     ops: [OpenTelemetry, Datadog, Distributed tracing, Kubernetes, Container runtimes,
       OCI]
-    languages: [Python, JavaScript, Node.js, Rust]
-    domains: []
-    other: [Monkey patching, Import hooking, Dynamic instrumentation, OWASP, Deserialization
-        security, SSRF, Privilege escalation, Claude Code, Cursor, CoPilot]
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

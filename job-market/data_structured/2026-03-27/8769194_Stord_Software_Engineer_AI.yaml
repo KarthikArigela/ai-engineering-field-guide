@@ -36,17 +36,17 @@ position:
   - Recommendation engines for operations intelligence
   - Multi-step AI workflow orchestration across supply chain domains
   skills:
-    genai: [LangChain, LangGraph, OpenAI API, Anthropic Claude, Prompt Engineering,
-      Agent Orchestration, Cloudflare Workers AI]
-    ml: []
-    web: [RESTful APIs]
-    databases: [PostgreSQL, Pinecone, Weaviate, pgvector]
-    data: [Kafka]
-    cloud: [GCP, AWS, Azure, Vertex AI, Modal.com]
-    ops: [Event-driven architecture, Feature stores, A/B testing]
-    languages: [TypeScript, Node.js, SQL, Elixir]
     domains: []
+    languages: [TypeScript, Node.js, SQL, Elixir]
+    ml: []
+    cloud: [GCP, AWS, Azure, Vertex AI, Modal.com]
+    genai: [LangChain, LangGraph, OpenAI API, Anthropic API, Prompt Engineering, Agentic
+        Workflows, Cloudflare Workers AI]
+    data: [Kafka]
     other: []
+    ops: [Event-driven architecture, Feature stores, A/B testing]
+    web: [REST APIs]
+    databases: [PostgreSQL, Pinecone, Weaviate, pgvector]
   is_customer_facing: false
   is_management: false
 meta:

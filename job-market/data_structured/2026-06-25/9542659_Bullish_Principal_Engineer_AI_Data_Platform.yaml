@@ -43,19 +43,19 @@ position:
     BI and AI agent consumers
   - Compliance-aware data governance and regulatory reporting infrastructure
   skills:
-    genai: [GraphRAG, RAG, MCP (Model Context Protocol), Agent orchestration frameworks,
-      Conversational analytics / NL-to-SQL, Prompt engineering, Vector-augmented retrieval]
+    domains: [Knowledge graphs, Semantic modeling, Ontology-driven data architecture]
+    languages: [Python, SQL]
     ml: []
+    cloud: [GCP, Vertex AI, Cloud Composer, AlloyDB, Databricks]
+    genai: [GraphRAG, RAG, MCP, Agent orchestration frameworks, Conversational analytics
+        / NL-to-SQL, Prompt Engineering, Vector-augmented retrieval]
+    data: [RDF/OWL, Property graphs, Taxonomy design, dbt Semantic Layer, Looker,
+      AtScale, Google Knowledge Catalog/Dataplex, Collibra, Alation, Atlan]
+    other: []
+    ops: [CI/CD, Infrastructure as Code, Data quality frameworks, Observability]
     web: []
     databases: [Neo4j, TigerGraph, Amazon Neptune, BigQuery Graph, Qdrant, Pinecone,
       pgvector, BigQuery, Snowflake, Spanner]
-    data: [RDF/OWL, Property graphs, Taxonomy design, dbt Semantic Layer, Looker,
-      AtScale, Google Knowledge Catalog/Dataplex, Collibra, Alation, Atlan]
-    cloud: [GCP, Vertex AI, Cloud Composer, AlloyDB, Databricks]
-    ops: [CI/CD, Infrastructure as Code, Data quality frameworks, Observability]
-    languages: [Python, SQL]
-    domains: [Knowledge graphs, Semantic modeling, Ontology-driven data architecture]
-    other: []
   is_customer_facing: false
   is_management: true
 meta:

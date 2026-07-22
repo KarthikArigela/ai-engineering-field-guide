@@ -34,18 +34,18 @@ position:
   - Reinforcement learning pipeline infrastructure for production AI systems
   - Domain-specific model fine-tuning achieving near-SOTA performance at reduced cost
   skills:
-    genai: []
+    domains: [Reinforcement Learning]
+    languages: [Python, C++, Rust, Go]
     ml: [FlashAttention, CUDA, Triton, PyTorch, DeepSpeed, Megatron, Distributed training,
       Quantization, Speculative decoding]
-    web: []
-    databases: [Vector databases]
-    data: [Ray]
     cloud: [Multi-cloud orchestration]
-    ops: [vLLM, SGLang, Triton Inference Server, TGI, Kubernetes, Terraform, Pulumi,
-      Prometheus, Grafana, OpenTelemetry, LLM serving optimization, Multi-GPU orchestration]
-    languages: [Python, C++, Rust, Go]
-    domains: [Reinforcement learning]
+    genai: []
+    data: [Ray]
     other: []
+    ops: [vLLM, SGLang, Triton, TGI, Kubernetes, Terraform, Pulumi, Prometheus, Grafana,
+      OpenTelemetry, LLM serving optimization, Multi-GPU orchestration]
+    web: []
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

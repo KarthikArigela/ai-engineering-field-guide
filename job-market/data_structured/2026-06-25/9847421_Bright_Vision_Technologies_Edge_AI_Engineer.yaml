@@ -40,18 +40,18 @@ position:
   - On-device model updates and versioning for fleet-scale device management
   - Privacy-preserving on-device AI with secure execution and integrity verification
   skills:
-    genai: [LLM On-Device Inference]
-    ml: [TensorFlow Lite, Core ML, Model Quantization, Model Pruning, Knowledge Distillation,
+    domains: []
+    languages: [Python, C++]
+    ml: [TensorFlow Lite, Core ML, Quantization, Model Pruning, Knowledge Distillation,
       Model Compression, Hardware-Aware Optimization, Federated Learning]
-    web: []
-    databases: []
-    data: [Telemetry Pipelines]
     cloud: []
+    genai: [LLM On-Device Inference]
+    data: [Telemetry Pipelines]
+    other: [NPU/DSP Accelerators, Mobile SoCs, Secure Execution]
     ops: [ONNX Runtime, Edge AI Deployment, Cross-Platform Inference, Performance
         Profiling, Model Versioning and Rollback, Benchmarking]
-    languages: [Python, C++]
-    domains: []
-    other: [NPU/DSP Accelerators, Mobile SoCs, Secure Execution]
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

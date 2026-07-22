@@ -38,17 +38,17 @@ position:
   - ISR, C2, mission planning, and autonomy systems
   - Rapid R&D prototyping of AI/data-driven capabilities for government stakeholders
   skills:
-    genai: []
+    domains: [Computer Vision, Robotics]
+    languages: [Python, C++, Java, Go, SQL]
     ml: [PyTorch, TensorFlow, scikit-learn]
-    web: [FastAPI]
-    databases: [Postgres]
-    data: [Airflow, Dagster, Prefect, dbt, Databricks, Data pipelines, ETL/ELT]
     cloud: [SageMaker, AWS]
+    genai: []
+    data: [Airflow, Dagster, Prefect, dbt, Databricks, Data Pipelines]
+    other: [Simulation, Scientific computing]
     ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, DevSecOps, Model
         deployment and serving, Model evaluation and monitoring]
-    languages: [Python, C++, Java, Go, SQL]
-    domains: [Computer vision, Robotics]
-    other: [Simulation, Scientific computing]
+    web: [FastAPI]
+    databases: [PostgreSQL]
   is_customer_facing: true
   is_management: false
 meta:

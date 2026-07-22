@@ -41,19 +41,19 @@ position:
   - Compliant AI systems meeting financial services regulatory requirements
   - User-facing AI features for non-technical insurance professionals
   skills:
-    genai: [RAG, agents, tool use, multi-agent orchestration, human-in-the-loop, document
-        understanding, LLMs, fine-tuning, LoRA, PEFT, hallucination checks, grounding]
-    ml: []
-    web: [Node.js, API design, REST, connector framework, rate-limiting]
-    databases: []
-    data: [data modeling]
-    cloud: [auth]
-    ops: [vLLM, TensorRT-LLM, quantization, model routing, model gateway, on-premise
-        deployment, evaluation harnesses, observability, containerization, CI/CD,
-      infrastructure-as-code, auditability, GPU capacity planning, DevOps]
-    languages: [TypeScript, Python, Go]
     domains: [model risk management]
+    languages: [TypeScript, Python, Go]
+    ml: []
+    cloud: [auth]
+    genai: [RAG, AI Agents, Function Calling, Agentic Workflows, human-in-the-loop,
+      document understanding, LLMs, Fine-Tuning, LoRA, hallucination checks, grounding]
+    data: [Data Modeling]
     other: []
+    ops: [vLLM, TensorRT-LLM, quantization, model routing, model gateway, on-premise
+        deployment, evaluation harnesses, Observability, containerization, CI/CD,
+      infrastructure-as-code, auditability, GPU capacity planning, DevOps]
+    web: [Node.js, APIs, REST, connector framework, rate-limiting]
+    databases: []
   is_customer_facing: false
   is_management: true
 meta:

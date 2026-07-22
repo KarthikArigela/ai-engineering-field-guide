@@ -32,17 +32,17 @@ position:
   - Integrating LLM and generative AI capabilities into packaging software products
   - Providing model training, fine-tuning, and deployment infrastructure
   skills:
-    genai: [LangChain, LlamaIndex, RAG, Prompt orchestration]
+    domains: []
+    languages: [Python]
     ml: [Hugging Face]
+    cloud: [SageMaker, AWS ECS/EKS, AWS Lambda, AWS Step Functions]
+    genai: [LangChain, LlamaIndex, RAG, Prompt orchestration]
+    data: [Ray, Feature stores]
+    other: []
+    ops: [Terraform, CloudFormation, Docker, Kubernetes, MLflow, Kubeflow, Model Deployment,
+      CI/CD, Infrastructure-as-code, GitHub Actions, ArgoCD]
     web: []
     databases: [FAISS, Pinecone, Weaviate]
-    data: [Ray, Feature stores]
-    cloud: [AWS SageMaker, AWS ECS/EKS, AWS Lambda, AWS Step Functions]
-    ops: [Terraform, CloudFormation, Docker, Kubernetes, MLflow, Kubeflow, Model serving,
-      CI/CD, Infrastructure-as-code, GitHub Actions, Argo]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

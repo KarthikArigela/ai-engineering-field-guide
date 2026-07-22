@@ -34,21 +34,20 @@ position:
   - Agentic AI workflows with tools and function calling
   - Cloud-native ML services and model deployment platforms
   skills:
+    domains: []
+    languages: [Python, Java, SQL]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, DJL, ONNX Runtime, MLlib]
+    cloud: [AWS, GCP, Azure, Vertex AI, SageMaker, Azure ML]
     genai: [LangChain, LangGraph, LangChain4j, RAG, CrewAI, AutoGen, Semantic Kernel,
-      Spring AI, MCP, LlamaIndex, LLM fine-tuning, Prompt engineering, Agents, Function
-        calling]
-    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, DJL, ONNX Runtime,
-      MLlib]
+      Spring AI, MCP, LlamaIndex, Fine-Tuning, Prompt Engineering, AI Agents, Function
+        Calling]
+    data: [Spark, Databricks, Kafka]
+    other: []
+    ops: [MLflow, DVC, Docker, Kubernetes, Helm, KServe, Seldon Core, CI/CD, Terraform,
+      OpenTelemetry, vLLM, Ray Serve, Langfuse, TruLens, Istio, Linkerd]
     web: [FastAPI, Flask, REST, gRPC, Spring Boot, Quarkus, Micronaut, Vert.x, Netty]
     databases: [PostgreSQL, MongoDB, Cassandra, Redis, Elasticsearch, OpenSearch,
       pgvector, Pinecone, Weaviate, Milvus, Qdrant, Chroma]
-    data: [Spark, Databricks, Kafka]
-    cloud: [AWS, GCP, Azure, Vertex AI, SageMaker, Azure ML]
-    ops: [MLflow, DVC, Docker, Kubernetes, Helm, KServe, Seldon Core, CI/CD, Terraform,
-      OpenTelemetry, vLLM, Ray Serve, Langfuse, TruLens, Istio, Linkerd]
-    languages: [Python, Java, SQL]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: true
 meta:

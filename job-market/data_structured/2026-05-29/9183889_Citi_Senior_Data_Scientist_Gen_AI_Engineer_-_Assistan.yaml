@@ -40,22 +40,22 @@ position:
     reduction
   - Document processing and information extraction from financial and enterprise sources
   skills:
-    genai: [Hugging Face Transformers, LangChain, LlamaIndex, Semantic Kernel, LangGraph,
-      CrewAI, AutoGen, RAG, retrieval-augmented generation, prompt engineering, chain-of-thought,
-      ReAct, few-shot learning, zero-shot learning, function calling, multi-agent
-        orchestration, red-teaming, GraphRAG]
-    ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow, Keras, quantization,
+    domains: [NLP]
+    languages: [Python]
+    ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow, Keras, Quantization,
       model distillation]
-    web: [FastAPI, REST, WebSocket]
-    databases: [Pinecone, Weaviate, Milvus, Qdrant, pgvector, ChromaDB, Neo4j]
+    cloud: [AWS, AWS Bedrock, SageMaker, Azure, Azure OpenAI, Azure AI Foundry, Azure
+        ML, GCP, Vertex AI, Gemini API]
+    genai: [Hugging Face Transformers, LangChain, LlamaIndex, Semantic Kernel, LangGraph,
+      CrewAI, AutoGen, RAG, Prompt Engineering, chain-of-thought, ReAct, few-shot
+        learning, zero-shot learning, Function Calling, Agentic Workflows, red-teaming,
+      GraphRAG]
     data: [NumPy, Pandas, SciPy]
-    cloud: [AWS, Amazon Bedrock, SageMaker, Azure, Azure OpenAI Service, Azure AI
-        Studio, Azure ML, GCP, Vertex AI, Gemini API]
+    other: []
     ops: [vLLM, TGI, ONNX Runtime, RAGAS, DeepEval, LangSmith, Arize Phoenix, Weights
         & Biases, MLflow, Docker, Kubernetes, GitHub Actions, GitLab CI]
-    languages: [Python]
-    domains: [NLP]
-    other: []
+    web: [FastAPI, REST, WebSockets]
+    databases: [Pinecone, Weaviate, Milvus, Qdrant, pgvector, Chroma, Neo4j]
   is_customer_facing: false
   is_management: true
 meta:

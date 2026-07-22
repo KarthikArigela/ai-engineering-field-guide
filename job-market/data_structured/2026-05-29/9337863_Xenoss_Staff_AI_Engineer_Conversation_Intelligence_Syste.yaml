@@ -37,18 +37,18 @@ position:
   - Prediction layers combining conversation signals with CRM, transaction, and customer
     profile data
   skills:
-    genai: [LLM-based extraction, RAG, Fine-tuning, LoRA/QLoRA, PEFT methods, Open-weight
-        LLM evaluation, Knowledge-grounded response generation]
+    domains: [NLP, Conversational AI]
+    languages: [Python]
     ml: [PyTorch, Hugging Face, Classical ML, Sequence modeling, Probability calibration,
-      Model evaluation]
+      Model Evaluation]
+    cloud: []
+    genai: [LLM-based extraction, RAG, Fine-Tuning, LoRA/QLoRA, PEFT methods, Open-weight
+        LLM evaluation, Knowledge-grounded response generation]
+    data: [Dataset annotation workflows, Golden dataset design]
+    other: []
+    ops: [MLOps, Model Monitoring, Model governance]
     web: []
     databases: []
-    data: [Dataset annotation workflows, Golden dataset design]
-    cloud: []
-    ops: [MLOps, Model monitoring, Model governance]
-    languages: [Python]
-    domains: [NLP, Conversational AI]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

@@ -38,16 +38,17 @@ position:
   - AI-powered knowledge discovery that respects access control permissions and security
     requirements
   skills:
-    genai: [embeddings, RAG]
-    ml: []
-    web: []
-    databases: [FAISS, pgvector, Milvus, relational databases]
-    data: [document processing pipelines, ETL, ELT, Airflow, Prefect]
-    cloud: [cloud object storage]
-    ops: [CI/CD, Docker, GitHub Actions, IaC, secrets management, monitoring]
-    languages: [Python, SQL, C++, C#, Java, Go]
     domains: []
+    languages: [Python, SQL, C++, C#, Java, Go]
+    ml: []
+    cloud: [cloud object storage]
+    genai: [Embeddings, RAG]
+    data: [document processing pipelines, Data Pipelines, Airflow, Prefect]
     other: []
+    ops: [CI/CD, Docker, GitHub Actions, Infrastructure as Code, secrets management,
+      Monitoring]
+    web: []
+    databases: [FAISS, pgvector, Milvus, Relational Databases]
   is_customer_facing: false
   is_management: false
 meta:

@@ -34,17 +34,16 @@ position:
   - Data-driven conversational AI systems for customer support or business operations
   - RAG-based applications for domain-specific knowledge querying
   skills:
-    genai: [LLMs, Retrieval-Augmented Generation, Prompt Engineering, LangChain, LangGraph,
-      OpenAI API]
-    ml: [Fine-Tuning, HuggingFace]
-    web: [FastAPI, REST APIs]
-    databases: [Vector Databases, NoSQL Databases]
-    data: [Pandas, NumPy]
-    cloud: [Cloud Deployment]
-    ops: [Pytest, Docker, CI/CD]
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: [Fine-Tuning, Hugging Face]
+    cloud: [Cloud Deployment]
+    genai: [LLMs, RAG, Prompt Engineering, LangChain, LangGraph, OpenAI API]
+    data: [Pandas, NumPy]
     other: []
+    ops: [Pytest, Docker, CI/CD]
+    web: [FastAPI, REST APIs]
+    databases: [Vector Databases, NoSQL]
   is_customer_facing: false
   is_management: false
 meta:

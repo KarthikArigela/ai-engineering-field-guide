@@ -42,17 +42,17 @@ position:
   - Data analysis and content generation agents tailored to specific enterprise domains
   - Human-in-the-loop workflows for continuous agent improvement and feedback collection
   skills:
-    genai: [LangChain, LlamaIndex, OpenAI API, RAG, prompt engineering, AI agents,
-      multi-agent systems, MCP tools]
-    ml: [HuggingFace, fine-tuning, embeddings]
-    web: [REST APIs]
-    databases: [vector databases, semantic search]
-    data: [ETL pipelines, data pipelines]
-    cloud: [AWS, GCP, Azure]
-    ops: [Docker, Kubernetes, CI/CD, Terraform, Infrastructure as Code]
-    languages: [Python]
     domains: []
-    other: [system design]
+    languages: [Python]
+    ml: [Hugging Face, Fine-Tuning, Embeddings]
+    cloud: [AWS, GCP, Azure]
+    genai: [LangChain, LlamaIndex, OpenAI API, RAG, Prompt Engineering, AI Agents,
+      Multi-Agent Systems, MCP tools]
+    data: [Data Pipelines]
+    other: [System Design]
+    ops: [Docker, Kubernetes, CI/CD, Terraform, Infrastructure as Code]
+    web: [REST APIs]
+    databases: [Vector Databases, Semantic Search]
   is_customer_facing: true
   is_management: false
 meta:

@@ -42,18 +42,18 @@ position:
   - AI-driven process transformation for industries like life sciences, retail, financial
     services, and manufacturing
   skills:
-    genai: [LangChain, LlamaIndex, RAG pipelines, Multi-agent workflows, Prompt engineering,
-      Context engineering, Function calling / tool use, MCP (Model Context Protocol),
-      LLM guardrails, Agent evaluation and observability, Anthropic Claude API]
-    ml: []
-    web: [API development]
-    databases: [Snowflake, Pinecone]
-    data: [dbt, Fivetran]
-    cloud: [AWS Bedrock, AWS SageMaker, Azure AI/ML, GCP, Snowflake Cortex]
-    ops: [Docker, Kubernetes, CI/CD, LLMOps / AgentOps, Automated testing]
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: []
+    cloud: [AWS Bedrock, SageMaker, Azure AI/ML, GCP, Snowflake Cortex]
+    genai: [LangChain, LlamaIndex, RAG, Multi-agent workflows, Prompt Engineering,
+      Context engineering, Function calling / tool use, MCP, LLM guardrails, Agent
+        evaluation and observability, Anthropic Claude API]
+    data: [dbt, Fivetran]
     other: []
+    ops: [Docker, Kubernetes, CI/CD, LLMOps / AgentOps, Automated testing]
+    web: [APIs]
+    databases: [Snowflake, Pinecone]
   is_customer_facing: true
   is_management: false
 meta:

@@ -32,19 +32,19 @@ position:
   - RAG-based enterprise search and retrieval systems
   - NLP-driven text classification, entity extraction, and topic modeling
   skills:
-    genai: [LoRA, QLoRA, Adapter/Prefix Tuning, Prompt Engineering, RAG (Retrieval-Augmented
-        Generation), LangChain, LlamaIndex, LangGraph, CrewAI, AutoGen, Hugging Face,
-      OpenAI API, Gemini API, Claude API, Hybrid Search, Multi-vector Retrieval]
-    ml: [PyTorch, TensorFlow, Keras, Model Quantization, Model Compression, DeepSpeed,
-      Distributed Training, Transfer Learning]
-    web: [API Development]
-    databases: []
-    data: [Data Preprocessing, Feature Engineering]
-    cloud: [AWS]
-    ops: [vLLM, GPTQ, Docker, Kubernetes, CI/CD]
-    languages: [Python]
     domains: [NLP]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Keras, Quantization, Model Compression, DeepSpeed, Distributed
+        Training, Transfer Learning]
+    cloud: [AWS]
+    genai: [LoRA, Adapter/Prefix Tuning, Prompt Engineering, RAG, LangChain, LlamaIndex,
+      LangGraph, CrewAI, AutoGen, Hugging Face, OpenAI API, Gemini, Anthropic API,
+      Hybrid Search, Multi-vector Retrieval]
+    data: [Data Preprocessing, Feature Engineering]
     other: []
+    ops: [vLLM, GPTQ, Docker, Kubernetes, CI/CD]
+    web: [APIs]
+    databases: []
   is_customer_facing: false
   is_management: true
 meta:

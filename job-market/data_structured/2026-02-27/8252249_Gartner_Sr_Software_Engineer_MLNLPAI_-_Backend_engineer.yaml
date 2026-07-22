@@ -39,17 +39,17 @@ position:
   - Enterprise AI integration with business applications
   - Retrieval-augmented generation (RAG) implementations
   skills:
-    genai: [LLMs, Generative AI, Prompt engineering, LLM fine-tuning, Model Context
-        Protocol, AI agents, Conversational AI, Chatbots, RAG]
-    ml: []
-    web: [FastAPI, Flask, API development, Microservices]
-    databases: [Vector databases]
-    data: [ETL/ELT, Airflow, Prefect]
-    cloud: [AWS, Azure, SageMaker, Bedrock]
-    ops: [CI/CD, Azure DevOps, AWS DevOps, MLflow]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: []
+    cloud: [AWS, Azure, SageMaker, AWS Bedrock]
+    genai: [LLMs, Generative AI, Prompt Engineering, Fine-Tuning, MCP, AI Agents,
+      Conversational AI, Chatbots, RAG]
+    data: [Data Pipelines, Airflow, Prefect]
     other: []
+    ops: [CI/CD, Azure DevOps, AWS DevOps, MLflow]
+    web: [FastAPI, Flask, APIs, Microservices]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

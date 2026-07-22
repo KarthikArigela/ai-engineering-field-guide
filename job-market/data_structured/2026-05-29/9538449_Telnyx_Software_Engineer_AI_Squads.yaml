@@ -36,18 +36,18 @@ position:
   - Real-time low-latency AI workloads
   - Developer APIs for AI-powered products
   skills:
-    genai: [RAG, Retrieval Augmented Generation]
-    ml: [PyTorch, Transformers, DeepSpeed, LLM optimization, quantization, speculative
-        decoding]
-    web: [microservices, API design, REST, GraphQL, FastAPI]
-    databases: [vector databases, embeddings]
-    data: []
-    cloud: []
-    ops: [Docker, Kubernetes, CI/CD, Prometheus, Jaeger, observability, monitoring,
-      vLLM, Ray, Ray Core, Ray Serve, Ray Train]
-    languages: [Python, Go, Rust, async programming, concurrency, parallel execution]
     domains: []
+    languages: [Python, Go, Rust, asyncio, concurrency, parallel execution]
+    ml: [PyTorch, Transformers, DeepSpeed, LLM optimization, Quantization, speculative
+        decoding]
+    cloud: []
+    genai: [RAG]
+    data: []
     other: []
+    ops: [Docker, Kubernetes, CI/CD, Prometheus, Jaeger, Observability, Monitoring,
+      vLLM, Ray, Ray Core, Ray Serve, Ray Train]
+    web: [Microservices, APIs, REST, GraphQL, FastAPI]
+    databases: [Vector Databases, embeddings]
   is_customer_facing: false
   is_management: false
 meta:

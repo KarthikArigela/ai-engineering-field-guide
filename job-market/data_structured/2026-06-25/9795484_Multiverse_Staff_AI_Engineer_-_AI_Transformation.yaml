@@ -42,19 +42,18 @@ position:
   - Agent-accessible integration layer connecting AI agents to existing platform,
     content, and business systems
   skills:
-    genai: [Multi-agent orchestration, MCP (Model Context Protocol), Prompt engineering,
-      RAG / Retrieval strategies, LLM integration, Agent tool design, Context management,
-      Guardrails, Model routing and selection, Token economics / cost optimisation,
-      Claude Code]
-    ml: []
-    web: [FastAPI, REST APIs, React]
-    databases: [Postgres, Vector databases]
-    data: [ETL / Data pipelines]
-    cloud: [AWS]
-    ops: [Docker, Kubernetes, CI/CD, LangSmith]
-    languages: [Python, TypeScript, SQL]
     domains: [EdTech / Regulated content domain]
+    languages: [Python, TypeScript, SQL]
+    ml: []
+    cloud: [AWS]
+    genai: [Agentic Workflows, MCP, Prompt Engineering, RAG / Retrieval strategies,
+      LLMs, Agent tool design, Context management, Guardrails, Model routing and selection,
+      Token economics / cost optimisation, Claude Code]
+    data: [ETL / Data pipelines]
     other: []
+    ops: [Docker, Kubernetes, CI/CD, LangSmith]
+    web: [FastAPI, REST APIs, React]
+    databases: [PostgreSQL, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

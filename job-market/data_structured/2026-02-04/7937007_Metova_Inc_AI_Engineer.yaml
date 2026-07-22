@@ -32,18 +32,17 @@ position:
   - AI-powered solutions for accounting, finance, payroll, billing, or ERP domains
   - Intelligent agent architectures that integrate with existing business systems
   skills:
-    genai: [LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, RAG architectures,
-      MCP (Model Context Protocol), A2A (Agent-to-Agent) protocols, autonomous agents,
-      co-pilots]
-    ml: []
-    web: [FastAPI, asyncio, Pydantic, asynchronous architectures]
-    databases: [vector stores, Chroma, Weaviate, Pinecone]
-    data: []
-    cloud: []
-    ops: [CI/CD, Docker, Kubernetes, agent monitoring, automated retraining]
-    languages: [Python, Golang, Java, C#, .NET]
     domains: []
+    languages: [Python, Go, Java, C#, .NET]
+    ml: []
+    cloud: []
+    genai: [LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, RAG, MCP, A2A
+        (Agent-to-Agent) protocols, autonomous agents, co-pilots]
+    data: []
     other: []
+    ops: [CI/CD, Docker, Kubernetes, agent monitoring, automated retraining]
+    web: [FastAPI, asyncio, Pydantic, asynchronous architectures]
+    databases: [Vector Databases, Chroma, Weaviate, Pinecone]
   is_customer_facing: false
   is_management: false
 meta:

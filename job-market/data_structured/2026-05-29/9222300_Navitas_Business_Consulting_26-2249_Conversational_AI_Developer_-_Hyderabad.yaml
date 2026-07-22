@@ -38,17 +38,18 @@ position:
   - Integration with CRMs, ERPs, and ticketing platforms for streamlined workflows
   - Voice AI applications and conversational experiences with safety guardrails
   skills:
-    genai: [LangChain, LlamaIndex, Semantic Kernel, Dialogflow, Amazon Lex, Azure
-        Bot Services, Rasa, GPT-4, Claude, Llama, Gemini, prompt engineering, RAG]
-    ml: [spaCy, Hugging Face Transformers, NLTK, NER, intent classification, RLHF]
-    web: [RESTful APIs, webhooks]
-    databases: [Pinecone, Weaviate, ChromaDB]
-    data: []
-    cloud: [Azure AI Foundry, AWS Lambda, Azure Functions, GCP Cloud Run]
-    ops: [Docker, Kubernetes, CI/CD, LangSmith, Weights & Biases, Arize AI]
-    languages: [Python, JavaScript, Node.js]
     domains: []
+    languages: [Python, JavaScript, Node.js]
+    ml: [spaCy, Hugging Face, NLTK, NER, intent classification, RLHF]
+    cloud: [Azure AI Foundry, AWS Lambda, Azure Functions, GCP Cloud Run]
+    genai: [LangChain, LlamaIndex, Semantic Kernel, Dialogflow, Amazon Lex, Azure
+        Bot Services, Rasa, GPT-4, Anthropic API, Llama, Gemini, Prompt Engineering,
+      RAG]
+    data: []
     other: []
+    ops: [Docker, Kubernetes, CI/CD, LangSmith, Weights & Biases, Arize AI]
+    web: [REST APIs, webhooks]
+    databases: [Pinecone, Weaviate, Chroma]
   is_customer_facing: false
   is_management: false
 meta:

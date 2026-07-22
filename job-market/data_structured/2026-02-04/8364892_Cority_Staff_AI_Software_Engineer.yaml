@@ -40,19 +40,18 @@ position:
   - Analytics agents for data processing and insights generation
   - Scheduling agents for task and resource management
   skills:
-    genai: [LangChain, LlamaIndex, OpenAI Assistants, MCP (Model Context Protocol),
-      RAG, agents, function calling, prompt engineering, OpenAI API, Anthropic API,
-      Gemini, Llama]
-    ml: []
-    web: [Web APIs, Microservices]
-    databases: [Pinecone, Weaviate, Chroma, PGVector, Postgres, SQL Server, MongoDB,
-      Entity Framework, Dapper]
-    data: [SQS, Google Queues, RabbitMQ, Kafka]
-    cloud: [AWS, Azure]
-    ops: [CI/CD, Docker]
-    languages: [Python, .NET Core, .NET Framework, Node, C#, SQL]
     domains: []
+    languages: [Python, .NET Core, .NET Framework, Node, C#, SQL]
+    ml: []
+    cloud: [AWS, Azure]
+    genai: [LangChain, LlamaIndex, OpenAI Assistants, MCP, RAG, AI Agents, Function
+        Calling, Prompt Engineering, OpenAI API, Anthropic API, Gemini, Llama]
+    data: [SQS, Google Queues, RabbitMQ, Kafka]
     other: []
+    ops: [CI/CD, Docker]
+    web: [Web APIs, Microservices]
+    databases: [Pinecone, Weaviate, Chroma, pgvector, PostgreSQL, SQL Server, MongoDB,
+      Entity Framework, Dapper]
   is_customer_facing: false
   is_management: false
 meta:

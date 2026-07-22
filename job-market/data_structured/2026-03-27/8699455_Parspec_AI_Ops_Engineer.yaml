@@ -40,19 +40,19 @@ position:
   - AI-powered document processing at scale
   - Construction product data organization and searchability
   skills:
-    genai: [LiteLLM, Portkey]
+    domains: []
+    languages: [Python, asyncio]
     ml: []
-    web: [FastAPI]
-    databases: [Pinecone, PGVector, Weaviate]
+    cloud: [SageMaker, AWS Bedrock, AWS X-Ray, AWS EC2, AWS Lambda, AWS S3, EKS, AWS
+        Step Functions, API Gateway, AWS EventBridge, SNS, AWS KMS, AWS VPC, CloudTrail,
+      AWS Trainium]
+    genai: [LiteLLM, Portkey]
     data: [SQS, Kafka]
-    cloud: [SageMaker, AWS Bedrock, AWS X-Ray, AWS EC2, AWS Lambda, AWS S3, AWS EKS,
-      AWS Step Functions, AWS API Gateway, AWS EventBridge, SNS, AWS KMS, AWS VPC,
-      CloudTrail, AWS Trainium]
+    other: []
     ops: [vLLM, Ollama, Kubernetes, MLflow, Kubeflow, OpenTelemetry, Prometheus, Grafana,
       Terraform, CloudFormation, Docker, GitHub Actions, ArgoCD, ELK Stack]
-    languages: [Python, asyncio]
-    domains: []
-    other: []
+    web: [FastAPI]
+    databases: [Pinecone, pgvector, Weaviate]
   is_customer_facing: false
   is_management: false
 meta:

@@ -33,17 +33,17 @@ position:
   - LLM-powered copilots and agents for internal workflows
   - Production GenAI systems with hallucination detection and safety filtering
   skills:
+    domains: [NLP]
+    languages: [Python, SQL]
+    ml: []
+    cloud: [AWS Bedrock, Azure OpenAI, Azure ML, AWS, Azure]
     genai: [Prompt Engineering, RAG, LLM-powered agents, Prompt chaining, Embeddings,
       LLM evaluation frameworks, Hallucination detection, Safety filtering]
-    ml: []
-    web: []
-    databases: [Databricks Vector Search, FAISS, Vector databases]
-    data: [Databricks, Apache Spark, Delta Lake]
-    cloud: [AWS Bedrock, Azure OpenAI, Azure Machine Learning, AWS, Azure]
-    ops: [Azure DevOps, GitHub, CI/CD]
-    languages: [Python, SQL]
-    domains: [NLP]
+    data: [Databricks, Spark, Delta Lake]
     other: []
+    ops: [Azure DevOps, GitHub, CI/CD]
+    web: []
+    databases: [Databricks Vector Search, FAISS, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

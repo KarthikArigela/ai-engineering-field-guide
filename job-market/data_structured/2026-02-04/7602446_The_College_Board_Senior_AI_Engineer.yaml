@@ -35,17 +35,17 @@ position:
   - Intelligent dashboards and checklists to help students discover and pursue educational
     paths
   skills:
-    genai: [OpenAI, Anthropic, LLM fine-tuning, prompt engineering, few-shot learning,
-      RAG, embeddings]
+    domains: [NLP]
+    languages: [TypeScript, JavaScript, Python, Node.js]
     ml: []
+    cloud: [AWS Lambda, SNS, SQS, AWS S3, Step Functions, IAM, KMS, API Gateway, CloudWatch]
+    genai: [OpenAI API, Anthropic API, Fine-Tuning, Prompt Engineering, few-shot learning,
+      RAG, Embeddings]
+    data: [event-driven messaging, asynchronous programming]
+    other: []
+    ops: [CI/CD]
     web: [FastAPI, Flask, Django, React, Next.js]
     databases: [Pinecone, AWS OpenSearch, DynamoDB, PostgreSQL, MySQL, Redshift]
-    data: [event-driven messaging, asynchronous programming]
-    cloud: [AWS Lambda, SNS, SQS, S3, Step Functions, IAM, KMS, API Gateway, CloudWatch]
-    ops: [CI/CD]
-    languages: [TypeScript, JavaScript, Python, Node.js]
-    domains: [NLP]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

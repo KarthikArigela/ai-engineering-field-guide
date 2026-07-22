@@ -47,17 +47,17 @@ position:
   - AI-powered customer support with retrieval, grounding, and safety guardrails for
     trustworthy interactions
   skills:
-    genai: [LangGraph, CrewAI, AWS Bedrock, AWS Bedrock Agents, AWS Bedrock Guardrails,
-      RAG, retrieval, embeddings, prompt engineering, agentic frameworks]
-    ml: []
-    web: [FastAPI]
-    databases: [vector DBs, pgvector, OpenSearch k-NN]
-    data: [ETL, knowledge graphs]
-    cloud: [AWS, AWS SageMaker, AWS Lambda, AWS S3, AWS Redshift, AWS VPC]
-    ops: [Git, CI/CD, IaC, observability]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: []
+    cloud: [AWS, SageMaker, AWS Lambda, AWS S3, AWS Redshift, AWS VPC]
+    genai: [LangGraph, CrewAI, AWS Bedrock, AWS Bedrock Agents, AWS Bedrock Guardrails,
+      RAG, retrieval, Embeddings, Prompt Engineering, agentic frameworks]
+    data: [Data Pipelines, knowledge graphs]
     other: []
+    ops: [Git, CI/CD, Infrastructure as Code, Observability]
+    web: [FastAPI]
+    databases: [Vector Databases, pgvector, OpenSearch k-NN]
   is_customer_facing: true
   is_management: false
 meta:

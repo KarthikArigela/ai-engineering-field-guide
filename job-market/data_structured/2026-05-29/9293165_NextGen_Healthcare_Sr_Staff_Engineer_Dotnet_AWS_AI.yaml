@@ -44,17 +44,17 @@ position:
     architectures
   - Event-driven healthcare data processing and real-time interoperability workflows
   skills:
-    genai: []
-    ml: []
-    web: [Web API, RESTful services, Kong API Gateway, REST, GraphQL, CQRS, WCF, WPF,
-      API authentication, API authorization]
-    databases: [SQL Server, relational database design]
-    data: [event-driven development, Kafka, XML, XPATH]
-    cloud: [AWS, AWS ECS, AWS EKS, AWS Lambda, AWS S3]
-    ops: [tracing, monitoring]
+    domains: [HL7 v2, Healthcare Standards, CDA, IHE profiles]
     languages: [C#, .NET, .NET Core]
-    domains: [HL7 v2, FHIR, CDA, IHE profiles]
+    ml: []
+    cloud: [AWS, ECS, EKS, AWS Lambda, AWS S3]
+    genai: []
+    data: [event-driven development, Kafka, XML, XPATH]
     other: []
+    ops: [tracing, Monitoring]
+    web: [Web API, REST, Kong API Gateway, GraphQL, CQRS, WCF, WPF, API authentication,
+      API authorization]
+    databases: [SQL Server, relational database design]
   is_customer_facing: false
   is_management: true
 meta:

@@ -34,18 +34,19 @@ position:
   - Search, retrieval, and recommendation system for case-related information
   - Safety and compliance monitoring with red-teaming and regression testing
   skills:
-    genai: [LangChain, LangGraph, OpenAI API, Anthropic API, LLM agents, tool use,
-      MCP, RAG, vector search, guardrails, multi-agent systems, prompt engineering]
+    domains: []
+    languages: [Python, JavaScript, TypeScript, Go]
     ml: [PyTorch]
-    web: [FastAPI, Express, REST, SSE, JWTs]
-    databases: [pgvector, Postgres, Redis, ClickHouse, BigQuery]
-    data: [Prefect, Ray]
     cloud: [AWS]
+    genai: [LangChain, LangGraph, OpenAI API, Anthropic API, LLM agents, Function
+        Calling, MCP, RAG, vector search, Guardrails, Multi-Agent Systems, Prompt
+        Engineering]
+    data: [Prefect, Ray]
+    other: []
     ops: [vLLM, TensorRT, NVIDIA Triton, Terraform, Docker, Kubernetes, Prometheus,
       Grafana, OpenTelemetry, LangSmith, Langfuse, Temporal, Hatchet]
-    languages: [Python, JavaScript, TypeScript, Golang]
-    domains: []
-    other: []
+    web: [FastAPI, Express, REST, SSE, JWTs]
+    databases: [pgvector, PostgreSQL, Redis, ClickHouse, BigQuery]
   is_customer_facing: false
   is_management: false
 meta:

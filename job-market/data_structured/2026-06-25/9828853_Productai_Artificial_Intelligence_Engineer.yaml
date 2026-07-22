@@ -38,18 +38,18 @@ position:
   - Long-lived autonomous agent runs (1-4 hours) for business process automation
   - Verified truth systems that prevent generative models from grading their own output
   skills:
-    genai: [AI agent systems, Agent orchestration, Prompt engineering, Model routing,
-      LLM APIs, Token economics]
+    domains: []
+    languages: [Python]
     ml: []
-    web: []
-    databases: []
-    data: [Data pipelines, Document indexing / knowledge base]
     cloud: []
+    genai: [AI agent systems, Agentic Workflows, Prompt Engineering, Model routing,
+      LLMs, Token economics]
+    data: [Data Pipelines, Document indexing / knowledge base]
+    other: [Verification system design, System Design]
     ops: [Evaluation harnesses, Regression testing, CI/CD, Monitoring and alerting,
       Liveness checks]
-    languages: [Python]
-    domains: []
-    other: [Verification system design, System architecture]
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

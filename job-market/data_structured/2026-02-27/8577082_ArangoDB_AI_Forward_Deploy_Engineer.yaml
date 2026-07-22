@@ -32,18 +32,18 @@ position:
   - Document intake pipeline with PII detection, redaction, and structured extraction
   - Fine-tuned classification and routing models to reduce human triage by 40%+
   skills:
-    genai: [OpenAI APIs, Anthropic APIs, Llama, LangChain, LlamaIndex, RAG, function
-        calling, LoRA, PEFT]
+    domains: []
+    languages: [Python, TypeScript]
     ml: [Hugging Face, DPO]
-    web: [FastAPI, gRPC, React, Next.js]
-    databases: [FAISS, pgvector, Pinecone, Weaviate, Postgres, BigQuery, Snowflake]
-    data: [Ray, Airflow, Kafka]
     cloud: []
+    genai: [OpenAI API, Anthropic API, Llama, LangChain, LlamaIndex, RAG, Function
+        Calling, LoRA]
+    data: [Ray, Airflow, Kafka]
+    other: []
     ops: [vLLM, TensorRT-LLM, MLflow, Weights & Biases, Ragas, promptfoo, Docker,
       Kubernetes, Terraform, GitHub Actions, OpenTelemetry, Prometheus, Grafana]
-    languages: [Python, TypeScript]
-    domains: []
-    other: []
+    web: [FastAPI, gRPC, React, Next.js]
+    databases: [FAISS, pgvector, Pinecone, Weaviate, PostgreSQL, BigQuery, Snowflake]
   is_customer_facing: true
   is_management: false
 meta:

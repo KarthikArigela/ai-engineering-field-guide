@@ -37,19 +37,18 @@ position:
   - GenAI-powered productivity tools and coding assistants for internal teams
   - Citizen developer tooling enabling broader teams to build on AI capabilities
   skills:
-    genai: [LangChain, LangGraph, AWS Strands, Google ADK, RAG, LLM Orchestration,
-      Agent Workflows, Prompt Engineering, MCP (Model Context Protocol), Claude, Gemini
-        Code]
-    ml: []
-    web: [Microservices, REST APIs]
-    databases: [Pinecone, Weaviate, Neo4j, Snowflake, Oracle]
-    data: []
-    cloud: [AWS Bedrock, Google Vertex AI, AWS EC2, AWS S3, AWS IAM]
-    ops: [Docker, Kubernetes, CI/CD]
-    languages: [Python, TypeScript, Node.js]
     domains: []
+    languages: [Python, TypeScript, Node.js]
+    ml: []
+    cloud: [AWS Bedrock, Vertex AI, AWS EC2, AWS S3, IAM]
+    genai: [LangChain, LangGraph, AWS Strands, Google ADK, RAG, LLMs, Agent Workflows,
+      Prompt Engineering, MCP, Anthropic API, Gemini Code]
+    data: []
     other: [Salesforce Integration, Workday Integration, Data Governance, Responsible
         AI, Cursor]
+    ops: [Docker, Kubernetes, CI/CD]
+    web: [Microservices, REST APIs]
+    databases: [Pinecone, Weaviate, Neo4j, Snowflake, Oracle]
   is_customer_facing: false
   is_management: false
 meta:

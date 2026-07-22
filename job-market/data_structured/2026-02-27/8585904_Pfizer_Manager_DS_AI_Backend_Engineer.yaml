@@ -29,17 +29,17 @@ position:
   - AI-driven commercial process optimization at Pfizer
   - Enterprise AI solutions for marketing and business operations
   skills:
-    genai: [LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, OpenAI API, Anthropic
-        API, RAG, Tool calling, Prompt engineering]
-    ml: []
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Vector databases]
-    data: [Airflow, Temporal, Dagster, Prefect]
-    cloud: [Azure OpenAI]
-    ops: [Docker, CI/CD, vLLM, Ray Serve, TGI, Modal]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: []
+    cloud: [Azure OpenAI]
+    genai: [LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, OpenAI API, Anthropic
+        API, RAG, Function Calling, Prompt Engineering]
+    data: [Airflow, Temporal, Dagster, Prefect]
     other: [AI safety and guardrails]
+    ops: [Docker, CI/CD, vLLM, Ray Serve, TGI, Modal]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: true
 meta:

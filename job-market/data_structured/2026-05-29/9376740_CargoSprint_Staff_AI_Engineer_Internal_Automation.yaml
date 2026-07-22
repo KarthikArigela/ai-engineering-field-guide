@@ -31,16 +31,16 @@ position:
   - Deploy agents for process automation to reduce manual work hours and error rates
   - Connect agents to data systems for intelligent information retrieval and action
   skills:
-    genai: [LangChain, LangGraph, OpenAI API, Claude, RAG, agents, embeddings]
+    domains: []
+    languages: [Python]
     ml: []
+    cloud: []
+    genai: [LangChain, LangGraph, OpenAI API, Anthropic API, RAG, AI Agents, Embeddings]
+    data: []
+    other: []
+    ops: [Docker, Kubernetes, Pulumi, CI/CD, monitoring and alerting, Temporal]
     web: [FastAPI, REST APIs]
     databases: [PostgreSQL, pgvector]
-    data: []
-    cloud: []
-    ops: [Docker, Kubernetes, Pulumi, CI/CD, monitoring and alerting, Temporal]
-    languages: [Python]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

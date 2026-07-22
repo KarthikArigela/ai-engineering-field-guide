@@ -29,20 +29,20 @@ position:
   - Scaling model deployments and optimizing inference performance
   - Ensuring security and compliance for AI datasets and environments
   skills:
-    genai: []
+    domains: [NLP]
+    languages: []
     ml: []
-    web: []
-    databases: []
+    cloud: [AWS, EC2, ECS, EKS, AWS Lambda, AWS S3, EFS, FSx, VPC, Transit Gateway,
+      PrivateLink, Route 53, load balancers, IAM, KMS, Secrets Manager, GuardDuty,
+      Security Hub, SageMaker, AWS Bedrock, Batch, Step Functions, Fargate]
+    genai: []
     data: []
-    cloud: [AWS, EC2, ECS, EKS, Lambda, S3, EFS, FSx, VPC, Transit Gateway, PrivateLink,
-      Route 53, load balancers, IAM, KMS, Secrets Manager, GuardDuty, Security Hub,
-      SageMaker, Bedrock, Batch, Step Functions, Fargate]
+    other: []
     ops: [Terraform, AWS CDK, CloudFormation, Docker, Kubernetes, EKS, CloudWatch,
       OpenTelemetry, CircleCI, GitHub Actions, GitLab CI, CI/CD, Prometheus, Grafana,
       Linux]
-    languages: []
-    domains: [NLP]
-    other: []
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

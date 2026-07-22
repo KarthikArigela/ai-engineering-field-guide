@@ -38,22 +38,21 @@ position:
   - Enterprise document intelligence with OCR pipelines and structured extraction
   - Retrieval-augmented generation for financial operations and decision support
   skills:
-    genai: [LLM orchestration, Prompt engineering, Chain-of-thought reasoning, RAG,
-      Multi-agent systems, ReAct patterns, Agentic frameworks, Function calling /
-        tool-use, LangChain, CrewAI, Guardrails, Graph RAG, LoRA/QLoRA, RLHF, Azure
-        OpenAI, GPT-4o]
-    ml: [Fine-tuning, Embedding models, Sentence-transformers, NLP, OCR pipelines,
-      Document intelligence]
-    web: [FastAPI, Spring Boot, Angular, REST APIs, D3.js, ECharts, Pydantic]
-    databases: [PostgreSQL, Oracle, FAISS, Pinecone, Weaviate, Vector databases, Knowledge
-        graphs]
-    data: []
+    domains: [Capital markets domain knowledge]
+    languages: [Python, Java, TypeScript, SQL]
+    ml: [Fine-Tuning, Embeddings, Sentence-transformers, NLP, OCR pipelines, Document
+        intelligence]
     cloud: [AWS]
+    genai: [LLMs, Prompt Engineering, Chain-of-thought reasoning, RAG, Multi-Agent
+        Systems, ReAct patterns, Agentic frameworks, Function calling / tool-use,
+      LangChain, CrewAI, Guardrails, Graph RAG, LoRA/QLoRA, RLHF, Azure OpenAI, GPT-4o]
+    data: []
+    other: [Poetry, pytest, Evaluation frameworks]
     ops: [Docker, GitLab CI/CD, Artifactory, Observability / monitoring, Maven, Resilience4j,
       Hazelcast]
-    languages: [Python, Java, TypeScript, SQL]
-    domains: [Capital markets domain knowledge]
-    other: [Poetry, pytest, Evaluation frameworks]
+    web: [FastAPI, Spring Boot, Angular, REST APIs, D3.js, ECharts, Pydantic]
+    databases: [PostgreSQL, Oracle, FAISS, Pinecone, Weaviate, Vector Databases, Knowledge
+        Graphs]
   is_customer_facing: false
   is_management: true
 meta:

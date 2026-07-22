@@ -39,19 +39,19 @@ position:
   - Tool-augmented reasoning workflows integrating enterprise APIs and legacy systems
   - Specialized AI agents for domain-specific business functions and data analysis
   skills:
-    genai: [LangGraph, CrewAI, LlamaIndex, Haystack, RAG, Multi-agent systems, Agent
-        orchestration, Prompt engineering, Google AI SDKs, Vertex AI Agent Builder]
+    domains: []
+    languages: [Python, Go]
     ml: []
-    web: [FastAPI, Node.js]
-    databases: [Vertex AI Vector Search, Azure AI Search, BigQuery, Pinecone, Weaviate]
-    data: [Pub/Sub, Azure Synapse, ETL/ELT]
-    cloud: [Vertex AI, Azure AI Studio, Vertex AI Model Garden, GCP, Azure, AWS, Cloud
-        Run]
+    cloud: [Vertex AI, Azure AI Foundry, Vertex AI Model Garden, GCP, Azure, AWS,
+      Cloud Run]
+    genai: [LangGraph, CrewAI, LlamaIndex, Haystack, RAG, Multi-Agent Systems, Agentic
+        Workflows, Prompt Engineering, Google AI SDKs, Vertex AI Agent Builder]
+    data: [Pub/Sub, Azure Synapse, Data Pipelines]
+    other: []
     ops: [Vertex AI Inspector, Docker, Kubernetes, GKE, AKS, EKS, LangSmith, Azure
         Monitor, Terraform, Pulumi, CI/CD]
-    languages: [Python, Go]
-    domains: []
-    other: []
+    web: [FastAPI, Node.js]
+    databases: [Vertex AI Vector Search, Azure AI Search, BigQuery, Pinecone, Weaviate]
   is_customer_facing: true
   is_management: true
 meta:

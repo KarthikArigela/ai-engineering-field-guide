@@ -42,17 +42,17 @@ position:
   - Post-incident summarization and automated reporting
   - Domain-aware knowledge retrieval for production operations
   skills:
-    genai: [LangChain, LangGraph, LlamaIndex, RAG, Function calling, MCP protocol,
-      Prompt engineering, OpenAI API, Anthropic Claude]
-    ml: [LLM fine-tuning]
-    web: [FastAPI]
-    databases: [Vector databases, PostgreSQL, Redis]
-    data: []
-    cloud: [SageMaker, AWS]
-    ops: [Model evaluation, Model deployment, Terraform, Docker, Kubernetes]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [LLM fine-tuning]
+    cloud: [SageMaker, AWS]
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, Function Calling, MCP protocol,
+      Prompt Engineering, OpenAI API, Anthropic API]
+    data: []
     other: []
+    ops: [Model evaluation, Model Deployment, Terraform, Docker, Kubernetes]
+    web: [FastAPI]
+    databases: [Vector Databases, PostgreSQL, Redis]
   is_customer_facing: false
   is_management: false
 meta:

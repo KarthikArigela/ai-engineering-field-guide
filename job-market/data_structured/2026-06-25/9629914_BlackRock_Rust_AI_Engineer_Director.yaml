@@ -37,18 +37,18 @@ position:
   - Enterprise-scale AI platform for investment management technology (Aladdin)
   - Secure and compliant AI infrastructure for financial services
   skills:
-    genai: []
+    domains: []
+    languages: [Rust, C++, Python]
     ml: [PyTorch, JAX, NumPy]
-    web: [REST APIs, Microservices]
-    databases: [Cassandra]
-    data: [Spark, Dask, Kafka]
     cloud: [AWS, GCP, Azure]
+    genai: []
+    data: [Spark, Dask, Kafka]
+    other: [Distributed Systems]
     ops: [Kubernetes, Helm, Kustomize, Docker, containerd, CI/CD, Jenkins, GitHub
         Actions, ArgoCD, Terraform, CloudFormation, Prometheus, Grafana, GPU orchestration,
       MLOps]
-    languages: [Rust, C++, Python]
-    domains: []
-    other: [Distributed systems]
+    web: [REST APIs, Microservices]
+    databases: [Cassandra]
   is_customer_facing: false
   is_management: true
 meta:

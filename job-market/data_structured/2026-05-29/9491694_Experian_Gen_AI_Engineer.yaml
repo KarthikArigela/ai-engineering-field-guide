@@ -37,21 +37,21 @@ position:
   - Internal AI-powered assistants for software engineering and operations workflows
   - Enterprise-grade LLM applications with secure, regulated deployment patterns
   skills:
-    genai: [RAG, LangChain, LlamaIndex, Bedrock Agents, prompt engineering, LLMs,
-      function calling, tool calling, agentic patterns, Model Context Protocol]
-    ml: [embeddings, LoRA, QLoRA, model fine-tuning]
-    web: [FastAPI, Flask, Pydantic, REST APIs, gRPC, microservices]
-    databases: [DynamoDB, OpenSearch, vector stores, pgvector, Pinecone, FAISS, PostgreSQL,
-      MongoDB]
-    data: [Kafka, Kinesis, RabbitMQ, ActiveMQ]
-    cloud: [Amazon Bedrock, SageMaker, AWS Lambda, ECS, EKS, API Gateway, S3, IAM,
-      Step Functions, EventBridge]
-    ops: [CloudWatch, Docker, Kubernetes, Git, CI/CD, Terraform, CloudFormation, AWS
-        CDK, GitHub Actions, GitLab CI, Jenkins, MLOps, LLMOps, LangSmith, LangFuse,
-      RAGAS, Helicone, Arize]
-    languages: [Python, asyncio, pytest]
     domains: []
-    other: [TDD, Scrum, Kanban]
+    languages: [Python, asyncio, pytest]
+    ml: [Embeddings, LoRA, Fine-Tuning]
+    cloud: [AWS Bedrock, SageMaker, AWS Lambda, ECS, EKS, API Gateway, AWS S3, IAM,
+      Step Functions, EventBridge]
+    genai: [RAG, LangChain, LlamaIndex, Bedrock Agents, Prompt Engineering, LLMs,
+      Function Calling, agentic patterns, MCP]
+    data: [Kafka, Kinesis, RabbitMQ, ActiveMQ]
+    other: [TDD, Agile, Kanban]
+    ops: [CloudWatch, Docker, Kubernetes, Git, CI/CD, Terraform, CloudFormation, AWS
+        CDK, GitHub Actions, GitLab CI, Jenkins, MLOps, LLMOps, LangSmith, Langfuse,
+      RAGAS, Helicone, Arize]
+    web: [FastAPI, Flask, Pydantic, REST APIs, gRPC, Microservices]
+    databases: [DynamoDB, OpenSearch, Vector Databases, pgvector, Pinecone, FAISS,
+      PostgreSQL, MongoDB]
   is_customer_facing: false
   is_management: false
 meta:

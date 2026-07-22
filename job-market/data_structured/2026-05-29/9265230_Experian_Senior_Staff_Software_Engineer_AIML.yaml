@@ -37,17 +37,17 @@ position:
   - LLM-enabled workflows with RAG and guardrails
   - Personalization engines with ranking and next-best-action
   skills:
-    genai: [RAG, LangChain, LlamaIndex, prompt engineering, guardrails]
+    domains: []
+    languages: [Python, SQL, Java, Scala]
     ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow]
-    web: [FastAPI]
-    databases: [Postgres, vector databases, feature store]
-    data: [Spark, Databricks, Airflow, Dagster, Prefect, dbt, Kafka, Kinesis]
     cloud: [AWS, Azure, GCP]
+    genai: [RAG, LangChain, LlamaIndex, Prompt Engineering, Guardrails]
+    data: [Spark, Databricks, Airflow, Dagster, Prefect, dbt, Kafka, Kinesis]
+    other: []
     ops: [MLflow, Weights & Biases, Docker, Kubernetes, Triton, Seldon, KServe, OpenTelemetry,
       Prometheus, Grafana, Datadog, CI/CD]
-    languages: [Python, SQL, Java, Scala]
-    domains: []
-    other: []
+    web: [FastAPI]
+    databases: [PostgreSQL, Vector Databases, feature store]
   is_customer_facing: false
   is_management: true
 meta:

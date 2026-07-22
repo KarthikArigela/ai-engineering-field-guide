@@ -37,18 +37,18 @@ position:
   - Evaluation and quality assurance for LLM-powered coding agents
   - Feedback-driven improvement of agent behavior from real user usage
   skills:
-    genai: [LangChain, LangGraph, LlamaIndex, prompt engineering, RAG, agents, function
-        calling, OpenAI API, Anthropic API, PEFT, LoRA, instruction-tuning]
-    ml: [PyTorch, Hugging Face, model training, fine-tuning, preference optimization]
-    web: [FastAPI, REST, GraphQL]
-    databases: [Postgres, Redis, Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector]
-    data: []
-    cloud: [AWS, Azure, GCP, SageMaker, Vertex AI, Azure AI Studio]
-    ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, LangSmith, evaluation,
-      benchmarking, VLLM, Triton, TensorRT]
-    languages: [Python, TypeScript]
     domains: []
+    languages: [Python, TypeScript]
+    ml: [PyTorch, Hugging Face, Model Training, Fine-Tuning, preference optimization]
+    cloud: [AWS, Azure, GCP, SageMaker, Vertex AI, Azure AI Foundry]
+    genai: [LangChain, LangGraph, LlamaIndex, Prompt Engineering, RAG, AI Agents,
+      Function Calling, OpenAI API, Anthropic API, LoRA, instruction-tuning]
+    data: []
     other: []
+    ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, LangSmith, evaluation,
+      benchmarking, vLLM, Triton, TensorRT]
+    web: [FastAPI, REST, GraphQL]
+    databases: [PostgreSQL, Redis, Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector]
   is_customer_facing: false
   is_management: false
 meta:

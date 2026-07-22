@@ -42,20 +42,19 @@ position:
   - Real-time and batch workloads combining probabilistic AI behavior with deterministic
     services
   skills:
-    genai: [LangGraph, CrewAI, AutoGen, Model Context Protocol (MCP), Claude Agents,
-      Google ADK, 'Agentic design patterns (planners, routers, evaluators, memory,
-        tool-use)']
+    domains: []
+    languages: [Python, Pydantic]
     ml: []
+    cloud: [AWS, AWS Lambda, AWS EC2, AWS S3, AWS RDS]
+    genai: [LangGraph, CrewAI, AutoGen, MCP, Claude Agents, Google ADK, 'Agentic design
+        patterns (planners, routers, evaluators, memory, tool-use)']
+    data: [Kafka, Airflow, Dagster, Spark, AWS Step Functions, Data Pipelines, NumPy,
+      Pandas]
+    other: []
+    ops: [Docker, Kubernetes, CI/CD, PyTest]
     web: [FastAPI, Flask, Django, REST APIs, GraphQL, gRPC]
     databases: [PostgreSQL, MongoDB, DynamoDB, OpenSearch/Elasticsearch, Redis, Neo4j,
       Snowflake, BigQuery]
-    data: [Apache Kafka, Apache Airflow, Dagster, Apache Spark, AWS Step Functions,
-      ETL pipelines, NumPy, Pandas]
-    cloud: [AWS, AWS Lambda, AWS EC2, AWS S3, AWS RDS]
-    ops: [Docker, Kubernetes, CI/CD, PyTest]
-    languages: [Python, Pydantic]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

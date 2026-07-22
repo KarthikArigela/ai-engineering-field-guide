@@ -31,19 +31,19 @@ position:
   - Fine-tuned models for domain-specific natural language processing
   - End-to-end AI solutions with integrated observability and monitoring
   skills:
-    genai: [LangChain, CrewAI, Google ADK, RAG, Prompt engineering, LLM-based application
+    domains: []
+    languages: [Python]
+    ml: [Fine-Tuning, PyTorch, TensorFlow, scikit-learn]
+    cloud: [Azure, AWS, GCP, Azure ML, AWS Bedrock, SageMaker, Vertex AI]
+    genai: [LangChain, CrewAI, Google ADK, RAG, Prompt Engineering, LLM-based application
         development, LangGraph, AutoGen, MCP]
-    ml: [Fine-tuning, PyTorch, TensorFlow, Scikit-learn]
-    web: [FastAPI, Flask, Node.js]
-    databases: [Pinecone, FAISS, ChromaDB, pgvector, Milvus, Azure AI Search]
     data: [Databricks, Azure Data Factory, Synapse, Airflow, Kafka]
-    cloud: [Azure, AWS, GCP, Azure ML, AWS Bedrock, AWS SageMaker, GCP Vertex AI]
+    other: []
     ops: [MLflow, CI/CD, Azure DevOps, Jenkins, GitHub Actions, GitLab CI/CD, LangSmith,
       Langfuse, RAGAS, App Insights, Prometheus, Grafana, Docker, Kubernetes, Serverless
         architectures]
-    languages: [Python]
-    domains: []
-    other: []
+    web: [FastAPI, Flask, Node.js]
+    databases: [Pinecone, FAISS, Chroma, pgvector, Milvus, Azure AI Search]
   is_customer_facing: false
   is_management: false
 meta:

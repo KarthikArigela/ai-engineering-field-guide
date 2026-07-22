@@ -41,20 +41,19 @@ position:
   - Retrieval-augmented generation grounded in genetic and clinical evidence
   - Self-improving AI systems that learn across users while preserving privacy
   skills:
-    genai: [Multi-agent AI systems, Agent orchestration patterns, ReAct agents, LangGraph,
-      AutoGen, CrewAI, RAG pipelines, Prompt engineering, Fine-tuning, Distillation,
-      Guardrails, Function calling / tool use, Anthropic API, OpenAI API, DeepSeek,
-      Google AI]
+    domains: [Genomics, Bioinformatics, Health data systems]
+    languages: [TypeScript, Rust, Python]
     ml: []
-    web: []
-    databases: [PostgreSQL, MySQL, Redis, DuckDB]
-    data: [AWS SQS, BullMQ, AWS Glue, Apache Spark]
-    cloud: [AWS Bedrock, AWS SageMaker, AWS]
+    cloud: [AWS Bedrock, SageMaker, AWS]
+    genai: [Multi-agent AI systems, Agent orchestration patterns, ReAct agents, LangGraph,
+      AutoGen, CrewAI, RAG, Prompt Engineering, Fine-Tuning, Distillation, Guardrails,
+      Function calling / tool use, Anthropic API, OpenAI API, DeepSeek, Google AI]
+    data: [AWS SQS, BullMQ, AWS Glue, Spark]
+    other: []
     ops: [Evaluation pipelines, Service-oriented architecture, Parallel execution
         and caching]
-    languages: [TypeScript, Rust, Python]
-    domains: [Genomics, Bioinformatics, Health data systems]
-    other: []
+    web: []
+    databases: [PostgreSQL, MySQL, Redis, DuckDB]
   is_customer_facing: false
   is_management: false
 meta:

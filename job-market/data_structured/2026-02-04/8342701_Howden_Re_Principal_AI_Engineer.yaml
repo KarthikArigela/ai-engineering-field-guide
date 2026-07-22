@@ -33,19 +33,18 @@ position:
   - Automated decision-making systems for insurance operations
   - Knowledge retrieval systems using vector databases and semantic search
   skills:
-    genai: [LLM architectures, RAG architectures, semantic search, prompt engineering,
-      LangChain, AutoGPT, CrewAI, Model Context Protocol (MCP), agentic AI patterns,
-      multi-agent systems]
-    ml: [model training]
-    web: [RESTful APIs, API Management]
-    databases: [vector databases]
-    data: [Airflow]
-    cloud: [AzureML, Azure AI Foundry, Databricks]
-    ops: [MLOps, CI/CD, model deployment, model registries, experiment tracking, model
-        monitoring, git, testing, code review]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [Model Training]
+    cloud: [AzureML, Azure AI Foundry, Databricks]
+    genai: [LLM architectures, RAG, semantic search, Prompt Engineering, LangChain,
+      AutoGPT, CrewAI, MCP, agentic AI patterns, Multi-Agent Systems]
+    data: [Airflow]
     other: []
+    ops: [MLOps, CI/CD, Model Deployment, model registries, experiment tracking, Model
+        Monitoring, Git, testing, code review]
+    web: [REST APIs, API Management]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

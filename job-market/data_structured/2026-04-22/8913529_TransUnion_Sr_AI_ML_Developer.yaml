@@ -41,21 +41,21 @@ position:
   - Agentic AI workflows for automated decisioning and analytics
   - Cross-platform AI inference serving on JVM and Python runtimes
   skills:
+    domains: []
+    languages: [Python, Java, SQL]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, DJL (Deep Java Library),
+      ONNX Runtime, Spark MLlib, Reinforcement Learning]
+    cloud: [Vertex AI, Google ADK, AWS, Azure, SageMaker, Azure ML]
     genai: [LangChain, LangGraph, LangChain4j, CrewAI, AutoGen, Semantic Kernel, Spring
-        AI, MCP, LlamaIndex, RAG, Prompt Engineering, LLM Fine-tuning, vLLM, Ollama,
-      Langfuse, TruLens]
-    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, DJL (Deep Java
-        Library), ONNX Runtime, Spark MLlib, Reinforcement Learning]
+        AI, MCP, LlamaIndex, RAG, Prompt Engineering, Fine-Tuning, vLLM, Ollama, Langfuse,
+      TruLens]
+    data: [Kafka, Spark, Databricks]
+    other: []
+    ops: [MLflow, DVC, Docker, Kubernetes, Helm, Terraform, KServe, Seldon Core, Ray
+        Serve, CI/CD, OpenTelemetry, Istio/Linkerd]
     web: [FastAPI, Flask, Spring Boot, Quarkus, Micronaut, REST, gRPC, Vert.x/Netty]
     databases: [PostgreSQL, MongoDB, Cassandra, Redis, pgvector, Pinecone, Weaviate,
       Milvus, Qdrant, Chroma, Elasticsearch, OpenSearch, Vespa]
-    data: [Kafka, Spark, Databricks]
-    cloud: [GCP Vertex AI, Google ADK, AWS, Azure, SageMaker, Azure ML]
-    ops: [MLflow, DVC, Docker, Kubernetes, Helm, Terraform, KServe, Seldon Core, Ray
-        Serve, CI/CD (Jenkins/GitHub Actions/Azure DevOps), OpenTelemetry, Istio/Linkerd]
-    languages: [Python, Java, SQL]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

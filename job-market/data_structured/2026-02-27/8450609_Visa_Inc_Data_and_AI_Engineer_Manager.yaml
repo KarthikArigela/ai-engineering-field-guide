@@ -44,21 +44,20 @@ position:
   - Feature engineering pipelines enabling machine learning models for payment security
     and optimization
   skills:
-    genai: [RAG, Model Context Protocol, embeddings generation, semantic search, LangChain,
-      LlamaIndex]
+    domains: []
+    languages: [Python, Scala, Java, SQL]
     ml: []
-    web: []
-    databases: [Cassandra, MongoDB, Redis, Snowflake, Pinecone, Weaviate, Milvus,
-      ChromaDB, FAISS]
-    data: [Apache Spark, Spark SQL, Spark Streaming, Hadoop, HDFS, Hive, HBase, YARN,
-      Kafka, Databricks]
-    cloud: [AWS, Azure, GCP, S3, EMR, EC2, Lambda, Glue, Redshift, SageMaker, AWS
-        Bedrock, Azure OpenAI, Vertex AI]
+    cloud: [AWS, Azure, GCP, AWS S3, EMR, EC2, AWS Lambda, Glue, Redshift, SageMaker,
+      AWS Bedrock, Azure OpenAI, Vertex AI]
+    genai: [RAG, MCP, embeddings generation, semantic search, LangChain, LlamaIndex]
+    data: [Spark, Spark SQL, Spark Streaming, Hadoop, HDFS, Hive, HBase, YARN, Kafka,
+      Databricks]
+    other: []
     ops: [Jenkins, GitLab CI, GitHub Actions, Docker, Kubernetes, Airflow, Prefect,
       Control-M, Great Expectations, Datadog, Prometheus, TensorFlow Serving, Triton]
-    languages: [Python, Scala, Java, SQL]
-    domains: []
-    other: []
+    web: []
+    databases: [Cassandra, MongoDB, Redis, Snowflake, Pinecone, Weaviate, Milvus,
+      Chroma, FAISS]
   is_customer_facing: false
   is_management: true
 meta:

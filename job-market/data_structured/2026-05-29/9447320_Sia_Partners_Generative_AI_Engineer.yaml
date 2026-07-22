@@ -38,17 +38,17 @@ position:
   - Multimodal AI applications combining text, audio, and image processing
   - Regulatory compliance and responsible AI implementations with guardrails
   skills:
-    genai: [LangChain, LlamaIndex, OpenAI API, Claude, Mistral, RAG, Semantic Search,
-      Agents, Prompt Engineering, CoT, ReAct, Graph-of-Thought, PEFT, LoRA]
-    ml: [RLHF, PyTorch, Hugging Face, Transformer Architectures, Embeddings]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Pinecone, FAISS, pgvector, ChromaDB, Qdrant, Milvus, Weaviate]
-    data: []
-    cloud: [AWS, GCP, Azure, SageMaker, Bedrock, Vertex AI]
-    ops: [MLflow, CI/CD, Drift Detection, Canary Releases, MLOps, Docker, Kubernetes]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [RLHF, PyTorch, Hugging Face, Transformers, Embeddings]
+    cloud: [AWS, GCP, Azure, SageMaker, AWS Bedrock, Vertex AI]
+    genai: [LangChain, LlamaIndex, OpenAI API, Anthropic API, Mistral, RAG, Semantic
+        Search, AI Agents, Prompt Engineering, CoT, ReAct, Graph-of-Thought, LoRA]
+    data: []
     other: []
+    ops: [MLflow, CI/CD, Drift Detection, Canary Releases, MLOps, Docker, Kubernetes]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Pinecone, FAISS, pgvector, Chroma, Qdrant, Milvus, Weaviate]
   is_customer_facing: true
   is_management: false
 meta:

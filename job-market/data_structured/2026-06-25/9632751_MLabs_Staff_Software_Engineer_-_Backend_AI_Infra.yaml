@@ -40,18 +40,18 @@ position:
   - Agent decision telemetry and self-reinforcing learning loops
   - Sovereign infrastructure for autonomous financial software
   skills:
-    genai: [Model Context Protocol (MCP), Self-hosted LLM inference, Agent runtime
-        development, Anthropic API, Google AI API]
+    domains: [High-frequency trading]
+    languages: [Go, Python]
     ml: []
-    web: [WebSockets, FastAPI]
-    databases: [Postgres, Redis, ClickHouse]
+    cloud: [AWS, EKS]
+    genai: [MCP, Self-hosted LLM inference, Agent runtime development, Anthropic API,
+      Google AI API]
     data: []
-    cloud: [AWS, Amazon EKS]
+    other: []
     ops: [Docker, Kubernetes, Terraform, CI/CD, Infrastructure-as-Code, Telemetry
         systems]
-    languages: [Go, Python]
-    domains: [High-frequency trading]
-    other: []
+    web: [WebSockets, FastAPI]
+    databases: [PostgreSQL, Redis, ClickHouse]
   is_customer_facing: false
   is_management: false
 meta:

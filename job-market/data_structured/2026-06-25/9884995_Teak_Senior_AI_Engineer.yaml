@@ -39,19 +39,19 @@ position:
   - Multi-agent orchestration for refund offer, explanation, and fulfillment workflows
   - Human-in-the-loop workflows for compliance-sensitive refund decisions
   skills:
-    genai: [LangGraph, LangChain, MCP (Model Context Protocol), RAG, Multi-agent orchestration,
-      Tool calling, Prompt engineering, Guardrails, Anthropic Claude API, OpenAI API,
-      Gemini API, AWS Bedrock Agents]
-    ml: [Model fine-tuning, Model distillation]
-    web: [Django, REST APIs]
-    databases: [Vector search]
-    data: []
+    domains: []
+    languages: [Python]
+    ml: [Fine-Tuning, Model distillation]
     cloud: [AWS]
+    genai: [LangGraph, LangChain, MCP, RAG, Agentic Workflows, Function Calling, Prompt
+        Engineering, Guardrails, Anthropic Claude API, OpenAI API, Gemini, AWS Bedrock
+        Agents]
+    data: []
+    other: []
     ops: [LLM evaluation frameworks, Structured logging and tracing, LLM latency optimization,
       Caching]
-    languages: [Python]
-    domains: []
-    other: []
+    web: [Django, REST APIs]
+    databases: [Vector Search]
   is_customer_facing: false
   is_management: false
 meta:

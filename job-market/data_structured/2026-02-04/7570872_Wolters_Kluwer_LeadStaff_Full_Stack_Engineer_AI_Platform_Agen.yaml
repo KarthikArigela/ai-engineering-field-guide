@@ -41,18 +41,18 @@ position:
   - Medical assistant reducing cognitive load for millions of physicians through real-time
     knowledge access
   skills:
-    genai: [LangChain, LangGraph, MCP/A2A, RAG, retrieval, routing, tool-use, evals,
-      Azure OpenAI, AWS Anthropic, Google Gemini]
-    ml: [fine-tuning, model adaptation]
-    web: [React]
-    databases: [DocumentDB, DynamoDB, OpenSearch, Azure AI Search]
-    data: [A/B testing]
+    domains: [HIPAA Compliance]
+    languages: [TypeScript, Node.js, Python, Rust]
+    ml: [Fine-Tuning, model adaptation]
     cloud: [AWS, Azure, GCP]
+    genai: [LangChain, LangGraph, MCP/A2A, RAG, retrieval, routing, Function Calling,
+      evals, Azure OpenAI, AWS Anthropic, Gemini]
+    data: [A/B testing]
+    other: [privacy by design, AI Agent development, SOC2]
     ops: [Docker, Terraform, GitHub Actions, CI/CD, Site Reliability Engineering,
       Infrastructure as Code, secure SDLC]
-    languages: [TypeScript, Node.js, Python, Rust]
-    domains: [HIPAA]
-    other: [privacy by design, AI Agent development, SOC2]
+    web: [React]
+    databases: [DocumentDB, DynamoDB, OpenSearch, Azure AI Search]
   is_customer_facing: false
   is_management: false
 meta:

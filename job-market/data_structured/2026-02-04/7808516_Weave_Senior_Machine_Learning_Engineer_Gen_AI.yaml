@@ -33,18 +33,17 @@ position:
   - ML-driven B2B multi-tenant applications in production environments
   - Handling sensitive data such as PHI (HIPAA) and PII data
   skills:
-    genai: [LLMs, RAG, Prompt Engineering, Fine Tuning, Model Context Protocol (MCP),
-      multi-modal models, embeddings]
-    ml: []
-    web: []
-    databases: [Postgres, warehouses]
-    data: [Dagster, streaming, data mesh, data lakes]
-    cloud: [AWS, GCP]
-    ops: [inference, MLFlow, KubeFlow, DVC, Triton Server, Docker, Kubernetes, GKE,
-      distributed systems, GitOps, IaC]
+    domains: [Speech Recognition, speech synthesis]
     languages: [Python, Go, Java]
-    domains: [ASR (Automatic Speech Recognition), speech synthesis]
+    ml: []
+    cloud: [AWS, GCP]
+    genai: [LLMs, RAG, Prompt Engineering, Fine-Tuning, MCP, multi-modal models, Embeddings]
+    data: [Dagster, streaming, data mesh, data lakes]
     other: []
+    ops: [inference, MLflow, Kubeflow, DVC, Triton Server, Docker, Kubernetes, GKE,
+      Distributed Systems, GitOps, Infrastructure as Code]
+    web: []
+    databases: [PostgreSQL, warehouses]
   is_customer_facing: false
   is_management: false
 meta:

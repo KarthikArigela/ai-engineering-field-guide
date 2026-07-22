@@ -34,17 +34,17 @@ position:
   - Outlier detection for fraud or anomaly identification
   - RAG-powered question answering and knowledge retrieval
   skills:
-    genai: [LLMs, RAG, Prompt Engineering, Fine-tuning, Semantic Search]
+    domains: [NLP]
+    languages: [Python, TypeScript]
     ml: [NumPy, Pandas, scikit-learn, PyTorch, TensorFlow, XGBoost, DBSCAN, NER, Embeddings,
       spaCy, BERT]
-    web: [FastAPI, REST, OAuth2, Swagger, React, Node.js]
-    databases: [FAISS, Elasticsearch, PostgreSQL, MongoDB, Vector DBs]
-    data: []
     cloud: [AWS, Azure]
-    ops: [MLflow, Kubeflow, CI/CD, Docker, Kubernetes]
-    languages: [Python, TypeScript]
-    domains: [NLP]
+    genai: [LLMs, RAG, Prompt Engineering, Fine-Tuning, Semantic Search]
+    data: []
     other: []
+    ops: [MLflow, Kubeflow, CI/CD, Docker, Kubernetes]
+    web: [FastAPI, REST, OAuth, Swagger, React, Node.js]
+    databases: [FAISS, Elasticsearch, PostgreSQL, MongoDB, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

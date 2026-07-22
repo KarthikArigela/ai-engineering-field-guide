@@ -34,18 +34,18 @@ position:
   - Domain-specific AI solutions in healthcare, finance, retail, manufacturing, or
     customer service
   skills:
-    genai: [LangChain, LlamaIndex, RAG, Prompt engineering, GPT, Claude, Mistral,
-      LLaMA]
-    ml: [TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, Transformers, CNNs,
+    domains: [NLP, Computer Vision, Reinforcement Learning]
+    languages: [Python]
+    ml: [TensorFlow, PyTorch, Keras, scikit-learn, Hugging Face, Transformers, CNNs,
       RNNs/LSTMs]
+    cloud: [AWS, Azure, GCP]
+    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, GPT, Anthropic API, Mistral,
+      LLaMA]
+    data: [Pandas, NumPy, SciPy]
+    other: []
+    ops: [MLflow, Kubeflow, DVC, Docker, Kubernetes, CI/CD, Git]
     web: []
     databases: [Pinecone, FAISS, Weaviate]
-    data: [Pandas, NumPy, SciPy]
-    cloud: [AWS, Azure, GCP]
-    ops: [MLflow, Kubeflow, DVC, Docker, Kubernetes, CI/CD, Git]
-    languages: [Python]
-    domains: [NLP, Computer Vision, Reinforcement Learning]
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

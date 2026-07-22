@@ -37,18 +37,18 @@ position:
   - Low code automation for enterprise workflows via Copilot Studio and Power Automate
   - Multi-model LLM orchestration across OpenAI, Claude, Gemini, and Llama providers
   skills:
-    genai: [LangGraph, LangChain, AWS AgentCore, RAG, MCP, A2A, OpenAI API, Claude
-        API, Gemini API, Llama, Promptfoo]
-    ml: [RAGAS, DeepEval]
-    web: [FastAPI, Pydantic]
-    databases: [Pinecone, ChromaDB, OpenSearch, FAISS, Snowflake]
-    data: []
-    cloud: [AWS Bedrock]
-    ops: []
-    languages: [Python, SQL]
     domains: []
+    languages: [Python, SQL]
+    ml: [RAGAS, DeepEval]
+    cloud: [AWS Bedrock]
+    genai: [LangGraph, LangChain, AWS AgentCore, RAG, MCP, A2A, OpenAI API, Anthropic
+        API, Gemini, Llama, Promptfoo]
+    data: []
     other: [Microsoft Copilot Studio, Power Automate, Claude Code, GitHub Copilot,
       Cursor, Cline, SAP HANA, Salesforce connectors, OCR]
+    ops: []
+    web: [FastAPI, Pydantic]
+    databases: [Pinecone, Chroma, OpenSearch, FAISS, Snowflake]
   is_customer_facing: false
   is_management: false
 meta:

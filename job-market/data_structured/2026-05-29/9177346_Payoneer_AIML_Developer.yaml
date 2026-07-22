@@ -42,21 +42,21 @@ position:
   - Customer-facing AI solutions for financial services
   - Document processing and NLP for financial transactions
   skills:
-    genai: [RAG (Retrieval-Augmented Generation), Agentic Workflows, LangChain, LlamaIndex]
-    ml: [PyTorch, TensorFlow, JAX, Hugging Face Transformers, Hugging Face Datasets,
-      PEFT, TRL, Accelerate, SFT (Supervised Fine-Tuning), RLHF (Reinforcement Learning
-        from Human Feedback), Instruction Tuning, LoRA, QLoRA, Adapter Layers, DeepSpeed,
-      CUDA, Perplexity, BLEU, ROUGE, BERTScore, Red-teaming, Mixture-of-Experts (MoE)]
-    web: []
-    databases: [FAISS, Pinecone, Weaviate]
-    data: [Pandas, NumPy, Apache Spark, Dask]
-    cloud: [AWS, AWS SageMaker, GCP, GCP Vertex AI, Azure, Azure ML]
+    domains: [NLP]
+    languages: [Python, C++]
+    ml: [PyTorch, TensorFlow, JAX, Hugging Face, Hugging Face Datasets, LoRA, TRL,
+      Accelerate, SFT (Supervised Fine-Tuning), RLHF, Instruction Tuning, Adapter
+        Layers, DeepSpeed, CUDA, Perplexity, BLEU, ROUGE, BERTScore, Red-teaming,
+      Mixture-of-Experts (MoE)]
+    cloud: [AWS, SageMaker, GCP, Vertex AI, Azure, Azure ML]
+    genai: [RAG, Agentic Workflows, LangChain, LlamaIndex]
+    data: [Pandas, NumPy, Spark, Dask]
+    other: []
     ops: [Model Quantization, Pruning, Distillation, ONNX, TensorRT, Docker, Kubernetes,
       MLflow, Weights & Biases, Comet, Model Registry, Experiment Tracking, Model
-        Drift Monitoring, Data Drift Monitoring, CI/CD, Git, GitHub, GitLab]
-    languages: [Python, C++]
-    domains: [NLP]
-    other: []
+        Drift Monitoring, Data Drift Monitoring, CI/CD, Git, GitHub, GitLab CI]
+    web: []
+    databases: [FAISS, Pinecone, Weaviate]
   is_customer_facing: false
   is_management: false
 meta:

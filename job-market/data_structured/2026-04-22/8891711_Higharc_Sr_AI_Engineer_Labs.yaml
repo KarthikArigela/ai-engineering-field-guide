@@ -37,17 +37,17 @@ position:
   - Evaluation and safety assurance of non-deterministic AI outputs in production
   - Human-in-the-loop approval flows for high-impact construction design actions
   skills:
-    genai: [LangChain/LangGraph or similar agent frameworks, RAG systems, Agent orchestration
-        and tool use, Prompt engineering, LLM evaluation systems]
-    ml: [Fine-tuning]
-    web: [FastAPI or similar backend frameworks, REST APIs]
-    databases: [Vector databases]
-    data: []
-    cloud: [AWS or similar cloud platforms]
-    ops: [Docker, CI/CD, Model cost management, Monitoring and observability]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: [Fine-Tuning]
+    cloud: [AWS or similar cloud platforms]
+    genai: [LangChain/LangGraph or similar agent frameworks, RAG, Agent orchestration
+        and tool use, Prompt Engineering, LLM evaluation systems]
+    data: []
     other: [Streaming/real-time systems, Stateful services]
+    ops: [Docker, CI/CD, Model cost management, Observability]
+    web: [FastAPI or similar backend frameworks, REST APIs]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

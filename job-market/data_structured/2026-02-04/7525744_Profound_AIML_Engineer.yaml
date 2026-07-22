@@ -41,17 +41,17 @@ position:
   - Content quality evaluation including factuality, tone, safety, and originality
     checks
   skills:
-    genai: [OpenAI/Anthropic APIs, prompt engineering, RAG, LangChain, LlamaIndex,
-      guardrails]
-    ml: [huggingface, model training, fine-tuning]
-    web: []
-    databases: [Postgres, vector DBs, Snowflake, BigQuery]
-    data: [Airflow, Kafka, Ray, ETL, data pipelines]
-    cloud: [AWS, GCP, Azure AI Studio, Bedrock, SageMaker, Vertex AI]
-    ops: [Docker, Kubernetes, CI/CD, LangSmith, Arize, monitoring]
+    domains: [NLP, Computer Vision]
     languages: [Python, SQL, TypeScript]
-    domains: [NLP, CV]
+    ml: [Hugging Face, Model Training, Fine-Tuning]
+    cloud: [AWS, GCP, Azure AI Foundry, AWS Bedrock, SageMaker, Vertex AI]
+    genai: [OpenAI/Anthropic APIs, Prompt Engineering, RAG, LangChain, LlamaIndex,
+      Guardrails]
+    data: [Airflow, Kafka, Ray, Data Pipelines]
     other: []
+    ops: [Docker, Kubernetes, CI/CD, LangSmith, Arize, Monitoring]
+    web: []
+    databases: [PostgreSQL, Vector Databases, Snowflake, BigQuery]
   is_customer_facing: false
   is_management: false
 meta:

@@ -42,19 +42,19 @@ position:
   - Care escalation and alerting when abnormalities detected
   - Multimodal sensing using VLMs for healthcare robotics
   skills:
-    genai: [LLMs, VLMs, RAG, agents, LangChain, LangGraph, OpenAI API, Anthropic API,
-      PEFT, LoRA, prompt engineering, ASR/TTS]
-    ml: [PyTorch, TensorFlow, Hugging Face, model fine-tuning, object detection, image
-        segmentation, embeddings, active learning, human-in-the-loop]
-    web: []
-    databases: []
+    domains: [Computer Vision]
+    languages: [Python, C++]
+    ml: [PyTorch, TensorFlow, Hugging Face, Fine-Tuning, object detection, image segmentation,
+      Embeddings, active learning, human-in-the-loop]
+    cloud: [Vertex AI, SageMaker, Azure ML]
+    genai: [LLMs, VLMs, RAG, AI Agents, LangChain, LangGraph, OpenAI API, Anthropic
+        API, LoRA, Prompt Engineering, ASR/TTS]
     data: []
-    cloud: [GCP Vertex AI, AWS SageMaker, Azure ML]
+    other: []
     ops: [TensorRT, vLLM, llama.cpp, ONNX, quantization, MLflow, Weights & Biases,
       DVC, Docker, Kubernetes, edge computing, NVIDIA Jetson]
-    languages: [Python, C++]
-    domains: [computer vision]
-    other: []
+    web: []
+    databases: []
   is_customer_facing: false
   is_management: false
 meta:

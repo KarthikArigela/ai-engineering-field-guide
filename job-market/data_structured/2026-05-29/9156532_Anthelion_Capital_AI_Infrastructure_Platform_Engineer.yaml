@@ -46,20 +46,19 @@ position:
   - Real-time and batch model inference for investment analytics
   - Data quality and traceability from raw ingestion through model consumption
   skills:
-    genai: [Model Context Protocol (MCP), LangChain]
+    domains: []
+    languages: [Python, SQL]
     ml: []
-    web: [Real-time APIs]
-    databases: [Snowflake]
-    data: [Prefect, Airflow, Dagster, ETL/ELT, dbt, Feature stores, Data pipelines]
     cloud: [Azure, Azure Container Apps, Azure Container Instances (ACI), Azure Container
         Registry (ACR), Azure Blob Storage, Azure Key Vault, Azure Managed Identities,
       Azure Virtual Networks]
-    ops: [Docker, Kubernetes, CI/CD, MLflow, Langfuse, Model serving infrastructure,
-      GPU compute provisioning, Batch inference, Monitoring and observability, Data
-        drift detection]
-    languages: [Python, SQL]
-    domains: []
+    genai: [MCP, LangChain]
+    data: [Prefect, Airflow, Dagster, Data Pipelines, dbt, Feature stores]
     other: []
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Langfuse, Model serving infrastructure,
+      GPU compute provisioning, Batch inference, Observability, Data drift detection]
+    web: [Real-time APIs]
+    databases: [Snowflake]
   is_customer_facing: false
   is_management: false
 meta:

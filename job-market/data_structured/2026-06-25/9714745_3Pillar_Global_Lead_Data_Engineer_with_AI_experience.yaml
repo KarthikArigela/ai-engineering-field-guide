@@ -34,20 +34,19 @@ position:
   - RAG applications for knowledge retrieval
   - Predictive ML models for enterprise decision-making
   skills:
-    genai: [LangChain, LlamaIndex, LangGraph, OpenAI API, AWS Bedrock, Claude API,
+    domains: []
+    languages: [Python, SQL]
+    ml: [Hugging Face, LLM Fine-Tuning]
+    cloud: [AWS, AWS S3, AWS Glue, AWS Kinesis, EKS, Azure]
+    genai: [LangChain, LlamaIndex, LangGraph, OpenAI API, AWS Bedrock, Anthropic API,
       Prompt Engineering, RLHF Dataset Preparation, Embedding Pipelines, RAG]
-    ml: [HuggingFace, LLM Fine-Tuning]
-    web: [FastAPI]
-    databases: [Snowflake, AWS Redshift, Pinecone, FAISS, ChromaDB, OpenSearch, Neo4j,
-      Vector Stores]
-    data: [PySpark, Apache Spark, Spark Structured Streaming, Kafka, Databricks, Delta
-        Lake]
-    cloud: [AWS, AWS S3, AWS Glue, AWS Kinesis, AWS EKS, Azure]
+    data: [PySpark, Spark, Spark Structured Streaming, Kafka, Databricks, Delta Lake]
+    other: [Data Governance]
     ops: [Docker, Kubernetes, GitHub Actions, MLflow, CI/CD for AI, Automated Evaluation,
       Production Monitoring]
-    languages: [Python, SQL]
-    domains: []
-    other: [Data Governance]
+    web: [FastAPI]
+    databases: [Snowflake, AWS Redshift, Pinecone, FAISS, Chroma, OpenSearch, Neo4j,
+      Vector Databases]
   is_customer_facing: false
   is_management: true
 meta:

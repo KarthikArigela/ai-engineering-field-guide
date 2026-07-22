@@ -44,16 +44,16 @@ position:
   - Runtime safety layer that helps IT and Security teams answer whether AI behavior
     is acceptable and take action when it's not
   skills:
+    domains: []
+    languages: [Python, Go, asyncio, multithreading]
+    ml: [Embeddings]
+    cloud: []
     genai: [LangChain, CrewAI, AutoGen, RAG, LLMs]
-    ml: [embeddings]
+    data: [Kafka, Pulsar, Redis Streams, Apache Arrow, streaming]
+    other: []
+    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry, micro-batching]
     web: [FastAPI, gRPC]
     databases: [FAISS, Weaviate, Qdrant, pgvector, ClickHouse]
-    data: [Kafka, Pulsar, Redis Streams, Apache Arrow, streaming]
-    cloud: []
-    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry, micro-batching]
-    languages: [Python, Go, asyncio, multithreading]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

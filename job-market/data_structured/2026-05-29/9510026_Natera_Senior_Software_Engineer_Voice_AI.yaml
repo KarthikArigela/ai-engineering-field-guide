@@ -36,18 +36,18 @@ position:
   - Billing support and automated responses to patient billing questions
   - Healthcare conversational AI for genetic testing information and patient support
   skills:
-    genai: [LLM orchestration, Multi-agent systems, Tool calling, Prompt engineering,
-      Agent handoffs, OpenAI API, Anthropic Claude, RAG]
-    ml: []
-    web: [WebSocket, REST APIs, Twilio, NestJS]
-    databases: [Vector databases]
-    data: []
-    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS ECS Fargate, AWS DynamoDB, AWS API Gateway,
-      AWS CDK]
-    ops: [Kafka, MSK, Datadog, LLM observability]
-    languages: [TypeScript, Node.js, Python, SQL]
     domains: []
-    other: [HIPAA compliance, Real-time systems, STT providers, TTS providers, VAD]
+    languages: [TypeScript, Node.js, Python, SQL]
+    ml: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS ECS Fargate, AWS DynamoDB, API Gateway,
+      AWS CDK]
+    genai: [LLMs, Multi-Agent Systems, Function Calling, Prompt Engineering, Agent
+        handoffs, OpenAI API, Anthropic API, RAG]
+    data: []
+    other: [HIPAA Compliance, Real-time systems, STT providers, TTS providers, VAD]
+    ops: [Kafka, MSK, Datadog, LLM observability]
+    web: [WebSockets, REST APIs, Twilio, NestJS]
+    databases: [Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

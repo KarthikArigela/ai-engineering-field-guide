@@ -32,17 +32,17 @@ position:
   - Security guardrails for AI development teams
   - Prevention of data leakage and model theft in ML workloads
   skills:
-    genai: []
+    domains: []
+    languages: [Python]
     ml: []
+    cloud: [GCP, Vertex AI, Cloud IAM, Workload Identity Federation, VPC design, Service
+        perimeters, CMEK]
+    genai: []
+    data: [DLP controls]
+    other: [MITRE ATLAS, Security guardrails]
+    ops: [Terraform, CI/CD, Infrastructure-as-code]
     web: []
     databases: []
-    data: [DLP controls]
-    cloud: [Google Cloud Platform, Vertex AI, Cloud IAM, Workload Identity Federation,
-      VPC design, Service perimeters, CMEK]
-    ops: [Terraform, CI/CD, Infrastructure-as-code]
-    languages: [Python]
-    domains: []
-    other: [MITRE ATLAS, Security guardrails]
   is_customer_facing: false
   is_management: false
 meta:

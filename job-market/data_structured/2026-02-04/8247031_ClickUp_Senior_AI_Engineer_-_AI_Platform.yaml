@@ -37,18 +37,17 @@ position:
   - Productivity tools that help teams break free from silos and reclaim time
   - Enterprise search capabilities supercharged by AI for improved information retrieval
   skills:
-    genai: [LangGraph, OpenAI API, Anthropic API, Google AI, LLM integration, model
-        routing]
+    domains: []
+    languages: [Python, Go, TypeScript]
     ml: []
+    cloud: [AWS, GCP, Azure]
+    genai: [LangGraph, OpenAI API, Anthropic API, Google AI, LLMs, model routing]
+    data: [Airflow, Ray]
+    other: []
+    ops: [Kubernetes, Docker, Kubeflow, MLOps, Model Deployment, Monitoring, logging,
+      automated evaluation]
     web: []
     databases: []
-    data: [Airflow, Ray]
-    cloud: [AWS, GCP, Azure]
-    ops: [Kubernetes, Docker, Kubeflow, MLOps, model serving, monitoring, logging,
-      automated evaluation]
-    languages: [Python, Go, TypeScript]
-    domains: []
-    other: []
   is_customer_facing: false
   is_management: false
 meta:

@@ -44,17 +44,17 @@ position:
   - Multi-hop context retrieval across complex insurance documents to provide comprehensive,
     accurate answers to domain-specific questions
   skills:
-    genai: [LangChain, OpenAI APIs, RAG, prompt engineering, agents, function calling,
-      PEFT]
-    ml: []
-    web: [FastAPI, REST]
-    databases: [Postgres, pgvector, Pinecone, Weaviate, OpenSearch]
-    data: []
-    cloud: []
-    ops: [Docker, Kubernetes, CI/CD, Datadog, VLLM, TensorRT-LLM, TGI]
-    languages: [Python]
     domains: []
+    languages: [Python]
+    ml: []
+    cloud: []
+    genai: [LangChain, OpenAI API, RAG, Prompt Engineering, AI Agents, Function Calling,
+      LoRA]
+    data: []
     other: []
+    ops: [Docker, Kubernetes, CI/CD, Datadog, vLLM, TensorRT-LLM, TGI]
+    web: [FastAPI, REST]
+    databases: [PostgreSQL, pgvector, Pinecone, Weaviate, OpenSearch]
   is_customer_facing: false
   is_management: false
 meta:

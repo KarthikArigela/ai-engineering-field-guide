@@ -34,17 +34,17 @@ position:
   - Real-time and offline analytics for workplace insights and decision-making
   - Compliant data usage with Responsible AI workflows in regulated HR environments
   skills:
-    genai: [txtai, embeddings]
-    ml: [feature stores]
-    web: []
-    databases: [Snowflake, BigQuery, Redshift, FAISS, Pinecone, Weaviate, vector databases]
-    data: [Spark, Flink, Beam, Airflow, dbt, Prefect, Dagster, Databricks, Kafka,
-      Parquet, Delta Lake, ETL]
-    cloud: [AWS, Azure, GCP, Kinesis, Pub/Sub]
-    ops: [Docker, Terraform, CI/CD, MLOps]
-    languages: [SQL, Python]
     domains: []
+    languages: [SQL, Python]
+    ml: [feature stores]
+    cloud: [AWS, Azure, GCP, Kinesis, Pub/Sub]
+    genai: [txtai, Embeddings]
+    data: [Spark, Flink, Beam, Airflow, dbt, Prefect, Dagster, Databricks, Kafka,
+      Parquet, Delta Lake, Data Pipelines]
     other: []
+    ops: [Docker, Terraform, CI/CD, MLOps]
+    web: []
+    databases: [Snowflake, BigQuery, Redshift, FAISS, Pinecone, Weaviate, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

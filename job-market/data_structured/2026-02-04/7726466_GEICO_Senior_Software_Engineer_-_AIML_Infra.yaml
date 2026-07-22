@@ -40,19 +40,18 @@ position:
   - Supporting research teams with infrastructure for experimenting with cutting-edge
     LLM techniques
   skills:
-    genai: [LLMs, Open source LLMs]
-    ml: [RLHF, Fine-tuning]
-    web: []
-    databases: [Vector databases, Milvus, Pinecone, Weaviate, Qdrant, NoSQL]
-    data: [Feature stores, Chronon, Feast, Tecton]
-    cloud: [Azure DevOps, Azure ML, Azure Kubernetes Service, Azure Container Instances,
-      AWS, SageMaker, GCP, Vertex AI]
-    ops: [vLLM, TensorRT-LLM, Kubernetes, Docker, Terraform, CI/CD, GitHub Actions,
-      Prometheus, Grafana, MLflow, Kubeflow, Triton Inference Server, GPU optimization,
-      GPU scheduling]
-    languages: [Python, Go, Rust, Java, SQL]
     domains: []
+    languages: [Python, Go, Rust, Java, SQL]
+    ml: [RLHF, Fine-Tuning]
+    cloud: [Azure DevOps, Azure ML, AKS, Azure Container Instances, AWS, SageMaker,
+      GCP, Vertex AI]
+    genai: [LLMs, Open source LLMs]
+    data: [Feature stores, Chronon, Feast, Tecton]
     other: []
+    ops: [vLLM, TensorRT-LLM, Kubernetes, Docker, Terraform, CI/CD, GitHub Actions,
+      Prometheus, Grafana, MLflow, Kubeflow, Triton, GPU optimization, GPU scheduling]
+    web: []
+    databases: [Vector Databases, Milvus, Pinecone, Weaviate, Qdrant, NoSQL]
   is_customer_facing: false
   is_management: true
 meta:

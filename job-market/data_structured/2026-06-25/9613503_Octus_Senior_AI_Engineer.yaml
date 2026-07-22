@@ -35,19 +35,18 @@ position:
   - Automated evaluation of LLM-generated insights for accuracy and reliability
   - Real-time data pipelines for credit market intelligence
   skills:
-    genai: [Claude Agent SDK, Google ADK, AWS AgentCore, Multi-agent orchestration,
-      MCP (Model Context Protocol), RAG pipelines, Prompt engineering, Embeddings,
-      RLHF, RLAIF]
-    ml: [PyTorch, TensorFlow, Model fine-tuning, Deep learning model deployment, GPU
-        training and inference]
-    web: []
-    databases: [Vector databases, Postgres]
-    data: [Kafka, Real-time data pipelines]
-    cloud: [AWS, AWS Batch, AWS Lambda, AWS ECS, AWS S3, Managed LLM services]
-    ops: [Docker, CI/CD, Infrastructure-as-code, Datadog, GitHub, LLM evaluation frameworks]
-    languages: [Python, SQL]
     domains: [NLP]
+    languages: [Python, SQL]
+    ml: [PyTorch, TensorFlow, Fine-Tuning, Deep learning model deployment, GPU training
+        and inference]
+    cloud: [AWS, AWS Batch, AWS Lambda, ECS, AWS S3, Managed LLM services]
+    genai: [Claude Agent SDK, Google ADK, AWS AgentCore, Agentic Workflows, MCP, RAG,
+      Prompt Engineering, Embeddings, RLHF, RLAIF]
+    data: [Kafka, Real-time data pipelines]
     other: []
+    ops: [Docker, CI/CD, Infrastructure-as-code, Datadog, GitHub, LLM evaluation frameworks]
+    web: []
+    databases: [Vector Databases, PostgreSQL]
   is_customer_facing: false
   is_management: false
 meta:

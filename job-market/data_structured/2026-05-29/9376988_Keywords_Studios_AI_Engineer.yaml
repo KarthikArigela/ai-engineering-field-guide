@@ -35,18 +35,18 @@ position:
   - Fine-tuned LLMs for domain-specific gaming applications
   - Multimodal AI systems integrating vision and language models
   skills:
-    genai: [PEFT, LoRA, DSPy, Gemini, GPT-4, Claude, LangChain, LlamaIndex, OpenAI
-        SDK, LangGraph, AutoGen, CrewAI, RAG, Model Context Protocol (MCP), Prompt
-        engineering, Few-Shot, Chain-of-Thought, ReAct]
-    ml: [transformers, accelerate, TensorFlow, PyTorch]
-    web: [FastAPI, Flask, RESTful APIs]
-    databases: [Vector databases, Supabase]
-    data: []
-    cloud: [Google AI SDK, AWS, Azure, GCP]
-    ops: [vLLM, LLMOps, MLOps, Docker, CI/CD]
-    languages: [Python]
     domains: [Multimodal learning]
-    other: [N8N]
+    languages: [Python]
+    ml: [Transformers, accelerate, TensorFlow, PyTorch]
+    cloud: [Google AI SDK, AWS, Azure, GCP]
+    genai: [LoRA, DSPy, Gemini, GPT-4, Anthropic API, LangChain, LlamaIndex, OpenAI
+        SDK, LangGraph, AutoGen, CrewAI, RAG, MCP, Prompt Engineering, Few-Shot, Chain-of-Thought,
+      ReAct]
+    data: []
+    other: [n8n]
+    ops: [vLLM, LLMOps, MLOps, Docker, CI/CD]
+    web: [FastAPI, Flask, REST APIs]
+    databases: [Vector Databases, Supabase]
   is_customer_facing: false
   is_management: false
 meta:

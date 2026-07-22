@@ -41,19 +41,19 @@ position:
   - Knowledge retrieval from 34,000 expert reports and curated financial data
   - Agentic workflow automation for tax advisory tasks and regulatory compliance
   skills:
-    genai: [RAG, LangChain, LangGraph, LlamaIndex, Anthropic API, OpenAI API, MCP
-        (Model Context Protocol), Agents, Prompt Engineering, LLM]
-    ml: [Relationship Extraction, Information Retrieval]
-    web: [Node, GraphQL, REST, gRPC, SDK Development, API Design, OAuth]
-    databases: [Neo4j, Vector Search, Vector Database]
-    data: [Knowledge Graphs, Cypher, Gremlin, SPARQL, Databricks, Spark, Unity Catalog,
-      Entity Resolution, Airflow, Kafka, ETL, Data Pipelines]
-    cloud: [AWS, SageMaker]
-    ops: [MLflow, Model Serving, Inference, Experiment Tracking, Model Registry, Terraform,
-      Docker, Kubernetes, CI/CD, Monitoring, Observability, Version Control]
-    languages: [Python, TypeScript]
     domains: []
+    languages: [Python, TypeScript]
+    ml: [Relationship Extraction, Information Retrieval]
+    cloud: [AWS, SageMaker]
+    genai: [RAG, LangChain, LangGraph, LlamaIndex, Anthropic API, OpenAI API, MCP,
+      AI Agents, Prompt Engineering, LLMs]
+    data: [Knowledge Graphs, Cypher, Gremlin, SPARQL, Databricks, Spark, Unity Catalog,
+      Entity Resolution, Airflow, Kafka, Data Pipelines]
     other: []
+    ops: [MLflow, Model Deployment, Inference, Experiment Tracking, Model Registry,
+      Terraform, Docker, Kubernetes, CI/CD, Monitoring, Observability, Version Control]
+    web: [Node.js, GraphQL, REST, gRPC, SDK Development, APIs, OAuth]
+    databases: [Neo4j, Vector Search, Vector Databases]
   is_customer_facing: false
   is_management: false
 meta:

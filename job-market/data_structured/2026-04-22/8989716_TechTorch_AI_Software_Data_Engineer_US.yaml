@@ -40,17 +40,17 @@ position:
   - Enterprise system modernization with AI integration
   - Analytics and reporting enabled by AI-ready data foundations
   skills:
-    genai: [OpenAI]
+    domains: [NLP]
+    languages: [Python, SQL]
     ml: []
+    cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS Step Functions, Azure, GCP, Snowflake
+        Cortex]
+    genai: [OpenAI API]
+    data: [dbt, Airflow, Spark, Data Pipelines]
+    other: []
+    ops: [CI/CD, Docker]
     web: [React, Next.js, REST APIs, FastAPI]
     databases: [Snowflake, Redshift, BigQuery]
-    data: [dbt, Airflow, Spark, ETL/ELT]
-    cloud: [AWS Bedrock, AWS SageMaker, AWS Lambda, AWS Step Functions, Azure, GCP,
-      Snowflake Cortex]
-    ops: [CI/CD, Docker]
-    languages: [Python, SQL]
-    domains: [NLP]
-    other: []
   is_customer_facing: true
   is_management: false
 meta:
