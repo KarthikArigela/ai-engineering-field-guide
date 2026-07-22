@@ -4,8 +4,6 @@ Data-driven field guide to AI engineering roles, skills, and interviews. AI Engi
 
 Everything here is based on real data: 4,894 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
 
-It's a work in progress, and I'm actively adding more content. Your input is very welcome - feedback and contributions help shape what goes in here.
-
 Star this repo to keep an eye on updates. To get notified about new content, subscribe to my newsletter: [Alexey on Data](https://alexeyondata.substack.com/).
 
 
