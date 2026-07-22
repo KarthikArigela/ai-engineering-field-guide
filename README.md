@@ -16,6 +16,7 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 - [Responsibilities](role/03-responsibilities.md) - patterns extracted from 5,694+ job responsibilities
 - [Use cases](role/04-use-cases.md) - 4,525 real use cases showing what companies build with AI
 - [Reality vs. job postings](role/05-reality-vs-postings.md) - what candidates experience vs. what's advertised
+- [Forward Deployed Engineers](role/06-fde.md) - growth, responsibilities, and skills from 146 FDE job postings
 
 
 ## Interview Preparation

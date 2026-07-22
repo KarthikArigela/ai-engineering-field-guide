@@ -9,6 +9,7 @@ Analysis of what AI engineers actually do, based on 895 job descriptions from bu
 3. [Responsibilities](03-responsibilities.md) - 5,694 extracted responsibilities across 895 jobs
 4. [Use cases](04-use-cases.md) - 4,525 real use cases showing what companies build with AI
 5. [Reality vs. job postings](05-reality-vs-postings.md) - what candidates experience vs. what's advertised
+6. [Forward Deployed Engineers](06-fde.md) - growth, responsibilities, and skills from 146 FDE job postings
 
 ## Key Takeaways
 
@@ -38,5 +39,4 @@ Analysis of what AI engineers actually do, based on 895 job descriptions from bu
 - Evaluation is the differentiator. 39.6% of AI-First roles explicitly require evaluation skills. Anyone can build a chatbot - companies hire people who can measure if it works (LLM-as-judge, golden datasets, hallucination detection).
 - Production thinking wins over accuracy obsession. 50.2% of AI-First roles require production/ops skills (Docker, Kubernetes, CI/CD, MLOps, Terraform).
 - 95.6% of roles are applied/production, not research. Only 4.4% are research roles. The market wants people who ship, not people who publish.
-
 
