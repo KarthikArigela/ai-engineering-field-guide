@@ -1,0 +1,52 @@
+company:
+  name: Nokia
+  stage: Public
+  focus: Telecommunications and network infrastructure
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building AI agent harnesses,
+      fine-tuning foundation LLMs (LoRA/QLoRA, SFT, RLHF),
+      developing MLOps pipelines for training and deployment, and
+      integrating AI agents using modern frameworks. The engineer
+      works hands-on on the entire AI/ML lifecycle from model
+      customization to production agent systems.
+  responsibilities:
+  - Design UX and build UI for Agentic Ops in ReactJS/TypeScript
+  - Design and build agent harnesses in Python — the runtime scaffolding enabling
+    AI agents to perceive, reason, plan, and act reliably
+  - Develop and maintain MLOps framework using Kubeflow, MLflow, Argo, Airflow to
+    orchestrate training, evaluation, and deployment workflows
+  - Fine-tune foundation LLMs using LoRA/QLoRA, SFT, and RLHF; manage datasets, training
+    runs, and evaluation pipelines
+  - Deploy and operate services on Kubernetes including model serving, autoscaling,
+    and observability
+  - Build and integrate AI agents using modern agent frameworks such as LangGraph,
+    CrewAI, AutoGen, and LlamaIndex
+  - Apply software engineering rigor including SOLID principles, secure coding, static
+    analysis, code reviews, and CI/CD across all deliverables
+  use_cases:
+  - AI agent perception, reasoning, planning, and action execution (Agentic Ops)
+  - Fine-tuned foundation models for domain-specific tasks
+  - Production-grade agent systems deployed at scale on Kubernetes
+  - Automated ML training, evaluation, and deployment workflows
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, LlamaIndex, LangChain, Fine-Tuning, LoRA,
+      RLHF, LLMs, Llama, Mistral, RAG, Agentic Workflows, AI Agents, LLM Evaluation]
+    ml: []
+    web: [React]
+    databases: [Vector Databases]
+    data: [Airflow]
+    cloud: [AWS, GCP, Azure, IAM]
+    ops: [Kubeflow, MLflow, ArgoCD, Kubernetes, Docker, Helm, CI/CD, vLLM, Triton,
+      Model Deployment, MLOps]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9626745'
+  extracted_at: '2026-07-22T13:41:24.630778'

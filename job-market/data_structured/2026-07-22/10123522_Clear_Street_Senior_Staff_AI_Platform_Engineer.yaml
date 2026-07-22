@@ -1,0 +1,48 @@
+company:
+  name: Clear Street
+  stage: Late-stage (founded 2018, well-funded)
+  focus: Cloud-native clearing, custody, and trading infrastructure
+position:
+  title: Senior / Staff AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building the core AI platform that powers
+      a copilot inside an AI-native trading experience, including
+      orchestrating LLM models with tools, streaming responses,
+      and implementing retrieval/grounding systems. The engineer
+      directly builds and deploys AI capabilities (model
+      orchestration, tool execution, inference infrastructure),
+      making this an ai-first role despite being platform-focused.
+  responsibilities:
+  - Build the core AI platform powering a copilot inside an AI-native trading experience
+  - Develop a high-performance Rust backend supporting streaming responses, low-latency
+    tool execution, caching, and model+tool orchestration
+  - Design robust APIs and runtime components for AI capabilities including authentication,
+    rate limits, auditing, tracing, retries, and fallbacks
+  - Build safe action infrastructure for trading workflows with deterministic order
+    previews, confirmation flows, idempotent tool calls, and audit logs
+  - Partner with product and frontend teams to enable AI-native UX patterns such as
+    streaming, citations, grounding, and reversible actions
+  - Translate business domain knowledge into secure, resilient platform primitives
+  use_cases:
+  - AI copilot for an AI-native trading platform
+  - Safe action infrastructure for trading workflows with order previews and confirmations
+  - Low-latency LLM tool execution for mission-critical financial operations
+  - Streaming AI responses with grounding and citations for trader-facing UX
+  skills:
+    genai: [LLMs, AI Agents, Function Calling, Agentic Workflows, RAG, Embeddings]
+    ml: []
+    web: [React, React Native, APIs, Microservices]
+    databases: [PostgreSQL]
+    data: []
+    cloud: []
+    ops: [Model Deployment, Monitoring, Observability, Distributed Systems]
+    languages: [Rust, TypeScript, Python]
+    domains: []
+    other: [Concurrency, Networking, Performance Profiling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10123522'
+  extracted_at: '2026-07-22T13:29:20.470733'

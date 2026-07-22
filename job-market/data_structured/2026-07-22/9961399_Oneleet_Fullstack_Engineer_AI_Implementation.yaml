@@ -1,0 +1,54 @@
+company:
+  name: Oneleet
+  stage: Series A
+  focus: Cybersecurity and compliance platform
+position:
+  title: Fullstack Engineer, AI Implementation
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on integrating AI service endpoints
+      into an existing cybersecurity platform — building the UI,
+      context-gathering systems, and API layers around AI services
+      rather than building, training, or fine-tuning models. The
+      engineer collaborates with a separate "AI team" that owns
+      the underlying services, making this a support/integration
+      role.
+  responsibilities:
+  - Integrate AI service endpoints into the cybersecurity platform, handling authentication,
+    error states, and response processing
+  - Design and implement context-gathering systems that pull relevant security data
+    to feed into AI services
+  - Build intuitive React UI components that present AI-generated insights, recommendations,
+    and automations
+  - Implement robust error handling, caching, and fallback behaviors for AI service
+    calls
+  - Create feedback loops capturing user interactions with AI features to drive continuous
+    improvement
+  - Work directly with customers to understand AI feature usage and rapidly implement
+    UX improvements
+  - Build monitoring and analytics to track AI feature usage, success rates, and user
+    engagement
+  - Collaborate with the AI team to communicate platform needs and user feedback
+  use_cases:
+  - AI-powered cybersecurity insights and recommendations for security teams
+  - Automated security and compliance workflows powered by AI
+  - Contextual AI analysis of security program data
+  - User-facing AI-generated security recommendations and automations
+  - AI-driven compliance monitoring for SOC 2, ISO 27001 and similar standards
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: [React, REST APIs, gRPC, WebSockets, APIs, Full-Stack Development]
+    databases: [PostgreSQL, Redis]
+    data: []
+    cloud: [AWS]
+    ops: [Monitoring, Observability, Docker]
+    languages: [Go, Python, JavaScript]
+    domains: []
+    other: [Cybersecurity, Data Visualization]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9961399'
+  extracted_at: '2026-07-22T13:44:23.023645'

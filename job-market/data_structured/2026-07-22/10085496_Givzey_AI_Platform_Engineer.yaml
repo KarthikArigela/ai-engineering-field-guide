@@ -1,0 +1,53 @@
+company:
+  name: Givzey
+  stage: null
+  focus: AI-powered donor engagement and fundraising for nonprofits
+position:
+  title: AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role explicitly states it is NOT an ML engineering role
+      building models. The position focuses on building and
+      maintaining AWS infrastructure, CI/CD pipelines, and
+      platform tooling that supports AI/ML workloads (Bedrock,
+      SageMaker, RAG infrastructure, vector search). The engineer
+      partners with ML engineers to operationalize AI capabilities
+      but does not build, train, or fine-tune models themselves.
+  responsibilities:
+  - Design, build, and maintain AWS infrastructure including networking, IAM, compute,
+    storage, databases, and security across environments
+  - Own Infrastructure as Code strategy using Pulumi, building reusable components
+    and shared modules
+  - Build and maintain CI/CD deployment pipelines for applications and infrastructure
+    using GitHub Actions
+  - Build and maintain AI platform infrastructure supporting Amazon Bedrock, SageMaker,
+    OpenSearch, RAG, vector search, and LLM evaluation pipelines
+  - Monitor production systems, improve observability, respond to incidents, and drive
+    root-cause analysis
+  - Collaborate with product, engineering, ML, and customer success teams to define
+    technical standards and infrastructure direction
+  - Mentor other engineers on cloud infrastructure and operational best practices
+  use_cases:
+  - Autonomous AI fundraisers (Virtual Engagement Officers) that manage donor portfolios
+    and secure gifts
+  - LLM-powered donor engagement and relationship building for nonprofits
+  - RAG infrastructure and vector search for AI-powered fundraising workflows
+  - Gift agreement platform for multi-year giving management and forecasting
+  skills:
+    genai: [RAG, LLMs, LLM Evaluation]
+    ml: []
+    web: [APIs, Microservices]
+    databases: [PostgreSQL, Redis, Vector Databases, OpenSearch, Vector Search]
+    data: [Dagster]
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, AWS S3, IAM, ECS, CloudWatch]
+    ops: [Pulumi, Terraform, CloudFormation, Infrastructure as Code, GitHub Actions,
+      CI/CD, Docker, Monitoring, Observability, Model Deployment]
+    languages: [Python, SQL]
+    domains: []
+    other: [Event-Driven Architecture, SOC 2]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10085496'
+  extracted_at: '2026-07-22T13:26:44.688423'

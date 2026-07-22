@@ -1,0 +1,57 @@
+company:
+  name: Burq, Inc.
+  stage: Seed
+  focus: Delivery and logistics API platform
+position:
+  title: Staff AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying both agentic AI
+      systems (multi-agent orchestration, copilots) and
+      prediction/optimization models in production. The engineer
+      owns the full lifecycle from prototype to production,
+      including building eval harnesses, guardrails, and learning
+      loops for AI workflows. This is hands-on work on AI/ML
+      systems, not supporting infrastructure for others.
+  responsibilities:
+  - Design and ship production AI systems including multi-agent orchestration, routing,
+    and specialized agents that execute workflows end to end
+  - Automate manual operational work across onboarding, support, exceptions, and document/data
+    understanding
+  - Build forecasting, prediction, matching/allocation, optimization, and reliability
+    scoring models exposed as services
+  - Design learning loops with instrumented decisions and outcomes for continuous
+    model improvement
+  - Own reliability and evaluation including eval harnesses, tracing, observability,
+    and guardrails for AI workflows
+  - Make build-vs-rules decisions on when to use models, agents, or simple rules
+  - Mentor engineers and push the prototyping-to-production pipeline forward as the
+    AI team scales
+  use_cases:
+  - Multi-agent systems and copilots that automate manual logistics operations end
+    to end
+  - Forecasting and prediction models for smarter real-time operational decisions
+    in delivery logistics
+  - Matching and allocation optimization for logistics resource management
+  - Document and data understanding for automating onboarding, support, and exception
+    handling
+  - Reliability scoring to ground product decisions in data instead of guesswork
+  skills:
+    genai: [Multi-Agent Systems, Agentic Workflows, AI Agents, Guardrails, LLM Evaluation]
+    ml: [Fine-Tuning, Machine Learning, Model Training, Model Evaluation, Feature
+        Engineering, Anomaly Detection, PyTorch]
+    web: [FastAPI, APIs, Microservices]
+    databases: [PostgreSQL, Vector Databases, Redis]
+    data: [Data Pipelines, Airflow, Spark]
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, MLflow, LangSmith, Langfuse, Monitoring, Observability,
+      CI/CD, Model Deployment, MLOps]
+    languages: [Python, SQL]
+    domains: []
+    other: [System Design]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9995454'
+  extracted_at: '2026-07-22T13:45:51.259690'

@@ -1,0 +1,54 @@
+company:
+  name: Leadfeeder
+  stage: null
+  focus: B2B website visitor identification and lead generation
+position:
+  title: Senior Data Engineer, AI & Data Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the
+      internal data warehouse and analytics platform —
+      consolidating data, building transformation pipelines, and
+      enabling data models. While the platform supports AI/ML use
+      cases, the engineer does not directly build, train, fine-
+      tune, or deploy models. The work is enabling infrastructure
+      for AI consumers (data analysts, ML practitioners), making
+      this an ai-support role.
+  responsibilities:
+  - Design, build, and maintain the internal data warehouse and analytical data layer
+    consolidating data from product and operational systems
+  - Define and enforce data models, schemas, and data contracts to enable trusted
+    self-service analytics
+  - Build and maintain transformation pipelines turning raw data into clean analytical
+    datasets for BI, reporting, and AI use
+  - Collaborate with Data Analysts to enable AI and machine learning use cases by
+    building required datasets and infrastructure
+  - Implement data quality monitoring, lineage tracking, and observability across
+    the warehouse
+  - Work with stakeholders across engineering, product, and business teams to translate
+    data needs into scalable models
+  - Champion data engineering best practices including CI/CD for data assets, testing,
+    documentation, and reproducibility
+  use_cases:
+  - B2B lead generation analytics and reporting
+  - Business intelligence dashboards from consolidated warehouse data
+  - AI-driven analytical workflows powered by internal data
+  - Machine learning model training on warehouse data
+  - Data quality monitoring and lineage tracking across organizational data
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Snowflake, BigQuery, Redshift]
+    data: [dbt, Airflow, Data Pipelines, Data Modeling, Data Governance, Kafka]
+    cloud: [AWS, AWS S3, Athena, AWS Glue]
+    ops: [CI/CD, Great Expectations]
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9913209'
+  extracted_at: '2026-07-22T13:43:09.176754'

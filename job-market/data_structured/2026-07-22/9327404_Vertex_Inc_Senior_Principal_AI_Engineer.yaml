@@ -1,0 +1,61 @@
+company:
+  name: Vertex, Inc.
+  stage: Public
+  focus: Tax technology and compliance SaaS
+position:
+  title: Senior Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves direct, hands-on work building, training,
+      fine-tuning (LoRA, PEFT, QLoRA), and deploying both
+      traditional ML models and LLMs at enterprise scale. The
+      engineer also architects agentic orchestration systems, RAG
+      pipelines, and MCP servers — all core AI-building
+      activities. The role spans the full AI lifecycle from data
+      through production deployment.
+  responsibilities:
+  - Set multi-year technical vision, reference architectures, and enterprise standards
+    for AI-as-a-Service across the organization
+  - Define and own the enterprise model-training strategy across traditional AI/ML
+    and LLMs, including hands-on fine-tuning (QLoRA, LoRA, PEFT) and evaluation
+  - Architect orchestration and abstraction layers connecting LLMs to tools, data,
+    and sub-agents, setting standards for MCP servers and tool-surface design
+  - Design end-to-end retrieval/RAG systems including chunking, embeddings, vector
+    stores, hybrid search, re-ranking, and context assembly
+  - Own the enterprise evaluation, observability, and safety strategy for AI systems
+    including offline/online evaluation, tracing, red-teaming, and guardrails
+  - Establish standards for training data sourcing, cleaning, versioning, storage,
+    and governance including lineage, licensing, and PII handling
+  - Drive build-versus-buy decisions, model and vendor selection, and long-term architectural
+    bets
+  - Optimize performance, cost, scalability, and reliability of AI workloads in partnership
+    with Security, Cloud Platform, and SRE teams
+  - Mentor and grow Principal and Staff engineers to raise the AI engineering bar
+  use_cases:
+  - Enterprise AI-as-a-Service enablement at scale for tax and regulated domains
+  - Agentic orchestration connecting LLMs to tools, data, and sub-agents
+  - Production-grade retrieval/RAG systems with hybrid search and re-ranking
+  - Model fine-tuning and evaluation for commercial AI products
+  - AI governance including responsible AI, compliance, and safety guardrails
+  - Cost and performance optimization of LLM inference and token economics
+  skills:
+    genai: [LLMs, Fine-Tuning, LoRA, PEFT, QLoRA, RAG, Embeddings, MCP, Agentic Workflows,
+      Multi-Agent Systems, AI Agents, Guardrails, LLM Evaluation, Context Engineering,
+      Function Calling, Prompt Engineering, Generative AI]
+    ml: [Quantization, PyTorch, Transformers, Hugging Face, Machine Learning, Deep
+        Learning, Model Training, Reinforcement Learning, Feature Engineering, Model
+        Evaluation, scikit-learn, Pandas, NumPy, Distributed Systems]
+    web: [APIs, Microservices]
+    databases: [Vector Databases, Vector Search, pgvector, Pinecone, FAISS, PostgreSQL]
+    data: [Data Pipelines, Data Governance, Spark, Airflow]
+    cloud: [Azure, Azure OpenAI, Azure ML, Vertex AI, AWS, GCP, SageMaker]
+    ops: [Docker, Kubernetes, MLOps, MLflow, Monitoring, Observability, CI/CD, Terraform]
+    languages: [Python]
+    domains: [NLP]
+    other: [Responsible AI, System Design, FinOps]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9327404'
+  extracted_at: '2026-07-22T13:40:47.759371'

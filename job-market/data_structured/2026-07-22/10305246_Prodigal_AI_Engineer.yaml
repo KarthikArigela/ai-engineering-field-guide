@@ -1,0 +1,53 @@
+company:
+  name: Prodigal
+  stage: Series B
+  focus: AI agents for loan servicing and collections
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic runtime,
+      implementing agent logic, tuning prompts, integrating speech
+      models (STT/TTS), and working on LLM orchestration for
+      autonomous voice agents in production. The engineer is
+      hands-on with model integration, prompt engineering, and
+      agent reasoning systems — core AI/LLM engineering work, not
+      supporting infrastructure.
+  responsibilities:
+  - Build and maintain agentic runtime components powering multi-turn financial conversations
+    including payment negotiations, compliance guardrails, and objection handling
+  - Implement context management logic tracking consumer state, conversation history,
+    and business rules across long branching dialogues
+  - Work on the real-time voice pipeline targeting sub-1s latency across transcription,
+    reasoning, and synthesis
+  - Contribute to VAD tuning, turn-taking logic, and evaluation and integration of
+    speech models (STT, TTS, speech-to-speech)
+  - Debug streaming audio and WebRTC issues in production
+  - Write and refine prompts, implement orchestration flows, and contribute to model
+    routing logic
+  - Build components of the evaluation framework measuring agent quality across conversation
+    quality, empathy, and compliance adherence
+  use_cases:
+  - Autonomous voice agents for loan servicing and collections conversations
+  - Real-time voice AI with sub-1s latency for natural consumer financial interactions
+  - Multi-turn financial dialogue with payment negotiation, compliance guardrails,
+    and objection handling
+  - Agent evaluation across conversation quality, empathy, and regulatory compliance
+  skills:
+    genai: [AI Agents, Agentic Workflows, Prompt Engineering, LLMs, Function Calling,
+      Conversational AI, LLM Evaluation, Deepgram, ElevenLabs]
+    ml: []
+    web: [WebRTC, WebSockets]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Twilio, LiveKit, Streaming Audio]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10305246'
+  extracted_at: '2026-07-22T13:43:42.039034'

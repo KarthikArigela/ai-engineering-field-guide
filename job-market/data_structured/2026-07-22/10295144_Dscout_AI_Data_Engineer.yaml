@@ -1,0 +1,51 @@
+company:
+  name: Dscout
+  stage: null
+  focus: UX research platform for human behavior data
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a data engineering position focused
+      on building data pipelines, data models, and evaluation
+      infrastructure that support ML/AI features. While the role
+      involves building evaluation systems for AI features and
+      collaborating with ML engineers, the core work is data
+      pipelines and infrastructure rather than directly building,
+      training, or deploying ML models. The "hands-on experience
+      shipping AI or ML systems" is listed as background
+      experience, not the primary responsibility.
+  responsibilities:
+  - Design, build, and own data pipelines that move and transform data from application
+    and third-party sources into relational databases
+  - Partner with analytics engineering to build data models and reporting for researchers
+    and teams
+  - Own data quality across ingestion, modeling, and reporting to catch problems before
+    they reach models or users
+  - Build and ship data infrastructure and services that production ML features run
+    on
+  - Design and own evaluation systems including eval harnesses, test datasets, and
+    production monitoring for AI features
+  - Set standards for data engineering practices, documentation, and cross-team collaboration
+  use_cases:
+  - UX research data pipelines powering AI features and researcher reporting
+  - Data quality monitoring for AI/ML systems in production
+  - AI feature evaluation and monitoring systems
+  - Human behavior data transformation and warehousing for analytics
+  skills:
+    genai: [LLM Evaluation, MCP, Agentic Workflows, Cursor, Claude Code, GitHub Copilot]
+    ml: []
+    web: []
+    databases: [Snowflake, PostgreSQL]
+    data: [Airflow, Dagster, dbt, Data Pipelines, Data Modeling, Data Engineering]
+    cloud: [GCP, AWS]
+    ops: [Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10295144'
+  extracted_at: '2026-07-22T13:40:10.409844'

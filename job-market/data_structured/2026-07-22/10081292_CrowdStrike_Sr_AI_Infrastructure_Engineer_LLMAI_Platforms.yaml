@@ -1,0 +1,55 @@
+company:
+  name: CrowdStrike
+  stage: Public
+  focus: AI-native cybersecurity platform and threat detection
+position:
+  title: Sr. AI Infrastructure Engineer, LLM/AI Platforms (Remote)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      optimizing LLM infrastructure including training pipelines,
+      inference serving, and model lifecycle management. The
+      engineer works hands-on with GPU clusters, model serving
+      frameworks (vLLM, Triton), and optimization techniques like
+      quantization for LLM workloads, making it clearly ai-first.
+  responsibilities:
+  - Provision and configure large GPU clusters and compute resources for LLM training,
+    fine-tuning, and inference workloads
+  - Develop and optimize LLM model-serving infrastructure including deployment of
+    various inference frameworks
+  - Lead model lifecycle management including versioning, checkpointing, and reproducibility
+    across training and inference deployments
+  - Design evaluation frameworks to assess model performance, accuracy, and reliability
+    at production-ready standards
+  - Identify and address GPU utilization and memory efficiency bottlenecks applying
+    quantization, batching, and caching techniques
+  - Architect and maintain data platforms and pipelines supporting LLMs, RAG, and
+    AI Agentic Systems at scale
+  - Define and enforce MLOps/DataOps best practices for LLMs including monitoring,
+    observability, and zero-touch recovery mechanisms
+  - Collaborate with Data Scientists, Product Managers, and engineering teams to transform
+    research prototypes into production-grade services
+  use_cases:
+  - LLM training and fine-tuning infrastructure at large scale for cybersecurity applications
+  - Model serving and inference optimization for production AI-driven security products
+  - RAG and AI agentic systems at exabyte-scale data environments
+  - GPU cluster provisioning and optimization for AI workloads
+  - Model lifecycle management and evaluation for production AI systems
+  skills:
+    genai: [LLMs, RAG, AI Agents, Agentic Workflows, LangChain, LlamaIndex, Fine-Tuning]
+    ml: [Quantization, PyTorch, JAX, CUDA, Model Training, Megatron]
+    web: []
+    databases: []
+    data: [Ray, Spark, Flink, Data Pipelines, Data Modeling, Dask]
+    cloud: [AWS, GCP, SageMaker, Vertex AI, OCI]
+    ops: [Model Deployment, vLLM, Triton, MLflow, Kubernetes, Docker, Airflow, Terraform,
+      Ansible, MLOps, Monitoring, Observability, DevSecOps, Model Monitoring, Slurm]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10081292'
+  extracted_at: '2026-07-22T13:26:54.899550'

@@ -1,0 +1,51 @@
+company:
+  name: Delinea
+  stage: Late-stage (TPG-backed)
+  focus: Identity security and access management platform
+position:
+  title: 'Senior Software Engineer: AI Gateway'
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds security features (access control, policy
+      enforcement, traffic inspection) into a proxy/gateway
+      product that intercepts AI agent traffic. The engineer works
+      ON the gateway infrastructure that secures AI, not on
+      building, training, or deploying AI models themselves. The
+      AI is the thing being protected/controlled, not the thing
+      being built.
+  responsibilities:
+  - Build new AI security features into the access proxy product that inspects and
+    controls agent and user traffic
+  - Implement enforcement controls for protocols like Model Context Protocol (MCP)
+    and agent-to-agent communication
+  - Connect the proxy product to the Delinea Platform and validate the experience
+    with paying customers
+  - Migrate AI security features natively into the Delinea Platform without disrupting
+    existing customers
+  - Enforce just-in-time access and policy decisions in the request path using platform
+    identity and authorization components
+  - Partner with product and platform engineering teams building the proxy and access
+    engine
+  use_cases:
+  - Securing AI agent traffic through gateway-level inspection and control
+  - Enforcing access policies on Model Context Protocol (MCP) boundaries
+  - Controlling agent-to-agent communication with authorization rules
+  - Just-in-time access enforcement for AI systems and identities
+  - Real-time threat detection and response for AI workloads
+  skills:
+    genai: [MCP, AI Agents, LLMs]
+    ml: []
+    web: [Microservices, REST APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, Distributed Systems]
+    languages: [Go, C#, Java, Rust]
+    domains: []
+    other: [API Gateway, Zero Trust, IAM, Cybersecurity]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10123312'
+  extracted_at: '2026-07-22T13:29:28.644673'

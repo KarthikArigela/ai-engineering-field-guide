@@ -1,0 +1,58 @@
+company:
+  name: Southwest Airlines
+  stage: Public
+  focus: Commercial airline and air travel services
+position:
+  title: Tech Lead Software Engineer – AI Ops/Support
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on operating, monitoring, and
+      supporting AI/agentic platforms in production (L2/L3
+      engineering, SRE practices, incident response) rather than
+      building or training models from scratch. While it involves
+      model retraining loops and AI eval monitoring, the core
+      responsibility is production reliability and support for AI
+      systems, not hands-on development of AI/ML capabilities.
+  responsibilities:
+  - Lead L2/L3 engineering support for Southwest's enterprise AI and agentic platforms
+    in production
+  - Drive SRE practices at scale including SLOs, error budgets, blameless post-mortems,
+    and MTTR reduction
+  - Build an automation-first culture that converts recurring incidents into permanent
+    improvements
+  - Provide development estimates and create application designs in collaboration
+    with Solution Architects
+  - Develop, maintain, and review software with focus on quality, maintainability,
+    and test-driven development
+  - Mentor and coach the Development Team on architecture, design, development, and
+    operations topics
+  - Oversee application deployment activities and performance testing in non-production
+    and production environments
+  - Investigate new technologies and manage technical debt to continuously improve
+    applications
+  use_cases:
+  - Production reliability and 24/7 operations for enterprise AI and agentic platforms
+  - Incident response and resolution for cloud-based AI/ML systems at scale
+  - Model retraining and feedback pipelines to maintain AI system effectiveness
+  - AI evaluation and drift monitoring to ensure production model quality
+  - Multi-region disaster recovery and chaos engineering for cloud-native AI workloads
+  - FinOps optimization for AI inference including GPU utilization and batching
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, LLMs, AI Agents, Agentic Workflows, Embeddings,
+      Fine-Tuning, LLM Evaluation]
+    ml: []
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS, EKS, ECS, AWS Lambda, API Gateway, IAM, AWS Bedrock, SageMaker]
+    ops: [Datadog, CloudWatch, OpenTelemetry, Prometheus, MLflow, MLOps, Observability,
+      Monitoring, CI/CD, Docker, Kubernetes]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, Microservices, Chaos Engineering, FinOps, SRE]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10073731'
+  extracted_at: '2026-07-22T13:26:27.758770'

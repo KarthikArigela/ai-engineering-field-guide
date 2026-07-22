@@ -1,0 +1,56 @@
+company:
+  name: Commure
+  stage: Series C+ (raised $70M at $7B valuation)
+  focus: AI Operating System for healthcare administration
+position:
+  title: Staff Software Engineer, AI Integrations
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily about building data integrations
+      between Commure's platform and external EHR/EMR systems
+      using HL7/FHIR standards. While LLMs are mentioned as a tool
+      to automate reverse-engineering of EHRs, the core
+      responsibility is systems integration and data exchange, not
+      building or deploying AI/ML models. The LLM usage is
+      incidental to the main integration engineering work.
+  responsibilities:
+  - Design and implement complex integration solutions between the Commure platform
+    and third-party healthcare systems (EHRs, insurance providers) ensuring high performance,
+    reliability, and scalability
+  - Utilize LLM technology to automate the reverse-engineering of electronic health
+    records
+  - Own end-to-end integration workflows from design and development through deployment
+    and post-launch monitoring
+  - Ensure all integration work adheres to healthcare compliance and security standards
+    (HIPAA, HL7, FHIR)
+  - Mentor junior engineers and drive best practices for integration development including
+    testing, error handling, and CI
+  - Collaborate with DevOps and QA teams to implement monitoring and alerting systems
+    for integration reliability
+  - Contribute to the technical direction of the integration platform by proposing
+    architecture and tooling improvements
+  - Identify and resolve performance bottlenecks and troubleshoot integration issues
+    in production environments
+  use_cases:
+  - Healthcare data interoperability between platform and 40+ EMRs via HL7 and FHIR
+  - Revenue Cycle Management (RCM) automation processing billions in claims
+  - Ambient AI documentation at point of care
+  - Automated reverse-engineering of electronic health records using LLMs
+  - Patient and revenue workflow automation
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: [HTML, CSS, Microservices]
+    databases: [PostgreSQL, NoSQL]
+    data: []
+    cloud: [GCP, AWS]
+    ops: [Docker, Kubernetes, Git, CI/CD, Monitoring]
+    languages: [Python, Go, C++, JavaScript]
+    domains: [HL7, FHIR]
+    other: [HIPAA Compliance, Agile, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10148475'
+  extracted_at: '2026-07-22T13:31:24.281843'

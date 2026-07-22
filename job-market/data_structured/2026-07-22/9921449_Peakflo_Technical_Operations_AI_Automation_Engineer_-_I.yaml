@@ -1,0 +1,57 @@
+company:
+  name: Peakflo
+  stage: Seed
+  focus: Agentic AI for finance operations and payments
+position:
+  title: Technical Operations & AI Automation Engineer - (India/Remote)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      While the role is primarily L2 technical operations, it
+      explicitly requires building internal AI agents, deploying
+      LLM-powered diagnostics, and instrumenting production
+      systems with LLM observability tooling. The candidate is
+      expected to actively build and deploy AI automation tools as
+      a core responsibility, not just support others' AI work.
+  responsibilities:
+  - Own escalated production issues including database anomalies, failed transactions,
+    data corruption, and ghost records
+  - Deep-dive PostgreSQL and MongoDB query analysis including explain plans, slow
+    query logs, lock contention, and index misuse
+  - Triage and resolve payment failures across Southeast Asian payment rails, PSP
+    integrations, and reconciliation gaps
+  - Lead complex data migrations including schema changes, multi-tenant data moves,
+    and backfills with zero data loss
+  - Build internal AI agents and tools that automate repetitive investigation and
+    support workflows
+  - Deploy LLM-powered diagnostics for log summarization, anomaly detection, and automated
+    root cause analysis
+  - Manage CI/CD pipelines, deployment workflows, and GCP infrastructure including
+    IAM and container deployments
+  - Build and maintain CLI tools, internal dashboards, and scripts to accelerate engineering
+    velocity
+  use_cases:
+  - Automated production incident investigation and resolution using AI agents
+  - LLM-powered log summarization and anomaly detection for proactive issue identification
+  - Automated root cause analysis drafting for production failures
+  - Payment flow failure triage and reconciliation across Southeast Asian payment
+    rails
+  - Automated data migration and schema change execution
+  - ERP integrations with NetSuite and Xero
+  skills:
+    genai: [AI Agents, LLMs, Claude Code, Cursor, GitHub Copilot]
+    ml: []
+    web: [Microservices]
+    databases: [PostgreSQL, MongoDB]
+    data: [Data Pipelines]
+    cloud: [GCP, IAM]
+    ops: [Docker, Kubernetes, CI/CD, Langfuse, LLMOps, Monitoring, Observability,
+      OpenTelemetry, Git]
+    languages: [Python, Bash]
+    domains: []
+    other: [NetSuite, Xero]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9921449'
+  extracted_at: '2026-07-22T13:42:59.956847'

@@ -1,0 +1,58 @@
+company:
+  name: Bread Financial
+  stage: Public
+  focus: Consumer payment, lending, and saving solutions
+position:
+  title: Senior Staff Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying agentic AI
+      systems — agent runtimes, multi-agent frameworks, reasoning
+      loops (ReAct, CoT, ToT), RAG memory architectures, and
+      policy enforcement for autonomous agents. The engineer works
+      hands-on with LLMs, agent orchestration, and production AI
+      platform infrastructure, making this squarely ai-first.
+  responsibilities:
+  - Design and enhance multi-agent frameworks and LLM-powered autonomous systems using
+    goal schemas, planner-executor patterns, and policy enforcement points
+  - Implement and refine ReAct, CoT, and ToT reasoning loops and standardize their
+    use across agent workflows
+  - Architect and implement safety controls including scoped tool access, validators,
+    red-team hooks, human-escalation paths, and Policy Enforcement Points
+  - Operate and scale production agentic AI platforms on Kubernetes with agent-centric
+    SLOs and deep telemetry instrumentation
+  - Establish enterprise safety guardrails, ethical guidelines, and compliance standards
+    for agents in high-risk financial workflows
+  - Mentor engineers and uphold high engineering standards across the team
+  - Partner with Product to shape AI strategy and agent user experiences, collaborating
+    with data and backend teams for real-time agent data access
+  - Build offline and online evaluation pipelines using curated golden datasets and
+    tools like LangSmith, Arize Phoenix, and Weights & Biases
+  use_cases:
+  - Automated classification and routing of financial transactions and customer requests
+  - Multi-agent workflows for reconciliation and anomaly detection in financial systems
+  - Autonomous decisioning agents for financial workflows with safety and compliance
+    guardrails
+  - Agent-assisted incident triage, automated rollback/roll-forward, and human-gated
+    production controls
+  - Enterprise agent platforms with PII-minimized memory architectures for regulated
+    industries
+  skills:
+    genai: [LangGraph, AutoGen, CrewAI, LangChain, LLMs, AI Agents, Multi-Agent Systems,
+      Agentic Workflows, RAG, Prompt Engineering, OpenAI API, ReAct, Embeddings]
+    ml: [Hugging Face, Anomaly Detection]
+    web: []
+    databases: [PostgreSQL, Redis, Graph Databases, Vector Databases]
+    data: []
+    cloud: [AWS]
+    ops: [Kubernetes, Terraform, Ansible, LangSmith, Weights & Biases, Datadog, Grafana,
+      Prometheus, New Relic, CI/CD, Observability, Arize Phoenix]
+    languages: [Python, SQL]
+    domains: []
+    other: [Microservices, Distributed Systems, Responsible AI]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10175694'
+  extracted_at: '2026-07-22T13:32:39.562934'

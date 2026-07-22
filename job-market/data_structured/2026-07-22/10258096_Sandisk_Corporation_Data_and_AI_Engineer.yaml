@@ -1,0 +1,56 @@
+company:
+  name: Sandisk Corporation
+  stage: Public
+  focus: Data storage and memory technology solutions
+position:
+  title: Data and AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying ML models
+      (classification, regression, forecasting, anomaly detection)
+      as well as developing GenAI/LLM-powered solutions including
+      RAG pipelines, embeddings, vector databases, and prompt
+      engineering. The engineer operationalizes models through
+      MLOps practices, making this a hands-on AI/ML role.
+  responsibilities:
+  - Design, build, and maintain scalable ETL/ELT pipelines to ingest structured and
+    unstructured data from SAP S/4HANA, Oracle, Salesforce, and third-party APIs into
+    enterprise data lakes/lakehouses
+  - Develop and optimize data products using medallion architecture on platforms like
+    Databricks
+  - Implement data quality, lineage, and governance controls using tools such as Purview,
+    Alation, or Unity Catalog
+  - Build, deploy, and monitor ML models including classification, regression, forecasting,
+    and anomaly detection
+  - Develop GenAI and LLM-powered solutions including RAG pipelines, embeddings, vector
+    databases, and prompt engineering
+  - Operationalize models through MLOps practices including CI/CD for ML, model versioning,
+    drift monitoring, and automated retraining
+  - Deploy and manage data and AI workloads on Azure, AWS, or GCP leveraging services
+    like ADF, Databricks, Glue, Lambda, Functions, and Kubernetes
+  use_cases:
+  - Supply chain and procurement analytics (spend analysis, demand forecasting, supplier
+    risk)
+  - Enterprise data integration from ERP systems (SAP S/4HANA, Oracle, Salesforce)
+  - RAG-powered enterprise search and knowledge retrieval
+  - Predictive modeling for business forecasting and anomaly detection
+  - AI-assisted enterprise workflows using Copilot and Azure OpenAI
+  skills:
+    genai: [RAG, Embeddings, Prompt Engineering, Azure OpenAI, AWS Bedrock, Copilot
+        Studio, Agentic Workflows]
+    ml: [scikit-learn, TensorFlow, PyTorch, Anomaly Detection]
+    web: [REST APIs]
+    databases: [Oracle, Vector Databases, Pinecone]
+    data: [Data Pipelines, Databricks, PySpark, Data Governance]
+    cloud: [Azure AI Search, Azure ML, SageMaker, Vertex AI, Azure, AWS, GCP, AWS
+        Lambda]
+    ops: [MLOps, CI/CD, MLflow, Kubernetes, Unity Catalog]
+    languages: [Python]
+    domains: []
+    other: [SAP S/4HANA, Salesforce]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10258096'
+  extracted_at: '2026-07-22T13:37:39.448918'

@@ -1,0 +1,57 @@
+company:
+  name: Get Well Network
+  stage: Acquired/Subsidiary (SymphonyAI Group company)
+  focus: AI-native healthcare precision care and patient engagement
+position:
+  title: Senior AI QA Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a QA Engineer role that validates and tests AI/ML
+      pipeline outputs rather than building, training, or
+      deploying models. The role involves building testing
+      frameworks, automated model grading systems, and data
+      pipeline validation for clinical AI outputs. While deeply
+      embedded in the AI ecosystem (LLM evaluation, hallucination
+      detection, semantic similarity), the core work is quality
+      assurance and test engineering, not model development.
+  responsibilities:
+  - Architect multi-layered validation frameworks combining deterministic checks,
+    semantic similarity metrics, and model-based evaluations for clinical pipeline
+    outputs
+  - Develop automated model grading systems to evaluate clinical outputs for faithfulness,
+    safety, and hallucination detection using scoring techniques like BERTScore and
+    ROUGE
+  - Leverage agentic AI tools to rapidly prototype test harnesses, red-team clinical
+    logic, and build internal validation utilities
+  - Execute integration and regression tests for data-heavy backend processes ensuring
+    medical data consistency from ingestion to insight generation
+  - Collaborate with Data Scientists and Product Managers to define Ground Truth datasets
+    and clinical evaluation rubrics
+  - Perform root cause analysis on complex system failures to identify whether issues
+    stem from code logic, data drift, or model behavior
+  - Serve as Subject Matter Expert on test process development for large-scale clinical
+    AI systems
+  use_cases:
+  - Clinical insight validation and safety assurance for AI-powered patient care pipelines
+  - Hallucination detection and faithfulness scoring for clinical AI outputs
+  - Data pipeline integrity testing for medical data from ingestion through insight
+    generation
+  - Automated model grading for non-deterministic medical AI outputs
+  - Red-teaming clinical logic to ensure safe and reliable patient care recommendations
+  skills:
+    genai: [Cursor, Claude Code, AI Agents, LLM Evaluation, Embeddings, Semantic Search]
+    ml: [Machine Learning, BERTScore, ROUGE]
+    web: [Playwright, Selenium, Cypress, REST APIs, Postman]
+    databases: [NoSQL]
+    data: [Data Pipelines]
+    cloud: []
+    ops: [PyTest, LangSmith, MLflow, Arize Phoenix, CI/CD]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [HIPAA Compliance, FHIR, HL7, SNOMED CT]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8157721'
+  extracted_at: '2026-07-22T13:40:12.533721'

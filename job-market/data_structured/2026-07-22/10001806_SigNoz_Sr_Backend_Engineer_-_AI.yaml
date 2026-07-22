@@ -1,0 +1,49 @@
+company:
+  name: SigNoz
+  stage: Series B+
+  focus: Open-source observability platform
+position:
+  title: Sr Backend Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and shipping LLM/agent
+      features in production — agent orchestration, tool calling,
+      MCP server, and AI SRE capabilities. The engineer works ON
+      AI systems (agents, function calling, prompt engineering) as
+      core responsibilities, not merely supporting infrastructure
+      for other AI teams.
+  responsibilities:
+  - 'Build Noz, the AI teammate: agent orchestration, tool execution, and streaming
+    APIs that return results into the product'
+  - Develop and maintain the SigNoz MCP server that exposes observability data to
+    external LLM agents
+  - 'Solve hard agent backend challenges: long-running execution, security, streaming
+    over SSE, tool calling, and session state management'
+  - Build LLM/GenAI observability features using OpenTelemetry so teams can monitor
+    their own AI applications
+  - Design APIs and data models for agent-native observability across Go and Python
+  - Drive initiatives end-to-end from problem discovery through design, implementation,
+    and rollout
+  use_cases:
+  - AI-powered observability teammate that helps engineers debug and monitor applications
+  - MCP server enabling any LLM agent to query user logs, metrics, and traces
+  - Automated SRE capabilities using AI agents for incident response and system reliability
+  - LLM/GenAI observability for monitoring and evaluating AI applications in production
+  skills:
+    genai: [LLMs, Agentic Workflows, AI Agents, Function Calling, MCP, Prompt Engineering,
+      Context Engineering, LLM Evaluation]
+    ml: []
+    web: [FastAPI, Pydantic, REST APIs, APIs, SSE]
+    databases: [ClickHouse]
+    data: [Kafka]
+    cloud: []
+    ops: [OpenTelemetry, Kubernetes, Observability]
+    languages: [Go, Python, asyncio]
+    domains: []
+    other: [Microservices, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10001806'
+  extracted_at: '2026-07-22T13:20:07.409735'

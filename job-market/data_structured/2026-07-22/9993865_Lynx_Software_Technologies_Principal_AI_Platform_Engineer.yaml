@@ -1,0 +1,57 @@
+company:
+  name: Lynx Software Technologies
+  stage: null
+  focus: |-
+    Mission-critical edge computing software for aerospace and
+    defense
+position:
+  title: Principal AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and owning an AI platform with
+      hands-on work on LLM orchestration (LangChain/LangGraph),
+      LLMOps (prompt versioning, evaluation systems), and
+      designing agentic/multi-step workflows with guardrails. The
+      engineer directly works on deploying, orchestrating, and
+      hardening LLM-based systems, making this an ai-first
+      position.
+  responsibilities:
+  - Define and enforce platform standards for AI tool orchestration, prompt assets,
+    tracing, and metadata
+  - Build and maintain Azure-based production infrastructure including networking,
+    identity, secrets, storage, database, monitoring, and deployment
+  - Implement infrastructure as code and CI/CD pipelines for sandbox-to-production
+    promotion
+  - Deepen LLMOps capabilities including prompt versioning, golden datasets, automated
+    evaluations, cost tracking, and release controls
+  - Own secure integrations with CodeBeamer, GitHub, and event-driven APIs or webhooks
+  - Establish operational discipline through logging, alerting, rollback, test coverage,
+    runbooks, and rate limiting
+  - Mentor and coach other engineers, providing technical guidance and conducting
+    architectural reviews
+  - Define the technical trajectory of the AI platform and tools
+  use_cases:
+  - AI-assisted certification and engineering workflows for safety-critical systems
+  - Orchestrating multi-step agentic workflows for regulated environments
+  - LLM-based code analysis and test generation for C/C++ systems
+  - Human-in-the-loop review and approval workflows with traceability and auditability
+  - Secure enterprise AI tool access across the organization
+  skills:
+    genai: [LangChain, LangGraph, LLMs, Prompt Engineering, Agentic Workflows, Guardrails]
+    ml: []
+    web: [REST APIs, Webhooks, React, Microservices]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [Azure, Azure Container Apps, Entra ID, Azure Key Vault]
+    ops: [Langfuse, LLMOps, Azure DevOps, Azure Monitor, Terraform, Bicep, GitHub
+        Actions, CI/CD, Infrastructure as Code, Docker, Monitoring, Observability,
+      GitHub, Git]
+    languages: [Python, C++]
+    domains: []
+    other: [Jira, RBAC]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9993865'
+  extracted_at: '2026-07-22T13:45:14.045771'

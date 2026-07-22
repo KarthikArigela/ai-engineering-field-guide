@@ -32,6 +32,13 @@ from pipeline_paths import (
 RAW_DIR = RAW_HTML_DIR
 OUTPUT_DIR = RAW_YAML_DIR
 
+INVALID_YAML_CONTROL_CHARS = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]')
+
+
+def sanitize_yaml_text(value):
+    """Remove control characters that YAML 1.2 does not permit."""
+    return INVALID_YAML_CONTROL_CHARS.sub('', str(value))
+
 
 def extract_from_json_ld(html_content):
     """Extract job data from JSON-LD script tag using BeautifulSoup."""
@@ -379,18 +386,20 @@ def write_yaml_file(job, yaml_file):
     def yaml_quote(s):
         if not s:
             return ''
+        s = sanitize_yaml_text(s)
         # Quote if contains special YAML characters
-        if any(c in str(s) for c in [':', '[', ']', '{', '}', '|', '>', '#', '&']):
+        if any(c in s for c in [':', '[', ']', '{', '}', '|', '>', '#', '&']):
             # Use double quotes and escape internal quotes/backslashes
-            quoted = str(s).replace('\\', '\\\\').replace('"', '\\"')
+            quoted = s.replace('\\', '\\\\').replace('"', '\\"')
             return f'"{quoted}"'
-        return str(s)
+        return s
 
     with open(yaml_file, 'w', encoding='utf-8') as f:
         f.write(f"job_id: {job['job_id']}\n")
         f.write(f"title: {yaml_quote(job['title'])}\n")
         f.write(f"company: {yaml_quote(job['company'])}\n")
-        f.write(f"location: {yaml_quote(job['location'])}\n")
+        location = yaml_quote(job['location'])
+        f.write(f"location: {location}\n" if location else "location:\n")
         if job['work_type']:
             f.write(f"work_type: {yaml_quote(job['work_type'])}\n")
         if job['level']:
@@ -406,7 +415,8 @@ def write_yaml_file(job, yaml_file):
         if job['description']:
             f.write(f"description: |\n")
             for line in job['description'].split('\n'):
-                f.write(f"  {line}\n")
+                clean_line = sanitize_yaml_text(line)
+                f.write(f"  {clean_line}\n" if clean_line else "\n")
         if job['industries']:
             f.write(f"industries:\n")
             for ind in job['industries']:

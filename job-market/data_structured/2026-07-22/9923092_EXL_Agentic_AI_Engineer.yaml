@@ -1,0 +1,58 @@
+company:
+  name: EXL
+  stage: Public
+  focus: Digital operations and analytics solutions
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly about designing, building, and scaling
+      multi-agent AI systems, including agent orchestration, RAG
+      pipelines, tool-calling, and AgentOps. The engineer works
+      hands-on with LLMs, agent frameworks, and production GenAI
+      systems — not merely supporting infrastructure for others.
+  responsibilities:
+  - Design and implement multi-agent architectures including orchestrator/supervisor
+    agents, task-specialized agents, and reflection/self-correction loops
+  - Build enterprise-grade RAG systems with ingestion, chunking, vector indexing,
+    retrieval strategies, and citation control
+  - Implement tool-calling agents that interact with APIs, databases, search systems,
+    and internal platforms
+  - Build agentic systems as scalable backend services with CI/CD, versioning, and
+    strong software engineering discipline
+  - Implement AgentOps and LLMOps including evaluation harnesses, observability, rollback,
+    and controlled rollout strategies
+  - Implement guardrails, policies, and monitoring for agent behavior with traceability,
+    auditability, and explainability
+  - Lead design reviews, mentor junior engineers, and influence platform standards
+    for agentic AI across teams
+  - Partner with product managers, architects, and domain SMEs to translate business
+    workflows into agent behavior
+  use_cases:
+  - Multi-agent orchestration for enterprise task automation (research, extraction,
+    validation, decisioning)
+  - Enterprise-grade retrieval-augmented generation (RAG) for grounded knowledge retrieval
+    and citation
+  - Autonomous and semi-autonomous AI agents that interact with enterprise systems
+    and APIs
+  - Governed AI agent systems with safety guardrails, compliance, and auditability
+    for regulated domains
+  skills:
+    genai: [Multi-Agent Systems, Agentic Workflows, RAG, LangChain, LangGraph, Function
+        Calling, LLMs, Generative AI, Guardrails, Embeddings, Structured Outputs,
+      Prompt Engineering]
+    ml: []
+    web: [FastAPI, REST APIs, Microservices]
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, CI/CD, MLflow, Monitoring, Observability, LLMOps]
+    languages: [Python, SQL]
+    domains: []
+    other: [Distributed Systems, System Design, Responsible AI]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9923092'
+  extracted_at: '2026-07-22T13:42:50.100270'

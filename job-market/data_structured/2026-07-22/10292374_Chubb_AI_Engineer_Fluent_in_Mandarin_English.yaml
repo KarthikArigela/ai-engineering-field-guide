@@ -1,0 +1,54 @@
+company:
+  name: Chubb
+  stage: Public
+  focus: Global insurance and financial services
+position:
+  title: AI Engineer (Fluent in Mandarin & English)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building, training, fine-
+      tuning, and deploying LLMs in production. The candidate will
+      work on model adaptation (LoRA, QLoRA, PEFT), inference
+      optimization (quantization, vLLM, Triton), RAG systems, and
+      real-time AI pipelines — all core AI engineering work on
+      models and their deployment.
+  responsibilities:
+  - Lead adaptation of Large Language Models for domain-specific tasks using LoRA,
+    QLoRA, and PEFT techniques
+  - Architect and optimize inference pipelines to minimize TTFT and maximize throughput
+    via quantization, caching, and batching
+  - Build and maintain real-time AI pipelines using WebSockets and SSE for low-latency
+    voice (ASR/TTS) and text applications
+  - Deploy and orchestrate models within containerized microservice architectures
+    (Docker/Kubernetes) with robust monitoring and scalability
+  - Build production-ready RAG systems including vector database management and semantic
+    search optimization
+  - Collaborate with Business Analysts and stakeholders to translate commercial requirements
+    into technical implementations
+  - Write high-quality, maintainable Python code with clean coding standards, modular
+    design, and comprehensive testing
+  use_cases:
+  - Voice agents with ASR/TTS capabilities for real-time interaction
+  - Document processing and multimodal extraction for insurance workflows
+  - Domain-specific LLM applications for insurance and financial services
+  - Production-grade retrieval-augmented generation for enterprise knowledge access
+  - Low-latency real-time AI inference at global scale
+  skills:
+    genai: [Fine-Tuning, LoRA, PEFT, Prompt Engineering, RAG, LLMs, Embeddings, Semantic
+        Search]
+    ml: [Quantization, CUDA, Model Training, Deep Learning, GPU Architecture]
+    web: [Microservices, WebSockets, SSE]
+    databases: [Vector Databases]
+    data: []
+    cloud: []
+    ops: [vLLM, Triton, Docker, Kubernetes, CI/CD, Monitoring, Model Deployment, MLOps,
+      Linux]
+    languages: [Python]
+    domains: []
+    other: [OCR, Document Intelligence, ASR/TTS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10292374'
+  extracted_at: '2026-07-22T13:39:01.528645'

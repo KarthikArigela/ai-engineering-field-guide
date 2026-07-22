@@ -1,0 +1,62 @@
+company:
+  name: ASOS
+  stage: Public
+  focus: Online fashion retail
+position:
+  title: Platform Engineer – Data Science & AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a platform engineering role that builds
+      infrastructure, IaC, and shared services to support data
+      engineering, ML, and agent workloads — but the role itself
+      does not build, train, fine-tune, or deploy models directly.
+      The engineer enables other teams (Data Engineers, Data
+      Scientists, ML Engineers) by providing platform
+      capabilities, observability, and lifecycle management tools.
+  responsibilities:
+  - Build and evolve the platform infrastructure and reusable abstractions that standardize
+    data engineering workloads and traditional ML workflows across teams
+  - Implement platform-level Infrastructure as Code, CI/CD, and environment management
+    for consistent, reproducible workloads across dev/test/prod
+  - Build and maintain Python and Spark components for data processing, shared datasets,
+    and platform services
+  - Contribute to shared services for data and ML lifecycle management including data
+    pipelines, experiment tracking, versioning, lineage, and permissions aligned to
+    enterprise governance
+  - Support implementation and operation of a centralized AgentOps capability including
+    LLM gateway, tool integration, prompt and version management
+  - Contribute to agent-specific lifecycle and safety controls including evaluation
+    pipelines, guardrails, and access control
+  - Enhance observability across data/ML ops and agent ops covering data quality,
+    pipeline reliability, model performance, traces, evaluations, cost and behaviour
+    monitoring
+  - Apply security and compliance best practices including RBAC/ACLs, secure configuration,
+    and identity and access management for a secure-by-default platform design
+  use_cases:
+  - Standardized data engineering workloads including batch and streaming pipelines
+  - Traditional ML workflow enablement including feature engineering, training, and
+    batch/real-time serving
+  - Centralized AgentOps capability for LLM gateway management, prompt versioning,
+    and tool integration
+  - Agent lifecycle safety controls including evaluation pipelines, guardrails, and
+    access control
+  - Unified observability across data, ML, and agent workloads for reliability, performance,
+    and cost monitoring
+  skills:
+    genai: [LLMs, Guardrails]
+    ml: []
+    web: []
+    databases: []
+    data: [Spark, Databricks, Unity Catalog, Data Pipelines]
+    cloud: [Azure, ADLS Gen2]
+    ops: [Terraform, CI/CD, Azure DevOps, GitHub Actions, Docker, Kubernetes, MLOps,
+      Observability, Monitoring, LLMOps, Infrastructure as Code]
+    languages: [Python]
+    domains: []
+    other: [RBAC, Identity and Access Management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10054028'
+  extracted_at: '2026-07-22T13:25:43.633320'

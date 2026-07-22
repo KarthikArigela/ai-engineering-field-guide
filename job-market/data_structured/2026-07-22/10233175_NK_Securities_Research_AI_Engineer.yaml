@@ -1,0 +1,49 @@
+company:
+  name: NK Securities Research
+  stage: null
+  focus: High-Frequency Trading and financial markets
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and deploying production AI
+      systems including LLM deployment, structured RAG pipelines,
+      embedding pipelines, and inference optimization across
+      CPU/GPU. The engineer works directly on implementing,
+      deploying, and monitoring AI/ML models in production — not
+      just supporting infrastructure for others.
+  responsibilities:
+  - Ship production AI models meeting defined latency and reliability expectations
+  - Add monitoring, rollback, and guardrails to AI systems before deployment
+  - Optimize model inference across CPU/GPU environments
+  - Integrate AI into existing low-latency, data-heavy workflows without degrading
+    performance
+  - Build internal tools to accelerate research and development, code understanding,
+    and knowledge retrieval
+  - Implement structured RAG and embedding pipelines with validation
+  - Create safe integration layers between AI models and internal systems
+  - Track latency, drift, and stability metrics and build observability into shipped
+    systems
+  use_cases:
+  - Improving research speed for quant researchers
+  - Internal knowledge retrieval and code understanding tools
+  - Code review workflow enhancement
+  - Production AI systems integrated into HFT infrastructure
+  - Structured retrieval-augmented generation for internal data systems
+  skills:
+    genai: [RAG, Embeddings, LLMs, Guardrails]
+    ml: [Transformers]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [LLMOps, Model Deployment, Monitoring, Observability]
+    languages: [Python, C++, Rust, Go]
+    domains: []
+    other: [Distributed Systems, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10233175'
+  extracted_at: '2026-07-22T13:36:56.984336'

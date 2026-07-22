@@ -1,0 +1,49 @@
+company:
+  name: Notion
+  stage: Series C
+  focus: Collaborative AI workspace for teams
+position:
+  title: Software Engineer, AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and operating core AI platform
+      primitives including model integrations, context management,
+      evals, release gates, and observability for LLM/AI systems
+      at scale. The engineer directly works on systems that
+      integrate, serve, and manage AI models and capabilities,
+      making this an ai-first role despite being platform-focused.
+  responsibilities:
+  - Prototype, develop, and scale core AI platform primitives and shared systems
+  - Partner with product teams to provide paved paths and production-ready guardrails
+    for shipping AI features faster
+  - Build across infrastructure, shared libraries, APIs, and product integration points
+    for AI platform adoption
+  - Operate critical AI systems in production using observability and diagnostics
+    to understand model/provider behavior
+  - Improve latency, cost, and reliability of AI systems while minimizing user disruption
+  - Help safely adopt new models, providers, and AI capabilities through versioning,
+    controlled rollouts, and quality gates
+  use_cases:
+  - Shared platform for model integrations and context management across Notion AI
+    products
+  - Quality and correctness systems including evals and release gates for AI features
+  - Observability and diagnostics for AI system failures and provider/model behavior
+  - Cost and performance optimization for AI capabilities at scale
+  - Safe adoption of new models and providers with controlled rollouts
+  skills:
+    genai: [LLMs, Prompt Engineering, LLM Evaluation]
+    ml: [Machine Learning]
+    web: [APIs, Microservices]
+    databases: []
+    data: [Spark, Ray, Data Pipelines]
+    cloud: []
+    ops: [Model Deployment, MLOps, Monitoring, Observability, CI/CD, Kubernetes, Docker]
+    languages: [TypeScript, Node.js, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10176477'
+  extracted_at: '2026-07-22T13:32:31.241306'

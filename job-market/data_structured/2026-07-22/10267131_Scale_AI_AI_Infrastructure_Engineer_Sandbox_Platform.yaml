@@ -1,0 +1,53 @@
+company:
+  name: Scale AI
+  stage: Late Stage (Series F+)
+  focus: AI data and full-stack technologies for model development
+position:
+  title: AI Infrastructure Engineer, Sandbox Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds and maintains the sandboxing/infrastructure
+      platform that powers agentic workflows — it does not involve
+      building, training, or deploying AI models directly. The
+      engineer works on virtualization, isolation, and developer
+      experience for the code execution layer that AI agents use,
+      making this an infrastructure/support role for AI systems.
+  responsibilities:
+  - Design and build the sandboxing platform, client library, and API surface for
+    secure code execution across containerized and virtualized environments
+  - Ensure strong isolation, security, and reproducibility of execution across user
+    sessions and workloads
+  - Optimize for cold-start latency, memory footprint, and resource utilization at
+    scale
+  - Drive down error rates through systematic debugging, monitoring, and proactive
+    fixes
+  - Partner with internal teams to understand their platform needs, debug issues,
+    and build supporting tooling
+  - Respond to incidents and production issues, conducting root cause analysis and
+    implementing preventive fixes
+  - Develop and maintain a product roadmap balancing immediate needs with long-term
+    architectural investment
+  - Lead architecture reviews and own projects end-to-end from design through deployment
+  use_cases:
+  - Secure sandboxed code execution for AI agents
+  - Isolated workload execution in multi-tenant and untrusted environments
+  - High-performance containerized and virtualized runtime environments for agentic
+    workflows
+  - Developer-facing platform for internal teams and customer-managed deployments
+  skills:
+    genai: [MCP, AI Agents]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, Monitoring, Observability, Linux, CI/CD, Git]
+    languages: [Go, Rust, C++]
+    domains: []
+    other: [Microservices, Distributed Systems, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10267131'
+  extracted_at: '2026-07-22T13:38:18.892649'

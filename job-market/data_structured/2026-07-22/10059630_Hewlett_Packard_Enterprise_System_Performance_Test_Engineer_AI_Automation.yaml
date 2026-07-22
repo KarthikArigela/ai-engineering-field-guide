@@ -1,0 +1,62 @@
+company:
+  name: Hewlett Packard Enterprise
+  stage: Public
+  focus: Edge-to-cloud computing and high-performance supercomputers
+position:
+  title: System Performance Test Engineer (AI, Automation)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a system performance test engineer
+      for HPE NonStop systems, with a secondary focus on using AI
+      tools (Copilot, ChatGPT, Claude) to improve team
+      productivity and automate test workflows. The engineer is
+      not building, training, fine-tuning, or deploying AI/ML
+      models — they are leveraging existing AI coding assistants
+      and prompt engineering to enhance testing processes. The
+      core work is system performance testing and automation, not
+      AI system development.
+  responsibilities:
+  - Participate in NonStop Performance Team workflows to understand day-to-day performance
+    testing and identify AI innovation and automation opportunities
+  - Execute, define, and drive performance activities including metrics, KPIs, SLOs,
+    benchmarks, acceptance criteria, and regression gates for releases
+  - Translate product performance and workload requirements into repeatable performance
+    test plans
+  - Perform full-stack profiling using tools such as Wireshark, LoadRunner, Measure,
+    ProcessH, and XProfile covering CPU, memory, cache, NUMA locality, I/O paths,
+    interrupts, network stack, and kernel scheduling
+  - Analyze contention, interrupt distribution, socket backlogs, TCP/IP and RDMA tuning,
+    and storage queues to produce root-cause analyses with development teams
+  - Create and maintain team-level AI artifacts including AGENTS.md, copilot-instructions,
+    reusable prompts, and workflow playbooks
+  - Implement AI-assisted test suite workflow automations using GitHub, CI/CD, Python
+    scripts, and internal tooling
+  - Track and report impact metrics for AI innovations including adoption, cycle time,
+    review quality, and defect trends
+  use_cases:
+  - System performance benchmarking and profiling for NonStop Compute platforms on
+    Intel x86 architectures
+  - Performance evaluation of networking subsystems including InfiniBand, RDMA, TCP/IP,
+    NFS, SMB/Samba, and IPsec
+  - AI-powered productivity improvements and test automation for engineering workflows
+  - Low-latency, high-throughput performance testing for mission-critical domains
+    such as payment gateways, banking, stock exchanges, and telecom switching
+  - Capacity characterization and regression testing across compute, memory, networking,
+    and storage subsystems
+  skills:
+    genai: [GitHub Copilot, ChatGPT, Claude Code, Prompt Engineering]
+    ml: []
+    web: [Full-Stack Development]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, GitHub, Git, Wireshark, Docker, DevOps, Monitoring, LoadRunner]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, Microservices, Testing & Automation, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10059630'
+  extracted_at: '2026-07-22T13:25:47.589094'

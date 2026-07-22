@@ -1,0 +1,57 @@
+company:
+  name: Guidewire Software
+  stage: Public
+  focus: P&C insurance software platform
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building, deploying, and
+      maintaining AI systems — specifically LLM harnesses, agent
+      loops, RAG pipelines, prompt engineering, and eval loops
+      that turn LLMs into production features. The engineer works
+      hands-on with models, agents, and retrieval systems as their
+      core day job.
+  responsibilities:
+  - Build and maintain LLM harnesses powering AI features including agent loops, tool/function
+    calling, context construction, memory, retries, and failure handling
+  - Design, iterate, and version prompts as first-class assets with structured experiments
+    and eval datasets
+  - Build and operate RAG pipelines covering chunking, indexing, retrieval, reranking,
+    prompt assembly, and response handling
+  - Generate embeddings and manage vector indexes (OpenSearch, Pinecone, pgvector)
+    tuned for retrieval quality and cost
+  - Build extraction and parsing pipelines for documents, structured records, and
+    customer datasets
+  - Write and operate accuracy validation scripts maintaining evaluation datasets
+    and reporting quality metrics
+  - Apply traditional ML techniques (classification, clustering, lightweight fine-tuning)
+    to complement LLM-based components
+  - Perform data analysis including sample inspection, error analysis, and prompt
+    iteration to inform AI design decisions
+  use_cases:
+  - Document-heavy information extraction and structured knowledge base creation for
+    insurance/finance domains
+  - Retrieval-Augmented Generation for querying parsed documents and structured records
+  - Agent-based AI features with tool/function calling for production use cases
+  - Accuracy validation and quality assurance for AI-powered insurance product features
+  - Lightweight ML-based classification and clustering to complement LLM components
+  skills:
+    genai: [LangChain, LlamaIndex, LangGraph, RAG, Prompt Engineering, LLMs, AI Agents,
+      Agentic Workflows, Function Calling, Structured Outputs, Anthropic API, OpenAI
+        API, AWS Bedrock, Fine-Tuning, LLM Evaluation, Claude Code, Embeddings]
+    ml: [scikit-learn, Machine Learning]
+    web: []
+    databases: [OpenSearch, Pinecone, pgvector, Vector Databases]
+    data: [Pandas, NumPy]
+    cloud: [AWS, SageMaker]
+    ops: [Git, CI/CD]
+    languages: [Python]
+    domains: []
+    other: [Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10092893'
+  extracted_at: '2026-07-22T13:31:42.600794'

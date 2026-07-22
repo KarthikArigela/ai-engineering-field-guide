@@ -1,0 +1,51 @@
+company:
+  name: Syllo
+  stage: null
+  focus: Unified litigation platform with AI
+position:
+  title: Staff Software Engineer, AI Inference
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly focused on building, operating, and
+      optimizing production AI inference systems for serving large
+      language models. The engineer will work hands-on with model
+      serving, runtime optimization, GPU utilization, and
+      deployment of LLMs — all core AI infrastructure work, not
+      adjacent support.
+  responsibilities:
+  - Lead the design and development of the production inference platform for serving
+    large language models
+  - Define the technical roadmap for inference infrastructure, model serving, and
+    runtime optimization
+  - Build and operate scalable, cost-effective systems for serving LLMs in production
+    with optimized latency, throughput, and GPU utilization
+  - Evaluate and integrate modern inference technologies, frameworks, and serving
+    runtimes
+  - Develop systems for model deployment, traffic routing, autoscaling, scheduling,
+    and observability
+  - Partner with ML engineers to productionize new models and inference techniques
+  - Establish benchmarking methodologies to evaluate new models, runtimes, and hardware
+  - Mentor engineers and establish engineering best practices for AI infrastructure
+  use_cases:
+  - Production LLM serving and inference at scale for a litigation platform
+  - GPU-optimized model deployment with low latency and high throughput
+  - Cost-efficient inference infrastructure for open-source language models
+  - Model lifecycle management including deployment, routing, autoscaling, and monitoring
+  skills:
+    genai: [LLMs]
+    ml: [Hugging Face, GPU Optimization, CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, TensorRT, Triton, Model Deployment, Monitoring, Observability, Kubernetes,
+      Docker]
+    languages: [Python, Go, Rust, C++]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10157810'
+  extracted_at: '2026-07-22T13:35:15.446300'

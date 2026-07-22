@@ -1,0 +1,53 @@
+company:
+  name: Fuse Energy
+  stage: Late Stage (raised $210M)
+  focus: |-
+    Renewable energy and high-performance AI compute
+    infrastructure
+position:
+  title: AI Inference Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly about building and operating large-
+      scale AI inference serving systems, including optimization
+      techniques like batching, KV-cache management, quantization,
+      and speculative decoding. The engineer owns how models are
+      served, scaled, and delivered at the inference layer, which
+      is hands-on work with deploying and optimizing model
+      inference.
+  responsibilities:
+  - Define and build how Fuse serves AI inference workloads at scale
+  - Own the inference serving layer that sits above GPU/CUDA kernel-level performance
+    work
+  - Architect and operate large-scale inference serving systems from request to served
+    response
+  - Integrate low-level GPU/CUDA performance optimizations into the serving system
+  - Make high-stakes architecture decisions and own outcomes for the inference platform
+  - Shape the inference serving function as a founding role without an established
+    playbook
+  - Work directly with GPU/CUDA engineers to deliver against committed performance
+    targets
+  - Handle autoscaling and capacity planning for large-scale inference workloads
+  use_cases:
+  - Large-scale AI inference serving for data centre customers
+  - High-performance compute infrastructure at the intersection of energy and AI
+  - Multi-tenant inference serving with SLA-driven performance
+  - Pairing real power delivery with compute capacity for AI inference workloads
+  skills:
+    genai: []
+    ml: [CUDA, Quantization, PyTorch]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, Triton, Kubernetes, Distributed Systems, Model Deployment, Slurm,
+      TensorRT, Monitoring, Inference Serving]
+    languages: [Python, C++, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10258871'
+  extracted_at: '2026-07-22T13:37:28.830519'

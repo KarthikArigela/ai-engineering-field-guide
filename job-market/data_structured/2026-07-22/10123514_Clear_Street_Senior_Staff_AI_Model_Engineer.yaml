@@ -1,0 +1,58 @@
+company:
+  name: Clear Street
+  stage: Series B
+  focus: Cloud-native clearing, custody, and trading platform
+position:
+  title: Senior / Staff AI Model Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and owning AI copilot
+      quality, including model improvement loops with fine-tuning,
+      preference optimization, prompt engineering, and LLM
+      evaluation for a trading platform. The engineer works hands-
+      on with LLMs/agents, building evaluation frameworks and
+      running model improvement cycles to measurably improve
+      benchmark performance.
+  responsibilities:
+  - Own the reliability and quality bar for an AI copilot embedded in a trading platform
+    used by sophisticated investors
+  - Design and build evaluation systems measuring correctness, safety, latency, and
+    regression risk across market analysis, portfolio/risk reasoning, and trading
+    workflows
+  - Develop and maintain benchmarks including golden sets, scenario suites, stress/adversarial
+    cases, and continuously refreshed market/regime-based test corpora
+  - Build automated quality gates and regression workflows that block releases when
+    key metrics degrade
+  - Partner with engineering and product to define safe tool/action contracts including
+    deterministic previews, confirmations, and auditability
+  - 'Own model improvement loops tied to evals: data collection/labeling strategies,
+    error taxonomy, prompt/tooling changes, and fine-tuning or preference optimization'
+  - Design and operate monitoring and incident response for AI systems including telemetry,
+    alerting, RCA, and fix-forward processes
+  - Develop deep understanding of trading concepts and express them accurately and
+    understandably to users
+  use_cases:
+  - AI copilot for sophisticated investors in a trading platform
+  - Market analysis and portfolio/risk reasoning using LLMs
+  - Trading workflow automation including order placement with safety guardrails
+  - Safe tool/action execution with deterministic previews and auditability for trading
+  - Adversarial and stress testing of AI assistant behavior in high-stakes financial
+    scenarios
+  skills:
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, AI Agents, RAG, LLM Evaluation,
+      Structured Outputs]
+    ml: []
+    web: [React, React Native]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [AWS]
+    ops: [Monitoring, Observability, LLMOps, CI/CD, Model Deployment, Model Monitoring]
+    languages: [Rust, TypeScript, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10123514'
+  extracted_at: '2026-07-22T13:29:14.517545'

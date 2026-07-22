@@ -1,0 +1,195 @@
+job_id: 9782910
+title: Senior Software Engineer with AI plus Revit
+company: Stratus
+location: USA
+work_type: FULL_TIME
+description: |
+  Stratus, deriving from the Latin term meaning 'layer',
+  offers an advanced set of MEP specific solutions that
+  seamlessly layer across a contractor's entire workflow from
+  design to fabrication to installation. Our team of seasoned
+  industry experts, skilled technology leaders, innovators,
+  and entrepreneurs understands that fabrication does not
+  occur in isolation, and increasingly, it may not happen
+  within your own fabrication shop. Through close
+  relationships with our customers—who include some of the
+  most innovative and largest MEP contractors—we have
+  developed a suite of Stratus tools to digitize, automate,
+  and optimize piping, plumbing, sheet metal, and electrical
+  contracting. Stratus provides the software layer an MEP
+  Contractor needs to optimize profits with true "Data Driven
+  Contracting."
+
+  GENERAL DESCRIPTION:
+
+  The Senior Software Engineer with AI plus Revit builds the
+  customer-facing AI layer for Stratus — the production agent
+  systems, tool integrations, and evaluation infrastructure
+  that let our products reason over MEP fabrication data and
+  act on a contractor's behalf. This is a hands-on senior
+  engineering role: you will design and ship multi-agent
+  workflows, build the tool and context layer that connects
+  agents to Stratus data, and own the guardrails, evals, and
+  observability that make those systems safe and trustworthy
+  in front of customers.
+
+  This is a dual-strength role. Your primary craft is building
+  customer-facing AI applications. Your second required
+  competency is the Autodesk Revit API: much of the design and
+  fabrication data our agents reason over originates in Revit,
+  and the workflows we automate live at the boundary between
+  our customers' Revit environment and the Stratus platform.
+  You will build and integrate directly against that boundary,
+  not merely consume data downstream of it.
+
+  Reporting to the Director of Engineering, you will work as a
+  senior individual contributor on a small, fast-moving team —
+  owning meaningful pieces of the system end to end and
+  collaborating closely with product and customer-facing
+  teams.
+
+  We are an AI-forward engineering team. We expect every
+  engineer to use AI-assisted development tooling (Claude
+  Code, Cursor, Copilot, and the like) as a first-class part
+  of the dev loop — and to exercise sharp judgment about when
+  AI output is shippable, when it needs rework, and when it
+  should be thrown away.
+
+  KEY RESPONSIBILITIES:AI engineering (primary)
+
+  - Design and build customer-facing agentic workflows: multi-
+    agent orchestration (e.g., LangGraph, CrewAI, AutoGen),
+    tool calling, structured outputs, multi-step planning, and
+    human-in-the-loop checkpoints, to automate complex MEP
+    engineering tasks.
+  - Establish evaluation, guardrails, and failure-mode analysis
+    for agent systems — including offline eval suites in CI
+    and live production sampling — to ensure they are safe,
+    reliable, and grounded.
+  - Build the tool and context layer connecting agents to
+    Stratus data via internal and customer-facing APIs (e.g.,
+    MCP), including context-window management, permissioning,
+    and cost control.
+  - Set up observability and tracing for agent behavior;
+    diagnose cost, latency, and hallucination issues in
+    production.
+  - Integrate Stratus's published design and fabrication data
+    into agent workflows.
+
+  Revit integration (required, secondary)
+
+  - Build and maintain the Revit-side integrations that feed the
+    AI layer — the add-ins and publishing paths that move
+    design and fabrication data out of our customers' Autodesk
+    Revit environment and into Stratus.
+  - Write production C#/.NET code against the Revit API: custom
+    commands, external events, document and transaction
+    management, and integration with Autodesk model data.
+  - Own the fidelity, mapping, validation, and error handling
+    that keep Revit data exports trustworthy enough for agents
+    to reason over.
+  - Solve the hard problems specific to Revit add-in development
+    — version compatibility, performance inside large models,
+    the API threading model, and graceful degradation when the
+    host environment misbehaves.
+
+  Collaboration & delivery
+
+  - Use AI-assisted development tooling (Claude Code, Cursor,
+    Copilot, etc.) as a first-class part of the dev loop —
+    writing tests for AI-generated changes and exercising
+    clear judgment about when AI output is ready to ship.
+  - Collaborate with product managers, designers, and customer-
+    facing teams to scope, design, and ship — grounding
+    technical decisions in real design and fabrication
+    workflows.
+  - Perform requirements analysis with stakeholders, ensuring
+    solutions meet immediate product goals and longer-term
+    objectives.
+  - Contribute to agile workflows, ensuring flexibility and
+    responsiveness to evolving project needs.
+  - Share knowledge and raise the engineering bar through code
+    review and pragmatic best practices.
+
+  QUALIFICATIONS:Required:
+
+  - 6+ years of software engineering experience, with a proven
+    track record of shipping and operating production-grade
+    systems — not just prototypes or notebooks.
+  - Primary — AI engineering: Hands-on experience building and
+    operating customer-facing agentic systems in production —
+    orchestration frameworks (LangGraph, CrewAI, or AutoGen),
+    tool calling, structured outputs, and eval frameworks.
+    Experience with evals, guardrails, and observability for
+    LLM or agent systems.
+  - Secondary — Revit API: Hands-on production experience
+    building Revit add-ins and working within the realities of
+    the Revit API — the document and transaction lifecycle,
+    external events, the threading model, version
+    compatibility, and performance inside large models.
+  - Strong proficiency in C#/.NET, with demonstrated production
+    ownership of real features.
+  - Experience with MCP or similar tool-integration protocols.
+  - Strong computer science fundamentals (data structures,
+    algorithms, system design) and solid API/backend
+    engineering depth.
+  - Hands-on use of AI-assisted development tooling (Claude
+    Code, Cursor, Copilot, or equivalent) as a first-class
+    part of your daily workflow, with clear judgment about
+    when AI output ships, needs rework, or should be thrown
+    away.
+  - Excellent communication skills — able to explain complex AI
+    systems clearly to teammates, product partners, and
+    customers.
+  - Comfort working in newly forming, ambiguous areas where
+    learning and adaptability are key.
+  - Degree in Computer Science, Engineering, or a related field,
+    or equivalent practical experience.
+
+  Nice to Have:
+
+  - Familiarity working with data derived from CAD/BIM or other
+    2D/3D model sets.
+  - Working familiarity with the broader Autodesk application
+    family (e.g., AutoCAD, Fabrication, BIM 360 / ACC,
+    Navisworks) and the Autodesk Platform Services ecosystem
+    (formerly Forge) — Data Management, Model Derivative,
+    Design Automation, or related APIs.
+  - Desktop application development experience — including
+    installers (MSIs) and managing packaging, deployment, and
+    updates across customer environments.
+  - Familiarity with machine learning concepts and how data is
+    represented for training.
+  - Domain knowledge of MEP, BIM, or construction fabrication
+    workflows, or an architectural/AEC engineering background.
+  - Full-stack development experience beyond the desktop
+    application.
+  - Background in customer-facing or professional-services
+    roles.
+  - Drive to continually learn new technologies and seek new
+    ways to solve hard problems.
+  - Bias toward putting your ideas out there and failing fast.
+
+  BENEFITS:
+
+  - Comprehensive and competitive health benefits plan
+  - Matching 401k contributions
+  - 20 days annual PTO
+  - Primarily remote work with occasional annual team onsites.
+
+  This is a remote role, but candidates must be based in the
+  U.S.
+
+  E-VERIFY STATEMENT Stratus participates in E-Verify. After
+  you join the team, we'll verify your eligibility to work in
+  the U.S. by submitting information from your Form I-9 to the
+  Social Security Administration and, if needed, the
+  Department of Homeland Security. This process happens post-
+  hire only — we never use E-Verify to pre-screen applicants.
+  E-Verify Notice Right to Work Notice
+industries:
+  - Big Data
+  - Software
+posted_date: 2026-07-10
+url: "https://www.builtinla.com/job/senior-revit-api-developer/9782910"
+source: Built In

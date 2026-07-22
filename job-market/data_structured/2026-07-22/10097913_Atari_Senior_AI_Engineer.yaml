@@ -1,0 +1,53 @@
+company:
+  name: Atari
+  stage: Public
+  focus: Video games, hardware, and interactive entertainment
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly integrating LLMs into
+      production, building RAG systems (chunking, embedding,
+      indexing, retrieval), and optimizing AI application
+      performance through prompt engineering and inference
+      optimization. While it has significant full-stack
+      development responsibilities, the AI/ML integration work —
+      particularly RAG system engineering and LLM deployment —
+      makes this an ai-first role.
+  responsibilities:
+  - Design and implement scalable full-stack architectures for front-end interfaces
+    and back-end microservices
+  - Build, document, and secure RESTful and GraphQL APIs for data and model communication
+  - Configure and optimize relational and vector databases to support AI workloads
+  - Integrate LLMs and ML artifacts into production environments with focus on latency,
+    reliability, and cost efficiency
+  - Lead the design and development of RAG systems including data chunking, embedding,
+    indexing, and retrieval
+  - Optimize AI application responsiveness via prompt engineering, caching, and inference
+    optimization
+  - Collaborate with Data Scientists and MLOps Engineers to deploy, monitor, and improve
+    AI systems
+  - Develop tests and manage CI/CD pipelines ensuring quality and reliability
+  use_cases:
+  - AI-driven gaming products and experiences
+  - Contextual AI-powered responses via RAG systems
+  - Intelligent user-facing features enhancing product performance and usability
+  - Production AI applications with optimized latency and cost efficiency
+  skills:
+    genai: [LLMs, RAG, Prompt Engineering, LangChain, LlamaIndex, OpenAI API, Gemini,
+      Anthropic API, Claude Code, MCP, Embeddings]
+    ml: [Fine-Tuning, Machine Learning]
+    web: [React, Vue, Angular, Next.js, REST APIs, GraphQL, Full-Stack Development]
+    databases: [PostgreSQL, MySQL, Vector Databases, Pinecone, Weaviate, Chroma, pgvector]
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, CI/CD, MLOps, Infrastructure as Code, Model Deployment]
+    languages: [Node.js, Python, TypeScript, JavaScript]
+    domains: []
+    other: [Microservices]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10097913'
+  extracted_at: '2026-07-22T13:28:11.635227'

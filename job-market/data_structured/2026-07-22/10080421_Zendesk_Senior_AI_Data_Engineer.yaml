@@ -1,0 +1,49 @@
+company:
+  name: Zendesk
+  stage: Public
+  focus: Customer experience and service software
+position:
+  title: Senior AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is fundamentally a data engineering role focused on
+      building ELT pipelines, SQL data models, and analytics
+      infrastructure. AI is mentioned only as a secondary
+      interest—supporting the team's adoption of AI-augmented
+      engineering practices (agentic IDEs, prompt engineering) to
+      improve productivity, not building AI/ML systems themselves.
+  responsibilities:
+  - Develop and maintain ELT pipelines ensuring data reliability and scalability for
+    business reporting and analytics
+  - Build and optimize SQL-based data models using dbt and other ETL tools
+  - Support the team's adoption of AI-augmented engineering practices using emerging
+    technologies to improve productivity
+  - Identify and implement improvements in data delivery, processing performance,
+    and system efficiency
+  - Collaborate with team members to define requirements and translate them into scalable
+    data models and pipelines
+  - Contribute to the team's technical vision and bring innovative solutions to enhance
+    data systems
+  use_cases:
+  - Customer-facing analytics and reporting for Zendesk's global brands
+  - Support-operations insight and product decision-making
+  - Data pipeline reliability and scalability for business intelligence
+  - AI-augmented engineering workflow improvements for team productivity
+  skills:
+    genai: [Cursor, Claude Code, Prompt Engineering]
+    ml: []
+    web: []
+    databases: [Snowflake, BigQuery, Redshift]
+    data: [dbt, Airflow, Kafka, Apache Spark, PySpark, ELT Pipelines, Data Modeling,
+      Kimball, Inmon, Data Pipelines]
+    cloud: [AWS]
+    ops: [Kubernetes, Terraform, GitHub Actions]
+    languages: [SQL, Python]
+    domains: []
+    other: [Looker, CRM Analytics]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10080421'
+  extracted_at: '2026-07-22T13:26:39.669024'

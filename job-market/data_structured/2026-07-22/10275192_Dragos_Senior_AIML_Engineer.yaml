@@ -1,0 +1,58 @@
+company:
+  name: Dragos
+  stage: Series C
+  focus: xOT/ICS cybersecurity technology
+position:
+  title: Senior AI/ML Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is primarily focused on building and deploying
+      traditional ML systems (anomaly detection, classification,
+      time series, behavioral analysis) for cybersecurity
+      applications. While LLMs/RAG/NLP are mentioned as
+      beneficial, the core work centers on production ML model
+      architectures and ML infrastructure for ICS/xOT threat
+      detection, making it ml-first.
+  responsibilities:
+  - Design and implement production-grade machine learning systems for the Dragos
+    platform across cloud and on-premises environments
+  - Build and optimize ML model architectures for ICS/xOT cybersecurity use cases
+    including threat detection, asset classification, behavioral analysis, and anomaly
+    detection
+  - Develop robust data pipelines and ML workflows supporting real-time and batch
+    processing integrated with existing data infrastructure
+  - Translate research concepts and prototypes from OT detection experts into scalable,
+    production-ready ML systems
+  - Establish data contracts and implement observability frameworks for ML pipelines
+    including monitoring, versioning, and deployment best practices
+  - Contribute to ML infrastructure improvements including automated testing, CI/CD
+    pipelines, and containerized deployment strategies
+  - Evaluate and adapt state-of-the-art ML research and open-source models to domain-specific
+    cybersecurity applications
+  - Troubleshoot and optimize ML model performance in production addressing latency,
+    accuracy, and resource utilization
+  use_cases:
+  - Threat detection for Industrial Control Systems (ICS) and Extended Operational
+    Technology (xOT)
+  - Asset classification for cybersecurity infrastructure
+  - Behavioral analysis and anomaly detection in OT networks
+  - Natural language processing for security analysis automation
+  - Actionable intelligence delivery for cybersecurity operations
+  skills:
+    genai: [LLMs, RAG]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, Model Training, Anomaly
+        Detection, NLP, Fine-Tuning]
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: [AWS]
+    ops: [MLOps, CI/CD, Kubernetes, Docker, Monitoring, Model Deployment]
+    languages: [Python, SQL, Go, Rust, Java]
+    domains: []
+    other: [Cybersecurity, Threat Intelligence]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10275192'
+  extracted_at: '2026-07-22T13:38:48.690102'

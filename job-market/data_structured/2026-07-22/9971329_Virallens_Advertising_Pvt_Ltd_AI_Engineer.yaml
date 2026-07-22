@@ -1,0 +1,56 @@
+company:
+  name: Virallens Advertising Pvt. Ltd.
+  stage: null
+  focus: AI-driven business solutions using generative AI
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      optimizing RAG systems, fine-tuning LLMs, implementing
+      quantization/distillation techniques, and architecting
+      knowledge graphs for AI retrieval. The engineer works hands-
+      on with models, embeddings, and retrieval pipelines as core
+      responsibilities.
+  responsibilities:
+  - Design, prototype, and deploy scalable RAG pipelines combining vector search,
+    hybrid retrieval, re-ranking, and contextual compression
+  - Develop hybrid retrieval pipelines blending semantic, symbolic, and graph-based
+    methods with custom chunking and encoding strategies
+  - Architect knowledge graphs (Neo4j, RDF) and integrate them into retrieval workflows
+    to support reasoning and decision-making
+  - Build and optimize data pipelines converting documents into high-quality embeddings,
+    tuning chunk sizes and indexing strategies
+  - Implement hybrid search and metadata filtering combining semantic and keyword
+    search for precision and efficiency
+  - Evaluate retrieval performance using IR metrics and LLM-specific evaluations,
+    monitoring to mitigate hallucinations
+  - Compare and fine-tune LLMs implementing quantization, distillation, and optimization
+    techniques for latency and cost targets
+  - Collaborate cross-functionally to translate product goals into scalable AI solutions
+    and enable internal teams
+  use_cases:
+  - Retrieval-augmented generation for enterprise knowledge retrieval
+  - Hybrid search combining semantic, keyword, and graph-based retrieval
+  - Knowledge graph-driven reasoning and decision support
+  - High-recall retrieval across structured and unstructured data
+  - Hallucination mitigation in LLM-powered applications
+  skills:
+    genai: [RAG, LangChain, LlamaIndex, OpenAI API, Anthropic API, Fine-Tuning, Embeddings,
+      AI Agents, LLMs, RLHF, Semantic Search, Hugging Face]
+    ml: [Transformers, PyTorch, TensorFlow, Quantization, Machine Learning]
+    web: [React, Next.js]
+    databases: [pgvector, FAISS, Milvus, Pinecone, Weaviate, Vector Databases, Neo4j,
+      Knowledge Graphs, Vector Search]
+    data: [Data Pipelines]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Model Monitoring]
+    languages: [Python]
+    domains: [Computer Vision]
+    other: [Distributed Systems, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9971329'
+  extracted_at: '2026-07-22T13:45:26.308103'

@@ -1,0 +1,61 @@
+company:
+  name: DoiT
+  stage: null
+  focus: Global multicloud consulting and cloud intelligence platform
+position:
+  title: Applied AI Engineer -Poland(Remote)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is a full-stack software engineering position
+      building internal business platform infrastructure (Project
+      Babylon) — SaaS integrations, event-driven architecture, and
+      workflow orchestration. While the platform is designed to be
+      "agent-friendly" and Claude Code is used as a dev tool, the
+      engineer does not build, train, fine-tune, or deploy AI
+      models themselves. AI is used as a productivity tool (Claude
+      Code) and the platform supports agent consumption, but the
+      core work is traditional software engineering enabling AI
+      capabilities downstream.
+  responsibilities:
+  - Own internal tools end to end from understanding the operational problem through
+    design, implementation, deployment, and iteration
+  - Build across the stack including Python/Go services on Cloud Run, TypeScript/React
+    web apps, event-driven integrations on Pub/Sub, and GCP cloud infrastructure
+  - Integrate with third-party SaaS platforms and cloud APIs handling REST, webhooks,
+    OAuth, and event-driven patterns including failures, retries, and schema drift
+  - Build and maintain workflow automation and business process orchestration as named,
+    observable flows
+  - Use AI tooling across the development lifecycle including spec, code, and review,
+    directing Claude Code as a coding collaborator while owning the output
+  - Review AI-generated code before it ships for correctness, security, and type safety
+  - Operate production systems including monitoring, reliability, cost optimization,
+    and failure mode handling
+  - Contribute to shared engineering standards, playbooks, and internal tooling
+  use_cases:
+  - Composable event-driven platform connecting dozens of SaaS systems (CRM, ERP,
+    support, marketing, billing) into a coherent internal foundation
+  - Business process orchestration exposing domain capabilities as versioned APIs
+    with BPMN workflows
+  - Enabling AI agents as first-class consumers of internal platform APIs with narrow
+    permissions and audit trails
+  - Reconciling marketing leads into CRM systems
+  - Real-time financial forecasting replacing spreadsheet exports
+  - Automating quarterly access audits as observable flows
+  skills:
+    genai: [Claude Code, LLMs, AI Agents, OpenAI API, Prompt Engineering, Function
+        Calling]
+    ml: []
+    web: [React, REST APIs, Webhooks, OAuth, Microservices]
+    databases: [Neo4j, Graph Databases]
+    data: []
+    cloud: [GCP, Cloud Run, IAM, Pub/Sub]
+    ops: [BPMN, Monitoring, Observability, Terraform, Docker, CI/CD, SOPS]
+    languages: [Python, Go, TypeScript, Rust]
+    domains: []
+    other: [Event-Driven Architecture, n8n, Zapier, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10198842'
+  extracted_at: '2026-07-22T13:34:00.148008'

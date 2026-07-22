@@ -1,0 +1,58 @@
+company:
+  name: August Health
+  stage: Venture-backed (top-tier Silicon Valley investors)
+  focus: EHR and operating platform for senior living communities
+position:
+  title: Senior Software Engineer, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and shipping LLM-
+      powered product features end-to-end, including
+      prompt/context design, structured output, tool/agent
+      orchestration, and LLM evaluation/observability. The
+      engineer orchestrates Claude on AWS Bedrock and works hands-
+      on with applied LLM techniques like fine-tuning prompts,
+      agent orchestration, and hardening AI features for
+      production.
+  responsibilities:
+  - Design and ship LLM-powered product features end-to-end, from prompt and context
+    design through structured output, agent orchestration, and UI/API implementation
+  - Pair with product-vertical engineers to unblock AI feature work and help teams
+    adopt reusable AI patterns
+  - Build evaluation infrastructure to measure AI quality, catch regressions, and
+    reason about nondeterministic behavior before production release
+  - Improve observability for AI workflows including traces, prompt visibility, errors,
+    latency, cost, and production feedback loops
+  - Harden AI features for production with attention to latency, cost, caching, timeouts,
+    cancellation, and operational reliability
+  - Handle PHI and sensitive resident data with proper redaction, permissioning, and
+    tenancy boundaries
+  - Create reusable tools, documentation, and lightweight practices that other engineering
+    teams can adopt
+  - Partner with product managers and clinical teams to translate operational workflows
+    into AI capabilities
+  use_cases:
+  - Resident summaries and assessment suggestions for caregivers
+  - Voice-to-chart documentation for clinical workflows
+  - Role-specific AI insights for senior living operators and caregivers
+  - Permissioned AI capabilities within an EHR platform
+  - AI-assisted feature prototyping and experimentation against real healthcare workflows
+  skills:
+    genai: [LLMs, Claude, Prompt Engineering, Structured Outputs, Agentic Workflows,
+      Function Calling, LangChain, LlamaIndex, LLM Evaluation, Generative AI, Vercel
+        AI SDK]
+    ml: []
+    web: [REST APIs, Microservices]
+    databases: []
+    data: []
+    cloud: [AWS Bedrock, AWS]
+    ops: [Langfuse, Observability, Monitoring, LLMOps]
+    languages: [TypeScript, Node.js, Scala, Effect]
+    domains: []
+    other: [Code Review, HIPAA Compliance, SOC 2]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9932958'
+  extracted_at: '2026-07-22T13:47:00.656323'

@@ -1,0 +1,71 @@
+company:
+  name: The Hartford Financial Services Group, Inc.
+  stage: Public
+  focus: Insurance and financial services
+position:
+  title: Senior Software Engineer/Applied AI Scientist
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      operationalizing GenAI/agentic AI solutions including RAG
+      pipelines, chat/assistants, prompt/agent design, fine-tuning
+      with PEFT/LoRA, and synthetic data generation. The engineer
+      owns the full AI lifecycle from modeling through deployment,
+      making this clearly an ai-first position.
+  responsibilities:
+  - Design and deliver statistical, ML, and generative/agentic AI solutions including
+    RAG pipelines, chat/assistants, classification, forecasting, and recommendation
+    systems
+  - Deploy GenAI capabilities to automate regulatory filing support, including DOI
+    objection response generation and legacy filing ingestion into searchable knowledge
+    bases
+  - Engineer and maintain domain-specific knowledge bases for regulatory intelligence,
+    competitive insights, and customer sentiment across underwriting, pricing, and
+    service
+  - Own the end-to-end AI lifecycle from problem framing through deployment including
+    data prep, modeling, evaluation, CI/CD, orchestration, observability, safety filters,
+    and rollback plans
+  - Design retrieval strategies including chunking, embeddings, hybrid search, and
+    rerankers tuned for cost, latency, and domain fit
+  - Author system prompts, few-shot patterns, structured outputs, and define safe
+    tool-use policies for reliable agent behavior
+  - Define evaluation metrics, build gold/synthetic test sets, support A/B testing,
+    and monitor drift across classification, retrieval, RAG/chat, and forecasting
+    use cases
+  - Pilot emerging methods including OCR, rerankers, PEFT/LoRA, and distillation,
+    and build reusable accelerators such as chunking templates, prompt registries,
+    and evaluation harnesses
+  use_cases:
+  - Regulatory filing automation and compliance intelligence for insurance operations
+  - Chat/assistant solutions for underwriting, pricing, and customer service
+  - Classification and forecasting for insurance business processes
+  - Recommendation systems for customer experience and self-service
+  - Knowledge base engineering for regulatory, competitive, and customer sentiment
+    domains
+  - Synthetic data generation for low-frequency perils and emerging insurance segments
+  skills:
+    genai: [RAG, Prompt Engineering, Agentic Workflows, AI Agents, Function Calling,
+      Structured Outputs, Guardrails, Embeddings, LoRA, Fine-Tuning, LangChain, LangGraph,
+      LlamaIndex, Semantic Search, LLM Evaluation, OpenAI API, Conversational AI,
+      Distillation]
+    ml: [PyTorch, TensorFlow, scikit-learn, Deep Learning, Neural Networks, Model
+        Training, Model Evaluation, Reinforcement Learning, Anomaly Detection, Feature
+        Engineering]
+    web: []
+    databases: [Pinecone, Vector Databases, pgvector, PostgreSQL, OpenSearch, FAISS,
+      Knowledge Graphs, NoSQL]
+    data: [Pandas, NumPy, Data Pipelines]
+    cloud: [Vertex AI, AWS, SageMaker, AWS Bedrock, Azure, Azure AI Foundry, Azure
+        ML]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Weights & Biases, MLOps, LLMOps, Model
+        Monitoring, Model Deployment, Git, Linux]
+    languages: [Python, SQL, Bash]
+    domains: [NLP, Computer Vision]
+    other: [Time Series Forecasting, Recommender Systems, OCR, A/B Testing, Responsible
+        AI, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9626252'
+  extracted_at: '2026-07-22T13:42:20.853998'

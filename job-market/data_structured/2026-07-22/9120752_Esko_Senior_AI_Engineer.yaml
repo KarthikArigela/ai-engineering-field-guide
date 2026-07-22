@@ -1,0 +1,53 @@
+company:
+  name: Esko
+  stage: Public
+  focus: Packaging design and print software solutions
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for designing, building,
+      and deploying Generative AI systems including agentic AI
+      workflows, RAG pipelines, model fine-tuning (LoRA/QLoRA),
+      and inference optimization. The engineer works hands-on with
+      LLMs, orchestration frameworks, and evaluation pipelines to
+      deliver production-grade AI capabilities.
+  responsibilities:
+  - Design and scale agentic AI systems to support long-running, complex workflows
+    using orchestration frameworks such as LangGraph, CrewAI, or AutoGen
+  - Develop systematic evaluation and benchmarking pipelines using G-Eval, RAGAS,
+    and LLM-as-a-Judge approaches to measure performance, hallucinations, and latency
+  - Implement advanced retrieval-augmented generation (RAG) strategies including multi-stage
+    re-ranking, hybrid search, and query expansion for high-precision knowledge retrieval
+  - Optimize model inference performance using quantization approaches such as AWQ
+    and GGUF along with caching strategies for cost-efficient high throughput
+  - Collaborate with Data Science and DevOps teams to transition experimental prototypes
+    into hardened, production-ready APIs
+  - Implement safety guardrails, red-teaming workflows, and alignment mechanisms to
+    ensure outputs meet industry regulations and brand-safety standards
+  use_cases:
+  - Agentic AI systems for long-running complex packaging and print workflows
+  - High-precision knowledge retrieval for packaging design and print processes
+  - Production-grade Generative AI capabilities across Esko's product portfolio
+  - Safety and compliance guardrails ensuring outputs meet industry regulations and
+    brand-safety standards
+  - Cost-efficient model inference at scale for enterprise AI workloads
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, RAG, LangChain, LlamaIndex, Haystack, Fine-Tuning,
+      LoRA, Agentic Workflows, LLMs, LLM Evaluation, LLMOps, Prompt Engineering, Guardrails,
+      RAGAS, G-Eval, Semantic Search]
+    ml: [PyTorch, JAX, Quantization]
+    web: [APIs]
+    databases: [Pinecone, Weaviate, Milvus, Vector Databases]
+    data: []
+    cloud: [AWS]
+    ops: [Weights & Biases, MLflow, CI/CD, Model Deployment]
+    languages: [Python]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9120752'
+  extracted_at: '2026-07-22T13:40:55.813690'

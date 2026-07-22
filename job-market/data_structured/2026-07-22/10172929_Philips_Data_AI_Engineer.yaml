@@ -1,0 +1,60 @@
+company:
+  name: Philips
+  stage: Public
+  focus: Health technology and medical imaging systems
+position:
+  title: Data & AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      operationalizing ML models, LLMs, RAG pipelines, and agentic
+      AI workflows into production service tools. The engineer
+      takes AI solutions from POC to production-grade enterprise
+      systems, including retraining and monitoring models in the
+      field.
+  responsibilities:
+  - Design, develop, and deploy production-grade Data and AI solutions across the
+    MR service AI portfolio including predictive failure models, remote-resolution
+    models, and GenAI applications
+  - Build and maintain robust data pipelines and data models over service datasets
+    ensuring reliable, secure, high-quality inputs for AI applications
+  - Develop, integrate, and operationalise ML models, LLMs, RAG pipelines, and agentic
+    AI workflows into service tools used by field and remote service engineers worldwide
+  - Take POCs to MVP and productization by hardening prototypes into validated, monitored,
+    supportable enterprise solutions
+  - Implement AI engineering best practices including MLOps/LLMOps, CI/CD, automated
+    testing, model versioning, and governance in a regulated healthcare environment
+  - Develop APIs, microservices, and cloud-native AI services for scalable deployment
+    across enterprise and service platforms
+  - Monitor model performance in the field and continuously retrain and optimise for
+    accuracy, latency, cost, and reliability
+  - Embed Responsible AI by design covering data privacy, security, explainability,
+    auditability, and compliance with MedTech and Philips AI governance standards
+  use_cases:
+  - Predictive maintenance to flag MRI system failures before they cause downtime
+  - GenAI assistants to help field and remote service engineers resolve cases faster
+  - AI-driven parts recommendation and root-cause analytics for rework reduction
+  - Contract and entitlement analytics using GenAI to protect service revenue and
+    profitability
+  - Remote diagnostics and resolution of MRI service cases across a global installed
+    base
+  - Autonomous MR service journey spanning Detect, Self-Heal, Predict, and Autonomous
+    stages
+  skills:
+    genai: [LLMs, Prompt Engineering, RAG, Agentic Workflows, Azure OpenAI]
+    ml: [scikit-learn, TensorFlow, PyTorch, Fine-Tuning]
+    web: [REST APIs, FastAPI, Microservices]
+    databases: [Vector Databases, NoSQL]
+    data: [ETL, Data Pipelines, Data Modeling, Microsoft Fabric]
+    cloud: [AWS Bedrock, Azure, AWS, GCP, Azure ML, Azure AI Foundry]
+    ops: [MLflow, Docker, Kubernetes, GitHub Actions, Azure DevOps, CI/CD, MLOps,
+      LLMOps, Git, Model Monitoring]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [Responsible AI, GDPR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10172929'
+  extracted_at: '2026-07-22T13:32:20.403711'

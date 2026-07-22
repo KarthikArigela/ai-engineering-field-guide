@@ -1,0 +1,53 @@
+company:
+  name: Everpure
+  stage: Public
+  focus: Enterprise data storage and AI automation
+position:
+  title: Application Engineer (AI Automation)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying AI systems: MCP
+      servers for AI agents, RAG workflows, agentic orchestration,
+      and multi-agent communication. The engineer architects the
+      AI infrastructure (MCP servers, agent pipelines) that
+      enables autonomous workflows, which is hands-on work with
+      AI/LLM systems rather than support or infrastructure for
+      other teams.
+  responsibilities:
+  - Architect and implement MCP servers to expose Salesforce services (Quote, Opportunity,
+    Renewal) and other enterprise platforms to AI agents
+  - Decompose data models of enterprise applications like Zuora, Salesforce, and ServiceNow
+    to build schemas for AI interaction
+  - Develop and optimize RAG workflows and AI agents capable of executing complex
+    tasks autonomously
+  - Lead agentic orchestration efforts focusing on multi-agent collaboration and Agent-to-Agent
+    communication
+  - Build and maintain secure, scalable REST API integrations across disparate cloud
+    environments
+  - Act as subject matter expert for AI automation, guiding automation strategy and
+    mentoring junior engineers
+  use_cases:
+  - Autonomous Quote-to-Cash and renewal processing across Salesforce, Zuora, and
+    ServiceNow
+  - Multi-agent negotiation between Sales, Billing, and Contract agents to close renewals
+    without manual data entry
+  - Enterprise platform automation enabling AI agents to interact with complex business
+    logic
+  - RAG-based retrieval over enterprise data models for intelligent automation
+  skills:
+    genai: [MCP, RAG, AI Agents, Multi-Agent Systems, Agentic Workflows]
+    ml: []
+    web: [REST APIs, OAuth]
+    databases: [Pinecone, Weaviate, Milvus, Vector Databases]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript, JavaScript, Java]
+    domains: []
+    other: [Salesforce, ServiceNow, Zuora]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10092602'
+  extracted_at: '2026-07-22T13:27:29.311746'

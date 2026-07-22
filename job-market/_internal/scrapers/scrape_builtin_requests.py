@@ -287,7 +287,7 @@ def main():
     if all_jobs:
         csv_file = combined_csv_path(scraped_date)
         with open(csv_file, "w", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+            writer = csv.DictWriter(f, fieldnames=CSV_FIELDS, lineterminator="\n")
             writer.writeheader()
             for job in all_jobs:
                 writer.writerow({field: job.get(field, "") for field in CSV_FIELDS})

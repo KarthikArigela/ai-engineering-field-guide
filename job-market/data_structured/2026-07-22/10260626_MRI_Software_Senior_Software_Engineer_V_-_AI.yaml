@@ -1,0 +1,52 @@
+company:
+  name: MRI Software
+  stage: Public
+  focus: Real estate and PropTech software
+position:
+  title: Senior Software Engineer V - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying multi-agent
+      systems, MCP servers, and RAG architectures on a production
+      platform. The engineer architects agent orchestration with
+      LangGraph, builds agent evaluation/observability stacks, and
+      deploys agents — all hands-on work with LLM/agent systems.
+  responsibilities:
+  - Design and implement multi-agent orchestration using LangGraph with state management,
+    checkpointing, and human-in-the-loop capabilities
+  - Author MCP servers including tool schemas, authentication, error contracts, and
+    versioning
+  - Architect RAG systems covering retrieval strategy, reranking, hybrid search, and
+    evaluation
+  - Build and maintain the agent evaluation and observability stack with tracing and
+    telemetry
+  - Deploy and operate agents on Azure Foundry Agent Service and Azure Functions
+  - Establish agentic patterns and reference implementations for the engineering team
+  - Mentor junior engineers and lead technical design reviews
+  - Set engineering standards and best practices for AI agent development
+  use_cases:
+  - Multi-agent orchestration for real estate software workflows on the Agora Orchestrator
+    platform
+  - RAG-powered retrieval and search across PropTech data and documents
+  - Tool-integrated AI agents with MCP server infrastructure for enterprise SaaS
+  - Agent evaluation, observability, and cost/latency optimization for production
+    LLM systems
+  skills:
+    genai: [Multi-Agent Systems, LangGraph, MCP, RAG, Agentic Workflows, AI Agents,
+      Prompt Engineering, Fine-Tuning, LoRA, DSPy, Structured Outputs, Semantic Search,
+      LangChain, LLM Evaluation]
+    ml: [PyTorch, Transformers, scikit-learn, NumPy, Pandas, Embeddings]
+    web: [FastAPI, REST APIs, React, Angular, Pydantic]
+    databases: [PostgreSQL, SQL Server]
+    data: []
+    cloud: [Azure AI Foundry, Azure Functions, Azure, IAM]
+    ops: [LangSmith, Observability, Azure DevOps, GitHub Actions, Terraform, Monitoring]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: [System Design, OAuth, Microservices]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10260626'
+  extracted_at: '2026-07-22T13:37:13.674250'

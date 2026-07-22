@@ -1,0 +1,48 @@
+company:
+  name: Yotta Labs
+  stage: null
+  focus: Multi-silicon AI cloud and runtime platform
+position:
+  title: Research Engineer - AI Systems
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is focused on building high-performance
+      GPU/accelerator kernels, optimizing inference runtimes
+      (vLLM, TensorRT-LLM), and distributed training across
+      heterogeneous hardware. The work centers on systems-level ML
+      optimization, compiler/runtime work, and kernel development
+      rather than building LLM applications, agents, or RAG
+      systems.
+  responsibilities:
+  - Design and implement high-performance kernels for Attention, MoE, GEMM, collective
+    communication, and quantization
+  - Optimize compute kernels across NVIDIA GPUs, AMD GPUs, and AWS Trainium accelerators
+  - Develop custom operators and graph optimizations using Neuron SDK, PyTorch/XLA,
+    Torch Dynamo, and Neuron Compiler
+  - Improve performance of vLLM, SGLang, TensorRT-LLM, and custom inference runtimes
+  - Design scalable distributed training and inference solutions across thousands
+    of accelerators
+  - Contribute to open-source AI infrastructure projects and publish technical findings
+  use_cases:
+  - Multi-silicon AI cloud compute for heterogeneous hardware (NVIDIA, AMD, Trainium)
+  - High-performance model training and inference at scale
+  - LLM inference runtime optimization for production deployments
+  - Distributed training across thousands of accelerators
+  skills:
+    genai: [LLMs]
+    ml: [PyTorch, CUDA, Triton, ROCm/HIP, AWS Neuron, PyTorch/XLA, Torch Dynamo, Quantization,
+      RLHF, FlashAttention, PagedAttention, MoE, Deep Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, AWS Trainium]
+    ops: [Distributed Systems, vLLM, TensorRT-LLM, Model Deployment, Monitoring]
+    languages: [Python, C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9970901'
+  extracted_at: '2026-07-22T13:48:03.980084'

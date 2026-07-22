@@ -1,0 +1,51 @@
+company:
+  name: RedChip Companies
+  stage: null
+  focus: AI-powered financial research platform
+position:
+  title: Software Engineer (AI / Data Platform) – Contract/Remote
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a backend/data platform engineering
+      position that builds infrastructure (data pipelines, APIs,
+      search systems) to support AI-powered products. While it
+      involves LLM-based systems and semantic search, the core
+      work is data ingestion, backend systems, and platform
+      scaling rather than directly building, training, or fine-
+      tuning models. The AI components are one feature set among
+      broader platform responsibilities.
+  responsibilities:
+  - Build and scale an AI-powered stock research assistant processing SEC filings
+    and financial data in real time
+  - Design and maintain data pipelines for ingesting and transforming large-scale
+    financial datasets from EDGAR and market data sources
+  - Develop backend systems and APIs powering search, analytics, and AI workflows
+  - Implement and optimize semantic search systems using embeddings and vector databases
+  - Build internal tools and dashboards for analytics, content performance, and investor
+    insights
+  - Improve performance, reliability, and scalability across production systems
+  - Own features end-to-end from design through implementation, deployment, and monitoring
+  use_cases:
+  - Real-time AI stock research assistant processing SEC filings and financial data
+  - Semantic search over financial documents and filings
+  - Investor-facing analytics and insights tools
+  - Internal analytics dashboards for content performance
+  - Large-scale financial data ingestion and transformation from EDGAR and market
+    data sources
+  skills:
+    genai: [LLMs, Semantic Search, Embeddings]
+    ml: []
+    web: [FastAPI, REST APIs]
+    databases: [PostgreSQL, MySQL, Vector Databases, pgvector, Pinecone, Weaviate]
+    data: [Data Modeling, Data Pipelines, ETL]
+    cloud: [AWS]
+    ops: [Docker, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10261833'
+  extracted_at: '2026-07-22T13:37:25.837787'

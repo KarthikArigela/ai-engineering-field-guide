@@ -1,0 +1,52 @@
+company:
+  name: Weekday, Inc.
+  stage: null
+  focus: AI talent placement/staffing
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, training, and
+      deploying cutting-edge AI models including diffusion-based
+      generative models, Vision-Language Models, and edge-deployed
+      AI systems. The engineer owns the full model lifecycle from
+      research through production hand-off, making this a hands-on
+      AI/ML model development position.
+  responsibilities:
+  - Research and innovate diffusion-based generative models for photorealistic wall-surface
+    simulation, defect synthesis, and domain adaptation
+  - Architect and train Vision-Language Models and Vision-Language Action Models connecting
+    textual work orders, CAD plans, and sensor data to pixel-level understanding
+  - Lead development of auto-annotation pipelines using active learning, self-training,
+    and synthetic data scaling to millions of frames and point-clouds
+  - Optimize and compress models using INT8 quantization, LoRA, and distillation for
+    deployment on Jetson-class edge devices under ROS 2
+  - Own the full lifecycle from problem definition through literature review, prototyping,
+    evaluation, and production hand-off to perception and controls teams
+  - Publish internal tech reports and external conference papers, and mentor interns
+    and junior engineers
+  use_cases:
+  - Photorealistic wall-surface simulation and defect synthesis for inspection
+  - Domain adaptation for visual perception in robotics
+  - Vision-language understanding connecting work orders, CAD plans, and sensor data
+  - Automated data annotation at scale for training perception models
+  - Edge AI deployment on robotics hardware for real-time inference
+  skills:
+    genai: [LoRA]
+    ml: [PyTorch, JAX, PyTorch Lightning, DeepSpeed, Diffusion Models, ControlNet,
+      Transformers, CLIP, BLIP-2, LLaVA, Fine-Tuning, Model Training, Active Learning,
+      CUDA, Quantization, Deep Learning, Synthetic Data Generation, Pseudo-labeling]
+    web: []
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [TensorRT, ONNX Runtime, Model Deployment, MLflow]
+    languages: [Python, C++]
+    domains: [Computer Vision, NLP]
+    other: [ROS 2, NVIDIA Isaac Sim, Open3D]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10199150'
+  extracted_at: '2026-07-22T13:34:21.153369'

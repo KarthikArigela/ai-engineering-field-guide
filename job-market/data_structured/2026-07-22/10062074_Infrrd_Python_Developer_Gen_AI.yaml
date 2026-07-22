@@ -1,0 +1,54 @@
+company:
+  name: Infrrd
+  stage: null
+  focus: Intelligent Document Processing and data extraction
+position:
+  title: Python Developer (Gen AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and implementing
+      GenAI/LLM workflows using LangChain/OpenAI, designing vector
+      indexing and retrieval for RAG patterns, and creating
+      evaluators and test harnesses for LLM pipelines. The
+      developer is hands-on with prompt engineering, function
+      calling, and structured outputs in production-like settings.
+  responsibilities:
+  - Build and debug product features across APIs, data transformations, and deployment
+    workflows
+  - Build and maintain Python utilities and services for validation, transformation,
+    and automation of QC checklist execution
+  - Implement GenAI workflows using LangChain and OpenAI including prompt design,
+    tool/function calling, and guards for reliability and traceability
+  - Design and tune vector indexing and retrieval over PGVector for checklist content,
+    policies, and artifacts
+  - Create evaluators, test harnesses, and regression suites for LLM pipelines and
+    generated code outputs
+  - Instrument logs and metrics and perform root-cause analysis across data, prompts,
+    and model outputs
+  - Collaborate with Product, CS, and QA teams to triage tickets, reproduce issues,
+    and ship hotfixes and safe migrations
+  - Harden deployments with config management, secrets hygiene, and rollback strategies
+  use_cases:
+  - Automated data extraction from unstructured documents using AI and ML
+  - GenAI-powered QC checklist automation and validation
+  - RAG-based retrieval of checklist content, policies, and artifacts
+  - LLM pipeline evaluation and regression testing for generated code outputs
+  - Intelligent document processing for mortgage, QC, and RegTech domains
+  skills:
+    genai: [LangChain, OpenAI API, Gemini, Prompt Engineering, Function Calling, Structured
+        Outputs, RAG, LLMs, Guardrails, MCP, GitHub Copilot, Cursor]
+    ml: [NLTK]
+    web: [FastAPI, REST APIs, JSON]
+    databases: [pgvector, PostgreSQL, MongoDB, Vector Databases, Vector Search]
+    data: [Pandas]
+    cloud: []
+    ops: [GitHub Actions, Docker, MLOps, CI/CD, GitHub, Git]
+    languages: [Python, asyncio]
+    domains: [NLP]
+    other: [Jira]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10062074'
+  extracted_at: '2026-07-22T13:26:15.572051'

@@ -1,0 +1,54 @@
+company:
+  name: Planet (weareplanet.com)
+  stage: Private Equity-backed
+  focus: Payment processing and commerce solutions
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and owning
+      production AI agents, prompts, and retrieval pipelines (RAG)
+      that power internal business workflows. The engineer is
+      accountable for model behavior, decision quality, and
+      iterating on LLM-based systems in production — clearly
+      hands-on work with AI/LLM systems rather than supporting
+      infrastructure for others.
+  responsibilities:
+  - Design and build production-grade AI workflows integrating across internal systems
+    (HR, Finance, Operations, CRM)
+  - Implement orchestration logic including triggers, retries, fallbacks, and human-in-the-loop
+    patterns for reliable and auditable workflows
+  - Develop and maintain AI agents, prompts, retrieval pipelines, and decision logic
+    powering production workflows
+  - Own model behavior in production including accuracy, failure modes, and edge-case
+    handling
+  - Iterate on model performance using evaluation frameworks, feedback loops, and
+    real-world usage data
+  - Define and track success metrics such as accuracy, resolution rate, and time saved
+  - Diagnose and resolve cases where systems produce poor outcomes despite functioning
+    technically
+  - Partner with Data Engineering on shared platforms, CI/CD, data pipelines, security,
+    and governance standards
+  use_cases:
+  - Automating and augmenting internal business processes across HR, Finance, Operations,
+    and CRM
+  - Reducing manual effort through reliable, auditable AI-driven decision-making
+  - Improving speed and quality of everyday business decisions via AI agents
+  - Building trustworthy retrieval-augmented AI workflows for enterprise environments
+  skills:
+    genai: [LLMs, AI Agents, Prompt Engineering, RAG, Agentic Workflows, LLM Evaluation]
+    ml: [Model Evaluation, Machine Learning]
+    web: [APIs]
+    databases: []
+    data: [Airflow, Data Pipelines]
+    cloud: [Step Functions]
+    ops: [CI/CD, Monitoring, MLOps, Temporal]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9978300'
+  extracted_at: '2026-07-22T13:44:57.415019'

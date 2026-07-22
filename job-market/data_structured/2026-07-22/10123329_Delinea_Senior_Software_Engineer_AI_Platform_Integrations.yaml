@@ -1,0 +1,50 @@
+company:
+  name: Delinea
+  stage: Late-stage (TPG-backed)
+  focus: Identity security and access governance platform
+position:
+  title: 'Senior Software Engineer: AI Platform Integrations'
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role involves building third-party API integrations and
+      connectors to discover and govern AI agents on external
+      platforms like Salesforce Agentforce and Microsoft Copilot.
+      The engineer works NEAR AI (identity/security governance of
+      AI agents) but does not build, train, fine-tune, or deploy
+      AI models themselves. The core work is backend integration
+      engineering.
+  responsibilities:
+  - Build integrations extending Delinea's discovery, identity, and governance onto
+    third-party AI platforms
+  - Extend existing Microsoft integration to new platforms starting with Salesforce
+    Agentforce
+  - Retrieve native identity signals from platforms like Salesforce and Microsoft
+    Entra and pass them to the identity layer
+  - Govern agents through provider APIs and attestation where direct enforcement is
+    not possible
+  - Contribute upstream improvements to the shared discovery platform to expand coverage
+    to AWS and Google Cloud
+  - Reuse shared identity and policy building blocks rather than building separate
+    ones per integration
+  use_cases:
+  - Discovery and governance of AI agents across third-party platforms
+  - Identity signal aggregation from external AI agent platforms
+  - Policy-based enforcement and attestation for AI agents via provider APIs
+  - Cloud access security broker (CASB) style governance for SaaS AI platforms
+  skills:
+    genai: [Microsoft Copilot, AWS Bedrock, AI Agents]
+    ml: []
+    web: [OAuth, REST APIs, Webhooks]
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: []
+    languages: [C#, Go, Java, Python]
+    domains: []
+    other: [Microservices, Salesforce, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10123329'
+  extracted_at: '2026-07-22T13:29:19.908670'

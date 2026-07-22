@@ -1,0 +1,62 @@
+company:
+  name: Circles (circles.co)
+  stage: Late-stage (backed by Peak XV, Warburg Pincus, Founders Fund)
+  focus: |-
+    SaaS platform for telco operators and digital lifestyle
+    services
+position:
+  title: Senior Software Engineer (AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying agentic
+      AI/LLM systems in production, including designing agentic
+      workflows, building RAG pipelines, implementing function
+      calling, and integrating LLM-powered endpoints. The engineer
+      works hands-on with AI models and frameworks to create
+      consumer-facing AI features.
+  responsibilities:
+  - Design, implement, and maintain AI/LLM features across backend services for consumer-facing
+    journeys
+  - Build agentic workflows with planning and execution loops, safe function calling,
+    and strong failure handling
+  - Develop RAG pipelines including document ingestion, chunking, embeddings, vector
+    indexing, and retrieval tuning
+  - Build secure, scalable AI APIs, SDKs, and integrations for frontend, internal
+    systems, and third-party tools
+  - Implement safety guardrails including PII redaction, content moderation, audit
+    logging, and RBAC
+  - Define and automate evaluation frameworks for task success, response quality,
+    hallucination, latency, and cost
+  - Set up observability for AI systems using traces, metrics, logs, and cost/latency
+    monitoring
+  - Contribute to CI/CD, infrastructure-as-code, testing, and production deployment
+    processes
+  use_cases:
+  - Agentic AI workflows for consumer-facing telco and digital lifestyle journeys
+  - RAG-powered knowledge retrieval and grounded responses with citations for customer
+    interactions
+  - AI-powered API endpoints and integrations for internal systems and third-party
+    tools
+  - Content moderation, PII redaction, and compliance guardrails for AI-generated
+    content
+  - Cost and latency-optimized AI serving with provider failover and caching
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, CrewAI, OpenAI API, RAG, AI Agents, Agentic
+        Workflows, Multi-Agent Systems, Function Calling, Embeddings, LLM Evaluation,
+      Guardrails, Structured Outputs, LLMs]
+    ml: []
+    web: [React, REST APIs, OAuth, Microservices]
+    databases: [pgvector, Pinecone, Vector Databases, Vector Search]
+    data: []
+    cloud: []
+    ops: [CI/CD, Docker, Kubernetes, Terraform, Infrastructure as Code, Monitoring,
+      Observability, OpenTelemetry]
+    languages: [Python, TypeScript, Node.js, Go]
+    domains: []
+    other: [Agile, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10062109'
+  extracted_at: '2026-07-22T13:29:25.471882'

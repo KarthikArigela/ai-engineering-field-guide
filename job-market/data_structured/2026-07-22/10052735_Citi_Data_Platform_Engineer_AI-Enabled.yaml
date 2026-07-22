@@ -1,0 +1,56 @@
+company:
+  name: Citi
+  stage: Public
+  focus: Global financial services and banking
+position:
+  title: Data Platform Engineer (AI-Enabled)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is fundamentally a data platform engineering role
+      focused on building scalable data infrastructure, pipelines,
+      and warehousing. While it requires knowledge of AI agents,
+      MCP, RAG, and LLMs, the primary responsibility is data
+      engineering — these AI capabilities are applied to enhance
+      data workflows (e.g., automated schema inference, natural
+      language querying) rather than building or training AI/ML
+      systems themselves.
+  responsibilities:
+  - Design and build scalable, high-quality data-intensive platforms using Data Virtualization
+    and Data Domains methodologies
+  - Develop and maintain large-scale data pipelines, ETL/ELT processes, and data lake/warehouse
+    architectures
+  - Implement data federation and virtualization solutions using Starburst/Trino and
+    related technologies
+  - Design and integrate AI agents into data engineering workflows for autonomous
+    data querying, transformation, and validation
+  - Configure MCP servers to expose data tools, database connections, and APIs as
+    contextual resources for LLM-powered agents
+  - Implement RAG-based retrieval solutions to ground AI agents in enterprise data
+  - Ensure data quality, data lineage, and data governance across the platform
+  - Design OLTP, Operational Data Store, and Data Warehouse applications
+  use_cases:
+  - Automated schema inference and intelligent data cataloging
+  - Natural language querying of enterprise data
+  - Autonomous data querying, transformation, and validation via AI agents
+  - Real-time data processing and analytics for financial controllers
+  - Enterprise data federation and virtualization across distributed systems
+  skills:
+    genai: [RAG, MCP, AI Agents, LLMs, OpenAI API, Gemini, Anthropic API, Llama, Semantic
+        Search, Agentic Workflows]
+    ml: []
+    web: []
+    databases: [Snowflake, Redshift, MongoDB, Oracle, Pinecone, Weaviate, Chroma,
+      Vector Databases]
+    data: [Databricks, Spark, Hadoop, Airflow, Flink, Data Pipelines, Data Modeling,
+      Data Engineering]
+    cloud: []
+    ops: []
+    languages: [Scala, Java, Python, SQL, Bash]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10052735'
+  extracted_at: '2026-07-22T13:25:19.210700'

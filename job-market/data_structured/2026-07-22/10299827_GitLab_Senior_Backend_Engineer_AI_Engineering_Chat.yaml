@@ -1,0 +1,54 @@
+company:
+  name: GitLab
+  stage: Public
+  focus: DevSecOps platform with AI features
+position:
+  title: 'Senior Backend Engineer, AI Engineering: Chat'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building agentic flows using
+      LangGraph, integrating LLMs, implementing multi-agent
+      orchestration, and working with function calling/tool use in
+      production. The engineer is hands-on with AI/LLM systems,
+      designing and shipping AI-powered agentic backend features
+      for GitLab Duo Chat.
+  responsibilities:
+  - Design and build flow components and agentic flows in the Flow Registry using
+    Python and LangGraph within the Duo Workflow Service
+  - Develop, ship, and maintain backend features for GitLab Duo Chat across the Python
+    Duo Workflow Service and the GitLab Rails monolith
+  - Integrate new generative AI models, providers, tools, and multi-agent orchestration
+    patterns into Duo Chat to expand capabilities and improve answer quality
+  - Design, implement, and review GraphQL and REST APIs and related monolith logic
+    including chat entry points, permissions, and flow registration
+  - Improve debugging, observability, and test coverage using pytest, RSpec, and related
+    frameworks to keep AI-powered chat workflows reliable at scale
+  - Collaborate with Product, UX, frontend, and AI specialists to refine requirements
+    and deliver high-quality improvements
+  - Document standards, patterns, and learnings with other engineers to raise the
+    bar for safe AI integration
+  - Participate in Tier 2 on-call rotations to troubleshoot production issues and
+    contribute to root cause analysis
+  use_cases:
+  - AI-powered chat interface for the GitLab DevSecOps platform
+  - Agentic workflows for software development lifecycle assistance
+  - Multi-agent orchestration to expand Duo Chat capabilities
+  - Natural-language interface for developers to interact with GitLab platform features
+  skills:
+    genai: [LangGraph, LangChain, LLMs, Multi-Agent Systems, Function Calling, Generative
+        AI, Agentic Workflows]
+    ml: []
+    web: [Ruby on Rails, GraphQL, REST APIs]
+    databases: [PostgreSQL, SQL]
+    data: []
+    cloud: []
+    ops: [pytest, Observability, Monitoring]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10299827'
+  extracted_at: '2026-07-22T13:39:54.101800'

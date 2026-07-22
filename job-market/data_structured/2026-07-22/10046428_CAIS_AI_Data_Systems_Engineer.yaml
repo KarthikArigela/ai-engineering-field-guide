@@ -1,0 +1,56 @@
+company:
+  name: CAIS
+  stage: Series C+
+  focus: Alternative investment platform for financial advisors
+position:
+  title: AI & Data Systems Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role configures and integrates off-the-shelf platforms
+      (Snowflake Cortex, N8N, Salesforce, Airtable) and deploys
+      automations rather than building, training, or fine-tuning
+      AI/ML models. The AI involvement is limited to using AI-
+      native tools like Claude/CoWork and Snowflake Cortex for
+      workflow automation, making this an enabling/support role
+      adjacent to AI work.
+  responsibilities:
+  - Own configuration and integration of the Business Transformation tool stack, resolving
+    API, connectivity, and configuration blockers
+  - Design and implement Salesforce-Snowflake integrations and other cross-system
+    data flows
+  - Build Streamlit apps and operational dashboards for business users
+  - Deploy intelligent automations using Snowflake Cortex, Claude/CoWork, N8N, and
+    AI-native tooling
+  - Maintain Snowflake queries, data models, and reporting layers for operational
+    and analytical needs
+  - Partner with Technology to implement SDLC, testing, deployment, and version control
+    practices for the tool stack
+  - Define lightweight automation standards including reliability, error handling,
+    and logging guardrails
+  - Bridge BT and Engineering/InfoSec teams, translating business requirements into
+    technical specs and mentoring team members
+  use_cases:
+  - Workflow automation for platform operations and business transformation
+  - Cross-system data integration between Salesforce, Snowflake, and other SaaS platforms
+  - Operational dashboards and internal tooling for business users
+  - Agentic workflow prototyping and operationalization
+  - Data cataloging and discoverability across the business transformation environment
+  - Automated pre-trade, trade, and post-trade operational processes for alternative
+    investments
+  skills:
+    genai: [Claude Code, LangChain, Agentic Workflows]
+    ml: []
+    web: [Streamlit, APIs]
+    databases: [Snowflake]
+    data: [DataHub, Data Pipelines, Data Modeling]
+    cloud: [Snowflake Cortex]
+    ops: [Git, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [n8n, Airtable, Salesforce, Stonly, Zapier, Zapier]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10046428'
+  extracted_at: '2026-07-22T13:25:02.852265'

@@ -1,0 +1,58 @@
+company:
+  name: Capstone Integrated Solutions
+  stage: null
+  focus: Retail software development and IT services
+position:
+  title: Senior Full Stack Agentic AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building and deploying agentic
+      AI workflows using Amazon Bedrock Agent Core, implementing
+      RAG pipelines, and designing multi-step agent reasoning
+      flows for production use cases. The developer works hands-on
+      with LLMs, agents, and RAG systems as core responsibilities,
+      not merely supporting infrastructure for other AI teams.
+  responsibilities:
+  - Design and implement agentic workflows using Amazon Bedrock Agent Core, including
+    Agent Core Runtime, Agent Core Gateway, action groups, and Lambda-backed tool
+    use
+  - Build agents for customer-facing use cases such as reservation bookings, service
+    requests, and customer-assist chat/voice integrated with Amazon Connect
+  - Implement RAG pipelines using Knowledge Bases for Bedrock, including embedding
+    model selection, chunking strategy, and retrieval quality optimization
+  - Design and develop serverless backend services using AWS Lambda, Step Functions,
+    EventBridge, and API Gateway
+  - Build, debug, and maintain Lambda functions in production with observability via
+    Lambda Powertools, CloudWatch Logs Insights, and X-Ray tracing
+  - Design and develop the Customer 360 API layer to expose unified customer profiles
+    and CDP outputs to downstream applications
+  - Build responsive UI/UX for customer-facing and internal applications using React,
+    including Customer Portal and campaign management interfaces
+  - Consume SageMaker and Bedrock model outputs to surface AI-driven insights such
+    as lead scoring, audience segmentation, and hyper-personalization
+  use_cases:
+  - Reservation booking and service request automation via agentic AI
+  - Customer-assist chat and voice for omnichannel customer engagement
+  - Enterprise knowledge retrieval and Q&A via RAG pipelines
+  - Lead scoring and audience segmentation using ML model outputs
+  - Hyper-personalized customer experiences at scale
+  - Customer 360 unified profile access and lifecycle analytics
+  - Customer preference management with GDPR compliance (right-to-forget, right-to-access)
+  skills:
+    genai: [Amazon Bedrock, AWS Bedrock, RAG, Embeddings, AI Agents, Agentic Workflows,
+      Function Calling, LangGraph]
+    ml: []
+    web: [React, REST APIs, GraphQL, AWS AppSync, Microservices]
+    databases: [DynamoDB, Amazon RDS]
+    data: []
+    cloud: [AWS Lambda, API Gateway, SageMaker, AWS Cognito, AWS S3, IAM]
+    ops: [CloudWatch, AWS X-Ray, Lambda Powertools, Docker]
+    languages: [Python, TypeScript, Node.js, SQL]
+    domains: []
+    other: [Agile, GDPR, NetSuite, Amazon Connect, Amazon QuickSight]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9523295'
+  extracted_at: '2026-07-22T13:41:58.402159'

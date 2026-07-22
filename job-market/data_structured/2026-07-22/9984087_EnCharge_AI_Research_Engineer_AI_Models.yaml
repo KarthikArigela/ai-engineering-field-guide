@@ -1,0 +1,53 @@
+company:
+  name: EnCharge AI
+  stage: null
+  focus: AI inference hardware and platforms
+position:
+  title: Research Engineer, AI Models
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building fine-tuning and post-
+      training pipelines for LLMs and diffusion models,
+      implementing quantization/distillation/speculative decoding
+      techniques, and optimizing model inference on custom
+      hardware. The engineer works hands-on with models, training
+      pipelines, and optimization techniques — clearly ai-first
+      work.
+  responsibilities:
+  - Research and implement state-of-the-art techniques to accelerate AI inference
+    including quantization, sparsity, distillation, speculative decoding, caching
+    strategies, and architectural modifications
+  - Partner with hardware, compiler, and quantization teams to ensure algorithmic
+    improvements translate to real performance gains on custom silicon
+  - Build profiling tools and comprehensive benchmarking frameworks to measure compute
+    bottlenecks, model quality, and efficiency metrics
+  - Develop robust fine-tuning workflows for modern AI models using LoRA, adapters,
+    and full fine-tuning
+  - Read and implement techniques from research papers, evaluating new architectures
+    and contributing insights to technical and go-to-market strategy
+  - Systematically characterize tradeoffs between model quality, latency, throughput,
+    and power consumption
+  use_cases:
+  - Accelerating AI inference for large language models, diffusion models, and multimodal
+    systems on energy-efficient hardware
+  - Hardware-aware model optimization for in-memory computing silicon architecture
+  - Efficient AI inference serving for compute-intensive workloads
+  - Model quality and efficiency benchmarking across different use cases
+  skills:
+    genai: [LoRA]
+    ml: [PyTorch, Transformers, Fine-Tuning, Quantization, Deep Learning, Machine
+        Learning, Model Training, Model Evaluation, NLP]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Model Deployment, Monitoring]
+    languages: [Python]
+    domains: [Computer Vision]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9984087'
+  extracted_at: '2026-07-22T13:44:53.730646'

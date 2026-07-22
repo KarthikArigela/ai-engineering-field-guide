@@ -1,0 +1,59 @@
+company:
+  name: Ebury
+  stage: Late Stage
+  focus: Global fintech and cross-border business payments
+position:
+  title: Full stack Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and productionizing
+      agentic AI workflows using the Strands Agents SDK,
+      implementing RAG/retrieval systems, owning the agent
+      reasoning layer (Chain-of-Thought UI), and building LLM
+      evaluation harnesses (Ragas) and observability (Langfuse).
+      The engineer works hands-on with agent orchestration, tool
+      use, and LLM infrastructure on a core AI agent platform,
+      making this clearly ai-first.
+  responsibilities:
+  - Build action-oriented agent workflows with multi-step orchestration, tool use,
+    and retrieval grounded in data stores using Strands Agents SDK
+  - Architect end-to-end features across React/TypeScript frontend and Python/FastAPI
+    backend
+  - Own the reasoning layer including Chain-of-Thought UI to ensure explainability
+    in a regulated environment
+  - Build and extend evaluation harness (Ragas) and observability platform (Langfuse)
+    for evidence-based shipping
+  - Define evaluation strategies including custom evaluators, datasets, benchmarks,
+    and automated regression suites
+  - Integrate internal APIs, data warehouses, email, and cross-cloud GCP/AWS services
+    with robust error handling and distributed tracing
+  - Industrialize AI prototypes into hardened, daily-deployed production services
+  - Mentor mid-level engineers and collaborate cross-functionally to identify high-value
+    automation workflows
+  use_cases:
+  - Internal and client-facing AI agent workflows for automating business operations
+  - Replacing traditional ticketing queues with instant intelligent agent actions
+  - Automated workflows across trading, treasury, and operations in a fintech environment
+  - Agent-driven cross-system integrations spanning data warehouses, services, and
+    central systems
+  - Explainable AI decision-making for regulated fintech compliance and auditability
+  skills:
+    genai: [Strands Agents SDK, Agentic Workflows, RAG, AI Agents, Multi-Agent Systems,
+      LangGraph, AutoGen, Function Calling, Context Engineering, LLMs, AWS Bedrock,
+      LLM Evaluation]
+    ml: []
+    web: [FastAPI, React, REST APIs, WebSockets, Microservices, Vite]
+    databases: [PostgreSQL, NoSQL, Vector Databases]
+    data: []
+    cloud: [AWS, GCP, ECS, AWS Lambda, API Gateway, AWS S3]
+    ops: [LLMOps, Langfuse, Ragas, Terraform, GitHub Actions, Docker, CI/CD, Observability,
+      Distributed Systems]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: [Event-Driven Architecture, System Design, Code Review]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10044075'
+  extracted_at: '2026-07-22T13:25:17.820801'

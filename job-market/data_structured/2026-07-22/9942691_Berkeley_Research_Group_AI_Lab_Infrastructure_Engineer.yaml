@@ -1,0 +1,49 @@
+company:
+  name: Berkeley Research Group
+  stage: Public
+  focus: Global consulting and advisory services
+position:
+  title: AI Lab Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and managing
+      cloud/infrastructure to support AI workloads (virtual access
+      layer, scalable processing, GPU infrastructure). The
+      engineer is not building, training, or fine-tuning models
+      themselves, but rather creating the infrastructure platform
+      that enables others to run LLMs at scale. This is classic AI
+      infrastructure/enabling work.
+  responsibilities:
+  - Design and implement a virtual access layer for the physical AI Lab infrastructure
+  - Build scalable remote processing capabilities supporting 100,000+ documents per
+    day
+  - Create customizable, expandable interfaces for different BRG business units
+  - Optimize infrastructure for maximum LLM token throughput (OpenAI/Anthropic)
+  - Implement secure authentication and access management systems
+  - Ensure high availability and fault tolerance for mission-critical AI workloads
+  - Lead infrastructure projects from conception to production deployment
+  use_cases:
+  - Large-scale document processing using LLMs (100,000+ documents/day)
+  - Remote access to high-performance AI Lab computing resources
+  - Secure multi-tenant AI workload distribution across business units
+  - LLM token throughput optimization for OpenAI and Anthropic models
+  - Virtual desktop infrastructure for distributed AI teams
+  skills:
+    genai: [LLMs, OpenAI API, Anthropic API]
+    ml: []
+    web: [REST APIs, Microservices]
+    databases: []
+    data: []
+    cloud: [AWS, AWS Lambda, SageMaker, AWS S3, ECS, EKS, AWS Bedrock]
+    ops: [Terraform, Infrastructure as Code, CI/CD, Docker, Kubernetes, Model Deployment,
+      Git, GitHub, GPU Optimization]
+    languages: [Python, Java, .NET, SQL]
+    domains: []
+    other: [Distributed Systems, Virtual Desktop Infrastructure, System Design, Cost
+        Optimization]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9942691'
+  extracted_at: '2026-07-22T13:43:55.101171'

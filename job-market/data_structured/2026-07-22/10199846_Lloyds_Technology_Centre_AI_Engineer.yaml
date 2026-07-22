@@ -1,0 +1,49 @@
+company:
+  name: Lloyds Technology Centre
+  stage: Public
+  focus: Banking and financial services technology
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and deploying GenAI/LLM
+      systems including RAG workflows, embeddings, vector indexes,
+      prompt safety, and guardrails. The engineer architects and
+      implements ML/GenAI systems end-to-end, making this clearly
+      an ai-first position.
+  responsibilities:
+  - Architect and implement advanced ML and GenAI systems optimized for performance,
+    cost, and scalability
+  - Build CI/CD pipelines, implement automated testing, and manage model lifecycle
+    with MLflow or equivalent
+  - Develop RAG workflows, embeddings, and vector indexes with prompt safety, observability,
+    and guardrails
+  - Expose models via secure microservices (FastAPI) with RBAC/ABAC and audit logging
+  - Embed AI ethics, regulatory standards, and security controls into all solutions
+  - Drive technical standards, mentor junior engineers, and collaborate with cross-functional
+    teams to operationalize AI
+  use_cases:
+  - Enterprise-scale LLM/GenAI features for lending and working capital platforms
+  - RAG-based knowledge retrieval and question answering
+  - Secure and compliant AI model deployment in a regulated financial services environment
+  - Cost-optimized and observable AI inference at scale
+  skills:
+    genai: [LLMs, RAG, Embeddings, Prompt Engineering, Guardrails, LangChain, LlamaIndex,
+      Generative AI, LLM Evaluation]
+    ml: [Machine Learning, Fine-Tuning]
+    web: [FastAPI, Microservices]
+    databases: [PostgreSQL, pgvector, Weaviate, Pinecone, Vector Databases, Vector
+        Search]
+    data: [Airflow, Feast]
+    cloud: [GCP, Vertex AI, Azure, IAM]
+    ops: [LLMOps, MLflow, Kubeflow, CI/CD, Docker, Kubernetes, GitHub Actions, Azure
+        DevOps, Prometheus, Grafana, OpenTelemetry, MLOps, Monitoring]
+    languages: [Python, SQL]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10199846'
+  extracted_at: '2026-07-22T13:34:14.305128'

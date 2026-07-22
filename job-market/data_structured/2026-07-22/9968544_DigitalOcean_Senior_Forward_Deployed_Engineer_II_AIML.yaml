@@ -1,0 +1,59 @@
+company:
+  name: DigitalOcean
+  stage: Public
+  focus: Cloud infrastructure and AI-native platform
+position:
+  title: Senior Forward Deployed Engineer II (AI/ML)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This is a Forward Deployed Engineer role that directly
+      deploys, optimizes, and scales production AI/ML systems
+      including inference engines, agentic runtimes, and LLM
+      serving frameworks. The role involves hands-on work with
+      inference optimization (KV-cache, speculative decoding,
+      quantization), agentic system deployment, and serving
+      frameworks like vLLM and Ray Serve — all squarely building
+      and deploying AI systems for customers.
+  responsibilities:
+  - Architect, deploy, optimize, and scale production AI and agentic systems on DigitalOcean's
+    AI-Native Cloud for strategic customers
+  - Optimize distributed inference and runtime performance through benchmarking, GPU
+    efficiency tuning, KV-cache optimization, speculative decoding, and latency/cost
+    optimization
+  - Act as the first customer for new AI-native platform capabilities, validating
+    products under real-world workloads and surfacing architectural gaps to Product
+    and Research teams
+  - Build scalable deployment assets including benchmarking systems, automation tooling,
+    AI starter kits, deployment frameworks, and reference architectures
+  - Collaborate with GPU vendors, model providers, infrastructure partners, and ISVs
+    on co-development, technical validation, and launch readiness
+  - Enable customer-facing and partner technical teams through validated deployment
+    patterns, operational playbooks, and technical guidance
+  - Support complex customer migrations, production-ready PoCs, and deployment acceleration
+    for AI-native workloads
+  use_cases:
+  - Production AI inference and serving at scale on cloud infrastructure
+  - Agentic system deployment and runtime orchestration
+  - GPU efficiency and inference latency optimization for LLM workloads
+  - AI-native customer workload migration and production readiness
+  - Platform validation and benchmarking for AI infrastructure
+  skills:
+    genai: [LangGraph, CrewAI, MCP, LlamaIndex, OpenAI API, AI Agents, Agentic Workflows,
+      LLMs]
+    ml: [PyTorch, CUDA, Quantization]
+    web: []
+    databases: []
+    data: [Ray]
+    cloud: [AWS, GCP]
+    ops: [vLLM, Ray Serve, TensorRT, Triton, Kubernetes, Docker, Terraform, Infrastructure
+        as Code, Monitoring, Distributed Systems, Model Deployment, ROCm, NCCL, Linux,
+      Benchmarking]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9968544'
+  extracted_at: '2026-07-22T13:44:23.277570'

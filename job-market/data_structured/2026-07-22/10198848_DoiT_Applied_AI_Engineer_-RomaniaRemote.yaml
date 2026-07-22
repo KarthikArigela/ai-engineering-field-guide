@@ -1,0 +1,58 @@
+company:
+  name: DoiT
+  stage: Public
+  focus: Multi-cloud consulting and cloud intelligence platform
+position:
+  title: Applied AI Engineer -Romania(Remote)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is primarily a full-stack platform engineering
+      position building internal business systems (integrations,
+      orchestration, APIs). AI is used as a development
+      productivity tool (Claude Code) rather than the core
+      deliverable. The platform is designed to be agent-friendly,
+      but the engineer is not building, training, or deploying
+      AI/ML models themselves.
+  responsibilities:
+  - Own internal tools end to end from understanding the operational problem through
+    design, implementation, deployment, and iteration
+  - Build across the stack including Python/Go services on GCP Cloud Run, TypeScript/React
+    web apps, and event-driven integrations on Pub/Sub
+  - Integrate with third-party SaaS platforms handling REST, webhooks, OAuth, and
+    event-driven patterns including failures, retries, and schema drift
+  - Build and maintain workflow automation and business process orchestration as named,
+    observable flows
+  - Use AI tooling effectively across the development lifecycle including spec, code,
+    and review using Claude Code
+  - Review AI-generated code before shipping for correctness, security, and type safety
+  - Operate production systems including monitoring, reliability, cost management,
+    and failure mode analysis
+  - Contribute to shared engineering standards, playbooks, and internal tooling
+  use_cases:
+  - Internal business system integration across CRM, ERP, support, marketing, and
+    billing SaaS platforms
+  - Business process orchestration as observable, versioned workflows replacing vendor
+    scripts
+  - Reconciling marketing leads into CRM systems
+  - Real-time financial forecasting replacing spreadsheet exports
+  - Automated quarterly access audit flows with evidence generation
+  - Building a composable platform that enables AI agents to safely operate internal
+    business systems
+  skills:
+    genai: [Claude Code, LLMs, Prompt Engineering, AI Agents, OpenAI API]
+    ml: []
+    web: [React, REST APIs, Webhooks, OAuth, Microservices]
+    databases: [Neo4j, Graph Databases]
+    data: [Pub/Sub]
+    cloud: [GCP, IAM, Cloud Run]
+    ops: [Terraform, Monitoring, Observability, Docker, SOPS, Secret Manager]
+    languages: [Python, Go, TypeScript, Rust]
+    domains: []
+    other: [Event-Driven Architecture, n8n, Zapier, Camunda, Temporal, BPMN, Responsible
+        AI, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10198848'
+  extracted_at: '2026-07-22T13:33:52.121316'

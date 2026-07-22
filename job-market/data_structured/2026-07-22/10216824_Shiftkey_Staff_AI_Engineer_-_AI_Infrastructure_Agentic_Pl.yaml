@@ -1,0 +1,55 @@
+company:
+  name: Shiftkey
+  stage: null
+  focus: Healthcare workforce marketplace for staffing
+position:
+  title: Staff AI Engineer - AI Infrastructure & Agentic Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building, architecting, and
+      operating AI infrastructure — including agentic systems,
+      retrieval/RAG pipelines, and multi-step reasoning loops. The
+      engineer owns the AI knowledge platform, designs graph-based
+      retrieval, and builds reference agent implementations. This
+      is hands-on work building and deploying AI systems, not
+      supporting infrastructure for others' AI work.
+  responsibilities:
+  - Evolve the AI knowledge platform from semantic RAG with re-ranking and HyDE into
+    an organization-wide platform serving internal tools and customer-facing capabilities
+  - Architect and operate agentic infrastructure on AWS with multi-step, tool-using
+    AI systems that plan, retrieve, and act on complex queries with cost guardrails
+    and observability
+  - Design and build graph-based, relationship-aware retrieval across organizational
+    data sources for multi-hop queries and knowledge accumulation
+  - Partner with product engineering to define the AI platform API surface, translating
+    infrastructure primitives into developer-ready abstractions
+  - Build reference agent implementations including operational-incident triage, customer
+    support, and future agentic use cases
+  - 'Own the AI infrastructure cost model: monitoring compute, model, and storage
+    spend and proposing guardrails to keep workloads within budget'
+  use_cases:
+  - Organization-wide knowledge retrieval and synthesis for internal engineering tools
+  - Customer-facing AI-powered capabilities in a healthcare marketplace
+  - Agentic infrastructure for multi-step reasoning over operational events and complex
+    queries
+  - Operational-incident triage agents grounded in institutional knowledge
+  - Customer support agents leveraging organizational knowledge
+  - Graph-based multi-hop retrieval across enterprise data sources
+  skills:
+    genai: [RAG, Re-ranking, HyDE, Agentic Workflows, AI Agents, Semantic Search,
+      Function Calling, Context Engineering, LLM Evaluation]
+    ml: []
+    web: []
+    databases: [Knowledge Graphs, Vector Search, Vector Databases]
+    data: []
+    cloud: [AWS, AWS Bedrock, Azure AI Foundry]
+    ops: [Terraform, Observability, Monitoring, LLMOps, Docker]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: [Microservices, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10216824'
+  extracted_at: '2026-07-22T13:35:01.596207'

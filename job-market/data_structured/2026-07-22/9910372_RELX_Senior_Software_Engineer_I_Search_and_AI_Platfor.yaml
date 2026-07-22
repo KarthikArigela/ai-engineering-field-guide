@@ -1,0 +1,54 @@
+company:
+  name: RELX
+  stage: Public
+  focus: |-
+    Information and analytics for scientific research and
+    healthcare
+position:
+  title: Senior Software Engineer I – Search and AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is building backend infrastructure (graph-based
+      search services, data pipelines) that powers an AI platform,
+      but does not directly involve building, training, fine-
+      tuning, or deploying AI/ML models. The engineer works on
+      graph traversal, entity hydration, and search APIs that
+      serve as the data layer for Elsevier's AI-powered products.
+  responsibilities:
+  - Design and implement graph-based search services using GraphQL and GraphQL Federation
+  - Develop backend applications using Java, Spring Boot, and Spring framework
+  - Integrate with databases and AWS services (Neo4j, DynamoDB, RDS, S3, SQS, SNS,
+    Kinesis) to support ingestion, storage, and messaging pipelines
+  - Champion clean code, SOLID principles, and engineering best practices while mentoring
+    other engineers
+  - Collaborate with product managers and engineering teams to deliver advanced search
+    and recommendation features
+  - Ensure robust monitoring and logging using New Relic and Coralogix for reliability
+    and performance
+  - Build structured queries based on entity relationships and metadata hydration
+    for discovery and recommendation systems
+  use_cases:
+  - Graph-based search and discovery across scientific research data
+  - Advanced entity traversal and recommendation systems for scientific literature
+  - Knowledge graph interrogation powering products like Scopus, ScienceDirect, and
+    ClinicalKey
+  - AI-powered search systems for the scientific community
+  - Data ingestion and storage pipelines supporting search and recommendation features
+  skills:
+    genai: []
+    ml: []
+    web: [GraphQL, GraphQL Federation, REST APIs, Spring Boot, Microservices, Apollo
+        Router]
+    databases: [Neo4j, Graph Databases, Knowledge Graphs, DynamoDB, Amazon RDS]
+    data: [Data Modeling, Data Pipelines]
+    cloud: [AWS S3, AWS, EKS, Amazon SQS, Amazon SNS, Amazon Kinesis]
+    ops: [Kubernetes, CI/CD, Monitoring, New Relic, Coralogix]
+    languages: [Java]
+    domains: []
+    other: [Distributed Systems, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9910372'
+  extracted_at: '2026-07-22T13:45:39.803759'

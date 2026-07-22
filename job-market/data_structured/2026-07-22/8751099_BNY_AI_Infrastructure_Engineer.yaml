@@ -1,0 +1,51 @@
+company:
+  name: BNY
+  stage: Public
+  focus: Global financial services and asset management
+position:
+  title: AI Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on managing and operating NVIDIA GPU
+      infrastructure, Kubernetes orchestration, and CI/CD
+      pipelines that SUPPORT AI/ML workloads, rather than directly
+      building, training, or deploying models. The engineer
+      maintains the platform that enables AI teams to run their
+      workloads, which is infrastructure work near AI but not on
+      AI.
+  responsibilities:
+  - Manage enterprise-grade NVIDIA AI infrastructure including GPU compute, high-performance
+    storage, and network systems for ML/AI at scale
+  - Deploy, monitor, and troubleshoot containerized AI workloads using Kubernetes,
+    Docker, and GPU orchestration tools like Run:AI and NVIDIA BCM
+  - Own observability of AI platforms by monitoring health, identifying performance
+    bottlenecks, and recommending improvements for platform reliability
+  - Automate infrastructure operations and provisioning using Python, Bash, Terraform,
+    and Ansible to reduce manual toil
+  - Maintain and scale AI training and inference pipelines integrated with CI/CD systems
+    for automated deployment
+  - Support Python-based ML/AI pipeline integration and GPU resource management lifecycle
+  use_cases:
+  - Enterprise-scale GPU compute infrastructure for ML/AI training and inference
+  - Containerized AI workload orchestration and deployment in financial services
+  - Automated AI infrastructure provisioning and operations at scale
+  - AI platform observability and performance optimization
+  skills:
+    genai: []
+    ml: [CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubernetes, Docker, 'Run:AI', NVIDIA BCM, NVIDIA GPU Operator, Terraform,
+      Ansible, CI/CD, GitLab CI, Jenkins, Helm, Monitoring, Observability, Model Deployment,
+      Linux]
+    languages: [Python, Bash]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8751099'
+  extracted_at: '2026-07-22T13:41:22.515708'

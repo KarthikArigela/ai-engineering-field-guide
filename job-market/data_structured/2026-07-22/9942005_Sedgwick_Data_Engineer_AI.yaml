@@ -1,0 +1,55 @@
+company:
+  name: Sedgwick
+  stage: Public
+  focus: Claims management and risk solutions
+position:
+  title: Data Engineer AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building data pipelines, ETL/ELT
+      processes, and feature stores that fuel AI/ML systems, but
+      does not involve directly building, training, fine-tuning,
+      or deploying models. The engineer enables AI/ML work by
+      ensuring data quality, vectorization pipelines, and data
+      engineering for RAG systems — classic ai-support work.
+  responsibilities:
+  - Design and implement ETL/ELT pipelines to ingest data from legacy on-prem sources
+    and cloud platforms into Snowflake and AI services
+  - Build and maintain Feature Stores and specialized datasets optimized for machine
+    learning
+  - Develop data pipelines for Generative AI including extraction, chunking, and loading
+    of unstructured data into vector stores
+  - Act as technical lead for Snowflake data warehouse including data modeling, Snowpipe
+    automation, and compute optimization
+  - Execute non-invasive data extraction from legacy on-premise systems including
+    Mainframes and DB2
+  - Manage complex cross-platform data workflows using Airflow, Step Functions, or
+    Azure Data Factory
+  - Implement automated data validation and observability layers to detect data drift
+    and quality issues
+  - Partner with MLOps and Data Science teams to iterate on data requirements for
+    AI use cases
+  use_cases:
+  - Feature stores for machine learning model training
+  - RAG-based AI systems with vector stores for unstructured data
+  - Data quality monitoring for production AI and Data Science models
+  - Multi-cloud data orchestration bridging legacy and modern systems
+  - Generative AI data pipelines with automated extraction and embedding
+  skills:
+    genai: [RAG, Generative AI]
+    ml: [Feature Stores, Feature Engineering, Embeddings, Machine Learning]
+    web: []
+    databases: [Snowflake, SQL Server, DB2, Vector Databases, Snowpipe]
+    data: [ETL, Azure Data Factory, PySpark, Airflow, Data Pipelines, Data Modeling,
+      Data Quality, Glue, Synapse]
+    cloud: [AWS, Azure, AWS S3, AWS Lambda, IAM, Step Functions, PrivateLink]
+    ops: [Docker, Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9942005'
+  extracted_at: '2026-07-22T13:47:18.517414'

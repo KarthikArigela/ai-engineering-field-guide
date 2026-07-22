@@ -1,0 +1,67 @@
+company:
+  name: Tekion
+  stage: Late Stage
+  focus: Cloud-native automotive retail and enterprise platform
+position:
+  title: Staff Software Engineer - AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and operating an LLM
+      gateway/control plane, agent runtime with function calling
+      and orchestration, RAG with hybrid retrieval, and agentic
+      systems with safety guardrails. The engineer also builds
+      platforms for classical ML model training and scoring,
+      making this a hands-on AI/ML systems role spanning both
+      GenAI and traditional ML.
+  responsibilities:
+  - Build and operate the LLM control plane and gateway with smart routing, rate limits,
+    failover, and token/cost tracking
+  - Ship unified API and SDKs (REST/gRPC) with normalized schemas, structured outputs,
+    caching, and full observability
+  - Own the agent runtime including tool registry, permissions, function calling,
+    grounding, and retrieval
+  - Design agent orchestration patterns (sequential, planner-executor, streaming)
+    and manage agent state and long-running workflows
+  - Build platform components for training and scoring pipelines for classical ML
+    and deep models with experiment tracking and packaging
+  - Enforce safety and privacy by default with content filtering, prompt/response
+    validation, and PII redaction
+  - Evolve the domain graph and entity resolution, and build reliable data ingestion
+    pipelines
+  - Run continuous offline/online evaluations for quality, factuality, bias, and safety
+    across the platform
+  - Maintain model/agent registry with versioning, approvals, audit trails, and reproducibility;
+    champion MLOps and AI safety best practices
+  use_cases:
+  - Real-time dealership intelligence across DMS, CRM, Digital Retail, Service, and
+    Payments
+  - Context-aware AI agents for automotive retail workflows including sales, service,
+    parts, and F&I
+  - Retrieval-augmented generation using domain knowledge graphs spanning dealer and
+    consumer data
+  - Multi-provider LLM governance with cost, latency, and safety guardrails
+  - Classical ML model optimization for dealership operations such as upsell, cycle
+    time, and CSAT
+  - Human-in-the-loop agent actions before touching dealer systems
+  skills:
+    genai: [MCP, LLMs, AI Agents, Function Calling, Agentic Workflows, Structured
+        Outputs, RAG, Guardrails, Prompt Engineering, Embeddings, Semantic Search,
+      LangSmith]
+    ml: [XGBoost, LightGBM, Feature Engineering, Model Training, Model Evaluation,
+      Fine-Tuning, Anomaly Detection, PyTorch, TensorFlow]
+    web: [REST APIs, gRPC, Microservices, GraphQL, APIs]
+    databases: [Neo4j, Knowledge Graphs, pgvector, Qdrant, Milvus, Vector Search,
+      Vector Databases, PostgreSQL, Redis]
+    data: [Spark, Flink, Kafka, Data Pipelines]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Airflow, Kubeflow, MLOps, Model Deployment,
+      Model Monitoring, Observability, Monitoring, OpenTelemetry, A/B Testing]
+    languages: [Python, Java, Scala, Go, SQL]
+    domains: []
+    other: [Distributed Systems, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10113840'
+  extracted_at: '2026-07-22T13:28:25.395691'

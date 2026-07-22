@@ -1,0 +1,50 @@
+company:
+  name: Objection Inc.
+  stage: Startup
+  focus: AI-native ranking system for journalism
+position:
+  title: Research Engineer – AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, designing, and
+      deploying novel AI systems including fine-tuning open-weight
+      language models, large-scale inference, and developing new
+      algorithms for factuality assessment. The emphasis is on
+      inventing new AI methods rather than applying existing ones
+      to business problems, making this clearly ai-first.
+  responsibilities:
+  - Translate high-level research ideas into working AI systems
+  - Identify relevant literature and implement or extend state-of-the-art methods
+    in LLMs, reasoning, and knowledge acquisition
+  - Design and carry out experiments to evaluate alternative AI approaches
+  - Develop new algorithms, objectives, and evaluation methods for factuality scoring
+    and explanation generation
+  - Adapt and fine-tune open-weight language models for specialized assessment tasks
+  - Build robust, scalable research prototypes for large-scale inference over text
+    corpora
+  - Communicate results through technical reports and research papers
+  use_cases:
+  - Large-scale local inference over news and text corpora
+  - Automated assessment of factuality, neutrality, evidence quality, and source reliability
+    in journalism
+  - Faithful explanation and justification generation for AI-based scoring decisions
+  - Large-scale evaluation and scoring of published journalism
+  - Development of new methods for evaluating and improving AI system trustworthiness
+  skills:
+    genai: [LLMs, Fine-Tuning, RAG, Prompt Engineering, Structured Outputs]
+    ml: [PyTorch, Transformers, Hugging Face, Model Training, Deep Learning, NLP,
+      Reinforcement Learning, Model Evaluation, Machine Learning]
+    web: [FastAPI]
+    databases: [PostgreSQL, Vector Databases]
+    data: [NumPy, Pandas]
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, MLflow, Weights & Biases]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10151301'
+  extracted_at: '2026-07-22T13:30:28.262343'

@@ -1,0 +1,55 @@
+company:
+  name: Version 1
+  stage: Public
+  focus: Digital assets and AI infrastructure solutions
+position:
+  title: AI Full-Stack Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building full-stack AI-powered
+      applications that consume LLMs, agentic workflows, and AI
+      platforms (Bedrock, SageMaker, AgentCore). The engineer
+      directly integrates and deploys AI/LLM capabilities into
+      production applications, making this an ai-first role
+      despite the full-stack nature of the work.
+  responsibilities:
+  - Design and build full-stack AI-powered applications from scratch, consuming Galaxy's
+    AI platform (AgentCore, Bedrock, SageMaker) as the underlying intelligence layer
+  - Build responsive, production-quality frontends in React that deliver great UX
+    for AI-driven features
+  - Build robust, scalable backend services in Python that integrate with LLMs, agentic
+    workflows, and enterprise data sources
+  - Partner with product and engineering teams to take AI prototypes and re-architect,
+    harden, and scale them into production-ready applications
+  - Work within CI/CD pipelines using Kubernetes and Terraform to ensure reliable
+    deployment, versioning, and scaling
+  - Act as a trusted advisor to teams starting new AI prototypes, providing architectural
+    and product best practices guidance
+  - Mentor engineers across teams on full-stack best practices for building AI-powered
+    products
+  - Implement automated testing and observability (logging, metrics, tracing, alerts)
+    for production supportability
+  use_cases:
+  - AI-powered applications for institutional and individual clients in financial
+    services
+  - Real-time AI response rendering via streaming UIs (SSE/WebSockets)
+  - Agentic workflow-based applications powered by LLM platforms
+  - AI-powered search and retrieval features using vector databases and embeddings
+  - Prototype-to-production hardening of AI products for enterprise scale
+  skills:
+    genai: [Embeddings, LLMs, Agentic Workflows, AWS Bedrock]
+    ml: []
+    web: [React, Angular, Vue, FastAPI, REST APIs, WebSockets, OAuth]
+    databases: [PostgreSQL, Redis, Vector Databases]
+    data: [Databricks]
+    cloud: [AWS, SageMaker, AWS Lambda, AWS S3, IAM, EKS, ECS, API Gateway, CloudWatch]
+    ops: [Kubernetes, Terraform, Docker, CI/CD, Git, Observability, Automated Testing]
+    languages: [Python, Go, Java, Node.js]
+    domains: []
+    other: [Microservices]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10150185'
+  extracted_at: '2026-07-22T13:30:30.017595'

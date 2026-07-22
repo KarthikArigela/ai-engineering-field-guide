@@ -1,0 +1,52 @@
+company:
+  name: Félix (felixpago)
+  stage: Series B
+  focus: AI-powered cross-border remittances for Latin immigrants
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, architecting, and
+      deploying production-grade agentic AI systems (multi-agent
+      orchestration, RAG pipelines, LLM evaluation, tool-calling).
+      The engineer owns the full lifecycle of AI infrastructure
+      from development to deployment, working hands-on with LLMs,
+      agents, and evaluation pipelines.
+  responsibilities:
+  - Architect, develop, and maintain the core infrastructure for the central AI orchestrator
+    (Maestro) and its connected execution agents
+  - Lead the integration of AI agents into core product and operational infrastructure,
+    owning the full lifecycle from containerization to CI/CD deployment
+  - Establish production-grade monitoring, tracing, and logging for complex agentic
+    workflows to track reasoning paths, tool-calling success rates, and latency
+  - Design automated evaluation pipelines using LLM-as-a-judge, semantic similarity
+    testing, and adversarial benchmarking to ensure agent safety and reliability
+  - Optimize RAG pipelines and agent loops for production constraints, implementing
+    caching strategies, prompt compression, and model routing
+  - Define operational best practices for AI deployment, asynchronous programming,
+    and structured data validation
+  use_cases:
+  - Multi-agent enterprise AI orchestration for engineering and operations automation
+  - WhatsApp-based AI chatbot for cross-border money transfers and remittances
+  - Automated reasoning and planning for complex multi-step tasks across loans, payments,
+    and fraud detection
+  - LLM evaluation and safety benchmarking for production agentic systems
+  - Cost-optimized RAG and inference pipelines for high-volume customer-facing applications
+  skills:
+    genai: [Agentic Workflows, Multi-Agent Systems, RAG, Function Calling, LLMs, Prompt
+        Engineering, LLM Evaluation, AI Agents]
+    ml: []
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, CI/CD, LLMOps, Monitoring, Observability]
+    languages: [Python, asyncio]
+    domains: []
+    other: [System Architecture, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9978247'
+  extracted_at: '2026-07-22T13:48:12.830442'

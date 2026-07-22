@@ -1,0 +1,60 @@
+company:
+  name: Life360
+  stage: Public
+  focus: Family location sharing and safety services
+position:
+  title: Senior IAM Engineer II (AI Native)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an IAM (Identity and Access Management) engineering
+      role where AI is used as a productivity tool (AI coding
+      agents like Claude Code, Cursor, GitHub Copilot) to draft
+      Terraform modules, provisioning scripts, and access-policy
+      configurations. The core work is identity infrastructure
+      engineering, not building, training, fine-tuning, or
+      deploying AI/ML models. AI is leveraged as an assistant for
+      IaC and automation work, not as the product or system being
+      built.
+  responsibilities:
+  - Own the enterprise identity platform as an engineering system, architecting SSO
+    integrations, lifecycle workflows, MFA policy, and group provisioning in Okta
+    using IaC
+  - Engineer the identity lifecycle management layer by designing access control models
+    and codifying provisioning/deprovisioning workflows in IaC
+  - Engineer access governance across cloud and SaaS portfolio, owning role assignments,
+    group structures, and automated periodic access reviews
+  - Harden the device-to-identity trust boundary by managing device trust integrations
+    between identity provider and MDM platforms
+  - Rationalize and consolidate legacy identity surface by cleaning up orphaned accounts,
+    stale SSO integrations, and guest access sprawl
+  - Build the IAM measurement layer by defining, instrumenting, and tracking KPIs
+    that justify investment decisions and demonstrate program maturity
+  - Define the identity layer of the access request platform by architecting entitlement
+    structures and codifying configuration in IaC
+  - Use AI coding agents to draft and validate Terraform modules, provisioning logic,
+    and access-policy changes with full ownership of review before production deployment
+  use_cases:
+  - Enterprise identity and access management for ~100M user organization
+  - Automated identity lifecycle provisioning and deprovisioning across SaaS and cloud
+    platforms
+  - Access governance and compliance automation with measurable auditability
+  - Device trust and zero-trust access policy enforcement for remote-first workforce
+  - Self-service access request and unified service catalog for employees
+  - AI-assisted infrastructure-as-code generation and validation for identity systems
+  skills:
+    genai: [Claude Code, Cursor, GitHub Copilot, AI Agents, Agentic Workflows]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Terraform, Infrastructure as Code]
+    languages: [Python, Go]
+    domains: []
+    other: [Okta, SAML 2.0, OAuth 2.0, OIDC, SCIM, IAM, SOC 2, GDPR, Zero-Trust Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10128420'
+  extracted_at: '2026-07-22T13:29:32.095328'

@@ -1,0 +1,61 @@
+company:
+  name: Vinmar International
+  stage: null
+  focus: AI infrastructure for the materials industry
+position:
+  title: AI Systems Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role's core differentiator is directing fleets of AI
+      coding agents (Claude Code) to build and operate a full-
+      stack platform — decomposing tasks, fanning out parallel
+      agents, running adversarial reviews, and building custom
+      agent tooling (skills, hooks, MCP). While the platform
+      itself is not an AI product, the engineer's primary method
+      of work is hands-on AI agent orchestration and building
+      agent infrastructure, making this an AI-first role.
+  responsibilities:
+  - Own the full-stack platform end to end across multiple applications, shared SDKs,
+    frontend, backend, and cloud infrastructure
+  - Stand up and provision infrastructure, environments, cloud accounts, tenants,
+    connectors, data syncs, and migrations from scratch
+  - Direct fleets of coding agents — decompose cross-repo changes, fan out parallel
+    agents in isolated worktrees, run adversarial multi-reviewer passes, and reconcile
+    results
+  - Integrate deeply with enterprise systems via SAP/ERP RFC/BAPI, including reverse-engineering
+    business rules and handling customer/order master data flows
+  - Architect multi-tenant data with PostgreSQL row-level security, JSONB-backed extensibility,
+    migrations, and graph database integration
+  - Build custom tooling and scaffolding to make AI agents effective in the codebase
+    — navigation maps, documentation indexes, guard hooks, and Claude skills
+  - Author specs, design docs, discovery-question sets, and runbooks to ensure work
+    is understood and resumable by others
+  - Ship multiple PRs across multiple repos per session with CI green and verified
+    deployments while maintaining architectural coherence
+  use_cases:
+  - AI-orchestrated full-stack platform development for the materials/chemicals industry
+  - Enterprise ERP integration (SAP/ERP) with automated data sync and business rule
+    extraction
+  - Multi-tenant B2B platform unifying CRM, ERP, and point tools into a single system
+  - Agentic code generation and adversarial review across multiple repositories
+  - Automated infrastructure provisioning and multi-region cloud deployment
+  skills:
+    genai: [Claude Code, MCP, AI Agents, Agentic Workflows, Prompt Engineering]
+    ml: []
+    web: [React, FastAPI, REST APIs, Microservices, Playwright, Pydantic, OAuth, Vite,
+      GraphQL, JSON, Full-Stack Development]
+    databases: [PostgreSQL, Neo4j, pgvector, Vector Databases, Graph Databases, SQLAlchemy,
+      Alembic, Redis]
+    data: [Celery, Kafka, Data Pipelines]
+    cloud: [AWS, ECS, IAM, SageMaker]
+    ops: [Terraform, Docker, CI/CD, Kubernetes, Monitoring, Observability, Git, GitHub]
+    languages: [TypeScript, Python, SQL, ABAP, Node.js]
+    domains: []
+    other: [Auth0, SAP, ERP Integration, Multi-Tenant Architecture, Distributed Systems,
+      System Design, Code Review, Agile, GDPR, SOC 2]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9995222'
+  extracted_at: '2026-07-22T13:46:05.914825'

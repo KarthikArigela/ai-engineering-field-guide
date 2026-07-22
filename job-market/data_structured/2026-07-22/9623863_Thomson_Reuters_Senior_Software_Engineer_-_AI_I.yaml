@@ -1,0 +1,54 @@
+company:
+  name: Thomson Reuters
+  stage: Public
+  focus: |-
+    Legal, tax, accounting, compliance information and
+    technology
+position:
+  title: Senior Software Engineer - AI I
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves designing and building AI-
+      powered applications using RAG pipelines, agentic workflows
+      with Semantic Kernel, and Azure OpenAI integration. The
+      engineer works hands-on with LLM models, embeddings,
+      function calling, and agent orchestration rather than just
+      supporting infrastructure for others.
+  responsibilities:
+  - Architect and build .NET services and APIs integrating Azure OpenAI and Azure
+    AI Services
+  - Design and implement RAG pipelines using Azure AI Search for hybrid retrieval
+    and grounding
+  - Develop agentic workflows with tool/function calling, planning, memory, and safe
+    execution boundaries
+  - Build and manage Semantic Kernel plugins/skills including planners, connectors,
+    and memory stores
+  - Implement observability for AI systems covering cost, latency, token usage, and
+    quality metrics
+  - Ensure end-to-end solution quality including performance, security, reliability,
+    and scalability
+  - Drive architecture best practices and author technical RFCs across projects
+  - Mentor engineers and lead design reviews across teams
+  use_cases:
+  - AI-powered legal, tax, and compliance applications with retrieval-augmented generation
+  - Agentic AI workflows for professional information retrieval and analysis
+  - Hybrid search and grounding over specialized content corpora
+  - Secure AI systems with PII handling, data residency, and auditability
+  skills:
+    genai: [Azure OpenAI, RAG, Semantic Kernel, Agentic Workflows, Function Calling,
+      Embeddings, Guardrails, LLM Evaluation, Prompt Engineering, Multi-Agent Systems]
+    ml: []
+    web: [REST APIs, ASP.NET Core, OAuth, Microservices, React]
+    databases: [Azure AI Search, Vector Search, Neo4j, Knowledge Graphs]
+    data: []
+    cloud: [Azure, AKS, Azure Functions, API Gateway, Azure AI Foundry, Azure ML]
+    ops: [OpenTelemetry, CI/CD, Monitoring, Observability, Docker, Kubernetes, LLMOps]
+    languages: [.NET, C#, Python, SQL]
+    domains: [Computer Vision]
+    other: [HIPAA Compliance]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9623863'
+  extracted_at: '2026-07-22T13:41:37.972881'

@@ -1,0 +1,281 @@
+job_id: 10128420
+title: Senior IAM Engineer II (AI Native)
+company: Life360
+location: USA
+work_type: FULL_TIME
+description: |
+  About Life360
+
+  Life360’s mission is to keep people close to the ones they
+  love. Our category-leading mobile app,Tile tracking devices,
+  and Pet GPS tracker empower members to protect the people,
+  pets, and things they care about most with a range of
+  services, including location sharing, safe driver reports,
+  and crash detection with emergency dispatch. Life360 serves
+  approximately 97.8 million monthly active users (MAU), as of
+  March 31, 2026, across more than 180 countries.
+
+  Life360 delivers peace of mind and enhances everyday family
+  life with seamless coordination for all the moments that
+  matter, big and small. By continuing to innovate and deliver
+  for our customers, we have become a household name and the
+  must-have mobile-based membership for families (and those
+  friends who are basically family).
+
+  Life360 has more than 500 (and growing!) remote-first
+  employees. For more information, please visit life360.com.
+
+  Life360 is a Remote First company, which means a remote work
+  environment will be the primary experience for all
+  employees. All positions, unless otherwise specified, can be
+  performed remotely (within the US and Canada) regardless of
+  any specified location above.
+
+  We are AI Native
+
+  We are building an AI native company where AI is an integral
+  part of how we build and operate. AI tool usage during
+  interviews varies by role. You may be asked to demonstrate
+  proficiency with AI tools, discuss how you leverage AI, or
+  complete interview exercises without AI assistance. Your
+  Recruiter will provide clear guidance as you move through
+  the interview process.
+
+  Undisclosed use of AI not previously discussed with or
+  approved by your Recruiter may impact your candidacy.
+
+  About The Team
+
+  Security and IT at Life360 operate as a single integrated
+  function — and we're building it like one. That means
+  treating identity infrastructure the way engineering teams
+  treat product infrastructure: owned in code, measured with
+  data, and continuously improved. You'll own Enterprise IAM
+  at Life360 — setting the architecture, engineering
+  standards, and program direction for how every employee
+  accesses every system, at a company that handles sensitive
+  location data for nearly 100 million users. AI is core to
+  how this team operates day to day — from drafting and
+  validating IaC changes to automating access-review workflows
+  — so identity engineering here means designing systems that
+  pair automation with human judgment, not replacing one with
+  the other.
+
+  About the Job
+
+  We're looking for a Sr. IAM Engineer who thinks in systems,
+  writes code to solve operational problems, and treats
+  identity as a platform discipline. You'll own the full
+  enterprise identity stack: how it's architected, how it's
+  measured, and how it scales as we grow. The foundation is in
+  place now and we need someone to drive the design,
+  automation, and governance layers forward. We're building
+  toward a metrics-first operating model, and you'll build the
+  instrumentation that makes that real. You'll partner with
+  HR, Security, and Engineering, and you'll be expected to
+  replace manual processes with durable, testable code
+  wherever it exists. In your first year, success looks like a
+  consolidated Okta footprint with orphaned accounts and stale
+  SSO integrations cleaned up, access reviews running on a
+  measurable cadence, and identity provisioning largely
+  codified in Terraform rather than handled manually.
+
+  For candidates based in the US, the salary range for this
+  position is $91,000 to $169,000 USD. For candidates based
+  out of Canada, the salary range for this position is 132,000
+  to 157,000 CAD. Note: Please be aware that the job title for
+  positions in Canada will be "Developer" in lieu of
+  "Engineer." We take into consideration an individual's
+  background and experience in determining final salary;
+  therefore, base pay offered may vary considerably depending
+  on geographic location, job-related knowledge, skills, and
+  experience. The compensation package includes a wide range
+  of medical, dental, vision, financial, and other benefits,
+  as well as equity.
+
+  What You’ll Do
+
+  - Own the enterprise identity platform as an engineering
+    system — architect SSO integrations, lifecycle workflows,
+    MFA policy, and group provisioning in Okta using IaC as
+    the source of truth; configuration drift is a bug, not a
+    ticket
+  - Engineer the identity lifecycle management layer — design
+    access control models and codify
+    provisioning/deprovisioning workflows in IaC, partnering
+    with HR systems to eliminate manual access operations and
+    return clean provisioning capability to the helpdesk tier
+  - Engineer access governance across the cloud and SaaS
+    portfolio — own role assignments, group structures, and
+    access controls across cloud infrastructure and
+    collaboration platforms; design and automate periodic
+    access reviews so auditability is structural, not
+    procedural
+  - Harden the device-to-identity trust boundary — own device
+    trust integrations between our identity provider and MDM
+    platforms, ensuring device compliance signals are
+    correctly evaluated in access policy and that the control
+    surface is fully codified
+  - Rationalize and consolidate legacy identity surface — lead
+    the technical cleanup of orphaned accounts, stale SSO
+    integrations, and guest access sprawl across the SaaS
+    portfolio; treat this as technical debt reduction with
+    measurable outcomes
+  - Build the IAM measurement layer — define, instrument, and
+    track KPIs (access review completion rates, provisioning
+    latency, orphaned account age, ticket volume trends) that
+    justify investment decisions and demonstrate program
+    maturity to Security leadership
+  - Define the identity layer of our access request platform —
+    architect the entitlement structures and access controls
+    exposed through our self-service access tooling; codify
+    the configuration in IaC and own the integration contract
+    between identity infrastructure and the employee-facing
+    access experience
+  - Contribute to a unified service catalog — ensure identity
+    workflows are clearly surfaced through a single employee-
+    facing entry point and that the handoff between self-
+    service and engineer-owned provisioning is unambiguous
+  - Use AI coding agents as a first-class part of the identity
+    engineering workflow — draft and validate Terraform
+    modules, provisioning logic, and access-policy changes
+    with AI assistance, and own review of anything AI-
+    generated before it reaches production identity
+    infrastructure
+
+  What We’re Looking For
+
+  - Production experience in engineering and operating an
+    enterprise identity platform at scale; SSO, lifecycle
+    management, MFA, application integrations, and group-based
+    access, with a strong bias toward configuration-as-code
+    over manual administration
+  - Strong IaC skills are required (Terraform or equivalent)
+    applied to identity infrastructure — you write modules,
+    manage state, and treat IaC plans as the change control
+    mechanism
+  - Deep working knowledge of SAML 2.0, OAuth 2.0, OIDC, and
+    SCIM — you can debug a broken SAML assertion, reason
+    through an OAuth flow, and design a SCIM provisioning
+    schema without looking things up— including hands-on
+    experience with custom authorization servers
+  - Experience designing access control models in SaaS-heavy,
+    remote-first environments. You understand the difference
+    between a pragmatic access model and one that will
+    collapse under growth
+  - Experience governing access across cloud and SaaS platforms
+    via SSO and SCIM — including group structures, permission
+    boundaries, and collaboration platform controls
+  - Comfort writing code to automate identity operations —
+    Python, Go, or similar; you reach for a script before you
+    reach for a ticket
+  - Track record of defining measurable outcomes for
+    security/identity programs and communicating them to non-
+    technical stakeholders
+  - Demonstrated fluency with AI coding/agent tools in a
+    production engineering context — you can describe an end-
+    to-end AI-assisted workflow you built (not just tool
+    usage), and you know how to review AI-generated IaC or
+    configuration before it ships
+
+  Nice to Have
+
+  - Experience integrating device trust between an identity
+    provider and MDM platforms to enforce compliance as a
+    condition of access
+  - Familiarity with self-service access request platforms
+  - Experience operating in SOX, SOC 2, GDPR, CCPA, or COPPA
+    compliance environments
+  - Exposure to zero-trust architecture patterns and their
+    application to workforce identity
+
+  AI-Native Expectations
+
+  - Daily use: you use AI coding agents (e.g. Claude Code,
+    Cursor, GitHub Copilot) daily to draft Terraform modules,
+    provisioning scripts, and access-policy configuration —
+    not just for autocomplete
+  - Judgment and ownership: you review and are accountable for
+    anything AI-generated before it touches production
+    identity infrastructure; you can describe a time AI output
+    was wrong and what you changed as a result
+  - Velocity: AI fluency is expected to translate into
+    measurable output leverage — faster IaC iteration, faster
+    incident triage, fewer manual provisioning tickets
+  - Team leadership: you share what you learn — reusable
+    prompts, context docs, agent setups — and help raise the
+    AI fluency of the broader Security/IT team
+  - Continuous learning: you stay current on agentic tooling and
+    bring recommendations back to the team rather than waiting
+    for tooling decisions to be made for you
+
+  Our Benefits
+
+  - Competitive pay and benefits.
+  - Medical, dental, vision, life, and disability insurance
+    plans (100% paid for US employees). We offer supplemental
+    plans for medical and dental for Canadian employees.
+  - 401(k) plan with company matching program in the US and RRSP
+    with DPSP plan for Canadian employees.
+  - Employee Assistance Program (EAP) for mental wellness.
+  - Flexible PTO and 12 company-wide days off throughout the
+    year.
+  - Winter and Summer Weeklong Synchronized Company Shutdowns
+  - Learning & Development programs.
+  - Equipment, tools, and reimbursement support for a productive
+    remote environment.
+  - Free Life360 Platinum Membership for your preferred circle.
+  - Free Tile Products
+
+  Life360 Values
+
+  Our company’s mission-driven culture is guided by our shared
+  values to create a trusted work environment where you can
+  bring your authentic self to work and make a positive
+  difference
+
+  - Be a Good Person - We have a team of high integrity people
+    you can trust.
+  - Be Direct With Respect - We communicate directly, even when
+    it’s hard.
+  - Members Before Metrics - We focus on building an exceptional
+    experience for families.
+  - High Intensity, High Impact - We do whatever it takes to get
+    the job done.
+
+  Our Commitment to Diversity
+
+  We believe that different ideas, perspectives and
+  backgrounds create a stronger and more creative work
+  environment that delivers better results. Together, we
+  continue to build an inclusive culture that encourages,
+  supports, and celebrates the diverse voices of our
+  employees. It fuels our innovation and connects us closer to
+  our customers and the communities we serve. We strive to
+  create a workplace that reflects the communities we serve
+  and where everyone feels empowered to bring their authentic
+  best selves to work.
+
+  We are an equal opportunity employer and value diversity at
+  Life360. We do not discriminate on the basis of race,
+  religion, color, national origin, gender, sexual
+  orientation, age, marital status, veteran status, disability
+  status or any legally protected status.
+
+  We encourage people of all backgrounds to apply. We believe
+  that a diversity of perspectives and experiences create a
+  foundation for the best ideas. Come join us in building
+  something meaningful. Even if you don’t meet 100% of the
+  below qualifications, you should still seriously consider
+  applying!
+
+  #LI-Remote
+
+  ____________________________________________________________
+  ________________
+industries:
+  - Kids + Family
+  - Mobile
+posted_date: 2026-07-09
+url: "https://www.builtinla.com/job/senior-iam-engineer-ii-ai-native/10128420"
+source: Built In

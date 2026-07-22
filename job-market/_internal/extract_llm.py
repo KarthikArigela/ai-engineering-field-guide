@@ -344,8 +344,16 @@ Return valid objects for nested fields (company_info, responsibilities, skills).
                 tool_choice={"type": "tool", "name": structured_output_tool['name']}
             )
 
+            # The model may emit a text preamble before the requested tool call.
+            tool_block = next(
+                (block for block in response.content if hasattr(block, "input")),
+                None,
+            )
+            if tool_block is None:
+                raise ValueError("Response did not contain a tool call")
+
             # Parse the tool output - Z.ai may return nested JSON strings
-            tool_input = response.content[0].input
+            tool_input = tool_block.input
             if isinstance(tool_input, dict):
                 # Check if any values are JSON strings that need parsing
                 parsed_input = {}
@@ -454,7 +462,14 @@ def main():
     parser.add_argument('--all', action='store_true', help='Process all YAML files')
     parser.add_argument('--csv', type=str, help='CSV file to filter which YAML files to process (by job ID)')
     parser.add_argument('--limit', type=int, help='Limit number of files to process')
+    parser.add_argument('--shard-count', type=int, default=1, help='Split work into this many deterministic shards')
+    parser.add_argument('--shard-index', type=int, default=0, help='Zero-based shard to process')
     args = parser.parse_args()
+
+    if args.shard_count < 1:
+        parser.error('--shard-count must be at least 1')
+    if not 0 <= args.shard_index < args.shard_count:
+        parser.error('--shard-index must be between 0 and shard-count - 1')
 
     if not os.getenv("ZAI_API_KEY"):
         print("Error: ZAI_API_KEY environment variable not set")
@@ -489,6 +504,14 @@ def main():
 
         if csv_ids is not None:
             yaml_files = [f for f in yaml_files if infer_job_id_from_filename(f) in csv_ids]
+
+        if args.shard_count > 1:
+            yaml_files = [
+                yaml_file
+                for index, yaml_file in enumerate(yaml_files)
+                if index % args.shard_count == args.shard_index
+            ]
+            print(f"Shard {args.shard_index + 1}/{args.shard_count}: {len(yaml_files)} files")
 
         if args.limit:
             yaml_files = yaml_files[:args.limit]

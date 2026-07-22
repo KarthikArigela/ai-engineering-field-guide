@@ -1,0 +1,59 @@
+company:
+  name: NVIDIA
+  stage: Public
+  focus: GPUs, accelerated computing, and AI hardware
+position:
+  title: Senior Platform AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role focuses on building and operating the ML
+      infrastructure/platform that supports an "intelligent
+      automation ecosystem" for NVIDIA's silicon design group. The
+      engineer works ON the platform and infrastructure (serving,
+      orchestration, caching, job queues) that enables other
+      teams' AI/ML work, not directly on building or fine-tuning
+      models themselves. The emphasis is on platform architecture,
+      reliability, and scalability rather than model development.
+  responsibilities:
+  - Define the architectural direction, infrastructure investments, and roadmap priorities
+    for the efficiency platform across silicon architecture, build, methodology, validation,
+    and applied AI teams
+  - Define platform contracts and onboard new agents and skills from domain teams
+    across SCG
+  - Own end-to-end delivery of the platform from design and implementation through
+    sustained production operation with accountability for security, reliability,
+    performance, and evolution
+  - Lead unified solutions including orchestration patterns, authentication, authorization,
+    observability, and SLA enforcement across the platform
+  - Manage storage and caching strategies that scale across heterogeneous compute
+    environments
+  - Serve as the technical authority for AI-powered infrastructure across SCG, setting
+    engineering standards and resolving cross-team architectural challenges
+  - Mentor senior engineers and shape the technical capabilities of the team
+  use_cases:
+  - Intelligent automation ecosystem for NVIDIA silicon design workflows including
+    bring-up, characterization, and debug
+  - AI-powered platform supporting silicon architecture, build, methodology, and validation
+    teams
+  - Production sign-off workflows running on NVIDIA silicon
+  - Model serving and latency-sensitive backend services at scale for chip design
+    toolchains
+  - Orchestration of AI agents and skills across heterogeneous compute environments
+    in EDA/silicon development
+  skills:
+    genai: []
+    ml: []
+    web: [Microservices]
+    databases: []
+    data: [Celery]
+    cloud: []
+    ops: [Kubernetes, Docker, Temporal, ML Infrastructure, Model Deployment, Observability]
+    languages: [Python, C++, Go, Java, Rust]
+    domains: []
+    other: [Distributed Systems, System Design]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10182563'
+  extracted_at: '2026-07-22T13:36:35.505590'

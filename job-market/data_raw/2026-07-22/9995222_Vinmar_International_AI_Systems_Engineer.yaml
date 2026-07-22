@@ -1,0 +1,275 @@
+job_id: 9995222
+title: AI Systems Engineer
+company: Vinmar International
+location: USA
+work_type: FULL_TIME
+description: |
+  ABOUT VAILENT
+
+  Vailent is the AI infrastructure for the materials industry
+  — chemicals, polymers, elastomers, rubber. The companies
+
+  in this space run on a mess of CRMs, ERPs, point tools, and
+  flat files. We're replacing all of that with one system that
+
+  turns every interaction, transaction, and physical asset
+  into usable commercial data.
+
+  Materials are the foundation of the physical economy:
+  they're in everything. Every product humans build, ship,
+  eat,
+
+  wear, or drive starts here. But the industry is still
+  massively under-instrumented, running on fragmented tools
+  and the
+
+  institutional knowledge of people who've been doing it for
+  decades. At Vailent, we're building the infrastructure that
+
+  will transform this industry for the next century, capturing
+  multi-modal industry context across both software and
+
+  hardware.
+
+  About the Role
+
+  A full-stack platform engineer who can run a multi-app B2B
+  platform end to end — by directing fleets of AI agents and
+
+  verifying everything in the real environment. You'll own the
+  whole stack: cloud infrastructure, backend, frontend, data,
+
+  and deep enterprise-ERP integration. The job isn't writing
+  code with AI; it's operating it — decompose, fan out, verify
+
+  adversarially, ship.
+
+  One seat doing what's normally three or four.
+
+  We run a B2B platform spanning roughly ten applications on a
+  shared cloud backbone, with deep integration into
+
+  customers' enterprise systems (SAP/ERP). This role owns it
+  end to end — from the Terraform and IAM underneath to
+
+  the React components on top, and the SAP RFC calls in
+  between.
+
+  The differentiator isn't typing speed. It's the ability to
+  hold an entire platform in your head and conduct AI agents
+
+  through it without dropping correctness — shipping across
+  many repositories at once while keeping the architecture
+
+  coherent. AI orchestration here is not a productivity add-
+  on; it's the core multiplier that makes the scope possible.
+  We
+
+  hire for that fluency, and for the discipline that makes it
+  safe.
+
+  What You'll Do
+
+  - Own the platform end to end. Multiple applications plus
+    shared SDKs on a single cloud backbone —
+  - React/TypeScript front ends, FastAPI/Python services, the
+    Terraform/IAM/ECS infrastructure underneath, and a
+  - shared design system.
+  - Stand up infrastructure and environments from scratch. New
+    services, cloud accounts, tenants, connectors,
+  - data syncs, migrations (including cross-region) —
+    provisioned and proven, never just stood up and assumed.
+  - Direct fleets of coding agents. Decompose a cross-repo
+    change into disjoint tasks, fan them out to parallel
+  - agents in isolated worktrees, run adversarial multi-reviewer
+    passes, then reconcile the results.
+  - Integrate with enterprise systems at depth. SAP/ERP
+    integration via RFC/BAPI — reading and where
+  - necessary authoring ABAP, reverse-engineering business
+    rules, handling sales-order and customer-master flows,
+  - currency/unit/sales-area mapping, and idempotent event sync.
+  - Architect multi-tenant data. Postgres row-level security as
+    the tenant-isolation core, JSONB-backed
+  - tenant-extensible capability platforms (custom fields,
+    validation, masking), careful migrations, and a graph
+  - database where it fits.
+  - Ship at volume without losing coherence. Multiple PRs across
+    multiple repos in a working session, CI green,
+  - deployed and verified — while keeping the design clean.
+  - Author the thinking, not just the code. Specs, design docs,
+    discovery-question sets, and runbooks that let work
+  - be understood and resumed by others.
+  - Build the tooling that makes AI effective here. Per-codebase
+    navigation maps, documentation indexes, guard
+  - hooks, and custom skills — invest in making agents good at
+    this codebase, then reap it on every task after.
+  - Automate yourself forward. Treat every repeated task as a
+    bug to be fixed. When a workflow recurs, capture it as
+  - a reusable Claude skill, hook, or slash command so the next
+    run — yours or a teammate's — is one step instead
+  - of ten.
+  - Review like an adversary, deploy like a surgeon. Catch the
+    regression the happy path missed, separate “it
+  - renders” from “the data is correct,” refute false blockers,
+    and touch shared state only with a reason and a green
+  - light.
+
+  How We Work
+
+  Hire for the disposition. The stack is learnable; this
+  isn't.
+
+  These principles are non-negotiable, because at this volume
+  they're what keep the work correct. If you don't already
+
+  work this way, the throughput becomes a liability instead of
+  an asset.
+
+  01 — Prove it in the real environment. “Done” means
+  demonstrated, not asserted. A green badge over $0 /
+
+  insufficient data is a failure. subrc=0 means nothing until
+  the record reads back. The data wins, never the badge.
+
+  02 — Never guess. Verify what's knowable in the code; ask
+  about what's a genuine product decision; assume
+
+  nothing in between. Confident fiction is worse than an
+  honest “I don't know yet.”
+
+  03 — Diagnose before you touch. “Look into it” means read-
+  only until told to fix — especially on anything live. Root
+
+  cause and a proposed fix come first; the change waits for an
+  explicit go. Production is sacred.
+
+  04 — Copy what works. If working examples already solve a
+  problem, read the proven pattern and adapt it. Don't
+
+  invent a fresh approach and burn an afternoon proving it
+  wrong.
+
+  05 — Enhance in place, never fork. Generalize the existing
+  path — add an optional parameter where today is the
+
+  degenerate case — rather than shipping a parallel
+  reimplementation. Design the capability; a single customer
+  is the
+
+  validating example, not the spec.
+
+  06 — Risk isn't size. Bigger isn't worse; riskier is. Risk
+  is load-bearing code modified × silent-failure potential ×
+  blast
+
+  radius. A large additive change can be safer than a one-line
+  edit to a hot path.
+
+  07 — Build to scale — or name the debt. Ship the agreed
+  slice now, but flag anything that won't scale as explicit,
+
+  revisit-able debt. Hardcoded shortcuts are fine only when
+  chosen out loud, never smuggled in.
+
+  08 — Own the correction. Verify findings adversarially — a
+  second pass whose job is to refute the first. When the
+
+  evidence turns, reverse yourself out loud. The best catches
+  are corrections of your own confident conclusions.
+
+  09 — Words are a feature. Terminology has precise internal
+  meaning. Inventing loose language for things that
+
+  already have names is a real defect — caught and corrected
+  on the spot, not waved through.
+
+  10 — Leave a trail. Every session ends with a handoff so the
+  next one — human or agent — starts informed. Specs,
+
+  runbooks, tracked tickets, and durable notes are part of the
+  deliverable, not overhead.
+
+  The Environment
+
+  Frontend — React, TypeScript, Vite, TanStack Query, vitest,
+  a token-based design system, Playwright for
+
+  verification.
+
+  Backend — Python, FastAPI (async), SQLAlchemy, Alembic,
+  Celery, Pydantic; an SNS®SQS event bus with
+
+  idempotent dedup.
+
+  Data — PostgreSQL with row-level security, schema-per-app,
+  JSONB + GIN/GIST, Neo4j (Cypher), pgvector.
+
+  Platform / Infra — AWS (ECS Fargate, Aurora, RDS Proxy,
+  Route53, ACM, WAF, CloudFront, IAM/OIDC),
+
+  Terraform, dual-account, per-branch Docker stacks, gitflow.
+
+  Enterprise integration — SAP ECC via RFC/BAPI, ABAP, pyrfc,
+  customer/order master data, additional ERP
+
+  connectors, M2M auth.
+
+  Identity & AI — Auth0 (Organizations, M2M, custom claims),
+  JWT entitlement gating; Claude Code agents,
+
+  worktrees, skills, hooks, MCP.
+
+  Requirements
+
+  Must have
+
+  - Fluent AI orchestration. You already run agents in parallel,
+    isolate their work in worktrees, and verify their output
+  - adversarially — not “I’ve used Copilot.”
+  - Genuine full-stack + infra range. Comfortable going from a
+    React component to a Postgres RLS policy to a
+  - Terraform module in the same day.
+  - Systems debugging instinct. You chase root cause across
+    service boundaries — auth, pagination, dependency
+  - conflicts, integration mismatches — and don't stop at the
+    first plausible story.
+  - The evidence reflex. You distrust green badges, demand real
+    fixtures, and prove things with a working
+  - screenshot, a read-back record, or a live payload.
+  - Self-correction. You can describe a time you reversed your
+    own confident conclusion because the evidence said
+  - so.
+  - An automation reflex. You instinctively turn recurring work
+    into reusable Claude skills, hooks, and commands —
+  - raising your own efficiency floor instead of re-doing toil.
+  - Operating discipline. Read-only until authorized, copy
+    proven patterns, enhance-in-place, precise language,
+  - clean handoffs.
+  - Thick skin & plain speech. You take blunt, fast feedback
+    well and explain your reasoning simply.
+
+  Nice to have
+
+  - Enterprise ERP / SAP depth. RFC/BAPI, ABAP, customer & order
+    master data — or the nerve to
+  - reverse-engineer a customer's system to that depth.
+  - Tooling-builder streak. You've built the scaffolding that
+    makes other agents and engineers effective: nav maps,
+  - indexes, skills, guard hooks, templates.
+  - Architectural taste under constraint. You reach for the
+    boundary that keeps future cost flat, and can name why a
+  - rewrite or a scatter is the wrong move.
+  - Multi-tenant / B2B context. Tenancy isolation, per-tenant
+    configuration, and the failure modes they bring.
+  - Compliance fluency. GDPR / SOC 2 / ISO 27001 — comfortable
+    with ROPA, control mappings, and runbooks.
+  - Design-system literacy. Tokens over hardcoded values; able
+    to run a UX and a UI pass on your own work.
+
+  #vailent
+industries:
+  - Logistics
+  - Chemical
+posted_date: 2026-06-29
+url: "https://www.builtinla.com/job/ai-systems-engineer/9995222"
+source: Built In

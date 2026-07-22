@@ -1,0 +1,56 @@
+company:
+  name: Medtronic
+  stage: Public
+  focus: Healthcare technology and medical devices
+position:
+  title: AI/Data Science Engineer II
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      Despite the job title mentioning "AI/Data Science," the
+      actual role is a data streaming platform engineering
+      position focused on operating Confluent Kafka environments.
+      The work involves infrastructure, CI/CD, monitoring, and
+      platform reliability — not building, deploying, or fine-
+      tuning AI/ML models. This is infrastructure work that may
+      support data pipelines for other teams, but involves no
+      hands-on AI/ML work.
+  responsibilities:
+  - Own and operate data streaming platforms centered around Confluent Kafka with
+    high availability, scalability, and performance
+  - Manage Confluent Cloud-based Kafka environments and support self-managed Kafka
+    clusters on Kubernetes
+  - Implement and maintain supporting components including Schema Registry, Kafka
+    Connect, Flink, and Tableflow
+  - Set up proactive monitoring, alerting, and observability using Dynatrace, Prometheus,
+    Grafana, and ELK
+  - Lead troubleshooting of production incidents, perform root-cause analysis, and
+    conduct post-incident reviews
+  - Build automation and Infrastructure as Code to streamline Kafka provisioning,
+    configuration, and lifecycle management through CI/CD pipelines
+  - Guide capacity planning and infrastructure right-sizing using platform metrics
+    and usage statistics
+  - Partner with application, security, and cloud infrastructure teams as subject
+    matter expert on event-driven design and best practices
+  use_cases:
+  - Real-time data streaming and message platform for healthcare systems
+  - Event-driven architecture enabling reliable data pipelines across the organization
+  - Platform reliability and operational excellence for mission-critical healthcare
+    data infrastructure
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: [Kafka, Confluent Cloud, Flink, Kafka Connect, Schema Registry]
+    cloud: [AWS, Azure, GCP, AWS Lambda, AWS S3, IAM]
+    ops: [Kubernetes, Prometheus, Grafana, ELK Stack, Dynatrace, CI/CD, Terraform,
+      CloudFormation, GitOps, Infrastructure as Code, Git, GitHub, Monitoring, Observability]
+    languages: []
+    domains: []
+    other: [Event-Driven Architecture, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10023512'
+  extracted_at: '2026-07-22T13:24:18.370173'

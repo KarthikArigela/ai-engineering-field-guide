@@ -1,0 +1,56 @@
+company:
+  name: Metaforms
+  stage: Series A
+  focus: AI agent platform for market research automation
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building, operating, and optimizing
+      production AI agent systems — including multi-step agent
+      pipelines, codegen agents, computer-use agents, and
+      evaluation infrastructure. The engineer works hands-on with
+      LLMs, agent harnesses, context engineering, and frontier
+      model APIs, making this clearly ai-first.
+  responsibilities:
+  - Own and develop the agent harness that powers production AI agents — the loop
+    where agents plan, use tools, check work, and recover from failures
+  - Lead research and implementation for long-context handling and cascading-error
+    mitigation in multi-step agent pipelines
+  - Define structured evaluation rubrics and build eval suites including regression
+    sets, golden datasets, and LLM-as-judge pipelines to catch regressions before
+    deployment
+  - Build continuous monitoring, tracing, and failure-mode analysis for agents in
+    production, including converting production failures into test cases
+  - Drive context engineering strategy and experimentation frameworks across the AI
+    engineering team
+  - Create tooling that enables domain experts to refine and evolve skill files, eval
+    sets, and knowledge bases consumed by agents
+  - Design human-in-the-loop and review workflows for high-stakes outputs where errors
+    are unrecoverable
+  use_cases:
+  - AI agents that write production survey code in proprietary domain-specific languages
+  - Computer-use agents that QA live survey deployments
+  - Data agents that clean large structured tabular datasets and configure multi-step
+    analysis
+  - Agents that generate client-ready research reports
+  - Evaluation infrastructure for ambiguous research task outputs
+  skills:
+    genai: [AI Agents, Agentic Workflows, LLMs, Anthropic API, OpenAI API, Gemini,
+      Context Engineering, LLM Evaluation, Function Calling, Structured Outputs, Multi-Agent
+        Systems, Prompt Engineering]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [LangSmith, Langfuse, Monitoring, Observability]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9996229'
+  extracted_at: '2026-07-22T13:45:52.556927'

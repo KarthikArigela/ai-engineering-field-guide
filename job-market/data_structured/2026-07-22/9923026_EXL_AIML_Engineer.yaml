@@ -1,0 +1,46 @@
+company:
+  name: EXL
+  stage: Public
+  focus: Digital operations and analytics solutions
+position:
+  title: AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building LLM pipelines,
+      implementing RAG systems, designing prompt engineering
+      workflows, and orchestrating AI agents. The engineer works
+      hands-on with deploying and optimizing LLM-based
+      applications in production.
+  responsibilities:
+  - Build production-ready AI applications using Python and FastAPI
+  - Design LLM pipelines including data ingestion, inference, and response generation
+  - Leverage GCP tools like Vertex AI, Cloud Run/Functions, BigQuery, and Cloud Storage
+  - Apply advanced prompt engineering techniques to enhance LLM outputs
+  - Implement vector stores and embeddings for semantic search and RAG
+  - Use orchestration frameworks (LangChain, LangGraph, CrewAI) for complex workflows
+  - Integrate AI systems with enterprise platforms and maintain robust data flows
+  - Follow best practices in coding, testing, and deployment within CI/CD pipelines
+  use_cases:
+  - LLM-powered inference and response generation
+  - Semantic search using vector stores and embeddings
+  - Retrieval-Augmented Generation (RAG) for enterprise knowledge retrieval
+  - Complex AI agent workflows via orchestration frameworks
+  - Enterprise AI system integration with data platforms
+  skills:
+    genai: [LLMs, Prompt Engineering, RAG, Embeddings, Semantic Search, LangChain,
+      LangGraph, CrewAI, Agentic Workflows]
+    ml: []
+    web: [FastAPI]
+    databases: [BigQuery, Vector Databases]
+    data: []
+    cloud: [GCP, Vertex AI]
+    ops: [CI/CD, MLOps, Model Deployment, Git]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9923026'
+  extracted_at: '2026-07-22T13:43:06.958833'

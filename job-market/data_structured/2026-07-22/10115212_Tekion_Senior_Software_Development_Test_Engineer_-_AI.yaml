@@ -1,0 +1,58 @@
+company:
+  name: Tekion
+  stage: Late-stage / Growth (close to 3,000 employees)
+  focus: Cloud-native automotive retail platform with AI and ML
+position:
+  title: Senior Software Development Test Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves evaluating, validating, and
+      testing AI agents and ML models — designing eval frameworks
+      for LLM/agent outputs, building LLM-as-judge pipelines, and
+      using LLMs to generate test data. The SDET works hands-on
+      with model inference, prompt pipelines, agentic workflows,
+      and RAG systems, making this an ai-first role despite the
+      testing focus.
+  responsibilities:
+  - Own end-to-end quality for ML models, AI agents, and AI-powered features shipped
+    by the ML Engineering team
+  - Design and implement automated testing frameworks for model inference, prompt
+    pipelines, agentic workflows, RAG/retrieval systems, and serving APIs
+  - Define and execute evaluation strategies for AI/LLM capabilities including creating
+    eval datasets, measuring response accuracy, and identifying hallucinations and
+    edge cases
+  - Build LLM-as-judge and automated scoring pipelines to continuously evaluate model
+    and agent quality
+  - Use AI/LLMs to accelerate quality engineering by generating test cases, synthetic
+    test data, and automation scaffolding
+  - Build regression suites to detect quality drift when models, prompts, embeddings,
+    or training data change
+  - Drive root cause analysis for production model and behavioral issues, partnering
+    with ML Engineers on preventive improvements
+  - Define quality metrics, guardrails, and automated monitoring to detect model degradation
+    before customer impact
+  use_cases:
+  - Service AI Agents for automotive dealership operations
+  - F&I (Finance & Insurance) automation powered by AI
+  - AI-powered Analytics Agent for dealership insights
+  - RAG/retrieval systems serving real-time data across 1,700+ dealership rooftops
+  - LLM evaluation and hallucination detection for production AI agents
+  skills:
+    genai: [LLM Evaluation, LLMs, AI Agents, RAG, Prompt Engineering, Embeddings,
+      Agentic Workflows]
+    ml: [Machine Learning, Model Evaluation, Fine-Tuning]
+    web: [REST APIs]
+    databases: [Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [MLflow, Weights & Biases, LangSmith, Ragas, DeepEval, CI/CD, Model Monitoring,
+      Docker, Kubernetes]
+    languages: [Python, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10115212'
+  extracted_at: '2026-07-22T13:28:57.991331'

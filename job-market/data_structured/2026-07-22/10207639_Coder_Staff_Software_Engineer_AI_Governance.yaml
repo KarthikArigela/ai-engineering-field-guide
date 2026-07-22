@@ -1,0 +1,57 @@
+company:
+  name: Coder
+  stage: null
+  focus: AI software development and governance for enterprises
+position:
+  title: Staff Software Engineer (AI Governance)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds governance infrastructure (an LLM gateway
+      and agent firewall) that sits between AI agents and LLM
+      providers. While the work involves integrating with LLM
+      provider APIs, the core engineering is full-stack software
+      development (Go backend, React frontend) building
+      governance, security, and observability layers around AI
+      tools — not building, training, fine-tuning, or deploying
+      models themselves.
+  responsibilities:
+  - Design and build product features for AI governance components including the AI
+    Gateway and Agent Firewall
+  - Build and maintain Go backend services and React frontend for the AI governance
+    stack
+  - Integrate with LLM provider APIs such as OpenAI and Anthropic for centralized
+    LLM gateway functionality
+  - Implement security boundaries including audit trails, token tracking, cost control,
+    and default-deny network policies
+  - Create and improve open source projects that integrate with developer tools like
+    VS Code and JetBrains
+  - Collaborate with Product, Design, and partner teams on key product integrations
+  - Work with Customer Success teams to support enterprise users and their policy
+    needs
+  - Document system design, implementation, and operations for team knowledge sharing
+  use_cases:
+  - Centralized LLM gateway providing audit trails, token tracking, cost control,
+    and authentication for coding agents
+  - Agent firewall enforcing default-deny network policies to control agent access
+    to domains and methods in workspaces
+  - AI governance and security for autonomous coding agents in enterprise development
+    environments
+  - Secure, policy-driven environments for deploying agentic AI alongside human developers
+  skills:
+    genai: [OpenAI API, Anthropic API, AI Agents]
+    ml: []
+    web: [React, Vite, gRPC, Full-Stack Development, Microservices]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [GCP]
+    ops: [Kubernetes, Prometheus, Grafana, CI/CD, GitHub Actions, GitHub, Infrastructure
+        as Code]
+    languages: [Go, TypeScript]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10207639'
+  extracted_at: '2026-07-22T13:34:21.781314'

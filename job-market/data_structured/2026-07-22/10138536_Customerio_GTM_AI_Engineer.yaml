@@ -1,0 +1,56 @@
+company:
+  name: Customer.io
+  stage: Late Stage / Growth
+  focus: Automated customer messaging and engagement platform
+position:
+  title: GTM AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly owns taking AI agents from prototype to
+      production: hardening prompts, writing evals, refining
+      tool/function definitions, and deploying agent systems at
+      scale on GCP. The engineer works hands-on with LLM-based
+      applications, agent frameworks, and prompt engineering daily
+      — this is building and deploying AI systems, not just
+      supporting them.
+  responsibilities:
+  - Take newly built AI agents from working prototypes to production-ready systems
+    by writing evals, hardening prompts and tool definitions, and refactoring prototype
+    code into clean production-quality code
+  - Instrument tracing, logging, and monitoring across the agent fleet to catch regressions
+    before users are impacted
+  - Stand up and maintain deployment pipelines and infrastructure on GCP, owning environment
+    parity and release hygiene
+  - Own database administration for how agents read from and write to databases safely
+    and at scale
+  - Monitor agent behavior in production, triage issues, and ship continuous improvements
+    to the agent fleet
+  - Partner with the GTM AI team to own scale and reliability while enabling agent
+    builders to focus on zero-to-one development
+  use_cases:
+  - Scaling AI agents from prototype to production-grade systems serving GTM teams
+  - Agent fleet observability, stability monitoring, and regression detection
+  - Production deployment infrastructure for AI agent CLIs used by 120+ active users
+  - Database read/write management for AI agents at scale (25,000+ tool calls per
+    day)
+  - GTM automation through AI agents for marketing, sales, and customer operations
+    workflows
+  skills:
+    genai: [AI Agents, Prompt Engineering, Function Calling, LLM Evaluation, Agentic
+        Workflows, Claude Code]
+    ml: []
+    web: []
+    databases: [PostgreSQL, Vector Databases]
+    data: []
+    cloud: [GCP]
+    ops: [Kubernetes, CI/CD, Docker, Monitoring, Observability, Model Deployment,
+      LangSmith, GitHub]
+    languages: [Python, SQL, Bash]
+    domains: []
+    other: [Microservices]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10138536'
+  extracted_at: '2026-07-22T13:29:55.214223'

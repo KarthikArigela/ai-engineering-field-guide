@@ -1,0 +1,58 @@
+company:
+  name: DoiT
+  stage: null
+  focus: Global multicloud consulting and cloud intelligence platform
+position:
+  title: Applied AI Engineer -Ukraine(Remote)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      While the core role is full-stack platform engineering on
+      internal business systems, AI is central in two directions:
+      the engineer uses Claude Code across the entire SDLC as a
+      coding collaborator, and the platform is explicitly designed
+      so that AI agents are first-class consumers of the APIs. The
+      role involves directing AI on multi-step implementation
+      tasks, reviewing AI-generated code, and building features
+      that call LLM APIs with prompt design and tool use.
+  responsibilities:
+  - Own internal tools end to end from understanding the operational problem through
+    design, implementation, deployment, and iteration
+  - Build across the stack including Python/Go services on GCP Cloud Run, TypeScript/React
+    web apps, event-driven integrations on Pub/Sub, and cloud infrastructure
+  - Integrate with third-party SaaS platforms and cloud APIs handling REST, webhooks,
+    OAuth, and event-driven patterns including failures, retries, and schema drift
+  - Build and maintain workflow automation and business process orchestration as named,
+    observable BPMN flows
+  - Use AI tooling across the development lifecycle for spec, code, and review while
+    owning the output
+  - Review AI-generated code for correctness, security, and type safety before shipping
+  - Operate production systems including monitoring, reliability, cost management,
+    and failure mode handling
+  - Contribute to shared engineering standards, playbooks, and internal tooling
+  use_cases:
+  - Internal platform enabling AI agents to safely operate business systems as first-class
+    API consumers
+  - Reconciling marketing leads into the CRM through event-driven integrations
+  - Real-time financial forecasting replacing spreadsheet exports
+  - Automated quarterly access audits producing observable evidence flows
+  - Composable event-driven platform connecting dozens of SaaS systems across CRM,
+    ERP, support, marketing, and billing
+  - Workflow automation and business process orchestration for internal operations
+  skills:
+    genai: [Claude Code, OpenAI API, Anthropic API, Prompt Engineering, Function Calling,
+      AI Agents, Generative AI]
+    ml: []
+    web: [React, REST APIs, Webhooks, OAuth, Microservices]
+    databases: [Neo4j]
+    data: []
+    cloud: [GCP, Cloud Run, IAM, Pub/Sub]
+    ops: [Docker, Terraform, Monitoring, Observability, Git]
+    languages: [Python, Go, TypeScript, Rust]
+    domains: []
+    other: [Event-Driven Architecture, Distributed Systems, n8n, Zapier, AppSec]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10198843'
+  extracted_at: '2026-07-22T13:34:30.701989'

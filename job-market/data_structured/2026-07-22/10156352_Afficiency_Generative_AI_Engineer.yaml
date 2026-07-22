@@ -1,0 +1,59 @@
+company:
+  name: Afficiency
+  stage: Startup (well-funded)
+  focus: Digital embedded life insurance products
+position:
+  title: Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves designing, developing, and
+      deploying Generative AI solutions including RAG systems, LLM
+      applications, model fine-tuning, and reinforcement learning.
+      The engineer will build and operationalize GenAI
+      applications end-to-end, from ingestion pipelines through
+      production deployment with LLMOps practices.
+  responsibilities:
+  - Design, develop, and deploy GenAI solutions end-to-end from discovery through
+    production handoff
+  - Build enterprise-grade RAG systems with ingestion pipelines for internal content
+    including PDFs, policies, research, dashboards, ticketing, and wikis
+  - Implement retrieval systems with hybrid search, filtering, re-ranking, query rewriting,
+    and context optimization
+  - Establish evaluation and quality controls including golden datasets, regression
+    tests, and automated evaluation harnesses for retrieval quality and answer grounding
+  - Operationalize GenAI with observability instrumentation, caching, rate limiting,
+    fallbacks, and safe rollout patterns
+  - Build APIs and services that integrate with enterprise systems and analytics platforms
+  - Collaborate with Security/Compliance teams to embed guardrails, auditability,
+    and privacy controls
+  - Partner with business owners and cross-functional teams to translate requirements
+    into workable designs and deliver documentation and playbooks
+  use_cases:
+  - Enterprise knowledge retrieval and search across internal documents, policies,
+    and wikis
+  - Permission-aware retrieval aligned to user entitlements and data access policies
+  - Grounded answer generation with citation accuracy and hallucination mitigation
+    for regulated insurance domain
+  - Automated evaluation and quality assurance of GenAI retrieval and generation outputs
+  - Production GenAI operations with observability, cost tracking, and safe rollout
+    patterns
+  skills:
+    genai: [RAG, LLMs, LangChain, LlamaIndex, Semantic Kernel, Generative AI, Fine-Tuning,
+      LoRA, RLHF, Embeddings, Semantic Search, Prompt Engineering, LLM Evaluation]
+    ml: []
+    web: [FastAPI, Flask, REST APIs, Microservices]
+    databases: [Elasticsearch, OpenSearch, FAISS, Pinecone, Weaviate, Milvus, Vector
+        Databases, Vector Search, Snowflake]
+    data: [Data Pipelines, Databricks, Data Engineering]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Terraform, MLflow, Weights & Biases, OpenTelemetry,
+      LLMOps, Monitoring, Observability, CI/CD]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [HIPAA Compliance, GDPR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10156352'
+  extracted_at: '2026-07-22T13:31:30.073199'

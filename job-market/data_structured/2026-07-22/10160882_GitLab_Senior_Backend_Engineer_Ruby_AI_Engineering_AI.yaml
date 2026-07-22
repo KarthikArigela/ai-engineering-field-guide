@@ -1,0 +1,56 @@
+company:
+  name: GitLab
+  stage: Public
+  focus: AI-powered DevSecOps platform
+position:
+  title: 'Senior Backend Engineer (Ruby), AI Engineering: AI Coding'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves building the trigger and event platform
+      that powers GitLab Duo Flows — AI-powered agentic workflows
+      that run autonomously in response to events. The candidate
+      is expected to have hands-on experience integrating LLMs
+      into user-facing tools and building agentic systems where AI
+      agents take autonomous action. This is directly working on
+      AI systems (integration, deployment, orchestration of AI
+      agents), not merely supporting infrastructure for other AI
+      teams.
+  responsibilities:
+  - Design and build the trigger system that links GitLab events (code pushes, merge
+    requests, CI/CD results, deployments) and third-party events (Jira, Jenkins, Slack)
+    to AI-powered Duo Flows
+  - Contribute to the broader event platform that serves as core infrastructure for
+    GitLab's AI features
+  - Architect for high availability and throughput to reliably process events at significant
+    scale
+  - Work within GitLab's Rails monolith to develop the event and trigger system
+  - Influence product and architecture direction by proposing iterative solutions
+    across a multi-service environment
+  - Collaborate with product managers, designers, and cross-departmental Duo Agent
+    Platform teams on trigger and event integration
+  - Participate in Tier 2 and Tier 3 on-call rotations to troubleshoot production
+    issues in a globally distributed environment
+  use_cases:
+  - Automated code review triggered by GitLab events
+  - AI-powered DevSecOps workflows that run automatically in response to development
+    lifecycle events
+  - Agentic workflows that enable AI agents to take autonomous action based on events
+    from GitLab and third-party tools
+  - Event-driven orchestration of AI features across the GitLab platform
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows]
+    ml: []
+    web: [Ruby on Rails]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Distributed Systems, CI/CD, GitHub, Jenkins, Monitoring]
+    languages: [Ruby, Python]
+    domains: []
+    other: [Microservices, Jira, Slack, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10160882'
+  extracted_at: '2026-07-22T13:31:23.689750'

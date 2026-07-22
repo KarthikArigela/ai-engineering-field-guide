@@ -1,0 +1,61 @@
+company:
+  name: Stratus
+  stage: null
+  focus: MEP contractor software solutions from design to fabrication
+position:
+  title: Senior Software Engineer with AI plus Revit
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly building and deploying customer-facing
+      AI agent systems — multi-agent orchestration, tool calling,
+      guardrails, evals, and observability for LLM-based
+      workflows. The engineer designs and ships agentic systems
+      that reason over MEP fabrication data and act on
+      contractors' behalf, making this squarely ai-first.
+  responsibilities:
+  - Design and build customer-facing agentic workflows using multi-agent orchestration,
+    tool calling, structured outputs, and human-in-the-loop checkpoints to automate
+    complex MEP engineering tasks
+  - Establish evaluation, guardrails, and failure-mode analysis for agent systems
+    including offline eval suites in CI and live production sampling
+  - Build the tool and context layer connecting agents to Stratus data via internal
+    and customer-facing APIs including context-window management, permissioning, and
+    cost control
+  - Set up observability and tracing for agent behavior and diagnose cost, latency,
+    and hallucination issues in production
+  - Build and maintain Revit-side integrations including add-ins and publishing paths
+    that move design and fabrication data from Revit into Stratus
+  - Write production C#/.NET code against the Revit API for custom commands, external
+    events, document and transaction management, and Autodesk model data integration
+  - Collaborate with product managers, designers, and customer-facing teams to scope,
+    design, and ship features grounded in real workflows
+  - Use AI-assisted development tooling as a first-class part of the dev loop with
+    clear judgment about when AI output is shippable
+  use_cases:
+  - Automating complex MEP engineering tasks through multi-agent workflows
+  - Connecting AI agents to MEP design and fabrication data via tool integration protocols
+  - Publishing and transforming Revit design data for agent reasoning and automation
+  - Ensuring safe, reliable, and grounded agent behavior in customer-facing production
+    environments
+  - Bridging the boundary between customers' Autodesk Revit environments and the Stratus
+    platform
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, Function Calling, Structured Outputs, AI Agents,
+      Multi-Agent Systems, Agentic Workflows, MCP, Guardrails, LLM Evaluation, Claude
+        Code, Cursor, GitHub Copilot]
+    ml: []
+    web: [APIs, Microservices]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Observability, Monitoring, CI/CD, Docker]
+    languages: [C#, .NET, Python]
+    domains: []
+    other: [Code Review, System Design, Agile, Revit API, Autodesk Platform Services,
+      BIM]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9782910'
+  extracted_at: '2026-07-22T13:41:30.852421'

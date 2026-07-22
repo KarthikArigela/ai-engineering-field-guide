@@ -1,0 +1,63 @@
+company:
+  name: Deepgram
+  stage: Series C
+  focus: |-
+    Voice AI platform: speech-to-text, text-to-speech, voice
+    agents
+position:
+  title: Embedded AI Engineer, On-Device Models
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly working on AI models —
+      optimizing, compiling, quantizing, and deploying speech AI
+      models onto embedded and edge platforms for on-device
+      inference. The engineer is hands-on with model optimization
+      (quantization, pruning, distillation) and runtime inference,
+      which is core AI deployment work, not infrastructure
+      support.
+  responsibilities:
+  - Deploy Deepgram's speech and conversational models on embedded and low-power consumer
+    hardware, defining architecture for on-device real-time inference
+  - Optimize models through quantization, pruning, distillation, operator fusion,
+    and architecture-specific compilation to meet strict latency, memory, power, and
+    thermal budgets
+  - Write and optimize performance-critical runtime code in C, C++, and Rust for bare-metal
+    and RTOS environments including FreeRTOS and Zephyr
+  - Integrate with edge inference runtimes and vendor NPU/DSP toolchains, mapping
+    model graphs onto on-device accelerators and CPU/GPU/NPU heterogeneous architectures
+  - Build on-device runtime infrastructure including model packaging, deployment pipelines,
+    over-the-air updates, and lightweight telemetry
+  - Establish benchmarking and validation across target hardware measuring latency,
+    accuracy, power consumption, memory footprint, and resource utilization
+  - Partner with silicon and device vendors on SDK integration and performance tuning
+    for new chipsets
+  - Collaborate with Research and Engine teams to influence model architectures toward
+    edge-friendly designs
+  use_cases:
+  - On-device real-time speech-to-text on phones, earbuds, and wearables
+  - Offline-capable voice AI experiences on resource-constrained consumer hardware
+  - Always-on wake-word detection and streaming audio inference on microcontrollers
+  - Private on-device voice agents for smart appliances, cameras, and purpose-built
+    consumer devices
+  - Low-latency conversational AI running directly on edge SoCs and embedded processors
+  skills:
+    genai: []
+    ml: [Quantization, Fine-Tuning, Model Optimization, Knowledge Distillation, Neural
+        Networks, CUDA, Model Compilation, Pruning, Operator Fusion, Mixed-Precision
+        Inference]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [ONNX Runtime, TensorRT, TensorFlow Lite, ExecuTorch, Model Deployment, Docker,
+      FreeRTOS, Zephyr, Embedded Linux, Over-The-Air Updates]
+    languages: [C, C++, Rust, Python]
+    domains: []
+    other: [NPU, DSP, Real-Time Audio Processing, Hardware-Software Co-Design, Benchmarking,
+      Power Management, Embedded Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10085186'
+  extracted_at: '2026-07-22T13:26:55.465896'

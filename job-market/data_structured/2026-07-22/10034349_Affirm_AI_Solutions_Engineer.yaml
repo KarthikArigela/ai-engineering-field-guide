@@ -1,0 +1,57 @@
+company:
+  name: Affirm
+  stage: Public
+  focus: Buy now, pay later consumer credit
+position:
+  title: AI Solutions Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      maintaining AI agents, multi-model LLM services with
+      structured output validation and fallback chains, and
+      production AI applications. The engineer owns the full
+      lifecycle of AI-powered systems including architecture,
+      reliability infrastructure for LLM services, and
+      hallucination controls.
+  responsibilities:
+  - Build and ship AI agents, APIs, and applications on Affirm's internal platform
+    (Snowpark Container Services / Quicksilver), owning the full lifecycle from architecture
+    to production
+  - Translate messy business requirements from People Operations stakeholders into
+    production AI systems integrated with Workday, Notion, and case management tools
+  - Navigate security and data governance infrastructure to safely connect AI systems
+    across platforms handling employee data (RBACs, data classification, access policies)
+  - Design reliability infrastructure for multi-model LLM services including structured
+    output validation, fallback chains, circuit breakers, and hallucination quality
+    controls
+  - Work directly with non-technical stakeholders to scope problems, make architecture
+    decisions, and provide honest assessments of AI capabilities
+  - Contribute to the team's shared Python codebase, dbt models, and Snowflake infrastructure
+  - Own production systems end-to-end including diagnosis and resolution of production
+    incidents
+  use_cases:
+  - AI-powered employee experience and people operations automation
+  - HR knowledge retrieval agents surfacing governed content from Workday, Notion,
+    and case management tools
+  - Multi-model LLM services with reliability controls for hallucination prevention
+    and structured outputs
+  - Internal AI tools serving 2,000+ employees across the People function
+  - Production AI applications for fragmented knowledge consolidation and manual process
+    automation
+  skills:
+    genai: [AI Agents, LLMs, Structured Outputs, Generative AI, Prompt Engineering]
+    ml: []
+    web: [REST APIs, Microservices, APIs, Full-Stack Development]
+    databases: [Snowflake]
+    data: [dbt]
+    cloud: [IAM]
+    ops: [Docker, Kubernetes, CI/CD, Monitoring, Git, GitHub]
+    languages: [Python, SQL]
+    domains: []
+    other: [Data Governance, System Design, Workday]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10034349'
+  extracted_at: '2026-07-22T13:27:53.733815'

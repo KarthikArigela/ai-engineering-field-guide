@@ -1,0 +1,59 @@
+company:
+  name: ScienceLogic
+  stage: Private
+  focus: AIOps and IT operations management platform
+position:
+  title: Platform Engineer- Skylar AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is for a Platform Engineer on the Skylar AI
+      Platform team focused on testing, lab environments,
+      deployment pipelines, and end-to-end validation of an AI-
+      powered observability platform. The role uses AI (LLM APIs,
+      prompt engineering) as a consumer to help solve problems and
+      validate systems, but does not involve building, training,
+      fine-tuning, or deploying AI/ML models directly.
+  responsibilities:
+  - Deploy and maintain lab environments for development, testing, and staging of
+    the Skylar AI platform
+  - Build and manage automated CI/CD deployment pipelines that trigger tests on every
+    commit and validate staging against production
+  - Conduct end-to-end testing across cross-system workflows including data ingestion,
+    AI processing, telemetry capture, and reporting
+  - Simulate real user journeys and maintain regression test suites to catch issues
+    before production release
+  - Perform integration testing of third-party APIs, databases, and services, and
+    validate rollback and recovery after failed deployments
+  - Keep Skylar One/Advisor/Analytics environments current, operational, and in sync
+    across Dev and Stable releases
+  - Set up and maintain telemetry data generation from existing sources and workload
+    simulations
+  - Maintain up-to-date documentation of environments, processes, and usage guidelines
+  use_cases:
+  - End-to-end testing and validation of an AI-powered observability platform for
+    IT operations
+  - Automated regression testing and performance gating for monthly software release
+    cadence
+  - Telemetry data generation and ingestion pipeline testing across hybrid and multi-cloud
+    environments
+  - Lab environment management for development, staging, and testing of AI-driven
+    IT operations workflows
+  - Integration testing across third-party APIs, databases, and observability services
+  skills:
+    genai: [LLMs, Prompt Engineering, OpenAI API]
+    ml: []
+    web: [REST APIs, GraphQL, Playwright, Full-Stack Development]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, GitOps, GitHub Actions, k6, JMeter, Docker, Kubernetes, Prometheus,
+      Grafana, OpenTelemetry, Monitoring, Observability, GitHub]
+    languages: [Node.js, Python, TypeScript, JavaScript]
+    domains: []
+    other: [ServiceNow]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10131209'
+  extracted_at: '2026-07-22T13:30:01.977602'

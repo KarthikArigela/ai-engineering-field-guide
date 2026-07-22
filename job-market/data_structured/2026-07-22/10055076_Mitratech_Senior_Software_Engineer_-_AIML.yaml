@@ -1,0 +1,59 @@
+company:
+  name: Mitratech
+  stage: Private
+  focus: Legal, Risk, Compliance, and HR software
+position:
+  title: Senior Software Engineer - AI/ML
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building, deploying, and
+      operating multi-agent workflows, RAG systems, and LLM
+      evaluation frameworks in production. The engineer works
+      hands-on with foundation models, fine-tuning, prompt
+      engineering, and AI infrastructure — squarely placing this
+      as an ai-first role.
+  responsibilities:
+  - Design, build, and operate multi-agent workflows with orchestration logic, state
+    management, safety guardrails, and fallback strategies
+  - Architect and maintain end-to-end RAG systems covering document ingestion, chunking,
+    embedding, vector retrieval, reranking, and answer synthesis
+  - Evaluate and integrate LLMs and GenAI services across cost, performance, and privacy
+    dimensions
+  - Develop, version, and optimise prompting strategies with automated prompt testing
+    and regression tracking
+  - Define and own evaluation frameworks for generative outputs including automated
+    metrics, LLM-as-judge, hallucination detection, and drift monitoring
+  - Build and operate scalable AI infrastructure on AWS following well-architected
+    principles and infrastructure-as-code practices
+  - Own the full deployment lifecycle including CI/CD for models and agents, testing,
+    observability, and rollback procedures
+  - Apply classical NLP techniques and ensure data quality through validation, augmentation,
+    and dataset sourcing
+  use_cases:
+  - Multi-agent orchestration and tool-enabled agents for complex business workflows
+  - Production RAG systems for document retrieval and answer synthesis in legal, risk,
+    and compliance domains
+  - LLM evaluation and monitoring including hallucination detection and drift tracking
+  - Automated prompt engineering and regression testing for generative AI outputs
+  - Classical NLP tasks such as NER, text classification, intent detection, and topic
+    modelling
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, RAG, Embeddings, Fine-Tuning, Prompt Engineering,
+      AWS Bedrock, Multi-Agent Systems, Agentic Workflows, Function Calling, LLM Evaluation,
+      LLMs, OpenAI API, Anthropic API, Generative AI, Structured Outputs]
+    ml: [Hugging Face, scikit-learn, NLP]
+    web: []
+    databases: [Vector Databases, OpenSearch]
+    data: []
+    cloud: [AWS, AWS Lambda, AWS S3, SageMaker, EKS, ECS, IAM]
+    ops: [CI/CD, MLOps, Terraform, AWS CDK, CloudWatch, Model Deployment, Monitoring,
+      Langfuse, LangSmith]
+    languages: [Python]
+    domains: []
+    other: [pytest]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10055076'
+  extracted_at: '2026-07-22T13:25:31.893679'

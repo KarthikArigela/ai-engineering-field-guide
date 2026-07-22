@@ -1,0 +1,53 @@
+company:
+  name: DigitalOcean
+  stage: Public
+  focus: Cloud infrastructure and AI hosting platform
+position:
+  title: Senior Software Engineer I - AI Inference Data Plane
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves directly building and optimizing the AI
+      inference data plane — designing distributed inference
+      hosting, implementing tensor/data parallelism, KV cache
+      optimizations, and working with inference engines like vLLM
+      and SGLang to serve large language models. The engineer
+      works hands-on on deploying and optimizing AI model serving
+      infrastructure, which is core AI system work.
+  responsibilities:
+  - Act as technical leader driving end-to-end design, development, and delivery of
+    critical data plane components hosting large generative AI models
+  - Architect and refine system design for high-scale, multi-tenant AI inference cloud
+    ecosystem ensuring availability and resiliency
+  - Implement and optimize distributed inference hosting using tensor/data parallelism,
+    KV cache optimizations, and smart routing
+  - Collaborate cross-functionally with Product Managers, customer-facing teams, and
+    engineering teams to align technical roadmaps
+  - Coach and mentor junior engineers fostering technical excellence and continuous
+    improvement
+  - Maintain and operate critical high-scale services using observability tools and
+    defining SLOs for platform health
+  use_cases:
+  - Inference as a Service platform for deploying and scaling large generative AI
+    models
+  - High-scale multi-tenant AI inference cloud hosting
+  - Distributed inference serving with GPU optimization and hardware interconnects
+  - Performance-optimized LLM and multimodal model hosting for cloud customers
+  skills:
+    genai: [LLMs]
+    ml: [Tensor Parallelism, Quantization, KV Cache Optimization, Continuous Batching,
+      CUDA, GPU Optimization]
+    web: [gRPC, Microservices]
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, Ray Serve, Distributed Systems, Infrastructure as Code, Observability,
+      SLOs, Docker, Kubernetes, SGLang, NVIDIA Dynamo, Monitoring]
+    languages: [Go, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10064675'
+  extracted_at: '2026-07-22T13:26:32.000961'

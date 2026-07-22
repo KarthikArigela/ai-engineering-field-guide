@@ -1,0 +1,55 @@
+company:
+  name: Mindera
+  stage: null
+  focus: Software engineering consulting and technology solutions
+position:
+  title: Data Engineer - Generative AI & Vector Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly involves building RAG pipelines, managing
+      embedding generation and vector indexing, and optimizing
+      semantic search and retrieval systems for LLM applications.
+      While it has significant data engineering components, the
+      core focus on Generative AI data infrastructure —
+      embeddings, vector databases, and RAG architectures —
+      represents hands-on work enabling and deploying AI systems
+      rather than just supporting them from the periphery.
+  responsibilities:
+  - Design and develop scalable data ingestion pipelines for AI and ML applications
+  - Build automated pipelines to clean, transform, chunk, enrich, and load enterprise
+    data into Vector Databases
+  - Design and manage Vector Database architectures, optimizing indexing, storage,
+    and retrieval performance
+  - Develop production-grade ETL/ELT pipelines with batch and near real-time ingestion
+    using Apache Airflow
+  - Build Retrieval-Augmented Generation (RAG) pipelines and manage embedding generation
+    and vector indexing
+  - Develop cloud-native solutions on AWS including S3, Glue, EMR, Lambda, and Athena
+  - Write complex SQL queries across distributed data sources using Starburst/Trino
+    for federated querying
+  - Implement monitoring, logging, and alerting to ensure pipeline performance, data
+    integrity, and governance
+  use_cases:
+  - Enterprise semantic search and retrieval systems
+  - Retrieval-Augmented Generation (RAG) for LLM applications
+  - Voice AI solutions powered by generative AI
+  - Large-scale embedding generation from structured and unstructured enterprise data
+  - Scalable cloud-native AI data platforms
+  skills:
+    genai: [RAG, LLMs, Embeddings, Semantic Search, Prompt Engineering, Vector Search]
+    ml: [Machine Learning]
+    web: [REST APIs, JSON]
+    databases: [Pinecone, Milvus, Qdrant, Chroma, Weaviate, FAISS, Vector Databases]
+    data: [Airflow, ETL, Data Pipelines, Data Modeling, Starburst, Trino, Presto,
+      Data Cleansing, Data Transformation]
+    cloud: [AWS, AWS S3, AWS Lambda, IAM, AWS Glue, Amazon Athena, Amazon EMR, CloudWatch]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10053871'
+  extracted_at: '2026-07-22T13:25:36.878637'

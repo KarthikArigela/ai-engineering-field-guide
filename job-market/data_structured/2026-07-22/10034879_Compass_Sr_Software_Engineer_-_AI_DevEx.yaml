@@ -1,0 +1,51 @@
+company:
+  name: Compass
+  stage: Public
+  focus: Real estate technology platform
+position:
+  title: Sr Software Engineer - AI DevEx
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role explicitly involves embedding AI models and LLM
+      APIs into software pipelines, building AI-assisted tooling
+      for code reviews, software validation, and incident
+      triaging. The engineer directly implements AI-powered
+      workflows and orchestrations as a first-class
+      responsibility, making this an ai-first role despite being
+      within a developer experience/platform team.
+  responsibilities:
+  - Design and implement Developer Intelligence systems focusing on engineering telemetry,
+    observability instrumentation, and AI-assisted tooling
+  - Analyze developer workflows and SDLC feedback loops to build efficient, maintainable
+    software components
+  - Build subsystems to collect, correlate, and operationalize data from CI/CD pipelines,
+    source control, testing infrastructure, and developer workflows
+  - Integrate AI tools into daily engineering workflows including automated code reviews,
+    software validation, and incident triaging
+  - Collaborate with teammates and stakeholders on design reviews and project roadblock
+    resolution
+  - Identify and resolve systemic operational bottlenecks and automate manual processes
+  - Mentor peers, conduct code reviews, and train team members on platform architecture
+  use_cases:
+  - Automated code reviews using AI models
+  - AI-assisted software validation and testing
+  - Intelligent incident triaging and production troubleshooting
+  - Automated developer workflow orchestration using engineering signals
+  - Engineering telemetry collection and observability for developer productivity
+  skills:
+    genai: [LLMs, OpenAI API, Prompt Engineering, AI Agents, Agentic Workflows]
+    ml: []
+    web: [Microservices, REST APIs]
+    databases: [PostgreSQL]
+    data: [Data Pipelines]
+    cloud: [AWS, GCP, Azure]
+    ops: [Observability, Monitoring, CI/CD, Docker, Kubernetes, Git, GitHub]
+    languages: [Go, Python]
+    domains: []
+    other: [Code Review, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10034879'
+  extracted_at: '2026-07-22T13:24:20.714731'

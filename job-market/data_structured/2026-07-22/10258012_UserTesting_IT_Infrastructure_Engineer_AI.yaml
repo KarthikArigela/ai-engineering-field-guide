@@ -1,0 +1,56 @@
+company:
+  name: UserTesting
+  stage: Public
+  focus: Human insight and customer experience testing
+position:
+  title: IT Infrastructure Engineer – AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves hands-on deployment, configuration, and
+      maintenance of AI tools and infrastructure including MCP
+      servers, AI agents, and hosting environments for internally
+      built AI applications. With an explicit 80/20 split favoring
+      AI "building" work, the engineer directly sets up and
+      supports AI systems connecting to internal tools and data
+      sources, making this an ai-first role.
+  responsibilities:
+  - Set up, configure, and maintain MCP servers connecting AI systems to internal
+    tools and data sources, including credential management and integration troubleshooting
+  - Design, provision, and support cloud hosting environments for internally built
+    AI applications on AWS/GCP ranging from PaaS to full infrastructure
+  - Provision and manage AI agent infrastructure including service accounts, API keys,
+    permissions scoping, rate limit monitoring, and access auditing
+  - Build and maintain CI/CD pipelines and infrastructure-as-code for repeatable,
+    secure deployment of AI-hosted applications
+  - Monitor uptime, performance, and cost of hosted AI applications with alerting
+    and observability tooling
+  - Act as escalation point for complex infrastructure and hosting issues and collaborate
+    with cross-functional teams on cloud governance and security
+  - Manage stakeholder relationships and lead projects for AI build and support work
+    with non-technical business owners
+  use_cases:
+  - Connecting AI agents and systems to internal enterprise tools and data sources
+    via MCP servers
+  - Hosting and deploying internally built AI applications on cloud infrastructure
+  - Managing AI agent infrastructure across internal systems with secure access controls
+    and monitoring
+  - Enabling organization-wide adoption of AI tools and platforms through infrastructure
+    and integration support
+  skills:
+    genai: [MCP, AI Agents, OpenAI API, Gemini, Function Calling]
+    ml: []
+    web: [APIs, REST APIs, OAuth]
+    databases: [PostgreSQL, MongoDB]
+    data: []
+    cloud: [AWS, GCP, AWS S3, EKS, ECS, IAM, Vertex AI, OAuth]
+    ops: [Terraform, CloudFormation, CI/CD, GitHub Actions, Docker, Kubernetes, Datadog,
+      CloudWatch, Monitoring, Observability, Infrastructure as Code, Git, Linux, DevOps]
+    languages: [Python, Bash, JSON, YAML, SQL]
+    domains: []
+    other: [Microservices, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10258012'
+  extracted_at: '2026-07-22T13:37:03.470442'

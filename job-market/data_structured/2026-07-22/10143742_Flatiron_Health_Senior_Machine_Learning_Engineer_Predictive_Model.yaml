@@ -1,0 +1,55 @@
+company:
+  name: Flatiron Health
+  stage: Acquired (Roche subsidiary)
+  focus: Cancer care data and oncology research platform
+position:
+  title: Senior Machine Learning Engineer, Predictive Modeling & Applied AI
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role is centered on building, training, and deploying
+      deep learning models (transformers, foundation models,
+      transfer learning) for oncology real-world data. While it
+      mentions foundation models and LLMs for clinical NLP, the
+      core work is traditional deep learning/ML model development
+      rather than GenAI/LLM agent systems, making it ml-first.
+  responsibilities:
+  - Build, train, and validate deep learning models including transformer architectures,
+    foundation models, and transfer learning for oncology real-world data
+  - Develop predictive models for digital twins, endpoint prediction, trial optimization,
+    and treatment effect estimation
+  - Apply transfer learning and domain adaptation to extend models across data sources
+    (EHR, claims, multimodal) and oncology indications
+  - Support client engagements by building predictive models for specific partner
+    use cases
+  - Partner with product, engineering, and data teams to shape novel capabilities
+    into scalable solutions
+  - Write clear documentation and explain model design, behavior, and limitations
+    to technical and non-technical partners
+  - Take models from research into production with attention to reproducibility, evaluation,
+    and maintainability
+  use_cases:
+  - Digital twins for patient-level simulation in oncology
+  - Endpoint prediction from real-world clinical data
+  - Clinical trial optimization
+  - Treatment effect estimation using causal inference
+  - Clinical NLP using LLMs on multimodal healthcare data
+  - Predictive modeling for pharmaceutical and academic partners
+  skills:
+    genai: [LLMs]
+    ml: [PyTorch, TensorFlow, Transformers, Foundation Model Training, Fine-Tuning,
+      Transfer Learning, Deep Learning, Neural Networks, Model Training, Model Evaluation,
+      Causal Inference]
+    web: []
+    databases: [PostgreSQL]
+    data: [Pandas, NumPy]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, MLflow, Model Deployment, CI/CD]
+    languages: [Python]
+    domains: [NLP, Computer Vision]
+    other: [HIPAA Compliance]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10143742'
+  extracted_at: '2026-07-22T13:29:52.496730'

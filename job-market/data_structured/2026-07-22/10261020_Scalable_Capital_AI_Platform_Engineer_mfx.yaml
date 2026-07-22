@@ -1,0 +1,48 @@
+company:
+  name: Scalable Capital
+  stage: Late-stage (founded 2014, 700+ employees, €30B AUM)
+  focus: Digital investment and banking platform
+position:
+  title: AI Platform Engineer (m/f/x)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is focused on building and maintaining the
+      infrastructure/platform that enables AI Software Engineers
+      to build generative AI applications. The engineer works on
+      provisioning, observability, governance, and cost management
+      for AI systems rather than directly building, training, or
+      deploying models themselves. The work supports AI
+      initiatives but is not hands-on model/agent development.
+  responsibilities:
+  - Develop and maintain an internal AI provisioning platform to streamline access
+    to LLMs and MCP servers using tools like LiteLLM
+  - Implement LLM observability, logging, and alerting systems using Datadog and Langfuse
+  - Enforce model governance including security, data privacy, rate limiting, and
+    LLM API cost management
+  - Collaborate with AI Software Engineers to support cloud-native architectures and
+    agentic workflow integrations
+  - Build and maintain infrastructure for monitoring reliability and performance of
+    production AI systems
+  use_cases:
+  - Internal AI provisioning platform for streamlined LLM access across teams
+  - LLM observability and governance for production AI systems
+  - Secure and cost-effective model access for agentic and LLM-driven workflows
+  - Infrastructure backbone supporting generative AI applications in a fintech environment
+  skills:
+    genai: [LLMs, MCP, LiteLLM]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Langfuse, Datadog, Terraform, Infrastructure as Code, CI/CD, Docker, LLMOps,
+      Monitoring, Observability]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10261020'
+  extracted_at: '2026-07-22T13:38:01.537740'

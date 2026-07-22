@@ -1,0 +1,54 @@
+company:
+  name: CrowdStrike
+  stage: Public
+  focus: AI-native cybersecurity platform and threat detection
+position:
+  title: AI Platform Engineer (Remote)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and scaling infrastructure for
+      AI agents, implementing AI gateways, securing agent
+      identities, and deploying agentic workflows in production
+      cloud environments. The engineer works directly on AI agent
+      platforms — scaling, securing, and deploying them — which
+      goes beyond supporting others' AI work.
+  responsibilities:
+  - Implement and scale critical cloud infrastructure (AWS, GCP) for advanced AI agents,
+    transitioning prototypes into production-grade solutions
+  - Implement AI Gateways and integrate identity providers like Okta to secure agent
+    identity and security posture
+  - Create and maintain agile environments for testing and prototyping new AI vendors,
+    models, components, and integrations
+  - Develop and execute rigorous evaluation criteria for emerging AI technologies
+    and vendor tools
+  - Collaborate cross-functionally with InfoSec, Identity, enterprise architects,
+    and AI developers to align prototypes with architectural standards
+  - Design and implement observability and telemetry solutions to trace agent workflows,
+    tool usage, latency, and LLM decision pathways
+  - Implement runtime AI guardrails and secure machine/non-human identities at scale
+  - Monitor the evolving AI landscape and adapt platform architecture to support future
+    AI capabilities
+  use_cases:
+  - Internal enterprise AI agents for run-the-business operations
+  - Agentic security including AI gateways and identity management
+  - Agent observability and telemetry for tracing LLM decision pathways and tool usage
+  - Runtime AI guardrails and protection against LLM-specific threat vectors
+  - Scalable AI infrastructure for transitioning prototypes to production in cloud
+    environments
+  skills:
+    genai: [Agentic Workflows, AI Agents, LLMs, Guardrails]
+    ml: []
+    web: [REST APIs, OAuth2, OIDC]
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, Terraform, CI/CD, Model Deployment, Monitoring, Observability]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Okta, Responsible AI, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9786842'
+  extracted_at: '2026-07-22T13:42:14.679657'

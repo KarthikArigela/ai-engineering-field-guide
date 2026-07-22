@@ -1,0 +1,50 @@
+company:
+  name: DraftKings
+  stage: Public
+  focus: Online sports betting and gaming
+position:
+  title: Staff Security Engineer, AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a security engineering role focused on ensuring AI
+      tools and platforms are deployed safely, not on building or
+      training AI models themselves. The work involves setting
+      security standards, reviewing architectures, and scaling
+      security review processes for AI systems — enabling AI work
+      done by others rather than directly building AI/ML systems.
+  responsibilities:
+  - Set security standards and guardrails for the AI platform, defining principles,
+    reference architectures, and policy-as-code
+  - Review and build the architecture of AI gateways and tooling, providing security
+    review and sign-off
+  - Streamline the security review process for AI services moving to production to
+    scale without becoming a bottleneck
+  - Partner with platform and detection teams on telemetry and lightweight controls
+    like standardized system prompts to reduce AI-driven security noise
+  - Drive remediation efforts of complex, cross-functional security issues and assist
+    in investigations
+  - Mentor security and platform engineers and lead technical discussions on AI security
+  use_cases:
+  - Securing AI agent platforms and workflows in a regulated gaming environment
+  - AI gateway architecture security review and sign-off
+  - Scalable InfoSec review processes for AI services going to production
+  - Telemetry and auditing for AI tool-call metrics and agent behavior
+  - Security policy-as-code for consistent guardrails across AI tooling
+  skills:
+    genai: [AI Agents, Agentic Workflows]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Policy-as-Code, Kubernetes, Docker, DevSecOps]
+    languages: [Python]
+    domains: []
+    other: [Cloud Security, Infrastructure Security, Identity and Access Management,
+      AI Security, Microservices, System Design, Networking Security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10201880'
+  extracted_at: '2026-07-22T13:34:09.863241'

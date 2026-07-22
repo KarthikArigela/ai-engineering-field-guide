@@ -1,0 +1,49 @@
+company:
+  name: Kestra
+  stage: Series A
+  focus: Open-source workflow orchestration and automation platform
+position:
+  title: Senior Backend Engineer, AI Orchestration
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves designing and building execution
+      primitives for AI workflows, building plugins connecting to
+      LLM providers and agent frameworks, and ensuring AI agent
+      executions are observable and debuggable. The engineer works
+      directly on orchestrating how agent steps run, retry, and
+      branch—constituting hands-on work building and deploying
+      agentic systems at the platform level.
+  responsibilities:
+  - Design and build execution primitives for AI workflows in the Kestra orchestration
+    engine
+  - Build and maintain plugins connecting Kestra to LLM providers and agent frameworks
+  - Translate real agent use cases into reusable blueprints collaborating with the
+    product team
+  - Ensure AI executions remain observable and debuggable to the same standard as
+    the rest of the platform
+  - Work within the Java-based Kestra core to ensure reliability and correctness of
+    AI workflow orchestration
+  use_cases:
+  - Orchestrating AI agent workflows with reliable execution, retries, branching,
+    and state management
+  - Connecting orchestration engine to LLM providers and agent frameworks via plugins
+  - Running LLM-driven workflows with observability and debuggability inside a production
+    orchestrator
+  - Reusable agent workflow blueprints for real-world automation scenarios
+  skills:
+    genai: [LangChain4j, LangChain, LLMs, AI Agents, Agentic Workflows]
+    ml: []
+    web: [Micronaut, Vue.js]
+    databases: [Elasticsearch, PostgreSQL, MySQL]
+    data: [Kafka]
+    cloud: [GCP, AWS, Azure]
+    ops: [Docker, Kubernetes, Terraform, GitHub Actions, Observability]
+    languages: [Java, Python, TypeScript]
+    domains: []
+    other: [Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9960570'
+  extracted_at: '2026-07-22T13:44:54.859547'

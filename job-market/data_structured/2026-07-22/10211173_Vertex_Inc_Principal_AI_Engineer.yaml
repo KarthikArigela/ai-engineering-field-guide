@@ -1,0 +1,56 @@
+company:
+  name: Vertex, Inc.
+  stage: Public
+  focus: Enterprise tax technology and software
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for building the
+      enterprise's central AI orchestration and retrieval system —
+      designing and implementing LLM orchestration layers, MCP
+      servers, multi-agent patterns, and RAG systems. The engineer
+      builds and operates these AI systems hands-on, making this
+      clearly ai-first.
+  responsibilities:
+  - Design orchestration and abstraction layers connecting LLMs to tools, data, and
+    sub-agents
+  - Build and operate MCP servers and set standards for tool definition, exposure,
+    and versioning
+  - Define tool-surface strategy including optimal tool count per LLM and APIs per
+    MCP server
+  - Design multi-agent patterns and decide when to use specialized sub-agents versus
+    direct tool exposure
+  - Design RAG systems including chunking, embeddings, vector stores, hybrid search,
+    re-ranking, and context assembly
+  - Build routing, context-window management, and memory strategies for agentic workflows
+  - Define evaluation and observability for orchestration and retrieval quality
+  - Establish safety, guardrails, authentication, and access control across tools
+    and agents
+  - Mentor engineers and raise orchestration and retrieval maturity across teams
+  use_cases:
+  - Enterprise AI orchestration connecting LLMs to tools, data, and sub-agents
+  - Tool exposure and versioning via MCP servers for platform-wide use
+  - Retrieval-augmented generation for grounding LLM outputs in enterprise data
+  - Multi-agent orchestration for complex task decomposition and execution
+  - Central AI platform abstraction enabling product teams to integrate capabilities
+  - Evaluation and observability of agentic and retrieval system quality
+  skills:
+    genai: [LLMs, MCP, LangGraph, LlamaIndex, Semantic Kernel, RAG, AI Agents, Agentic
+        Workflows, Multi-Agent Systems, Function Calling, Embeddings, Prompt Engineering,
+      Context Engineering, Guardrails, LLM Evaluation, Semantic Search]
+    ml: []
+    web: [APIs, Microservices]
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: []
+    ops: [Observability, Monitoring]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10211173'
+  extracted_at: '2026-07-22T13:34:58.095729'

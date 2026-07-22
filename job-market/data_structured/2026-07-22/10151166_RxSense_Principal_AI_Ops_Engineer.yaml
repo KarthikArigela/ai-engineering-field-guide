@@ -1,0 +1,65 @@
+company:
+  name: RxSense
+  stage: null
+  focus: SaaS healthcare technology for pharmacy benefits management
+position:
+  title: Principal AI Ops Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role involves building and operating hands-on
+      infrastructure for AI-powered systems including agent
+      runtime, self-hosted model serving (vLLM, TGI, SGLang), LLM
+      eval frameworks integrated into CI/CD, model routing, prompt
+      management, and deployment pipelines for production agents
+      and LLM-powered services. While it's an
+      infrastructure/platform role, the work directly involves
+      deploying, serving, and operating AI/LLM systems at a deep
+      technical level — not just enabling others with general
+      infrastructure.
+  responsibilities:
+  - Build and maintain end-to-end deployment pipelines for AI-powered applications
+    including artifact builds, environment promotion, rollback, and observability
+    hooks
+  - Stand up and operate runtime and lifecycle infrastructure for production agents
+    including deployment, versioning, monitoring, rate-limiting, and retirement with
+    defined operational SLOs
+  - Own provisioning, rotation, scoping, and metering of model provider API access
+    (Anthropic, OpenAI) with per-team and per-app quotas and spend visibility
+  - Integrate eval frameworks into CI/CD pipelines so no agent or LLM-powered service
+    ships without passing a defined eval bar
+  - Stand up self-hosted inference infrastructure including serving stack, GPU autoscaling,
+    and cost economics for latency-sensitive and regulated workloads
+  - Design and build the shared developer harness for AI services including prompt
+    management, model routing, retries, tracing, eval hooks, and policy enforcement
+  - Partner with finance on cost visibility including token accounting, per-feature
+    cost attribution, and real-time spend observability
+  - Write documentation, runbooks, and clear interfaces to make the platform adoptable
+    across engineering teams
+  use_cases:
+  - AI/LLM deployment and serving infrastructure for healthcare pharmacy benefits
+    platform
+  - Production agent runtime management and lifecycle operations
+  - Cost optimization and spend attribution for AI/ML workloads across teams
+  - Self-hosted model inference for latency-sensitive, regulated, and cost-optimized
+    workloads
+  - Automated evaluation gating for LLM-powered services and agents in CI/CD pipelines
+  - Centralized developer platform for prompt management, model routing, and observability
+  skills:
+    genai: [Anthropic API, OpenAI API, Prompt Engineering, LangGraph, LLMs, LLM Evaluation,
+      AI Agents, Agentic Workflows, Claude Code]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, IAM, EKS, ECS]
+    ops: [vLLM, TGI, SGLang, Kubernetes, Docker, CI/CD, LangSmith, LLMOps, Model Deployment,
+      Monitoring, Observability, MLOps, Git]
+    languages: [Python, TypeScript, .NET]
+    domains: []
+    other: [FinOps, Agile, Code Review, System Design, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10151166'
+  extracted_at: '2026-07-22T13:31:44.065598'

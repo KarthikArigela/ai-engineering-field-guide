@@ -1,0 +1,51 @@
+company:
+  name: American Express
+  stage: Public
+  focus: Financial services and payment cards
+position:
+  title: Sr AI Engineer II
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly responsible for designing, building,
+      and shipping agentic AI systems and LLM-powered features in
+      production. The engineer works hands-on with agent
+      orchestration, RAG pipelines, tool use, and LLM integration
+      — all core AI-building activities. This is not
+      infrastructure or platform support for other AI teams; it is
+      primary AI system development.
+  responsibilities:
+  - Design, build, and ship LLM-powered and agentic product features that change how
+    customers manage their finances
+  - Build agentic AI systems that reason over context, invoke tools, take real actions,
+    and recover gracefully from failure
+  - Architect and implement production-grade RAG pipelines over sensitive financial
+    data with strict requirements for correctness, auditability, and safety
+  - Contribute to shared AI infrastructure including LLM services, agent orchestration
+    frameworks, and evaluation and monitoring tooling
+  - Own systems in production including reliability, latency, cost, and failure modes
+  - Work closely with product and design partners to deliver customer-outcome-driven
+    AI capabilities
+  use_cases:
+  - Customer-facing LLM-powered financial management features
+  - Autonomous agentic workflows that automate financial operations
+  - Decision support systems for commercial customers and card members
+  - Internal AI capabilities enabling other engineers to build with AI safely
+  - RAG pipelines over sensitive financial data for auditable retrieval
+  skills:
+    genai: [LLMs, Agentic Workflows, RAG, AI Agents, Function Calling, LLM Evaluation,
+      Generative AI]
+    ml: []
+    web: [REST APIs, gRPC, Microservices]
+    databases: [Vector Databases]
+    data: [Kafka]
+    cloud: [AWS, GCP]
+    ops: [Kubernetes, Distributed Systems, Model Deployment, Monitoring]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture, HIPAA Compliance, System Design]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10280280'
+  extracted_at: '2026-07-22T13:39:00.815705'

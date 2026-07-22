@@ -1,0 +1,54 @@
+company:
+  name: Brown & Brown
+  stage: Public
+  focus: Insurance brokerage and financial services
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role is directly hands-on with building, deploying, and
+      implementing GenAI applications including RAG patterns, LLM-
+      based workflows, agents, and chatbots on GCP. The engineer
+      moves AI solutions from prototype to production, working
+      directly with LLMs from OpenAI and Anthropic.
+  responsibilities:
+  - Design, build, and deploy AI-powered applications including chatbots, copilots,
+    document intelligence, and decision-support tools for insurance use cases
+  - Implement Retrieval-Augmented Generation (RAG) patterns using structured and unstructured
+    insurance data such as policies, submissions, bordereaux, and claims documents
+  - Build LLM-based workflows and agents using platforms such as OpenAI and Anthropic
+    Claude
+  - Develop and deploy AI solutions on Google Cloud Platform leveraging Vertex AI,
+    BigQuery, Cloud Run, and secure API integrations
+  - Work with Data Engineers and Analysts to prepare, embed, and manage data for AI
+    use cases including vector databases and embeddings
+  - Implement CI/CD, monitoring, logging, and model performance tracking for AI solutions
+  - Ensure AI solutions align with Responsible AI, GDPR, and insurance regulatory
+    expectations with controls for data privacy, prompt safety, and hallucination
+    mitigation
+  - Collaborate with Product Owners, Underwriters, Brokers, Operations, and Technology
+    teams to translate business problems into AI solutions
+  use_cases:
+  - Chatbots and copilots for insurance operations
+  - Document intelligence and processing for policies, claims, and bordereaux
+  - Decision-support tools for underwriting, claims, and broking workflows
+  - Retrieval-Augmented Generation over structured and unstructured insurance data
+  - Automated insurance workflow and agent-driven processes
+  skills:
+    genai: [OpenAI API, Anthropic API, LLMs, RAG, Prompt Engineering, AI Agents, Agentic
+        Workflows, LangChain, Embeddings, Semantic Search, Generative AI]
+    ml: []
+    web: [Microservices, APIs]
+    databases: [BigQuery, Vector Databases]
+    data: []
+    cloud: [GCP, Vertex AI, IAM, Cloud Run]
+    ops: [Docker, CI/CD, Monitoring, Model Monitoring, MLOps]
+    languages: [Python, SQL]
+    domains: []
+    other: [Responsible AI, GDPR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10177168'
+  extracted_at: '2026-07-22T13:33:01.873721'

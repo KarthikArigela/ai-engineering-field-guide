@@ -1,0 +1,63 @@
+company:
+  name: Northrop Grumman
+  stage: Public
+  focus: Aerospace and defense technology systems
+position:
+  title: AI Systems Engineer (Principal or Sr. Principal Level)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      This role involves developing, training, and validating
+      traditional ML/DL models (supervised, unsupervised,
+      reinforcement learning, Bayesian) for defense simulation
+      environments. The focus is on classical ML techniques, GPU
+      acceleration, MLOps pipelines, and representation learning —
+      not LLMs or GenAI agents. The core work is building and
+      deploying ML models for pattern detection, anomaly
+      identification, predictive insight, and data compression in
+      mission-level simulations.
+  responsibilities:
+  - Model operational environments and conduct trade-studies via computer simulation
+  - Perform operational and effectiveness analysis to quantify capability gaps
+  - Develop, train, and validate AI/ML models (supervised, unsupervised, reinforcement-learning,
+    Bayesian) for pattern detection, anomaly identification, and predictive insight
+  - Apply data compression techniques (autoencoders, sparse coding, learned codecs)
+    to reduce bandwidth/storage while preserving decision-critical information
+  - Design and implement MLOps pipelines integrating training, validation, versioning,
+    and deployment into simulation toolchains
+  - Leverage high-performance computing and GPU acceleration to scale model training
+    and inference for massive datasets
+  - Provide blue/red tactics and CONOPS modeling, simulation, and analysis in mission-level
+    models
+  - Synthesize stakeholder input, visualize results, and communicate findings to leadership
+  use_cases:
+  - Pattern detection and anomaly identification in large-scale military/defense data
+    streams
+  - Real-time decision-support scoring for complex multi-domain simulation environments
+  - Data compression for telemetry and sensor streams to reduce bandwidth and storage
+  - Automation of time-intensive data workflows including feature extraction, data
+    fusion, and report generation
+  - Blue/red kill-chain analysis and mission-level modeling across multiple security
+    environments and platforms
+  - Predictive analytics for threat assessment and survivability/lethality/vulnerability
+    analysis
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, scikit-learn, XGBoost, Reinforcement Learning, Neural
+        Networks, CUDA, Fine-Tuning, Model Training, Model Evaluation, Feature Engineering,
+      Anomaly Detection, Deep Learning, Quantization, SHAP, LIME, OpenCL, cuDNN, ROCm,
+      Autoencoders]
+    web: []
+    databases: []
+    data: [Spark, Data Pipelines, Pandas, NumPy, Dask, Data Modeling]
+    cloud: []
+    ops: [MLflow, Kubeflow, DVC, CI/CD, Airflow, MLOps, Model Deployment, Model Monitoring,
+      Docker, Kubernetes, Git]
+    languages: [Python, MATLAB, C++, C#, Java, Bash, PowerShell]
+    domains: []
+    other: [MPI, Explainable AI, Agile, MBSE, AFSIM, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9962337'
+  extracted_at: '2026-07-22T13:44:10.934686'
