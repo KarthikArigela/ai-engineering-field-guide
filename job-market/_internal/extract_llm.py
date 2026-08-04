@@ -175,7 +175,23 @@ class StructuredJob(BaseModel):
     meta: dict = Field(default_factory=dict)
 
 
-def to_structured(job_id: str, title: str, company_name: str, extraction: JobExtraction, extracted_at: str) -> StructuredJob:
+def location_meta(raw_job: dict) -> dict:
+    """Carry the scraped location fields through to the structured output.
+
+    The LLM never sees these - they come straight from the job page's JSON-LD.
+    `locations` is only present for multi-location postings.
+    """
+    meta = {}
+    if raw_job.get('location'):
+        meta['location'] = raw_job['location']
+    if raw_job.get('locations'):
+        meta['locations'] = raw_job['locations']
+    if raw_job.get('remote'):
+        meta['remote'] = True
+    return meta
+
+
+def to_structured(job_id: str, title: str, company_name: str, extraction: JobExtraction, extracted_at: str, location: dict = None) -> StructuredJob:
     """Transform flat LLM output into structured final object."""
 
     skills_by_cat = {cat: [] for cat in ['genai', 'ml', 'web', 'databases', 'data', 'cloud', 'ops', 'languages', 'domains', 'other']}
@@ -203,7 +219,7 @@ def to_structured(job_id: str, title: str, company_name: str, extraction: JobExt
             is_customer_facing=extraction.is_customer_facing,
             is_management=extraction.is_management
         ),
-        meta={'job_id': job_id, 'extracted_at': extracted_at}
+        meta={'job_id': job_id, **(location or {}), 'extracted_at': extracted_at}
     )
 
 
@@ -432,7 +448,8 @@ def extract_job(
         title=title,
         company_name=company,
         extraction=extraction,
-        extracted_at=datetime.now().isoformat()
+        extracted_at=datetime.now().isoformat(),
+        location=location_meta(job)
     )
 
     output_path = dated_output_path(OUTPUT_DIR, scraped_date, yaml_file.name)

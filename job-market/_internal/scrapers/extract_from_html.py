@@ -265,6 +265,37 @@ def html_to_markdown(html_content, wrap_width=60):
     return text
 
 
+def format_place(place):
+    """Format a schema.org Place as 'City, CCC'."""
+    if not isinstance(place, dict):
+        return ''
+    addr = place.get('address', {})
+    if not isinstance(addr, dict):
+        return ''
+    city = (addr.get('addressLocality') or '').strip()
+    country = (addr.get('addressCountry') or '').strip()
+    if city and country:
+        return f"{city}, {country}"
+    return city or country
+
+
+def parse_job_locations(json_ld):
+    """Return the job's locations, de-duplicated and in source order.
+
+    Built In emits jobLocation as a single Place for one-location jobs and as a
+    list when a job is posted in several places.
+    """
+    job_loc = json_ld.get('jobLocation')
+    places = job_loc if isinstance(job_loc, list) else [job_loc]
+
+    locations = []
+    for place in places:
+        formatted = format_place(place)
+        if formatted and formatted not in locations:
+            locations.append(formatted)
+    return locations
+
+
 def extract_job_data(html_file):
     """Extract all job data from raw HTML file."""
     with open(html_file, 'r', encoding='utf-8') as f:
@@ -277,6 +308,8 @@ def extract_job_data(html_file):
         'title': '',
         'company': '',
         'location': '',
+        'locations': [],
+        'remote': False,
         'work_type': '',
         'level': '',
         'skills': [],
@@ -300,17 +333,10 @@ def extract_job_data(html_file):
         org = json_ld.get('hiringOrganization', {})
         job['company'] = org.get('name', '')
 
-        job_loc = json_ld.get('jobLocation', {})
-        if isinstance(job_loc, dict):
-            addr = job_loc.get('address', {})
-            city = addr.get('addressLocality', '')
-            country = addr.get('addressCountry', '')
-            if city and country:
-                job['location'] = f"{city}, {country}"
-            elif city:
-                job['location'] = city
-            elif country:
-                job['location'] = country
+        locations = parse_job_locations(json_ld)
+        job['location'] = locations[0] if locations else ''
+        job['locations'] = locations
+        job['remote'] = json_ld.get('jobLocationType') == 'TELECOMMUTE'
 
         job['work_type'] = json_ld.get('employmentType', '')
         job['benefits'] = json_ld.get('jobBenefits', '')
@@ -380,26 +406,34 @@ def sanitize_filename(name):
     return name.strip('_')
 
 
+def yaml_quote(s):
+    """Quote a YAML value if it contains special characters."""
+    if not s:
+        return ''
+    s = sanitize_yaml_text(s)
+    if any(c in s for c in [':', '[', ']', '{', '}', '|', '>', '#', '&']):
+        # Use double quotes and escape internal quotes/backslashes
+        quoted = s.replace('\\', '\\\\').replace('"', '\\"')
+        return f'"{quoted}"'
+    return s
+
+
 def write_yaml_file(job, yaml_file):
     """Write job data to YAML file, skipping empty fields."""
-    # Helper to safely quote YAML values (handles colons, special chars)
-    def yaml_quote(s):
-        if not s:
-            return ''
-        s = sanitize_yaml_text(s)
-        # Quote if contains special YAML characters
-        if any(c in s for c in [':', '[', ']', '{', '}', '|', '>', '#', '&']):
-            # Use double quotes and escape internal quotes/backslashes
-            quoted = s.replace('\\', '\\\\').replace('"', '\\"')
-            return f'"{quoted}"'
-        return s
-
     with open(yaml_file, 'w', encoding='utf-8') as f:
         f.write(f"job_id: {job['job_id']}\n")
         f.write(f"title: {yaml_quote(job['title'])}\n")
         f.write(f"company: {yaml_quote(job['company'])}\n")
         location = yaml_quote(job['location'])
         f.write(f"location: {location}\n" if location else "location:\n")
+        # Only emitted for multi-location postings; single-location jobs are
+        # fully described by `location` above.
+        if len(job.get('locations') or []) > 1:
+            f.write("locations:\n")
+            for loc in job['locations']:
+                f.write(f"  - {yaml_quote(loc)}\n")
+        if job.get('remote'):
+            f.write("remote: true\n")
         if job['work_type']:
             f.write(f"work_type: {yaml_quote(job['work_type'])}\n")
         if job['level']:

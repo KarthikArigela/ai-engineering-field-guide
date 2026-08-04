@@ -51,6 +51,7 @@ job-market/
 │   │       ├── all_jobs.csv             # Raw combined listings for one scrape
 │   │       └── all_jobs_dedup.csv       # Deduplicated new jobs for one scrape
 │   ├── extract_llm.py                   # Step 5: LLM enrichment
+│   ├── backfill_location.py             # Repatch location fields from stored HTML
 │   └── jobs/
 │       ├── builtin/                     # Per-site JSON files
 │       └── raw/{YYYY-MM-DD}/            # Downloaded HTML pages grouped by scrape date
@@ -119,8 +120,39 @@ python extract_llm.py --all --csv data/scrapes/{YYYY-MM-DD}/all_jobs_dedup.csv
 - Sends each job description to Z.ai (GLM-4.7)
 - Classifies AI type (ai-first, ml-first, ai-support)
 - Extracts skills by category, responsibilities, use cases
+- Carries the scraped location fields through to `meta` unchanged
 - Skips already-processed files
 - Output: `data_structured/{YYYY-MM-DD}/{job_id}_{company}_{title}.yaml`
+
+## Location
+
+Locations come from the job page's JSON-LD (`jobLocation`, `jobLocationType`), never from the LLM. Three fields carry through the whole pipeline:
+
+- `location` - primary location as `City, CCC`, or just `CCC` when Built In gives no city
+- `locations` - every listed location, primary first; only written for multi-location postings
+- `remote` - `true` when the posting is flagged `TELECOMMUTE`; omitted otherwise
+
+Country codes are ISO-3166 alpha-3, plus Built In's own `EUR` pseudo-code for unspecified Europe.
+
+In `data_raw` these sit at the top level. In `data_structured` they sit under `meta`, alongside `job_id`. Read them in analysis code through the helpers in `analysis/common.py`:
+
+- `job_locations(job)` - all locations, primary first
+- `primary_location(job)` - the first listed location
+- `job_countries(job)` - distinct country codes, primary first
+- `split_location(loc)` - `'Bengaluru, IND'` into `('Bengaluru', 'IND')`
+- `country_name(code)` - readable country name
+- `is_remote(job)` - remote flag
+
+### Backfilling location
+
+```bash
+python backfill_location.py --dry-run
+python backfill_location.py
+```
+
+Re-reads the stored HTML in `jobs/raw/` and patches only the location lines in `data_raw` and `data_structured`, leaving descriptions and every other field byte-identical. Safe to re-run; it is idempotent.
+
+Use it after fixing a location parsing bug, or to fill in months scraped before those fields existed. Jobs whose HTML is no longer on disk keep whatever `data_raw` already holds - re-download their pages first with `download_all_html.py` if you need them re-parsed.
 
 ## Deduplication Strategy
 
