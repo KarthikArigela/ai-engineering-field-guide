@@ -4,7 +4,7 @@ I hosted this webinar for AI Shipping Labs on June 29, 2026.
 
 - [My LinkedIn profile](https://www.linkedin.com/in/agrigorev/)
 - [Workshop at AI Shipping Labs](https://aishippinglabs.com/workshops/selecting-a-portfolio-project)
-- [Write-up based on the webinar: Choosing a Portfolio Project. The Definite Guide](https://alexeyondata.substack.com/p/choosing-a-portfolio-project-the)
+- [Write-up based on the webinar: Choosing a Portfolio Project. The Definite Guide](https://aishippingblog.com/p/choosing-a-portfolio-project-the)
 
 ## Description
 

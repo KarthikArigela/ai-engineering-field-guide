@@ -2,7 +2,7 @@
 
 Forward Deployed Engineer (FDE) is one of the fastest-growing titles in our AI engineering job data. We found 28 live FDE listings in February 2026 and 118 in July, a 4.2x increase in less than six months.
 
-We're writing a longer article about this FDE trend for Substack. [Subscribe on Substack](https://alexeyondata.substack.com/) if you want to read it when it comes out.
+We're writing a longer article about this FDE trend for Substack. [Subscribe on Substack](https://aishippingblog.com/) if you want to read it when it comes out.
 
 The rest of the AI engineering market grew too, but much more slowly. Our full scrape grew 2.3x over the same period. FDE roles also increased from 2.0% to 3.6% of all listings.
 
