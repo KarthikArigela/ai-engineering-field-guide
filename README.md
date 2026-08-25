@@ -15,6 +15,7 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 - [Use cases](role/04-use-cases.md) - 4,525 real use cases showing what companies build with AI
 - [Reality vs. job postings](role/05-reality-vs-postings.md) - what candidates experience vs. what's advertised
 - [Forward Deployed Engineers](role/06-fde.md) - growth, responsibilities, and skills from 146 FDE job postings
+- [Job market trends](role/07-trends.md) - month-over-month analysis of role archetypes, skill stacks, and trajectories across 8 scrapes
 
 
 ## Interview Preparation
@@ -55,7 +56,6 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 
 - [Structured job descriptions](job-market/data_structured/) - YAML files grouped by scrape date
 - [Raw extracted postings](job-market/data_raw/) - original extracted data grouped by scrape date
-- [Job market trends](job-market/trends.md) - month-over-month analysis of role archetypes, skill stacks, and trajectories across 8 scrapes
 
 
 ## [Awesome AI Engineering](awesome.md)

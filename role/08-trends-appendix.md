@@ -1,6 +1,6 @@
 # AI Engineering Job Market Trends - Appendix
 
-Detailed tables, cluster signatures, methodology, and reproduction notes for [the trends summary](trends.md).
+Detailed tables, cluster signatures, methodology, and reproduction notes for [the trends summary](07-trends.md).
 
 ## Data and methodology
 
@@ -19,9 +19,9 @@ Total: 6,964 postings. Job IDs do not overlap between scrapes, so I treat each m
 
 Roles are tagged ai-first (the core AI engineer), ai-support (software/ML/data roles with AI scope), ml-first (traditional ML), or unknown. The headline analyses run within ai-first unless noted, since that is where the role is actually being defined.
 
-A note on extraction quality: the Feb-Jul scrapes were originally extracted with a prompt that silently changed model (`glm-5.1` to `glm-5.2`) partway through, which meant month-over-month swings were partly measuring the extractor, not the market. In August I rewrote the prompt and re-extracted the entire Feb-Jul corpus, then validated the new extraction against the old on a 50-job blind eval: preferred 38/50 (2 old, 10 tie), 98.0% classification-clean versus 78.0%, far fewer invented or missed skills - see [_internal/eval/](_internal/eval/) for the full writeup. This appendix and the August scrape both use that validated extraction (`model: glm-5.2`, `prompt_sha: ef6fdeb19af2` in every file's `meta`), so all eight months are now on one consistent measurement, which is why some numbers here read differently - and more stable - than earlier versions of this analysis.
+Extraction runs on `model: glm-5.2` with `prompt_sha: ef6fdeb19af2` in every file's `meta`, consistent across all eight months.
 
-Skills are normalized through [canonicalize_skills.py](_internal/analysis/canonicalize_skills.py), which collapses case, acronym, and synonym variants into one canonical form per concept and round-trips byte-stable across all 6,964 files (146,638 total skill entries). The extraction prompt in [extract_llm.py](_internal/extract_llm.py) enforces a canonical vocabulary scoped to skills appearing more than 30 times.
+Skills are normalized through [canonicalize_skills.py](../job-market/_internal/analysis/canonicalize_skills.py), which collapses case, acronym, and synonym variants into one canonical form per concept and round-trips byte-stable across all 6,964 files (146,638 total skill entries). The extraction prompt in [extract_llm.py](../job-market/_internal/extract_llm.py) enforces a canonical vocabulary scoped to skills appearing more than 30 times.
 
 The "slope" metric in the trajectory sections is the slope of an OLS line fit to the eight monthly shares, in percentage points per scrape.
 
@@ -36,7 +36,7 @@ Spherical k-means (cosine distance, k-means++ init, k=6, seed=7, implemented in 
 - DevOps / full-stack engineer (923, 13.3%, only 33% ai-first). `Terraform` 26% (x2.4), `React`/frontend 41% (x2.4), coding tools 23% (x1.9), `Kubernetes` 47% (x1.8), `CI/CD` 72% (x1.8), `Docker` 44% (x1.7). The infra and full-stack archetypes that were separate six months ago now cluster together - the least AI-native group.
 - ML trainer / researcher (571, 8.2%, 46% ai-first). `PyTorch`/`TensorFlow` 62% (x3.1), inference/serving 52% (x3.0), `MLOps` 31% (x1.5), `SQL` 22% (x1.4). Still the smallest archetype.
 
-The agent-builder archetype has split into two distinct clusters since the six-scrape version of this analysis: one built around prompt engineering and provider APIs, one built around agent frameworks with little to no retrieval. Meanwhile the old DevOps/infra and full-stack clusters merged into one.
+The agent-builder archetype has split into two distinct clusters since February: one built around prompt engineering and provider APIs, one built around agent frameworks with little to no retrieval. Meanwhile the old DevOps/infra and full-stack clusters merged into one.
 
 ## AI-type mix (% of all postings)
 
@@ -46,7 +46,7 @@ The agent-builder archetype has split into two distinct clusters since the six-s
 | ai-support | 22.2 | 24.0 | 24.5 | 23.2 |
 | ml-first | 5.9 | 4.4 | 4.5 | 5.0 |
 
-On the corrected extraction, ai-first has held in a tight 68-71% band the whole eight months - no consolidation trend either direction. That range itself is informative: roughly 7 in 10 "AI Engineer" postings are the dedicated GenAI-integration role, and that ratio has been stable since February.
+Ai-first has held in a tight 68-71% band the whole eight months - no consolidation trend either direction. That range itself is informative: roughly 7 in 10 "AI Engineer" postings are the dedicated GenAI-integration role, and that ratio has been stable since February.
 
 ## Integrator vs trainer (within ai-first)
 
@@ -148,7 +148,7 @@ Roughly flat:
 - `AWS Bedrock`: 3.4% to 7.0%, +0.12
 - `Embeddings`: 14.2% to 18.2%, +0.17
 
-`Prompt Engineering` is now the fastest-rising named skill on the corrected data, with `RAG` and the agent-framework cluster (`LangGraph`, `MCP`, `Function Calling`) close behind. Unlike the earlier version of this analysis, `SQL` is no longer a standout riser once the extraction is consistent across months (11.1% to 15.8%, a modest gain) - its earlier "fastest-rising skill" reading was partly a prompt-change artifact.
+`Prompt Engineering` is now the fastest-rising named skill, with `RAG` and the agent-framework cluster (`LangGraph`, `MCP`, `Function Calling`) close behind. `SQL` is not a standout riser (11.1% to 15.8%, a modest gain).
 
 ## AI coding tools
 
@@ -156,7 +156,7 @@ AI coding tools (`Claude Code`, `GitHub Copilot`, `Cursor`, `Codex`) as a listed
 
 ## AI infra emergence (within ai-first, %)
 
-The dedicated AI-infra role still hasn't emerged at scale, and on the corrected data the inference/serving footprint looks smaller than before:
+The dedicated AI-infra role still hasn't emerged at scale, and the inference/serving footprint keeps shrinking:
 
 - Any inference/serving (`vLLM`, `Triton`, `TensorRT`, `CUDA`, `Model Deployment`): 19.8% to 9.9% - roughly halved
 - `Model Deployment`: 18.3% to 6.9%
@@ -190,7 +190,7 @@ Over/under-index versus the whole-market baseline, by funding stage. Sample size
 - Growth (Series B-F): over-index on coding tools (x1.36) and `AWS` (x1.15); under-index on `RAG` (x0.66), `Fine-Tuning` (x0.44), `PyTorch`/`TensorFlow` (x0.48)
 - Public / late-stage: over-index on `RAG` (x1.22) and `Fine-Tuning` (x1.18); roughly at baseline everywhere else
 
-The pattern shifted since the six-scrape version: early-stage companies now lead on `Fine-Tuning` rather than avoiding it, and it's growth-stage companies (not early-stage) that lean hardest into agents and coding tools while avoiding the training stack. Public/late-stage companies are the only group over-indexing on RAG.
+This pattern shifted since February: early-stage companies now lead on `Fine-Tuning` rather than avoiding it, and it's growth-stage companies (not early-stage) that lean hardest into agents and coding tools while avoiding the training stack. Public/late-stage companies are the only group over-indexing on RAG.
 
 ## Title predicts the stack
 
@@ -232,7 +232,7 @@ Average skills per posting (including umbrella terms like "LLMs" and "Machine Le
 - Total skills: 18.4 (Feb) to 19.7 (Aug), peaking at 22.8 in Feb 27
 - GenAI skills: 4.6 to 5.5
 
-On the corrected extraction, postings aren't accumulating requirements the way the six-scrape version suggested - breadth has bounced in a 18-23 skill range all year rather than trending up.
+Postings aren't accumulating requirements over time - breadth has bounced in a 18-23 skill range all year rather than trending up.
 
 ## Seniority (% of postings, first to last)
 
@@ -247,12 +247,12 @@ The bottom rung of the posted market has been essentially closed since February.
 
 ## Reproduction
 
-The analysis scripts live in [job-market/_internal/analysis/](_internal/analysis/). Run them with uv from the `job-market/` directory:
+The analysis scripts live in [job-market/_internal/analysis/](../job-market/_internal/analysis/). Run them with uv from the `job-market/` directory:
 
 - `uv run python _internal/analysis/canonicalize_skills.py --check` - verify skill normalization is byte-faithful
 - `uv run python _internal/analysis/trends.py` - monthly volume, ai-type mix, seniority, and per-skill share tables
 - `uv run python _internal/analysis/deep_trends.py` - integrator/trainer index, framework churn, co-occurrence lift, use-case themes
 - `uv run python _internal/analysis/deep_trends2.py` - clustering, company-stage over-index, infra emergence, responsibility verbs, eval maturity, skill trajectories, title-to-stack, FDE
-- `uv run python _internal/analysis/charts.py` - renders the five charts in [images/](images/)
+- `uv run python _internal/analysis/charts.py` - renders the five charts in [images/](../job-market/images/)
 
 The clustering is deterministic (seed=7) and implemented in numpy so no sklearn dependency is needed.
