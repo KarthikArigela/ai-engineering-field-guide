@@ -1,54 +1,58 @@
 company:
   name: SimCorp
-  stage: Public
-  focus: Investment management software solutions (FinTech)
+  stage: null
+  focus: |-
+    Integrated investment management solutions for asset
+    managers
 position:
   title: Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      maintaining AI agent solutions including agent logic, prompt
-      engineering, RAG pipelines, and LLM API integrations. The
-      engineer owns agents end-to-end from implementation through
-      production monitoring, making this hands-on work with
-      LLM/agent systems.
+      The role directly shapes model behaviour: it implements
+      agent logic, prompt engineering, RAG pipelines, and LLM API
+      integrations, and designs testing and validation strategies
+      for agent behaviour. Since the shaped components are LLM
+      agents, the classification is ai-first.
   responsibilities:
-  - Build AI agent solutions from technical design through production deployment following
-    solution framework standards
+  - Build AI agent solutions from technical design through production deployment,
+    following the framework and standards defined by the Director, AI Solutions
   - Implement agent logic, prompt engineering, retrieval-augmented generation pipelines,
     and LLM API integrations
-  - Develop and execute testing strategies for agent behavior including edge case
+  - Develop and execute testing strategies for agent behaviour, including edge case
     handling, accuracy validation, and performance testing
-  - Own agents in production including monitoring, incident response, and iterative
-    improvement based on operational feedback
-  - Resolve bugs and address agent behavior issues identified through operator feedback
-    and usage tracking
-  - Participate in code reviews to maintain code quality and shared technical understanding
-  - Mentor AI Engineers on implementation practices, debugging approaches, and production
-    readiness
+  - Own agents end-to-end in production, including monitoring, incident response,
+    and iterative improvement based on operational feedback
+  - Resolve bugs and agent behaviour issues identified through operator feedback and
+    usage tracking
+  - Adapt agents when underlying data sources, operational processes, or platform
+    infrastructure change
+  - Mentor AI Engineers on implementation practices, debugging, and production readiness
   - Collaborate with Data Engineers to define data requirements and ensure agent data
     pipelines are reliable and performant
   use_cases:
-  - AI agents for financial services and investment management operations
-  - Retrieval-augmented generation for financial data and knowledge access
-  - Automated operational workflows and processes in FinTech environments
-  - Production AI agent ecosystem integrated into SimCorp's compliance and platform
-    frameworks
+  - AI agent solutions for financial services and investment management operations
+  - Retrieval-augmented generation pipelines over enterprise operational data sources
+  - Production monitoring, incident response, and iterative improvement of live AI
+    agents
+  - AI delivery integrated into a governed platform, infrastructure, and compliance
+    ecosystem
   skills:
-    domains: [NLP]
+    cloud: []
     languages: [Python]
     ml: []
-    cloud: []
-    genai: [LLMs, Prompt Engineering, RAG, AI Agents]
-    data: []
     other: []
-    ops: [Production AI/ML deployment]
-    web: []
+    ops: [Model Deployment, Monitoring]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [AI Agents, Prompt Engineering, RAG, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9658929'
   location: Noida, IND
-  extracted_at: '2026-06-25T19:47:41.221711'
+  extracted_at: '2026-08-16T13:55:45.904545'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

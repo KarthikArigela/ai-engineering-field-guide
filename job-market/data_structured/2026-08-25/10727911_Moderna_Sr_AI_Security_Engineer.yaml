@@ -1,0 +1,62 @@
+company:
+  name: Moderna
+  stage: null
+  focus: mRNA technology platform and biopharmaceutical medicines
+position:
+  title: Sr. AI Security Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a security governance and risk-assessment role: the
+      person defines AI security strategy, performs risk
+      assessments, and recommends remediation, but does not build
+      evals, guardrail implementations, prompts, retrieval, or
+      model behaviour themselves. Per the rule that
+      safety/governance oversight of models is ai-support unless
+      the person builds the evals or guardrails directly, this
+      role is ai-support.
+  responsibilities:
+  - Operationalize the enterprise AI security strategy, including target-state architecture,
+    design principles, governance guardrails, and scalable security patterns for safe
+    AI adoption
+  - Develop security standards and architectural guidance for AI systems covering
+    model usage, agentic workflows, integration patterns, data access, identity boundaries,
+    and operational controls
+  - Lead risk assessments and security reviews of AI applications, AI-enabled products,
+    and agentic solutions, covering data exposure, excessive privilege, insecure integrations,
+    unsafe outputs, prompt abuse, and runtime behavior
+  - Execute baseline security reviews across traditional technology domains including
+    code, cloud, networking, APIs, identity, and application architecture
+  - Identify systemic control gaps and recommend pragmatic remediation strategies
+    while influencing roadmaps across AI and non-AI environments
+  - Provide technical leadership and executive-ready guidance on AI risk, architectural
+    tradeoffs, and enterprise security priorities
+  use_cases:
+  - Enterprise AI security strategy and governance for safe AI adoption
+  - Risk assessment of AI applications and agentic workflows
+  - Security review of model-integrated services and their data and access patterns
+  - Baseline security reviews across cloud, network, code, API, and identity domains
+  - Remediation guidance for control gaps across AI and non-AI environments
+  skills:
+    genai: [Agentic Workflows]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: []
+    domains: []
+    other: [Cybersecurity, Network Security, Application Security, Risk Assessment,
+      AI Security, Cloud Security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10727911'
+  location: Warsaw, POL
+  locations:
+  - Warsaw, POL
+  - Jharsuguda, IND
+  extracted_at: '2026-08-25T11:29:55.373514'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

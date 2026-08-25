@@ -1,54 +1,58 @@
 company:
   name: Forum Ventures
-  stage: Venture-backed (Forum Ventures)
-  focus: AI-native hybrid law firm for startups
+  stage: venture-backed
+  focus: AI-powered hybrid law firm for startups
 position:
   title: Founding Engineer at Venture-Backed, AI-Native Law Firm
   ai_type:
     type: ai-first
     reasoning: |-
-      The Founding Engineer is responsible for building, fine-
-      tuning, deploying, and evaluating LLMs for contract
-      analysis, summarization, redlining, and risk scoring. The
-      role involves hands-on work with RAG systems, embeddings,
-      and model evaluation - directly working ON AI systems rather
-      than just supporting them.
+      The role owns evaluation, fine-tuning, and deployment of
+      LLMs for contract analysis, summarization, redlining, and
+      risk scoring, and builds a context-aware AI using RAG and
+      embeddings - directly shaping model behavior and output
+      quality. Since LLMs are the core model being shaped, this is
+      ai-first.
   responsibilities:
-  - Architect the end-to-end technology stack including LLM infrastructure, workflow
-    engine, database design, and API integrations
-  - Own evaluation, fine-tuning, and deployment of LLMs for contract analysis, summarization,
-    redlining, and risk scoring
-  - Build core AI features including contract review, context-aware AI, smart drafting,
-    and workflow automation
+  - Architect the end-to-end technology stack for the Shepherd platform, including
+    LLM infrastructure, workflow engine, database design, and API integrations (Slack,
+    DocuSign)
+  - Own the evaluation, fine-tuning, and deployment of LLMs for contract analysis,
+    summarization, redlining, and risk scoring
+  - Build core product features including AI contract review and redlines, context-aware
+    AI, smart drafting, document automation, and workflow automation
   - Design human-in-the-loop systems that blend AI speed with attorney validation
-  - Set up secure infrastructure meeting SOC-2 and privacy standards with proper access
-    controls and audit trails
-  - Hire and lead a world-class engineering team including frontend, backend, and
-    ML/AI engineers
+  - Translate ambiguous legal workflows into clean, reliable, repeatable technical
+    systems
   - Work directly with early customers to validate and iterate on features in real
     time
+  - Set up secure, compliant infrastructure meeting SOC-2 and privacy standards, including
+    access controls, role-based permissions, and audit trails
+  - Hire and lead a world-class engineering team (frontend, backend, ML/AI) as the
+    company scales
   use_cases:
-  - AI-powered contract review and automated redlining
-  - Legal document summarization and risk scoring
-  - Context-aware AI that learns client business preferences and risk appetite
-  - Smart drafting and document automation for legal workflows
-  - Workflow automation for intake, tasking, and approvals with attorney validation
-  - Legal hub for managing requests, documents, alerts, and lawyer interactions
+  - AI contract review and redlining for startup legal services
+  - Contract summarization and risk scoring
+  - Context-aware AI that learns each client's business, risk appetite, and deal preferences
+  - Smart legal drafting and document automation
+  - Workflow automation for legal intake, tasking, and approvals
+  - Legal hub for requests, documents, alerts, and lawyer interaction
   skills:
-    domains: []
-    languages: [Python, TypeScript]
+    cloud: []
+    languages: []
     ml: []
-    cloud: [SOC-2 compliance]
-    genai: [Fine-Tuning, RAG, Embeddings, LLM Evaluation, LLM deployment, human-in-the-loop
-        systems]
+    other: [Workflow Automation, SOC 2, RBAC, Slack, DocuSign]
+    ops: []
+    databases: [Database Design]
+    domains: []
+    web: [APIs, Full-Stack Development]
     data: []
-    other: [technical leadership, hiring and team building]
-    ops: [Docker, Kubernetes, CI/CD, security and access controls, audit trails]
-    web: [REST APIs, Slack API, Docusign API, Full-Stack Development]
-    databases: [PostgreSQL, MongoDB, Redis]
+    genai: [LLMs, Fine-Tuning, RAG, Embeddings, LLM Evaluation, Human-in-the-Loop]
   is_customer_facing: true
   is_management: true
 meta:
   job_id: '7847025'
   location: USA
-  extracted_at: '2026-02-05T11:35:33.570397'
+  extracted_at: '2026-08-15T22:14:33.403397'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

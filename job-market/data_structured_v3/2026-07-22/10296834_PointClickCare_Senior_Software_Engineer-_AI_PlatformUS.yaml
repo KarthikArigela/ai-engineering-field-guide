@@ -1,0 +1,58 @@
+company:
+  name: PointClickCare
+  stage: Founder-led and privately held
+  focus: Healthcare technology for long-term and post-acute care
+position:
+  title: Senior Software Engineer- AI Platform(US)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains AI platform infrastructure —
+      Kubernetes, container security, vector databases, prompt
+      versioning stores, and hosting LLM inference via vLLM/SGLang
+      — which is serving/capacity work, not shaping model
+      behaviour. The only hands-on AI usage is Generative AI code
+      assistants like GitHub Copilot, which is tooling for
+      engineering work, not model shaping. Per the serving/hosting
+      and AI-coding-assistant edge cases, this is ai-support.
+  responsibilities:
+  - Identify, prioritize and execute tasks across the software development life cycle
+  - Develop tools and applications by producing clean, efficient code
+  - Automate tasks through appropriate tools and scripting
+  - Analyze and debug systems and perform validation and verification testing in a
+    test-driven manner
+  - Build and maintain AI platform infrastructure including Kubernetes and container
+    security
+  - Implement observability and real-time performance monitoring frameworks
+  - Collaborate with internal teams and vendors to fix and improve products
+  - Review the work of others and work with the business to iterate on requirements
+  use_cases:
+  - AI platform infrastructure supporting healthcare SaaS applications
+  - Hosting and serving LLM inference workloads
+  - Vector database and prompt versioning infrastructure for AI applications
+  - Developer productivity through generative AI code assistants
+  skills:
+    genai: [GitHub Copilot, Generative AI, LLMs]
+    ml: []
+    web: [Spring Boot, REST APIs, OAuth, SAML, OpenID Connect, Selenium, Cypress,
+      Jest, Playwright]
+    databases: [Relational Databases, SQL Server, PostgreSQL, Vector Databases]
+    data: [Azure Event Hubs, Azure Service Bus, AWS Kinesis, Google Pub/Sub, Kafka,
+      Redpanda, WarpStream, RabbitMQ]
+    cloud: [Azure]
+    ops: [Kubernetes, Docker, Istio, CI/CD, GitHub Actions, Jenkins, Git, Grafana,
+      Datadog, Azure Log Analytics, OpenTelemetry, Observability, Monitoring, vLLM,
+      SGLang, Ansible]
+    languages: [Java, Python, Bash]
+    domains: []
+    other: [Test-Driven Development, Spec-Driven Development, Rhapsody, Mirth, Service
+        Oriented Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10296834'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T18:35:58.707827'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

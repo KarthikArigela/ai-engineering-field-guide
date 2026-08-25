@@ -1,56 +1,64 @@
 company:
   name: PointClickCare
-  stage: Privately held
-  focus: Health tech platform for long-term and post-acute care
+  stage: Founder-led and privately held
+  focus: |-
+    Health tech platform for long-term and post-acute care
+    providers
 position:
   title: Sr Application Engineer (Salesforce-Agentforce Ai)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deploying of AI
-      agents using Salesforce Agentforce and Microsoft Copilot
-      Studio, including custom agent development, AI workflow
-      creation, and integration of external data sources for AI
-      agents. The engineer directly architects and delivers AI-
-      driven solutions, making this an ai-first role.
+      The core of the role is hands-on building of AI Agents using
+      Salesforce Agentforce and Copilot Studio, including custom
+      agent development, AI workflows, and integration of external
+      data sources — this is designing agent flows and tool
+      calling, i.e., shaping model behavior. Since the agents are
+      LLM-based, it is ai-first; the Salesforce development and
+      process automation work is secondary.
   responsibilities:
-  - Build AI agents using Salesforce Agentforce and other AI platforms like Microsoft
+  - Build AI Agents using Salesforce Agentforce and other AI platforms such as Microsoft
     Copilot Studio
-  - Develop intelligent process automations using IPA tools such as Power Automate
-    and Alteryx
-  - Design, develop, and maintain custom applications and configurations that integrate
-    with Salesforce and connected apps
-  - Write clean code in Apex, JavaScript, and Python for core applications and integrated
-    systems
-  - Build and maintain test automations to improve QA efficiencies for Salesforce
-    and other applications
-  - Perform debugging, troubleshooting, and unit testing across standard to complex
-    system issues
-  - Participate in DevOps processes including peer reviews, pull request approvals,
-    and version control
-  - Onboard, mentor, and coach junior to intermediate application engineers and provide
-    technical documentation
+  - Pioneer intelligent process automations in enterprise environments using IPA tools
+    like Power Automate and Alteryx
+  - Build test automations to improve QA efficiencies for Salesforce and other applications
+  - Design, develop, and maintain applications and integrations across Salesforce
+    and connected apps using Apex, JavaScript, and Python
+  - Collaborate with product designers, end-users, and team members to refine AI use
+    cases and prototype solutions
+  - Analyze, troubleshoot, and debug standard to complex system issues; support transformational
+    projects, enhancements, and incident resolution
+  - Create and maintain technical documentation for all builds and AI Agents
+  - Mentor and coach junior to intermediate engineers, peer review builds, and provide
+    feedback and pull request approvals
   use_cases:
-  - AI agent development for Salesforce enterprise workflows
-  - Intelligent process automation to reduce manual work and improve efficiency
-  - Automated testing for Salesforce and connected applications
-  - AI-driven transformation of healthcare technology systems and business processes
-  - Integration of AI agents with external data sources and enterprise systems
+  - AI agents that automate and transform Salesforce enterprise workflows
+  - Intelligent process automation to save time, reduce waste, and improve operational
+    efficiency
+  - Automated QA testing for Salesforce and other applications
+  - Sales, service, and revenue operations automation via Sales Cloud, Service Cloud,
+    and Billing Platform
+  - Customer engagement and GTM automation through integrated apps like Marketo, Gong,
+    Gainsight, and Qualtrics
   skills:
-    genai: [Agentforce, AI Agents, Agentic Workflows, Copilot Studio, Salesforce Einstein]
-    ml: []
-    web: [React, Vue, Angular, OAuth]
-    databases: []
-    data: []
     cloud: [AWS, Azure]
-    ops: [Copado, AutoRabit, GitHub, CI/CD, Docker]
     languages: [Apex, JavaScript, Python]
+    ml: []
+    other: [Salesforce, Power Automate, Alteryx, Workday, Conga, DocuSign, Adobe,
+      Marketo, Gainsight, Gong, Qualtrics, Kantata, TaskRay, Test Automation, Agile,
+      Kanban, Service-Oriented Architecture, SAML, OpenID Connect]
+    ops: [DevOps, Copado, AutoRabit, GitHub, Selenium, PMD]
+    databases: []
     domains: []
-    other: [Salesforce, Power Automate, Alteryx, Agile, Selenium, PMD, Workday, Gainsight]
+    web: [React, Vue, Angular, Salesforce Lightning Design System, OAuth]
+    data: []
+    genai: [Agentforce, AI Agents, Copilot Studio, Salesforce Einstein]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10148126'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:30:13.579646'
+  extracted_at: '2026-08-16T17:18:08.176903'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

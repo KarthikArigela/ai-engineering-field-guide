@@ -1,53 +1,52 @@
 company:
   name: Uniphore
-  stage: Public
-  focus: |-
-    B2B AI-native enterprise platform with multimodal AI
-    combining Generative AI, Knowledge AI, Emotion AI, and
-    workflow automation for customer experience
+  stage: null
+  focus: B2B enterprise AI platform for customer experience
 position:
   title: Software Engineer (Java/Go with AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on experience building LLM-based
-      features including RAG, vector search, and familiarity with
-      agent frameworks like LangChain and LangGraph. This
-      represents direct work on implementing AI/ML systems rather
-      than just supporting infrastructure.
+      The role requires building or integrating LLM-based features
+      including RAG and vector search, plus familiarity with agent
+      frameworks (LangChain, LangGraph) and LLM fine-tuning
+      techniques (LoRA, QLoRA). Designing retrieval/RAG and agent
+      flows directly shapes LLM behavior, so Step 2 applies with
+      an LLM component, making this ai-first despite the generic
+      backend title.
   responsibilities:
   - Design, develop, test, and maintain scalable backend and frontend components for
     enterprise-grade SaaS applications
   - Translate product and business requirements into clear technical designs and implementation
     plans
-  - Contribute to system and API design, ensuring maintainability, performance, and
+  - Contribute to system and API design ensuring maintainability, performance, and
     scalability
-  - Write high-quality, well-documented, and testable code following best practices
-  - Participate in peer code reviews and provide constructive feedback
-  - Collaborate effectively with cross-functional and multi-region teams to deliver
-    features within agreed timelines
+  - Build and integrate LLM-based features including RAG and vector search
+  - Participate in peer code reviews and collaborate with cross-functional, multi-region
+    teams to deliver features
   - Support and improve existing systems through refactoring, optimization, and bug
     fixes
   - Follow Agile development practices and contribute to continuous improvement of
     engineering processes
   use_cases:
+  - Enterprise SaaS applications with embedded LLM-based features
+  - Retrieval-augmented generation and vector search for knowledge retrieval
+  - AI agent workflows built with frameworks such as LangChain and LangGraph
   - Multimodal customer experience platform combining Generative AI, Knowledge AI,
     and Emotion AI
-  - Enterprise workflow automation and AI-powered copilot guidance
-  - Voice, video, and text capture and analysis for customer interactions
-  - RAG-powered knowledge retrieval and vector search for enterprise data
-  - AI-powered agent systems for customer service automation
+  - Customer-facing co-pilot and workflow automation across enterprise functions
   skills:
-    domains: []
-    languages: [Java, Python, Go, Rust]
-    ml: [LoRA, instruction tuning]
     cloud: []
-    genai: [MCP, RAG, vector search, LangChain, LangGraph]
+    languages: [Java, Python, Go, Rust, SQL]
+    ml: []
+    other: [Agile, Code Review, System Design]
+    ops: [Linux, MLOps, LLMOps, Observability, Distributed Systems]
+    databases: [PostgreSQL, MongoDB, Redis, ClickHouse, Vector Search, NoSQL, Graph
+        Databases]
+    domains: []
+    web: [REST, WebSockets, gRPC, Microservices]
     data: [Kafka]
-    other: []
-    ops: [MLOps, LLMOps]
-    web: [REST, WebSockets, gRPC]
-    databases: [PostgreSQL, MongoDB, Redis, ClickHouse]
+    genai: [RAG, LLMs, MCP, LangChain, LangGraph, Fine-Tuning, LoRA]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +55,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-02-27T11:23:44.033674'
+  extracted_at: '2026-08-16T00:57:23.760938'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

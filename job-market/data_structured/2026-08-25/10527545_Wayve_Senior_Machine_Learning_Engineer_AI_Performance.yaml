@@ -1,0 +1,54 @@
+company:
+  name: Wayve
+  stage: null
+  focus: Embodied AI software for automated driving
+position:
+  title: Senior Machine Learning Engineer, AI Performance
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role trains, iterates, and optimizes deep learning
+      models (PyTorch) for autonomous driving, directly shaping
+      model performance through quantisation, distillation, and
+      evaluation. No LLM or agent component is mentioned, only
+      classical/deep learning for computer vision-style driving
+      models, so it is ml-first.
+  responsibilities:
+  - Own end-to-end delivery of model releases from requirements through training,
+    evaluation, iteration, and deployment readiness
+  - Train and iterate on PyTorch models with hypothesis-driven experimentation, ablations,
+    and clear evaluation criteria
+  - Debug and improve model performance by identifying regressions and root-causing
+    issues
+  - Apply model optimisation techniques such as quantisation and distillation to meet
+    runtime constraints
+  - Collaborate cross-functionally with ML and performance engineering teams on handoffs
+    and optimisation priorities
+  - Communicate with stakeholders on delivery timelines, trade-offs, and readiness
+    criteria
+  use_cases:
+  - Automated driving vehicle perception and navigation
+  - On-vehicle model deployment under tight latency, memory, bandwidth, and power
+    constraints
+  - Production model releases for OEM engagements
+  - Edge and embedded ML model optimisation for real-time autonomous systems
+  skills:
+    genai: []
+    ml: [PyTorch, Deep Learning, Model Training, Model Evaluation, Quantization, Fine-Tuning,
+      CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [TensorRT, Triton]
+    languages: []
+    domains: []
+    other: [Qualcomm QNN, OpenCL]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10527545'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:34:26.973809'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

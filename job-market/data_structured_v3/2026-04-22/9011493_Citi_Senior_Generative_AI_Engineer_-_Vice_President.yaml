@@ -1,0 +1,61 @@
+company:
+  name: Citi
+  stage: null
+  focus: Global banking and financial services
+position:
+  title: Senior Generative AI Engineer - Vice President
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role hands-on builds and orchestrates AI agents, designs
+      prompt strategies and automated evaluation frameworks,
+      architects RAG pipelines, and applies fine-tuning techniques
+      (LoRA, QLoRA) - all directly shaping LLM behavior. LLM and
+      agent components dominate the responsibilities, so the
+      classification is ai-first despite the management-level
+      title.
+  responsibilities:
+  - Manage Applications Development teams, including hiring, performance evaluations,
+    disciplinary actions, and resource allocation
+  - Provide technical oversight across systems and applications and review proposed
+    technical solutions for projects
+  - Build and orchestrate AI agents using LangChain, AutoGen, and CrewAI, implementing
+    self-healing workflows (Act-Verify-Refine loops)
+  - Develop backend systems in Python and TypeScript, integrating LLMs into microservices
+    architectures
+  - Architect RAG pipelines and utilize vector databases (Pinecone, Milvus, Weaviate)
+    for agent memory and contextual understanding
+  - Design and optimize prompt strategies with automated evaluation frameworks and
+    manage context engineering for LLMs
+  - Oversee the end-to-end MLOps lifecycle of generative models, focusing on inference
+    speed, cost-efficiency, and scalability on AWS, GCP, and Azure
+  - Ensure AI ethics, security standards, IP regulations, and safety compliance for
+    generative models, and define tool/API access for AI agents
+  use_cases:
+  - AI agents with self-healing workflows (Act-Verify-Refine loops)
+  - LLM integration into enterprise application systems and microservices
+  - Retrieval-Augmented Generation to enhance LLM accuracy and contextual understanding
+  - Agent memory management using vector databases
+  - High-quality LLM output through prompt and context engineering
+  - Scalable, cost-efficient generative model deployment on cloud platforms
+  skills:
+    genai: [LangChain, AutoGen, CrewAI, AI Agents, LLMs, RAG, Prompt Engineering,
+      Context Engineering, LLM Evaluation, LlamaIndex, Fine-Tuning, LoRA, QLoRA, OpenAI
+        API, Anthropic API, Tool Orchestration, Generative AI, Multimodal AI Models]
+    ml: [PyTorch, TensorFlow, Hugging Face]
+    web: [Microservices]
+    databases: [Vector Databases, Pinecone, Milvus, Weaviate]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [MLOps, Git, CI/CD, Docker]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [AI Ethics]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9011493'
+  location: Chennai, IND
+  extracted_at: '2026-08-16T07:05:55.125692'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

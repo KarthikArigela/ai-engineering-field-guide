@@ -1,53 +1,64 @@
 company:
   name: MetLife
-  stage: Public
-  focus: Global financial services and insurance company
+  stage: null
+  focus: |-
+    Global insurance, annuities, employee benefits and asset
+    management
 position:
   title: Senior Data & AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires 5+ years of hands-on experience with AI/ML
-      technologies including LangChain, Hugging Face, LLM/RAG
-      integration, and prompt engineering, plus 3+ years working
-      with LLMs like OpenAI. This is direct hands-on work building
-      and deploying AI systems, not just supporting infrastructure
-      for others.
+      The role explicitly requires hands-on LLM/RAG integration
+      and prompt engineering experience with LangChain, Hugging
+      Face, and OpenAI APIs, which is shaping LLM behaviour
+      through prompts and retrieval design rather than merely
+      consuming an API. Although the bulk of the responsibilities
+      are data pipeline and platform engineering, the AI/ML
+      component is a core requirement rather than a bonus, and the
+      LLM component makes it ai-first per the both-LLM-and-
+      classical rule.
   responsibilities:
-  - Partner with product owners and stakeholders to deliver business outcomes aligned
-    with enterprise risk and control objectives
+  - Partner with product owners and stakeholders to plan, prioritize, and deliver
+    high-impact business outcomes aligned to enterprise risk and control objectives
   - Lead the design, development, testing, and deployment of scalable data engineering
     and data processing pipelines
-  - Define and maintain architecture, design, and technical documentation for platform
-    sustainability
-  - Oversee operational support for complex data systems including root cause analysis
-    and issue resolution
+  - Define and maintain architecture, design, and technical documentation to support
+    long-term platform sustainability
+  - Oversee operational support for complex data systems and workflows, including
+    root cause analysis and issue resolution
   - Champion engineering best practices across Data Engineering, Data Platforms, AI/ML,
     and Cloud technologies
-  - Provide technical leadership on data modeling, integration patterns, and performance
-    optimization
-  - Support agile delivery by translating business needs into technical requirements
-    and user stories
+  - Provide technical leadership on data modeling, integration patterns, performance
+    optimization, and modernization initiatives
+  - Support agile delivery by translating business needs into technical requirements,
+    user stories, and prioritized backlogs
   use_cases:
-  - Risk management analytics and reporting
-  - Compliance monitoring and controls
-  - Internal audit data solutions
-  - Enterprise risk and control objectives support
-  - Data-driven decision making for finance and risk functions
+  - Data and analytics solutions supporting Risk, Compliance, and Internal Audit functions
+  - Scalable data pipelines for enterprise risk and control reporting
+  - Modernized data platforms with analytics-ready datasets and semantic layers for
+    GRC workflows
+  - LLM/RAG integration and prompt engineering to enable AI/ML capabilities within
+    controls technology
+  - Solving operational and risk management challenges for IT and business partners
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [NumPy, Hugging Face]
     cloud: [Azure]
-    genai: [LangChain, RAG, Prompt Engineering, OpenAI API, GitHub Copilot]
-    data: [PySpark, Pandas, Informatica, Pentaho, Databricks, Hadoop, Data Pipelines]
-    other: []
-    ops: [Azure DevOps, GitHub, Jira, CI/CD]
-    web: []
+    languages: [Python, SQL]
+    ml: [Hugging Face, NumPy]
+    other: [Agile, Jira, Database Design, GRC]
+    ops: [DevOps, Azure DevOps, GitHub, CI/CD]
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [PySpark, Pandas, Informatica, Pentaho, Databricks, Hadoop, Data Pipelines,
+      Data Modeling, Data Quality, Data Governance]
+    genai: [LangChain, RAG, Prompt Engineering, LLMs, Generative AI, OpenAI API, GitHub
+        Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8819328'
   location: New York, USA
-  extracted_at: '2026-03-27T15:05:03.306747'
+  extracted_at: '2026-08-16T04:47:56.206253'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

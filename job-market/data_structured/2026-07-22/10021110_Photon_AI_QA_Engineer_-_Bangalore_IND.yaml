@@ -1,17 +1,18 @@
 company:
   name: Photon
   stage: null
-  focus: Digital product engineering and AI solutions
+  focus: null
 position:
   title: AI QA Engineer - Bangalore, IND
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building AI-powered applications
-      using LLMs, RAG pipelines, embeddings, and prompt
-      engineering. The engineer works hands-on with foundation
-      models to deliver production-grade GenAI services, making
-      this clearly an ai-first position.
+      Despite the QA-focused title, the responsibilities are
+      squarely about shaping LLM behavior: developing RAG
+      pipelines, implementing prompt engineering and retrieval
+      strategies, and evaluating model accuracy and reliability.
+      Multiple LLM components (OpenAI, Claude, Gemini, LangChain,
+      RAG) are involved, making this ai-first.
   responsibilities:
   - Build AI-powered applications using OpenAI, Claude, Gemini, Llama, and Hugging
     Face models
@@ -23,24 +24,24 @@ position:
   - Develop monitoring, logging, and evaluation frameworks for AI applications
   - Support deployment and production operations of AI workloads
   use_cases:
-  - Enterprise AI applications powered by LLMs
-  - RAG-based knowledge retrieval and question answering
+  - Enterprise AI applications powered by LLMs, RAG, and embeddings
   - Intelligent automation for business workflows
-  - Semantic search and vector retrieval
-  - Production GenAI services for business solutions
+  - Semantic search and vector retrieval over enterprise data
+  - Production-grade AI services with monitoring and evaluation frameworks
+  - Generative AI solutions for business challenges
   skills:
-    genai: [OpenAI API, Anthropic API, Gemini, Llama, LangChain, LlamaIndex, RAG,
-      Prompt Engineering, Embeddings, Semantic Search, LangGraph, AI Agents, Fine-Tuning,
-      LoRA, LLM Evaluation]
-    ml: [Hugging Face]
-    web: [FastAPI, Microservices]
-    databases: [Vector Databases, Vector Search]
-    data: []
     cloud: [AWS, Azure, GCP]
-    ops: [Docker, LangSmith, MLflow]
     languages: [Python]
-    domains: []
+    ml: [Hugging Face]
     other: []
+    ops: [Docker, LangSmith, LangWatch, MLflow]
+    databases: [Vector Databases]
+    domains: []
+    web: [FastAPI, APIs, Microservices]
+    data: []
+    genai: [LLMs, Generative AI, RAG, Prompt Engineering, Embeddings, LangChain, LlamaIndex,
+      OpenAI API, Anthropic API, Gemini, Llama, Semantic Search, Fine-Tuning, LoRA,
+      LangGraph, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
@@ -50,4 +51,6 @@ meta:
   - IND
   - Bengaluru, IND
   remote: true
-  extracted_at: '2026-07-22T13:23:40.981097'
+  extracted_at: '2026-08-16T16:13:42.587991'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

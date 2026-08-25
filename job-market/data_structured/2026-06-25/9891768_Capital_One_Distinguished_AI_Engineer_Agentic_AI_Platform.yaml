@@ -1,58 +1,65 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI/ML
+  stage: null
+  focus: Banking and financial services
 position:
   title: Distinguished AI Engineer (Agentic AI Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying an
-      enterprise agentic AI platform including agent
-      orchestration, RAG pipelines, guardrails, and LLM inference
-      systems. The engineer evaluates and hardens agentic
-      frameworks (LangGraph, AutoGen, CrewAI, LlamaIndex) and
-      designs canonical APIs for agent workflows, RAG, and prompt
-      libraries — all hands-on work with AI/LLM systems.
+      This role directly shapes LLM/agent behavior: it designs the
+      agentic workflow framework, RAG pipelines, prompt libraries,
+      and central guardrail services (prompt firewalls, red team
+      harnesses), and evaluates and hardens agentic frameworks
+      like LangGraph, AutoGen, Semantic Kernel, CrewAI, and
+      LlamaIndex. All shaping work targets LLM/agent systems on an
+      enterprise Generative AI platform, so it is ai-first.
   responsibilities:
-  - Design and architect the enterprise Generative AI platform including agentic workflow
-    framework, shared services (memory, guardrails, vector search), SDKs, and blueprints
-  - Evaluate and harden agentic frameworks such as LangGraph, AutoGen, Semantic Kernel,
-    CrewAI, and LlamaIndex for enterprise-grade SLAs
-  - Build central guardrail services including prompt firewalls, content-filter hooks,
-    red team harnesses, and audit APIs
-  - Develop end-to-end GenAI SDK, CLI, and starter kits enabling rapid prototyping
-    of secure agentic workflows
-  - Define north star platform architecture with canonical APIs for agent orchestration,
-    RAG pipelines, prompt libraries, and multi-tenant policy enforcement
-  - Optimize orchestration-level performance through batching, retrieval caching,
-    and heuristic tuning to reduce per-token spend
-  - Own central Helm charts, operators, and CRDs for auto-scaling agents to meet tenant
+  - Design the agentic workflow framework and shared platform services (memory, guardrails,
+    vector search, SDKs, blueprints) for an enterprise Generative AI platform
+  - Contribute to the north star platform architecture, publishing living diagrams
+    and canonical APIs covering agent orchestration, RAG pipelines, prompt libraries,
+    and multi-tenant policy enforcement
+  - Evaluate agentic frameworks such as LangGraph, AutoGen, Semantic Kernel, CrewAI,
+    and LlamaIndex, then harden and blend patterns that meet enterprise SLAs for broad
+    app adoption
+  - Craft an end-to-end GenAI SDK, CLI, and starter kits that let AI engineers spin
+    up secure, observable agentic workflows in minutes
+  - Build central guardrail services - prompt firewalls, content-filter hooks, red
+    team harnesses, and audit APIs - consumed by every application
+  - Optimize orchestration-level batching, retrieval caching, and heuristic tuning
+    to reduce per-token spend, and incubate RFCs such as hierarchical agent memory,
+    multimodal guardrails, and multimodal RAG
+  - Own central Helm charts, operators, and CRDs that auto-scale agents to meet tenant
     SLAs
-  - Coach and mentor Staff, Principal, and Senior engineers; host architecture office
-    hours and represent Capital One at AI conferences
+  - Coach and evangelize by hosting architecture office hours, mentoring Staff, Principal,
+    and Senior engineers, authoring design documents and blogs, and representing Capital
+    One at Tier 1 AI conferences
   use_cases:
-  - Enterprise agentic AI platform for composing safe and explainable AI capabilities
-    across product teams
-  - Agent orchestration and RAG pipelines for production-grade applications serving
-    millions of users
-  - Centralized guardrails and trust/safety services for responsible AI at scale
-  - Multi-tenant AI infrastructure with automated scaling and policy enforcement
-  - Developer tooling and SDKs for rapid GenAI application prototyping and deployment
+  - Enterprise Generative AI platform letting dozens of product teams compose safe,
+    explainable AI capabilities
+  - Agentic workflows powering AI applications used by millions of customers across
+    multiple banking lines of business
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Centralized trust and safety via guardrails, content filtering, red teaming, and
+    audit APIs across all AI applications
+  - Cost- and performance-optimized LLM orchestration at scale with multi-tenant policy
+    enforcement
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [LLM Inference, Similarity Search]
     cloud: [AWS, GCP, Azure, Vertex AI, SageMaker, Azure ML]
-    genai: [LangGraph, AutoGen, Semantic Kernel, CrewAI, LlamaIndex, LangChain, RAG,
-      Prompt Engineering, Agentic Workflows, Guardrails]
-    data: []
-    other: [Responsible AI, Multi-tenant Security]
-    ops: [Kubernetes, Helm, LLMOps, Docker]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [Machine Learning]
+    other: [Responsible AI, Data Privacy]
+    ops: [LLMOps, Model Deployment, Kubernetes, Helm, Service Mesh]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LangChain, LangGraph, AutoGen, Semantic Kernel, CrewAI, LlamaIndex, RAG,
+      Agentic Workflows, Guardrails, Generative AI, Memory, Red Teaming]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9891768'
   location: McLean, USA
@@ -62,4 +69,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:57:47.629349'
+  extracted_at: '2026-08-16T15:53:56.933021'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

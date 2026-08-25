@@ -1,58 +1,59 @@
 company:
   name: EXL
-  stage: Public
+  stage: 'Publicly traded (NASDAQ: EXLS)'
   focus: Data analytics and digital operations solutions
 position:
   title: Lead AI Data Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly responsible for architecting,
-      building, and deploying LLM-based agentic systems, RAG
-      pipelines, and GenAI solutions. The engineer designs and
-      implements multi-agent workflows, function-calling
-      frameworks, prompt engineering strategies, and LLM
-      guardrails — all hands-on work on AI/ML systems.
+      The role directly shapes LLM behaviour: designing prompts
+      and reasoning chains, building end-to-end RAG pipelines
+      (chunking, embeddings, vector indexing, retrieval),
+      architecting agentic tool-calling workflows, and
+      implementing LLM guardrails and evaluation frameworks. Since
+      LLMs and agents are central to every responsibility, it is
+      ai-first despite the data engineering title.
   responsibilities:
   - Architect enterprise-grade agentic and LLM solutions including single-agent, multi-agent,
     and tool-driven workflows
-  - Design and build agentic systems using LLMs for knowledge assistants, document
-    automation, and workflow orchestration
-  - Lead end-to-end implementation of RAG pipelines from data ingestion through retrieval
-    and response generation
-  - Implement LLM guardrails for hallucination control, safety filters, and policy
-    enforcement
-  - Develop production-grade APIs and services ensuring performance optimization for
-    latency, cost, and reliability
-  - Define evaluation frameworks including response quality metrics, RAG benchmarking,
-    and human-in-the-loop validation
-  - Provide technical leadership through mentoring, code reviews, and pre-sales solution
-    architecture support
-  - Collaborate with Data Engineering, MLOps, and Business/Product teams to drive
-    end-to-end delivery
+  - Lead end-to-end implementation of RAG pipelines from data ingestion and chunking
+    through embeddings, vector indexing, retrieval, and response generation
+  - Implement advanced prompt engineering strategies, prompt orchestration, and reasoning
+    chains
+  - Build tool-calling and function-calling frameworks for agent workflows
+  - Implement LLM guardrails (hallucination control, safety filters, policy enforcement)
+    and define evaluation frameworks including RAG benchmarking
+  - Develop production-grade APIs and services (FastAPI, Flask) optimised for latency,
+    cost, and reliability
+  - Mentor and guide junior engineers, conduct technical and code reviews, and support
+    pre-sales/RFPs with architecture inputs
+  - Partner with Data Engineering, MLOps, and Business/Product teams to drive end-to-end
+    delivery ownership across projects
   use_cases:
-  - Knowledge assistants for enterprise information access
-  - Document automation and intelligence extraction
-  - Workflow orchestration using multi-agent systems
-  - Enterprise RAG-based retrieval and response generation
-  - Insurance and BFSI domain AI applications
+  - Knowledge assistants
+  - Document automation and document intelligence
+  - Workflow orchestration
+  - Enterprise GenAI delivery for insurance and BFSI clients
+  - AI-led business operations and analytics transformation
   skills:
-    genai: [LLMs, RAG, Agentic Workflows, Multi-Agent Systems, LangChain, LangGraph,
-      Prompt Engineering, Function Calling, Anthropic API, OpenAI API, Embeddings,
-      Guardrails, Fine-Tuning, LoRA, LLM Evaluation, Azure OpenAI, AI Agents, Generative
-        AI]
-    ml: [Machine Learning]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Vector Search, Snowflake]
-    data: [PySpark, Spark, Databricks, Data Pipelines, Data Engineering]
-    cloud: [Azure, AWS, GCP, Azure AI Foundry, SageMaker]
-    ops: [Docker, CI/CD, Monitoring, MLOps]
+    cloud: [Azure, AWS, GCP, Azure OpenAI, Azure AI Search]
     languages: [Python, SQL]
-    domains: [NLP]
-    other: [System Design, Microservices]
-  is_customer_facing: false
-  is_management: true
+    ml: [Machine Learning, NLP, Data Science]
+    other: []
+    ops: [CI/CD, Docker, Monitoring, MLOps]
+    databases: [Snowflake]
+    domains: []
+    web: [FastAPI, Flask, APIs]
+    data: [PySpark, Data Engineering, Data Pipelines, Databricks, Microsoft Fabric]
+    genai: [LLMs, Generative AI, RAG, Prompt Engineering, AI Agents, Agentic Workflows,
+      Function Calling, LangChain, LangGraph, Embeddings, Guardrails, LLM Evaluation,
+      Fine-Tuning, LoRA, OpenAI API, Anthropic API]
+  is_customer_facing: true
+  is_management: false
 meta:
   job_id: '9921782'
   location: Gurugram, IND
-  extracted_at: '2026-07-22T13:42:54.895093'
+  extracted_at: '2026-08-16T19:11:36.809490'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

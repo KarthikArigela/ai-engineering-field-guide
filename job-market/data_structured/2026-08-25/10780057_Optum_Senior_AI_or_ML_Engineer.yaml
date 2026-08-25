@@ -1,0 +1,57 @@
+company:
+  name: Optum
+  stage: null
+  focus: Healthcare technology and care delivery services
+position:
+  title: Senior AI or ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes LLM output quality directly through prompt
+      design, fine-tuning, RAG pipelines, vector indexing, and
+      evaluation with guardrails, alongside classical ML work.
+      Since LLM components are involved, it is ai-first.
+  responsibilities:
+  - Lead architecture and delivery of ML/GenAI solutions (classification, forecasting,
+    NLP, deep learning, LLM apps) at production scale
+  - Build data and feature pipelines over large clinical and claims datasets
+  - Develop and deploy LLM capabilities including prompt design, fine-tuning, RAG
+    pipelines, vector indexing, and evaluation with guardrails
+  - Establish MLOps/LLMOps best practices including CI/CD, model registry, experiment
+    tracking, monitoring, drift detection, and A/B testing
+  - Ensure data privacy and compliance (HIPAA/PHI handling) and champion model governance
+    and Responsible AI
+  - Translate business problems into technical roadmaps and communicate trade-offs
+    to executives
+  - Mentor engineers and set engineering standards for code reviews, documentation,
+    and observability
+  - Collaborate with research, engineering, and product teams to productionize AI
+    advancements
+  use_cases:
+  - Healthcare operations improvement through classification, forecasting, NLP, and
+    deep learning models
+  - LLM applications with RAG, fine-tuning, and guardrails for healthcare
+  - Data and feature pipelines over large clinical and claims datasets
+  - Patient outcomes improvement via productionized AI/ML solutions
+  - Compliant AI with HIPAA/PHI data privacy and model governance
+  skills:
+    genai: [Generative AI, LLMs, Prompt Engineering, Fine-Tuning, RAG, Guardrails,
+      LLM Evaluation, Embeddings, LangChain, LlamaIndex]
+    ml: [Machine Learning, Hugging Face, PyTorch, TensorFlow, Transformers, NLP, Neural
+        Networks, Feature Engineering, Model Evaluation]
+    web: []
+    databases: [Vector Search]
+    data: [Pandas, NumPy, Spark, Dask, Airflow, Prefect]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, CI/CD, Terraform, MLOps, LLMOps, Git, Model Monitoring]
+    languages: [Python, SQL]
+    domains: []
+    other: [A/B Testing, HIPAA Compliance, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10780057'
+  location: Gurugram, IND
+  extracted_at: '2026-08-25T11:49:09.953789'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

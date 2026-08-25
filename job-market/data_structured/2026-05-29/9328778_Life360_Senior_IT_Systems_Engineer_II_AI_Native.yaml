@@ -1,60 +1,68 @@
 company:
   name: Life360
-  stage: Public
-  focus: Family safety and location sharing mobile app with 97.8M MAU
+  stage: null
+  focus: |-
+    Family safety and location-sharing app with GPS tracking
+    devices
 position:
   title: Senior IT Systems Engineer II (AI Native)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an IT Systems Engineer role focused on internal IT
-      infrastructure, identity management (Okta), SaaS governance,
-      and endpoint management. While the role involves deploying
-      and governing AI-powered tools and building AI-assisted
-      workflows using LLMs to accelerate IT operations, it does
-      not involve building, training, or deploying AI models. The
-      role is AI-support because it enables AI tooling for IT
-      operations rather than working directly on AI/ML systems.
+      This is a generalist IT systems engineer role focused on
+      SaaS administration, Okta identity management, endpoints,
+      and internal IT operations. AI appears only as tools used to
+      accelerate IT work (Claude, ChatGPT, Copilot), AI-assisted
+      workflows and MCP integrations that speed up troubleshooting
+      and audits, and governance of AI tooling — the deliverable
+      is IT operations, not model behavior. There is no prompt
+      design, RAG, training, or eval work, so it is ai-support.
   responsibilities:
   - Serve as the senior technical escalation point for the Help Desk on identity,
-    SaaS, MDM, and authentication issues exceeding Tier 2
-  - Act as the subject matter expert on Okta and the broader identity stack including
-    user directories, SCIM provisioning, SSO integrations, and authentication policies
-  - Design, configure, and maintain Life360's SaaS estate including Okta, Google Workspace,
-    Slack, Zoom, MDM platforms, and AWS with focus on integration and governance
+    SaaS, MDM, and authentication issues beyond Tier 2, owning resolution and feeding
+    fixes back into platform configuration
+  - Act as subject matter expert on Okta and the broader identity stack, including
+    user directories, SCIM provisioning, SSO integrations, group rules, and authentication
+    policies
+  - Design, configure, and maintain the SaaS estate (Okta, Google Workspace, Slack,
+    Zoom, Iru, Intune, Atlassian, GitHub, AWS) with focus on integration, governance,
+    and lifecycle
   - Evaluate, deploy, and govern AI-powered tools across the organization and build
-    AI-assisted workflows including MCP integrations
-  - Partner with automation and infrastructure specialists to contribute low-code
-    automations and scripts in PowerShell, Python, and JavaScript
-  - Define and refine IT processes and policies for identity lifecycle, access governance,
-    and tool-selection criteria
+    AI-assisted workflows, including MCP integrations, that accelerate troubleshooting,
+    audit investigations, and cross-platform operations
+  - Contribute low-code automations and scripts in PowerShell, Python, and JavaScript
+    in partnership with the automation and infrastructure specialists
+  - Define and refine IT processes and policies, including identity lifecycle, access
+    governance, and tool-selection criteria, to scale with company growth
   - Maintain technical documentation and SOPs for critical workflows and mentor junior
     team members
-  - Participate in on-call rotations for IT systems support
+  - Participate in on-call rotations
   use_cases:
-  - Internal IT operations automation using AI/LLM tools to accelerate troubleshooting
-    and documentation
-  - Identity and access management governance across SaaS platforms with Okta as the
-    central identity provider
-  - AI-assisted audit investigations and cross-platform operations workflows
-  - Enterprise AI deployment patterns and governance for acceptable-use policies
-  - Endpoint security and MDM policy management for remote-first workforce
-  - SaaS platform integration and lifecycle management for internal business applications
+  - AI-assisted troubleshooting for IT identity, SaaS, and endpoint issues
+  - AI-accelerated audit investigations and cross-platform IT operations
+  - MCP-based AI-assisted workflows embedded in internal IT operations
+  - Governance, deployment, and acceptable-use policy for AI-powered tools across
+    the organization
+  - AI-assisted documentation, scripting, and investigations for IT operations
   skills:
-    domains: []
+    cloud: [AWS, Okta]
     languages: [PowerShell, Python, JavaScript]
     ml: []
-    cloud: [Google Workspace, AWS, Zero Trust]
-    genai: [Anthropic API, ChatGPT, GitHub Copilot, MCP]
-    data: []
-    other: [TCP/IP, DHCP, DNS, VLAN, VPN]
-    ops: [Terraform, AI governance, MDM, Intune, Kandji]
-    web: [Okta, SCIM provisioning, SSO, SAML]
+    other: [Google Workspace, Slack, Zoom, Atlassian, Intune, Kandji, MDM, SSO, SCIM,
+      Low-Code Automation, Responsible AI, Zero Trust, CIS Hardening Standards, TCP/IP,
+      DHCP, DNS, VLAN, VPN]
+    ops: [Terraform, Infrastructure as Code, GitHub]
     databases: []
+    domains: []
+    web: [SAML]
+    data: []
+    genai: [LLMs, Anthropic API, ChatGPT, GitHub Copilot, MCP]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9328778'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:00:47.261330'
+  extracted_at: '2026-08-16T10:20:02.285785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

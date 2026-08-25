@@ -1,57 +1,59 @@
 company:
   name: Re:Build Manufacturing
-  stage: Late Stage / Spin-out (backed by parent company Re:Build Manufacturing)
-  focus: |-
-    AI-powered platform for hardware product development
-    coordination
+  stage: null
+  focus: AI-powered platform for hardware product development
 position:
   title: Senior Backend Engineer - AI Product
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building agentic AI workflows
-      using LangChain and LangGraph, integrating LLM APIs
-      (Anthropic Claude, OpenRouter), and constructing the AI
-      infrastructure powering the platform. The engineer is hands-
-      on with LLM orchestration, agent workflows, and structured
-      data extraction from unstructured inputs — core AI-first
-      work.
+      The engineer designs and builds the agentic AI workflows
+      themselves (LangChain, LangGraph, agent orchestration) and
+      integrates LLM APIs to power structured extraction, risk
+      detection, and proactive coordination — this is shaping
+      model behavior via agent flows, not just consuming an API.
+      LLM/agent components are central, so it is ai-first.
   responsibilities:
   - Design and implement RESTful APIs with OpenAPI specs and auto-generated client
     SDKs using SQLAlchemy and Postgres
-  - Develop ingestion pipelines using Celery and Redis that connect to existing team
-    tools and extract structured engineering artifacts from unstructured inputs
-  - Build and extend agentic AI workflows using LangChain, LangGraph, and related
-    frameworks for structured data extraction, risk detection, dependency analysis,
-    and proactive team coordination
-  - Integrate LLM APIs (Anthropic Claude, OpenRouter) with streaming (SSE), error
-    handling, and cost optimization
-  - Deploy and operate services on GCP (Cloud Run, Cloud SQL, Memorystore) with Terraform
+  - Develop ingestion pipelines with Celery and Redis connecting to team tools (file
+    storage, messaging, email) to extract structured engineering artifacts from unstructured
+    inputs
+  - Build and extend agentic AI workflows using LangChain and LangGraph for structured
+    data extraction, risk detection, dependency analysis, and proactive team coordination
+  - Integrate LLM APIs (Anthropic Claude, OpenRouter) with SSE streaming, error handling,
+    and cost optimization
+  - Deploy and operate backend services on GCP (Cloud Run, Cloud SQL, Memorystore)
+    with Terraform
   - Write well-tested, maintainable code and participate in code reviews to establish
-    engineering best practices
+    backend engineering best practices
+  - Contribute to system design decisions while coding daily as a hands-on senior
+    engineer
   use_cases:
-  - Transform unstructured inputs (call transcripts, emails, documents, datasheets)
-    into structured engineering artifacts (requirements, project plans, dependencies)
-  - Ambient AI agents for proactive cross-discipline coordination during hardware
-    development
-  - Real-time project intelligence serving hardware teams
-  - Risk detection and dependency analysis across hardware development programs
-  - Automated change request tracking and context relay across engineering teams
+  - Turning unstructured inputs (call transcripts, emails, documents, datasheets)
+    into structured engineering artifacts like requirements, project plans, and dependencies
+  - Proactive coordination across hardware development disciplines via ambient AI
+    agents
+  - Risk detection and dependency analysis for hardware product programs
+  - Real-time project intelligence served to hardware development teams
+  - Automating change request and critical context relay across engineering tools
   skills:
-    domains: []
+    cloud: [GCP, Cloud Run, Cloud SQL, Pub/Sub, Secret Manager, Memorystore]
     languages: [Python]
     ml: []
-    cloud: [GCP]
-    genai: [LangChain, LangGraph, Anthropic Claude API, OpenRouter, AI agent orchestration,
-      Cursor/Copilot/Claude (AI coding tools)]
-    data: [Celery, Data Pipelines]
     other: []
     ops: [Terraform, Docker, CI/CD]
-    web: [FastAPI, REST APIs, OpenAPI, SSE (Server-Sent Events), OIDC/JWT]
-    databases: [PostgreSQL, SQLAlchemy, Redis]
+    databases: [PostgreSQL, Redis, SQLAlchemy]
+    domains: []
+    web: [FastAPI, REST APIs, OpenAPI, Server-Sent Events, JWT]
+    data: [Celery, Data Pipelines]
+    genai: [LangChain, LangGraph, Agentic Workflows, AI Agents, LLMs, Anthropic API,
+      OpenAI API, OpenRouter, Cursor, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9032173'
   location: Los Angeles, USA
-  extracted_at: '2026-04-22T12:40:23.511632'
+  extracted_at: '2026-08-16T07:20:03.602756'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

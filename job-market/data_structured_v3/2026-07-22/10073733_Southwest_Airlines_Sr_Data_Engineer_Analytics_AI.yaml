@@ -1,0 +1,60 @@
+company:
+  name: Southwest Airlines
+  stage: ''
+  focus: Commercial passenger airline and air travel services
+position:
+  title: Sr Data Engineer – Analytics & AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that builds analytical
+      datasets, semantic layers, and ETL pipelines feeding BI,
+      GenBI, and AI-enabled analytics products. The person
+      partners with AI Engineers who own the AI components, and
+      there is no prompt engineering, RAG/agent design, model
+      training, or evaluation work in the role itself. Per the
+      dataset rule, building pipelines that feed someone else's AI
+      systems is ai-support.
+  responsibilities:
+  - Assemble large, complex datasets that meet functional and non-functional business
+    requirements
+  - Design and implement internal process improvements, including re-designing infrastructure
+    for greater scalability, optimizing data delivery, and automating manual processes
+  - Build ETL infrastructure for optimal extraction, transformation, and loading of
+    data from various data sources using AWS and SQL technologies
+  - Build analytical tools and datasets that deliver actionable insight into key business
+    performance metrics such as operational efficiency and customer acquisition
+  - Deliver GenBI-ready datasets, semantic layers, analytical data models, and KPI
+    frameworks optimized for BI and self-service consumption
+  - Partner with Business Data Analysts, AI Engineers, Product Owners, and executive
+    stakeholders to support data infrastructure needs and resolve data-related technical
+    issues
+  - Work with external vendors to provide effective solutions and insights
+  - Provide direction and guidance on process improvements and participate in cross-functional
+    initiatives
+  use_cases:
+  - Enterprise BI and self-service analytics across Southwest's business
+  - GenBI and AI-enabled analytics over trusted analytical datasets
+  - Business performance metrics such as operational efficiency and customer acquisition
+  - Semantic layers and KPI frameworks powering operational and strategic decision-making
+  - Data pipelines and lakehouse platforms serving Analytics, ML, and AI workloads
+  skills:
+    genai: [Embeddings, GenBI]
+    ml: []
+    web: [JSON]
+    databases: [Redshift, Snowflake, Vector Databases]
+    data: [Databricks, Data Pipelines, ETL, Data Quality, Data Modeling, Data Lake,
+      Parquet]
+    cloud: [AWS, AWS S3, AWS Glue, Amazon Athena]
+    ops: [CI/CD, Observability, Unit Testing, Containerization]
+    languages: [Python, SQL]
+    domains: []
+    other: [Agile, Semantic Layer, Business Intelligence, ServiceBus]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10073733'
+  location: Choudwar, IND
+  extracted_at: '2026-08-16T16:40:31.647966'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

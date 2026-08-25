@@ -1,51 +1,52 @@
 company:
   name: SoFi
-  stage: Public
-  focus: Next-generation financial services company and national bank
+  stage: ''
+  focus: Next-generation digital financial services and national bank
 position:
   title: Staff Software Engineer, AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on experience building AI systems
-      including creating agents, MCP servers, fine-tuning models,
-      prompt engineering, and integrating Large Language Models.
-      This involves directly working on and deploying AI/ML models
-      and systems rather than just supporting infrastructure for
-      others.
+      The role explicitly requires building AI agents, creating
+      MCP servers, fine-tuning models, prompt engineering, and
+      performance evaluation, plus designing prompts and
+      integrating LLMs — all direct shaping of LLM and agent
+      behavior. Since the shaped components are LLMs and agents,
+      this is ai-first.
   responsibilities:
-  - Drive technical architecture, design decisions and cross-functional discussions
-    for the product
+  - Drive technical architecture, design decisions, and cross-functional discussions
+    for AI products
   - Deliver highly available and scalable services in a production environment
-  - Lead the design, development and testing of systems and conduct code and system
+  - Lead the design, development, and testing of systems, including code and system
     design reviews
   - Translate product requirements into user stories and technical solutions
   - Mentor other engineers, support the technical culture, and help grow the team
-  - Develop and apply advanced AI technologies including agents, MCP servers, LLM
-    integration, and model fine-tuning
+  - Generate ideas for new initiatives and technologies
+  - Communicate with project leads, product managers, and other software developers
+  - Build solutions embedding personalized financial insights into SoFi member products
   use_cases:
-  - Embedding personalized financial insights into SoFi products
-  - Supporting members' financial journeys through AI-powered solutions
-  - Developing applications that leverage Large Language Models for practical financial
-    use cases
-  - Building agents and AI systems to enhance member experience in financial services
+  - Embedding personalized financial insights into SoFi member-facing products
+  - Supporting members' financial journeys with AI-powered solutions
+  - Agent-based features built on a new Python AI stack
   skills:
-    domains: []
-    languages: [Java, Kotlin, Python]
-    ml: [fine tuning models]
     cloud: [AWS]
-    genai: [AI Agents, MCP servers, Prompt Engineering, LLMs]
-    data: []
-    other: []
-    ops: [performance evaluation, Kubernetes]
-    web: [Spring Boot, Microservices]
+    languages: [Java, Kotlin, Python]
+    ml: [Machine Learning]
+    other: [SOA]
+    ops: [Kubernetes]
     databases: [PostgreSQL, Relational Databases, ORMs]
+    domains: []
+    web: [Spring Boot, Microservices]
+    data: []
+    genai: [AI Agents, MCP, Fine-Tuning, Prompt Engineering, LLMs, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7144973'
   location: New York City, USA
   locations:
   - New York City, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T10:25:50.095835'
+  extracted_at: '2026-08-15T21:22:34.178249'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

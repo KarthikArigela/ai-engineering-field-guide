@@ -7,43 +7,47 @@ position:
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying LLM-
-      powered applications, agentic systems, and multi-agent
-      workflows. The engineer will directly work on fine-tuning
-      models, implementing RAG pipelines, and optimizing AI
-      systems - not just supporting AI infrastructure.
+      The role directly shapes LLM behavior: designing and
+      deploying LLM-powered applications, RAG pipelines,
+      agentic/multi-agent workflows, and leading fine-tuning (SFT,
+      LoRA) on proprietary data with feedback loops and LLM
+      observability. With LLM and agent components central to the
+      work, this is ai-first.
   responsibilities:
-  - Architect, build, and deploy LLM-powered applications that automate workflows
-    across customer service and product development
+  - Architect, build, and deploy LLM-powered applications that augment and automate
+    workflows across customer service, product development, and internal operations
   - Design autonomous AI systems that execute technical analysis, testing, troubleshooting,
     and decision-making at scale
-  - Identify and implement AI-driven efficiency gains that enable scalable growth
-    without increasing headcount
-  - Lead fine-tuning and contextual optimization of AI models using proprietary data
-    with structured feedback loops
-  - Collaborate with data, product, and infrastructure teams to define the long-term
-    AI roadmap
-  - Experiment with emerging AI technologies to identify new capabilities for strategic
-    differentiation
+  - Lead fine-tuning and contextual optimization of AI models using Yuno's proprietary
+    data
+  - Continuously refine model performance through structured feedback loops, observability
+    metrics, and user interaction data
+  - Identify areas across Yuno where AI can generate efficiency gains and reduce manual
+    work
+  - Work with data, product, and infrastructure teams to define the long-term AI roadmap
+  - Ensure adherence to privacy, compliance, and ethical AI principles in model development
+  - Experiment with emerging AI technologies to identify new capabilities and strategic
+    advantages
   use_cases:
-  - AI-powered customer service automation and support systems
-  - Internal agentic workflows for optimizing critical company processes
-  - AI-assisted development, testing, and troubleshooting tools
-  - Payment experience optimization through intelligent decision engines
-  - Autonomous systems for accelerating product creation and innovation
-  - Data-driven operational intelligence and efficiency tools
+  - Payment experience optimization
+  - Customer service automation
+  - Internal agentic workflows that optimize company processes
+  - AI-assisted development, testing, and troubleshooting
+  - Data-driven decision engines for autonomous operations
+  - Scalable productivity systems that reduce manual work
   skills:
-    domains: []
-    languages: [Python, Go]
-    ml: [Fine-Tuning, LoRA, supervised fine-tuning (SFT), PyTorch, TensorFlow, JAX,
-      Hugging Face]
     cloud: [AWS, GCP, Azure]
-    genai: [GPT, Anthropic API, Gemini, RAG, CrewAI, LangChain, LangGraph, LlamaIndex]
-    data: []
+    languages: [Python, Go]
+    ml: [PyTorch, TensorFlow, JAX, Hugging Face]
     other: []
-    ops: [Model Deployment, inference optimization, LangSmith, Langfuse, MLOps, CI/CD]
-    web: [REST APIs]
+    ops: [Model Deployment, Inference Optimization, LangSmith, Langfuse, MLOps, CI/CD]
     databases: [Vector Databases]
+    domains: []
+    web: [REST APIs]
+    data: []
+    genai: [LLMs, RAG, Context Engineering, Agentic Workflows, AI Agents, Multi-Agent
+        Systems, Fine-Tuning, LoRA, LangChain, LangGraph, CrewAI, LlamaIndex, OpenAI
+        API, Anthropic API, Gemini, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +59,6 @@ meta:
   - São Paulo, BRA
   - Bogotá, D.C., COL
   remote: true
-  extracted_at: '2026-02-05T10:58:34.282066'
+  extracted_at: '2026-08-15T21:41:11.058221'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

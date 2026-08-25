@@ -1,52 +1,69 @@
 company:
   name: ArangoDB
   stage: null
-  focus: Multi-model database platform for AI applications
+  focus: |-
+    Multi-model database platform combining graph, document, and
+    vector data
 position:
   title: AI Forward Deploy Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deploy Engineer who builds and deploys
-      production AI solutions including RAG pipelines, agent
-      systems, and fine-tuned models. The role involves hands-on
-      implementation of retrieval-augmented generation, model
-      optimization with LoRA/PEFT, and inference serving - all
-      core AI/ML engineering work.
+      The role directly shapes LLM behavior: it designs RAG
+      (chunking, embeddings, ranking, caching), writes and
+      iterates prompts, builds tool/call orchestration, fine-tunes
+      models (LoRA/PEFT, DPO, distillation), and builds evals and
+      guardrails. Forward Deploy Engineers delivering AI solutions
+      at customer sites are also explicitly ai-first.
   responsibilities:
-  - Partner with customer stakeholders to identify high-value AI use cases and define
-    delivery plans
-  - Build end-to-end prototypes including data connectors, RAG pipelines, prompts,
-    tools, and UIs/APIs
-  - Implement retrieval-augmented generation with chunking, embeddings, ranking, caching,
-    and tool orchestration
-  - Productionize AI solutions with CI/CD, infrastructure-as-code, security, and observability
-  - Fine-tune and adapt models using LoRA/PEFT, DPO, and distillation; optimize inference
-    with quantization, vLLM, and TensorRT-LLM
-  - Monitor quality metrics, drift, hallucinations, latency, and costs; set up alerting
-    and dashboards
+  - Embed with customers to run discovery, identify high-value AI use cases, and define
+    success metrics, SLAs/SLOs, and delivery plans from PoV through pilot to production
+  - Build end-to-end prototypes including data connectors, RAG pipelines, prompts/tools,
+    and UIs/APIs
+  - Implement retrieval-augmented generation (chunking, embeddings, ranking, caching)
+    and tool/call orchestration
+  - Evaluate and iterate prompts, models, and retrieval strategies using offline/online
+    metrics and A/B tests
+  - Fine-tune or adapt models (LoRA/PEFT, preference optimization/DPO, distillation)
+    and optimize inference (quantization, batching, vLLM/TGI/TensorRT-LLM)
+  - Productionize solutions into secure, observable services with CI/CD and infrastructure-as-code;
+    build data pipelines (ETL/ELT), vector indices, and metadata governance
+  - Monitor quality, drift, hallucination/guardrail events, latency, and cost with
+    alerting and dashboards; implement role-based access, secrets management, audit
+    logging, PII redaction, and content safety filters
+  - Document architectures and playbooks, train customer engineers and end users,
+    and capture field learnings to influence the product roadmap
   use_cases:
-  - Secure RAG assistant over millions of documents with hybrid search and guardrails
-  - High-volume customer support copilot with CRM/ITSM integration and strict response-time
-    SLOs
-  - Document intake pipeline with PII detection, redaction, and structured extraction
-  - Fine-tuned classification and routing models to reduce human triage by 40%+
+  - Secure RAG assistants over millions of documents with hybrid search, guardrails,
+    and cost-aware caching
+  - High-volume customer support copilots integrated with CRM/ITSM systems meeting
+    strict response-time SLOs
+  - Document intake pipelines with PII detection/redaction and structured extraction
+    (LLM + regex + heuristics)
+  - Fine-tuned classification and routing models that reduce human triage
+  - Production AI applications combining RAG, knowledge graphs, and smart agents on
+    a multi-model data platform
   skills:
+    cloud: [AWS, GCP, Azure]
+    languages: [Python]
+    ml: [Hugging Face, Fine-Tuning, DPO, Distillation, Quantization]
+    other: [BM25, A/B Testing, PII Redaction, SOC 2, ISO 27001, GDPR, HIPAA Compliance]
+    ops: [MLOps, Docker, Kubernetes, Terraform, CloudFormation, Infrastructure as
+        Code, CI/CD, GitHub Actions, Observability, OpenTelemetry, Prometheus, Grafana,
+      vLLM, TGI, Triton, TensorRT-LLM, MLflow, Weights & Biases]
+    databases: [Vector Databases, FAISS, pgvector, Pinecone, Weaviate, PostgreSQL,
+      BigQuery, Snowflake]
     domains: []
-    languages: [Python, TypeScript]
-    ml: [Hugging Face, DPO]
-    cloud: []
-    genai: [OpenAI API, Anthropic API, Llama, LangChain, LlamaIndex, RAG, Function
-        Calling, LoRA]
-    data: [Ray, Airflow, Kafka]
-    other: []
-    ops: [vLLM, TensorRT-LLM, MLflow, Weights & Biases, Ragas, promptfoo, Docker,
-      Kubernetes, Terraform, GitHub Actions, OpenTelemetry, Prometheus, Grafana]
-    web: [FastAPI, gRPC, React, Next.js]
-    databases: [FAISS, pgvector, Pinecone, Weaviate, PostgreSQL, BigQuery, Snowflake]
+    web: [FastAPI, gRPC, React, TypeScript, Next.js]
+    data: [Data Pipelines, Kafka, Ray, Airflow, Great Expectations]
+    genai: [RAG, LLMs, Prompt Engineering, LangChain, LlamaIndex, Function Calling,
+      OpenAI API, Anthropic API, Llama, Embeddings, LoRA, Guardrails, Llama Guard,
+      Hybrid Retrieval, Re-ranking, ColBERT, Cross-Encoders, Ragas, promptfoo, DeepEval]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8577082'
   location: New Delhi, IND
-  extracted_at: '2026-02-27T12:35:30.272582'
+  extracted_at: '2026-08-16T02:39:34.450016'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

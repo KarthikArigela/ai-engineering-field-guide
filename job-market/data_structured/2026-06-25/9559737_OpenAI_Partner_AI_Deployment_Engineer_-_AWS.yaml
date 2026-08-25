@@ -1,58 +1,58 @@
 company:
   name: OpenAI
-  stage: Late-stage (Private)
-  focus: AI research and deployment, LLM products
+  stage: null
+  focus: AI research and deployment company for general-purpose AI
 position:
   title: Partner AI Deployment Engineer - AWS
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing end-to-end GenAI architectures
-      leveraging OpenAI models and AWS services, building
-      prototypes/POCs/reference implementations for production-
-      scale AI systems, and establishing best practices for
-      scalable, secure GenAI deployments. While it has significant
-      partner-facing and strategic elements, the core technical
-      work centers on architecting and deploying AI applications
-      powered by LLMs, making it ai-first.
+      The role designs end-to-end GenAI architectures and hands-on
+      builds prototypes, POCs, and reference implementations
+      powered by OpenAI models, guiding enterprise customers to
+      production — a Forward Deployed Engineer pattern, which is
+      explicitly ai-first. The engineer shapes how the LLM-based
+      solutions are architected and deployed rather than merely
+      consuming an API or serving models another team built.
   responsibilities:
-  - Serve as senior technical counterpart to AWS field leadership, influencing joint
-    account strategy and technical direction for high-priority enterprise opportunities
-  - Lead technical strategy for large, ambiguous enterprise engagements, guiding customers
-    from ideation through architecture design, prototyping, and production deployment
-  - Design and communicate end-to-end AI architectures leveraging OpenAI and AWS services
-  - Build prototypes, POCs, and reference implementations to accelerate adoption of
-    OpenAI-powered GenAI solutions
-  - Enable AWS and partner ecosystems through scalable technical motions including
-    workshops, playbooks, reference architectures, and demos
-  - Develop reusable solution patterns and assets deployable independently by AWS
-    teams, GSIs, RSIs, and ISVs
-  - Act as technical decision-maker and escalation point, de-risking complex implementations
-  - Partner with Alliances, Product, Engineering, GTM, and Enablement teams to align
-    strategy and deliver field insights to inform product roadmap
+  - Serve as the primary senior technical counterpart to AWS field leadership (Solutions
+    Architects, Specialists, and Partner teams), influencing joint account strategy
+  - Lead technical strategy for large, ambiguous, high-stakes enterprise engagements,
+    guiding customers from ideation through architecture design, prototyping, and
+    production deployment
+  - Design end-to-end AI architectures leveraging OpenAI and AWS services, building
+    prototypes, POCs, and reference implementations
+  - Establish best practices for scalable, secure, and production-ready GenAI systems
+    designed for repeatability and partner-led delivery
+  - Enable AWS and partner ecosystems through workshops, playbooks, reference architectures,
+    and demos, developing reusable solution patterns deployable by GSIs, RSIs, and
+    ISVs
+  - Mentor and uplift AWS and partner technical teams toward self-sufficiency
+  - Act as a bridge between field and product, delivering customer insights to inform
+    roadmap and prioritization
   use_cases:
-  - Enterprise Generative AI application deployment on AWS
-  - Production-scale AI system architecture and implementation for complex enterprise
-    customers
-  - Partner-led and self-service GenAI solution delivery through AWS ecosystem
-  - Scalable, secure, and production-ready GenAI reference architectures and patterns
-  - Joint OpenAI-AWS customer engagement from ideation to production
+  - Production-scale enterprise deployment of OpenAI-powered generative AI applications
+  - Guiding enterprise customers from early experimentation to production AI systems
+  - Partner-led delivery of repeatable GenAI solution patterns across AWS, GSIs, RSIs,
+    and ISVs
+  - Safe and effective deployment of Generative AI systems for developers and enterprises
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [AWS]
+    languages: []
     ml: []
-    cloud: [AWS, AWS Bedrock, SageMaker]
-    genai: [OpenAI API, Generative AI architecture, RAG, Prompt Engineering]
-    data: []
-    other: [System Design, Enterprise architecture, Prototyping and POC development,
-      Technical consulting, Partner ecosystem enablement, C-level relationship management]
+    other: [System Design]
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, OpenAI API]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9559737'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:42:18.848637'
+  extracted_at: '2026-08-16T12:52:22.646356'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

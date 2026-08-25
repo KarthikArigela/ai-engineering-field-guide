@@ -1,0 +1,62 @@
+company:
+  name: Matrix Global Services
+  stage: null
+  focus: Global technology consulting and IT services company
+position:
+  title: Azure AI / ML Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The responsibilities centre on building and securing AI/ML
+      platform infrastructure: IaC (Terraform, ARM), CI/CD, Azure
+      networking, PKI, RBAC, and enabling service pipelines for
+      training and production models. GenAI frameworks (LangChain,
+      Semantic Kernel), RAG, and vector databases appear only as
+      knowledge requirements, and the security/governance work
+      around Generative AI is oversight rather than building evals
+      or guardrails. The deliverable is platform capacity and
+      compliance, not model behaviour, so this is ai-support.
+  responsibilities:
+  - Design and implement enterprise-grade data and AI/ML platform services across
+    Azure and GCP
+  - Apply an AIOps/MLOps mindset to enable AI/ML services and build pipelines for
+    training and production models
+  - Develop APIs, Webhooks, and platform orchestration code using Python, GitHub Actions,
+    and Terraform
+  - Write and maintain Azure Resource Manager (ARM) and Terraform templates
+  - Implement and support Azure security features (data protection, authentication,
+    RBAC) and manage PKI certificate handling for Azure PaaS services
+  - Troubleshoot Azure services, DNS, connectivity, NSGs, and routing, and automate
+    cloud operations using Azure CLI
+  - Support platform and analytics deployments via CI/CD pipelines while ensuring
+    adherence to internal security and compliance policies
+  - Partner with application development teams and business units to improve AI/ML
+    frameworks, tooling, and automation
+  use_cases:
+  - Enterprise AI/ML platform enablement and automation across Azure and GCP
+  - Secure, self-service AI/ML platform services in regulated industries such as financial
+    services
+  - Automated pipelines for model training and production deployment
+  - Generative AI service adoption including RAG-based solution patterns
+  - Cloud security, governance, and compliance for AI/ML workloads
+  skills:
+    genai: [LangChain, Semantic Kernel, RAG, Generative AI]
+    ml: [Machine Learning]
+    web: [APIs, Webhooks]
+    databases: [Vector Databases]
+    data: []
+    cloud: [Azure, Azure AI, GCP, Azure CLI, Azure Python SDK, RBAC, NSGs]
+    ops: [Terraform, Infrastructure as Code, ARM Templates, CI/CD, GitHub Actions,
+      AIOps, MLOps, DevOps]
+    languages: [Python]
+    domains: []
+    other: [PKI, DNS, Scrum]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8465071'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T01:32:46.116072'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,47 +1,48 @@
 company:
   name: OneMagnify
-  stage: unknown
-  focus: Marketing technology and business intelligence solutions
+  stage: null
+  focus: Marketing analytics and business intelligence solutions
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs including
-      optimization, evaluation frameworks, and fine-tuning. The
-      position directly builds and optimizes AI systems (LLM-
-      powered applications) and implements ML models, not just
-      supporting infrastructure.
+      The role shapes LLM behaviour directly: it builds LLM
+      evaluation frameworks to ensure output quality and optimizes
+      LLM accuracy in LLM-powered applications, which is
+      explicitly shaping. It also develops classical ML
+      (clustering for segmentation), and a role shaping both LLM
+      and classical ML systems is classified ai-first.
   responsibilities:
-  - Optimize LLM performance by maximizing accuracy and minimizing latency in LLM-powered
-    applications
-  - Implement robust LLM evaluation frameworks to ensure high-quality model outputs
-  - Build sophisticated clustering models for customer and product segmentation incorporating
-    complex business logic
-  - Design, build and maintain efficient data pipelines using SQL and Python DAGs
-  - Self-host and fine-tune LLMs as needed for specific use cases
-  - Apply advanced ML techniques including time series forecasting and dimension reduction
+  - Maximize accuracy and minimize latency of LLM-powered applications
+  - Implement robust LLM evaluation frameworks to ensure high-quality outputs
+  - Segment customers and products into meaningful clusters by incorporating complex
+    business logic into ML models
+  - Build and maintain efficient data pipelines using SQL and Python DAGs
+  - Self-host and fine-tune LLMs where needed
+  - Bridge Generative AI and actionable business intelligence
   use_cases:
-  - Customer segmentation and clustering
-  - Product segmentation and categorization
-  - LLM-powered business intelligence applications
-  - Market basket analysis
-  - Time series forecasting for business analytics
+  - Customer segmentation
+  - Product segmentation
+  - Business intelligence from Generative AI
+  - High-quality low-latency LLM-powered applications
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: [Clustering, Time Series Forecasting, Dimension Reduction, Market Basket Analysis]
     cloud: []
-    genai: [LLM Optimization, LLM Evaluation, LLMs, Fine-tuning LLMs, Self-hosting
-        LLMs]
-    data: [Airflow, Python DAGs, Spark, Alteryx]
+    languages: [Python, SQL]
+    ml: [Machine Learning, Clustering, Time Series Forecasting, Dimension Reduction,
+      Market Basket Analysis]
     other: []
-    ops: []
-    web: []
+    ops: [Self-Hosting LLMs]
     databases: []
+    domains: []
+    web: []
+    data: [Airflow, Data Pipelines, Spark, Alteryx]
+    genai: [LLMs, Generative AI, LLM Evaluation, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8582194'
   location: Chennai, IND
-  extracted_at: '2026-03-03T12:50:02.231536'
+  extracted_at: '2026-08-16T02:40:28.626272'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

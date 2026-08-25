@@ -1,20 +1,21 @@
 company:
   name: Circana
   stage: null
-  focus: Consumer intelligence and analytics platform
+  focus: Consumer and market intelligence analytics
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role focused on building
-      multiagent systems, implementing agentic AI platforms, and
-      working directly with LLMs, RAG, and agent frameworks
-      (LangChain, LangGraph, LlamaIndex). The role involves
-      prompt/context/memory engineering, building supervised
-      learning pipelines, and deploying production AI workflows,
-      which qualifies as ai-first.
+      The role leads development of multiagent orchestration
+      layers with LangChain and designs RAG, prompt engineering,
+      agent memory, and quality-improvement (self-
+      critique/evaluation) loops — directly shaping LLM agent
+      behaviour and output quality. Since LLM and agent components
+      are central to the deliverables, it classifies as ai-first.
   responsibilities:
+  - Own end-to-end technical implementation of the Agentic AI onboarding platform
+    in partnership with the Head of AI New Frontiers
   - Lead development of multiagent orchestration layers using Python, LangChain, and
     generative AI models
   - Translate client data onboarding needs into reusable playbooks, workflows, and
@@ -27,35 +28,36 @@ position:
     PySpark
   - Serve as the technical SME for client use cases, advising on feasibility, architecture,
     and solution patterns
-  - Mentor junior and senior engineers; drive adoption of best-in-class LLM engineering
-    and prompt/context/memory engineering practices
-  - Engage directly with clients to understand business needs and communicate technical
-    concepts clearly
+  - Mentor junior and senior engineers and drive adoption of LLM, prompt, context,
+    and memory engineering practices
   use_cases:
-  - Agentic AI onboarding platform for automated client onboarding
-  - Multiagent systems for data ingestion and workflow automation
-  - Supervised learning pipelines converting analyst feedback into knowledge
-  - Enterprise data processing and ETL workflows using Spark
-  - Vector database integration for retrieval optimization and grounding
-  - Knowledge graph implementation for data relationship management
+  - Client data onboarding automation via an agentic AI platform
+  - Multiagent orchestration for production-grade AI workflows
+  - Supervised learning loops converting analyst corrections into durable knowledge
+  - Large-scale Spark-based data processing supporting advanced analytics and machine
+    learning
+  - Reusable playbooks, workflows, and accelerators for client engagements
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: []
-    genai: [LangChain, LangGraph, LlamaIndex, AutoGen, RAG, Prompt Engineering, Function
-        Calling]
-    data: [Spark, PySpark, Data Pipelines]
-    other: []
-    ops: [CI/CD, Git, MLOps, LLMOps, Testing]
+    languages: [Python, SQL]
+    ml: [Machine Learning, Supervised Learning]
+    other: [Context Studio]
+    ops: [CI/CD, Git, Observability, Monitoring, LLMOps, MLOps, Distributed Systems]
+    databases: [Vector Databases, Graph Databases, Knowledge Graphs, Neo4j]
+    domains: []
     web: [APIs]
-    databases: [Vector Databases, Neo4j]
+    data: [Spark, PySpark, Data Pipelines, Data Modeling, Data Governance]
+    genai: [LangChain, LangGraph, LlamaIndex, AutoGen, RAG, Function Calling, Prompt
+        Engineering, Multi-Agent Systems, Agentic Workflows, Generative AI, LLMs,
+      Agent Memory, Reranking]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9434449'
   location: Pune, IND
   locations:
   - Pune, IND
   - Bengaluru, IND
-  extracted_at: '2026-05-29T09:05:03.415410'
+  extracted_at: '2026-08-16T11:22:44.440523'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

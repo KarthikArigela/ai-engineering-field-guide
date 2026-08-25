@@ -1,47 +1,52 @@
 company:
   name: SWORD Health
-  stage: Series D or later (raised $500M+)
+  stage: Raised $500M+ backed by Khosla Ventures, General Catalyst, Transformation
+    Capital, and Founders Fund
   focus: |-
-    AI-powered healthcare platform for pain, women's health,
+    AI-first digital healthcare platform for pain, women's,
     movement, and mental health
 position:
   title: Senior AI Infrastructure Engineer (Europe based - Remote)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role is directly working on AI systems - optimizing LLM
-      inference, deploying real-time voice AI agents, and serving
-      ML models in production. While it's infrastructure-focused,
-      the work involves hands-on AI deployment, inference
-      optimization, and GPU orchestration which is
-      building/deploying AI systems, not just supporting them.
+      The role owns the infrastructure that runs models in
+      production: optimizing LLM inference, deploying voice AI
+      agents, scaling GPU clusters, model serving at scale, and
+      GPU workload orchestration. The deliverable is capacity,
+      latency, and reliability rather than model behaviour - there
+      is no mention of prompt design, retrieval, agent-flow
+      design, training, or eval work. Per the serving/hosting edge
+      case, hosting and scaling models the person does not shape
+      is ai-support even when deeply AI-specific.
   responsibilities:
-  - Own and build infrastructure for deploying and serving AI models in production
-    at scale
-  - Optimize LLM inference performance for real-time conversational AI applications
-  - Deploy and scale real-time voice AI agents for healthcare interactions
-  - Design and manage GPU clusters serving millions of AI sessions
-  - Build systems for real-time computer vision inference for movement analysis
-  - Enable low-latency voice interactions and video processing for AI agents
-  - Implement model serving infrastructure with focus on speed, scale, and reliability
+  - Own the production AI infrastructure that brings Sword Health's AI models to life
+    in the AI Care platform
+  - Optimize LLM inference for speed and scale across millions of member sessions
+  - Deploy real-time voice AI agents and enable low-latency voice interactions
+  - Scale GPU clusters and orchestrate GPU workloads for AI serving
+  - Design infrastructure powering real-time computer vision and video processing
+    for movement analysis
+  - Serve large language models for conversational AI at production scale
   use_cases:
-  - Real-time computer vision for movement analysis in physical therapy
-  - Conversational AI for patient interactions and health guidance
-  - Voice AI agents for healthcare delivery and member engagement
-  - AI-powered pain care assessment and treatment
-  - Women's health, movement health, and mental health AI applications
+  - AI-first digital healthcare delivery via the AI Care platform
+  - Real-time computer vision for movement analysis in movement health and pain care
+  - Conversational AI powering member-facing healthcare sessions
+  - Real-time voice AI agents for member interactions
+  - Reducing healthcare costs for payers, self-insured employers, and national health
+    systems
   skills:
-    domains: [Computer Vision]
-    languages: [Python]
-    ml: [Real-time video processing, CUDA, PyTorch]
-    cloud: [AWS, GCP]
-    genai: [Voice AI]
-    data: []
+    cloud: []
+    languages: []
+    ml: [Machine Learning]
     other: []
-    ops: [LLM inference optimization, Model Deployment, GPU orchestration, Docker,
-      Kubernetes, TensorRT, vLLM, Triton]
-    web: []
+    ops: [Model Deployment, GPU Clusters, GPU Workload Orchestration, Real-Time Video
+        Processing]
     databases: []
+    domains: [Computer Vision]
+    web: []
+    data: []
+    genai: [LLMs, AI Agents, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -52,4 +57,6 @@ meta:
   - DEU
   - Porto, PRT
   remote: true
-  extracted_at: '2026-03-27T15:42:43.106269'
+  extracted_at: '2026-08-16T04:18:42.749202'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

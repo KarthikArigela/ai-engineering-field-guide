@@ -1,62 +1,63 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: AI and Application development Engineer- Assistant Vice President
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a traditional middleware/application engineering
-      role at Citi focused on Java, Spring Boot, and database
-      technologies. While the job heavily mentions AI, the AI
-      usage is as productivity tools (Copilot, Devin, Claude) to
-      assist in software development — not building, training,
-      fine-tuning, or deploying AI/ML models. The core work
-      remains application systems development augmented by AI
-      tools.
+      This is a middleware Java/Spring Boot engineering role where
+      AI is used as a productivity tool: code generation
+      assistants (Copilot, Devin, Codex), AI-assisted test
+      generation, log analysis, and developer workflow
+      improvements. The person never shapes a model's behavior —
+      no prompt design, retrieval, agent orchestration, training,
+      or evals as a deliverable — they use AI coding assistants to
+      do the engineering work, which is explicitly ai-support.
   responsibilities:
-  - Design, develop, and maintain complex middleware applications using Java and Spring
-    Boot, leveraging AI-powered code generation tools to accelerate development
+  - Lead the design, development, and implementation of complex middleware applications
+    using Java and Spring Boot, leveraging AI-powered code generation tools to accelerate
+    delivery
   - Architect and optimize database interactions with Oracle, SQL, and MongoDB, ensuring
     high performance and data integrity
-  - Drive the adoption and continuous improvement of CI/CD pipelines for rapid and
-    reliable software delivery, integrating AI for intelligent test generation and
-    predictive failure analysis
-  - Collaborate with cross-functional teams to define requirements, design solutions,
-    and deliver high-quality software
-  - Mentor and provide technical guidance to junior and mid-level software engineers,
-    fostering AI-driven development practices
+  - Drive adoption and continuous improvement of CI/CD pipelines, integrating AI for
+    intelligent test case generation and predictive failure analysis
+  - Collaborate with cross-functional teams including product management, QA, and
+    operations to define requirements and deliver high-quality software
+  - Mentor junior and mid-level engineers and foster adoption of AI-driven development
+    practices
   - Research and experiment with emerging AI technologies to identify opportunities
-    for enhancing developer productivity and software quality
-  - Participate in code reviews utilizing AI-powered code analysis tools to pre-scan
-    for bugs, vulnerabilities, and performance issues
-  - Troubleshoot and resolve complex technical issues, implementing AI-driven anomaly
-    detection and automated incident response
+    for developer productivity and software quality gains
+  - Participate in code reviews and enforce coding standards, architecture guidelines,
+    and security measures
+  - Troubleshoot complex technical issues and ensure stability and performance of
+    production systems
   use_cases:
-  - Middleware application development for enterprise banking systems
-  - Database performance optimization and scaling for financial data
-  - AI-augmented software development lifecycle including code generation, testing,
-    and debugging
-  - CI/CD pipeline automation with intelligent test generation and predictive failure
-    analysis
-  - Production system monitoring with AI-driven anomaly detection and root cause identification
+  - Middleware applications and enterprise system integration
+  - AI-assisted software development and code generation
+  - Database query optimization and schema design
+  - Intelligent CI/CD test generation and failure analysis
+  - AI-driven production monitoring, anomaly detection, and root cause analysis
   skills:
-    domains: []
-    languages: [Java]
-    ml: []
     cloud: []
-    genai: [GitHub Copilot, Anthropic API, Devin, Codex, Prompt Engineering]
-    data: []
-    other: []
-    ops: [Jenkins, GitLab CI, GitHub Actions, Maven, Gradle, Docker, Kubernetes, Git,
-      JUnit, Mockito]
+    languages: [Java, SQL]
+    ml: [Machine Learning]
+    other: [JUnit, Mockito]
+    ops: [CI/CD, Jenkins, GitLab CI, GitHub Actions, Maven, Gradle, Docker, Kubernetes,
+      Git]
+    databases: [Oracle, MongoDB, NoSQL]
+    domains: []
     web: [Spring Boot, Spring MVC, Spring Data JPA, Spring Security, REST APIs, Microservices,
       SOAP, XML, JSON]
-    databases: [Oracle, SQL, MongoDB]
+    data: []
+    genai: [Prompt Engineering, GitHub Copilot, Anthropic API, Codex, Devin, Anti
+        Gravity]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9213592'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:41:21.339096'
+  extracted_at: '2026-08-16T12:36:50.636713'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,55 @@
 company:
   name: Uniphore
   stage: null
-  focus: |-
-    B2B AI-native company providing multimodal enterprise AI
-    solutions combining Generative AI, Knowledge AI, and Emotion
-    AI
+  focus: B2B enterprise AI-native customer experience platform
 position:
   title: Senior Softwae Engineer (Java/Go with AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience building LLM-based
-      features including RAG, vector search, and working with
-      agent frameworks like LangChain and LangGraph. The position
-      involves directly implementing and deploying AI/ML services,
-      not just supporting infrastructure for others' AI work.
+      The role explicitly requires building and integrating LLM-
+      based features including RAG, vector search, and agent
+      frameworks (LangChain, LangGraph), which means designing
+      retrieval and agent flows — direct model-behaviour shaping
+      per Step 1. Since LLM/agent components are central, this
+      maps to ai-first despite the full-stack SaaS engineering
+      framing.
   responsibilities:
   - Design, develop, test, and maintain scalable backend and frontend components for
     enterprise-grade SaaS applications
   - Translate product and business requirements into clear technical designs and implementation
     plans
-  - Contribute to system and API design, ensuring maintainability, performance, and
+  - Contribute to system and API design ensuring maintainability, performance, and
     scalability
-  - Write high-quality, well-documented, and testable code following best practices
-  - Participate in peer code reviews and provide constructive feedback
-  - Collaborate effectively with cross-functional and multi-region teams to deliver
-    features within agreed timelines
+  - Build and integrate LLM-based features including RAG and vector search using agent
+    frameworks
+  - Write high-quality, well-documented, testable code and participate in peer code
+    reviews
+  - Collaborate with cross-functional, distributed, and multi-region teams to deliver
+    features on time
   - Support and improve existing systems through refactoring, optimization, and bug
     fixes
-  - Build and integrate LLM-based features including RAG and vector search
+  - Follow Agile development practices and contribute to continuous improvement of
+    engineering processes
   use_cases:
-  - Enterprise-grade SaaS applications with AI capabilities
-  - Customer experience optimization through multimodal AI
-  - Voice, video, and text data capture and analysis
-  - LLM-powered features with RAG and vector search
-  - Workflow automation and AI co-pilot systems
+  - Enterprise-grade SaaS platform infusing AI into customer-facing business processes
+  - Multimodal analysis of voice, video, and text customer interaction data
+  - LLM-powered features built on RAG and vector search for enterprise applications
+  - Customer-centered co-pilot and workflow automation combining Generative AI and
+    Knowledge AI
+  - Emotion AI for understanding customer and employee experiences
   skills:
-    domains: []
-    languages: [Java, Python, Go, Rust]
-    ml: ['LLM fine-tuning (LoRA, QLoRA)']
     cloud: []
-    genai: [MCP, RAG, LangChain, LangGraph]
+    languages: [Java, Python, Go, Rust]
+    ml: []
+    other: [Agile, System Design]
+    ops: [Distributed Systems, Linux, MLOps, LLMOps, Observability]
+    databases: [PostgreSQL, MongoDB, Vector Search, Redis, ClickHouse, NoSQL, SQL,
+      Graph Databases, Time-Series Databases]
+    domains: []
+    web: [REST APIs, WebSockets, gRPC, Microservices, Full-Stack Development]
     data: [Kafka]
-    other: [Microservices, Distributed Systems]
-    ops: [MLOps/LLMOps, Linux]
-    web: [REST APIs, WebSockets, gRPC]
-    databases: [PostgreSQL, MongoDB, Vector Search, Redis, ClickHouse]
+    genai: [MCP, LLMs, RAG, LangChain, LangGraph, Fine-Tuning, LoRA]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +58,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-03T11:12:52.089668'
+  extracted_at: '2026-08-16T00:56:45.457654'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

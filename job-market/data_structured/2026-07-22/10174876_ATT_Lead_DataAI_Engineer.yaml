@@ -1,58 +1,57 @@
 company:
   name: AT&T
-  stage: Public
-  focus: Telecommunications and technology services
+  stage: null
+  focus: Telecommunications, connectivity, and technology services
 position:
   title: Lead Data/AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building, integrating,
-      fine-tuning, and deploying LLM-based AI systems including
-      prompt engineering, RAG pipelines, agentic workflows with
-      LangGraph, and multi-agent orchestration. The engineer is
-      directly architecting and deploying AI solutions, not just
-      supporting infrastructure for others.
+      The role directly shapes LLM behaviour: it designs,
+      optimizes, and evaluates prompts, architects RAG and context
+      management strategies, builds agent workflows with
+      LangGraph, fine-tunes LLMs, and builds LLM evals and
+      guardrails. LLMs and agents are the core of the work, so it
+      is ai-first.
   responsibilities:
-  - Design, optimize, and evaluate prompts for LLMs to achieve precise and contextually
+  - Design, optimize, and evaluate prompts for LLMs to achieve precise, contextually
     appropriate outputs across diverse use cases
-  - Architect and implement dynamic context management strategies including session
-    memory, RAG, and user personalization
-  - Integrate, fine-tune, and orchestrate LLMs within Python-based applications leveraging
-    APIs and custom pipelines
+  - Architect dynamic context management strategies including session memory, retrieval-augmented
+    generation, and user personalization to enhance agent performance
   - Build and manage complex conversational and agent workflows using frameworks like
-    LangGraph for multi-agent or multi-step solutions
-  - Develop and maintain robust backend services, APIs, and optionally front-end interfaces
-    for end-to-end AI applications
-  - Architect and optimize robust data pipelines ensuring data quality and integrity
-    using statistical procedures and AI techniques
+    LangGraph to support multi-agent and multi-step solutions
+  - Integrate, fine-tune, and orchestrate LLMs within Python-based applications for
+    scalable production deployment
+  - Develop and maintain backend services and APIs to deliver end-to-end AI applications
   - Implement testing, monitoring, and evaluation pipelines to continuously improve
-    prompt effectiveness and agent performance
-  - Evaluate and select optimal technologies for cloud and on-premise deployments
-    with focus on scalability and cost optimization
+    prompt effectiveness, context handling, and agent performance
+  - Architect and optimize robust data pipelines, translating AI use case requirements
+    into data models and ensuring data integrity through statistical quality procedures
+  - Collaborate with product, data science, and engineering teams, mentor peers, and
+    advocate best practices in DevOps and secure, ethical AI automation
   use_cases:
-  - Intelligent automation of complex enterprise workflows using autonomous AI agents
-  - Context-rich conversational AI with session memory and user personalization
-  - Retrieval-Augmented Generation for knowledge retrieval and grounding
-  - Multi-agent orchestration for multi-step organizational processes
-  - Smarter operations through adaptive digital services driven by LLMs
-  - Automated data pipelines with AI-driven quality assurance
+  - Autonomous AI agents that automate complex enterprise workflows
+  - Intelligent automation driving organizational productivity and cost savings
+  - Context-rich conversational agents with session memory and personalization
+  - RAG-based knowledge retrieval and grounding for agent answers
+  - Smarter operations and adaptive digital services via seamless data pipelines
   skills:
-    genai: [LLMs, Prompt Engineering, RAG, LangGraph, Agentic Workflows, AI Agents,
-      Multi-Agent Systems, OpenAI API, Anthropic API, Fine-Tuning, LoRA, LLM Evaluation,
-      Context Engineering, Guardrails, Embeddings, Semantic Search, Structured Outputs]
-    ml: [scikit-learn, XGBoost, Reinforcement Learning, Machine Learning, Feature
-        Engineering, NumPy]
-    web: [FastAPI, Flask, REST APIs, GraphQL, Microservices]
-    databases: [Vector Search, NoSQL, Snowflake]
-    data: [Spark, Kafka, Databricks, Data Pipelines]
     cloud: []
-    ops: [Docker, CI/CD, Monitoring, Model Deployment]
     languages: [Python, Java, Scala, SQL]
+    ml: [Machine Learning, Statistics, scikit-learn, XGBoost, LightGBM, CatBoost,
+      Feature Engineering, Model Evaluation]
+    other: [Visual Studio, A/B Testing]
+    ops: [Docker, CI/CD, DevOps, Model Monitoring]
+    databases: [Snowflake, NoSQL, Vector Search]
     domains: []
-    other: [A/B Testing, GitHub Copilot, Cursor]
+    web: [FastAPI, Flask, REST APIs, GraphQL, Microservices]
+    data: [Spark, Kafka, Databricks, Data Pipelines]
+    genai: [LLMs, Prompt Engineering, RAG, LangGraph, AI Agents, Agentic Workflows,
+      OpenAI API, Anthropic API, Fine-Tuning, Context Engineering, Embeddings, LLM
+        Evaluation, LLM-as-a-Judge, Guardrails, LoRA, DPO, GitHub Copilot, Cursor,
+      Windsurf]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10174876'
   location: Bratislava, SVK
@@ -60,4 +59,6 @@ meta:
   - Bratislava, SVK
   - Burari, IND
   - Brno, CZE
-  extracted_at: '2026-07-22T13:32:58.261256'
+  extracted_at: '2026-08-16T17:34:34.105190'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

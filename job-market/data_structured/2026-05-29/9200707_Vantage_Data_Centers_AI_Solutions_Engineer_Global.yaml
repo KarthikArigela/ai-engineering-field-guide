@@ -1,62 +1,63 @@
 company:
   name: Vantage Data Centers
-  stage: Public
-  focus: Data center infrastructure and colocation services
+  stage: null
+  focus: |-
+    Data center development and operations for hyperscalers and
+    cloud providers
 position:
   title: AI Solutions Engineer, Global
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on technical role responsible for building
-      AI-powered prototypes, implementing agentic systems, RAG
-      applications, and custom Copilots using Azure OpenAI,
-      LangChain, and Semantic Kernel. The Solutions Engineer
-      directly develops production-quality AI solutions
-      integrating ML models, NLP, and intelligent automation
-      rather than supporting or enabling others' AI work.
+      The role directly shapes LLM behavior: it requires prompt
+      engineering, RAG, agentic system design, and building custom
+      Copilots with Azure OpenAI, Copilot Studio, LangChain, and
+      Semantic Kernel. Since LLM and agent components are central
+      to the work, it is ai-first.
   responsibilities:
   - Design and deliver AI-powered prototypes within 6-week sprint cycles, producing
     production-quality code that demonstrates business value
-  - Build intelligent solutions leveraging Microsoft 365 ecosystem including Azure
-    AI Services, Azure OpenAI, Copilot Studio, and Power Platform
-  - Develop AI solutions using Python, TypeScript/JavaScript with ML models, agentic
-    systems, NLP, and intelligent automation
-  - Integrate Azure AI services such as Azure OpenAI, Azure Machine Learning, Cognitive
-    Services, and Document Intelligence into enterprise-ready solutions
-  - Build custom Copilots using Copilot Studio for conversational AI, workflow automation,
-    and decision support
+  - Build intelligent solutions on the Microsoft 365 ecosystem using Azure AI Services,
+    Azure OpenAI, Copilot Studio, and Power Platform
+  - Develop AI solutions with Python and TypeScript including ML models, agentic systems,
+    NLP, and intelligent automation
+  - Build custom Copilots using Copilot Studio to support conversational AI, workflow
+    automation, and decision support within Microsoft 365
   - Design data pipelines and ETL processes to prepare enterprise data for AI use,
     ensuring data quality, privacy, and performance
   - Implement APIs, webhooks, and integrations connecting AI solutions with enterprise
-    platforms
-  - Apply SDLC best practices including version control, code reviews, automated testing,
-    and CI/CD within rapid prototyping environment
+    platforms such as Microsoft 365, SharePoint, Power Platform, and Salesforce
+  - Produce technical documentation and support handoff to Development teams through
+    architecture walkthroughs and knowledge transfer
+  - Demonstrate prototypes to stakeholders, translating technical capabilities into
+    business value and incorporating feedback
   use_cases:
-  - Conversational AI and intelligent Copilots for Microsoft 365 collaboration and
-    productivity
-  - Data center operations optimization through AI-powered automation and decision
-    support
-  - Enterprise document intelligence and knowledge management using Azure AI services
-  - Workflow automation and process optimization across operational and business functions
-  - Intelligent automation solutions that reduce routine work and enable strategic
-    innovation
+  - Conversational AI copilots for workflow automation and decision support within
+    Microsoft 365
+  - Agentic systems and intelligent automation for business processes
+  - Document processing and NLP over enterprise data using Azure AI services
+  - Data pipelines and ETL preparing enterprise data for AI consumption
+  - Rapid prototyping of AI solutions demonstrating business value for data center
+    operations
   skills:
-    domains: []
+    cloud: [Azure, Azure AI Services, Azure ML, Cognitive Services, Document Intelligence,
+      Azure Functions, Logic Apps, Power Platform]
     languages: [Python, TypeScript, JavaScript]
-    ml: [NLP]
-    cloud: [Azure OpenAI, Azure AI Services, Azure ML, Azure Functions, Power Platform,
-      Logic Apps]
-    genai: [LangChain, Semantic Kernel, Copilot Studio, RAG, Prompt Engineering, Agentic
-        Workflows]
-    data: []
-    other: []
-    ops: [Git, CI/CD, Docker]
-    web: [Microsoft Graph, REST APIs, OAuth, Webhooks]
+    ml: [Machine Learning, NLP]
+    other: [Microsoft 365, SharePoint, Microsoft Teams, Salesforce, Halo]
+    ops: [CI/CD, Git, Code Review, Containerization, Infrastructure as Code]
     databases: []
+    domains: []
+    web: [APIs, Webhooks, REST APIs, OAuth, Microsoft Graph]
+    data: [Data Pipelines]
+    genai: [Azure OpenAI, Copilot Studio, RAG, Prompt Engineering, LangChain, Semantic
+        Kernel, Agentic Workflows, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9200707'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:56:41.713350'
+  extracted_at: '2026-08-16T09:28:04.358992'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

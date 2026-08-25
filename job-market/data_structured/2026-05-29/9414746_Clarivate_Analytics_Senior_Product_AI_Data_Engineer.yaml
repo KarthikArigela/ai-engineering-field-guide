@@ -1,57 +1,61 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: |-
-    Analytics, data, and insights for Life Sciences and
-    Healthcare
+  stage: null
+  focus: Data and analytics for life sciences and healthcare
 position:
   title: Senior Product AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a data architecture and engineering position
-      focused on building data platforms and pipelines that ENABLE
-      AI/ML workloads, not on building, training, or deploying
-      models directly. The responsibilities emphasize dimensional
-      modeling, ETL/ELT pipelines, data governance, and creating
-      AI-ready data infrastructure for downstream teams to use.
+      This is a data engineering/architecture role: the person
+      builds AI-ready data platforms, ETL/ELT pipelines,
+      dimensional models, and curated datasets that feed others'
+      analytics and AI/ML workloads. There is no shaping of model
+      behavior (no prompting, RAG, agent design, training, or
+      output evaluation), so per the dataset/pipeline rule it is
+      ai-support.
   responsibilities:
   - Define and evolve enterprise-level product data architecture across multiple product
     lines, ensuring scalability, reliability, and AI/ML readiness
   - Architect scalable ETL/ELT pipelines and distributed data workflows for analytics,
     AI, and product intelligence
-  - Develop and enforce dimensional data modeling standards (star schemas, snowflake
-    schemas) across the organization
-  - Design and maintain fact and dimension tables, ensuring proper grain, SCD handling,
+  - Develop and enforce dimensional data modeling standards (star and snowflake schemas)
+    across the organization
+  - Design and maintain fact and dimension tables with proper grain, SCD handling,
     hierarchical dimensions, and high-performance queries
   - Establish data architecture principles, naming conventions, and best practices
     for ETL/ELT, event tracking, and AI pipelines
+  - Serve as the technical authority guiding architecture decisions to meet product,
+    platform, and AI requirements
   - Curate and validate datasets for machine learning, experimentation, and advanced
     analytics
   - Establish feature store frameworks and reusable AI data pipelines across multiple
     products
   use_cases:
-  - Life Sciences and Healthcare analytics for global pharma and biotech
-  - Enterprise-grade data platforms supporting AI-ready data pipelines
-  - Dimensional modeling for analytics and business intelligence
-  - Feature store frameworks for machine learning and advanced analytics
-  - Event-driven data architectures for product intelligence
+  - AI/ML-ready enterprise data platforms for Life Sciences and Healthcare products
+  - Analytics and product intelligence pipelines supporting multiple product lines
+  - Curated datasets for machine learning experimentation and advanced analytics
+  - Feature stores and reusable AI data pipelines across multiple products
+  - Event-driven and semi-structured data (logs, clickstream, JSON) feeding dimensional
+    analytics
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Feature Store]
     cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Databricks, dbt, Airflow, Fivetran, Segment, Power BI, Tableau, Looker,
-      Data Pipelines, Dimensional Modeling, Star Schema, Snowflake Schema, Data Architecture,
-      Distributed Systems, JSON, Event-driven Architecture, Data Governance]
-    other: []
+    languages: [SQL, Python]
+    ml: [Machine Learning, Feature Stores]
+    other: [Data Architecture, Power BI, Tableau, Looker, SAP BusinessObjects, Event-Driven
+        Architecture, Life Sciences Analytics]
     ops: []
-    web: []
-    databases: [Snowflake, BigQuery]
+    databases: [Relational Databases, Snowflake, BigQuery]
+    domains: []
+    web: [JSON]
+    data: [Data Engineering, Dimensional Modeling, Data Pipelines, Databricks, dbt,
+      Airflow, Fivetran, Segment, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9414746'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:05:22.357994'
+  extracted_at: '2026-08-16T11:03:04.265989'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

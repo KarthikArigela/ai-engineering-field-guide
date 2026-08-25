@@ -1,54 +1,50 @@
 company:
   name: Deel
-  stage: Series B+ (implied from $17.3B valuation and $1B ARR)
-  focus: Global payroll and HR platform with AI-powered tools
+  stage: null
+  focus: Global payroll and HR platform for distributed teams
 position:
   title: Back-End Engineer, AI
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a Backend Engineer role that USES AI tools (Claude)
-      as a development accelerator for shipping features faster.
-      The role focuses on building backend solutions, APIs,
-      databases, and infrastructure for a payroll/HR platform -
-      not building or deploying AI models. While it mentions
-      shipping AI products and agents, the core work is software
-      engineering with AI assistance rather than working directly
-      on AI/ML systems.
+      Although much of the posting frames AI as a coding co-pilot
+      (using Claude to generate code, which alone would be ai-
+      support), the responsibilities explicitly include building
+      and shipping AI products, workflows, and agents, and the
+      qualifications require having shipped real AI products.
+      Building agent workflows makes the AI itself part of the
+      deliverable, which means the engineer shapes model-driven
+      behavior, pointing to ai-first.
   responsibilities:
-  - Work closely with Product Managers, Frontend Engineers, Designers, and QA professionals
-    to understand requirements, scope features, and create seamless experiences
-  - Use AI coding tools like Claude to accelerate feature development—generating code,
-    handling boilerplate, and writing scaffolding
+  - Collaborate with Product Managers, Frontend Engineers, Designers, and QA to understand
+    requirements, scope features, and create seamless experiences
+  - Use AI coding tools like Claude to accelerate feature development, generating
+    code, boilerplate, and scaffolding while critically reviewing all AI-generated
+    code
   - Build and ship AI products, workflows, and agents
-  - Collaborate to develop robust new features, APIs, databases, and infrastructure.
-    Help find and fix bugs at Deel Speed while maintaining high-quality standards
+  - Provide technical input across the full software development lifecycle, including
+    architecture decisions, design feedback, and deployment strategy
+  - Develop robust new features, APIs, databases, and infrastructure while finding
+    and fixing bugs quickly
   - 'Ship features end-to-end with ownership: design, develop, test, deploy, monitor,
     and iterate'
-  - Ensure top-tier products and services through quality engineering, rigorous testing,
-    and attentive, customer-focused development
-  - Communicate constantly with cross-functional teams. Explain technical constraints
-    to non-technical stakeholders. Translate requirements into solutions
-  - Unblock teams by answering questions clearly, debugging issues fast, and proposing
-    solutions to ambiguous problems
+  - Communicate constantly with cross-functional teams, explain technical constraints
+    to non-technical stakeholders, and unblock teams on ambiguous problems
   use_cases:
-  - AI-accelerated development workflows using Claude for code generation and scaffolding
-  - Backend API development for global payroll and HR platform
-  - Database design and optimization for multi-country HR data
-  - AI-powered tools and agents for HR and payroll workflows
-  - Infrastructure development supporting 150+ countries
-  - Feature development for compliance, benefits, and worker management
+  - AI-accelerated backend feature development for a global payroll and HR platform
+  - AI products, workflows, and agents for HR and payroll users
+  - Scalable production-grade features serving users across 150+ countries
   skills:
-    domains: []
-    languages: [Node.js, Python]
-    ml: []
     cloud: []
-    genai: [Anthropic API, Prompt Engineering]
-    data: []
-    other: []
+    languages: [Python, Node.js]
+    ml: []
+    other: [Sequelize, TypeORM]
     ops: []
-    web: [Sequelize, TypeORM]
-    databases: [PostgreSQL, SQL, NoSQL]
+    databases: [SQL, NoSQL, PostgreSQL]
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [Anthropic API, AI Agents, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
@@ -68,4 +64,6 @@ meta:
   - ROU
   - IRL
   remote: true
-  extracted_at: '2026-05-29T08:57:05.063230'
+  extracted_at: '2026-08-16T09:48:24.568465'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

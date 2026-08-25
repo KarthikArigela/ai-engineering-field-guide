@@ -1,0 +1,57 @@
+company:
+  name: Version 1
+  stage: null
+  focus: Technology consulting and digital transformation services
+position:
+  title: Senior AI Backend Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role applies prompt engineering and function calling
+      itself when wiring LLM, embedding, and RAG-based
+      capabilities into application features, which is shaping
+      model behaviour at the application level. Although it mostly
+      consumes an internal AI platform, it writes prompts and
+      reasons about AI output quality rather than only moving
+      data.
+  responsibilities:
+  - Design, build, and maintain backend services and REST APIs that power Galaxy products
+  - Design data models and schemas and work with relational and other data stores
+  - Integrate backend services with Galaxy's AI Suite (Bedrock, AgentCore, SageMaker-based
+    APIs)
+  - Wire LLM, embedding, and RAG-based capabilities from the AI Suite into application
+    features
+  - Apply prompt engineering and function calling at the application level for AI-powered
+    features
+  - Write automated tests and maintain CI/CD pipelines for reliable deployments
+  - Diagnose and resolve production issues related to latency, reliability, and data
+    quality
+  - Partner with full stack engineers, the AI Platform team, and data teams to deliver
+    features end-to-end
+  use_cases:
+  - Backend services powering financial products for institutional and individual
+    clients
+  - LLM, embedding, and RAG-based features wired into product functionality
+  - Generative and agentic AI capabilities served through an internal AI Suite platform
+  - AI-powered search and retrieval features using vector databases
+  - Reliable production AI features with quality checks from a product perspective
+  skills:
+    genai: [Generative AI, LLMs, RAG, Embeddings, Prompt Engineering, Function Calling]
+    ml: []
+    web: [REST APIs, OAuth]
+    databases: [PostgreSQL, pgvector]
+    data: [Databricks]
+    cloud: [AWS Bedrock, AWS, AWS Lambda, API Gateway, AWS S3, CloudWatch, SageMaker]
+    ops: [CI/CD, Automated Testing, Distributed Systems, Kubernetes, Terraform, Docker,
+      Jenkins, Observability, Monitoring]
+    languages: [Python]
+    domains: []
+    other: [Financial Services]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10654242'
+  location: Mumbai, IND
+  extracted_at: '2026-08-25T11:07:27.128474'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

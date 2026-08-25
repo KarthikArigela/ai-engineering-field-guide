@@ -1,53 +1,58 @@
 company:
   name: Scorpion Enterprises
   stage: null
-  focus: Technology and services for local businesses
+  focus: Marketing technology and services for local businesses
 position:
   title: Senior AI Software Engineer, Python
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role directly involves building and operating LLM
-      orchestration workloads, LLM inference pipelines, and the
-      runtime infrastructure for real-time AI processing. While it
-      leans heavily on infrastructure and reliability engineering,
-      the engineer is hands-on with LLM inference infrastructure
-      and orchestration, making it ai-first.
+      The role builds and operates reliable, observable, scalable
+      infrastructure for LLM orchestration workloads —
+      backpressure, idempotency, state management, tracing, and
+      service boundaries — within an established architecture.
+      There is no evidence of shaping model behavior: no prompt
+      design, retrieval/RAG design, fine-tuning, or evals. The
+      deliverable is runtime reliability and capacity, not model
+      output quality, so this is ai-support.
   responsibilities:
-  - Own reliability of the event-driven messaging layer including backpressure management,
+  - Own reliability of the event-driven messaging layer, including backpressure management,
     idempotency, dead-letter handling, and retry strategies
-  - Build and operate infrastructure that runs LLM orchestration workloads at scale
-  - Own the operational data layer for the CI runtime including state management,
-    session persistence, and real-time data access patterns
-  - Own observability for the CI platform including structured logging, distributed
+  - Build and operate the infrastructure that runs LLM orchestration workloads at
+    scale
+  - Own the operational data layer for the Conversational Intelligence runtime, including
+    state management, session persistence, and real-time data access patterns
+  - Own observability for the CI platform, including structured logging, distributed
     tracing with OpenTelemetry, and error tracking with Sentry
-  - Maintain and harden interfaces between CI and downstream platforms including contract
-    testing, versioning, and failure handling
+  - Maintain and harden interfaces between CI and downstream platforms, including
+    contract testing, versioning, and failure handling
   - Conduct code reviews and mentor team members on Python engineering practices and
     production readiness
-  - Own production support for CI infrastructure including on-call responsibilities
+  - Own production support for CI infrastructure, including on-call responsibilities
     and incident response
   use_cases:
-  - Conversational intelligence platform for customer interactions
-  - Real-time LLM inference pipelines with streaming responses
-  - Event-driven messaging across multiple communication channels
-  - Local business marketing and customer engagement automation
+  - Conversational Intelligence Platform for real-time AI customer engagement
+  - LLM orchestration and streaming responses across multiple communication channels
+  - Event-driven messaging supporting chat and messaging workflows
+  - Marketing, lead management, and customer experience tools for local businesses
   skills:
-    domains: []
-    languages: [Python, async/await concurrency]
-    ml: []
     cloud: [Azure]
-    genai: [LLMs, Streaming responses]
+    languages: [Python, asyncio]
+    ml: []
+    other: [Pydantic, Event-Driven Architecture]
+    ops: [Model Deployment, Distributed Systems, OpenTelemetry, Sentry, Structured
+        Logging]
+    databases: [NoSQL]
+    domains: []
+    web: []
     data: []
-    other: []
-    ops: [LLM inference infrastructure, Event-driven architecture, Backpressure management,
-      Idempotency, Dead-letter handling, OpenTelemetry, Sentry, Distributed tracing]
-    web: [Pydantic]
-    databases: [NoSQL data modeling]
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9874610'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:54:23.167883'
+  extracted_at: '2026-08-16T15:40:55.257006'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

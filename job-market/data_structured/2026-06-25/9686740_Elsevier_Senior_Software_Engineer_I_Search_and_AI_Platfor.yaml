@@ -1,48 +1,53 @@
 company:
   name: Elsevier
-  stage: Public
-  focus: Scientific publishing, information and analytics
+  stage: null
+  focus: Scientific information, analytics, and publishing
 position:
   title: Senior Software Engineer I – Search and AI Platform
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a backend software engineering position on a
-      Search and AI Platform team, but the actual work involves
-      building graph-based search services, GraphQL APIs, and
-      database integrations using Java/Spring Boot. The engineer
-      works on infrastructure and platform layers that support AI-
-      driven discovery systems rather than directly building,
-      training, or deploying ML models or LLM agents.
+      Although the platform is described as agentic and AI-
+      powered, this role's actual work is backend software
+      engineering: building graph-based search services, GraphQL
+      APIs, and database/AWS integrations. The responsibilities
+      contain no prompt design, RAG, agent orchestration, model
+      training, or eval building - AI-driven discovery appears
+      only as nice-to-have familiarity, not something this person
+      shapes. Judging the role rather than the employer, this is
+      ai-support.
   responsibilities:
-  - Design and implement graph-based search services supporting advanced traversal,
+  - Design and implement graph-based search services
+  - Develop applications using Java, Spring Boot, Spring, GraphQL, and GraphQL Federation
+  - Integrate with databases and AWS services (Neo4j, DynamoDB, RDS, S3, Parameter
+    Store, SQS, SNS, Kinesis) to support ingestion, storage, and messaging pipelines
+  - Build structured queries and entity metadata hydration enabling graph traversal,
     discovery, and recommendation systems
-  - Develop backend applications using Java, Spring Boot, GraphQL, and GraphQL Federation
-  - Integrate with databases and AWS services (Neo4j, DynamoDB, RDS, S3, SQS, SNS,
-    Kinesis) to support ingestion, storage, and messaging pipelines
-  - Champion clean code, SOLID principles, and engineering best practices, mentoring
-    junior engineers
+  - Champion clean code, SOLID principles, and engineering best practices, setting
+    standards and mentoring engineers
   - Collaborate with product managers and engineering teams to deliver advanced search
     and recommendation features
-  - Ensure robust monitoring and logging with New Relic and Coralogix for reliability
+  - Ensure robust monitoring and logging with New Relic and Coralogix, driving reliability
     and performance
   use_cases:
-  - Agentic search and discovery across scientific knowledge graphs
-  - Literature and research data search for products like Scopus, ScienceDirect, and
-    Clinical Key
-  - Entity-based recommendation and discovery systems for scientific content
-  - Graph-based traversal and structured query services for research data platforms
+  - Graph-based search services powering scientific products like LeapSpace, Scopus,
+    ScienceDirect, Clinical Key, and Reaxys
+  - Knowledge graph traversal, entity discovery, and recommendation systems for research
+    data
+  - Agentic AI-powered search delivering insights to the scientific research community
+  - Data ingestion, storage, and messaging pipelines for high-throughput research
+    data platforms
   skills:
-    domains: []
+    cloud: [AWS, EKS, Parameter Store, SQS, SNS, Kinesis]
     languages: [Java]
     ml: []
-    cloud: [AWS S3, AWS Parameter Store, Amazon SQS, Amazon SNS, Amazon Kinesis, AWS]
-    genai: []
-    data: []
     other: [SOLID Principles, Clean Code, Agile, Kanban]
-    ops: [Kubernetes, CI/CD, New Relic, Coralogix]
-    web: [Spring Boot, GraphQL, GraphQL Federation, Apollo Router, REST APIs]
-    databases: [Neo4j, DynamoDB, Amazon RDS, Data Modelling for Graph Systems]
+    ops: [Kubernetes, CI/CD, New Relic, Coralogix, Distributed Systems]
+    databases: [Neo4j, DynamoDB, RDS, AWS S3, Knowledge Graphs]
+    domains: []
+    web: [Spring Boot, GraphQL, GraphQL Federation, REST APIs, Apollo Router]
+    data: [Data Modeling]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -51,4 +56,6 @@ meta:
   locations:
   - Amsterdam, NLD
   - London, GBR
-  extracted_at: '2026-06-25T19:47:51.469741'
+  extracted_at: '2026-08-16T14:11:12.089369'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

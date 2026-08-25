@@ -1,49 +1,52 @@
 company:
   name: Multiplier
-  stage: null
-  focus: Agentic GTM and revenue automation systems
+  stage: ''
+  focus: Global employment and payroll platform with GTM operations
 position:
   title: Principal AI / Automation Engineer – Agentic GTM Systems
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building, deploying, and optimizing
-      autonomous AI agents and LLM-powered systems with direct
-      hands-on implementation of prompt strategies, tool calling,
-      and RAG pipelines. The engineer owns the architecture and
-      execution of agentic systems, not just supporting
-      infrastructure.
+      The role directly shapes model behaviour: designing agent
+      workflows, MCPs, prompt strategies, tool calling, RAG
+      pipelines, guardrails, and feedback loops for LLM-powered
+      agents, plus optimizing agents for accuracy, latency, and
+      cost. Since LLM/agent components are central, this is ai-
+      first.
   responsibilities:
   - Design event-driven, multi-step agent workflows with reasoning, memory, and tools
-  - Define standards for autonomy, guardrails, and human-in-the-loop escalation
-  - Build reusable agent frameworks across churn, expansion, pipeline, and operations
+  - Define standards for autonomy, guardrails, and human-in-the-loop escalation, and
+    build reusable agent frameworks across churn, expansion, pipeline, and ops
   - Design, build, and maintain scalable ELT/ETL pipelines centralizing data from
-    GTM sources
-  - Own Reverse ETL process to push actionable insights into frontline tools like
-    Salesforce and Slack
-  - Design and implement reusable Model Context Protocols (MCPs) for agent-data interactions
-  - Implement prompt strategies, tool calling, and RAG pipelines for LLM intelligence
-    layer
-  - Implement observability across MCP calls, data access, and agent decisions
+    disparate GTM sources into the data warehouse
+  - Own the Reverse ETL process pushing actionable insights from the warehouse back
+    into frontline tools like Salesforce and Slack
+  - Design and implement reusable MCPs governing how agents request data, receive
+    structured context, and write back actions and outcomes
+  - Build secure connectors to data warehouses, CRMs, and product, billing, and support
+    systems with permission-aware access
+  - Implement prompt strategies, tool calling, and RAG pipelines, and optimize agents
+    for accuracy, latency, and cost
+  - Implement observability across MCP calls, data access, and agent decisions, and
+    enforce role-based access control, PII handling, and auditability
   use_cases:
-  - Event-based personalized communications
-  - Churn prevention and customer retention
-  - Revenue expansion and upselling opportunities
-  - Deal acceleration and pipeline velocity
-  - GTM intelligence and revenue forecasting
-  - Lead scoring and customer health monitoring
+  - Event-based personalized GTM communications
+  - Churn prevention and customer health monitoring
+  - Account expansion and deal acceleration
+  - GTM intelligence across pipeline, deal, and forecast context
+  - Automation of GTM and revenue operations workflows
   skills:
-    domains: []
+    cloud: []
     languages: [Python, TypeScript, SQL]
     ml: []
-    cloud: []
-    genai: [LangGraph, AutoGen, CrewAI, OpenAI API, Anthropic API, RAG, Prompt Engineering,
-      Function Calling, MCP, Agentic Workflows]
-    data: [Data Pipelines, Reverse ETL, Data Modeling, Event-driven architecture]
-    other: []
-    ops: [Workflow orchestration, Observability, Role-based access control]
+    other: [Salesforce, HubSpot, Slack, Event-Driven Architecture, RBAC, PII Handling]
+    ops: [Observability, Workflow Orchestration]
+    databases: [Snowflake, BigQuery, Redshift, Data Warehousing]
+    domains: []
     web: []
-    databases: [Snowflake, BigQuery, Redshift]
+    data: [Data Pipelines, Reverse ETL, Data Modeling]
+    genai: [LLMs, OpenAI API, Anthropic API, MCP, Agentic Workflows, AI Agents, RAG,
+      Prompt Engineering, Function Calling, LangGraph, AutoGen, CrewAI, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +59,6 @@ meta:
   - London, GBR
   - Bengaluru, IND
   remote: true
-  extracted_at: '2026-02-27T12:12:33.333124'
+  extracted_at: '2026-08-16T02:23:50.476811'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

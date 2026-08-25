@@ -1,0 +1,64 @@
+company:
+  name: Lloyd's
+  stage: null
+  focus: Global insurance and reinsurance marketplace
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires LLM orchestration, secure
+      prompting, RAG, and vector search design, plus integrating
+      GenAI capabilities (Databricks Genie) into business
+      workflows — all activities that shape LLM behaviour and
+      output quality directly. Although much of the work involves
+      operationalising models on Databricks, the GenAI shaping
+      responsibilities (prompting, RAG, LLM orchestration) make it
+      ai-first.
+  responsibilities:
+  - Maintain and enforce best practices for AI engineering and governance within the
+    Databricks Lakehouse architecture, ensuring compliance and security standards
+  - Integrate generative AI capabilities (e.g., Databricks Genie) into business workflows
+    to automate processes and deliver advanced analytics solutions
+  - Operationalise AI and machine learning models within the Databricks Lakehouse
+    environment, including deployment, monitoring, and optimisation of data pipelines
+  - Collaborate with cross-functional teams to embed AI-driven insights into core
+    business processes aligned with Lloyd's Data & AI strategy
+  - Contribute to the development of Lloyd's Data & AI Marketplace, supporting innovation
+    and enabling self-service analytics for stakeholders
+  - Research emerging trends in AI, ML, and visualisation technologies and recommend
+    enhancements to tools and processes
+  - Provide technical leadership and mentoring within the AI & Analytics team, sharing
+    knowledge on visualisation techniques and AI engineering practices
+  - Monitor and report on performance and adoption of AI solutions, ensuring measurable
+    business impact and strategic alignment
+  use_cases:
+  - Automating insurance business processes by embedding generative AI into workflows
+  - Natural language access to lakehouse data via Databricks Genie
+  - Advanced analytics and actionable insights across Lloyd's Corporation and the
+    insurance market
+  - Self-service analytics for stakeholders through Lloyd's Data & AI Marketplace
+  - Production deployment and monitoring of AI/ML models within a governed Databricks
+    Lakehouse
+  skills:
+    genai: [LLM Orchestration, Prompt Engineering, RAG, Generative AI, Databricks
+        Genie, AI Agents]
+    ml: [Machine Learning]
+    web: []
+    databases: [Vector Search]
+    data: [Databricks, Databricks SQL, Delta Lake, Unity Catalog, Data Pipelines,
+      Data Governance]
+    cloud: [Azure]
+    ops: [MLOps, CI/CD, Automated Testing, Monitoring, Model Deployment, Telemetry,
+      SLOs, Cost Optimisation]
+    languages: [Python, SQL]
+    domains: []
+    other: [Agile, Code Review, System Design, AI Governance, Data Visualisation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8382001'
+  location: London, GBR
+  extracted_at: '2026-08-15T23:31:57.106051'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

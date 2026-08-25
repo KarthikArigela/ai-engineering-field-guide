@@ -1,60 +1,60 @@
 company:
   name: TechTorch
-  stage: Growth stage (private equity-backed consultancy)
+  stage: null
   focus: |-
-    Enterprise technology consulting for private equity
-    portfolio companies
+    Enterprise technology consultancy for private equity-backed
+    businesses
 position:
   title: AI Software Data Engineer US
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building AI prototypes and MVPs end-to-
-      end, integrating AI/ML capabilities (NLP, document
-      intelligence, classification, anomaly detection) into
-      production systems, and leveraging AI platforms like AWS
-      Bedrock, SageMaker, Snowflake Cortex, and OpenAI. While it
-      also covers full-stack and data engineering, the applied AI
-      component is a core, explicit responsibility — not just a
-      supporting function.
+      This is primarily a full-stack software and data engineering
+      role where the AI work consists of integrating pre-built
+      platforms and services (AWS Bedrock, SageMaker, Snowflake
+      Cortex, OpenAI) into applications, data pipelines, and
+      prototypes. The description gives no evidence of shaping
+      model behavior - no prompt design, RAG, agent flows, fine-
+      tuning, or eval/guardrail building - so it classifies as ai-
+      support.
   responsibilities:
   - Design and build full-stack applications with React/Next.js frontends and Python
     backend services and APIs
-  - Build and maintain scalable data pipelines, ELT workflows, and manage data in
-    modern data platforms (Snowflake, Redshift, BigQuery)
+  - Implement CI/CD pipelines, testing, and production-readiness standards
+  - Design, build, and maintain scalable data pipelines and ELT workflows
+  - Model and manage data in modern data platforms such as Snowflake, Redshift, and
+    BigQuery
   - Build AI prototypes and MVPs end-to-end for clients, from data ingestion to user-facing
     experience
-  - Integrate AI/ML capabilities into software and data workflows including NLP, document
-    intelligence, classification, and anomaly detection
-  - Leverage AI platforms and services such as AWS Bedrock, SageMaker, Snowflake Cortex,
-    and OpenAI to deliver AI-powered solutions
+  - Integrate AI/ML capabilities such as NLP, document intelligence, classification,
+    and anomaly detection into software and data workflows
   - Support feature engineering, inference pipelines, and AI-enabled automation
-  - Implement CI/CD pipelines, testing, and production-readiness standards
   - Ensure AI solutions are observable, explainable, and suitable for enterprise and
     regulated environments
   use_cases:
-  - Document intelligence and NLP for enterprise data processing
-  - Classification and anomaly detection for operational automation
-  - AI-powered MVPs and prototypes for private equity portfolio companies
-  - Data-driven transformation and digital product development
-  - Enterprise system modernization with AI integration
-  - Analytics and reporting enabled by AI-ready data foundations
+  - AI-powered prototypes and MVPs for private equity-backed client companies
+  - NLP and document intelligence workflows for enterprise document processing
+  - Classification and anomaly detection integrated into software and data workflows
+  - Analytics, reporting, and downstream AI use cases on modern data platforms
+  - AI-enabled automation for enterprise and regulated environments
+  - Core system modernization and new digital product delivery for PE portfolio companies
   skills:
-    domains: [NLP]
+    cloud: [SageMaker, AWS, Azure, GCP, AWS Lambda, AWS Step Functions]
     languages: [Python, SQL]
-    ml: []
-    cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS Step Functions, Azure, GCP, Snowflake
-        Cortex]
-    genai: [OpenAI API]
-    data: [dbt, Airflow, Spark, Data Pipelines]
-    other: []
-    ops: [CI/CD, Docker]
-    web: [React, Next.js, REST APIs, FastAPI]
+    ml: [NLP, Classification, Anomaly Detection, Feature Engineering]
+    other: [Responsible AI]
+    ops: [CI/CD, Inference Pipelines, MLOps, Model Lifecycle Management]
     databases: [Snowflake, Redshift, BigQuery]
-  is_customer_facing: true
+    domains: []
+    web: [React, Next.js, APIs]
+    data: [Data Pipelines, Lakehouse Architectures, dbt, Airflow, Spark]
+    genai: [Document Intelligence, AWS Bedrock, Snowflake Cortex, OpenAI API]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8989716'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T12:33:15.184079'
+  extracted_at: '2026-08-16T06:53:49.356724'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

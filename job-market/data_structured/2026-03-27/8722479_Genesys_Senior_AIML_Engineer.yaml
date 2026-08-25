@@ -1,53 +1,56 @@
 company:
   name: Genesys
-  stage: Public
-  focus: AI-powered customer experience orchestration platform
+  stage: null
+  focus: |-
+    AI-powered experience orchestration platform for customer
+    experience
 position:
   title: Senior AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building, developing, and evolving
-      Virtual Agents engines and Conversational AI systems with
-      direct hands-on work on LLMs, fine-tuning, prompt
-      engineering, RAG, and agentic AI architectures. The position
-      focuses on implementing and deploying AI models at scale,
-      not just supporting infrastructure.
+      The role shapes model behavior directly: developing the
+      Virtual Agents engine for natural language understanding and
+      generation, applying fine-tuning and prompt engineering to
+      LLMs, and delivering agentic AI architectures and RAG-based
+      systems. LLM/conversational components are central, so it is
+      ai-first.
   responsibilities:
   - Design and execute POCs pushing the boundaries of conversational AI and virtual
     agent capabilities
-  - Develop, maintain, and evolve the Virtual Agents engine using advanced AI/ML concepts
-    for natural language understanding and generation
-  - Deliver roadmap toward Agentic AI by translating cutting-edge research into practical,
-    scalable solutions
-  - Own technical initiatives involving cross-functional teams with effective delegation
-    and technical review
+  - Develop, maintain, enhance, and evolve the Virtual Agents engine applying advanced
+    AI/ML concepts to natural language understanding and generation
+  - Deliver the roadmap toward Agentic AI, translating cutting-edge research into
+    practical and scalable solutions
+  - Own cross-functional technical initiatives, delegating work while maintaining
+    high standards through technical review
   - Collaborate with product teams, customers, and vendors to translate business requirements
-    into innovative technical solutions
-  - Build next-generation AI applications at the intersection of software engineering
-    and AI research
+    into technical solutions
+  - Support delivery of Generative AI conversational systems at global scale reaching
+    7,500+ organizations
   use_cases:
-  - Conversational AI for customer experience at global scale
-  - Virtual agents for automated customer interactions
-  - Natural language understanding and generation systems
-  - Agentic AI for autonomous decision-making
+  - Conversational AI and virtual agents for enterprise customer experience
+  - Natural language understanding and generation for dialogue systems
+  - Agentic AI and tool-using agents for autonomous customer conversations
   - Voice AI and multimodal conversational interfaces
-  - Customer experience orchestration across 7,500+ organizations
+  - AI-powered experience orchestration across human and AI workforces
   skills:
-    domains: []
-    languages: [Python]
-    ml: [NLP, Dialogue systems, Reinforcement Learning]
     cloud: [AWS]
-    genai: [LLMs, Fine-Tuning, Prompt Engineering, RAG, Multi-Agent Systems, Agentic
-        AI architectures, Conversational AI]
-    data: []
-    other: [Distributed Systems, System Design, Software architecture]
-    ops: [MLOps]
-    web: []
+    languages: []
+    ml: [Machine Learning, Reinforcement Learning, Voice AI]
+    other: [System Design, Software Architecture, Responsible AI]
+    ops: [MLOps, Distributed Systems]
     databases: [Vector Databases]
+    domains: [NLP, Dialogue Systems]
+    web: []
+    data: []
+    genai: [Generative AI, Conversational AI, LLMs, Fine-Tuning, Prompt Engineering,
+      AI Agents, Multi-Agent Systems, RAG]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8722479'
   location: Hyderabad, IND
-  extracted_at: '2026-03-27T13:31:48.356698'
+  extracted_at: '2026-08-16T04:08:34.578775'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

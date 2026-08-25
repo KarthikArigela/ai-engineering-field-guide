@@ -1,54 +1,66 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Junior Generative AI Application Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role explicitly involves building Generative AI
-      applications using LLMs, RAG systems, and multi-agent
-      architectures. The job requires hands-on work with prompt
-      engineering, fine-tuning models, deploying GenAI solutions
-      to cloud, and implementing MLOps practices for AI agents -
-      not just infrastructure or data support for AI teams.
+      The role centers on shaping LLM and agent behaviour
+      directly: prompt engineering, RAG design with vector
+      databases and advanced retrieval, designing and building
+      agentic flows, and fine-tuning GenAI models with frameworks
+      like LangChain, LangGraph, and multi-agent orchestration.
+      LLMs (Gemini, OpenAI, Claude, Llama) are the explicit target
+      throughout the responsibilities, and building agents on
+      Citi's ARC platform is the product itself, not just tooling.
   responsibilities:
-  - Build and deploy Generative AI applications and intelligent agents for financial
-    services
-  - Design and implement RAG systems using vector databases and advanced retrieval
+  - Craft high-quality, scalable enterprise software solutions across the full SDLC,
+    leveraging AI-powered coding tools and modern development stacks
+  - Design and build agentic flows and agents for complex business processes, including
+    on Citi's proprietary ARC platform
+  - Apply prompt engineering, workflow design, and GenAI optimization techniques to
+    Generative AI applications
+  - Build RAG solutions using PostgreSQL, vector databases, and advanced retrieval
     techniques
-  - Develop prompt engineering patterns and agentic workflows for complex business
-    processes
-  - Fine-tune and optimize LLMs for enterprise-scale inference and performance
-  - Implement MLOps best practices and responsible AI guidelines for GenAI agent lifecycles
-  - Create real-time data pipelines for model training, fine-tuning, and inference
-    using Kafka and event streaming
-  - Apply CI/CD practices with AI-specific testing frameworks and model versioning
-    tools
+  - Contribute to deployment of Generative AI models and solutions on cloud providers
+    such as AWS, with scalable and efficient inference
+  - Implement MLOps best practices, responsible AI guidelines, model versioning, and
+    CI/CD pipelines with AI-specific testing
+  - Work with event streaming and messaging systems (Kafka, Flink, Solace) for real-time
+    data ingestion supporting Gen AI training, fine-tuning, and inference
+  - Deploy Gen AI models and microservices using containers such as Docker, Kubernetes,
+    and OpenShift
   use_cases:
-  - AI-powered intelligent automation for banking operations and business processes
-  - Advanced code generation and automated code reviews using GitHub Copilot and agentic
-    AI
-  - Cybersecurity defense systems leveraging Generative AI for threat detection
-  - Data-powered innovations driving customer journey analytics and insights
-  - Real-time financial transaction processing enhanced with AI capabilities
-  - Global AI solutions reshaping financial services across 180+ countries
+  - Generative AI solutions and intelligent automation for banking and financial services
+  - AI agents orchestrating complex business processes
+  - Strengthening cybersecurity defenses with AI
+  - Data-powered innovation and analytics tracking customer journey adoption and business
+    value
+  - Real-time data pipelines supporting Gen AI model training, fine-tuning, and inference
   skills:
-    domains: []
-    languages: [Python, Java, Swift]
-    ml: [PyTorch, TensorFlow, Fine-Tuning]
     cloud: [AWS]
-    genai: [Prompt Engineering, RAG, LangChain, LlamaIndex, LangGraph, Multi-Agent
-        Systems, OpenAI API, Anthropic API, Gemini, Llama, Hugging Face]
-    data: [Kafka, Flink]
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, MLOps, GitHub]
-    web: [Spring Framework, FastAPI, REST, React, Angular, TypeScript]
+    languages: [Java, Python, JavaScript, TypeScript, Swift]
+    ml: [PyTorch, TensorFlow, Fine-Tuning, Transformers, GANs, Hugging Face, Machine
+        Learning]
+    other: [Xcode, Android Studio, MVC Architecture, Jira, Zephyr, Citi Squad, Tableau,
+      Adobe Analytics, Responsible AI, Agile]
+    ops: [Docker, Kubernetes, OpenShift, CI/CD, DevOps, MLOps, Monitoring, GitHub,
+      Harness, Artifactory, Splunk]
     databases: [PostgreSQL, Vector Databases]
+    domains: []
+    web: [Spring Framework, Spring Boot, React, Angular, Apigee, FastAPI, Microservices,
+      APIs, REST APIs, AJAX, CSS, HTML]
+    data: [Kafka, Flink, Solace]
+    genai: [Prompt Engineering, AI Agents, Generative AI, GitHub Copilot, Devin.AI,
+      Stylus Workspaces, LLMs, Gemini, Anthropic API, Llama, OpenAI API, LangChain,
+      LlamaIndex, LangGraph, Multi-Agent Systems, RAG, Agentic Workflows, ARC Platform]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9288014'
   location: New York, USA
-  extracted_at: '2026-05-29T09:00:12.693243'
+  extracted_at: '2026-08-16T10:03:44.799866'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

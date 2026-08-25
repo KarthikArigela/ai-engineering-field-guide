@@ -1,0 +1,49 @@
+company:
+  name: South Geeks
+  stage: null
+  focus: Staffing firm placing LATAM tech talent with global clients
+position:
+  title: AI/ML Engineer (Hybrid NLP + Classification)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds a rule-based plus ML text-classification
+      engine (scikit-learn/HuggingFace transformers) that maps
+      free text to a catalog hierarchy, with anomaly detection and
+      a retraining feedback loop. There is no LLM prompt, RAG, or
+      agent component; the shaped model is classical NLP/ML, so it
+      is ml-first.
+  responsibilities:
+  - Author the AI/ML Architecture Design Document
+  - Recommend an accuracy threshold for the catalog mapping engine
+  - Build the 4-tier catalog code mapping engine for SAP catalog types
+  - Implement the AI anomaly detection module
+  - Design and implement the Train Model feedback loop where operator corrections
+    retrain the model
+  - Wrap the model as a microservice for the main application
+  use_cases:
+  - Mapping contractor free-text maintenance records into a 4-tier SAP catalog hierarchy
+  - Hybrid rule-based plus ML text classification for SAP S/4HANA data migration
+  - Anomaly detection in historical plant maintenance data
+  - Learning from operator corrections via a model feedback loop
+  skills:
+    genai: []
+    ml: [scikit-learn, Hugging Face, Transformers, Model Evaluation, Model Training,
+      Anomaly Detection, Fine-Tuning]
+    web: [Microservices, APIs]
+    databases: []
+    data: [Pandas, NumPy]
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: [NLP]
+    other: [spaCy, SAP, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10783380'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:50:05.381341'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

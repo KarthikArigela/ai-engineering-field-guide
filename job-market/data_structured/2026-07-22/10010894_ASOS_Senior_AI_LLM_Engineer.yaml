@@ -1,53 +1,56 @@
 company:
   name: ASOS
-  stage: Public
-  focus: Online fashion retail
+  stage: null
+  focus: Global online fashion retail platform
 position:
   title: Senior AI / LLM Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and industrializing
-      LLM-powered systems including RAG, fine-tuning, multi-agent
-      orchestration, and evaluation frameworks. The engineer works
-      hands-on with models, reasoning systems, and AI platform
-      capabilities rather than supporting others' AI work.
+      The role directly shapes model behaviour: it designs and
+      builds RAG pipelines, agentic workflows, prompt
+      orchestration layers, fine-tuning approaches, LLM evaluation
+      frameworks, and safety guardrails. LLMs are the explicit
+      centre of the work, so it classifies as ai-first.
   responsibilities:
   - Design and build LLM-powered systems including RAG, fine-tuning, tool use, and
     multi-agent orchestration
-  - Develop agentic workflows for automation, reasoning, and conversational experiences
-  - Build and scale solutions on the Azure AI stack including Azure OpenAI, AI Studio,
-    Azure ML, and Cognitive Services
-  - 'Create reusable infrastructure: prompt orchestration layers, vector search and
-    retrieval pipelines, and evaluation frameworks'
-  - Design and implement LLM evaluation frameworks for offline and online measurement
-  - Implement AI safety guardrails including hallucination control, filtering, and
-    explainability
+  - Develop agentic workflows for automation, reasoning, and conversational experiences,
+    defining patterns for autonomous and human-in-the-loop systems
+  - Build and scale solutions on the Azure AI stack (Azure OpenAI, AI Studio, Azure
+    ML, Cognitive Services)
+  - 'Create reusable AI infrastructure: prompt orchestration layers, vector search
+    and retrieval pipelines, and evaluation/observability frameworks'
+  - Design and implement offline and online LLM evaluation frameworks
+  - Implement AI safety guardrails covering hallucination control, filtering, and
+    explainability, partnering with Trust & Security on AI risk controls
   - Build reusable AI capabilities such as stylist reasoning, product understanding,
-    and copilots
-  - Optimise AI systems for performance, cost, and reliability with token-aware design
+    and copilots for horizontal reuse across squads
+  - Optimise systems for performance, cost, and reliability using token-aware design
   use_cases:
   - Product discovery and personalisation for millions of customers
-  - Conversational experiences and automated reasoning
-  - Fashion stylist reasoning and product understanding copilots
-  - Operational decision-making at scale
-  - Autonomous and human-in-the-loop AI systems
+  - Automated operational decision-making
+  - Conversational experiences and copilots
+  - Fashion stylist reasoning and product understanding
+  - Reusable AI platform capabilities shared across internal teams
   skills:
-    genai: [LLMs, RAG, Fine-Tuning, Function Calling, Multi-Agent Systems, Agentic
-        Workflows, Prompt Engineering, AI Agents, Embeddings, Semantic Kernel, LangChain,
-      Structured Outputs, Guardrails, Semantic Search, LLM Evaluation, Azure OpenAI]
-    ml: [PyTorch, Transformers, Hugging Face]
-    web: [REST APIs]
-    databases: [Vector Databases, Vector Search]
-    data: []
-    cloud: [Azure, Azure AI Foundry, Azure ML, AKS, AWS, GCP]
-    ops: [LLMOps, MLOps, CI/CD, Monitoring, Observability]
+    cloud: [Azure OpenAI, Azure AI Foundry, Azure ML, Cognitive Services, AKS]
     languages: [Python]
-    domains: [NLP]
-    other: [Event-Driven Architecture, Microservices, Responsible AI]
+    ml: []
+    other: [Event-Driven Architecture]
+    ops: [LLMOps, MLOps, CI/CD, Observability]
+    databases: [Vector Search]
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [RAG, Fine-Tuning, Agentic Workflows, Multi-Agent Systems, Function Calling,
+      Prompt Engineering, LLMs, Embeddings, Semantic Kernel, LangChain, Guardrails,
+      LLM Evaluation, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10010894'
   location: London, GBR
-  extracted_at: '2026-07-22T13:22:22.753844'
+  extracted_at: '2026-08-16T16:06:59.447377'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

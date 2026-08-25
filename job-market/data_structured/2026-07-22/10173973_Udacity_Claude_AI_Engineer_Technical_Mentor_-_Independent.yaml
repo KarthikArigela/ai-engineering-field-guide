@@ -1,57 +1,59 @@
 company:
   name: Udacity
-  stage: Acquired
-  focus: Online technical education and upskilling platform
+  stage: null
+  focus: |-
+    Online technical education and corporate AI upskilling
+    platform
 position:
   title: Claude AI Engineer Technical Mentor - Independent Contractor (US Canada,
     Europe, MENA, India & APAC Timezones)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role requires deep hands-on expertise with the Claude
-      AI ecosystem (Claude API, Claude Code, Agent SDK, MCP),
-      agentic AI development, prompt/context engineering, and
-      multi-agent systems. The mentor must have practical
-      experience building AI agents and orchestration workflows to
-      teach these concepts effectively.
+      This is a technical mentor role for Udacity's Claude AI
+      Engineer Nanodegree program: the person teaches, reviews
+      learner projects, and runs Q&A sessions rather than building
+      or shaping AI systems themselves. The deliverable is learner
+      education and support, not model behavior or output quality,
+      so it does not pass Step 1. The required skills signal
+      subject-matter expertise, but the day-to-day work is
+      mentoring.
   responsibilities:
-  - Provide personalized 1:1 video mentoring sessions to support learners with course
-    content and projects
-  - Review student project submissions prior to sessions and identify areas of difficulty
-  - Prepare and deliver virtual Technical Deep-Dive presentations on AI engineering
-    concepts and project rubrics
-  - Conduct project walkthroughs demonstrating grading criteria and typical problem
-    areas
+  - Conduct 1:1 video calls providing personalized support on course content and projects
+  - Review learners' previous project submissions and areas of difficulty ahead of
+    sessions
+  - Deliver virtual technical deep-dive sessions with prepared slide presentations
+    on Nanodegree concepts
+  - Walk learners through project rubrics and demonstrate grading of sample submissions
   - Host regular group Q&A sessions via Slack or video to address learner queries
-  - Foster a positive learning environment and build relationships with students in
-    the Claude AI Engineer Nanodegree program
+  - Foster a positive learning environment and build relationships with a global learner
+    community
+  - Maintain deep awareness of emerging trends in AI to keep guidance current
   use_cases:
-  - Teaching and mentoring learners on building AI agents with the Claude ecosystem
-  - Guiding students through agentic AI development including multi-agent systems
-    and orchestration
-  - Supporting learners in prompt engineering, context engineering, and structured
-    outputs
-  - Helping students implement MCP server integration and tool calling workflows
-  - Mentoring on production AI system design including error handling and human-in-the-loop
-    workflows
+  - Teaching learners to build AI agents and multi-agent systems with the Claude ecosystem
+  - Instruction on prompt and context engineering for LLM applications
+  - Guidance on structured outputs and AI validation for reliable model responses
+  - Coaching on tool calling and agentic workflow design
+  - Mentoring on MCP server integration and production AI system practices
   skills:
-    genai: [Anthropic API, Claude Code, MCP, AI Agents, Multi-Agent Systems, Agentic
-        Workflows, Function Calling, Prompt Engineering, Context Engineering, Structured
-        Outputs, Human-in-the-Loop Workflows]
-    ml: []
-    web: [REST APIs, JSON, API Design]
-    databases: []
-    data: [Data Extraction]
     cloud: []
+    languages: [Python, Bash]
+    ml: []
+    other: [System Design, Code Review, Design Patterns, Error Handling, State Management]
     ops: [Git, GitHub, CI/CD, Automated Testing]
-    languages: [Python, Bash, SQL]
+    databases: [SQL]
     domains: []
-    other: [System Design, Solution Architecture, Code Review, Design Patterns, Error
-        Handling, State Management]
+    web: [REST APIs, JSON, APIs]
+    data: [Data Extraction]
+    genai: [Anthropic API, Claude Code, Claude Agent SDK, MCP, AI Agents, Multi-Agent
+        Systems, Agentic Workflows, Function Calling, Prompt Engineering, Context
+        Engineering, Structured Outputs, AI Validation, Human-in-the-Loop Workflows]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10173973'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:33:06.254951'
+  extracted_at: '2026-08-16T17:32:59.529453'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

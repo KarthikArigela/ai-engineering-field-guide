@@ -1,0 +1,68 @@
+company:
+  name: Southwest Airlines
+  stage: null
+  focus: |-
+    Commercial airline delivering customer and operations
+    technology
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior: it designs task-
+      oriented agents (tool routing, HITL, fallbacks), builds RAG
+      retrieval pipelines with chunking, embeddings, and relevance
+      tuning, writes versioned prompts and A/B variants, and
+      builds eval suites, guardrails, and PII redaction. Every
+      shaped component is an LLM/agent system (LangGraph, Bedrock
+      Agents, prompts), so it is ai-first.
+  responsibilities:
+  - Design, build, and operate task-oriented agents with planner/executor patterns,
+    tool routing, human-in-the-loop checkpoints, fallbacks, and circuit breakers,
+    with clear interfaces and SLOs
+  - Design and productionize retrieval/grounding pipelines (RAG, structured APIs,
+    knowledge graphs) including chunking, summarization, embeddings lifecycle, and
+    relevance tuning
+  - Develop modular system and instruction prompts and tool specs; manage versioned
+    prompt libraries and run A/B prompt/model variants
+  - Define and implement per-use-case eval suites (functional, behavioral, safety,
+    latency, cost) with AgentOps; automate offline/online evals and wire eval gates
+    into CI/CD
+  - Implement PII redaction, policy-as-code checks, guardrails, and compliant audit
+    trails across agents and context pipelines
+  - Optimize context size, caching, rerankers, model selection, and tool routing to
+    reduce cost per successful task
+  - Maintain schemas/data contracts and batch/stream ETL for context stores, embedding
+    jobs, and freshness SLAs in partnership with the Data Platform
+  - Integrate runtime frameworks (LangGraph/AgentCore, Bedrock Agents/Guardrails)
+    with enterprise systems; maintain agent cards, runbooks, and playbooks; mentor
+    junior AI engineers
+  use_cases:
+  - Customer-facing agentic AI experiences across digital channels that simplify journeys
+    and enable faster interactions
+  - Internal AI tools that make enterprise teams more effective on real workloads
+  - Task-oriented agents grounded in retrieval pipelines serving real user journeys
+  - Secure, observable, production-grade AI services with PII redaction and audit
+    trails for a regulated travel environment
+  - Automated offline/online evaluation of agents across functional, behavioral, safety,
+    latency, and cost dimensions
+  skills:
+    genai: [RAG, Embeddings, Prompt Engineering, LLMs, AI Agents, Guardrails, LangGraph,
+      AgentCore]
+    ml: []
+    web: []
+    databases: [Vector Databases, pgvector, OpenSearch, Knowledge Graphs, Redshift]
+    data: [ETL, Kafka, Flink, Data Engineering]
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS S3, SageMaker, VPC]
+    ops: [CI/CD, Infrastructure as Code, Git, DevOps, AI Observability]
+    languages: []
+    domains: []
+    other: [Agile, A/B Testing, Event-Driven Architecture, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9408466'
+  location: Choudwar, IND
+  extracted_at: '2026-08-16T11:00:00.519311'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

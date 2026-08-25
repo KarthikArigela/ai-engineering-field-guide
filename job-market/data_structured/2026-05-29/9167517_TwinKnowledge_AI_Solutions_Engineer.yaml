@@ -1,55 +1,57 @@
 company:
   name: TwinKnowledge
-  stage: Series B
-  focus: Agentic AI knowledge layer for AECO industry
+  stage: early-stage startup
+  focus: |-
+    Agentic AI knowledge layer for architecture, engineering,
+    and construction
 position:
   title: AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly works
-      with AI systems - configuring AI products for clients,
-      building prototypes using LLM APIs and RAG pipelines, and
-      demonstrating AI capabilities to solve customer problems.
-      The role requires hands-on work with prompt engineering, RAG
-      pipelines, and AI APIs to deliver concrete solutions, not
-      just general infrastructure or support work.
+      The role requires hands-on prototyping of new solutions
+      using LLM APIs, prompt engineering, and RAG pipelines to
+      translate ambiguous client needs into working
+      demonstrations, which means the person shapes LLM behaviour
+      themselves rather than only consuming a pre-built API. The
+      shaped components are LLM/GenAI systems (prompting,
+      retrieval over client documents), so the classification is
+      ai-first.
   responsibilities:
-  - Own the pilot experience for new clients by configuring AI products, running analyses
-    on customer documents, and delivering value demonstrations
+  - Own the pre-sales and pilot phase for new clients, configuring products for customer
+    use cases and running analyses on their documents to demonstrate value
   - Develop deep understanding of client workflows, pain points, and document environments
-    to identify maximum ROI using AI technology
-  - Prototype new solutions using AI APIs and tools when customer needs extend current
-    offerings, translating ambiguous needs into concrete demonstrations
-  - Serve as the internal voice of the client by synthesizing pilot feedback into
-    prioritized product insights for engineering and research teams
-  - Build playbooks, templates, and documentation that scale AI solutions across the
-    client portfolio
+    (drawings, specs, submittals, RFIs) to identify maximum return on investment
+  - Prototype new solutions using AI APIs and tools when customer needs extend the
+    product, translating ambiguous needs into concrete demonstrations
+  - Serve as the internal voice of the client, synthesizing pilot feedback into prioritized
+    product insights for engineering and research teams
+  - Build playbooks, templates, and documentation that scale across the client portfolio
   - Lead pre-sales conversations including demos, scoping discussions, and technical
-    Q&A with sophisticated buyers
+    Q&A with sophisticated enterprise buyers
   use_cases:
-  - Document analysis for AEC industry including drawings, specifications, submittals,
-    and RFIs
-  - AI-powered workflow optimization for architecture, engineering, and construction
-    project delivery
-  - Agentic knowledge systems connecting built world information to frontier AI systems
-  - Enterprise AI solution deployment for major construction and transportation organizations
-  - Prototype development demonstrating AI capabilities for customer-specific use
-    cases
+  - AI-powered analysis of AEC documents such as drawings, specs, submittals, and
+    RFIs
+  - Agentic knowledge layer connecting built-world information to frontier AI systems
+  - Client pilot deployments demonstrating measurable ROI for owners, designers, and
+    builders
+  - Rapid prototypes demonstrating AI possibilities for unmet AEC workflow needs
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LLMs, Prompt Engineering, RAG, AI APIs]
-    data: []
+    languages: []
+    ml: []
     other: []
     ops: []
-    web: []
     databases: []
+    domains: [AEC Domain Knowledge]
+    web: []
+    data: []
+    genai: [LLMs, Prompt Engineering, RAG]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9167517'
   location: New York, USA
-  extracted_at: '2026-05-29T08:55:35.133714'
+  extracted_at: '2026-08-16T09:13:03.064055'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

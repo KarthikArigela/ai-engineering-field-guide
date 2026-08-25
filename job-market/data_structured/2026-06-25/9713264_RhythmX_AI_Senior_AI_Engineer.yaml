@@ -1,59 +1,57 @@
 company:
   name: RhythmX AI
-  stage: Acquired/Subsidiary (SymphonyAI Group company)
-  focus: AI-native healthcare precision care and patient engagement
+  stage: null
+  focus: |-
+    AI-native healthcare precision care and patient engagement
+    technology
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, fine-tuning, and
-      deploying LLMs, ML models, and multimodal AI systems in
-      production. The engineer works hands-on with model
-      customization (PEFT, LoRA), speech models, RAG, and end-to-
-      end model deployment. This is squarely an ai-first role
-      focused on building and deploying AI systems.
+      The role directly shapes model behavior: fine-tuning
+      SLMs/LLMs with PEFT and LoRA, applying prompt engineering,
+      building evaluation strategies, and evaluating RAG/LangChain
+      frameworks. LLMs and generative components are explicitly
+      central, and a role shaping both LLM and classical ML
+      (STT/TTS, multimodal models) is ai-first.
   responsibilities:
-  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases including
-    domain adaptation via PEFT, LoRA, and prompt engineering
+  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases, customizing
+    foundation models with PEFT, LoRA, and prompt engineering
   - Build multimodal AI systems integrating text, structured medical data, and images
-  - Lead end-to-end model deployment using cloud-native infrastructure (Azure ML)
-    including monitoring, drift detection, and auto-retraining pipelines
-  - Evaluate and integrate speech-to-text and text-to-speech models into conversational
-    interfaces and voice assistants
+  - Evaluate and integrate STT and TTS models into conversational voice interfaces
+  - Lead end-to-end model deployment with cloud-native tools (Azure ML), including
+    performance monitoring, drift detection, and auto-retraining pipelines
   - Process and curate large-scale structured and unstructured healthcare datasets,
-    designing synthetic data generation strategies
-  - Lead bias mitigation, adversarial stress testing, and governance ensuring models
-    meet safety, fairness, and ethical standards
-  - Provide technical leadership to junior engineers including design reviews, best
-    practices, and architectural decisions
-  - Collaborate cross-functionally with clinical experts, product, and engineering
-    teams to translate needs into scalable AI solutions
+    including EHR and clinical data, and design synthetic data generation strategies
+  - Develop evaluation strategies combining domain KPIs with clinical relevance, mitigate
+    algorithmic bias, and conduct adversarial stress testing for safety and fairness
+  - Provide technical guidance to junior AI engineers, conduct design reviews, and
+    contribute to architectural decisions
+  - Ensure HIPAA/GDPR compliance, security, and explainability across AI solutions
   use_cases:
-  - Healthcare voice assistants and conversational interfaces for patient and caregiver
-    workflows
-  - Multimodal AI systems combining text, medical data, and images for clinical decision
-    support
-  - Speech-to-text and text-to-speech for real-world care settings
-  - RAG-based retrieval over clinical knowledge and EHR data
-  - Clinical outcome prediction and patient safety monitoring using healthcare data
-  - Care orchestration and precision care intelligence across health systems
+  - Voice assistants and conversational interfaces for real-world care settings
+  - Multimodal AI combining clinical text, structured medical data, and images
+  - AI applications built on EHR and clinical data for patient and caregiver workflows
+  - Precision care and patient engagement for health systems
+  - Patient-facing models with bias mitigation, safety, and fairness standards
   skills:
-    domains: [Healthcare/Provider Domain, EHR Systems, HIPAA Compliance]
-    languages: [Python, SQL]
-    ml: [PyTorch, TensorFlow, Deep Learning, Model Training, Whisper, Multimodal AI]
-    cloud: [Azure ML, Azure]
-    genai: [Fine-Tuning, LoRA, Prompt Engineering, RAG, LangChain, Generative AI,
-      NLP/NLU, Speech-to-Text (STT), Text-to-Speech (TTS), Tacotron]
-    data: [Data Pipelines]
-    other: []
-    ops: [MLOps, Model Deployment, Experiment Tracking, Container Orchestration, CI/CD,
-      Docker, Git]
-    web: []
+    cloud: [Azure, Azure ML]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, NLP, Model Evaluation,
+      Speech-to-Text, Text-to-Speech, Whisper, Tacotron, ElevenLabs]
+    other: [HIPAA Compliance, GDPR, Responsible AI, EHR]
+    ops: [MLOps, CI/CD, Git, Model Deployment, Model Monitoring]
     databases: [Vector Databases]
+    domains: []
+    web: [API Deployment]
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, Fine-Tuning, Prompt Engineering, LoRA, RAG, LangChain]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9713264'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:48:25.847029'
+  extracted_at: '2026-08-16T14:29:48.117102'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

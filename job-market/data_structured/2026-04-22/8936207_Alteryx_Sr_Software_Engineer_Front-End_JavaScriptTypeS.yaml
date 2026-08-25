@@ -1,59 +1,62 @@
 company:
   name: Alteryx
-  stage: Public
-  focus: Data analytics and AI-powered workflow automation platform
+  stage: null
+  focus: Data analytics and automation software platform
 position:
   title: Sr. Software Engineer (Front-End, JavaScript/TypeScript, React, AI)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role directly builds and delivers AI-powered frontend
-      experiences including Copilot (conversational/agentic
-      surfaces), GenAI Tools, and MCP-based extensibility
-      experiences. While it's a frontend engineering role, it
-      involves implementing AI capabilities end-to-end — building
-      the interfaces for agentic systems, conversational AI, and
-      tool actions that connect to shared AI services. This goes
-      beyond supporting AI infrastructure to actively delivering
-      AI product features.
+      This is a frontend engineering role that builds UI surfaces
+      (Copilot chat interfaces, GenAI Tools, MCP-based
+      extensibility UI) for AI capabilities owned by backend,
+      platform, and data science teams. The responsibilities show
+      no prompt writing, retrieval/RAG design, agent
+      orchestration, or model evaluation - the engineer consumes
+      AI services and builds the interfaces around them, which is
+      ai-support.
   responsibilities:
   - Own and deliver high-value frontend features across Copilot, GenAI Tools, and
     other AI experiences embedded in Alteryx products
   - Build and evolve reusable UI patterns for conversational experiences, workflow-native
-    AI tooling, tool actions, and context-aware workflows
+    AI tooling, tool actions, and product integration flows
+  - Partner with backend, platform, and domain teams on AI-ready APIs, telemetry,
+    and MCP-oriented integration points that make AI experiences more capable and
+    extensible
   - Collaborate with cross-functional partners to explore problem spaces, clarify
     requirements, shape implementation plans, and ship customer-facing improvements
-  - Partner with backend, platform, and domain teams on AI-ready APIs, telemetry,
-    and MCP-oriented integration points
   - Contribute to software design, code reviews, testing strategy, telemetry, and
     engineering practices that improve reliability and developer velocity
   - Mentor engineers through thoughtful feedback, pairing, and day-to-day technical
     collaboration
-  - Help the team respond quickly to new AI opportunities while making sound tradeoffs
-    around performance, quality, and maintainability
+  - Independently deliver medium-sized projects end-to-end from design and implementation
+    through testing, rollout, and iteration
   use_cases:
-  - Conversational AI assistant (Copilot) for data analytics workflows
-  - GenAI-powered tools embedded in Alteryx Designer for workflow automation
-  - MCP-based extensibility framework connecting Alteryx products to agentic ecosystems
-  - AI-ready product APIs enabling third-party agent integration
-  - Context-aware workflow experiences leveraging AI capabilities
+  - Shared conversational and agentic surfaces such as Copilot across Alteryx products
+  - Workflow-native AI tooling (GenAI Tools in Alteryx Designer) for data analytics
+    workflows
+  - Extensibility experiences built around MCP and AI-ready product APIs
+  - Interfaces that help users discover, configure, and use AI capabilities securely
+  - Context-aware workflows and product integrations connecting Alteryx products to
+    shared AI services and agent ecosystems
   skills:
-    domains: []
-    languages: [TypeScript, JavaScript, Python, C#]
-    ml: []
     cloud: []
-    genai: [MCP, LLM-powered UI experiences, Conversational UI patterns, Agentic product
-        experiences]
-    data: []
-    other: [.NET]
-    ops: [CI/CD, GitLab CI, GitHub, Automated testing, Kubernetes]
-    web: [React, HTML, CSS, REST APIs, Micro-frontend architectures, Service-oriented
-        architectures, Accessibility]
+    languages: [TypeScript, JavaScript, Python, C#, .NET]
+    ml: []
+    other: [Automated Testing, Service-Oriented Architecture, Event-Driven Architecture,
+      Performance Tuning]
+    ops: [CI/CD, GitLab CI, GitHub, Kubernetes, Observability, Telemetry]
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: [React, HTML, CSS, APIs, Micro-Frontends, Conversational UI, Accessibility]
+    data: []
+    genai: [MCP, LLMs, AI Agents]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8936207'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:04:18.717670'
+  extracted_at: '2026-08-16T06:22:59.119201'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

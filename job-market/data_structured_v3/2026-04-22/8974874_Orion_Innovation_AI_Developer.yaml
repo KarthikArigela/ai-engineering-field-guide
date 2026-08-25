@@ -1,0 +1,64 @@
+company:
+  name: Orion Innovation
+  stage: null
+  focus: |-
+    Global business and technology services and product
+    development firm
+position:
+  title: AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing autonomous
+      agents with tool-use and self-correction, orchestrating
+      multi-agent flows in LangGraph, building RAG pipelines with
+      memory, prompt/context engineering, and implementing eval
+      frameworks and guardrails. With heavy LLM and agent
+      components throughout, this is clearly ai-first.
+  responsibilities:
+  - Design and develop autonomous agents with independent planning, tool-use (function
+    calling), context and prompt engineering, and self-correction
+  - Implement LangGraph to orchestrate task delegation, conflict resolution, and collaborative
+    reasoning across specialized agents
+  - Build advanced RAG pipelines with episodic and semantic memory to maintain context
+    over long interactions
+  - Architect and deploy AI services across AWS (Bedrock/SageMaker) and Azure (OpenAI/Foundry)
+    with high availability and cost optimization
+  - Implement evaluation frameworks (Ragas, TruLens) and safety guardrails to prevent
+    hallucinations and ensure responsible agent behavior
+  - Optimize LLM latency and throughput using prompt caching, quantization, and specialized
+    model routing
+  - Perform prompt engineering and context engineering across agentic workflows
+  use_cases:
+  - Autonomous multi-agent systems that collaborate to solve complex, long-horizon
+    business problems
+  - Knowledge retrieval and long-context reasoning via RAG pipelines with episodic
+    and semantic memory
+  - Reasoning-heavy AI workflows deployed multi-cloud with high availability and cost
+    optimization
+  - Hallucination prevention and responsible agent behavior through evals and safety
+    guardrails
+  skills:
+    genai: [AI Agents, Agentic Workflows, Multi-Agent Systems, LangGraph, RAG, Function
+        Calling, Prompt Engineering, Context Engineering, Prompt Caching, Guardrails,
+      Ragas, TruLens, MCP, A2A, LoRA, QLoRA, Fine-Tuning, Generative AI, LLMs]
+    ml: [Machine Learning, Quantization]
+    web: [FastAPI]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, pgvector, Neo4j, Knowledge
+        Graphs, CosmosDB, PostgreSQL]
+    data: []
+    cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS Step Functions, AWS S3, Azure
+        OpenAI, Azure AI Foundry, Azure AI Search]
+    ops: [Docker, Kubernetes, CI/CD, LLMOps]
+    languages: [Python, asyncio, TypeScript, Node.js]
+    domains: []
+    other: [Pydantic]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8974874'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T06:41:49.370079'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

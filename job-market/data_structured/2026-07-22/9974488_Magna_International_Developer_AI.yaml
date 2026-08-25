@@ -1,53 +1,61 @@
 company:
   name: Magna International
-  stage: Public
-  focus: Automotive manufacturing and engineering solutions
+  stage: null
+  focus: Automotive body, chassis, and engineering solutions
 position:
   title: Developer, AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      maintaining LLM-based applications and AI agents using Azure
-      OpenAI, implementing RAG pipelines, performing model tuning
-      and prompt engineering. The engineer works hands-on with
-      GenAI/LLM systems rather than just supporting infrastructure
-      or data pipelines for others.
+      The role shapes model behaviour directly: designing LLM-
+      based applications and AI agents, implementing and
+      optimizing RAG pipelines, and performing model tuning and
+      prompt engineering to improve output accuracy and relevance.
+      LLMs and agents are the central components, so it is ai-
+      first.
   responsibilities:
-  - Collaborate with product managers, data scientists, and engineers to design and
-    deliver AI/ML and Generative AI solutions
+  - Collaborate with product managers, stakeholders, data scientists, and software
+    engineers to design and deliver AI/ML and Generative AI solutions aligned to business
+    objectives
   - Design, build, deploy, and maintain LLM-based applications and AI agents using
     Azure OpenAI Studio and Azure Cognitive Services
-  - Develop and manage secure integrations between AI models, enterprise applications,
-    APIs, and external services
-  - Build and maintain data pipelines for ETL of structured and unstructured data
-    from enterprise sources
   - Implement and optimize RAG pipelines to enhance model context, accuracy, and relevance
   - Perform model tuning, prompt engineering, testing, monitoring, and performance
-    optimization
-  - Develop, test, and deploy AI services, APIs, and microservices following DevOps
-    best practices
-  - Monitor and improve system performance, reliability, security, and compliance
+    optimization for scalable and reliable AI solutions
+  - Build and maintain data pipelines to extract, transform, and load structured and
+    unstructured data from multiple enterprise data sources
+  - Develop, test, and deploy AI services, APIs, and microservices following enterprise
+    engineering and DevOps best practices
+  - Work with SQL databases and complex data models to support AI workflows, training,
+    and inference
+  - Monitor and improve system performance, latency, reliability, security, and compliance,
+    and respond to production issues and enhancement requests
   use_cases:
-  - Operational excellence for automotive manufacturing systems
-  - Enterprise AI assistants and agents for business workflows
-  - AI-driven insights and data analysis for business decision-making
-  - Connected systems for manufacturing product launches
+  - Operational excellence and flawless launches through fully connected automotive
+    manufacturing systems
+  - LLM-based applications and AI agents for enterprise business processes
+  - RAG-enhanced accuracy and relevance of AI model outputs
+  - AI-driven insights and data analysis for business decision-making and operational
+    improvements
+  - Secure integration of AI models with enterprise applications, APIs, and external
+    services
   skills:
-    genai: [LLMs, AI Agents, RAG, Prompt Engineering, Fine-Tuning, Azure OpenAI, OpenAI
-        API]
+    cloud: [Azure Cognitive Services]
+    languages: []
     ml: []
-    web: [REST APIs, Microservices, APIs]
-    databases: [SQL Server, PostgreSQL]
-    data: [ETL, Data Pipelines]
-    cloud: [Azure, Azure Cognitive Services, Azure AI Foundry]
-    ops: [CI/CD, DevOps, Docker, Monitoring]
-    languages: [Python, SQL]
-    domains: []
     other: []
+    ops: [DevOps, Monitoring]
+    databases: [SQL]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Data Pipelines, Data Analysis]
+    genai: [Azure OpenAI, LLMs, AI Agents, Generative AI, RAG, Prompt Engineering,
+      Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9974488'
   location: Pune, IND
-  extracted_at: '2026-07-22T13:44:42.853436'
+  extracted_at: '2026-08-16T19:26:41.999652'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,67 @@
+company:
+  name: Cority
+  stage: null
+  focus: |-
+    EHS+ software platform for environmental, health, safety,
+    and sustainability risk management
+position:
+  title: Staff AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role is explicitly about shaping LLM behavior: designing
+      and shipping agentic workflows (LangChain, LlamaIndex, MCP),
+      building RAG pipelines and embeddings, deploying guardrails,
+      and running evals on function-calling accuracy,
+      groundedness, and hallucinations. This is direct design of
+      agent flows and output-quality evaluation for LLM systems,
+      so it is ai-first.
+  responsibilities:
+  - Design, build, and ship agentic workflows across domains including research agents,
+    coding assistants, conversational (voice/text) agents, reasoning, scheduling,
+    analytics, and workflow automation agents
+  - Own the end-to-end agent lifecycle from data ingestion through reasoning, action
+    taking, evaluation, and monitoring
+  - Build multi-step agents with autonomous planning, context tracking, memory, tool
+    use, and API orchestration
+  - Architect systems using modern agent stacks such as LangChain, LlamaIndex, OpenAI
+    Assistants, MCP, and custom orchestration
+  - Build robust retrieval pipelines (RAG), vector embeddings, caching layers, and
+    knowledge grounding systems
+  - Deploy agents as microservices with observability, evals, guardrails, and fallbacks
+    while optimizing inference cost, latency, and accuracy
+  - Create reusable frameworks and libraries to accelerate subsequent agent builds
+    and drive technical/architectural decisions
+  - Design and enhance Cority base software and client systems, communicate with Product
+    Owners, and mentor junior developers
+  use_cases:
+  - AI agents for EHS+ risk prevention across environmental management, employee health,
+    safety, quality, and sustainability
+  - Research and coding assistant agents
+  - Conversational agents across voice and text channels
+  - Scheduling and analytics agents
+  - Workflow automation bots for automating operational processes
+  - Domain-specific autonomous agents embedded in Cority's software platform
+  skills:
+    genai: [LangChain, LlamaIndex, OpenAI API, OpenAI Agents SDK, Anthropic API, Gemini,
+      Llama, DeepSeek, Microsoft Agent Framework, MCP, RAG, Embeddings, Function Calling,
+      Guardrails, LLM Evaluation, Agentic Workflows, AI Agents, LLMs]
+    ml: [Machine Learning]
+    web: [APIs, Microservices, Entity Framework, Dapper, JSON]
+    databases: [Pinecone, Weaviate, Chrom, pgvector, Vector Databases, PostgreSQL,
+      SQL Server, MongoDB, NoSQL]
+    data: [RabbitMQ, Kafka, Message Queues]
+    cloud: [AWS, Azure, SQS]
+    ops: [CI/CD, Docker, Observability]
+    languages: [Python, Node.js, .NET Core, .NET Framework]
+    domains: []
+    other: [Multi-Tenancy, Agile, Scrum, State Machines]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9533708'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T12:20:58.030369'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

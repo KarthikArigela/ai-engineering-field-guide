@@ -1,0 +1,56 @@
+company:
+  name: DeepHealth
+  stage: null
+  focus: Clinical AI radiology software and medical imaging devices
+position:
+  title: Junior Software Engineer, Clinical AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role integrates results from AI models built by others
+      into reporting/viewer applications — wrapping models,
+      building frontends, PDF reports, and backend integration. No
+      prompt writing, retrieval design, or model training. AI
+      coding tools (Claude, Cursor) are developer tooling, which
+      is explicitly ai-support.
+  responsibilities:
+  - Build and maintain software in the Clinical AI domain, including wrapping deep
+    learning models into containerized medical devices
+  - Integrate results from Clinical AI algorithms (Prostate and Lung AI products)
+    with DeepHealth's Reporting and Viewer applications
+  - Develop front-end modules for users to interact with AI results and backend services
+    for smooth integration
+  - Design, refine, and develop features; write code, perform code reviews, and contribute
+    automated and manual tests
+  - Own features through the entire development cycle from refinement to production,
+    supporting the service and delivery team on production issues
+  - Maintain Quality and Regulatory compliance, writing implementation specifications,
+    following cybersecurity processes, and contributing to risk analysis
+  - Collaborate with team lead and product manager to refine requirements and make
+    strategic technology recommendations
+  use_cases:
+  - Radiology AI products for prostate and lung cancer analysis
+  - Integration of clinical AI algorithm results into reporting and viewer applications
+  - PDF report generation for clinical AI results
+  - Front-end interaction with AI results for radiologists
+  - Containerized medical device software for clinical workflows
+  skills:
+    genai: [Claude Code, Cursor]
+    ml: []
+    web: [Microservices, Django, React]
+    databases: []
+    data: []
+    cloud: [GCP, AWS]
+    ops: [CI/CD, Docker]
+    languages: [Python, Java, JavaScript, TypeScript]
+    domains: []
+    other: [Distributed Systems, DICOM, Test-Driven Development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10649252'
+  location: NLD
+  remote: true
+  extracted_at: '2026-08-25T11:06:03.353875'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

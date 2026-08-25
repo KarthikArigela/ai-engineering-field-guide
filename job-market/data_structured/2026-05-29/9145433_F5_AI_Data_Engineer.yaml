@@ -1,58 +1,60 @@
 company:
   name: F5
-  stage: Public
-  focus: Cybersecurity and application security services
+  stage: null
+  focus: Application security, delivery, and cybersecurity solutions
 position:
   title: AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI Data Engineer role focused on building data
-      pipelines and infrastructure to support AI initiatives, not
-      on building or deploying AI models directly. The role
-      creates the data foundation for other teams to train and use
-      AI models through ETL pipelines, data quality checks, and
-      data governance. While the role enables AI systems and
-      collaborates with AI Deployment Engineers, the core work is
-      data engineering (pipelines, transformation, quality
-      monitoring) rather than model development, training, or
-      deployment.
+      This role builds, governs, and monitors the data pipelines
+      that feed AI models, with model training and deployment
+      owned by separate AI Deployment Engineers. The person shapes
+      data infrastructure, not model behaviour: no prompt
+      engineering, retrieval design, agent orchestration,
+      training, or model evaluation appears in the
+      responsibilities. Per the dataset/pipeline rule, building
+      pipelines that feed someone else's AI systems is ai-support.
   responsibilities:
   - Implement automated data quality checks, validation rules, and anomaly detection
-    throughout data pipelines to ensure clean data for AI models
-  - Define and enforce data quality SLAs including completeness, timeliness, consistency,
-    and accuracy thresholds
+    across data pipelines to prevent corrupt, incomplete, or biased data from reaching
+    AI models
+  - Define and enforce data quality SLAs covering completeness, timeliness, consistency,
+    and accuracy
   - Build monitoring and alerting systems to detect pipeline failures, data drift,
-    and schema changes affecting AI model performance
-  - Implement and maintain end-to-end data pipelines for structured, semi-structured,
-    and unstructured datasets
-  - Collaborate with AI Deployment Engineers to optimize data pipelines for model
-    training and data stores for model retention
-  - Implement both batch and real-time streaming data pipelines to support diverse
-    AI and automation use cases
+    and schema changes that could degrade AI model performance
   - Conduct root cause analysis on data quality incidents and implement preventative
     controls
-  - Implement data retention, data lineage, and governance standards across various
-    data pipelines and products
+  - Implement and maintain end-to-end batch and real-time/streaming data pipelines
+    for structured, semi-structured, and unstructured datasets
+  - Work with AI Deployment Engineers to optimize data pipelines for AI model training
+    and data stores for AI model retention
+  - Implement data retention, data lineage, and data governance standards across pipelines
+    and products
+  - Collaborate with technical and non-technical teams to align data processes with
+    business objectives and integrate automation tools
   use_cases:
-  - Corporate operations automation and AI initiatives
-  - Data quality monitoring for AI model training and reliability
-  - Operational AI systems across the organization
-  - Enterprise-scale data pipeline infrastructure
-  - Real-time and batch data processing for AI solutions
-  - Data governance and security compliance for AI deployments
+  - Data pipelines powering AI model training and AI-driven automation across corporate
+    operations
+  - Data quality assurance preventing corrupt, incomplete, or biased data from reaching
+    AI models
+  - Pipeline monitoring and alerting for failures, data drift, and schema changes
+    that affect AI model performance
+  - Data governance including retention, lineage, and privacy compliance for operational
+    AI systems
+  - Batch and streaming data integration supporting diverse AI and automation use
+    cases
   skills:
-    domains: []
+    cloud: [Cloud Services]
     languages: [Python, SQL]
-    ml: []
-    cloud: []
-    genai: []
-    data: [Hadoop, Spark, dbt, Fivetran, Data Pipelines, Streaming Data, Batch Processing]
-    other: [Tableau, Data Governance, Data Quality, Data Lineage, Data Privacy Compliance,
-      GDPR, CCPA]
+    ml: [Anomaly Detection]
+    other: [Tableau, GDPR, CCPA/CPRA]
     ops: []
-    web: []
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [Hadoop, Spark, dbt, Fivetran, Data Pipelines, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -63,4 +65,6 @@ meta:
   - Hyderabad, IND
   - Bengaluru, IND
   remote: true
-  extracted_at: '2026-05-29T08:55:06.214282'
+  extracted_at: '2026-08-16T09:05:26.520674'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

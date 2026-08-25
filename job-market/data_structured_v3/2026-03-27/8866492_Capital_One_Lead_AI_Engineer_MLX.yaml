@@ -1,0 +1,64 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services
+position:
+  title: Lead AI Engineer (MLX)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds core AI components themselves -
+      foundation model training, LLM inference, guardrails, model
+      evaluation, and LLM optimization techniques (latency,
+      throughput, quantization-adjacent work) - which is squarely
+      shaping model behavior and output quality. LLM/generative
+      components dominate ("large language model inference", "LLM
+      optimization techniques"), so by Step 2 this is ai-first
+      rather than ml-first. The Lead title reflects technical
+      leadership with no people management mentioned.
+  responsibilities:
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate a broad stack of open source and SaaS AI technologies such as AWS Ultraclusters,
+    Hugging Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+    at Capital One
+  - Track latest AI research and judiciously apply novel techniques in production
+  use_cases:
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time via conversational AI
+  - AI-powered internal tools that change how associates work
+  - Enhancing products across Capital One with AI capabilities delivered via shared
+    models and platforms
+  skills:
+    genai: [NeMo Guardrails]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [LLM Inference, Observability]
+    languages: [Python, Go, Java, Scala, C++, C#]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8866492'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - San Jose, USA
+  - New York, USA
+  - Cambridge, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T05:23:16.724835'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

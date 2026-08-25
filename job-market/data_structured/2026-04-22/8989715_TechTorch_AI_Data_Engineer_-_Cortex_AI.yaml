@@ -1,22 +1,22 @@
 company:
   name: TechTorch
-  stage: Growth stage (Series B+ scale)
+  stage: null
   focus: |-
-    Enterprise technology consultancy for private equity-backed
-    businesses
+    Enterprise technology and AI consultancy for private equity-
+    backed businesses
 position:
   title: AI Data Engineer - Cortex AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a data engineering position that
-      builds data pipelines and platforms to support downstream
-      AI/ML consumption. While it involves leveraging Snowflake
-      Cortex AI for embeddings/classification/summarization and
-      integrating AWS Bedrock, the core focus is designing and
-      maintaining data infrastructure rather than building,
-      training, or fine-tuning AI models directly. The role
-      enables AI work rather than owning AI system development.
+      The core deliverable is data plumbing: Snowflake-centered
+      ELT pipelines, AI-ready data models, and data
+      quality/governance for downstream ML and GenAI consumers.
+      The role calls AI services (Snowflake Cortex AI, AWS
+      Bedrock) to operationalize AI workflows rather than shaping
+      model behavior, and RAG, LangChain, and agents appear only
+      as nice-to-haves. Per the dataset/pipeline rule, preparing
+      data for ML/LLM workloads is ai-support.
   responsibilities:
   - Design, build, and maintain scalable data pipelines using Snowflake as the central
     data platform
@@ -24,36 +24,38 @@ position:
     GenAI use cases
   - Leverage Snowflake Cortex AI for embedding, classification, summarization, and
     AI-assisted analytics
-  - Integrate and operationalize AI workflows using AWS Bedrock and related AWS services
-    (Lambda, Step Functions)
+  - Integrate and operationalize AI workflows using AWS Bedrock, Lambda, and Step
+    Functions
   - Build and optimize ELT pipelines using dbt, SQL, and Python
-  - Integrate data from diverse sources including APIs, SaaS platforms, databases,
-    and event streams
+  - Integrate data from APIs, SaaS platforms, databases, and event streams
   - Ensure data quality, observability, and governance across pipelines and AI workloads
   - Collaborate with AI engineers, data scientists, and business teams to translate
     use cases into scalable data solutions
   use_cases:
-  - Enterprise analytics and reporting for private equity-backed organizations
-  - LLM-powered business workflow automation
-  - AI-driven data classification and summarization
-  - RAG pipelines and GenAI analytics for enterprise environments
-  - Scalable data products enabling AI-driven insights
+  - AI-driven analytics and insights for private equity-backed enterprises
+  - LLM-powered use cases and AI-driven automation across enterprise environments
+  - Embedding, classification, and summarization via warehouse-native AI (Snowflake
+    Cortex)
+  - AI agents and GenAI-enabled business workflows powered by modern data platforms
+  - Scalable data products and data-driven transformation programs
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, AWS S3, IAM, Step Functions]
     languages: [SQL, Python]
-    ml: []
-    cloud: [Snowflake Cortex AI, AWS Bedrock, AWS Lambda, AWS Step Functions, AWS
-        S3, IAM]
-    genai: [LangChain, Bedrock Agents, RAG, Embedding workflows]
-    data: [dbt, Airflow, ELT pipelines, Data Modeling, Data Governance]
+    ml: [Machine Learning]
     other: []
-    ops: [Data observability]
-    web: []
-    databases: [Snowflake, Data warehousing, Vector Databases, OpenSearch, Pinecone]
-  is_customer_facing: true
+    ops: []
+    databases: [Snowflake, OpenSearch, Pinecone, Vector Databases, Data Warehousing]
+    domains: []
+    web: [APIs]
+    data: [dbt, Airflow, Data Pipelines, Data Modeling, Data Governance]
+    genai: [Snowflake Cortex AI, AWS Bedrock, Bedrock Agents, Embeddings, LangChain,
+      AI Agents, RAG, Generative AI, LLMs]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8989715'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:46:29.564835'
+  extracted_at: '2026-08-16T06:53:49.340170'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

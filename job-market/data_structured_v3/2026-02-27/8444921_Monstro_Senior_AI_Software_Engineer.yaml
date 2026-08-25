@@ -1,0 +1,68 @@
+company:
+  name: Monstro
+  stage: null
+  focus: |-
+    Governance and intelligence infrastructure for institutional
+    financial AI
+position:
+  title: Senior AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing agentic
+      workflows and agent orchestration, building RAG pipelines,
+      implementing prompt engineering, fine-tuning open-weight
+      models (LoRA, QLoRA, instruction tuning), and building evals
+      and guardrails. LLMs and agents are central to every
+      responsibility, so this is ai-first.
+  responsibilities:
+  - Build production-grade AI software with clean, well-tested code, owning features
+    end-to-end from design through deployment and monitoring
+  - Design and implement autonomous AI agents with planning, memory, and tool-use
+    capabilities, plus orchestration layers for multi-step agent workflows
+  - Deploy and manage self-hosted open-weight LLMs in secure cloud environments, optimizing
+    inference via quantization, batching, and serving frameworks (vLLM, TGI)
+  - Integrate commercial model APIs (Anthropic, OpenAI) managing cost, latency, and
+    reliability tradeoffs, including for environments with limited network access
+  - Design RAG pipelines with chunking, indexing, and retrieval strategies optimized
+    for financial content and structured knowledge bases
+  - Develop evaluation frameworks, automated AI testing pipelines, and guardrails
+    ensuring reliability, safety, and explainability
+  - Adapt open-weight foundation models using instruction tuning, LoRA, QLoRA, and
+    parameter-efficient fine-tuning
+  - Implement monitoring for model drift, latency, error rates, and output quality,
+    and mentor junior engineers while collaborating with product managers and domain
+    experts
+  use_cases:
+  - Personalized, responsible financial guidance delivered by AI at institutional
+    scale
+  - AI agents that reason, plan, and act on behalf of users in financial contexts
+  - Grounding AI responses in authoritative, up-to-date financial knowledge via RAG
+  - Trustworthy, explainable, and auditable AI for a highly regulated financial domain
+  - Operating AI within partner infrastructure, including air-gapped or restricted-network
+    environments
+  skills:
+    genai: [AI Agents, Agentic Workflows, LangChain, LangGraph, RAG, Prompt Engineering,
+      LLMs, Anthropic API, OpenAI API, Llama, Mistral, Qwen, Function Calling, Guardrails,
+      LLM Evaluation, Fine-Tuning, LoRA, QLoRA, PEFT]
+    ml: [Quantization]
+    web: [APIs]
+    databases: [Vector Databases]
+    data: [Data Pipelines]
+    cloud: []
+    ops: [Docker, Kubernetes, vLLM, TGI, Triton, Model Deployment, Model Monitoring,
+      CI/CD, Observability]
+    languages: [Python, Go]
+    domains: []
+    other: [Code Review, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8444921'
+  location: Metro, IDN
+  locations:
+  - Metro, IDN
+  - New York, USA
+  extracted_at: '2026-08-16T01:24:22.449613'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

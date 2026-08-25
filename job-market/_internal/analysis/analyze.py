@@ -3,6 +3,7 @@
 import os
 from collections import Counter, defaultdict
 
+from common import job_skills, umbrella_skills
 from common import load_structured_jobs as load_all_jobs
 
 
@@ -29,19 +30,25 @@ def analyze_companies(jobs):
 
 
 def analyze_skills(jobs):
-    """Analyze skill distribution by category."""
+    """Analyze skill distribution by category, excluding umbrella terms."""
     category_skills = defaultdict(Counter)
     skill_totals = Counter()
 
     for job in jobs:
-        skills = job.get('position', {}).get('skills', {})
-        for category, skill_list in skills.items():
-            if isinstance(skill_list, list):
-                for skill in skill_list:
-                    category_skills[category][skill] += 1
-                    skill_totals[(category, skill)] += 1
+        for category, skill_list in job_skills(job).items():
+            for skill in skill_list:
+                category_skills[category][skill] += 1
+                skill_totals[(category, skill)] += 1
 
     return category_skills, skill_totals
+
+
+def analyze_umbrella_terms(jobs):
+    """How often ads reach for a field name instead of a specific skill."""
+    counts = Counter()
+    for job in jobs:
+        counts.update(umbrella_skills(job))
+    return counts
 
 
 def analyze_roles(jobs):
@@ -135,7 +142,7 @@ def main():
 
     # Skills analysis
     print("=" * 60)
-    print("SKILLS ANALYSIS - Top 10 per category")
+    print("SKILLS ANALYSIS - Top 10 per category (umbrella terms excluded)")
     print("=" * 60)
     category_skills, skill_totals = analyze_skills(jobs)
     for category in ['genai', 'ml', 'web', 'databases', 'data', 'cloud', 'ops', 'languages']:
@@ -143,6 +150,15 @@ def main():
             print(f"\n  {category.upper()}:")
             for skill, count in category_skills[category].most_common(10):
                 print(f"    {skill}: {count}")
+    print()
+
+    # Reported apart from the rankings above: these count how often an ad uses
+    # a field name, which is a fact about wording rather than about the work.
+    print("=" * 60)
+    print("UMBRELLA TERMS - excluded from the rankings above")
+    print("=" * 60)
+    for skill, count in analyze_umbrella_terms(jobs).most_common():
+        print(f"    {skill}: {count} ({count/len(jobs)*100:.1f}%)")
     print()
 
     # Use cases analysis
@@ -171,16 +187,16 @@ def main():
     for j in ai_support_customer_facing[:5]:
         print(f"    - {j.get('company', {}).get('name')}: {j.get('position', {}).get('title')}")
 
-    # AI-first roles with minimal genai skills
+    # AI-first roles with minimal genai skills. Umbrella terms are dropped
+    # first: an ad whose only GenAI skill is "Generative AI" names nothing.
     ai_first_low_genai = [
         j for j in jobs
         if j.get('position', {}).get('ai_type', {}).get('type') == 'ai-first'
-        and len(j.get('position', {}).get('skills', {}).get('genai', [])) <= 1
+        and len(job_skills(j).get('genai', [])) <= 1
     ]
     print(f"\n  AI-First roles with minimal GenAI skills: {len(ai_first_low_genai)}")
     for j in ai_first_low_genai[:5]:
-        skills = j.get('position', {}).get('skills', {}).get('genai', [])
-        print(f"    - {j.get('company', {}).get('name')}: {skills}")
+        print(f"    - {j.get('company', {}).get('name')}: {job_skills(j).get('genai', [])}")
 
     # Titles with "AI Engineer" that are actually ai-support
     ai_engineer_support = [

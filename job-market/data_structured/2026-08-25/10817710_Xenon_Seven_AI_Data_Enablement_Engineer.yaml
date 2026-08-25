@@ -1,0 +1,60 @@
+company:
+  name: Xenon Seven
+  stage: null
+  focus: IT consulting and staffing for enterprise clients
+position:
+  title: AI Data Enablement Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds RAG pipelines and conversational
+      analytics applications, deploys and tunes Snowflake Cortex
+      Analyst/Search/Agents for accuracy, and builds semantic
+      layers specifically to ground natural-language querying —
+      this is designing retrieval and shaping LLM output quality,
+      so ai-first despite the data platform framing. The
+      description explicitly excludes model training, so Step 2
+      LLM-shaping criteria apply.
+  responsibilities:
+  - Design and build AI-ready data products with defined business semantics, KPIs,
+    and hierarchies on Snowflake and/or Databricks
+  - Implement semantic layers and governed datasets supporting BI consumption and
+    natural-language querying
+  - Deploy and tune Snowflake Cortex capabilities (Analyst, Search, Agents, LLM Functions)
+    and/or Databricks Genie spaces with Unity Catalog
+  - Build RAG pipelines and conversational analytics applications (Streamlit, Databricks
+    Apps) grounded in governed enterprise data
+  - Engineer ETL/ELT pipelines with dbt, Airflow, Snowpark, and PySpark to maintain
+    trusted data
+  - Implement data governance including RBAC, row/column-level security, masking,
+    lineage, and auditability in a regulated pharma environment
+  - Optimize cost and performance across data platform and AI dimensions (token usage,
+    caching, model routing)
+  - Partner with Finance stakeholders to translate domain requirements into semantic
+    models and governed data products
+  use_cases:
+  - Natural-language querying of governed enterprise finance data by business users
+  - Conversational analytics grounded in trusted, governed data products
+  - Text-to-SQL style analytics via Cortex Analyst and Databricks Genie
+  - Enterprise knowledge retrieval combining structured and unstructured data (PDFs,
+    SharePoint)
+  - Data governance and trusted data products in a regulated pharma environment
+  skills:
+    cloud: [Snowflake Cortex, Databricks Genie]
+    languages: [SQL, Python]
+    ml: []
+    other: [RBAC, Veeva CRM, SAP]
+    ops: [Airflow, Databricks Workflows]
+    databases: [Snowflake, Unity Catalog, Semantic Layer]
+    domains: []
+    web: [Streamlit]
+    data: [Databricks, dbt, Snowpark, PySpark, Data Governance, Data Pipelines]
+    genai: [RAG, LangChain, LlamaIndex, Conversational AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10817710'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T12:05:35.123672'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

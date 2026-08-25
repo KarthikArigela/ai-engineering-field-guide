@@ -1,0 +1,54 @@
+company:
+  name: Epiq
+  stage: null
+  focus: Legal services and legal technology solutions
+position:
+  title: Senior Software Engineer, Data Platform, AI Labs
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds data infrastructure (ingestion, storage,
+      indexing, pipelines) that feeds the AI platform; it does not
+      shape model behavior itself — no prompt engineering, RAG
+      design, or training. Building data/index plumbing for
+      retrieval systems used by others is ai-support per the
+      dataset/pipeline rule.
+  responsibilities:
+  - Design scalable data pipelines for multi-million-file workloads covering parsing,
+    ingestion, storage, partitioning, and indexing
+  - Build queue-based asynchronous processing frameworks with fault tolerance, retry,
+    idempotency, and dead-letter handling
+  - Design storage and indexing architecture across relational, object, search, and
+    vector stores with consistency and reconciliation
+  - Design multi-tenant data architectures with tenant isolation and workload management
+    for AI workloads
+  - Establish pipeline observability and service-level objectives for throughput,
+    latency, and data quality
+  - Plan and execute modernization and migration strategies preserving availability
+    and data integrity
+  - Produce technical design documentation and participate in architectural review
+  use_cases:
+  - High-volume legal document ingestion for litigation and investigations
+  - Data and indexing infrastructure supporting retrieval, reasoning, and legal workflows
+  - Multi-tenant AI platform for corporate legal departments and law firms
+  - Asynchronous document processing with reliability guarantees
+  skills:
+    genai: []
+    ml: []
+    web: [OAuth]
+    databases: [PostgreSQL, Solr, Qdrant, Vector Search]
+    data: [Data Pipelines, Airflow, Dagster, RabbitMQ]
+    cloud: [Azure]
+    ops: [Temporal, Kubernetes, Docker, Terraform, Prometheus, Grafana, OpenTelemetry,
+      CI/CD]
+    languages: [Python]
+    domains: []
+    other: [OCR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10646799'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:05:31.336822'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

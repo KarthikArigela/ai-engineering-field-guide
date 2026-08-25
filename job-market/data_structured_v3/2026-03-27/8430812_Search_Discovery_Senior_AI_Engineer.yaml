@@ -1,0 +1,67 @@
+company:
+  name: Search Discovery
+  stage: null
+  focus: Data, cloud, and AI consulting and products
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: designing RAG
+      systems with vector databases and embedding strategies,
+      building evaluation frameworks for model performance, and
+      establishing guardrail/observability systems to mitigate
+      hallucinations and bias. These are all Step 1 shaping
+      activities applied to LLM-based products, making it ai-
+      first.
+  responsibilities:
+  - Lead implementation of rigorous evaluation frameworks to monitor model performance,
+    drift, and cost in real-time
+  - Architect and develop high-performance backend services and APIs using Python
+    (FastAPI) to serve large language models at scale
+  - Design advanced RAG systems, selecting and managing vector databases and optimizing
+    embedding strategies for accuracy and speed
+  - Establish model observability and guardrail systems to detect distribution drift
+    and implement automated safety filters mitigating hallucinations, bias, and toxic
+    outputs
+  - Build robust integration layers that connect AI agents securely to external enterprise
+    systems, CRMs, and legacy databases
+  - Conduct code reviews, provide technical guidance, and mentor engineers on best
+    practices for building deterministic software around probabilistic AI models
+  - Collaborate with infrastructure teams to define deployment strategies ensuring
+    solutions scale dynamically under load
+  - Define the end-to-end architecture for AI products on cloud platforms (preferably
+    GCP) ensuring high availability, security, and cost-effectiveness
+  use_cases:
+  - Cloud-based commercial AI products for enterprise clients
+  - Serving large language models at scale in production
+  - Enterprise RAG with vector search over organizational data
+  - AI agents integrated with enterprise systems, CRMs, and legacy databases
+  - Model safety and quality monitoring to mitigate hallucinations, bias, and toxic
+    outputs
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, LLMs, AI Agents, Embeddings, Guardrails,
+      Prompt Engineering, Fine-Tuning, LoRA, PEFT]
+    ml: []
+    web: [REST APIs, GraphQL, gRPC, FastAPI]
+    databases: [Vector Databases, Pinecone, Weaviate, PostgreSQL]
+    data: []
+    cloud: [GCP]
+    ops: [LLMOps, Git]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8430812'
+  location: Austin, USA
+  locations:
+  - Austin, USA
+  - Dallas, USA
+  - Atlanta, USA
+  - Cleveland, USA
+  - New York, USA
+  extracted_at: '2026-08-16T03:08:57.131046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

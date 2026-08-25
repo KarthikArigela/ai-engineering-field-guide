@@ -1,58 +1,59 @@
 company:
   name: Scale AI
-  stage: Public
+  stage: null
   focus: |-
-    Data foundation for AI, enterprise AI solutions, data
-    annotation platform
+    Data annotation and AI solutions platform for enterprises
+    and governments
 position:
   title: Forward Deployed AI Engineer, Enterprise
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed AI Engineer who builds, deploys,
-      and optimizes AI agents and LLM-based solutions for
-      enterprise customers. The role involves hands-on development
-      of multi-agent systems, RAG implementations, prompt
-      engineering, and fine-tuning pipelines - directly working ON
-      AI models and agents rather than just supporting
-      infrastructure.
+      The role directly shapes LLM behaviour: it designs prompt
+      engineering strategies, builds RAG systems, architects
+      multi-agent agent flows, and implements evaluation
+      frameworks and fine-tuning pipelines. All shaped components
+      are LLM/agent-based, and as a Forward Deployed Engineer
+      adapting AI solutions at customer sites, it is ai-first.
   responsibilities:
-  - Partner directly with enterprise customers to understand their technical infrastructure,
-    data pipelines, and business requirements
-  - Design and implement custom integrations between Scale AI's platform and customer
-    data environments
-  - Develop production-grade AI agents tailored to customer use cases across various
-    domains
-  - Architect multi-agent systems that orchestrate between different models, tools,
-    and data sources
-  - Implement RAG systems and fine-tuning pipelines for customer-specific domains
-  - Create and maintain prompt engineering strategies, libraries, and best practices
-  - Build evaluation frameworks to measure agent performance and iterate toward business
-    objectives
-  - Serve as the primary technical point of contact for strategic enterprise accounts
+  - Partner with enterprise customers to understand their infrastructure, data pipelines,
+    and business requirements
+  - Design and build custom integrations between Scale AI's platform and customer
+    data environments, including data connectors and ETL pipelines
+  - Develop production-grade AI agents and architect multi-agent systems for customer
+    use cases across support, data analysis, content generation, and workflow automation
+  - Create prompt engineering strategies, maintain prompt libraries, and run systematic
+    experimentation and A/B testing to improve model outputs
+  - Implement RAG systems, fine-tuning pipelines, and evaluation frameworks to measure
+    and iterate on agent performance
+  - Design human-in-the-loop workflows and feedback mechanisms for continuous agent
+    improvement
+  - Deploy and configure AI models and agents within customer security and compliance
+    boundaries
+  - Serve as the primary technical point of contact for strategic accounts, providing
+    training and translating customer needs into product improvements
   use_cases:
-  - Deep research agents for due diligence that perform multi-agent fact-checking
-    and process complex unstructured data
-  - Churn prediction models with personalized offer curation integrated into copilot
-    systems for call centers
-  - Voice agents with avatars for gathering unstructured health information in healthcare
-    settings
-  - Customer support automation using AI agents to handle routine inquiries and workflow
-    automation
-  - Data analysis and content generation agents tailored to specific enterprise domains
-  - Human-in-the-loop workflows for continuous agent improvement and feedback collection
+  - Due diligence deep research agents with multi-agent fact-checking for professional
+    services firms
+  - Customer churn prediction with personalized offer curation for telecom call centers
+  - Healthcare voice agents for gathering and extracting unstructured patient information
+  - Customer support automation
+  - Data analysis and content generation
+  - Enterprise workflow automation
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Hugging Face, Fine-Tuning, Embeddings]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LlamaIndex, OpenAI API, RAG, Prompt Engineering, AI Agents,
-      Multi-Agent Systems, MCP tools]
+    languages: [Python]
+    ml: [Hugging Face]
+    other: [SOC 2, GDPR, HIPAA Compliance, A/B Testing, System Design, Data Structures,
+      Algorithms]
+    ops: [Docker, Kubernetes, CI/CD, Terraform, Bicep, Infrastructure as Code]
+    databases: [Vector Databases, Data Warehouses]
+    domains: []
+    web: []
     data: [Data Pipelines]
-    other: [System Design]
-    ops: [Docker, Kubernetes, CI/CD, Terraform, Infrastructure as Code]
-    web: [REST APIs]
-    databases: [Vector Databases, Semantic Search]
+    genai: [LangChain, LlamaIndex, OpenAI API, LLMs, Prompt Engineering, RAG, Embeddings,
+      AI Agents, Multi-Agent Systems, MCP, Semantic Search, Fine-Tuning, LLM Evaluation,
+      Human-in-the-Loop]
   is_customer_facing: true
   is_management: false
 meta:
@@ -61,4 +62,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T10:02:42.210678'
+  extracted_at: '2026-08-15T21:10:12.757383'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

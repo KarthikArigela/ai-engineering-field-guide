@@ -1,56 +1,65 @@
 company:
   name: ZenBusiness
-  stage: Unknown
+  stage: null
   focus: Helping entrepreneurs start, run, and grow small businesses
 position:
   title: Staff Software Engineer (Developer Platform & AI Tooling)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building AI-powered developer tooling
-      including agentic coding workflows, LLM-based code analysis
-      and generation, multi-agent orchestration, and prompt
-      libraries. The engineer will directly work with LLMs to
-      create tools that analyze code, generate changes, and
-      automate tasks - this is hands-on work with AI/LLM systems.
+      The role explicitly designs and builds agentic coding/review
+      workflows, guardrail-aware assistants, prompt libraries, and
+      multi-agent orchestration on top of LLMs - writing prompts,
+      designing agent flows, and building guardrails is shaping
+      model behavior. The platform engineering work (CI/CD,
+      Kubernetes, IaC) is substantial, but the agents and prompts
+      are the product this role builds for engineering teams
+      rather than a rollout of off-the-shelf tools, so it is ai-
+      first.
   responsibilities:
-  - Design, build, and scale AI-powered developer tooling including agentic coding
-    and review workflows that use LLMs to analyze code, generate changes, and collaborate
-    via chat
-  - Create policy- and guardrail-aware assistants that can comment, propose code changes,
+  - Design, build, and scale AI-powered developer tooling such as agentic coding and
+    review workflows that use LLMs
+  - Build policy- and guardrail-aware assistants that comment, propose code changes,
     and safely automate repetitive tasks
-  - Develop prompt libraries, instructions, and service manuals for effective and
-    safe AI adoption across teams
-  - Evolve CI/CD platform to be faster, more observable, and easier to adopt with
-    analytics and data pipelines
-  - Strengthen platform reliability and security in Kubernetes including cluster resiliency,
-    rollout strategies, and Helm chart patterns
-  - Create paved paths and golden templates including self-service software templates,
-    CLI automation, and bootstrap flows
-  - Mentor teammates, champion TDD and code review quality, and uplevel engineering
-    practices within the team
+  - Create prompt libraries, instructions, and service manuals that make AI adoption
+    effective and safe across teams
+  - Evolve the CI/CD platform with analytics and data pipelines to compare platform
+    performance, baselines, and regressions
+  - Improve Kubernetes cluster/app resiliency, rollout strategies, and priority classes
+    for critical services
+  - Standardize Helm chart patterns, deployment practices, and IaC workflows; contribute
+    to incident response playbooks and recovery patterns
+  - Create paved paths with self-service software templates, CLI/automation enhancements,
+    and bootstrap flows backed by clear docs and runbooks
+  - Mentor and pair with teammates, champion TDD and code review quality, and keep
+    stakeholders informed of blockers and tradeoffs
   use_cases:
-  - AI-powered code review and automated code generation for developer workflows
-  - Intelligent assistants for policy-aware code changes and task automation
-  - Developer productivity tooling with LLM-based coding assistants
-  - Platform performance analytics and data pipelines for CI/CD optimization
-  - Self-service developer templates and automation tools
+  - Agentic code analysis and automated change generation with chat collaboration
+  - Policy- and guardrail-aware AI assistants for code review and repetitive task
+    automation
+  - Prompt libraries and guardrails enabling safe AI adoption across engineering teams
+  - CI/CD analytics and regression detection for platform performance decisions
+  - Kubernetes resiliency and rollout improvements for critical services
+  - Developer self-service templates, paved paths, and bootstrap flows
   skills:
-    domains: []
+    cloud: []
     languages: [Python, TypeScript, Node.js, Bash, SQL]
     ml: []
-    cloud: []
-    genai: [LLMs, Prompt Engineering, Agentic Workflows, AI guardrails, Cursor, Claude
-        Code]
-    data: [Data Pipelines]
     other: []
-    ops: [GitHub Actions, CI/CD, Kubernetes, Helm, ArgoCD, GitOps, Terraform, Docker]
-    web: []
+    ops: [CI/CD, GitHub Actions, Kubernetes, Helm, GitOps, ArgoCD, Terraform, Infrastructure
+        as Code]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, Prompt Engineering, Agentic Workflows, Guardrails, Claude Code,
+      Cursor, Codex, Windsurf]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8631414'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:38:02.825710'
+  extracted_at: '2026-08-16T03:24:22.074132'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

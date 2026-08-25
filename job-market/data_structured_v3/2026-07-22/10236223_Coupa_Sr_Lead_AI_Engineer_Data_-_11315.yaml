@@ -1,0 +1,58 @@
+company:
+  name: Coupa
+  stage: null
+  focus: AI-driven total spend management platform for businesses
+position:
+  title: Sr. Lead AI Engineer, Data - 11315
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it owns the end-to-
+      end fine-tuning pipeline with parameter-efficient techniques
+      (QLoRA, LoRA, PEFT), builds evaluation harnesses and
+      benchmarks, and judges model quality across safety,
+      accuracy, latency, and cost, with RLHF/DPO alignment
+      experience as a plus. Step 1 is yes and the models being
+      shaped are large language models, so this is ai-first.
+  responsibilities:
+  - Build and own the end-to-end model fine-tuning pipeline covering data preprocessing,
+    training, evaluation, and model registry
+  - Implement and optimize fine-tuning techniques (QLoRA, LoRA, PEFT, full fine-tune)
+    for training workloads
+  - Design and maintain evaluation harnesses with task-specific benchmarks and automated
+    regression testing
+  - Drive the training iteration loop by analyzing results, diagnosing failure modes,
+    and improving data and configuration
+  - Implement experiment tracking, hyperparameter optimization, and reproducible training
+    workflows
+  - Collaborate with data engineering on training data strategy, including synthetic
+    data generation
+  - Evaluate model quality across safety, accuracy, latency, and cost dimensions
+  - Contribute to model serving architecture and inference optimization, and mentor
+    ML engineers across the team
+  use_cases:
+  - Predict, prescribe, and automate smarter business spend decisions
+  - Improve operating margins through AI informed by trillions of dollars of spend
+    data
+  - Fine-tuned LLMs powering Coupa's total spend management platform
+  - Quality evaluation of models across safety, accuracy, latency, and cost
+  skills:
+    genai: [Fine-Tuning, LoRA, QLoRA, PEFT, LLMs, RLHF, DPO]
+    ml: [PyTorch, Transformers, Model Training, Model Evaluation, Hyperparameter Optimization,
+      Distributed Training, Tokenization, Machine Learning]
+    web: []
+    databases: []
+    data: [Synthetic Data Generation]
+    cloud: []
+    ops: [Experiment Tracking, Model Serving, Inference Optimization]
+    languages: [Python]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10236223'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T18:06:55.329449'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

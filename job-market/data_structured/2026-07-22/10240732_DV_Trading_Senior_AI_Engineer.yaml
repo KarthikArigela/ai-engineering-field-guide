@@ -1,17 +1,20 @@
 company:
   name: DV Trading
-  stage: Established (spun out in 2016, 600+ employees)
-  focus: Proprietary trading and financial services
+  stage: null
+  focus: Proprietary trading and financial services firm
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly responsible for building, fine-tuning,
-      distilling, and deploying open-weight LLMs on-prem, plus
-      operating inference infrastructure and a model gateway. The
-      engineer works hands-on with models — training, evaluation,
-      and serving — making this clearly ai-first.
+      The role directly shapes model behavior: it fine-tunes and
+      distills open-weight LLMs, builds distillation pipelines
+      from frontier model outputs, and creates model evaluation
+      and selection frameworks. Step 2: all shaped models are LLMs
+      (Llama, Qwen, Mistral, frontier providers), so it is ai-
+      first. The serving/gateway work is done on models this
+      person themselves tunes, which keeps it shaping rather than
+      ai-support.
   responsibilities:
   - Build and operate a model gateway routing inference across open and closed models
     with cost, latency, and quality tracking
@@ -21,30 +24,31 @@ position:
     tasks
   - Deploy and maintain on-prem inference infrastructure (vLLM, TGI, or equivalent)
     on Kubernetes
-  - Build model evaluation frameworks for quality, cost, latency, and regression
-  - Define criteria and tooling for model selection between open models and closed
-    APIs
+  - Build model evaluation frameworks covering quality, cost, latency, and regression
+    testing
+  - Define criteria and tooling for model selection between production-ready open
+    models and closed APIs
+  - Manage GPU infrastructure provisioning, scheduling, and utilization monitoring
+    in production
   - Partner with the agent engineering team to ensure the model layer meets agent
-    workload requirements
+    workload needs
   use_cases:
-  - Task-specific open-weight model fine-tuning and distillation for proprietary trading
-    workflows
-  - On-premises LLM inference to reduce cost and latency while maintaining data sovereignty
-  - Intelligent model routing across open and closed providers based on cost, quality,
-    and latency
-  - Model evaluation and regression testing for production AI systems in a regulated
-    financial environment
+  - Cost- and latency-optimized LLM inference routing across open and closed providers
+  - Task-specific open-weight models for proprietary trading workflows
+  - On-prem LLM serving for sensitive financial trading data
+  - Model evaluation and selection for production readiness of open vs. closed models
+  - Centralized model layer supporting agent engineering workloads
   skills:
-    genai: [Fine-Tuning, LLMs, Llama, Mistral, Qwen, LoRA, PEFT, Agentic Workflows]
-    ml: [Model Evaluation, Quantization, Hugging Face, CUDA]
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [vLLM, Triton, Kubernetes, Model Deployment]
     languages: [Python]
+    ml: [Distillation, Quantization, Model Evaluation, Hugging Face]
+    other: []
+    ops: [vLLM, TGI, Triton, Kubernetes, Model Gateway, GPU Infrastructure]
+    databases: []
     domains: []
-    other: [Distributed Systems]
+    web: []
+    data: []
+    genai: [Fine-Tuning, LoRA, LLMs, Llama, Qwen, Mistral]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +61,6 @@ meta:
   - New York, USA
   - London, GBR
   remote: true
-  extracted_at: '2026-07-22T13:35:59.882093'
+  extracted_at: '2026-08-16T18:07:17.272587'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

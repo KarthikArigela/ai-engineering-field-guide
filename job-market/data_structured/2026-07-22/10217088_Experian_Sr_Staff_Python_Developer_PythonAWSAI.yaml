@@ -1,56 +1,65 @@
 company:
   name: Experian
-  stage: Public
-  focus: Global data, analytics, and technology solutions
+  stage: FTSE 100 company listed on the London Stock Exchange
+  focus: |-
+    Global data and technology company powering lending,
+    analytics, and fraud prevention
 position:
   title: Sr. Staff Python Developer (Python,AWS,AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves evaluating and implementing LLM
-      frameworks, RAG, embeddings, vector databases, AI agents,
-      and model evaluation alongside building GenAI applications.
-      While it is a heavy software engineering role, the explicit
-      hands-on work with LLM integration, prompt engineering, and
-      agentic development platforms places it in the ai-first
-      category.
+      The role explicitly requires practical GenAI experience with
+      prompt engineering, embeddings, RAG, and model evaluation,
+      and includes evaluating LLM frameworks, model providers, and
+      agentic development platforms - activities that shape LLM-
+      based system behaviour (Step 1). Although most duties are
+      cloud-native Python and data engineering, the explicit LLM
+      shaping responsibilities make it ai-first rather than ai-
+      support.
   responsibilities:
   - Lead the architecture and development of cloud-native applications, services,
     and platforms using Python and AWS
   - Build and manage cloud-native microservices leveraging AWS services such as Lambda,
-    ECS, S3, Glue, RDS/DynamoDB, EMR, and EKS
+    ECS, EKS, S3, Glue, EMR, and RDS/DynamoDB
   - Provide technical leadership across engineering teams, driving design reviews,
-    architecture decisions, and coding standards
+    architecture decisions, coding standards, and operational excellence
   - Partner with product, security, architecture, data science, and platform teams
     to translate business problems into scalable technical solutions
-  - Develop reusable frameworks, libraries, APIs, and automation patterns that accelerate
-    engineering delivery
-  - Evaluate emerging AI engineering tools, LLM frameworks, model providers, and agentic
-    development platforms for practical adoption
   - Build and optimize large-scale distributed data processing solutions using Apache
     Spark, PySpark, SQL, and cloud data services
-  - Maintain Infrastructure as Code using Terraform and build secure Docker images
-    for Python, Spark, and GenAI applications
+  - Evaluate emerging AI engineering tools, LLM frameworks, model providers, and agentic
+    development platforms, recommending practical adoption paths
+  - Design and maintain secure Docker images for Python, Spark, and GenAI applications,
+    and develop reusable frameworks, libraries, and APIs
+  - Build Infrastructure as Code with Terraform and drive CI/CD, test automation,
+    and observability best practices
   use_cases:
-  - Cloud-native microservices and platform engineering at enterprise scale
-  - Large-scale distributed data processing and ETL/ELT pipelines
-  - GenAI application development with LLM integration, RAG, and AI agents
-  - Enterprise data lakes and batch processing solutions
+  - Cloud-native microservices and platforms for enterprise-scale data products
+  - Large-scale distributed data processing and ETL/ELT pipelines on AWS
+  - GenAI applications with LLM integration, RAG, embeddings, and AI agents
+  - Evaluation and adoption of LLM frameworks and model providers for the engineering
+    organization
+  - Reusable frameworks, APIs, and automation patterns to accelerate engineering delivery
   skills:
-    genai: [LLMs, RAG, Prompt Engineering, Embeddings, AI Agents, Generative AI]
+    cloud: [AWS, AWS Lambda, AWS S3, ECS, EKS, EMR, AWS Glue, RDS, API Gateway, Step
+        Functions, EventBridge, IAM, SageMaker]
+    languages: [Python, SQL, TypeScript, JavaScript]
     ml: [Model Evaluation]
-    web: [Microservices, APIs, React]
-    databases: [DynamoDB, RDS, Vector Databases]
-    data: [Spark, Data Pipelines, ETL]
-    cloud: [AWS, AWS Lambda, AWS S3, ECS, EKS, API Gateway, IAM, SageMaker, AWS Bedrock,
-      CloudWatch]
-    ops: [Docker, Kubernetes, Terraform, CI/CD, CloudFormation, Observability, Git]
-    languages: [Python, SQL, TypeScript, JavaScript, PySpark]
-    domains: []
     other: [Jupyter]
+    ops: [Docker, Kubernetes, Terraform, CloudFormation, CI/CD, Git, Observability,
+      CloudWatch, Infrastructure as Code]
+    databases: [DynamoDB, Vector Databases]
+    domains: []
+    web: [React, APIs, Microservices]
+    data: [Spark, PySpark, Data Pipelines, Data Lakes]
+    genai: [LLMs, RAG, Prompt Engineering, Embeddings, AI Agents, Generative AI, AWS
+        Bedrock, AI Safety]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10217088'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:39:02.549115'
+  extracted_at: '2026-08-16T17:59:05.361571'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

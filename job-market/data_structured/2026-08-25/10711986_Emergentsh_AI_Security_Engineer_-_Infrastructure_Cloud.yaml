@@ -1,0 +1,49 @@
+company:
+  name: Emergent.sh
+  stage: null
+  focus: |-
+    Autonomous coding agents that generate production
+    applications
+position:
+  title: AI Security Engineer - Infrastructure Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role secures cloud infrastructure and execution
+      environments for AI agents but does not shape model
+      behavior, prompts, retrieval, or training. The deliverable
+      is security and infrastructure capacity, not model output
+      quality.
+  responsibilities:
+  - Design sandboxing strategies for untrusted code execution
+  - Prevent container escapes, privilege escalation, and lateral movement
+  - Build isolation at compute, network, and storage layers
+  - Harden AWS/GCP infrastructure (IAM, VPCs, secrets, workloads)
+  - Design zero-trust systems and secure service-to-service communication
+  - Build runtime detection systems with logging, SIEM, and real-time alerting
+  - Secure CI/CD and agent pipelines against supply chain attacks
+  - Ensure integrity of build artifacts
+  use_cases:
+  - Sandboxing and isolating untrusted AI-generated code execution
+  - Securing multi-tenant AI execution environments at scale
+  - Preventing supply chain attacks in AI-generated code
+  - Zero-trust cloud security for autonomous software creation infrastructure
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, IAM]
+    ops: [CI/CD, Linux, Docker, Monitoring, SIEM]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10711986'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:24:40.277866'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

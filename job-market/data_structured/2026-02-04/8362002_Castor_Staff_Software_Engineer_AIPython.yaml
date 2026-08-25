@@ -1,49 +1,53 @@
 company:
   name: Castor
-  stage: Series B
-  focus: Clinical trial platform accelerating medical research
+  stage: null
+  focus: Clinical trial platform for medical research
 position:
   title: Staff Software Engineer (AI/Python)
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is titled "Staff Software Engineer (AI)" and
-      mentions building AI-powered applications, but the
-      description focuses on using AI tooling/workflows and AI
-      assistants rather than directly building, training, or fine-
-      tuning models. The emphasis is on software architecture,
-      event-driven systems, Python ecosystem, and cloud
-      infrastructure, indicating this is a software engineering
-      role that leverages AI tools rather than working directly on
-      AI systems.
+      The role sits on an AI product team ("building and scaling
+      our AI-powered applications"), but the description never
+      shows the engineer shaping model behaviour: no prompt
+      writing, retrieval design, agent flows, fine-tuning, or
+      evals. The only concrete AI requirement is 2+ years "using
+      AI tooling and workflows to deliver high quality production
+      grade code" and "using AI assistants", which is AI-assisted
+      development and explicitly not shaping. With no evidence of
+      shaping, the role defaults to ai-support.
   responsibilities:
-  - Build and scale AI-powered applications for the Catalyst team
-  - Work closely with other engineers to develop and implement innovative solutions
+  - Build and scale AI-powered applications as a key driver in the Catalyst team
+  - Develop and implement innovative AI solutions in collaboration with other engineers
   - Design and implement solutions for challenging software architecture problems
-  - Integrate with external systems using messaging patterns and event-driven architectures
-  - Participate in on-call rotation to ensure operational robustness
-  - Mentor other engineers and share expertise through design discussions and documentation
+  - Deliver production-grade code using AI tooling and workflows suitable for regulated
+    environments
+  - Share expertise through design discussions, documentation, examples, and mentoring
+    other engineers
+  - Uphold high code quality, comprehensive testing, operational robustness, and thorough
+    code reviews
+  - Participate in the team's on-call rotation
   use_cases:
-  - Accelerate clinical trial journey by reducing human effort with technology
-  - Enable capture and re-use of research data from anywhere and anytime
-  - Optimize clinical trial activities from recruitment to monitoring
-  - Make it easier to design and deploy trials and enroll patients
-  - Collect data and analyze clinical trial results
-  - Improve clinical trial experience for patients, sites, and sponsors
+  - AI-powered applications supporting Castor's clinical trial platform
+  - Reducing human effort across the clinical trial journey from recruitment to monitoring
+    and analysis
+  - AI-assisted delivery of production-grade code for regulated (life sciences) environments
   skills:
-    domains: []
-    languages: [Python, asynchronous programming]
+    cloud: [GCP]
+    languages: [Python, Asynchronous Programming]
     ml: []
-    cloud: [GCP, cloud applications]
-    genai: [AI tooling, AI assistants]
-    data: [event-driven architectures, messaging patterns, Data Pipelines]
-    other: []
+    other: [Event-Driven Architecture, Messaging Patterns, Code Review, Life Sciences]
     ops: [Kubernetes]
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [AI Tooling, AI Assistants]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8362002'
   location: NLD
-  extracted_at: '2026-02-05T12:58:53.099365'
+  extracted_at: '2026-08-15T23:26:40.820304'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

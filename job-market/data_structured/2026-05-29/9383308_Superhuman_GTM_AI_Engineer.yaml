@@ -1,63 +1,61 @@
 company:
   name: Superhuman
-  stage: Series C
+  stage: null
   focus: |-
-    AI productivity platform with writing assistance, email
-    management, and collaborative workspaces
+    AI productivity platform with writing, email, and
+    collaboration apps
 position:
   title: GTM AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deployment of AI
-      systems including agents, MCP configurations, and AI-powered
-      workflows. The engineer will architect and ship production
-      AI workflows, configure AI infrastructure, and work directly
-      with AI agent frameworks, which qualifies as working
-      directly ON AI systems rather than just supporting them.
+      The role designs and ships AI agent workflows themselves —
+      prompt design, tool use, agentic task orchestration, and MCP
+      configuration with tools like Claude, Gemini, and Clay —
+      which is shaping LLM/agent behavior, so Step 1 is yes. The
+      shaped components are agents and LLMs, not classical ML,
+      making it ai-first.
   responsibilities:
   - Architect end-to-end AI workflows for GTM use cases like prospecting and deal
     execution, defining data flows, system integrations, and automation logic
-  - Ship 5-10 production AI workflows per quarter, from initial scoping through to
-    live deployment and subsequent iterations
-  - Configure MCPs and AI infrastructure and tooling; determine data sources and delivery
-    mechanisms to the right people or systems
-  - Manage Superhuman's MCP and AI connector library available to the GTM org, ensuring
-    discoverability, maintenance, and adoption
-  - Break down high-level business goals into concrete technical requirements and
-    build against them
+  - Ship 5-10 production AI workflows per quarter, from initial scoping through live
+    deployment and iteration
+  - Configure MCPs and AI infrastructure and tooling, determining where data comes
+    from and how it is delivered
+  - Manage the MCP and AI connector library available to the GTM org, ensuring tooling
+    is discoverable, maintained, and adopted
+  - Break down high-level business goals such as AI-inspecting the pipeline into concrete
+    technical requirements and build against them
   - Partner with business partners and sellers to surface workflow pain points and
     translate them into AI-ready specifications
-  - Own and prioritize a live backlog of AI use cases for the GTM org, gathering and
-    operationalizing the best ideas
+  - Own and prioritize a live backlog of AI use cases for the GTM org, operationalizing
+    the best ideas
   - Identify and evaluate tools, vendors, and AI capabilities relevant to the GTM
     tech stack
   use_cases:
-  - AI-powered prospecting workflows to identify and engage potential customers
-  - Automated deal execution workflows that assist sales representatives in closing
-    deals
-  - Pipeline inspection and analysis using AI to identify opportunities and risks
-  - Sales workflow automation integrating CRM (Salesforce), conversation intelligence
-    (Gong), and sales engagement tools (Outreach)
-  - Data enrichment workflows pulling from multiple sources to enhance prospect and
-    customer information
-  - AI agents that understand context and deliver proactive assistance to GTM teams
+  - Sales prospecting automation
+  - AI-driven pipeline inspection and management
+  - Deal execution and CPQ support automation
+  - Sales engagement and conversation intelligence workflows
+  - Data enrichment and CRM automation for GTM teams
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: []
-    genai: [MCP, AI agent frameworks, Anthropic API, Gemini, Perplexity, Agentic task
-        orchestration, Prompt Engineering, Function Calling]
-    data: [Workflow automation, Data flows]
-    other: []
+    other: [Salesforce, Gong, Outreach, DealHub, ZoomInfo]
     ops: []
-    web: [Clay, Salesforce, Outreach, Gong, DealHub, ZoomInfo, APIs]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [MCP, Prompt Engineering, Function Calling, Agentic Workflows, AI Agents,
+      Anthropic API, Gemini, Perplexity, Clay]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9383308'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:03:57.567857'
+  extracted_at: '2026-08-16T10:42:33.639365'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

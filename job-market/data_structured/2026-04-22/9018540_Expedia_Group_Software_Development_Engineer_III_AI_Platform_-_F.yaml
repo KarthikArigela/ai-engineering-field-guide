@@ -1,21 +1,17 @@
 company:
   name: Expedia Group
-  stage: Public
-  focus: |-
-    Global travel technology platform powering bookings and
-    experiences
+  stage: null
+  focus: Global online travel technology and booking platform
 position:
   title: Software Development Engineer III, AI Platform - Finance Products
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deploying AI/ML
-      systems including prompt engineering, RAG architectures, and
-      agentic workflows. The engineer owns end-to-end technical
-      execution of AI products from design through production,
-      requiring deep expertise in LLMs and ML engineering. This is
-      directly working ON AI systems, not just supporting
-      infrastructure.
+      The role owns technical architecture for AI workflows
+      including prompt engineering, RAG, and agentic systems,
+      which is direct shaping of LLM behaviour and output quality.
+      Since LLM and agent components are central to the
+      responsibilities, this classifies as ai-first.
   responsibilities:
   - Design and build end-to-end AI products and deployment pipelines
   - Own technical architecture for AI workflows including prompt engineering, RAG,
@@ -27,25 +23,26 @@ position:
   - Drive production readiness including monitoring, logging, evaluation, and cost
     control
   - Establish best practices for AI development, deployment, and maintenance
-  - Partner closely with Product and stakeholders to shape technical solutions
+  - Partner closely with Product Managers and stakeholders to shape technical solutions
   use_cases:
-  - AI-powered financial analysis and decision support for Finance teams
-  - Automated financial data processing and insights generation
-  - RAG-based knowledge retrieval for financial data and reports
-  - Agentic AI workflows for finance operations automation
-  - Scalable AI capabilities reusable across multiple finance use cases
+  - AI-powered finance products for adoption across Finance teams
+  - Agentic workflows and RAG systems for finance operations
+  - Trusted, explainable, and governed enterprise AI for finance
+  - Reusable and scalable AI capabilities shared across multiple use cases
+  - AI systems processing finance data platforms with semantic modeling and time-series
+    logic
   skills:
-    domains: []
+    cloud: [Cloud-Native Architecture]
     languages: [Python, SQL, Java]
-    ml: [ML Engineering]
-    cloud: [Cloud-native Architectures]
-    genai: [Prompt Engineering, RAG, Agentic Workflows, LangChain, LlamaIndex, Semantic
-        Kernel, Langflow, OpenAI API, Anthropic API, Gemini, Llama, LLMs]
-    data: [Data Pipelines, Semantic Modeling, Time-series Logic]
-    other: [AI Security and Compliance]
-    ops: [CI/CD, MLOps, Docker, Monitoring and Evaluation]
-    web: [APIs, Distributed Systems, REST APIs]
+    ml: [Machine Learning]
+    other: [Data Structures and Algorithms, AI Security]
+    ops: [Distributed Systems, Docker, CI/CD, MLOps, Monitoring]
     databases: []
+    domains: []
+    web: [APIs, System Integration]
+    data: [Data Pipelines, Semantic Modeling, Time Series]
+    genai: [Prompt Engineering, RAG, Agentic Workflows, LLMs, OpenAI API, Anthropic
+        API, Gemini, Llama, LangChain, Langflow, LlamaIndex, Semantic Kernel]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +51,6 @@ meta:
   locations:
   - Gurugram, IND
   - Bengaluru, IND
-  extracted_at: '2026-04-22T12:28:49.705617'
+  extracted_at: '2026-08-16T07:09:48.836266'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

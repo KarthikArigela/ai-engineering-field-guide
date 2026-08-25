@@ -1,0 +1,57 @@
+company:
+  name: ABC Fitness Solutions
+  stage: null
+  focus: Software provider for fitness and club management
+position:
+  title: Principal Engineer - MCP/ACP Layer(API & AI Orchestration)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs MCP/ACP tool definitions, agent
+      orchestration patterns, structured outputs, and guardrails
+      for AI agents, directly shaping how LLM agents interact with
+      tools. This is shaping LLM/agent behavior, so it is ai-
+      first.
+  responsibilities:
+  - Architect and evolve the MCP/ACP ecosystem exposing company capabilities as agent-consumable
+    tools
+  - Design schemas, tool definitions, and abstraction layers providing hallucination-resistant
+    interfaces for AI agents
+  - Define reusable orchestration patterns for multi-step AI workflows including validation,
+    retries, and state management
+  - Establish company-wide standards for AI interaction patterns, structured outputs,
+    and agent orchestration
+  - Design security, permissions, and access control patterns for non-human actors
+    and autonomous systems
+  - Build instrumentation and observability tracing agent interactions and execution
+    quality
+  - Partner with platform, infrastructure, security, and SRE teams on AI-ready integration
+    patterns
+  - Lead technical design reviews and document reusable patterns, SDKs, and reference
+    implementations
+  use_cases:
+  - Agent-consumable tool layer exposing fitness business capabilities via MCP/ACP
+  - Multi-step AI workflow automation with reliable, auditable execution
+  - Secure agent access control and governance for autonomous systems
+  - AI observability and orchestration quality monitoring
+  - AI-powered product capabilities and intelligent services for fitness club management
+  skills:
+    genai: [MCP, LLMs, AI Agents, Agentic Workflows, Structured Outputs, LangChain,
+      LangGraph]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Observability, Distributed Systems]
+    languages: []
+    domains: []
+    other: [Model Evaluation, API Gateways, SDKs]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10795657'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T11:54:27.332963'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,60 +1,62 @@
 company:
   name: phData
-  stage: Growth
+  stage: null
   focus: |-
-    Data and AI professional services partnering with Snowflake,
-    AWS, Azure, and GCP
+    Data and AI consulting services for the modern cloud data
+    stack
 position:
   title: Senior AI Automation Engineer - Internal Platform
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves designing, building, and
-      refining AI-driven applications and agents (RAG, prompt
-      engineering, agent architectures) on platforms like Glean
-      and Snowflake Intelligence. The engineer is hands-on with
-      LLMs, AI agents, and generative AI, making this an ai-first
-      role despite being focused on internal tooling rather than
-      external products.
+      The role directly shapes LLM and agent behavior: it designs
+      and builds AI-driven applications and agents using RAG,
+      prompt engineering, and agent architectures on platforms
+      like Glean, Microsoft Copilot, and Snowflake Intelligence.
+      Although half the job is RPA/workflow automation (which
+      alone would not be shaping), the explicit GenAI/agent
+      solution development makes this ai-first.
   responsibilities:
-  - Partner with business groups to identify AI/automation opportunities and assess
-    feasibility, data readiness, and ROI
+  - Partner with business groups to identify AI and automation opportunities, assess
+    feasibility, and translate business problems into technical plans
   - Design, build, and refine AI-driven applications and agents using RAG, prompt
     engineering, and agent architectures on platforms like Glean, Microsoft Copilot,
     and Snowflake Intelligence
   - Implement RPA, scripting, and low-code/no-code workflows to automate repetitive
-    processes and integrate systems
+    processes and integrate systems and data sources
   - Write production-grade code for AI and automation solutions with strong documentation,
     testing, and SDLC discipline
-  - Collaborate with cross-functional teams across Operations, Sales, Delivery, and
-    Finance to deliver end-to-end solutions
-  - Track and experiment with emerging AI/automation tools, share best practices,
+  - Work with cross-functional teams, communicate value to technical and non-technical
+    stakeholders, and align work through agile planning
+  - Operate and optimize automations and AI solutions for reliable end-to-end execution
+  - Track and experiment with emerging AI and automation tools, share best practices,
     and inform leadership through prototypes and production learnings
-  - Help select and operate secure, governed cloud AI services across AWS, Azure,
-    or GCP
+  - Help select and operate secure, governed cloud AI services
   use_cases:
-  - Internal AI-driven automation for business operations across Sales, Delivery,
-    Finance, and IT
-  - RAG-based agents for internal knowledge retrieval and decision support
-  - Process automation and RPA for repetitive business workflows
-  - AI-assisted insights on the internal Intelligence Platform
-  - Client-facing AI solutions on an occasional basis
+  - Internal intelligence platform powering Operations, Sales, Delivery, and Finance
+    teams with data, analytics, and AI-driven insights
+  - AI-driven applications and agents for internal and occasional client use
+  - Automation of repetitive business processes across internal systems
+  - Integration of disparate business systems and data sources for end-to-end workflows
+  - Feasibility assessment and prioritization of AI/automation demand across the portfolio
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [RAG, Prompt Engineering, AI Agent Architectures, Glean, Microsoft Copilot,
-      Generative AI / LLMs]
-    data: [Data Pipelines, dbt]
-    other: [RPA / Power Automate, Sigma Computing, Agile]
+    languages: [Python]
+    ml: [Machine Learning]
+    other: [RPA, Power Automate, Low-Code/No-Code, Sigma Computing, Agile, Code Review]
     ops: [Git, CI/CD]
-    web: [REST APIs]
-    databases: [Snowflake]
+    databases: [Snowflake, Data Warehousing]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Governance]
+    genai: [RAG, Prompt Engineering, LLMs, Generative AI, AI Agents, Microsoft Copilot,
+      GitHub Copilot, Glean, Snowflake Intelligence]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8949719'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:27:23.404312'
+  extracted_at: '2026-08-16T06:29:37.523774'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

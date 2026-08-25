@@ -1,58 +1,60 @@
 company:
   name: Advice Media
   stage: null
-  focus: SaaS digital marketing platform for client growth
+  focus: Digital marketing SaaS platform for client growth
 position:
   title: AI Engineer l (Generative AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building, deploying, and
-      fine-tuning Generative AI systems including LLM-powered
-      pipelines, AI agents, and RAG solutions. The engineer works
-      hands-on with models (GPT, LLaMA, Gemini), frameworks
-      (LangChain, LlamaIndex), and is responsible for end-to-end
-      AI pipeline development from data ingestion through
-      production deployment.
+      The role directly shapes LLM behavior: designing RAG
+      architectures with vector stores, fine-tuning and evaluating
+      LLMs (GPT, LLaMA, Gemini), implementing prompt engineering
+      strategies, and building guardrails and agent workflows. All
+      shaping work targets LLMs and generative components, so it
+      is ai-first.
   responsibilities:
   - Design, build, and deploy Generative AI applications including chat systems, AI
     agents, automated workflows, and intelligent content pipelines
   - Develop and maintain RAG architectures using vector stores such as Pinecone, FAISS,
     and Weaviate
-  - Fine-tune and evaluate large language models including GPT, LLaMA, Gemini, and
-    other modern architectures
-  - Implement prompt engineering strategies and reusable frameworks to enhance model
-    reliability and output quality
-  - Build end-to-end production-ready AI pipelines including data ingestion, preprocessing,
+  - Fine-tune and evaluate LLMs including GPT, LLaMA, and Gemini, and implement prompt
+    engineering strategies and reusable frameworks
+  - Design reusable AI skills, system rules, guardrails, and workflow instructions
+    to standardize AI behavior across internal and client-facing systems
+  - Build end-to-end production-ready AI pipelines covering data ingestion, preprocessing,
     training, evaluation, and continuous monitoring
-  - Integrate AI solutions into existing systems through REST APIs, microservices,
-    or application middleware
-  - Develop tools and internal frameworks that accelerate model experimentation, evaluation,
+  - Develop internal tools and frameworks that accelerate model experimentation, evaluation,
     and deployment
-  - Collaborate with engineering, product, and client success teams to identify AI-powered
-    automation opportunities
+  - Integrate AI solutions into MyAdvice systems through REST APIs, microservices,
+    or application middleware
+  - Collaborate with engineering, product, and client success teams to identify automation
+    and AI-powered enhancement opportunities
   use_cases:
-  - Chat systems and conversational AI for client engagement
+  - Chat systems for client and internal users on the MyAdvice platform
   - AI agents and automated workflows for business process automation
   - Intelligent content generation pipelines for digital marketing
-  - Retrieval-augmented generation for knowledge-based Q&A
-  - Client-facing AI-powered experiences within the MyAdvice SaaS platform
+  - Retrieval-augmented generation for knowledge-grounded answers
+  - Scalable AI-powered enhancements to marketing performance tools
   skills:
-    genai: [LangChain, LlamaIndex, RAG, AI Agents, Agentic Workflows, LLMs, Prompt
-        Engineering, Fine-Tuning, Guardrails, Embeddings, OpenAI API, Anthropic API,
-      Gemini, Llama, Generative AI, LLM Evaluation]
-    ml: [Hugging Face, Transformers]
-    web: [REST APIs, Microservices]
-    databases: [Pinecone, FAISS, Weaviate, Vector Databases]
-    data: []
     cloud: [AWS, GCP, SageMaker, Vertex AI]
-    ops: [Docker, Kubernetes, MLOps, MLflow, Weights & Biases, CI/CD, Git, Model Deployment]
     languages: [Python]
+    ml: [Hugging Face]
+    other: [Code Review]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Weights & Biases, MLOps, Git, Model Deployment,
+      Distributed Systems]
+    databases: [Pinecone, FAISS, Weaviate, Vector Databases]
     domains: []
-    other: []
+    web: [REST APIs, Microservices]
+    data: []
+    genai: [Generative AI, LLMs, LangChain, LlamaIndex, RAG, Prompt Engineering, AI
+        Agents, Fine-Tuning, Guardrails, Embeddings, Tokenization, LLM Evaluation,
+      GPT, Llama, Anthropic API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10163430'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:32:22.218474'
+  extracted_at: '2026-08-16T17:26:53.464497'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

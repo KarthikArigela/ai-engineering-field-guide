@@ -1,0 +1,63 @@
+company:
+  name: IFS
+  stage: null
+  focus: |-
+    AI-native enterprise software for asset and operations
+    management
+position:
+  title: Principal Platform Engineer || Agentic AI || Identity and Access Management
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a hands-on Principal Platform Engineer for
+      identity and access management (AuthZ/AuthN, SpiceDB,
+      Keycloak) with no responsibility for shaping model behavior
+      — no prompts, retrieval, agent flows, or model training.
+      AI/agentic AI appears only in company marketing and the
+      title; the actual work does not touch LLMs, so the answer to
+      Step 1 is no.
+  responsibilities:
+  - Architect and engineer a unified enterprise-scale authorisation platform across
+    Nexus, F1, and LEC, built on SpiceDB
+  - Design fine-grained authorisation models (ReBAC/Zanzibar-inspired, RBAC, ABAC)
+    and model schemas and permission checks
+  - Own operation of SpiceDB on PostgreSQL, including migration to cloud-native Postgres
+    (CNPG) and blue-green deployments
+  - Build authorisation APIs and SDKs consumed by product teams and define IAM golden
+    paths and standards
+  - Engineer enterprise-scale authentication solutions and operate identity provider
+    infrastructure (Curity, Keycloak)
+  - Implement OAuth 2.0, OpenID Connect, and SAML patterns at scale including token
+    lifecycle and claims-based authorisation
+  - Integrate identity and access services with the Internal Developer Platform for
+    self-service configuration
+  - Maintain reliability, performance, and security posture of platform identity and
+    access services
+  use_cases:
+  - Unified enterprise authorisation across Nexus, F1, and LEC hosting environments
+  - Fine-grained multi-tenant access control securing the IFS platform
+  - Enterprise authentication with SSO and identity federation for end-users and developers
+  - Self-service identity and access configuration via the Internal Developer Platform
+  - Enabling NGA (Kairos) adoption by resolving the authorisation blocker
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [PostgreSQL]
+    data: [Kafka, Redpanda]
+    cloud: [AKS]
+    ops: [Kubernetes, GitOps, Infrastructure as Code, Policy as Code, Observability]
+    languages: [Go]
+    domains: []
+    other: [SpiceDB, ReBAC, RBAC, ABAC, OAuth 2.0, OpenID Connect, SAML, Keycloak,
+      Curity, JWT, SSO, LDAP, Active Directory, OPA, Cedar, Distributed Systems, Identity
+        and Access Management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10416386'
+  location: Staines-upon-Thames, GBR
+  remote: true
+  extracted_at: '2026-08-25T10:03:23.559010'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

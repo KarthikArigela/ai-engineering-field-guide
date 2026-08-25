@@ -1,46 +1,49 @@
 company:
   name: HERE Technologies
-  stage: Public
+  stage: null
   focus: Location data and technology platform company
 position:
   title: Lead Agentic AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on engineering role focused on building and
-      optimizing AI systems. The responsibilities include fine-
-      tuning LLMs (LoRA, QLoRA), designing AI-driven workflows,
-      and implementing agentic AI systems - all direct work on AI
-      models and applications.
+      The role directly shapes model behavior: applying fine-
+      tuning (LoRA, QLoRA), tuning models to interact with
+      external systems and tools, and building evaluation methods
+      to measure and improve model behavior and output quality.
+      The models being shaped are LLMs and agentic AI systems, so
+      this is ai-first.
   responsibilities:
-  - Design and implement complex system logic for AI-driven workflows and interactions
-  - Lead development of reusable components and scalable system patterns
-  - Optimize model performance for specific behaviors and improve reliability in structured
-    tasks
-  - Apply fine-tuning techniques including LoRA and QLoRA to adapt models efficiently
-  - Design and generate high-quality datasets including synthetic data
-  - Develop evaluation methods to measure improvements in model behavior and outputs
-  - Run experiments to improve model performance and analyze trade-offs between accuracy,
-    cost, and latency
+  - Design and implement complex system logic for AI-driven workflows and interactions,
+    leading development of reusable components and scalable system patterns
+  - Integrate multiple services, models, and data sources into cohesive systems
+  - Optimize model performance, reliability, consistency, and response quality for
+    specific behaviors and structured tasks
+  - Tune models to better interact with external systems and tools
+  - Apply fine-tuning techniques such as LoRA and QLoRA, experimenting with parameter-efficient
+    approaches to improve performance while controlling cost
+  - Design and generate high-quality datasets, including synthetic data, and develop
+    evaluation methods to measure improvements in model behavior and outputs
+  - Run experiments to improve model performance across scenarios and analyze trade-offs
+    between accuracy, cost, and latency
   use_cases:
-  - AI-driven workflows and interactions in production environments
-  - Model optimization for specific behaviors and structured tasks
-  - Model interaction with external systems and tools
-  - Synthetic data generation for training and evaluation
-  - Model behavior improvement for real-world applications
+  - Agentic AI systems that follow structured workflows and operate reliably in production
+  - AI models interacting with external systems and tools
+  - Structured task execution with reliable and consistent model outputs
+  - Cost- and latency-aware optimization of AI model behavior for real-world applications
   skills:
-    domains: []
-    languages: [Python, TypeScript, Rust]
-    ml: [PyTorch, TensorFlow]
     cloud: []
-    genai: [LoRA, Fine-Tuning, AI Agents, LLM-based applications]
-    data: []
+    languages: [Rust, TypeScript, Python]
+    ml: [PyTorch, TensorFlow]
     other: []
-    ops: [evaluation, experimentation]
-    web: []
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: [Synthetic Data]
+    genai: [AI Agents, LLMs, LoRA, Fine-Tuning, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9414429'
   location: Berlin, DEU
@@ -52,4 +55,6 @@ meta:
   - Frankfurt am Main, DEU
   - Schwalbach, DEU
   - Kraków, POL
-  extracted_at: '2026-05-29T09:05:00.316160'
+  extracted_at: '2026-08-16T11:02:25.736672'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

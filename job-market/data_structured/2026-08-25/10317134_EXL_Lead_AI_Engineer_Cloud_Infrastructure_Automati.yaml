@@ -1,0 +1,59 @@
+company:
+  name: EXL
+  stage: null
+  focus: Digital operations and analytics services company
+position:
+  title: Lead AI Engineer – Cloud Infrastructure & Automation
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds AI agents, multi-agent systems,
+      RAG pipelines, and prompt/context engineering that generate
+      Terraform code — directly shaping LLM/agent behavior.
+      Leadership duties (mentorship, standards) are individual-
+      contributor technical leadership, not management.
+  responsibilities:
+  - Design and build AI agents and tools that generate, validate, and refactor infrastructure-as-code
+    (Terraform) to accelerate delivery of business-unit solutions
+  - Embed guardrails, policy-as-code, and automated validation into AI-generated infrastructure
+    workflows
+  - Integrate AI-assisted code generation and review into the CI/CD toolchain (GitHub,
+    Jenkins, Artifactory, SonarQube)
+  - Architect agentic applications and multi-agent systems using frameworks such as
+    LangChain and Amazon Bedrock Agents
+  - Implement RAG pipelines over internal knowledge sources to ground agent behavior
+  - Apply AIOps for anomaly detection, event correlation, and automated remediation,
+    including AI-driven ITSM triage and self-healing runbooks
+  - Own the LLMOps/agent-ops foundation on AWS - pipelines, deployment, evaluation,
+    monitoring, and lifecycle management
+  - Set technical direction, define the AI roadmap, run design reviews, and mentor
+    engineers
+  use_cases:
+  - AI-driven generation and validation of Terraform infrastructure-as-code
+  - Automated provisioning of cloud environments via reusable module blueprints
+  - Agentic automation of platform and cloud operations workflows
+  - ITSM automation - ticket triage, classification, routing, and self-healing runbooks
+  - AIOps anomaly detection, event correlation, and automated remediation
+  - RAG over runbooks, architecture docs, and Terraform modules to ground agents
+  skills:
+    genai: [AI Agents, Multi-Agent Systems, Agentic Workflows, LangChain, Context
+        Engineering, Function Calling, RAG, Prompt Engineering, Guardrails]
+    ml: [Model Evaluation, Anomaly Detection]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS Bedrock, AWS]
+    ops: [Terraform, CI/CD, Jenkins, GitHub, SonarQube, Artifactory, LLMOps, Infrastructure
+        as Code]
+    languages: []
+    domains: []
+    other: [AIOps, ITSM, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10317134'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:40:07.180653'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

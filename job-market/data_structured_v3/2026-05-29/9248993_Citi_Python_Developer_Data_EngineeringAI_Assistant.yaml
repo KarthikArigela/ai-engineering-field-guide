@@ -1,0 +1,55 @@
+company:
+  name: Citi
+  stage: null
+  focus: Global banking and financial services
+position:
+  title: Python Developer (Data Engineering/AI) – Assistant Vice President
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core deliverables are data engineering: ETL jobs,
+      Parquet/JSON processing, job scheduling, monitoring, and
+      CI/CD. NLP/LLM models are integrated into data pipelines and
+      served via Flask APIs with MLflow tracking, with no evidence
+      of prompt engineering, retrieval design, fine-tuning, or
+      evals (model training is only a nice-to-have). Per Step 3,
+      this is ai-support.
+  responsibilities:
+  - Develop and optimize ETL and data processing jobs using PySpark, Pandas, PyArrow,
+    and Parquet formats
+  - Build and maintain NLP pipelines using Flair, BERT, and LLM-based models
+  - Develop scalable ingestion and data transformation pipelines for AI and analytics
+    use cases
+  - Build and maintain Flask-based APIs for model inference and service integrations
+  - Manage and deploy ML models using MLflow for tracking and versioning
+  - Support CI/CD workflows using GitHub, LightSpeed Enterprise, and deployment pipelines
+  - Create and maintain AutoSys JILs for job scheduling and monitor application health
+    using ITRS Geneos
+  - Write unit tests and improve automation test coverage using PyTest and unittest
+  use_cases:
+  - Large-scale ETL and data processing for AI and analytics use cases
+  - NLP pipelines for text cleaning, parsing, and preprocessing
+  - Model inference services exposed through Flask APIs
+  - ML model tracking and deployment with MLflow
+  - Automated job scheduling and system monitoring for enterprise data applications
+  skills:
+    genai: [LLMs]
+    ml: [Flair, BERT, Transformers, PyTorch, TensorFlow]
+    web: [Flask, FastAPI, REST APIs, JSON, Microservices]
+    databases: [Redis]
+    data: [PySpark, Pandas, PyArrow, Parquet, ETL, Data Pipelines, Data Engineering,
+      Polars, Dask, Airflow, Prefect]
+    cloud: [AWS, ECS]
+    ops: [MLflow, CI/CD, GitHub, Linux, Shell Scripting, AutoSys, ITRS Geneos, PyTest,
+      Docker, Kubernetes]
+    languages: [Python]
+    domains: [NLP]
+    other: [Regular Expressions]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9248993'
+  location: Pune, IND
+  extracted_at: '2026-08-16T09:49:41.697404'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

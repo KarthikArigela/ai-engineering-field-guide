@@ -1,0 +1,62 @@
+company:
+  name: KKR
+  stage: null
+  focus: |-
+    Global investment firm offering alternative asset management
+    and insurance
+position:
+  title: DevOps Engineer - AI, Data & Platforms
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a DevOps/SRE role that owns CI/CD, cloud
+      infrastructure, and reliability for the platform KKR's AI
+      Engineering and AI Infrastructure teams build on. The person
+      never shapes model behavior — no prompts, retrieval,
+      training, evals, or guardrails — and per the edge-case
+      rules, serving and scaling AI workloads (GPU instances,
+      training and inference jobs) the person does not shape is
+      ai-support.
+  responsibilities:
+  - Own CI/CD, infrastructure-as-code with Terraform, and release pipelines across
+    KKR's AI and data services
+  - Manage cloud infrastructure, networking, secrets, and access controls in line
+    with enterprise security and compliance standards
+  - Build observability, alerting, and incident response capabilities into every platform
+    service
+  - Partner with AI Infrastructure and AI Engineering teams to streamline the path
+    from commit to production
+  - Drive cost visibility and optimization across cloud and GPU spend with Finance
+    and Technology leadership
+  - Establish operational standards including runbooks, on-call practices, and post-incident
+    reviews as the AI footprint grows
+  - Improve developer experience by automating toil and removing friction from common
+    engineering workflows
+  use_cases:
+  - Operational backbone and reliability for KKR's enterprise AI platform
+  - Supporting AI/ML workloads including GPU instances, large model artifacts, and
+    long-running training and inference jobs
+  - Cost visibility and optimization across cloud and GPU spend in a regulated financial
+    services environment
+  - Automated, paved-road delivery paths for AI Engineering, AI Infrastructure, and
+    Data teams
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [CI/CD, Terraform, Kubernetes, GitHub Actions, ArgoCD, Datadog, Prometheus,
+      Grafana, Observability, DevOps, Model Serving, GPU Scheduling]
+    languages: [Python, Go]
+    domains: []
+    other: [FinOps]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9659363'
+  location: Gurugram, IND
+  extracted_at: '2026-08-16T13:56:18.040279'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

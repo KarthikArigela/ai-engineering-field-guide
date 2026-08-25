@@ -1,6 +1,6 @@
 company:
   name: Finastra
-  stage: Public
+  stage: null
   focus: |-
     Financial services software for lending, payments, and
     banking
@@ -9,45 +9,49 @@ position:
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on development of Generative AI
-      solutions including LLM integration, fine-tuning, RAG
-      pipelines, prompt engineering, and vector database
-      implementation. This is direct work on building and
-      deploying AI systems, not supporting infrastructure or
-      general software engineering.
+      The role directly shapes LLM behaviour: it requires
+      developing and fine-tuning LLM-based solutions, building
+      prompt engineering, RAG, and embedding pipelines, and doing
+      model evaluation. Since the models being shaped are LLMs
+      (OpenAI, Azure OpenAI, Llama, Gemini), this is ai-first
+      despite the full-stack component.
   responsibilities:
   - Develop, fine-tune, and integrate LLM-based solutions using OpenAI, Azure OpenAI,
     Llama, and Gemini
-  - Build end-to-end pipelines for prompt engineering, RAG workflows, and model evaluation
-  - Implement and maintain vector databases such as Pinecone, Milvus, ChromaDB, or
+  - Build end-to-end pipelines for prompt engineering, RAG, embedding workflows, and
+    model evaluation
+  - Implement and maintain vector databases such as Pinecone, Milvus, ChromaDB, and
     Weaviate
-  - Utilize frameworks like LangChain, LlamaIndex, and Hugging Face for AI workflow
-    orchestration
-  - Design and develop scalable, secure, and high-performance web applications with
-    React, Next.js, or Vue
-  - Build RESTful APIs, microservices, and integrate AI workflows into frontend and
-    backend systems
+  - Design and develop scalable, secure web applications with React, Next.js, Angular,
+    or Vue frontends
+  - Build backend services in Python using FastAPI and Flask
+  - Build and integrate RESTful APIs, microservices, and event-driven components
+  - Incorporate AI workflows seamlessly into frontend and backend systems
+  - Deploy and optimize AI-driven solutions across the full application lifecycle
+    on cloud platforms with Docker and Kubernetes
   use_cases:
-  - Enterprise AI-driven solutions for financial services
-  - RAG-based knowledge retrieval and generation systems
-  - LLM-powered applications for banking and payments
-  - Vector-based semantic search and document analysis
-  - Prompt engineering and fine-tuning workflows for financial domain-specific models
+  - AI-driven solutions for payment services strategy in financial services software
+  - LLM integration into full-stack banking applications
+  - RAG-based retrieval and embedding workflows for enterprise search and knowledge
+    access
+  - GenAI application lifecycle from design through deployment and optimization
   skills:
-    domains: []
-    languages: [Python, JavaScript, TypeScript]
-    ml: [Hugging Face, LoRA, Fine-Tuning]
     cloud: [Azure, AWS, GCP]
-    genai: [OpenAI API, Azure OpenAI, Llama, Gemini, RAG, Prompt Engineering, LangChain,
-      LlamaIndex]
-    data: []
+    languages: [Python, JavaScript, TypeScript]
+    ml: [Hugging Face, Model Evaluation]
     other: []
     ops: [Docker, Kubernetes]
-    web: [React, Next.js, Angular, Vue, FastAPI, Flask, REST APIs, Microservices]
     databases: [Pinecone, Milvus, Chroma, Weaviate, Vector Databases]
+    domains: []
+    web: [React, Next.js, Angular, Vue, FastAPI, Flask, REST APIs, Microservices]
+    data: []
+    genai: [Generative AI, LLMs, OpenAI API, Azure OpenAI, Llama, Gemini, Prompt Engineering,
+      RAG, Embeddings, Fine-Tuning, LangChain, LlamaIndex, LoRA]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9316373'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:59:15.408075'
+  extracted_at: '2026-08-16T10:14:51.415324'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

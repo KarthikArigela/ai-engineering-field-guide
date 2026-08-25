@@ -1,54 +1,64 @@
 company:
   name: Anyscale
-  stage: Series B
-  focus: Distributed computing platform for scalable AI/ML
+  stage: Backed by Andreessen Horowitz, NEA, and Addition with $250+ million raised
+  focus: |-
+    Commercializing Ray for scalable distributed machine
+    learning computing
 position:
   title: AI / ML Solutions Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Solutions Engineer role focused on implementing
-      Ray/Anyscale platform infrastructure for customers. While
-      the work involves AI/ML workloads, the role is primarily
-      about enabling distributed computing infrastructure, MLOps
-      pipelines, and platform integration rather than directly
-      building, training, or fine-tuning models. The engineer
-      implements and scales workloads ON Anyscale's infrastructure
-      but doesn't work directly ON the AI models themselves.
+      This Solutions Engineer role implements and scales ML
+      workloads on Ray infrastructure for customers: distributed
+      training, inference serving, data pipelines, refactoring
+      code, and advising on resource management, fault tolerance,
+      and performance. The deliverable is scalable distributed
+      computing capacity and operational best practices, not model
+      behaviour — there is no prompt design, retrieval/RAG work,
+      or output-quality shaping. Per the edge case, running and
+      scaling models the person does not shape is ai-support.
   responsibilities:
-  - Implement production AI/ML workloads using Ray and Anyscale including distributed
-    training, scalable inference, and data preprocessing
-  - Work hands-on with customer codebases to refactor existing workloads for distributed
-    execution on Ray
-  - Advise customers on ML system architecture, resource management, scaling strategies,
-    and performance tuning
-  - Partner with customer MLE and MLOps teams to integrate Ray into existing platforms
-    and workflows with CI/CD and monitoring support
+  - Implement production AI/ML workloads using Ray and Anyscale, including distributed
+    training, scalable inference and serving, and data preprocessing pipelines
+  - Work hands-on with customer codebases to refactor or adapt existing workloads
+    to Ray
+  - Advise customers on ML system architecture, distributed execution design, resource
+    management, scaling strategies, and performance tuning
+  - Guide customers through architectural and operational changes required to adopt
+    Ray and Anyscale in production
+  - Partner with customer ML and MLOps teams to integrate Ray into existing platforms,
+    supporting CI/CD, monitoring, and retraining workflows
   - Enable customer teams through working sessions, design reviews, training delivery,
     and hands-on guidance
-  - Contribute field feedback to product and engineering teams and develop reference
-    architectures and best practices
+  - Develop reference architectures, examples, and best practices based on real customer
+    use cases
+  - Contribute field feedback to product, engineering, and education teams
   use_cases:
-  - Distributed model training across multi-node and multi-GPU environments
-  - Scalable model inference and serving for production ML workloads
-  - Data preprocessing and feature pipelines at scale
-  - ML workflow orchestration and operational best practices
-  - MLOps platform integration including CI/CD, monitoring, and retraining pipelines
+  - Distributed model training across multi-node and multi-GPU clusters
+  - Scalable model inference and serving in production
+  - Data preprocessing and feature pipelines for ML workloads
+  - ML workflow orchestration and migration from experimentation to production-grade
+    systems
+  - Scaling ML applications from laptop to cluster without requiring distributed systems
+    expertise
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Distributed training]
     cloud: [AWS, GCP, Azure]
-    genai: []
-    data: [Ray, Spark, Dask, Data Pipelines]
-    other: []
-    ops: [Kubernetes, MLflow, Airflow, Dagster, Kubeflow, Model Deployment, CI/CD,
-      MLOps]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, Model Training]
+    other: [Anyscale]
+    ops: [Kubernetes, Distributed Systems, MLOps, CI/CD, Monitoring, Model Deployment,
+      MLflow, Kubeflow]
     databases: []
+    domains: []
+    web: []
+    data: [Ray, Spark, Dask, Data Pipelines, Workflow Orchestration, Airflow, Dagster]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8167425'
   location: USA
-  extracted_at: '2026-02-05T12:08:07.280455'
+  extracted_at: '2026-08-15T22:47:48.585185'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

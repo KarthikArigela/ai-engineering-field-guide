@@ -1,0 +1,54 @@
+company:
+  name: Life360
+  stage: null
+  focus: Family location sharing, safety, and GPS tracking services
+position:
+  title: Senior Software Engineer II, (AI Native)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a backend engineering role on an ad server/RTB
+      platform. AI appears only as development tooling (Claude
+      Code, Cursor, GitHub Copilot) used to accelerate coding, and
+      vague "AI-driven functionalities" in ad products without any
+      concrete model-shaping responsibilities like prompt design,
+      RAG, or fine-tuning. Per the edge cases, AI coding
+      assistants as workflow is ai-support.
+  responsibilities:
+  - Build and maintain high-throughput backend services on the AdServer and Exchange
+    platform
+  - Implement and improve Real-Time Bidding and auction logic, including demand and
+    supply partner integrations
+  - Own features end-to-end from design through deployment with focus on correctness
+    and observability
+  - Collaborate with Staff Engineers and architects on platform design decisions
+  - Partner with Product on new ad formats and monetization capabilities
+  - Contribute to monitoring, incident response, and root cause analysis
+  - Use AI coding tools (Claude Code, Cursor, GitHub Copilot) daily as a collaborator
+    for coding and review tasks
+  - Mentor junior engineers and contribute to team engineering standards
+  use_cases:
+  - High-throughput ad serving platform with billions of daily events
+  - Real-time bidding and auction optimization for digital advertising
+  - Demand and supply partner integrations for ad exchange
+  - Family location sharing and safety services monetization
+  skills:
+    genai: [Agentic Workflows]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Claude Code, Cursor, GitHub Copilot, Distributed Systems]
+    languages: [Java]
+    domains: []
+    other: [Real-Time Bidding, AdTech]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10737751'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:33:31.975057'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

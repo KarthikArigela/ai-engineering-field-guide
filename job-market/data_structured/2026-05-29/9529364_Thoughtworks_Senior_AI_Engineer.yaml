@@ -1,58 +1,58 @@
 company:
   name: Thoughtworks
-  stage: Public
+  stage: null
   focus: |-
-    Global technology consultancy providing strategy, design,
-    and engineering services for digital innovation
+    Global technology consultancy integrating strategy, design,
+    and engineering
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves building and deploying Agentic AI
-      applications using LangChain, LangGraph, and CrewAI,
-      implementing RAG pipelines with vector databases, and
-      integrating LLM APIs into production systems. This is hands-
-      on work creating AI-powered systems (chatbots, copilots,
-      automation pipelines) rather than just supporting AI
-      infrastructure or data pipelines.
+      The role explicitly designs and builds Agentic AI
+      applications with LangGraph, LangChain, and CrewAI, works
+      with RAG, embeddings, and vector databases, and optimizes
+      prompts for LLM-driven features — all direct shaping of LLM
+      behaviour. Using AI coding assistants for developer
+      productivity appears too, but that alone would be ai-
+      support; the core responsibility of designing prompts,
+      retrieval, and agent flows makes this ai-first.
   responsibilities:
-  - Use AI coding assistants like GitHub Copilot, Cursor, and Claude to enhance productivity
-    across the software development lifecycle
-  - Design and develop Agentic AI applications using frameworks like LangGraph, LangChain,
-    and CrewAI
-  - Integrate LLMs and AI services into applications via APIs from OpenAI, Anthropic,
-    and similar providers
-  - Build AI-powered features including chatbots, copilots, automation pipelines,
-    and intelligent workflows using RAG patterns, embeddings, and vector databases
-  - Design, develop, and maintain scalable backend systems and APIs in Python while
-    ensuring code quality through testing and reviews
-  - Collaborate with DevOps teams for CI/CD integration and deploy models using FastAPI,
-    Hugging Face, and MLOps practices
-  - Mentor junior engineers on AI-assisted development practices and contribute to
-    internal best practices and knowledge sharing
+  - Use AI coding assistants such as GitHub Copilot, Cursor, and Claude to accelerate
+    development across the SDLC
+  - Design effective prompts and workflows for code generation, debugging, refactoring,
+    and documentation, and evaluate and harden AI-generated code for production readiness
+  - Design and develop Agentic AI applications using frameworks such as LangGraph,
+    LangChain, and CrewAI
+  - Build AI-powered features such as chatbots, copilots, automation pipelines, and
+    intelligent workflows
+  - Integrate LLM APIs (OpenAI, Anthropic) into applications and work with embeddings,
+    vector databases, and RAG patterns
+  - Optimize prompts, latency, and cost for AI-driven features
+  - Design, develop, and maintain scalable backend systems and APIs in Python with
+    robust testing and architecture participation
+  - Collaborate with product managers, designers, engineers, and co-sourced client
+    teams, and mentor junior engineers on AI-assisted development practices
   use_cases:
-  - AI-assisted software development using coding assistants to accelerate code generation,
-    debugging, refactoring, and documentation
-  - Agentic AI applications that autonomously design, build, test, and optimize software
-    systems
-  - AI-powered chatbots and copilots for enterprise productivity and workflow automation
-  - Intelligent automation pipelines that leverage LLMs for decision-making and task
-    execution
-  - Enterprise applications integrated with AI services for enhanced user experiences
-    and operational efficiency
+  - AI-assisted software development across code generation, debugging, refactoring,
+    and documentation
+  - Agentic AI applications and agent-driven automation
+  - Chatbots and copilot features embedded in products
+  - Intelligent workflow and automation pipelines
+  - RAG-based semantic retrieval over embeddings and vector databases
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Hugging Face]
     cloud: [AWS, Azure]
-    genai: [GitHub Copilot, Cursor, Anthropic API, OpenAI API, Prompt Engineering,
-      MCP, RAG, LangChain, LlamaIndex, LangGraph, CrewAI]
+    languages: [Python]
+    ml: [Machine Learning, Hugging Face]
+    other: [System Design, Agile, Code Review]
+    ops: [Git, CI/CD, MLOps, Model Deployment]
+    databases: []
+    domains: []
+    web: [FastAPI, Flask, Django, REST APIs, Microservices]
     data: []
-    other: []
-    ops: [Git, CI/CD, MLOps]
-    web: [FastAPI, Flask, Django, REST APIs]
-    databases: [Vector Databases]
+    genai: [AI Agents, RAG, Prompt Engineering, Context Engineering, LLMs, LangGraph,
+      LangChain, CrewAI, LlamaIndex, Embeddings, Vector Databases, OpenAI API, Anthropic
+        API, Function Calling, MCP, GitHub Copilot, Cursor]
   is_customer_facing: true
   is_management: false
 meta:
@@ -61,4 +61,6 @@ meta:
   locations:
   - Gurugram, IND
   - Bengaluru, IND
-  extracted_at: '2026-05-29T09:10:15.625874'
+  extracted_at: '2026-08-16T12:19:05.015166'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,57 @@
+company:
+  name: LSEG (London Stock Exchange Group)
+  stage: null
+  focus: Global financial markets infrastructure and data services
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG pipelines, agent flows, evaluations,
+      prompt management, and guardrails — directly shaping model
+      behaviour and output quality of LLM-based systems. No
+      classical-ML-only scope, so it is ai-first.
+  responsibilities:
+  - Build and configure Azure infrastructure including landing zones, networking,
+    storage, compute, and DNS
+  - Develop AI agents and deployments using Azure AI Foundry and Azure AI SDKs
+  - Design and evaluate RAG pipelines with advanced techniques such as hybrid search,
+    semantic ranking, query rewriting, reranking, and metadata filtering
+  - Run evaluations and cost/token analyses with Langfuse, including datasets, experiments,
+    prompt management, custom evaluators, and tracing
+  - Securely expose and manage LLMs via Azure API Management and LiteLLM as an AI
+    and MCP gateway
+  - Instrument observability with Azure Monitor, Application Insights, Workbooks,
+    Datadog, and OpenTelemetry
+  - Configure and manage AI coding agents and agent harnesses (Claude Code, Codex,
+    GitHub Copilot) including telemetry and policy controls
+  - Apply content safety guardrails to prompts, retrieved content, model responses,
+    and tool execution; build adversarial test cases and regression tests
+  use_cases:
+  - Experimental AI agents on Azure AI Foundry Agent Service
+  - Enterprise document processing and retrieval with RAG
+  - Secure exposure and management of LLM endpoints via APIM
+  - Agent memory and state storage in Azure Cosmos DB
+  - Observability, evaluation, and cost analysis of LLM applications
+  - Adoption and governance of AI coding agents and harnesses
+  skills:
+    genai: [RAG, LiteLLM, MCP, LLMs, Claude Code, Codex, GitHub Copilot, AI Agents,
+      LangChain, LangGraph, Guardrails, Multi-Agent Systems, Function Calling]
+    ml: []
+    web: []
+    databases: [Azure Cosmos DB, Vector Databases, Vector Search]
+    data: []
+    cloud: [Azure, Azure AI Foundry, Azure AI Search, Azure API Management, Azure
+        Functions, Azure Storage]
+    ops: [Azure Monitor, Application Insights, Langfuse, Datadog, OpenTelemetry]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10421542'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:04:33.579848'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

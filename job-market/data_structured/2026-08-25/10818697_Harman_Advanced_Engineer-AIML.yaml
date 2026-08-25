@@ -1,0 +1,57 @@
+company:
+  name: Harman
+  stage: null
+  focus: |-
+    Connected car technology and in-vehicle audio/infotainment
+    systems
+position:
+  title: Advanced Engineer-AI/ML
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role fine-tunes SLMs, builds agentic orchestration
+      layers (intent/tool routing, MCP), and works with tool-using
+      LLMs, which directly shapes LLM behavior. Though VLM/VLA and
+      vision work are classical ML, LLM/agent components dominate,
+      so it's ai-first.
+  responsibilities:
+  - Develop and optimize Small Language Models (SLMs) for in-vehicle conversational
+    AI and context-aware reasoning, deploying on edge devices (CPU, NPU, GPU)
+  - Build AI orchestration layers including intent routing, tool routing, policy engines,
+    and cross-domain context management
+  - Work with VLM/VLA models for scene understanding, multi-modal perception, and
+    interaction
+  - Integrate voice (ASR, TTS, NLU), visual perception, and sensor fusion signals
+    for cross-domain cockpit, ADAS, and connected services intelligence
+  - Design ML pipelines and MLOps workflows covering training, evaluation, deployment,
+    and monitoring
+  - Ensure compliance with safety, cybersecurity, and automotive standards
+  - Collaborate with embedded software, cloud/data engineering, and HMI/system integration
+    teams on end-to-end automotive AI platforms
+  use_cases:
+  - In-vehicle conversational AI and intent handling
+  - Scene understanding and multi-modal perception for ADAS and cockpit
+  - Cross-domain automotive intelligence spanning cockpit, ADAS, and connected services
+  - Real-time edge and hybrid edge-cloud AI inference in vehicles
+  - Voice interaction integrating ASR, TTS, and NLU
+  skills:
+    genai: [LLMs, Fine-Tuning, AI Agents, Agentic Workflows, LangChain, LangGraph,
+      AutoGen, Semantic Kernel, MCP, Function Calling]
+    ml: [Deep Learning, PyTorch, TensorFlow, NLP, Computer Vision, Model Training,
+      Model Evaluation, Quantization, Embeddings]
+    web: [APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: [Azure, AWS, GCP]
+    ops: [MLOps, CI/CD]
+    languages: [Python, C++, NNAPI]
+    domains: [Computer Vision, Speech Recognition]
+    other: [AUTOSAR, Edge Deployment, Sensor Fusion, ADAS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10818697'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T12:06:07.226265'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

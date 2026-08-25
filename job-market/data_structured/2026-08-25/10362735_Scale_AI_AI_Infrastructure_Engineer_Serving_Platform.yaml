@@ -1,0 +1,48 @@
+company:
+  name: Scale AI
+  stage: null
+  focus: Data and full-stack technologies powering AI models
+position:
+  title: AI Infrastructure Engineer, Serving Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds serving infrastructure (hosting, scaling,
+      routing, monitoring) for LLMs rather than shaping model
+      behavior through prompts, retrieval, or training. Per the
+      edge case rules, serving/scaling models someone else builds
+      is ai-support even when vLLM, TensorRT, and LLM serving are
+      named.
+  responsibilities:
+  - Build and maintain fault-tolerant, high-performance systems for serving LLMs and
+    other models at scale
+  - Build an internal platform to empower LLM capability discovery
+  - Collaborate with researchers and engineers to integrate and optimize models for
+    production and research use cases
+  - Conduct architecture and design reviews for system design and scalability best
+    practices
+  - Develop monitoring and observability solutions for system health and performance
+  - Lead projects end-to-end from requirements gathering to implementation
+  use_cases:
+  - Scalable and reliable serving of LLMs in production and research
+  - Internal platform for LLM capability discovery
+  - Model integration and optimization for research use cases
+  skills:
+    genai: [LLMs, Function Calling, Prompt Engineering]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, Terraform, vLLM, TensorRT, Monitoring, Observability]
+    languages: [Python, Go, Rust, C++]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10362735'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:49:11.835107'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

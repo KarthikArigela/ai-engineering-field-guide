@@ -1,55 +1,61 @@
 company:
   name: Defense Unicorns
   stage: null
-  focus: Secure software and AI solutions for defense
+  focus: Secure software delivery and AI solutions for U.S. defense
 position:
   title: Forward Deployed AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that involves
-      hands-on building, deploying, and operating agentic
-      Generative AI systems including RAG, context engineering,
-      and APIs. The role directly implements AI solutions at
-      customer sites, not just infrastructure or support work.
+      The role directly shapes LLM behavior: architecting agentic
+      generative AI systems, designing RAG (chunking, reranking,
+      vector search) and context engineering, building and
+      maintaining LLM evaluations, and fine-tuning open LLM/SLM
+      models. As a Forward Deployed Engineer adapting and
+      deploying AI solutions at customer sites, this is ai-first
+      per the stated edge case.
   responsibilities:
-  - Embed with strategic customers as a technical partner from problem discovery to
-    solution implementation and adoption
-  - Architect, build, deploy, and operate agentic Generative AI systems including
+  - Embed with strategic customers as a technical partner, from problem discovery
+    through solution implementation and adoption
+  - Architect, build, deploy, and operate agentic generative AI systems including
     APIs, ETL pipelines, integration layers, RAG, and context engineering
-  - Deploy systems in cloud, on-prem, and edge/air-gapped environments to meet mission
-    requirements
-  - Scope, sequence, and lead delivery of solutions including living roadmaps, priorities,
-    and trade-offs between speed, quality, and scope
-  - Codify reusable patterns and build tools, internal frameworks, and playbooks for
-    faster, safer, repeatable deployments
-  - Act as the technical face to customer leadership, communicating with both technical
-    and non-technical stakeholders to build trust and ensure adoption
+  - Operate systems across cloud, on-prem, and edge/air-gapped environments where
+    the mission demands
+  - Prototype and deploy solutions leveraging Unicorn Delivery Service (UDS) products
+    and design patterns, bringing field insights back for product improvement
+  - Scope, sequence, and lead delivery of solutions, defining living roadmaps and
+    managing trade-offs between speed, quality, and scope
+  - Codify reusable patterns, tools, internal frameworks, and playbooks for mission
+    environments
+  - Act as the technical face to customer leadership, communicating with technical
+    and non-technical stakeholders and driving mission adoption
+  - Travel up to 25% to client sites as needed
   use_cases:
-  - Deploying agentic Generative AI systems for defense and government applications
-  - Enabling Retrieval Augmented Generation for information access and decision support
-    in tactical environments
-  - Delivering AI capabilities in air-gapped and secure environments for warfighter
-    operations
-  - Building context engineering solutions that integrate LLMs into larger system
-    architectures
-  - Supporting mission-critical software delivery with rapid deployment and secure
-    AI integration
+  - Agentic generative AI systems for defense and government missions
+  - Retrieval-augmented generation and context engineering in secure, air-gapped environments
+  - Rapid, secure software delivery for warfighters (updates in minutes instead of
+    months)
+  - Deploying AI capabilities across cloud, on-prem, and tactical edge environments
+  - Continuous software integration and delivery with security pipelines for high-assurance
+    government contexts
   skills:
-    domains: [Information Retrieval]
-    languages: [Python, TypeScript, SQL]
-    ml: [Llama3, Mixtral, Gemma, Phi, Fine-Tuning, LLM Evaluations]
-    cloud: []
-    genai: [LangChain, RAG, Context Engineering, AI Agents, LLMs, Prompt Engineering]
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, TypeScript]
+    ml: []
+    other: [Information Retrieval]
+    ops: [Kubernetes, Terraform, Pulumi, Infrastructure as Code, GitOps, Helm, Kustomize,
+      Docker, Continuous Delivery, Inference]
+    databases: [Vector Search, SQL, NoSQL]
+    domains: []
+    web: [APIs]
     data: [Data Pipelines]
-    other: [Air-gapped, Document Parsing]
-    ops: [Inference, vLLM, Triton, Kubernetes, Docker, Helm, Kustomize, Terraform,
-      Pulumi, GitOps, CI/CD]
-    web: [REST, APIs]
-    databases: [Vector Search, PostgreSQL, NoSQL]
+    genai: [Generative AI, AI Agents, RAG, Context Engineering, LLMs, LLM Evaluation,
+      Fine-Tuning, Structured Outputs, Llama, Mixtral, Gemma, Phi]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7696349'
   location: USA
-  extracted_at: '2026-02-05T11:21:07.768408'
+  extracted_at: '2026-08-15T21:58:44.485604'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

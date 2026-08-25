@@ -1,0 +1,61 @@
+company:
+  name: Anthropic
+  stage: null
+  focus: Developing reliable, interpretable, and steerable AI systems
+position:
+  title: Senior Software Engineer, AI Reliability Engineering
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is reliability engineering for LLM serving and training
+      infrastructure: SLOs, monitoring, failover, incident
+      response, and cost optimization of GPU/TPU/Trainium
+      utilization. The person runs, hosts, and scales models
+      others build rather than shaping model behavior through
+      prompts, retrieval, agent design, training, or evals. The
+      deliverable is capacity and uptime, which classifies as ai-
+      support under the serving/hosting edge case.
+  responsibilities:
+  - Develop Service Level Objectives for LLM serving and training systems, balancing
+    availability and latency with development velocity
+  - Design and implement monitoring systems covering availability, latency, and other
+    salient metrics
+  - Assist in designing and implementing high-availability language model serving
+    infrastructure for millions of external customers and high-traffic internal workloads
+  - Develop and manage automated failover and recovery systems for model serving deployments
+    across multiple regions and cloud providers
+  - Lead incident response for critical AI services, ensuring rapid recovery and systematic
+    post-incident improvements
+  - Build and maintain cost optimization systems for large-scale AI infrastructure,
+    focusing on GPU/TPU/Trainium accelerator utilization and efficiency
+  - Uplevel reliability mindsets across Anthropic and partner with internal teams
+    to build more robust and reliable systems
+  use_cases:
+  - Reliable LLM inference serving for millions of external customers and high-traffic
+    internal workloads
+  - Automated failover and recovery for model serving across multiple regions and
+    cloud providers
+  - SLO-driven monitoring and incident response for LLM serving and training systems
+  - Cost optimization of large-scale GPU/TPU/Trainium accelerator infrastructure
+  - High-availability infrastructure for large-scale model training and batch inference
+  skills:
+    genai: [LLMs]
+    ml: [Machine Learning, Model Training, ML Hardware Accelerators]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Observability, Monitoring, Distributed Systems, Model Serving, Batch Inference,
+      Model Deployment, SLO/SLA Frameworks, Chaos Engineering, Incident Response,
+      RDMA, InfiniBand]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8387134'
+  location: London, GBR
+  extracted_at: '2026-08-15T23:32:31.898824'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

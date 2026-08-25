@@ -1,54 +1,61 @@
 company:
   name: Visa Inc,
-  stage: Public
-  focus: Global payments technology and digital transactions
+  stage: null
+  focus: |-
+    Global payments technology and digital transaction
+    processing network
 position:
   title: SW Engineer (6 months - 2 yrs Experience - Java/Python, UNIX, J2EE, REST
     & SOAP, Automation, Gen AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying agentic
-      solutions using LLMs from Anthropic, OpenAI, and others, as
-      well as developing deep learning solutions for real-time
-      transaction processing. The position explicitly requires
-      hands-on work creating AI/ML systems at scale, not just
-      supporting infrastructure for AI work.
+      The first core responsibility is building agentic solutions
+      with LLMs from Anthropic, OpenAI, and others, which is
+      designing agent flows and shaping model behavior (Step 1:
+      yes). Since LLM and agent components are central to the
+      role, it is ai-first, even though it also includes classical
+      deep learning work (which would make it ai-first anyway
+      under the both-types rule).
   responsibilities:
-  - Build agentic solutions using advanced LLM models from Anthropic, OpenAI and other
-    providers
-  - Develop deep learning solutions using AI/ML platforms for real-time transactions
-    at 100K+ TPS scale
-  - Design and code systems that maintain 99.9999% reliability while serving 40% of
-    world population
-  - Create scalable, maintainable, and efficient systems aligned with organizational
-    objectives
-  - Collaborate cross-functionally to develop software solutions for Visa's commercial
-    products and services
-  - Contribute to product reliability improvements and new operations flows in agile
-    squads
-  - Support piloting of new technology capabilities that enhance customer experience
+  - Build agentic solutions using advanced LLM models from Anthropic, OpenAI, and
+    others
+  - Build deep learning solutions on AI/ML platforms for real-time transactions at
+    100K+ TPS scale and petabytes of data
+  - Design and code systems that influence internal standards for scalability, security,
+    and reusability at global scale
+  - Collaborate multi-functionally to create design artifacts and develop software
+    solutions for commercial products and services
+  - Contribute to product reliability improvements, service technology, and new operations
+    flows within agile squads
+  - Support piloting of new technology capabilities and features that enhance customer
+    experience
+  - Develop scalable, maintainable, and efficient systems aligned with organizational
+    objectives and global technology standards
   use_cases:
-  - Predict and prevent real-time reliability challenges in payment processing
-  - Automate reliability operations and incident response for global payment network
-  - Deep learning for transaction analysis at petabyte scale
-  - Agentic solutions for operational automation and decision support
-  - Real-time transaction processing at 65,000+ transactions per second
+  - Predicting and preventing real-time reliability challenges in payment processing
+    systems
+  - Agentic solutions to support product reliability engineering and operations flows
+  - Real-time transaction processing and analysis at 100K+ TPS scale
+  - Maintaining 99.9999%+ reliability for global fintech transactions
+  - Large-scale data analytics and statistical modeling over petabytes of data
   skills:
-    domains: []
-    languages: [Java, Python, Go, Scala, JavaScript, .NET, C#, C++, SQL]
-    ml: [Deep Learning, AI/ML platforms, Statistical modelling]
     cloud: []
-    genai: [Claude/Anthropic API, OpenAI API, Cline, GitHub Copilot, Power Automate,
-      Agentic Workflows]
-    data: [Kafka, Large scale data analytics]
-    other: [Agile, Full SDLC]
-    ops: [GIT/Stash, Maven, Jenkins, CI/CD, Automation, UNIX, Logging and monitoring]
-    web: [REST APIs, SOAP, Microservices, HTTP/JSON, J2EE]
+    languages: [Java, Python, Go, Scala, JavaScript, .NET, C#, C++]
+    ml: [Deep Learning, Machine Learning, Statistical Modeling]
+    other: [Agile, Automation, Power Automate]
+    ops: [UNIX, Git, Maven, Jenkins, CI/CD, Monitoring, DevOps]
     databases: [Relational Databases, NoSQL]
+    domains: []
+    web: [REST APIs, SOAP, J2EE, Microservices, JSON, HTTP]
+    data: [Kafka, Data Analytics]
+    genai: [Generative AI, AI Agents, LLMs, Anthropic API, OpenAI API, Cline, GitHub
+        Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8851717'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T15:19:51.644263'
+  extracted_at: '2026-08-16T05:07:16.180836'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,54 @@
+company:
+  name: Cisco
+  stage: null
+  focus: |-
+    Digital assurance and network observability platform (Cisco
+    ThousandEyes)
+position:
+  title: Lead Site Reliability Engineer, Data Platform - AI/ML Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates cloud, big-data, and ML/AI
+      infrastructure (Hadoop, Airflow, EMR, SageMaker
+      serving/scaling) but never shapes model behaviour - no
+      prompts, RAG, training, or evals. Per the edge cases,
+      hosting and scaling models others build is ai-support.
+  responsibilities:
+  - Design, build, and optimize cloud and big-data infrastructure for reliability,
+    scalability, and high availability of ML/AI systems
+  - 'Apply SRE principles: monitoring, alerting, error budgets, and fault analysis'
+  - Collaborate with development, product, security, and customers to deliver secure
+    multi-region SaaS solutions
+  - Troubleshoot production issues, perform root cause analyses, and drive continuous
+    improvement via postmortems
+  - Lead the architectural vision and technical roadmap for the NADP SRE team
+  - Mentor engineers and foster a culture of operational excellence
+  - Engage with customers and stakeholders to translate feedback into actionable improvements
+  - Build data platform capabilities and automation to deploy software at enterprise
+    scale
+  use_cases:
+  - Reliable cloud and big-data platform powering network assurance insights
+  - Infrastructure supporting ML/AI workloads for ThousandEyes telemetry analysis
+  - Proactive detection and diagnosis of network and digital experience issues
+  - Enterprise-scale deployment of new software components
+  skills:
+    genai: []
+    ml: [Pandas]
+    web: []
+    databases: [Hive]
+    data: [Hadoop, Spark, Airflow]
+    cloud: [AWS, EKS, AWS Bedrock]
+    ops: [Terraform, Kubernetes, Linux, Prometheus, Grafana, Thanos, CloudWatch, OpenTelemetry,
+      ELK Stack, Infrastructure as Code]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9882600'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T12:21:46.438418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

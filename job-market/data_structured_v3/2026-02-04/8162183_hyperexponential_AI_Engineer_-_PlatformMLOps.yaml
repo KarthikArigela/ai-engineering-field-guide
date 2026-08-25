@@ -1,0 +1,59 @@
+company:
+  name: hyperexponential
+  stage: Backed by a16z, Highland Europe, and Battery Ventures
+  focus: AI-powered insurance pricing and underwriting platform
+position:
+  title: AI Engineer - Platform/MLOps
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a platform/MLOps role that builds and operates
+      shared AI infrastructure — LLM inference, gateway
+      routing/caching, observability, evaluation pipelines, and
+      self-service SDKs — for product and research teams. The
+      person does not write prompts, design retrieval or agent
+      flows, train models, or judge output quality themselves; the
+      deliverable is capacity, reliability, and developer
+      experience, which matches the serving/scaling edge case for
+      ai-support.
+  responsibilities:
+  - Design and operate scalable AI infrastructure for LLM inference, prompt management,
+    and evaluation pipelines
+  - Build self-service tools, SDKs, and APIs that help product teams move from prototype
+    to production faster
+  - Instrument production AI/ML workloads with standardized logging, tracing, and
+    evaluation metrics for full observability coverage
+  - Implement intelligent routing, caching, and provider optimization via the LLM
+    gateway to reduce AI compute costs
+  - Drive adoption of shared platform services (LLM gateway, evaluation frameworks,
+    monitoring) to replace bespoke solutions
+  - Champion developer experience through comprehensive documentation and responsive
+    internal support
+  use_cases:
+  - AI-powered insurance pricing and underwriting decisions
+  - Domain-specific AI peer programmer for actuaries and underwriters
+  - Large-scale document intelligence for the insurance industry
+  - Safe, scalable serving and evaluation of production AI models
+  - Cost-efficient LLM routing and caching across providers
+  skills:
+    genai: [LLM Evaluation, Prompt Management, Generative AI]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: []
+    ops: [MLOps, LLM Inference, Model Deployment, LLM Gateway, Observability, Monitoring]
+    languages: []
+    domains: []
+    other: [A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8162183'
+  location: London, GBR
+  locations:
+  - London, GBR
+  - Warsaw, POL
+  extracted_at: '2026-08-15T22:46:50.961426'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,54 @@
 company:
   name: VidRush
-  stage: Seed
-  focus: |-
-    AI-native video production platform using coordinated AI
-    agents to automate video creation
+  stage: null
+  focus: AI-native automated video production platform for creators
 position:
   title: Senior Python Backend Engineer (AI / Agents)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI/ML role focused on building agentic
-      systems using LLMs. The engineer will build agent
-      orchestration systems, deploy LLM-based services with tool
-      use and structured outputs, implement RAG, and work directly
-      on video/image intelligence pipelines. This is core AI
-      development work, not supporting infrastructure or general
-      backend engineering for an AI company.
+      The role builds agentic systems and designs LLM-based
+      services with tool use, structured outputs, RAG, evals, and
+      monitoring - direct shaping of LLM/agent behavior. An
+      LLM/agent component is clearly involved, so this is ai-first
+      despite the backend engineer title.
   responsibilities:
   - Build agentic systems that can reason, plan, and execute multi-step tasks reliably
   - Design and deploy LLM-based services including tool use, structured outputs, evals,
     and monitoring
-  - Develop video/image intelligence pipelines for retrieval, matching, classification,
+  - Develop video/image intelligence pipelines covering retrieval, matching, classification,
     metadata extraction, and generative augmentation
-  - Ship scalable inference pipelines on cloud infrastructure
-  - Apply MLOps/LLMOps best practices for observability, testing, evals, versioning,
-    and cost control
   - Integrate existing APIs and tools with strong build-vs-buy judgment
+  - Ship scalable inference pipelines on cloud infrastructure
+  - 'Apply MLOps/LLMOps best practices: observability, testing, evals, versioning,
+    and cost control'
   - Work closely with founders and product to iterate quickly based on user feedback
   use_cases:
-  - Automated video production from simple prompts to fully produced long-form videos
-  - Coordinated AI agents for research, script generation, voiceover, footage selection,
-    and video assembly
-  - Agentic pipeline that transforms intent into finished video in under an hour
+  - Automated long-form video production from a simple idea or prompt
+  - Agentic pipeline covering research, script generation, voiceover, footage selection,
+    and assembly
   - Video/image intelligence for retrieval, matching, classification, and metadata
     extraction
-  - Generative augmentation for visual content and motion graphics creation
+  - Generative augmentation of media content within the production workflow
+  - Scalable LLM-driven media production for creators and media teams
   skills:
-    domains: [Computer Vision, Video processing, Image processing]
+    cloud: [Serverless]
     languages: [Python]
-    ml: [Embeddings, PyTorch, GPU inference optimization]
-    cloud: [Cloud infrastructure, Serverless]
-    genai: [OpenAI API, Function Calling, RAG, Structured Outputs, LangGraph, LangChain,
-      AutoGen, CrewAI]
-    data: []
-    other: []
-    ops: [Docker, Async pipelines, Workflow orchestration, LLMOps, MLOps, Event-driven
-        systems]
-    web: []
+    ml: [PyTorch]
+    other: [Event-Driven Architecture]
+    ops: [MLOps, LLMOps, Monitoring, Observability, GPU Inference, Docker]
     databases: [Vector Search]
+    domains: [Computer Vision]
+    web: []
+    data: []
+    genai: [LLMs, AI Agents, OpenAI API, Function Calling, RAG, Structured Outputs,
+      LLM Evaluation, LangGraph, LangChain, AutoGen, CrewAI, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9166360'
   location: GBR
   remote: true
-  extracted_at: '2026-05-29T08:54:38.347459'
+  extracted_at: '2026-08-16T09:12:56.943015'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

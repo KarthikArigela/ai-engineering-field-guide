@@ -2,57 +2,59 @@ company:
   name: Synechron
   stage: null
   focus: |-
-    Global digital transformation consulting and technology
-    services for financial services and enterprise sectors
+    Enterprise software development and digital IT consulting
+    services
 position:
   title: Java/Angular Developer | Microservices, REST APIs, Cloud (AWS/Azure), AI
     Integration, Leadership
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a traditional full-stack Java/Angular developer role
-      where AI tools (Amazon Q, Co-pilot) are mentioned only as
-      productivity aids for code assistance and automation. The
-      role does not involve building, training, fine-tuning, or
-      deploying AI/ML models - it's focused on enterprise
-      application development with Java and Angular, using AI
-      tools to support development workflows.
+      This is a full-stack Java/Angular enterprise application
+      role where AI appears only as a productivity tool:
+      integrating and using AI coding assistants (Amazon Q,
+      Copilot) during development. There is no prompt design, RAG,
+      agent orchestration, model training, or evaluation of model
+      output quality, so the role does not shape model behaviour
+      and is ai-support.
   responsibilities:
-  - Design, develop, and maintain scalable Java and Angular-based enterprise applications
-  - Lead architectural discussions combining frontend (Angular) and backend (Spring
-    Boot) solutions for high availability and performance
-  - Integrate and leverage AI tools such as Co-pilot or Amazon Q for intelligent code
-    assistance and automation support
+  - Design, develop, and maintain scalable Java and Angular enterprise applications
+  - Lead architectural discussions combining Angular frontend and Spring Boot backend
+    for high availability and performance
+  - Integrate AI tools such as Copilot or Amazon Q into development workflows for
+    intelligent code assistance and automation
   - Collaborate across teams to translate project requirements into technical specifications
     and prototypes
   - Write, review, and optimize code for responsiveness, security, and maintainability
   - Support continuous integration, automated testing, and deployment pipelines for
     rapid release cycles
-  - Troubleshoot and resolve complex issues related to application performance, security,
+  - Troubleshoot and resolve complex issues in application performance, security,
     and integration
-  - Mentor junior team members and foster best practices in coding, testing, and development
-    processes
+  - Mentor junior team members, conduct code reviews, and document system architecture
+    and API specifications
   use_cases:
-  - Enterprise application development for business workflows
-  - Full-stack solutions for finance, banking, and fintech sectors
-  - Scalable microservices architecture for large-scale systems
-  - Secure REST/SOAP API integrations
-  - Automated CI/CD pipelines for rapid software delivery
+  - Scalable enterprise applications supporting business workflows
+  - Full-stack web applications for finance, banking, and enterprise sectors
+  - AI-assisted code generation and development workflow automation
+  - High-availability microservices and API integrations
   skills:
-    genai: [Amazon Q, GitHub Copilot]
-    ml: []
-    web: [Spring Boot, Angular, REST APIs, SOAP, Spring Cloud]
-    databases: [MySQL, Oracle, SQL Server, MongoDB, Redis]
-    data: []
     cloud: [AWS, Azure]
-    ops: [Git, Maven, Jenkins, Docker, Kubernetes, GitLab CI, Azure DevOps]
-    languages: [Java, TypeScript, JavaScript, SQL, Python]
+    languages: [Java, TypeScript, JavaScript, SQL, Python, Groovy]
+    ml: []
+    other: [JUnit, Mockito, Jasmine, Agile, SSL/TLS, IntelliJ IDEA, Eclipse, NetBeans]
+    ops: [Git, Jenkins, Maven, CI/CD, GitLab CI, Azure DevOps, Docker, Kubernetes]
+    databases: [MySQL, Oracle, SQL Server, MongoDB, Redis]
     domains: []
-    other: [JUnit, Mockito, Jasmine, OAuth2, JWT, Hibernate, JPA]
+    web: [Spring Boot, Spring Cloud, Angular, REST APIs, SOAP, Microservices, Hibernate,
+      JPA, Redux, NgRx, OAuth, JWT]
+    data: []
+    genai: [Amazon Q, GitHub Copilot]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8660473'
   location: IND
   remote: true
-  extracted_at: '2026-03-27T15:13:43.985514'
+  extracted_at: '2026-08-16T03:34:22.803254'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

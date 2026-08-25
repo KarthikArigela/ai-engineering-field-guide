@@ -1,54 +1,60 @@
 company:
   name: Abnormal Security
-  stage: Series C
-  focus: AI-native cybersecurity, cloud email security
+  stage: null
+  focus: AI-native cybersecurity company protecting enterprises
 position:
   title: Software Engineer II — AI Transformation Engineering
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is an AI platform engineering role that builds
-      infrastructure (Nora platform) for other teams to deploy AI
-      workflows. The engineer builds connectors, services,
-      integrations, and sandboxes that enable internal teams to
-      use AI, but is not building, training, fine-tuning, or
-      deploying models directly. The role supports AI work by
-      creating the platform substrate that makes AI accessible
-      across operational systems.
+      The engineer designs and ships AI workflow factories, agent
+      tooling, and MCP-based integrations themselves — the Nora
+      platform they build determines how agents behave on
+      Salesforce, Jira, and warehouse systems, so this is shaping
+      agent/workflow behaviour rather than merely consuming
+      someone else's AI API. The stated fluency with agents, MCP,
+      and building plugins/skills against Claude, Codex, and
+      Gemini confirms hands-on agent-flow design as the
+      deliverable. Step 2: LLM/agent components are central, so
+      ai-first.
   responsibilities:
-  - Build the Nora platform including services, factories, and sandboxes for internal
-    teams to deploy AI workflows
-  - Weave AI into internal systems through connectors, services, and integrations
-    with record-keeping systems like Salesforce, Jira, and data warehouses
-  - Stand up net-new infrastructure capabilities when transformation requires new
+  - Build the Nora internal AI platform — ship the services, factories, and sandboxes
+    that internal teams use to deploy AI workflows
+  - Build connectors, services, and integrations that weave AI into existing operational
+    systems (Salesforce, Jira, data warehouses, internal apps)
+  - Stand up net-new infrastructure when transformation requires capabilities that
+    don't exist, and harden it for other teams to build on
+  - Design workflow factories with operator empathy — sit with Sales Ops and Marketing
+    Ops leads to fit AI to their real workflows
+  - Design for handoff — write docs, define SLOs, and pick the next owner before shipping
     platform components
-  - Design for handoff by building platforms and transitioning long-term ownership
-    to permanent platform teams
-  - Own measurable business outcomes including revenue, cost saved, and hours returned
-    to the business
+  - Own measurable business outcomes such as revenue, cost saved, hours returned,
+    or capabilities unblocked for dependent teams
   use_cases:
-  - Internal AI platform serving 2,000+ employees across all company functions
-  - AI-powered workflows integrated with operational systems (Salesforce, Jira, data
-    warehouses, internal apps)
-  - Transformation engineering to bring AI into record-keeping and business operational
-    surfaces
-  - Platform infrastructure enabling Marketing, Sales, and Support teams to run on
-    AI workflows
-  - AI leverage automation for Sales Ops and Marketing Ops workflows
+  - Internal AI platform (Nora) powering AI workflows for 2,000+ employees across
+    every business function
+  - AI-driven automation of record-keeping and operational systems such as Salesforce,
+    Jira, and data warehouses
+  - Business workflow automation delivering measurable ROI for Sales, Marketing, and
+    Support operations
+  - Internal platform infrastructure that scales the company's cybersecurity protection
+    for Fortune 500 enterprises
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python]
     ml: []
-    cloud: [AWS, GCP, Azure]
-    genai: [Anthropic API, Codex, Gemini, OpenAI API, MCP, AI Agents]
-    data: []
-    other: []
+    other: [Salesforce, Jira, Performance Optimization]
     ops: [Docker, Kubernetes, Distributed Systems]
+    databases: [Data Warehouses]
+    domains: []
     web: [APIs]
-    databases: []
+    data: []
+    genai: [Anthropic API, Codex, Gemini, OpenAI API, MCP, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9530078'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:09:11.261337'
+  extracted_at: '2026-08-16T12:20:17.950229'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

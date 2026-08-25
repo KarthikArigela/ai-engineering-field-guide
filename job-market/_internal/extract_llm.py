@@ -2,6 +2,7 @@
 """Extract structured data from job descriptions using Z.ai LLM."""
 import os
 import csv
+import hashlib
 import yaml
 import json
 import random
@@ -191,6 +192,22 @@ def location_meta(raw_job: dict) -> dict:
     return meta
 
 
+def extractor_fingerprint() -> dict:
+    """Which model and prompt produced a record.
+
+    Without this, a silent model change is invisible in the data and has to be
+    reconstructed from memory months later. The glm-5.1 to glm-5.2 switch moved
+    the AI-First share by up to 10 points and added 6 skills per job before
+    anyone noticed. The prompt is identified by a hash so an edit shows up as a
+    new value without storing 11KB in every file.
+    """
+    return {
+        'model': os.getenv("ZAI_MODEL", "glm-5.2"),
+        'prompt_sha': hashlib.sha256(
+            EXTRACTION_SYSTEM_PROMPT.encode("utf-8")).hexdigest()[:12],
+    }
+
+
 def to_structured(job_id: str, title: str, company_name: str, extraction: JobExtraction, extracted_at: str, location: dict = None) -> StructuredJob:
     """Transform flat LLM output into structured final object."""
 
@@ -219,7 +236,8 @@ def to_structured(job_id: str, title: str, company_name: str, extraction: JobExt
             is_customer_facing=extraction.is_customer_facing,
             is_management=extraction.is_management
         ),
-        meta={'job_id': job_id, **(location or {}), 'extracted_at': extracted_at}
+        meta={'job_id': job_id, **(location or {}), 'extracted_at': extracted_at,
+              **extractor_fingerprint()}
     )
 
 
@@ -229,17 +247,75 @@ EXTRACTION_SYSTEM_PROMPT = """You are an expert at analyzing job descriptions fo
 
 ## AI Type Classification
 
-Classify the role as:
-- ai-first: Working directly ON AI/ML systems - building, deploying, fine-tuning LLMs/ML models, implementing RAG/agents, model optimization, inference engineering. This INCLUDES Forward Deployed Engineers who deploy AI solutions to customers.
-- ml-first: Working directly ON traditional ML/DL - PyTorch, training, optimization, GPU acceleration, but NOT LLMs/agents
-- ai-support: Working NEAR AI but NOT ON AI - data pipelines for ML teams, infrastructure/platforms that SUPPORT AI work, customer success for AI products, general software engineering for AI companies. The role does NOT involve building, training, fine-tuning, or deploying models.
-- unknown: Cannot determine
+Apply the steps below in order and stop at the first one that decides. Do not
+weigh the steps against each other, and do not let the job title override the
+responsibilities.
 
-Key distinction:
-- ai-first: Hands-on work with models/agents (building, deploying, fine-tuning, optimizing)
-- ai-support: Enabling work for others who work on AI (infrastructure, platforms, data, general SWE for AI company)
+Step 1 - Does this person shape model behaviour or output quality?
 
-Note: Customer-facing does NOT mean ai-support. FDEs who deploy AI solutions are ai-first.
+Shaping means doing any of these themselves:
+- writing or tuning prompts
+- designing retrieval or RAG (chunking, embeddings, reranking, context assembly)
+- designing agent flows, tool calling, or multi-agent orchestration
+- training, fine-tuning, distilling, or quantizing a model
+- choosing between models or evaluating models on the quality of their output
+- building evals, guardrails, or output-quality monitoring for a model
+
+Not shaping:
+- calling an AI API or endpoint that somebody else designed and configured
+- running, hosting, scaling, or serving models that somebody else builds
+- moving data to or from a model
+- using AI coding assistants to do the engineering work
+
+Step 2 - If the answer to Step 1 is yes, pick by what kind of model is shaped:
+- any LLM, agent, or text/code generation component involved -> ai-first
+- only classical ML/DL (computer vision, RL, forecasting, recommenders) with no
+  LLM or agent component -> ml-first
+- generative models whose output is images, audio, speech, or video - TTS,
+  diffusion, voice cloning, image generation - are ml-first, not ai-first. The
+  work there is training and evaluating a model, not shaping an LLM through
+  prompts, retrieval, or tools. A vision-language or speech model that is
+  driven by prompts and produces text is ai-first.
+
+Step 3 - If the answer to Step 1 is no -> ai-support.
+
+Step 4 - If the description is too vague to apply Step 1 -> unknown. Use this
+only when responsibilities are genuinely absent, not when they are merely brief.
+
+### Edge cases - these are decided, do not re-litigate them
+
+- Serving, hosting, or scaling models the person does not shape is ai-support,
+  even when it names vLLM, Triton, TensorRT, KV cache, or GPU clusters. The
+  deliverable is capacity, not model behaviour.
+- Optimizing a model's own internals (CUDA kernels, quantization, distillation,
+  custom training loops) IS shaping. Apply Step 2: ai-first for LLM/generative
+  targets, ml-first for classical ones.
+- A backend, full-stack, or data engineer on an AI product is ai-first if they
+  write prompts or design retrieval or agent flows themselves - even when a
+  separate ML team owns training. If they only consume an AI API that another
+  team designed, it is ai-support.
+- Rolling out AI coding tools (Cursor, Claude Code, Copilot, MCP servers) so
+  that other engineers ship faster is ai-support. The deliverable is developer
+  workflow. It is ai-first only when those agents or prompts are the product.
+- AI named only as a "bonus", "nice to have", or as a tool the engineer uses to
+  write code is ai-support.
+- Building datasets or pipelines that feed someone else's training runs is
+  ai-support, including at an AI lab. Moving, cleaning, and labelling data is
+  plumbing.
+- Judging model output quality IS shaping, even when the person never runs the
+  training. An engineer who ranks, critiques, or repairs model-generated output
+  and feeds that back as a reward or preference signal (RLHF, RLAIF, preference
+  data, red-teaming, LLM-as-a-judge rubrics) determines what the model learns.
+  Apply Step 2: ai-first for LLM targets. This overrides the dataset rule above
+  - the distinction is whether the person is judging the model's output or
+  merely handling data.
+- Safety, governance, validation, or QA oversight of models is ai-support unless
+  the person builds the evals or guardrails themselves, which is shaping.
+- Forward Deployed Engineers who adapt and deploy AI solutions at customer sites
+  are ai-first. Customer-facing never implies ai-support by itself.
+- A role that shapes both LLM and classical ML systems is ai-first.
+- Judge the role, not the employer. A generic software role at an AI company is
+  ai-support.
 
 ## Skills
 
@@ -256,6 +332,25 @@ Categories:
 - languages: Python, TypeScript, Java, Go, Rust, C++, C#, SQL, Scala, or similar programming languages
 - domains: CV, NLP, RL, robotics, diffusion models, or similar (ONLY when primary focus)
 - other: Anything that doesn't fit the categories above
+
+## Skill Evidence
+
+- Extract a skill only when the description names it, or names an unambiguous
+  synonym of it. Never infer a skill because the role or the company implies it.
+- Always include every programming language the description names, even when it
+  appears once and in passing.
+- Umbrella terms - Machine Learning, LLMs, Generative AI, AI Agents, Agentic
+  Workflows, Deep Learning - belong in the list only when the description itself
+  uses that general term. Do not add the umbrella because a specific instance is
+  present: LangChain alone is not "AI Agents", and PyTorch alone is not
+  "Machine Learning".
+- The reverse also holds: do not name a specific tool or technique the
+  description only gestures at generally. "Parameter-efficient fine-tuning" is
+  not LoRA, "containerization" is not Docker, "test, build and deploy" is not
+  CI/CD, and "modern APIs" is not REST. Record the general term the description
+  used, or nothing.
+- Do not add process or methodology tags (Agile, Code Review, System Design,
+  Responsible AI) unless the description states them as a requirement.
 
 ## Skill Normalization (prevents duplicate skills)
 
@@ -313,10 +408,34 @@ CRITICAL FORMAT REQUIREMENTS:
 
 Write 2-3 sentences maximum explaining the classification. Be concise.
 
+## Role Flags
+
+is_management - true only when the person manages people. Evidence means the
+title is Manager, Director, Head of, VP, or Chief, or the description mentions
+direct reports, headcount, hiring for the team, performance reviews, or
+managing named engineers. Technical leadership is NOT management: Lead, Staff,
+Principal, Architect, "lead the design", "set technical direction", "mentor
+juniors", and "influence across teams" are all individual-contributor work.
+When the description says individual contributor, it is false regardless of
+title. Default to false.
+
+is_customer_facing - true only when the person deals with people outside their
+own company as part of the job. Evidence means customer calls or meetings,
+on-site deployment, demos, pre-sales support, solution consulting, or working
+directly with client engineering teams. Internal stakeholders - product,
+design, other engineering squads, "the business" - are NOT customers. Shipping
+a product that customers eventually use is NOT customer-facing. Default to
+false.
+
 ## Company Info
 
-Extract if mentioned:
-- company_stage: Seed, Series A, Series B, Public, etc.
+- company_stage: record ONLY when the description states it in words. "Series
+  B", "seed-stage", "publicly traded", "Fortune 500", "bootstrapped", "backed
+  by <investors>" all count. Leave it empty otherwise. Do not infer a stage
+  from what you happen to know about the company, from its size, from its
+  customer list, or from the fact that it is hiring - if the text does not say
+  it, this field is empty. Most job descriptions do not state a stage, so an
+  empty value is the normal case.
 - company_focus: What the company does in 5-10 words
 """
 
@@ -353,7 +472,10 @@ Return valid objects for nested fields (company_info, responsibilities, skills).
         try:
             response = zai_client.messages.create(
                 model=os.getenv("ZAI_MODEL", "glm-5.2"),
-                max_tokens=int(os.getenv("ZAI_MAX_TOKENS", "4096")),
+                # Covers thinking tokens too. At 4096 the longer classification
+                # prompt truncates before the tool input completes, which shows
+                # up as an empty ai_type or a missing tool call.
+                max_tokens=int(os.getenv("ZAI_MAX_TOKENS", "8192")),
                 system=EXTRACTION_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_prompt}],
                 tools=[structured_output_tool],

@@ -1,0 +1,60 @@
+company:
+  name: AT&T
+  stage: null
+  focus: Telecommunications and connectivity
+position:
+  title: Senior Cyber Security IAM AI Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role designs and develops ML models (risk scoring,
+      anomaly detection, access recommendations) with feature
+      engineering and model evaluation, which is shaping model
+      behaviour. The required work is classical ML for IAM
+      security; LLM/GenAI is only listed as "good to have", so
+      there is no required LLM component.
+  responsibilities:
+  - Design and develop AI/ML models for IAM use cases such as access risk scoring,
+    identity analytics, anomalous behavior detection, and access recommendation engines
+  - Apply AI techniques to improve identity lifecycle management, provisioning, deprovisioning,
+    access reviews, and certifications
+  - Integrate AI solutions with IAM platforms such as IGA, PAM, and authentication
+    solutions
+  - Design data models, feature engineering approaches, and model evaluation methods
+    for IAM use cases
+  - Monitor model performance, accuracy, drift, and operational effectiveness
+  - Support explainability, auditability, and governance of AI-driven access decisions
+  - Partner with security architecture teams to align AI-enabled IAM solutions with
+    enterprise security standards
+  - Create technical documentation, design diagrams, implementation plans, and operational
+    runbooks
+  use_cases:
+  - Access risk scoring and identity analytics
+  - Anomalous behavior and privileged access monitoring
+  - Access recommendation engines
+  - Identity lifecycle management and access certification automation
+  - Policy analysis and entitlement summarization with LLMs
+  skills:
+    genai: [LangChain, LLMs, Prompt Engineering, Generative AI]
+    ml: [Machine Learning, Deep Learning, NLP, TensorFlow, PyTorch, scikit-learn,
+      XGBoost, Model Evaluation, Feature Engineering]
+    web: []
+    databases: [Snowflake, BigQuery]
+    data: [Spark, Databricks]
+    cloud: [Azure, AWS, GCP]
+    ops: []
+    languages: [SQL]
+    domains: [NLP]
+    other: [Cybersecurity, Identity and Access Management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10721514'
+  location: Hyderabad, IND
+  locations:
+  - Hyderabad, IND
+  - CHN
+  remote: true
+  extracted_at: '2026-08-25T11:27:58.118436'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

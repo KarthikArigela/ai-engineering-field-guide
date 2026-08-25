@@ -1,66 +1,63 @@
 company:
   name: eClerx LLC
-  stage: Public
+  stage: Publicly traded (Bombay and National Stock Exchanges of India)
   focus: |-
-    Productized services, business process management,
-    automation, and analytics for Fortune 2000 enterprises
+    Business process management, automation, and analytics
+    services
 position:
   title: Senior AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on building and deploying AI agents and
-      multi-agent systems using LangChain/LangGraph. The developer
-      is directly responsible for designing agent architectures,
-      implementing ReAct patterns, managing agent memory, and
-      deploying production AI applications - all core AI
-      development work rather than support or infrastructure
-      roles.
+      The role centers on designing and building LLM agents and
+      multi-agent systems with LangChain/LangGraph — architecting
+      agent graphs, orchestrating agent pipelines, implementing
+      guardrails, ReAct patterns, memory, and tool-use (MCP,
+      function calling). This is direct shaping of LLM/agent
+      behavior, so it is ai-first.
   responsibilities:
-  - Design and develop AI agents and autonomous multi-agent systems using modern agentic
-    frameworks including LangGraph and LangChain, with the ability to architect agent
-    graphs, define node transitions, and manage stateful agent workflows
+  - Design and develop AI agents and autonomous multi-agent systems using LangChain
+    and LangGraph, architecting agent graphs, node transitions, and stateful workflows
   - Build and orchestrate multi-agent pipelines including supervisor agents, collaborative
-    agent networks, and hierarchical agent architectures to solve complex financial
-    use cases
-  - Implement guardrails, reasoning workflows, and ReAct-based patterns within LangChain/LangGraph
-    to improve reliability, decision-making, and agent safety
-  - Develop memory management and tool-use capabilities for AI agent systems using
-    MCP, LangChain Tools, and custom integrations
+    networks, and hierarchical architectures for complex financial use cases
+  - Implement guardrails, reasoning workflows, and ReAct patterns to improve agent
+    reliability, decision-making, and safety
+  - Develop memory management (short-term, long-term, episodic) and tool-use capabilities
+    including MCP and custom tool integrations
   - Integrate LLM-powered agents with external APIs, databases, and enterprise data
-    platforms via LangChain's retrieval, routing, and chain composition primitives
-  - Build and maintain scalable Python-based services, APIs, and microservices that
-    serve as agent execution environments and tool backends
+    platforms via retrieval, routing, and chain composition primitives
+  - Build and maintain scalable Python services, APIs, and microservices that serve
+    as agent execution environments and tool backends
   - Develop AIOps capabilities and CI/CD pipelines for AI agent deployment, versioning,
-    and monitoring using LangSmith or equivalent observability tooling
-  - Ensure AI agent solutions are scalable, secure, observable, and production-ready
+    and monitoring with LangSmith or equivalent observability tooling
+  - Use Snowflake, Databricks, and Lakehouse architectures as grounding and tool-use
+    data sources for agents
   use_cases:
-  - Complex multi-step financial workflows including risk, compliance, trading, and
-    operations
-  - Autonomous multi-agent systems that can reason, plan, and act independently on
-    financial tasks
-  - Supervisor-agent architectures coordinating collaborative agent networks for enterprise
-    problem-solving
-  - LLM-powered agents integrating with external APIs, databases, and enterprise data
-    platforms
-  - Human-in-the-loop workflows for financial decision-making with agent oversight
-  - Long-term memory systems using vector databases for agent knowledge retention
+  - Autonomous AI agents that reason, plan, and act in financial services
+  - Multi-agent orchestration for complex multi-step financial workflows such as risk,
+    compliance, trading, and operations
+  - Human-in-the-loop and interruptible agentic workflows for production reliability
+  - Agent tool-use and grounding against enterprise data platforms like Snowflake
+    and Databricks
+  - AIOps, observability, and lifecycle management for deployed AI agents
   skills:
-    domains: []
+    cloud: [Cloud-Native Development]
     languages: [Python, asyncio]
     ml: []
-    cloud: [Cloud-native development]
-    genai: [LangChain, LangGraph, ReAct patterns, Multi-Agent Systems, Agent memory
-        architectures, Function Calling, MCP, AutoGen, CrewAI, OpenAI Assistants API,
-      RAG, Guardrails, Prompt Engineering, Tool integrations, Chain-of-thought reasoning]
-    data: [Databricks, Lakehouse architectures]
-    other: []
-    ops: [LangSmith, AIOps, CI/CD, Observability monitoring, Distributed Systems]
-    web: [FastAPI, REST APIs, Microservices]
-    databases: [Snowflake, Pinecone, Weaviate, pgvector, Vector Databases]
+    other: [Financial Services]
+    ops: [CI/CD, AIOps, LangSmith, Distributed Systems]
+    databases: [Snowflake, Vector Databases, Pinecone, Weaviate, pgvector]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Databricks, Lakehouse]
+    genai: [LangChain, LangGraph, Agentic Workflows, Multi-Agent Systems, AI Agents,
+      Guardrails, MCP, Function Calling, ReAct, Chain-of-Thought, LLMs, AutoGen, CrewAI,
+      OpenAI Assistants API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9426374'
   location: New York, USA
-  extracted_at: '2026-05-29T09:04:50.933961'
+  extracted_at: '2026-08-16T11:15:03.091018'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

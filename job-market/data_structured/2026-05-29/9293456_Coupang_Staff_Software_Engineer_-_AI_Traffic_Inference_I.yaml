@@ -1,57 +1,60 @@
 company:
   name: Coupang
-  stage: Public
-  focus: E-commerce platform and cloud infrastructure services
+  stage: Publicly traded (large global public company)
+  focus: E-commerce and online commerce platform in South Korea
 position:
   title: Staff Software Engineer - AI Traffic & Inference Infrastructure
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure role focused on building traffic
-      management, orchestration, and routing systems for AI
-      workloads. The role involves scaling LLM inference
-      infrastructure, managing compute fleets, and optimizing
-      system performance, but does not involve building, training,
-      fine-tuning, or deploying models directly. The engineer is
-      building the platform and infrastructure that enables others
-      to run AI models, which is the definition of ai-support.
+      The role designs traffic management, load balancing, and
+      inference serving infrastructure for LLMs someone else
+      builds - the deliverable is availability, latency, and cost
+      efficiency, not model behaviour. There is no prompt writing,
+      retrieval design, agent orchestration, or model
+      training/evaluation. Per the edge case, hosting, scaling,
+      and routing models the person does not shape is ai-support
+      even when accelerator fleets and inference optimization are
+      named.
   responsibilities:
-  - Design and implement sophisticated load-balancing algorithms tailored for AI workloads
-    including training and inference
-  - Architect and evolve inference infrastructure to support seamless model deployment,
-    auto-scaling, and multi-AZ failover
-  - Drive initiatives to minimize tail latency and maximize throughput using advanced
-    batching, caching, and streaming token delivery
-  - Build robust infrastructure-as-code and CI/CD pipelines to manage dynamic compute
-    fleets with automatic scaling
-  - Leverage deep telemetry data to tune system performance and hardware-agnostic
-    scheduling across GPU/TPU environments
-  - Lead cross-functional initiatives across infrastructure and ML teams while setting
-    technical roadmap for traffic management
-  use_cases:
-  - Global load balancing and request routing for LLM and foundation model inference
-    at scale
-  - High-availability, low-latency AI inference platform supporting training and production
-    workloads
-  - Hardware-aware scheduling and orchestration across thousands of GPU/TPU accelerators
-  - Cost-efficient traffic management optimizing for model availability and accelerator
+  - Design and implement intelligent load-balancing and request routing algorithms
+    for AI training and inference workloads based on model availability and accelerator
     health
-  - Multi-AZ failover and disaster recovery for mission-critical AI infrastructure
+  - Architect and evolve inference infrastructure for seamless model deployment, auto-scaling,
+    and multi-AZ failover
+  - Drive performance engineering to minimize P95/P99 tail latency and maximize throughput
+    using batching, caching, and streaming token delivery
+  - Build infrastructure-as-code and CI/CD pipelines to manage dynamically scaling
+    compute fleets for production and research
+  - Leverage deep telemetry to tune system performance and hardware-agnostic scheduling
+    across GPU/TPU environments
+  - Lead cross-functional initiatives across infrastructure, software, and ML teams,
+    providing mentorship and setting the long-term traffic management roadmap
+  use_cases:
+  - Low-latency, highly available LLM and foundation model inference serving
+  - Intelligent traffic routing and load balancing across large GPU/TPU accelerator
+    fleets
+  - Automated model deployment, auto-scaling, and multi-AZ failover for an AI platform
+  - Cost-efficient serving of AI workloads at scale
+  - Compute fleet automation supporting production and research demands
   skills:
-    domains: []
-    languages: [Go, Python]
-    ml: [GPU/TPU]
     cloud: [AWS, Azure, GCP]
-    genai: [LLM inference]
-    data: []
-    other: []
-    ops: [Kubernetes, Docker, CI/CD, Infrastructure-as-code, Load balancing, Service
-        mesh, Distributed Systems, Telemetry, Performance optimization]
-    web: [Networked systems]
+    languages: [Go, Python]
+    ml: [Foundation Models, Mixed Precision, Kernel Tuning]
+    other: [Cloud-Native Architectures, GPUs, TPUs]
+    ops: [Kubernetes, Containerization, Load Balancing, Service Mesh, Request Routing,
+      Distributed Systems, Infrastructure as Code, CI/CD, Auto-Scaling, Model Deployment,
+      Observability]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9293456'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:59:34.067752'
+  extracted_at: '2026-08-16T10:06:30.591444'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

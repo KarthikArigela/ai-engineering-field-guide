@@ -1,20 +1,21 @@
 company:
   name: Coupa
-  stage: Public
-  focus: AI-powered spend management platform
+  stage: null
+  focus: AI-driven total spend management platform for businesses
 position:
   title: Sr. Lead AI Engineer, Data - 11315
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly responsible for building and owning
-      end-to-end LLM fine-tuning pipelines, implementing
-      PEFT/QLoRA/LoRA techniques, RLHF/DPO alignment, and
-      contributing to model serving and inference optimization.
-      The engineer works hands-on on training, evaluating, and
-      deploying large language models.
+      The role directly shapes LLM behavior: it owns the end-to-
+      end fine-tuning pipeline with parameter-efficient techniques
+      (QLoRA, LoRA, PEFT), builds evaluation harnesses and
+      benchmarks, and judges model quality across safety,
+      accuracy, latency, and cost, with RLHF/DPO alignment
+      experience as a plus. Step 1 is yes and the models being
+      shaped are large language models, so this is ai-first.
   responsibilities:
-  - Build and own end-to-end model fine-tuning pipeline including data preprocessing,
+  - Build and own the end-to-end model fine-tuning pipeline covering data preprocessing,
     training, evaluation, and model registry
   - Implement and optimize fine-tuning techniques (QLoRA, LoRA, PEFT, full fine-tune)
     for training workloads
@@ -24,34 +25,34 @@ position:
     and improving data and configuration
   - Implement experiment tracking, hyperparameter optimization, and reproducible training
     workflows
-  - Collaborate on training data strategy with data engineering, including synthetic
+  - Collaborate with data engineering on training data strategy, including synthetic
     data generation
   - Evaluate model quality across safety, accuracy, latency, and cost dimensions
-  - Contribute to model serving architecture and inference optimization while mentoring
+  - Contribute to model serving architecture and inference optimization, and mentor
     ML engineers across the team
   use_cases:
-  - AI-powered spend management and procurement optimization
-  - Predictive and prescriptive analytics for business spending decisions
-  - Automation of smarter, more profitable business decisions to improve operating
-    margins
-  - Community-generated AI informed by trillions of dollars of spend data across global
-    buyer-supplier network
+  - Predict, prescribe, and automate smarter business spend decisions
+  - Improve operating margins through AI informed by trillions of dollars of spend
+    data
+  - Fine-tuned LLMs powering Coupa's total spend management platform
+  - Quality evaluation of models across safety, accuracy, latency, and cost
   skills:
-    genai: [Fine-Tuning, LoRA, RLHF, LLMs, Prompt Engineering]
-    ml: [PyTorch, Transformers, Model Training, Machine Learning, Distributed Training,
-      Hyperparameter Optimization, Synthetic Data Generation]
-    web: []
-    databases: []
-    data: [Data Pipelines]
-    cloud: [AWS, GCP]
-    ops: [Model Deployment, MLflow, Inference Optimization, Experiment Tracking, Model
-        Monitoring]
+    cloud: []
     languages: [Python]
-    domains: [NLP]
+    ml: [PyTorch, Transformers, Model Training, Model Evaluation, Hyperparameter Optimization,
+      Distributed Training, Tokenization, Machine Learning]
     other: []
+    ops: [Experiment Tracking, Model Deployment, Inference Optimization]
+    databases: []
+    domains: [NLP]
+    web: []
+    data: [Synthetic Data Generation]
+    genai: [Fine-Tuning, LoRA, LLMs, RLHF, DPO]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10236223'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:35:39.866750'
+  extracted_at: '2026-08-16T18:06:55.329449'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

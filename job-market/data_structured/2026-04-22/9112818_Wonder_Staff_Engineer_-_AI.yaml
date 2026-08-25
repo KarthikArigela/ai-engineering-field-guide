@@ -1,53 +1,54 @@
 company:
   name: Wonder
-  stage: Series B+
-  focus: |-
-    Mealtime platform offering multi-restaurant ordering and on-
-    site food preparation
+  stage: null
+  focus: Multi-restaurant meal ordering and delivery platform
 position:
   title: Staff Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on building an AI food agent
-      powered by LLMs, including agentic ordering, RAG, prompt
-      orchestration, and multi-modal inference. The engineer will
-      directly architect, build, and ship LLM-powered systems and
-      AI agents in production, making this an ai-first role.
+      The role directly shapes LLM behavior: it builds AI agents
+      with prompt orchestration, RAG, fallback logic, and
+      evaluation frameworks, and establishes evals/benchmarks that
+      make the LLM-driven food agent measurably better. This is
+      hands-on shaping of LLM and agent systems, not merely
+      serving or consuming them.
   responsibilities:
   - Define and drive the technical roadmap for the AI food agent, spanning recommendation,
     personalization, agentic ordering, and health-aligned meal planning
   - Architect and scale distributed infrastructure for real-time retrieval, vector
     search, multi-modal inference, and LLM orchestration
-  - Serve as technical decision-maker for architectural choices including data pipelines,
-    model serving, prompt orchestration, RAG, fallback logic, and evaluation frameworks
+  - 'Serve as technical decision-maker for architectural choices with product-wide
+    scope: data pipelines, model serving, prompt orchestration, RAG, fallback logic,
+    and evaluation frameworks'
   - Establish evaluation and experimentation infrastructure including evals, benchmarks,
     scoring criteria, A/B testing pipelines, and feedback loops
-  - Write, review, and ship code daily as a hands-on technical leader driving high-complexity
-    work from design through production
+  - Write, review, and ship code daily, driving high-complexity work from design through
+    production
+  - Build LLM-driven personalized meal planning and nutrition recommendation features
+    with agentic ordering
   use_cases:
-  - Personalized meal planning and nutrition recommendations powered by LLMs
-  - Agentic food ordering system that autonomously places meal orders based on user
-    preferences and health goals
-  - Health-aligned goal setting and dietary guidance
-  - Real-time food recommendation engine using retrieval and vector search
-  - Multi-modal inference for understanding user food preferences across text and
-    other modalities
+  - Personalized meal planning and nutrition recommendations
+  - Health-aligned goal setting for diners
+  - Agentic food ordering across 20+ restaurants in a single order
+  - LLM-driven food recommendations and personalization
   skills:
-    domains: []
+    cloud: []
     languages: [Python, TypeScript]
-    ml: [Model Evaluation]
-    cloud: [Cloud infrastructure]
-    genai: [RAG, Prompt orchestration, LLMs, AI Agents, Agentic Workflows, Embedding-based
-        systems]
-    data: [A/B testing, Data Pipelines]
-    other: []
-    ops: [Distributed Systems]
-    web: [Backend development]
+    ml: [Machine Learning, Model Evaluation]
+    other: [A/B Testing]
+    ops: [Distributed Systems, Model Deployment]
     databases: [Vector Search]
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, AI Agents, Agentic Workflows, RAG, Prompt Engineering, Embeddings,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9112818'
   location: New York, USA
-  extracted_at: '2026-04-22T12:45:15.267827'
+  extracted_at: '2026-08-16T08:10:23.913867'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

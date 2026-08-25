@@ -1,0 +1,62 @@
+company:
+  name: Southwest Airlines
+  stage: null
+  focus: Passenger airline (domestic US carrier)
+position:
+  title: Sr Data Engineer – AI Ops
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds and operates the data pipelines, ETL
+      infrastructure, and data quality/observability tooling that
+      feed production AI models and agentic systems owned by
+      others; it never shapes model behaviour directly (no prompt
+      design, RAG, training, evals, or guardrails). Per the edge
+      case, building datasets and pipelines that feed someone
+      else's training or retraining runs is ai-support.
+  responsibilities:
+  - Build and operate the data pipelines that power production AI workloads at scale
+    using AWS data services
+  - Own pipeline performance and data quality end-to-end, monitoring, troubleshooting,
+    and tuning systems
+  - Implement retraining pipelines and data-quality checks that keep AI models and
+    agentic systems performing as data evolves
+  - Identify, design, and implement internal process improvements including redesigning
+    infrastructure for scalability, optimizing data delivery, and automating manual
+    processes
+  - Build infrastructure for optimal extraction, transformation, and loading of data
+    from various sources using AWS and SQL technologies
+  - Build analytical tools that provide actionable insight into key business performance
+    metrics such as operational efficiency and customer acquisition
+  - Work with Data, Product, Engineering, and Executive stakeholders to support data
+    infrastructure needs and resolve data-related technical issues
+  - Improve data lineage and observability across the platform
+  use_cases:
+  - Data pipelines powering production AI workloads at Southwest's AI platform
+  - Retraining pipelines and data-quality checks that keep AI models and agentic systems
+    performing as data evolves
+  - Trusted data foundations and lineage/observability for AI platform operations
+  - Analytics on business performance metrics such as operational efficiency and customer
+    acquisition
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Snowflake, Redshift, BigQuery, Vector Databases]
+    data: [ETL, Data Pipelines, Data Warehousing, Data Lakes, Airflow, dbt, Spark,
+      Databricks, Delta Lake, Iceberg, Hudi, Parquet, Kafka, Kinesis, Service Bus,
+      Data Contracts, Schema Registry, Data Governance]
+    cloud: [AWS, AWS Glue, EMR, AWS S3, Athena]
+    ops: [CI/CD, Infrastructure as Code, Observability, Monte Carlo, Great Expectations,
+      OpenLineage, Feature Stores, Model Registries, Containers]
+    languages: [Python, SQL]
+    domains: []
+    other: [Agile, Unit Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394075'
+  location: Choudwar, IND
+  extracted_at: '2026-08-16T10:49:21.172664'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

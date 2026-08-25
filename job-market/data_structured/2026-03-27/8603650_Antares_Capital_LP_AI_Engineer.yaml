@@ -1,55 +1,61 @@
 company:
   name: Antares Capital LP
-  stage: Unknown
-  focus: |-
-    Financial services and lending firm providing capital
-    solutions
+  stage: null
+  focus: Private credit and direct lending investment firm
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on building and deploying production AI
-      systems with direct work on RAG pipelines, vector databases,
-      LLM orchestration, and embedding strategies. The engineer
-      will design, implement, and operate AI capabilities - not
-      just support them.
+      The role directly shapes LLM behavior: designing RAG
+      pipelines, tuning embeddings and retrieval strategies,
+      orchestrating multiple LLMs with routing, ensemble prompts,
+      function calling, and guardrails, and building evaluation
+      frameworks. This is squarely LLM/agent-centric work, so it
+      is ai-first.
   responsibilities:
-  - Design and implement robust RAG pipelines integrating domain datasets, embeddings,
-    and retrieval strategies to deliver accurate, auditable responses
-  - Lead the evaluation and integration of vector databases (e.g., FAISS, Pinecone,
-    Milvus) and tune indexing/embedding strategies for performance and relevance
+  - Design and implement RAG pipelines integrating domain datasets, embeddings, and
+    retrieval strategies to deliver accurate, auditable responses
+  - Evaluate and integrate vector databases (FAISS, Pinecone, Milvus) and tune indexing
+    and embedding strategies for performance and relevance
   - Architect and orchestrate combinations of LLMs and tools (routing, ensemble prompts,
-    function-calling, guardrails) to optimize quality, latency, and cost
-  - 'Drive an ontology-driven approach: model and map enterprise data to real-world
-    business concepts and steward canonical vocabularies, taxonomies, and knowledge
-    graphs'
-  - Partner with data and platform teams to establish and evolve a semantic layer
-    that aligns data products with business entities, definitions, and policies
+    function calling, guardrails) to optimize quality, latency, and cost
+  - Drive ontology-driven data modeling and steward vocabularies, taxonomies, and
+    knowledge graphs with a semantic layer aligned to business entities
   - Develop secure data access patterns (role-based permissions, PII minimization)
-    and implement content filtering, redaction, and safety controls
-  - Build evaluation frameworks (automated tests, offline/online metrics, human-in-the-loop
-    review) and maintain datasets for regression benchmarking
-  - Implement CI/CD and containerization for AI services; instrument telemetry, tracing,
+    plus content filtering, redaction, and safety controls
+  - Build evaluation frameworks with automated tests, offline/online metrics, human-in-the-loop
+    review, and regression benchmarking datasets
+  - Implement CI/CD and containerization for AI services with telemetry, tracing,
     and feature flags for safe progressive delivery
+  - Troubleshoot production issues, drive reliability improvements (SLOs, error budgets),
+    and mentor engineers across the AI platform
   use_cases:
-  - Enterprise knowledge retrieval and search for financial data
-  - Decision-making support across the firm using AI-powered insights
-  - Ontology-driven semantic layer for business entity mapping
-  - Secure and auditable AI responses for regulated financial services
-  - Automated evaluation and benchmarking of AI system performance
+  - Retrieval-augmented question answering over enterprise domain datasets with auditable,
+    grounded responses for a financial services firm
+  - Grounding LLM outputs in curated, versioned knowledge sources to mitigate hallucinations
+    in a regulated environment
+  - Multi-LLM orchestration (routing, ensembles, function calling) to balance response
+    quality, latency, and cost
+  - Semantic alignment of enterprise data to business concepts (customers, counterparties,
+    facilities, equipment) via ontologies and knowledge graphs
+  - Secure, monitored delivery of production AI services with guardrails, content
+    filtering, and model risk compliance
   skills:
-    domains: []
+    cloud: [Azure]
     languages: [Python]
-    ml: []
-    cloud: [Microsoft Fabric, Azure]
-    genai: [RAG, LLMs, Embedding generation, Prompt Engineering, Function Calling,
-      Guardrails]
-    data: [Databricks, Spark, Delta Lake, Data Pipelines, Knowledge graphs]
-    other: []
-    ops: [CI/CD, Docker, Kubernetes, Terraform, MLOps, A/B testing]
-    web: [REST, GraphQL]
-    databases: [FAISS, Pinecone, Milvus, Vector Databases]
+    ml: [Machine Learning]
+    other: [Event-Driven Architecture, A/B Testing]
+    ops: [MLOps, CI/CD, Docker, Terraform, Infrastructure as Code, Observability,
+      Model Monitoring]
+    databases: [Vector Databases, FAISS, Pinecone, Milvus, Vector Search, Knowledge
+        Graphs]
+    domains: []
+    web: [REST APIs, GraphQL, Microservices]
+    data: [Databricks, Spark, Delta Lake, Unity Catalog, Microsoft Fabric, Data Pipelines,
+      Data Modeling, Palantir Foundry]
+    genai: [RAG, LLMs, Prompt Engineering, Embeddings, Function Calling, Guardrails,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
@@ -59,4 +65,6 @@ meta:
   - Atlanta, USA
   - Chicago, USA
   - New York, USA
-  extracted_at: '2026-03-27T14:20:34.257806'
+  extracted_at: '2026-08-16T03:16:13.888194'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,58 @@
+company:
+  name: FICO
+  stage: null
+  focus: |-
+    Analytics software for credit scoring, fraud detection, and
+    lending decisions
+position:
+  title: AI Ops - AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes LLM behavior directly: designing RAG
+      retrieval (chunking, embeddings, reranking), prompt
+      engineering for Claude, structured output schemas, eval
+      golden test sets, and confidence-based routing. Clear LLM
+      involvement makes it ai-first.
+  responsibilities:
+  - Design and operate the pgvector schema, indexing strategy, and query tuning with
+    strict multi-tenant data isolation
+  - Build embedding pipelines converting operational documents into searchable vectors,
+    selecting models and chunking strategies
+  - Build the RAG retrieval layer with relevance thresholds, re-ranking, and hybrid
+    search at incident time
+  - Design the ingestion lifecycle including runbook imports, incident backfill, CI/CD
+    event hooks, and feedback loops
+  - Design and iterate the RCA prompt assembling Grafana signals and RAG context into
+    structured Claude outputs
+  - Define RCA JSON schema and build Pydantic validation, plus confidence scoring
+    and FastAPI routing logic
+  - Maintain golden test sets and run judge-prompt based evaluation to catch regressions
+  - Monitor prompt versions, token usage, cost per RCA, retrieval quality metrics,
+    and run calibration checks (ECE)
+  use_cases:
+  - Automated root cause analysis for production incidents
+  - Incident context retrieval via RAG over runbooks and historical incidents
+  - Confidence-scored RCA routing between automated notification and human escalation
+  - SRE observability and post-deploy change correlation
+  - Multi-tenant enterprise operations platform
+  skills:
+    genai: [Embeddings, RAG, Prompt Engineering, Anthropic API, LLMs, Structured Outputs,
+      LLM Evaluation, Guardrails, Semantic Search]
+    ml: []
+    web: [FastAPI]
+    databases: [pgvector, Vector Databases, Pinecone, Weaviate, SQLAlchemy]
+    data: [Airflow, Data Pipelines]
+    cloud: [EKS]
+    ops: [Kubernetes, CI/CD]
+    languages: [Python, Pydantic]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10767597'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:43:19.326476'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

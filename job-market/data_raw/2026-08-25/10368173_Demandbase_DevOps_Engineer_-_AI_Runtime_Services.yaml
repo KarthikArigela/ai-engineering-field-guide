@@ -1,0 +1,164 @@
+job_id: 10368173
+title: DevOps Engineer - AI Runtime Services
+company: Demandbase
+location: Hyderabad, IND
+work_type: FULL_TIME
+company_size: 966 Employees
+description: |
+  Introduction to Demandbase:
+
+  Demandbase is the only pipeline AI platform that empowers
+  GTM teams to automate growth at scale. With a unified view
+  of data, insights, actions, and outcomes, B2B enterprises
+  can seamlessly align and execute their account-based GTM
+  strategies with confidence. Thousands of businesses trust
+  Demandbase to maximize revenue, minimize waste, and
+  consolidate their data and tech stacks – all in one
+  platform.
+
+  As a company, we’re as committed to growing careers as we
+  are to building world-class technology. We invest heavily in
+  people, our culture, and the community around us. We have
+  also continuously been recognized as One of The Best Places
+  To Work in the San Francisco Bay Area by Fortune, and One of
+  The 60 Best Companies To Sell For by Selling Power. Our
+  offices are located in San Francisco, New York, Austin,
+  Seattle, India, and the United Kingdom.
+
+  About the Role
+
+  AI Runtime Services owns the shared runtime that AI at
+  Demandbase runs on — two ways. First, it's the layer that
+  enables and supports the AI features in the Demandbase
+  platform: product teams ship LLM features on top of it
+  without reinventing model access, spend control, safety, and
+  observability. Second, the team builds and supports internal
+  AI solutions — the tooling and services the company uses to
+  work with LLMs day to day. The pillars underneath both: the
+  LLM gateway, cost controls, observability, evals infra,
+  caching, and guardrails.
+
+  The surface is broad and the team is early. You won't be
+  handed a narrow slice: expect to move across the gateway one
+  week and the ingest pipeline the next — and across product-
+  facing runtime and internal tooling — and to own what you
+  build in production.
+
+  What you'll own
+
+  - The LLM gateway. The single front door to every model
+    provider we use — keys, routing, rate limits, failover,
+    provider quotas. When it's down, every AI feature at
+    Demandbase is down.
+  - Reliability, for real. SLOs, on-call, incident response, and
+    the postmortems for the runtime. This is a genuine SRE
+    ownership role, not "build it and let someone else run
+    it."
+  - Cost control. Per-team and per-model attribution, budgets,
+    quotas. LLM spend is the kind of line item that quietly
+    triples; your job is to make it legible and then make it
+    smaller.
+  - LLM observability. Traces, spans, prompt/response capture,
+    ingest and billing visibility for every AI feature in the
+    company.
+  - Evals and experimentation infra. The shared harnesses,
+    datasets, and scoring plumbing product teams use to know
+    whether a prompt or model change actually made things
+    better.
+  - Caching and guardrails. Response and semantic caching to cut
+    latency and redundant spend; input/output safety, PII
+    handling, and policy enforcement at the gateway.
+
+  What we need
+
+  - Strong production infrastructure background: Kubernetes,
+    AWS, Terraform, GitOps. You've operated systems that
+    people were paged for, and you've been the one paged.
+  - Python, at a level where you're comfortable owning services
+    and tooling in it — not just scripting.
+  - Real on-call and incident-response experience. You can talk
+    about an incident you ran, what you got wrong, and what
+    you changed afterward.
+  - Observability fluency beyond "we have dashboards": you've
+    instrumented systems, chased cardinality and cost in a
+    metrics/logging backend, and built alerts that fire when
+    they should.
+  - Hands-on familiarity with how LLM systems actually work. You
+    don't need production ML experience. But you need to have
+    built something with these tools — an agent, a RAG
+    pipeline, an internal tool — and to have used evals or
+    experiments to decide whether it was any good. Tokens,
+    context windows, prompt/response tracing, and why an eval
+    suite is fundamental should all be familiar ground.
+    Candidates who have only read about this are not a fit.
+
+  Nice to have
+
+  - An LLM gateway or proxy (LiteLLM or similar) in production.
+  - LLM observability tooling: Datadog LLM Observability,
+    LangSmith, Braintrust, Arize, or similar.
+  - Eval frameworks and LLM-as-judge scoring in a real workflow,
+    not a demo.
+  - FinOps instincts — cost attribution, showback, quota design.
+  - Guardrails, PII detection, or content-filtering systems.
+  - GCP alongside AWS.
+
+  Our stack
+
+  AWS - GCP · EKS, Flux/GitOps, Karpenter · Python · LiteLLM ·
+  Datadog (LLM observability, APM) · Prometheus, Loki,
+  ClickHouse · Terraform · GitLab CI
+
+  Benefits
+
+  Our benefits include Group Medical, Personal Accident, and
+  Term Life Insurance for comprehensive protection. Preventive
+  healthcare covers dental, vision, and OPD needs,
+  complemented by strong mental health support. We also
+  provide a fitness benefit, car lease policy, and gratuity
+  for long-term financial well-being.
+
+  Our Commitment to Diversity, Equity, and Inclusion at
+  Demandbase
+
+  At Demandbase, we believe in creating a workplace culture
+  that values and celebrates diversity in all its forms. We
+  recognize that everyone brings unique experiences,
+  perspectives, and identities to the table, and we are
+  committed to building a community where everyone feels
+  valued, respected, and supported. Discrimination of any kind
+  is not tolerated, and we strive to ensure that every
+  individual has an equal opportunity to succeed and grow,
+  regardless of their gender identity, sexual orientation,
+  disability, race, ethnicity, background, marital status,
+  genetic information, education level, veteran status,
+  national origin, or any other protected status. We do not
+  automatically disqualify applicants with criminal records
+  and will consider each applicant on a case-by-case basis.
+
+  We recognize that not all candidates will have every skill
+  or qualification listed in this job description. If you feel
+  you have the level of experience to be successful in the
+  role, we encourage you to apply!
+
+  We acknowledge that true diversity and inclusion requires
+  ongoing effort, and we are committed to doing the work
+  required to make our workplace a safe and equitable space
+  for all. Join us in building a community where we can learn
+  from each other, celebrate our differences, and work
+  together.
+
+  Unsolicited Submissions
+
+  At Demandbase, we value thoughtful partnerships and direct
+  connections with candidates. We’re not accepting unsolicited
+  resumes or outreach from third-party recruiting agencies.
+  Any unsolicited submissions will not be reviewed, and no
+  fees will be paid.
+industries:
+  - Marketing Tech
+  - Sales
+  - Software
+posted_date: 2026-08-19
+url: "https://builtin.com/job/devops-engineer-ai-runtime-services/10368173"
+source: Built In

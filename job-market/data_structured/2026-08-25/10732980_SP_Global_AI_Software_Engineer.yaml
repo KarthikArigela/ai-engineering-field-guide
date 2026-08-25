@@ -1,0 +1,53 @@
+company:
+  name: S&P Global
+  stage: null
+  focus: Financial data, analytics and market intelligence
+position:
+  title: AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds agentic AI platform components,
+      tests prompts and agent workflows, and implements guardrails
+      and evaluation pipelines for LLM-based agents — clear
+      shaping of LLM behavior, making it ai-first.
+  responsibilities:
+  - Design and build agentic AI platform components including agents, tools, workflows,
+    and internal system integrations
+  - 'Implement observability across the AI lifecycle: tracing, logging, metrics, and
+    evaluation pipelines'
+  - Translate business problems into agentic AI solutions with product, SME, and platform
+    teams
+  - Develop data pipelines, features, and datasets for training, evaluation, grounding,
+    and safety of LLM-based agents
+  - Lead experimentation and benchmarking of prompts, models, and agent workflows
+  - Implement guardrails, safety checks, and policy controls across prompts, tool
+    usage, access, and output filtering
+  - Create documentation and runbooks; mentor peers on agentic AI patterns and observability-first
+    engineering
+  use_cases:
+  - Internal agentic AI platform with agents, tools, and workflow orchestration
+  - Agent quality, cost, and reliability monitoring via evaluation pipelines
+  - Grounding and safety of LLM-based agents using curated datasets
+  - Benchmarking of prompts, models, and agent workflows for iterative improvement
+  - Safe and compliant agent operation via guardrails and policy controls
+  skills:
+    genai: [LLMs, Generative AI, Prompt Engineering, Embeddings, RAG, Agentic Workflows,
+      Function Calling, Guardrails, LangChain, LangGraph, OpenAI API]
+    ml: []
+    web: []
+    databases: [Vector Search]
+    data: [Pandas, Spark, dbt]
+    cloud: [AWS, Azure, GCP]
+    ops: [OpenTelemetry, Prometheus, Grafana, ELK Stack, CI/CD, Code Review, Docker]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10732980'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T11:31:45.328276'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

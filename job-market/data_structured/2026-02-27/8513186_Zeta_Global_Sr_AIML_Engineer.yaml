@@ -1,53 +1,66 @@
 company:
   name: Zeta Global
-  stage: Public
-  focus: AI-powered marketing cloud platform
+  stage: 'Publicly traded (NYSE: ZETA)'
+  focus: |-
+    AI-powered marketing cloud for advertising and customer
+    personalization
 position:
   title: Sr AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work building and deploying ML
-      models and LLM-powered features, including agentic workflows
-      for advertising use cases. The engineer is responsible for
-      the complete ML lifecycle from training through real-time
-      inference, with direct work on model optimization and
-      deployment to production.
+      The role directly shapes both LLM-driven systems and
+      classical ML: it develops and integrates LLM-powered
+      features and agentic workflows (audience insights,
+      bid/budget recommendations, creative generation) within
+      guardrails, while also designing and training ML models for
+      targeting, ranking, and pacing. A role that shapes both LLM
+      and classical ML systems is ai-first.
   responsibilities:
-  - Design, implement, and ship scalable ML solutions for core AdTech use cases including
-    targeting, ranking, pacing, and measurement
-  - Build and evolve the ML lifecycle from data preparation and training to real-time
-    inference with low-latency, high-throughput requirements
+  - Design, implement, and ship scalable ML solutions for core AdTech use cases (targeting,
+    ranking, pacing, measurement), owning features end-to-end from experimentation
+    to production rollout
+  - Build and evolve the ML lifecycle including data preparation, training, evaluation,
+    and real-time inference, integrated with low-latency, high-throughput ad serving
+    systems
   - Develop and integrate LLM-powered features and agentic workflows for campaign
-    operations, audience insights, and creative generation
-  - Operate ML services in high-concurrency, latency-sensitive environments with monitoring,
-    model drift management, and safe deployment practices
-  - Collaborate cross-functionally with engineering, product, and data science to
-    translate marketing objectives into ML-driven solutions
-  - Evaluate tools and techniques including deep learning, LLMs, and retrieval/feature
-    systems to contribute to the AI/ML technical roadmap
+    operations such as audience insights, bid/budget recommendations, and creative
+    generation within defined guardrails
+  - Operate ML services in high-concurrency, latency-sensitive environments, optimizing
+    inference paths, implementing monitoring and alerting, and managing model drift
+  - Ensure safe deployment practices including A/B testing, canaries, and rollbacks
+  - Contribute to the AI/ML technical roadmap by evaluating tools and techniques including
+    deep learning, LLMs, and retrieval/feature systems
+  - Collaborate with engineering, product, and data science partners to translate
+    marketing objectives into ML-driven solutions and define success metrics
+  - Mentor engineers through code and model reviews, championing testing, observability,
+    documentation, and reproducible ML workflows
   use_cases:
-  - Campaign optimization and management for advertising
-  - User personalization and audience targeting for ad delivery
-  - Creative intelligence and generation for ad campaigns
-  - Real-time ad bidding and budget recommendations
-  - Audience insights and bid/budget optimization
-  - Ad copy generation and creative optimization using generative AI
+  - Campaign optimization including targeting, ranking, pacing, and measurement
+  - User personalization across advertising channels
+  - Creative intelligence including ad copy generation and creative optimization
+  - Audience insights for campaign operations
+  - Bid and budget recommendations
+  - Automated campaign operations via agentic workflows at billions of ad events per
+    day
   skills:
-    domains: [DSP, SSP, RTB, programmatic advertising]
-    languages: [Python, Java, Go]
-    ml: [PyTorch, TensorFlow, classification, ranking, Embeddings, Deep Learning]
     cloud: [AWS]
-    genai: [LLMs, Agentic Workflows, RAG, Generative AI, ad copy generation]
-    data: [Spark, Kafka, Apache Iceberg, Apache Hudi]
-    other: [Microservices, event-driven design]
-    ops: [Docker, Kubernetes, CI/CD, Model Deployment, real-time inference, A/B testing,
-      model drift, canary deployments]
-    web: []
-    databases: [PostgreSQL, MySQL, Cassandra, DynamoDB, Redis]
+    languages: [Python, Java, Go, SQL]
+    ml: [PyTorch, TensorFlow, Machine Learning, Deep Learning, Embeddings, Model Training,
+      Model Evaluation, Ranking, Classification]
+    other: [A/B Testing, Event-Driven Architecture]
+    ops: [Docker, Kubernetes, CI/CD, Model Deployment, Model Monitoring, Observability,
+      Distributed Systems]
+    databases: [PostgreSQL, MySQL, Cassandra, DynamoDB, Redis, NoSQL]
+    domains: [Programmatic Advertising]
+    web: [Microservices]
+    data: [Spark, Kafka, Data Pipelines, Apache Iceberg, Apache Hudi]
+    genai: [LLMs, Generative AI, Agentic Workflows, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8513186'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:37:29.297363'
+  extracted_at: '2026-08-16T02:02:31.849684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

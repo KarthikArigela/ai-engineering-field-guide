@@ -1,0 +1,51 @@
+company:
+  name: Roxonn
+  stage: null
+  focus: |-
+    Decentralized software organization platform with crypto
+    bounty rewards
+position:
+  title: AI/ML Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role develops the AI Task Master feature, designing
+      prompt engineering and AI-powered task decomposition logic
+      that interfaces directly with LLM APIs, shaping model
+      behavior and output. This is an LLM-driven feature, so it is
+      ai-first.
+  responsibilities:
+  - Develop backend services that take user project descriptions and interface with
+    configured GenAI models
+  - Implement AI-powered task decomposition logic to generate structured task lists
+    from project descriptions
+  - Build frontend components (React/TypeScript) for inputting ideas and managing
+    AI-generated tasks
+  - Ensure error handling for AI model API calls and file processing
+  - 'Deliver MVP scope and acceptance criteria defined in GitHub Issue #1'
+  use_cases:
+  - Breaking down high-level project ideas into actionable tasks
+  - Simplifying project onboarding for platform users
+  - Generating structured task titles and descriptions from text or file input
+  - Editable AI-generated task lists for project management
+  skills:
+    genai: [Generative AI, OpenAI API, Anthropic API, LangChain, Prompt Engineering,
+      LLMs]
+    ml: []
+    web: [Express.js, React, REST APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [TypeScript, Node.js]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10820781'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T12:08:35.161078'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

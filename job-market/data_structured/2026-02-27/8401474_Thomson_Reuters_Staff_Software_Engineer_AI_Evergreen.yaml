@@ -1,20 +1,18 @@
 company:
   name: Thomson Reuters
-  stage: Public
-  focus: |-
-    Trusted content and technology for legal, tax, accounting,
-    compliance, government, and media professionals
+  stage: null
+  focus: Legal, tax, accounting, and media information services
 position:
   title: Staff Software Engineer AI (Evergreen)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role is hands-on building AI systems: designing RAG
-      pipelines, creating agentic workflows with tool/function
-      calling, developing Semantic Kernel skills, and implementing
-      Azure OpenAI capabilities. This is direct work on LLM-based
-      systems (RAG, agents, function calling) rather than
-      supporting infrastructure or general software engineering.
+      The role directly shapes LLM behavior: it designs RAG
+      pipelines (chunking, hybrid retrieval, grounding,
+      citations), builds agentic workflows with function calling,
+      planners, memory, and guardrails, and orchestrates LLM
+      behavior via Semantic Kernel. Since LLM/agent components
+      dominate, it is ai-first.
   responsibilities:
   - Build and own .NET services and REST APIs integrated with Azure OpenAI and Azure
     AI Services
@@ -22,30 +20,35 @@ position:
     grounding, and citations
   - Create agentic workflows using tool/function calling, planning, memory, and guardrails
     for safe execution
-  - Develop Semantic Kernel skills, connectors, and planners to orchestrate intelligent
-    behavior
-  - Implement robust observability across latency, cost, token usage, and quality
-    metrics using App Insights and OpenTelemetry
+  - Develop Semantic Kernel skills, connectors, planners, and memory stores to orchestrate
+    intelligent behavior
+  - Implement observability across latency, cost, token usage, and quality metrics
+    with App Insights and OpenTelemetry
+  - Collaborate with product, security, and data partners to deliver compliant and
+    impactful AI solutions
   - Lead through engineering excellence by mentoring teammates, writing RFCs, and
     guiding architecture decisions
   use_cases:
-  - Enterprise search and information retrieval with hybrid search capabilities
-  - AI-powered workflows with agentic systems for intelligent task automation
-  - Document intelligence and knowledge management with citation accuracy
-  - Safe and compliant AI applications with guardrails and PII handling
-  - Real-time AI interactions with streaming responses and cost optimization
+  - AI-powered .NET applications built on Azure OpenAI for production use
+  - Retrieval-augmented generation over enterprise content with hybrid search, grounding,
+    and citations
+  - Agentic AI workflows with tool calling, planning, memory, and guardrails
+  - LLM observability covering latency, cost, token usage, and output quality
+  - Compliant AI solutions for legal, tax, accounting, compliance, and media professionals
   skills:
-    domains: []
-    languages: [C#, .NET 7/8]
+    cloud: [Azure OpenAI, Azure AI Services, Azure AI Search, Azure AI Foundry, Azure
+        App Service, Azure Functions, AKS, Azure Container Apps, Azure API Management,
+      Azure Key Vault, Azure Cognitive Services]
+    languages: [C#, .NET]
     ml: []
-    cloud: [Azure AI Foundry, Azure App Service, Azure Functions, AKS, Azure Container
-        Apps, Azure API Management, Azure Key Vault, Azure Cognitive Services]
-    genai: [Azure OpenAI, RAG, Semantic Kernel, Function Calling, Agentic Workflows]
+    other: [PII Handling]
+    ops: [Observability, OpenTelemetry, Application Insights, CI/CD]
+    databases: [Knowledge Graphs, Neo4j]
+    domains: []
+    web: [ASP.NET Core, REST APIs, OAuth, React, Blazor]
     data: []
-    other: []
-    ops: [OpenTelemetry, Application Insights, CI/CD]
-    web: [ASP.NET Core, REST APIs, OAuth2/OIDC/JWT, React, Blazor]
-    databases: [Azure AI Search, Neo4j]
+    genai: [RAG, Agentic Workflows, Function Calling, Semantic Kernel, Guardrails,
+      Embeddings, RAGAS, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +59,6 @@ meta:
   - Eagan, USA
   - Toronto, CAN
   - New York, USA
-  extracted_at: '2026-02-27T11:45:44.688230'
+  extracted_at: '2026-08-16T01:06:51.350527'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

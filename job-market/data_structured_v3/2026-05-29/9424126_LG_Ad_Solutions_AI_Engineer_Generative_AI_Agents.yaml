@@ -1,0 +1,65 @@
+company:
+  name: LG Ad Solutions
+  stage: null
+  focus: Global advertising technology and ad solutions company
+position:
+  title: AI Engineer, Generative AI Agents
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behaviour: designing AI agent
+      flows (LangGraph), building RAG pipelines, implementing
+      context engineering, and developing evaluation harnesses for
+      quality, hallucination, and accuracy. LLM and agent
+      components are central to the stack, making this ai-first.
+  responsibilities:
+  - Build and maintain LLM-powered services and APIs (FastAPI, webhooks, LangGraph),
+    translating prototypes into production-ready endpoints with error handling, retries,
+    and timeouts
+  - Develop evaluation harnesses and offline/online eval pipelines to measure quality
+    regressions, hallucination rates, and task-specific accuracy as models and prompts
+    evolve
+  - Instrument services with logging, tracing, and metrics (latency percentiles, token
+    usage, error rates) for production observability and tune for latency, throughput,
+    and cost
+  - Design and develop intelligent AI agents with intent recognition and decomposition
+    of complex queries into smaller executable tasks
+  - Implement and optimize context engineering techniques for short and long-term
+    memory and the aggregated knowledge base
+  - Integrate AI agents with internal systems (ACR, Mosaic, Salesforce) and third-party
+    services (SpringServe, DSPs), using standardized tooling protocols
+  - Build client-facing tools for voice and natural language data queries supporting
+    data monetization for the ACR platform
+  - Enable self-service data access and automate G&A functions, starting with Finance
+    and expanding to HR and IT Operations
+  use_cases:
+  - Generative AI agents deployed business-wide to drive internal operational efficiency
+  - Automating media planning and integrating agents into the Mosaic home-grown DSP
+  - Client-facing voice and natural language data queries for the ACR platform, supporting
+    data monetization
+  - Self-service data access and analysis across diverse data sources
+  - Automation of G&A functions starting with Finance, expanding to HR and IT Operations
+  skills:
+    genai: [LangGraph, RAG, AI Agents, Generative AI, Context Engineering, LLMs, AWS
+        Bedrock, MCP, LLM Evaluation, Intent Detection, Query Decomposition, Llama,
+      Claude, OpenAI API]
+    ml: []
+    web: [FastAPI, Webhooks, APIs]
+    databases: [Snowflake, Knowledge Graphs, Vector Databases]
+    data: [Databricks]
+    cloud: [AWS]
+    ops: [Observability, LLM Serving]
+    languages: [Python]
+    domains: []
+    other: [Salesforce, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9424126'
+  location: Denver, USA
+  locations:
+  - Denver, USA
+  - New York, USA
+  extracted_at: '2026-08-16T11:12:40.319677'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

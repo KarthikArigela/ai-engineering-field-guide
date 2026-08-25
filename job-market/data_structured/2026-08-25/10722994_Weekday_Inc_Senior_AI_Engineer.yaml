@@ -1,0 +1,53 @@
+company:
+  name: Weekday, Inc.
+  stage: null
+  focus: Recruiting/staffing platform placing engineers with clients
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG pipelines, agent/multi-agent flows with
+      LangGraph/LangChain/MCP, fine-tunes LLMs with PEFT/LoRA, and
+      evaluates model quality — all shaping LLM behaviour, so ai-
+      first.
+  responsibilities:
+  - Design and develop RAG, autonomous-agent, and multi-agent AI solutions using LangGraph,
+    LangChain, MCP, and prompt engineering
+  - Build enterprise AI workflows integrating n8n, Python, APIs, databases, and external
+    systems
+  - Develop AI applications using Gemini, Vertex AI, Agent Builder, Model Garden,
+    and Vertex AI Search & Conversation
+  - Implement data cleansing, chunking, embeddings, vector search, and retrieval pipelines
+  - Build CDC-based solutions for real-time data synchronization and AI workloads
+  - Deploy production AI services with Python, FastAPI, Docker, and Kubernetes/GKE
+  - Fine-tune LLMs and SLMs (e.g., Gemma) using PEFT, LoRA, and QLoRA
+  - Evaluate AI models for quality, accuracy, latency, scalability, and cost
+  use_cases:
+  - Enterprise RAG and retrieval pipelines over business data
+  - Autonomous and multi-agent AI workflow automation
+  - Real-time data synchronization for AI workloads via CDC
+  - Production GenAI applications on GCP and Azure
+  - Fine-tuned small/large language models for enterprise tasks
+  skills:
+    genai: [RAG, LangGraph, LangChain, MCP, Prompt Engineering, AI Agents, Agentic
+        Workflows, Gemini, Embeddings, Vector Search, Fine-Tuning, LoRA, Generative
+        AI, Semantic Search]
+    ml: [PyTorch, TensorFlow, scikit-learn]
+    web: [FastAPI, APIs, Streamlit, Gradio]
+    databases: [Vector Databases]
+    data: [Data Pipelines]
+    cloud: [GCP, Vertex AI, Azure]
+    ops: [Docker, Kubernetes, GKE, CI/CD, MLOps, LLMOps, Azure DevOps, Monitoring,
+      Observability]
+    languages: [Python]
+    domains: []
+    other: [n8n, CDC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10722994'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:28:42.336093'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

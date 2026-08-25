@@ -1,0 +1,64 @@
+company:
+  name: Emberos
+  stage: null
+  focus: Predictive intelligence for brand visibility in AI
+position:
+  title: Full-Stack Engineer (AI Product + Client Solutions)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly designs the LLM orchestration layer and
+      develops agent-based analysis workflows that evaluate
+      optimization scenarios and manage cost/latency/quality
+      tradeoffs, which is designing agent flows — shaping per Step
+      1. It also stress-tests optimization strategies and analyzes
+      how changes affect long-term LLM behavior, determining how
+      LLM output quality is measured and optimized. LLMs and
+      agents are central, so ai-first.
+  responsibilities:
+  - Develop and extend the Brand Knowledge Graph in Neo4j, modeling how changes to
+    one node propagate across AI visibility and recommendations
+  - Build predictive optimization systems that model how content and strategy changes
+    impact AI visibility outcomes, with feedback loops tracking predicted vs. actual
+    lift
+  - Implement scoring logic including Share-of-Prompt, accuracy measurement, sentiment
+    analysis, and competitor mention detection
+  - Design the LLM orchestration layer to minimize unnecessary LLM calls and manage
+    cost, latency, and quality tradeoffs at scale
+  - Build and maintain integrations with LLM platforms including ChatGPT, Claude,
+    Grok, Perplexity, and DeepSeek
+  - Develop agent-based analysis workflows that evaluate multiple optimization scenarios
+    in parallel and forecast impact
+  - 'Ship full-stack features end-to-end: React and TypeScript frontend interfaces,
+    backend systems, and data layers'
+  - Build workflow and tracking infrastructure integrating with Jira, Slack, HubSpot,
+    and email; participate in client calls and demos and own QA processes
+  use_cases:
+  - Predictive intelligence and monitoring of how AI interprets and represents brands
+    at discovery
+  - Brand Knowledge Graph tracking how node-level changes affect AI visibility and
+    recommendations
+  - Share-of-Prompt scoring, accuracy measurement, sentiment analysis, and competitor
+    mention detection
+  - Predictive optimization of content and strategy changes for AI visibility outcomes
+  - Agent-based parallel evaluation of optimization scenarios with impact forecasting
+  - AI-native commerce where merchants transact directly inside AI chat
+  skills:
+    genai: [LLMs, ChatGPT, Claude, Grok, Perplexity, DeepSeek, Agentic Workflows]
+    ml: [Sentiment Analysis, Recommendation Systems]
+    web: [React, APIs]
+    databases: [Neo4j, Knowledge Graphs]
+    data: []
+    cloud: []
+    ops: []
+    languages: [TypeScript, Node.js]
+    domains: []
+    other: [Jira, Slack, HubSpot]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9876713'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-16T15:42:37.961382'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

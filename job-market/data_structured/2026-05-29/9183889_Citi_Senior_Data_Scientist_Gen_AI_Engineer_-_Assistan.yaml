@@ -1,64 +1,64 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global banking and financial services corporation
+  stage: null
+  focus: Global banking and financial services
 position:
   title: Senior Data Scientist – Gen AI Engineer - Assistant Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI/ML role focused on building,
-      deploying, and optimizing Generative AI systems in
-      production. The responsibilities include designing RAG
-      pipelines, implementing agentic systems with
-      LangGraph/CrewAI, fine-tuning models, and managing the full
-      lifecycle from development to deployment with LLMOps
-      practices.
+      The role directly shapes LLM behavior: it designs and
+      systematizes prompt engineering strategies, builds RAG
+      pipelines integrated with vector databases, and works with
+      agentic AI frameworks (LangGraph, CrewAI, AutoGen) including
+      troubleshooting agentic systems in production. Since
+      LLM/GenAI components are the core of the work, this is ai-
+      first.
   responsibilities:
-  - Apply modern NLP and GenAI techniques to solve business problems with financial
+  - Apply modern NLP and GenAI techniques to solve business problems using financial
     and enterprise data
-  - Design and systematize prompt engineering strategies including structured prompting,
-    chain-of-thought, and few-shot/zero-shot approaches
-  - Develop production-grade Python code for GenAI applications from ideation through
-    deployment and maintenance
-  - Integrate vector databases and build RAG pipelines with hybrid search, re-ranking,
-    and query decomposition
-  - Build and optimize MLOps/LLMOps pipelines for continuous model deployment, observability,
-    and monitoring
-  - Implement agentic AI systems using LangGraph and CrewAI with multi-agent orchestration
-    and tool-use patterns
-  - Troubleshoot and debug GenAI models and agentic systems in production with rapid
-    issue resolution
+  - Design, refine, and systematize prompt engineering strategies for LLMs, including
+    structured prompting, chain-of-thought, and few-shot/zero-shot approaches
+  - Develop, test, and maintain production-grade Python code for GenAI applications
+  - Integrate vector databases into retrieval-augmented generation (RAG) pipelines
+  - Build, monitor, and optimize MLOps/LLMOps pipelines for continuous model deployment
+    and observability
   - Research and evaluate emerging GenAI technologies, frameworks, and best practices
-    to maintain competitive advantage
+  - Troubleshoot and debug GenAI models and agentic systems in production deployments
+  - Collaborate with business stakeholders and communicate AI/ML concepts to non-technical
+    audiences
   use_cases:
-  - Financial data analysis and insights using NLP and GenAI techniques
-  - Enterprise knowledge retrieval with RAG systems over internal documents and data
-  - Agentic AI solutions for automated workflows and task orchestration
-  - Conversational AI interfaces for business applications and customer interactions
-  - Responsible AI deployment with bias detection, content safety, and hallucination
-    reduction
-  - Document processing and information extraction from financial and enterprise sources
+  - GenAI-powered solutions for financial and enterprise business problems
+  - Retrieval-augmented generation over enterprise data using vector databases
+  - Conversational and agentic AI solutions deployed in production environments
+  - Knowledge graph integration with LLMs (GraphRAG)
+  - Continuous model deployment, monitoring, and observability in live environments
+  - Multimodal AI across text, image, audio, and video
   skills:
-    domains: [NLP]
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, Azure, Azure OpenAI, Azure AI
+        Foundry, Azure ML, GCP, Vertex AI, Gemini API]
     languages: [Python]
-    ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow, Keras, Quantization,
-      model distillation]
-    cloud: [AWS, AWS Bedrock, SageMaker, Azure, Azure OpenAI, Azure AI Foundry, Azure
-        ML, GCP, Vertex AI, Gemini API]
-    genai: [Hugging Face Transformers, LangChain, LlamaIndex, Semantic Kernel, LangGraph,
-      CrewAI, AutoGen, RAG, Prompt Engineering, chain-of-thought, ReAct, few-shot
-        learning, zero-shot learning, Function Calling, Agentic Workflows, red-teaming,
-      GraphRAG]
+    ml: [scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow, Keras, Transformers,
+      Model Evaluation, Hyperparameter Tuning, Quantization, Model Distillation, Mixture-of-Experts]
+    other: [Responsible AI, Multimodal AI]
+    ops: [MLOps, LLMOps, CI/CD, GitHub Actions, GitLab CI, MLflow, Docker, Kubernetes,
+      Infrastructure as Code, Model Deployment, Observability, vLLM, TGI, ONNX Runtime,
+      LangSmith, Arize Phoenix, Weights & Biases]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, Qdrant, pgvector, Chroma,
+      Neo4j, Knowledge Graphs]
+    domains: [NLP]
+    web: [FastAPI, REST APIs, WebSockets]
     data: [NumPy, Pandas, SciPy]
-    other: []
-    ops: [vLLM, TGI, ONNX Runtime, RAGAS, DeepEval, LangSmith, Arize Phoenix, Weights
-        & Biases, MLflow, Docker, Kubernetes, GitHub Actions, GitLab CI]
-    web: [FastAPI, REST, WebSockets]
-    databases: [Pinecone, Weaviate, Milvus, Qdrant, pgvector, Chroma, Neo4j]
+    genai: [Generative AI, LLMs, LangChain, LlamaIndex, Semantic Kernel, LangGraph,
+      CrewAI, AutoGen, Agentic Workflows, AI Agents, Function Calling, RAG, Embeddings,
+      Prompt Engineering, Guardrails, Fine-Tuning, Conversational AI, LLM Evaluation,
+      RAGAS, DeepEval, Red-Teaming, Hugging Face, OpenAI API, Cohere, Sentence-Transformers,
+      GraphRAG]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9183889'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:56:31.214288'
+  extracted_at: '2026-08-16T09:19:43.307345'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

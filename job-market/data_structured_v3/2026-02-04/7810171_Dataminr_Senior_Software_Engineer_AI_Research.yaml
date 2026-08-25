@@ -1,0 +1,57 @@
+company:
+  name: Dataminr
+  stage: null
+  focus: |-
+    AI-powered real-time event detection and risk intelligence
+    platform
+position:
+  title: Senior Software Engineer, AI Research
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role trains, adapts, and optimizes LLMs directly with
+      PyTorch and Transformers (explicitly "not just using APIs"),
+      which is shaping model behavior, and it deploys agents and
+      LLMs in production. Since LLM and agent components are
+      central to the work, the classification is ai-first.
+  responsibilities:
+  - Collaborate with Research Scientists, Engineers, and Data Scientists to train,
+    build, adapt, optimize, and deploy LLM models in production at very large scale
+  - Deploy Agents and LLMs that improve state-of-the-art performance across multimodal
+    data including text, images, videos, audio, and sensor data
+  - Own the technical design and implementation of robust API services, libraries,
+    and container strategies supporting the end-to-end LLMOps lifecycle
+  - Optimize deep learning and LLM training and inference performance (speed/cost)
+    on specialized hardware
+  - Drive the full lifecycle of complex AI problems from research and literature review
+    through hands-on data exploration, novel method implementation, and productization
+  - Implement state-of-the-art methods in NLP, computer vision, knowledge representation,
+    vector databases, and generative AI
+  use_cases:
+  - Real-time event detection from billions of public data inputs across text, image,
+    video, audio, and sensor data
+  - 'ReGenAI: automatic regeneration of real-time Live Event Briefs as events unfold'
+  - 'Intel Agents: autonomous generation of critical context on real-time events,
+    threats, and risks for clients'
+  - Delivering earliest signals of emerging risks and threats to Fortune 50 and Fortune
+    100 organizations
+  - Multimodal event detection across 150+ languages
+  skills:
+    genai: [LLMs, Generative AI, LangGraph, AI Agents]
+    ml: [PyTorch, Transformers, Deep Learning, Machine Learning]
+    web: [APIs]
+    databases: [Vector Databases]
+    data: [Databricks]
+    cloud: [AWS]
+    ops: [MLOps, LLMOps, Kubernetes, Containers, Langfuse]
+    languages: [Python]
+    domains: [NLP, Computer Vision]
+    other: [Knowledge Representation and Management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7810171'
+  location: USA
+  extracted_at: '2026-08-15T22:10:05.528681'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,53 @@
 company:
   name: Nexaminds
   stage: null
-  focus: |-
-    AI solutions provider transforming businesses with
-    intelligent systems
+  focus: AI solutions provider transforming businesses and industries
 position:
   title: AI Engineer (GenAI / Hyperscaler / Agentic AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, deploying, and fine-tuning
-      LLM-based systems including RAG pipelines, Agentic AI
-      solutions, and foundation models on cloud platforms (AWS
-      Bedrock, Azure AI Foundry). The engineer will work hands-on
-      with model deployment, orchestration, and optimization.
+      The role directly shapes LLM behavior: designing
+      GenAI/Agentic AI solutions, building RAG pipelines, fine-
+      tuning foundation models, and managing prompt engineering
+      and context optimization. LLMs and agent systems are the
+      explicit focus, making this ai-first.
   responsibilities:
   - Design and develop GenAI and Agentic AI solutions using modern LLM frameworks
-  - Build and implement real-world use cases leveraging LLMs such as Anthropic Claude,
-    Google Gemini, AWS Nova, and Meta Llama
+  - Build real-world use cases leveraging LLMs such as Anthropic Claude, Google Gemini,
+    AWS Nova, and Meta Llama
   - Develop backend tools and services to support AI-driven applications
   - Work with AWS Bedrock and SageMaker for model deployment, orchestration, and optimization
-  - Utilize Azure AI Foundry services for AI solution development on Azure
-  - Implement Retrieval-Augmented Generation (RAG) pipelines using Vector Databases
-    and embeddings
+  - Implement RAG pipelines using vector databases and embeddings
   - Perform fine-tuning and optimization of foundation models
   - Manage token usage, prompt engineering, and context optimization for LLM applications
+  - Ensure scalability, performance, and security of AI systems in production environments
   use_cases:
-  - GenAI and Agentic AI solutions for business transformation
-  - Real-world LLM-based applications
-  - RAG pipelines for retrieval-augmented applications
-  - Production-grade AI systems with scalability and security
+  - LLM-based enterprise use cases built on Anthropic Claude, Gemini, AWS Nova, and
+    Meta Llama
+  - Agentic AI systems and multi-agent workflows
+  - Backend AI integrations supporting AI-driven applications
+  - RAG-based applications using vector databases and embeddings
+  - Scalable AI solutions deployed on AWS and Azure hyperscaler platforms
   skills:
-    domains: []
+    cloud: [AWS, Azure, AWS Bedrock, SageMaker, Azure AI Foundry, Cloud-Native Architectures]
     languages: [Python]
-    ml: [Fine-tuning foundation models, Embeddings]
-    cloud: [AWS Bedrock, SageMaker, Azure AI Foundry]
-    genai: [MCP, AI Agents, LLM application development, RAG, Prompt Engineering,
-      Anthropic API, Gemini, AWS Nova, Meta Llama]
-    data: []
+    ml: []
     other: []
     ops: [MLOps, CI/CD, Kubernetes, Docker]
-    web: [REST APIs, Microservices]
     databases: [Vector Databases]
+    domains: []
+    web: [REST APIs, Microservices]
+    data: []
+    genai: [Generative AI, LLMs, AI Agents, Multi-Agent Systems, MCP, RAG, Prompt
+        Engineering, Fine-Tuning, Embeddings, Token Management, LLM Evaluation, Anthropic
+        API, Gemini, Llama, Amazon Nova]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8561532'
   location: IND
   remote: true
-  extracted_at: '2026-03-03T11:26:35.148492'
+  extracted_at: '2026-08-16T02:29:53.422328'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,57 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: Analytics and insights provider with AI data platforms
+  stage: ''
+  focus: Data analytics and structured intelligence products
 position:
   title: Lead Product AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role that builds data pipelines
-      and platforms to SUPPORT AI/ML workloads, but does not
-      directly build, train, or deploy models. The
-      responsibilities focus on data architecture, ETL/ELT
-      pipelines, dimensional modeling, and preparing datasets for
-      data scientists and ML teams rather than hands-on model
-      development.
+      The role builds data architecture, dimensional models, and
+      ETL/ELT pipelines that feed analytics and AI/ML workloads;
+      it never shapes model behavior itself (no prompting, RAG
+      design, training, or eval building). Preparing and
+      validating datasets for someone else's ML work is data
+      plumbing, so this is ai-support.
   responsibilities:
-  - Own and evolve product-level data architecture ensuring scalability and alignment
-    with AI/ML use cases
-  - Design and implement scalable data pipelines supporting product analytics and
-    AI/ML initiatives
-  - Define and maintain enterprise-aligned dimensional data models using star and
-    snowflake schemas
-  - Partner with cross-functional teams to translate requirements into architected
-    data models and pipelines
-  - Implement monitoring and testing for data quality, pipeline health, and freshness
+  - Own and evolve product-level data architecture ensuring scalability, reliability,
+    and alignment with analytics and AI/ML use cases
+  - Design and implement scalable ETL/ELT data pipelines supporting product analytics,
+    user behavior tracking, and AI/ML initiatives
+  - Define and maintain enterprise-aligned dimensional data models including star
+    and snowflake schemas, fact tables, and dimension tables
+  - Prepare, validate, and document datasets used for analytics, experimentation,
+    and machine learning
+  - Implement monitoring, testing, and alerting for data quality, pipeline health,
+    and freshness
+  - Diagnose and resolve complex data issues affecting analytics, AI workflows, or
+    product features
+  - Partner with Product Managers, Data Scientists, Analysts, and Engineers to translate
+    requirements into well-architected data models and pipelines
   - Mentor data engineers through architecture reviews, code reviews, and design discussions
   use_cases:
   - Product analytics and user behavior tracking
-  - Machine learning dataset preparation and validation
-  - Unstructured to structured data transformation for cross-referencing and analysis
-  - Internal tooling for data processing and service mesh communication
-  - AI-ready data pipeline enablement for downstream ML workflows
+  - AI/ML-enabled product capabilities
+  - Analytics- and AI-ready datasets for experimentation and machine learning
+  - Converting unstructured internet data into structured, cross-referenced data for
+    customer-facing products
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
+    languages: [SQL, Python]
+    ml: []
+    other: [Power BI, Tableau, SAP BusinessObjects]
+    ops: [Monitoring]
+    databases: [Relational Databases, Snowflake, BigQuery, Redshift]
+    domains: []
+    web: [JSON]
+    data: [Data Pipelines, Data Modeling, Slowly Changing Dimensions, Databricks,
+      dbt, Airflow, Fivetran, Segment, Data Governance]
     genai: []
-    data: [Data Pipelines, dbt, Airflow, Fivetran, Dimensional modeling, Star schemas,
-      Snowflake schemas, Data architecture, JSON, Event-driven architecture, Data
-        quality, Data Governance]
-    other: []
-    ops: []
-    web: []
-    databases: [Snowflake, BigQuery, Redshift]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9473282'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:08:08.055167'
+  extracted_at: '2026-08-16T11:45:39.945731'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

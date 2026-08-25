@@ -1,48 +1,53 @@
 company:
   name: NatWest Group
-  stage: Public
-  focus: Major UK banking and financial services provider
+  stage: null
+  focus: Banking and financial services
 position:
   title: AI Principal Engineer Lead, VP
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience with ML/LLM
-      technologies and explicitly involves building and operating
-      AI pipelines including data ingestion, training, evaluation,
-      and deployment. The requirement for fine-tuning, prompt
-      engineering, and delivering AI solutions into production
-      confirms this is directly working ON AI systems.
+      The role requires hands-on prompt engineering, fine-tuning,
+      and building/operating AI pipelines that include training
+      and evaluation of LLM-based systems, which directly shapes
+      model behaviour. LLM technologies are explicitly central to
+      the skill requirements, so this is ai-first.
   responsibilities:
-  - Design and engineer AI/ML software solutions with customer experience as primary
-    objective
-  - Build and operate AI pipelines encompassing data ingestion, training, evaluation,
-    and deployment
-  - Collaborate with software engineers on production and prototyping of innovative
-    AI ideas
-  - Define and provide oversight of engineering solutions with focus on automation,
-    resilience, and scalability
-  - Work within platform teams to design and engineer complex AI software and tools
-  - Develop architecture models and roadmaps for AI application components
-  - Design, test and implement working AI code using Agile and DevOps techniques
+  - Design and engineer innovative, customer-centric software solutions that are high
+    performance, secure, scalable and robust
+  - Define, create and provide oversight and governance of end-to-end engineering
+    and design solutions focused on automation, simplification, resilience and reusability
+  - Work within platform and feature teams to design and engineer complex software,
+    scripts and tools enabling delivery of bank platforms, applications and services
+  - Define and develop architecture models and roadmaps for application and software
+    components to meet business and technical requirements
+  - Design, produce, test and implement working code, applying Agile methods and DevOps
+    techniques including automation of build, test and deployment
+  - Build and operate AI pipelines covering data ingestion, training, evaluation and
+    deployment
+  - Collaborate with software engineers and domain/enterprise architects to prototype
+    innovative ideas and validate architectures in wider contexts
+  - Translate business problems into AI-driven solutions, define KPIs and success
+    metrics, and engage senior stakeholders on strategy and value cases
   use_cases:
-  - AI-driven solutions for banking platforms and applications
-  - Customer-centric AI experiences
-  - Automated AI/ML pipeline operations
-  - Production AI model deployment and governance
+  - AI-driven solutions for banking business problems
+  - Delivery of bank platforms, applications and services
+  - Automation of build, test and deployment activities
+  - Customer-centric banking software experiences
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Machine Learning, feature stores, Fine-Tuning]
     cloud: [Azure, AWS, GCP]
-    genai: [LLM technologies, orchestration frameworks, Prompt Engineering]
-    data: [Data Pipelines, streaming, data quality frameworks]
-    other: [Distributed Systems]
-    ops: [MLflow, Kubernetes, Terraform, model registries]
-    web: [APIs]
+    languages: [Python]
+    ml: [Machine Learning, AI Pipelines]
+    other: [Agile, Data Privacy, AI Regulation, Model Governance]
+    ops: [Distributed Systems, MLOps, MLflow, Kubernetes, Terraform, Feature Stores,
+      Model Registries, DevOps]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs]
+    data: [Data Engineering, Data Pipelines, Streaming, Data Quality Frameworks]
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, Orchestration Frameworks]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8798128'
   location: Chennai, IND
@@ -50,4 +55,6 @@ meta:
   - Chennai, IND
   - Gurugram, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-27T15:47:23.678937'
+  extracted_at: '2026-08-16T04:38:46.441999'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

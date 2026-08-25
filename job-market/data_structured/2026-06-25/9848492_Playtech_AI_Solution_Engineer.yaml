@@ -1,52 +1,54 @@
 company:
   name: Playtech
-  stage: Public
-  focus: B2B gaming technology and software platforms
+  stage: publicly traded (premium listing on the London Stock Exchange)
+  focus: B2B gaming technology and platform software
 position:
   title: AI Solution Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building AI tools, designing
-      agentic workflows, implementing RAG, and working with LLM
-      APIs and agent frameworks. The engineer builds practical AI
-      applications and reusable patterns for AI adoption, making
-      this hands-on AI/LLM engineering work rather than supporting
-      infrastructure or data pipelines for others.
+      The role designs agentic workflows, implements RAG, and
+      works hands-on with LLM APIs, agent frameworks, and evals -
+      directly shaping LLM/agent behaviour (Step 1: yes). Since
+      LLM and agent components are central to the responsibilities
+      and tooling, the classification is ai-first.
   responsibilities:
   - Build practical AI tools, prototypes, and applications that improve workflows,
     products, and productivity
+  - Design agentic workflows that automate tasks, use APIs, and support complex processes
   - Create reusable patterns, templates, and best practices for AI adoption across
     Playtech
-  - Design agentic workflows that automate tasks, use APIs, and support complex processes
-  - Partner with teams to turn ideas into real solutions and support AI adoption hands-on
+  - Partner with teams across business units to turn ideas into real solutions and
+    support AI adoption hands-on
   - Improve solution quality, cost, and performance through better design and optimisation
-  - Identify and mitigate AI risks, ensuring safe and responsible use
-  - Contribute to AI standards, governance, and best practices
+  - Identify and mitigate AI risks and contribute to AI standards, governance, and
+    best practices
   - Share knowledge, mentor others, and raise the overall AI engineering bar
+  - Stay current with AI trends and turn insights into demos, workshops, and recommendations
   use_cases:
-  - Enterprise AI workflow automation across multiple business units
-  - Agentic workflows for task automation and complex process support
-  - RAG-based knowledge retrieval and enterprise search
-  - AI-driven productivity and efficiency improvements across gaming platforms
-  - AI governance and safe responsible AI deployment in regulated industries
-  - Platform-level AI capabilities (APIs, SDKs, shared services) consumed by engineering
-    teams
+  - Automating business tasks and complex processes through agentic workflows
+  - Improving productivity and efficiency across multiple business units with AI tools
+  - Building reusable AI platform capabilities (APIs, SDKs, shared services) for enterprise-wide
+    adoption
+  - Supporting 80+ AI use cases across a global organisation
+  - Ensuring safe, responsible AI usage in a regulated gaming environment
   skills:
-    domains: []
+    cloud: [GCP]
     languages: [Python]
-    ml: []
-    cloud: [Google Cloud AI services, Gemini Enterprise, Agent Platform / ADK]
-    genai: [LLMs, RAG, Agentic Workflows, MCP, Multi-Agent Systems, AI evaluation,
-      Prompt Engineering]
-    data: []
-    other: [Git, SDKs, Software architecture]
-    ops: [Terraform, Cloud DevOps, AI security]
-    web: [REST APIs]
+    ml: [Machine Learning]
+    other: [AI Security, Responsible AI]
+    ops: [Terraform, DevOps, Git]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs, SDKs]
+    data: []
+    genai: [LLMs, RAG, Agentic Workflows, AI Agents, MCP, Multi-Agent Systems, Gemini,
+      Google ADK, Cursor, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9848492'
   location: London, GBR
-  extracted_at: '2026-06-25T19:54:46.023410'
+  extracted_at: '2026-08-16T15:26:21.878202'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,49 +1,54 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI-powered customer
-    experiences
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (Gen AI Platform Services)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building, training, and
-      deploying AI/ML systems including foundation model training,
-      LLM inference, and implementing optimization techniques. The
-      position requires developing proprietary AI solutions and
-      working directly with LLMs, vector databases, and model
-      training infrastructure.
+      The role directly shapes model behaviour and output quality:
+      it designs and builds foundation model training, LLM
+      inference, similarity search, guardrails (NeMo Guardrails),
+      model evaluation, and LLM optimization techniques for
+      production systems. Since LLM and generative components are
+      central to the responsibilities, this is ai-first rather
+      than ml-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, technical
-    program managers, and product managers to deliver AI-powered products
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products that change
+    how associates work and how customers interact with Capital One
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
     experimentation, governance, and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Mentor an engineering team and influence cross-functional stakeholders
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Informing customers about unusual charges
+  - Alerting customers to unusual charges on their accounts
   - Answering customer questions in real time
-  - AI-powered products that change how associates work
-  - AI-enhanced customer interactions with banking services
+  - AI-powered tools that change how internal associates work
+  - Shared Gen AI platform services enabling teams across Capital One to embed AI
+    into their products
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++]
-    ml: [PyTorch, Hugging Face, LLM Inference, Foundation Model Training, Model Evaluation]
-    cloud: [AWS, GCP, Azure]
-    genai: [Guardrails]
-    data: [Similarity Search]
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [Machine Learning, PyTorch, Hugging Face, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: []
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LLMs, Generative AI, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +60,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-03-03T11:15:21.194771'
+  extracted_at: '2026-08-16T00:34:07.630006'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

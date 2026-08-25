@@ -1,25 +1,27 @@
 company:
   name: Rackner
   stage: null
-  focus: Mission-critical software for U.S. government
+  focus: |-
+    Software consultancy building mission-critical systems for
+    U.S. government
 position:
   title: R&D Software Engineer — AI/ML Mission Solutions
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves hands-on work building, prototyping,
-      deploying, and refining AI/ML-driven software capabilities
-      including inference, model integration, evaluation,
-      deployment, and model-serving patterns. The engineer works
-      directly on AI/ML systems for defense use cases, not just
-      supporting infrastructure.
+      The role explicitly includes model evaluation and ensuring
+      output quality through evaluation techniques, debugging,
+      monitoring, and failure analysis across model layers, which
+      counts as shaping model behaviour. The description names no
+      LLM, prompt, RAG, or agent component - the cited stack and
+      standout areas (PyTorch, TensorFlow, scikit-learn, computer
+      vision, autonomy, robotics) are classical ML, so Step 2
+      yields ml-first.
   responsibilities:
   - Design, prototype, test, and refine AI/data-driven software capabilities for mission-focused
-    defense use cases
-  - Create software supporting data workflows, AI/ML experimentation, model integration,
-    simulation, and algorithmic processing
-  - Develop and enhance data pipelines, schema transformations, APIs, backend services,
-    and integration layers
+    use cases
+  - Develop data pipelines, schema transformations, JSON workflows, APIs, backend
+    services, and integration layers
   - Contribute to AI/ML processes including inference, evaluation, deployment, monitoring,
     and model-serving patterns
   - Ensure output quality through testing, data validation, evaluation techniques,
@@ -28,31 +30,33 @@ position:
     layers
   - Collaborate with engineers and technical leadership to assess tradeoffs and strengthen
     solution design
-  - Participate in technical demos, R&D events, and mission-user feedback cycles to
-    iterate on capabilities
+  - Participate in technical demos, R&D events, mission-user discussions, and iterative
+    feedback cycles
+  - Convert stakeholder and mission feedback into actionable technical steps
   use_cases:
-  - Defense and national security mission software capabilities
-  - AI/ML model integration and deployment for operational use cases
-  - Data pipeline and workflow automation for mission-relevant data processing
-  - Simulation and algorithmic processing for defense applications
-  - ISR, C2, mission planning, and autonomy systems
-  - Rapid R&D prototyping of AI/data-driven capabilities for government stakeholders
+  - Defense-relevant AI and data-driven software capabilities
+  - AI/ML experimentation, model integration, and applied R&D prototypes
+  - Data pipelines and workflow automation for mission systems
+  - Simulation and algorithmic processing for mission-focused use cases
+  - Model inference, evaluation, deployment, and monitoring in operational environments
   skills:
-    domains: [Computer Vision, Robotics]
+    cloud: [SageMaker]
     languages: [Python, C++, Java, Go, SQL]
-    ml: [PyTorch, TensorFlow, scikit-learn]
-    cloud: [SageMaker, AWS]
-    genai: []
-    data: [Airflow, Dagster, Prefect, dbt, Databricks, Data Pipelines]
-    other: [Simulation, Scientific computing]
-    ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, DevSecOps, Model
-        deployment and serving, Model evaluation and monitoring]
-    web: [FastAPI]
+    ml: [Machine Learning, PyTorch, TensorFlow, scikit-learn, Model Evaluation]
+    other: []
+    ops: [MLOps, MLflow, Kubeflow, Kubernetes, Terraform, CI/CD, DevSecOps, Docker,
+      Model Deployment, Model Registry, Model Monitoring, Observability]
     databases: [PostgreSQL]
+    domains: []
+    web: [FastAPI, APIs, JSON]
+    data: [Data Pipelines, dbt, Databricks, Airflow, Dagster, Prefect]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9593268'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:45:24.628754'
+  extracted_at: '2026-08-16T13:09:00.596665'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

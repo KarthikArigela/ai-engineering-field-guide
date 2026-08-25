@@ -1,43 +1,46 @@
 company:
   name: Ecolab
-  stage: Public
-  focus: Water, hygiene, and infection prevention solutions
+  stage: null
+  focus: null
 position:
   title: Sr. AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building GenAI-powered systems
-      using LLMs, vector-based retrieval (RAG), and multi-agent
-      orchestration. The engineer leads solution architecture and
-      delivers production-ready AI applications, which is hands-on
-      work on AI systems.
+      The role leads development of GenAI-powered systems and
+      personally designs intelligent workflows using LLMs, vector-
+      based retrieval, and multi-agent orchestration, which is
+      shaping model behaviour via retrieval and agent design (Step
+      1: yes). LLMs and agentic components are central, so Step 2
+      classifies it as ai-first.
   responsibilities:
-  - Lead development of scalable GenAI-powered systems
+  - Lead the development of scalable GenAI-powered systems
   - Design intelligent workflows leveraging LLMs, vector-based retrieval, and multi-agent
-    orchestration
-  - Drive solution architecture for AI applications
-  - Mentor junior engineers
-  - Deliver production-ready applications integrated with business processes and platforms
+    orchestration frameworks
+  - Drive solution architecture for GenAI applications
+  - Mentor junior engineers on the AI engineering team
+  - Deliver production-ready applications that integrate with business processes and
+    platforms
   use_cases:
-  - Intelligent workflow automation using LLMs
-  - Vector-based retrieval and search (RAG)
-  - Multi-agent orchestration for complex business tasks
-  - Business process integration with GenAI systems
+  - GenAI-powered business applications integrated with enterprise platforms
+  - Intelligent workflow automation using LLMs and multi-agent orchestration
+  - Production GenAI systems embedded in business processes
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LLMs, Vector-based retrieval (RAG), Agentic Workflows, GenAI system design]
-    data: []
+    languages: []
+    ml: []
     other: [System Design]
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, LLMs, RAG, Agentic Workflows]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9717760'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:49:00.920050'
+  extracted_at: '2026-08-16T14:34:29.256444'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

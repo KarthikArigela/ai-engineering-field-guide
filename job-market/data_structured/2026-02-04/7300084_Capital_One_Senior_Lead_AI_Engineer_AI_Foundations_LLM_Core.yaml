@@ -1,53 +1,54 @@
 company:
   name: Capital One
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (AI Foundations, LLM Core)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on with LLMs and AI systems - responsible
-      for foundation model training, LLM inference, optimization
-      techniques, similarity search, guardrails, and model
-      evaluation. The engineer will invent state-of-the-art LLM
-      optimization techniques to improve production AI system
-      performance, which is core AI/ML engineering work.
+      The role directly shapes model behavior and output quality:
+      foundation model training, building guardrails and model
+      evaluation, similarity search/retrieval components, and
+      inventing LLM optimization techniques for production
+      systems. Since LLM components are central (the "LLM Core"
+      team), this is ai-first rather than ml-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for associates
-    and customers
-  - Design, develop, and deploy AI software components including foundation model
-    training, LLM inference, similarity search, guardrails, model evaluation, and
-    governance
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
+  - Partner with cross-functional engineers, research scientists, technical program
+    managers, and product managers to deliver AI-powered products
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Apply novel techniques from scientific AI research to production systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Develop and apply techniques for optimizing training and inference software to
-    improve hardware utilization and performance
   use_cases:
-  - Informing customers about unusual charges through AI-powered fraud detection
-  - Answering customer questions in real time through conversational AI interfaces
-  - Creating real-time, personalized customer experiences in banking
-  - Empowering internal teams to enhance products with responsible and scalable AI
-    capabilities
-  - Delivering AI-powered solutions that change how associates work and how customers
-    interact with Capital One
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time via conversational AI
+  - AI-powered products that change how associates work internally
+  - Foundational AI models and platforms that empower teams across the company to
+    enhance products with AI
   skills:
-    domains: []
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Experimentation]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, RAG, Similarity Search, Guardrails]
-    data: []
-    other: []
-    ops: [Model Deployment, Model Governance, Observability]
+    languages: [Python, Go, Java, Scala, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Model Evaluation, Foundation Model
+        Training]
+    other: [Responsible AI]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
-  is_customer_facing: true
-  is_management: true
+    data: []
+    genai: [LLMs, Guardrails]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '7300084'
   location: McLean, USA
@@ -57,4 +58,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T10:34:34.747431'
+  extracted_at: '2026-08-15T21:28:48.573886'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

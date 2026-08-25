@@ -1,0 +1,45 @@
+company:
+  name: Elavon, Inc.
+  stage: null
+  focus: Payment processing and financial technology solutions
+position:
+  title: AI DevOps Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys, hosts, and operates an AI-SDLC platform
+      built by others; CI/CD, infrastructure, monitoring, and
+      serving are the deliverables, not model behaviour. Even the
+      LLMOps items (model serving, gateway management) are
+      capacity/operations work. No prompt design or model shaping
+      is owned.
+  responsibilities:
+  - Own AI-SDLC deployment, operations, and platform reliability including uptime,
+    performance, and incident response
+  - Manage infrastructure, monitoring, observability, and operational/on-call support
+  - Build and maintain CI/CD pipelines and automation for platform releases
+  - Drive the shift to a centralised, hosted multi-tenant AI-SDLC service covering
+    scalability, cost, and resilience
+  - Ensure the platform meets enterprise SLAs, security, and governance requirements
+  - Manage LLM token/credit cost control and capacity planning
+  use_cases: []
+  skills:
+    genai: [LangGraph, LangChain]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, ECS, EKS, AWS Lambda, AWS S3, IAM, AWS Bedrock]
+    ops: [CI/CD, GitLab CI, Jenkins, Terraform, Docker, Kubernetes, OpenTelemetry,
+      CloudWatch, LLMOps, MLOps, Infrastructure as Code]
+    languages: [Python, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10738606'
+  location: London, GBR
+  extracted_at: '2026-08-25T11:33:44.484926'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

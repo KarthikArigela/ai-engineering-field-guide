@@ -1,0 +1,59 @@
+company:
+  name: Circana
+  stage: null
+  focus: Market research and consumer analytics
+position:
+  title: Lead Software Engineer - AI Automation
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds LLM components directly: prompt
+      engineering, structured output parsing, output validation
+      against quality thresholds, and multi-step agentic workflows
+      with tool use, memory, and evaluation frameworks. This is
+      shaping model behaviour in production systems, so it is ai-
+      first.
+  responsibilities:
+  - Design technical approaches for automations from process specifications, including
+    data flow, integrations, LLM components, and human-in-the-loop touchpoints
+  - Build Python automations combining REST API calls, data store reads/writes, transformation
+    logic, LLM integration, and orchestration
+  - Integrate LLMs into production workflows with prompt engineering, structured output
+    parsing, and output validation
+  - Write tests covering core logic, external integrations, and LLM output quality
+    checks
+  - Deploy automations to production, monitor runs, and manage hypercare through to
+    stable operation
+  - Build lightweight full-stack tooling (React frontends, FastAPI backends) for review
+    queues, dashboards, and approval workflows
+  - Contribute to multi-step agentic workflows including tool use, memory, planning,
+    and evaluation frameworks
+  - Hand off completed automations to operations teams with non-engineer documentation
+  use_cases:
+  - End-to-end production automations for global operations
+  - Operational cost savings across 17 value stream areas
+  - LLM-driven workflow automation with human-in-the-loop review
+  - Review queues, exception dashboards, and approval workflows
+  - Agentic automation with tool use, memory, and planning
+  skills:
+    cloud: []
+    languages: [Python, SQL]
+    ml: []
+    other: [Agile, Kanban, Jira]
+    ops: [Git, Monitoring]
+    databases: [PostgreSQL, Snowflake, AWS S3]
+    domains: []
+    web: [REST APIs, React, FastAPI]
+    data: []
+    genai: [LLMs, Prompt Engineering, Structured Outputs, Agentic Workflows, AI Agents]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10464654'
+  location: Pune, IND
+  locations:
+  - Pune, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-25T10:16:46.969260'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

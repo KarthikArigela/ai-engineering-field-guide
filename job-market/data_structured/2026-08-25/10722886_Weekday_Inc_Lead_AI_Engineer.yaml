@@ -1,0 +1,63 @@
+company:
+  name: Weekday, Inc.
+  stage: null
+  focus: Recruiting platform hiring for client companies
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and trains Vision-Language Models that
+      integrate textual instructions and produce outputs driven by
+      those inputs, which counts as shaping a vision-
+      language/prompt-driven model and maps to ai-first. It also
+      shapes classical ML (diffusion models, quantization,
+      distillation), and a role shaping both LLM/VLM and classical
+      systems is ai-first.
+  responsibilities:
+  - Research and develop diffusion-based generative models for photorealistic surface
+    simulation, defect synthesis, and domain adaptation
+  - Design and train VLM and VLA architectures integrating textual instructions, CAD
+    plans, visual inputs, and sensor data
+  - Develop scalable auto-annotation and data-centric AI pipelines using active learning,
+    pseudo-labeling, weak supervision, and synthetic data
+  - Build and optimize deep-learning models for large-scale training and real-time
+    inference
+  - Apply quantization, LoRA, knowledge distillation, and model compression for edge
+    deployment
+  - Optimize models for Jetson-class hardware, CUDA, TensorRT, and ONNX Runtime within
+    robotics environments
+  - Establish offline and online evaluation frameworks for accuracy, robustness, latency,
+    and scalability
+  - Mentor interns and junior AI/ML engineers and provide technical leadership on
+    research initiatives
+  use_cases:
+  - Photorealistic surface simulation and defect synthesis for construction environments
+  - Domain adaptation of generative models for dynamic construction sites
+  - Vision-language and vision-language-action models that follow textual instructions
+    with CAD plans and sensor data
+  - Automated data annotation pipelines for large-scale construction/robotics datasets
+  - Real-time AI inference on edge hardware (Jetson-class) for robotics in construction
+  skills:
+    genai: [LoRA]
+    ml: [Diffusion Models, Vision-Language Models, Vision-Language Action Models,
+      Deep Learning, Active Learning, Pseudo-Labeling, Weak Supervision, Synthetic
+        Data, Model Training, Quantization, Knowledge Distillation, Model Compression,
+      PyTorch, JAX, PyTorch Lightning, DeepSpeed, CUDA, Multimodal Transformers, ControlNet,
+      DDPM, Experiment Tracking]
+    web: []
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [TensorRT, ONNX Runtime, Edge Deployment]
+    languages: [Python, C++]
+    domains: [Computer Vision]
+    other: [Jetson, ROS 2, Nav2, MoveIt 2, Open3D, Isaac Sim]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10722886'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:28:25.942489'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

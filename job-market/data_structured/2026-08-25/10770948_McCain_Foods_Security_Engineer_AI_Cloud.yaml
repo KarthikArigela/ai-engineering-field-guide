@@ -1,0 +1,58 @@
+company:
+  name: McCain Foods
+  stage: null
+  focus: |-
+    Global frozen food manufacturer undergoing digital
+    transformation
+position:
+  title: Security Engineer AI Cloud
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly leads implementation of AI guardrails,
+      secure access controls, and monitoring for LLM-based systems
+      (copilots, chatbots, agent workflows), and does threat
+      modeling for prompt injection — building guardrails is
+      shaping LLM system behaviour, making it ai-first despite the
+      security focus.
+  responsibilities:
+  - Implement security controls for AI/ML platforms covering training, fine-tuning,
+    deployment, and inference environments
+  - Lead implementation of AI guardrails, monitoring, and secure access controls
+  - Support secure design of AI-enabled applications including copilots, chatbots,
+    APIs, and agent-based workflows
+  - Conduct risk assessments and threat modeling for AI solutions covering data leakage,
+    prompt injection, and model exposure
+  - Design and maintain security controls for cloud-based AI workloads across Azure,
+    AWS, and GCP
+  - Operate CNAPP capabilities including CSPM, CWPP, and workload security
+  - Embed security-as-code and infrastructure-as-code controls in CI/CD pipelines
+  - Monitor cloud and AI platforms for security events and participate in incident
+    response
+  use_cases:
+  - Securing enterprise AI platforms including copilots, chatbots, and agent-based
+    workflows
+  - Protecting AI/ML model training, fine-tuning, and inference environments
+  - Defending against prompt injection, data leakage, and model abuse in AI systems
+  - Securing cloud-native AI workloads and data pipelines across Azure, AWS, and GCP
+  - Embedding security into CI/CD pipelines for AI and data workloads
+  skills:
+    genai: [Guardrails, Agentic Workflows]
+    ml: [Fine-Tuning]
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: [AWS, GCP, Azure, Azure Security Engineer]
+    ops: [Terraform, CI/CD, DevSecOps, Infrastructure as Code, Monitoring]
+    languages: []
+    domains: []
+    other: [Threat Modeling, Cloud Security, Zero Trust, CNAPP, NIST, CIS, NIST AI
+        RMF, Incident Response, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10770948'
+  location: Gurugram, IND
+  extracted_at: '2026-08-25T11:45:30.522828'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

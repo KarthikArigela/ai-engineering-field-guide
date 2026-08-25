@@ -1,0 +1,67 @@
+company:
+  name: Mastercard
+  stage: null
+  focus: |-
+    Global digital payments technology and data-driven business
+    intelligence
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: architecting multi-
+      agent systems, designing RAG/Graph-RAG pipelines, leading
+      prompt engineering, LLM fine-tuning, and RLHF/PEFT/LoRA
+      alignment strategies. LLM and agent components are central
+      throughout, with traditional ML appearing only in hybrid
+      support, so this is ai-first.
+  responsibilities:
+  - Architect and lead development of multi-agent AI systems using LangGraph, CrewAI,
+    and AutoGen for autonomous reasoning, tool use, and adaptive decision-making at
+    enterprise scale
+  - Design and operationalize multimodal generative AI pipelines unifying text, image,
+    tabular, and graph data using transformer-based architectures
+  - Build production-grade RAG and Graph-RAG systems integrating vector databases
+    and knowledge graphs for semantic retrieval and grounded generation
+  - Lead LLM fine-tuning, prompt engineering, and model alignment strategies including
+    RLHF, PEFT, LoRA, and instruction tuning
+  - Establish LLMOps and MLOps pipelines on Databricks with MLflow, feature stores,
+    prompt evaluation, and continuous retraining workflows
+  - Develop high-performance Python backend services for LLM inference orchestration,
+    async job handling, and streaming responses
+  - Engineer agent state, memory, and context management subsystems for temporal reasoning,
+    session continuity, and long-context handling
+  - Implement Responsible AI and governance practices including bias detection, hallucination
+    mitigation, explainability, and output safety guardrails
+  use_cases:
+  - Data-driven business intelligence and growth decision-making from proprietary
+    multi-modal data
+  - Autonomous enterprise agents for reasoning, tool use, and adaptive decision-making
+  - Semantic retrieval and grounded generation over enterprise knowledge and graphs
+  - Production-grade generative AI applications elevating customer experience
+  - Interpretable hybrid decision systems combining traditional ML with LLMs
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, LangChain, RAG, Graph-RAG, Prompt Engineering,
+      LLMs, Generative AI, Multi-Agent Systems, AI Agents, Agentic Workflows, Function
+        Calling, Embeddings, Semantic Search, Fine-Tuning, RLHF, PEFT, LoRA, Chain-of-Thought
+        Reasoning, Guardrails, LLM Evaluation, OpenAI API, Anthropic API, Gemini,
+      GPT-4o, Llama, Mistral, Falcon]
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformers, Deep Learning, Machine Learning,
+      Predictive Modeling, Statistical Modeling, BERT, CLIP, LLaVA, T5, Whisper]
+    web: [FastAPI, Microservices]
+    databases: [Pinecone, pgvector, OpenSearch, Neo4j, AWS Neptune, Knowledge Graphs,
+      Vector Databases]
+    data: [Databricks]
+    cloud: [AWS, SageMaker, AWS Bedrock, Azure OpenAI, Vertex AI]
+    ops: [MLflow, Weights & Biases, MLOps, LLMOps, Feature Stores]
+    languages: [Python, SQL]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9356291'
+  location: Pune, IND
+  extracted_at: '2026-08-16T10:31:48.436546'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,53 @@
+company:
+  name: Komodo Health
+  stage: null
+  focus: Healthcare data analytics and real-world patient insights
+position:
+  title: Senior Forward Deployed Engineer, AI Infrastructure & Deployments
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds MCP servers, agentic workflows, and LLM-
+      powered applications deployed at customer sites — designing
+      agent flows and integration surfaces for LLM behavior, which
+      is shaping. Forward Deployed Engineers adapting AI solutions
+      are ai-first per the edge cases.
+  responsibilities:
+  - Design, build, and deploy AI-native solutions (MCP servers, agentic workflows,
+    custom integrations) inside customer environments
+  - Own infrastructure layer for customer deployments including Terraform-managed
+    AWS environments, VPC networking, IAM, and security controls
+  - Work with large-scale data across Databricks, Delta Lake, Snowflake, and S3, debugging
+    pipeline failures and optimizing performance
+  - Drive day-to-day technical engagement with customer stakeholders, scoping work
+    and surfacing risks
+  - Turn field learnings into reusable FDE patterns, deployment templates, and roadmap
+    input
+  - Lead end-to-end delivery of high-complexity customer deployments including architecture
+    reviews and compliance navigation
+  use_cases:
+  - AI-native healthcare data product (Marmot) deployed into enterprise customer environments
+  - MCP Gateway connecting Komodo's healthcare data platform to customer tools
+  - Agentic workflows solving customer-specific healthcare data problems
+  - Deployments in regulated healthcare environments with HIPAA, SOC 2, and BAA constraints
+  - Large-scale healthcare/life sciences data integration and pipelines
+  skills:
+    genai: [MCP, Agentic Workflows, LLMs, LangGraph, CrewAI, Strands, LLM Evaluation]
+    ml: []
+    web: [APIs]
+    databases: [Snowflake]
+    data: [Databricks, Delta Lake]
+    cloud: [AWS, IAM, AWS S3]
+    ops: [LangSmith, Braintrust, Ragas, Terraform]
+    languages: [Python]
+    domains: []
+    other: [HIPAA Compliance, SOC 2]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10468020'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:17:49.655769'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

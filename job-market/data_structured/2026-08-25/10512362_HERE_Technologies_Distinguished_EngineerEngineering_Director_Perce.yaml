@@ -1,0 +1,63 @@
+company:
+  name: HERE Technologies
+  stage: null
+  focus: Location data and digital mapping technology platform
+position:
+  title: Distinguished Engineer/Engineering Director, Perception, Embedded AI & SoC
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role shapes perception model behaviour: architecture,
+      quantization, latency/memory optimization, and evaluation of
+      computer vision models (BEV, multi-camera perception)
+      deployed on automotive SoCs. There is no LLM, agent, or
+      generative text component — only classical CV/DL — so it is
+      ml-first.
+  responsibilities:
+  - Own and lead end-to-end perception architecture from cloud training to deployment-ready
+    model variants for automotive-grade SoCs
+  - Drive deployment-first design decisions covering quantization, latency targets,
+    and memory constraints on embedded platforms
+  - Turn state-of-the-art perception research into scalable production pipelines with
+    cloud and edge model variants
+  - Guide BEV and multi-camera perception for road infrastructure such as lanes, signs,
+    and traffic lights
+  - Define evaluation and validation standards including hardware-aware latency, accuracy,
+    memory, and throughput metrics
+  - Remain hands-on in model design, architecture reviews, technical investigations,
+    and debugging
+  - Build and scale a lean perception engineering team and establish engineering standards
+  - Partner with customers, research, product, and partner teams to translate real-world
+    needs into solutions
+  use_cases:
+  - ADAS/autonomous driving perception
+  - Road infrastructure perception including lanes, boundaries, signs, and traffic
+    lights
+  - BEV and multi-camera scene understanding for vehicles
+  - Edge AI model deployment on automotive-grade SoCs
+  - Turning map and drive data into training and validation for next-generation ADAS/AD
+  skills:
+    genai: []
+    ml: [PyTorch, Machine Learning, Deep Learning, Model Training, Quantization]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [TensorRT, ONNX]
+    languages: []
+    domains: [Computer Vision, NLP]
+    other: [ISO 26262]
+  is_customer_facing: true
+  is_management: true
+meta:
+  job_id: '10512362'
+  location: Berlin, DEU
+  locations:
+  - Berlin, DEU
+  - Munich, DEU
+  - Amsterdam, NLD
+  - Frankfurt am Main, DEU
+  - Schwalbach, DEU
+  extracted_at: '2026-08-25T10:28:17.283655'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,64 +1,65 @@
 company:
   name: Nebius
-  stage: Public
-  focus: AI cloud infrastructure platform
+  stage: Listed on Nasdaq (NBIS)
+  focus: AI cloud infrastructure platform for training and deployment
 position:
   title: Forward Deployed Engineer - Physical AI Cloud Platform
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Forward Deployed Engineer role focused on building
-      and operating cloud infrastructure (compute orchestration,
-      platform services, networking, storage) that enables
-      customers to run physical AI workloads. While deeply
-      embedded with strategic customers, the work is on
-      infrastructure and platform engineering that SUPPORTS AI
-      workloads rather than directly building, training, fine-
-      tuning, or deploying AI models. The AI coding tools
-      mentioned are for development velocity, not for building AI
-      products.
+      This FDE builds and operates the infrastructure underpinning
+      physical AI workloads — compute orchestration, job
+      scheduling, observability, security, and cost — rather than
+      shaping model behavior. There is no prompt design,
+      retrieval/agent work, training, or output-quality evaluation
+      in the role. AI coding tools (Claude Code, Codex, Cursor)
+      are used as engineering leverage, which is explicitly non-
+      shaping, so the role is ai-support.
   responsibilities:
-  - Own end-to-end technical execution inside strategic accounts including discovery,
-    scoping, infrastructure design, build, and production rollout for design partners
-    and ISV engagements
+  - 'Own end-to-end technical execution inside strategic accounts: discovery, technical
+    scoping, infrastructure design, build, and production rollout'
   - Build and operate cloud infrastructure and compute orchestration for simulation,
-    training, evaluation, inference, and batch workloads at scale
+    training, evaluation, inference, and batch workloads
   - Build platform services for job execution, scheduling, retries, observability,
     logging, secrets, access control, and cost tracking
-  - Build customer onboarding infrastructure including sandbox environments, dataset
+  - Create onboarding infrastructure for pilots, including sandbox environments, dataset
     storage, workflow execution, and deployment
-  - Optimize cloud cost, utilization, performance, and reliability across workloads
-    and debug infrastructure issues across all layers
-  - Define long-term infrastructure architecture for multi-tenant SaaS, enterprise
-    deployments, and high-throughput physical AI workloads
+  - Optimize cloud cost, utilization, performance, and reliability, and debug infrastructure
+    issues across application, network, storage, compute, and orchestration layers
   - Turn repeated customer infrastructure pain into reusable platform capabilities
-    by partnering with Product and Engineering teams
+    and fold them into the core platform with Product and Engineering
+  - Help define long-term infrastructure architecture for multi-tenant SaaS, enterprise
+    deployments, and high-throughput physical AI workloads
   - Co-author reference architectures, solution templates, and technical blogs, and
-    maintain structured feedback loops to Product and Engineering
+    channel field learnings back to the Field CTO, Product, and Engineering
   use_cases:
-  - Compute orchestration for physical AI simulation, training, evaluation, and inference
+  - Physical AI simulation, training, and evaluation workloads running on GPU cloud
+    infrastructure
+  - Compute orchestration and batch job execution for AI training, inference, and
+    evaluation pipelines
+  - Multi-tenant SaaS and enterprise deployment of high-throughput physical AI workloads
+  - Customer pilot onboarding with sandbox environments, dataset storage, and secure
+    workflow execution
+  - Cost, performance, and reliability optimization for GPU-heavy simulation and inference
     workloads
-  - Cloud infrastructure platform for running physical AI workloads in production
-    at scale
-  - Multi-tenant SaaS and enterprise deployment infrastructure for AI workloads
-  - GPU-heavy simulation and training pipeline infrastructure
-  - Customer onboarding and pilot infrastructure for AI cloud platform
   skills:
-    genai: [Claude Code, Codex, Cursor]
-    ml: [CUDA, Fine-Tuning, Machine Learning]
-    web: []
-    databases: []
-    data: [Ray, Airflow]
-    cloud: [IAM, AWS, GCP, Azure]
-    ops: [Kubernetes, CI/CD, Docker, Observability, Infrastructure as Code, Terraform,
-      ArgoCD]
+    cloud: [IAM, AWS, GCP, Azure, Lambda Labs]
     languages: [Python, Go]
+    ml: [CUDA]
+    other: [GPU Workloads, HPC, RBAC, Cloud Networking, Isaac Sim, Omniverse]
+    ops: [Kubernetes, Docker, CI/CD, Observability, Infrastructure as Code, Distributed
+        Systems, Slurm, ArgoCD, Model Deployment]
+    databases: []
     domains: []
-    other: [Distributed Systems, Microservices]
+    web: []
+    data: [Ray, Airflow, Metaflow, Data Pipelines]
+    genai: [Claude Code, Codex, Cursor]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10072732'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:26:45.265794'
+  extracted_at: '2026-08-16T16:40:04.790320'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,66 @@
 company:
   name: MSD Animal Health Technology Labs
-  stage: Public
-  focus: Global healthcare biopharma and animal health products
+  stage: null
+  focus: |-
+    Global healthcare biopharma: prescription medicines,
+    vaccines, and animal health
 position:
   title: Specialist, AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying LLM-based agents,
-      multi-agent systems, and ML models for autonomous cyber
-      defense. The engineer works directly on AI systems including
-      agentic AI, decision engines, and multi-step reasoning
-      systems, making this clearly an ai-first role.
+      The role builds LLM-based agents, engineers prompt
+      strategies, designs multi-agent systems, and builds
+      guardrails, evals, and monitoring loops - clear model-
+      behavior shaping. LLM/agent components are explicit
+      alongside classical ML work, so it is ai-first per the
+      mixed-role rule.
   responsibilities:
   - Design and deploy machine learning models for threat classification, anomaly detection,
     and risk scoring
   - Build LLM-based agents capable of contextual reasoning, summarization, classification,
     and workflow execution
-  - Develop multi-agent systems that automate operational tasks and integrate AI into
-    enterprise security platforms
-  - Engineer prompt strategies and structured evaluation frameworks for AI reliability
+  - Engineer prompt strategies and structured evaluation frameworks to ensure reliability
     and repeatability
-  - Implement guardrails, kill switches, and rollback mechanisms for safe AI deployment
+  - Develop multi-agent systems that automate operational tasks and drive measurable
+    workforce efficiency gains
+  - Integrate AI outputs into enforcement platforms such as conditional access triggers,
+    device isolation logic, and adaptive workflows
+  - Design guardrails, kill switches, and rollback mechanisms to ensure safe AI deployment
     in regulated environments
   - Partner with Data Engineering to develop feature pipelines and production-ready
     datasets
-  - Build model monitoring and feedback loops to continuously improve precision and
-    reduce false positives
-  - Contribute to ontology-driven reasoning and entity-aware AI decisioning
+  - Build model monitoring and feedback loops to improve precision and reduce false
+    positives, and contribute ontology-driven, entity-aware AI decisioning
   use_cases:
   - Autonomous cyber defense and enterprise security optimization
-  - Threat classification, anomaly detection, and real-time risk scoring
-  - Automated security triage and operational workflow optimization
-  - Conditional access enforcement and device isolation triggered by AI outputs
-  - Multi-agent orchestration for operational task automation in security platforms
+  - Real-time threat classification, anomaly detection, and risk scoring from security
+    telemetry
+  - Automated security triage to reduce manual effort, operational steps, and ticket
+    volume
+  - Safe autonomous enforcement across Microsoft Defender XDR, Sentinel, and related
+    platforms
+  - Explainable AI decisioning suitable for governance and executive review
   skills:
-    genai: [LLMs, Prompt Engineering, AI Agents, Multi-Agent Systems, Agentic Workflows,
-      Copilot Studio, Guardrails]
-    ml: [scikit-learn, PyTorch, TensorFlow, Anomaly Detection, Machine Learning, Model
+    cloud: [Logic Apps]
+    languages: [Python, KQL]
+    ml: [Machine Learning, scikit-learn, PyTorch, TensorFlow, Anomaly Detection, Model
         Evaluation]
-    web: [REST APIs]
-    databases: [Knowledge Graphs]
-    data: [Data Engineering, Data Pipelines]
-    cloud: [Logic Apps, Azure]
-    ops: [Model Deployment, Model Monitoring]
-    languages: [Python]
-    domains: []
-    other: [Microsoft Defender XDR, Microsoft Sentinel, KQL, MITRE ATT&CK, ServiceNow,
-      Graph-Based Reasoning, System Design, SDLC, System Integration, Information
-        Security, Testing]
+    other: [Microsoft Defender XDR, Microsoft Sentinel, MITRE ATT&CK, ServiceNow,
+      Ontology-Driven Reasoning, Responsible AI, SDLC, Software Development, System
+        Designs, System Integration, Testing]
+    ops: [Model Monitoring]
+    databases: []
+    domains: [Information Security]
+    web: [APIs]
+    data: [Data Engineering]
+    genai: [LLMs, Prompt Engineering, AI Agents, Multi-Agent Systems, Guardrails,
+      LLM Evaluation, Copilot Studio]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10219812'
   location: Hitech City, IND
-  extracted_at: '2026-07-22T13:36:09.788873'
+  extracted_at: '2026-08-16T18:01:34.014438'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

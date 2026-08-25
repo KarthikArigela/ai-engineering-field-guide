@@ -1,53 +1,61 @@
 company:
   name: Autodesk
-  stage: Public
-  focus: Software for design, engineering, and entertainment
+  stage: null
+  focus: |-
+    3D design and engineering software for manufacturing,
+    construction, and media
 position:
   title: Senior Data Engineer (Python, AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Data Engineering role focused on building data
-      pipelines, data platforms, and analytics infrastructure.
-      While the role mentions familiarity with AI/ML techniques
-      and AI-assisted development tools, the core work involves
-      data engineering tasks (ETL/ELT, data modeling, pipeline
-      reliability) that support data science teams rather than
-      directly building, training, or deploying AI/ML models.
+      The core role is a data engineer who designs and maintains
+      ETL/ELT pipelines, data models, and analytics
+      infrastructure. AI appears only as tooling the engineer uses
+      (GitHub Copilot, Cursor, Claude Code) and as "familiarity
+      with" AI/ML techniques and MCP servers, with no
+      responsibility for shaping model behavior, prompts,
+      retrieval, or evals. Per the classification rules, using AI
+      coding assistants and building data pipelines is ai-support.
   responsibilities:
-  - Design, build, and maintain scalable data pipelines and data models across Access
-  - Modernize legacy data workflows and infrastructure, including migrations from
-    platforms such as Hive to Iceberg
+  - Design, build, and maintain scalable data pipelines and data models across the
+    Access domain
   - Develop reliable ETL/ELT workflows to ingest, transform, and serve data for analytics
     and operational use cases
-  - Enable analytics and provide critical insights around product usage, campaign
-    performance, funnel metrics, segmentation, conversion, and revenue growth
+  - Modernize legacy data workflows and infrastructure, including migrations from
+    Hive to Iceberg
+  - Drive data quality, reliability, and observability standards across data platforms
+  - Enable analytics and insights around product usage, campaign performance, funnel
+    metrics, segmentation, conversion, and revenue growth
   - Own critical data pipelines end-to-end and contribute to improving the overall
     data platform
-  - Interface with data engineers, data scientists, product managers, and other stakeholders
-    to understand their needs and promote best practices
+  - Interface with data engineers, data scientists, product managers, and stakeholders
+    to promote best practices
+  - Use data analysis and data mining to make strategic and tactical business recommendations
   use_cases:
-  - Product usage analytics and insights
-  - Campaign performance tracking and analysis
-  - Funnel metrics and conversion analytics
-  - Customer segmentation and behavioral analysis
-  - Revenue growth analytics and reporting
-  - Operational data serving for business intelligence
+  - Product usage analytics
+  - Campaign performance measurement
+  - Funnel and conversion metrics
+  - Customer segmentation
+  - Revenue growth insights
+  - Identity, access, and entitlement datasets
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, EMR Notebooks]
     languages: [Python, SQL]
     ml: [Anomaly Detection]
-    cloud: [AWS]
-    genai: [GitHub Copilot, Cursor, Claude Code, MCP]
-    data: [Spark, Airflow, Flink, Hive, Iceberg, Presto, Looker, Power BI, Data Pipelines,
-      Data Modeling, Jupyter, EMR Notebooks, Apache Zeppelin]
-    other: []
-    ops: [Git, Jenkins CI, CI/CD]
-    web: []
+    other: [Looker, Power BI, Jupyter, Zeppelin]
+    ops: [Git, Jenkins, CI/CD]
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [Spark, Airflow, Flink, Hive, Presto, Iceberg, Data Pipelines, Data Modeling,
+      Data Mining]
+    genai: [GitHub Copilot, Cursor, Claude Code, MCP]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9516208'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:08:44.208691'
+  extracted_at: '2026-08-16T12:08:50.457074'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

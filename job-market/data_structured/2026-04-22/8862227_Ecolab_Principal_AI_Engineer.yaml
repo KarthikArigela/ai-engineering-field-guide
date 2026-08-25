@@ -1,51 +1,47 @@
 company:
   name: Ecolab
-  stage: Public
-  focus: |-
-    Water, hygiene, and infection prevention solutions and
-    services
+  stage: null
+  focus: Water, hygiene and infection prevention solutions
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on defining architecture and
-      governance for GenAI solutions, designing intelligent
-      systems leveraging LLMs, agentic workflows, and vector-based
-      retrieval strategies. The principal engineer is hands-on
-      with AI system design and deployment at scale, making this
-      clearly an ai-first role.
+      The role leads the design of intelligent systems leveraging
+      LLMs, agentic workflows, and vector-based retrieval
+      strategies, which is directly shaping model behavior through
+      retrieval design and agent flow design. LLM and agentic
+      components are explicitly involved, so per Step 2 this is
+      ai-first.
   responsibilities:
-  - Define the architectural vision and governance standards for GenAI solutions at
-    scale
+  - Define the architectural vision for GenAI solutions at enterprise scale
+  - Establish governance standards for GenAI solutions across the organization
   - Lead the design of intelligent systems leveraging LLMs and agentic workflows
-  - Design and implement vector-based retrieval strategies for AI solutions
-  - Ensure alignment of AI systems with enterprise-level security, performance, and
-    reusability goals
-  - Provide cross-functional leadership bridging deep technical expertise with business
-    objectives
-  - Establish best practices and standards for GenAI solution development across the
-    enterprise
+  - Design vector-based retrieval strategies for intelligent systems
+  - Ensure technical designs align with enterprise goals around security, performance,
+    and reusability
+  - Provide cross-functional technical leadership at the intersection of deep expertise
+    and enterprise strategy
   use_cases:
-  - Enterprise-scale GenAI solution deployment
-  - Intelligent document retrieval and search via vector-based strategies
-  - Agentic workflow automation for enterprise processes
-  - LLM-powered enterprise applications with security and governance compliance
+  - Enterprise-scale GenAI solutions
+  - Intelligent systems powered by LLMs and agentic workflows
+  - Vector-based retrieval for enterprise knowledge and data access
   skills:
-    domains: []
-    languages: [Python]
+    cloud: []
+    languages: []
     ml: []
-    cloud: [Cloud platforms (AWS/Azure/GCP)]
-    genai: [LLM architecture and deployment, Agentic Workflows, Vector-based retrieval
-        (RAG), LangChain, Prompt Engineering]
-    data: []
-    other: [Enterprise security and governance, System architecture design]
+    other: [Responsible AI]
     ops: []
+    databases: [Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Generative AI, LLMs, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8862227'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T13:28:20.147215'
+  extracted_at: '2026-08-16T05:54:19.115963'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

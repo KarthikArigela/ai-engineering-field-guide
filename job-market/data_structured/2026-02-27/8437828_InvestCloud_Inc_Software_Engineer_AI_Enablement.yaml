@@ -1,20 +1,22 @@
 company:
   name: InvestCloud, Inc.
-  stage: Established
-  focus: Financial technology platform for wealth management
+  stage: null
+  focus: |-
+    Financial technology platform for wealth advisors and
+    clients
 position:
   title: Software Engineer (AI Enablement)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure/platform role that builds systems
-      FOR data scientists and AI teams, not directly working on
-      models. The responsibilities focus on APIs, data pipelines,
-      ETL processes, and infrastructure to support ML workloads -
-      classic enablement work. While the team integrates AI
-      solutions, the engineer builds the platforms and pipelines
-      rather than building, training, or fine-tuning models
-      themselves.
+      The role is backend engineering around AI/ML workloads:
+      building APIs, microservices, data pipelines, ETL, and
+      infrastructure for model training/deployment, and
+      productionizing models that data scientists build. There is
+      no prompt engineering, RAG design, fine-tuning, or model
+      output evaluation done by this person, and AI Assistant
+      experience is a coding tool, not product work, so this is
+      ai-support.
   responsibilities:
   - Develop and maintain robust APIs, microservices, and data pipelines that support
     data science and AI workloads
@@ -25,26 +27,30 @@ position:
     models
   - Ensure high performance, reliability, and security of backend systems
   - Participate in code reviews and contribute to engineering best practices
-  - Integrate AI and ML solutions into the InvestCloud product suite
+  - Troubleshoot and resolve complex technical issues while writing clean, maintainable,
+    well-documented code
   use_cases:
-  - Enhanced intelligence for financial advisor and client experiences
-  - Data-driven insights for wealth management
-  - Production ML model deployment for financial applications
-  - AI-powered analytics for financial data
+  - Integrating AI and ML solutions into the InvestCloud financial product suite
+  - Enhanced intelligence from captured data to enable smarter financial futures for
+    clients
+  - Next-generation advisor and client experience powered by data and AI
+  - Production platforms and pipelines supporting data science and AI model workloads
   skills:
-    domains: []
-    languages: [Python, Java, JavaScript]
-    ml: [Machine Learning]
     cloud: [AWS, Azure, GCP]
-    genai: [Generative AI, AI Assistants]
-    data: [Databricks, Data Pipelines]
-    other: []
-    ops: [Docker, CI/CD, Git]
-    web: [REST APIs, FastAPI, Jakarta EE, Angular]
+    languages: [Python, Java, JavaScript]
+    ml: [Machine Learning, Model Training, Model Evaluation]
+    other: [Data Science]
+    ops: [Model Deployment, Docker, Git, CI/CD, DevOps]
     databases: [SQL, NoSQL, Snowflake]
+    domains: []
+    web: [REST APIs, APIs, FastAPI, Angular, Jakarta EE, Microservices]
+    data: [Data Pipelines, Databricks]
+    genai: [Generative AI, AI Assistant]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8437828'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:28:56.904814'
+  extracted_at: '2026-08-16T01:22:52.995412'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,53 +1,54 @@
 company:
   name: Kanerika
   stage: null
-  focus: AI governance, compliance, and data solutions
+  focus: Enterprise AI, data, and governance solutions
 position:
   title: Senior AI Governance Java Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is primarily a Java backend engineering position
-      focused on building AI governance, observability, and
-      compliance platforms. The engineer builds infrastructure
-      (evaluator services, telemetry pipelines, dashboards) that
-      monitors and governs AI interactions, rather than directly
-      building, training, or fine-tuning AI/ML models themselves.
+      The role builds pluggable evaluator services, AI risk
+      scoring systems, and evaluation/governance pipelines that
+      judge and monitor output quality for LLM platforms (Bedrock,
+      Azure AI Foundry, Vertex AI, OpenAI, Anthropic). Building
+      evals, guardrails, and output-quality monitoring is shaping,
+      and the targets are LLMs, so this is ai-first despite the
+      Java platform engineering framing.
   responsibilities:
-  - Design and build pluggable evaluator services using Java and Spring Boot for AI
-    governance
-  - Develop scalable SaaS/cloud-native backend services and microservices
+  - Design and build pluggable evaluator services using Java and Spring Boot
+  - Develop scalable multi-tenant SaaS and cloud-native backend services and microservices
   - Integrate with AI platforms including AWS Bedrock, Azure AI Foundry, Google Vertex
     AI, OpenAI, and Anthropic APIs
   - Build orchestration frameworks and schedulers for evaluation execution workflows
   - Develop AI risk scoring systems and evaluation pipelines
-  - Design and implement telemetry, monitoring, and observability solutions for AI
-    interactions
+  - Design telemetry, monitoring, and observability solutions for AI interactions
   - Build dashboards and reporting systems for evaluation results and governance insights
-  - Develop integrations and connectors for cloud-native event streams and event-driven
-    architectures
+  - Develop connectors for cloud-native event streams and event-driven architectures
   use_cases:
-  - AI governance and compliance monitoring across enterprise environments
-  - AI risk scoring and evaluation of AI interactions
-  - Telemetry and observability for AI platform usage
-  - Reporting and dashboards for governance insights
-  - Evaluation pipeline orchestration for AI model assessments
+  - AI governance, compliance, and risk monitoring across enterprise AI deployments
+  - LLM output evaluation and AI risk scoring at scale
+  - Telemetry and observability for AI interactions in large-scale enterprise environments
+  - Governance dashboards and reporting for evaluation results and insights
+  - Securing and auditing AI usage across multi-tenant SaaS platforms
   skills:
-    genai: [AWS Bedrock, Azure OpenAI, OpenAI API, Anthropic API, LLM Evaluation,
-      RAGAS, TruLens, DeepEval]
+    cloud: [AWS Bedrock, Azure AI Foundry, Azure OpenAI, Vertex AI, AWS, Azure, GCP,
+      AWS SDK, Azure SDK, Google Cloud Java Libraries]
+    languages: [Java]
     ml: []
-    web: [Spring Boot, Microservices, REST APIs]
-    databases: [NoSQL]
-    data: [Kafka, Flink, Spark, Data Pipelines]
-    cloud: [Azure AI Foundry, Vertex AI, AWS, Azure, GCP]
-    ops: [CI/CD, GitHub Actions, Jenkins, Docker, Kubernetes, Monitoring, Observability,
-      Distributed Systems]
-    languages: [Java, SQL]
+    other: [Quartz, Event-Driven Architecture, Responsible AI, EU AI Act, AI Risk
+        Assessment]
+    ops: [CI/CD, GitHub Actions, Jenkins, Observability, Telemetry, Distributed Systems]
+    databases: []
     domains: []
-    other: [Event-Driven Architecture, Agile, Code Review]
+    web: [Spring Boot, REST APIs, Microservices]
+    data: [Kafka, Kinesis, Azure Event Hubs, GCP Pub/Sub, Flink, Spark Streaming,
+      Data Pipelines, Data Modeling, Spring Batch]
+    genai: [OpenAI API, Anthropic API, LLM Evaluation, RAGAS, TruLens, DeepEval]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9916216'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:42:40.058290'
+  extracted_at: '2026-08-16T19:07:22.278464'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

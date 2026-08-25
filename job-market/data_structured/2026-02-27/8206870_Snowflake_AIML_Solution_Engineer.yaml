@@ -1,53 +1,62 @@
 company:
   name: Snowflake
-  stage: Public
-  focus: Cloud data platform and data warehouse services
+  stage: null
+  focus: Cloud data platform and enterprise data warehousing
 position:
   title: AI/ML Solution Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This is a customer-facing Solutions Engineer role focused on
-      AI/ML at Snowflake. The role involves providing AI/ML
-      technical guidance, designing architectures, and
-      demonstrating Snowflake's AI/ML capabilities to customers,
-      which qualifies as deploying/configuring AI solutions in
-      customer environments.
+      This is a pre-sales solution engineering role: the person
+      provides AI/ML technical guidance, demos, and Proof of
+      Concept support to help sell the Snowflake data platform.
+      Nothing in the responsibilities involves shaping model
+      behaviour—no prompt engineering, RAG design, model training,
+      or evals. The hands-on requirements are entirely data
+      engineering (ETL/ELT, Spark, lakehouse formats), so the role
+      supports AI adoption rather than shaping models.
   responsibilities:
-  - Provide AI/ML technical guidance to customers in the Retail & Consumer Goods sector
-  - Design and architect Snowflake Cloud Data Platform as part of enterprise data
-    architecture
-  - Support sales cycles with value-based demonstrations and proof of concepts for
-    AI/ML use cases
-  - Apply multi-cloud data architecture expertise in presentations to executives and
-    technical teams
-  - Work hands-on with customers from demo to proof of concept to design and implementation
-  - Maintain understanding of competitive and complementary AI/ML technologies and
-    vendors
-  - Collaborate with Product Management, Engineering, and Marketing to improve products
+  - Provide AI/ML technical guidance to technical and business executives on designing
+    the Snowflake Cloud Data Platform within enterprise data architectures
+  - Work with the sales team to understand customer AI/ML needs, strategize sales
+    cycles, and deliver value-based demonstrations
+  - Support enterprise Proof of Concepts from demo through design and implementation
+    to help close business
+  - Present Snowflake technology and multi-cloud data architecture vision to strategic
+    prospects, customers, and partners
+  - Showcase Snowflake platform capabilities across data ingestion, transformation,
+    and lakehouse workloads for the Retail & Consumer Goods sector
+  - Maintain deep knowledge of competitive and complementary technologies and vendors
+    to position Snowflake in the market
+  - Collaborate with Product Management, Engineering, and Marketing to improve Snowflake's
+    products and marketing
   use_cases:
-  - Enterprise data architecture and AI/ML integration
-  - Data lakehouse implementations with Snowflake
-  - ETL and ELT data pipeline development
-  - Real-time and near real-time data processing
-  - Multi-cloud data platform deployments
-  - Customer AI/ML workload demonstrations and POCs
+  - Enterprise data architecture and platform adoption for the Retail & Consumer Goods
+    sector
+  - Data ingestion, transformation, and lakehouse workloads on the Snowflake platform
+  - ETL and ELT data pipelines and data integration
+  - Streaming and real-time or near real-time use cases such as CDC
+  - AI/ML solution guidance and Proof of Concept demonstrations for enterprise customers
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
-    cloud: [Kinesis]
-    genai: []
-    data: [Pandas, Spark, PySpark, Hadoop, Hive, Apache NiFi, Matillion, Fivetran,
-      Kafka, Flink, Spark Streaming, Data Pipelines, Data Mesh, Data Fabric]
+    cloud: []
+    languages: [Python, SQL]
+    ml: [AI/ML]
     other: []
     ops: []
+    databases: [Snowflake]
+    domains: []
     web: []
-    databases: [Snowflake, Iceberg, Delta Lake, Parquet, Data Lake]
+    data: [Data Engineering, Pandas, Spark, PySpark, Hadoop, Hive, Data Pipelines,
+      Apache NiFi, Matillion, Fivetran, Qlik, Informatica, Kafka, Flink, Spark Streaming,
+      Kinesis, CDC, Lakehouse, Iceberg, Delta Lake, Parquet, Data Lake, Data Mesh,
+      Data Fabric]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8206870'
   location: New York, USA
   remote: true
-  extracted_at: '2026-03-03T11:28:45.960567'
+  extracted_at: '2026-08-16T00:38:03.432040'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,49 +1,54 @@
 company:
   name: Innovaccer
-  stage: Series F
-  focus: Healthcare data platform and intelligence cloud
+  stage: null
+  focus: Healthcare intelligence cloud and data activation platform
 position:
   title: 3199-AI-Software Development Engineer II
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deployment of AI/ML
-      systems including LLM fine-tuning, multi-agent systems, and
-      predictive analytics tools. The engineer will work directly
-      with prompt engineering, vector databases, and agent
-      frameworks to create AI solutions for healthcare
-      personalization.
+      The role directly shapes LLM behavior: it requires hands-on
+      prompt engineering, fine-tuning LLMs, building multi-agent
+      systems with CrewAI/LangChain/AutoGen, and working with
+      vector databases for retrieval. With LLM and agent
+      components at the core of the responsibilities, this is ai-
+      first.
   responsibilities:
-  - Design and lead the development of various artificial intelligence initiatives
-    to help improve health and wellness of patients
-  - Work with business leaders and customers to understand pain-points and build large-scale
-    solutions for them
+  - Design and lead the development of artificial intelligence initiatives to improve
+    patient health and wellness
+  - Collaborate with business leaders and customers to understand pain points and
+    build large-scale solutions
   - Break down complex business problems into machine learning problems and design
     solution workflows
-  - Integrate agent capabilities or algorithms into data platform products and workflows
-  - Build tools for repeatable data tasks that will accelerate and automate the development
+  - Work with the data platform team to integrate agent capabilities or algorithms
+    into their products and workflows
+  - Build tools for repeatable data tasks that accelerate and automate the development
     cycle
+  - Build algorithms that personalize treatments based on patients' clinical and behavioral
+    history
   use_cases:
-  - Personalize treatments based on clinical and behavioral history of patients
-  - Build predictive analytics tools for healthcare
-  - Improve health and wellness of patients through AI initiatives
-  - Enable intelligent and connected experiences in healthcare delivery
-  - Transform fragmented healthcare data into proactive, coordinated actions
+  - Personalized treatment recommendations based on clinical and behavioral patient
+    history
+  - Predictive analytics tools for healthcare
+  - AI agent capabilities integrated into a healthcare data platform
+  - Automation of repeatable data tasks in the development cycle
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Reinforcement Learning]
     cloud: [AWS]
-    genai: [Prompt Engineering, Fine-Tuning, CrewAI, LangChain, AutoGen, Multi-Agent
-        Systems]
-    data: []
+    languages: [Python]
+    ml: [Reinforcement Learning, Machine Learning]
     other: []
     ops: [Docker, Kubernetes]
-    web: [FastAPI, Django]
-    databases: [Chroma, FAISS, Snowflake]
+    databases: [Vector Databases, Chroma, FAISS, Snowflake]
+    domains: [Healthcare]
+    web: [FastAPI, Django, APIs]
+    data: []
+    genai: [Prompt Engineering, Fine-Tuning, LLMs, Multi-Agent Systems, CrewAI, LangChain,
+      AutoGen]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '6872535'
   location: Noida, IND
-  extracted_at: '2026-02-27T11:42:13.104360'
+  extracted_at: '2026-08-15T23:44:57.373467'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,57 @@
+company:
+  name: CrowdStrike
+  stage: null
+  focus: AI-native cybersecurity and threat prevention
+position:
+  title: Sr. AI Growth Engineer (Remote)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs, builds, and deploys AI agents, agentic
+      workflows, and orchestration pipelines, and builds
+      evaluation frameworks for prompt/output quality — directly
+      shaping LLM behavior. Deliverables are agent-driven, so ai-
+      first.
+  responsibilities:
+  - Build integrations connecting the AI campaign engine to the marketing stack (Workfront,
+    Marketo, Slack, CMS, DAM)
+  - Develop the orchestration layer managing multi-agent pipelines, state persistence,
+    error recovery, and parallel execution
+  - Design and build web UIs making AI workflows accessible to non-technical marketing
+    users
+  - Create production tooling for template generation, design asset pipelines, and
+    content publishing
+  - Build analytics infrastructure including dashboards, agent quality scoring, A/B
+    testing, and feedback loops
+  - Design, build, and deploy custom AI agents and agentic workflows integrating AI
+    APIs, MCP servers, and enterprise systems
+  - Implement auth, permissions, and multi-tenancy for concurrent pipeline execution
+  - Own CI/CD, reliability, and performance/cost optimization for high-volume LLM
+    API calls
+  use_cases:
+  - Agentic AI platform automating end-to-end marketing workflows
+  - AI-driven campaign execution across marketing stack integrations
+  - Automated HTML/email template and design asset generation
+  - Marketing analytics with agent quality scoring and feedback loops
+  - Self-service workflow builder UIs for non-technical marketing users
+  skills:
+    genai: [Anthropic API, OpenAI API, AI Agents, Agentic Workflows, MCP, Multi-Agent
+        Systems, LangChain, CrewAI, Prompt Engineering, RAG, Embeddings]
+    ml: []
+    web: [React, REST APIs, Webhooks, OAuth]
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS]
+    ops: [CI/CD]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: [A/B Testing, HubSpot, Marketo, Workfront, LLM Evaluation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9725492'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T12:20:50.967905'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

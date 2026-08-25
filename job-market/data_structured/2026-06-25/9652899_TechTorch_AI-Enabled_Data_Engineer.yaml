@@ -1,62 +1,70 @@
 company:
   name: TechTorch
-  stage: High-growth (scale-up)
-  focus: Enterprise technology consultancy for private equity
+  stage: ''
+  focus: |-
+    Enterprise technology and AI consulting for private equity-
+    backed businesses
 position:
   title: AI-Enabled Data Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is fundamentally a data engineering role that builds
-      pipelines, platforms, and infrastructure to support AI
-      systems (RAG ingestion, vector store loading, embedding
-      pipelines). While the role uses LLMs within ETL logic and
-      builds data products for AI agents, the core craft is data
-      engineering — not building, training, or fine-tuning AI/ML
-      models themselves.
+      Beyond core data engineering, the role explicitly designs
+      RAG components — RAG ingestion workflows, document chunking,
+      embedding pipelines, and vector store loading — which Step 1
+      defines as shaping (designing retrieval/RAG). It also uses
+      LLMs as active components in ETL logic and exposes data
+      infrastructure as tools for AI agents via MCP, both LLM-
+      centric shaping activities, so it classifies as ai-first
+      rather than ai-support.
   responsibilities:
   - Design, build, and maintain scalable data pipelines and ETL/ELT workflows across
     cloud and on-prem environments
-  - Work with Snowflake, Databricks, and Delta Lake for ingestion, transformation,
-    storage optimization, and access patterns
-  - Model data with dbt including modular SQL transformations, dependency management,
-    data contracts, and documentation
+  - Model data with dbt, enforce data contracts, and design warehouse schemas, semantic
+    layers, and data lake structures balancing performance, cost, and queryability
+  - Implement data quality frameworks with testing, validation, alerting, and lineage
+    as first-class citizens in every pipeline
   - Orchestrate workflows across Airflow, Dagster/Prefect, Azure Data Factory, and
-    Databricks Workflows
-  - Build data pipelines that feed AI systems including RAG ingestion, vector store
-    loading, document chunking, and embedding pipelines
+    Databricks Workflows, applying DataOps practices including CI/CD, infrastructure
+    as code, and observability
+  - Own end-to-end reliability of data products — monitoring, alerting, incident response,
+    and root cause analysis
+  - Build pipelines that feed AI systems, including RAG ingestion workflows, vector
+    store loading, document chunking, and embedding pipelines
   - Use LLMs as active components in ETL logic for classification, entity extraction,
-    enrichment, and data quality remediation
+    enrichment, and in-flight data quality remediation
   - Expose data infrastructure as consumable tools for AI agents via MCP or similar
-    agent-integration patterns
-  - Apply DataOps practices including CI/CD, infrastructure as code, observability,
-    and incident response
+    agent-integration patterns, and use AI-paired programming as a daily productivity
+    layer
   use_cases:
-  - RAG ingestion workflows and embedding pipelines for AI-powered search and retrieval
-  - Vector store loading and document chunking for AI applications
-  - AI-augmented ETL using LLMs for classification, entity extraction, and data enrichment
-  - Enterprise data warehousing and data lake architecture for business intelligence
-  - Data quality frameworks with testing, validation, alerting, and lineage tracking
-  - Agent-integrated data tooling via MCP for AI agent consumption
+  - Data-driven transformation and value creation for private equity-backed businesses
+  - 'Enterprise data infrastructure: ingestion, warehousing, and governed metrics
+    via semantic layers'
+  - AI-ready data products feeding RAG systems and AI agents
+  - LLM-powered data classification, entity extraction, and enrichment in pipelines
+  - Automated data quality testing, remediation, and pipeline reliability
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: [Feast, Tecton]
-    cloud: [AWS S3, AWS Glue, AWS Redshift, Azure ADLS, Azure Synapse, AWS, Azure]
-    genai: [RAG, Embedding pipelines, LLM integration in ETL, MCP, AI-paired programming
-        (Claude Code)]
-    data: [Databricks, Delta Lake, dbt, Airflow, Dagster, Prefect, Azure Data Factory,
-      Databricks Workflows, Spark, PySpark, Data Pipelines, Semantic Layer, Dimensional
-        Modeling, Data Lineage, Kafka, Spark Streaming, Flink, Snowpark]
+    cloud: [AWS, AWS S3, AWS Glue, Azure, Azure Data Factory, Azure Data Lake Storage,
+      Synapse]
+    languages: [Python, SQL]
+    ml: []
     other: []
-    ops: [Docker, CI/CD, Infrastructure as Code]
+    ops: [CI/CD, Infrastructure as Code, DataOps, Observability]
+    databases: [Snowflake, Redshift, Vector Databases, Pinecone, Weaviate, Qdrant,
+      pgvector]
+    domains: []
     web: []
-    databases: [Snowflake, Vector Databases, Data Warehousing, Data Lakes, Pinecone,
-      Weaviate, Qdrant, pgvector]
+    data: [Data Pipelines, Databricks, Delta Lake, dbt, Data Modeling, Dimensional
+        Modeling, Data Quality, Data Lineage, Data Contracts, Semantic Layer, Data
+        Warehouses, Data Lakes, Airflow, Dagster, Prefect, Spark, PySpark, Kafka,
+      Spark Streaming, Flink, Feature Stores, Data Mesh, Snowpark]
+    genai: [RAG, Embeddings, MCP, LLMs, AI Agents, Claude Code]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9652899'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:43:39.865923'
+  extracted_at: '2026-08-16T13:50:58.722087'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

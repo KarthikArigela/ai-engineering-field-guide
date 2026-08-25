@@ -1,0 +1,56 @@
+company:
+  name: Acuvon Consulting Private Limited
+  stage: null
+  focus: |-
+    Management consulting: strategy, analytics, restructuring,
+    due diligence
+position:
+  title: Data Engineer | AI & Analytics
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains data pipelines that consume AI
+      prototypes built by other teams; the engineer does not shape
+      any model's behavior through prompts, retrieval, or
+      training. AI is only mentioned as an input to be
+      productionized, so this is ai-support.
+  responsibilities:
+  - 'Own pipeline implementation end-to-end: environment and connectivity setup, build,
+    validation, deployment and go-live support'
+  - Translate business rules and AI-generated prototypes from consulting teams into
+    validated, production-ready pipelines
+  - 'Integrate diverse data sources: ERP systems, databases, external data, and non-standard
+    Excel and flat files'
+  - Define and automate tests including schema checks, row-count and value reconciliations,
+    and failure alerts
+  - Review SQL data models and database design and recommend improvements for scalability,
+    performance and maintainability
+  - Manage development and production deployments; monitor and troubleshoot pipelines
+    in production
+  - Work directly with client IT teams on connectivity, access, security and deployment
+    requirements
+  use_cases:
+  - Productionizing AI and analytics prototypes into scalable data pipelines for consulting
+    clients
+  - Data integration from ERP systems, databases, and external file sources
+  - Automated data validation and reconciliation for client analytics
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [Azure SQL, SQL Data Modeling]
+    data: [Data Pipelines]
+    cloud: [Azure Data Factory, Azure Self-Hosted Integration Runtime, Microsoft Entra
+        ID]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10827454'
+  location: Noida, IND
+  extracted_at: '2026-08-25T12:14:30.680768'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

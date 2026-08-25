@@ -1,58 +1,64 @@
 company:
   name: Navitas Business Consulting
   stage: null
-  focus: Digital transformation and technology solutions consulting
+  focus: Digital transformation technology consulting and solutions
 position:
   title: '26-2249: Conversational AI Developer - Hyderabad, India'
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on with LLMs and conversational AI
-      systems. The developer directly integrates
-      GPT-4/Claude/Llama APIs, implements RAG patterns with vector
-      databases, performs prompt engineering, and deploys chatbots
-      using LangChain/LlamaIndex. This is core AI model work, not
-      supporting infrastructure.
+      The role directly shapes LLM behavior: it designs multi-turn
+      dialogue flows and context management, applies RAG patterns
+      with vector databases, fine-tunes prompt engineering
+      strategies, and builds guardrails and output-quality
+      evaluations (accuracy, hallucination rates) for LLM-powered
+      chatbots. LLM integration (GPT-4, Claude, Llama, Gemini) is
+      central to the role, so it is ai-first.
   responsibilities:
-  - Architect and develop conversational AI solutions using LangChain, Rasa, Dialogflow,
-    Amazon Lex, or Azure Bot Services
+  - Architect and develop conversational AI chatbot and virtual assistant solutions
+    using frameworks such as LangChain, Rasa, Dialogflow, Amazon Lex, and Azure Bot
+    Services
   - Design and implement multi-turn dialogue flows, context management, and state
-    tracking for complex scenarios
+    tracking for complex conversational scenarios
   - Integrate large language models (GPT-4, Claude, Llama, Gemini) via APIs and fine-tune
-    prompt engineering strategies
-  - Build, test, and deploy chatbots across channels including web, mobile, Slack,
-    Teams, WhatsApp, and voice platforms
-  - Develop intent classification, entity recognition (NER), and dialogue management
-    pipelines
-  - Apply RAG patterns and vector database integrations (Pinecone, Weaviate, ChromaDB)
-    to ground LLM responses
-  - Implement guardrails, content moderation, and safety layers for compliant AI responses
-  - Integrate chatbot solutions with enterprise systems via RESTful APIs and deploy
-    on cloud platforms (AWS, Azure, GCP)
+    prompt engineering strategies for optimal performance
+  - Develop and maintain intent classification, entity recognition, and dialogue management
+    NLP pipelines
+  - Apply RAG patterns with vector database integrations and implement guardrails,
+    content moderation, and safety layers for compliant, on-brand responses
+  - Integrate chatbot solutions with enterprise systems (CRM, ERP, ticketing, knowledge
+    bases) via REST APIs and webhooks
+  - Deploy and manage chatbot infrastructure on cloud platforms using Docker, Kubernetes,
+    and CI/CD pipelines
+  - Monitor conversation logs and session metrics to evaluate and improve model accuracy,
+    latency, hallucination rates, and user satisfaction
   use_cases:
-  - Enterprise chatbots and virtual assistants for customer service and internal support
-  - Multi-channel conversational interfaces across web, mobile, Slack, Teams, WhatsApp,
-    and voice
-  - Knowledge management and enterprise search using RAG with vector databases
-  - Automated intent classification and entity recognition for natural language understanding
-  - Integration with CRMs, ERPs, and ticketing platforms for streamlined workflows
-  - Voice AI applications and conversational experiences with safety guardrails
+  - Enterprise chatbots and virtual assistants delivering human-like customer interactions
+  - Knowledge-grounded question answering over enterprise knowledge bases using RAG
+    and vector databases
+  - Omnichannel chatbot deployment across web, mobile, Slack, Microsoft Teams, WhatsApp,
+    and voice platforms
+  - Enterprise support automation via CRM, ERP, ticketing, and knowledge base integrations
+  - Voice assistant interactions on platforms such as Amazon Alexa and Google Assistant
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Lambda, Azure Functions, Cloud Run, Azure AI Foundry]
     languages: [Python, JavaScript, Node.js]
-    ml: [spaCy, Hugging Face, NLTK, NER, intent classification, RLHF]
-    cloud: [Azure AI Foundry, AWS Lambda, Azure Functions, GCP Cloud Run]
-    genai: [LangChain, LlamaIndex, Semantic Kernel, Dialogflow, Amazon Lex, Azure
-        Bot Services, Rasa, GPT-4, Anthropic API, Llama, Gemini, Prompt Engineering,
-      RAG]
-    data: []
-    other: []
+    ml: [spaCy, Hugging Face, NLTK, RLHF, Intent Classification, Named Entity Recognition]
+    other: [GDPR, CCPA, Responsible AI]
     ops: [Docker, Kubernetes, CI/CD, LangSmith, Weights & Biases, Arize AI]
-    web: [REST APIs, webhooks]
-    databases: [Pinecone, Weaviate, Chroma]
+    databases: [Pinecone, Weaviate, Chroma, Vector Databases]
+    domains: [NLP]
+    web: [REST APIs, Webhooks]
+    data: []
+    genai: [LangChain, Rasa, Dialogflow, Amazon Lex, Azure Bot Framework, LLMs, OpenAI
+        API, Anthropic API, Gemini, Llama, Prompt Engineering, RAG, Guardrails, LlamaIndex,
+      Semantic Kernel, Embeddings, Semantic Search, Conversational AI, Prompt Flow,
+      Fine-Tuning, Dialogue Management, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9222300'
   location: Hyderabad, IND
-  extracted_at: '2026-05-29T08:58:27.091023'
+  extracted_at: '2026-08-16T09:35:54.048396'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

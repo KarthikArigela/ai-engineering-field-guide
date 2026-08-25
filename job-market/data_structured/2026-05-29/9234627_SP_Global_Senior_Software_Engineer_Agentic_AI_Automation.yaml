@@ -1,49 +1,55 @@
 company:
   name: S&P Global
-  stage: Public
-  focus: Essential Intelligence and financial analytics
+  stage: ''
+  focus: Financial market intelligence, data, and analytics services
 position:
   title: Senior Software Engineer (Agentic AI Automation)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building autonomous AI agents
-      that reason, plan, and execute actions. The engineer will
-      implement adaptive workflows using LangChain/LangGraph and
-      deploy LLMs (Gemini, Claude) across a multicloud stack,
-      which constitutes hands-on work with agentic AI systems
-      rather than just supporting infrastructure.
+      The role builds autonomous AI agents and "Agentic Loops"
+      using LangChain/LangGraph, and hands-on deploys and
+      configures LLMs (Gemini, Claude) within automation pipelines
+      - directly designing agent flows and shaping model behaviour
+      (Step 1: yes). Since LLM/agent components are central, Step
+      2 yields ai-first.
   responsibilities:
-  - Build and refine autonomous AI agents capable of reasoning and planning using
-    LangChain or LangGraph frameworks
-  - Integrate LLMs across a multicloud stack including Gemini (GCP) and Claude (AWS)
-    within automation pipelines
-  - Execute hybrid low-code/pro-code strategy configuring Moveworks SparkActions while
-    writing Python backends
-  - Develop and maintain secure API connectors to enterprise systems like ADO, ServiceNow,
-    Concur, and Jira
-  - Participate in code reviews and ensure high standards of documentation and security
-    for AI tools
-  - Collaborate with Technical Leads to transform requirements into functional automated
-    agentic flows
+  - Build and refine autonomous AI agents capable of reasoning and planning, implementing
+    adaptive workflows using frameworks like LangChain and LangGraph
+  - Deploy and configure LLMs such as Gemini (GCP) and Claude (AWS) across a multicloud
+    automation stack
+  - Execute a low-code/pro-code hybrid strategy by configuring Moveworks SparkActions
+    for front-end interaction while writing Python backends for complex logic
+  - Develop and maintain secure API connectors enabling AI agents to interact with
+    enterprise systems like ADO, ServiceNow, Concur, and Jira
+  - Participate in code reviews, maintain documentation, and support scalability and
+    security of AI tools
+  - Collaborate with Technical Leads and Business Analysts to translate requirements
+    into functional automated agentic flows
   use_cases:
-  - Autonomous AI agents for enterprise workflow automation
-  - Multi-step reasoning and planning for business process solutions
-  - Integration of AI with enterprise systems (ADO, ServiceNow, Concur, Jira)
-  - Low-code/pro-code hybrid automation workflows
-  - Intent recognition and data extraction using LLMs
-  - Chat-based user interactions via Slack/Teams interfaces
+  - Autonomous AI agents that reason through problems, plan multi-step solutions,
+    and execute actions across enterprise systems
+  - Enterprise workflow automation connecting disparate business systems (APIs, databases,
+    SaaS) into single functional journeys
+  - LLM-powered data extraction and intent recognition to make workflows smarter
+  - Chat-based employee assistance bots (Slack/Teams) acting as intelligent partners
+    for global employees
+  - Secure cross-system integrations so agents can act on platforms like ADO, ServiceNow,
+    Concur, and Jira
   skills:
-    domains: [ServiceNow]
-    languages: [Python, Node.js, SQL]
+    cloud: [GCP, AWS, Azure, AWS Bedrock, Azure AI Foundry, IAM, Secret Manager, API
+        Gateway, Serverless]
+    languages: [Python, Node.js]
     ml: []
-    cloud: [AWS, GCP, Azure AI Foundry, AWS Bedrock, IAM, Secret Manager, API Gateway]
-    genai: [LangChain, LangGraph, CrewAI, AutoGen, Gemini, Anthropic API, GPT, Moveworks]
-    data: [JSON]
-    other: [PowerPlatform, Workato]
-    ops: [LLM deployment, Git, CI/CD, Docker]
-    web: [REST, SOAP]
-    databases: [Vector Databases]
+    other: [ServiceNow, Power Platform, Workato, Salesforce, Jira, Concur, Workflow
+        Automation]
+    ops: [Git, CI/CD, Docker, Azure DevOps]
+    databases: [SQL, Vector Databases]
+    domains: []
+    web: [REST APIs, SOAP, JSON]
+    data: []
+    genai: [Agentic Workflows, AI Agents, LangChain, LangGraph, CrewAI, AutoGen, LLMs,
+      Generative AI, Gemini, Anthropic API, GPT, Moveworks, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -52,4 +58,6 @@ meta:
   locations:
   - Islamabad, PAK
   - Hyderabad, IND
-  extracted_at: '2026-05-29T08:58:07.018296'
+  extracted_at: '2026-08-16T09:45:03.672041'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

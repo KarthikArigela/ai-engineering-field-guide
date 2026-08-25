@@ -1,52 +1,51 @@
 company:
   name: hyperexponential
-  stage: Series B
-  focus: AI-powered pricing and underwriting platform for insurance
+  stage: Backed by a16z, Highland Europe, and Battery Ventures
+  focus: AI-powered insurance pricing and underwriting platform
 position:
   title: AI Engineer - Platform/MLOps
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is an AI Platform/MLOps position focused on
-      building infrastructure and tooling for other teams to
-      deploy and operate AI systems. The engineer creates shared
-      services (LLM gateway, evaluation frameworks, monitoring)
-      and self-service tools but does not build, train, or fine-
-      tune models themselves.
+      This is a platform/MLOps role that builds and operates
+      shared AI infrastructure — LLM inference, gateway
+      routing/caching, observability, evaluation pipelines, and
+      self-service SDKs — for product and research teams. The
+      person does not write prompts, design retrieval or agent
+      flows, train models, or judge output quality themselves; the
+      deliverable is capacity, reliability, and developer
+      experience, which matches the serving/scaling edge case for
+      ai-support.
   responsibilities:
   - Design and operate scalable AI infrastructure for LLM inference, prompt management,
-    and evaluation pipelines supporting billions in premium flow
-  - Build self-service tools, SDKs, and APIs that enable product teams to move from
-    prototype to production faster
+    and evaluation pipelines
+  - Build self-service tools, SDKs, and APIs that help product teams move from prototype
+    to production faster
   - Instrument production AI/ML workloads with standardized logging, tracing, and
     evaluation metrics for full observability coverage
-  - Implement intelligent routing, caching, and provider optimization via LLM gateway
-    to reduce AI compute costs
-  - Drive adoption of shared platform services including LLM gateway, evaluation frameworks,
-    and monitoring across AI features
+  - Implement intelligent routing, caching, and provider optimization via the LLM
+    gateway to reduce AI compute costs
+  - Drive adoption of shared platform services (LLM gateway, evaluation frameworks,
+    monitoring) to replace bespoke solutions
   - Champion developer experience through comprehensive documentation and responsive
-    support for internal customers
+    internal support
   use_cases:
-  - Domain-specific AI peer programmer for actuaries and underwriters (similar to
-    GitHub Copilot with actuarial science expertise)
-  - Large-scale document intelligence for insurance submission and decision processing
-  - Agentic workflows that automate insurance industry operations
-  - AI-powered pricing decisions determining which risks to take and how to price
-    them
-  - Real-time underwriting decision support for complex risk assessment
+  - AI-powered insurance pricing and underwriting decisions
+  - Domain-specific AI peer programmer for actuaries and underwriters
+  - Large-scale document intelligence for the insurance industry
+  - Safe, scalable serving and evaluation of production AI models
+  - Cost-efficient LLM routing and caching across providers
   skills:
-    domains: []
-    languages: [Python]
-    ml: [A/B testing]
     cloud: []
-    genai: [prompt management]
-    data: [Data Pipelines]
-    other: []
-    ops: [Model Deployment, evaluation pipelines, Observability, deployment automation,
-      compute orchestration, LLM gateway, intelligent routing, caching, logging, tracing,
-      cost optimization, Docker, Kubernetes, CI/CD]
-    web: [SDK development, APIs]
+    languages: []
+    ml: []
+    other: [A/B Testing]
+    ops: [MLOps, Model Deployment, LLM Gateway, Observability, Monitoring]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [LLM Evaluation, Prompt Management, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +54,6 @@ meta:
   locations:
   - London, GBR
   - Warsaw, POL
-  extracted_at: '2026-02-05T12:06:45.122597'
+  extracted_at: '2026-08-15T22:46:50.961426'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

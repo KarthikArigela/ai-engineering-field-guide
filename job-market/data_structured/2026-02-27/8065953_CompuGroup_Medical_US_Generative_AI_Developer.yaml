@@ -1,51 +1,57 @@
 company:
   name: CompuGroup Medical US
-  stage: Public
-  focus: Digital healthcare, EHR, billing, RCM services
+  stage: ''
+  focus: Digital healthcare software (EHR, billing, RCM)
 position:
   title: Generative AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work building Generative AI and
-      Agentic systems including prompt engineering, fine-tuning
-      models (GPT-5, Gemini 2.5 Pro), implementing RAG, and
-      developing/training generative models. The position directly
-      works ON AI systems rather than just supporting them.
+      The role directly shapes LLM behavior: developing and
+      refining prompts with RAG, fine-tuning pre-trained LLMs like
+      GPT-5 and Gemini 2.5 Pro, and building Agentic AI solutions.
+      Since LLM and agent components are central to the
+      responsibilities, this is ai-first.
   responsibilities:
-  - Write clean, efficient, and well-documented code manually and in an automated
-    fashion using tools like GitHub Copilot
+  - Write clean, efficient, well-documented code manually and in an automated fashion
+    using tools like GitHub Copilot
   - Work with product teams to understand user requirements and translate them into
     AI-driven solutions
-  - Develop and refine prompts for known large language models (LLMs) to enhance AI
-    model performance using techniques like Retrieval-Augmented Generation (RAG)
+  - Develop and refine prompts for LLMs using techniques like Retrieval-Augmented
+    Generation (RAG)
   - Develop, train, and optimize generative AI models including text, image, audio,
-    or video generation systems
+    and video generation systems
   - Fine-tune pre-trained models such as GPT-5 and Gemini 2.5 Pro for specific use
     cases and datasets
-  - Develop Agentic AI solutions and integrate AI models into scalable production
-    pipelines and applications
+  - Develop Agentic AI solutions to automate manual processes
+  - Integrate AI models into scalable production pipelines and monitor and maintain
+    API services in production
+  - Research and implement the latest scientific advances in generative AI and continuously
+    evaluate new AI tools
   use_cases:
-  - Healthcare information access and utilization enhancement
-  - Electronic Health Records (EHR) systems with AI capabilities
-  - Billing, Payment services, and Revenue Cycle Management (RCM) optimization
-  - AI-powered content creation, enhancement, and analysis for healthcare professionals
-  - Automated manual process automation through Agentic AI systems
+  - AI products that create, enhance, or analyze content across various domains
+  - Automating manual processes with Agentic AI
+  - Healthcare technology solutions for digital e-health (EHR, billing, revenue cycle
+    management)
+  - Third-party system integrations and backend enhancements for AI applications
+  - Use-case-specific fine-tuning of pre-trained LLMs on domain datasets
   skills:
-    domains: [NLP, Computer Vision]
-    languages: [Python]
-    ml: [machine learning model training]
     cloud: []
-    genai: [GPT, Claude 3.5 Sonnet, Gemini, Prompt Engineering, RAG, AI Agents, Fine-Tuning,
-      LLMs]
-    data: []
-    other: [GitHub Copilot]
+    languages: [Python]
+    ml: [Deep Learning, NLP, Machine Learning, Model Training]
+    other: []
     ops: []
-    web: [APIs]
     databases: []
+    domains: [Computer Vision]
+    web: [APIs]
+    data: []
+    genai: [Generative AI, Prompt Engineering, RAG, LLMs, AI Agents, Fine-Tuning,
+      Gemini, GPT-5, Anthropic API, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8065953'
   location: Noida, IND
-  extracted_at: '2026-02-27T12:29:59.270197'
+  extracted_at: '2026-08-16T00:24:16.648943'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,54 @@
 company:
   name: Capital One
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Distinguished AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with AI systems including
-      foundation model training, large language model inference,
-      LLM optimization techniques, similarity search, and
-      guardrails. The engineer will design, develop, deploy and
-      support AI software components directly working with models
-      and inference systems, not just infrastructure or data
-      pipelines.
+      The role directly shapes model behaviour: it builds
+      foundation model training, LLM inference optimization
+      techniques, guardrails, and model evaluation for LLM-based
+      production systems, which is shaping work under Step 1.
+      Since the targets are LLMs and generative components, Step 2
+      yields ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that change
-    how associates work and customers interact with Capital One
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, large language model inference, similarity search, guardrails,
-    model evaluation, experimentation, governance, and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, PyTorch, and more
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, latency, and throughput of large scale production AI systems
-  - Contribute to the technical vision and long term roadmap of foundational AI systems
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Informing customers about unusual charges and fraud detection
-  - Answering customer questions in real time through conversational AI
-  - Enhancing associate productivity with AI-powered tools
-  - Responsible and scalable AI deployment for millions of banking customers
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - Foundational AI platforms empowering teams across the company to enhance products
+    with AI
   skills:
-    domains: []
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [PyTorch, Hugging Face, Model Evaluation]
-    cloud: [AWS]
-    genai: [Large Language Model Inference, Foundation Model Training, Guardrails,
-      Similarity Search]
-    data: []
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [LLM Optimization, Experimentation, Governance, Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
-  is_customer_facing: true
-  is_management: true
+    data: []
+    genai: [Guardrails, LLMs]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '8170033'
   location: McLean, USA
@@ -56,4 +59,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-27T11:59:57.679850'
+  extracted_at: '2026-08-16T00:34:56.916618'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

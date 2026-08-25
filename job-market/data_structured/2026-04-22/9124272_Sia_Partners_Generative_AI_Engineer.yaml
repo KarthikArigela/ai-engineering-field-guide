@@ -1,57 +1,68 @@
 company:
   name: Sia Partners
-  stage: Established (founded 1999, 3,500+ consultants globally)
+  stage: null
   focus: |-
-    Global management consulting combining strategy with data
-    science and technology
+    Global management consulting combining strategy, data
+    science, and technology
 position:
   title: Generative AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, deploying, and optimizing
-      GenAI/LLM-powered applications including RAG pipelines,
-      autonomous agents, prompt engineering, and fine-tuning
-      strategies. The engineer works hands-on with models (OpenAI,
-      Claude, Mistral) and GenAI frameworks (LangChain,
-      LlamaIndex) to create production AI solutions for clients.
+      The role directly shapes model behaviour: it designs prompt
+      templates (CoT, ReAct, Graph-of-Thought), builds RAG
+      pipelines with vector databases, builds autonomous agents,
+      benchmarks LLMs for use-case fit, and evaluates fine-tuning
+      strategies (PEFT, LoRA, RLHF). Since the shaped models are
+      LLMs and agents, this is ai-first, consistent with the
+      Generative AI Engineer mandate.
   responsibilities:
   - Build LLM-powered applications using LangChain, LlamaIndex, and related GenAI
-    frameworks with models like OpenAI, Claude, and Mistral
-  - Implement RAG pipelines with vector databases for grounding LLM responses with
-    internal knowledge
-  - Develop multimodal AI solutions (text, audio, image) and build autonomous agents
-  - Design and optimize prompt templates using Chain-of-Thought, ReAct, Graph-of-Thought,
-    and Agent flows
-  - Deploy GenAI models on AWS/GCP/Azure using SageMaker, Bedrock, and Vertex AI
-  - Drive MLOps excellence including CI/CD for ML pipelines, drift detection, canary
-    releases, and retraining schedules
-  - Benchmark open-source and commercial LLMs for use-case fit and cost-performance
-    tradeoffs, evaluating fine-tuning strategies (PEFT, LoRA, RLHF)
+    frameworks
+  - Implement RAG pipelines with vector databases (Pinecone, FAISS, pgvector, ChromaDB)
+    to ground LLM responses in internal knowledge
+  - Design reusable prompt templates and agent flows using CoT, ReAct, and Graph-of-Thought
+    techniques, and tune prompt flows for model reliability
+  - Benchmark open-source and commercial foundation models for use-case fit and cost-performance
+    tradeoffs, and evaluate fine-tuning strategies (PEFT, LoRA, RLHF)
+  - Deploy GenAI models on AWS/GCP/Azure using services like SageMaker, Bedrock, and
+    Vertex AI
+  - Drive MLOps excellence including CI/CD for ML pipelines, drift detection, and
+    canary releases
   - Ensure performance observability, security guardrails, and compliance (GDPR, Responsible
-    AI) while integrating GenAI solutions into microservices and APIs
+    AI), and integrate GenAI solutions into microservices and APIs (FastAPI/Flask)
+  - Work with customers and cross-functional teams to design bespoke GenAI solutions
+    and support PoCs, enterprise rollouts, and documentation of best practices
   use_cases:
-  - RAG-based enterprise knowledge retrieval and semantic search across industries
-  - Multimodal AI solutions processing text, audio, and image data
-  - Autonomous AI agents for business process automation
-  - Industry-specific GenAI applications for energy, banking, healthcare, and technology
-    sectors
-  - Enterprise-grade GenAI PoC development and production rollout
+  - Bespoke GenAI solutions for client business problems across industries (energy,
+    banking, healthcare, technology)
+  - Grounding LLM responses in internal enterprise knowledge via semantic search and
+    RAG
+  - Autonomous agents and multimodal AI applications spanning text, audio, and image
+  - Cost-effective model refinement ranging from semantic search and RAG to agents
+    and fine-tuning
+  - Enterprise-grade GenAI applications with performance observability, security guardrails,
+    and GDPR/Responsible AI compliance
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [PyTorch, Hugging Face, Transformers, Embedding techniques]
     cloud: [AWS, GCP, Azure, SageMaker, AWS Bedrock, Vertex AI]
-    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, LoRA, RLHF, OpenAI API,
-      Anthropic API, Chain-of-Thought, ReAct prompting, AI Agents]
+    languages: [Python]
+    ml: [PyTorch, Hugging Face, Transformers, Machine Learning]
+    other: [GDPR, Responsible AI]
+    ops: [MLOps, CI/CD, Observability]
+    databases: [Vector Databases, Pinecone, FAISS, pgvector, Chroma, Qdrant, Milvus,
+      Weaviate]
+    domains: [NLP]
+    web: [FastAPI, Flask, Microservices, APIs]
     data: []
-    other: [GDPR compliance]
-    ops: [Docker, CI/CD, MLOps, Microservices]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Pinecone, FAISS, pgvector, Chroma, Qdrant, Milvus, Weaviate]
+    genai: [LangChain, LlamaIndex, RAG, Semantic Search, Prompt Engineering, LLMs,
+      OpenAI API, Anthropic API, Mistral, Generative AI, AI Agents, Agentic Workflows,
+      Chain of Thought, ReAct, Graph of Thought, Guardrails, LoRA, RLHF, Fine-Tuning,
+      LLM Evaluation, Embeddings, Multimodal AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9124272'
   location: Mumbai, IND
-  extracted_at: '2026-04-22T13:49:49.652195'
+  extracted_at: '2026-08-16T08:26:33.739744'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

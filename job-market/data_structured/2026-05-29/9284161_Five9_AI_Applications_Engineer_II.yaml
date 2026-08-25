@@ -1,56 +1,65 @@
 company:
   name: Five9
-  stage: Public
-  focus: |-
-    Cloud contact center software and AI-powered customer
-    experience solutions
+  stage: null
+  focus: Cloud contact center software provider
 position:
   title: AI Applications Engineer II
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is primarily focused on platform administration,
-      governance, and support for Gemini Enterprise, not building
-      or fine-tuning models. While there is some prompt
-      engineering and agentic workflow work mentioned, the core
-      responsibility is managing the AI platform infrastructure
-      (user provisioning, security, compliance, cloud resources)
-      and supporting others who use AI tools.
+      The role explicitly includes conducting prompt engineering
+      and workflow optimization to improve agentic AI accuracy and
+      relevance, plus configuring and optimizing Gemini
+      Enterprise's AI agent functionality — this is directly
+      shaping LLM/agent behavior (Step 1 yes, LLM/agent components
+      → ai-first). The substantial platform administration,
+      governance, and support duties do not change this since the
+      shaping activities are core responsibilities rather than
+      incidental tool use.
   responsibilities:
-  - Administer, configure, and optimize Gemini Enterprise and related AI agentic functionality
-    to ensure seamless performance and compliance within Five9 environments
+  - Administer, configure, and optimize the Gemini Enterprise agentic AI platform
+    for seamless performance, compliance, and scale across Five9 environments
   - Manage user provisioning, license assignments, access controls, and security policies
-    ensuring consistency with IT governance standards
-  - Oversee Google Cloud Platform resources including AI/ML engine, storage, and Gemini
-    AI models focusing on reliability, performance, and cost management
-  - Support cloud run workflows, CI/CD automation pipelines, and containerized environments
+    aligned with IT, Infosec, and compliance governance standards
+  - Oversee GCP resources including project services, AI/ML engine, storage, and Gemini
+    AI models, focusing on reliability, performance, and cost management
+  - Support Cloud Run workflows, CI/CD automation pipelines, and containerized environments
     using Terraform, Docker, and Kubernetes
-  - Partner with data engineers, DevOps teams, and business stakeholders to troubleshoot
-    issues and implement updates for production workloads
   - Conduct prompt engineering and workflow optimization to improve agentic AI accuracy,
     responsiveness, and relevance
-  - Maintain documentation, runbooks, and best practice guides for platform operations
-    and deliver training sessions to end users on Gemini Enterprise capabilities
+  - Partner with data engineers, DevOps teams, and business stakeholders to troubleshoot
+    issues, implement updates, and support production workloads
+  - Maintain documentation, runbooks, and best-practice guides, and deliver training
+    and enablement sessions on Gemini Enterprise capabilities and AI use cases
+  - Evaluate emerging Google AI and Gemini agentic technologies and recommend improvements
+    for scalability and automation
   use_cases:
-  - Enterprise agentic AI platform for contact center operations
-  - AI-powered customer experience and support automation
-  - Secure and compliant AI agent deployment across enterprise systems
-  - Google Gemini Enterprise integration with contact center workflows
-  - Automated business process optimization and workflow enhancement
+  - Enterprise agentic AI platform (Gemini Enterprise) administration, governance,
+    and support at organizational scale
+  - Agentic AI and automation POCs that improve performance, user experience, and
+    integration with Five9 enterprise systems
+  - Prompt engineering and workflow optimization to improve agentic AI accuracy, responsiveness,
+    and relevance
+  - Enterprise workflow transformation through AI innovation, scalability, and operational
+    excellence
+  - Internal user enablement and AI adoption across the global enterprise
   skills:
-    domains: []
+    cloud: [GCP, IAM, Compute Engine, VPC, Cloud Run, DLP, Access Transparency]
     languages: [Python, Bash]
-    ml: []
-    cloud: [GCP, IAM, VPC, Cloud Run, DLP]
-    genai: [Gemini Enterprise, Prompt Engineering]
-    data: []
+    ml: [Machine Learning]
     other: []
-    ops: [Terraform, Docker, Kubernetes, CI/CD, Infrastructure as Code]
-    web: []
+    ops: [Kubernetes, Docker, Terraform, Infrastructure as Code, CI/CD, MLOps, Deployment
+        Manager]
     databases: [BigQuery]
+    domains: []
+    web: []
+    data: [Data Governance]
+    genai: [Gemini, Prompt Engineering, AI Agents, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9284161'
   location: Chennai, IND
-  extracted_at: '2026-05-29T09:00:00.904486'
+  extracted_at: '2026-08-16T10:02:52.583371'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,56 +1,62 @@
 company:
   name: Omada Health
-  stage: Public
-  focus: Virtual-first chronic disease care and prevention
+  stage: 'Publicly traded (Nasdaq: OMDA)'
+  focus: Virtual-first chronic disease care and digital health
 position:
   title: Senior Software Engineer, Data & AI Platform
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building data platform
-      infrastructure and services that enable other teams
-      (analytics, data science, Applied-AI) to build AI-powered
-      workflows. While Generative AI is leveraged for platform
-      enhancements (data discovery, governance, documentation),
-      the engineer is not directly building, training, or
-      deploying ML models or LLM-based applications — they are
-      creating the platform and tooling that supports those
-      efforts.
+      The core deliverables are data platform infrastructure —
+      pipelines, governance, lineage, observability, and IaC built
+      with Spark, Kubernetes, Terraform, and Databricks.
+      Generative AI appears as tools/technologies the engineer
+      applies to improve workflows, documentation, and data
+      discovery, with RAG/knowledge-graph mentioned only as a
+      bonus; nothing indicates the person shapes model behaviour
+      via prompts, retrieval design, training, or evals.
   responsibilities:
   - Design, build, and operate scalable Data & AI platform capabilities for analytics,
     data science, and Generative AI use cases
   - Develop reusable abstractions, templates, services, and workflows that standardize
-    data pipeline and data product development
+    how teams build and manage data pipelines and data products
+  - Apply Generative AI to improve data enablement, documentation, discovery, workflow
+    automation, and platform usability
   - Partner with Analytics, Applied-AI, Data Engineering, and application teams to
     deliver platform capabilities supporting business and clinical decision-making
-  - Evaluate and integrate modern data and AI technologies focused on scalability,
+  - Evaluate and integrate modern data and AI technologies with a focus on scalability,
     reliability, developer experience, and cost efficiency
-  - Apply Generative AI technologies to improve data enablement, documentation, discovery,
-    workflow automation, and platform usability
-  - Promote software engineering best practices including CI/CD, infrastructure-as-code,
-    monitoring, and secure data handling
+  - Enforce data quality, lineage, observability, security, and governance practices
+    across the platform
+  - Promote software engineering best practices including clean code, automated testing,
+    CI/CD, infrastructure-as-code, and monitoring
   use_cases:
-  - Data discovery and governance automation using Generative AI
-  - Self-service access to trusted clinical and business data
-  - Scalable data products for analytics and data science teams
-  - AI-powered workflow automation for data platform operations
-  - Clinical and business decision-making support through reliable data infrastructure
+  - Data and AI platform enabling analytics, data science, and Generative AI workloads
+  - Generative AI-powered data discovery, documentation, and self-service access to
+    trusted data
+  - Data governance, quality, lineage, and observability across data products
+  - Workflow automation and developer productivity improvements on the data platform
+  - Data products supporting business and clinical decision-making in chronic disease
+    care
   skills:
-    genai: [Generative AI, RAG]
-    ml: []
-    web: []
-    databases: [Knowledge Graphs, NoSQL, Graph Databases]
-    data: [Spark, Databricks, Delta Lake, Data Pipelines, Data Engineering, Data Governance]
     cloud: []
-    ops: [Kubernetes, Terraform, CI/CD, Infrastructure as Code, MLflow, Model Deployment,
-      Monitoring, Observability]
     languages: [Python, SQL]
+    ml: []
+    other: []
+    ops: [Kubernetes, Terraform, Pulumi, CloudFormation, Infrastructure as Code, CI/CD,
+      MLflow, Model Deployment, Monitoring, Observability, Distributed Systems]
+    databases: [NoSQL, Knowledge Graphs]
     domains: []
-    other: [HIPAA Compliance, Distributed Systems]
+    web: []
+    data: [Spark, Databricks, Delta Lake, Unity Catalog, Databricks Workflows, Delta
+        Live Tables, Data Pipelines, Data Governance, Data Quality, Data Lineage]
+    genai: [Generative AI, RAG]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10208232'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:34:38.941929'
+  extracted_at: '2026-08-16T17:54:45.412378'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

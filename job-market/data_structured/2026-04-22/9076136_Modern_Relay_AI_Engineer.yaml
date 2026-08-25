@@ -1,62 +1,66 @@
 company:
   name: Modern Relay
-  stage: Unknown
-  focus: |-
-    Knowledge platform for human-AI agent coordination and
-    workflows
+  stage: null
+  focus: Knowledge platform for human and AI agent collaboration
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and improving ML/AI
-      systems that power agent behavior, including model
-      development, evaluation, retrieval, ranking, classification,
-      and structured extraction. The engineer owns the full
-      lifecycle from data pipelines through model
-      training/evaluation to production deployment, making this a
-      hands-on AI/ML building role.
+      The role shapes model behavior end-to-end: it builds
+      retrieval, ranking, and structured extraction systems that
+      power agent task-solving, creates evaluation harnesses for
+      model quality, and improves models via training and feedback
+      loops (labeling, active learning). The systems being shaped
+      are explicitly agent/LLM-centric (agent memory, conversation
+      artifacts, hallucination reduction), so it is ai-first.
   responsibilities:
   - Design and build data pipelines that ingest, clean, and transform product and
     customer data into high-signal training and evaluation datasets
-  - Own data infrastructure decisions including storage, orchestration, lineage, and
-    observability for reliability and scalability
-  - Develop and improve ML/AI systems powering agent behavior in task-solving, including
+  - Own data infrastructure decisions (storage, orchestration, lineage, observability)
+    to ensure reliability, scalability, and fast iteration
+  - Develop and improve ML/AI systems that power agent behavior in task-solving, including
     retrieval, ranking, classification, and structured extraction
   - Create and maintain schemas for agent memory, tool outputs, and conversation artifacts
     for consistent downstream modeling and analytics
   - Build evaluation harnesses and metrics to measure model quality, regressions,
-    and real-world performance (offline and online)
-  - Work with knowledge representations (e.g., knowledge graphs) to connect entities,
+    and real-world performance (offline + online)
+  - Work with knowledge representations such as knowledge graphs to connect entities,
     events, and business context for better reasoning and retrieval
-  - Integrate models into production workflows with clear SLAs and monitoring in partnership
+  - Integrate models into production workflows with clear SLAs and monitoring, partnering
     with Product and Engineering
-  - Continuously improve feedback loops through labeling strategies, active learning,
-    error analysis, and dataset/version management
+  - 'Continuously improve feedback loops: labeling strategies, active learning, error
+    analysis, and dataset/version management'
   use_cases:
-  - Agent task-solving with retrieval, ranking, classification, and structured extraction
-  - Knowledge graph-based reasoning and information retrieval for agent coordination
-  - Structured knowledge hub that humans and AI agents read from, write to, and improve
-    collaboratively
-  - Agent memory and conversation artifact management for consistent downstream modeling
+  - Shared knowledge platform where humans and AI agents propose updates, contribute
+    knowledge, and trigger workflows
+  - Agent task-solving behavior powered by retrieval, ranking, classification, and
+    structured extraction
+  - Structured agent memory and conversation artifacts for consistent downstream modeling
+    and analytics
+  - Knowledge graph-based reasoning and retrieval connecting entities, events, and
+    business context
   - Reducing hallucinations and increasing task completion rates in real customer
     workflows
   skills:
-    domains: [Knowledge graphs, Information Retrieval]
-    languages: [Python]
-    ml: [ML systems in production, Active learning]
     cloud: []
-    genai: [Structured extraction]
-    data: [Data Pipelines, Data engineering, Schema design]
-    other: [Information theory]
-    ops: [Model evaluation and monitoring, Experiment tracking, Dataset versioning,
-      Model Deployment, Feature stores]
+    languages: []
+    ml: [Machine Learning, Model Training, Model Evaluation, Active Learning]
+    other: [Information Retrieval, Information Theory, Artificial Intelligence]
+    ops: [Model Monitoring, Model Deployment, Experiment Tracking, Dataset Versioning,
+      Feature Stores]
+    databases: [Knowledge Graphs]
+    domains: []
     web: []
-    databases: []
+    data: [Data Pipelines, Data Engineering, Data Infrastructure, Data Modeling, Schema
+        Design, Data Quality]
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9076136'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T12:42:16.546209'
+  extracted_at: '2026-08-16T07:47:26.744853'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

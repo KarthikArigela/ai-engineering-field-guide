@@ -1,45 +1,55 @@
 company:
   name: Vendelux
-  stage: Series A
-  focus: AI-powered event marketing intelligence platform
+  stage: Series A ($14M led by FirstMark)
+  focus: Event marketing intelligence SaaS platform
 position:
   title: Senior Software Engineer, Data & AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building AI-powered product features
-      using LLMs, RAG, AI agents, embeddings, and
-      supervised/unsupervised learning. The description emphasizes
-      hands-on work with modern AI frameworks (HuggingFace,
-      LangChain), prompt engineering, and deploying LLMs in
-      production to drive user-facing product capabilities.
-  responsibilities: []
+      The role directly shapes LLM-based systems: prompt
+      engineering, RAG, embeddings, AI agents, and LLM deployment
+      in production are named as core techniques the engineer
+      applies to build product features. This is hands-on shaping
+      of LLM behavior rather than merely consuming or serving an
+      API, so it is ai-first.
+  responsibilities:
+  - Design and build AI-powered product features from prototype through production,
+    choosing the right level of technology from simple heuristics to advanced AI
+  - Build maintainable and scalable production systems with clean, testable code,
+    data pipeline integration, and deployment to cloud environments
+  - 'Deliver end-to-end solutions: identify opportunities, prototype, secure stakeholder
+    support, and productionalize features with measurable business value'
+  - Research and apply modern AI methods (AI agents, LLMs, RAG, embeddings, supervised/unsupervised
+    learning) to power new product capabilities
+  - Translate business problems into AI solutions that improve user workflows, accelerate
+    insights, and drive measurable value
+  - Collaborate with business stakeholders and engineers to turn customer problems
+    into technical requirements and impactful features
+  - Establish and evangelize standards for AI/ML engineering and data quality across
+    the team
   use_cases:
-  - AI-powered event discovery and recommendation system that helps high-growth companies
-    find highest ROI events
-  - conferences
-  - and trade shows to attend and sponsor
-  - AI-driven insights and analytics for event marketers to maximize impact of sponsored
-    and attended events
-  - Applied AI for accelerating insights and improving user workflows in event marketing
-    decision-making
-  - Recommendation systems powered by embeddings and LLMs to match companies with
-    optimal events
-  - AI agents and RAG-based systems for event intelligence and ROI measurement
+  - 'Event discovery: helping companies find the highest-ROI events, conferences,
+    and trade shows to attend and sponsor'
+  - Event marketing intelligence and system of record for event marketers
+  - AI-powered recommendations and insights that improve event marketer workflows
+  - Measuring and maximizing ROI of sponsored and attended events
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Hugging Face, supervised learning, unsupervised learning]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LLMs, Prompt Engineering, RAG, AI Agents, Embeddings]
-    data: [Airflow, Dagster, Data Pipelines]
-    other: []
-    ops: []
-    web: []
+    languages: [Python, SQL]
+    ml: [Hugging Face, Machine Learning]
+    other: [Data Science]
+    ops: [LLM Deployment]
     databases: []
-  is_customer_facing: true
+    domains: [Recommender Systems]
+    web: []
+    data: [Data Pipelines, Data Engineering, Airflow, Dagster]
+    genai: [LangChain, LLMs, Generative AI, AI Agents, RAG, Embeddings, Prompt Engineering]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '7027323'
   location: New York, USA
-  extracted_at: '2026-02-05T10:06:16.968171'
+  extracted_at: '2026-08-15T21:13:19.043505'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,51 @@
+company:
+  name: Creative Fabrica
+  stage: null
+  focus: Subscription marketplace and AI creative tools for creators
+position:
+  title: Senior Backend Engineer (Go) | Studio AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role orchestrates and scales infrastructure for AI
+      generation workloads (Kafka, SQS, ConnectRPC, AWS) but does
+      not itself shape model behavior via prompts, retrieval,
+      agent design, training, or evals. Model serving/GPU
+      infrastructure is only a nice-to-have, and the deliverable
+      is capacity and reliability, not model behavior.
+  responsibilities:
+  - Design and scale Go-based microservices managing the lifecycle of multimodal AI
+    generations
+  - Optimize ConnectRPC services and async processing pipelines (Kafka, SQS) for long-running
+    inference tasks
+  - Develop backend logic for advanced features like multimodal orchestration
+  - Manage massive data throughput on AWS with high-performance storage and compute
+    clusters
+  - Collaborate with AI researchers to bridge raw model outputs and polished user
+    experience
+  - Maintain quality-first practices across code reviews, testing, and observability
+  use_cases:
+  - Multimodal AI generation of images, video, audio, 3D models, and vector graphics
+  - Automated creative workflows like background removal, font creation, and design
+    generation
+  - High-concurrency orchestration of long-running inference tasks for a global creator
+    platform
+  skills:
+    genai: []
+    ml: [Model Serving]
+    web: [Microservices, gRPC, GraphQL, ConnectRPC]
+    databases: []
+    data: [Kafka, SQS]
+    cloud: [AWS, EKS, AWS S3, AWS Lambda]
+    ops: [AWS, Observability, Code Review, Distributed Systems]
+    languages: [Go]
+    domains: []
+    other: [Video Transcoding]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10744126'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T11:34:53.550924'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

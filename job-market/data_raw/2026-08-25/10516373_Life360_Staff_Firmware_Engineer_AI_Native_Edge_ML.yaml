@@ -1,0 +1,332 @@
+job_id: 10516373
+title: Staff Firmware Engineer, AI Native, Edge ML
+company: Life360
+location: USA
+remote: true
+work_type: FULL_TIME
+description: |
+  About Life360
+
+  Life360’s mission is to keep people close to the ones they
+  love. Our category-leading mobile app, Tile tracking
+  devices, and Pet GPS tracker empower members to protect the
+  people, pets, and things they care about most with a range
+  of services, including location sharing, safe driver
+  reports, and crash detection with emergency dispatch.
+  Life360 serves approximately 102.4 million monthly active
+  users (MAU), as of June 30, 2026, across more than 180
+  countries.
+
+  Life360 delivers peace of mind and enhances everyday family
+  life with seamless coordination for all the moments that
+  matter, big and small. By continuing to innovate and deliver
+  for our customers, we have become a household name and the
+  must-have mobile-based membership for families (and those
+  friends who are basically family).
+
+  Life360 has more than 500 (and growing!) remote-first
+  employees. For more information, please visit life360.com.
+
+  Life360 is a Remote First company, which means a remote work
+  environment will be the primary experience for all
+  employees. All positions, unless otherwise specified, can be
+  performed remotely (within the US and Canada) regardless of
+  any specified location above.
+
+  We are AI Native
+
+  We are building an AI native company where AI is an integral
+  part of how we build and operate. AI tool usage during
+  interviews varies by role. You may be asked to demonstrate
+  proficiency with AI tools, discuss how you leverage AI, or
+  complete interview exercises without AI assistance. Your
+  Recruiter will provide clear guidance as you move through
+  the interview process.
+
+  Undisclosed use of AI not previously discussed with or
+  approved by your Recruiter may impact your candidacy.
+
+  About The Team
+
+  The Connected Devices team at Life360 owns end-to-end device
+  software readiness across our portfolio — firmware, app, and
+  cloud engineering working as one team to ship the trackers
+  and wearables that keep families connected to the people,
+  pets, and things they care about most. We're not just a
+  firmware team: we own the full device software stack, from
+  the hardware modules to the cloud, across the whole
+  lifecycle — architecture and hardware bring-up through mass
+  production and post-launch refinement.
+
+  We're moving toward a more intelligent hardware ecosystem,
+  building Life360's first on-device intelligence — processing
+  complex sensor data on the device itself, in real time,
+  within tight power and memory budgets. We're an AI-Native
+  engineering team: AI isn't just a tool we use, it's how we
+  work — across specifications, code, test, review, data
+  analysis and triage. Today that means firmware running
+  across our Tile and Pet GPS tracker lines — devices shipping
+  in the hundreds of thousands of units, each streaming
+  continuous multi-sensor telemetry — which is the scale this
+  on-device ML platform should be built to handle.
+
+  This role reports to the Engineering Manager, Connected
+  Devices, and works day-to-day alongside our firmware, app,
+  and cloud engineers, data science, hardware, operations, and
+  data teams.
+
+  About the Job
+
+  We're looking for a Staff Firmware Engineer to build and own
+  Life360's on-device ML platform — the reusable framework
+  that lets any device in our portfolio sample sensor data,
+  run inference on the edge, and act on it without draining
+  the battery or blowing the memory budget.
+
+  This is a hybrid role by design, and both halves are non-
+  negotiable. You are a firmware engineer first — deeply
+  fluent in embedded systems and on-device software, from RTOS
+  internals and driver bring-up to power management and
+  debugging on real hardware. You are an Edge ML specialist
+  second — you know how to get a model running, quantized and
+  optimized, on a Cortex-M-class part with kilobytes to spare,
+  whether it comes from Data Science or you build and train it
+  yourself with modern, AI-assisted tooling. The value of this
+  role is that you own the whole path, from the sensor
+  register to the inference result, without handing off the
+  hard parts.
+
+  "Staff" here means you set the technical direction for on-
+  device ML and you ship it — you architect the platform and
+  write the code that proves it works. ML demand will ebb and
+  flow; when it's light, you pick up regular firmware work
+  alongside the team. This is a full firmware seat, not an ML-
+  only one — the ML specialization is what you bring on top of
+  being a strong, contributing firmware engineer.
+
+  This is a foundational role. We're shipping our first on-
+  device ML feature now, but there's no reusable platform
+  behind it yet — you'll turn that first feature into the
+  foundation the rest of the portfolio builds on, with a lot
+  of room to grow from there. In year one, success looks like
+  owning on-device ML end to end as your domain — you
+  architect the inference platform, ship it to the fleet, and
+  root-cause its production issues from device logs yourself.
+  You're also a credible firmware engineer across the stack —
+  connectivity, OTA, power, drivers, telemetry — not needing
+  anyone else to own the embedded side. And you've turned that
+  platform into member-facing value: 2–3 on-device ML features
+  shipped to the Pet GPS fleet, learning from real device
+  behavior.
+
+  For candidates based in the US, the salary range for this
+  position is $143,000 to $261,500 USD. For candidates based
+  out of Canada, the salary range for this position is
+  $207,000 to $242,500 CAD. Note: Please be aware that the job
+  title for positions in Canada will be "Developer" in lieu of
+  "Engineer." We take into consideration an individual's
+  background and experience in determining final salary;
+  therefore, base pay offered may vary considerably depending
+  on geographic location, job-related knowledge, skills, and
+  experience. The compensation package includes a wide range
+  of medical, dental, vision, financial, and other benefits,
+  as well as equity.
+
+  What You’ll DoBuild and Own the On-Device ML Platform
+
+  - Design and build the reusable on-device inference framework
+    any Life360 device can adopt — the runtime, the model
+    integration path, and the sampling and preprocessing
+    pipeline — and make the platform-level calls (runtime and
+    model format, memory/flash budgeting, OTA model updates).
+  - Own it end to end: you architect it, implement it, and debug
+    it when it misbehaves on a device in the field.
+
+  Do the Core Firmware Engineering
+
+  - Integrate inference into resource-constrained RTOS firmware
+    (Zephyr / FreeRTOS) without compromising stability,
+    scheduling, or power, and own the low-level plumbing —
+    drivers, DMA data paths, SPI/I²C, and the middleware that
+    feeds the pipeline.
+  - Debug on real hardware (oscilloscope, logic analyzer, JTAG)
+    and drive cross-layer issues to root cause across the
+    firmware/hardware boundary.
+  - Carry regular firmware work when ML demand is light — a full
+    share of features, bug fixes, field issues, and on-
+    call/triage.
+
+  Develop and Ship Models on Device
+
+  - Get models running within firmware constraints — from Data
+    Science or built and trained yourself, increasingly with
+    AI-assisted tooling — handling quantization, operator
+    support, and the latency/memory tradeoffs.
+  - Own the whole loop, from training output to validated on-
+    device behavior. You don't take a model over the wall and
+    hope.
+
+  Optimize for Extreme Constraints
+
+  - Squeeze inference into tight power, memory, and latency
+    envelopes, and own the tradeoffs between model accuracy,
+    power draw, and footprint — validated in the real world,
+    not just on the bench.
+
+  Set Direction, Work AI-Natively, and Level Up the Team
+
+  - Drive alignment across firmware, app/cloud, data science,
+    hardware, and ops on how on-device intelligence gets built
+    here, and raise the team's embedded-ML fluency through
+    code review, design docs, and pairing.
+  - Use AI tooling as a genuine development partner across
+    firmware and ML, and help define what AI-native looks like
+    for embedded work.
+
+  What We’re Looking ForFoundation
+
+  - 10+ years of firmware engineering, taking complex consumer
+    hardware from prototype through mass production, with a
+    demonstrated track record of shipping at scale.
+  - Bachelor's degree in Electrical Engineering, Computer
+    Science, or a related field.
+
+  Firmware Engineering — the core bar
+
+  - Deep C/C++ for embedded systems and real fluency in RTOS
+    internals (Zephyr, FreeRTOS, or equivalent).
+  - Strong low-level hardware skills — SPI/I²C/UART, DMA,
+    interrupts, driver development from the datasheet up —
+    plus hands-on debugging (scope, logic analyzer, JTAG) and
+    power/memory discipline.
+
+  Edge ML
+
+  - Demonstrated experience deploying ML models on
+    microcontroller-class hardware in a shipping product — not
+    a course project or one-off PoC.
+  - Hands-on with embedded inference frameworks (TFLite Micro,
+    CMSIS-NN, ExecuTorch, or equivalent) and model
+    optimization (quantization, pruning); able to develop and
+    train models yourself, not only deploy someone else's.
+  - Solid grounding in the sensor data and signal-processing
+    pipelines that feed a model (IMU and similar).
+
+  AI-Native and Communication
+
+  - You use AI coding tools (Claude Code or equivalent) as a
+    genuine development partner and review their output as
+    critically as any PR.
+  - Strong written communication and a habit of documenting
+    decisions and working across firmware, hardware, and data
+    science.
+
+  Nice to Have
+
+  - Security and compliance for connected devices — secure boot,
+    key provisioning, signed and rollback-safe OTA, and
+    RF/regulatory certification (FCC/CE).
+  - Hands-on experience with cellular, BLE, GPS/GNSS, or audio
+    subsystems on battery-powered wearables or trackers.
+  - New-board bring-up — powering up unproven hardware,
+    verifying power rails and peripherals, and getting first
+    firmware running on a fresh board.
+  - Hardware schematic evaluation — reading and reviewing
+    schematics, partnering with EE on design reviews, and
+    catching issues before a board spin.
+  - Factory and manufacturing support — manufacturing test
+    development, production-line bring-up and debug, and
+    supporting yield and quality at the contract manufacturer.
+
+  AI-Native Expectations
+
+  - Daily use — you use AI tools (Claude Code, Cursor, or
+    equivalent) every day for real firmware and ML work:
+    drafting and refactoring code, debugging on-device
+    failures, writing specs and design docs, and building or
+    validating models. This isn’t autocomplete; it’s a
+    standing part of how you work.
+  - Judgment and ownership — you review every line of AI-
+    generated code and every AI-assisted model output as
+    critically as you would a human PR before it ships to a
+    device in the field. The AI writes it; you’re accountable
+    for it.
+  - Velocity — you’re expected to use AI to compress timelines
+    that used to take weeks, from specifications to working
+    prototype to validated on-device behavior, and to be able
+    to explain your approach when you don’t.
+  - Team leadership — you share what you learn (patterns that
+    work, guardrails you’ve added, failure modes you’ve hit)
+    through code review, design docs, and pairing, and you
+    help raise the team’s AI fluency, not just your own.
+  - Continuous learning — you stay current on embedded-AI
+    tooling and techniques and bring recommendations back to
+    the team rather than waiting for them to arrive.
+
+  Our Benefits
+
+  - Medical, dental, vision, life and disability insurance plans
+    (100% paid for US employees). We offer life and disability
+    as well as supplemental plans for medical and dental for
+    Canadian employees.
+  - 401(k) plan with company matching program in the US and RRSP
+    with DPSP plan for Canadian employees.
+  - Paid parental leave
+  - Mental Wellness Program & Employee Assistance Program (EAP)
+    for mental well-being
+  - Generous time off: flexible PTO, companywide holidays
+    throughout the year plus summer and winter shutdowns
+  - Learning & Development programs
+  - Equipment, tools, and reimbursement support for a productive
+    remote environment.
+  - Free Life360 Platinum Membership Tile trackers
+
+  Life360 Values
+
+  Our company's mission driven culture is guided by our shared
+  values to create a trusted work environment where you can
+  bring your authentic self to work and make a positive
+  difference
+
+  - Be a Good Person - We have a team of high integrity people
+    you can trust.
+  - Be Direct With Respect - We communicate directly, even when
+    it's hard.
+  - Members Before Metrics - We focus on building an exceptional
+    experience for families.
+  - High Intensity, High Impact - We do whatever it takes to get
+    the job done.
+
+  Our Commitment to Diversity
+
+  We believe that different ideas, perspectives and
+  backgrounds create a stronger and more creative work
+  environment that delivers better results. Together, we
+  continue to build an inclusive culture that encourages,
+  supports, and celebrates the diverse voices of our
+  employees. It fuels our innovation and connects us closer to
+  our customers and the communities we serve. We strive to
+  create a workplace that reflects the communities we serve
+  and where everyone feels empowered to bring their authentic
+  best selves to work.
+
+  We are an equal opportunity employer and value diversity at
+  Life360. We do not discriminate on the basis of race,
+  religion, color, national origin, gender, sexual
+  orientation, age, marital status, veteran status, disability
+  status or any legally protected status.
+
+  We encourage people of all backgrounds to apply. We believe
+  that a diversity of perspectives and experiences create a
+  foundation for the best ideas. Come join us in building
+  something meaningful. Even if you don't meet 100% of the
+  below qualifications, you should still seriously consider
+  applying!
+
+  #LI-Remote
+industries:
+  - Kids + Family
+  - Mobile
+posted_date: 2026-08-04
+url: "https://www.builtinla.com/job/staff-firmware-engineer-ai-native-edge-ml/10516373"
+source: Built In

@@ -1,0 +1,49 @@
+company:
+  name: Jamf
+  stage: null
+  focus: Apple device management and security software
+position:
+  title: Senior Software Development Engineer (AI & Agentic Systems)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds and operates agentic workflows acting on
+      production systems, designing tool calling, multi-step
+      execution, guardrails, confidence thresholds, and evaluation
+      for agent behavior. This is directly shaping agent/LLM
+      behavior, so ai-first.
+  responsibilities:
+  - Break down customer problems into executable team work
+  - Design and deliver new components and features with high quality
+  - Build and operate agentic workflows that plan and execute multi-step work against
+    production infrastructure
+  - 'Design guardrails: blast-radius limits, rollback, CI gating, and confidence thresholds
+    for automated vs approval-queued actions'
+  - Mentor and coach other engineers on the agile team
+  - Communicate technical concepts to internal stakeholders
+  use_cases:
+  - Autonomous agents executing multi-step changes on production infrastructure
+  - Guardrails and approval workflows for automated production changes
+  - Vulnerability management automation with severity, SLA, and exception handling
+  - Repository-scale AI coding agents across many repos
+  skills:
+    genai: [Agentic Workflows, Function Calling, Structured Outputs, LLMs, Claude
+        Code, Guardrails, AI Agents]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Jenkins, Bamboo, CI/CD, Observability]
+    languages: []
+    domains: []
+    other: [Agile, Vulnerability Management, Apple Platforms]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10467014'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:17:41.938649'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

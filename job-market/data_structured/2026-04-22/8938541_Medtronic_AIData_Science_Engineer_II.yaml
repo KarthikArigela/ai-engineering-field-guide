@@ -1,54 +1,60 @@
 company:
   name: Medtronic
-  stage: Public
-  focus: Global healthcare technology and medical devices
+  stage: null
+  focus: Healthcare technology and medical devices
 position:
   title: AI/Data Science Engineer II
   ai_type:
     type: ai-support
     reasoning: |-
-      This is fundamentally a data engineering role that supports
-      AI/ML teams by building data pipelines, infrastructure, and
-      architectures. While it mentions integrating LLMs and
-      agentic systems, these are supplementary tools used to
-      enhance data engineering workflows (automation and
-      analytics), not the primary focus of building or deploying
-      AI/ML models themselves.
+      This is a data engineering role: the core work is building
+      ETL/ELT pipelines, data models, and cloud data
+      infrastructure that enable data scientists and ML
+      researchers. LLMs and agentic tools appear only as
+      technologies to integrate and use for process automation and
+      analytics enhancement, not to shape model behavior, design
+      prompts/retrieval, or train models. Therefore Step 1 is no,
+      giving ai-support.
   responsibilities:
-  - Design and build ETL/ELT data pipelines ingesting data from databases, APIs, and
-    streaming systems
+  - Design, build, and optimize ETL/ELT data pipelines ingesting data from databases,
+    APIs, and streaming systems
   - Develop and maintain logical and physical data models in data warehouses and lakes
     such as AWS S3, Athena, and Oracle
-  - Deploy and manage cloud data infrastructure on AWS, Azure, or GCP using Infrastructure
-    as Code tools
-  - Implement data validation, monitoring, and alerting frameworks for data quality
-    and governance
-  - Collaborate with stakeholders to translate business needs into technical solutions
-    and document data schemas and pipeline designs
-  - Explore and integrate LLMs and agentic systems into the data ecosystem to enhance
-    analytics and automation
+  - Deploy and manage cloud data infrastructure (AWS, Azure, GCP) using infrastructure-as-code
+    for scalability, reliability, and cost efficiency
+  - Implement data validation, monitoring, and alerting frameworks to ensure accuracy,
+    consistency, and security of data assets
+  - Collaborate with data scientists and Machine Learning researchers to architect
+    data solutions that enable their work
+  - Translate business requirements into technical solutions and document data schemas,
+    pipeline designs, and best practices
+  - Explore and integrate innovative data tools, including LLMs and agentic systems,
+    into the data ecosystem to enhance analytics and automation
   use_cases:
-  - Healthcare data pipeline infrastructure for analytics and insights
-  - Automated data ingestion and transformation from diverse medical data sources
-  - Cloud-based data warehousing for healthcare technology operations
-  - LLM-powered automation of data engineering workflows
-  - Data quality monitoring and governance for healthcare data assets
+  - Data ingestion and transformation pipelines for analytics-ready datasets
+  - Data warehouse and data lake modeling (AWS S3, Athena, Oracle)
+  - Cloud data infrastructure deployment and management
+  - Data quality validation, monitoring, and governance frameworks
+  - LLM and agentic tool integration for process automation and enhanced analytics
   skills:
-    domains: []
-    languages: [SQL, Python, Scala, Java, Bash]
+    cloud: [AWS, Azure, GCP, AWS S3, Amazon Athena, AWS Glue, Azure Data Factory,
+      Dataflow]
+    languages: [Python, SQL, Scala, Java, Bash]
     ml: []
-    cloud: [AWS Glue, Azure Data Factory, GCP Dataflow, AWS S3, AWS Athena, AWS, Azure,
-      GCP]
-    genai: [LLMs, Agentic Workflows]
-    data: [Data Pipelines, Spark, Hadoop]
-    other: [Looker, Tableau, Power BI, HIPAA Compliance, GDPR]
-    ops: [Git, GitHub, GitLab CI, Docker, Kubernetes, Infrastructure as Code]
-    web: []
-    databases: [Snowflake, PostgreSQL, MySQL, Oracle]
+    other: [GDPR, HIPAA Compliance, Looker, Tableau, Power BI]
+    ops: [Infrastructure as Code, Docker, Kubernetes, Git, GitHub, GitLab CI]
+    databases: [SQL, PostgreSQL, MySQL, Oracle, Snowflake]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Modeling, Data Governance, Data Engineering, Data
+        Streaming, Spark, Hadoop]
+    genai: [LLMs, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8938541'
   location: IND
   remote: true
-  extracted_at: '2026-04-22T12:28:34.020960'
+  extracted_at: '2026-08-16T06:23:39.853097'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

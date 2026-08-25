@@ -1,0 +1,59 @@
+company:
+  name: VAST Data
+  stage: null
+  focus: Enterprise data storage and infrastructure platform for AI
+position:
+  title: Senior Solutions Engineer, AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role designs, evaluates, and debugs infrastructure (GPU
+      clusters, storage, networking, orchestration) that other
+      people's AI workloads run on. The person never shapes model
+      behaviour — no prompt design, retrieval, training, or
+      output-quality evaluation — and per the edge case covering
+      serving/hosting models one does not shape, infrastructure
+      work like this is ai-support.
+  responsibilities:
+  - Lead technical discovery with customers across infrastructure, platform, ML, data,
+    and executive stakeholders
+  - Design architectures for large-scale AI, HPC, analytics, and enterprise data workloads
+  - Help customers evaluate infrastructure spanning GPUs, storage, networking, orchestration,
+    and data movement
+  - Translate technical requirements into solution designs, reference architectures,
+    and deployment guidance
+  - Debug customer issues across Linux, storage, networking, Kubernetes, schedulers,
+    GPUs, and application workloads
+  - Build technical assets, runbooks, and field guidance for repeatable customer engagements
+  - Partner with product and engineering to channel customer requirements and roadmap
+    feedback
+  - Guide customers from architecture design through PoC, deployment planning, and
+    production success
+  use_cases:
+  - Large-scale GPU cluster infrastructure (10,000+ GPUs) for AI training and inference
+  - Petabyte-scale (100PB+) high-performance storage and distributed filesystems
+  - High-performance networking with InfiniBand, RoCE, and RDMA for distributed workloads
+  - Kubernetes platforms and orchestration for AI, HPC, and analytics
+  - Data pipelines and lakehouses for data-intensive enterprise workloads
+  skills:
+    genai: []
+    ml: [CUDA, NCCL, Distributed Training]
+    web: []
+    databases: []
+    data: [Ray, Spark, Data Pipelines]
+    cloud: []
+    ops: [Kubernetes, Linux, MLOps, Slurm, DCGM, Distributed Systems, Model Serving]
+    languages: []
+    domains: [HPC]
+    other: [Lustre, Ceph, Weka, BeeGFS, GPFS, Object Storage, Distributed Filesystems,
+      InfiniBand, RoCE, RDMA, Mellanox, GPUDirect, GPU Infrastructure, Paxos, Raft,
+      Load Balancing, Checkpointing]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9561515'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T12:54:56.490244'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

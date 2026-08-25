@@ -1,56 +1,59 @@
 company:
   name: Egen
   stage: null
-  focus: Data and AI engineering consulting services
+  focus: |-
+    Data and AI engineering consulting on Google Cloud and
+    Salesforce
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly hands-on building, architecting, and
-      deploying GenAI/agentic systems including RAG pipelines,
-      multi-agent workflows, foundation-model fine-tuning, and
-      semantic search in production. The engineer owns the full
-      lifecycle of complex AI systems from design to deployment,
-      making this clearly ai-first.
+      The role is hands-on shaping LLM behavior: prompt
+      engineering, foundation-model and embedding fine-tuning,
+      advanced RAG, semantic search, and designing novel agentic
+      workflows and multi-agent orchestration, plus setting
+      evaluation standards. These are all direct model-behavior
+      shaping activities on LLM/agent systems, so it is ai-first.
   responsibilities:
-  - Set technical direction and own architecture for complex GenAI and agentic systems
-    end-to-end, including standards for evaluation, observability, and responsible
-    AI
-  - Build hands-on at the frontier including foundation-model and embedding fine-tuning,
-    novel agentic workflows, and advanced RAG and semantic search
-  - Engineer AI systems for production at scale, designing for latency, reliability,
-    cost, and governance with MLOps discipline
-  - Architect and operate multi-agent reasoning workflows with design and verification
-    rigor to prevent cascading failures
-  - Advise client leadership on AI strategy, shape solutions in pre-sales, and serve
-    as the technical authority in engagements
-  - Mentor and elevate senior and mid-level engineers through architecture reviews
-    and setting a high technical bar
+  - Set technical direction and own end-to-end architecture for the most complex GenAI
+    and agentic systems, defining evaluation, observability, and responsible AI standards
+  - 'Build hands-on: foundation-model and embedding fine-tuning, novel agentic workflows,
+    and advanced RAG and semantic search using Python on Google Cloud (Vertex AI)'
+  - Engineer for production from day one, designing for latency, reliability, cost,
+    and scale and applying MLOps discipline for serving, monitoring, and continuous
+    improvement
+  - Architect and operate agentic workflows and multi-agent systems that automate
+    complex reasoning reliably with design and verification discipline
+  - Advise client leadership, shape solutions in pre-sales, and translate business
+    strategy into AI architecture
+  - Elevate senior and mid-level engineers through architecture reviews, mentorship,
+    and setting a high bar for AI-augmented engineering
   use_cases:
-  - Agentic platforms operating at scale for enterprise automation
-  - Document intelligence and RAG pipelines for knowledge retrieval
-  - AI systems in regulated, high-stakes environments with governance and compliance
-    requirements
-  - Semantic search at production scale using vector databases
-  - Multi-step reasoning and multi-agent systems for complex decision automation
+  - Agentic platforms operating at scale
+  - Document intelligence and RAG pipelines
+  - Semantic search at production scale
+  - Automation of complex multi-step reasoning via multi-agent systems
+  - AI systems in regulated, high-stakes environments
   skills:
-    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, Fine-Tuning, LLMs, Generative
-        AI, Agentic Workflows, AI Agents, Multi-Agent Systems, MCP, Function Calling,
-      Embeddings, Semantic Search, LLM Evaluation, Gemini, OpenAI API, Llama]
-    ml: [Neural Networks, Machine Learning, Model Training]
-    web: [Microservices]
-    databases: [Pinecone, pgvector, Vector Databases, Vector Search]
-    data: [Data Engineering]
-    cloud: [Vertex AI, GCP]
-    ops: [MLOps, Model Deployment, Observability, Monitoring]
+    cloud: [GCP, Vertex AI]
     languages: [Python, SQL, Bash]
+    ml: [Machine Learning, Neural Networks, Model Training]
+    other: [Responsible AI]
+    ops: [MLOps, Observability]
+    databases: [Vector Databases, Pinecone, pgvector]
     domains: []
-    other: [Responsible AI, System Design, Salesforce]
+    web: []
+    data: [Data Engineering]
+    genai: [Generative AI, LLMs, Gemini, GPT Models, Llama, Prompt Engineering, Fine-Tuning,
+      LLM Evaluation, Agentic Workflows, Multi-Agent Systems, MCP, Function Calling,
+      RAG, Semantic Search, Embeddings, LangChain, LlamaIndex]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10071342'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:29:53.425797'
+  extracted_at: '2026-08-16T16:39:30.187786'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

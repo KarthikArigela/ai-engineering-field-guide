@@ -1,0 +1,63 @@
+company:
+  name: KLDiscovery
+  stage: null
+  focus: eDiscovery, compliance, and data management solutions
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The requirements explicitly include shaping LLM behaviour:
+      prompt engineering, RAG architecture design, fine-tuning
+      approaches, LangChain, embedding models, and agentic AI
+      patterns. Since an LLM/agent component is the shaping
+      target, this is ai-first; the infrastructure, dataset
+      curation, and classical ML duties (PyTorch, scikit-learn,
+      monitoring) do not override the direct LLM-shaping work.
+  responsibilities:
+  - Build and implement AI development and production infrastructure
+  - Construct analytical tools, curate datasets, conduct experiments, and estimate
+    impact
+  - Productize AI/ML solutions and monitor the performance of machine learning models
+  - Develop production-quality Python code integrating data science tools and processes
+    into company products and services
+  - Provide expert analysis and insights to the product development team to enhance
+    the product offering
+  - Collaborate closely with engineering teams to optimize implementation and monitoring
+    of solutions
+  - Research, recommend, and implement best practices in data science and data engineering
+  use_cases:
+  - eDiscovery and legal document processing for law firms, corporations, and government
+    agencies
+  - Semantic search and retrieval over large document collections
+  - Litigation, regulatory compliance, and internal investigation support
+  - Data management and enterprise information governance
+  skills:
+    genai: [Prompt Engineering, RAG, Fine-Tuning, LangChain, AI Agents, LLMs, Embeddings,
+      Semantic Search, OpenAI API, Cohere, Claude Code, GitHub Copilot, Cursor]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, spaCy, sentence-transformers,
+      Quantization]
+    web: []
+    databases: [Pinecone, pgvector, PostgreSQL, SQL]
+    data: [ETL, ML Pipelines]
+    cloud: [Azure]
+    ops: [CI/CD, Git, Azure DevOps, GitHub, Docker, Model Deployment, ONNX, TensorRT,
+      Model Monitoring]
+    languages: [Python, C#, .NET]
+    domains: [NLP]
+    other: [A/B Testing, eDiscovery, pytest, unittest, pydantic, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8822369'
+  location: GRC
+  locations:
+  - GRC
+  - FRA
+  - POL
+  - DEU
+  - GBR
+  remote: true
+  extracted_at: '2026-08-16T04:50:19.313432'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

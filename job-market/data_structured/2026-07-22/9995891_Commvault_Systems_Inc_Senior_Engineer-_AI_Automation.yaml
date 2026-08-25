@@ -1,51 +1,51 @@
 company:
   name: Commvault Systems, Inc.
-  stage: Public
-  focus: Cyber resilience and data protection platform
+  stage: 'Publicly traded (NASDAQ: CVLT)'
+  focus: |-
+    Cyber resilience: data protection, security, and recovery
+    platform
 position:
   title: Senior Engineer- AI & Automation
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves building and deploying AI/ML solutions
-      including NLP, computer vision, and supervised/unsupervised
-      models using frameworks like TensorFlow/PyTorch/scikit-
-      learn. The engineer directly implements AI-driven solutions
-      and embeds AI into customer workflows, making this an ai-
-      first role.
+      The role builds and deploys AI/ML solutions spanning NLP,
+      computer vision, and supervised/unsupervised learning using
+      ML frameworks (TensorFlow/PyTorch/Scikit-learn), which is
+      shaping model behaviour through training and evaluation. No
+      LLM, prompt, RAG, or agent component is named; the AI work
+      is classical ML, so it is ml-first.
   responsibilities:
-  - Build and deploy AI/ML solutions including NLP, computer vision, and supervised/unsupervised
-    models informed by data analysis
-  - Partner with product and customer teams to embed AI into workflows meeting objectives
+  - Build and deploy AI/ML solutions (NLP, computer vision, supervised/unsupervised
+    learning) informed by data analysis
+  - Partner with product and customer teams to embed AI into workflows that meet objectives
     and compliance needs
-  - Run discovery sessions with technical and non-technical stakeholders, translating
-    requirements into scoped designs and outcomes
+  - Run discovery with technical and non-technical stakeholders and translate requirements
+    into scoped designs and outcomes
   - Deliver and document solutions using Commvault APIs, built-in automation/reporting,
     and third-party integrations
   - Implement automation and reporting with PowerShell, shell scripting, and orchestration
-    tools
-  - Support remote delivery including deploying, testing, and handing over solutions
-    to customers
-  - Manage time across multiple projects, lead customer discussions, and drive action
-    items
+    across private and public clouds
+  - Deploy, test, and hand over solutions to customers as part of remote delivery
+  - Manage time across projects, lead customer discussions, and drive action items
   use_cases:
-  - AI-driven cyber resilience and data protection solutions
-  - Automated workflows for enterprise backup and recovery operations
-  - NLP and computer vision applications for data intelligence
-  - Automation and reporting for enterprise infrastructure operations
-  - Customer-facing AI solution deployment and integration
+  - AI-driven automation and workflows for enterprise backup, recovery, and cyber
+    resilience operations
+  - NLP and computer vision solutions informed by customer data analysis
+  - Embedding AI into customer workflows with compliance requirements
+  - Automated reporting and orchestration across private and public cloud environments
+  - AI-assisted development, troubleshooting, documentation, and solution design
   skills:
-    genai: []
-    ml: [TensorFlow, PyTorch, scikit-learn]
-    web: [REST APIs, OAuth]
+    cloud: [AWS, Azure, GCP]
+    languages: [Python, PowerShell, Bash, Java, Groovy, JavaScript]
+    ml: [Machine Learning, TensorFlow, PyTorch, scikit-learn]
+    other: [Commvault, VMware, Hyper-V]
+    ops: [CI/CD, GitLab CI, Azure DevOps]
     databases: [SQL Server]
-    data: []
-    cloud: [AWS, Azure, GCP, AWS Bedrock, SageMaker, Vertex AI, Azure ML]
-    ops: [CI/CD, GitLab CI, Azure DevOps, Docker, Kubernetes, VMware, Monitoring,
-      Hyper-V, Git]
-    languages: [Python, Java, JavaScript, SQL, Bash, PowerShell, Groovy]
     domains: [NLP, Computer Vision]
-    other: [Commvault APIs, Data Analysis]
+    web: [REST APIs, OAuth]
+    data: []
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
@@ -55,4 +55,6 @@ meta:
   - Pune, IND
   - Hyderabad, IND
   - Bengaluru, IND
-  extracted_at: '2026-07-22T13:46:10.236039'
+  extracted_at: '2026-08-16T19:34:15.834185'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

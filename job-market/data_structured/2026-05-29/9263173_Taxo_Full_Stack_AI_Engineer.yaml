@@ -1,47 +1,44 @@
 company:
   name: Taxo
-  stage: Series A
-  focus: AI-powered healthcare administration platform
+  stage: Venture-backed startup (General Catalyst, Character VC, Y Combinator)
+  focus: AI platform for healthcare administration automation
 position:
   title: Full Stack AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI/ML engineering role that involves
-      directly building, fine-tuning, and deploying ML models and
-      LLM-powered features. The engineer works with model
-      inference optimization, integrates LLM APIs, and deploys AI
-      capabilities into production - not just supporting
-      infrastructure for others.
+      The role explicitly fine-tunes machine learning models and
+      integrates them into production, which is shaping model
+      behaviour. The job also works with LLM APIs (OpenAI, Claude)
+      and prototypes AI features for unstructured document
+      processing, so the LLM component makes it ai-first.
   responsibilities:
-  - Build and deploy end-to-end MVPs, integrating AI capabilities into the product
+  - Build and deploy end-to-end MVPs integrating AI capabilities into the product
     pipeline
-  - Develop intuitive front-end interfaces using modern frameworks and robust back-end
-    systems
-  - Rapidly prototype AI-powered features, ensuring they are scalable, reliable, and
+  - Develop front-end interfaces with modern frameworks and robust back-end systems
+  - Rapidly prototype AI-powered features ensuring they are scalable, reliable, and
     explainable
-  - Work with machine learning models, fine-tuning, and integrating them into production
-    workflows
+  - Fine-tune machine learning models and integrate them into production workflows
   - Optimize model inference pipelines for performance and scalability
   - Develop and maintain APIs, databases, and cloud-based infrastructure to support
     AI applications
+  - Stay up-to-date with the latest AI trends and tools
   use_cases:
-  - Healthcare document processing and workflow automation
-  - Extracting structured data from unstructured sources like PDFs, faxes, and handwritten
-    notes
-  - Reducing processing times and minimizing errors in healthcare administration
-  - Ensuring transparency, compliance, and auditability in healthcare workflows
+  - Automating healthcare administration workflows with AI
+  - Processing unstructured healthcare data such as PDFs, faxes, and handwritten notes
+  - Reducing processing times and minimizing errors in healthcare operations
+  - Ensuring transparency, compliance, and auditability of healthcare processes
   skills:
-    domains: []
+    cloud: [SageMaker, Vertex AI]
     languages: [Python]
-    ml: [TensorFlow, PyTorch, Hugging Face]
-    cloud: [SageMaker, GCP AI Platform]
-    genai: [OpenAI API, Anthropic API]
-    data: []
+    ml: [Machine Learning, TensorFlow, PyTorch, Transformers, Fine-Tuning]
     other: []
-    ops: [CI/CD]
-    web: [React, Vue, Django, Node.js, FastAPI, Flask, REST APIs]
+    ops: [CI/CD, Model Deployment]
     databases: []
+    domains: []
+    web: [React, Vue, Django, Node.js, FastAPI, Flask, REST APIs]
+    data: []
+    genai: [OpenAI API, Anthropic API, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -51,4 +48,6 @@ meta:
   - San Francisco, USA
   - London, GBR
   remote: true
-  extracted_at: '2026-05-29T08:57:35.653197'
+  extracted_at: '2026-08-16T09:52:46.030184'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: Virallens Advertising Pvt. Ltd.
+  stage: null
+  focus: Generative AI-powered intelligent solutions for businesses
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it designs RAG
+      pipelines (chunking, embeddings, reranking, hybrid
+      retrieval), builds retrieval evaluations to mitigate
+      hallucinations, and compares/fine-tunes LLMs with
+      quantisation and distillation. Since LLMs and retrieval are
+      the models being shaped, this is ai-first.
+  responsibilities:
+  - Design, prototype, and deploy scalable RAG pipelines combining vector search,
+    hybrid retrieval, re-ranking, and contextual compression
+  - Build and integrate vector search systems and vector databases for high-recall
+    retrieval across structured and unstructured data
+  - Develop hybrid retrieval pipelines blending semantic, symbolic, and graph-based
+    methods with custom chunking and encoding strategies
+  - Architect knowledge graphs (Neo4j, RDF, custom schemas) and integrate them into
+    retrieval workflows to support reasoning and decision-making
+  - Build and optimise data pipelines converting documents into high-quality embeddings,
+    tuning chunk sizes, indexing frequencies, and embedding strategies
+  - Evaluate end-to-end retrieval and LLM performance using IR and LLM-specific metrics,
+    monitoring logs to maintain relevance and mitigate hallucinations
+  - Compare and fine-tune LLMs, applying quantisation, distillation, and optimisation
+    techniques to meet latency, throughput, and cost targets
+  - Collaborate cross-functionally with product and data teams, run AI enablement
+    workshops, and ensure quality, security, and compliance
+  use_cases:
+  - High-recall knowledge retrieval across structured and unstructured enterprise
+    data
+  - Knowledge-grounded reasoning and decision-making via knowledge graphs integrated
+    with retrieval
+  - Reducing hallucinations and improving factual accuracy of LLM-generated answers
+  - Supplying relevant context to AI reasoning agents via hybrid semantic and keyword
+    search
+  - Latency-, throughput-, and cost-optimised LLM delivery through quantisation and
+    distillation
+  skills:
+    genai: [RAG, LLMs, LangChain, LlamaIndex, Embeddings, Hybrid Retrieval, Re-ranking,
+      Semantic Search, Fine-Tuning, RLHF, LLM Evaluation, OpenAI API, Cohere, GPT-4,
+      Claude, Llama, Generative AI]
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformers, Sentence Transformers, Quantization,
+      Distillation]
+    web: [React, Next.js]
+    databases: [Vector Databases, Vector Search, Milvus, pgvector, FAISS, Weaviate,
+      Pinecone, Knowledge Graphs, Neo4j, RDF]
+    data: [Data Pipelines, ETL, Data Governance]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Distributed Systems, Observability, Model Monitoring,
+      Model Deployment]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9971329'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T19:25:59.825837'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,61 @@
 company:
   name: MUFG
-  stage: Public
-  focus: Global financial services and banking group
+  stage: null
+  focus: Global banking and financial services group
 position:
   title: Vice President, Cloud Engineer - AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with Azure OpenAI, GPT
-      models, embeddings, and vector workflows, including
-      deployment, integration, and governance of AI services. The
-      engineer will develop AI-driven components and implement AI
-      solutions, not just support infrastructure for others' AI
-      work.
+      The role explicitly requires prompt engineering with
+      governance and safety controls, designing AI guardrails for
+      regulated environments, and embeddings/vector workflows
+      built on Azure OpenAI and GPT models — all direct model-
+      behaviour shaping on an LLM stack. Although the role is
+      rooted in cloud engineering, the engineer designs the AI
+      integration, prompts, and guardrails themselves rather than
+      merely consuming a pre-built API, so per Steps 1-2 it is ai-
+      first.
   responsibilities:
-  - Design and implement cloud and AI-ready solutions on Azure, Oracle Cloud, and
-    AWS
+  - Design and implement cloud and AI-ready solutions across Azure, Oracle Cloud,
+    and AWS
   - Develop bespoke automation, integration, and AI-driven components to support business
     requirements
   - Build and maintain REST APIs, integration services, and identity-aware solution
     patterns
-  - Deliver operational and project support for cloud and AI workloads
-  - Drive automation, Infrastructure-as-Code, CI/CD, and modern engineering practices
   - Implement governance controls and guardrails for responsible, regulatory-compliant
     AI use
+  - Drive automation, Infrastructure-as-Code, and CI/CD engineering practices
+  - Deliver operational (BAU) and project support for cloud and AI workloads
+  - Produce architectural designs and engineering documentation for scalable, repeatable
+    solution patterns
   - Collaborate across teams to enhance platform stability, security, compliance,
     and cost efficiency
-  - Produce architectural designs and engineering documentation for scalable solution
-    patterns
   use_cases:
-  - AI enablement and adoption across banking and financial services
-  - Cloud-based AI solution deployment with governance and security controls
-  - Identity-aware integration patterns for AI workloads
-  - Regulatory-compliant AI implementations in financial services
-  - Scalable cloud foundations for critical banking services
+  - Scalable, sustainable AI enablement underpinning critical banking services
+  - Applying Azure OpenAI and generative AI services to real-world business use cases
+  - Responsible, regulatory-compliant AI use in a financial services environment
+  - Automated cloud platform engineering and integration services
+  - Identity-aware, secure access patterns for AI and cloud workloads
   skills:
-    domains: []
+    cloud: [Azure, AWS, Oracle Cloud, Azure AI Foundry, Azure API Management, Entra
+        ID, IAM]
     languages: [Python, PowerShell]
     ml: []
-    cloud: [Azure, Oracle Cloud, AWS, Entra ID, IAM]
-    genai: [Azure OpenAI, OpenAI SDK, GPT models, Embeddings, Vector workflows, Prompt
-        Engineering, Vectorization patterns, AI orchestration frameworks]
-    data: []
-    other: [VS Code]
-    ops: [Bicep, ARM, Terraform, CI/CD, GitHub Actions, Azure DevOps, AI governance,
-      Docker, GitHub Enterprise, Artifactory]
-    web: [REST APIs, Azure API Management, OAuth]
+    other: [VS Code, Responsible AI]
+    ops: [CI/CD, GitHub Actions, Azure DevOps, Terraform, Bicep, ARM Templates, Infrastructure
+        as Code, Artifactory, GitHub]
     databases: []
+    domains: []
+    web: [REST APIs, OAuth]
+    data: []
+    genai: [Azure OpenAI, OpenAI API, GPT Models, Embeddings, Prompt Engineering,
+      Guardrails, Generative AI, AI Orchestration]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8627831'
   location: London, GBR
-  extracted_at: '2026-03-27T13:51:32.767602'
+  extracted_at: '2026-08-16T03:21:55.765634'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

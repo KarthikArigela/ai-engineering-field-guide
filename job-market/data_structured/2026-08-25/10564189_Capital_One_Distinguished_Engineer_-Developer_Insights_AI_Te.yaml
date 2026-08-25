@@ -1,0 +1,60 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services with cloud technology
+position:
+  title: Distinguished Engineer -Developer Insights & AI Telemetry
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role spearheads LLM-as-a-Judge inference capabilities
+      that autonomously score and categorize AI-generated code and
+      outputs, which is designing LLM evaluation and output-
+      quality systems - shaping model behaviour. An LLM component
+      is central, so ai-first.
+  responsibilities:
+  - Architect the long-term enterprise roadmap for distributed AI telemetry, streaming
+    data engineering, and automated developer insight frameworks
+  - Scale the internal developer telemetry platform from an Agent Hook Architecture
+    into a stateless, low-latency system handling billions of annual events globally
+  - Deploy advanced inference capabilities including LLM-as-a-Judge models to score
+    code complexity, categorize AI use cases, and compute generative AI ROI
+  - Own the end-to-end data strategy, shifting from batch reporting to real-time event-driven
+    Medallion (Bronze/Silver/Gold) architectures feeding an enterprise data lake
+  - Correlate AI code density telemetry with business outcomes such as Feature Lead
+    Time and PR cycle time
+  - Enforce privacy-by-design with automated PII masking, token management, and secret
+    filtering
+  - 'Lead through direct technical contribution: prototyping, build-vs-buy evaluation,
+    authoring code patterns, and mentoring principal and senior engineers'
+  use_cases:
+  - Developer productivity and AI impact telemetry across the engineering organization
+  - Autonomous scoring of code complexity and categorization of AI use cases (Core
+    Logic vs Testing)
+  - Measuring ROI and TrueThroughput of generative AI coding tools
+  - Correlating AI code density with Feature Lead Time and PR cycle time
+  - Automated PII masking and privacy governance for engineering telemetry
+  skills:
+    genai: [LLM Evaluation, Generative AI]
+    ml: [Machine Learning]
+    web: []
+    databases: [ClickHouse, Snowflake]
+    data: [Spark, Kafka, Kinesis]
+    cloud: [AWS, Azure, GCP]
+    ops: [OpenTelemetry, Protobuf]
+    languages: [Python, Go, Java, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture, DORA Metrics]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10564189'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - Richmond, USA
+  - New York, USA
+  - Wilmington, USA
+  extracted_at: '2026-08-25T10:43:48.749426'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

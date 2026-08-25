@@ -1,20 +1,20 @@
 company:
   name: Coupa
-  stage: Public
-  focus: AI-driven total spend management platform
+  stage: null
+  focus: AI-powered total spend management platform
 position:
   title: Senior AI Engineer, NLP & Training Data - 11316
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly hands-on with building, fine-tuning,
-      and deploying LLMs and ML models — owning the model training
-      and iteration workstream including fine-tuning pipelines,
-      evaluation harnesses, and alignment techniques (RLHF, DPO).
-      The engineer works directly on AI/ML model capabilities,
-      making this clearly ai-first.
+      This role owns LLM fine-tuning pipelines (QLoRA, LoRA, PEFT,
+      full fine-tune), designs evaluation harnesses, drives
+      training iteration loops, and works with alignment
+      techniques like RLHF/DPO - directly shaping model behavior
+      and output quality. Since the models being shaped are LLMs,
+      the classification is ai-first.
   responsibilities:
-  - Build and own the end-to-end model fine-tuning pipeline including data preprocessing,
+  - Build and own the end-to-end model fine-tuning pipeline covering data preprocessing,
     training, evaluation, and model registry
   - Implement and optimize fine-tuning techniques (QLoRA, LoRA, PEFT, full fine-tune)
     for training workloads
@@ -24,34 +24,35 @@ position:
     and improving data and configuration
   - Implement experiment tracking, hyperparameter optimization, and reproducible training
     workflows
-  - Collaborate on training data strategy with data engineering, including synthetic
+  - Collaborate with data engineering on training data strategy, including synthetic
     data generation
   - Evaluate model quality across safety, accuracy, latency, and cost dimensions
-  - Contribute to model serving architecture and inference optimization
-  - Mentor ML engineers across the team
+  - Contribute to model serving architecture and inference optimization, and mentor
+    ML engineers across the team
   use_cases:
-  - Fine-tuning large language models for spend management and business decision automation
-  - Production ML models for predicting and prescribing profitable business decisions
-  - NLP-driven analysis of direct and indirect spend data across a global buyer-supplier
-    network
-  - Model alignment and safety evaluation for enterprise AI applications
+  - Community-generated AI for total spend management across a global network of buyers
+    and suppliers
+  - Predictive and prescriptive automation of business spending decisions to improve
+    operating margins
+  - Production ML models and frontier model integrations on Coupa's AI platform
   skills:
-    domains: [NLP]
+    cloud: []
     languages: [Python]
-    ml: [Transformers, Tokenization, PyTorch, Distributed training frameworks, Fine-tuning
-        LLMs, Hyperparameter optimization]
-    cloud: [GPU-based training infrastructure]
-    genai: [LoRA, RLHF, DPO]
-    data: [Synthetic data generation]
+    ml: [PyTorch, Transformers, Tokenization, Distributed Training, Machine Learning,
+      Model Evaluation, Hyperparameter Optimization, Synthetic Data Generation]
     other: []
-    ops: [Experiment tracking, Model registry, Inference optimization, Model serving
-        architecture]
-    web: []
+    ops: [Experiment Tracking, Model Registry, Model Deployment, Inference Optimization]
     databases: []
+    domains: [NLP]
+    web: []
+    data: []
+    genai: [Fine-Tuning, LoRA, LLMs, RLHF, DPO]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9579040'
   location: Bengaluru, IND
   remote: true
-  extracted_at: '2026-06-25T19:45:12.094350'
+  extracted_at: '2026-08-16T13:00:53.598601'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

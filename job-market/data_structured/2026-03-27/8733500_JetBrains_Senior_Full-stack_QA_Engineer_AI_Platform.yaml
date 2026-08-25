@@ -1,47 +1,48 @@
 company:
   name: JetBrains
-  stage: Public
-  focus: Developer tools and AI-native software development platform
+  stage: null
+  focus: Developer tools and AI-native software development platforms
 position:
   title: Senior Full-stack QA Engineer (AI Platform)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a QA/testing role for an AI platform, not a role
-      building or deploying AI systems. The focus is on testing
-      infrastructure, automated testing, CI/CD pipelines, and
-      quality assurance - enabling the AI platform team's work
-      rather than working directly on models, agents, or AI
-      systems.
+      This is a QA role building automated test infrastructure,
+      CI/CD pipelines, and API/performance tests for an AI
+      platform. Validating integrations with various language
+      models is QA and validation oversight of AI systems, not
+      shaping model behaviour through prompts, evals, guardrails,
+      or training, so the classification is ai-support.
   responsibilities:
-  - Develop and maintain automated testing infrastructure including CI/CD pipelines
-    and testing tools
+  - Develop and maintain automated testing infrastructure, set up CI/CD pipelines,
+    and select, integrate, or design testing tools
   - Write and improve automated tests, particularly for APIs
   - Collaborate with QA and Development teams to design and execute test scenarios
-  - Work with logs and monitoring tools (Kibana, Grafana) to detect functional issues
-    and performance anomalies
-  - Ensure quality of distributed AI-powered systems by validating integrations with
-    language models and APIs
-  - Focus on quality assurance of new features, automation of regression testing,
-    and performance testing
+  - Work with logs and monitoring tools such as Kibana and Grafana to detect functional
+    issues and performance anomalies
+  - Ensure the quality of distributed AI-powered systems by validating integrations
+    with various language models and APIs
+  - Perform functional, regression, and performance testing of new features
   use_cases:
-  - AI-native software development platform
-  - Developer workflow integration
-  - Team-level collaboration tools
-  - Organizational governance for AI-driven development
-  - Integration with various language models and APIs
+  - AI-native platform for software development connecting developer workflows, team
+    collaboration, and organizational control
+  - Execution and governance layer for AI-driven development integrated with developer
+    tools
+  - Distributed AI-powered systems integrating various language models and APIs
+  - Quality assurance of functional, regression, and performance behavior for AI-powered
+    developer tools
   skills:
-    domains: []
+    cloud: [AWS, GCP]
     languages: [TypeScript, JavaScript]
     ml: []
-    cloud: [AWS, GCP]
-    genai: []
-    data: []
-    other: [OAuth 2.0, JWT]
-    ops: [Docker, Kubernetes, Helm, CI/CD, TeamCity, GitHub Actions, Kibana, Grafana,
-      k6]
-    web: [Postman, REST APIs, OpenAPI/Swagger]
+    other: [Postman, Automated Testing, Performance Testing, k6]
+    ops: [CI/CD, Docker, Kubernetes, Helm, Grafana, Kibana, Monitoring, TeamCity,
+      GitHub Actions, Distributed Systems]
     databases: []
+    domains: []
+    web: [REST APIs, OpenAPI, OAuth, JWT, Microservices]
+    data: []
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +57,6 @@ meta:
   - Munich, DEU
   - Warsaw, POL
   - Belgrade, SRB
-  extracted_at: '2026-03-27T14:22:38.670578'
+  extracted_at: '2026-08-16T04:11:27.278175'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

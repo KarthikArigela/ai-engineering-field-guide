@@ -1,0 +1,46 @@
+company:
+  name: CoreWeave
+  stage: publicly traded
+  focus: Cloud infrastructure platform for AI workloads
+position:
+  title: Senior Software Engineer - Physical AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds backend platform infrastructure (distributed
+      systems, APIs, CI/CD, Kubernetes) for a simulation/physical
+      AI platform. There is no prompt writing, RAG design, model
+      training, or evaluation of model output - the person builds
+      and operates services, not model behavior.
+  responsibilities:
+  - Deliver critical features and services across the full software lifecycle from
+    design to deployment and operations
+  - Contribute to evolving the platform toward a more distributed architecture
+  - Make the platform agentic-ready for next-generation AI applications
+  - Build and operate backend services end-to-end
+  - Design APIs and service interfaces
+  - Mentor and collaborate with team members
+  use_cases:
+  - Platform powering engineering simulation workflows
+  - Foundation for agentic and physical AI applications
+  - Scalable backend services for engineering companies
+  skills:
+    genai: []
+    ml: []
+    web: [APIs, OAuth]
+    databases: []
+    data: [Temporal, Airflow, Spark, Ray]
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, Automated Testing, Observability, Incident Response, Distributed
+        Systems, Kubernetes, Kubeflow]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10807809'
+  location: London, GBR
+  extracted_at: '2026-08-25T11:59:17.635222'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

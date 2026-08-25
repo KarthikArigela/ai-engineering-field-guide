@@ -1,0 +1,52 @@
+company:
+  name: CoreWeave
+  stage: null
+  focus: Cloud infrastructure platform for AI compute
+position:
+  title: Staff Software Engineer - Physical AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a platform/infrastructure role: distributed
+      architecture, CI/CD, SRE, and distributed compute services.
+      The AI work (making the platform "agentic ready", MCP server
+      integrations) is deployment readiness rather than shaping
+      model behavior via prompts, retrieval, agent design, or
+      evals. No model output-quality work is described.
+  responsibilities:
+  - Drive the transition from monolithic to distributed architecture
+  - Design architecture that is agentic ready, enabling AI product deployment and
+    MCP server integrations
+  - Write production-quality Python code for critical platform components
+  - Build and optimize distributed compute services and workflow orchestration patterns
+  - Own CI/CD pipelines, automated testing, and deployment strategy
+  - Drive reliability, observability, and SRE practices including monitoring and incident
+    response
+  - Mentor senior and mid-level engineers and establish engineering best practices
+  - Collaborate with product and business stakeholders on technical solutions
+  use_cases:
+  - Platform powering engineering simulation and AI workflows for large engineering
+    companies
+  - Agentic-ready distributed architecture for next-generation AI applications
+  - Distributed compute services for scaling AI product deployment
+  - Workflow orchestration for reliable platform operations
+  skills:
+    genai: [MCP]
+    ml: []
+    web: [OAuth]
+    databases: [Athena]
+    data: [Spark, Ray]
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, Distributed Systems, Kubernetes, Monitoring, Observability, Temporal,
+      Airflow, Kubeflow]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10807773'
+  location: London, GBR
+  extracted_at: '2026-08-25T11:59:12.276867'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

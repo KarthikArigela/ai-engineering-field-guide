@@ -1,50 +1,56 @@
 company:
   name: AKQA
-  stage: Public
-  focus: Creative agency and digital innovation
+  stage: null
+  focus: |-
+    Creative agency producing digital design and marketing
+    content
 position:
   title: Developer Intern (AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, building, and
-      deploying AI agents that automate image-processing tasks, as
-      well as integrating generative AI and computer-vision models
-      into production workflows. The intern will work hands-on
-      with agentic frameworks, LLM APIs, diffusion models, and
-      ComfyUI to build autonomous creative content production
-      systems.
+      The role designs, builds, and iterates on AI agents (agent
+      flows, tool calling via Figma MCPs, agentic frameworks) that
+      automate image processing, which is directly shaping model
+      behaviour via agent design. Step 2: LLM/agent components are
+      explicitly involved, so it is ai-first; the computer-vision
+      and diffusion model work makes it a mixed role, which also
+      resolves to ai-first.
   responsibilities:
   - Design, build, and iterate on AI agents that automate image-processing tasks such
     as background removal, retouching, upscaling, format adaptation, and asset generation
   - Prototype and integrate generative AI and computer-vision models into production
-    workflows
-  - Research and experiment with emerging AI tooling and agentic frameworks for automated
-    creative content production
-  - Collaborate within cross-functional teams of designers and creatives to deliver
-    AI-powered tooling
-  - Own specific tasks and deliverables from brief through to deployment
-  - Write clean, maintainable code in Python and Swift with Figma integrations
+    workflows, writing clean, maintainable code in Python and Swift with Figma MCPs
+  - Research and experiment with emerging AI tooling and agentic frameworks to push
+    the boundaries of automated creative content production
+  - Work across agent development, image-processing pipelines, and tooling for content
+    production
+  - Collaborate in cross-functional teams with designers and creatives across European
+    studios
+  - Take ownership of tasks from brief through to deployment in a fast-paced creative
+    agency environment
   use_cases:
-  - Automated image processing (background removal, retouching, upscaling, format
-    adaptation)
-  - AI-driven asset generation for creative content production
-  - Agentic automation of visual content pipelines at scale
-  - Generative AI integration for creative agency workflows
+  - Automated background removal for creative assets
+  - Automated image retouching and upscaling
+  - Format adaptation of visual assets across production pipelines
+  - Generative asset creation for creative content
+  - Automated creative content production at scale
   skills:
-    domains: [Computer Vision]
-    languages: [Python, Swift, TypeScript]
-    ml: [PyTorch, Hugging Face, Diffusion Models]
     cloud: []
-    genai: [ComfyUI, LLMs, Agentic frameworks, Figma MCP, Google AI image models]
-    data: []
-    other: [Image processing, Figma]
-    ops: [Workflow orchestration]
-    web: []
+    languages: [Python, Swift, TypeScript]
+    ml: [PyTorch, Hugging Face, Image Processing]
+    other: [Figma, Workflow Orchestration]
+    ops: []
     databases: []
+    domains: [Computer Vision, Diffusion Models]
+    web: []
+    data: []
+    genai: [AI Agents, Agentic Frameworks, Generative AI, MCP, LLMs, ComfyUI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9755616'
   location: Amsterdam, NLD
-  extracted_at: '2026-06-25T19:52:42.492599'
+  extracted_at: '2026-08-16T14:53:02.554861'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

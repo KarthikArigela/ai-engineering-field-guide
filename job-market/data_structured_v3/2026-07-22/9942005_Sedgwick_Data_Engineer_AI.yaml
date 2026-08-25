@@ -1,0 +1,68 @@
+company:
+  name: Sedgwick
+  stage: null
+  focus: Insurance claims management and risk solutions
+position:
+  title: Data Engineer AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      Although the role is primarily data engineering, it
+      explicitly includes designing and building the retrieval
+      layer for RAG systems themselves: automated extraction,
+      chunking, and vectorization/embedding pipelines loading
+      unstructured data into vector stores. Per the rules, a data
+      engineer who designs retrieval components (chunking,
+      embeddings) is shaping model output quality, and since
+      LLM/RAG components are involved, this is ai-first.
+  responsibilities:
+  - Design and implement ETL/ELT pipelines ingesting data from legacy on-prem systems
+    (Mainframes, SQL Server, DB2), AWS (S3/RDS), and Azure (Blob/SQL) into Snowflake
+    and AI services
+  - Build and maintain feature stores and specialized datasets optimized for machine
+    learning, ensuring clean, versioned, statistically valid data for Data Scientists
+  - Develop data pipelines for Generative AI including automated extraction, chunking,
+    and loading of unstructured data into vector stores across AWS and Azure
+  - Act as technical lead for the Snowflake data warehouse, implementing data modeling,
+    Snowpipe automation, and compute optimization for high-concurrency AI workloads
+  - Execute non-invasive data extraction patterns to unlock data from decades-old
+    on-premise systems without disrupting core operations
+  - Orchestrate multi-cloud data workflows using Airflow, Step Functions, or Azure
+    Data Factory to synchronize data across the AI stack
+  - Partner with central IT, DBAs, and Security teams to solve connectivity hurdles
+    (PrivateLink, IAM, firewalls) and secure approval for new data flows
+  - Implement automated validation and observability layers to detect data drift and
+    quality issues, and optimize storage/query performance costs across Snowflake,
+    AWS, and Azure
+  use_cases:
+  - Fueling Data Science models and AI applications with high-fidelity, engineered
+    data
+  - Feature stores and ML-ready datasets for model training
+  - RAG-based generative AI systems with chunked, embedded unstructured data in vector
+    stores
+  - Modernizing legacy on-prem data into a multi-cloud Snowflake environment
+  - Data drift and quality monitoring to protect production AI model accuracy
+  skills:
+    genai: [Generative AI, RAG, LLMs, Embeddings]
+    ml: [Machine Learning, Feature Engineering, Feature Stores]
+    web: []
+    databases: [Snowflake, Snowpipe, SQL Server, DB2, Azure SQL, Vector Databases]
+    data: [ETL, Data Modeling, Airflow, Azure Data Factory, PySpark, Data Quality]
+    cloud: [AWS, Azure, AWS S3, AWS RDS, Azure Blob Storage, AWS Glue, AWS Lambda,
+      AWS Step Functions, Azure Synapse, IAM, PrivateLink]
+    ops: [Docker, Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: [Mainframes]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9942005'
+  location: USA
+  locations:
+  - USA
+  - Los Angeles, USA
+  remote: true
+  extracted_at: '2026-08-16T19:19:13.006223'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

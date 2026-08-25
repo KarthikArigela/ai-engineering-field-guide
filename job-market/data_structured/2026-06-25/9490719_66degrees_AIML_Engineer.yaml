@@ -1,54 +1,59 @@
 company:
   name: 66degrees
   stage: null
-  focus: End-to-end AI transformation consulting partner
+  focus: End-to-end AI transformation consulting for enterprises
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly training and deploying ML/LLM
-      models using Vertex AI, AutoML, BQML, and custom models, as
-      well as implementing RAG, prompt engineering, and model
-      tuning for client solutions. The engineer works hands-on
-      with GenAI and traditional ML techniques to build and deploy
-      AI systems for enterprise clients.
+      The role trains and deploys custom models and its GenAI
+      qualifications explicitly include LLMs, Prompt Engineering,
+      RAG, and LangChain, meaning the person shapes model
+      behaviour and output quality directly. Since LLM/generative
+      components are named alongside classical ML work, the role
+      classifies as ai-first.
   responsibilities:
-  - Dive deep into diverse data types (tabular, text, image) to identify pain-points
+  - Dive deep into a wide range of data (tabular, text, image) to identify pain points
     and deliver data-driven insights to clients
-  - Train and deploy off-the-shelf and custom ML models using GCP services to address
-    client business problems
+  - Apply analytical techniques to determine areas of opportunity to meet business
+    goals
+  - Leverage GCP services to train and deploy off-the-shelf (Vertex AI/AutoML/BQML)
+    or custom models to address client business problems
   - Act as subject matter expert on pre-sales calls and requests for proposals
-  - Drive successful delivery of analytics and AI/ML solutions for enterprise clients
-  - Create reports and presentations showcasing solution value to clients
-  - Establish a center of excellence with the AI/ML team, creating standard operating
+  - Drive successful delivery of analytics solutions and create reports and presentations
+    showcasing value to clients
+  - Serve as a thought leader for the team and contribute to key practice initiatives
+  - Work with the AI/ML team to establish a center of excellence with standard operating
     procedures, accelerators, and sales assets
-  - Be a thought leader for project teams and contribute to key practice initiatives
   use_cases:
-  - Enterprise AI transformation and data-driven decision making
-  - Client business problem solving using custom and off-the-shelf ML models
-  - Generative AI solutions using RAG, LLMs, and prompt engineering
-  - Time-series forecasting, clustering, classification, and recommendation systems
-  - Document processing and intelligent data extraction
+  - Data-driven insights and analytics solutions delivered to enterprise clients
+  - Training and deploying off-the-shelf and custom ML models on GCP to solve client
+    business problems
+  - Generative AI solutions using LLMs, prompt engineering, and RAG
+  - Predictive and statistical modeling including time-series, classification, and
+    recommendation systems
+  - Pre-sales solutioning and client advisory for AI transformation engagements
   skills:
-    domains: []
+    cloud: [GCP, Vertex AI, Document AI, Cloud Run, Cloud Functions, Pub/Sub, Cloud
+        Storage]
     languages: [Python, SQL, Bash]
-    ml: [TensorFlow, Keras, scikit-learn, PyTorch, Time-Series Analysis, Clustering,
+    ml: [TensorFlow, Keras, scikit-learn, PyTorch, AutoML, BQML, Time-Series, Clustering,
       Regression, Classification, Recommendation Systems, Deep Learning, Ensemble
-        Modeling, Reinforcement Learning, Feature Engineering, Model Evaluation, Responsible
-        AI]
-    cloud: [GCP, Vertex AI, Document AI, Cloud Run, Cloud Functions, BigQuery, Pub/Sub,
-      Cloud Storage, Looker, AutoML, BQML]
-    genai: [LLMs, Prompt Engineering, Model Tuning, RAG, LangChain]
-    data: [Data Pipelines, Data Cleansing, Data Visualization, EDA]
-    other: [Graph Data Science]
-    ops: [Git, CI/CD, Docker, Model Deployment, Retraining Pipelines, Model Monitoring,
-      Model Versioning, Kubernetes]
-    web: [APIs]
-    databases: [Vector Databases, Relational DBs, NoSQL DBs, Data Warehouses]
+        Modeling, Reinforcement Learning, Feature Engineering, Model Evaluation]
+    other: [Responsible AI, Looker, Graph Data Science]
+    ops: [MLOps, Git, CI/CD, API Development, Docker, Model Deployment, Retraining
+        Pipelines, Monitoring, Model Versioning, Kubernetes]
+    databases: [Vector Databases, Relational Databases, NoSQL, Data Warehouses, BigQuery]
+    domains: []
+    web: []
+    data: [Data Engineering, Data Cleansing, Data Pipelines, EDA, Data Visualization]
+    genai: [Generative AI, LLMs, Prompt Engineering, Fine-Tuning, RAG, LangChain]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9490719'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:42:13.921423'
+  extracted_at: '2026-08-16T12:45:48.259008'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

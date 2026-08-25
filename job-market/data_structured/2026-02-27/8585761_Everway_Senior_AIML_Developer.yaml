@@ -1,54 +1,63 @@
 company:
   name: Everway
-  stage: Growth (600+ employees)
-  focus: Neurotechnology software helping understand and communicate
+  stage: null
+  focus: |-
+    Neurotechnology software for understanding and supporting
+    individuals
 position:
   title: Senior AI/ML Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is building AI systems directly - MCP servers,
-      agentic workflows, and LLM integrations. The engineer is
-      hands-on with AI/LLM technology, not just supporting
-      infrastructure for ML teams. While it's internal tooling,
-      they're deploying and orchestrating AI agents, which
-      qualifies as ai-first.
+      The role directly shapes LLM/agent behaviour: it builds MCP
+      servers that connect LLMs and AI agents to enterprise
+      systems and develops production agentic workflows with
+      orchestration, guardrails, and observability. Designing
+      agent tool calling and orchestration is Step 1 shaping, and
+      since the shaped components are LLMs and agents rather than
+      classical ML, this is ai-first.
   responsibilities:
-  - Build and maintain Model Context Protocol (MCP) servers that securely connect
+  - Build and maintain MCP (Model Context Protocol) servers that securely connect
     LLMs to enterprise systems including Salesforce, HubSpot, Snowflake, Google Workspace,
     and internal APIs
   - Develop and ship production-grade agentic workflows with appropriate orchestration,
     guardrails, and observability
   - Build robust, secure integrations between AI systems and enterprise tools, handling
     authentication, rate limiting, and data governance requirements
-  - Work with teams across Sales, Marketing, Operations, and Customer Success to understand
-    automation needs and deliver solutions
+  - Collaborate with stakeholders across Sales, Marketing, Operations, and Customer
+    Success to understand automation needs and deliver working solutions
   - Create technical documentation and reusable patterns that enable broader AI adoption
     across engineering teams
-  - Help recruit and mentor team members to expand AI Enablement capabilities as the
-    function scales
+  - Ship production AI solutions and contribute to the roadmap as the AI Enablement
+    function evolves
+  - Help recruit and mentor team members as the function scales
   use_cases:
-  - Enterprise AI integration connecting LLMs to business systems via MCP
-  - Business process automation across sales, marketing, customer success, and operations
-    using agentic workflows
-  - Internal AI enablement serving 400+ weekly active users and 250M+ end users
-  - Secure LLM-to-enterprise-system connectivity with proper governance
+  - Connecting LLMs and AI agents to enterprise systems such as Salesforce, HubSpot,
+    Snowflake, and Google Workspace
+  - Automating business processes across sales, marketing, customer success, and operations
+    via agentic workflows
+  - Driving internal AI adoption across engineering and business teams serving 250M+
+    users
+  - Secure enterprise AI integration covering authentication, rate limiting, and data
+    governance
   skills:
-    domains: []
-    languages: [Python, asyncio]
-    ml: []
     cloud: [AWS]
-    genai: [MCP, LangGraph, CrewAI, Agentic AI systems, 'LLM providers (OpenAI, Anthropic,
-        AWS Bedrock)']
-    data: []
-    other: [Responsible AI]
-    ops: [CI/CD, Docker, Containerization, Testing]
-    web: [APIs, Salesforce API, HubSpot API, Google Workspace API]
+    languages: [Python, asyncio]
+    ml: [Machine Learning]
+    other: [Salesforce, HubSpot, Google Workspace, Testing, Responsible AI]
+    ops: [CI/CD, Observability, Containerization]
     databases: [Snowflake]
+    domains: []
+    web: [APIs]
+    data: [Data Governance]
+    genai: [MCP, LLMs, AI Agents, Agentic Workflows, Function Calling, LangGraph,
+      CrewAI, Guardrails, OpenAI API, Anthropic API, AWS Bedrock]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8585761'
   location: GBR
   remote: true
-  extracted_at: '2026-03-03T11:19:48.206885'
+  extracted_at: '2026-08-16T02:45:01.153609'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

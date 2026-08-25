@@ -1,23 +1,23 @@
 company:
   name: DXC Technology
-  stage: Public
-  focus: Global IT services and consulting
+  stage: null
+  focus: Enterprise IT services and consulting
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying AI
-      systems including Transformer-based architectures, fine-
-      tuning LLMs, implementing RAG pipelines, and building
-      intelligent agents. The engineer directly develops,
-      optimizes, and integrates AI solutions rather than providing
-      supporting infrastructure or general software engineering.
+      The role directly shapes LLM behaviour: fine-tuning large
+      language models, advanced prompt engineering, designing RAG
+      pipelines, and building agents with
+      LangChain/LlamaIndex/CrewAI/AutoGen. Step 2 applies and
+      since LLM/agent components are central (reinforcement
+      learning is a secondary technique), the role is ai-first.
   responsibilities:
-  - Design, develop, and optimize Transformer-based architectures including GPT, LLaMA,
-    Mistral, and Claude
+  - Design, develop, and optimize Transformer-based architectures (GPT, LLaMA, Mistral,
+    Claude)
   - Fine-tune large language models for domain-specific applications
-  - Implement advanced prompt engineering strategies and RAG pipelines for enhanced
+  - Implement advanced prompt engineering strategies and leverage RAG for enhanced
     contextual performance
   - Build intelligent agents using frameworks like LangChain, LlamaIndex, CrewAI,
     and AutoGen
@@ -26,31 +26,30 @@ position:
   - Collaborate with cross-functional teams to integrate AI solutions into scalable
     products
   - Ensure best practices in data engineering and contribute to architectural decisions
-  - Mentor junior team members and support senior team members in identifying data
-    science opportunities
+  - Mentor junior team members and support identifying data science opportunities
   use_cases:
-  - Domain-specific language model applications
-  - Context-aware AI systems using RAG
-  - Intelligent agent-based solutions
-  - Reinforcement learning-powered systems
-  - Scalable AI product integration
-  - Data science opportunity identification
+  - Domain-specific LLM applications
+  - Context-enhanced generation via RAG
+  - Intelligent AI agents built on agent frameworks
+  - Scalable AI solutions integrated across multiple domains
+  - Transformative real-world AI projects
   skills:
-    domains: []
+    cloud: [Azure]
     languages: []
-    ml: [Fine-Tuning, Reinforcement Learning, Q-learning, policy gradients, RLlib,
-      Transformers]
-    cloud: [Azure AI]
-    genai: [GPT, LLaMA, Mistral, Anthropic API, Prompt Engineering, RAG, LangChain,
-      LlamaIndex, CrewAI, AutoGen]
-    data: [data cleansing, exploratory data analysis, data visualization]
+    ml: [Transformers, Reinforcement Learning, RLlib]
     other: []
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: [Data Engineering, Data Cleansing, Exploratory Data Analysis, Data Visualization]
+    genai: [LLMs, GPT, Llama, Mistral, Anthropic API, Fine-Tuning, Prompt Engineering,
+      RAG, LangChain, LlamaIndex, CrewAI, AutoGen]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7635419'
   location: London, GBR
-  extracted_at: '2026-02-27T11:39:01.774695'
+  extracted_at: '2026-08-16T00:03:25.875269'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

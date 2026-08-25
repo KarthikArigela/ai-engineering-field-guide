@@ -1,47 +1,58 @@
 company:
   name: AssetWatch
-  stage: Series B
-  focus: Predictive maintenance for manufacturing
+  stage: null
+  focus: |-
+    Predictive maintenance and condition monitoring for
+    manufacturers
 position:
   title: Sr. Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building LLM-powered
-      applications, RAG pipelines, tool-calling systems, and agent
-      architectures. The engineer is responsible for designing and
-      implementing AI systems directly, not just supporting
-      infrastructure or data pipelines for other teams.
+      The role directly shapes model behavior: designing RAG
+      pipelines, tool-calling systems, agent architectures, prompt
+      orchestration, and structured outputs, plus implementing
+      evaluation, tracing, and guardrail patterns. Since the
+      shaped models are LLMs and agents, this is ai-first.
   responsibilities:
-  - Design and build end-to-end LLM-powered workflows, including RAG pipelines, tool-calling
+  - Design and build end-to-end LLM-powered workflows including RAG pipelines, tool-calling
     systems, and agent architectures
   - Rapidly prototype internal AI assistants and automation tools across business
     functions
-  - Develop shared connectors to major LLM providers and reusable agent templates
-  - Partner with data science teams to operationalize models into production systems
+  - Develop shared connectors to LLM providers and internal data sources
+  - Create reusable agent templates and AI development patterns with clean API boundaries
+    for production handoff
+  - Implement lightweight evaluation, logging, and tracing patterns for internal deployment
+  - Integrate data science models into agent-based workflows
+  - Partner with specialty data science teams and the Head of AI to shape technical
+    direction and AI strategy
+  - Communicate architectural decisions and tradeoffs to technical and non-technical
+    stakeholders
   use_cases:
-  - Predictive maintenance for manufacturing equipment
-  - Internal AI assistants for business functions
-  - Automation tools for operational efficiency
-  - Condition monitoring systems
-  - LLM-powered workflows for data analysis
-  - Agent-based systems for model integration
+  - Internal AI assistants and automation tools across business functions
+  - RAG-based knowledge retrieval from internal data sources
+  - Agent-based workflows that integrate data science models
+  - Reusable AI infrastructure and connectors handed off to production engineering
+    teams
+  - AI enablement supporting predictive maintenance and condition monitoring operations
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [ML model integration]
     cloud: [AWS]
-    genai: [RAG, LLM-powered applications, LangChain, LlamaIndex, Semantic Kernel,
-      Prompt orchestration, Tool-calling workflows, Agentic Workflows]
-    data: [Data Pipelines]
-    other: []
-    ops: [Docker]
-    web: [REST APIs]
+    languages: [Python, SQL]
+    ml: [Machine Learning]
+    other: [Event-Driven Architecture]
+    ops: [Docker, Observability, Distributed Systems]
     databases: [Vector Databases]
+    domains: []
+    web: [REST APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Function Calling, AI Agents, Prompt Engineering, Structured
+        Outputs, LLM Evaluation, Guardrails, LangChain, LlamaIndex, Semantic Kernel]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8552072'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T12:13:37.454071'
+  extracted_at: '2026-08-16T02:24:54.801552'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

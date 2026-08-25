@@ -1,0 +1,56 @@
+company:
+  name: Uniphore
+  stage: null
+  focus: |-
+    Enterprise conversational AI and multimodal customer
+    experience platform
+position:
+  title: Principal Security Engineer, AI Security & SecOps
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns AI security for an agentic platform, building
+      guardrails and running an AI red-teaming program against
+      LLM/agent systems (OWASP LLM, MITRE ATLAS), which is
+      designing guardrails and evaluating model output quality -
+      shaping LLM behavior, hence ai-first.
+  responsibilities:
+  - Own AI and agentic security tooling including Wiz AI-SPM, AI Lens, runtime guardrails,
+    and AI Bill of Materials
+  - Drive MCP and agent protection and integrate model and AI supply-chain scanning
+    into CI/CD
+  - Build and run the AI red-teaming program aligned to OWASP LLM/Agentic Top 10 and
+    MITRE ATLAS
+  - Operationalize Wiz CNAPP, CSPM, and DSPM with risk-based prioritization toward
+    automated remediation
+  - Build detection-as-code and SOAR workflows automating alert triage, enrichment,
+    and remediation
+  - Own MXDR/MSSP partnership as primary technical lead covering detection tuning
+    and service delivery
+  - Act as incident commander and own the incident response lifecycle including playbooks
+    and purple-team exercises
+  use_cases:
+  - AI red-teaming for an agentic platform against OWASP LLM and MITRE ATLAS threats
+  - Runtime guardrails and AI supply-chain security including AIBOM
+  - Cloud and data security posture management with automated remediation
+  - Security operations automation via SOAR and detection-as-code
+  - Incident response orchestration and purple-team exercises
+  skills:
+    genai: [MCP, AI Agents, Guardrails, LLMs]
+    ml: [Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [CI/CD, Docker]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10714519'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:25:59.689467'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

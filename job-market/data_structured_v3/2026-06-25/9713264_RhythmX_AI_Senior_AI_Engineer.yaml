@@ -1,0 +1,58 @@
+company:
+  name: RhythmX AI
+  stage: null
+  focus: |-
+    AI-native healthcare precision care and patient engagement
+    technology
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior: fine-tuning
+      SLMs/LLMs with PEFT and LoRA, applying prompt engineering,
+      building evaluation strategies, and evaluating RAG/LangChain
+      frameworks. LLMs and generative components are explicitly
+      central, and a role shaping both LLM and classical ML
+      (STT/TTS, multimodal models) is ai-first.
+  responsibilities:
+  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases, customizing
+    foundation models with PEFT, LoRA, and prompt engineering
+  - Build multimodal AI systems integrating text, structured medical data, and images
+  - Evaluate and integrate STT and TTS models into conversational voice interfaces
+  - Lead end-to-end model deployment with cloud-native tools (Azure ML), including
+    performance monitoring, drift detection, and auto-retraining pipelines
+  - Process and curate large-scale structured and unstructured healthcare datasets,
+    including EHR and clinical data, and design synthetic data generation strategies
+  - Develop evaluation strategies combining domain KPIs with clinical relevance, mitigate
+    algorithmic bias, and conduct adversarial stress testing for safety and fairness
+  - Provide technical guidance to junior AI engineers, conduct design reviews, and
+    contribute to architectural decisions
+  - Ensure HIPAA/GDPR compliance, security, and explainability across AI solutions
+  use_cases:
+  - Voice assistants and conversational interfaces for real-world care settings
+  - Multimodal AI combining clinical text, structured medical data, and images
+  - AI applications built on EHR and clinical data for patient and caregiver workflows
+  - Precision care and patient engagement for health systems
+  - Patient-facing models with bias mitigation, safety, and fairness standards
+  skills:
+    genai: [LLMs, Generative AI, Fine-Tuning, Prompt Engineering, LoRA, PEFT, RAG,
+      LangChain]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, NLP, Model Evaluation,
+      Speech-to-Text, Text-to-Speech, Whisper, Tacotron, ElevenLabs]
+    web: [API Deployment]
+    databases: [Vector Databases]
+    data: [Data Pipelines]
+    cloud: [Azure, Azure ML]
+    ops: [MLOps, CI/CD, Git, Model Deployment, Model Monitoring]
+    languages: [Python]
+    domains: []
+    other: [HIPAA Compliance, GDPR, Responsible AI, EHR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9713264'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T14:29:48.117102'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

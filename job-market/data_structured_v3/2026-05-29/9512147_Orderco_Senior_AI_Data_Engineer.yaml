@@ -1,0 +1,65 @@
+company:
+  name: Order.co
+  stage: Raised $75M in funding from investors including MIT, Stage 2 Capital, Rally
+    Ventures, and 645 Ventures
+  focus: B2B procurement and spend management platform
+position:
+  title: Senior AI / Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data platform and infrastructure engineering role:
+      the core work is ETL/ELT pipelines, cloud data
+      infrastructure, IaC, CI/CD, and observability. The AI
+      portions are limited to supporting the deployment and
+      operationalization of AI services others build and
+      evaluating AI coding assistants (Claude Code, Codex,
+      Copilot) for engineering productivity, with no prompt
+      design, retrieval, fine-tuning, or output-quality eval
+      ownership. Serving AI systems and rolling out AI developer
+      tools are both explicitly ai-support.
+  responsibilities:
+  - Design, build, and maintain scalable data pipelines, integrations, and AI workflows
+  - Develop reliable ETL/ELT systems supporting analytics, operational reporting,
+    and AI-driven products
+  - Contribute to the architecture and evolution of the company's data platform and
+    AI infrastructure
+  - Develop infrastructure automation and deployment workflows using infrastructure
+    as code (Terraform/CloudFormation)
+  - Build and maintain CI/CD pipelines and monitoring, alerting, and observability
+    solutions for data and AI systems
+  - Support the deployment and operationalization of machine learning and AI-powered
+    services
+  - Evaluate and integrate AI-assisted engineering tools and help establish best practices
+    for AI-assisted development and operational safety
+  - Mentor junior and mid-level engineers and collaborate cross-functionally with
+    Product, Analytics, and Operations teams
+  use_cases:
+  - Automating procurement and finance workflows from requisition to reconciliation
+  - Embedded AI agents for B2B purchasing and vendor connections
+  - Analytics and operational reporting on business spend data
+  - AI-driven products enabling intelligent decision-making and automation in spend
+    management
+  skills:
+    genai: [Claude Code, Codex, GitHub Copilot]
+    ml: [Machine Learning]
+    web: []
+    databases: [Snowflake]
+    data: [Airflow, Dagster, AWS Step Functions, Spark, PySpark, AWS Glue, Amazon
+        EMR, ETL, dbt]
+    cloud: [AWS, AWS Lambda, ECS, SQS, SNS, API Gateway, EventBridge, AWS S3, Glue
+        Catalog, Lake Formation]
+    ops: [Terraform, CloudFormation, Infrastructure as Code, CI/CD, GitHub Actions,
+      CircleCI, Monitoring, Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9512147'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T12:04:31.407510'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

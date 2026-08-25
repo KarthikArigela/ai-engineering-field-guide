@@ -1,0 +1,67 @@
+company:
+  name: Kong
+  stage: null
+  focus: API and AI connectivity platform and infrastructure
+position:
+  title: Senior Software Engineer AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly designs retrieval/RAG infrastructure —
+      semantic chunking, embedding pipelines, hybrid search,
+      reranking, and retrieval-quality optimization for an LLM-
+      based stack (AWS Bedrock Knowledge Base, RAG performance) —
+      which directly shapes the output quality of Kong's AI
+      systems. Although much of the work is data plumbing,
+      retrieval and RAG design is a core, explicitly stated
+      responsibility, so it is ai-first rather than ai-support.
+  responsibilities:
+  - Design and implement documentation ingestion pipelines for AWS Bedrock Knowledge
+    Base and other vector stores
+  - Build semantic chunking and document processing systems optimized for retrieval
+    quality and context preservation
+  - Develop vector embedding pipelines with hybrid search strategies combining semantic
+    and keyword search
+  - Implement data anonymization and PII detection systems to ensure privacy-compliant,
+    GDPR-compliant AI operations
+  - Create real-time telemetry collection systems for model monitoring, performance
+    tracking, and quality assurance
+  - Build automated knowledge base refresh, metadata enrichment, and entity extraction
+    pipelines for search relevance
+  - Design feature stores and training data curation pipelines for future fine-tuning
+    and model improvement
+  - Optimize vector indexes and database performance for low-latency retrieval at
+    scale, deploying data infrastructure on AWS in collaboration with AI and platform
+    engineers
+  use_cases:
+  - Semantic search and knowledge retrieval over documentation and knowledge bases
+  - RAG system performance for accurate and relevant AI responses
+  - Privacy-compliant AI operations with PII detection, anonymization, and GDPR data
+    handling
+  - Real-time model monitoring, performance tracking, and quality assurance telemetry
+  - Knowledge base freshness and quality maintenance for AI systems
+  - Feature stores and training data curation for fine-tuning and model improvement
+  skills:
+    genai: [RAG, Embeddings, Semantic Search, Chunking, Hybrid Search, Reranking,
+      Fine-Tuning]
+    ml: [Machine Learning, Feature Engineering]
+    web: []
+    databases: [Vector Databases, Vector Search, Pinecone, Weaviate, Qdrant, OpenSearch,
+      NoSQL, DynamoDB, Amazon RDS, Knowledge Graphs, Neo4j, Amazon Neptune]
+    data: [Data Pipelines, ETL, Kafka, Amazon Kinesis, AWS Glue, Spark, Ray, Dask,
+      Data Governance, DVC, Pachyderm]
+    cloud: [AWS, AWS Bedrock, AWS S3]
+    ops: [MLOps, Weights & Biases, MLflow, Kubeflow, Kubernetes, Feature Stores, Seldon,
+      KServe, BentoML]
+    languages: [Python, Go, SQL]
+    domains: [NLP]
+    other: [GDPR, Information Retrieval, Synthetic Data Generation, Named Entity Recognition,
+      A/B Testing, Causal Inference]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7908858'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T00:17:17.524402'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

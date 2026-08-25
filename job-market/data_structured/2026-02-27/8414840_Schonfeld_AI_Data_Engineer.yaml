@@ -1,62 +1,64 @@
 company:
   name: Schonfeld
-  stage: Public
+  stage: ''
   focus: |-
-    Global multi-manager hedge fund managing quantitative,
-    tactical, fundamental equity, and discretionary macro
-    strategies
+    Global multi-manager hedge fund with proprietary technology
+    and risk analytics
 position:
   title: AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building data pipelines and
-      infrastructure that power AI systems rather than building or
-      training models themselves. The engineer is responsible for
-      data ingestion, ETL processes, and maintaining data
-      infrastructure (vector databases, semantic search) that
-      ENABLE AI engineers and data scientists to work with AI
-      systems, but does not directly build, deploy, or fine-tune
-      models.
+      This is a data engineering role that builds pipelines and
+      infrastructure feeding SchonAI, the firm's internal AI
+      platform. The person moves, transforms, and governs data for
+      AI systems rather than shaping model behaviour - prompts,
+      retrieval design, and model work sit with the AI engineers
+      they partner with. Per the dataset/pipeline rule, plumbing
+      data to someone else's AI system is ai-support.
   responsibilities:
-  - Design and build scalable data pipelines using Prefect to ingest and transform
-    structured and unstructured data for SchonAI platform
-  - Develop ETL/ELT processes for diverse data sources including market data, research
+  - Design and build scalable data pipelines to ingest, transform, and deliver structured
+    and unstructured data to SchonAI using Prefect
+  - Develop ETL/ELT processes for diverse sources including market data, research
     documents, internal databases, and third-party APIs
-  - Build and maintain data infrastructure optimized for AI/ML workloads including
+  - Build and maintain data infrastructure optimized for AI/ML workloads, including
     vector databases and semantic search systems
-  - Partner with AI engineers, software developers, and data scientists to understand
-    and fulfill data requirements for AI applications
-  - Integrate data pipelines with existing firm systems including risk platforms,
-    trading systems, and portfolio management tools
-  - Implement data access controls, encryption, and compliance measures to ensure
-    data governance and regulatory adherence
-  - Implement real-time and batch data processing workflows to meet varying latency
-    requirements for AI systems
+  - Design data schemas and storage solutions supporting efficient retrieval and processing
+    for LLM applications
   - Implement data versioning, lineage tracking, and observability for AI training
     and inference pipelines
+  - Integrate pipelines with firm systems including risk platforms, trading systems,
+    portfolio management tools, and research databases
+  - Implement data access controls, encryption, and compliance measures in line with
+    data governance policies
+  - Monitor and maintain data pipeline performance, reliability, and cost efficiency
   use_cases:
-  - Investment research and analysis platform (SchonAI) for investment professionals
-  - Semantic search and retrieval over research documents and internal knowledge bases
-  - RAG (Retrieval Augmented Generation) systems for LLM-powered applications
-  - Market data processing and analysis for quantitative trading strategies
-  - Real-time data delivery for AI-powered investment insights and recommendations
+  - Internal AI platform (SchonAI) serving investment professionals across a hedge
+    fund
+  - Delivering market data, research documents, and internal data to AI systems for
+    investment workflows
+  - Vector database and semantic search infrastructure for LLM applications
+  - Real-time and batch data processing for low-latency AI interactions and high-throughput
+    training
+  - Data integration across risk, trading, portfolio management, and research systems
   skills:
-    domains: []
+    cloud: [AWS, AWS S3, GCP]
     languages: [Python, SQL, Java, Scala, Go, Rust]
-    ml: []
-    cloud: [AWS, GCP, AWS S3]
-    genai: [RAG, Embedding pipelines]
-    data: [Prefect, Airflow, Dagster, Spark, Flink, Kafka, Kinesis, Pub/Sub, Data
-        Pipelines, Great Expectations, Deequ]
+    ml: [Machine Learning]
     other: []
-    ops: [Kubernetes, Docker, MLOps, Data versioning, Data lineage]
+    ops: [Kubernetes, Docker, MLOps]
+    databases: [PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch, Vector Databases,
+      Pinecone, Weaviate, Qdrant, BigQuery, SingleStore, Redshift, ClickHouse]
+    domains: []
     web: []
-    databases: [PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch, Pinecone, Weaviate,
-      Qdrant, BigQuery, SingleStore, Redshift, ClickHouse, Vector Databases]
+    data: [Airflow, Prefect, Dagster, Spark, Flink, Data Pipelines, Kafka, Kinesis,
+      Pub/Sub, Great Expectations, Deequ]
+    genai: [RAG, LLMs, Embeddings, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8414840'
   location: New York, USA
-  extracted_at: '2026-02-27T12:04:49.437476'
+  extracted_at: '2026-08-16T01:12:47.041066'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

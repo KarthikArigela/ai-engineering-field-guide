@@ -1,0 +1,45 @@
+company:
+  name: Capsa AI
+  stage: Series A
+  focus: AI operating system for private capital firms
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent harnesses, tool calling, retrieval,
+      and evals for LLM agents, which is directly shaping model
+      behavior. LLM/agent components are central, so ai-first.
+  responsibilities:
+  - Design, build, and improve AI agents that research companies, analyse documents,
+    author outputs, and cite claims for deal teams
+  - Own agent capabilities end to end, from harness internals to evals
+  - Build agent tools, retrieval and search systems
+  - Develop and operate document ingestion, indexing, and search pipelines including
+    VLM-based OCR
+  - Maintain supporting backend infrastructure (FastAPI, Postgres, RabbitMQ, OpenSearch)
+  - Iterate on evals to turn demos into trusted production systems
+  use_cases:
+  - Automated investment research on companies for private equity deal teams
+  - Document analysis and question answering with citations to sources
+  - Agent-driven document authoring across Word, Excel, PowerPoint, and email
+  - Document ingestion, indexing, and semantic search over deal materials
+  skills:
+    genai: [LLMs, AI Agents]
+    ml: []
+    web: [FastAPI, React]
+    databases: [OpenSearch, PostgreSQL]
+    data: [RabbitMQ]
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Evals]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10461549'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:14:46.026543'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

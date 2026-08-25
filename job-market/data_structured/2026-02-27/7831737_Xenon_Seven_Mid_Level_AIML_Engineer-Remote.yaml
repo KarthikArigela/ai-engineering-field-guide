@@ -1,48 +1,49 @@
 company:
   name: Xenon Seven
   stage: null
-  focus: |-
-    IT solutions development and on-demand tech resources for
-    enterprises and startups
+  focus: IT solutions development and on-demand tech talent resources
 position:
   title: Mid Level AI/ML Engineer-Remote
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves executing and delivering enterprise
-      agentic AI solutions, working with RAG pipelines,
-      embeddings/vector databases, and NLP/Transformers. This is
-      hands-on work building and deploying AI systems
-      (specifically agentic AI), not just supporting
-      infrastructure.
+      The role executes enterprise agentic AI solutions and lists
+      RAG pipelines, embeddings/vector databases, and
+      NLP/Transformers as core skills, meaning the engineer
+      designs retrieval and agent flows that shape LLM behaviour.
+      Even under senior guidance, the work is hands-on shaping of
+      LLM/agent components, so it is ai-first.
   responsibilities:
-  - Execute and deliver enterprise agentic AI solutions under guidance of senior engineers
+  - Execute and deliver enterprise agentic AI solutions under the guidance of senior
+    engineers
   - Contribute to solution building, model development, and integration
-  - Support Agile practices including sprint planning, estimation, and documentation
+  - Implement APIs, cloud-native deployments, and monitoring solutions
   - Collaborate with cross-functional teams including data scientists, DevOps, and
     product owners
-  - Implement APIs, cloud-native deployments, and monitoring solutions
-  - Focus on execution, optimization, and delivery of AI solutions
+  - Support Agile practices including sprint planning, estimation, and documentation
+  - Focus on execution, optimization, and delivery rather than consulting
   use_cases:
   - Enterprise agentic AI solutions
-  - RAG pipeline implementation
-  - NLP and transformer-based applications
-  - Cloud-native AI deployments
+  - RAG-based AI applications using embeddings and vector databases
+  - Model development and integration for AI systems
+  - Cloud-native AI deployments with monitoring
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [scikit-learn, PyTorch, TensorFlow]
     cloud: [AWS, Azure]
-    genai: [RAG, NLP/Transformers]
+    languages: [Python, SQL]
+    ml: [scikit-learn, PyTorch, TensorFlow, NLP, Transformers]
+    other: [Agile]
+    ops: [Docker, CI/CD, Monitoring]
+    databases: [Vector Databases]
+    domains: []
+    web: [APIs]
     data: [Pandas]
-    other: []
-    ops: [Docker, CI/CD]
-    web: []
-    databases: [embeddings/vector databases]
+    genai: [RAG, Embeddings, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7831737'
   location: Hyderabad, IND
   remote: true
-  extracted_at: '2026-03-03T11:44:04.358461'
+  extracted_at: '2026-08-16T00:12:10.654418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

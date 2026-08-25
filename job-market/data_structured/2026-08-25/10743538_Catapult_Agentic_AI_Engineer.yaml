@@ -1,0 +1,51 @@
+company:
+  name: Catapult
+  stage: null
+  focus: Sports performance and athlete analytics technology
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships AI agents, multi-agent
+      orchestration, tool calling, and evaluates LLM agent output
+      quality including calibration and evals — direct shaping of
+      LLM/agent behaviour. Clear ai-first.
+  responsibilities:
+  - Design and ship specialist AI agents using memory, tools, data and multi-step
+    reasoning
+  - Build multi-agent orchestration routing work between agents and synthesizing conflicting
+    outputs
+  - Develop confidence, uncertainty and consequence evaluation before recommendations
+    reach practitioners
+  - Build human-in-the-loop escalation for answering, clarifying or deferring to humans
+  - Turn sport scientist expertise into validated, versioned, testable agent capabilities
+  - Build evaluation, observability and regression testing for agent performance in
+    production
+  - Work with domain experts to keep AI outputs grounded, traceable and actionable
+  use_cases:
+  - Sports performance intelligence from athlete data
+  - Multi-agent recommendations on athlete health, readiness and performance
+  - Confidence-calibrated, escalation-aware recommendations for coaches and practitioners
+  - Human-in-the-loop decision support for sport scientists
+  skills:
+    cloud: [AWS, ECS, AWS Lambda]
+    languages: [Python, Go]
+    ml: [Machine Learning, Model Evaluation, Isotonic Regression, Platt Scaling, Expected
+        Calibration Error, Foundation Model Training, LLM Evaluation]
+    other: []
+    ops: [Model Monitoring, LLMOps]
+    databases: [PostgreSQL, MongoDB]
+    domains: []
+    web: [GraphQL, REST APIs, gRPC]
+    data: []
+    genai: [AI Agents, Agentic Workflows, Multi-Agent Systems, Function Calling, Prompt
+        Engineering, RAG, LangGraph, AutoGen, CrewAI, Fine-Tuning, LoRA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10743538'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:34:42.275552'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

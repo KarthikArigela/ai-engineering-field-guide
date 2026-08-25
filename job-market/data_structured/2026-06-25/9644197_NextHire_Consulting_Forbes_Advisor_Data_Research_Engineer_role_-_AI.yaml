@@ -1,52 +1,59 @@
 company:
   name: NextHire Consulting
   stage: null
-  focus: Personal finance, health, and business advisory content
+  focus: Consumer advice publishing on personal finance and health
 position:
   title: 'Forbes Advisor : Data Research Engineer role - AI/ML'
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves implementing RAG pipelines,
-      building agentic AI solutions with CrewAI/LangChain, and
-      hands-on prompt engineering with LLMs. While it blends data
-      engineering responsibilities, the core differentiator is the
-      active building and deployment of AI/LLM systems for data
-      extraction automation.
+      The role directly shapes LLM behaviour: it requires
+      implementing RAG pipelines with vector databases, hands-on
+      prompt engineering with hallucination mitigation, and
+      building agentic workflows with CrewAI/LangChain. The data
+      engineering work (ETL, crawling) is secondary to the LLM-
+      shaping responsibilities, so Step 2 yields ai-first.
   responsibilities:
-  - Develop and implement AI/LLM-based methods for process automation and data research
-    efficiency
-  - Identify and prototype new AI/LLM-based solutions to streamline data operations
-    and workflows
+  - Develop and implement methods to leverage AI and LLMs for process automation and
+    data research efficiency
+  - Proactively identify new AI/LLM-based solutions to streamline operations and improve
+    data workflows
   - Acquire and integrate data from multiple sources including web crawling, APIs,
-    and data pipelines
+    and other data pipelines
   - Design and optimize ETL workflows to ensure high-quality data availability for
     downstream analysis
-  - Evaluate third-party tools for modernizing legacy data systems and enhancing scalability
+  - Build RAG and agentic AI workflows using tools such as ChromaDB, Pinecone, CrewAI,
+    and LangChain
+  - Explore and evaluate third-party tools to modernize legacy data systems and enhance
+    scalability
   - Collaborate cross-functionally with content, research, and analytics teams to
     fulfill data requirements
-  - Support and mentor fellow engineers on the Data Research and Extraction Team
+  - Support and collaborate with fellow engineers on the Data Research and Extraction
+    Team
   use_cases:
-  - Automated data extraction from web sources using AI/LLM technologies
-  - ETL pipeline automation for financial and editorial data
-  - Intelligent data research workflow optimization
-  - RAG-powered data processing and analysis
-  - Agentic AI for modular and autonomous data extraction tasks
+  - Automating web data extraction and ETL workflows with AI/LLM assistance
+  - Improving data research efficiency for editorial insights on personal finance,
+    health, and business topics
+  - Streamlining data operations and research workflows through agentic AI automation
+  - Supplying high-quality, integrated data to internal content, research, and analytics
+    teams
   skills:
-    domains: [NLP]
-    languages: [Python, SQL]
-    ml: [TensorFlow, PyTorch, spaCy, NLTK, Hugging Face]
     cloud: []
-    genai: [RAG, CrewAI, LangChain, Prompt Engineering, LLMs]
-    data: [Data Pipelines, Web crawling/scraping]
-    other: [Agile]
+    languages: [Python, SQL]
+    ml: [PyTorch, TensorFlow, Hugging Face, spaCy, NLTK, Machine Learning]
+    other: [Web Scraping, Agile]
     ops: [Git]
-    web: [APIs]
     databases: [Chroma, Pinecone]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [RAG, Prompt Engineering, LLMs, AI Agents, LangChain, CrewAI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9644197'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:48:50.775931'
+  extracted_at: '2026-08-16T13:35:53.924787'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

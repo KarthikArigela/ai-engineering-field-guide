@@ -1,0 +1,56 @@
+company:
+  name: Uvation
+  stage: null
+  focus: IT services and technology solutions provider
+position:
+  title: AI/ML Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role designs, trains, evaluates, and deploys ML models
+      (classification, regression, NLP, CV, forecasting) itself,
+      which is shaping model behavior. No LLM/agent shaping
+      responsibilities beyond optional experimentation; the core
+      work is classical ML/DL, so it is ml-first.
+  responsibilities:
+  - Design, build, and deploy ML models for classification, regression, NLP, computer
+    vision, or time-series forecasting
+  - Select algorithms and continuously monitor and improve model performance
+  - Clean, preprocess, and transform datasets; engineer and select features
+  - Package and deploy models using Docker, Flask/FastAPI, and Kubernetes; implement
+    CI/CD pipelines with MLflow, Airflow, or Kubeflow
+  - Monitor deployed models for drift, latency, and performance in production
+  - Prototype AI-driven solutions such as recommendation engines, chatbots, and fraud
+    detection
+  - Experiment with cutting-edge models including LLMs, transformers, and generative
+    AI
+  - Maintain documentation and ensure reproducibility and data governance compliance
+  use_cases:
+  - Recommendation engines
+  - Chatbots
+  - Fraud detection
+  - NLP and computer vision applications
+  - Time-series forecasting
+  - Business analytics and intelligent automation
+  skills:
+    genai: [Generative AI]
+    ml: [scikit-learn, TensorFlow, PyTorch, Machine Learning, Deep Learning, Model
+        Training, Model Evaluation, Feature Engineering, Hyperparameter Tuning, NLP,
+      Hugging Face, OpenCV, LLMs, Transformers, Time-Series Forecasting]
+    web: [Flask, FastAPI, REST APIs]
+    databases: []
+    data: [Pandas, NumPy, Airflow, DVC]
+    cloud: [SageMaker, Azure ML, GCP]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, Kubeflow, MLOps]
+    languages: [Python]
+    domains: [Computer Vision]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10573851'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T10:45:37.085021'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

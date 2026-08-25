@@ -1,0 +1,61 @@
+company:
+  name: Octagon
+  stage: ''
+  focus: Sports, entertainment, and experiential marketing agency
+position:
+  title: Data Engineer (AI Enablement)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly designs the retrieval layer that shapes AI
+      output quality: document-chunking and embedding pipelines,
+      vector search (FAISS/pgvector/Milvus), and governed
+      retrieval endpoints that return grounding snippets and
+      citations for RAG. Designing retrieval/RAG is explicitly
+      shaping work, and the LLM/generative component makes it ai-
+      first rather than ml-first.
+  responsibilities:
+  - Design and operate the vector database/search layer (FAISS/pgvector/Milvus) and
+    document-chunking/embedding pipelines that make content discoverable and auditable
+  - Implement and maintain scalable ELT/ETL pipelines supporting data labeling, classification,
+    and document parsing, with robust validations, lineage, and observability
+  - Expose governed retrieval APIs that respect permissions (ACLs), support metadata
+    filters, and return source snippets/IDs for grounding and citations
+  - Normalize, transform, and move JSON and other structured payloads cleanly through
+    workflows for reliable handoffs and automation outputs
+  - Productionize Solutions Engineer prototypes with CI/CD, telemetry, cost/usage
+    guardrails, and pilot-to-rollout gating
+  - Build monitoring for freshness, re-index SLAs, and retrieval quality, plus secrets
+    management, access controls, and audit logging aligned with enterprise governance
+  - Align product, design, data science, engineering, and commercial stakeholders
+    around a unified roadmap and shared data contracts
+  use_cases:
+  - Enterprise search over Octagon's multi-source content
+  - RAG-style retrieval with grounding and citations for AI tools
+  - AI-powered workflows including data labeling, classification, and document parsing
+  - Making organizational knowledge searchable, governed, and auditable
+  - Reducing manual effort and improving data quality across departments
+  - Marketing and media-measurement dataset normalization and quality checks
+  skills:
+    genai: [RAG, Embeddings, LLMs, Guardrails, Agentic Workflows, Copilot Studio]
+    ml: [Machine Learning]
+    web: [JSON, Streamlit, R Shiny]
+    databases: [Vector Databases, FAISS, pgvector, Milvus, Vector Search, Relational
+        Databases]
+    data: [Data Modeling, ETL, Airflow, Prefect, Parquet, CSV, Data Lineage, Data
+        Contracts]
+    cloud: [Cloud Object Storage]
+    ops: [CI/CD, Monitoring, Observability, Docker, GitHub Actions, Infrastructure
+        as Code, Secrets Management]
+    languages: [Python, SQL, C++, C#, Java, Go]
+    domains: []
+    other: [Microsoft 365, SharePoint, Microsoft Teams, Microsoft Graph, Microsoft
+        Copilot, Power Automate, Google Workspace, Salesforce, Digital Asset Management]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7646246'
+  location: USA
+  extracted_at: '2026-08-15T21:55:47.917076'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

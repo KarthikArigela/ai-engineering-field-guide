@@ -1,0 +1,66 @@
+company:
+  name: Zeta Global
+  stage: 'Publicly traded (NYSE: ZETA)'
+  focus: |-
+    AI-powered marketing cloud for advertising and customer
+    personalization
+position:
+  title: Sr AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes both LLM-driven systems and
+      classical ML: it develops and integrates LLM-powered
+      features and agentic workflows (audience insights,
+      bid/budget recommendations, creative generation) within
+      guardrails, while also designing and training ML models for
+      targeting, ranking, and pacing. A role that shapes both LLM
+      and classical ML systems is ai-first.
+  responsibilities:
+  - Design, implement, and ship scalable ML solutions for core AdTech use cases (targeting,
+    ranking, pacing, measurement), owning features end-to-end from experimentation
+    to production rollout
+  - Build and evolve the ML lifecycle including data preparation, training, evaluation,
+    and real-time inference, integrated with low-latency, high-throughput ad serving
+    systems
+  - Develop and integrate LLM-powered features and agentic workflows for campaign
+    operations such as audience insights, bid/budget recommendations, and creative
+    generation within defined guardrails
+  - Operate ML services in high-concurrency, latency-sensitive environments, optimizing
+    inference paths, implementing monitoring and alerting, and managing model drift
+  - Ensure safe deployment practices including A/B testing, canaries, and rollbacks
+  - Contribute to the AI/ML technical roadmap by evaluating tools and techniques including
+    deep learning, LLMs, and retrieval/feature systems
+  - Collaborate with engineering, product, and data science partners to translate
+    marketing objectives into ML-driven solutions and define success metrics
+  - Mentor engineers through code and model reviews, championing testing, observability,
+    documentation, and reproducible ML workflows
+  use_cases:
+  - Campaign optimization including targeting, ranking, pacing, and measurement
+  - User personalization across advertising channels
+  - Creative intelligence including ad copy generation and creative optimization
+  - Audience insights for campaign operations
+  - Bid and budget recommendations
+  - Automated campaign operations via agentic workflows at billions of ad events per
+    day
+  skills:
+    genai: [LLMs, Generative AI, Agentic Workflows, Guardrails]
+    ml: [PyTorch, TensorFlow, Machine Learning, Deep Learning, Embeddings, Model Training,
+      Model Evaluation, Ranking, Classification]
+    web: [Microservices]
+    databases: [PostgreSQL, MySQL, Cassandra, DynamoDB, Redis, NoSQL]
+    data: [Spark, Kafka, Data Pipelines, Apache Iceberg, Apache Hudi]
+    cloud: [AWS]
+    ops: [Docker, Kubernetes, CI/CD, Model Serving, Model Monitoring, Observability,
+      Distributed Systems]
+    languages: [Python, Java, Go, SQL]
+    domains: [Programmatic Advertising]
+    other: [A/B Testing, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8513186'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T02:02:31.849684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

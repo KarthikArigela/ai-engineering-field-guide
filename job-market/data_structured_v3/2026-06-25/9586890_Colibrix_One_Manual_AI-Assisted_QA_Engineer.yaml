@@ -1,0 +1,65 @@
+company:
+  name: Colibrix One
+  stage: null
+  focus: AI-powered payment technologies for PSPs, EMIs, and neobanks
+position:
+  title: Manual AI-Assisted QA Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a manual QA engineer role where AI tools (Claude
+      Code, ChatGPT) are used as assistants to generate test
+      scenarios, analyze requirements, and speed up documentation
+      - the engineer consumes AI, never shapes a model's behavior.
+      There is no prompt engineering for a product, RAG/agent
+      design, fine-tuning, or model output evaluation. Per the
+      edge case for AI used as a tool to do the engineering work,
+      this is ai-support.
+  responsibilities:
+  - Perform manual testing across active releases including feature acceptance, smoke,
+    regression, and integration testing
+  - Test API flows and validate integrations between services
+  - Create, maintain, and optimize test cases and regression suites in TMS (QASE,
+    TestRail, Zephyr)
+  - Use AI tools to generate test scenarios, analyze requirements, accelerate exploratory
+    testing, and improve bug reports and documentation
+  - Perform release verification for payments, wallets, cards, and crypto flows
+  - Support automation QA engineers by validating automated regression results and
+    triaging failures
+  - Participate in audit-related QA activities when required
+  - Handle urgent business delivery tasks in a fast-changing environment
+  use_cases:
+  - AI-assisted test scenario generation and requirements analysis
+  - AI-accelerated exploratory testing and bug investigation
+  - AI-assisted log analysis and impact analysis for payment flows
+  - AI-assisted documentation improvement and test data generation
+  - QA validation of payment, wallet, card, and crypto flows
+  skills:
+    genai: [Claude Code, ChatGPT]
+    ml: []
+    web: [Playwright]
+    databases: []
+    data: []
+    cloud: []
+    ops: [GitLab]
+    languages: [Python]
+    domains: []
+    other: [Jira, Confluence, TestRail, Zephyr, QASE, Postman, Swagger, Manual Testing,
+      API Testing, Integration Testing, Regression Testing, Exploratory Testing, PCI
+        DSS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9586890'
+  location: Porto, PRT
+  locations:
+  - Porto, PRT
+  - Berlin, DEU
+  - SRB
+  - Warsaw, POL
+  - Barcelona, ESP
+  - Vilniaus miesto, LTU
+  remote: true
+  extracted_at: '2026-08-16T13:03:12.699344'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

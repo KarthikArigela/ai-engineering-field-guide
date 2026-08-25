@@ -1,0 +1,49 @@
+company:
+  name: STAFIDE
+  stage: null
+  focus: Staffing and recruitment services
+position:
+  title: Senior AI/ML Engineer (ID:3418)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds and operates end-to-end ML pipelines for
+      recommendations, forecasting, and automation using classical
+      ML frameworks (scikit-learn, PyTorch) with no LLM or agent
+      components. The engineer shapes classical ML systems through
+      training, validation, and monitoring, so it is ml-first.
+  responsibilities:
+  - Design, develop, deploy, and operate production-grade machine learning systems
+  - Build and maintain end-to-end ML pipelines covering training, validation, deployment,
+    monitoring, and lifecycle management
+  - Develop ML MLOps and ML Platform components for scalable, reliable ML workflows
+  - Expose ML models as scalable APIs and services using FastAPI
+  - Automate model training and deployment with CI/CD pipelines
+  - Implement model monitoring and drift detection
+  - Manage and improve ML infrastructure with Terraform and Docker
+  - Orchestrate ML workflows with Airflow or Azure ML
+  use_cases:
+  - Recommendation systems
+  - Forecasting
+  - Process automation
+  - Production ML model serving and monitoring
+  skills:
+    genai: []
+    ml: [scikit-learn, PyTorch, Model Training, Model Evaluation]
+    web: [FastAPI]
+    databases: [Snowflake, Redis]
+    data: [Delta Lake, Azure Data Lake, Airflow, Data Engineering]
+    cloud: [Azure, AWS, Azure ML]
+    ops: [MLflow, MLOps, CI/CD, GitHub Actions, Azure DevOps, Docker, Kubernetes,
+      Terraform, Monitoring, Model Monitoring, Azure Monitor, NewRelic]
+    languages: [Python, SQL, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10591048'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T10:50:40.811160'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

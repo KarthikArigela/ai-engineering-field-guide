@@ -1,54 +1,55 @@
 company:
   name: Visa Inc,
-  stage: Public
-  focus: Global payments network and cybersecurity AI solutions
+  stage: null
+  focus: Global payments technology and network company
 position:
   title: Staff SW Engineer (Golang Full Stack) – Cybersecurity AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a full-stack software engineering role in Visa's
-      Cybersecurity AI CoE, focused on building web applications
-      and APIs that support AI/ML products. The role involves
-      general software engineering (front-end, back-end,
-      databases) rather than building, training, fine-tuning, or
-      deploying AI models directly. AI/ML exposure is listed only
-      as "preferred" qualifications, not core responsibilities.
+      This is a full-stack software engineering role (Golang,
+      React/Angular, REST/GraphQL) building web applications for a
+      cybersecurity analytics team; no responsibility involves
+      shaping model behavior through prompts, retrieval, training,
+      or evals. AI/ML appears only as preferred familiarity
+      ("AI/ML concepts", "experience with latest GenAI tools"),
+      which per the rules classifies as ai-support.
   responsibilities:
   - Design, develop, and maintain robust, scalable web applications using modern front-end
     and back-end technologies
-  - Collaborate with product managers, designers, and other developers to translate
-    business requirements into technical solutions
-  - Communicate with customers to gather requirements, provide technical support,
-    and deliver solutions
-  - Build and consume RESTful APIs and/or GraphQL endpoints
+  - Build and consume RESTful APIs and GraphQL endpoints
   - Develop responsive user interfaces using frameworks such as React or Angular
   - Implement server-side logic, database schemas, and data storage solutions using
     Golang, Python, Java, or similar technologies
-  - Optimize applications for maximum speed and scalability
-  - Troubleshoot, debug, and upgrade existing software systems
+  - Troubleshoot, debug, and upgrade existing software systems and optimize applications
+    for maximum speed and scalability
   - Write and maintain unit, integration, and end-to-end tests and participate in
     code reviews
+  - Communicate with customers to gather requirements, provide technical support,
+    and deliver solutions addressing their needs
+  - Collaborate with product managers, designers, and developers to translate business
+    requirements into technical solutions
   use_cases:
-  - Cybersecurity threat detection and protection
-  - Fraud prevention analytics
-  - Risk management solutions
-  - Enterprise security monitoring
-  - Payments network protection
+  - Cybersecurity analytics products that protect against cyber criminals and fraudsters
+  - Fraud detection and prevention for payments transactions across a global network
+  - AI and machine learning-driven security analytics solutions aligned with cyber
+    and risk teams' business objectives
   skills:
-    domains: []
-    languages: [Go, Python, Java, JavaScript]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: [GenAI tools]
+    languages: [Go, Python, Java, JavaScript]
+    ml: [Machine Learning]
+    other: [Cybersecurity, Agile]
+    ops: [Kubernetes, Docker, Git, Bitbucket, Distributed Systems]
+    databases: [SQL, NoSQL, MySQL, PostgreSQL, MongoDB, Redis, Cassandra]
+    domains: []
+    web: [Full-Stack Development, React, Angular, REST APIs, GraphQL, HTML, CSS, Microservices]
     data: []
-    other: [AI/ML concepts]
-    ops: [Kubernetes, Docker, Git]
-    web: [HTML, CSS, React, Angular, REST APIs, GraphQL, Microservices]
-    databases: [MySQL, PostgreSQL, MongoDB, Redis, Cassandra]
+    genai: [Generative AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8001554'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:44:22.982610'
+  extracted_at: '2026-08-16T00:20:25.489052'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

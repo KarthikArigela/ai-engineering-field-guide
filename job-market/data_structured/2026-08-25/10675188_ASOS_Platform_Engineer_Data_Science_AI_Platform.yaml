@@ -1,0 +1,58 @@
+company:
+  name: ASOS
+  stage: null
+  focus: Global online fashion retail
+position:
+  title: Platform Engineer – Data Science & AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly contributes to building evaluation
+      pipelines, guardrails, and prompt/version management for an
+      AgentOps capability, which is shaping LLM/agent behaviour
+      and output quality. It also supports classical ML platform
+      work, but the LLM/agent component makes it ai-first.
+  responsibilities:
+  - Build and evolve platform infrastructure and reusable abstractions for data engineering
+    and ML workloads
+  - Implement platform-level IaC, CI/CD, and environment management across dev/test/prod
+  - Build components in Python and Spark for data processing, shared datasets, and
+    platform services
+  - Contribute to shared services for data and ML lifecycle management (pipelines,
+    experiment tracking, versioning, lineage, permissions)
+  - Support implementation and operation of a centralised AgentOps capability (LLM
+    gateway, tool integration, prompt and version management)
+  - Contribute to agent lifecycle and safety controls including evaluation pipelines
+    and guardrails
+  - Enhance observability across Data/ML Ops and Agent Ops (traces, evaluations, cost
+    and behaviour monitoring)
+  - Apply security and compliance best practices (RBAC/ACLs, IAM) and collaborate
+    with data and ML teams on platform adoption
+  use_cases:
+  - Standardised data engineering platform for batch and streaming pipelines
+  - 'Traditional ML workflows: feature engineering, training, and batch/real-time
+    serving'
+  - Centralised AgentOps with LLM gateway, tool integration, and prompt/version management
+  - Agent safety via evaluation pipelines, guardrails, and access control
+  - Cross-domain observability for data quality, pipeline reliability, and model/agent
+    performance
+  skills:
+    cloud: [Azure, Azure Databricks, ADLS Gen2, Azure Networking]
+    languages: [Python]
+    ml: [Model Evaluation, Feature Engineering, Model Training]
+    other: []
+    ops: [Terraform, CI/CD, Azure DevOps, GitHub Actions, Docker, Kubernetes, Infrastructure
+        as Code, Monitoring, Observability, Model Deployment]
+    databases: [Unity Catalog]
+    domains: []
+    web: []
+    data: [Spark, Data Pipelines]
+    genai: [LLM Gateway, Prompt Engineering, Guardrails, LLM Evaluation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10675188'
+  location: London, GBR
+  extracted_at: '2026-08-25T11:12:51.858554'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

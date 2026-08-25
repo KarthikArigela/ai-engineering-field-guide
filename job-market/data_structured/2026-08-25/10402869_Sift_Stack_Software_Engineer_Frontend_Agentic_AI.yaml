@@ -1,0 +1,51 @@
+company:
+  name: Sift Stack
+  stage: null
+  focus: Telemetry data infrastructure for hardware engineering teams
+position:
+  title: Software Engineer, Frontend (Agentic AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the frontend surfaces where AI agents are
+      displayed — streaming, rendering agent output, UX for long-
+      running tasks — but does not itself shape model behaviour
+      through prompts, retrieval, agent orchestration, or evals.
+      LLM work appears only as a 'bonus point', so this is product
+      engineering around an AI product.
+  responsibilities:
+  - Talk directly to customers to turn review workflows into agent capabilities
+  - Build and polish the frontend surfaces where Sift Agents live
+  - 'Design agentic UX interaction patterns: streaming, long-running tasks, interruptions,
+    agent transparency'
+  - Render agent findings alongside large real-time telemetry data with high performance
+  - Push browser limits with Web Workers, OPFS-backed caching, and stepping outside
+    React when needed
+  - Contribute to the component library to keep agentic UI patterns consistent
+  - Collaborate with backend engineers on API design powering agent sessions
+  use_cases:
+  - AI agents investigating anomalies in hardware telemetry
+  - Agent-assisted review of test and flight data for rockets, satellites, and autonomous
+    vehicles
+  - Agent-generated dashboards and analysis scripts for engineering insights
+  - Chat interfaces rendering agent findings over large real-time datasets
+  skills:
+    genai: []
+    ml: []
+    web: [React, Next.js, Tailwind, Radix UI, WebSockets, Redux]
+    databases: []
+    data: [Parquet, Flink, Kafka, DuckDB]
+    cloud: [AWS, Azure, GCP]
+    ops: [GitHub Actions, Docker, Kubernetes, Terraform]
+    languages: [TypeScript, Go]
+    domains: []
+    other: [Web Workers, WebAssembly, WebGL, D3.js, Apache ECharts, CSS, Timescale,
+      QuestDB, InfluxDB, Druid]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10402869'
+  location: Marina del Rey, USA
+  extracted_at: '2026-08-25T09:59:12.842046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

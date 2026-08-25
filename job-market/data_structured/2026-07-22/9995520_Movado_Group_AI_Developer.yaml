@@ -1,56 +1,64 @@
 company:
   name: Movado Group
-  stage: Public
-  focus: Watch and accessories design, manufacturing, and retail
+  stage: null
+  focus: Designer and retailer of luxury watches and accessories
 position:
   title: AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building automation tools and bots using
-      Generative AI (Amazon Bedrock, custom GPTs, Amazon Lex),
-      developing AI-enhanced data analytics solutions, and
-      integrating LLM-based services with business systems. The
-      developer directly works with GenAI tools and AI frameworks
-      to create intelligent solutions, making this an ai-first
-      role.
+      The role leads development of automation tools and bots
+      built on Generative AI (Amazon Bedrock, custom GPTs, Amazon
+      Lex) that call APIs, databases, and back-end systems -
+      designing the LLM/agent interaction and tool-calling
+      behaviour themselves, which is shaping model output. It also
+      builds classical predictive models (forecasting,
+      regression), but with LLM components involved the role is
+      ai-first.
   responsibilities:
-  - Design and architect AI-enhanced solutions integrating SAP data, external cloud
-    data sources, and local file-based inputs
-  - Lead development of automation tools and bots using Generative AI (Amazon Bedrock,
-    custom GPTs, Amazon Lex) to interact with APIs, databases, and back-end systems
+  - Design and architect AI-enhanced solutions integrating SAP data, cloud data sources
+    (Google BigQuery, Amazon Redshift), and local file-based inputs
+  - Lead development of Generative AI automation tools and bots (Amazon Bedrock, custom
+    GPTs, Amazon Lex) that interact with APIs, databases, and back-end systems for
+    real-time data processing
+  - Build, test, and deploy predictive models using machine learning and statistical
+    techniques such as forecasting, regression, and simulation
   - Develop intelligent frontend tools using Python, VBA, and Excel to streamline
     and automate business workflows
-  - Build, test, and deploy predictive models using machine learning and statistical
-    techniques including forecasting, regression, and simulation
-  - Define and maintain coding standards, Git-based repositories, and CI/CD pipelines
-    for AI and automation development
-  - Monitor and troubleshoot solution performance across SAP and non-SAP environments
-    ensuring high availability and scalability
-  - Drive innovation by applying AI and cloud services to modernize business processes
-    such as Order-to-Cash and Procure-to-Pay
-  - Oversee development of reusable code modules and AI frameworks, and mentor junior
-    Python developers
+  - Define coding standards, Git-based repositories, and CI/CD pipelines for AI and
+    automation development
+  - Drive modernization of business processes such as Order-to-Cash and Procure-to-Pay
+    using AI and cloud services
+  - Lead a small team of Python developers, overseeing reusable code modules and mentoring
+    junior developers
+  - Ensure secure integration of AI services with AWS, SAP, and third-party applications,
+    and monitor performance across environments
   use_cases:
+  - Automation tools and chatbots using Generative AI for real-time data processing
+    and response
   - Business process automation for Order-to-Cash and Procure-to-Pay workflows
-  - Intelligent chatbots and conversational interfaces for enterprise systems
-  - Predictive analytics and forecasting using machine learning models
-  - Bi-directional data integration between SAP systems and cloud platforms
-  - AI-assisted code generation and workflow design
+  - SAP data integration and bi-directional data flows with cloud platforms and external
+    systems
+  - Predictive analytics including forecasting, regression, and simulation
+  - Excel, VBA, and Python-based frontend tools for workflow automation
+  - AI-assisted code generation for modularized business processes
   skills:
-    genai: [Generative AI, AWS Bedrock, OpenAI API, Conversational AI, LLMs]
-    ml: [scikit-learn, Machine Learning, NumPy, Forecasting]
-    web: [Microservices, APIs]
-    databases: [BigQuery, Redshift]
-    data: [Pandas, Data Pipelines]
-    cloud: [AWS, AWS Lambda, GCP, Azure]
-    ops: [Docker, Kubernetes, CI/CD, Git, GitHub, GitLab CI]
+    cloud: [AWS, AWS Lambda, Amazon Lex, GCP, Azure]
     languages: [Python, VBA, SQL]
-    domains: []
+    ml: [Machine Learning, scikit-learn, Forecasting, Regression]
     other: [SAP, Excel, Agile]
+    ops: [Git, GitHub, GitLab CI, CI/CD, DevOps]
+    databases: [BigQuery, Redshift]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Pandas, NumPy]
+    genai: [Generative AI, AWS Bedrock, Custom GPTs, OpenAI API, LLMs, Conversational
+        AI]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '9995520'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:48:47.073484'
+  extracted_at: '2026-08-16T19:33:33.902882'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

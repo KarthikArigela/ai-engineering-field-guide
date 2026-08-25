@@ -1,0 +1,66 @@
+company:
+  name: Brown and Caldwell
+  stage: null
+  focus: Environmental engineering and construction services firm
+position:
+  title: Data & AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core responsibilities are data platform engineering:
+      designing ETL/data pipelines, data warehouses, data models,
+      and data governance. AI work appears only as preferred
+      experience framed as "supporting production LLM- or RAG-
+      based systems in a platform, data, or MLOps capacity,"
+      meaning the person operates infrastructure around AI systems
+      that others shape. The deliverable is data capacity and
+      reliability, not model behaviour, so this is ai-support.
+  responsibilities:
+  - Design, build, and maintain data pipelines to collect, clean, transform, and load
+    data from sources including sensor data, historical records, and geospatial information
+    for data warehousing
+  - Develop, deploy, execute, and monitor ETL processes to support data analysis,
+    visualization, and machine learning model training
+  - Participate in designing and managing data warehouses, data lakes, and databases
+    for efficient storage, retrieval, and management
+  - Develop and maintain data models and perform SQL database management and querying
+  - Implement data quality and data governance processes, including regular data audits,
+    to ensure accuracy, integrity, and accessibility
+  - Design and execute testing plans for data pipeline and data warehousing implementation
+    efforts
+  - Collaborate with environmental engineers, data scientists, software developers,
+    IT infrastructure, and cybersecurity teams within approved data infrastructure
+    and security guidelines
+  - Support production LLM/RAG-based systems from a platform and MLOps capacity, including
+    retrieval pipelines and LLMOps practices
+  - Provide mentorship and knowledge-sharing to less experienced team members
+  use_cases:
+  - Environmental and water-resources engineering analytics
+  - Data integration of sensor, historical, and geospatial data for warehousing and
+    analysis
+  - Data infrastructure supporting machine learning model training
+  - Production-grade RAG and multi-agent AI systems for AI-enabled delivery workflows
+  - AI-assisted analytics and natural-language data exploration
+  skills:
+    genai: [RAG, LLMs, Agentic Workflows, Embeddings, Function Calling, LLM Evaluation]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: [Relational Databases, Data Warehousing, Data Lakes, Vector Search,
+      Snowflake, PostGIS]
+    data: [Data Pipelines, ETL, Data Modeling, Data Governance, Airflow, Databricks,
+      geopandas]
+    cloud: [Azure, AWS, GCP, AKS, Azure AI Search]
+    ops: [MLOps, LLMOps, Git, Docker, Kubernetes, Infrastructure as Code, OpenTelemetry,
+      Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: [ESRI ArcGIS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9103096'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T08:04:53.363680'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

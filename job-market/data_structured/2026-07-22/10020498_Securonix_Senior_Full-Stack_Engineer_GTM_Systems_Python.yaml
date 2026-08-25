@@ -1,56 +1,63 @@
 company:
   name: Securonix
-  stage: Late Stage (Unicorn, Vista Equity Partners-backed)
-  focus: AI-reinforced cybersecurity SIEM platform
+  stage: Cybersecurity unicorn backed by Vista Equity Partners
+  focus: |-
+    AI-reinforced cloud-native SIEM cybersecurity threat
+    detection platform
 position:
   title: Senior Full-Stack Engineer, GTM Systems (Python & AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role explicitly involves designing and implementing AI-
-      driven solutions including agents, LLM-powered workflows,
-      prompt-based tools, and LLM API integrations. While it's
-      primarily a full-stack engineering role, a significant
-      portion involves building practical AI automations and
-      deploying AI-enabled tools, making it ai-first rather than
-      just ai-support.
+      The role explicitly designs and implements AI-driven
+      solutions - agents, LLM-powered workflows, and prompt-based
+      tools - for GTM teams, meaning the person writes prompts and
+      shapes agent flows themselves; those AI solutions are the
+      product being built, not just a coding aid. Using
+      Codex/ChatGPT/Claude to accelerate development would alone
+      be ai-support, but the agent and prompt-based application
+      deliverables make this ai-first.
   responsibilities:
   - Build, maintain, and improve internal full-stack tools, scripts, automations,
-    dashboards, and integrations supporting GTM teams
+    dashboards, integrations, and workflow enhancements supporting GTM teams
   - Own technical execution of lightweight applications and internal tooling that
-    improve seller productivity and operational efficiency
+    improve seller productivity, operational efficiency, and data quality
   - Support and optimize core GTM systems including Salesloft, ZoomInfo, RingLead,
-    LinkedIn Sales Navigator, and related RevOps platforms
-  - Partner with Salesforce administrators and GTM stakeholders to ensure sales systems
-    and workflows operate effectively
-  - Identify process gaps across Sales, Partnerships, and GTM operations and design
-    technical solutions to improve speed and accuracy
+    LinkedIn Sales Navigator, Lusha, Orum, and partner portal/PRM platforms
+  - Partner with Salesforce administrators and GTM stakeholders to keep sales systems,
+    workflows, data, and processes operating effectively
   - Design and implement AI-driven solutions including agents, LLM-powered workflows,
-    prompt-based tools, and automation prototypes
-  - Assist with reporting, data hygiene, process documentation, testing, and change
-    management for new tools and workflows
+    prompt-based tools, LLM API integrations, and automation prototypes
+  - Use AI tools such as Codex, ChatGPT, and Claude to accelerate development, analysis,
+    documentation, and automation
+  - Identify process gaps across Sales, Partnerships, and GTM operations and build
+    practical technical solutions
+  - Assist with reporting, data hygiene, process documentation, testing, enablement,
+    and change management for new tools and workflows
   use_cases:
-  - AI-driven automation of sales and GTM workflows
-  - LLM-powered productivity tools for sellers and GTM teams
-  - Prompt-based applications and AI agents for operational efficiency
-  - Internal tooling to improve seller productivity and data quality
-  - Revenue system integrations and workflow automation across the GTM technology
-    stack
+  - AI-enabled internal tools for Sales, Partnerships, Customer Success, and GTM productivity
+  - Agents and LLM-powered workflow automations for revenue operations
+  - Prompt-based applications and LLM API integrations for GTM teams
+  - RevOps and sales technology platform support and optimization
+  - Data quality improvement and automation across the revenue technology stack
   skills:
-    genai: [LLMs, AI Agents, OpenAI API, Anthropic API, ChatGPT, Claude Code, GitHub
-        Copilot, Codex, Prompt Engineering, Agentic Workflows]
-    ml: []
-    web: [Next.js, REST APIs, APIs, Full-Stack Development, OAuth]
-    databases: [Databases]
-    data: [Data Pipelines]
     cloud: []
-    ops: [CI/CD]
     languages: [Python]
+    ml: []
+    other: [Salesforce, Salesloft, ZoomInfo, RingLead, LinkedIn Sales Navigator, Lusha,
+      Orum, Workflow Automation]
+    ops: []
+    databases: []
     domains: []
-    other: [Salesforce, Salesloft, ZoomInfo]
+    web: [Next.js, Full-Stack Development, APIs]
+    data: []
+    genai: [Codex, ChatGPT, Anthropic API, GitHub Copilot, AI Agents, LLMs, Prompt
+        Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10020498'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:23:49.487157'
+  extracted_at: '2026-08-16T16:12:19.439348'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

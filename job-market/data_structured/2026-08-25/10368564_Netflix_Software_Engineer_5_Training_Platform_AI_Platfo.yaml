@@ -1,0 +1,54 @@
+company:
+  name: Netflix
+  stage: null
+  focus: |-
+    Streaming entertainment service with personalization and
+    content ML
+position:
+  title: Software Engineer 5 – Training Platform, AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and optimizes distributed training systems
+      for foundation and generative AI models, directly working on
+      fine-tuning, distillation, and training internals like FSDP
+      and parallelism strategies. Optimizing a model's own
+      training internals counts as shaping, and generative/LLM
+      targets make it ai-first.
+  responsibilities:
+  - Design and build platform infrastructure, libraries, and SDKs for large-scale
+    model training, fine-tuning, and evaluation workflows
+  - Diagnose and optimize performance of large distributed training jobs (GPU utilization,
+    memory, communication, checkpointing, fault tolerance)
+  - Co-design systems and models to improve scalability and cost-effectiveness of
+    training
+  - Design easy-to-use APIs and interfaces for ML practitioners and non-experts
+  - Partner with ML engineers, researchers, and infrastructure teams to align on platform
+    direction
+  - Promote best practices in operations including observability, logging, and on-call
+  use_cases:
+  - Large-scale training and fine-tuning of foundation and generative AI models
+  - Personalized recommendations
+  - Studio algorithms and virtual productions
+  - Growth intelligence and content demand modeling
+  skills:
+    genai: [Generative AI, OpenAI API]
+    ml: [PyTorch, Model Training, Fine-Tuning, Model Evaluation, Quantization, Machine
+        Learning]
+    web: []
+    databases: []
+    data: [Ray, Databricks]
+    cloud: [AWS, SageMaker, AWS Bedrock]
+    ops: [Kubernetes, Observability]
+    languages: []
+    domains: []
+    other: [SDKs, Distributed Training]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10368564'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:50:41.733824'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

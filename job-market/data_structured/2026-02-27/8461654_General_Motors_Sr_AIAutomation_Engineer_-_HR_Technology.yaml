@@ -1,50 +1,55 @@
 company:
   name: General Motors
-  stage: Public
-  focus: Automotive manufacturing and HR technology
+  stage: null
+  focus: Automotive manufacturing and mobility
 position:
   title: Sr. AI/Automation Engineer -  HR Technology
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing, building, and deploying custom
-      plugins and AI agents for Moveworks and Serval platforms
-      (Agentic AI platforms), which is hands-on work implementing
-      and deploying AI/agent solutions. The position requires
-      working directly with AI platforms to create intelligent
-      automations and integrations.
+      The role designs, builds, and deploys custom plugins and AI
+      agents on agentic AI platforms (Moveworks, Serval), which is
+      directly designing agent tool calling and agent behavior for
+      HR workflows. Per Step 1/2, designing agent flows and tool
+      calling on LLM-based platforms classifies as ai-first even
+      though another vendor builds the underlying models.
   responsibilities:
-  - Design, build, and deploy custom plugins for Moveworks and Serval Agentic AI platforms
-  - Execute the HR Automation and AI product roadmap aligned with HR organization
-    goals
-  - Integrate AI agents with enterprise systems using APIs, webhooks, and OAuth authentication
-  - Conduct technical analysis and workshops with IT and Solution Architects to design
-    AI agent integrations
-  - Develop automation workflows leveraging JSON, XML, and structured data formats
-  - Lead successful implementation of AI agents and integrations with cross-functional
-    teams
-  - Prepare Solution Design documents for AI agents and supporting integrations
-  - Maintain integration and plugin roadmap including feature enhancements and updates
+  - Design, build, and deploy custom plugins for the Moveworks and Serval agentic
+    AI platforms
+  - Lead implementation of AI agents and their supporting enterprise integrations
+  - Integrate with enterprise systems using APIs, webhooks, OAuth, and other authentication
+    models
+  - Develop automation workflows leveraging JSON, XML, and other structured data formats
+  - Collaborate with business COEs, People Services, HR Technology, and IT stakeholders
+    to gather and validate requirements
+  - Conduct technical analysis and design workshops with IT and Solution Architects
+    for AI agent integrations
+  - Prepare Solution Design documents and maintain the integration and plugin roadmap
+  - Ensure security, data integrity, and compliance in all integration and plugin
+    activities
   use_cases:
-  - HR workflow automation and intelligent process enhancement
-  - Employee self-service through AI-powered HR support
-  - Enterprise system integrations for HR platforms (Workday, ServiceNow)
-  - Agentic AI deployment for HR service delivery
+  - HR workflow automation through AI agents and intelligent plugins
+  - Employee HR service delivery via Moveworks and Serval agentic AI platforms
+  - Integrating AI agents with enterprise HR systems such as Workday HCM and ServiceNow
+  - Enterprise-grade HR process automation supporting People Services and HR COEs
   skills:
-    domains: []
+    cloud: [Azure, AWS, GCP]
     languages: [Python, Java, C++]
     ml: []
-    cloud: [Azure, AWS, GCP]
+    other: [ServiceNow, Workday, PeopleSoft, Concur, Automation Anywhere, UiPath,
+      Knime, Jira, Agile]
+    ops: []
+    databases: [Oracle]
+    domains: []
+    web: [APIs, REST, SOAP, Webhooks, OAuth, JWT, JSON, XML, Postman, Insomnia]
+    data: []
     genai: [Moveworks, Serval, AI Agents]
-    data: [JSON, XML]
-    other: [ServiceNow, Workday HCM, Workday, PeopleSoft, Oracle, Concur]
-    ops: [Automation Anywhere, UiPath, Jira, RPA]
-    web: [REST APIs, SOAP, OAuth, JWT, Postman, APIs, Webhooks]
-    databases: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8461654'
   location: USA
   remote: true
-  extracted_at: '2026-03-03T12:19:45.709098'
+  extracted_at: '2026-08-16T01:28:20.397579'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

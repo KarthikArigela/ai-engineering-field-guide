@@ -1,0 +1,70 @@
+company:
+  name: Microsoft
+  stage: null
+  focus: |-
+    Cloud software and AI platforms for productivity and
+    developer products
+position:
+  title: Principal Software Engineer - Responsible AI (CoreAI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The responsibilities are entirely about designing and
+      operating large-scale distributed cloud services (high
+      availability, low latency, observability, DevOps culture)
+      and integrating existing AI services, with no evidence of
+      shaping model behaviour - no prompt design, retrieval
+      architecture, training, or eval/guardrail authoring is
+      described. The role engineers the service layer for
+      Responsible AI capabilities (Content Safety) while
+      scientists own the model work, and per the
+      serving/infrastructure edge case the deliverable is capacity
+      and reliability, not model behaviour.
+  responsibilities:
+  - Design and develop large-scale distributed cloud services and solutions focused
+    on high availability, scalability, robustness, and observability
+  - Lead project development across the organization, working with subject matter
+    experts and stakeholders to drive development and release plans
+  - Evaluate alternative architectures and technologies to best fit business requirements
+    and service KPIs
+  - Take end-to-end responsibility for the development lifecycle and production readiness
+    of services and drive the team's DevOps culture
+  - Uphold modern software engineering best practices through code and design reviews
+    and make service decisions based on data and telemetry
+  - Own the design of new Responsible AI services and their integration with Azure
+    AI Content Safety, Azure OpenAI Service, and Azure AI Studio
+  - Collaborate with Microsoft stakeholders to deliver cohesive end-to-end experiences
+    for customers
+  use_cases:
+  - Identify, measure, mitigate, and monitor Responsible AI risks in AI-generated
+    and human-generated content
+  - Content safety and moderation across text, image, audio, video, and multimodal
+    content
+  - Customer-facing Responsible AI services delivered with high performance, low latency,
+    and high availability
+  - Integration of Responsible AI capabilities with Azure AI Content Safety, Azure
+    OpenAI Service, and Azure AI Studio
+  skills:
+    genai: []
+    ml: [Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure, Azure OpenAI, Azure AI Content Safety, Azure AI Studio]
+    ops: [Distributed Systems, DevOps, Observability]
+    languages: [Python, C, C++, C#, Java, JavaScript, Go]
+    domains: []
+    other: [Responsible AI, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10218282'
+  location: Redmond, USA
+  locations:
+  - Redmond, USA
+  - New York, USA
+  - San Francisco, USA
+  - Mountain View, USA
+  extracted_at: '2026-08-16T17:59:10.194767'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

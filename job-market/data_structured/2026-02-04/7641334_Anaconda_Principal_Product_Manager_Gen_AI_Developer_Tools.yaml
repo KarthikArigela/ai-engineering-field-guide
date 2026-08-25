@@ -1,62 +1,64 @@
 company:
   name: Anaconda
-  stage: Series B
-  focus: Enterprise Python data science and AI platform
+  stage: Backed by world-class investors including Insight Partners
+  focus: |-
+    Open-source Python package management and enterprise AI
+    platform
 position:
   title: Principal Product Manager, Gen AI Developer Tools
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Product Manager role focused on building developer
-      tools, infrastructure, and platforms that support AI
-      workflows (MCP servers, APIs, SDKs, integration with AI
-      IDEs). The role does not involve hands-on work building,
-      training, fine-tuning, or deploying AI models - rather, it
-      enables developers who build with AI by creating the tooling
-      and integration layers around Anaconda's package management
-      platform.
+      This is a product manager role: the person sets strategy,
+      roadmap, partnerships, and adoption metrics for Anaconda's
+      MCP servers and AI tool integrations, while engineering
+      teams build the actual APIs, SDKs, and agents. The PM does
+      not personally shape model behaviour through prompts,
+      retrieval, agent design, or training. The deliverable is
+      developer workflow and platform adoption, so the role is ai-
+      support.
   responsibilities:
-  - Lead product strategy and roadmap for Agentic Environment & Package Management
-    initiatives, including MCP server development and AI tool integrations
+  - Lead product strategy and roadmap for Anaconda's Agentic Environment & Package
+    Management initiatives, including MCP server development and AI tool integrations
   - Conduct strategic research with enterprise customers, AI tool vendors, and the
-    open-source community to identify critical integration points and partnership
-    opportunities
+    open-source community to identify integration points and partnership opportunities
   - Drive the development and launch of tools and agents that improve the quality
     of Python vibe-coding
-  - Support strategic partnerships with top AI-enabled IDEs (Cursor, VS Code, Windsurf,
-    etc.) to ensure Anaconda integration becomes the default choice
+  - Manage strategic partnerships with AI-enabled IDEs such as Cursor, VS Code, and
+    Windsurf to make Anaconda integration the default choice
   - Collaborate with engineering teams to build robust APIs, SDKs, and developer tools
-    that enable seamless AI-to-Anaconda workflows
+    enabling seamless AI-to-Anaconda workflows
   - Work closely with enterprise customers in regulated industries to ensure AI infrastructure
     meets security and compliance requirements
-  - Partner with marketing and developer relations to drive adoption among Python
-    developers globally
+  - Partner with marketing and developer relations to drive adoption among the 50+
+    million Python developers globally
   - Measure and optimize key metrics including developer adoption, enterprise package
     downloads, and AI tool integration usage
   use_cases:
-  - AI-assisted Python coding and development workflows using tools like Cursor, GitHub
-    Copilot, and Claude
-  - Agentic environment management and package management for AI development
-  - Enterprise-grade AI infrastructure with security and compliance for regulated
-    industries (finance, healthcare, government)
-  - Integration between AI coding tools and package management platforms via MCP (Model
-    Context Protocol)
-  - Seamless AI-to-Anaconda workflows enabling developers to build and deploy AI applications
+  - Agentic environment and package management for AI coding workflows
+  - MCP servers and integrations connecting AI coding tools and IDEs to Anaconda's
+    Python package ecosystem
+  - Tools and agents that improve the quality of AI-assisted Python development (vibe-coding)
+  - Secure and compliant AI infrastructure for enterprises in regulated industries
+    such as finance, healthcare, and government
   skills:
-    domains: []
+    cloud: []
     languages: [Python]
-    ml: []
-    cloud: [enterprise security and compliance]
-    genai: [MCP, A2A protocol, Agentic Workflows, AI-to-application integration, Cursor,
-      GitHub Copilot, Anthropic API, Windsurf]
-    data: []
-    other: [VS Code, developer tools, open-source community, strategic partnerships]
-    ops: [package management, system architecture]
-    web: [APIs, SDK development]
+    ml: [Machine Learning]
+    other: [Product Management, Package Management, Developer Tools, Open Source,
+      VS Code, Security & Compliance, Data Science]
+    ops: []
     databases: []
+    domains: []
+    web: [APIs, SDKs]
+    data: []
+    genai: [MCP, Generative AI, Cursor, GitHub Copilot, Anthropic API, Windsurf, A2A
+        Protocol, AI Agents]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7641334'
   location: USA
-  extracted_at: '2026-02-05T11:16:52.387569'
+  extracted_at: '2026-08-15T21:55:30.465316'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

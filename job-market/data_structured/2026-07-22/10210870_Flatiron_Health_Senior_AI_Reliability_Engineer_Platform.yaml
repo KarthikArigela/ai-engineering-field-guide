@@ -1,61 +1,69 @@
 company:
   name: Flatiron Health
-  stage: Public
-  focus: Oncology real-world data and cancer care technology
+  stage: ''
+  focus: |-
+    Healthtech company turning oncology data into real-world
+    evidence
 position:
   title: Senior AI Reliability Engineer (Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building evaluation frameworks,
-      observability, guardrails, and orchestration for AI/LLM-
-      powered and agentic workflows in production. While it
-      focuses on reliability rather than model training, the
-      engineer directly works on deploying, evaluating, and
-      governing AI systems including multi-agent orchestration,
-      drift detection, and hallucination risk monitoring — making
-      it hands-on work with AI systems.
+      The role builds evaluation frameworks, benchmarks, automated
+      testing pipelines, and guardrails for LLM-powered and
+      agentic workflows themselves, which is shaping model
+      behaviour and output quality (judging/ranking model output,
+      building evals and guardrails). The targets are explicitly
+      LLMs, RAG, AI agents, and multi-agent systems, so it
+      classifies as ai-first rather than ai-support, despite the
+      reliability/platform framing.
   responsibilities:
   - Design, build, and continuously improve evaluation frameworks, benchmarks, and
     automated testing pipelines for AI, LLM-powered, and agentic workflows
   - Define and monitor quality, reliability, safety, performance, and cost metrics
-    for AI systems including observability, drift detection, hallucination risk, and
-    retrieval quality
-  - Develop reliability engineering practices for AI-enabled systems including SLOs,
-    SLIs, monitoring, alerting, incident response, and root-cause analysis of AI failure
-    modes
-  - Design orchestration, governance, and guardrails for multi-agent AI systems including
-    agent coordination, permissions, auditability, and human oversight
+    for AI systems, including observability, drift detection, hallucination risk,
+    retrieval quality, and end-to-end workflow behaviour
+  - Develop reliability engineering practices for AI-enabled systems, including SLOs,
+    SLIs, monitoring, alerting, incident response, runbooks, and root-cause analysis
+    of AI failure modes
+  - Design orchestration, governance, and guardrails for multi-agent AI systems, including
+    agent coordination, permissions, auditability, human oversight, and secure deployment
+    patterns
   - Partner with platform, product, security, engineering, and data science teams
-    to evaluate AI solutions and establish reusable standards for build-vs-buy and
-    model selection decisions
-  - Support experimentation with emerging AI technologies while helping the organization
-    make pragmatic, scalable decisions and participating in on-call rotations
+    to evaluate AI solutions, establish reusable standards, and guide build-vs-buy,
+    model selection, and AI adoption decisions
+  - Build reusable patterns, evaluation infrastructure, and observability that enable
+    AI adoption across teams without acting as a gatekeeper
+  - Support experimentation with emerging AI technologies, collaborate across global
+    teams, and participate in on-call rotations
   use_cases:
   - Evaluation and automated testing of LLM-powered and agentic workflows in production
-  - Monitoring AI system reliability including drift detection, hallucination risk,
-    and retrieval quality
-  - Orchestration and governance of multi-agent AI systems with human-in-the-loop
-    controls
-  - Scaling AI-enabled workflows across engineering, product, and business teams in
-    a regulated healthcare environment
-  - AI observability and incident response for production AI failure modes
+  - AI observability and monitoring covering drift, hallucination risk, retrieval
+    quality, and cost
+  - Reliability engineering and incident response for AI-enabled workflows across
+    engineering, product, and business teams
+  - Governance, permissions, and human oversight for multi-agent AI systems
+  - Real-world evidence generation from oncology data to improve cancer care
   skills:
-    genai: [LLMs, RAG, AI Agents, Prompt Engineering, Multi-Agent Systems, Agentic
-        Workflows, LLM Evaluation, Red-Teaming]
-    ml: [Embeddings]
-    web: []
+    cloud: [AWS, AWS Bedrock, AgentCore, SageMaker, EKS, ECS, IAM, AWS S3, AWS Lambda,
+      Step Functions, VPC]
+    languages: [Python]
+    ml: [Machine Learning, Model Evaluation]
+    other: [Statistical Analysis, AI Safety, Coder]
+    ops: [MLflow, CloudWatch, GitLab CI, CI/CD, Kubernetes, Docker, Workflow Orchestration,
+      MLOps, SRE, Observability, Model Monitoring, Drift Detection, Datadog, Splunk,
+      OpenTelemetry]
     databases: []
-    data: [Databricks, Spark, Airflow, dbt, Ray, Prefect, Data Pipelines]
-    cloud: [AWS, AWS Bedrock, CloudWatch, SageMaker, EKS, ECS, IAM, AWS S3, AWS Lambda]
-    ops: [MLflow, GitLab CI, Kubernetes, Docker, CI/CD, MLOps, Monitoring, Observability,
-      Datadog, Splunk, OpenTelemetry, Model Monitoring]
-    languages: [Python, SQL]
     domains: []
-    other: [Responsible AI, HIPAA Compliance, Statistical Analysis]
+    web: []
+    data: [Databricks, Data Pipelines, Spark, Airflow, dbt, Ray, Prefect]
+    genai: [LLMs, RAG, AI Agents, Agentic Workflows, Multi-Agent Systems, Guardrails,
+      LLM Evaluation, Embeddings, Red-Teaming]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10210870'
   location: Berlin, DEU
-  extracted_at: '2026-07-22T13:38:41.156770'
+  extracted_at: '2026-08-16T17:54:59.263291'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,43 @@
+company:
+  name: TALPRO INDIA PRIVATE LIMITED
+  stage: null
+  focus: IT staffing and consulting services
+position:
+  title: Senior Microsoft Azure DevOps AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a DevOps engineer focused on CI/CD, IaC, and
+      Databricks operations. AI (OpenAI tool) is only mentioned as
+      "preferred", so no shaping of model behaviour. Per edge case
+      rules, this is ai-support.
+  responsibilities:
+  - Build and maintain Azure DevOps CI/CD pipelines and release processes
+  - Manage Azure Databricks environments
+  - Implement Infrastructure as Code using Terraform
+  - Write automation scripts using PowerShell DSC, Ansible, and Chef
+  - Manage source control with Git
+  - Support AI-related tooling where applicable
+  use_cases:
+  - CI/CD pipeline automation and release management
+  - Databricks environment operations
+  - Infrastructure provisioning via IaC
+  skills:
+    genai: [OpenAI API]
+    ml: []
+    web: []
+    databases: []
+    data: [Databricks]
+    cloud: [Azure]
+    ops: [Azure DevOps, CI/CD, Infrastructure as Code, Terraform, Ansible, Chef, Git]
+    languages: [PowerShell]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10819965'
+  location: Bengaluru South, IND
+  extracted_at: '2026-08-25T12:07:48.744912'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

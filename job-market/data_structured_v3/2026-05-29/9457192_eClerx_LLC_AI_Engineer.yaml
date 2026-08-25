@@ -1,0 +1,67 @@
+company:
+  name: eClerx LLC
+  stage: Publicly traded (Bombay and National Stock Exchanges of India)
+  focus: |-
+    Business process management, automation, and analytics
+    services for enterprises
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM and agent behavior: designing
+      tool-calling agents with MCP, building LLM evaluation
+      frameworks, prompt synthesis, RAG pipelines, guardrails, and
+      self-correction loops. This is squarely Step 1 shaping work
+      with an LLM/agent component, so it is ai-first.
+  responsibilities:
+  - Design and implement tool-calling agents combining retrieval, structured reasoning,
+    and secure action execution following MCP protocol
+  - Build evaluation frameworks for open-source and foundational LLMs including retrieval
+    pipelines, prompt synthesis, response validation, and self-correction loops
+  - Integrate agents with observability, incident management, and deployment systems
+    to enable automated diagnostics, runbook execution, remediation, and post-incident
+    summarization
+  - Engineer guardrails, validator models, adversarial prompts, and policy checks
+    for safety, compliance, and least-privilege access
+  - Optimize cost and latency via prompt engineering, context management, caching,
+    model routing, and distillation under stringent SLOs
+  - Build RAG pipelines with domain-knowledge curation, data-quality validation, and
+    feedback loops for knowledge freshness
+  - Collaborate with production engineers and application teams to translate production
+    pain points into agentic AI roadmaps
+  - Drive design reviews and mentor peers on agent architectures, evaluation methodologies,
+    and safe deployment patterns
+  use_cases:
+  - Agentic AI solutions that diagnose, reason, and take action in large-scale production
+    environments
+  - Automated production diagnostics, runbook execution, and remediation for production
+    support
+  - Post-incident summarization with full traceability
+  - Risk and cost reduction in managing complex production environments
+  - Productivity and reliability improvements for production operations teams
+  skills:
+    genai: [AI Agents, RAG, Prompt Engineering, MCP, Function Calling, Guardrails,
+      LLMs, LLM Evaluation, Model Routing, OpenAI API, Gemini, Llama, Qwen, Claude]
+    ml: [Fine-Tuning, Machine Learning, Distillation, Model Training]
+    web: []
+    databases: [DynamoDB, Redshift, Vector Search]
+    data: [Data Pipelines]
+    cloud: [AWS, ECS, EKS, AWS Lambda, SageMaker, Step Functions]
+    ops: [Model Deployment, Model Monitoring, Observability, Terraform, CloudFormation]
+    languages: [Python, C++, Go, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9457192'
+  location: USA
+  locations:
+  - USA
+  - Dallas, USA
+  - New York, USA
+  remote: true
+  extracted_at: '2026-08-16T11:34:16.719717'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

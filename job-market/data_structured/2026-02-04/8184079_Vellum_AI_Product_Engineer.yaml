@@ -1,46 +1,49 @@
 company:
   name: Vellum
-  stage: Series A
-  focus: AI agent platform for non-technical users
+  stage: Raised $25M from top-tier investors
+  focus: |-
+    Platform for generating working AI agents from natural
+    language
 position:
   title: AI Product Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires deep experience building coding agents
-      and complex AI systems, which involves directly implementing
-      AI agents and AI-powered tools. The engineer will build a
-      platform for generating reliable, working agents, making
-      this hands-on work with AI systems rather than supporting
-      infrastructure.
+      The core requirement is deep experience building coding
+      agents and other complex AI systems, and Vellum's product
+      itself generates reliable, working agents from plain-
+      language goals. Designing agent behavior and flows is
+      shaping model output, and the systems involved are
+      LLM/agent-driven, so the role is ai-first.
   responsibilities:
-  - Build AI agents and complex AI systems that solve real-world problems
-  - Develop a platform where users can describe goals in plain language to generate
-    working agents
-  - Apply AI engineering techniques to create reliable, production-ready agent solutions
-  - Ship high-quality AI tools rapidly in a fast-paced, competitive market
+  - Build coding agents and other complex AI systems for Vellum's platform
+  - Develop product features that turn plain-language goals into reliable working
+    agents
+  - Take on significant ownership and responsibility from day one
+  - Anticipate and build what customers need before they ask for it
+  - Work alongside a high-performance team in the New York office
+  - Move fast while building products and processes for the long run
   use_cases:
-  - Enabling non-technical users (Sales, Ops, Marketing, Finance) to create AI agents
-    through natural language descriptions
-  - Automating manual workflows like Slack thread management and data entry
-  - Generating reliable, working agents in seconds to improve productivity across
-    business functions
-  - Providing enterprise-grade AI tools that go beyond generic ChatGPT responses
+  - Generating reliable, working AI agents from plain-language goals in seconds
+  - Automating work for Sales, Ops, Marketing, and Finance teams
+  - Coding agents that accelerate software engineering
+  - Replacing manual data entry and ad-hoc ChatGPT responses with dependable agents
   skills:
-    domains: []
-    languages: [Python, TypeScript]
+    cloud: []
+    languages: []
     ml: []
-    cloud: [AWS]
-    genai: [AI Agents, coding agents, LangChain, OpenAI API, Anthropic API, Prompt
-        Engineering, RAG, Function Calling]
-    data: []
     other: []
-    ops: [Docker]
-    web: [REST APIs]
-    databases: [PostgreSQL, Redis]
+    ops: []
+    databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [AI Agents, Cursor, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8184079'
   location: New York, USA
-  extracted_at: '2026-02-05T12:09:56.561910'
+  extracted_at: '2026-08-15T22:49:22.119896'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

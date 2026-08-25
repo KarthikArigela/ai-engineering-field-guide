@@ -1,62 +1,67 @@
 company:
   name: Mastercard
-  stage: Public
-  focus: Global payments technology and financial services
+  stage: null
+  focus: |-
+    Global digital payments technology and data-driven business
+    intelligence
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on technical leadership role requiring
-      direct work with LLMs, agentic systems, RAG pipelines, and
-      model fine-tuning. The role involves building, deploying,
-      and optimizing production-grade generative AI systems from
-      prototype to production.
+      The role directly shapes LLM behavior: architecting multi-
+      agent systems, designing RAG/Graph-RAG pipelines, leading
+      prompt engineering, LLM fine-tuning, and RLHF/PEFT/LoRA
+      alignment strategies. LLM and agent components are central
+      throughout, with traditional ML appearing only in hybrid
+      support, so this is ai-first.
   responsibilities:
-  - Architect and lead development of multi-agent AI systems using frameworks such
-    as LangGraph, CrewAI, and AutoGen for enterprise-scale autonomous reasoning
+  - Architect and lead development of multi-agent AI systems using LangGraph, CrewAI,
+    and AutoGen for autonomous reasoning, tool use, and adaptive decision-making at
+    enterprise scale
   - Design and operationalize multimodal generative AI pipelines unifying text, image,
-    tabular, and graph data using transformer architectures
+    tabular, and graph data using transformer-based architectures
   - Build production-grade RAG and Graph-RAG systems integrating vector databases
-    and knowledge graphs for semantic retrieval and entity-aware reasoning
+    and knowledge graphs for semantic retrieval and grounded generation
   - Lead LLM fine-tuning, prompt engineering, and model alignment strategies including
-    RLHF, PEFT, LoRA, and instruction tuning for enterprise use cases
-  - Establish robust LLMOps and MLOps pipelines on Databricks using MLflow, feature
-    stores, and continuous retraining workflows
+    RLHF, PEFT, LoRA, and instruction tuning
+  - Establish LLMOps and MLOps pipelines on Databricks with MLflow, feature stores,
+    prompt evaluation, and continuous retraining workflows
   - Develop high-performance Python backend services for LLM inference orchestration,
     async job handling, and streaming responses
-  - Engineer state, memory, and context management subsystems enabling temporal reasoning
-    and session continuity across agents
-  - Implement Responsible AI practices including bias detection, hallucination mitigation,
-    explainability dashboards, and safety guardrails
+  - Engineer agent state, memory, and context management subsystems for temporal reasoning,
+    session continuity, and long-context handling
+  - Implement Responsible AI and governance practices including bias detection, hallucination
+    mitigation, explainability, and output safety guardrails
   use_cases:
-  - Operational intelligence and business insights for enterprise decision-making
-  - Multi-agent systems for autonomous reasoning and adaptive decision-making at enterprise
-    scale
-  - Semantic search and entity-aware reasoning over proprietary payment and transaction
-    data
-  - Cross-modal intelligence unifying text, image, tabular, and graph data for financial
-    analytics
-  - Hybrid AI systems combining traditional ML with LLMs for interpretable, explainability-first
-    decisions
-  - Responsible AI applications ensuring transparency and fairness in financial services
+  - Data-driven business intelligence and growth decision-making from proprietary
+    multi-modal data
+  - Autonomous enterprise agents for reasoning, tool use, and adaptive decision-making
+  - Semantic retrieval and grounded generation over enterprise knowledge and graphs
+  - Production-grade generative AI applications elevating customer experience
+  - Interpretable hybrid decision systems combining traditional ML with LLMs
   skills:
+    cloud: [AWS, SageMaker, AWS Bedrock, Azure OpenAI, Vertex AI]
+    languages: [Python, SQL]
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformers, Deep Learning, Machine Learning,
+      Predictive Modeling, Statistical Modeling, BERT, CLIP, LLaVA, T5, Whisper]
+    other: [Responsible AI]
+    ops: [MLflow, Weights & Biases, MLOps, LLMOps, Feature Stores]
+    databases: [Pinecone, pgvector, OpenSearch, Neo4j, AWS Neptune, Knowledge Graphs,
+      Vector Databases]
     domains: []
-    languages: [Python, asyncio, SQL]
-    ml: [Hugging Face, LLM fine-tuning, RLHF, LoRA, instruction tuning, vector embeddings,
-      semantic search, PyTorch, TensorFlow, BERT, CLIP, LLaVA, T5, Whisper]
-    cloud: [SageMaker, AWS Bedrock, Azure OpenAI, Vertex AI]
-    genai: [LangChain, LangGraph, CrewAI, AutoGen, RAG, Graph-RAG, OpenAI API, Anthropic
-        API, Gemini, Prompt Engineering, chain-of-thought reasoning, Function Calling,
-      agent memory architectures, GPT-4o]
+    web: [FastAPI, Microservices]
     data: [Databricks]
-    other: []
-    ops: [MLflow, Weights & Biases, LLMOps, MLOps, feature stores, model lineage tracking]
-    web: [FastAPI]
-    databases: [Pinecone, pgvector, OpenSearch, Neo4j, AWS Neptune]
+    genai: [LangGraph, CrewAI, AutoGen, LangChain, RAG, Graph-RAG, Prompt Engineering,
+      LLMs, Generative AI, Multi-Agent Systems, AI Agents, Agentic Workflows, Function
+        Calling, Embeddings, Semantic Search, Fine-Tuning, RLHF, LoRA, Chain-of-Thought
+        Reasoning, Guardrails, LLM Evaluation, OpenAI API, Anthropic API, Gemini,
+      GPT-4o, Llama, Mistral, Falcon]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9356291'
   location: Pune, IND
-  extracted_at: '2026-05-29T09:01:11.215958'
+  extracted_at: '2026-08-16T10:31:48.436546'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

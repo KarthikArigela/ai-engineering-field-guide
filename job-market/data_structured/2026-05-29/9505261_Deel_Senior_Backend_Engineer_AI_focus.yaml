@@ -1,43 +1,44 @@
 company:
   name: Deel
-  stage: Series C+ (later stage, $17.3B valuation, $1B ARR)
-  focus: All-in-one payroll and HR platform for global teams
+  stage: ''
+  focus: Global payroll and HR platform for distributed teams
 position:
   title: Senior Backend Engineer (AI focus)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Senior Backend Engineer role focused on
-      integrating AI capabilities into payroll systems. The role
-      involves building backend services and integrating AI APIs
-      (OpenAI, Gemini, Anthropic) but does not involve building,
-      training, or fine-tuning models. The engineer collaborates
-      with ML engineers rather than working directly on ML models,
-      which is characteristic of ai-support roles.
+      The role is a backend engineer who integrates pre-built AI
+      APIs into payroll production systems; model behaviour and AI
+      tooling design sit with the ML engineers and operations they
+      collaborate with. Prompt engineering, specific LLM APIs, and
+      conversational interfaces appear only as bonus
+      qualifications, and consuming an AI API another team
+      designed is ai-support.
   responsibilities:
-  - Build backend services that bring AI capabilities to life inside Payroll workflows
+  - Build backend services that bring AI capabilities to life inside payroll workflows
   - Collaborate with ML engineers and operations to create real-world AI-powered tools
   - Integrate AI APIs into production systems
-  - Work with unstructured data and ETL pipelines
-  - Build chatbot or conversational interfaces
-  - Handle document and file parsing (CSV, PDF, Excel)
+  - Build ETL pipelines to handle unstructured and messy data
+  - Deliver API integrations across backend services
+  - Script in Python to support AI workflows where needed
   use_cases:
-  - AI-powered payroll workflow automation
-  - Chatbot and conversational interfaces for HR/payroll support
-  - Document and file processing for payroll data
-  - Integration of AI capabilities into HRIS platform
-  - AI-powered tools for global payroll compliance
+  - AI capabilities embedded in payroll workflows
+  - Real-world AI-powered tools for payroll and operations
+  - Chatbot and conversational interfaces
+  - Automated document and file parsing (CSV, PDF, Excel) for payroll data
+  - Processing unstructured and messy data through ETL pipelines
   skills:
-    domains: []
-    languages: [Node.js, JavaScript, Python]
-    ml: []
     cloud: []
-    genai: [OpenAI API, Gemini, Anthropic API, Prompt Engineering, chatbot interfaces]
-    data: [Data Pipelines, document parsing]
-    other: []
+    languages: [JavaScript, Node.js, Python]
+    ml: []
+    other: [Document Parsing]
     ops: []
-    web: [APIs]
     databases: [PostgreSQL]
+    domains: []
+    web: [APIs, Full-Stack Development]
+    data: [Data Pipelines]
+    genai: [AI APIs, OpenAI API, Gemini, Anthropic API, Conversational AI, Prompt
+        Engineering]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +59,6 @@ meta:
   - BIH
   - Dydnia, POL
   remote: true
-  extracted_at: '2026-05-29T09:09:33.288592'
+  extracted_at: '2026-08-16T11:58:18.831175'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

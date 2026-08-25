@@ -2,6 +2,7 @@
 """Analyze AI-Support roles - what AI knowledge do they need?"""
 from collections import Counter, defaultdict
 
+from common import flat_skills, job_skills
 from common import load_structured_jobs as load_all_jobs
 
 
@@ -14,19 +15,16 @@ def compare_skills_by_type(jobs):
     def count_roles_with_skill(jobs, skill_name):
         count = 0
         for job in jobs:
-            skills = job.get('position', {}).get('skills', {})
-            all_skills = []
-            for cat, skill_list in skills.items():
-                if isinstance(skill_list, list):
-                    all_skills.extend([s.lower() for s in skill_list])
-            if any(skill_name.lower() in s for s in all_skills):
+            if any(skill_name.lower() in s for s in flat_skills(job)):
                 count += 1
         return count
 
-    # Key skills to check
+    # Key skills to check. These are concrete on purpose - probing for "agents"
+    # or "LLMs" would compare how the two kinds of ad are written rather than
+    # what the two kinds of role do.
     key_skills = {
-        'genai': ['RAG', 'prompt engineering', 'agents', 'LangChain', 'LLMs'],
-        'ml': ['PyTorch', 'TensorFlow', 'fine-tuning', 'machine learning'],
+        'genai': ['RAG', 'prompt engineering', 'LangChain', 'LangGraph', 'MCP', 'OpenAI API'],
+        'ml': ['PyTorch', 'TensorFlow', 'fine-tuning', 'embeddings'],
         'web': ['React', 'FastAPI', 'TypeScript', 'APIs'],
         'ops': ['Docker', 'Kubernetes', 'CI/CD'],
         'cloud': ['AWS', 'Azure', 'GCP'],
@@ -57,19 +55,20 @@ def analyze_support_ai_knowledge(jobs):
     support_without_genai = []
 
     for job in ai_support_jobs:
-        genai_skills = job.get('position', {}).get('skills', {}).get('genai', [])
+        skills = job_skills(job)
+        genai_skills = skills.get('genai', [])
         if genai_skills:
             support_with_genai.append({
                 'title': job.get('position', {}).get('title', ''),
                 'company': job.get('company', {}).get('name', ''),
                 'genai_skills': genai_skills,
-                'all_skills': job.get('position', {}).get('skills', {}),
+                'all_skills': skills,
             })
         else:
             support_without_genai.append({
                 'title': job.get('position', {}).get('title', ''),
                 'company': job.get('company', {}).get('name', ''),
-                'all_skills': job.get('position', {}).get('skills', {}),
+                'all_skills': skills,
             })
 
     return support_with_genai, support_without_genai

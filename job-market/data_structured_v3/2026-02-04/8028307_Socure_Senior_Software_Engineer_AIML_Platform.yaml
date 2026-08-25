@@ -1,0 +1,54 @@
+company:
+  name: Socure
+  stage: null
+  focus: Identity verification and fraud prevention infrastructure
+position:
+  title: Senior Software Engineer – AI/ML Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an ML platform/infrastructure role: the person
+      builds deployment, serving, CI/CD, and monitoring
+      infrastructure for models that ML teams own, and does not
+      shape model behaviour (no prompt work, retrieval design,
+      fine-tuning, or output-quality evals). Per the edge case for
+      serving, hosting, or scaling models one does not shape, this
+      is ai-support.
+  responsibilities:
+  - Build and maintain scalable systems and infrastructure for deploying and serving
+    ML models at scale
+  - Design low-latency, fault-tolerant model inference systems using Amazon SageMaker
+  - Implement safe deployment strategies such as blue/green deployments and rollbacks
+  - Create and manage CI/CD pipelines for ML workflows
+  - Monitor model performance and system health using AWS observability tools such
+    as CloudWatch
+  - Develop internal tools and APIs to help ML teams deploy and monitor models easily
+  - Collaborate with ML engineers, data scientists, and DevOps to productionize new
+    models
+  - Continuously improve deployment reliability, speed, and usability of the ML platform
+  use_cases:
+  - Real-time identity verification for the digital economy
+  - Fraud detection and prevention
+  - Low-latency ML model inference serving at scale
+  - Automated, safe delivery of machine learning models into production
+  - Model performance and system health monitoring for ML platforms
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, scikit-learn, Machine Learning, TorchScript, ONNX, Quantization]
+    web: [Microservices, APIs]
+    databases: [SQL, NoSQL, Snowflake, Redshift]
+    data: []
+    cloud: [AWS, SageMaker]
+    ops: [MLOps, CI/CD, CloudWatch, Model Deployment, Model Serving, Model Registry,
+      Blue/Green Deployments, Distributed Systems, Feature Stores]
+    languages: [Python, Go, Rust]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8028307'
+  location: USA
+  extracted_at: '2026-08-15T22:31:18.169504'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

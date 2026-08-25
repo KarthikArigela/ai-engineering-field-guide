@@ -1,55 +1,58 @@
 company:
   name: EXL
-  stage: Public
-  focus: Data analytics, digital operations and AI solutions
+  stage: null
+  focus: Data analytics and digital operations services
 position:
   title: AI Data Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building LLM-based applications,
-      RAG pipelines, agentic workflows, and prompt engineering for
-      production use. The engineer designs and implements AI
-      solutions end-to-end, including retrieval optimization,
-      guardrails, and function calling, which constitutes hands-on
-      work with AI/LLM systems.
+      The role directly shapes LLM behavior: it designs agent
+      patterns, builds RAG pipelines end-to-end, implements prompt
+      engineering and tool calling, and applies guardrails and
+      output evaluation. An LLM/agent component is central to the
+      work, so despite the data engineer title, this is ai-first.
   responsibilities:
-  - Design and develop LLM-based applications using single-agent or multi-agent patterns
-    for business use cases
-  - Build and maintain RAG pipelines from data ingestion through chunking, embeddings,
+  - Design and develop LLM-based applications using single-agent or simple multi-agent
+    patterns for business use cases
+  - Build and maintain RAG pipelines covering data ingestion, chunking, embeddings,
     retrieval, and response generation
   - Implement prompt engineering techniques including prompt templates, chaining,
-    and function calling
+    and tool/function calling
   - Develop backend services and APIs for AI applications using Python frameworks
-    like FastAPI, Flask, and Streamlit
+    (FastAPI, Flask, Streamlit)
   - Integrate AI solutions with enterprise systems, databases, and APIs
   - Apply guardrails and validation checks to improve response quality and reduce
     hallucination
-  - Collaborate with Data Engineering and MLOps teams for data quality, deployment,
-    and monitoring
+  - Collaborate with Data Engineering and MLOps teams on data quality, deployment,
+    monitoring, and iterative improvements
   - Document solutions, reusable components, and best practices
   use_cases:
-  - LLM-based business applications with agentic workflows
-  - RAG-powered enterprise knowledge retrieval and question answering
-  - Client-facing AI solutions and proofs of concept
-  - Enterprise data integration with AI capabilities
-  - Hallucination reduction and response quality improvement for generative AI
+  - LLM-based applications for enterprise business use cases using single and multi-agent
+    patterns
+  - Enterprise RAG pipelines for retrieval-grounded response generation
+  - Guardrailed AI responses with validation to reduce hallucination
+  - Integration of AI applications with enterprise data systems and APIs
+  - Client-facing AI solutions and proof-of-concepts
   skills:
-    genai: [LLMs, Anthropic API, OpenAI API, RAG, Prompt Engineering, LangChain, LangGraph,
-      AI Agents, Agentic Workflows, Function Calling, Fine-Tuning, LoRA, LLM Evaluation,
-      Guardrails, Embeddings, Azure OpenAI]
-    ml: [NLP]
-    web: [FastAPI, Flask, Streamlit, APIs]
-    databases: [Snowflake]
-    data: [Databricks, PySpark, Data Pipelines, Data Engineering]
-    cloud: [Azure, AWS, GCP]
-    ops: [Docker, CI/CD, Monitoring, MLOps]
+    cloud: [Azure, AWS, GCP, Azure OpenAI, Azure AI Search]
     languages: [Python, SQL]
-    domains: []
+    ml: [Machine Learning, NLP]
     other: []
-  is_customer_facing: true
+    ops: [Docker, CI/CD, Monitoring]
+    databases: [Snowflake]
+    domains: []
+    web: [FastAPI, Flask, Streamlit, APIs]
+    data: [PySpark, Databricks, Microsoft Fabric, Data Engineering, Data Pipelines,
+      Data Science, Data Analysis, Analytics Engineering]
+    genai: [LLMs, Anthropic API, OpenAI API, RAG, Generative AI, Agentic Workflows,
+      Multi-Agent Systems, Function Calling, LangChain, LangGraph, Prompt Engineering,
+      Embeddings, Guardrails, LLM Evaluation, LoRA, Fine-Tuning]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10092982'
   location: Gurugram, IND
-  extracted_at: '2026-07-22T13:27:40.282902'
+  extracted_at: '2026-08-16T16:51:26.534554'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

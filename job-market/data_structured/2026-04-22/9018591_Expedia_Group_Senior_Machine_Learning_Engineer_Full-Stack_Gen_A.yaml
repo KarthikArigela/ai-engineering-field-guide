@@ -1,58 +1,59 @@
 company:
   name: Expedia Group
-  stage: Public
-  focus: Global online travel technology and booking platform
+  stage: null
+  focus: Online travel booking and marketing technology platform
 position:
   title: Senior Machine Learning Engineer (Full-Stack Gen AI & Agentic Systems)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, training, fine-tuning, and
-      deploying GenAI/LLM systems including RAG pipelines, multi-
-      agent architectures, and multimodal models. The engineer
-      works hands-on with model adaptation (LoRA/QLoRA), RLHF/DPO,
-      agent orchestration frameworks, and ships production-ready
-      AI systems end-to-end.
+      The role directly shapes LLM behavior: designing RAG
+      pipelines and agent memory architectures, orchestrating
+      multi-agent systems with LangChain/AutoGen, and fine-
+      tuning/adapting/distilling LLMs with LoRA/QLoRA, RLHF, and
+      DPO. With heavy LLM and agentic components throughout, this
+      is clearly ai-first.
   responsibilities:
   - Architect, build, and ship enterprise-scale GenAI, RAG, and multi-agent systems
-    end-to-end including frontend, backend, and user interfaces
+    end-to-end, spanning frontend, backend, and user interfaces
   - Design hierarchical multi-agent ecosystems with interactive UIs, dashboards, and
     safety/observability features
-  - Develop memory architectures including short-term contextual memory, long-term
-    episodic memory, knowledge graph augmentation, and adaptive retrieval systems
+  - Develop agent memory architectures including short-term contextual memory, long-term
+    episodic memory, knowledge graph augmentation, and adaptive retrieval
   - Lead hands-on implementation of RAG pipelines, vector memory systems, and agent
-    orchestration frameworks
-  - Train, fine-tune, adapt (LoRA/QLoRA/adapters), and distill LLMs including RLHF/DPO
-    for production-ready chatbots and GenAI products
-  - Build multimodal pipelines integrating vision, audio, text, and structured data
+    orchestration frameworks (LangChain, AutoGen, OpenAI Agents SDK)
+  - Train, fine-tune, adapt (LoRA/QLoRA/adapters), and distill LLMs, including RLHF/DPO,
+    for production chatbots and GenAI products
+  - Build multimodal pipelines integrating vision, audio, text, and structured data,
     optimizing for scalability and latency
-  - Collaborate with product and engineering teams to create intuitive user-friendly
-    interfaces and seamless end-to-end user experiences
-  - Mentor engineers and ML scientists, set technical standards, and conduct design
-    reviews
+  - Collaborate with product and engineering teams on intuitive interfaces and seamless
+    end-to-end user experiences
+  - Mentor engineers and ML scientists, set technical standards, conduct design reviews,
+    and represent the organization externally via open source, patents, and publications
   use_cases:
-  - Personalized travel discovery powered by AI-driven marketing
-  - Real-time cross-platform campaign execution with agentic automation
-  - Interactive chatbots for travel planning and customer engagement
-  - Trip Matching on Instagram transforming social media content into instant hotel
-    recommendations
-  - Multimodal content understanding across vision, audio, text, and structured data
-    for travel applications
+  - Personalized travel discovery powered by production multimodal LLMs
+  - Interactive travel chatbots for customer engagement
+  - Hotel recommendations from social media content (Trip Matching on Instagram)
+  - Real-time cross-platform marketing campaign execution
+  - AI-driven agentic automation for growth marketing
   skills:
-    domains: [NLP, Multimodal AI]
-    languages: [Python]
-    ml: [PyTorch, Distributed GPU training]
     cloud: [AWS, Azure]
-    genai: [LangChain, AutoGen, OpenAI Agents SDK, RAG, LoRA/QLoRA, RLHF/DPO, LLM
-        fine-tuning and distillation, Multi-Agent Systems, Prompt Engineering]
-    data: []
-    other: []
-    ops: [Container orchestration (Kubernetes), ML tooling and observability]
+    languages: []
+    ml: [Machine Learning, Model Training, Distillation]
+    other: [UX/UI Design]
+    ops: [Observability, Container Orchestration]
+    databases: [Knowledge Graphs]
+    domains: []
     web: []
-    databases: [Vector Databases, Knowledge Graphs]
+    data: []
+    genai: [RAG, Generative AI, LLMs, Multimodal LLMs, Multi-Agent Systems, Agentic
+        Workflows, LangChain, AutoGen, OpenAI Agents SDK, Conversational AI, LoRA,
+      Fine-Tuning, RLHF, DPO, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9018591'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T12:27:41.239106'
+  extracted_at: '2026-08-16T07:10:36.273971'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,53 @@
+company:
+  name: Brainscape
+  stage: null
+  focus: Web and mobile EdTech study platform
+position:
+  title: AI Prompt Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role's core work is iterating on and fine-tuning LLM
+      prompts for GPT-powered flashcard generation, building
+      evaluation datasets, and monitoring output quality - all
+      direct shaping of LLM behavior. Since the target is LLMs
+      (GPT models via OpenAI API), this is ai-first.
+  responsibilities:
+  - Migrate and test bulk flashcard creation prompts in an updated AI environment
+    with newer GPT models, planning future migrations as OpenAI retires older models
+  - Run test suites and manually review AI outputs, iterating on prompts for quality
+    and correctness
+  - Analyze real user data to identify failure patterns and inform prompt improvements
+  - Streamline testing and evaluation workflows to make QA faster and more repeatable
+  - Monitor production quality post-launch and detect regressions as underlying models
+    shift
+  - Build and maintain model evaluation datasets from real user inputs across all
+    AI features
+  - Write test cases for edge cases, multilingual content, and messy real-world inputs
+  - Document prompt changes, test results, and lessons learned, and work with the
+    Content Team on flashcard authoring quality standards
+  use_cases:
+  - Converting pasted or uploaded content into flashcards
+  - Summarizing documents into flashcards
+  - Generating flashcards from user-described topics
+  - Bulk flashcard creation powered by generative AI
+  - Quality assurance and regression detection across AI-powered study features
+  skills:
+    genai: [Prompt Engineering, LLMs, OpenAI API, LLM Evaluation, Cursor]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Git, GitLab, Model Monitoring]
+    languages: [Python]
+    domains: []
+    other: [Regression Testing, EdTech]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8543870'
+  location: New York, USA
+  extracted_at: '2026-08-16T02:19:28.913782'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

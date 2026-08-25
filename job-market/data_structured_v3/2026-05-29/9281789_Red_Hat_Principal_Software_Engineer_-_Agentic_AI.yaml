@@ -1,0 +1,69 @@
+company:
+  name: Red Hat
+  stage: null
+  focus: |-
+    Enterprise open source software: Linux, cloud, container,
+    and Kubernetes technologies
+position:
+  title: Principal Software Engineer - Agentic AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes AI agent behavior directly: it defines
+      evaluation frameworks for AI agents (hallucination
+      detection, reasoning accuracy, non-deterministic outcome
+      validation), benchmarks LLM performance including RAG
+      evaluation, and designs complex multi-step prompts for AI
+      agents. Building evals and prompts for LLM/agent output
+      quality is shaping, and since LLMs and agents are the
+      targets, it is ai-first.
+  responsibilities:
+  - Define the evaluation framework for AI agents covering hallucination detection,
+    reasoning accuracy, and non-deterministic outcome validation in OpenShift environments
+  - Ensure security and compliance of AI agents used in the SDLC, including secure
+    tool-use and data leakage prevention
+  - Lead research and integration of AI/ML technologies for automated test generation,
+    predictive defect analysis, and intelligent system diagnostics
+  - Architect self-healing test suites where AI agents autonomously identify regressions
+    and rewrite test logic based on spec-driven changes
+  - Define and oversee the end-to-end quality strategy for the OpenShift Container
+    Platform, aligned with product goals and enterprise standards
+  - Architect, design, and lead development of scalable, intelligent test automation
+    frameworks and infrastructure
+  - Govern failure analysis and bug triage processes, analyzing trends to identify
+    systemic quality gaps
+  - Coordinate with cross-component and product release teams on bug verification,
+    regression testing, and delivery-related testing
+  use_cases:
+  - 'Agentic SDLC: AI-driven software delivery from automated coding to intelligent
+    testing on OpenShift'
+  - Autonomous test engineering with self-healing suites that detect regressions and
+    rewrite test logic
+  - Automated test generation and predictive defect analysis for quality processes
+  - Hallucination detection, reasoning accuracy, and non-deterministic outcome validation
+    for AI agents
+  - Secure AI agent tool-use and data leakage prevention in enterprise SDLC environments
+  - Intelligent system diagnostics and edge case prediction for large-scale distributed
+    Kubernetes platforms
+  skills:
+    genai: [RAG, LLMs, Prompt Engineering, AI Agents, LLM Evaluation, Kiro]
+    ml: [Machine Learning]
+    web: [Microservices]
+    databases: []
+    data: []
+    cloud: [AWS, Google Compute Engine, Azure, OpenStack]
+    ops: [Kubernetes, Docker, OpenShift, Linux, CI/CD, Jenkins, Distributed Systems]
+    languages: [Go, Java, Python, Ruby, Shell]
+    domains: []
+    other: [Spec-Driven Development, Security Testing, Agile, spec-kit, Tessl]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9281789'
+  location: Hadapsar, IND
+  locations:
+  - Hadapsar, IND
+  - Osečina, SRB
+  extracted_at: '2026-08-16T10:01:10.584818'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

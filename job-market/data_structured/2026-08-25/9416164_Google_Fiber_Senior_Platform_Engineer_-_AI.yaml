@@ -1,0 +1,57 @@
+company:
+  name: Google Fiber
+  stage: null
+  focus: Fiber optic internet services (Alphabet company)
+position:
+  title: Senior Platform Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agentic platforms, prompt engineering, RAG
+      pipelines, and LLM guardrails/monitoring directly, which is
+      shaping model behaviour and output quality of LLM systems.
+      Although a platform role, the responsibilities involve
+      building RAG, agents (MCP, A2A), and model gateway/routing
+      decisions rather than merely serving models someone else
+      configured.
+  responsibilities:
+  - Architect and build the Internal AI Developer Platform, abstracting GCP AI services
+    (Vertex AI, Agent Engine, Model Garden) into self-service APIs, SDKs, and Terraform
+    modules
+  - Design and build enterprise Model Gateways with unified routing, rate-limiting,
+    load balancing, failovers, and telemetry
+  - Build and optimize RAG pipelines grounded in internal policies and technical documentation
+  - Oversee deployment of microservices on GKE, Cloud SQL, and Cloud Build for scalable
+    AI performance
+  - Implement LLM guardrails, monitoring, and AI observability
+  - Develop CI/CD pipelines and automated testing frameworks tailored for AI agents
+    and ML workflows
+  - Drive automation strategies and infrastructure standards across the product suite
+  use_cases:
+  - Internal AI developer platform for self-service AI infrastructure consumption
+  - Enterprise model gateway for routing and model swapping
+  - Retrieval-augmented generation over internal policies and documentation
+  - Autonomous AI agent frameworks for enterprise workflow automation
+  - AI observability and security guardrails for LLM-powered products
+  skills:
+    genai: [Agentic Workflows, Prompt Engineering, RAG, LLMs, Multi-Agent Systems,
+      MCP, Guardrails]
+    ml: [Machine Learning]
+    web: [Microservices, APIs]
+    databases: []
+    data: []
+    cloud: [GCP, Vertex AI, AWS, Azure]
+    ops: [CI/CD, Terraform, Ansible, Infrastructure as Code, MLOps, Observability,
+      Distributed Systems]
+    languages: [Python, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9416164'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T12:19:32.833838'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,61 @@
+company:
+  name: Laurel
+  stage: Venture-backed
+  focus: AI-powered time capture platform for professional services
+position:
+  title: Staff AI Corporate Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role establishes guardrails for prompt safety and output
+      validation, designs the MCP server ecosystem for tool-use
+      and agent integrations, and manages model evaluation and
+      lifecycle across LLM providers. This directly shapes agent
+      and LLM behaviour, making it ai-first.
+  responsibilities:
+  - Design, build, and maintain the internal developer platform (software factory)
+    for employees to create, test, and publish AI agents and automated workflows
+  - Develop self-service tooling, templates, and scaffolding so non-engineering teams
+    can safely deploy AI-powered applications
+  - Own CI/CD pipelines for AI agent delivery and manage hosting infrastructure for
+    AI-generated web experiences
+  - Establish guardrails for model access, data handling, prompt safety, and output
+    validation; maintain a company-wide AI standards playbook
+  - Operate the central AI infrastructure layer including usage dashboards, spend
+    tracking, budget alerting, model configurations, API gateway settings, and rate
+    limits
+  - Implement observability tooling (logging, tracing, cost attribution) for AI workloads
+  - Design and maintain the MCP server ecosystem enabling structured tool-use and
+    agent-to-service integrations
+  - Partner with business units to identify AI automation opportunities and provide
+    training and support to internal builders
+  use_cases:
+  - Internal AI agent development platform (software factory) for non-engineering
+    teams
+  - Automated workflows and AI-powered internal applications
+  - AI-generated web experiences and internal portals
+  - 'Enterprise AI governance: usage analytics, spend tracking, and model access controls'
+  - Agent-to-service integrations via MCP servers
+  - AI automation for business units across the company
+  skills:
+    genai: [Anthropic API, OpenAI API, AI Agents, Agentic Workflows, MCP, Prompt Engineering,
+      Function Calling, Fine-Tuning, LLM Evaluation, Guardrails, LLMs]
+    ml: []
+    web: [OAuth]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, Kubernetes, Docker, Terraform, Datadog, Grafana, OpenTelemetry, Observability,
+      API Gateway, Rate Limiting]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10729974'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:30:29.802042'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

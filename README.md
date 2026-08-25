@@ -2,7 +2,7 @@
 
 Data-driven field guide to AI engineering roles, skills, and interviews. AI Engineering Field Guide is **the** go-to resource for AI engineering.
 
-Everything here is based on real data: 4,894 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
+Everything here is based on real data: 6,964 actual job descriptions, real interview experiences, and real stories from practitioners. This is not AI-generated filler dumped into a repo - every insight comes from analyzing actual data and synthesizing patterns from it.
 
 Star this repo to keep an eye on updates. To get notified about new content, subscribe to my newsletter: [AI Shipping Blog](https://aishippingblog.com/).
 
@@ -51,11 +51,11 @@ Star this repo to keep an eye on updates. To get notified about new content, sub
 
 ## Job Market Data
 
-4,894 job descriptions scraped from builtin.com covering LA, NY, London, Amsterdam, Berlin, and India.
+6,964 job descriptions scraped from builtin.com covering LA, NY, London, Amsterdam, Berlin, and India.
 
 - [Structured job descriptions](job-market/data_structured/) - YAML files grouped by scrape date
 - [Raw extracted postings](job-market/data_raw/) - original extracted data grouped by scrape date
-- [Job market trends](job-market/trends.md) - month-over-month analysis of role archetypes, skill stacks, and trajectories across 6 scrapes
+- [Job market trends](job-market/trends.md) - month-over-month analysis of role archetypes, skill stacks, and trajectories across 8 scrapes
 
 
 ## [Awesome AI Engineering](awesome.md)

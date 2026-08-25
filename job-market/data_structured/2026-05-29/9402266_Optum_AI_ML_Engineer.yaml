@@ -1,58 +1,58 @@
 company:
   name: Optum
-  stage: Public
-  focus: |-
-    Healthcare technology and services, AI-enabled health
-    optimization
+  stage: null
+  focus: Healthcare services and technology
 position:
   title: AI ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role requiring hands-on work with LLMs
-      and advanced AI techniques. The role involves developing
-      end-to-end training and fine-tuning of Large Language Models
-      (open-source and closed-source), architecting GraphRAG
-      pipelines, implementing RLHF/RLAIF for model alignment, and
-      building distributed training environments. This is direct
-      work on AI models and systems, not supporting infrastructure
-      or data pipelines for others.
+      The role directly shapes LLM behavior: end-to-end training
+      and fine-tuning of LLMs, applying RLHF/RLAIF alignment, and
+      architecting GraphRAG and embedding-based retrieval for
+      contextual grounding. Since LLMs are the model being shaped,
+      this is ai-first.
   responsibilities:
-  - Develop end-to-end training and fine-tuning of Large Language Models (LLMs) across
-    open-source and closed-source ecosystems
-  - Architect and implement GraphRAG pipelines with knowledge graph representation
-    and retrieval for contextual grounding
+  - Develop end-to-end training and fine-tuning of Large Language Models across open-source
+    and closed-source ecosystems
+  - Architect and implement GraphRAG pipelines including knowledge graph representation
+    and retrieval for enhanced contextual grounding
   - Design, train, and optimize semantic and dense vector embeddings for document
     understanding, search, and retrieval
-  - Build and scale distributed training environments using NCCL and InfiniBand for
-    multi-GPU and multi-node training
-  - Apply reinforcement learning techniques (RLHF, RLAIF) to align model behavior
-    with human preferences and domain-specific goals
   - Develop semantic retrieval systems with advanced document segmentation and indexing
     strategies
+  - Build and scale distributed training environments using NCCL and InfiniBand for
+    multi-GPU and multi-node training
+  - Apply reinforcement learning techniques such as RLHF and RLAIF to align model
+    behavior with human preferences and domain-specific goals
   - Collaborate with cross-functional teams to translate business needs into AI-driven
     solutions and deploy them in production
   use_cases:
-  - Enterprise document understanding and semantic search across healthcare data
-  - Graph-based knowledge retrieval enhanced with RAG for contextual grounding
-  - Healthcare domain-specific LLMs fine-tuned on medical and business data
-  - AI-driven health optimization solutions connecting people with care and resources
-  - Production AI systems for improving health outcomes and care delivery
+  - Document understanding, search, and retrieval
+  - Knowledge graph-grounded retrieval for enhanced contextual grounding
+  - Semantic search over segmented and indexed documents
+  - Alignment of LLM behavior with human preferences and domain-specific goals
+  - Production deployment of AI-driven solutions for business needs
   skills:
-    domains: [NLP]
-    languages: [Python, SQL]
-    ml: [Embeddings, PyTorch, RLHF, PPO, DPO, GRPO, LoRA, SFT, NCCL, InfiniBand, Deep
-        Learning, Transformers]
     cloud: [Azure ML, AWS]
-    genai: [OpenAI/Anthropic APIs, Fine-Tuning, GraphRAG, Knowledge graphs, RAG, DSPy]
-    data: [Document segmentation, OCR, Layout parsing]
-    other: []
-    ops: []
+    languages: [Python, SQL]
+    ml: [PyTorch, Transformers, Machine Learning, Deep Learning, Reinforcement Learning,
+      Model Training, State Space Models, Ensemble Methods, Bayesian Optimization,
+      Genetic Algorithms, Distributed Training]
+    other: [OCR]
+    ops: [NCCL, InfiniBand]
+    databases: [Vector Databases, FAISS, Weaviate, Milvus, Knowledge Graphs]
+    domains: [NLP]
     web: []
-    databases: [Semantic Search, Vector Databases, FAISS, Weaviate, Milvus]
+    data: [Exploratory Data Analysis]
+    genai: [LLMs, Fine-Tuning, GraphRAG, Embeddings, Semantic Search, RLHF, LoRA,
+      axolotl, DSPy, AI Agents, GPT, Llama, Mistral, Qwen, Gemini, OpenAI API, Anthropic
+        API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9402266'
   location: Hyderabad, IND
-  extracted_at: '2026-05-29T09:03:23.283377'
+  extracted_at: '2026-08-16T11:00:33.967684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

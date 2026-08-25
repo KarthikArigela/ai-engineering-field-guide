@@ -1,58 +1,62 @@
 company:
   name: Seek (seekinsights.com)
-  stage: Series A
+  stage: null
   focus: |-
-    Marketplace platform for data apps and secure exchange of
-    production-ready data applications
+    Marketplace for production-ready data and analytics
+    applications
 position:
   title: Principal Software Engineer, Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct integration and implementation of
-      AI capabilities (LLMs, RAG, conversational querying,
-      intelligent recommendations, AI-assisted publishing) into
-      production systems. The engineer will design patterns for
-      integrating AI models and semantic modeling, build agent
-      frameworks, and shape AI-powered features end-to-end.
+      The role goes beyond consuming an AI API: the person defines
+      patterns and best practices for integrating LLMs into data
+      workflows, designs AI-driven user experiences like
+      conversational data querying and guided analytics, and
+      evaluates agent frameworks and orchestration layers. Shaping
+      LLM/agent behaviour in the product is central, so it is ai-
+      first despite the strong full-stack engineering component.
   responsibilities:
-  - Build full stack features using React, Python, and modern APIs to deliver high-quality
+  - Build full-stack features using React, Python, and modern APIs to deliver high-quality
     user experiences
   - Design and extend backend services and APIs that integrate AI models and external
     AI services into the platform
-  - Create intuitive user workflows that incorporate AI including conversational data
-    querying, assisted discovery, and guided analytics
   - Define patterns and best practices for integrating LLMs and semantic modeling
     into data workflows
-  - Shape the app marketplace experience by advancing intelligent recommendations,
-    AI-assisted publishing, and cross-app insights
-  - Ensure reliability at scale by driving observability, automated testing, CI/CD
-    improvements, and performance tuning across AI-enabled systems
-  - Mentor and guide engineers on AI integration strategies and system reliability
-  - Partner with product and design leadership to translate AI opportunities into
-    customer-ready features
+  - Create AI-incorporating user workflows such as conversational data querying, assisted
+    discovery, and guided analytics
+  - Integrate with Snowflake and the semantic modeling layer to deliver data-driven
+    applications
+  - Advance intelligent recommendations, AI-assisted publishing, and cross-app insights
+    in the app marketplace
+  - Drive observability, automated testing, CI/CD improvements, and performance tuning
+    across AI-enabled systems
+  - Mentor engineers, partner with product and design leadership, and evaluate technology
+    choices including agent frameworks and orchestration layers
   use_cases:
-  - Conversational data querying for business users
-  - AI-assisted analytics discovery and guided workflows
-  - Intelligent recommendations for data apps marketplace
+  - Conversational data querying over governed datasets
+  - Assisted discovery of data apps and datasets
+  - Guided analytics workflows
+  - Intelligent recommendations within a data app marketplace
   - AI-assisted publishing of data applications
-  - Cross-app insights and semantic data modeling
-  - Predictive models embedded in analytics apps
+  - Cross-app insights across the platform
   skills:
-    domains: []
-    languages: [Python, SQL]
+    cloud: []
+    languages: [Python]
     ml: []
-    cloud: [Cloud data warehouses]
-    genai: [LLMs, OpenAI API, Anthropic API, RAG, Agentic Workflows]
-    data: [Semantic modeling]
-    other: []
-    ops: [Distributed Systems, CI/CD, Docker, Observability tools]
-    web: [React, APIs, REST APIs]
+    other: [System Design]
+    ops: [CI/CD, Observability, Automated Testing, Distributed Systems]
     databases: [Snowflake]
+    domains: []
+    web: [React, APIs]
+    data: [Semantic Modeling]
+    genai: [LLMs, OpenAI API, Anthropic API, RAG, Agentic Workflows]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8852949'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T14:02:41.145206'
+  extracted_at: '2026-08-16T05:07:58.506438'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

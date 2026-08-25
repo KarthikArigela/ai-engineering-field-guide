@@ -1,50 +1,54 @@
 company:
   name: Global Software Solutions Group
-  stage: Unknown
-  focus: Global software solutions and technology platform services
+  stage: null
+  focus: Software solutions and technology services provider
 position:
   title: Senior Data Engineer - AI/ML
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a Senior Data Engineer focused on building data
-      pipelines and infrastructure that enable AI/ML work. While
-      it mentions MLOps/LLMOps collaboration, the core
-      responsibilities center on data streaming, ETL/ELT
-      pipelines, and data platform management — enabling work for
-      data scientists rather than directly building, training, or
-      fine-tuning models.
+      This is a data engineering role focused on real-time
+      streaming, ETL/ELT pipelines, and platform infrastructure.
+      ML involvement is limited to collaborating with data
+      scientists to deploy and manage models via MLOps/LLMOps
+      CI/CD and serving infrastructure — the models are built and
+      shaped by others. No prompt engineering, RAG, agent design,
+      training, or output-quality work, so Step 1 fails and the
+      role is ai-support.
   responsibilities:
   - Design and implement real-time data streaming pipelines using Kafka and related
     technologies
-  - Build and maintain scalable data engineering solutions on Cloudera Data Platform
+  - Build and maintain scalable data engineering solutions on the Cloudera platform
   - Develop and optimize ETL/ELT pipelines for large-scale structured and unstructured
     data
-  - Collaborate with data scientists to deploy and manage ML models via MLOps/LLMOps
+  - Collaborate with data scientists to deploy and manage ML models through MLOps/LLMOps
     frameworks
   - Implement and manage CI/CD pipelines for data and ML workflows
   - Work with OpenShift/Kubernetes for containerized deployments
   - Ensure data quality, governance, and security best practices
   - Monitor, troubleshoot, and optimize data workflows and infrastructure
   use_cases:
-  - Real-time data streaming and ingestion for AI/ML systems
-  - MLOps/LLMOps pipeline operationalization and deployment
-  - Scalable data platform management for advanced analytics
-  - AI-driven analytics enablement in banking/financial services
+  - Real-time data streaming and processing at scale
+  - Large-scale ETL/ELT for structured and unstructured data
+  - Operationalizing ML models for production deployment
+  - Enabling advanced analytics and AI-driven solutions on a big data platform
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python, Scala, Java]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Kafka, Cloudera Data Platform, Data Pipelines, Spark, Hive, Data Modeling]
-    other: []
-    ops: [MLOps, LLMOps, CI/CD, Jenkins, GitLab CI, OpenShift, Kubernetes]
+    other: [Agile, Financial Services]
+    ops: [MLOps, LLMOps, AIOps, CI/CD, Jenkins, GitLab CI, OpenShift, Kubernetes]
+    databases: []
+    domains: []
     web: []
-    databases: [Data warehousing]
+    data: [Kafka, Cloudera Data Platform, Data Pipelines, Spark, Hive, Data Modeling,
+      Data Warehousing, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8903139'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T12:35:08.667751'
+  extracted_at: '2026-08-16T06:02:54.977641'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

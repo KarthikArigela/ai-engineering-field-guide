@@ -1,51 +1,54 @@
 company:
   name: Akamai Technologies
-  stage: Public
+  stage: null
   focus: |-
-    Cloud computing, cybersecurity, and content delivery network
-    services
+    Cloud computing, cybersecurity, and content delivery
+    platform
 position:
   title: AI - Senior Systems Support Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an IT systems support role that involves supporting
-      cloud and on-premises applications, including Azure AI
-      Foundry and Azure OpenAI services. While the role requires
-      understanding of LLM lifecycle management and monitoring
-      token usage, the primary function is operational support,
-      troubleshooting, and maintaining these systems—not building,
-      training, fine-tuning, or deploying AI models. The role
-      supports AI infrastructure rather than directly working on
-      AI/ML systems.
+      This is an IT systems support role: the person monitors LLM
+      token usage, implements rate-limiting strategies, and
+      operationally supports Azure OpenAI/Anthropic Claude
+      services, but never shapes model behavior through prompts,
+      retrieval, fine-tuning, or evals. The deliverable is uptime,
+      troubleshooting, and service restoration for applications,
+      so serving and supporting models others designed makes this
+      ai-support.
   responsibilities:
-  - Provide support and mentorship to SAAS/Linux/on-premises application engineers
-    within the team
-  - Own problem resolution by collaborating with internal support, operations, and
-    engineering teams to investigate and troubleshoot complex problems
-  - Understand architecture, establish processes, and analyze technical issues on
+  - Provide support and mentorship to SaaS, Linux, and on-premises application engineers
+  - Own problem resolution for complex issues, collaborating with internal support,
+    operations, and engineering teams
+  - Understand architecture, establish processes, and analyze technical issues across
     on-premises and cloud applications
-  - Obtain certification in Azure to deepen cloud expertise
+  - Support Azure AI Foundry and Azure OpenAI service architectures, including monitoring
+    token usage and implementing rate-limiting strategies for Anthropic Claude or
+    comparable LLMs
   - Enhance system monitoring for faster error detection, improving performance, reliability,
-    and service restoration processes
-  - Monitor token usage and implement rate-limiting strategies for LLM services
+    and service restoration
+  - Collaborate with stakeholders and teams to understand IT application needs and
+    ensure service delivery
+  - Obtain certification in Azure
   use_cases:
-  - Operational support and troubleshooting for Azure AI and OpenAI service architectures
-  - LLM lifecycle management and token usage monitoring for enterprise AI services
-  - Cloud and on-premises application support for internal business functions
-  - System monitoring and performance optimization for production applications
+  - 24/5 operational support for internal business applications
+  - Operational management of LLM services including token usage monitoring and rate
+    limiting
+  - Cloud and on-premises application troubleshooting and service restoration
+  - System monitoring for faster error detection and improved reliability
   skills:
-    domains: []
-    languages: [SQL, Python, Bash]
-    ml: []
     cloud: [Azure, Azure AI Foundry, Azure OpenAI, Cloud Technologies]
-    genai: [LLM lifecycle management, Anthropic API]
-    data: []
-    other: [Rate limiting strategies]
-    ops: [Linux, Configuration Management tools, System monitoring]
-    web: []
+    languages: [SQL, Bash, Python]
+    ml: []
+    other: []
+    ops: [Linux, Configuration Management, Monitoring, LLM Lifecycle Management]
     databases: []
-  is_customer_facing: false
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Anthropic API]
+  is_customer_facing: true
   is_management: false
 meta:
   job_id: '9051689'
@@ -54,4 +57,6 @@ meta:
   - IND
   - Bengaluru, IND
   remote: true
-  extracted_at: '2026-04-22T13:54:08.779421'
+  extracted_at: '2026-08-16T07:28:47.046099'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

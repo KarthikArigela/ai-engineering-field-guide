@@ -1,57 +1,64 @@
 company:
   name: Snowflake
-  stage: Public
-  focus: Cloud data platform and AI/ML services
+  stage: null
+  focus: Cloud data platform with AI/ML services
 position:
   title: AI/ML Flex Solution Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a pre-sales solutions engineering role at Snowflake
-      focused on supporting AI/ML sales cycles, building
-      demos/PoCs, and driving customer adoption of Snowflake's
-      AI/ML platform. The Flex SE architectes solutions and
-      prototypes but does not build, train, or deploy models
-      themselves — they enable customers and regional teams to use
-      Snowflake's existing AI/ML products. The role works NEAR AI
-      (sales engineering, enablement, prototyping on an existing
-      platform) rather than directly ON AI systems.
+      This is a customer-facing solution engineer who architects,
+      prototypes, and hands-on builds customized AI/ML solutions
+      and MVPs demonstrating Snowflake's AI/ML portfolio at
+      customer sites, analogous to a Forward Deployed Engineer
+      role, which is explicitly ai-first. Building PoCs and hands-
+      on prototypes on an LLM/agent-inclusive portfolio
+      (Snowflake's "agentic enterprise") involves shaping AI
+      solution behavior directly, not merely consuming an API
+      another team designed.
   responsibilities:
-  - Partner with Account Executives and Solution Engineers to identify and develop
-    AI/ML opportunities within strategic US Major Accounts
-  - Conduct technical presentations, product demonstrations, and workshops focused
-    on Snowflake's AI/ML portfolio
-  - Architect and prototype foundational AI/ML solutions including proof-of-concepts
-    that demonstrate clear business value
+  - Partner with regional Account Executives and Solution Engineers to identify, qualify,
+    and develop AI/ML opportunities within US Majors accounts
+  - Conduct technical presentations, product demonstrations, and workshops on the
+    AI/ML portfolio including platforms, services, and MLOps tools
+  - Architect and prototype foundational AI/ML solutions and proof-of-concepts that
+    demonstrate clear business value
   - Serve as the technical bridge between customers and central AI/ML Product and
-    Engineering teams, synthesizing feedback and requirements
-  - Drive sales acceleration through hands-on development of MVPs and functional prototypes
-    demonstrating platform capability
-  - Provide technical support and capacity augmentation for regional SE teams in complex
-    AI/ML sales cycles
-  - Develop and deliver AI/ML training materials to upskill the broader SE organization
-  - Document successful solution patterns and best practices for regional SE reuse
+    Engineering teams, synthesizing feedback and emerging requirements
+  - Build MVPs and functional prototypes through hands-on-keyboard development to
+    accelerate sales and demonstrate platform capability and time-to-value
+  - Provide direct technical support and capacity augmentation for regional SE teams
+    in complex or specialized AI/ML sales cycles
+  - Develop and deliver AI/ML training materials to upskill the broader USMajors SE
+    organization
+  - Document successful solution patterns and best practices in a centralized knowledge
+    base for regional SE reuse, traveling up to 30-40% for customer engagements
   use_cases:
-  - AI/ML platform adoption acceleration for enterprise customers
-  - Rapid prototyping of AI/ML proof-of-concepts to demonstrate business value
-  - MLOps pipeline implementation on Snowflake for customer use cases
-  - Customer enablement and technical upskilling in AI/ML capabilities
-  - AI/ML consumption growth and revenue acceleration in strategic accounts
+  - Rapid prototyping of AI/ML solutions and PoCs for strategic enterprise customers
+    to validate business value
+  - Customer demonstrations of Snowflake's AI/ML platform portfolio, services, and
+    MLOps tools
+  - MVPs and functional prototypes that demonstrate platform capability and time-to-value
+    to drive technical wins
+  - Customer AI/ML initiatives spanning data preparation, model training, deployment,
+    and monitoring
   skills:
-    genai: [LLMs, RAG]
-    ml: [Machine Learning, Model Training, Feature Engineering]
-    web: [REST APIs]
-    databases: [Snowflake]
-    data: [Data Pipelines]
-    cloud: [AWS, Azure, GCP]
-    ops: [Model Deployment, MLOps, Model Monitoring, Docker, Kubernetes]
-    languages: [Python, SQL]
-    domains: []
+    cloud: []
+    languages: []
+    ml: [Machine Learning, Model Training]
     other: [System Design]
+    ops: [Model Deployment, Model Monitoring, MLOps]
+    databases: []
+    domains: []
+    web: []
+    data: [Data Preparation]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9913257'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:42:16.855803'
+  extracted_at: '2026-08-16T19:04:14.715414'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

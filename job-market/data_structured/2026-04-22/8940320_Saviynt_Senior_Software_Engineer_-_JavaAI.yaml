@@ -1,50 +1,54 @@
 company:
   name: Saviynt
-  stage: High-growth / Late-stage (Private)
+  stage: null
   focus: AI-powered identity security and access governance platform
 position:
   title: Senior Software Engineer - Java/AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building AI agents and multi-step model
-      workflows, monitoring LLM outputs, mitigating
-      hallucinations, and optimizing inference cost/latency. The
-      engineer is expected to implement AI-driven product
-      capabilities and build with AI-first principles, directly
-      working on LLM/AI systems rather than just supporting
-      infrastructure.
+      The role explicitly builds and deploys production-ready AI
+      agents and multi-step model workflows, and owns LLM output
+      quality (monitoring LLM outputs, mitigating hallucinations,
+      curating datasets and synthetic data to improve model
+      performance). That is shaping model behaviour, and because
+      LLM/agent components are central to the work, it classifies
+      as ai-first.
   responsibilities:
-  - Build product with AI-first principles following AI-SDLC processes
+  - Participate in requirements analysis and collaborate with internal teams on software
+    design and architecture
+  - Build product with AI-first principles using an AI-SDLC process
   - Implement AI-driven product capabilities in application access and security
-  - Design and deploy production-ready AI agents and multi-step model workflows
-  - Monitor LLM outputs, mitigate hallucinations, and optimize inference cost and
-    latency
+  - Build and deploy production-ready AI agents and multi-step model workflows
+  - Monitor LLM outputs, mitigate hallucinations, and optimize for inference cost
+    and latency
   - Curate high-quality datasets and use synthetic data to improve model performance
-  - Collaborate with internal teams to produce software design and architecture
-  - Develop, test, and deploy large-scale distributed systems with data streaming
-    and storage components
-  - Revise, update, refactor and debug code while maintaining existing services
+  - Test and deploy applications, refactor and debug code, and maintain existing services
+  - Develop documentation across the software development life cycle and provide technical
+    support as an applications expert
   use_cases:
-  - AI-driven identity and access governance for organizations
-  - Automated application access security using AI agents
-  - LLM-powered workflows for identity security operations
-  - AI-based compliance and access policy management
-  - Safeguarding digital assets through intelligent access control
+  - AI-driven application access and security capabilities in an identity platform
+  - Identity and access governance for applications, data, and business processes
+  - Production AI agents and multi-step model workflows in an enterprise security
+    product
+  - Safeguarding digital assets and reducing compliance costs for enterprises
+  - Helping organizations safely accelerate deployment and usage of AI
   skills:
-    domains: []
-    languages: [Java, J2EE]
-    ml: [Synthetic data generation]
     cloud: []
-    genai: [AI Agents, LLM output monitoring, Prompt engineering / hallucination mitigation]
-    data: [Kafka]
+    languages: [Java, J2EE]
+    ml: [Synthetic Data]
     other: []
-    ops: [Containerization, CI/CD, Inference optimization]
-    web: [Spring Boot, Microservices]
+    ops: [Containerization, CI/CD, Distributed Systems]
     databases: [Hibernate, SQL, Elasticsearch, Redis]
+    domains: []
+    web: [Spring Boot, Microservices]
+    data: [Kafka]
+    genai: [AI Agents, Agentic Workflows, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8940320'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T14:08:55.149342'
+  extracted_at: '2026-08-16T06:24:07.947393'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

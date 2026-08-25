@@ -1,57 +1,68 @@
 company:
   name: NBCUniversal
-  stage: Public
-  focus: Global media and entertainment company
+  stage: null
+  focus: |-
+    Media and entertainment: film, television, streaming, theme
+    parks
 position:
   title: Sr Data Governance Engineer (AI)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a governance role that designs guardrails, policies,
-      and infrastructure for AI systems but does not involve
-      building, training, fine-tuning, or deploying models. The
-      role works at the intersection of cloud engineering, MLOps,
-      and data governance to enable AI adoption across the
-      organization without hands-on model development.
+      The role explicitly designs and implements governance
+      guardrails for AI models and agents (using Llama Guard,
+      LangChain, LangGraph) and builds fairness constraints, bias
+      detection, and transparency measures directly into AI tools
+      — building guardrails is shaping model behaviour. RAG, AI
+      Agents, MCP, and prompt engineering integrations confirm an
+      LLM/agent component, so it is ai-first despite the
+      governance, RBAC, and infrastructure flavour of much of the
+      remaining work.
   responsibilities:
+  - Design and implement governance guardrails for AI models and agents to ensure
+    secure, compliant, and scalable deployments
   - Implement AI governance policies in collaboration with Legal, Privacy, and Cyber
     teams
   - Build monitoring and reporting frameworks for AI models and tools emphasizing
-    cost tracking and AI FinOps principles
-  - Develop and manage ML/AI Ops pipelines including CI/CD for model deployment and
-    version control using GitHub Actions or Jenkins
-  - Design and implement AI infrastructure as code through Terraform or AWS CloudFormation
-    for consistent environment management
+    cost, tagging, and AI FinOps principles like usage tracking
+  - Develop ML/AI Ops pipelines including CI/CD for models, ensuring automation in
+    model deployment and version control
+  - Implement AI infrastructure as code via Terraform and AWS CloudFormation for consistent,
+    auditable environment management
   - Support multi-cloud AI workloads across AWS SageMaker, GCP Vertex AI, Azure ML,
-    Snowflake Cortex, and Databricks
-  - Build AI consumption metrics dashboards with guardrails using tools like Llamaguard,
-    LangGraph, and LangChain
-  - Enable RBAC on AI models across tools/LLMs enforcing IAM policies for secure access
-  - Implement technical guardrails including fairness constraints, bias detection,
-    and transparency measures in AI tools and models
+    Snowflake Cortex, and Databricks, including Semantic Layer integration best practices
+  - Enable RBAC and IAM policies on AI models across tools and LLMs for secure access
+    by Data & Analytics teams
+  - Implement technical guardrails such as fairness constraints, bias detection, and
+    transparency measures, run risk assessments and audits, and facilitate AI model
+    cataloguing, lineage, and Semantic Layer governance
   use_cases:
-  - AI model governance and compliance for media and entertainment platforms
-  - Deploying AI systems across streaming, broadcast, film studios, and theme parks
-  - Enforcing data privacy and security guardrails for AI agents and models
-  - Managing multi-cloud AI workloads with cost optimization and usage tracking
-  - Ensuring fairness and bias mitigation in AI tools used for content and analytics
+  - AI governance and compliance for enterprise AI/ML deployments
+  - Cost tracking and AI FinOps optimization for AI model usage
+  - Secure access control and RBAC for AI models and LLM tools
+  - Fairness, bias detection, and transparency monitoring for AI systems
+  - AI model cataloguing, lineage, and Semantic Layer governance for Gen AI models
+  - AI enablement for data and analytics across NBCU's media, streaming, and entertainment
+    portfolio
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, SageMaker, Vertex AI, Azure ML, Snowflake Cortex, IAM]
     languages: [Python, SQL, YAML]
     ml: []
-    cloud: [AWS, SageMaker, GCP, Vertex AI, Azure, Azure ML, Azure Purview, Snowflake,
-      Snowflake Cortex, Databricks]
-    genai: [LangChain, LangGraph, RAG, Prompt Engineering, LLM Ops, MCP, Embeddings,
-      AI Agents]
-    data: []
-    other: []
-    ops: [Terraform, CloudFormation, GitHub Actions, Jenkins, CI/CD, MLOps, RBAC,
-      IAM, Llamaguard]
-    web: [REST APIs]
+    other: [Responsible AI, AI FinOps, RBAC, Semantic Layer, Bias Detection, Microsoft
+        Purview, GDPR, EU AI Act, PowerPoint, Visio, Lucidchart]
+    ops: [CI/CD, GitHub Actions, Jenkins, Terraform, CloudFormation, MLOps, LLMOps,
+      Model Deployment]
     databases: [Snowflake]
+    domains: []
+    web: [REST APIs]
+    data: [Databricks, Data Pipelines, Data Governance]
+    genai: [LangChain, LangGraph, Llama Guard, RAG, Prompt Engineering, MCP, AI Agents,
+      LLMs, Embeddings, Generative AI, Databricks Genie, Agentbricks]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8275319'
   location: New York, USA
-  extracted_at: '2026-02-05T12:29:15.361506'
+  extracted_at: '2026-08-15T23:05:17.377889'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

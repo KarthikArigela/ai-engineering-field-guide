@@ -1,47 +1,45 @@
 company:
   name: Careerflow.ai
   stage: null
-  focus: Career services and AI-powered job search platform
+  focus: Talent contracting for frontier LLM company projects
 position:
   title: Cloud Data Migration & AI Systems Engineer (India or Brazil)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves directly integrating and evaluating
-      LLM/Generative AI components within workflows, working with
-      frontier LLM researchers to improve agent performance.
-      Hands-on work with prompting, evaluation, and integration of
-      LLMs in agentic systems places this as ai-first rather than
-      support.
+      The role is an Agentic Evaluation Specialist who integrates,
+      prompts, and evaluates LLM/Generative AI components to
+      improve LLM Agent performance for a frontier LLM lab —
+      evaluating model output quality is shaping model behaviour.
+      LLMs and agents are the target, so it is ai-first, even
+      though much of the engineering work is data migration.
   responsibilities:
-  - Design and execute data migration workflows across AWS, GCP, and Azure cloud platforms
-  - Develop data migration strategies considering trade-offs between online vs offline
-    approaches, performance, and scalability
+  - Design data migration workflows across AWS, GCP, and Azure, weighing trade-offs
+    such as online vs offline, performance, and scalability
   - Create and maintain data pipelines and ETL/ELT workflows in distributed environments
-  - Integrate and evaluate LLM and Generative AI components within data workflows
-  - Perform system testing and validation including test scenarios, edge case identification,
-    and debugging across systems
-  - Ensure data integrity, consistency, and performance across all systems
+  - Integrate and evaluate LLM/Generative AI components within workflows to improve
+    LLM agent performance for agentic storage management
+  - Perform system testing and validation by executing test scenarios, identifying
+    edge cases and failure points, and debugging issues across systems
+  - Ensure data integrity, consistency, and performance across systems
   - Document findings, insights, and recommendations clearly for stakeholders
   - Collaborate with cross-functional teams across engineering, data, and product
   use_cases:
-  - Agentic storage management for LLM agents
-  - Cloud data migration across AWS, GCP, and Azure
-  - LLM agent performance evaluation and improvement
-  - Distributed data pipeline and ETL/ELT workflow automation
-  - System testing and validation for AI-integrated workflows
+  - Improving LLM agent performance for agentic storage management
+  - Evaluating LLM agents on cloud data migration tasks across AWS, GCP, and Azure
+  - Integrating LLM and Generative AI components into data migration and ETL workflows
   skills:
-    domains: []
-    languages: [Python, SQL]
+    cloud: [AWS, GCP, Azure, Google Cloud Storage]
+    languages: []
     ml: []
-    cloud: [AWS, GCP, Azure, Google Cloud Storage (GCS)]
-    genai: [LLM prompting, LLM Evaluation, Generative AI integration]
-    data: [ETL/ELT workflows, Data Pipelines, Distributed systems]
-    other: [System testing and validation, Storage administration]
-    ops: [MLOps, Model evaluation frameworks, Docker, Kubernetes, SRE]
-    web: []
+    other: [System Testing]
+    ops: [Distributed Systems, MLOps]
     databases: []
-  is_customer_facing: false
+    domains: []
+    web: []
+    data: [Data Migration, Data Pipelines]
+    genai: [LLMs, Generative AI, AI Agents, Prompt Engineering, LLM Evaluation]
+  is_customer_facing: true
   is_management: false
 meta:
   job_id: '9738256'
@@ -50,4 +48,6 @@ meta:
   - IND
   - BRA
   remote: true
-  extracted_at: '2026-06-25T19:51:31.269050'
+  extracted_at: '2026-08-16T14:46:17.900894'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

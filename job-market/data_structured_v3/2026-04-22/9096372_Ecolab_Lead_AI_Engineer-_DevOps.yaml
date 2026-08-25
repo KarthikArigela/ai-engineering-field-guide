@@ -1,0 +1,70 @@
+company:
+  name: Ecolab
+  stage: null
+  focus: Water, hygiene, and infection prevention solutions
+position:
+  title: Lead AI Engineer- DevOps
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role designs and operates CI/CD, infrastructure, and
+      runtime platforms that host AI-enabled and agentic AI
+      products, but never shapes model behavior — there is no
+      prompt design, RAG, fine-tuning, or eval work. AI
+      responsibilities are limited to deployment environments,
+      model-serving patterns, runtime monitoring, cost visibility,
+      and release controls for AI services that other teams build,
+      which matches the serving/hosting edge case for ai-support.
+  responsibilities:
+  - Lead the design and continuous improvement of CI/CD pipelines, deployment workflows,
+    environment strategies, and release automation for digital and AI-enabled products
+  - Build and operate cloud-native infrastructure and runtime platforms supporting
+    backend services, APIs, UI applications, integrations, and AI workloads
+  - Design and maintain infrastructure-as-code, environment provisioning, secrets
+    management, and access control across development, test, and production environments
+  - Implement and optimize observability using logs, traces, metrics, distributed
+    tracing, dashboards, alerts, and cost and capacity signals
+  - Enable deployment environments, model-serving patterns, runtime monitoring, cost
+    visibility, and release controls for AI and ML workloads
+  - Drive operational readiness practices including runbooks, deployment validation,
+    rollback mechanisms, incident response, and root-cause analysis
+  - Collaborate with security, architecture, and platform teams on security, reliability,
+    compliance, and scale requirements
+  - Mentor engineers on DevOps and platform engineering best practices and contribute
+    reusable accelerators for delivery teams
+  use_cases:
+  - Deployment, monitoring, and operational support of AI-enabled and agentic AI products
+    in production environments
+  - CI/CD and release automation for full-stack digital products spanning React frontends,
+    Node.js services, Python APIs, and REST services
+  - Cloud-native runtime platforms for containerized services, microservices, and
+    event-driven enterprise systems
+  - Operational readiness for LLM-powered services, agent orchestration, and vector-enabled
+    retrieval
+  - Secure delivery of products with integrations into SAP, ServiceNow, API gateways,
+    and workflow platforms
+  - Cost optimization, capacity planning, and scaling for cloud-native and AI-heavy
+    workloads
+  skills:
+    genai: [Generative AI, AI Agents, Agentic Workflows, LLMs, MCP, PromptFlow]
+    ml: []
+    web: [React, REST APIs, Microservices, Node.js]
+    databases: [Vector Search]
+    data: []
+    cloud: [Azure, AKS, Azure Container Registry, Azure Functions, Azure Container
+        Apps, Azure OpenAI, Azure AI Studio, Azure ML, API Gateway, IAM]
+    ops: [CI/CD, Azure DevOps, GitHub, GitHub Actions, Terraform, Bicep, Docker, Kubernetes,
+      Infrastructure as Code, OpenTelemetry, Azure Monitor, Application Insights,
+      Log Analytics, Datadog, New Relic, Grafana, Prometheus, Observability, Model
+        Deployment, FinOps]
+    languages: [Python]
+    domains: []
+    other: [ServiceNow, SAP, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9096372'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T08:00:23.392379'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

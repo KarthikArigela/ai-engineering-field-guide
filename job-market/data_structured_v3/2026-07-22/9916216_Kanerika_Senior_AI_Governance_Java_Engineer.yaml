@@ -1,0 +1,53 @@
+company:
+  name: Kanerika
+  stage: null
+  focus: Enterprise AI, data, and governance solutions
+position:
+  title: Senior AI Governance Java Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds pluggable evaluator services, AI risk
+      scoring systems, and evaluation/governance pipelines that
+      judge and monitor output quality for LLM platforms (Bedrock,
+      Azure AI Foundry, Vertex AI, OpenAI, Anthropic). Building
+      evals, guardrails, and output-quality monitoring is shaping,
+      and the targets are LLMs, so this is ai-first despite the
+      Java platform engineering framing.
+  responsibilities:
+  - Design and build pluggable evaluator services using Java and Spring Boot
+  - Develop scalable multi-tenant SaaS and cloud-native backend services and microservices
+  - Integrate with AI platforms including AWS Bedrock, Azure AI Foundry, Google Vertex
+    AI, OpenAI, and Anthropic APIs
+  - Build orchestration frameworks and schedulers for evaluation execution workflows
+  - Develop AI risk scoring systems and evaluation pipelines
+  - Design telemetry, monitoring, and observability solutions for AI interactions
+  - Build dashboards and reporting systems for evaluation results and governance insights
+  - Develop connectors for cloud-native event streams and event-driven architectures
+  use_cases:
+  - AI governance, compliance, and risk monitoring across enterprise AI deployments
+  - LLM output evaluation and AI risk scoring at scale
+  - Telemetry and observability for AI interactions in large-scale enterprise environments
+  - Governance dashboards and reporting for evaluation results and insights
+  - Securing and auditing AI usage across multi-tenant SaaS platforms
+  skills:
+    genai: [OpenAI API, Anthropic API, LLM Evaluation, RAGAS, TruLens, DeepEval]
+    ml: []
+    web: [Spring Boot, REST APIs, Microservices]
+    databases: []
+    data: [Kafka, AWS Kinesis, Azure Event Hubs, GCP Pub/Sub, Flink, Spark Streaming,
+      ETL, Data Modeling, Spring Batch]
+    cloud: [AWS Bedrock, Azure AI Foundry, Azure OpenAI, Vertex AI, AWS, Azure, GCP,
+      AWS SDK, Azure SDK, Google Cloud Java Libraries]
+    ops: [CI/CD, GitHub Actions, Jenkins, Observability, Telemetry, Distributed Systems]
+    languages: [Java]
+    domains: []
+    other: [Quartz, Event-Driven Architecture, AI Governance, EU AI Act, AI Risk Assessment]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9916216'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-16T19:07:22.278464'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,47 @@
+company:
+  name: Citi
+  stage: null
+  focus: Global financial services and banking
+position:
+  title: Python data engineer - AI and ML applications - Vice president
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds data pipelines and infrastructure that feed
+      AI/ML applications but does not shape model behavior - no
+      prompting, RAG design, fine-tuning, or evaluation work is
+      described. AI/ML is a consumer of the data plumbing this
+      engineer builds, so it is ai-support.
+  responsibilities:
+  - Establish and implement new or revised application systems in coordination with
+    the Technology team
+  - Lead applications systems analysis and programming activities
+  - Partner with management teams to identify system enhancements for new products
+    and process improvements
+  - Resolve high-impact problems through evaluation of complex business and system
+    processes
+  - Set standards for coding, testing, debugging, and implementation
+  - Serve as advisor or coach to mid-level developers and analysts
+  - Assess risk and ensure compliance with laws, regulations, and policy
+  use_cases:
+  - Large-scale data solutions supporting AI/ML applications
+  - Data manipulation and pipeline scripting for AI/ML workloads
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [MongoDB, Cassandra, NoSQL]
+    data: [Spark, Hadoop, Data Pipelines]
+    cloud: [Azure, AWS S3]
+    ops: [Docker, Kubernetes, Git, CI/CD, ELK Stack]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10285098'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T09:34:38.477024'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

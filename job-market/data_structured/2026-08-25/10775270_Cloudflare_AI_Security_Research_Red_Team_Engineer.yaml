@@ -1,0 +1,58 @@
+company:
+  name: Cloudflare
+  stage: null
+  focus: Global network security and web performance services
+position:
+  title: AI Security Research & Red Team Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role actively attacks and evaluates LLM/agent systems
+      via prompt injection, jailbreaking, and agentic testing,
+      shaping understanding of model behavior and output quality
+      through adversarial evaluation. Although framed as security,
+      the core work is red-teaming LLMs and AI agents, which is
+      judging model output quality (shaping). With LLM/agent
+      components central, this is ai-first.
+  responsibilities:
+  - Perform AI security research to identify AI-specific vulnerabilities and risks
+    across Cloudflare's products
+  - Test agentic implementations and LLM usage to identify AI-related attack surfaces
+    and define requirements and guidance
+  - Execute full-chain red team operations against Cloudflare's infrastructure, corporate
+    networks, and products
+  - Establish efficacy testing frameworks measuring WAF, EDR, and SIEM detection performance
+    against known TTPs
+  - Purple team with the Blue Team to translate findings into defensive improvements
+  - Partner with SIRT, Threat Detection, and GRC teams to validate detections and
+    control effectiveness
+  - Report risk-based narratives to leadership to prioritize engineering resources
+  use_cases:
+  - Red-teaming AI agents, LLM usage, and harnesses at Cloudflare
+  - Emulating real-world attackers against Cloudflare infrastructure and products
+  - Testing security product efficacy (WAF, EDR, SIEM) against known attacker TTPs
+  - Improving detection and response playbooks through purple teaming
+  - Empirical validation of security controls for governance and compliance
+  skills:
+    genai: [LLMs, Prompt Engineering, AI Agents, Prompt Injection]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: []
+    languages: []
+    domains: []
+    other: [Penetration Testing, Red Teaming, MITRE ATT&CK, Breach and Attack Simulation,
+      Threat Detection, WAF, EDR, SIEM, C2 Infrastructure]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10775270'
+  location: Austin, USA
+  locations:
+  - Austin, USA
+  - New York, USA
+  extracted_at: '2026-08-25T11:46:11.469928'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

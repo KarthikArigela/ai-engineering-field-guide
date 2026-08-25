@@ -1,19 +1,21 @@
 company:
   name: Nebius
-  stage: Public
-  focus: |-
-    Full-stack AI cloud platform for GPU orchestration and
-    inference optimization
+  stage: Publicly traded (listed on Nasdaq as NBIS)
+  focus: AI cloud infrastructure platform for training and deployment
 position:
   title: AI Full-Stack Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on building AI automation solutions using
-      LLMs, agents, and multi-step AI workflows. The developer is
-      responsible for training models, prompt engineering, and
-      implementing RAG/agent systems - not just supporting
-      infrastructure.
+      The role builds AI-driven automation using LLMs, agent
+      frameworks, and multi-step workflows connecting AI models to
+      internal services, with prompt engineering and LLM
+      orchestration frameworks explicitly listed as preferred
+      qualifications. Designing agent flows and prompt-based
+      shaping of LLM behaviour is shaping (Step 1), and the
+      LLM/agent component makes it ai-first (Step 2). AI-assisted
+      coding tools appear only as a productivity aid and do not
+      change the classification.
   responsibilities:
   - Build AI-driven automation solutions using LLMs, APIs, and agent frameworks
   - Develop systems to automate document processing, data extraction, and operational
@@ -22,27 +24,31 @@ position:
     services
   - Integrate automation solutions with internal systems such as HR, finance, legal,
     dashboards, and ticketing tools
-  - Deliver and iterate practical automation solutions from simple GPT/AI integrations
+  - Deliver and iterate on automation solutions swiftly, from simple GPT/AI integrations
     to complex workflows
   - Train and support internal teams on newly built or optimized systems for adoption
     and self-sufficiency
+  - Collaborate with Technical Team Lead, Product Manager, and IT teams on architecture
+    and system integration
+  - Communicate with internal stakeholders and external partners or vendors
   use_cases:
-  - Document processing and data extraction automation
-  - Operational workflow automation across HR, finance, and legal departments
-  - Multi-step AI workflow orchestration connecting internal business systems
-  - Enterprise system integration with AI capabilities
-  - Internal process automation using agent-based systems
+  - Automated document processing and data extraction
+  - Automation of operational workflows across internal business functions
+  - Multi-step AI agent workflows connecting LLMs with internal HR, finance, and legal
+    systems
+  - Integration of AI capabilities with internal dashboards and ticketing tools
+  - Quick-win GPT/AI integrations for internal process automation
   skills:
-    domains: []
+    cloud: []
     languages: [Python, TypeScript, JavaScript]
     ml: []
-    cloud: []
-    genai: [LLMs, Agentic Workflows, Prompt Engineering, AI-based services, RAG]
-    data: [Workflow automation, Event-driven architectures]
-    other: []
-    ops: [Task orchestration systems, Distributed architectures]
-    web: [React, APIs, Backend services]
+    other: [Event-Driven Architecture, Workflow Automation]
+    ops: [Distributed Systems]
     databases: []
+    domains: []
+    web: [React, APIs, Full-Stack Development]
+    data: []
+    genai: [LLMs, AI Agents, Agentic Workflows, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +60,6 @@ meta:
   - Amsterdam, NLD
   - Tel Aviv-Yafo, ISR
   remote: true
-  extracted_at: '2026-05-29T09:00:18.004769'
+  extracted_at: '2026-08-16T10:14:25.088640'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

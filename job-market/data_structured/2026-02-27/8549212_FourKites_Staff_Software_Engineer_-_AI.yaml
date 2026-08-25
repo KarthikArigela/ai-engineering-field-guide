@@ -1,53 +1,54 @@
 company:
   name: FourKites
   stage: null
-  focus: |-
-    AI-driven supply chain transformation and real-time
-    visibility platform for global logistics
+  focus: AI-driven supply chain visibility and orchestration platform
 position:
   title: Staff Software Engineer - AI
   ai_type:
     type: ai-support
     reasoning: |-
-      While the job title includes "AI" and mentions AI
-      initiatives, the actual responsibilities are focused on
-      backend software engineering - developing applications,
-      writing code, designing databases, and working with DevOps.
-      There's no mention of building, training, fine-tuning, or
-      deploying AI/ML models. The role supports AI-powered
-      products but doesn't work directly on the AI systems
-      themselves.
+      This is a backend Staff Software Engineer role on an AI-
+      driven supply chain platform. The responsibilities are
+      classic backend work (applications, data models, APIs,
+      tests, mentoring) with no prompt writing, retrieval/RAG
+      design, agent orchestration, training, or output-quality
+      evaluation. The AI mentions only "contributing to AI
+      initiatives" and "production AI optimization balancing
+      performance, cost, and latency," which is serving/efficiency
+      work, not shaping model behavior.
   responsibilities:
-  - Develop, test and maintain backend applications
+  - Develop, test, and maintain backend applications for the supply chain platform
   - Design and implement data models and database schemas
-  - Collaborate with frontend team to integrate backend with user interface
-  - Perform code reviews and ensure code quality standards are met
+  - Collaborate with the frontend team to integrate backend services with the user
+    interface
+  - Perform code reviews and enforce code quality standards
+  - Write code with high coverage of unit tests and component tests
   - Troubleshoot and debug applications
-  - Implement code with high coverage of unit tests and component tests
-  - Cross-training peers and mentoring teammates
-  - Work with DevOps team to deploy and manage applications in production
+  - Mentor and coach junior engineers and cross-train teammates
+  - Work with the DevOps team to deploy and manage applications in production
   use_cases:
-  - Real-time shipment tracking and management
-  - Global supply chain visibility and orchestration
-  - Automated supply chain actions and routine task automation
-  - Preventing supply chain disruptions
-  - Enterprise logistics optimization
-  - Digital twin creation for orders, shipments, inventory and assets
+  - Real-time shipment tracking and management for global supply chains
+  - Processing millions of daily supply chain events from purchase orders to delivery
+  - Preventing supply chain disruptions and automating routine tasks via AI-powered
+    digital workers
+  - Supply chain visibility and orchestration for large enterprise customers
   skills:
-    domains: []
+    cloud: [Azure, AWS]
     languages: [Java, Go, JavaScript]
     ml: []
-    cloud: [Azure, AWS]
-    genai: []
-    data: []
-    other: [Jira, Confluence]
+    other: [Jira, Confluence, Agile, Code Review, Unit Testing, Object-Oriented Programming]
     ops: [Git]
-    web: [Spring Boot, Ruby on Rails, HTML, CSS, REST APIs, Microservices]
     databases: [PostgreSQL, MongoDB]
+    domains: []
+    web: [Spring Boot, Ruby on Rails, HTML, CSS, REST APIs, Microservices]
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8549212'
   location: Chennai, IND
   remote: true
-  extracted_at: '2026-03-03T11:15:07.921138'
+  extracted_at: '2026-08-16T02:22:12.445429'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

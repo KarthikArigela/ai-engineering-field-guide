@@ -1,0 +1,60 @@
+company:
+  name: LINQ (linq.com)
+  stage: PE-backed
+  focus: K-12 school operations and administration software
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds multi-step, tool-using LLM agents, designs
+      evals and guardrails, and shapes orchestration patterns —
+      directly shaping model behavior (Step 1 yes). All model
+      targets are LLM/agent components (foundation model APIs,
+      LangGraph, MCP, Anthropic/OpenAI tool use), and the
+      description explicitly disclaims ML training, so it is ai-
+      first under Step 2.
+  responsibilities:
+  - Embed with teams across LINQ to map how work gets done and ship multi-step, tool-using
+    agents that take real work off people's plates
+  - Build durable, production-ready agents using foundation model APIs, agent frameworks,
+    and MCP servers, leaving behind reusable skills and patterns
+  - Design evals, guardrails, and instrumentation, standing up metrics and dashboards
+    to prove impact in time saved and errors avoided
+  - Hand off shipped agents to internal champions and sustaining teams through documentation
+    and training
+  - 'Help define LINQ''s internal agent platform: orchestration patterns, skills library,
+    and evaluation discipline'
+  - Evaluate and recommend AI tooling and make build-vs-buy-vs-integrate recommendations
+    to leadership
+  - Enable teams through an internal AI champions network, office hours, workshops,
+    and agent templates
+  - Partner with the CTO on AI strategy and with Security and Compliance to meet FERPA,
+    COPPA, PCI, and CCPA requirements
+  use_cases:
+  - Go-to-market workflow automation (sales motion, pipeline hygiene, RFP support)
+  - Customer experience automation (support deflection, ticket triage, knowledge management)
+  - Internal agent platform with reusable, shareable agent skills across teams
+  - Agentic workflow automation that reduces manual work across business functions
+  - LLM-to-enterprise-system integration via MCP servers
+  skills:
+    genai: [LangGraph, OpenAI Agents SDK, OpenAI API, Anthropic API, Function Calling,
+      MCP, AI Agents, LLMs, Guardrails, LLM Evaluation]
+    ml: []
+    web: [React, Node.js, APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: [AWS]
+    ops: [Observability]
+    languages: [JavaScript, TypeScript]
+    domains: []
+    other: [FERPA, COPPA, SOC 2, HIPAA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9617071'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T13:14:54.750857'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,67 @@
+company:
+  name: vCluster
+  stage: Venture-backed startup, raised $30M+ from VCs including Khosla Ventures
+  focus: |-
+    Kubernetes virtualization and GPU infrastructure platform
+    for AI clouds
+position:
+  title: AI Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys, configures, and validates Kubernetes and
+      bare metal GPU node infrastructure for neocloud and AI
+      Factory customers; it never shapes model behavior through
+      prompts, retrieval, fine-tuning, or evals. Inference serving
+      and LLM deployment tooling appear only as bonus familiarity,
+      not core work. Per the serving/hosting edge case, the
+      deliverable is GPU capacity and platform operation, not
+      model behaviour.
+  responsibilities:
+  - Lead end-to-end technical deployments for GPU neocloud and AI Factory customers,
+    from initial bare metal configuration to a validated vCluster environment
+  - Configure and troubleshoot bare metal GPU node infrastructure including CNI configuration,
+    GPU Operator setup, distributed storage backends, and RDMA/InfiniBand
+  - Deploy and validate Kubernetes and vCluster to provide GPU-powered managed Kubernetes
+  - Work alongside customer teams to transfer knowledge and build self-sufficiency
+    in operating the platform
+  - Document reusable playbooks and deployment architectures so learnings scale to
+    future customers
+  - Collaborate with Engineering and Product to surface recurring infrastructure challenges
+    into the roadmap
+  - Join Sales in pre-sales technical work to achieve meaningful proofs of value
+  use_cases:
+  - Managed Kubernetes as a service on bare metal GPU infrastructure for GPU neoclouds
+  - GPU-powered virtualized Kubernetes platforms for AI Factory internal teams
+  - Fast isolated tenant provisioning and automated node lifecycle management in GPU
+    data centers
+  - Infrastructure for running AI, ML, and GPU-intensive workloads, including NVIDIA
+    DGX reference architectures
+  skills:
+    genai: []
+    ml: [CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Kubernetes, NVIDIA GPU Operator, CNI, RDMA, InfiniBand, CSI Drivers, Ceph,
+      Rook, Weka, Longhorn, Kubernetes Operators, Load Balancing, Inference Serving,
+      GPU Scheduling, LLM Deployment, vCluster]
+    languages: [Bash, Python, Go]
+    domains: []
+    other: [CKA]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8904868'
+  location: Seattle, USA
+  locations:
+  - Seattle, USA
+  - Boston, USA
+  - Saint Louis, USA
+  - San Francisco, USA
+  - New York, USA
+  remote: true
+  extracted_at: '2026-08-16T06:05:25.577418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

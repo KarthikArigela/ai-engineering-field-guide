@@ -2,56 +2,61 @@ company:
   name: Euna Solutions
   stage: null
   focus: |-
-    Cloud-based public sector procurement and grants management
-    software
+    Public sector procurement, budgeting, payments, and grants
+    management software
 position:
   title: Staff AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly implementing AI-powered features
-      including LLM orchestration, prompt workflows, and
-      observability controls, as well as working with
-      semantic/vector search and embeddings. While it also
-      involves significant general SaaS engineering, the AI-
-      powered ingestion workflows and LLM orchestration are core
-      responsibilities, making it an ai-first role.
+      The role explicitly implements AI-powered features including
+      LLM orchestration, prompt workflows, and observability
+      controls, meaning the person directly shapes LLM behaviour
+      in the product rather than merely consuming an API. Per Step
+      2, LLM involvement makes this ai-first; the AI-assisted
+      coding tools used for day-to-day engineering are secondary
+      to that shaping work.
   responsibilities:
-  - Partner with Product to translate roadmap priorities into technical designs and
-    delivery strategies
-  - Design and implement features across application, data, and infrastructure layers
-  - Own and evolve core platform architecture across both Rails and Python systems
+  - Partner with Product to translate roadmap priorities into technical designs, implementation
+    plans, and delivery strategies
+  - Design and implement features across application, data, and infrastructure layers,
+    owning core platform architecture across Rails and Python systems
+  - Make high-impact architectural decisions around service boundaries, modularization,
+    data access patterns, and scalability
   - Build and optimize high-scale background processing systems for notifications,
     scoring, ingestion, and exports
   - Implement AI-powered features including LLM orchestration, prompt workflows, and
     observability controls
-  - Develop workflows spanning APIs, ingestion pipelines, search/discovery, and reporting
-  - Investigate production issues and improve platform reliability
-  - Document architectural decisions and collaborate cross-functionally with Engineering,
-    Product, and Customer Success teams
+  - Develop workflows spanning APIs, background jobs, ingestion pipelines, search/discovery,
+    and reporting
+  - Investigate production issues, identify root causes, and improve platform reliability
+  - Leverage AI-assisted development tools for coding, testing, refactoring, and documentation
   use_cases:
-  - Grant research and discovery platform with AI-driven ingestion workflows
-  - Multi-tenant SaaS for public sector procurement, budgeting, payments, and grants
-    management
-  - AI-powered search and discovery using full-text, semantic, and vector search
-  - Automated scoring and notification systems for grant opportunities
-  - LLM-powered content processing and data extraction for government-adjacent applications
+  - Grant research and discovery platform for public sector and government organizations
+  - AI-driven ingestion of grant data into a discovery platform
+  - Search and discovery across full-text, semantic, and vector search
+  - Automated notifications, scoring, and exports via background processing
+  - Multi-tenant SaaS application for grants management
+  - Reporting on platform data
   skills:
-    domains: []
-    languages: [Python, Ruby, SQL]
+    cloud: []
+    languages: [Python, Async Python]
     ml: []
-    cloud: [Cloud-native infrastructure]
-    genai: [LLMs, Prompt Engineering, OpenAI API, Anthropic API, Embeddings]
-    data: [Sidekiq, Redis Streams, Data ingestion pipelines]
-    other: [Async Python]
-    ops: [Docker, CI/CD, Sentry, New Relic, Honeybadger, Testing frameworks]
+    other: [Sidekiq, Full-Text Search, Workflow Orchestration, Security Best Practices]
+    ops: [CI/CD, Sentry, New Relic, Honeybadger]
+    databases: [PostgreSQL, Redis, Vector Databases, Vector Search]
+    domains: []
     web: [Ruby on Rails, FastAPI, REST APIs, Hotwire, Turbo, Stimulus, Tailwind CSS,
       ViewComponent]
-    databases: [PostgreSQL, Redis, Vector Databases, Semantic Search]
+    data: [Data Pipelines, Redis Streams]
+    genai: [LLMs, Prompt Engineering, OpenAI API, Anthropic API, Embeddings, Semantic
+        Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9665704'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:48:37.116646'
+  extracted_at: '2026-08-16T14:01:40.818137'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

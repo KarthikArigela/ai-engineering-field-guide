@@ -1,0 +1,62 @@
+company:
+  name: Harvard Business Publishing
+  stage: null
+  focus: |-
+    Publishing management education content for lifelong
+    learners
+position:
+  title: AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly builds LLM-facing systems — an LLM chat
+      interface, a vector store for RAG, and guardrails for LLMs —
+      which is shaping model behaviour through retrieval and LLM
+      tooling. It also maintains classical predictive ML
+      workflows, but since LLM components are clearly involved,
+      the role is ai-first.
+  responsibilities:
+  - Support product teams in rapid prototyping of AI-enabled features, integrating
+    AI/ML capabilities into new product ideas and iterating quickly with shared AI
+    capabilities
+  - Act as a technical bridge between product management, data engineering, production
+    software engineering, and partner technical teams to extend core ML and AI infrastructure
+    from prototype to production
+  - Develop and maintain product-facing ML and AI infrastructure including an LLM
+    chat interface, a vector store for RAG, predictive ML workflows with automated
+    triggers, and MLOps tools within AWS and Snowflake environments
+  - Collaborate with the Data Engineering team to build and maintain data pipelines
+    and product-facing APIs for HBP's central data warehouse
+  - Contribute to data science and analytics projects such as inferring causal factors
+    driving user intent, predicting user attributes, and projecting potential revenue
+  - Support and equip product leads with knowledge and tools to pursue new AI-enabled
+    product concepts
+  - Support end users of no-code AI-assistive tools and transition no-code prototypes
+    into development and production environments
+  use_cases:
+  - LLM chat interface for product experiences
+  - RAG-based retrieval over content using a vector store
+  - Predictive ML workflows with automated triggers
+  - Inferring user intent and predicting user attributes
+  - Deriving insight from user activity for editorial and marketing decisions
+  - Projecting potential revenue
+  skills:
+    genai: [LangChain, LLMs, RAG, Guardrails, Generative AI]
+    ml: [scikit-learn, PyTorch, Machine Learning, Model Training, Model Evaluation]
+    web: [FastAPI, Flask, Streamlit, APIs]
+    databases: [Vector Databases, Snowflake]
+    data: [Pandas, Data Pipelines, ETL, Data Warehousing, Medallion Architecture,
+      dbt]
+    cloud: [AWS, Azure, GCP, SageMaker]
+    ops: [MLOps, MLflow, Model Registries, CI/CD, Docker, Git]
+    languages: [Python, SQL]
+    domains: []
+    other: [Statistics, No-Code AI Tools]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8291746'
+  location: USA
+  extracted_at: '2026-08-15T23:08:32.739976'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,58 +1,62 @@
 company:
   name: Equifax Inc.
-  stage: Public
-  focus: Credit reporting and data analytics for financial services
+  stage: null
+  focus: Global credit reporting and data analytics services
 position:
   title: Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on designing, building, and
-      deploying AI agents using LangChain, LangGraph, and agentic
-      AI frameworks on GCP. The engineer will own core logic for
-      AI-driven automation, implement RAG techniques, and manage
-      MLOps for agentic systems — all hands-on work building and
-      deploying AI/LLM systems.
+      The role directly shapes model behavior: it designs, builds,
+      and deploys AI agents with LangChain and LangGraph, masters
+      prompt and context engineering, and prototypes RAG
+      techniques and foundational model integrations. Since LLM
+      agents and prompts are the core deliverable, this is ai-
+      first rather than ai-support (AI code assistants like
+      Copilot are secondary tools the role uses).
   responsibilities:
   - Design, build, and deploy complex AI agents using LangChain and LangGraph to automate
     decision-making within the claims lifecycle
-  - Design, test, and refine complex prompts and contextual data frameworks for AI
-    agent accuracy and reliability
-  - Lead AI research and innovation by prototyping and integrating latest foundational
-    models, RAG techniques, and agentic frameworks
-  - Engineer and operate scalable, reliable AI systems in production on Google Cloud
-    Platform
-  - Establish MLOps best practices for observability, versioning, and monitoring of
-    AI agents using tools like Langfuse
-  - Collaborate with product leaders, data scientists, and engineers to translate
-    business needs into AI solutions
+  - Design, test, and refine complex prompts and contextual data frameworks to maximize
+    AI agent accuracy, efficiency, and reliability
+  - Identify, prototype, and integrate the latest foundational models, RAG techniques,
+    and agentic frameworks to solve business challenges
+  - Engineer and operate AI systems at production scale on Google Cloud Platform
+  - Establish MLOps best practices for reliability, versioning, monitoring, and observability
+    of AI agents using tools like Langfuse
   - Build, manage, and mentor a cross-functional team of software, quality, and reliability
     engineers
-  - Champion modern software development practices using AI code-assist tools to accelerate
-    development cycles
+  - Define and report on key engineering metrics (SLA, SLO, SLI) and ensure compliance
+    with DevSecOps and FinOps best practices
+  - Collaborate with product managers, architects, SREs, and business partners on
+    technical strategy, roadmaps, and architectural decisions, while championing AI
+    code-assist tools to accelerate development
   use_cases:
-  - Automating intricate decision-making within the claims lifecycle using AI agents
-  - Enterprise-scale AI agent deployment for production environments serving millions
-    of users
-  - Prompt and context engineering for high-accuracy AI agent performance
-  - Cloud-native AI platform development on Google Cloud Platform
-  - MLOps and observability for production-grade agentic AI systems
+  - Automated decision-making within the claims lifecycle using AI agents
+  - Enterprise-scale AI agent systems deployed to production on Google Cloud Platform
+  - Cloud-native APIs, microservices, and PaaS/SaaS platforms serving millions of
+    users
+  - AI-assisted software development acceleration using code-assist tools
+  - Monitoring and observability of agentic AI systems in production
   skills:
-    domains: []
+    cloud: [GCP, Vertex AI, AWS, Azure]
     languages: [Python, JavaScript, TypeScript, Java]
     ml: []
-    cloud: [Vertex AI, GCP, AWS, Azure]
-    genai: [LangChain, LangGraph, RAG, Prompt Engineering, Agentic AI Frameworks,
-      GitHub Copilot, Gemini, Anthropic API, ChatGPT, Llama]
+    other: [FinOps]
+    ops: [MLOps, Langfuse, Kubernetes, Docker, Terraform, CloudFormation, CI/CD, GitHub
+        Actions, ArgoCD, Jenkins, DevSecOps, Observability, Monitoring]
+    databases: [SQL, PostgreSQL, MySQL, MongoDB, DynamoDB, Firestore, Spanner, AlloyDB]
+    domains: []
+    web: [APIs, Microservices, Angular, React, Vue]
     data: []
-    other: []
-    ops: [Langfuse, Kubernetes, Docker, Terraform, GitHub Actions, ArgoCD, Jenkins,
-      MLOps, CI/CD, CloudFormation]
-    web: [React, Angular, Vue]
-    databases: [PostgreSQL, MySQL, MongoDB, DynamoDB, Firestore, Spanner, AlloyDB]
+    genai: [LangChain, LangGraph, Prompt Engineering, Context Engineering, RAG, AI
+        Agents, Agentic Workflows, Generative AI, Gemini, ChatGPT, Anthropic API,
+      Llama, GitHub Copilot, Claude Code]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '8997754'
   location: Pune, IND
-  extracted_at: '2026-04-22T12:40:40.527077'
+  extracted_at: '2026-08-16T06:57:49.192596'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

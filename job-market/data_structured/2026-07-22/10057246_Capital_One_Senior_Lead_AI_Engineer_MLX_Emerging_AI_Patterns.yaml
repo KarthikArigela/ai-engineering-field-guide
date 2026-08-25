@@ -1,53 +1,62 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI/ML
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (MLX Emerging AI Patterns)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI
-      systems including foundation model training, LLM inference,
-      similarity search, guardrails, and model optimization. The
-      engineer works hands-on with LLMs, optimization techniques,
-      and production AI infrastructure at Capital One.
+      The role designs and builds the AI system itself: foundation
+      model training, LLM inference optimization, guardrails,
+      model evaluation, and similarity search, and invents state-
+      of-the-art LLM optimization techniques for production
+      systems. This is direct shaping of LLM behaviour and output
+      quality, so it is ai-first, not merely supporting
+      infrastructure.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, and model evaluation
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
-  - Lead and mentor engineering teams and influence cross-functional stakeholders
+    at Capital One
+  - Stay current with AI research and apply novel techniques in production
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - AI-powered customer interaction and question answering
-  - LLM inference and optimization at production scale
-  - Similarity search and vector-based retrieval systems
-  - Responsible AI governance and observability
+  - Informing customers about unusual charges and fraud
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - Shared AI models and platforms empowering teams across Capital One to enhance
+    their products with AI
   skills:
-    genai: [LLMs, Guardrails, Prompt Engineering, Nemo Guardrails]
-    ml: [Hugging Face, PyTorch, Model Training, Foundation Model Training, Model Evaluation,
-      Fine-Tuning]
-    web: []
-    databases: [Vector Databases, Vector Search]
-    data: []
-    cloud: [AWS, GCP, Azure]
-    ops: [MLOps, Model Deployment, Model Monitoring, Observability, Distributed Systems]
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Model Evaluation, Foundation Model
+        Training]
+    other: []
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
     domains: []
-    other: [Responsible AI]
+    web: []
+    data: []
+    genai: [LLMs, Guardrails, Memory]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10057246'
   location: San Jose, USA
   locations:
   - San Jose, USA
   - New York, USA
-  extracted_at: '2026-07-22T13:29:09.445107'
+  extracted_at: '2026-08-16T16:34:18.592157'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,49 +1,54 @@
 company:
   name: Goodwin
-  stage: Public
-  focus: Elite law firm serving life sciences, PE, tech, finance
+  stage: null
+  focus: |-
+    Global law firm serving life sciences, private equity,
+    technology, and financial clients
 position:
   title: Sr. AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing, developing, and maintaining
-      generative AI applications using Azure AI Studio, Azure
-      Machine Learning for model training and deployment, and
-      integrating GenAI capabilities. The engineer works directly
-      on building and deploying AI solutions, making it an ai-
-      first role.
+      The role designs, develops, and maintains generative AI
+      applications using Azure AI Studio and utilizes Azure
+      Machine Learning for model training, deployment, and
+      management. Building GenAI applications and
+      training/deploying models is shaping model output, and the
+      generative/LLM component makes it ai-first.
   responsibilities:
   - Design and develop AI solutions using Microsoft Azure-based tools including Power
     Automate, Power Desktop, Forms, and Azure AI Studio
-  - Build and maintain scalable generative AI applications following industry best
-    practices and coding standards
-  - Integrate Generative AI technologies to enhance software functionality and user
-    experience
+  - Develop and integrate Generative AI applications leveraging AI and machine learning
+    technologies to enhance software functionality and user experience
   - Utilize Azure Machine Learning for model training, deployment, and management
-  - Collaborate with cross-functional teams to gather requirements, define specifications,
-    and provide technical guidance
+  - Develop cloud-based AI applications on Azure services ensuring high availability,
+    security, and performance
+  - Collaborate with cross-functional teams to gather requirements, define software
+    specifications, and provide technical guidance
   - Perform comprehensive testing, debugging, and troubleshooting of AI applications
-  - Document AI designs, procedures, and guidelines to ensure maintainability
-  - Stay current with latest Microsoft AI technologies and identify implementation
-    opportunities
+    to ensure quality
+  - Document AI designs, procedures, and guidelines for maintainability and knowledge
+    transfer
+  - Provide technical support to end-users and assist with training materials and
+    sessions
   use_cases:
-  - Generative AI applications for legal and professional services operations
-  - AI-enhanced enterprise applications and business process automation
-  - CRM data management and workflow automation via AI integration
-  - Cloud-based AI solutions for cross-functional business teams
+  - Enterprise generative AI applications for law firm operations
+  - Business process and workflow automation on the Microsoft Power Platform
+  - Cloud-based AI application development on Azure services
+  - Model training, deployment, and management with Azure Machine Learning
+  - CRM data management and data quality within Microsoft Dynamics
   skills:
-    domains: []
+    cloud: [Azure, Azure AI Foundry, Azure ML]
     languages: []
-    ml: []
-    cloud: [Azure AI Foundry, Azure ML, Azure]
-    genai: [Generative AI]
-    data: [Data Analysis]
-    other: [Microsoft Power Automate, Microsoft Power Desktop, Microsoft Forms, Microsoft
-        Dynamics CRM, Microsoft Excel]
+    ml: [Machine Learning]
+    other: [Power Automate, Power Automate Desktop, Microsoft Forms, Microsoft Dynamics
+        CRM, Excel, Data Analysis]
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -52,4 +57,6 @@ meta:
   locations:
   - Los Angeles, USA
   - Santa Monica, USA
-  extracted_at: '2026-06-25T19:48:25.454816'
+  extracted_at: '2026-08-16T14:47:46.742112'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

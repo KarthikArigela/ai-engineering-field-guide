@@ -1,64 +1,69 @@
 company:
   name: Citizens
-  stage: Public
-  focus: Financial services and consumer banking
+  stage: null
+  focus: Consumer banking and financial services
 position:
   title: Sr Data Engineer- Data Platform & AI Enablement
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role focused on building data
-      pipelines and platforms that ENABLE AI/GenAI use cases, but
-      the engineer does not directly build, train, fine-tune, or
-      deploy models themselves. They prepare AI-ready data
-      foundations, build retrieval/embeddings pipelines, and
-      partner with data scientists and ML engineers who do the
-      actual model work.
+      This is a data engineering role whose deliverables are
+      pipelines, datasets, and platform capabilities that feed
+      AI/GenAI systems built by partner teams (data scientists, ML
+      engineers). The AI work is framed as "supporting" and
+      "enabling" — building AI-ready data foundations,
+      retrieval/embeddings data pipelines, and governance for
+      GenAI adoption — not shaping model behavior through prompts,
+      training, evals, or owned RAG/agent design. Per the
+      datasets-and-pipelines edge case, this is ai-support.
   responsibilities:
-  - Design, build, and maintain scalable data pipelines to acquire, transform, and
-    store large datasets across financial consumer business domains
-  - Develop robust data pipelines to collect, process, and compute metrics from various
-    financial data sources adhering to quality standards
-  - Apply database design principles and data modeling techniques to translate business
-    requirements into scalable data solutions
-  - Build data pipelines and platform capabilities supporting AI, Generative AI, and
-    Agentic AI use cases including model training, inference, retrieval, and orchestration
-    workflows
+  - Design, build, and maintain reliable, scalable data pipelines to acquire, transform,
+    and store large datasets from financial data sources
+  - Apply database design and data modeling principles to translate business requirements
+    into scalable solutions supporting analytics, reporting, machine learning, and
+    AI-driven use cases
+  - Build data pipelines and platform capabilities that support AI, Generative AI,
+    and Agentic AI use cases, including model training, inference, retrieval, and
+    orchestration workflows
+  - Enable AI-ready data foundations by developing high-quality, governed, reusable
+    datasets for machine learning, LLM, and intelligent automation solutions
   - Develop and optimize pipelines for structured, semi-structured, and unstructured
-    data to support GenAI use cases such as semantic search, document intelligence,
+    data supporting GenAI use cases such as semantic search, document intelligence,
     and RAG
-  - Partner with data scientists, ML engineers, architects, and product teams to integrate
-    AI/GenAI capabilities into enterprise data platforms
-  - Implement metadata, lineage, governance, security, and access controls for responsible
-    AI and enterprise-scale GenAI adoption
-  - Troubleshoot data-related issues, execute unit testing, validate results, and
-    ensure data quality and observability across pipelines
+  - Implement metadata, lineage, governance, security, and access controls required
+    for responsible AI and enterprise-scale GenAI adoption
+  - Ensure observability, reliability, performance, and data quality for pipelines,
+    including those supporting AI-enabled workflows
+  - Partner with data scientists, ML engineers, architects, and product teams; support
+    enterprise data frameworks and contribute to reusable cross-organization capabilities
   use_cases:
-  - Financial data processing and analytics pipelines for consumer banking domains
   - AI-ready data foundations for machine learning, LLM, and intelligent automation
     solutions
-  - Retrieval-augmented generation (RAG) and semantic search on unstructured and semi-structured
-    data
-  - Document intelligence and GenAI-powered workflows for enterprise data platforms
-  - Model training, inference, and orchestration data pipelines
-  - Enterprise data governance, lineage, and compliance for regulated financial environments
+  - GenAI enablement including semantic search, document intelligence, and RAG
+  - Data pipelines supporting model training, inference, retrieval, and orchestration
+    workflows
+  - Analytics, reporting, and metrics computation across financial consumer business
+    domains
+  - Governed, secure enterprise data platforms in a regulated financial environment
   skills:
-    domains: []
-    languages: [Java, Scala, Python, SQL, TypeScript]
-    ml: []
     cloud: [AWS, Azure]
-    genai: [RAG, Semantic search, Embeddings workflows, Document intelligence, Model
-        inference workflows]
-    data: [Spark, Apache Beam, Flink, Kafka, Data Pipelines, Talend, DataStage, Data
-        Governance, Data lineage]
-    other: [Microservices]
-    ops: [CI/CD, Git, Bitbucket, MLOps/LLMOps, Workflow orchestration]
-    web: [Java Spring Boot, React, Angular]
-    databases: [Redshift, PostgreSQL, Snowflake, MongoDB, Vector Databases]
+    languages: [Java, Scala, Python, TypeScript, SQL]
+    ml: [Machine Learning]
+    other: []
+    ops: [CI/CD, Bitbucket, Git, MLOps, LLMOps]
+    databases: [Redshift, PostgreSQL, Snowflake, MongoDB, NoSQL, Relational Databases,
+      Vector Databases]
+    domains: []
+    web: [Spring Boot, React, Angular, Microservices]
+    data: [Spark, Beam, Flink, Kafka, Data Pipelines, Talend, DataStage, Data Modeling,
+      Data Governance, Data Engineering]
+    genai: [RAG, LLMs, Generative AI, AI Agents, Semantic Search, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9635178'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:46:49.179223'
+  extracted_at: '2026-08-16T13:27:35.021660'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,49 +1,54 @@
 company:
   name: EvolutionIQ
-  stage: Series B+
+  stage: null
   focus: AI technology for insurance claims handling
 position:
   title: Senior Software Engineer (AI Data Engineering)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a software/data engineering position
-      that uses agentic coding tools (Cursor, Claude) to
-      accelerate development velocity, not to build AI/ML systems.
-      The core responsibilities are building data pipelines,
-      backend architectures, and application layers that support
-      the company's AI solutions. The engineer works NEAR AI
-      (partnering with data science teams) but does not build,
-      train, fine-tune, or deploy models themselves.
+      The engineer uses agentic coding tools (Cursor, Claude) as a
+      velocity lever and reviews the AI-generated code for
+      security, scale, and architecture — the deliverable is
+      application and data pipeline systems, not model behavior.
+      There is no prompt design, retrieval/agent design for the
+      product, fine-tuning, or eval work owned by this person; the
+      data pipelines feed other teams' AI solutions. Per the edge
+      case for AI coding assistants, this is ai-support.
   responsibilities:
-  - Leverage agentic coding tools (Cursor, multi-agent environments) to accelerate
+  - Leverage agentic coding tools such as Cursor and multi-agent environments to accelerate
     feature prototyping, code generation, and test coverage
-  - Act as architect and reviewer defining specifications, establishing guardrails,
-    and reviewing AI-accelerated output for security risks and architectural alignment
-  - Design, build, and maintain scalable data pipelines and application layers serving
-    hundreds of users
+  - Act as the ultimate reviewer and architect, defining specifications and repo-context
+    guardrails and reviewing AI-accelerated output for security risks, scale bottlenecks,
+    and architectural alignment
+  - Design, build, and maintain scalable application and data layers, including data
+    pipelines serving hundreds of users
   - Partner with product, client services, and data science teams to transform raw
-    pipeline outputs into meaningful insights
-  - Take ownership of designing, building, and launching enterprise-grade applications
-    from greenfield through production
-  - Write technical design documents, perform code reviews, and maintain engineering
-    best practices
+    pipeline outputs into business meaning
+  - Drive greenfield engineering with complete ownership of designing, building, and
+    launching enterprise-grade applications
+  - Work the full feature development lifecycle with product managers, designing data
+    models and pipeline architectures
+  - Write technical design documents, perform code reviews, and maintain state of
+    the art engineering practices
   use_cases:
-  - Data pipelines supporting AI solutions for insurance claims processing
-  - Multi-tenant backend systems serving hundreds of insurance claims users
-  - Transforming raw data pipeline outputs into actionable business insights
-  - Enterprise-grade applications for insurance claims handling automation
+  - AI solutions that make insurance claims handling more accurate, fair, and efficient
+  - Data pipelines and application layers supporting multi-tenant, multi-user insurance
+    claims workflows
+  - Transforming raw pipeline and model outputs into actionable meaning for claims
+    stakeholders
+  - Enterprise-grade applications serving hundreds of insurance industry users
   skills:
-    domains: []
+    cloud: []
     languages: [Python, SQL]
     ml: []
-    cloud: []
-    genai: [Cursor AI, Anthropic API, Agentic coding workflows, Multi-agent environments]
-    data: [Data pipeline architecture, Data Modeling]
-    other: [Technical design]
-    ops: [Code review]
-    web: [Multi-tenant backend architecture]
+    other: [Code Review]
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines, Data Modeling]
+    genai: [Cursor, Anthropic API, Agentic Workflows, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -53,4 +58,6 @@ meta:
   - USA
   - New York, USA
   remote: true
-  extracted_at: '2026-06-25T19:53:02.436035'
+  extracted_at: '2026-08-16T14:56:30.748576'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

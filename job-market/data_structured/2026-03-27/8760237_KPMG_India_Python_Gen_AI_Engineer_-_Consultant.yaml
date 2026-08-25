@@ -1,47 +1,53 @@
 company:
   name: KPMG India
-  stage: Public
+  stage: null
   focus: Professional services and consulting firm
 position:
   title: Python + Gen AI Engineer - Consultant
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs, GenAI frameworks
-      (LangChain, LlamaIndex), RAG pipeline design, and prompt
-      engineering. The engineer will build and deploy AI systems
-      using cloud AI services, with nice-to-have experience in
-      fine-tuning models using LoRA/QLoRA techniques.
+      The role explicitly requires prompt engineering, RAG
+      pipeline design with vector stores, and hands-on work with
+      LLMs and GenAI frameworks, all of which directly shape model
+      behaviour and output quality. Fine-tuning large models with
+      LoRA/QLoRA is also listed, reinforcing the shaping role, and
+      since LLM/generative components are central, it is ai-first.
   responsibilities:
-  - Develop AI-powered software solutions using Python and GenAI technologies
-  - Design and implement RAG pipelines and vector store integrations
-  - Work with LLMs and GenAI frameworks including LangChain and LlamaIndex
-  - Implement prompt engineering strategies and model fine-tuning when required
-  - Collaborate with Technical Architects, Business Analysts, and other engineers
-    on product development
-  - Ensure development practices comply with KPMG best practices
-  - Deploy AI solutions on cloud platforms (Azure OpenAI, AWS Bedrock, GCP Vertex
-    AI)
-  - Quickly ramp up on new technologies as needed
+  - Develop software across the full development life cycle, including writing code
+    and unit tests
+  - Build GenAI solutions using LLMs, GenAI frameworks, and prompt engineering
+  - Design RAG pipelines leveraging vector stores for GenAI applications
+  - Work with libraries such as LangChain, LlamaIndex, Transformers, and PyTorch/TensorFlow
+  - Apply cloud AI environments (Azure OpenAI, AWS Bedrock, GCP Vertex AI) for solution
+    development
+  - Collaborate with Technical Architect, Business Analyst, interaction designers,
+    and other engineers to develop new product offerings and improve existing ones
+  - Ensure all development practices comply with KPMG's best-practice policies and
+    procedures
+  - Quickly ramp up on new technologies whenever required
   use_cases:
-  - Enterprise AI solutions for KPMG clients
-  - RAG-based information retrieval and knowledge systems
-  - Custom AI application development for consulting engagements
-  - AI-powered automation and decision support systems
+  - Development of GenAI-powered applications and product offerings
+  - Retrieval-augmented generation over document/data collections using vector stores
+  - Adapting large language models via instruction tuning and LoRA/QLoRA fine-tuning
+  - Multimodal AI applications combining vision, language, and speech
   skills:
-    domains: []
-    languages: [Python, OOP, asyncio]
-    ml: [Hugging Face, PyTorch, TensorFlow, Fine-Tuning]
-    cloud: [Azure OpenAI, AWS Bedrock, Vertex AI]
-    genai: [LangChain, LlamaIndex, Prompt Engineering, RAG, LoRA]
-    data: []
-    other: []
+    cloud: [Azure OpenAI, AWS Bedrock, GCP, Vertex AI]
+    languages: [Python, asyncio]
+    ml: [Transformers, Hugging Face, PyTorch, TensorFlow]
+    other: [Multimodal Models]
     ops: [MLflow, Weights & Biases, Distributed Systems]
-    web: [APIs]
     databases: [Vector Databases]
-  is_customer_facing: true
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [LLMs, Generative AI, Prompt Engineering, LangChain, LlamaIndex, RAG, Fine-Tuning,
+      LoRA]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8760237'
   location: Mumbai, IND
-  extracted_at: '2026-03-27T14:18:32.496527'
+  extracted_at: '2026-08-16T04:21:32.063216'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

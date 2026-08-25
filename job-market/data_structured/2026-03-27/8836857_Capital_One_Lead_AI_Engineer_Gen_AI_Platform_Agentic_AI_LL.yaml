@@ -1,51 +1,54 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services leveraging AI/ML for customer
-    experiences
+  stage: null
+  focus: Banking and financial services leveraging AI/ML
 position:
   title: Lead AI Engineer (Gen AI Platform, Agentic AI & LLM Infrastructure & Orchestration)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building and deploying GenAI
-      systems including foundation model training, LLM inference,
-      similarity search, guardrails, and LLM optimization
-      techniques. The position focuses on hands-on development of
-      AI infrastructure and orchestration systems, not just
-      supporting infrastructure for others.
+      The role designs and builds foundational LLM platform
+      components itself: foundation model training, LLM inference
+      optimization, guardrails, model evaluation, and similarity
+      search. Optimizing a model's training and inference
+      internals plus building guardrails and evals is shaping
+      model behaviour, and the targets are LLM/generative systems,
+      so it classifies as ai-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products that change
+    how associates work and customers interact with Capital One
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Build proprietary AI solutions that deliver value to millions of customers
+  - Apply novel AI research techniques from scientific publications judiciously in
+    production
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and informing customers about unusual charges
-  - Real-time customer question answering and support
-  - AI-powered products that change how associates work
-  - Enhancing banking products with transformative AI capabilities
-  - Responsible and scalable AI deployment across enterprise applications
+  - Informing customers about unusual charges
+  - Answering customer questions in real time
+  - Internal AI platform empowering teams across the company to enhance products with
+    AI
+  - AI-powered products changing how associates work and customers interact with the
+    bank
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training]
-    cloud: [AWS, AWS Ultraclusters, Cloud Platforms, GCP, Azure]
-    genai: [LLM Inference, Similarity Search, Guardrails, LLM Optimization]
-    data: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model Evaluation, Experimentation, Governance, Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Generative AI, AI Agents, Guardrails, Memory]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +60,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T14:39:15.661516'
+  extracted_at: '2026-08-16T04:56:31.680335'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

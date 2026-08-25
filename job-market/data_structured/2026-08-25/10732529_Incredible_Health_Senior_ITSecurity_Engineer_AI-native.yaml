@@ -1,0 +1,58 @@
+company:
+  name: Incredible Health
+  stage: null
+  focus: AI-powered healthcare career marketplace for nurse hiring
+position:
+  title: Senior IT/Security Engineer (AI-native)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an IT/security engineering role: compliance, SOC 2,
+      MDM, incident response, cloud security. AI appears only in
+      evaluating and securing internal AI tooling (Claude, MCP),
+      answering customer AI risk questions, and monitoring the AI
+      threat landscape — governance/oversight, not shaping model
+      behavior or outputs. Per the rules, safety/governance
+      oversight of models is ai-support.
+  responsibilities:
+  - Own the compliance program end to end, driving annual SOC 2 Type 2 audits and
+    running Vanta year-round
+  - Complete security questionnaires and AI risk assessments for hospital clients
+  - Run BCDR tests and coordinate annual pen tests with SLA-driven remediation
+  - Manage security across AWS, Heroku, Cloudflare, Google Workspace, GitHub, and
+    communication tools
+  - 'Administer the remote laptop fleet: imaging, MDM enrollment, inventory, and end-of-life'
+  - Run access reviews, enforce least privilege, SSO, 2FA, and onboarding/offboarding
+    with HR via Rippling
+  - Evaluate and secure AI tooling including Claude and MCP servers, and advise on
+    AI risk, bias testing, and model governance
+  - Lead security incident response, vendor management, and team security training
+  use_cases:
+  - SOC 2 Type 2 compliance and GRC automation for a healthcare software company
+  - Security questionnaires and AI risk assessments for enterprise hospital clients
+  - Securing internal AI tooling (Claude, MCP servers) and advising on AI risk and
+    model governance
+  - Laptop fleet management and identity/access security for a fully remote team
+  - BCDR testing, pen test remediation, and security incident response
+  skills:
+    genai: [Claude Code, MCP]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, IAM]
+    ops: [SOC 2, Vanta, Cloudflare, Google Workspace, GitHub, MDM, EDR/XDR, SIEM,
+      CSPM, BCDR, Penetration Testing]
+    languages: []
+    domains: []
+    other: [Incident Response, Security Questionnaires, Heroku, Rippling, AI Risk
+        Assessment, Model Governance, Vendor Management, Security Training]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10732529'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:31:25.597483'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

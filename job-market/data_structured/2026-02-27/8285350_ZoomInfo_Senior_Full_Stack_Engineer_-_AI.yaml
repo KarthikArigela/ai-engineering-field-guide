@@ -1,61 +1,65 @@
 company:
   name: ZoomInfo
-  stage: Public
-  focus: Go-To-Market Intelligence Platform with AI-ready insights
+  stage: 'Publicly traded (NASDAQ: GTM)'
+  focus: Go-to-market intelligence platform with AI-ready B2B data
 position:
   title: Senior Full Stack Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on development, training, fine-
-      tuning, deploying, and optimizing state-of-the-art AI models
-      including LLMs, Generative AI, and conversational AI
-      systems. This is a technical AI engineering position focused
-      on building and deploying AI solutions, not just supporting
-      infrastructure.
+      The role requires hands-on development, fine-tuning,
+      evaluation, and optimization of state-of-the-art
+      LLM/Generative AI models (GPT-4, Llama, Claude, Gemini) plus
+      prompt engineering, conversational AI, and semantic/vector
+      search — direct shaping of model behavior and output
+      quality. LLM and GenAI components are central to the role,
+      making it ai-first.
   responsibilities:
-  - Lead conceptualization, development, and deployment of AI/ML solutions that revolutionize
-    finance processes
-  - Manage the entire AI solution lifecycle from ideation to implementation and ongoing
-    support
-  - Identify and proof-of-concept efficiency opportunities for software development
-    and tech debt reduction
-  - Develop, train, fine-tune, and deploy state-of-the-art AI models in NLP and Generative
-    AI
-  - Build production-ready AI/ML pipelines using AIOps, MLOps, and DataOps practices
-  - Conduct proactive research in AI/ML advancements and lead initiatives to identify
-    business opportunities
-  - Collaborate with technology, product, and data teams to integrate AI solutions
-    into finance workflows
+  - Lead the team in conceptualizing, developing, and deploying AI/ML solutions that
+    transform finance and enterprise business processes
+  - Own the full AI solution lifecycle from ideation and requirements gathering through
+    development, implementation, and ongoing support
+  - Develop, fine-tune, evaluate, and deploy NLP and Generative AI models including
+    GPT-4, Llama, Claude, and Gemini
+  - Build production-grade AI/ML pipelines using MLOps, AIOps, and DataOps practices
+    with Kubeflow and MLflow on AWS, Azure, and GCP
+  - Develop AI-powered search (vector databases, semantic search) and microservices
+    in Java, Python, and Spring Boot
+  - Build data pipelines, data warehousing, and data governance supporting ML model
+    deployment
+  - Research AI/ML advancements, identify high-impact use cases, and articulate ROI
+    and benefits of proposed AI solutions
   - Provide technical leadership and mentorship to a geographically diverse engineering
-    team
+    team across the US and India
   use_cases:
-  - Transforming finance business processes through advanced AI applications
-  - Enhancing strategic decision-making with AI-powered insights
-  - Conversational AI applications including ChatBots, IVA, and AgentAssist
-  - AI-powered search using vector databases and semantic search
-  - Data science applications using NLP techniques to extract insights from financial
-    data
-  - AI-powered automation for finance and accounting workflows
+  - AI-driven transformation of finance and accounting business processes
+  - Conversational AI including chatbots, intelligent virtual assistants, and agent
+    assist
+  - AI-powered semantic search over enterprise data using vector databases
+  - Software development efficiency, QA, and testing automation improvements
+  - Extracting business insights from finance data using NLP and deep learning
   skills:
-    domains: [NLP]
-    languages: [Python, Java, SQL]
-    ml: [PyTorch, TensorFlow, Keras, Hugging Face, Transformers, Neural Networks,
-      Deep Learning, AutoML]
     cloud: [AWS, Azure, GCP]
-    genai: [GPT-4, Llama, Anthropic API, Gemini, LangChain, Prompt Engineering, RAG,
-      LLMs, Conversational AI, Semantic Search, Multimodal AI, AI Agents]
-    data: [Data Pipelines, Data warehousing]
-    other: []
-    ops: [MLflow, Kubeflow]
-    web: [Spring Boot, React, Node.js]
+    languages: [Python, Java, SQL]
+    ml: [PyTorch, TensorFlow, Keras, Machine Learning, Deep Learning, Neural Networks,
+      Reinforcement Learning, Transformers, RNNs, AutoML, Fine-Tuning]
+    other: [Boomi, Tableau, Excel, Data Science, SDLC]
+    ops: [MLOps, AIOps, DataOps, Kubeflow, MLflow]
     databases: [Vector Databases, NoSQL]
+    domains: [NLP]
+    web: [Spring Boot, React, Node.js, Microservices]
+    data: [Data Pipelines, Data Warehousing, Data Governance, Data Modeling]
+    genai: [Generative AI, LLMs, GPT-4, Llama, Anthropic API, Gemini, LangChain, Hugging
+        Face, Prompt Engineering, Conversational AI, Semantic Search, AI Agents, Multimodal
+        AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8285350'
   location: Chennai, IND
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-02-27T11:51:10.721059'
+  extracted_at: '2026-08-16T00:50:32.815300'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

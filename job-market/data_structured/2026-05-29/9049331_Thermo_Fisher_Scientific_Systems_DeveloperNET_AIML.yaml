@@ -1,53 +1,55 @@
 company:
   name: Thermo Fisher Scientific
-  stage: Public
-  focus: |-
-    Scientific instruments, reagents, and enterprise software
-    solutions
+  stage: null
+  focus: Life sciences research and laboratory products
 position:
   title: Systems Developer(.NET & AI/ML)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a .NET systems developer role that
-      involves supporting integration of AI-enabled features using
-      APIs and pre-built services (e.g., Azure Cognitive Services,
-      OpenAI APIs). The role does not involve building, training,
-      or fine-tuning models — it's about integrating existing AI
-      services into enterprise applications, which is
-      enabling/support work rather than hands-on AI/ML
-      development.
+      This is primarily a .NET systems developer role; AI appears
+      only as integrating pre-built AI services/APIs (Azure
+      Cognitive Services, OpenAI APIs) "where applicable" and as a
+      willingness to learn AI/ML concepts. The person does not
+      shape model behaviour through prompts, retrieval design,
+      fine-tuning, or evals, so the role is ai-support.
   responsibilities:
-  - Implement and adhere to CSLM lifecycle processes and relevant tools
-  - Write efficient, maintainable code following coding standards and guidelines
+  - Develop and implement system solutions for custom-developed applications as a
+    collaborative team member
+  - Write efficient, maintainable code following guidelines and coding standards,
+    and participate in code reviews and refactoring
   - Support integration of AI-enabled features such as automation, intelligent workflows,
-    and data-driven insights using APIs or pre-built services
-  - Engage in code reviews and participate in code refactoring to improve system quality
-  - Debug performance issues and defects using Root Cause Analysis techniques
-  - Analyse current technology stack and explore benefits of newer technologies including
-    Azure cloud and applied AI
-  - Collaborate with Application Manager and team members on maintenance and support
+    or data-driven insights using APIs or pre-built services
+  - Ensure implementation of and adherence to CSLM lifecycle, processes, and relevant
+    tools, and aid in generating system deliverables
+  - Debug performance issues and defects using troubleshooting techniques such as
+    Root Cause Analysis
+  - Work with the Application Manager and team members on maintenance and support
     activities
+  - Analyse the current technology stack and explore benefits of newer technologies
+    including Azure and applied AI capabilities
   - Maintain documentation for system components and development processes
   use_cases:
-  - Enterprise system development and lifecycle management
-  - AI-powered automation and intelligent workflows in business applications
-  - Data-driven insights integration into custom enterprise applications
-  - Application maintenance, support, and performance optimization
+  - Custom enterprise application development and support
+  - AI-enabled automation within enterprise systems
+  - Intelligent workflows through AI service/API integration
+  - Data-driven insights for business applications
   skills:
-    domains: []
-    languages: [C#, SQL, JavaScript]
-    ml: []
-    cloud: [Azure]
-    genai: [Azure Cognitive Services, OpenAI API]
-    data: []
-    other: [Agile]
-    ops: [Azure DevOps, CI/CD]
-    web: [.NET, HTML, CSS, Node.js, Angular, NPM, MVC]
+    cloud: [Azure, Azure Cognitive Services]
+    languages: [C#, .NET, SQL, JavaScript]
+    ml: [AI/ML]
+    other: [Data Structures and Algorithms, Agile]
+    ops: [CI/CD, Azure DevOps]
     databases: [SQL Server]
+    domains: []
+    web: [HTML, CSS, MVC, DOM, Node.js, Angular, NPM]
+    data: []
+    genai: [OpenAI API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9049331'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:49:12.398794'
+  extracted_at: '2026-08-16T08:50:37.373289'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

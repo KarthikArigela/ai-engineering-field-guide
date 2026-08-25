@@ -1,0 +1,56 @@
+company:
+  name: dentsu
+  stage: null
+  focus: |-
+    Marketing and advertising network offering analytics and AI
+    services
+position:
+  title: Staff AI Engineer Director
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM and agent behaviour: it leads
+      architecture for multi-agent systems and LLM orchestration,
+      builds agent components, tool-use libraries, and prompt
+      templates, and evaluates/selects LLM providers. An explicit
+      LLM/agent component is present, so it classifies as ai-
+      first.
+  responsibilities:
+  - Lead technical architecture for multi-agent systems, LLM orchestration, and AI
+    automation workflows
+  - Set up and maintain the agentic engineering stack including frameworks, CI/CD,
+    testing, monitoring, and deployment patterns
+  - Own technical design for AI orchestration use cases across 4+ client implementations
+  - Build and maintain reusable agent components, tool-use libraries, and prompt templates
+  - Evaluate LLM providers for model selection, cost optimization, and latency tradeoffs
+  - Lead Genie space setup and configuration for client data exploration
+  - Mentor and technically lead 3 Senior Agentic Engineers through code reviews and
+    architecture discussions
+  - Bridge data science model outputs and agentic deployment, ensuring models are
+    served efficiently
+  use_cases:
+  - Multi-agent LLM orchestration for client implementations
+  - AI automation workflows on the agentic engineering platform
+  - Client data exploration through Genie spaces
+  - RAG and semantic search at scale
+  - AI solutions for marketing and adtech analytics
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, Multi-Agent Systems, Agentic Workflows,
+      LLMs, Prompt Engineering, Function Calling, RAG, Semantic Search]
+    ml: []
+    web: [API Architecture]
+    databases: [Vector Databases]
+    data: [Databricks, Unity Catalog]
+    cloud: [Azure, Serverless]
+    ops: [CI/CD, MLOps, Model Serving, Monitoring, Distributed Systems]
+    languages: [Python]
+    domains: []
+    other: [Genie, AdTech, Marketing Analytics, System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8915431'
+  location: Jaya Mahal, IND
+  extracted_at: '2026-08-16T06:10:03.139761'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,50 @@
+company:
+  name: Yotta Labs
+  stage: null
+  focus: Multi-silicon AI cloud and runtime platform
+position:
+  title: Research Engineer Intern - AI Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role optimizes LLM model internals — Attention, GEMM,
+      MoE, and quantization kernels, KV-cache and inference
+      optimization — which is shaping model behavior/performance.
+      Since the targets are LLM components, this classifies as ai-
+      first.
+  responsibilities:
+  - Implement and optimize compute kernels for Attention, GEMM, MoE, and quantization
+    on NVIDIA, AMD, or AWS Trainium
+  - Build custom operators using CUDA, Triton, ROCm/HIP, or the Neuron SDK with PyTorch/XLA
+  - Profile and improve inference performance in vLLM, SGLang, and custom runtimes
+    including kernel fusion, scheduling, KV-cache, and memory optimizations
+  - Build benchmarks, chase down performance regressions, and turn profiler traces
+    into concrete speedups
+  - Ship code upstream to open-source AI infrastructure projects with tests and documentation
+  use_cases:
+  - Training and inference across heterogeneous hardware (NVIDIA, AMD, AWS Trainium)
+  - LLM inference performance optimization for deployed AI applications
+  - AI cloud and Model API services at scale
+  - Open-source AI infrastructure improvements
+  skills:
+    genai: [LLMs, Distributed Training]
+    ml: [CUDA, Triton, Quantization, PyTorch]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, AWS Trainium]
+    ops: [vLLM, Model Deployment]
+    languages: [Python, C++]
+    domains: []
+    other: [SGLang, GPU Kernel Development, ROCm/HIP, Neuron SDK, PyTorch/XLA, Dynamo,
+      LMCache, FlashAttention, PagedAttention, Nsight, ROCm Profiler, Neuron Profiler,
+      PyTorch Profiler, Speculative Decoding, MoE]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10496959'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:24:20.526836'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

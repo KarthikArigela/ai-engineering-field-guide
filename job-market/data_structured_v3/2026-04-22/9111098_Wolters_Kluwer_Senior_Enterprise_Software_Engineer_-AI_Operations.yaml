@@ -1,0 +1,70 @@
+company:
+  name: Wolters Kluwer
+  stage: null
+  focus: |-
+    Professional information services and software for regulated
+    industries
+position:
+  title: Senior Enterprise Software Engineer -AI Operations
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role shapes LLM behavior directly: it designs RAG
+      pipelines and multi-agent orchestration, applies LLM fine-
+      tuning and distillation, and owns evaluation frameworks,
+      guardrails, and red-teaming across Bedrock and Azure AI
+      Foundry. Every system involved is an LLM or agent component,
+      so it is ai-first.
+  responsibilities:
+  - Own end-to-end architecture of cloud-native AI systems on AWS and Azure, from
+    data ingestion through LLM serving, evaluation, and continuous monitoring
+  - Build production multi-agent systems with Amazon Bedrock AgentCore and Microsoft
+    Agent Framework, including agent memory, policy controls, and secure tool integrations
+    with Salesforce, Slack, and internal APIs
+  - Design and deploy RAG pipelines using Amazon Bedrock Knowledge Bases with Amazon
+    S3 Vectors as the vector store at billion-vector scale
+  - Apply LLM customization techniques including Bedrock Reinforcement Fine-Tuning,
+    Model Distillation, Intelligent Prompt Routing, and Prompt Caching
+  - Implement Amazon Bedrock Guardrails and Azure AI Content Safety for content filtering,
+    hallucination prevention, PII redaction, and compliance controls
+  - Define the AI evaluation framework and lead red-teaming, adversarial robustness
+    testing, and model risk management before production launches
+  - Architect cross-cloud infrastructure including Trainium training servers, EKS
+    model serving with Triton, serverless inference, and IaC-driven platform provisioning
+    with observability stacks
+  - Establish AI engineering standards, mentor mid and junior engineers, and lead
+    technical hiring and cross-team technical design reviews
+  use_cases:
+  - Enterprise multi-agent orchestration pipelines with tool integrations to Salesforce,
+    Slack, and internal APIs
+  - RAG-powered enterprise knowledge systems at billion-vector scale
+  - Browser-based workflow automation for form filling, data extraction, QA testing,
+    and enterprise UI automation
+  - Deep research agents embedded in multi-agent workflows and enterprise applications
+  - Agentic coding and operational task automation workflows
+  - Responsible AI enforcement and compliance for regulated-industry workloads
+  skills:
+    genai: [RAG, LLMs, Generative AI, Fine-Tuning, Prompt Engineering, Multi-Agent
+        Systems, Agentic Workflows, Guardrails, LLM Evaluation, AWS Bedrock, Amazon
+        Bedrock AgentCore, Azure OpenAI, Azure AI Agent Service, Semantic Kernel,
+      AutoGen, Claude, Mistral, Amazon Nova, Kiro, Red Teaming]
+    ml: [Model Distillation]
+    web: []
+    databases: [Amazon S3 Vectors, Vector Databases]
+    data: [Azure Event Hubs]
+    cloud: [AWS, Azure, Azure AI Foundry, EKS, AWS Lambda, SageMaker, Azure AI Search,
+      Azure API Management, AWS Trainium, Azure AI Content Safety]
+    ops: [MLOps, MLflow, Triton, Karpenter, Terraform, Azure Bicep, AWS CDK, Infrastructure
+        as Code, CloudWatch, AWS X-Ray, Azure Monitor, Application Insights, Monitoring,
+      Observability]
+    languages: [Python]
+    domains: []
+    other: [EU AI Act, NIST AI RMF, ISO 42001]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9111098'
+  location: Chennai, IND
+  extracted_at: '2026-08-16T08:17:00.200806'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,58 +1,60 @@
 company:
   name: Clover Health
-  stage: Public
-  focus: |-
-    AI-enabled healthcare solutions for primary care and chronic
-    condition management
+  stage: ''
+  focus: AI-enabled primary care software for value-based healthcare
 position:
   title: AI Enablement Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on evaluating, configuring, and deploying
-      third-party AI tools (coding assistants, workflow
-      automation, internal copilots) across the organization. The
-      engineer does NOT build, train, fine-tune, or deploy AI/ML
-      models themselves — they enable others to use existing AI
-      tools by handling IT infrastructure, security, compliance,
-      and adoption. This is squarely an AI enablement/support
-      role.
+      This role evaluates, configures, and deploys third-party AI
+      tools (coding assistants, internal copilots, automation
+      platforms) for internal teams, handling the IT, security,
+      and compliance work to make them usable — it never shapes
+      model behavior (no prompts, retrieval, training, or evals of
+      its own). Per the edge case for rolling out AI coding tools
+      so others work faster, the deliverable is deployment and
+      adoption, making this ai-support.
   responsibilities:
-  - Evaluate, configure, and deploy AI-powered tools and platforms across the organization,
-    driving adoption among product, engineering, and business teams
+  - Evaluate, onboard, configure, and deploy AI tools and platforms across the product
+    organization, assessing fit for team workflows and driving adoption
   - Solve IT and security challenges to deploy AI tools in a HIPAA-compliant healthcare
-    environment, including authentication flows and access management
+    environment, setting up authentication flows, access patterns, and security standards
+    compliance
   - Lower barriers to entry for non-engineers by packaging environments, simplifying
-    setup, and removing infrastructure friction for AI tool adoption
-  - Collaborate cross-functionally with product, engineering, design, IT, operations,
-    commercial, and leadership teams to identify AI-accelerated workflows
-  - Create documentation, guides, and training materials to help non-technical team
-    members adopt and extract value from AI tools
+    setup, and removing infrastructure friction that blocks adoption
+  - Collaborate across product, engineering, design, IT, operations, commercial, and
+    leadership to identify workflows that can be accelerated with existing AI capabilities
+  - Create documentation, guides, and training materials that help non-technical team
+    members adopt and get value from new tools
   - Troubleshoot and maintain the AI tooling stack, diagnosing issues independently
     and iterating on configurations based on team feedback
+  - Stay current on the evolving AI tooling landscape and translate new capabilities
+    into practical, secure workflows
   use_cases:
-  - Internal AI tooling enablement and adoption across healthcare operations
-  - Workflow automation for product, support, sales, and implementations teams
-  - Coding assistant deployment and configuration for engineering teams
-  - Secure deployment of AI copilots and productivity tools in a HIPAA-regulated environment
-  - Enterprise identity and access management for AI platform integrations
+  - Internal AI tooling enablement for operations, product, support, implementations,
+    and sales teams
+  - Coding assistants to make engineering and product teams faster
+  - Workflow automation and productivity tools for internal business processes
+  - Internal copilots usable by non-technical staff
+  - Secure deployment of AI tools in a HIPAA-compliant healthcare environment
   skills:
-    domains: []
+    cloud: [IAM]
     languages: []
     ml: []
-    cloud: [Cloud IAM and secrets management, Cloud platform administration]
-    genai: [LLM landscape and evaluation, 'Coding assistants (e.g., GitHub Copilot,
-        Cursor)', AI automation platforms]
-    data: []
-    other: [HIPAA Compliance]
-    ops: [OAuth / SSO / SCIM provisioning, Docker / containers, Endpoint management,
-      Identity and access management, Enterprise infrastructure]
-    web: [APIs]
+    other: [Workflow Automation, SSO, SCIM, Identity Management, HIPAA Compliance]
+    ops: [Secrets Management, Docker, Endpoint Management]
     databases: []
+    domains: []
+    web: [APIs, OAuth]
+    data: []
+    genai: [LLMs, AI Coding Assistants]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9004770'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:58:24.160728'
+  extracted_at: '2026-08-16T07:00:03.932073'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

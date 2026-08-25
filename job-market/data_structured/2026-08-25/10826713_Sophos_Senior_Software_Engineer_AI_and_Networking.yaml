@@ -1,0 +1,55 @@
+company:
+  name: Sophos
+  stage: null
+  focus: 'Cybersecurity: endpoint, network, email, and cloud security'
+position:
+  title: Senior Software Engineer (AI and Networking)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM-based agents (LangGraph, Claude Agent
+      SDK, MCP, multi-agent orchestration) for a conversational
+      firewall assistant, designs evals and tracing for LLM
+      systems, and does prompt/context engineering — clearly
+      shaping LLM behavior.
+  responsibilities:
+  - Build LLM-based agents and multi-agent orchestration for firewall management automation
+  - Interpret natural language queries and deliver intelligent recommendations for
+    firewall operations
+  - Design and own end-to-end distributed systems including APIs, data models, caching,
+    and queuing
+  - Develop evaluation frameworks, tracing, and regression safeguards for LLM-based
+    systems
+  - Apply prompt caching, KV-cache optimization, model routing, and context engineering
+    for cost and reliability
+  - Fine-tune models (LoRA, QLoRA, SFT, DPO) for real-world use cases
+  - Deploy across AWS, on-premises, and hybrid environments with IaC and observability
+  - Implement safety mechanisms for agent-driven actions including approvals, dry
+    runs, and audit trails
+  use_cases:
+  - Conversational firewall management assistant
+  - Natural language queries for network security configuration
+  - Intelligent firewall recommendations and automated operations
+  - Agent-driven firewall actions with safety controls and audit trails
+  skills:
+    genai: [LangGraph, Claude Agent SDK, OpenAI Agents, Pydantic-AI, Function Calling,
+      MCP, Multi-Agent Systems, Context Engineering, Fine-Tuning, LoRA, Prompt Engineering,
+      LLMs, LLM Evaluation]
+    ml: [Pydantic]
+    web: [FastAPI, APIs]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Temporal, Infrastructure as Code, Observability, Distributed Systems]
+    languages: [Python, Go, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10826713'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T12:13:59.470607'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,60 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud enterprise technology solutions
+  stage: null
+  focus: Global edge-to-cloud computing and services company
 position:
   title: AI/ML Senior Cloud Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves architecting and building GenAI, Agentic
-      AI, RAG, and GraphRAG solutions, with hands-on experience in
-      LLMs, multi-agent systems, and vector databases. The
-      engineer owns the full ML lifecycle from model development
-      through deployment and monitoring, directly working on AI/ML
-      systems rather than supporting them.
+      The role architects GenAI, Agentic AI, RAG, and GraphRAG
+      solutions and establishes AI evaluation and observability
+      practices (Langfuse, Ragas, Arize Phoenix), which means
+      directly shaping LLM behaviour through retrieval, agent, and
+      eval design. It also covers classical ML lifecycle work, but
+      any LLM/agent component makes it ai-first.
   responsibilities:
-  - Design and develop complex AI/ML-based cloud applications including solution design,
-    coding, testing, and integration
-  - Architect scalable GenAI, Agentic AI, RAG, and GraphRAG solutions for enterprise
-    use cases
-  - Define enterprise AI/ML architecture and technical strategy across the organization
-  - Establish AI governance, observability, evaluation frameworks, and best practices
-  - Lead AI platform design, deployment standards, and operational excellence
-  - Deploy code, troubleshoot issues in application modules, and ensure compliance
-    with cloud design standards
-  - Mentor engineers and provide technical leadership across cross-functional teams
-  - Evaluate and adopt emerging AI technologies and frameworks to drive innovation
+  - Design and develop complex AI/ML-based cloud applications, including solution
+    design, analysis, coding, testing, and integration for efficient, scalable, and
+    robust systems
+  - Architect scalable GenAI, Agentic AI, RAG, and GraphRAG solutions and define enterprise
+    AI/ML architecture and technical strategy
+  - Own the complete machine learning lifecycle, including data analysis, feature
+    engineering, model development, deployment, monitoring, and continuous improvement
+  - Establish AI governance, observability, and evaluation practices, and lead AI
+    platform design and deployment standards
+  - Evaluate and adopt emerging AI technologies and frameworks
+  - Deploy code and troubleshoot issues in application modules and deployment environments,
+    ensuring compliance with cloud design and development guidelines
+  - Mentor less-experienced engineers, represent the engineering team in technical
+    forums, and drive best practices across cross-functional teams
+  - Drive innovation and integration of new technologies into projects across the
+    software systems design organization
   use_cases:
-  - GenAI-powered cloud applications for mission-critical enterprise workloads
-  - Agentic AI and multi-agent systems for automated decision-making
-  - RAG and GraphRAG solutions for enterprise knowledge retrieval
-  - Scalable AI/ML platforms for production-grade model deployment and monitoring
-  - AI governance and observability for responsible enterprise AI systems
+  - Production-grade AI/ML solutions for mission-critical cloud applications
+  - GenAI-driven cloud applications
+  - Agentic AI and multi-agent systems
+  - RAG and GraphRAG retrieval using vector and knowledge graph databases
+  - AI evaluation, observability, and governance for deployed models
+  - Enterprise AI/ML architecture and platform standardization
   skills:
-    domains: [NLP]
+    cloud: [AWS, Azure, GCP, Cloud AI Platforms]
     languages: [Python, Go]
-    ml: [Pandas, scikit-learn, NumPy, Deep Learning]
-    cloud: [AWS, Azure, GCP]
-    genai: [LLMs, AI Agents, Multi-Agent Systems, RAG, GraphRAG, Hybrid Retrieval
-        Architectures]
-    data: [Knowledge Graphs, Distributed Computing]
-    other: [Responsible AI, Security-First Mindset]
-    ops: [Langfuse, Ragas, OpenTelemetry, Arize Phoenix, MLOps, LLMOps, AI Platform
-        Engineering, Kubernetes, Distributed AI Systems, DevOps, Release Management]
+    ml: [Machine Learning, Deep Learning, NLP, scikit-learn, Feature Engineering]
+    other: [Responsible AI]
+    ops: [MLOps, LLMOps, Kubernetes, Langfuse, Ragas, OpenTelemetry, Arize Phoenix,
+      DevOps, Distributed Systems]
+    databases: [Vector Databases, Knowledge Graphs, Neo4j, Dgraph, Neptune]
+    domains: []
     web: [Microservices, Full-Stack Development]
-    databases: [Vector Databases, Dgraph, Neo4j, Amazon Neptune]
+    data: [Pandas, NumPy]
+    genai: [Generative AI, LLMs, AI Agents, Multi-Agent Systems, RAG, GraphRAG, Hybrid
+        Retrieval Architectures]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9702136'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:45:13.306630'
+  extracted_at: '2026-08-16T14:22:14.716907'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

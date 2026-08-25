@@ -1,63 +1,62 @@
 company:
   name: Wolf Games
-  stage: Seed
+  stage: null
   focus: |-
-    Platform for generative entertainment universes and AI-
-    powered detective games
+    Generative entertainment universes and crime-solving web
+    games
 position:
   title: Software Engineer, AI Web Game
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a software engineer role building web-based games
-      and game infrastructure for a generative entertainment
-      platform. While the company uses AI in their products and
-      workflows, the role involves building game systems,
-      infrastructure, and platform integrations using AI-assisted
-      development tools rather than building, training, or
-      deploying AI/ML models directly.
+      This is a web game engineering role that builds shared game
+      infrastructure, prototypes-to-production systems, and
+      platform integrations; it does not shape any model's
+      behavior. AI appears only as AI-assisted development tools
+      (Claude, Copilot) the engineer uses to write code faster,
+      which per the rules is ai-support even at an AI games
+      company. No prompt design, retrieval, agent orchestration,
+      training, or model evaluation is owned by this person.
   responsibilities:
   - Take validated prototypes from concept stage to production-ready games, refactoring
     exploratory code into maintainable, performant systems
   - Build and maintain shared game infrastructure including progression systems, save/load,
-    analytics integration, and platform APIs that accelerates development across all
-    titles
-  - Adapt core systems to the unique requirements of each new game, balancing reusability
-    with the flexibility to support diverse gameplay experiences
+    analytics integration, and platform APIs
+  - Adapt core game systems to the unique requirements of each new title, balancing
+    reusability with flexibility
   - Collaborate with the Creative Engineer to establish clear technical handoff processes
-    ensuring promising prototypes have a smooth path to production
+    from prototype to production
   - Leverage AI-assisted development tools to accelerate implementation while maintaining
     code quality and architectural coherence
   - Integrate with distribution platforms, ad networks, and third-party services to
-    maximize reach and revenue across the portfolio
-  - Identify opportunities to extract reusable components from production games back
-    into shared libraries continuously improving development velocity
+    maximize reach and revenue
+  - Extract reusable components from production games back into shared libraries to
+    improve development velocity
   - Contribute to technical decision-making around architecture, tooling, and process
     as the game portfolio scales
   use_cases:
-  - Generative entertainment universes where creators, players, and AI collaborate
-    in real time
-  - Crime-solving detective games where players collect evidence, crack cases, and
-    rise through ranks of a connected detective program
-  - Living, ever-expanding game worlds where intelligent systems learn, adapt, and
-    surprise players
-  - AI-powered game development workflows that enable rapid prototyping and fast iteration
-  - Scalable game platform that supports multiple interconnected game titles with
-    shared progression and experiences
+  - Web-based crime-solving detective games across a portfolio of titles
+  - Shared cross-title game systems such as progression, save/load, and analytics
+  - Distribution platform, ad network, and third-party service integrations for reach
+    and revenue
+  - Prototype-to-production game development pipeline accelerated with AI-assisted
+    coding tools
   skills:
-    genai: []
-    ml: []
-    web: [Pixi.js, Phaser, Three.js, browser performance optimization]
-    databases: []
-    data: []
     cloud: [GCP, AWS]
-    ops: [CI/CD]
     languages: [TypeScript, JavaScript]
+    ml: []
+    other: [Real-Time Multiplayer, Hybrid App Development]
+    ops: [CI/CD]
+    databases: []
     domains: []
-    other: []
+    web: [Pixi.js, Phaser, Three.js, Browser Performance Optimization]
+    data: []
+    genai: [Anthropic API, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8393890'
   location: Los Angeles, USA
-  extracted_at: '2026-02-05T13:05:18.945384'
+  extracted_at: '2026-08-15T23:34:39.356772'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

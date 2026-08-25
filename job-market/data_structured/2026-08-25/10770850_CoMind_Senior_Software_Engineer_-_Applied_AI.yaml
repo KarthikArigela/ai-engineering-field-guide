@@ -1,0 +1,52 @@
+company:
+  name: CoMind
+  stage: null
+  focus: Non-invasive neuromonitoring and clinical brain monitoring
+position:
+  title: Senior Software Engineer - Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes LLM behaviour directly: building prompting,
+      guardrails, and evaluation approaches for an on-device LLM
+      that answers clinical questions, plus integrating it into
+      the product's query/response layer. Optimizing model
+      internals on constrained hardware is also shaping, so it's
+      ai-first.
+  responsibilities:
+  - Integrate an on-device LLM into the CoMind One system, connecting it to live neuromonitoring
+    signals
+  - Build the query and response layer clinicians interact with
+  - Own model evaluation, prompting and guard-rail approaches for safe clinical outputs
+  - Optimise LLM inference performance on constrained on-device hardware
+  - Design and develop medical device software to IEC 62304 and ISO 14971
+  - Ensure AI deployments meet cybersecurity and regulatory standards including FDA
+    guidance for AI/ML devices
+  - Keep the deployed fleet reliable and collaborate with hardware, product and clinical
+    teams
+  use_cases:
+  - Clinical brain monitoring and diagnosis of brain disorders
+  - Deriving actionable intelligence from live neuromonitoring signals via an on-device
+    LLM
+  - Query and response layer clinicians use at the bedside
+  - Longitudinal patient insights from raw neuro-signals in neuro-critical care
+  - Regulated medical device software for a deployed fleet of neuromonitoring products
+  skills:
+    genai: [LLMs, Prompt Engineering, Guardrails, RAG, LLM Evaluation, Fine-Tuning]
+    ml: [Qwen, Gemma]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Git, CI/CD]
+    languages: [C++, Python]
+    domains: []
+    other: [Edge AI, llama.cpp]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10770850'
+  location: London, GBR
+  extracted_at: '2026-08-25T11:45:21.771251'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

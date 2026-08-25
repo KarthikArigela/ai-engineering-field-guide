@@ -1,20 +1,21 @@
 company:
   name: VeeFriends
-  stage: Series B or later
+  stage: VC-backed (top-tier firms led by Andreessen Horowitz)
   focus: |-
-    Entertainment company combining art, storytelling, and
-    innovative technologies
+    Entertainment company blending art, storytelling, and
+    commerce technology
 position:
   title: Data Engineer (AI & Analytics Platform)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role focused on building data
-      pipelines and infrastructure that feed AI tooling, not
-      building the AI models themselves. The role supports AI
-      systems by creating data foundations and pipelines, but the
-      core work is traditional data engineering with SQL, ETL, and
-      backend services.
+      This is a data engineering role that builds pipelines,
+      event-driven systems, and backend infrastructure feeding an
+      internal AI-powered reporting tool; the person never shapes
+      model behavior (no prompts, RAG, evals, or fine-tuning).
+      "Building data foundations that allow AI agents to reason
+      over business data" is data plumbing, and AI coding tools
+      like Cursor are explicitly ai-support.
   responsibilities:
   - Design, build, and maintain scalable data pipelines for orders, inventory, customers,
     fulfillment, and reporting
@@ -22,33 +23,36 @@ position:
     reporting
   - Own data modeling and transformations in Postgres to support analytics and AI
     workflows
-  - Extend and improve internal AI-powered reporting tool for analytics, forecasting,
+  - Extend and improve the internal AI-powered reporting tool for analytics, forecasting,
     and operational insights
   - Build data foundations that allow AI agents to reason over business data
-  - Build and maintain backend services and APIs that power reporting and internal
-    tools
-  - Monitor pipelines for failures, latency, and data quality issues
+  - Build and maintain backend services and APIs in a Next.js + Postgres stack for
+    dashboards and internal admin tooling
   - Integrate data from commerce platforms, fulfillment systems, and third-party services
+  - Monitor pipelines for failures, latency, and data quality; write tests and validation
+    checks to ensure correctness
   use_cases:
-  - Order and inventory analytics and reporting
-  - Customer insights and behavioral analysis
-  - Fulfillment tracking and operational visibility
-  - AI-powered forecasting and business intelligence
-  - Real-time dashboard and internal tooling for teams
+  - Order, inventory, and customer insights across VeeFriends operations
+  - Near real-time reporting and operational analytics
+  - AI-powered analytics, forecasting, and operational insights for internal teams
+  - AI agents reasoning over business data via reliable data foundations
+  - Internal dashboards and admin tooling
   skills:
-    domains: []
-    languages: [TypeScript, JavaScript]
+    cloud: [Azure, AWS, GCP]
+    languages: [SQL, JavaScript, TypeScript]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [Cursor, GitHub Copilot, Anthropic API]
-    data: [ETL/ELT workflows, Event-driven systems, Streaming pipelines]
-    other: [Shopify]
+    other: [Event-Driven Architecture, Cursor, GitHub Copilot, Shopify]
     ops: []
-    web: [Next.js, APIs]
-    databases: [PostgreSQL, SQL]
+    databases: [PostgreSQL]
+    domains: []
+    web: [APIs, Next.js]
+    data: [Data Pipelines, Data Streaming, Data Modeling]
+    genai: [AI Agents, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8015535'
   location: Queens, USA
-  extracted_at: '2026-03-03T12:32:26.890155'
+  extracted_at: '2026-08-16T00:21:25.564579'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

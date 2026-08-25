@@ -1,60 +1,65 @@
 company:
   name: Metropolitan Commercial Bank
-  stage: Public
-  focus: Full-service commercial banking solutions
+  stage: null
+  focus: |-
+    Full-service commercial banking for businesses and
+    institutions
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly deploying LLM-based applications
-      using RAG, prompt engineering, vector databases, and agent-
-      based architectures, as well as fine-tuning models and
-      building MLOps/AIOps pipelines for production AI systems.
-      The engineer works hands-on with models from prototype to
-      production, including model serving, optimization, and
-      lifecycle management.
+      The role explicitly requires building and deploying LLM-
+      based applications using RAG, prompt engineering, vector
+      databases, fine-tuning, and agent-based architectures, which
+      directly shapes model behaviour and output quality. Since
+      LLM/generative components dominate the model work, it is
+      classified as ai-first.
   responsibilities:
-  - Establish and enforce architecture standards for production AI systems including
+  - Establish and enforce architecture standards for production AI systems, including
     data pipelines, model serving infrastructure, and real-time inference services
   - Implement AIOps/MLOps pipelines for CI/CD of ML models, model governance, monitoring,
     and lifecycle management
-  - Deploy high-impact AI capabilities including generative AI systems, personalization
-    engines, and automation tools at enterprise scale
-  - Design and maintain the Bank's AIOps solution using Snowflake-native ML (Snowpark
-    Python, UDFs/UDTFs, Tasks/Streams)
-  - Integrate AI/ML models into production environments and optimize for reliability,
-    scalability, and low-latency inference
-  - Partner with data scientists, AI scientists, product managers, and business stakeholders
-    to operationalize AI algorithms
-  - Apply SRE principles with monitoring and alerting for model performance, drift
-    detection, and latency issues
-  - Mentor junior developers and coordinate between AI research teams and engineering
-    teams to improve models with production feedback
+  - Build and deploy LLM-based applications using RAG, prompt engineering, vector
+    databases, fine-tuning, and agent-based architectures
+  - Design, construct, and maintain the Bank's AIOps solution with Snowflake as the
+    primary ML platform (Snowpark Python, UDFs/UDTFs, Tasks/Streams)
+  - Integrate AI/ML models into production environments and optimize model serving
+    for reliability, scalability, low latency, and drift detection
+  - Implement data pipelines for preprocessing and transforming data for AI/ML models
+    and write production code in Python, Java, C, C++, and Go
+  - Partner with data scientists, AI scientists, product managers, data engineers,
+    and DevOps to operationalize AI algorithms and improve models with production
+    feedback
+  - Mentor junior developers, conduct code reviews, and resolve technical and functional
+    issues in the production environment
   use_cases:
-  - Generative AI systems for enterprise banking operations
+  - Generative AI systems deployed at enterprise scale for a commercial bank
   - Personalization engines for banking products and services
-  - Fraud risk detection and anti-money laundering (AML) analytics
-  - Commercial and treasury analytics automation
-  - Automated underwriting and decision support systems
-  - Enterprise-scale document processing and knowledge retrieval via RAG
+  - Automation tools for banking operations
+  - Fraud risk, AML, and underwriting analytics
+  - Commercial and treasury analytics
+  - Real-time AI inference with drift and latency monitoring at thousands of daily
+    requests
   skills:
-    domains: [Financial Services, Fraud Detection, AML]
-    languages: [Python, Java, C, C++, Go]
-    ml: [PyTorch, TensorFlow, Keras, scikit-learn, Model Training, Model Compression,
-      NLP, Deep Learning, Pandas]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, Fine-Tuning, Agent-based
-        Architectures, Embeddings/Vector Search]
-    data: [Spark, PySpark, ETL/Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, Terraform, CloudFormation, CI/CD, MLflow, Prometheus,
-      Grafana, ML Observability, GPU Optimization, Model Deployment]
-    web: [FastAPI, Flask, Node.js, React, REST APIs]
-    databases: [Vector Databases, Snowpark Python, Snowflake, SQL, NoSQL]
+    languages: [Python, Java, C, C++, Go]
+    ml: [scikit-learn, PyTorch, TensorFlow, Keras, Deep Learning, Machine Learning,
+      Pandas, Snowpark Python]
+    other: [Agile, Code Review]
+    ops: [LLMOps, MLOps, AIOps, Docker, Kubernetes, Terraform, CloudFormation, CI/CD,
+      Prometheus, Grafana, MLflow, Site Reliability Engineering, Model Deployment]
+    databases: [Vector Databases, Vector Search, SQL, NoSQL, Snowflake]
+    domains: [NLP]
+    web: [React, Flask, FastAPI, Node.js, APIs]
+    data: [Data Pipelines, Spark, PySpark]
+    genai: [LLMs, RAG, Prompt Engineering, LangChain, LlamaIndex, Fine-Tuning, AI
+        Agents, Embeddings, Generative AI]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '9217829'
   location: New York, USA
-  extracted_at: '2026-06-25T19:42:31.666737'
+  extracted_at: '2026-08-16T12:37:43.058002'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

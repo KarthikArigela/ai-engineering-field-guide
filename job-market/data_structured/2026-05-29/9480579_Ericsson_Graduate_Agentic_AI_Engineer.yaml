@@ -1,54 +1,63 @@
 company:
   name: Ericsson
-  stage: Public
-  focus: Telecommunications infrastructure and 5G networks
+  stage: null
+  focus: Telecommunications network infrastructure and R&D
 position:
   title: Graduate Agentic AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role building production-
-      grade GenAI applications including LLM services, RAG
-      pipelines, and multi-agent systems. The engineer directly
-      implements agent workflows, optimizes RAG architectures, and
-      deploys models using orchestration frameworks like
-      LangChain, LangGraph, and CrewAI.
+      The role directly shapes LLM behavior: designing agentic
+      workflows, RAG pipelines (chunking, embeddings, reranking),
+      prompts, MCP integrations, guardrails, and output validation
+      for LLM-based GenAI services. LLM and agent components
+      dominate with no classical-ML-only scope, so it is ai-first.
   responsibilities:
-  - Contribute to design and delivery of production-grade GenAI applications including
-    LLM services, RAG pipelines, and multi-agent systems on AWS
-  - Develop agentic AI workflows using orchestration frameworks with tool-calling,
-    planning, reflection, and human-in-the-loop patterns
-  - Build and optimize RAG pipelines including document ingestion, chunking strategies,
+  - Contribute to design and delivery of production-grade GenAI applications (LLM
+    services, RAG pipelines, multi-agent systems) on AWS
+  - Develop agentic AI workflows using LangChain, LangGraph, CrewAI, AutoGen, or OpenAI
+    Agents SDK with tool-calling, planning, reflection, and human-in-the-loop patterns
+  - Build and optimize RAG pipelines covering document ingestion, chunking strategies,
     embedding models, vector databases, hybrid search, and re-ranking
-  - Implement MCP integrations for standardized tool/resource exposure and A2A communication
-    protocols for multi-agent orchestration
-  - Implement guardrails, safety layers, output validation, and observability for
-    GenAI workloads including logging, tracing, and telemetry
-  - Develop and deploy GenAI microservices on AWS using Bedrock, SageMaker, Lambda,
-    ECS/Fargate, and Terraform
-  - Apply GenAI and LLM capabilities to telecom use cases including network optimization,
-    fault prediction, configuration management, and knowledge extraction
+  - Implement MCP integrations and Agent-to-Agent (A2A) communication protocols for
+    multi-agent orchestration
+  - Support lifecycle management for GenAI components (prompts, policies, agent tools,
+    knowledge bases, embeddings, model versions) including versioning, rollbacks,
+    and documentation
+  - Implement guardrails, safety layers, output validation, and observability (structured
+    logging, tracing, retrieval and quality metrics, cost/latency dashboards) for
+    GenAI workloads
+  - Develop and deploy GenAI microservices on AWS (Bedrock, SageMaker, Lambda, ECS/Fargate,
+    S3, OpenSearch Serverless) with Terraform Infrastructure-as-Code
+  - Apply GenAI and LLM capabilities to RAN/telecom use cases such as network optimization,
+    fault prediction, configuration management, and knowledge extraction from 3GPP
+    specifications
   use_cases:
-  - Network optimization using AI-driven RAN optimization solutions
-  - Fault prediction and configuration management for telecom networks
-  - Knowledge extraction from 3GPP specifications using LLMs
-  - Multi-agent systems for telecom automation and orchestration
-  - RAG-based enterprise search and retrieval for telecom domain knowledge
+  - AI-driven RAN optimization for telecom networks
+  - Network fault prediction and configuration management
+  - Knowledge extraction from 3GPP specifications
+  - RAG-based retrieval over telecom knowledge bases for LLM services
+  - Multi-agent orchestration and automation for telecom use cases
+  - Secure, governed, and observable GenAI platform on AWS
   skills:
-    domains: []
-    languages: [Python, Git]
-    ml: [PyTorch, Embeddings]
-    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, ECS, Fargate, AWS S3, IAM, CloudWatch,
-      API Gateway, Step Functions, AWS Strands, AWS AgentCore]
-    genai: [LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, OpenAI Agents SDK,
-      Semantic Kernel, RAG, Prompt Engineering, Function Calling, AI Agents, MCP,
-      A2A, LoRA, RLHF, DPO, GraphRAG, multimodal RAG]
-    data: []
-    other: []
-    ops: [LangSmith, Langfuse, OpenTelemetry, Weights & Biases, Docker, Terraform,
-      CI/CD, GitHub Actions, GitLab CI, Jenkins]
-    web: [FastAPI, Flask, REST APIs]
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, ECS, AWS S3, IAM, CloudWatch,
+      API Gateway, AWS Step Functions, AWS AgentCore]
+    languages: [Python]
+    ml: []
+    other: [Agile, Event-Driven Architecture]
+    ops: [Terraform, AWS CDK, Infrastructure as Code, CI/CD, GitHub Actions, GitLab
+        CI, Jenkins, Docker, Git, LangSmith, Langfuse, OpenTelemetry, Weights & Biases,
+      Observability]
     databases: [Pinecone, Weaviate, Qdrant, Chroma, OpenSearch, Graph Databases]
+    domains: [Telecom Networks, O-RAN]
+    web: [FastAPI, Flask, REST APIs, Microservices, Pydantic]
+    data: [Data Engineering, Data Governance]
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, LlamaIndex,
+      Semantic Kernel, AWS Strands, RAG, Agentic Workflows, Multi-Agent Systems, MCP,
+      A2A, Prompt Engineering, Context Engineering, Embeddings, Vector Databases,
+      Hybrid Search, Function Calling, Structured Outputs, Guardrails, LLM Evaluation,
+      LLMs, Generative AI, Fine-Tuning, LoRA, RLHF, DPO, GraphRAG, Multimodal AI,
+      Cohere]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +67,6 @@ meta:
   - EGY
   - Egypt, GBR
   remote: true
-  extracted_at: '2026-05-29T09:06:56.731604'
+  extracted_at: '2026-08-16T11:50:05.923431'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

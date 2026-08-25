@@ -1,60 +1,66 @@
 company:
   name: OpenAsset
-  stage: Private Equity-backed
+  stage: Backed by Marlin Equity Partners
   focus: |-
-    Marketing platform and AI-powered proposal tools for
-    Architecture, Construction, and Engineering industries
+    Marketing platform for Architecture, Construction, and
+    Engineering industries
 position:
   title: Staff Software Engineer - AI/ML - Information Extraction
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an ai-first role focused on building, deploying, and
-      fine-tuning LLMs and AI models. The position involves hands-
-      on work with frontier LLM models, agentic AI frameworks,
-      Amazon Bedrock, SageMaker, and Vertex AI for production AI
-      systems. The role requires developing information extraction
-      systems and agentic workflows directly on AI/ML
-      infrastructure.
+      The role hands-on develops AI-driven solutions leveraging
+      frontier LLMs, agentic workflows, fine-tuning pre-trained
+      models, and information extraction, and drives model
+      accuracy, evaluation frameworks, and reliability — directly
+      shaping LLM behavior and output quality. LLM and agent
+      components are central (LLMs, agentic AI, Amazon Bedrock,
+      Claude Code), making it ai-first.
   responsibilities:
-  - Lead the design, planning, estimation, and coordination of AI/ML initiatives including
-    information extraction, model development, data pipelines, and deployment
-  - Take ownership of the entire lifecycle of AI/ML systems from experimentation to
-    production
-  - Partner with Product and Engineering teams to integrate AI/ML capabilities into
-    company-wide projects
-  - Provide strategic technical guidance on AI/ML frameworks, tools, and best practices
-    aligned with company goals
+  - Lead design, planning, estimation, and coordination of AI/ML initiatives across
+    multiple releases, including information extraction, model development, data pipelines,
+    and deployment
+  - Own the full lifecycle of AI/ML systems from experimentation to production, ensuring
+    timely and high-quality delivery
   - Research and propose advanced machine learning techniques and cloud-native AI
-    services including LLMs and agentic workflows
-  - Mentor and guide team members through agentic coding practices, code reviews,
-    and technical coaching
+    services, including LLMs, agentic workflows, and Amazon Bedrock
+  - Design and implement scalable, efficient, and maintainable AI/ML systems while
+    setting standards for model deployment, data pipeline optimization, and information
+    extraction
+  - Partner with Product, Engineering, and DevOps teams to integrate AI/ML capabilities
+    into company-wide projects
+  - Mentor and guide engineers through agentic coding practices, code reviews, technical
+    coaching, and knowledge sharing
   - Drive initiatives to improve model accuracy, scalability, and reliability while
     adhering to privacy, security, and compliance standards
-  - Ensure comprehensive documentation of models, algorithms, and system architecture
+  - Lead on data quality, bias mitigation, and model interpretability, and document
+    models, algorithms, and system architecture
   use_cases:
-  - Information extraction from RFPs and business documents for AEC marketers
-  - Automated analysis and shredding of RFPs to speed up manual tasks
-  - Drafting high-quality compliant proposals grounded in organizational knowledge
-  - Building AI-enabled products for the Architecture, Construction, and Engineering
-    industry
-  - Agentic AI workflows for software engineering and automation
+  - Information extraction from RFP documents for AEC marketers
+  - Accelerating manual, repetitive analysis ('shredding') of RFPs
+  - Drafting high-quality compliant proposals grounded in firms' organizational knowledge
+    (Shred.ai)
+  - AI-enabled marketing and asset management products for the Architecture, Engineering,
+    and Construction industry
   skills:
-    domains: [NLP]
+    cloud: [AWS, AWS Bedrock, SageMaker, GCP, Vertex AI, Azure, Azure AI Foundry]
     languages: [Python, Java, Rust]
-    ml: [Fine-Tuning, Information extraction]
-    cloud: [AWS Bedrock, SageMaker, Vertex AI, AWS, GCP]
-    genai: [LLMs, Anthropic API, Gemini, ChatGPT, Agentic AI frameworks, Claude Code]
-    data: [Databricks]
-    other: []
-    ops: [MLflow, Docker, Kubernetes, Terraform, CI/CD, Datadog, Grafana, GitHub Actions,
-      LLMOps]
-    web: []
-    databases: [Vector Databases, Graph Databases, Relational Databases]
+    ml: [Machine Learning, Model Evaluation]
+    other: [Information Extraction, Agile]
+    ops: [LLMOps, MLOps, CI/CD, Model Deployment, Distributed Systems, Docker, Kubernetes,
+      Terraform, MLflow, Datadog, Grafana, OpenTelemetry, GitHub, GitHub Actions]
+    databases: [Relational Databases, Graph Databases, Vector Databases]
+    domains: []
+    web: [Microservices]
+    data: [Data Pipelines, Data Engineering, Databricks]
+    genai: [LLMs, AI Agents, Agentic Workflows, Fine-Tuning, Claude Code, Codex, Anthropic
+        API, Gemini, ChatGPT]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8627502'
   location: London, GBR
   remote: true
-  extracted_at: '2026-03-27T15:39:27.473789'
+  extracted_at: '2026-08-16T03:23:32.701584'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

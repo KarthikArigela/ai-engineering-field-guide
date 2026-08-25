@@ -1,0 +1,61 @@
+company:
+  name: Autodesk
+  stage: null
+  focus: |-
+    3D design and engineering software for manufacturing,
+    construction, and media
+position:
+  title: Senior Data Engineer (Python, AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core role is a data engineer who designs and maintains
+      ETL/ELT pipelines, data models, and analytics
+      infrastructure. AI appears only as tooling the engineer uses
+      (GitHub Copilot, Cursor, Claude Code) and as "familiarity
+      with" AI/ML techniques and MCP servers, with no
+      responsibility for shaping model behavior, prompts,
+      retrieval, or evals. Per the classification rules, using AI
+      coding assistants and building data pipelines is ai-support.
+  responsibilities:
+  - Design, build, and maintain scalable data pipelines and data models across the
+    Access domain
+  - Develop reliable ETL/ELT workflows to ingest, transform, and serve data for analytics
+    and operational use cases
+  - Modernize legacy data workflows and infrastructure, including migrations from
+    Hive to Iceberg
+  - Drive data quality, reliability, and observability standards across data platforms
+  - Enable analytics and insights around product usage, campaign performance, funnel
+    metrics, segmentation, conversion, and revenue growth
+  - Own critical data pipelines end-to-end and contribute to improving the overall
+    data platform
+  - Interface with data engineers, data scientists, product managers, and stakeholders
+    to promote best practices
+  - Use data analysis and data mining to make strategic and tactical business recommendations
+  use_cases:
+  - Product usage analytics
+  - Campaign performance measurement
+  - Funnel and conversion metrics
+  - Customer segmentation
+  - Revenue growth insights
+  - Identity, access, and entitlement datasets
+  skills:
+    genai: [GitHub Copilot, Cursor, Claude Code, MCP]
+    ml: [Anomaly Detection]
+    web: []
+    databases: [Snowflake]
+    data: [Spark, Airflow, Flink, Hive, Presto, Iceberg, ETL, Data Pipelines, Data
+        Modeling, Data Mining]
+    cloud: [AWS, Azure, GCP, EMR Notebooks]
+    ops: [Git, Jenkins, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [Looker, Power BI, Jupyter, Zeppelin]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9516208'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T12:08:50.457074'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

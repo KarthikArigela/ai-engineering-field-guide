@@ -1,60 +1,66 @@
 company:
   name: Experian
-  stage: Public
+  stage: 'Publicly traded (FTSE 100, London Stock Exchange: EXPN)'
   focus: |-
-    Global data analytics, credit reporting, fraud prevention,
-    and financial services technology
+    Global data, analytics, and software company for financial
+    services
 position:
   title: Gen AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on GenAI Engineer role building LLM-powered
-      tools and platforms directly. The role involves designing,
-      implementing, and operationalizing RAG solutions, agents,
-      function/tool calling, and prompt engineering frameworks -
-      all core AI/ML system development work.
+      The role designs and builds LLM-powered utilities,
+      establishing patterns for prompt engineering, RAG, agents,
+      tool calling, and LLM evaluation - directly shaping model
+      behaviour and output quality. It also covers fine-tuning
+      (LoRA/QLoRA) of LLMs, so with a clear LLM/agent component it
+      is ai-first.
   responsibilities:
-  - Design and build GenAI-powered utilities for QA including intelligent test case
-    generation, test data synthesis, automated defect triage, and log/anomaly summarization
-  - Develop reusable GenAI accelerators, libraries, and internal copilots that increase
-    productivity across software engineering, QA, and operations teams
-  - Build and operate LLM applications on AWS using services such as Amazon Bedrock,
-    SageMaker, Lambda, ECS/EKS, API Gateway, and vector databases
+  - Design and build GenAI-powered QA utilities including intelligent test case generation,
+    test data synthesis, automated defect triage, and log/anomaly summarization
+  - Develop reusable GenAI accelerators, libraries, and internal copilots that improve
+    productivity for software engineering, QA, and operations teams
+  - Build and operate secure, scalable LLM applications on AWS using services such
+    as Bedrock, SageMaker, Lambda, ECS/EKS, API Gateway, S3, DynamoDB, and OpenSearch
   - Establish patterns and frameworks for prompt engineering, retrieval-augmented
     generation, evaluation, observability, and continuous improvement of GenAI systems
-  - Implement responsible AI practices including guardrails, PII protection, model
-    governance, hallucination mitigation, and regulatory compliance
-  - Collaborate with cross-functional teams including QA engineers, software engineers,
-    architects, product, and security to design and release GenAI-powered software
-  - Define and run LLM evaluation frameworks using golden datasets, automated evals,
-    regression testing, and online metrics for quality, safety, and cost
+  - Champion responsible AI practices including guardrails, PII protection, model
+    governance, and hallucination mitigation in a regulated environment
+  - Translate business and engineering requirements into clean, scalable Python code
+    applying design patterns and secure coding practices
+  - Collaborate with QA engineers, software engineers, architects, product, and security
+    teams to design, develop, test, and release GenAI-powered software
+  - Provide clear documentation for prompts, models, datasets, code, processes, and
+    system architecture
   use_cases:
-  - Automated quality assurance tools for test case generation, test data synthesis,
-    and defect triage
-  - Developer productivity copilots and accelerators for code/test review assistance
-  - Log and anomaly summarization for improved operational efficiency
-  - Internal AI-powered assistants for software engineering and operations workflows
-  - Enterprise-grade LLM applications with secure, regulated deployment patterns
+  - Intelligent test case generation and test data synthesis for QA automation
+  - Automated defect triage and log/anomaly summarization
+  - Assistive code and test review tooling
+  - Internal copilots and reusable GenAI accelerators for developer and QA productivity
+  - Secure, production-grade LLM applications in a regulated financial data environment
   skills:
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, ECS, EKS, API Gateway, AWS S3,
+      IAM, Step Functions, EventBridge, AWS CDK]
+    languages: [Python, SQL, asyncio]
+    ml: [Distillation]
+    other: [pytest, Agile, Event-Driven Architecture, Domain-Driven Design]
+    ops: [Docker, Kubernetes, Git, CI/CD, Terraform, CloudFormation, GitHub Actions,
+      GitLab CI, Jenkins, MLOps, LLMOps, LangSmith, Langfuse, RAGAS, Helicone, Arize,
+      CloudWatch, Observability]
+    databases: [DynamoDB, OpenSearch, pgvector, Pinecone, FAISS, PostgreSQL, MongoDB,
+      NoSQL]
     domains: []
-    languages: [Python, asyncio, pytest]
-    ml: [Embeddings, LoRA, Fine-Tuning]
-    cloud: [AWS Bedrock, SageMaker, AWS Lambda, ECS, EKS, API Gateway, AWS S3, IAM,
-      Step Functions, EventBridge]
-    genai: [RAG, LangChain, LlamaIndex, Bedrock Agents, Prompt Engineering, LLMs,
-      Function Calling, agentic patterns, MCP]
-    data: [Kafka, Kinesis, RabbitMQ, ActiveMQ]
-    other: [TDD, Agile, Kanban]
-    ops: [CloudWatch, Docker, Kubernetes, Git, CI/CD, Terraform, CloudFormation, AWS
-        CDK, GitHub Actions, GitLab CI, Jenkins, MLOps, LLMOps, LangSmith, Langfuse,
-      RAGAS, Helicone, Arize]
     web: [FastAPI, Flask, Pydantic, REST APIs, gRPC, Microservices]
-    databases: [DynamoDB, OpenSearch, Vector Databases, pgvector, Pinecone, FAISS,
-      PostgreSQL, MongoDB]
+    data: [Kafka, Kinesis, RabbitMQ, ActiveMQ]
+    genai: [LLMs, RAG, Prompt Engineering, Structured Outputs, Function Calling, AI
+        Agents, Agentic Workflows, LangChain, LlamaIndex, Bedrock Agents, MCP, Fine-Tuning,
+      LoRA, Embeddings, LLM Evaluation, Guardrails, Anthropic API, GPT, Llama, Mistral,
+      GitHub Copilot, Claude Code, Amazon Q Developer]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9491694'
   location: Hyderabad, IND
-  extracted_at: '2026-05-29T09:08:57.873046'
+  extracted_at: '2026-08-16T11:52:56.549578'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

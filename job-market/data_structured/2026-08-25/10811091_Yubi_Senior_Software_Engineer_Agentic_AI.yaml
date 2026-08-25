@@ -1,0 +1,56 @@
+company:
+  name: Yubi
+  stage: Series B
+  focus: Debt marketplace fintech platform for lending and investing
+position:
+  title: Senior Software Engineer (Agentic AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent pipelines, RAG retrieval, prompt
+      pipelines with guardrails, and function-calling layers,
+      directly shaping LLM behavior. These are LLM/agent
+      components, so it is ai-first.
+  responsibilities:
+  - Build multi-step AI agent pipelines using LangChain, LangGraph, or custom orchestration
+    to automate lending and compliance workflows
+  - Implement tool-use and function-calling layers connecting LLMs to internal APIs,
+    bureau data, GST, and MCA sources
+  - Design and maintain RAG pipelines with vector databases for document intelligence
+    and semantic search
+  - Write reliable prompt pipelines with structured output parsing, retry logic, and
+    guardrails
+  - Build human-in-the-loop checkpoints including approval gates, anomaly escalation,
+    and audit trails
+  - Write deterministic tests for non-deterministic agent behaviour using golden datasets
+    and regression suites
+  - Instrument agents with observability tooling to monitor token usage, latency,
+    and failure modes
+  - Containerise and deploy services on AWS using Docker and CI/CD via GitHub Actions
+  use_cases:
+  - Automated credit underwriting
+  - Collections orchestration
+  - Lending and compliance workflow automation
+  - Document intelligence on financial documents (bureau data, GST, MCA sources)
+  - Semantic search over debt-market documents
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, Agentic Workflows, Function Calling, RAG,
+      Prompt Engineering, Guardrails, Structured Outputs, LLMs, OpenAI API, Anthropic
+        API, Gemini, Semantic Search, Embeddings]
+    ml: []
+    web: [Spring Boot, REST APIs, Microservices]
+    databases: [Pinecone, pgvector, Weaviate, Vector Databases, PostgreSQL, Redis]
+    data: []
+    cloud: [AWS, AWS Lambda, AWS S3, ECS]
+    ops: [LangSmith, Datadog, Docker, CI/CD, GitHub Actions]
+    languages: [Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10811091'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T12:01:24.363071'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

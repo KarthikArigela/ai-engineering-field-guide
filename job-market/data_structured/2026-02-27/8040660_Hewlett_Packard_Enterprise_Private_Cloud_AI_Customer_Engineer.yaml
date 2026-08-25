@@ -1,53 +1,61 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud computing and infrastructure solutions
+  stage: null
+  focus: Edge-to-cloud enterprise IT infrastructure and services
 position:
   title: Private Cloud AI Customer Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly
-      deploys AI solutions to customers. The hands-on work
-      includes building RAG pipelines, implementing
-      LangChain/LlamaIndex, working with vector DBs, and guiding
-      customers through AI use case adoption - all core AI/ML
-      system deployment tasks.
+      This is a hands-on customer engineer who guides customers
+      through adopting their first GenAI use case on HPE Private
+      Cloud AI, requiring working expertise in LangChain,
+      LlamaIndex, vLLM, RAG pipelines, and vector databases -
+      matching the forward-deployed engineer pattern of adapting
+      and deploying AI solutions with customers. Although the role
+      carries heavy onboarding and project management duties, the
+      hands-on technical work on LLM applications makes it ai-
+      first.
   responsibilities:
-  - Assist customers in the initial adoption of the HPE Private Cloud AI product through
-    hands-on support and guidance
-  - Project manage customer onboarding and first use case implementation during the
-    first three months post-purchase
-  - Provide informal product training sessions to help customers understand and utilize
-    the AI platform effectively
-  - Guide customers through AI use case adoption including RAG pipelines, virtual
-    assistants, and chatbot implementations
-  - Collaborate with internal teams including Sales, Product Management, and Technical
-    Support to ensure customer success
-  - Monitor customer progress and provide proactive support to ensure early value
-    realization from the AI platform
+  - Assist customers with hands-on support adopting the HPE Private Cloud AI (PCAI)
+    product during the first three months post-purchase
+  - Project manage the customer and their first use case through the onboarding phase
+  - Guide customers through initial use case adoption, providing technical expertise
+    and best practices tailored to their requirements
+  - Conduct informal product training sessions so customers can use the product effectively
+  - Schedule and conduct regular cadence calls with customers and internal stakeholders,
+    serving as the primary point of contact during onboarding
+  - Collaborate with Sales, Product Management, and Technical Support to resolve issues
+    and ensure timely delivery of solutions
+  - Monitor customer progress, identify and mitigate risks, and drive early value
+    realization to ensure success and contract renewals
+  - Track customer satisfaction and feedback to continuously improve the onboarding
+    process
   use_cases:
-  - Virtual assistants and conversational AI interfaces
-  - Q&A chatbots powered by retrieval-augmented generation
-  - Document summarization and knowledge extraction
-  - Enterprise AI solutions for structured and unstructured data
-  - Big data analytics across data warehouses, lakes, and distributed file systems
-  - NLP applications with understanding of model limitations
+  - Enterprise GenAI adoption on the HPE Private Cloud AI platform
+  - Virtual assistants and Q&A chatbots
+  - Document and content summarization
+  - RAG-based enterprise Q&A and knowledge retrieval solutions
+  - Customer onboarding for first production AI use cases
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [AWS S3, Cloud Architectures]
+    languages: [Python, SQL]
     ml: []
-    cloud: [NVIDIA AI Enterprise]
-    genai: [LangChain, LlamaIndex, RAG, vLLM]
-    data: [Presto, Airflow, Spark, Ray, Superset]
-    other: []
-    ops: [LLMOps, Kubernetes, Kubeflow, MLflow, Docker, Helm, Linux]
-    web: []
-    databases: [S3, Vector Databases, SQL, NoSQL]
+    other: [Superset, MLIS, NVIDIA AI Enterprise, AuthN/AuthZ, Project Management]
+    ops: [Kubernetes, Kubeflow, MLflow, Linux, Containerization, Helm, vLLM, LLMOps,
+      DevOps, Distributed Computing, Testing & Automation]
+    databases: [Data Warehouses, Relational Databases, NoSQL, Vector Databases]
+    domains: [NLP]
+    web: [Microservices, Full-Stack Development]
+    data: [Presto, Airflow, Spark, Livy, Ray, Feast, Big Data, Data Lakes, Distributed
+        File Systems]
+    genai: [LangChain, LlamaIndex, RAG, Conversational AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8040660'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T12:37:42.124444'
+  extracted_at: '2026-08-16T00:23:16.390284'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

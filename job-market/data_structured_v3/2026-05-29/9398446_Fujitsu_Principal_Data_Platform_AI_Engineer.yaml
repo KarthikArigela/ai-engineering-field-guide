@@ -1,0 +1,71 @@
+company:
+  name: Fujitsu
+  stage: null
+  focus: |-
+    Technology consulting and IT services for enterprises and
+    public sector
+position:
+  title: Principal Data Platform & AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a principal data platform architect role: the core
+      work is designing lakehouses, data mesh, ETL/ELT pipelines,
+      and governance on Databricks, Microsoft Fabric, Synapse, and
+      Snowflake. The AI portion is limited to enabling AI use
+      cases and AI-ready data foundations on top of those
+      platforms — there is no prompt engineering, RAG/agent
+      design, fine-tuning, or model output evaluation by this
+      person, so model behaviour is not shaped (Step 1: no → ai-
+      support).
+  responsibilities:
+  - Define and lead target-state architectures for modern enterprise data platforms
+    using Databricks, Microsoft Fabric, Azure Synapse, and Snowflake
+  - Design scalable lakehouse environments, ingestion frameworks, semantic layers,
+    and analytics architectures with governance and security aligned to European data
+    regulations
+  - Lead end-to-end delivery of data platform and AI solutions from advisory and proof-of-concept
+    through production deployment
+  - Build and optimize ETL/ELT pipelines and streaming solutions using Python, PySpark,
+    SQL, and cloud-native technologies
+  - Implement best practices for CI/CD, Infrastructure as Code, DevOps, automation,
+    monitoring, and platform lifecycle management
+  - Establish standards for data quality, metadata management, governance, observability,
+    and security
+  - Enable enterprise AI use cases including generative AI, intelligent search, forecasting,
+    and advanced analytics on AI-ready data foundations
+  - Act as strategic advisor to customers on data modernization and AI adoption, contributing
+    to proposals, workshops, and customer presentations while mentoring engineering
+    teams
+  use_cases:
+  - Enterprise data platform modernization and cloud transformation
+  - Lakehouse, data mesh, and medallion analytics architectures
+  - Enterprise AI enablement including generative AI, intelligent search, and forecasting
+  - Data governance, compliance, and security for regulated industries
+  - Advanced analytics and intelligent automation on governed data foundations
+  - Batch and streaming data integration pipelines
+  skills:
+    genai: [Generative AI]
+    ml: [Machine Learning]
+    web: []
+    databases: [Snowflake]
+    data: [PySpark, Databricks, Microsoft Fabric, Azure Synapse, Delta Lake, Data
+        Lakes, Lakehouse, Data Mesh, Medallion Architecture, ETL/ELT, Data Governance,
+      Metadata Management, Data Quality, Dimensional Modelling, Data Vault]
+    cloud: [Azure, AWS, GCP]
+    ops: [CI/CD, Infrastructure as Code, DevOps, Git, Monitoring, Observability, MLflow]
+    languages: [Python, SQL]
+    domains: []
+    other: [Power BI, DAX, Power Query M]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9398446'
+  location: BEL
+  locations:
+  - BEL
+  - NLD
+  remote: true
+  extracted_at: '2026-08-16T10:53:34.161616'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

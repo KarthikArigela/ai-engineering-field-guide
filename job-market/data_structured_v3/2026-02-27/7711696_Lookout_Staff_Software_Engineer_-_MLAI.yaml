@@ -1,0 +1,60 @@
+company:
+  name: Lookout
+  stage: null
+  focus: |-
+    Cloud-native cybersecurity for mobile endpoint threat
+    detection
+position:
+  title: Staff Software Engineer - ML/AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns the full ML lifecycle including training,
+      evaluating, stress-testing, retraining, and preventing model
+      drift, which is shaping model behavior. It also requires
+      hands-on design of LLM/RAG components (embeddings, vector
+      databases, retrieval strategies, prompt engineering) and LLM
+      fine-tuning with LoRA/PEFT, so an LLM component is directly
+      involved, making it ai-first.
+  responsibilities:
+  - Own the full machine learning lifecycle from initial research and design through
+    production deployment, monitoring, and continuous retraining
+  - Build and maintain core backend services and components powering Lookout applications
+    at massive scale
+  - Establish and implement frameworks to train, evaluate, stress-test, and monitor
+    ML/AI systems, driving continuous improvement and preventing model drift
+  - Address real-world scale and performance challenges, ensuring ML/AI models are
+    efficient, robust, and meet quality/latency targets in production
+  - Set technical direction as a senior Individual Contributor and mentor junior engineers
+  - Improve all forms of automated testing including unit, integration, and functional
+    tests
+  - Participate in end-to-end service ownership, including on-call duties
+  use_cases:
+  - Mobile endpoint detection and response (EDR) against human-centric cyberattacks
+  - Threat detection using AI and behavioral analysis to identify attacks before they
+    escalate
+  - Detecting social engineering attacks, malware, software vulnerabilities, and anomalous
+    activity on mobile devices
+  - ML-based threat detection serving millions of users at massive data volume and
+    scale
+  skills:
+    genai: [LangChain, LLMs, RAG, Embeddings, Prompt Engineering, AI Agents, Fine-Tuning,
+      LoRA, PEFT, Cursor, GitHub Copilot, Claude Code]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, Machine Learning, Deep Learning,
+      Classification, Clustering, Regression, Model Distillation, Quantization]
+    web: [APIs]
+    databases: [Knowledge Graphs, Vector Databases]
+    data: [Kafka]
+    cloud: [AWS, GCP, ECS, EKS]
+    ops: [Kubernetes, Docker, MLOps, Feature Stores]
+    languages: [Python, Scala, Go]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7711696'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T00:07:15.872608'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

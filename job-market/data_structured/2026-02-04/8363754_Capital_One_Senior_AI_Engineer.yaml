@@ -1,48 +1,52 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI/ML
+  stage: null
+  focus: |-
+    Banking and financial services with AI-powered customer
+    experiences
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves direct work with foundation models, LLM
-      inference, model training, and optimization techniques. The
-      engineer is responsible for building, deploying, and
-      optimizing AI systems including LLMs and similarity search,
-      which is hands-on model/agent work rather than support
-      infrastructure.
+      The role directly shapes model behaviour: designing and
+      developing foundation model training, LLM inference
+      optimization techniques, guardrails, model evaluation, and
+      similarity search as core deliverables. The models involved
+      are explicitly LLM/foundation-model based (Hugging Face, LLM
+      inference, NeMo Guardrails), so this is ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for associates
-    and customers
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    model training, large language model inference, similarity search, guardrails,
+    model evaluation, experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Stay abreast of latest research and judiciously apply novel techniques in production
   use_cases:
-  - Informing customers about unusual credit card charges in real-time
-  - Answering customer questions in real-time through AI-powered conversational interfaces
-  - Creating personalized customer experiences and recommendations
-  - Enhancing associate productivity with AI-powered tools and workflows
-  - Deploying responsible and scalable AI governance and guardrails for banking applications
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work internally
+  - Proprietary AI models and platforms enabling teams across the company to enhance
+    products with AI
   skills:
-    domains: []
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Model Training, model optimization]
-    cloud: [AWS, GCP, Azure]
-    genai: [Huggingface, LLM Inference, VectorDBs, Guardrails, Similarity Search,
-      RAG]
-    data: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [model evaluation, experimentation, Observability, governance]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases]
+    domains: []
     web: []
-    databases: []
+    data: []
+    genai: [Guardrails, Similarity Search, Memory]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +58,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T12:59:28.223628'
+  extracted_at: '2026-08-15T23:27:20.204160'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

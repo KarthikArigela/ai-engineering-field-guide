@@ -1,57 +1,59 @@
 company:
   name: Thomson Reuters
-  stage: Public
+  stage: null
   focus: |-
-    Trusted content and technology for legal, tax, accounting,
-    compliance, government, and media professionals
+    Information and technology services for legal, tax,
+    accounting, compliance, and media professionals
 position:
   title: Automation & AI Developer
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      The role involves hands-on implementation and deployment of
-      ML/AI capabilities including NLP, chatbots, OCR, and
-      conversational intelligence into production systems. The
-      developer directly applies ML techniques, integrates ML
-      models into cloud-native applications, and takes ML
-      solutions to production-grade software.
+      The role implements and integrates classical ML and NLP
+      capabilities directly — NER, information extraction,
+      predictive models, OCR, and chatbot functionality — within
+      an RPA/intelligent automation center of excellence, rather
+      than merely consuming someone else's AI endpoint. No LLM,
+      prompt, RAG, or agent work is named, so the shaped models
+      are classical ML, making this ml-first.
   responsibilities:
-  - Familiarize and adopt work methodology aligning with the existing ACoE organization
-  - Contribute to solutioning and POCs for key initiatives already in-flight
-  - Apply modern development practices in delivering POCs and prototypes in intelligent
-    automation technologies
-  - Deliver intelligent automation capabilities on-prem and cloud with decision and
-    conversational intelligence
+  - Deliver intelligent automation capabilities on-prem and in the cloud, adding decision
+    and conversational intelligence
+  - Contribute to solutioning and build POCs/prototypes for key initiatives using
+    modern development practices
+  - Implement NLP use cases and chatbot functionality per requirements
+  - Connect to databases and integrate code with visualization tools such as Power
+    BI for interactive reporting
   - Drive data and analytics through insights, reporting, and predictive models supporting
     finance strategy
-  - Implement NLP solutions and chatbot functionality to complete use cases per requirements
-  - Integrate code with databases and visualization tools enabling interaction with
-    database/bot/Power BI
-  - Lead and mentor junior developers on RPA solution best practices and review production-ready
-    deliverables
+  - Integrate and deploy Machine Learning solutions into production-grade software
+  - Review production-ready deliverables and guide/mentor junior developers on RPA
+    best practices
+  - Create technical documentation for reference and reporting
   use_cases:
-  - Conversational intelligence and chatbots for enterprise automation
-  - Natural Language Processing applications including Named Entity Recognition and
-    Information Extraction
-  - OCR and document processing automation
-  - Predictive analytics and data-driven decision support for finance strategy
-  - Intelligent automation workflows integrating with SAP and Salesforce systems
-  - Data visualization and reporting through Power BI integration
+  - Intelligent process automation (RPA) for enterprise workflows
+  - Chatbots with conversational intelligence for business interactions
+  - NLP tasks such as named entity recognition, information extraction, and information
+    retrieval
+  - Predictive analytics and reporting supporting finance strategy
+  - Data visualization and interactive reporting via database and Power BI integrations
   skills:
-    domains: []
-    languages: [Python, Java, TypeScript, JavaScript]
-    ml: [Machine Learning, ML models, OCR]
     cloud: [AWS]
-    genai: [NLP, Named Entity Recognition, Information Extraction, Information Retrieval,
-      Chatbots]
-    data: [Power BI]
-    other: [RPA, SAP, Salesforce]
-    ops: [Git]
+    languages: [Python, Java, TypeScript, JavaScript]
+    ml: [Machine Learning, Named Entity Recognition, Information Extraction, Information
+        Retrieval, OCR, Predictive Modeling]
+    other: [RPA, SAP, Salesforce, Microsoft Office, Power BI]
+    ops: [Git, Model Deployment]
+    databases: []
+    domains: [NLP]
     web: [Angular]
-    databases: [Databases]
+    data: []
+    genai: [Conversational AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8098473'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:56:26.255563'
+  extracted_at: '2026-08-16T00:27:51.180106'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

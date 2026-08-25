@@ -1,52 +1,52 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-powered customer
-    experiences
+  stage: null
+  focus: Banking and financial services
 position:
   title: Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on technical role building and deploying AI
-      systems. The engineer will directly work on foundation model
-      training, LLM inference optimization, similarity search,
-      guardrails, and model evaluation. The role explicitly
-      mentions inventing LLM optimization techniques and building
-      proprietary AI solutions that are central to the business.
+      The role directly shapes model behavior and output quality:
+      foundation model training, LLM inference optimization,
+      guardrails, model evaluation, and similarity search are all
+      named responsibilities. Because the primary target is LLMs
+      and foundation models rather than classical ML, this is ai-
+      first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    how associates work and customers interact with Capital One
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, large language model inference, similarity search, guardrails,
-    model evaluation, experimentation, governance, and observability
-  - Leverage a broad stack of Open Source and SaaS AI technologies such as AWS Ultraclusters,
-    Huggingface, VectorDBs, Nemo Guardrails, PyTorch, and more
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
+    VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of large scale production AI systems
-  - Contribute to the technical vision and long term roadmap of foundational AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Build and deploy proprietary AI solutions that deliver value to millions of customers
-    and empower teams across the company
+  - Deploy scalable and responsible AI solutions on cloud platforms
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Informing customers about unusual charges and fraud detection
-  - Answering customer questions in real-time through AI-powered interfaces
-  - AI-powered products that enhance how associates work internally
-  - Enterprise search and similarity search capabilities
-  - Scalable AI infrastructure for responsible and reliable AI systems
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time
+  - AI-powered tools that change how associates work
+  - Foundational AI platforms enabling teams across the company to enhance products
+    with AI
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, LLM Inference, LLM Optimization, RAG, Similarity Search, Guardrails]
-    data: []
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [MLOps, Model Governance, Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +56,6 @@ meta:
   - McLean, USA
   - San Jose, USA
   - New York, USA
-  extracted_at: '2026-05-29T09:09:52.790906'
+  extracted_at: '2026-08-16T12:21:06.350615'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,52 @@
+company:
+  name: Orion Innovation
+  stage: null
+  focus: Global business and technology consulting services
+position:
+  title: Senior Cloud / AI Developer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is primarily a Java cloud backend developer on GCP;
+      AI is mentioned only as "implement AI-enabled capabilities"
+      and "integrating AI capabilities into applications," which
+      is consuming/using AI, not shaping model behavior, prompts,
+      retrieval, or evals. No evidence of shaping output quality.
+  responsibilities:
+  - Design, develop, and maintain Java-based cloud-native applications on GCP
+  - Implement GCP cloud-native solutions supporting ingestion, processing, storage,
+    retrieval, and distribution workflows
+  - Create and maintain RESTful APIs for integration with internal services and external
+    partners
+  - Integrate AI capabilities into applications
+  - Ensure security and compliance through secure coding, encryption, authorization,
+    and audit logging
+  - Develop CI/CD pipelines and infrastructure-as-code with DevOps
+  - Implement observability practices including logging, metrics, tracing, and alerting
+  - Collaborate with DevOps, QA, Product Management, and security stakeholders on
+    design reviews and code reviews
+  use_cases:
+  - Cloud-native business workflow applications
+  - Data ingestion, processing, storage, and retrieval pipelines
+  - API integrations with internal services and external partners
+  - AI-enabled application capabilities
+  skills:
+    genai: [AI Agents]
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: []
+    cloud: [GCP]
+    ops: [CI/CD, Infrastructure as Code, Git, Observability, Docker, Kubernetes]
+    languages: [Java]
+    domains: []
+    other: [Agile, ServiceNow, SDLC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10828921'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T12:15:08.194431'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

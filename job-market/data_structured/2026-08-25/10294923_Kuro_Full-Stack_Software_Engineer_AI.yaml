@@ -1,0 +1,49 @@
+company:
+  name: Kuro
+  stage: seed-stage (backed by €8 million seed round)
+  focus: AI foundation platform for construction industry workflows
+position:
+  title: Full-Stack Software Engineer — AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements AI features end-to-end,
+      including optimizing LLMs, building agentic chat, managing
+      evals and error analysis on AI output quality. This is
+      shaping LLM behaviour directly, making it ai-first.
+  responsibilities:
+  - Build and own end-to-end AI features from concept to DB schema, LLM optimization,
+    and UI
+  - Manage evaluations and scoring, and perform error analysis on AI features
+  - Contribute to the workflow harness, decision-trace standard, and eval tooling
+  - Build reusable human review and approval surfaces for AI output trust
+  - Model and evolve the construction ontology and project graph, including entity
+    resolution across documents
+  - Extend multi-modal ingestion pipelines for PDFs, scans, drawings, and 3D models
+  - Build read/write integrations with customer systems (document management, ERP/AVA)
+  use_cases:
+  - Agentic chat for construction professionals
+  - Automating construction back-office workflows
+  - Multi-modal document ingestion (PDFs, drawings, 3D models)
+  - Entity resolution and construction ontology/project graph building
+  - Evidence-linked, auditable answers over construction documents
+  - Classifying and organizing large project document folders
+  skills:
+    genai: [OpenAI API, Gemini, Cohere, Agentic Workflows, LLMs, LLM Evaluation]
+    ml: []
+    web: [Fastify API, Prisma ORM]
+    databases: [AWS RDS, AWS S3, Vector Databases]
+    data: [Prefect, Data Pipelines]
+    cloud: [AWS, Azure]
+    ops: [Langfuse, Datadog]
+    languages: [TypeScript, Python]
+    domains: []
+    other: [Meilisearch, Turbopuffer, Knowledge Graphs]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10294923'
+  location: Berlin, DEU
+  extracted_at: '2026-08-25T09:35:11.965679'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

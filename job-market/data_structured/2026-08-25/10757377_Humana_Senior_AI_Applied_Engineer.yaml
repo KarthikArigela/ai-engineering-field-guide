@@ -1,0 +1,60 @@
+company:
+  name: Humana
+  stage: null
+  focus: Health insurance and healthcare services
+position:
+  title: Senior AI Applied Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: prompt strategies,
+      structured outputs, tool calling, RAG design, agentic
+      workflows, and evaluation frameworks for LLM-driven clinical
+      document processing. LLMs are central to the critical
+      production path.
+  responsibilities:
+  - Design, develop, and deploy full-stack AI-powered applications including frontend,
+    APIs, backend services, and data pipelines
+  - Build and optimize LLM-based workflows for information extraction, classification,
+    retrieval, summarization, and agentic processes
+  - Develop prompt strategies, structured output frameworks, tool-calling capabilities,
+    and fallback mechanisms
+  - Design and implement RAG systems using embeddings, vector databases, and semantic
+    search
+  - Build evaluation frameworks including benchmarks, regression testing, quality
+    metrics, and human review workflows
+  - Develop human-in-the-loop processes for expert validation and feedback
+  - Build document-processing pipelines including OCR, ingestion, indexing, and search
+  - Deploy and operate services in cloud-native environments with Kubernetes, Docker,
+    and CI/CD, including observability and incident response
+  use_cases:
+  - Extract structured facts and answer questions from clinical documents with citations
+  - Route ambiguous medical record cases to human expert review
+  - Healthcare data processing and retrieval at scale in a regulated environment
+  - Human-in-the-loop validation of AI outputs by clinicians and domain experts
+  - Document ingestion, OCR, indexing, and search over medical records
+  skills:
+    genai: [LLMs, RAG, Prompt Engineering, Structured Outputs, Function Calling, AI
+        Agents, Agentic Workflows, Embeddings, Semantic Search, MCP, LLM Evaluation,
+      OpenAI API, Anthropic API, AWS Bedrock, Gemini]
+    ml: []
+    web: [React, Next.js, APIs]
+    databases: [PostgreSQL, Vector Databases]
+    data: [Data Pipelines]
+    cloud: [Vertex AI, Azure, AWS]
+    ops: [Docker, Kubernetes, CI/CD, Monitoring, Observability]
+    languages: [TypeScript, JavaScript, Python]
+    domains: []
+    other: [OCR, Document AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10757377'
+  location: Dallas, USA
+  locations:
+  - Dallas, USA
+  - New York, USA
+  - Louisville, USA
+  extracted_at: '2026-08-25T11:40:00.567764'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,26 +1,27 @@
 company:
   name: Gartner
-  stage: Public
+  stage: 'Publicly traded (NYSE: IT)'
   focus: |-
-    Research and advisory company providing business and
-    technology insights to enterprise leaders
+    Research and advisory firm delivering technology and
+    business insights
 position:
   title: Sr Software Engineer (ML/NLP/AI - Backend engineer - 4to6yrs - Chennai)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on integration of LLMs and
-      multimodal models into backend services, implementing MCP
-      servers for AI agents, prompt engineering, LLM fine-tuning,
-      and building AI agent architectures. The engineer works
-      directly on deploying and optimizing AI models, not just
-      supporting infrastructure for others.
+      The role designs and implements MCP servers to connect AI
+      agents with tools and enterprise systems, and requires
+      hands-on experience with prompt engineering, LLM fine-
+      tuning, and AI agent architectures/orchestration — all
+      activities that directly shape LLM and agent behavior.
+      Although backend-heavy, the shaping responsibilities make
+      this ai-first rather than ai-support.
   responsibilities:
   - Design, develop, and deploy scalable backend systems for AI-powered applications
-    using Python and cloud providers
-  - Design and implement Model Context Protocol (MCP) servers to enable integration
-    between AI agents, enterprise systems, and external tools
-  - Design and implement APIs and microservices to support machine learning workflows,
+    using Python and cloud services (AWS, Azure)
+  - Design and implement Model Context Protocol (MCP) servers to integrate AI agents
+    with enterprise systems and external tools
+  - Design and implement APIs and microservices supporting machine learning workflows,
     real-time inference, and data integration
   - Integrate machine learning and generative AI models (LLMs, multimodal models)
     into backend services and business applications
@@ -30,29 +31,32 @@ position:
     and CI/CD
   - Collaborate with data scientists, ML engineers, and platform teams to deploy,
     monitor, and optimize AI models in production
-  - Research and evaluate emerging AI technologies to drive innovation and improve
-    system performance
+  - Research and evaluate emerging AI/ML technologies and build proofs of concept
+    to drive innovation
   use_cases:
-  - Conversational AI systems and chatbots
-  - AI agent architectures and orchestration
+  - Conversational AI systems and chatbots for business applications
+  - LLM-powered backend services and business applications
+  - AI agent integration with enterprise systems and external tools via MCP servers
+  - Real-time ML inference APIs and microservices
   - Search and recommendation systems
-  - Enterprise AI integration with business applications
-  - Retrieval-augmented generation (RAG) implementations
+  - Data pipelines and event-driven architectures supporting model training
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: [AWS, Azure, SageMaker, AWS Bedrock]
-    genai: [LLMs, Generative AI, Prompt Engineering, Fine-Tuning, MCP, AI Agents,
-      Conversational AI, Chatbots, RAG]
-    data: [Data Pipelines, Airflow, Prefect]
-    other: []
-    ops: [CI/CD, Azure DevOps, AWS DevOps, MLflow]
-    web: [FastAPI, Flask, APIs, Microservices]
+    languages: [Python]
+    ml: [Machine Learning, Recommendation Systems]
+    other: [Event-Driven Architecture, Agile]
+    ops: [CI/CD, MLOps, MLflow, Azure DevOps, Model Deployment, Model Monitoring]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs, Microservices, FastAPI, Flask]
+    data: [Data Pipelines, Airflow, Prefect]
+    genai: [MCP, LLMs, Generative AI, Multimodal Models, Conversational AI, Prompt
+        Engineering, Fine-Tuning, AI Agents, RAG]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8252249'
   location: Chennai, IND
-  extracted_at: '2026-03-03T12:32:10.421949'
+  extracted_at: '2026-08-16T00:42:47.820371'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

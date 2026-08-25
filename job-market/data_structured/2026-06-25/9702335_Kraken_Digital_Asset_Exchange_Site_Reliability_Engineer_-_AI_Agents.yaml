@@ -1,59 +1,67 @@
 company:
   name: Kraken Digital Asset Exchange
-  stage: Late stage / Well-established (founded 2011)
-  focus: Crypto and digital asset exchange platform
+  stage: null
+  focus: |-
+    Crypto exchange and digital asset financial infrastructure
+    platform
 position:
   title: Site Reliability Engineer - AI Agents
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Site Reliability Engineer role focused on building
-      and operating the infrastructure/platform that supports AI
-      agents, not directly building or fine-tuning the models
-      themselves. The role involves Kubernetes, Terraform, CI/CD,
-      observability, and platform APIs/SDKs that enable other
-      teams to consume AI infrastructure. While it works closely
-      with AI systems, the core work is infrastructure engineering
-      and platform building rather than hands-on model/agent
-      development.
+      This is an SRE/platform engineering role: the person runs,
+      scales, and serves the model-inference and agent-execution
+      infrastructure that the AI and Agent Systems teams design.
+      They never write prompts, design retrieval or agent flows,
+      or train models; the deliverable is capacity, reliability,
+      observability, and a developer platform, not model
+      behaviour. The guardrails and failure-handling patterns
+      mentioned are operational resilience for infrastructure, not
+      output-quality shaping.
   responsibilities:
   - Design, build, and operate the infrastructure layer supporting AI agent workflows
     in production
   - Ensure reliability, scalability, and observability of agentic systems across internal
     and external products
   - Design and develop platform services, APIs, SDKs, and self-service capabilities
-    for engineering teams to consume AI infrastructure
-  - Manage compute, orchestration, and serving infrastructure for model inference
-    and agent execution
+    that let engineering teams consume AI infrastructure as a service
+  - Manage and maintain the compute, orchestration, and model-serving infrastructure
+    powering model inference and agent execution
   - Implement monitoring, alerting, and incident response procedures tailored to AI/ML
     workloads
-  - Provision and manage AWS cloud infrastructure using Terraform
-  - Build and maintain CI/CD pipelines for rapid deployment of AI services and agent
-    workflows
-  - Define and implement guardrails, failure handling, and recovery patterns for agentic
-    and LLM-powered systems
+  - Define and implement guardrails, failure handling, and recovery patterns specific
+    to agentic and LLM-powered systems
+  - Provision and manage AWS cloud infrastructure using Terraform and manage containerized
+    workloads with Kubernetes, including access controls and security best practices
+  - Build and maintain CI/CD pipelines supporting rapid, reliable deployment of AI
+    services and agent workflows
   use_cases:
-  - Production AI agent orchestration and execution infrastructure
-  - Internal and external-facing AI agent products for a crypto exchange platform
-  - Model serving and inference infrastructure for LLM-powered systems
-  - Developer platform for AI, Data, and Engineering teams to consume agent infrastructure
-    as a service
+  - Production infrastructure powering AI agents for internal tools and external-facing
+    crypto trading products
+  - Reliable, scalable model serving and agent execution orchestration
+  - Developer platform offering agent infrastructure, APIs, and SDKs as a service
+    to AI, Data, and Engineering teams
+  - Monitoring, alerting, and incident response for agentic and LLM-powered systems
+    in production
+  - Hardening experimental agent prototypes into production-grade systems
   skills:
-    domains: []
-    languages: [Python, Bash/Shell scripting]
-    ml: [Model serving / inference, MLOps, Model performance monitoring]
     cloud: [AWS, Cloudflare]
-    genai: [LangGraph, CrewAI, Agent orchestration frameworks]
-    data: [Airflow, Kafka, Spark]
-    other: []
-    ops: [Kubernetes, Docker, Terraform, CI/CD, Monitoring and observability systems,
-      Incident response]
-    web: [API design and development, SDK development]
+    languages: [Python, Bash]
+    ml: [Model Evaluation]
+    other: [SDKs, Zero Trust]
+    ops: [Terraform, Infrastructure as Code, Kubernetes, Docker, CI/CD, Monitoring,
+      Observability, Incident Response, Model Deployment, MLOps, Model Monitoring]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Airflow, Kafka, Spark]
+    genai: [AI Agents, Agentic Workflows, LLMs, LangGraph, CrewAI, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9702335'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:47:18.716896'
+  extracted_at: '2026-08-16T14:22:17.759018'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

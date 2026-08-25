@@ -1,48 +1,51 @@
 company:
   name: Mistral AI
-  stage: Series A
-  focus: Open-source and commercial AI/LLM models and platform
+  stage: null
+  focus: Open-source AI models and enterprise AI platform
 position:
   title: Applied AI Engineer, CyberSecurity
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying agentic
-      AI workflows (red-team/blue-team), multi-agent
-      orchestration, context engineering, and RAG systems on top
-      of Mistral's cyber harnesses. The engineer turns agent
-      prototypes into deployed client-facing services, which is
-      hands-on work building and deploying AI systems.
+      The role shapes model and agent behaviour directly:
+      composing red-team/blue-team agentic workflows, designing
+      context engineering, orchestrating multi-agent systems, and
+      building evals and RAG for agent systems. LLM/agent
+      components are central, making this ai-first. The work is
+      also client-facing delivery of these agentic security
+      solutions.
   responsibilities:
   - Compose red-team and blue-team agentic workflows for production cybersecurity
     use-cases
-  - Configure harnesses for cloud defense, vulnerability scanning, dynamic red-teaming,
+  - Configure cyber harnesses for cloud defense, vulnerability scanning, dynamic red-teaming,
     and penetration testing scenarios
-  - Translate client security requirements into deployed agentic solutions
-  - Design and implement context engineering enabling agents to operate effectively
+  - Translate client security requirements into agentic solutions and turn prototype
+    agents into deployed client services
+  - Design and implement context engineering that enables agents to operate effectively
     in cybersecurity domains
-  - Orchestrate multi-agent systems for complex security workflows
-  - Ship and iterate rapidly based on client feedback and real-world performance
-  - Collaborate with pentesters for domain accuracy and partner with SWE-Cyber for
-    platform support
+  - Orchestrate multi-agent systems for complex security workflows, building the agentic
+    layer between harness and client
+  - Ship fast and iterate based on client feedback and real-world performance
+  - Collaborate with pentesters and the SWE-Cyber team for domain accuracy and platform
+    support
   use_cases:
-  - Automated red-teaming and penetration testing using agentic workflows
-  - Cloud defense and vulnerability scanning
-  - Blue-team security operations automation
-  - Multi-agent orchestration for complex cybersecurity workflows
-  - Client-facing cybersecurity AI service delivery
+  - Automated red-teaming and penetration testing via agents
+  - Cloud defense and vulnerability scanning scenarios
+  - Client-facing cybersecurity service built on cyber harnesses
+  - Dynamic red-teaming against real-world security scenarios
+  - Production multi-agent security workflows for enterprise clients
   skills:
-    domains: [Cybersecurity, Penetration testing, Red-teaming / Blue-teaming]
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [Multi-Agent Systems, LLMs, Context engineering, RAG, Agent evaluation
-        and benchmarking, Agentic harnesses, Prompt Engineering]
-    data: []
-    other: []
+    languages: []
+    ml: []
+    other: [Penetration Testing]
     ops: []
-    web: []
     databases: []
+    domains: [Cybersecurity]
+    web: []
+    data: []
+    genai: [Agentic Workflows, AI Agents, Multi-Agent Systems, Context Engineering,
+      RAG, LLMs, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
@@ -51,4 +54,6 @@ meta:
   locations:
   - Paris, FRA
   - London, GBR
-  extracted_at: '2026-06-25T19:52:20.134065'
+  extracted_at: '2026-08-16T14:11:29.909943'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

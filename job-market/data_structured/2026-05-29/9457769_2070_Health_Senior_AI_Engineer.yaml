@@ -1,59 +1,60 @@
 company:
   name: 2070 Health
   stage: null
-  focus: |-
-    AI-first enterprise automation platform for healthcare and
-    insurance
+  focus: AI-first enterprise automation for healthcare and insurance
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a core AI engineering role focused directly on
-      building, fine-tuning, and deploying language models. The
-      role involves hands-on work with LLMs/SLMs including prompt
-      engineering, fine-tuning with LoRA/QLoRA, instruction
-      tuning, RAG implementation, and model deployment - all
-      direct work on AI systems rather than supporting
-      infrastructure.
+      The role directly shapes LLM behavior: designing prompt
+      architectures, building prompt evaluation frameworks, fine-
+      tuning LLMs/SLMs with LoRA/QLoRA and SFT pipelines, and
+      implementing RAG and agentic orchestration. All shaping
+      activity targets LLMs (8B-class LLaMA, Mistral, Qwen), so it
+      is ai-first.
   responsibilities:
-  - Design production-grade prompt architectures for 8B-class models including LLaMA,
+  - Design production-grade prompt architectures for 8B-class models such as LLaMA,
     Mistral, and Qwen
-  - Develop structured prompts for enterprise tasks such as classification, extraction,
-    reasoning, and summarization
-  - Build prompt evaluation frameworks to measure accuracy, hallucination rates, and
+  - Develop structured prompts for enterprise classification, extraction, reasoning,
+    and summarization tasks
+  - Optimize prompts for accuracy, latency, and cost efficiency
+  - Build prompt evaluation frameworks measuring accuracy, hallucination rates, and
     consistency
-  - Develop prompt-to-model migration strategies converting high-performing prompts
-    into fine-tuned SLMs
-  - Design and fine-tune LLMs and Small Language Models (SLMs) for domain-specific
-    enterprise tasks
-  - Build instruction tuning and supervised fine-tuning (SFT) pipelines
-  - Implement retrieval augmented generation (RAG) pipelines and tool-augmented workflows
+  - Design and fine-tune LLMs and Small Language Models for domain-specific enterprise
+    tasks, including instruction tuning and supervised fine-tuning pipelines
+  - Convert high-performing prompts into fine-tuned models for production reliability
+  - Implement RAG pipelines and tool-augmented workflows, collaborating with speech
+    AI and document AI teams on multimodal systems
   - Deploy models in private cloud or on-premise environments with strong security
     controls
   use_cases:
   - Healthcare Revenue Cycle Management (RCM) automation
-  - Understanding and processing unstructured conversations and documents
-  - Autonomous execution of complex human-intensive business processes
-  - Enterprise classification, extraction, reasoning, and summarization tasks
+  - Autonomous execution of human-intensive business processes in healthcare and insurance
+  - Classification, extraction, reasoning, and summarization of unstructured conversations
+    and documents
   - Multimodal systems combining speech AI and document AI
-  - Regulated environment automation with strong security and compliance
+  - Reliable, auditable AI automation in regulated, high-stakes enterprise environments
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Model Distillation, Transformers, Tokenization, Embeddings, Attention Mechanisms,
-      PyTorch, Hugging Face, Accelerate, DeepSpeed, Model Evaluation, Benchmarking]
     cloud: []
-    genai: [Prompt Engineering, Fine-Tuning, Small Language Models (SLMs), LoRA, Instruction
-        Tuning, Supervised Fine-Tuning (SFT), RAG, LLaMA, Mistral, Qwen, Falcon]
-    data: []
-    other: [AI Guardrails, Human-in-the-loop Workflows]
-    ops: [Triton, Docker, Kubernetes, GPU Training, GPU Inference]
-    web: []
+    languages: [Python]
+    ml: [PyTorch, Machine Learning, Transformers, Tokenization, Embeddings, Attention
+        Mechanisms, Model Distillation, Instruction Tuning, Hugging Face, Accelerate,
+      DeepSpeed, Multimodal Systems, GPU-Based Training]
+    other: [Human-in-the-Loop Workflows]
+    ops: [Triton, Docker, Kubernetes, Model Deployment]
     databases: [Vector Databases]
+    domains: [NLP]
+    web: []
+    data: []
+    genai: [Prompt Engineering, Fine-Tuning, LoRA, RAG, LLMs, Small Language Models,
+      Agentic Workflows, Llama, Mistral, Qwen, Falcon, LLM Evaluation, Structured
+        Outputs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9457769'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:05:51.269243'
+  extracted_at: '2026-08-16T11:35:20.915586'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

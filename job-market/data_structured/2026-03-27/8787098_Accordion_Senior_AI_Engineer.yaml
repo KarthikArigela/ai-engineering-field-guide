@@ -1,54 +1,58 @@
 company:
   name: Accordion
-  stage: Series B or later (high-growth, 1400+ employees, backed by premier PE firms)
+  stage: Backed by premier private equity firms
   focus: |-
-    Private equity value creation consulting through financial
-    consulting, data, technology and AI
+    Private equity value creation consulting with data,
+    technology, and AI
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building production AI systems
-      including multi-agent systems, RAG pipelines, and agentic
-      workflows. The position requires hands-on experience with
-      LLM applications and orchestration frameworks, making it
-      clearly an AI-first engineering role focused on deploying AI
-      solutions to clients.
+      The role directly shapes LLM behavior: designing and
+      building multi-agent systems, RAG pipelines, prompt
+      engineering, tool design, and evaluation frameworks for
+      production AI systems. Step 1 is clearly yes with LLM/agent
+      components throughout, making this ai-first.
   responsibilities:
   - Design and build multi-agent systems and RAG pipelines that automate financial
     workflows for PE-backed portfolio companies
   - Own the full stack from prompt engineering and tool design through deployment
     and monitoring
-  - 'Practice eval-driven development: define how success is measured before building'
+  - Practice eval-driven development, defining how success is measured before building
   - Translate ambiguous client problems into engineering requirements and deliver
     results in compressed timeframes
   - Present and defend architectural decisions to technical and non-technical audiences
     including CFOs and PE operators
   - Build observability and evaluation infrastructure to continuously improve production
     AI system quality
-  - Travel to client sites as needed
+  - Ship end-to-end agentic solutions in client engagements, from scoping through
+    production
+  - Establish evaluation infrastructure for pod systems so quality is measurable and
+    regressions are caught early
   use_cases:
   - Automating financial workflows for PE-backed portfolio companies
-  - Agentic workflow automation in finance and operations
-  - RAG-powered financial data retrieval and analysis
-  - Evaluation frameworks for AI system quality monitoring
-  - Production-grade AI tools for PE consulting engagements
+  - Agentic AI solutions transforming how PE-backed companies run finance and operations
+  - AI-driven value creation for private equity clients and their portfolio companies
+  - Production-grade AI tools operating in real PE environments
+  - Evaluation and observability infrastructure for production AI systems
   skills:
-    domains: [FP&A systems, 'ERP systems (NetSuite, SAP)', Financial workflow automation]
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LangChain, LangGraph, AutoGen, DSPy, RAG, Agentic Workflows, Prompt Engineering,
-      Tool design, LLM evaluation methodologies]
-    data: [ETL design, Streaming pipelines, Batch pipelines]
-    other: []
-    ops: []
+    languages: [Python, SQL]
+    ml: []
+    other: [NetSuite, SAP, FP&A]
+    ops: [Observability]
+    databases: [NoSQL, Vector Databases]
+    domains: []
     web: []
-    databases: [SQL, NoSQL, Vector Databases]
+    data: [Data Pipelines]
+    genai: [LangChain, LangGraph, AutoGen, DSPy, RAG, Prompt Engineering, Agentic
+        Workflows, Multi-Agent Systems, AI Agents, Function Calling, LLMs, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8787098'
   location: Los Angeles, USA
-  extracted_at: '2026-03-27T13:17:48.963711'
+  extracted_at: '2026-08-16T04:32:18.303095'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

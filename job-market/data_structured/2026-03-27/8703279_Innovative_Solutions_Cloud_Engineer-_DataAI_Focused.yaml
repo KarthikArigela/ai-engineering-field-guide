@@ -1,49 +1,53 @@
 company:
   name: Innovative Solutions
   stage: null
-  focus: AWS cloud solutions and data/AI consulting services
+  focus: Cloud consulting delivering AWS data and AI solutions
 position:
   title: Cloud Engineer- Data/AI Focused
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building production-ready GenAI
-      applications using Amazon Bedrock, implementing RAG
-      pipelines with vector databases, and developing AI agents
-      using LangChain/LlamaIndex. The position requires hands-on
-      experience deploying AI applications from concept to
-      production.
+      The role directly shapes LLM behavior: it designs and builds
+      production GenAI applications on Bedrock with Claude, builds
+      and optimizes RAG pipelines with vector databases, and
+      develops AI agents and multi-agent orchestration with
+      LangChain/LlamaIndex. Since LLM and agent components are
+      central, Step 2 classifies it as ai-first despite the data
+      engineering overlap.
   responsibilities:
-  - Implementing data pipelines using AWS services such as Glue, Lambda, Step Functions,
+  - Implement data pipelines using AWS services including Glue, Lambda, Step Functions,
     and EMR
-  - Creating and maintaining data extraction, transformation, and loading processes
-  - Configuring and optimizing AWS database services including RDS, Aurora, Redshift,
-    and DynamoDB
-  - Designing and building production-ready Generative AI applications using Amazon
-    Bedrock and foundation models
-  - Building and optimizing RAG pipelines with vector databases
-  - Developing AI agents and multi-agent orchestration systems using frameworks like
-    LangChain or LlamaIndex
-  - Documenting technical solutions and providing knowledge transfer to customers
-  - Assisting with proof-of-concept implementations for customer engagements
+  - Configure and optimize AWS database services including RDS, Aurora, Redshift,
+    and DynamoDB, and implement data lakes on S3
+  - Design and build production-ready Generative AI applications using Amazon Bedrock
+    and foundation models such as Anthropic Claude
+  - Build and optimize RAG pipelines with vector databases
+  - Develop AI agents and multi-agent orchestration systems using frameworks like
+    LangChain and LlamaIndex
+  - Write and test SQL queries and stored procedures
+  - Document technical solutions, provide knowledge transfer to customers, and support
+    data governance and security controls
+  - Troubleshoot data pipeline and AI service issues and assist with proof-of-concept
+    implementations for customer engagements
   use_cases:
-  - Customer data insights and analytics
-  - Enterprise AI application development
-  - Intelligent data solutions
-  - RAG-based information retrieval systems
-  - Multi-agent AI orchestration systems
+  - ETL/ELT data pipelines and data lakes on AWS
+  - Cloud data warehousing and database services for analytics
+  - Production Generative AI applications built on foundation models
+  - RAG pipelines using vector databases for grounded retrieval
+  - AI agents and multi-agent orchestration systems
+  - Intelligent data solutions enabling customers to derive insights from their data
   skills:
+    cloud: [AWS, AWS Glue, AWS Lambda, AWS Step Functions, Amazon EMR, AWS S3]
+    languages: [SQL]
+    ml: [Machine Learning]
+    other: [Code Review, Agile]
+    ops: [Infrastructure as Code, Version Control]
+    databases: [Amazon RDS, Amazon Aurora, Redshift, DynamoDB, Vector Databases]
     domains: []
-    languages: [SQL, Python]
-    ml: []
-    cloud: [AWS, AWS Lambda, AWS Step Functions, AWS S3]
-    genai: [Amazon Bedrock, Anthropic API, RAG, LangChain, LlamaIndex, AI Agents,
-      LLMs, Embeddings]
-    data: [AWS Glue, Amazon EMR, Data Pipelines]
-    other: []
-    ops: []
     web: []
-    databases: [Vector Databases, Amazon RDS, Amazon Aurora, Redshift, Amazon DynamoDB]
+    data: [Data Pipelines, Data Lakes, Data Modeling, Data Governance]
+    genai: [AWS Bedrock, Anthropic API, RAG, AI Agents, Agentic Workflows, LangChain,
+      LlamaIndex, Generative AI, LLMs, Embeddings]
   is_customer_facing: true
   is_management: false
 meta:
@@ -57,4 +61,6 @@ meta:
   - Charlotte, USA
   - Philadelphia, USA
   - Washington, USA
-  extracted_at: '2026-03-27T13:52:25.495196'
+  extracted_at: '2026-08-16T04:01:55.378605'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

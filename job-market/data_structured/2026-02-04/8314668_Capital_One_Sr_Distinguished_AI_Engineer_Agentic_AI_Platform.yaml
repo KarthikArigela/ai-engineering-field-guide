@@ -1,53 +1,54 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI-driven personalized
-    customer experiences
+  stage: ''
+  focus: Consumer banking and financial services
 position:
   title: Sr. Distinguished AI Engineer (Agentic AI Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building AI platform
-      capabilities including agent orchestration, multi-agent
-      systems, LLM inference, and optimization techniques for
-      production AI systems. The engineer will directly design,
-      develop, deploy, and support agentic AI systems using
-      LangGraph, PyTorch, and vector databases.
+      The role designs and builds an agentic AI platform — agent
+      orchestration, multi-agent systems, guardrails, agent
+      evaluations, and LLM inference/memory integration into the
+      agent development lifecycle — which directly shapes LLM and
+      agent behavior. Step 2 applies: LLM/agent components are
+      central (LangGraph, agentic systems), so it is ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver next generation AI engineering
-    platform offerings focused on agent orchestration and multi-agent systems
+  - Partner with cross-functional teams of engineers, research scientists, program
+    managers, and product managers to deliver AI engineering platform offerings focused
+    on agent orchestration and multi-agent systems
   - Design, develop, test, deploy, and support AI platform capabilities integrating
-    foundation model training, LLM inference, context, memory, guardrails, and observability
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, LangGraph, and PyTorch
-  - Invent and introduce optimization techniques for agents to improve performance,
-    scalability, cost, latency, and throughput of production AI systems
-  - Contribute to technical vision and long-term roadmap of foundational AI systems
+    foundation model training, LLM inference, context, memory, guardrails, agent evaluations,
+    governance, and observability into the agent development lifecycle
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, LangGraph, and PyTorch
+  - Invent and introduce state-of-the-art optimization techniques for agents to improve
+    scalability, cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Lead and mentor engineering organization while influencing cross-functional stakeholders
+  - Lead and mentor the engineering organization and influence cross-functional stakeholders
+    up to the SVP level
   use_cases:
-  - Informing customers about unusual charges in real-time using AI
-  - Answering customer questions in real-time through AI-powered systems
-  - Creating personalized customer experiences through machine learning
-  - Deploying responsible and reliable AI systems for banking applications
-  - Empowering teams across Capital One to enhance products with AI capabilities in
-    scalable ways
+  - Agent orchestration and multi-agent system platform for enterprise AI development
+  - Agent development lifecycle tooling covering guardrails, evaluations, governance,
+    and observability
+  - Real-time personalized customer experiences in banking
+  - Real-time customer question answering and conversational banking support
+  - Alerting customers to unusual charges and financial anomaly detection
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face]
-    cloud: [AWS]
-    genai: [LangGraph, LLM inference, Agentic Workflows, Multi-Agent Systems, Guardrails,
-      Memory systems, Agent evaluations]
-    data: []
-    other: []
-    ops: []
+    ml: [Hugging Face, PyTorch, Foundation Model Training, Machine Learning]
+    other: [Responsible AI]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LangGraph, Guardrails, Agentic Workflows, Multi-Agent Systems, AI Agents,
+      Memory, Agent Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8314668'
   location: McLean, USA
@@ -56,4 +57,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T12:47:11.514147'
+  extracted_at: '2026-08-15T23:15:18.346414'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

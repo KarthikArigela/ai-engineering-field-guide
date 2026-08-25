@@ -1,48 +1,56 @@
 company:
   name: Speechify
-  stage: Series B
-  focus: Text-to-speech reading accessibility platform
+  stage: null
+  focus: Text-to-speech reading and accessibility products
 position:
   title: AI Infrastructure Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI Infrastructure Engineer role focused on
-      building platforms and services that enable ML engineers and
-      data scientists to train and deploy models. The role
-      involves MLOps tools, CI/CD pipelines, and infrastructure
-      automation rather than building, training, or fine-tuning
-      models directly.
+      The role builds and scales ML training/inference platforms
+      and self-service MLOps tooling so other data scientists and
+      ML engineers can deploy, monitor, and productionize voice
+      models — the deliverable is infrastructure capacity, not
+      model behaviour. The engineer does not shape the models
+      themselves: training, fine-tuning, or the research behind
+      the voice models sits with the researchers they partner
+      with. Serving, hosting, and optimizing infrastructure for
+      models someone else builds is ai-support even though vLLM,
+      Triton, and TensorRT are named.
   responsibilities:
   - Design, implement, and maintain high-performance ML training and inference platforms
-  - Ship MLOps tools that allow ML engineers to deploy models in minutes, not days
-  - Improve scalability, reliability, and cost efficiency of model training and serving
+  - Develop MLOps self-service tools that let ML engineers deploy models in minutes
+  - Optimize scalability, reliability, and cost efficiency of model training and serving
     systems
   - Partner with researchers to turn experimental voice models into production-ready
     systems
   - Establish standards for model versioning, testing, monitoring, and governance
-  - Automate data and model pipelines to reduce manual intervention and speed up experimentation
+  - Automate data and model pipelines to reduce manual intervention and speed experimentation
   use_cases:
-  - Text-to-speech conversion for PDFs, books, documents, websites, and articles
-  - Cross-platform audio generation apps for iOS, Android, Mac, Chrome, and web
-  - Voice synthesis for reading assistance and accessibility
-  - Low-latency audio streaming systems
-  - AI-powered voice model deployment and serving
+  - Text-to-speech conversion of PDFs, books, articles, and websites into audio
+  - Reading accessibility for people with learning differences such as dyslexia and
+    ADD
+  - Production training and serving of experimental voice models
+  - Self-service model deployment and monitoring for ML and data science teams
+  - Low-latency audio and streaming delivery
   skills:
-    domains: []
-    languages: [Python]
-    ml: [TensorFlow, PyTorch, ONNX]
     cloud: [AWS, GCP, Azure]
-    genai: []
-    data: [Airflow, Kafka, Spark Streaming, Flink, feature stores]
+    languages: [Python]
+    ml: [TensorFlow, PyTorch, Model Training]
     other: []
-    ops: [Docker, Kubernetes, CI/CD, Terraform, CloudFormation, Kubeflow, MLflow,
-      Prometheus, Grafana, Datadog, TensorRT, vLLM, Triton]
-    web: []
+    ops: [MLOps, Distributed Systems, Docker, Kubernetes, CI/CD, Terraform, CloudFormation,
+      Kubeflow, MLflow, Model Deployment, Real-Time Inference, Prometheus, Grafana,
+      Datadog, TensorRT, ONNX, vLLM, Triton]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Airflow, Data Pipelines, Feature Stores, Kafka, Spark Streaming, Flink]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7568928'
   location: USA
-  extracted_at: '2026-02-05T11:07:28.090461'
+  extracted_at: '2026-08-15T21:46:14.982774'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,63 @@
 company:
   name: BlackRock
-  stage: Public
-  focus: Asset management and investment technology
+  stage: null
+  focus: |-
+    Asset management and financial technology (Aladdin
+    investment platform)
 position:
   title: Senior Java/AI Engineer (Vice President)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role explicitly requires hands-on experience designing
-      and deploying Generative AI solutions, LLM-powered
-      applications, Agentic AI workflows, RAG architectures, and
-      using AI orchestration frameworks like LangChain, LangGraph,
-      and Semantic Kernel. The engineer will directly build AI-
-      driven compliance, risk management, and regulatory
-      technology platforms.
+      The role requires hands-on experience designing and
+      deploying LLM-powered applications, agentic AI workflows,
+      RAG architectures, and vector search, along with prompt
+      engineering, context engineering, and model evaluation - all
+      activities that directly shape model behavior and output
+      quality. Since LLMs and agents are central to the
+      transformation being led, this is ai-first.
   responsibilities:
   - Drive strategic adoption of AI across compliance workflows, regulatory monitoring,
     reporting, and rule management capabilities
   - Define and execute an AI transformation roadmap aligned with business priorities
     and regulatory requirements
-  - Design and develop next-generation compliance rule evaluation engine and compliance
-    violation management at scale
   - Design highly available, fault-tolerant, cloud-native systems supporting AI-driven
     workloads at enterprise scale
+  - Build the next-generation compliance rule evaluation engine and compliance violation
+    management at scale as a senior individual contributor
   - Contribute to the development of Aladdin's global multi-asset trading platform
-  - Collaborate with product management, compliance, legal, risk, and business stakeholders
-    to define product roadmap
-  - Evaluate emerging AI technologies, foundation models, agent frameworks, and vector
-    databases to determine optimal solutions
-  - Lead and mentor developers, guiding team productivity and fostering an AI-learning
-    culture
+  - Evaluate emerging AI technologies including foundation models, agent frameworks,
+    RAG architectures, and vector databases
+  - Partner with product management, compliance, legal, risk, and business stakeholders
+    to deliver AI-enabled outcomes
+  - Own project priorities, deadlines, and deliverables using Agile methodologies
   use_cases:
-  - AI-driven compliance rule evaluation and violation management
-  - Regulatory monitoring and reporting automation
-  - Knowledge retrieval and intelligent compliance insights using RAG
-  - Agentic AI workflows for regulatory technology
-  - Risk management and predictive analytics for asset management
-  - Developer productivity and operational efficiency improvement through AI
+  - Compliance rule evaluation and violation management for the asset management process
+  - Regulatory monitoring, reporting, and rule management automation
+  - Regulatory insight generation using LLMs, AI agents, and knowledge retrieval
+  - AI-driven developer productivity and operational efficiency improvements for compliance
+    technology
+  - High-throughput rule-based compliance engine processing millions of calculations
+    per day
   skills:
-    genai: [Generative AI, LLMs, AI Agents, Agentic Workflows, RAG, LangChain, LangGraph,
-      Semantic Kernel, Prompt Engineering, Context Engineering, LLM Evaluation]
-    ml: [Model Evaluation, Machine Learning]
-    web: [gRPC, REST APIs, JSON, Microservices]
-    databases: [Vector Databases, Vector Search, NoSQL, Snowflake, Knowledge Graphs]
-    data: []
-    cloud: [Cloud-Native Architecture]
-    ops: [AI Observability]
-    languages: [Java, SQL, Python]
+    cloud: []
+    languages: [Java]
+    ml: [Machine Learning, Model Evaluation]
+    other: [Predictive Analytics, Intelligent Automation, Responsible AI, Test-Driven
+        Development, Concurrent Programming, Message Brokers, Agile]
+    ops: [Distributed Systems, AI Observability]
+    databases: [SQL, NoSQL, SQL Server, Snowflake, Vector Databases, Vector Search,
+      In-Memory Data Stores]
     domains: []
-    other: [Distributed Systems, Responsible AI, AI Governance, Agile]
+    web: [gRPC]
+    data: []
+    genai: [Generative AI, LLMs, AI Agents, Agentic Workflows, RAG, LangChain, LangGraph,
+      Semantic Kernel, Prompt Engineering, Context Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10031712'
   location: New York, USA
-  extracted_at: '2026-07-22T13:24:29.990248'
+  extracted_at: '2026-08-16T16:18:25.473592'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

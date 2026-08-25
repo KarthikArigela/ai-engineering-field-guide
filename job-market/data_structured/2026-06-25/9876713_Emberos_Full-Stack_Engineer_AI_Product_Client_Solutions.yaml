@@ -1,63 +1,64 @@
 company:
   name: Emberos
-  stage: Early-stage (small, fast-moving team)
-  focus: Predictive intelligence for AI-mediated brand visibility
+  stage: null
+  focus: Predictive intelligence for brand visibility in AI
 position:
   title: Full-Stack Engineer (AI Product + Client Solutions)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building LLM orchestration
-      systems, integrating with multiple LLM platforms (ChatGPT,
-      Claude, Grok, etc.), developing agent-based analysis
-      workflows, and designing AI-native commerce experiences.
-      While also full-stack, the core differentiator is hands-on
-      work building and deploying AI/LLM systems at scale, not
-      just infrastructure supporting other AI teams.
+      The role explicitly designs the LLM orchestration layer and
+      develops agent-based analysis workflows that evaluate
+      optimization scenarios and manage cost/latency/quality
+      tradeoffs, which is designing agent flows — shaping per Step
+      1. It also stress-tests optimization strategies and analyzes
+      how changes affect long-term LLM behavior, determining how
+      LLM output quality is measured and optimized. LLMs and
+      agents are central, so ai-first.
   responsibilities:
-  - Develop and extend the Brand Knowledge Graph in Neo4j, modeling how changes propagate
-    across AI visibility and recommendations
-  - Build and maintain LLM platform integrations (ChatGPT, Claude, Grok, Perplexity,
-    DeepSeek) and orchestration systems managing cost, latency, and quality tradeoffs
+  - Develop and extend the Brand Knowledge Graph in Neo4j, modeling how changes to
+    one node propagate across AI visibility and recommendations
+  - Build predictive optimization systems that model how content and strategy changes
+    impact AI visibility outcomes, with feedback loops tracking predicted vs. actual
+    lift
+  - Implement scoring logic including Share-of-Prompt, accuracy measurement, sentiment
+    analysis, and competitor mention detection
+  - Design the LLM orchestration layer to minimize unnecessary LLM calls and manage
+    cost, latency, and quality tradeoffs at scale
+  - Build and maintain integrations with LLM platforms including ChatGPT, Claude,
+    Grok, Perplexity, and DeepSeek
   - Develop agent-based analysis workflows that evaluate multiple optimization scenarios
     in parallel and forecast impact
-  - Build and ship full-stack features across React/TypeScript frontend, Node.js backend,
-    and data layers from concept to production
-  - Design measurement and feedback loops including Share-of-Prompt scoring, accuracy
-    measurement, sentiment analysis, and competitor mention detection
-  - Lead client-facing demos and technical conversations, explaining architecture
-    and AI methodology to non-technical enterprise stakeholders
-  - Own QA processes including test coverage, bug triage, and data integrity maintenance
-    across the platform
-  - Integrate workflow and tracking infrastructure with Jira, Slack, HubSpot, and
-    email systems
+  - 'Ship full-stack features end-to-end: React and TypeScript frontend interfaces,
+    backend systems, and data layers'
+  - Build workflow and tracking infrastructure integrating with Jira, Slack, HubSpot,
+    and email; participate in client calls and demos and own QA processes
   use_cases:
-  - Brand Knowledge Graph modeling how content and strategy changes impact AI visibility
-    outcomes
-  - Predictive optimization of how brands are represented across LLM platforms (ChatGPT,
-    Claude, Grok, Perplexity, DeepSeek)
-  - Agent-based analysis workflows for evaluating optimization scenarios in parallel
-  - Scoring and measurement systems including Share-of-Prompt, sentiment analysis,
-    and competitor mention detection
-  - AI-native commerce experiences enabling merchant transactions inside AI chat interfaces
-  - Enterprise data visualization translating complex graph and model outputs into
-    actionable insights
+  - Predictive intelligence and monitoring of how AI interprets and represents brands
+    at discovery
+  - Brand Knowledge Graph tracking how node-level changes affect AI visibility and
+    recommendations
+  - Share-of-Prompt scoring, accuracy measurement, sentiment analysis, and competitor
+    mention detection
+  - Predictive optimization of content and strategy changes for AI visibility outcomes
+  - Agent-based parallel evaluation of optimization scenarios with impact forecasting
+  - AI-native commerce where merchants transact directly inside AI chat
   skills:
-    domains: []
-    languages: [TypeScript, Python, SQL]
-    ml: [Data science, Recommendation systems, Experimentation frameworks, Sentiment
-        analysis]
     cloud: []
-    genai: [LLMs, Agent-based workflows, OpenAI/ChatGPT API, Anthropic/Claude API,
-      Prompt Engineering]
-    data: []
-    other: [Jira, Slack API, HubSpot]
+    languages: [TypeScript, Node.js]
+    ml: [Sentiment Analysis, Recommendation Systems]
+    other: [Jira, Slack, HubSpot]
     ops: []
-    web: [React, Node.js, REST APIs]
-    databases: [Neo4j, Graph data modeling, Scalable databases]
+    databases: [Neo4j, Knowledge Graphs]
+    domains: []
+    web: [React, APIs]
+    data: []
+    genai: [LLMs, ChatGPT, Anthropic API, Grok, Perplexity, DeepSeek, Agentic Workflows]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9876713'
   location: Los Angeles, USA
-  extracted_at: '2026-06-25T19:53:10.497728'
+  extracted_at: '2026-08-16T15:42:37.961382'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

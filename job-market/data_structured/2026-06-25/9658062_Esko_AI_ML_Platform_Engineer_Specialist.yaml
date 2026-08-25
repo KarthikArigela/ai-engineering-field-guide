@@ -1,57 +1,62 @@
 company:
   name: Esko
-  stage: Public
-  focus: Packaging and printing software and hardware solutions
+  stage: 'Publicly traded (NYSE: VLTO)'
+  focus: Integrated software and hardware for packaging and printing
 position:
   title: AI / ML Platform Engineer Specialist
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building and maintaining the MLOps
-      platform and infrastructure that ENABLES data science and AI
-      teams to work — not on building, training, or deploying
-      models directly. The engineer provides tooling, pipelines,
-      and infrastructure (feature stores, model registries, CI/CD)
-      for other AI/ML practitioners to use. While it involves
-      AI/ML ecosystem knowledge, the core work is platform
-      engineering in support of AI, making it ai-support.
+      This is a platform/infrastructure role: the engineer builds
+      and operates MLOps infrastructure, tooling, and AWS services
+      so that data science and AI teams can train, fine-tune, and
+      deploy models. The person does not themselves write prompts,
+      design retrieval, train models, or judge model output — they
+      deliver capacity, tooling, and enablement, which per the
+      serving/enabling edge case is ai-support even though LLM
+      infrastructure is named.
   responsibilities:
   - Develop, improve, and maintain the MLOps platform to enable scalable, reproducible,
-    and observable ML and generative AI workflows
+    and observable machine learning and generative AI workflows
   - Design and operate core ML infrastructure including feature stores, model registries,
-    CI/CD pipelines, and data pipelines using AWS services
-  - Enable and support AI/ML development teams with best practices, tooling, and technical
-    guidance for training, fine-tuning, and deployment
-  - Drive technology and architecture decisions across the ML stack including frameworks,
-    data processing, orchestration, and monitoring
+    CI/CD pipelines, and data pipelines using AWS services such as SageMaker, ECS/EKS,
+    Lambda, and Step Functions
+  - Enable and support AI and ML development teams with best practices, tooling, and
+    technical guidance for training, fine-tuning, and deployment
+  - Drive technology and architecture decisions across the ML stack, including frameworks,
+    data processing, orchestration, and monitoring tools
   - Collaborate with AI engineering teams to integrate LLMs and generative AI capabilities
     into products through standardized, secure, and auditable infrastructure
-  - Ensure platform scalability, reliability, and compliance using DevOps, infrastructure-as-code,
+  - Ensure platform scalability, reliability, and compliance by applying DevOps, infrastructure-as-code,
     and observability best practices
-  - Evaluate and integrate emerging technologies to enhance developer productivity
-    and operational efficiency
+  - Continuously evaluate and integrate emerging technologies such as LangChain, Ray,
+    MLflow, Kubeflow, and Hugging Face to enhance developer productivity and operational
+    efficiency
   use_cases:
-  - MLOps platform for scalable and reproducible ML and generative AI workflows
-  - ML infrastructure for model training, fine-tuning, and deployment in packaging
-    and printing industry
-  - LLM and generative AI integration into packaging and print products
-  - Automated CI/CD and continuous training pipelines for enterprise AI delivery
+  - MLOps platform enabling scalable machine learning and generative AI workflows
+  - Integration of LLM and generative AI capabilities into packaging industry products
+  - Automated model training, fine-tuning, and deployment infrastructure
+  - Digitization and automation of packaging design and print processes
   skills:
-    domains: []
+    cloud: [AWS, SageMaker, ECS, EKS, AWS Lambda, AWS S3, Step Functions, Vertex AI,
+      Azure ML]
     languages: [Python]
-    ml: [Hugging Face]
-    cloud: [SageMaker, AWS ECS/EKS, AWS Lambda, AWS Step Functions, AWS S3, AWS CloudFormation,
-      Vertex AI, Azure ML, AWS]
-    genai: [LangChain, LlamaIndex, Semantic Kernel, RAG, Prompt Engineering]
-    data: [Ray, Data Pipelines]
+    ml: [Machine Learning, Hugging Face]
     other: []
-    ops: [MLflow, Kubeflow, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions,
-      ArgoCD, AWS CDK, MLOps, LLM model serving, Infrastructure as Code, Observability]
+    ops: [MLOps, MLflow, Kubeflow, Docker, Kubernetes, Terraform, CloudFormation,
+      CI/CD, GitHub Actions, Infrastructure as Code, DevOps, Observability, Model
+        Deployment, Feature Stores, Model Registries, CDK, ArgoCD]
+    databases: [Vector Databases, FAISS, Pinecone, Weaviate]
+    domains: []
     web: []
-    databases: [FAISS, Pinecone, Weaviate, Feature Stores, Model Registries]
+    data: [Data Pipelines, Ray]
+    genai: [RAG, Prompt Orchestration, LangChain, LlamaIndex, Semantic Kernel, LLMs,
+      Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9658062'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:51:10.132790'
+  extracted_at: '2026-08-16T13:55:57.905332'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

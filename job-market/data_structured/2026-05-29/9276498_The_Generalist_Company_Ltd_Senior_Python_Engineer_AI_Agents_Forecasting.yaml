@@ -1,54 +1,60 @@
 company:
   name: The Generalist Company Ltd
-  stage: Early-stage
-  focus: Super-forecasting AI agents for prediction markets
+  stage: Early-stage, well-backed
+  focus: Super-forecasting AI agents for predictive intelligence
 position:
   title: 'Senior Python Engineer: AI Agents & Forecasting'
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building AI agents that can reason,
-      forecast, and operate autonomously. The engineer will design
-      agent orchestration systems, work with LLM frameworks
-      (LangChain/LangGraph), and build the infrastructure for AI
-      agents to ingest data and produce predictions. This is
-      hands-on work building and deploying AI agent systems, not
-      just supporting them.
+      The role designs and builds the agent orchestration pipeline
+      (LangChain/LangGraph, tool calling, agent memory, state
+      management) that lets autonomous LLM forecasting agents
+      ingest data, reason, and produce predictions, which is
+      directly shaping model and agent behaviour. Classical ML
+      (scikit-learn, PyTorch, random forests) appears only as a
+      differentiator, so the core LLM/agent work makes this ai-
+      first.
   responsibilities:
-  - Architect and build the core infrastructure of the Numinous platform for autonomous
-    AI forecasting agents
-  - Design and build the agent orchestration pipeline that allows AI forecasters to
-    ingest data, reason, and produce predictions
-  - Build and optimize the signal pipeline that feeds real-world data into forecasting
+  - Architect and build the core infrastructure of the Numinous platform that enables
+    autonomous AI agents to ingest data, reason, compete, and forecast
+  - Design and build the agent orchestration pipeline allowing AI forecasters to ingest
+    data, reason, and produce predictions
+  - Build and optimise the signal pipeline that feeds real-world data into forecasting
     models
   - Experiment with different forecasting architectures to find optimal approaches
     for linking targets to signals
-  - Unify the different parts of the stack including network, signal layers, and forecasting
-    architectures
-  - Write production-grade Python systems that handle complexity at scale
-  - Contribute to technical strategy alongside founders and help grow the engineering
-    team
+  - Unify the network, signal layers, and forecasting architectures into one coherent
+    system
+  - Write production-grade Python that handles complexity at scale
+  - Contribute to technical strategy alongside the founders
+  - Evaluate and vet technical candidates as the engineering team grows
   use_cases:
-  - Super-forecasting AI agents that predict future events
-  - Predictive intelligence for hedge funds and trading decisions
-  - Prediction markets and forecasting platforms
-  - Government and Fortune 500 decision support
-  - Autonomous systems that compete in live forecasting environments
-  - Real-time signal processing and world model construction
+  - Autonomous super-forecasting AI agents producing predictions for high-stakes decisions
+  - Predictive intelligence sold to hedge funds and traders
+  - Operating in prediction markets
+  - Forecasting targets across commodities, politics, and other verticals
+  - Scoring, ranking, and incentivising AI forecasting agents in live competitive
+    environments
+  - Self-improving world model producing increasingly accurate forecasts
   skills:
-    domains: []
-    languages: [Python, asyncio]
-    ml: [PyTorch, scikit-learn, Random forests, Regression models]
     cloud: [AWS, EC2, AWS Lambda, RDS]
-    genai: [LangChain, LangGraph, LLMs, Agent memory, Function Calling, State management]
-    data: [Dagster, Pipeline orchestration]
-    other: []
-    ops: [Docker]
+    languages: [Python, asyncio]
+    ml: [scikit-learn, PyTorch, Random Forests, Regression Models]
+    other: [Financial Markets, Algo-Trading, Prediction Markets, Statistics, Probability
+        Theory]
+    ops: [Containerized Applications]
+    databases: []
+    domains: []
     web: [APIs]
-    databases: [Database modeling]
+    data: [Dagster, Data Pipelines, Data Modeling]
+    genai: [LangChain, LangGraph, LLMs, AI Agents, Agentic Workflows, Function Calling,
+      Agent Memory, State Management]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9276498'
   location: London, GBR
-  extracted_at: '2026-05-29T08:59:43.093135'
+  extracted_at: '2026-08-16T09:57:40.748148'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

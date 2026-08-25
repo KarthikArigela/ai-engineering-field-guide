@@ -1,0 +1,52 @@
+company:
+  name: Sift Stack
+  stage: null
+  focus: Telemetry data infrastructure for hardware engineering teams
+position:
+  title: Software Engineer, Full Stack (Agentic AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships agentic systems themselves: tool
+      interfaces, context/memory management, compaction,
+      guardrails, evals, and an MCP server. This is shaping model
+      behavior of LLM agents, so it's ai-first.
+  responsibilities:
+  - Talk directly with customers to turn their review workflows into agent capabilities
+  - Design, ship, and operate agentic systems reasoning over large-scale time-series
+    data
+  - Build tool interfaces, sandboxed execution for agent-generated code, context and
+    memory management, and guardrails
+  - Develop and maintain Sift's MCP server for querying telemetry
+  - Build frontend surfaces and APIs powering agentic capabilities; run agents in
+    cloud and on-prem
+  - Build evaluation suites and instrument agent quality, latency, cost, and failure
+    modes
+  - Integrate and assess frontier models across providers
+  use_cases:
+  - AI agents investigating anomalies in hardware telemetry
+  - Automated review of test and flight data for rockets, satellites, and autonomous
+    vehicles
+  - Agent-generated dashboards and analysis scripts for engineering insights
+  - MCP-based telemetry querying for agents and customer AI tools
+  skills:
+    genai: [LLMs, AI Agents, MCP, Prompt Engineering, Guardrails, Context Engineering,
+      LLM Evaluation, Agentic Workflows]
+    ml: []
+    web: [React, Next.js, REST APIs, gRPC, Protobuf, ECharts, Redux]
+    databases: [PostgreSQL]
+    data: [Flink, Apache Arrow, DataFusion, Parquet]
+    cloud: [AWS]
+    ops: [Kubernetes, Docker, Grafana, Prometheus, GitHub Actions, ArgoCD, Linux,
+      Observability]
+    languages: [Go, Python, Rust, TypeScript]
+    domains: []
+    other: [Terragrunt]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10325472'
+  location: Marina del Rey, USA
+  extracted_at: '2026-08-25T09:42:54.151394'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

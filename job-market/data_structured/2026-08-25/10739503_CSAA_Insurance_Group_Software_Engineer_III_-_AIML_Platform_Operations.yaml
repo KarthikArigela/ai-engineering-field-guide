@@ -1,0 +1,64 @@
+company:
+  name: CSAA Insurance Group
+  stage: null
+  focus: Personal lines property and casualty insurance (AAA insurer)
+position:
+  title: Software Engineer III - AI/ML Platform Operations - Remote
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role runs, monitors, and supports AI/ML platforms
+      (Palantir, SageMaker, Bedrock) — serving, observability,
+      incident management, and MLOps. The description explicitly
+      states it is not application development; the engineer does
+      not shape model behavior, prompts, or retrieval themselves
+      (RAG/prompt orchestration are only listed as nice-to-have
+      familiarity). Serving and supporting models built by others
+      is ai-support.
+  responsibilities:
+  - Provide technical leadership for AI/ML platforms including Palantir Foundry, AWS
+    Bedrock, and Amazon SageMaker
+  - Ensure reliability, scalability, performance, security, and operational readiness
+    of production AI workloads
+  - Support deployment, monitoring, maintenance, and lifecycle management of AI/ML
+    and Generative AI services
+  - Design automation, observability, and operational tooling including dashboards,
+    alerts, logging, and runbooks
+  - Enhance CI/CD pipelines, deployment automation, infrastructure-as-code, and model
+    release processes
+  - Serve as escalation point for production incidents, leading root cause analysis
+    and corrective actions
+  - Provide mentorship and operational guidance to engineers and platform teams
+  - Champion modern practices including DevOps, SRE, and AIOps
+  use_cases:
+  - Operational support for enterprise AI and data platforms powering insurance business
+    capabilities
+  - Production deployment, monitoring, and lifecycle management of ML and Generative
+    AI services
+  - Incident management and reliability for AI/ML workloads on cloud infrastructure
+  - Platform governance, SLOs, and AI operational controls for enterprise AI adoption
+  skills:
+    genai: [Generative AI, LLMs, RAG]
+    ml: []
+    web: []
+    databases: []
+    data: [Databricks]
+    cloud: [AWS Bedrock, SageMaker]
+    ops: [MLOps, Model Deployment, Model Monitoring, CI/CD, Jenkins, GitHub Actions,
+      Infrastructure as Code, Observability, Datadog, Grafana, Prometheus, CloudWatch,
+      OpenTelemetry, DevOps, Splunk]
+    languages: [Python, Java, JavaScript, TypeScript, Node.js]
+    domains: []
+    other: [Palantir Foundry, Splunk, Site Reliability Engineering, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10739503'
+  location: USA
+  locations:
+  - USA
+  - Home Junction, USA
+  remote: true
+  extracted_at: '2026-08-25T11:34:05.779782'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

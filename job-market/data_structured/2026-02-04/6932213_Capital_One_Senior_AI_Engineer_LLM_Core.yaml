@@ -1,48 +1,50 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI/ML
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior AI Engineer (LLM Core)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work directly with LLM systems
-      including foundation model training, large language model
-      inference, guardrails implementation, and state-of-the-art
-      LLM optimization techniques. The engineer will build,
-      deploy, and optimize production AI systems focused on
-      scalability, cost, latency, and throughput of LLMs.
+      The role directly shapes model behaviour: it covers
+      foundation model training, LLM inference optimization,
+      guardrails, and model evaluation, all of which are shaping
+      activities. LLM components are central ("LLM Core"), so Step
+      2 yields ai-first rather than ml-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that change
-    how associates work and customers interact with Capital One
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, large language model inference, similarity search, guardrails,
-    model evaluation, experimentation, governance, and observability
-  - Leverage a broad stack of Open Source and SaaS AI technologies such as AWS Ultraclusters,
-    Huggingface, VectorDBs, Nemo Guardrails, PyTorch, and more
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, latency, and throughput of large scale production AI systems
-  - Contribute to the technical vision and long term roadmap of foundational AI systems
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Apply novel techniques from research literature to production systems
   use_cases:
-  - Informing customers about unusual charges in real time
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges and fraud alerts
   - Answering customer questions in real time
-  - Creating real-time personalized customer experiences
-  - Enhancing banking products with transformative AI capabilities
-  - Empowering associates with AI-powered tools to improve work processes
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - Proprietary AI models and platforms enabling teams across the company to add AI
+    to their products
   skills:
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
+    other: []
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
     domains: []
-    languages: [Python, C++, Java, Go, Scala, SQL]
-    ml: [PyTorch, Hugging Face, Model Training, Fine-Tuning, CUDA]
-    cloud: [AWS, AWS Bedrock, SageMaker]
-    genai: [OpenAI/Anthropic APIs, Prompt Engineering, RAG, Function Calling, LoRA]
-    data: []
-    other: [Nemo Guardrails]
-    ops: [Docker, Kubernetes, CI/CD, LangSmith, Arize, vLLM, Triton, TensorRT, MLflow,
-      inference/serving]
     web: []
-    databases: [Pinecone, Weaviate, Chroma, Qdrant, Milvus, FAISS, pgvector]
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +56,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T10:02:00.263282'
+  extracted_at: '2026-08-15T21:09:50.645754'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

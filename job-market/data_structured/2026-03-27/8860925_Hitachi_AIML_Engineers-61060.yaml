@@ -1,47 +1,53 @@
 company:
   name: Hitachi
-  stage: Public
+  stage: null
   focus: Global digital solutions and transformation services
 position:
   title: AI/ML Engineer(s)-61060
   ai_type:
     type: ml-first
     reasoning: |-
-      This role focuses on designing, developing, and training
-      ML/DL models using traditional frameworks (TensorFlow,
-      PyTorch, scikit-learn) with no mention of LLMs, agents, or
-      GenAI technologies. The position emphasizes
-      supervised/unsupervised/reinforcement learning and
-      production deployment rather than LLM-based systems.
+      The role designs, develops, and trains machine learning and
+      deep learning models (TensorFlow, PyTorch, scikit-learn),
+      which is clearly shaping model behaviour. No LLM, agent,
+      prompt, or retrieval components are mentioned anywhere - the
+      frameworks and techniques named (supervised, unsupervised,
+      reinforcement learning) are all classical ML, so the
+      classification is ml-first.
   responsibilities:
-  - Design, develop, and train machine learning and deep learning models using TensorFlow,
-    PyTorch, and scikit-learn
+  - Design, develop, and train machine learning and deep learning models using frameworks
+    such as TensorFlow, PyTorch, and scikit-learn
   - Apply supervised, unsupervised, and reinforcement learning techniques to address
     diverse business challenges
   - Perform feature engineering and data processing to enhance model performance
-  - Deploy machine learning models into production environments
-  - Integrate models with existing software architectures using CI/CD pipelines
-  - Implement containerization (Docker, Kubernetes) for ML deployments
-  - Build and manage ETL pipelines for data processing
+  - Deploy machine learning models into production environments, ensuring seamless
+    integration with existing software architectures
+  - Use CI/CD pipelines, containerization (Docker, Kubernetes), and cloud platforms
+    (AWS or Azure) for deployment
+  - Apply MLOps practices across the model lifecycle
+  - Build and maintain ETL workflows for data preparation
   use_cases:
-  - Addressing diverse business challenges through ML/DL solutions
-  - Feature engineering and data processing for model optimization
-  - Production ML model deployment and integration
-  - Cloud-based ML infrastructure on AWS or Azure
+  - Machine learning and deep learning models for diverse business challenges
+  - Production ML deployment integrated with existing enterprise software architectures
+  - Feature engineering and data processing to improve model performance
+  - Data-driven transformation solutions for enterprise customers
   skills:
-    domains: []
-    languages: [Python]
-    ml: [TensorFlow, PyTorch, scikit-learn]
     cloud: [AWS, Azure]
-    genai: []
-    data: [Data Pipelines]
+    languages: [Python]
+    ml: [TensorFlow, PyTorch, scikit-learn, Machine Learning, Deep Learning, Reinforcement
+        Learning, Feature Engineering]
     other: []
-    ops: [Docker, Kubernetes, CI/CD, MLOps]
-    web: []
+    ops: [Docker, Kubernetes, CI/CD, MLOps, Model Deployment]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8860925'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T13:12:16.109560'
+  extracted_at: '2026-08-16T05:17:56.741289'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

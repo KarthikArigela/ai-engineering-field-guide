@@ -1,52 +1,55 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Python Developer (Data Engineering/AI) – Assistant Vice President
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role involves building NLP pipelines using BERT, Flair,
-      and LLM-based models, with hands-on work on ML model
-      deployment and inference APIs. The candidate is actively
-      implementing AI/ML models and serving them via Flask APIs,
-      not just providing infrastructure support.
+      The core deliverables are data engineering: ETL jobs,
+      Parquet/JSON processing, job scheduling, monitoring, and
+      CI/CD. NLP/LLM models are integrated into data pipelines and
+      served via Flask APIs with MLflow tracking, with no evidence
+      of prompt engineering, retrieval design, fine-tuning, or
+      evals (model training is only a nice-to-have). Per Step 3,
+      this is ai-support.
   responsibilities:
-  - Develop and optimize ETL/data processing jobs using PySpark, Pandas, and PyArrow
-    for large-scale data processing
-  - Build and maintain NLP pipelines using Flair, BERT, and LLM-based models for AI
-    and analytics use cases
-  - Create Flask-based APIs for model inference and service integrations with caching
-    via Redis
-  - Implement data parsing and serialization with high-performance JSON libraries
-    (json, ujson, orjson)
-  - Manage and deploy ML models using MLflow for tracking, versioning, and lifecycle
-    management
+  - Develop and optimize ETL and data processing jobs using PySpark, Pandas, PyArrow,
+    and Parquet formats
+  - Build and maintain NLP pipelines using Flair, BERT, and LLM-based models
+  - Develop scalable ingestion and data transformation pipelines for AI and analytics
+    use cases
+  - Build and maintain Flask-based APIs for model inference and service integrations
+  - Manage and deploy ML models using MLflow for tracking and versioning
   - Support CI/CD workflows using GitHub, LightSpeed Enterprise, and deployment pipelines
-  - Create and maintain Autosys JILs for job scheduling and automation tasks
+  - Create and maintain AutoSys JILs for job scheduling and monitor application health
+    using ITRS Geneos
+  - Write unit tests and improve automation test coverage using PyTest and unittest
   use_cases:
-  - NLP text processing pipelines using BERT, Flair, and LLM-based models for financial
-    data analysis
-  - Large-scale data ingestion and transformation pipelines for AI/analytics workloads
-  - Model inference APIs serving NLP/ML predictions to internal applications
-  - ETL processing of financial data using distributed frameworks (PySpark) and Parquet
-    storage
-  - Automated job scheduling for data pipeline orchestration in enterprise environment
+  - Large-scale ETL and data processing for AI and analytics use cases
+  - NLP pipelines for text cleaning, parsing, and preprocessing
+  - Model inference services exposed through Flask APIs
+  - ML model tracking and deployment with MLflow
+  - Automated job scheduling and system monitoring for enterprise data applications
   skills:
-    domains: []
-    languages: [Python, PyTest]
-    ml: [Flair, BERT, Hugging Face, PyTorch, TensorFlow]
-    cloud: [AWS, boto3]
-    genai: []
-    data: [PySpark, Pandas, PyArrow, Airflow, Prefect, Polars, Dask, Parquet]
-    other: []
-    ops: [MLflow, Git, CI/CD, Linux, Docker, Kubernetes]
-    web: [Flask, FastAPI, REST APIs]
+    cloud: [AWS, ECS]
+    languages: [Python]
+    ml: [Flair, BERT, Transformers, PyTorch, TensorFlow]
+    other: [Regular Expressions]
+    ops: [MLflow, CI/CD, GitHub, Linux, Shell Scripting, AutoSys, ITRS Geneos, PyTest,
+      Docker, Kubernetes]
     databases: [Redis]
+    domains: [NLP]
+    web: [Flask, FastAPI, REST APIs, JSON, Microservices]
+    data: [PySpark, Pandas, PyArrow, Parquet, Data Pipelines, Data Engineering, Polars,
+      Dask, Airflow, Prefect]
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9248993'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:57:13.943725'
+  extracted_at: '2026-08-16T09:49:41.697404'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

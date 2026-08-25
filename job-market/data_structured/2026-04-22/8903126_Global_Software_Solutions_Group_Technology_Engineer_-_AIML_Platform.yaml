@@ -1,53 +1,59 @@
 company:
   name: Global Software Solutions Group
-  stage: Unknown
-  focus: Enterprise software solutions and AI platform engineering
+  stage: ''
+  focus: Global enterprise software solutions and IT services
 position:
   title: Technology Engineer - AI/ML Platform
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role directly involves deploying and optimizing AI
-      inference engines (Triton, vLLM), leading model lifecycle
-      management, collaborating on GenAI/LLM/Agentic AI solutions,
-      and building AI platforms on AWS (SageMaker, Bedrock). The
-      engineer is hands-on with model serving, inference
-      optimization, and GenAI infrastructure — core AI/ML systems
-      work, not just support infrastructure.
+      The role builds and operates AI/ML infrastructure -
+      containerized platforms, inference serving via Triton and
+      vLLM, monitoring, and CI/CD - rather than shaping model
+      behaviour. GenAI/LLM work appears only as collaboration on
+      projects, with no prompt design, retrieval, agent design, or
+      model training owned by this role. Per the serving edge
+      case, hosting and scaling models others build is ai-support
+      even when vLLM and Triton are named.
   responsibilities:
-  - Design, build, and maintain containerized AI/ML applications using OpenShift,
-    Kubernetes, and Helm Charts
+  - Design, build, and maintain containerized applications using OpenShift, OpenShift
+    AI, Kubernetes, and Helm Charts
   - Deploy and optimize AI inference engines such as Triton Inference Server and vLLM
     for high-performance model serving
   - Lead end-to-end model lifecycle management including deployment, monitoring, scaling,
-    and retraining workflows
-  - Implement monitoring, logging, and alerting systems using Prometheus and Grafana
-  - Collaborate on GenAI, LLM-based, and Agentic AI solution projects
-  - Build and automate CI/CD pipelines using Jenkins, Groovy, Ansible, and Terraform
-  - Architect and manage AI/ML solutions on AWS leveraging SageMaker and Bedrock
-  - Contribute to AI platform architecture design, roadmap, and strategic technical
-    decisions
+    and retraining workflows, with observability via Prometheus and Grafana
+  - Collaborate on GenAI and LLM-based projects, including Agentic AI solutions
+  - Build and automate CI/CD pipelines and internal tooling using Jenkins, Groovy,
+    Ansible, Terraform, and Python
+  - Architect and manage AI/ML solutions on AWS, leveraging services like SageMaker
+    and Bedrock
+  - Build and enhance AI platforms across on-premise and cloud environments, ensuring
+    scalability, fault tolerance, and performance
+  - Contribute to architecture design, platform roadmap, and strategic technical decisions
   use_cases:
-  - High-performance model serving and inference at enterprise scale
-  - GenAI and LLM-based application deployment
-  - Agentic AI solution development and deployment
-  - Enterprise AI platform engineering across hybrid cloud environments
-  - Automated model lifecycle management and retraining workflows
+  - High-performance AI model serving and inference at scale
+  - GenAI and LLM-based applications, including Agentic AI solutions
+  - Enterprise AI/ML platforms spanning on-premise and cloud environments
+  - Automated model lifecycle management (deployment, monitoring, scaling, retraining)
+  - Large-scale enterprise AI deployments
   skills:
-    domains: []
-    languages: [Groovy, Python]
-    ml: [GPU acceleration]
-    cloud: [AWS, SageMaker, AWS Bedrock]
-    genai: [GenAI/LLM, AI Agents]
-    data: []
+    cloud: [OpenShift AI, Cloud-Native Architecture, Hybrid Cloud, AWS, SageMaker,
+      AWS Bedrock]
+    languages: [Python, Groovy]
+    ml: [GPU Acceleration]
     other: []
-    ops: [OpenShift, OpenShift AI, Kubernetes, Helm Charts, Triton, vLLM, Prometheus,
-      Grafana, Jenkins, Ansible, Terraform, CI/CD, Docker]
-    web: [Microservices]
+    ops: [MLOps, Kubernetes, OpenShift, Helm, Triton, vLLM, Model Deployment, Prometheus,
+      Grafana, Jenkins, Ansible, Terraform, CI/CD, Distributed Systems]
     databases: []
+    domains: []
+    web: [Microservices]
+    data: []
+    genai: [Generative AI, LLMs, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8903126'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T12:28:11.430006'
+  extracted_at: '2026-08-16T06:03:33.900276'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,54 +1,55 @@
 company:
   name: Uniphore
-  stage: Late-stage / Established
-  focus: B2B AI-native enterprise platform for customer experience
+  stage: null
+  focus: Enterprise multimodal AI and customer experience platform
 position:
   title: Principal Software Engineer (Java/Go with AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience architecting and
-      integrating LLM-powered systems, building RAG pipelines,
-      working with agentic frameworks (LangChain, LangGraph,
-      crewAI), designing multi-agent systems, and implementing
-      vector search at scale. These are core AI/LLM building
-      activities, placing this squarely in the ai-first category.
+      The role explicitly requires architecting and integrating
+      LLM-powered systems, including RAG pipelines, vector search
+      at scale, agentic frameworks (LangChain, LangGraph, CrewAI),
+      and designing multi-agent systems — all activities that
+      shape model behavior. LLMs and agents are central to the
+      work, so it is ai-first despite the platform-engineering
+      title.
   responsibilities:
   - Own and evolve the architecture of large-scale, distributed, enterprise-grade
     SaaS platforms
   - Drive technical vision, design principles, and architectural standards across
-    teams
+    multiple teams
   - Lead the design and implementation of complex, high-impact systems and services
-    including LLM-powered and agentic systems
   - Partner with product, platform, and engineering leadership to align technical
     solutions with business objectives
+  - Review and approve critical technical designs, providing guidance on trade-offs,
+    scalability, performance, and reliability
   - Remain hands-on by contributing to core components, prototypes, and high-risk
-    or high-complexity areas including RAG pipelines and multi-agent architectures
+    or high-complexity areas
   - Establish and enforce best practices for code quality, testing, security, and
     operational excellence
-  - Mentor and guide senior and staff engineers, raising the overall technical bar
-    of the organization
-  - Influence Agile execution, release planning, and cross-team dependencies in multiregion
-    environments
+  - Mentor senior and staff engineers and influence Agile execution across multiregion
+    teams
   use_cases:
-  - Enterprise customer experience platform powered by Generative AI, Knowledge AI,
-    and Emotion AI
-  - Multimodal AI system capturing and analyzing voice, video, and text data
-  - RAG pipelines and vector search for enterprise knowledge retrieval at scale
-  - Multi-agent systems using agentic frameworks for workflow automation
-  - LLM-powered co-pilot for guiding enterprise customer and employee interactions
-  - AI-driven service level management with observability, tracing, and safety guardrails
+  - Enterprise AI platform combining Generative AI, Knowledge AI, Emotion AI, and
+    workflow automation
+  - Multimodal capture and analysis of voice, video, and text customer data
+  - Customer and employee experience optimization across enterprise contact points
+  - LLM-powered systems with RAG pipelines and vector search at scale
+  - Multi-agent systems built with agentic frameworks for enterprise automation
   skills:
+    cloud: []
+    languages: [Java, Python, Go, Rust, SQL]
+    ml: []
+    other: [Agile, System Design, Data Structures and Algorithms]
+    ops: [MLOps, LLMOps, Linux, Observability, Distributed Systems]
+    databases: [PostgreSQL, MongoDB, Redis, ClickHouse, NoSQL, Vector Databases, Graph
+        Databases, Time-Series Databases]
     domains: []
-    languages: [Java, Python, Go, Rust]
-    ml: [LoRA, LLM fine-tuning]
-    cloud: [Cloud-native deployments]
-    genai: [MCP, RAG, LangChain, LangGraph, CrewAI, Multi-Agent Systems]
+    web: [REST, WebSockets, gRPC, Microservices, APIs]
     data: [Kafka]
-    other: [Distributed Systems, Microservices]
-    ops: [LLM observability, MLOps/LLMOps]
-    web: [REST APIs, gRPC, WebSockets]
-    databases: [PostgreSQL, MongoDB, Vector Databases, Redis, ClickHouse]
+    genai: [MCP, LLMs, RAG, Vector Search, LangChain, LangGraph, CrewAI, Multi-Agent
+        Systems, Fine-Tuning, LoRA, Instruction Tuning, LLM Evaluation, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +58,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-04-22T14:13:34.019757'
+  extracted_at: '2026-08-16T05:42:10.292742'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

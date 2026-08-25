@@ -1,0 +1,61 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior and output quality:
+      foundation model training, LLM inference optimization,
+      guardrails, model evaluation, and similarity search are all
+      named responsibilities. Because the primary target is LLMs
+      and foundation models rather than classical ML, this is ai-
+      first.
+  responsibilities:
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
+    VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+    at Capital One
+  - Deploy scalable and responsible AI solutions on cloud platforms
+  use_cases:
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time
+  - AI-powered tools that change how associates work
+  - Foundational AI platforms enabling teams across the company to enhance products
+    with AI
+  skills:
+    genai: [LLMs, Guardrails, NeMo Guardrails]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [LLM Inference, Observability]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9535946'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - San Jose, USA
+  - New York, USA
+  extracted_at: '2026-08-16T12:21:06.350615'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

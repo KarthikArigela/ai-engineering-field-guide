@@ -1,0 +1,51 @@
+company:
+  name: Calliere
+  stage: null
+  focus: AI consulting, venture building, and private equity
+position:
+  title: 'Intermediate Client-Embedded AI Solutions Engineer (aka: FDE)'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The engineer designs AI-driven workflows themselves: prompt
+      design, retrieval/grounding, model selection, guardrails and
+      fallback logic, which is shaping LLM behavior. Deployed at
+      client sites as a forward-deployed engineer, which remains
+      ai-first.
+  responsibilities:
+  - Join discovery sessions in client environments to map workflows and surface constraints
+  - Design and build AI-driven workflows including prompt design, retrieval/grounding,
+    model selection, and guardrails
+  - Prototype automations using no-code/low-code tools plus Python or JavaScript scripting
+  - Harden prototypes to production grade with error handling, idempotency, logging,
+    monitoring, and access control
+  - Handle sensitive data (secrets, PII) per client and internal security requirements
+  - Make and document scoped technical tradeoffs, escalating bigger architectural
+    decisions
+  - Collaborate with platform engineers on shared tooling and feed reusable patterns
+    back to the platform
+  - Build trust directly with client working teams
+  use_cases:
+  - Client-embedded AI workflow automation and integrations
+  - Retrieval-grounded AI workflows with guardrails for business operations
+  - Automating operations inside client organizations (including professional services)
+  - Enterprise system integrations (CRM, ERP, ITSM, HRIS) via API
+  skills:
+    genai: [Prompt Engineering, RAG, Guardrails, LLMs, AI Agents]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Monitoring]
+    languages: [Python, JavaScript]
+    domains: []
+    other: [No-Code/Low-Code Automation, Workflow Automation]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10682337'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:14:43.727593'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

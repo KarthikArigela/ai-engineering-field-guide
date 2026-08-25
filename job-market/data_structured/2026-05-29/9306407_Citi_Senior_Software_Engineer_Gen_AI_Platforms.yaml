@@ -1,62 +1,57 @@
 company:
   name: Citi
-  stage: Public
-  focus: |-
-    Global bank providing financial services and banking
-    products
+  stage: ''
+  focus: Global banking and financial services technology
 position:
   title: Senior Software Engineer –Gen AI Platforms
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role focuses on building platforms, infrastructure, and
-      tooling (CLIs, SDKs, runtimes, control planes, sandboxing
-      systems) that enable others to use GenAI capabilities at
-      Citi. While the role involves "architecting" GenAI
-      applications and understanding RAG architectures, the
-      primary responsibilities are building distributed systems,
-      microservices, and enterprise-grade AI platforms that
-      support AI work rather than directly training, fine-tuning,
-      or deploying models themselves. The heavy emphasis on Go,
-      Kubernetes, OpenShift, MongoDB/Redis, and general
-      distributed systems engineering indicates this is an
-      infrastructure/platform engineering role supporting AI
-      initiatives.
+      The role builds Citi's core Generative AI platform and
+      explicitly asks for shaping work: systematic evaluation of
+      LLM behaviours at scale, RAG architectures with embeddings
+      and vector stores, and AI safety/guardrail implementations.
+      Since LLMs (Claude/Gemini/proprietary) and retrieval are the
+      targets of the work, this is ai-first, despite the heavy
+      platform/infrastructure engineering focus.
   responsibilities:
-  - Build scaled, robust services and platforms centered around generative AI, including
-    CLIs, SDKs, and runtimes
+  - Build scaled, robust generative AI services and platforms, including CLIs, SDKs,
+    runtimes and more
   - Drive architectural vision and lead the 0-1 build of foundational, enterprise-grade
     AI platforms and products
-  - Design and build high-quality, highly reliable, and secure distributed systems
-    with developer and user experience at the center
-  - Continually iterate and scale Generative AI products to handle massive throughput
-    for internal customers
+  - Design and build highly reliable, secure distributed systems with developer and
+    user experience at the center
+  - Define strategic technical direction for Generative AI across the entire bank,
+    creating firsts in the GenAI space
+  - Continually iterate and scale GenAI products to handle massive throughput for
+    internal customers
   - Drive technical alignment across multiple engineering organizations to deliver
     cohesive AI capabilities
-  - Design control planes, sandboxing systems for AI experimentation, and manage large-scale
-    vector stores and search algorithms
+  - Contribute to both engineering and research, bridging the gap between the two
   use_cases:
-  - Enterprise-grade generative AI platforms for banking applications
-  - Internal AI capabilities platform serving Citi's engineering teams
-  - Control planes and sandboxing systems for safe AI experimentation
-  - Vector stores and search algorithms for AI-powered banking solutions
-  - AI safety and guardrail implementations for financial services
-  - Distributed systems supporting generative AI at planetary scale
+  - Enterprise generative AI platform serving the entire bank at planetary scale
+  - Developer tooling for AI capabilities including CLIs, SDKs and runtimes
+  - AI experimentation infrastructure including control planes and sandboxing systems
+  - Large-scale vector stores and search supporting retrieval over enterprise data
+  - High-throughput GenAI products serving internal Citi customers
   skills:
-    domains: []
-    languages: [Go, Python, TypeScript]
-    ml: []
     cloud: [AWS S3]
-    genai: [Anthropic API, Gemini, RAG, AI safety/guardrails]
-    data: [Large-scale ETL, Data Pipelines]
-    other: []
-    ops: [OpenShift, Kubernetes, Vault, GitOps, CI/CD, Prometheus, Grafana, ELK, Zero-trust
-        security]
-    web: [React 19+, REST, gRPC, WebSockets, OAuth, JWT]
+    languages: [Go, Python, TypeScript]
+    ml: [Machine Learning]
+    other: [Zero Trust, Bug Bounty, Responsible Disclosure]
+    ops: [Kubernetes, OpenShift, Vault, GitOps, CI/CD, Prometheus, Grafana, ELK Stack,
+      Gatekeeper, Distributed Systems]
     databases: [MongoDB, Redis, Vector Databases]
+    domains: []
+    web: [Microservices, React, REST, gRPC, WebSockets, OAuth, JWT]
+    data: [Data Pipelines]
+    genai: [Generative AI, LLMs, Anthropic API, Gemini, Embeddings, RAG, Guardrails,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9306407'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:01:38.407501'
+  extracted_at: '2026-08-16T10:12:06.616497'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

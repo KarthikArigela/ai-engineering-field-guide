@@ -1,0 +1,56 @@
+company:
+  name: Cerebras Systems Inc.
+  stage: null
+  focus: AI chip and ultra-fast inference hardware
+position:
+  title: AI Inference Core - Software Integration Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role integrates and validates software components across
+      the inference stack (runtime, compiler, kernels, hardware)
+      for inference serving infrastructure. It does not shape
+      model behavior through prompts, retrieval, training, or
+      evals—the deliverable is integration, capacity, and
+      correctness of serving infrastructure, not model output
+      quality.
+  responsibilities:
+  - Turn new inference ideas and features into integrated, working capabilities across
+    the Cerebras platform
+  - Integrate and validate software components spanning AI frameworks, runtime, compiler,
+    kernels, distributed systems, and hardware
+  - Drive cross-component projects of high complexity from problem definition through
+    integration, validation, and release readiness
+  - Collaborate with software and hardware engineers on co-design trade-offs and system-level
+    issues
+  - Investigate and debug failures across large-scale AI workloads, distributed software,
+    infrastructure, and hardware boundaries
+  - Identify bottlenecks, failure modes, edge cases, and integration gaps affecting
+    inference correctness, performance, or delivery
+  - Capture lessons from urgent integration work to improve future automation, diagnostics,
+    and practices
+  use_cases:
+  - High-speed AI inference on custom wafer-scale hardware
+  - Inference stack integration across compilers, runtimes, kernels, and hardware
+  - Serving LLM and multimodal workloads at scale
+  - Debugging large-scale distributed AI compute clusters
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: [Microservices]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Model Deployment, Observability, Distributed Systems]
+    languages: [Python, C++, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10574425'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:45:43.490796'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

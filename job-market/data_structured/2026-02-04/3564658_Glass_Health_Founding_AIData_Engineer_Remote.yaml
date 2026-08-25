@@ -1,51 +1,54 @@
 company:
   name: Glass Health
-  stage: Seed (raised $6.5M including $5M seed, planning Series A)
-  focus: AI-powered clinical decision support for healthcare
+  stage: Seed stage, raised $6.5M including $5M seed round
+  focus: AI-powered clinical decision support for physicians
 position:
   title: Founding AI/Data Engineer (Remote)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves owning the development of user-facing
-      generative AI features end-to-end and working with LLMs
-      (OpenAI & similar) and RAG systems. The engineer will
-      directly build and deploy AI capabilities for clinical
-      decision support, not just support infrastructure for AI
-      work.
+      The role owns user-facing generative AI features end-to-end
+      and builds the ELT+RAG setup that answers specialist medical
+      queries over millions of articles using OpenAI and similar
+      LLMs. Designing retrieval/RAG and shaping LLM-driven product
+      behaviour is Step 1 shaping, and an LLM is the target model,
+      so it is ai-first.
   responsibilities:
-  - Design and build development and production platforms powering new AI products
-    with reliability and security
-  - Own end-to-end development of user-facing generative AI features and product experiences
+  - Own the development of new user-facing generative AI features and product experiences
+    end-to-end
+  - Build the ELT and RAG setup that answers specialist user queries using millions
+    of compiled medical articles
+  - Design and build the development and production platforms powering new products
+    with reliability and security at scale
   - Partner with researchers, engineers, product managers, and designers to bring
-    new AI features to market
-  - Accelerate engineering productivity by building excellent tooling and systems
-    for the team
-  - Build and maintain ELT and RAG systems to answer specialist medical queries using
-    millions of processed articles
-  - Participate in on-call rotation to ensure system reliability and respond to critical
-    incidents
+    new features and research capabilities to the world
+  - Accelerate engineering productivity with excellent tooling and systems
+  - Participate in an on-call rotation to respond to critical incidents and maintain
+    system reliability
   use_cases:
-  - AI-powered clinical decision support providing real-time suggestions and insights
-    to physicians
-  - Differential diagnosis (DDx) generation to increase diagnostic accuracy
-  - Evidence-based clinical plan generation and recommendations
-  - Medical literature search and retrieval using RAG over millions of processed articles
-  - AI clinical note generation and documentation assistance
+  - AI clinical decision support (CDS) providing real-time suggestions and insights
+    to doctors
+  - RAG-based answering of specialist clinical queries over millions of processed
+    medical articles
+  - Diagnostic accuracy tools such as DDx and Clinical Plan generation
+  - Evidence-based medicine support for physicians and physicians-in-training
+  - Reducing clinician burnout and improving patient outcomes
   skills:
-    domains: []
+    cloud: [GCP]
     languages: [Python, TypeScript]
     ml: []
-    cloud: [GCP]
-    genai: [OpenAI API, RAG]
-    data: [Data Pipelines]
-    other: []
+    other: [HIPAA Compliance, EHR]
     ops: [Docker]
-    web: [Django, React]
     databases: [PostgreSQL]
+    domains: []
+    web: [Django, React]
+    data: [Data Pipelines]
+    genai: [LLMs, OpenAI API, RAG, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '3564658'
   location: USA
-  extracted_at: '2026-02-05T09:34:33.397428'
+  extracted_at: '2026-08-15T20:54:13.845103'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

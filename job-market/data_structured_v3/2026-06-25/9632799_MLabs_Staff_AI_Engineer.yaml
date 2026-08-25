@@ -1,0 +1,68 @@
+company:
+  name: MLabs
+  stage: null
+  focus: |-
+    Autonomous trading agent runtime for high-frequency
+    financial markets
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behaviour directly: fine-tuning
+      domain-specific LLMs (PEFT/LoRA), building evaluation
+      frameworks for model/signal output quality, designing multi-
+      agent fleet coordination, and deciding between prompting vs.
+      domain-specific training. It shapes both LLM components
+      (external LLMs, fine-tuned models) and classical ML
+      (reinforcement/online learning), which makes it ai-first.
+  responsibilities:
+  - Design and implement feedback loops connecting trade outcomes to strategy improvement
+    across signal selection, risk parameters, position sizing, and timing
+  - Build evaluation frameworks that quantify which signals and market conditions
+    predict profitable trades versus noise
+  - Develop automated strategy generation systems that explore new configurations,
+    backtest them against real fleet data, and surface deployment candidates
+  - Build mechanisms to detect shifts in market conditions and adapt fleet behavior
+    in real time
+  - Create higher-order monitoring agents to catch configuration errors and performance
+    degradation across concurrent agents
+  - Decompose trade performance into component drivers and manage concentration risk
+    and capital allocation across the fleet
+  - Evaluate hosting strategies ranging from proxied external LLMs to fine-tuned domain-specific
+    models and build the training pipelines to support them
+  - Build the telemetry and data capture layer and optimize inference for many concurrent
+    agents with structured, cost-efficient decision outputs
+  use_cases:
+  - Autonomous trading agent fleet that learns from real-time market outcomes
+  - Signal and market-condition evaluation to separate profitable predictors from
+    noise
+  - Automated strategy generation, backtesting, and deployment candidate surfacing
+  - Real-time market regime detection and fleet behavior adaptation
+  - Fleet-wide monitoring, performance attribution, and concentration risk management
+  - Self-hosted, fine-tuned domain-specific LLM inference at scale for concurrent
+    trading agents
+  skills:
+    genai: [LLMs, Fine-Tuning, PEFT, LoRA, AI Agents, Multi-Agent Systems]
+    ml: [Machine Learning, Reinforcement Learning]
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: []
+    ops: [vLLM, TGI, Distributed Systems]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: [Backtesting, Signal Generation, Alpha Research, Portfolio Optimization]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9632799'
+  location: USA
+  locations:
+  - USA
+  - CAN
+  - New York, USA
+  remote: true
+  extracted_at: '2026-08-16T13:25:22.162529'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

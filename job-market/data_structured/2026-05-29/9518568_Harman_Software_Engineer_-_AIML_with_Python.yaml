@@ -1,54 +1,56 @@
 company:
   name: Harman
-  stage: Public
-  focus: |-
-    Automotive technology, audio systems, and connected car
-    solutions
+  stage: null
+  focus: Automotive audio and connected car technology
 position:
   title: Software Engineer - AI/ML with Python
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      The role requires designing, developing, training, and
-      deploying Machine Learning and AI models for real-world
-      applications. The position involves hands-on model building,
-      end-to-end ML pipeline construction, and direct model
-      deployment - all characteristic of ai-first roles working
-      directly ON AI systems.
+      The role designs, trains, validates, and deploys ML models
+      themselves, which is shaping model behaviour. No LLM,
+      prompt, RAG, agent, or generative component appears anywhere
+      in the description; the work is classical ML lifecycle
+      engineering with heavy MLOps/DevOps and build automation
+      emphasis. Per Step 2, shaping only classical ML systems
+      makes this ml-first.
   responsibilities:
   - Design, develop, train, and deploy Machine Learning and AI models for real-world
     applications
-  - Build end-to-end ML pipelines including data preprocessing, model training, validation,
+  - Build end-to-end ML pipelines covering data preprocessing, model training, validation,
     deployment, and monitoring
   - Develop Python-based automation for test suites, model validation, and workflow
     orchestration
   - Integrate ML pipelines into CI/CD pipelines for continuous testing and deployment
+  - Ensure smooth and consistent build environments using CMake and Bazel
+  - Collaborate with DevOps teams on MLOps best practices including model versioning
+    and reproducibility
   - Deploy, monitor, and optimize ML workloads in AWS environments
-  - Collaborate with DevOps teams to implement MLOps best practices including model
-    versioning and reproducibility
-  - Ensure stable build environments using CMake and Bazel
   - Troubleshoot and resolve build, deployment, and performance issues across environments
   use_cases:
-  - Audio systems engineering for enhanced driving experience
-  - In-vehicle infotainment systems
-  - Automotive safety and efficiency applications
-  - Connected car technology platforms
-  - Real-world ML applications in automotive context
+  - Machine Learning models for real-world applications, built and deployed end to
+    end
+  - Automated ML workflows with continuous testing and deployment through CI/CD
+  - Scalable and reliable AI solutions deployed and monitored in AWS cloud environments
+  - ML model serving via REST APIs and microservices
+  - Automotive technology solutions supporting HARMAN's in-vehicle and connected ecosystem
   skills:
-    domains: []
+    cloud: [AWS, SageMaker]
     languages: [Python]
-    ml: [PyTorch, TensorFlow, scikit-learn, Machine Learning]
-    cloud: [SageMaker, AWS]
-    genai: []
-    data: [Airflow, Pandas, NumPy, Spark]
-    other: []
-    ops: [MLOps, MLflow, Kubeflow, Docker, Kubernetes, CI/CD, Git, GitLab CI, GitHub,
-      CMake, Bazel]
-    web: [REST APIs, Microservices]
+    ml: [Machine Learning]
+    other: [CMake, Bazel, Agile]
+    ops: [MLOps, CI/CD, DevOps, Git, GitLab CI, GitHub, MLflow, Kubeflow, Docker,
+      Kubernetes, Monitoring]
     databases: []
+    domains: []
+    web: [REST APIs, Microservices]
+    data: [Airflow, Pandas, NumPy, Spark]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9518568'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:08:26.349010'
+  extracted_at: '2026-08-16T12:11:22.156848'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

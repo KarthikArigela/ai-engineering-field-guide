@@ -1,46 +1,46 @@
 company:
   name: AutoScout24
   stage: null
-  focus: Online automotive marketplace and car classifieds platform
+  focus: Online automotive marketplace for car listings
 position:
   title: Senior Software Engineer - Android, AI Enabler (m/f/d)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a native Android development role where AI is
-      mentioned only as tools to explore (Claude/Codex) and a
-      general mindset shift toward being "AI-first." The role
-      involves building mobile apps, not building, training, or
-      deploying AI/ML models. The candidate needs understanding of
-      GenAI limitations for safe usage, but this is about using AI
-      tools, not developing AI systems.
+      This is a native Android engineering role whose AI
+      involvement is limited to exploring AI coding tools
+      (Claude/Codex) and establishing pragmatic guardrails
+      (reviews, tests, policies) around GenAI usage. The
+      deliverable is the mobile app and developer workflow, not
+      shaping any model's behavior via prompts, retrieval,
+      training, or evals, so it is ai-support.
   responsibilities:
-  - Develop native Android applications using Kotlin, Dagger 2, Rx, Coroutines, and
-    Jetpack Compose
-  - Integrate mobile apps with GraphQL backend and REST services
-  - Explore and evaluate advanced AI tools like Claude and Codex for development workflows
-  - Drive technical planning of projects and features
-  - Collaborate closely with API teams, Product, UX, and Data teams
-  - Mentor other developers and help build an AI-first learning culture
-  - Deliver work using trunk-based development with Feature Flags and experiments
-  - Evaluate and introduce new technologies to the team
+  - Build and maintain features for a large-scale native Android app using Kotlin,
+    Dagger 2, Rx, Coroutines, and Jetpack Compose
+  - Integrate the Android app with a GraphQL backend and REST services
+  - Explore and adopt advanced AI tools like Claude and Codex in day-to-day development
+  - Put guardrails (reviews, tests, policies) in place to keep GenAI usage safe, compliant,
+    and sustainable at scale
+  - Drive technical planning of projects and features and evaluate new technologies
+  - Mentor other developers in the team and work closely with API, Product, UX, and
+    Data teams
+  - Deliver work in trunk-based development style using feature flags and experiments
   use_cases:
-  - Mobile app development for automotive marketplace
-  - Feature development for large-scale consumer Android application
-  - AI-assisted software development workflows
-  - Technology evaluation and adoption
+  - Large-scale consumer Android app for an automotive marketplace
+  - AI-assisted coding and developer productivity using Claude/Codex
+  - Safe, compliant, and sustainable GenAI adoption across engineering teams
   skills:
-    domains: []
-    languages: [Kotlin]
-    ml: []
     cloud: [AWS]
-    genai: [Anthropic API, Codex]
-    data: []
-    other: [Android SDK, Dagger 2, Rx, Coroutines, Jetpack Compose, UI Testing frameworks,
-      Feature Flags]
-    ops: [CI/CD, Trunk-based development]
-    web: [GraphQL, REST APIs]
+    languages: [Kotlin, Coroutines]
+    ml: []
+    other: [Android SDK, Jetpack Compose, Dagger 2, Rx, UI Testing, Feature Flags,
+      Trunk-Based Development]
+    ops: [CI/CD]
     databases: []
+    domains: []
+    web: [GraphQL, REST APIs]
+    data: []
+    genai: [Generative AI, Anthropic API, Codex]
   is_customer_facing: false
   is_management: false
 meta:
@@ -49,4 +49,6 @@ meta:
   locations:
   - Berlin, DEU
   - Munich, DEU
-  extracted_at: '2026-03-27T16:00:51.176704'
+  extracted_at: '2026-08-16T04:05:11.367625'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,57 @@
+company:
+  name: Perceptive
+  stage: null
+  focus: Clinical research and medical imaging trials
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agentic workflows, tool calling, RAG,
+      prompts, and agent evaluation harnesses — directly shaping
+      LLM behavior, so ai-first. Company is clinical imaging
+      trials; the person builds the agents, not just consumes
+      them.
+  responsibilities:
+  - Design, build, and operationalize agentic AI capabilities for medical imaging
+    clinical trials
+  - Build agentic workflows for data intake, validation, metadata reconciliation,
+    QC support, and structured extraction from DICOM/non-DICOM artifacts
+  - Implement RAG patterns grounded in controlled knowledge sources with traceability
+  - Develop evaluation harnesses for agent behavior including task success, hallucination
+    checks, and regression testing
+  - Package and deploy agentic services with CI/CD, infrastructure-as-code, and environment
+    promotion
+  - Implement guardrails, observability, and safe production operations for agent
+    systems
+  - Transform the PDLC into an AI-driven lifecycle across discovery, delivery, and
+    operations
+  - Partner cross-functionally to define agentic AI use cases, quality rubrics, and
+    human review workflows
+  use_cases:
+  - Intake and validation of medical imaging trial data (DICOM/non-DICOM)
+  - Metadata reconciliation and protocol-driven QC checks
+  - Structured extraction and summarization from multi-modal artifacts
+  - Automating PDLC stages from discovery to production operations
+  - Grounded document Q&A over SOPs, protocols, and runbooks
+  skills:
+    genai: [Agentic Workflows, RAG, Embeddings, Function Calling, Structured Outputs,
+      LLMs, Multi-Agent Systems]
+    ml: [LLM Evaluation, NLP]
+    web: [APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: [Cloud]
+    ops: [MLOps, CI/CD, Observability, Monitoring, Infrastructure as Code]
+    languages: []
+    domains: [Medical Imaging]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10702195'
+  location: GBR
+  remote: true
+  extracted_at: '2026-08-25T11:21:49.501577'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,56 +1,57 @@
 company:
   name: Synechron
-  stage: Public
-  focus: |-
-    Global digital transformation consulting and technology
-    services
+  stage: null
+  focus: Digital transformation consulting and technology services
 position:
   title: AI/ML Developer | Generative AI, Cloud (AWS, GCP), RAG Architectures, Python
     & Frameworks
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, developing, training,
-      fine-tuning, and deploying AI models including generative
-      models, NLP systems, and RAG architectures. The developer
-      works hands-on with LLMs, model training/tuning, and
-      building production AI systems integrated into cloud
-      environments.
+      The role's core responsibilities include designing and
+      optimizing RAG systems, generative models, and LLM-based
+      solutions, plus leading model training, tuning, and
+      evaluation - directly shaping model behaviour with an LLM
+      component. Although it also covers classical ML training and
+      deployment, a role shaping both LLM and classical ML systems
+      is ai-first.
   responsibilities:
   - Design, develop, and optimize AI models including NLP, generative models, and
-    RAG systems
-  - Lead model training, tuning, evaluation, and deployment processes for high accuracy
-    and efficiency
-  - Develop scalable APIs and microservices for AI models ensuring performance and
-    security in production
-  - Collaborate with data scientists, software engineers, and cloud teams to implement
-    end-to-end AI solutions in cloud environments
-  - Provide technical guidance and mentorship to team members on AI development best
-    practices
+    retrieval-augmented generation systems
+  - Lead model training, tuning, evaluation, and deployment processes to ensure high
+    accuracy and production readiness
+  - Develop scalable APIs and microservices to serve AI models securely and efficiently
+  - Integrate end-to-end AI solutions into cloud environments (AWS, Azure, GCP) in
+    collaboration with data scientists, engineers, and cloud teams
+  - Provide technical guidance and mentorship to team members and promote AI development
+    best practices
   - Monitor model performance, troubleshoot issues, and update models to maintain
     accuracy over time
-  - Research emerging AI/ML trends, experiment with new architectures, and implement
-    proof of concepts
+  - Research emerging AI/ML trends, evaluate new tools, and implement proof of concepts
+  - Document technical approaches, model architectures, and deployment procedures
   use_cases:
-  - Generative AI model development and deployment
-  - Retrieval-augmented generation (RAG) architecture implementation
-  - NLP-based AI solutions for enterprise applications
-  - Cloud-connected AI model serving and inference
-  - AI-driven digital transformation in finance, healthcare, or enterprise sectors
+  - Generative AI solutions for enterprise digital transformation initiatives
+  - Natural language processing applications
+  - Retrieval-augmented generation systems integrated with cloud infrastructure
+  - Production AI models served via scalable APIs and microservices
+  - AI-driven solutions for finance, healthcare, and enterprise industries
   skills:
-    domains: [NLP]
+    cloud: [AWS, Azure, GCP, SageMaker, Vertex AI, Azure ML]
     languages: [Python, Java, JavaScript, Bash]
-    ml: [TensorFlow, PyTorch, scikit-learn, Hugging Face]
-    cloud: [AWS, GCP, Azure, SageMaker, Vertex AI, Azure ML]
-    genai: [RAG, LLMs]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, MLflow, CI/CD]
-    web: [REST APIs, Microservices]
-    databases: [SQL, MySQL, PostgreSQL, MongoDB, DynamoDB]
+    ml: [TensorFlow, PyTorch, scikit-learn, Hugging Face, Transformers, Model Training]
+    other: [Responsible AI, Agile Scrum]
+    ops: [Docker, Kubernetes, CI/CD, Jenkins, GitLab CI, Azure DevOps, MLflow, Model
+        Deployment]
+    databases: [SQL, NoSQL, MySQL, PostgreSQL, MongoDB, DynamoDB]
+    domains: [NLP]
+    web: [APIs, Microservices]
+    data: [Data Pipelines, Data Lakes, Data Engineering]
+    genai: [LLMs, RAG, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9067809'
   location: Thanisandra Nagavara, IND
-  extracted_at: '2026-04-22T14:02:02.370359'
+  extracted_at: '2026-08-16T07:45:04.511092'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

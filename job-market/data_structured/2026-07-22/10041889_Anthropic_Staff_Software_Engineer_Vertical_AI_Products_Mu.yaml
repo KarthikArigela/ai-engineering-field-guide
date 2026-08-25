@@ -1,60 +1,62 @@
 company:
   name: Anthropic
-  stage: Late-stage (Public Benefit Corporation)
-  focus: Building reliable, safe, and beneficial AI systems
+  stage: null
+  focus: |-
+    AI safety and research company building beneficial AI
+    systems
 position:
   title: Staff+ Software Engineer, Vertical AI Products (Multiple Roles)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building AI products on top of
-      Claude — bringing model capabilities into production for
-      specific verticals (financial services, science, healthcare,
-      enterprise). Engineers work closely with research to shape
-      evals, surface failure modes, and feed learnings back into
-      model development, making this hands-on work with AI/LLM
-      systems.
+      The role builds Claude-based LLM products (financial
+      services, science, healthcare, enterprise) and explicitly
+      shapes model behavior: shaping evals, surfacing failure
+      modes, and feeding customer learnings back into model
+      development alongside research. LLM products plus
+      eval/feedback work that determines model quality means ai-
+      first under Steps 1-2.
   responsibilities:
-  - Own technical design and delivery for core vertical or enterprise AI products
-    end-to-end across the stack
-  - Partner with research to improve domain-specific model capabilities by shaping
-    evals, surfacing failure modes, and feeding customer learnings into model development
-  - Translate enterprise customer workflows into shipped product by partnering with
-    product, design, and go-to-market teams
-  - Set technical direction and standards for the team including architecture, code
-    quality, and engineering practices
-  - Work directly with enterprise customers and sales during key conversations to
-    inform engineering priorities
-  - Mentor other engineers and raise the technical bar across the team through influence
+  - Own end-to-end technical design and delivery for a core piece of a vertical or
+    enterprise AI product
+  - Work closely with research to improve domain-specific model capabilities by shaping
+    evals and surfacing failure modes
+  - Feed customer learnings back into model development
+  - Partner with product, design, and go-to-market to turn enterprise customer workflows
+    into shipped product
+  - Set technical direction and standards for the team, covering architecture and
+    code quality
+  - Work directly with enterprise customers and sales during key conversations, translating
+    learnings into engineering priorities
+  - Mentor other engineers and raise the technical bar across the team
   use_cases:
-  - AI-powered products for financial services including investment banking, asset
-    management, insurance, and corporate finance
-  - AI workbench for scientists that consolidates fragmented research tools into a
-    single environment
-  - AI products for healthcare spanning payers, providers, pharma, and broader health
-    systems
-  - Enterprise AI platform capabilities including plugins, skills, organizational
-    context, permissions, security, compliance, and analytics
-  - Deploying Claude as a daily-use tool integrated into enterprise workflows and
-    existing tools
+  - 'AI products for financial services: investment banking, asset management, insurance,
+    and corporate finance'
+  - AI workbench for scientists unifying fragmented research tools (Claude Science)
+  - Healthcare AI products spanning payers, providers, and pharma
+  - 'Enterprise AI adoption: plugins, skills, and shared organizational context letting
+    Claude operate across workflows'
+  - 'Foundational enterprise systems for AI at scale: user and permissions management,
+    security and compliance, analytics infrastructure'
   skills:
-    genai: [Claude, LLMs, LLM Evaluation, Anthropic API, RAG, Prompt Engineering,
-      AI Agents, Generative AI]
-    ml: []
-    web: [FastAPI, React, REST APIs, Microservices, Full-Stack Development]
-    databases: [PostgreSQL, Vector Databases, Redis]
+    cloud: []
+    languages: []
+    ml: [Model Evaluation]
+    other: []
+    ops: []
+    databases: []
+    domains: []
+    web: [Full-Stack Development]
     data: []
-    cloud: [AWS, GCP]
-    ops: [Kubernetes, Docker, CI/CD]
-    languages: [Python, TypeScript]
-    domains: [NLP]
-    other: [System Design]
+    genai: [Anthropic API]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10041889'
   location: New York, USA
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-07-22T13:24:49.937711'
+  extracted_at: '2026-08-16T16:26:33.809572'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

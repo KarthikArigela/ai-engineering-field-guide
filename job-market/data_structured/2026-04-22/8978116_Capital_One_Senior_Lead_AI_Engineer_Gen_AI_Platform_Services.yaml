@@ -1,56 +1,53 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-powered customer
-    experiences
+  stage: null
+  focus: Digital banking and financial services
 position:
   title: Senior Lead AI Engineer (Gen AI Platform Services, Agentic AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing AI systems including foundation model training,
-      LLM inference, similarity search, guardrails, and model
-      evaluation. The engineer will work hands-on with LLMs,
-      introduce optimization techniques for production AI systems,
-      and contribute to foundational AI infrastructure — all core
-      AI-first responsibilities.
+      The role directly shapes model behavior and output quality:
+      it designs and builds foundation model training, LLM
+      inference optimization, similarity search, guardrails, and
+      model evaluation as core platform components. LLMs and
+      agentic AI are central to the role (Gen AI platform, LLM
+      inference, guardrails), so it classifies as ai-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Lead and mentor an engineering team and influence cross-functional stakeholders
-  - Stay abreast of latest AI research and apply novel techniques in production environments
+  - Lead and mentor engineering team members and influence cross-functional stakeholders
   use_cases:
   - Real-time personalized banking customer experiences
-  - Fraud detection and informing customers about unusual charges
-  - Real-time customer question answering and support
-  - AI-powered internal tools for associates to improve productivity
-  - Scalable Gen AI platform services for enterprise-wide AI adoption
-  - Agentic AI systems for banking automation
+  - Informing customers about unusual charges (fraud/transaction alerts)
+  - Real-time customer question answering for banking
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Gen AI platform services empowering teams across the company to embed AI into
+    their products
   skills:
-    domains: [NLP]
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [Hugging Face, PyTorch, Foundation Model Training, LLM Optimization]
-    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
-    genai: [LLM Inference, Similarity Search, Guardrails, RAG, AI Agents, Prompt Engineering]
-    data: []
-    other: []
-    ops: [Nemo Guardrails, Model Evaluation, ML Observability, Docker, Kubernetes,
-      Experimentation]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
+    other: [Responsible AI]
+    ops: [Model Deployment]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Generative AI, AI Agents, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8978116'
   location: McLean, USA
@@ -60,4 +57,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-04-22T14:06:19.276037'
+  extracted_at: '2026-08-16T06:47:12.096543'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

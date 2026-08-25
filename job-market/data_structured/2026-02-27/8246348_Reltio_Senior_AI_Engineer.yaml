@@ -1,57 +1,62 @@
 company:
   name: Reltio
   stage: null
-  focus: AI-powered data unification and master data management
+  focus: AI-powered data unification and master data management cloud
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on development of agentic AI
-      systems, integrating LLMs, building agent architectures
-      using frameworks like LangGraph, Crew AI, and AutoGen, and
-      implementing prompt engineering and tool invocation. This is
-      direct work building AI systems rather than supporting
-      infrastructure for others.
+      The role directly shapes LLM and agent behavior: designing
+      agent architectures and LLM toolchains (LangGraph, CrewAI,
+      AutoGen), implementing prompt chaining, tool invocation, and
+      contextual memory, and applying prompt engineering to
+      improve agent accuracy. Step 1 is yes with LLM/agent
+      components central to the role, so it is ai-first; the
+      classical ML work (entity resolution, anomaly detection)
+      only reinforces that a role spanning both is ai-first.
   responsibilities:
-  - Develop robust, scalable Java/Python based backend systems that enable the orchestration
-    of Agentic AI workflows
-  - Develop state-of-the-art AI/ML models for solving real-world data management challenges
-    such as entity resolution, classification, similarity matching, and anomaly detection
-  - Integrate LLMs into backend pipelines to power autonomous or semi-autonomous decision-making
+  - Develop robust, scalable Java/Python backend systems that orchestrate Agentic
+    AI workflows
+  - Build AI/ML models for data management challenges such as entity resolution, classification,
+    similarity matching, and anomaly detection
+  - Integrate LLMs (OpenAI, Mistral, Claude, Llama) into backend pipelines to power
+    autonomous or semi-autonomous decision-making
   - Design agent architectures and LLM toolchains using frameworks like LangGraph,
-    Crew AI, AutoGen, and similar
+    CrewAI, and AutoGen
   - Implement services and APIs that manage prompt chaining, tool invocation, and
     contextual memory for agents
   - Apply prompt engineering best practices to improve agent behavior, task accuracy,
     and adaptability
-  - Monitor and optimize service performance, reliability, and scalability in production
-    environments
-  - Continuously monitor and improve model performance using feedback loops, A/B testing,
-    drift detection, and retraining strategies
+  - Monitor and improve model performance using feedback loops, A/B testing, drift
+    detection, and retraining strategies
+  - Collaborate with data scientists, product managers, platform engineers, and data
+    engineers to operationalize models and ensure data access
   use_cases:
-  - Entity resolution and data unification across siloed sources
-  - Enterprise master data management and multi-domain MDM
-  - Autonomous or semi-autonomous decision-making powered by LLMs
-  - Classification, similarity matching, and anomaly detection for data management
-  - Agentic AI workflows with tool invocation and contextual memory
-  - LLM-powered agents, copilots, or task bots for data-rich environments
+  - Entity resolution across siloed enterprise data sources
+  - Master data management with classification and similarity matching
+  - Anomaly detection in enterprise data
+  - Autonomous and semi-autonomous decision-making via LLM-powered agents
+  - Enterprise-grade agentic workflows for data management
+  - LLM-powered intelligent assistants and copilots for data-rich workflows
   skills:
-    domains: []
-    languages: [Java, Python]
-    ml: [PyTorch, TensorFlow, scikit-learn, MLlib]
     cloud: [AWS, GCP, Azure]
-    genai: [LangGraph, CrewAI, AutoGen, LangChain, LlamaIndex, OpenAI API, Mistral,
-      Anthropic API, LLaMA, RAG, Prompt Engineering, AI Agents, embedding services,
-      semantic search]
-    data: [Spark, Kafka, Airflow]
-    other: []
-    ops: [MLflow, Docker]
-    web: []
+    languages: [Java, Python]
+    ml: [Machine Learning, PyTorch, TensorFlow, scikit-learn, Anomaly Detection, MLlib]
+    other: [A/B Testing, Entity Resolution]
+    ops: [MLflow, Docker, DevOps, Distributed Systems]
     databases: [Vector Databases]
+    domains: []
+    web: [Microservices]
+    data: [Spark, Kafka, Airflow, NumPy, Pandas, Data Pipelines, Data Modeling]
+    genai: [Agentic Workflows, AI Agents, LLMs, OpenAI API, Anthropic API, Mistral,
+      Llama, LangGraph, CrewAI, AutoGen, LangChain, LlamaIndex, RAG, Prompt Engineering,
+      Function Calling, Embeddings, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8246348'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:51:27.184737'
+  extracted_at: '2026-08-16T00:42:19.699023'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

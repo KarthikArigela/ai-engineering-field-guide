@@ -1,46 +1,51 @@
 company:
   name: KLDiscovery
   stage: null
-  focus: |-
-    eDiscovery, compliance, and data management solutions for
-    legal and regulatory challenges
+  focus: eDiscovery, compliance, and data management solutions
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves implementing RAG architectures, fine-
-      tuning approaches, deploying LLMs, building ML pipelines,
-      and model deployment. Hands-on work with prompt engineering,
-      model quantization, and inference optimization directly on
-      AI/ML systems.
+      The requirements explicitly include shaping LLM behaviour:
+      prompt engineering, RAG architecture design, fine-tuning
+      approaches, LangChain, embedding models, and agentic AI
+      patterns. Since an LLM/agent component is the shaping
+      target, this is ai-first; the infrastructure, dataset
+      curation, and classical ML duties (PyTorch, scikit-learn,
+      monitoring) do not override the direct LLM-shaping work.
   responsibilities:
-  - Construct AI development and production infrastructure
-  - Implement AI solutions and analytical tools
-  - Curate datasets and conduct experiments
-  - Productize ML solutions and monitor model performance
-  - Develop code for integrating Data Science tools into products
-  - Collaborate with engineering teams to optimize solution implementation
-  - Research and implement best practices in data science and engineering
+  - Build and implement AI development and production infrastructure
+  - Construct analytical tools, curate datasets, conduct experiments, and estimate
+    impact
+  - Productize AI/ML solutions and monitor the performance of machine learning models
+  - Develop production-quality Python code integrating data science tools and processes
+    into company products and services
+  - Provide expert analysis and insights to the product development team to enhance
+    the product offering
+  - Collaborate closely with engineering teams to optimize implementation and monitoring
+    of solutions
+  - Research, recommend, and implement best practices in data science and data engineering
   use_cases:
-  - eDiscovery and legal document processing
-  - Enterprise information governance
-  - Data management and compliance solutions
-  - Regulatory compliance and litigation support
-  - Document analysis and search
+  - eDiscovery and legal document processing for law firms, corporations, and government
+    agencies
+  - Semantic search and retrieval over large document collections
+  - Litigation, regulatory compliance, and internal investigation support
+  - Data management and enterprise information governance
   skills:
-    domains: []
-    languages: [Python, C#]
-    ml: [PyTorch, TensorFlow, scikit-learn, Fine-Tuning, Hugging Face, spaCy, Quantization,
-      sentence-transformers]
     cloud: [Azure]
-    genai: [RAG, Prompt Engineering, LangChain, OpenAI embeddings, Cohere, semantic
-        search, AI Agents]
-    data: [Data Pipelines]
-    other: [pytest, unittest]
-    ops: [CI/CD, Git, Azure DevOps, GitHub, Docker, ONNX, TensorRT, A/B testing, MLflow]
+    languages: [Python, C#, .NET]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, spaCy, sentence-transformers,
+      Quantization]
+    other: [A/B Testing, eDiscovery, pytest, unittest, pydantic, Code Review]
+    ops: [CI/CD, Git, Azure DevOps, GitHub, Docker, Model Deployment, ONNX, TensorRT,
+      Model Monitoring]
+    databases: [Pinecone, pgvector, PostgreSQL, SQL]
+    domains: [NLP]
     web: []
-    databases: [Pinecone, pgvector, PostgreSQL]
+    data: [Data Pipelines, ML Pipelines]
+    genai: [Prompt Engineering, RAG, Fine-Tuning, LangChain, AI Agents, LLMs, Embeddings,
+      Semantic Search, OpenAI API, Cohere, Claude Code, GitHub Copilot, Cursor]
   is_customer_facing: false
   is_management: false
 meta:
@@ -53,4 +58,6 @@ meta:
   - DEU
   - GBR
   remote: true
-  extracted_at: '2026-03-27T15:15:59.102078'
+  extracted_at: '2026-08-16T04:50:19.313432'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

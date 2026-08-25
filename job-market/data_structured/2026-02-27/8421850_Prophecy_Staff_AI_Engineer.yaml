@@ -1,50 +1,57 @@
 company:
   name: Prophecy
-  stage: null
-  focus: |-
-    AI-native data preparation and analysis platform with AI
-    agents for data transformation
+  stage: ''
+  focus: AI-native data preparation and analysis platform
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on work with ML/LLMs including
-      fine-tuning, building production agents with
-      LangChain/LlamaIndex, RAG systems, and vector databases. The
-      engineer will build multi-agent systems for ETL automation
-      and code-gen, not just support infrastructure for AI work.
+      The role directly shapes LLM behavior: leading fine-tuning
+      (SFT, DPO, RLHF), distillation, quantization, prompt
+      orchestration, RAG design, and building multi-agent systems
+      with eval harnesses and A/B prompt testing. LLM and agent
+      components are central to every requirement, so this is ai-
+      first.
   responsibilities:
-  - Lead fine-tuning and optimization of ML/LLM models using PyTorch and HuggingFace
-  - Build and deploy production AI agents using LangChain, LlamaIndex, and CrewAI
-    frameworks
-  - Design and implement RAG systems with vector databases and prompt orchestration
-  - Develop multi-agent systems for ETL automation and code generation applications
-  - Architect and scale cloud infrastructure supporting 10k+ RPS backends on AWS/GCP
-  - Enforce MLOps and DevOps practices including CI/CD, canaries, observability, and
-    A/B prompt testing
-  - Provide hands-on technical leadership through coding prototypes, mentoring staff,
-    and solving complex problems
+  - Lead fine-tuning (SFT, DPO, RLHF), distillation, and quantization of LLMs using
+    PyTorch and Hugging Face
+  - Ship production AI agents built with frameworks like LangChain, LlamaIndex, and
+    CrewAI
+  - Design RAG pipelines, vector database integrations, and prompt orchestration
+  - Build multi-agent systems for ETL automation and code-generation loops, including
+    eval harnesses and reliability/latency benchmarking
+  - 'Enforce MLOps/DevOps discipline for agents: CI/CD, canary releases, observability,
+    and A/B prompt testing'
+  - Architect high-scale backends (10k+ RPS) on AWS/GCP with Kubernetes and serverless
+  - Code weekly prototypes, debug, unblock, and mentor staff engineers on the toughest
+    problems
+  - Own vision, roadmap, and MVPs for open-ended user-facing AI projects from ambiguity
+    to impact
   use_cases:
-  - AI-native data preparation and transformation using visual and document interfaces
-  - Multi-agent systems for ETL automation and code generation loops
-  - RAG-based systems for enterprise-scale data analysis and insight generation
-  - Code generation and text-to-SQL applications for data workflows
-  - Semantic extraction and knowledge graph applications using graph databases
+  - AI-native data preparation and transformation at enterprise scale
+  - ETL automation through multi-agent systems
+  - Code generation and text-to-SQL for data pipelines
+  - Semantic extraction and knowledge graph construction
+  - AI-assisted data analysis with agents and humans collaborating in visual and document
+    interfaces
   skills:
-    domains: [code generation, text-to-SQL, semantic extraction, knowledge graphs]
+    cloud: [AWS, GCP, Serverless]
     languages: [Python, Go, Java, Scala, SQL]
-    ml: [PyTorch, Hugging Face, Fine-Tuning, SFT, DPO, RLHF, model distillation, Quantization]
-    cloud: [AWS, GCP, serverless]
-    genai: [LangChain, LlamaIndex, CrewAI, RAG, prompt orchestration]
-    data: [Spark]
-    other: []
-    ops: [Kubernetes, CI/CD, MLOps, DevOps, Observability]
-    web: []
-    databases: [Vector Databases, Pinecone, Weaviate, Neo4j, Neptune]
+    ml: [PyTorch, Hugging Face, Distillation, Quantization]
+    other: [A/B Testing, Code Review, Compiler Development]
+    ops: [MLOps, DevOps, CI/CD, Kubernetes, Observability]
+    databases: [Vector Databases, Pinecone, Weaviate, Neo4j, Neptune, Knowledge Graphs]
+    domains: []
+    web: [APIs]
+    data: [Spark, Data Pipelines]
+    genai: [Fine-Tuning, RLHF, LangChain, LlamaIndex, CrewAI, AI Agents, RAG, Prompt
+        Engineering, Multi-Agent Systems, LLM Evaluation, Codex, Text-to-SQL]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8421850'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:54:33.300270'
+  extracted_at: '2026-08-16T01:15:58.293487'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

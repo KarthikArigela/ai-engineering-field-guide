@@ -1,0 +1,54 @@
+company:
+  name: New York Life Insurance Company
+  stage: null
+  focus: Life insurance and financial services company
+position:
+  title: Senior Associate - AI AppSec Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds and operationalizes security guardrails for
+      LLM applications and agentic systems (prompt injection
+      defenses, tool-invocation safety, model abuse prevention),
+      which counts as shaping model behaviour. Since LLM/agent
+      components are the targets, this is ai-first.
+  responsibilities:
+  - Design and implement application security controls for AI applications, agentic
+    systems, and tool-invoking workflows
+  - Build and operationalize security guardrails protecting against prompt injection,
+    unsafe tool invocation, data exfiltration, and model abuse
+  - Integrate AI security controls into CI/CD, SSDLC, and infrastructure-as-code processes
+    across Google Cloud Vertex AI workflows
+  - Partner with MLOps, AI engineers, data scientists, and Model Risk Management to
+    review identity architectures and establish reusable security standards
+  - Develop Python-based automation, security tooling, and detection capabilities
+    for AI solutions in production
+  use_cases:
+  - Securing production AI applications and agentic decisioning systems at an insurance
+    company
+  - Prompt injection and unsafe tool invocation protection for AI workflows
+  - Data exfiltration and model abuse prevention
+  - Secure AI platform operations across training, deployment, and serving on Vertex
+    AI
+  - AI governance and security automation in a regulated financial services industry
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, Agentic Workflows, Guardrails]
+    ml: [Model Training, Model Registry]
+    web: []
+    databases: []
+    data: []
+    cloud: [Vertex AI, SageMaker, Azure ML, IAM]
+    ops: [CI/CD, Infrastructure as Code, Model Deployment]
+    languages: [Python]
+    domains: []
+    other: [Application Security, Secure API Design, Software Supply Chain Security,
+      Secrets Management, Prompt Injection, MITRE ATLAS, OWASP Top 10 for LLM Applications,
+      NIST AI RMF, Google Secure AI Framework, OPA/Rego, Policy as Code]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10763587'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:41:54.273833'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

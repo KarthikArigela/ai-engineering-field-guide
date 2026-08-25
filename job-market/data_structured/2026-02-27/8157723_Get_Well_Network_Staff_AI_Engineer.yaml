@@ -1,60 +1,69 @@
 company:
   name: Get Well Network
-  stage: Private (backed by SymphonyAI with $1B+ R&D investment)
+  stage: null
   focus: |-
-    AI-native healthcare intelligence platform for clinical
-    insight, patient engagement, and care orchestration across
-    health systems
+    AI-native healthcare platform for patient engagement and
+    care orchestration
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly hands-on with building, training, and
-      deploying AI systems including LLMs, STT/TTS models, and
-      agentic frameworks. The engineer will architect and develop
-      production AI models, train speech models, and integrate
-      agentic systems - all core AI-first work.
+      The role directly shapes model behavior: it designs agent
+      flows with LangChain/LangGraph/CrewAI, works deeply with
+      LLMs, and owns model training, evaluation, and monitoring
+      end to end. Although it also covers STT/TTS and multimodal
+      models (which alone would be ml-first), the LLM and agentic
+      components are central, so the role is ai-first.
   responsibilities:
-  - Architect and develop production-ready AI models trained on clinical datasets
-    from hospital systems, EHRs, and patient engagement platforms
-  - Design and train speech-to-text (STT) and text-to-speech (TTS) models for voice-enabled
+  - Architect and develop production-ready AI models trained on real-world clinical
+    datasets from hospital systems, EHRs, and patient engagement platforms
+  - Design and train speech-to-text and text-to-speech models to power voice-enabled
     AI applications and virtual assistants in healthcare
-  - Integrate and optimize agentic systems using frameworks like LangChain, LangGraph,
+  - Integrate and optimize agentic systems using frameworks such as LangChain, LangGraph,
     and CrewAI for autonomous decision-making and workflow automation
-  - Lead the end-to-end AI development lifecycle from data preparation and model training
-    to evaluation, deployment, and monitoring
-  - Design and optimize cloud-based AI infrastructure on Azure focusing on scalability,
-    performance, observability, and cost-efficiency
-  - Establish and maintain scalable CI/CD pipelines, GPU-optimized runtimes, and real-time
-    or batch inference systems
-  - Set up observability tools like Langfuse, Prometheus, and Grafana to monitor AI
-    model and agentic workflow health
-  - Ensure all AI solutions adhere to HIPAA, GDPR, and healthcare compliance standards
-    with ethical AI principles
+  - Drive the end-to-end model lifecycle from data prep and training through evaluation,
+    deployment, and monitoring in hospital IT ecosystems
+  - Design and optimize cloud-based AI infrastructure on Azure for scalability, performance,
+    observability, and cost-efficiency
+  - Establish CI/CD pipelines, GPU-optimized runtimes, and real-time/batch inference
+    systems in Azure healthcare-compliant environments
+  - Set up observability and monitoring for AI models and agentic workflows using
+    tools like Langfuse, Prometheus, and Grafana
+  - Ensure HIPAA, GDPR, and privacy compliance and enforce ethical AI principles including
+    bias mitigation, explainability, and reproducibility
+  - Serve as principal technical liaison across AI engineering, product, and clinical
+    teams while mentoring junior engineers
   use_cases:
-  - Voice-enabled AI applications and virtual assistants for healthcare settings
+  - Voice-enabled AI applications and virtual assistants in a healthcare setting
   - Autonomous decision-making and workflow automation through agentic systems
-  - Clinical insight extraction from structured and unstructured health data (FHIR,
-    HL7, CCDA, EHR notes)
-  - Patient engagement and personalized care delivery
-  - Care orchestration across health systems
-  - Healthcare intelligence platform for clinical teams
+  - Clinical insight extraction from structured and unstructured health data (EHR
+    notes, FHIR, HL7, CCDA)
+  - Personalized patient engagement and care orchestration across hospital systems
+  - Production monitoring, drift detection, and reliability of AI models and agent
+    behavior in regulated healthcare environments
   skills:
-    domains: [Healthcare Standards, SNOMED, ICD-10, NLP]
+    cloud: [Azure]
     languages: [Python, C++]
-    ml: [PyTorch, TensorFlow, Hugging Face]
-    cloud: [Azure, Azure AI services]
-    genai: [LangChain, LangGraph, CrewAI, OpenAI API, Anthropic API, LLaMA, Whisper,
-      Tacotron, FastSpeech, DeepSpeech]
-    data: []
-    other: [HIPAA Compliance, GDPR compliance, EHR integration]
-    ops: [Langfuse, Prometheus, Grafana, CI/CD, Docker, Kubernetes, GPU optimization]
-    web: []
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformers, NLP, Machine Learning, Model
+        Training, Model Evaluation, Speech-to-Text, Text-to-Speech, Whisper, Tacotron,
+      FastSpeech, DeepSpeech, Anomaly Detection]
+    other: [HIPAA Compliance, GDPR, Responsible AI, FHIR, HL7, CCDA, SNOMED, ICD-10,
+      EHR]
+    ops: [MLOps, CI/CD, Infrastructure as Code, Container Orchestration, Model Registries,
+      Model Deployment, Model Monitoring, Observability, Langfuse, Prometheus, Grafana]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, AI Agents, Agentic Workflows, LangChain, LangGraph, CrewAI, OpenAI
+        API, Anthropic API, Llama, Multimodal AI, Multimodal Context Processing, A2A
+        Protocols]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8157723'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:55:09.016632'
+  extracted_at: '2026-08-16T00:33:47.538882'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

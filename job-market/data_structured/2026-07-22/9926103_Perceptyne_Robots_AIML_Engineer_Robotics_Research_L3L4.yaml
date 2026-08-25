@@ -1,57 +1,60 @@
 company:
   name: Perceptyne Robots
   stage: null
-  focus: Building dexterous intelligent robots for automation
+  focus: |-
+    Deep-tech robotics building dexterous intelligent automation
+    robots
 position:
   title: AI/ML Engineer (Robotics Research) L3/L4
   ai_type:
     type: ml-first
     reasoning: |-
-      This role focuses on building ML models for robotic
-      perception and control using CNNs, Transformers, RL,
-      diffusion policies, and computer vision — all traditional
-      ML/DL applied to robotics. While VLMs are mentioned, the
-      core work is ML model training, fine-tuning, and deployment
-      for real-time robotic systems, not LLM/agent-centric GenAI
-      work.
+      The role shapes model behaviour directly: it trains, fine-
+      tunes, benchmarks, and deploys AI/ML models for robot
+      perception and control. The models involved are classical
+      robotics ML - computer vision, RL, diffusion policies,
+      behavioral cloning, vision-action models - with VLMs
+      appearing only as architectures to understand and fine-tune,
+      not as LLMs shaped through prompts, retrieval, or agent
+      flows. Per Step 2, model training/evaluation for robotics
+      with no prompt- or agent-driven LLM component is ml-first.
   responsibilities:
-  - Design and architect end-to-end AI/ML systems for robotic perception, prediction,
-    and control
-  - Research, implement, benchmark, and iterate on novel AI models for robotic perception
-    and control
-  - Build Computer Vision modules for robotics applications including edge-deployable
-    high-framerate systems
-  - Identify, test, fine-tune, and improve state-of-the-art models for specific robotic
-    use cases
-  - Develop model pre-processing and post-processing pipelines in Python and C/C++
-  - Optimize the AI stack for real-time execution on edge devices with focus on GPU
-    performance
-  - Prototype, test, and validate concepts across perception, planning, manipulation,
-    and control
-  - Deploy production-ready software to control real robot behavior
+  - Innovate new methodologies in robotic perception and control
+  - Play a key role in end-to-end AI/ML system architecture design
+  - Research, implement, benchmark, and iterate on new AI models
+  - Build Computer Vision modules for robotics applications
+  - Identify SOTA models, test and benchmark them, and modify, fine-tune, or improve
+    them for target applications
+  - Build model pre-processing and post-processing pipelines in Python and C/C++
+  - Optimize the stack for real-time edge execution with efficient programming
+  - Prototype concepts in simulation and test and deploy production-ready software
+    to control real robot behavior
   use_cases:
-  - Robotic perception using multi-sensor fusion for dexterous manipulation
-  - Model prediction and robotic actuation for tasks like electronics assembly and
-    e-commerce packaging
-  - Learning from demonstration, simulation, and transfer learning for robot control
-  - Real-time computer vision for high-framerate edge-deployable robotic systems
-  - Reinforcement learning and behavioral cloning for autonomous robotic manipulation
+  - Dexterous robotic manipulation for electronics product assembly
+  - E-commerce packaging automation
+  - Food preparation automation
+  - Multi-sensor perception, model prediction, and robotic actuation for autonomous
+    robot behavior
+  - Sim-to-real learning deployed to control real robots
   skills:
-    genai: [VLMs]
-    ml: [PyTorch, TensorFlow, Transformers, CNNs, Reinforcement Learning, Fine-Tuning,
-      Deep Learning, Model Training, CUDA, Quantization, Diffusion Models, Behavioral
-        Cloning, Transfer Learning]
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [GPU Optimization, Model Deployment]
     languages: [Python, C++]
+    ml: [PyTorch, TensorFlow, Machine Learning, Model Training, Model Evaluation,
+      Fine-Tuning, Transformers, CNNs, Reinforcement Learning, Diffusion Policies,
+      Behavioral Cloning, Vision-Action Models, VLMs, Transfer Learning, Simulation,
+      GPU Optimization]
+    other: []
+    ops: [Model Deployment]
+    databases: []
     domains: [Computer Vision, Robotics]
-    other: [Simulation, Forward and Inverse Kinematics, Path Planning]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9926103'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:43:05.741069'
+  extracted_at: '2026-08-16T19:16:16.225676'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

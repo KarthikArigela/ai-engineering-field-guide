@@ -1,0 +1,53 @@
+company:
+  name: Santé (YC S23)
+  stage: YC S23
+  focus: Operating system for local retailers
+position:
+  title: Applied AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds production agents,
+      retrieval/ranking with embeddings and pgvector, LLM
+      evaluation harnesses, and owns the model lifecycle for the
+      AI Manager agent suite — clearly shaping model behavior,
+      with LLM/agent components throughout.
+  responsibilities:
+  - Apply ML and LLM techniques to merchandising intelligence, invoice OCR structured
+    extraction, and embedding-based product matching
+  - Build agent capabilities on the Manager Agent platform including task generation,
+    review workflows, and chat over store data
+  - Build evaluation harnesses with offline and online experiments, metrics, and Langfuse
+    tracing
+  - Own the full model lifecycle from research to production including data analysis,
+    modeling, testing, and iterative improvement
+  - Build autonomous harnesses letting agent squads explore new problem spaces in
+    parallel
+  - Collaborate cross-functionally with engineers, PMs, and store owners
+  - Evaluate and incorporate emerging ML/AI research into the product
+  use_cases:
+  - 'Merchandising intelligence: slow-mover detection, price and promotion recommendation,
+    seasonality signals'
+  - Invoice OCR and structured extraction from distributor invoices
+  - Embedding-based product matching, catalog dedup, contextual recommendations
+  - 'Retail agent workflows: marketing campaigns, SEO, custom reporting'
+  - Chat over each store's own sales and catalog data
+  skills:
+    genai: [LLMs, Agentic Workflows, AI Agents, Embeddings, Context Engineering, Fine-Tuning]
+    ml: [Machine Learning]
+    web: [Next.js, tRPC]
+    databases: [PostgreSQL, pgvector, Prisma]
+    data: []
+    cloud: [Vercel]
+    ops: [Langfuse, Monitoring]
+    languages: [TypeScript, Python]
+    domains: []
+    other: [LLM Evaluation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10387145'
+  location: New York, USA
+  extracted_at: '2026-08-25T09:55:01.286265'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

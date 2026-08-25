@@ -1,0 +1,59 @@
+company:
+  name: Credit Genie
+  stage: Backed by Khosla Ventures
+  focus: Mobile-first financial wellness and credit-building platform
+position:
+  title: Staff Software Engineer, AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds the backend infrastructure, APIs, and data
+      pipelines needed to deploy, monitor, and scale AI models
+      that separate AI/ML engineers build - the deliverable is
+      capacity and serving, not model behaviour. There is no
+      prompt writing, retrieval design, fine-tuning, or eval
+      ownership, and AI/ML experience is explicitly listed as
+      nice-to-have ("eager to expand into AI/ML"). Per the
+      serving/infrastructure edge case, this is ai-support.
+  responsibilities:
+  - Lead the design and implementation of highly available, scalable backend services
+    and APIs that serve and integrate AI models into production systems
+  - Architect and optimize services and data pipelines for deploying, monitoring,
+    and maintaining real-time AI inferencing and retrieval at scale
+  - Collaborate with AI and ML engineers to improve model deployment, monitoring,
+    and experimentation workflows (MLOps/AIOps)
+  - Drive technical excellence by setting high standards for code quality, system
+    reliability, and performance
+  - Mentor and guide other engineers on best practices for building robust backend
+    systems in an AI-focused environment
+  use_cases:
+  - AI-powered personalized financial insights for a mobile-first financial wellness
+    platform
+  - Instant access to cash tools for consumers
+  - Credit building services supporting long-term financial stability
+  - AI models driving decisions across the company
+  skills:
+    genai: [LLMs]
+    ml: [Machine Learning, Jupyter Notebooks]
+    web: [APIs]
+    databases: [Vector Databases]
+    data: [Data Pipelines, Data Engineering]
+    cloud: [AWS, GCP, Azure, AWS CDK]
+    ops: [Terraform, Infrastructure as Code, Distributed Systems, MLOps, Model Deployment,
+      Model Monitoring, Model Serving]
+    languages: [Python, Java, TypeScript]
+    domains: []
+    other: [System Design, Version Control]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7290032'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - Pittsburgh, USA
+  - Philadelphia, USA
+  - Plymouth Meeting, USA
+  extracted_at: '2026-08-15T21:27:23.522762'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

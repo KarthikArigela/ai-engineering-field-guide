@@ -1,0 +1,59 @@
+company:
+  name: Mastercard
+  stage: null
+  focus: Global digital payments technology and services
+position:
+  title: Lead AI Security Engineer, AI Identities
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role secures identities attached to AI systems (IAM,
+      access control, monitoring, governance), not shaping model
+      behavior or output quality. No prompt design, RAG, training,
+      or eval building for models themselves. It is cybersecurity
+      work adjacent to AI systems, hence ai-support.
+  responsibilities:
+  - Discover and inventory AI identities including models, agents, service accounts,
+    API principals, and dynamically created pipeline identities
+  - Operationalize AI identity lifecycle controls covering creation, rotation, suspension,
+    and decommissioning with provenance and ownership
+  - Design and enforce least-privilege access models for AI identities with policy-based
+    authorization
+  - Implement continuous monitoring and detection of AI identity risks such as excessive
+    permissions and lateral movement
+  - Conduct AI security assessments including architecture reviews, threat modeling,
+    and control effectiveness testing
+  - Support AI identity security standards aligned with NIST, ISO, and emerging AI
+    guidance, and provide audit evidence
+  - Develop SOPs, runbooks, and reporting on AI identity posture and KPIs/KRIs
+  - Advise and train engineering teams on AI identity security and run POCs for new
+    tools and controls
+  use_cases:
+  - Securing identities of AI models, agents, and autonomous workflows
+  - Governance and lifecycle management of non-human and service identities used by
+    AI systems
+  - Least-privilege access enforcement and credential management for AI identities
+  - Monitoring and detecting anomalous or abusive AI identity behavior
+  - AI identity risk assessment, audit support, and compliance reporting
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: []
+    languages: []
+    domains: []
+    other: [Identity and Access Management, Zero Trust Architecture, Least Agency
+        Frameworks, Delegated Authority Management, Cryptographic Identities, Short
+        Lived Credentialing, Threat Modeling, CISSP, AI Security Posture Management,
+      NIST]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10386986'
+  location: Pune, IND
+  extracted_at: '2026-08-25T09:54:52.134692'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

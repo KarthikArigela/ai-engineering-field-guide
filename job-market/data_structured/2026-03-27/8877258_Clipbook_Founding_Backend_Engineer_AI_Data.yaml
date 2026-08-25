@@ -1,54 +1,63 @@
 company:
   name: Clipbook
-  stage: Seed
+  stage: Seed-stage ($3.3M seed round co-led by Mark Cuban, after bootstrapping to
+    seven-figure ARR)
   focus: |-
-    AI-powered media monitoring and analytics for PR and
-    communications teams
+    AI-powered media monitoring and analytics for comms and PR
+    teams
 position:
   title: Founding Backend Engineer – AI & Data
   ai_type:
     type: ai-first
     reasoning: |-
-      This role explicitly involves putting LLMs and ML models
-      into production: RAG pipelines, embeddings, agentic systems,
-      and fine-tuned models. The role combines backend engineering
-      with hands-on AI implementation work, making it ai-first
-      rather than support.
+      The role explicitly puts LLMs into production by designing
+      RAG pipelines, embeddings, prompt execution, agentic
+      systems, and fine-tuned models themselves — this is directly
+      shaping LLM behaviour through retrieval, prompts, agents,
+      and fine-tuning (Step 1 = yes). Since LLM/agent components
+      dominate (classical ML is secondary), Step 2 gives ai-first.
   responsibilities:
-  - Architect and build core backend systems using Python, Node.js, and PostgreSQL,
-    owning features from concept through deployment
-  - Design and build scalable data infrastructure for ingesting, normalizing, deduplicating,
-    and indexing massive multi-modal datasets (text, audio, video)
-  - Integrate AI into production workflows including RAG pipelines, embeddings, prompt
-    execution, agentic systems, and fine-tuned models
-  - Build systems that scale 10x while being practical about investment priorities
-  - Develop performant APIs and services that power the product end-to-end with reliability
-    and security
-  - Collaborate closely with customers by joining calls and iterating rapidly based
-    on feedback
-  - Shape engineering culture including code quality, system design principles, and
-    documentation standards
+  - Architect and build core backend systems in Python, Node.js, and PostgreSQL, owning
+    features from concept through deployment
+  - Design and maintain scalable data infrastructure for ingesting, normalizing, deduplicating,
+    indexing, and querying massive multi-modal datasets (text, audio, video)
+  - Put LLMs and ML models into production for real workflows, including RAG pipelines,
+    embeddings, prompt execution, agentic systems, and fine-tuned models
+  - Develop performant APIs and internal services that power the product end-to-end
+    with reliability, security, and cost-consciousness
+  - Join customer calls to gather feedback and rapidly iterate on solutions for comms
+    and public affairs teams
+  - Shape engineering culture, code quality standards, system design principles, and
+    documentation as a founding engineer
+  - Build systems that hold up under 10x growth while making pragmatic near-term investment
+    tradeoffs
   use_cases:
-  - Media monitoring and tracking across text, audio, and video sources
-  - Search and analytics for communications, PR, and public affairs teams
-  - Multi-modal data processing including news, social media, and policy content
-  - Semantic search and meaning-aware retrieval across media coverage
-  - RAG-based intelligence extraction from media content
+  - AI-powered media monitoring and analytics for communications, PR, and public affairs
+    teams
+  - Tracking, searching, and making sense of coverage across text, audio, and video
+  - Ingesting, deduplicating, and indexing multi-modal datasets across news, social
+    media, and policy sources
+  - RAG-based retrieval and LLM workflows over media coverage
+  - Real-time insights serving communications teams, government agencies, and enterprise
+    clients
   skills:
-    domains: [Computer Vision, Multimodal models]
-    languages: [Python]
-    ml: [Fine-Tuning]
     cloud: [AWS, GCP]
-    genai: [RAG, LLMs in production, Embeddings, Agentic Workflows]
-    data: [Spark, Kafka, Flink]
-    other: [Web scraping]
-    ops: [Inference optimization, Docker, Kubernetes, CI/CD]
-    web: [Node.js]
+    languages: [Python, Node.js]
+    ml: [Machine Learning, Multimodal Models]
+    other: []
+    ops: [Docker, Kubernetes, CI/CD, Distributed Systems, Inference Optimization]
     databases: [PostgreSQL, BigQuery, Vector Databases]
+    domains: [Computer Vision]
+    web: [APIs]
+    data: [Spark, Kafka, Flink, Data Pipelines, Web Scraping]
+    genai: [RAG, Embeddings, Prompt Engineering, Agentic Workflows, Fine-Tuning, LLMs,
+      Semantic Search, RLHF, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8877258'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T13:58:36.775493'
+  extracted_at: '2026-08-16T05:32:13.602107'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

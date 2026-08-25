@@ -1,54 +1,53 @@
 company:
   name: NXP Semiconductors
-  stage: Public
-  focus: |-
-    Semiconductor manufacturing and R&D for embedded processing
-    solutions
+  stage: null
+  focus: Semiconductor hardware design and product development R&D
 position:
   title: Lead Data & AI Engineer - R&D IT
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing, developing, and deploying AI
-      products and Generative AI solutions, including work with
-      RAG frameworks, LangChain, LlamaIndex, and agentic
-      architectures. The position is directly responsible for
-      building production-ready AI applications, not just
-      supporting infrastructure for others.
+      The role designs, builds, and evolves Generative AI
+      solutions including RAG (LangChain, LlamaIndex, semantic
+      search, embeddings, vector stores) and agentic
+      architectures, which directly shapes LLM behavior and output
+      quality. Since LLM/generative components are central, this
+      is ai-first.
   responsibilities:
-  - Design, develop, and deploy AI products to support R&D engineers including Generative
-    AI solutions
-  - Collaborate with project managers, IT teams, and stakeholders to gather requirements
-    and define project scope
-  - Work with data engineers and DevOps engineers to ensure high-quality, secure,
-    and well-governed data availability for AI initiatives
-  - Build AI solutions with DevOps practices including CI/CD pipelines, version control,
-    and automation
-  - Operate within an Agile Scrum environment with sprint planning and cross-functional
-    collaboration
-  - Define the future of AI capabilities within R&D organization working with data
-    scientists and domain experts
+  - Collaborate with project managers, resource managers, IT teams, and other stakeholders
+    to gather requirements, define project scope, and align with business objectives
+  - Design, develop, and deploy Generative AI products, tools, and assistants to support
+    R&D engineers
+  - Innovate and evolve Generative AI solutions for the R&D organization as part of
+    the Hardware Design Analytics team
+  - Collaborate with data engineers and DevOps engineers to ensure high-quality, secure,
+    reliable, and well-governed data availability for AI initiatives
+  - Build AI solutions with a DevOps mindset, ensuring reproducibility, automation,
+    and quality through CI/CD pipelines, version control, and modern development practices
+  - Work within a Scrum team in an Agile environment, participating in sprint planning,
+    reviews, and cross-functional collaboration for iterative delivery
   use_cases:
-  - Generative AI assistants for R&D engineers
-  - Automated workflows for new product introductions
-  - Scalable AI tools for hardware design analytics
-  - AI-driven solutions to accelerate and optimize semiconductor R&D
-  - RAG-based knowledge retrieval for R&D community
+  - AI-driven acceleration and optimization of NXP's New Product Introductions
+  - Scalable AI tools, assistants, and automated workflows for R&D teams
+  - Generative AI solutions serving the R&D community
+  - Hardware design analytics supporting semiconductor R&D
   skills:
-    domains: []
+    cloud: [CDK, AWS]
     languages: [Python]
     ml: []
-    cloud: [AWS]
-    genai: [Anthropic API, GPT, Llama, Mistral, Gemma, LangChain, LlamaIndex, RAG,
-      Semantic search, Embeddings, Agentic architectures, Multimodal AI]
-    data: []
-    other: []
-    ops: [Docker, CI/CD, GitLab CI, Infrastructure as Code, CDK]
-    web: [FastAPI, Flask]
+    other: [Agile, Responsible AI]
+    ops: [Docker, Infrastructure as Code, CI/CD, GitLab CI, Version Control]
     databases: [Vector Databases]
+    domains: []
+    web: [FastAPI, Flask]
+    data: []
+    genai: [Generative AI, Anthropic API, GPT, Llama, Mistral, Gemma, RAG, LangChain,
+      LlamaIndex, Semantic Search, Embeddings, Agentic Workflows, Multimodal]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8887578'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T15:06:09.090945'
+  extracted_at: '2026-08-16T05:37:14.350932'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

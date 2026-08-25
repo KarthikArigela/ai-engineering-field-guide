@@ -1,0 +1,54 @@
+company:
+  name: Thomson Reuters
+  stage: null
+  focus: Legal, tax, accounting and media information services
+position:
+  title: Senior BI & AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships LLM-powered agentic workflows
+      with Claude, sets prompt engineering standards, and builds
+      evaluation frameworks for AI outputs, which is direct
+      shaping of LLM behaviour. Hence ai-first.
+  responsibilities:
+  - Design and maintain complex Power BI reports and dashboards for portfolio performance
+    and financial reporting
+  - Build Power BI Dataflows and semantic models on top of Snowflake, including advanced
+    DAX and row-level security
+  - Query, transform, and model data in Snowflake with production-quality SQL and
+    Python data pipelines
+  - Integrate data from SharePoint, SAP, Workday, Fieldglass, and Azure DevOps into
+    governed reporting layers
+  - Build LLM-powered agentic workflows using Claude for natural-language data access
+    and automated insight generation
+  - Develop prompt engineering standards and evaluation frameworks for AI outputs
+    in financial reporting
+  - Build Power Automate flows to streamline data collection, approvals, and report
+    distribution
+  use_cases:
+  - Portfolio performance and financial reporting dashboards
+  - Natural-language conversational access to portfolio and financial data
+  - Automated insight generation and narrative summaries for financial reports
+  - Anomaly flagging and automated data mapping maintenance
+  - Automated data collection, approval workflows, and report distribution
+  skills:
+    genai: [Anthropic API, LLMs, LangChain, LlamaIndex, Prompt Engineering, AI Agents,
+      RAG, Claude Code]
+    ml: []
+    web: [REST APIs]
+    databases: [Snowflake, Vector Databases, Semantic Search]
+    data: [dbt, Data Pipelines, Pandas, Data Modeling]
+    cloud: [Azure, Azure Data Factory]
+    ops: [Azure DevOps]
+    languages: [Python, SQL]
+    domains: []
+    other: [Power BI, DAX, Power Automate, Microsoft Fabric]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10356315'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T09:47:35.176467'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

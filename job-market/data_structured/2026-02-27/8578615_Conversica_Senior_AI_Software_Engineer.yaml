@@ -1,61 +1,54 @@
 company:
   name: Conversica
   stage: null
-  focus: AI-powered customer engagement solutions
+  focus: AI-powered customer engagement solutions for businesses
 position:
   title: Senior AI Software Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and scaling
-      production LLM-powered systems with hands-on work on agentic
-      architectures, RAG implementations, and agent evaluation
-      frameworks. The position emphasizes designing and shipping
-      AI-driven features including orchestration, tool use, and
-      guardrails, which are core AI/ML engineering tasks rather
-      than supporting infrastructure or data pipelines.
+      The role designs and ships agentic systems (orchestration,
+      tool use, state/memory, multi-step workflows), RAG, evals,
+      and guardrails for LLM-powered applications, directly
+      shaping model behavior and output quality. With explicit LLM
+      and agent components throughout, Step 2 yields ai-first.
   responsibilities:
   - Design, implement, and ship AI-driven features and systems into production environments
   - Lead technical decision-making for AI architecture, data modeling, and system
-    integration within domain
-  - Partner with Product, Engineering, and stakeholders to translate business needs
-    into scalable technical solutions
-  - Identify and address reliability, scalability, performance, and observability
-    challenges in AI systems
-  - Implement and advocate for best practices for applied AI engineering including
-    agent evaluation, interpretability, data layer design, and monitoring
-  - Mentor and guide other engineers, raising the bar on AI engineering quality and
-    decision-making
-  - Provide input into technical strategy and roadmap discussions related to AI capabilities
-    and platform evolution
-  use_cases:
-  - Agentic system design with orchestration, tool use, state/memory, and multi-step
+    integration
+  - Design agentic systems including orchestration, tool use, state/memory, and multi-step
     workflows
-  - AI-powered customer engagement and conversational systems
-  - Quality assurance through agent evaluation, regression testing, and online/offline
-    metrics
-  - Guardrails implementation for hallucination mitigation, grounding, HITL review,
-    and safe degradation
-  - Production operations management for cost/latency optimization, caching, rate-limits,
-    and incident response
-  - Retrieval-augmented generation (RAG) with indexing strategies, freshness management,
+  - Build evals and quality harnesses with regression tests for prompts and agents
+  - Implement guardrails such as hallucination mitigation, grounding, and HITL review
+  - Own production operations including cost/latency tradeoffs, caching, rate limits,
+    fallbacks, observability, and incident response
+  - Build retrieval and data foundations including RAG design, indexing, freshness,
     and data quality constraints
+  - Mentor and guide other engineers on AI engineering quality and decision-making
+  use_cases:
+  - AI-powered customer engagement for businesses
+  - Agentic automation of multi-step business workflows
+  - B2B SaaS integrating marketing automation, CRM, and customer data platforms
+  - Production LLM systems balancing reliability, cost, and latency
+  - Turning emerging AI capabilities into durable customer-ready systems
   skills:
-    domains: []
+    cloud: [Cloud Architecture, AWS, EKS]
     languages: [Python]
-    ml: []
-    cloud: [AWS, Cloud architecture]
-    genai: [LLM agents, Tool use/orchestration, RAG, Agent evaluation, Prompt Engineering,
-      Guardrails, State/memory management, HITL (Human-in-the-loop)]
-    data: [Data Modeling]
-    other: [System Design]
-    ops: [Terraform, EKS, Datadog, GitLab CI, Observability, Caching]
-    web: []
+    ml: [Interpretability]
+    other: [System Design, CRMs, Marketing Automation Platforms, Customer Data Platforms]
+    ops: [Observability, Monitoring, Datadog, Terraform, GitLab CI]
     databases: [PostgreSQL, MySQL]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, AI Agents, Agentic Workflows, Function Calling, RAG, LLM Evaluation,
+      Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8578615'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T12:50:56.850320'
+  extracted_at: '2026-08-16T02:40:00.175224'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

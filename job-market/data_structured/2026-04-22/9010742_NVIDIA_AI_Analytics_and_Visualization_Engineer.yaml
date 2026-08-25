@@ -1,47 +1,52 @@
 company:
   name: NVIDIA
-  stage: Public
-  focus: GPU and AI computing hardware and software leader
+  stage: ''
+  focus: GPUs and accelerated computing hardware and software
 position:
   title: AI Analytics and Visualization Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and running AI agent
-      workflows with LLMs, developing orchestration services for
-      model calls and tools, and turning engineering workflows
-      into AI-powered agents. The core work is hands-on with LLMs
-      and agent frameworks, making this an ai-first role.
+      The role builds and runs AI agent workflows involving LLMs
+      and tools, and designs orchestration services that
+      coordinate model calls, tool use, and human review — this is
+      directly shaping agent flows and tool calling, not merely
+      consuming an API. LLM/agent components are central to the
+      deliverables, so it is ai-first.
   responsibilities:
   - Build and run AI agent workflows involving LLMs and tools to automate multi-step
-    processes
+    engineering and business processes
   - Build orchestration services that coordinate model calls, tools, and human review
   - Develop APIs that expose AI agents to internal apps and UIs
   - Connect existing ETL and data pipelines as tools and context for agents
-  - Construct web or chat interfaces for AI-powered workflows
+  - Construct simple web or chat interfaces for AI-powered workflows
   - Ensure scalability, performance, and security of AI services and data flows
+  - Partner with other teams to understand their workflows and turn them into AI-powered
+    agents and tools
   use_cases:
-  - Automate complex engineering and business processes within NVIDIA's Silicon Co-Design
-    Group
-  - Orchestrate data collection, decision-making, and actions across internal systems
-  - AI-powered agent workflows for multi-step process automation
-  - Interactive dashboards and chat interfaces for internal engineering teams
-  - Data-driven decision-making enhancement through LLM-based tools
+  - Automating multi-step engineering and business processes with AI agents
+  - Orchestrating data collection, decision-making, and actions across systems
+  - Streamlining complex silicon co-design engineering workflows via intelligent automation
+    tools
+  - Exposing AI agents to internal applications and UIs through APIs and chat interfaces
+  - Improving data-driven decision-making with dashboards and workflow automation
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [LLM platforms and agent/tool frameworks, Prompt Engineering]
-    data: [ETL/data pipelines, Kafka, Kinesis]
-    other: [PowerBI, Jira, Cursor, GitHub Copilot]
-    ops: [Docker, Kubernetes, Grafana, Git, Perforce]
-    web: [REST APIs]
-    databases: [SQL, NoSQL]
+    other: [Jira, Perforce, Power BI, EasyBI, Workflow Automation, Event-Driven Architecture]
+    ops: [Docker, Kubernetes, Git, Grafana]
+    databases: [SQL, NoSQL, Relational Databases]
+    domains: []
+    web: [APIs, Full-Stack Development]
+    data: [Data Pipelines, Data Modeling, Kafka, Kinesis]
+    genai: [LLMs, AI Agents, Agentic Workflows, Cursor, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9010742'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:27:04.879182'
+  extracted_at: '2026-08-16T07:05:22.261621'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

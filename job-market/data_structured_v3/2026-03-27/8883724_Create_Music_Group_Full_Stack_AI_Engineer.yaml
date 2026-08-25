@@ -1,0 +1,65 @@
+company:
+  name: Create Music Group
+  stage: null
+  focus: |-
+    Music and entertainment company: record label, distribution,
+    and media technology platform
+position:
+  title: Full Stack AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behaviour: it owns agentic
+      workflow design, RAG pipelines and retrieval architectures,
+      guardrails, and evaluation frameworks for LLM-based systems
+      integrated into user-facing features. With LLM/agent
+      components central to the role, Step 2 yields ai-first, even
+      though a separate ML Engineer owns model training.
+  responsibilities:
+  - Design, build, and maintain modular AI agents that automate multi-step workflows
+    across CreateOS (contracts, accounting, distribution, metadata)
+  - Own RAG pipelines, retrieval architectures, and semantic search systems grounded
+    in CreateOS structured business data
+  - Implement guardrails, evaluation frameworks, and human-in-the-loop controls for
+    agentic systems
+  - Integrate LLMs (OpenAI, Anthropic, or open-source models) into user-facing features
+    across CreateOS modules
+  - Design and build scalable full-stack production applications, including AI-native
+    chat interfaces and copilot-style tools
+  - Deploy and maintain services using containerization and cloud platforms, ensuring
+    AI features are reliable, observable, and performant
+  - Maintain code quality through unit and integration testing, code reviews, and
+    CI/CD pipeline ownership
+  - Partner with Data Engineering to integrate internal data pipelines, third-party
+    API feeds, webhook/event-driven flows, and ETL outputs into product surfaces
+  use_cases:
+  - M&A catalog valuation tooling
+  - AI-driven A&R discovery surfaces
+  - Marketing automation agents
+  - Automated multi-step workflows for contracts, accounting, distribution, and metadata
+  - Semantic search and retrieval over contracts, royalty statements, and catalog
+    metadata
+  - AI copilots and chat interfaces within CreateOS, an operating system for record
+    labels
+  skills:
+    genai: [Agentic Workflows, AI Agents, RAG, Semantic Search, Guardrails, LLMs,
+      OpenAI API, Anthropic API, LLM Evaluation, LangChain, LangGraph, DeepEval, MCP,
+      Cursor, Claude Code, Embeddings]
+    ml: []
+    web: [React, Next.js, FastAPI, REST APIs, Node.js, Webhooks, Tailwind CSS]
+    databases: [Vector Databases, PostgreSQL, Pinecone, Weaviate, Snowflake, Supabase]
+    data: [dbt, Airflow, ETL, Data Pipelines]
+    cloud: [GCP, AWS]
+    ops: [Docker, Kubernetes, CI/CD, DevOps, Observability, GitHub]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: [Linear, Event-Driven Architecture, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8883724'
+  location: Los Angeles, USA
+  remote: true
+  extracted_at: '2026-08-16T05:35:39.430540'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,54 +1,54 @@
 company:
   name: DeepSource
   stage: null
-  focus: AI and machine learning solutions for enterprise
+  focus: Code quality and code review automation platform
 position:
   title: Senior Ai Engineer - Riyadh,KSA
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on building, deploying, and
-      optimizing AI/ML systems end-to-end, including LLM-powered
-      applications, RAG pipelines, agent-based systems, fine-
-      tuning foundation models, and MLOps pipelines. The candidate
-      works directly ON AI models and systems, making this an ai-
-      first role.
+      The role directly shapes LLM behaviour: it builds RAG
+      pipelines, prompt workflows, agent-based systems with tool-
+      calling, and fine-tunes/evaluates foundation models. Since
+      LLM and agentic components dominate the responsibilities,
+      this is ai-first despite the substantial MLOps and data
+      engineering duties.
   responsibilities:
-  - Design, develop, deploy, and maintain production-grade AI and ML systems end to
-    end
+  - Design, develop, deploy, and maintain production-grade AI and machine learning
+    systems end to end
   - Build and optimize LLM-powered applications including RAG pipelines, prompt workflows,
-    agent-based systems, and multimodal AI use cases
+    and agent-based systems
+  - Develop intelligent workflows using tool-calling, orchestration frameworks, and
+    contextual reasoning patterns
   - Fine-tune, evaluate, and operationalize machine learning and foundation models
     for enterprise use cases
-  - Build and manage MLOps pipelines covering training, evaluation, model registration,
-    deployment, monitoring, and retraining
-  - Implement CI/CD pipelines for ML and AI workflows with automated testing, release
-    management, and controlled deployments
-  - Architect scalable AI/ML platforms using modern compute, storage, orchestration,
-    monitoring, and search services
-  - Build and maintain automated data pipelines, ETL/ELT workflows, and data processing
-    frameworks for AI/ML consumption
+  - Build MLOps pipelines covering training, evaluation, deployment, monitoring, and
+    retraining, with CI/CD automation for ML and AI workflows
+  - Architect scalable AI/ML platforms with Infrastructure as Code, inference and
+    serving patterns for variable workloads
+  - Build automated data pipelines and ETL/ELT workflows, ensuring data quality, lineage,
+    governance, and versioning for AI/ML consumption
   - Lead multiple AI initiatives in parallel, collaborating with product, engineering,
-    data, and business teams
+    data, and business stakeholders
   use_cases:
-  - LLM-powered enterprise applications with RAG and agentic workflows
-  - Production ML model deployment, monitoring, and lifecycle management
-  - Multimodal AI use cases for enterprise customers
-  - Scalable inference and serving for variable workloads
-  - Automated data pipelines and ETL workflows for AI/ML consumption
+  - Production-grade enterprise AI and machine learning systems
+  - LLM-powered applications with RAG and retrieval pipelines
+  - Agent-based intelligent workflows with tool-calling
+  - Multimodal AI use cases
+  - Enterprise fine-tuning and operationalization of foundation models
+  - Analytics-ready data delivery for downstream AI/ML consumption
   skills:
-    domains: []
+    cloud: [Cloud-Native Architecture]
     languages: [Python, SQL]
-    ml: [Fine-Tuning, Foundation models]
-    cloud: [Cloud-native architecture]
-    genai: [LLMs, RAG, Agentic AI workflows, Prompt Engineering, Function calling
-        / tool-calling, Orchestration frameworks]
-    data: [Data Pipelines, Data quality and governance]
+    ml: [Machine Learning, Model Evaluation, Foundation Models]
     other: []
-    ops: [MLOps, CI/CD, Model Monitoring, Docker, Kubernetes, Infrastructure as Code,
-      MLflow]
+    ops: [MLOps, CI/CD, Model Monitoring, Infrastructure as Code, Model Deployment]
+    databases: [Data Warehouses]
+    domains: []
     web: []
-    databases: [Vector Databases, Data lakes and data warehouses]
+    data: [Data Pipelines, Data Governance, Data Engineering, Data Lakes]
+    genai: [LLMs, RAG, Agentic Workflows, Prompt Engineering, Function Calling, AI
+        Agents, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
@@ -59,4 +59,6 @@ meta:
   - Cairo, EGY
   - Riyadh, SAU
   - New Delhi, IND
-  extracted_at: '2026-04-22T13:05:57.959514'
+  extracted_at: '2026-08-16T06:34:09.895114'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

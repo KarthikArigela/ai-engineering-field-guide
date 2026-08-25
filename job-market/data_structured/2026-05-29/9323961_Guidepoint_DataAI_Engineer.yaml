@@ -1,58 +1,63 @@
 company:
   name: Guidepoint
-  stage: null
-  focus: |-
-    Research enablement platform with expert network and on-
-    demand intelligence
+  stage: ''
+  focus: Research enablement platform for on-demand intelligence
 position:
   title: Data/AI Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a Data/AI Engineer who builds data
-      infrastructure, pipelines, and platforms that support AI/ML
-      work but does not directly work on models. The candidate
-      builds ETL pipelines, Lakehouse architecture, streaming
-      APIs, and microservices that power AI/ML platforms - this is
-      enabling infrastructure rather than hands-on model
-      development. While they mention building "AI/ML platforms"
-      and "NLP-based insight pipelines," these are support systems
-      and data products, not actual model training, fine-tuning,
-      or deployment.
+      This is a data/platform engineering role: it builds ETL
+      pipelines, Lakehouse infrastructure, streaming APIs, and
+      microservices that feed BI and AI/ML use cases, but never
+      shapes model behaviour (no prompt design, retrieval
+      architecture, evals, fine-tuning, or agent work). ML and
+      Generative AI items (MLflow feature pipelines, GenAI tools)
+      appear only as nice-to-have platform plumbing, so the role
+      is ai-support.
   responsibilities:
-  - Design, build, and maintain ETL pipelines and data ingestion workflows on Azure
-    Databricks to support BI, analytics, and AI/ML use cases
-  - Architect and optimize Lakehouse using Delta Lake on Databricks ensuring reliability,
+  - Design, build, and maintain ETL pipelines, data ingestion workflows, and table
+    schemas on Azure Databricks to support BI, analytics, and AI/ML use cases
+  - Architect and optimize the Lakehouse using Delta Lake on Databricks for reliability,
     performance, and cost efficiency
-  - Develop scalable web APIs and microservices using Python on Azure Kubernetes Service
-    with Docker, Kubernetes, and Helm
-  - Design and implement real-time SSE endpoints and streaming data pipelines with
-    Kafka, Redis, or RabbitMQ
-  - Build and maintain Knowledge Graph models, entity relationship structures, and
-    NLP-based insight pipelines
-  - Implement CI/CD pipelines using Azure DevOps and maintain observability with Prometheus,
-    Datadog, or OpenTelemetry
+  - Build data pipelines from business applications such as Salesforce and NetSuite,
+    and develop Knowledge Graph models and NLP-based insight pipelines
+  - Maintain data governance, data privacy standards, and compliance practices throughout
+    the data lifecycle
+  - Develop scalable web APIs and microservices in Python and deploy them on AKS using
+    Docker, Kubernetes, Helm, and Azure DevOps YAML pipelines
+  - Design SSE endpoints and asynchronous streaming services integrating Kafka, Redis
+    Pub/Sub, and RabbitMQ for real-time event delivery to web and mobile clients
+  - Implement observability across streaming services with distributed tracing, structured
+    logging, and metrics using Prometheus, Datadog, and OpenTelemetry
+  - Write unit, integration, and load tests, maintain CI/CD pipelines, participate
+    in architecture and code reviews and on-call rotations, and mentor junior engineers
   use_cases:
-  - Business intelligence and analytics reporting on research and investment data
-  - Real-time event streaming for web and mobile clients
-  - Knowledge graph and NLP-based analytics for expert network insights
-  - Data integration from enterprise systems like Salesforce and NetSuite
-  - AI/ML platform infrastructure supporting data science teams
-  - Streaming APIs for research enablement and on-demand intelligence delivery
+  - Data infrastructure powering Guidepoint's research and analytics products
+  - BI reporting and analytics over a Lakehouse data warehouse
+  - Data pipelines supporting AI/ML platforms and ML/feature engineering workflows
+  - Knowledge Graph models and NLP-based insight pipelines
+  - Real-time event streaming and delivery to web and mobile clients via SSE
+  - Enterprise data integration from Salesforce, NetSuite, and other business applications
   skills:
-    genai: []
-    ml: []
-    web: [FastAPI, Flask, Django, aiohttp, NGINX]
-    databases: [Redis, SQL Server, Neo4j, Elasticsearch, Cosmos DB]
-    data: [Spark, Delta Lake, Kafka, RabbitMQ, Power BI, Fivetran, Knowledge Graphs]
-    cloud: [Azure Databricks, Azure DevOps]
-    ops: [Kubernetes, Docker, Helm, MLflow, Prometheus, Datadog, OpenTelemetry]
+    cloud: [Azure, AKS, Azure API Gateway]
     languages: [Python, SQL, asyncio]
+    ml: [NLP, Feature Engineering]
+    other: [Salesforce, NetSuite, Power BI, Kong]
+    ops: [Docker, Kubernetes, Helm, Azure DevOps, CI/CD, Prometheus, Datadog, OpenTelemetry,
+      Observability, MLflow, NGINX]
+    databases: [SQL Server, Neo4j, Elasticsearch, Cosmos DB, NoSQL, Relational Databases,
+      Redis, Knowledge Graphs]
     domains: []
-    other: []
+    web: [APIs, Microservices, FastAPI, Flask, Django, JSON, Server-Sent Events, aiohttp]
+    data: [Databricks, Delta Lake, Data Pipelines, Data Warehousing, Lakehouse Architecture,
+      Data Governance, Data Engineering, Kafka, RabbitMQ, Fivetran]
+    genai: [Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9323961'
   location: Pune, IND
-  extracted_at: '2026-05-29T09:01:46.203940'
+  extracted_at: '2026-08-16T10:21:28.877467'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,62 @@
+company:
+  name: Benepass
+  stage: Series B
+  focus: Fintech platform for employee benefits administration
+position:
+  title: Lead AI Systems Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agents, retrieval/context layers,
+      evaluation harnesses, prompt/tool patterns, and guardrails
+      for internal AI workflows—directly shaping model behavior.
+      LLM/agent components dominate, making it ai-first.
+  responsibilities:
+  - Own the design and implementation of Benepass's internal AI platform and roadmap,
+    from 0→1 foundation to scale
+  - Define the architecture for composing models, tools, context, evaluations, secrets,
+    and permissions safely
+  - 'Build reusable platform primitives: agents, tool interfaces, retrieval/context
+    layers, workflow runners, observability, and feedback loops'
+  - 'Integrate AI into the engineering SDLC: coding assistants, CI/CD quality signals,
+    risk checks, and developer feedback'
+  - Drive AI-driven test generation, regression detection, and failure triage with
+    intelligent quality gates
+  - Design and ship agentic internal workflows and knowledge/search systems that generalize
+    beyond Engineering
+  - Set standards for AI tool usage, prompt/tool patterns, evaluation, data handling,
+    and human-in-the-loop controls
+  - Partner across Engineering, Product, Design, and Operations to drive adoption
+    of the platform
+  use_cases:
+  - AI-assisted coding, code review, and delivery workflows to compress idea-to-production
+    time
+  - AI-driven test generation, regression detection, and failure triage with intelligent
+    quality gates in CI/CD
+  - Agentic internal workflows automating multi-step operational work (SOPs, cross-repo
+    changes, incident context gathering, onboarding)
+  - Knowledge/search systems for finding specs, decisions, runbooks, and SOPs across
+    the company
+  - Shared AI platform primitives (agents, tools, retrieval, evals, permissions) reusable
+    company-wide
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, RAG, Prompt Engineering, Cursor, LLM
+        Evaluation]
+    ml: [Model Evaluation]
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Observability, E2E Testing, Monitoring]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10589010'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:48:49.050200'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

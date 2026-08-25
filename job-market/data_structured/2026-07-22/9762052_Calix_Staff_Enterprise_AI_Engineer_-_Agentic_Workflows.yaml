@@ -1,63 +1,67 @@
 company:
   name: Calix
-  stage: Public
+  stage: null
   focus: |-
-    Cloud-first AI-powered platform for broadband service
-    providers
+    Cloud-first AI platform for broadband Communication Service
+    Providers
 position:
   title: Staff Enterprise AI Engineer - Agentic Workflows & Productivity
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly hands-on with building agentic
-      workflows, RAG pipelines, MCP connectors, and agent
-      orchestration on an enterprise AI platform. The engineer
-      will personally design, build, and debug AI systems
-      including agents, retrieval/generation behavior, and
-      prompt/eval pipelines. While it involves platform and
-      infrastructure work, the core deliverables are AI/LLM
-      systems themselves.
+      The role directly shapes LLM/agent behavior: it owns agentic
+      workflow design, builds RAG pipelines and MCP connectors,
+      establishes evaluation, quality, and guardrail practices for
+      agent output, and debugs non-deterministic
+      retrieval/generation behavior. With LLM and agent components
+      central to every track, this is ai-first.
   responsibilities:
   - Own the architecture and rollout of the enterprise AI platform across the product
-    organization, including model garden setup, cost monitoring, and model tiering
-  - Stand up platform foundations including identity federation/SSO, IAM, tenant isolation,
-    security guardrails, and observability
+    organization, including model garden setup, budget controls, cost monitoring,
+    model tiering, and fallback open-source models
+  - Stand up and harden platform foundations including identity federation/SSO, IAM,
+    tenant isolation, security and compliance guardrails, and observability
   - Design and deliver a self-service agent factory with patterns, templates, and
-    in-IDE guardrails for teams to build and maintain their own agents
-  - Lead the design and build of agent workflows across the product development lifecycle
-    including ideation, development, and deployment stages
-  - Build agents that interoperate with agents on other enterprise AI platforms including
-    cross-platform contracts and schema/intent mapping
+    in-IDE guardrails so teams can safely build and maintain their own agents
+  - Lead the design and build of agent workflows across the product development lifecycle,
+    spanning requirement ideation, design specification generation, coding assistants,
+    CI/CD, deployment, and monitoring
   - Establish evaluation, quality, and monitoring practices for agent workflows from
     sandbox to production
-  - Lead and mentor a team across cloud and enterprise AI tracks, including code review,
-    pairing, and design reviews
-  - Stay hands-on building reference agents, RAG pipelines, integrations, and MCP
-    connectors while debugging non-deterministic retrieval and generation behavior
+  - Build agents that interoperate with agents on other enterprise AI platforms, including
+    cross-platform contracts, schema/intent mapping, and cross-perimeter authentication
+  - Enable adoption of off-the-shelf capabilities such as NotebookLM, enterprise search,
+    and code assistants through training and ongoing support
+  - Lead and mentor engineers across cloud and enterprise AI tracks, steer external
+    delivery partners, and stay hands-on building reference agents, RAG pipelines,
+    integrations, and MCP connectors
   use_cases:
-  - Enterprise AI platform enabling internal teams to build and deploy AI agents
-  - Product development lifecycle automation including requirement ideation, coding
-    assistance, and deployment monitoring
-  - Enterprise search and code assistant enablement for engineering teams
-  - Cross-platform agent interoperability between enterprise AI systems
-  - Self-service agent factory for safe and governed agent development across teams
-  - Cost-optimized multi-model AI infrastructure with fallback strategies
+  - Enterprise AI platform rollout and enablement across a product organization
+  - Agent workflows across the product development lifecycle, from ideation and design
+    spec generation to coding, deployment, and monitoring
+  - Self-service agent factory for teams to build and maintain their own agents safely
+  - Cross-platform agent interoperability across enterprise AI platforms
+  - Developer productivity via coding assistants, enterprise search, and NotebookLM
+    adoption
+  - AI governance, cost control, and security guardrails for enterprise AI usage
   skills:
-    genai: [AI Agents, Agentic Workflows, RAG, MCP, Function Calling, Prompt Engineering,
-      LLM Evaluation, Guardrails, Embeddings, Gemini, LLMs, Multi-Agent Systems, LiteLLM]
-    ml: []
-    web: [OAuth, REST APIs]
-    databases: []
-    data: []
-    cloud: [Vertex AI, GCP, IAM]
-    ops: [CI/CD, Docker, Kubernetes, Observability, Monitoring, SSO]
+    cloud: [Vertex AI, IAM, SSO]
     languages: [Python]
+    ml: []
+    other: [Jira, Confluence, Figma, Responsible AI]
+    ops: [CI/CD, Monitoring, Observability, LiteLLM, GitHub]
+    databases: []
     domains: []
-    other: [GitHub Copilot, Responsible AI, Jira, Microservices, System Design]
+    web: [APIs, OAuth]
+    data: []
+    genai: [AI Agents, Agentic Workflows, RAG, Prompt Engineering, LLMs, Gemini, NotebookLM,
+      MCP, Function Calling, Guardrails, LLM Evaluation, A2A Protocol]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9762052'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:41:41.572258'
+  extracted_at: '2026-08-16T19:00:11.349044'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

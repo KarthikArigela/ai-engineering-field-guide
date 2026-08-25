@@ -1,18 +1,20 @@
 company:
   name: South Geeks
-  stage: early-stage
-  focus: AI-driven commercial real estate lease management platform
+  stage: early-stage startup
+  focus: |-
+    AI-driven commercial real estate lease negotiation and
+    management technology
 position:
   title: Senior Data Engineer (AI)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role focuses on building data pipelines and
-      infrastructure that support AI work rather than directly
-      building or fine-tuning ML models. The engineer designs ELT
-      workflows, orchestrates LLM API calls, and creates data
-      validation frameworks - all enabling AI functionality rather
-      than developing the AI models themselves.
+      Despite the data engineer title, the role writes and
+      optimizes LLM prompts, orchestrates multi-LLM workflows to
+      handle document edge cases, and iterates on extraction
+      accuracy — directly shaping model behavior and output
+      quality. With LLM components central to the pipelines, this
+      classifies as ai-first.
   responsibilities:
   - Design and iterate data extraction and transformation pipelines that convert unstructured
     leasing documents into structured JSON stores
@@ -26,28 +28,32 @@ position:
     accurate and production-ready
   - Implement monitoring, alerting, and automated quality checks across extraction
     pipelines
+  - Collaborate with product and engineering teams to define and evolve data schemas
+  - Own the pipeline end-to-end from raw ingestion to validated structured output
   use_cases:
-  - Automate complex commercial real estate lease negotiation and management workflows
-  - Extract structured data from unstructured leasing documents using AI-driven techniques
-  - Generate market-aligned insights from lease data for real estate teams
-  - Streamline proposal generation for commercial real estate deals
-  - Transform messy real-world documents into clean, reliable JSON for web applications
+  - AI-driven extraction of structured data from complex commercial leasing documents
+  - Automating lease workflows and streamlining proposal generation
+  - Extracting market-aligned insights for commercial real estate negotiations
+  - Turning messy real-world documents into reliable JSON that powers web applications
+    and downstream systems
   skills:
-    domains: []
+    cloud: [AWS S3]
     languages: [Python]
     ml: []
-    cloud: [AWS S3]
-    genai: [OpenAI API, Anthropic API, Prompt Engineering, LLMs]
-    data: [ELT patterns, data pipeline architecture, JSON schema design, data validation,
-      document processing, data quality frameworks]
     other: []
-    ops: [monitoring and alerting]
-    web: []
+    ops: [Monitoring]
     databases: [PostgreSQL]
+    domains: []
+    web: [JSON]
+    data: [Data Pipelines, Data Validation, Document Processing]
+    genai: [LLMs, OpenAI API, Anthropic API, Prompt Engineering, LLM Evaluation, AI
+        Orchestration]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8565647'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T12:44:15.725478'
+  extracted_at: '2026-08-16T02:29:40.758097'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

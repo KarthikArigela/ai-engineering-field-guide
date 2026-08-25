@@ -1,0 +1,61 @@
+company:
+  name: Clarivate Analytics
+  stage: null
+  focus: |-
+    Analytics and data intelligence for Life Sciences and
+    Healthcare
+position:
+  title: Senior Product Development AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering/architecture role that builds
+      pipelines, dimensional models, and datasets feeding AI/ML
+      workloads, but never shapes model behavior—no prompting, RAG
+      design, fine-tuning, or eval work appears anywhere. Building
+      datasets and pipelines that feed someone else's AI/ML runs
+      is explicitly ai-support.
+  responsibilities:
+  - Own and evolve product-level data architecture ensuring scalability, reliability,
+    and alignment with analytics and AI/ML use cases
+  - Design and implement scalable data pipelines supporting product analytics, user
+    behavior tracking, and AI/ML initiatives
+  - Define and maintain enterprise-aligned dimensional data models including star
+    and snowflake schemas, fact and dimension tables
+  - Prepare, validate, and document datasets used for analytics, experimentation,
+    and machine learning
+  - Implement monitoring, testing, and alerting for data quality, pipeline health,
+    and data freshness
+  - Diagnose and resolve complex data issues affecting analytics, AI workflows, or
+    product features
+  - Mentor data engineers through architecture reviews, code reviews, and design discussions
+  - Partner with Product Managers, Data Scientists, Analysts, and Platform Engineers
+    to translate requirements into well-architected data models and pipelines
+  use_cases:
+  - AI-powered analytics, insights, and decision-support platforms for Life Sciences
+    and Healthcare
+  - Drug discovery acceleration
+  - Treatment effectiveness analysis
+  - Real-world evidence generation
+  - Patient journey insights
+  - Product analytics and user behavior tracking
+  skills:
+    genai: []
+    ml: []
+    web: [JSON]
+    databases: [Relational Databases, StarRocks, Snowflake, BigQuery, Redshift]
+    data: [Dimensional Data Modeling, Slowly Changing Dimensions, ETL, Data Pipelines,
+      Databricks, dbt, Airflow, Fivetran, Segment, Data Governance]
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [Event-Driven Architecture, Power BI, Tableau, SAP BusinessObjects]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8511656'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T02:01:08.361678'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

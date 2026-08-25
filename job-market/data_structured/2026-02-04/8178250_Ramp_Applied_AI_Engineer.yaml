@@ -1,48 +1,49 @@
 company:
   name: Ramp
-  stage: Series C+ (unicorn status)
+  stage: Venture-backed (investors include Lightspeed, Thrive Capital, Sequoia Capital,
+    and others)
   focus: |-
-    Financial operations platform with AI-powered corporate
-    cards, bill payments, and spend management
+    Financial operations platform: corporate cards, payments,
+    and spend management
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work with AI systems including
-      building AI Agents, implementing RAG, fine-tuning models,
-      and creating LLM inference infrastructure. The engineer will
-      work directly on production LLM applications rather than
-      just supporting infrastructure for others.
+      The role works directly on AI Agents, RAG, structured
+      extraction, and fine-tuning models, which means designing
+      agent flows, retrieval, and shaping model output quality.
+      Although it also includes LLM inference infrastructure
+      (which alone would be ai-support), the dominant work shapes
+      LLM behavior, and LLMs are involved, so it is ai-first.
   responsibilities:
-  - Ship full-stack AI projects end to end from concept to production
+  - Ship full-stack AI projects end to end
   - Build and integrate components for AI infrastructure supporting production-level
     inference and fine-tuning
+  - Work on projects including AI Agents, Retrieval-Augmented Generation, structured
+    extraction, and internal tooling for customer-facing teams
   - Develop and improve engineering processes, tools, and systems to scale AI solutions
     across Ramp
   - Create tools and internal platforms to enhance the productivity and capabilities
     of Ramp's AI and engineering teams
-  - Work on AI Agents, Retrieval-Augmented Generation, and Structured Extraction projects
-  - Fine-tune models and build infrastructure for LLM inference
+  - Build backend systems and cloud infrastructure supporting AI-driven products
   use_cases:
-  - AI Agents for automating financial operations and workflows
-  - Retrieval-Augmented Generation (RAG) for intelligent document and data processing
-  - Structured Extraction for parsing financial documents and data
-  - Internal tooling for customer-facing teams to enhance productivity
-  - Fine-tuned models for finance-specific applications
-  - LLM-powered intelligence for payments, corporate cards, vendor management, and
-    automated bookkeeping
+  - AI agents automating financial operations workflows
+  - Retrieval-augmented generation across Ramp's platform
+  - Structured data extraction from documents using LLMs
+  - Internal tooling that boosts productivity of customer-facing teams
+  - Production LLM inference and fine-tuning infrastructure
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [Cloud Infrastructure]
+    languages: []
     ml: []
-    cloud: [cloud infrastructure]
-    genai: [RAG, AI Agents, LLMs, Fine-Tuning]
-    data: []
-    other: [Structured Extraction]
-    ops: [inference]
-    web: [Full-Stack Development, web frameworks, backend systems]
+    other: []
+    ops: [Model Deployment]
     databases: []
+    domains: []
+    web: [Full-Stack Development, Web Frameworks, Backend Development]
+    data: []
+    genai: [AI Agents, RAG, LLMs, Fine-Tuning, Structured Outputs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -51,4 +52,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T12:09:21.400092'
+  extracted_at: '2026-08-15T22:48:39.121711'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

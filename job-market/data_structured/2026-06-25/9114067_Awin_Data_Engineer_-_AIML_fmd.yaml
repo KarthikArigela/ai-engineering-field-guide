@@ -1,51 +1,50 @@
 company:
   name: Awin
-  stage: Public
-  focus: Affiliate marketing and partner ecosystem platform
+  stage: null
+  focus: Affiliate marketing and open partner ecosystem platform
 position:
   title: Data Engineer - AI/ML (f/m/d)
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves directly researching, designing,
-      building, and automating predictive models using ML
-      frameworks (TensorFlow/PyTorch, scikit-learn) and GenAI
-      tools, along with monitoring model performance. While it has
-      significant data engineering components, the core mandate is
-      developing and optimizing ML/AI models to solve business
-      problems.
+      The role's core responsibility is researching, designing,
+      building, automating, and evaluating predictive models with
+      performance metrics, which is shaping model behaviour via
+      training and evaluation of classical ML. Generative AI
+      (ChatGPT, Claude, embeddings, vector databases) appears only
+      as a "working knowledge" requirement, not as a
+      responsibility for shaping LLM behaviour, so there is no LLM
+      component to the work itself. Therefore ml-first.
   responsibilities:
-  - Research, design, build, and automate predictive models to solve complex business
-    problems
-  - Establish and monitor metrics to track model performance, accuracy, and business
-    relevance
-  - Evaluate existing models and recommend improvements for better results and performance
-    efficiency
-  - Develop best practices for building and orchestrating predictive models across
-    the organization
-  - Design and implement end-to-end ETL solutions using Databricks for ML model development
   - Write clean, maintainable code following data engineering and AI/ML best practices
+  - Research, design, build, and automate predictive models that solve complex business
+    problems
+  - Establish and monitor business-relevant metrics for model performance and accuracy
+  - Evaluate existing models and recommend improvements for results and performance
+    efficiency
+  - Develop best practices for building and orchestrating predictive models
+  - Translate business objectives and data requirements into clear technical specifications
+    and actionable tasks
+  - Design end-to-end ETL solutions and curate datasets for machine learning model
+    development
   - Collaborate with a global team of data engineers, data analysts, and big data
     specialists in the Data Services department
-  - Translate business objectives into clear technical specifications and actionable
-    tasks
   use_cases:
-  - Predictive modeling for commercial decision making and reporting
-  - Automated self-improving predictive models for campaign management optimization
-  - Generative AI applications using embedding models and vector databases
-  - Big data processing and ETL pipelines for machine learning model development
-  - Business intelligence and analytics for client-facing teams in affiliate marketing
+  - Self-improving automated predictive models for complex business problems
+  - Robust reporting capabilities supporting commercial decision making
+  - Elevated campaign management for client-facing teams
+  - Model performance and accuracy monitoring through business-relevant metrics
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [NumPy, scikit-learn, TensorFlow, PyTorch]
-    cloud: [Azure Data Factory, Azure Data Lake Storage, Azure, AWS]
-    genai: [Generative AI, Databricks GenAI tooling, Embeddings]
-    data: [PySpark, Databricks, Spark, Delta Lake, Data Pipelines]
-    other: [Scrum/Agile]
+    cloud: [Azure, Azure Data Factory, Azure Data Lake Storage, AWS]
+    languages: [Python]
+    ml: [Machine Learning, scikit-learn, TensorFlow, PyTorch, NumPy]
+    other: [Agile]
     ops: [MLflow]
-    web: []
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Databricks, Delta Lake, PySpark, Spark, Data Pipelines]
+    genai: [Generative AI, ChatGPT, Anthropic API, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +57,6 @@ meta:
   - Warsaw, POL
   - London, GBR
   - Madrid, ESP
-  extracted_at: '2026-06-25T19:40:38.795970'
+  extracted_at: '2026-08-16T12:33:46.020862'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

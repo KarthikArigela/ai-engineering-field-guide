@@ -1,51 +1,51 @@
 company:
   name: Dumroo AI
-  stage: Startup
-  focus: |-
-    AI-powered educational technology platform connecting
-    teachers, students, administrators, and parents
+  stage: null
+  focus: AI-powered education technology ecosystem
 position:
   title: Junior-Midlevel AI/ML Developer – Dumroo.ai AI Ecosystem for Education
   ai_type:
     type: ai-support
     reasoning: |-
-      The role primarily focuses on building software components,
-      data pipelines, and backend systems that power AI-driven
-      workflows rather than directly building, training, or fine-
-      tuning models. While there is exposure to LLMs and NLP
-      concepts, the core responsibilities are in general software
-      development, API development, and data engineering that
-      support the AI ecosystem.
+      This is a generalist software developer role: the core work
+      is building components, APIs, data pipelines, and backend
+      systems, with AI involvement limited to "contributing to
+      features using machine learning models and LLMs" and
+      "exposure to" AI concepts. There is no evidence of shaping
+      model behavior—no prompt design, RAG, agent flows, fine-
+      tuning, or evals—so the role consumes rather than shapes AI
+      capabilities.
   responsibilities:
-  - Collaborate with engineering and product teams to build, test, and deploy software
-    components and APIs
+  - Build, test, and deploy software components and APIs in collaboration with engineering
+    and product teams
   - Work on data pipelines, integrations, and backend systems powering AI-driven workflows
   - Contribute to development of features using machine learning models and LLMs
   - Write clean, maintainable, and well-documented code
   - Participate in code reviews, sprint planning, and daily stand-ups
-  - Work closely with DevOps and QA teams to ensure high system performance and reliability
+  - Work with DevOps and QA teams to ensure high system performance and reliability
   use_cases:
-  - AI-powered educational ecosystem uniting teachers, students, administrators, and
+  - AI-powered education platform connecting teachers, students, administrators, and
     parents
-  - Intelligent platform features leveraging LLMs and NLP for education
-  - AI-driven workflows for educational transparency and engagement
-  - Predictive analytics for educational insights
-  - Machine learning models for educational technology solutions
+  - AI-driven workflows powering educational technology features
+  - ML and LLM-powered features for an edtech ecosystem
+  - Backend data pipelines and integrations supporting the platform
   skills:
-    domains: []
-    languages: [JavaScript, TypeScript, Python, Node.js]
-    ml: [NLP, predictive analytics, Hugging Face]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, OpenAI API, LangChain]
-    data: [Data Pipelines, data transformation]
-    other: []
+    languages: [JavaScript, TypeScript, Python, Node.js]
+    ml: [Machine Learning, NLP, Predictive Analytics, Hugging Face]
+    other: [Agile]
     ops: [Git]
-    web: [APIs, REST APIs, GraphQL, WebSockets]
     databases: [PostgreSQL, MongoDB, Redis]
+    domains: []
+    web: [APIs, REST APIs, GraphQL, WebSockets]
+    data: [Data Pipelines, Data Transformation]
+    genai: [LLMs, OpenAI API, LangChain]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9341103'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:02:28.093452'
+  extracted_at: '2026-08-16T10:25:46.556339'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

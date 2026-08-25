@@ -1,52 +1,56 @@
 company:
   name: The Trade Desk
-  stage: Public
+  stage: ''
   focus: Global programmatic advertising technology platform
 position:
   title: Staff Software Engineer – Agentic AI
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The job title explicitly mentions "Agentic AI," indicating
-      the role involves building AI agent systems. The description
-      references "machine learning" and "model pipelines for
-      bidding optimizations" as part of the work scope, and the
-      title suggests direct involvement in designing and
-      implementing agentic AI solutions at scale.
+      Despite the "Agentic AI" title, the responsibilities
+      describe generic backend and distributed-systems
+      engineering: building platform infrastructure, services, and
+      tooling with Docker, Kubernetes, .NET Core, Java, and Scala.
+      Nothing indicates the person shapes model behaviour (no
+      prompts, retrieval, agent-flow design, fine-tuning, or
+      evals); machine learning is only one possible area among
+      many, so the title does not override the actual work.
   responsibilities:
-  - Participate actively in all aspects of designing, building, and delivering products
-    for clients
-  - Develop with a variety of platforms and technologies including Docker, Kubernetes,
-    AWS, Azure, .NET Core, Java, Scala, and GraphQL
-  - Participate in design reviews and proof of concepts for agentic AI solutions
-  - Contribute to solution design aligned with the overall technical roadmap and industry
+  - Participate in all aspects of designing, building, and delivering data-focused
+    products for clients and internal stakeholders
+  - Develop back-end infrastructure using a range of platforms and technologies including
+    Docker, Kubernetes, AWS, Azure, Aliyun, .NET Core, Java, Scala, SQL Server, and
+    GraphQL
+  - Contribute to solution design in line with the overall technical roadmap and industry
     best practices
-  - Work on large-scale distributed systems coordinating thousands of servers across
-    cloud and physical data centers
-  - Tackle petabyte-scale data challenges and machine learning problems
-  - Provide technical leadership, mentoring, and potentially manage small teams
-  - Build and optimize model pipelines for bidding and advertising optimizations
+  - Participate in design reviews and proof of concepts
+  - Work on large-scale distributed systems, petabyte-scale data challenges, machine
+    learning, advanced visualizations, and interactive user interfaces
+  - Build always-on web-based, service-oriented applications and integrated back-office
+    systems
+  - Raise the engineering bar through mentoring, technical leadership, and occasionally
+    direct management of small teams
   use_cases:
-  - Agentic AI for advertising technology
-  - Bidding optimization through ML model pipelines
-  - Large-scale distributed ad serving infrastructure handling over 1 trillion queries
-    per day
-  - Programmatic advertising decision-making and automation
-  - Petabyte-scale data processing for ad tech platform
+  - Programmatic advertising platform serving over 1 trillion queries per day
+  - Model pipelines for advertising bidding optimizations
+  - Always-on global traffic serving across cloud and physical data centers
+  - Petabyte-scale data processing for the media and advertising ecosystem
   skills:
-    domains: []
-    languages: [Java, Scala, C#, C++]
-    ml: [Machine Learning]
     cloud: [AWS, Azure, Aliyun]
-    genai: []
-    data: []
-    other: [Agile, Distributed Systems, Jira]
-    ops: [Docker, Kubernetes, Git, GitLab CI]
-    web: [.NET Core, GraphQL]
+    languages: [.NET Core, Java, Scala, C#, C++]
+    ml: [Machine Learning]
+    other: [Jira, Agile]
+    ops: [Docker, Kubernetes, GitLab CI, Git, Distributed Systems]
     databases: [SQL Server]
+    domains: []
+    web: [GraphQL]
+    data: []
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9099984'
   location: London, GBR
-  extracted_at: '2026-04-22T12:43:47.993484'
+  extracted_at: '2026-08-16T08:02:26.474758'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

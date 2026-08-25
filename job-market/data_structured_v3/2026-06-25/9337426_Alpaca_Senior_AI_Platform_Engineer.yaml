@@ -1,0 +1,61 @@
+company:
+  name: Alpaca
+  stage: Series D
+  focus: Brokerage infrastructure and APIs for financial institutions
+position:
+  title: Senior AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role requires hands-on building of agentic AI systems —
+      LLM-powered workflows, tool-calling agents, and evaluation
+      loops using frameworks like Claude SDK, Google ADK, and
+      LangGraph — and the person designs execution patterns,
+      isolation boundaries, evaluation standards, and governance
+      for agents. That is directly shaping agent behaviour and
+      output reliability, with an LLM/agent component, so it is
+      ai-first despite the platform-infrastructure framing.
+  responsibilities:
+  - Own the connector and service integration layer that powers AI workflows across
+    the company
+  - Design and ship execution environments for agents and higher-autonomy AI workflows,
+    including isolation boundaries and access controls
+  - Build reusable platform services, golden paths, and self-service templates that
+    reduce setup friction for teams building on AI
+  - Productize onboarding for both developers and non-developers without manual intervention
+    or tribal knowledge
+  - Define and enforce technical standards for agent execution, evaluation loops,
+    and deployment
+  - Own the AI governance layer covering access controls, audit trails, approval criteria,
+    and deployment boundaries for agentic workflows
+  - Set the reliability, observability, and operational bar for AI-specific infrastructure
+  - Partner with Security and IT to ship deployable patterns for higher-risk AI capabilities
+  use_cases:
+  - Company-wide AI enablement for engineering and business teams
+  - Safe, governed execution of LLM-powered agents with real tool access
+  - Self-service onboarding to agentic AI workflows for developers and non-developers
+  - Audit trails, access controls, and approval workflows for higher-autonomy AI in
+    a regulated fintech
+  - Reliable, observable AI platform infrastructure for durable productivity gains
+  skills:
+    genai: [AI Agents, Agentic Workflows, Function Calling, Anthropic API, Google
+        ADK, LangGraph, LLM Evaluation, Cursor, Claude Code]
+    ml: []
+    web: [APIs, OAuth]
+    databases: []
+    data: []
+    cloud: [GCP, Vertex AI]
+    ops: [Kubernetes, Containers, Infrastructure as Code, Observability]
+    languages: []
+    domains: []
+    other: [Secrets Management, CLI Tooling, AI Governance, Platform Engineering,
+      Fintech]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9337426'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T12:41:19.242518'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

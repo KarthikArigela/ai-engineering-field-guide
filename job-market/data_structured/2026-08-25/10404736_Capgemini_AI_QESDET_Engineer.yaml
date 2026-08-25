@@ -1,0 +1,47 @@
+company:
+  name: Capgemini
+  stage: null
+  focus: Global IT consulting and technology services
+position:
+  title: AI QE/SDET Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role re-architects a QE test harness within an agent-
+      first SDLC platform and requires agentic/LLM frameworks
+      (LangGraph, CrewAI) with deterministic control around
+      probabilistic components, meaning the engineer shapes agent
+      behavior. LLM/agent components are central, so ai-first.
+  responsibilities:
+  - Re-architect the QE test harness for headless, multi-tenant execution with durable
+    orchestration, queued and scheduled runs
+  - Wire the harness into the end-to-end SDLC spine
+  - Integrate with TDM's two-lane architecture and the Repo Knowledge Plane
+  - Instrument telemetry, flake detection, and stability scoring that gate promotion
+  - Design APIs and event-driven orchestration for the platform
+  - Build test automation with CI integration
+  use_cases:
+  - Agent-first spec-driven SDLC platform with generated downstream artifacts
+  - Quality engineering test harness gating promotions
+  - Test data management with synthetic data pipelines
+  - Code generation from specifications
+  - Requirements authoring and traceability
+  skills:
+    genai: [LangGraph, CrewAI, LLMs]
+    ml: []
+    web: [APIs, Playwright]
+    databases: [Snowflake]
+    data: []
+    cloud: [Azure OpenAI, AWS]
+    ops: [CI/CD, Kubernetes]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture, BDD, Selenium]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10404736'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-25T10:00:14.091581'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

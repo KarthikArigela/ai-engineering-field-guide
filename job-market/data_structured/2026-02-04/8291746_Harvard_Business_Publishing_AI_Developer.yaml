@@ -1,54 +1,61 @@
 company:
   name: Harvard Business Publishing
   stage: null
-  focus: Management education and publishing
+  focus: |-
+    Publishing management education content for lifelong
+    learners
 position:
   title: AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on building, deploying, and
-      maintaining AI/ML infrastructure including LLM chat
-      interfaces, vector stores for RAG, and predictive ML
-      workflows. The developer will directly create AI-enabled
-      features, prototypes, and production APIs using LangChain
-      and PyTorch, not just supporting infrastructure for others.
+      The role directly builds LLM-facing systems — an LLM chat
+      interface, a vector store for RAG, and guardrails for LLMs —
+      which is shaping model behaviour through retrieval and LLM
+      tooling. It also maintains classical predictive ML
+      workflows, but since LLM components are clearly involved,
+      the role is ai-first.
   responsibilities:
-  - Support product teams in building new AI-enabled features and rapid prototypes,
-    contributing to technical vision and integrating AI/ML capabilities into product
-    ideas
-  - Facilitate technical interoperability between product management, data engineering,
-    software engineering, and partner teams to leverage core ML and AI infrastructure
-  - Develop and maintain ML and AI infrastructure including LLM chat interfaces, vector
-    stores for RAG, predictive ML workflows, and MLOps tools in AWS and Snowflake
-    environments
-  - Contribute to data engineering by collaborating on data pipelines and product-facing
-    APIs for the central data warehouse
-  - Support data science and analytics projects including inferring causal factors
-    of user intent, predicting user attributes, and projecting revenue
-  - Deploy production-grade AI/ML APIs using FastAPI or Flask with proper model training,
-    evaluation, and MLOps practices
+  - Support product teams in rapid prototyping of AI-enabled features, integrating
+    AI/ML capabilities into new product ideas and iterating quickly with shared AI
+    capabilities
+  - Act as a technical bridge between product management, data engineering, production
+    software engineering, and partner technical teams to extend core ML and AI infrastructure
+    from prototype to production
+  - Develop and maintain product-facing ML and AI infrastructure including an LLM
+    chat interface, a vector store for RAG, predictive ML workflows with automated
+    triggers, and MLOps tools within AWS and Snowflake environments
+  - Collaborate with the Data Engineering team to build and maintain data pipelines
+    and product-facing APIs for HBP's central data warehouse
+  - Contribute to data science and analytics projects such as inferring causal factors
+    driving user intent, predicting user attributes, and projecting potential revenue
+  - Support and equip product leads with knowledge and tools to pursue new AI-enabled
+    product concepts
+  - Support end users of no-code AI-assistive tools and transition no-code prototypes
+    into development and production environments
   use_cases:
-  - LLM chat interface for enhanced product interactivity and user engagement
-  - RAG-based knowledge retrieval using vector stores to leverage content data
-  - Predictive ML workflows with automated triggers for proactive insights
-  - User intent analysis and prediction models to enhance personalization
-  - Data-driven insights for editorial and marketing decision making
-  - Revenue projection and causal factor analysis for business optimization
+  - LLM chat interface for product experiences
+  - RAG-based retrieval over content using a vector store
+  - Predictive ML workflows with automated triggers
+  - Inferring user intent and predicting user attributes
+  - Deriving insight from user activity for editorial and marketing decisions
+  - Projecting potential revenue
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: [PyTorch, scikit-learn]
-    cloud: [SageMaker, AWS]
-    genai: [LangChain, LLMs, RAG]
-    data: [Data Pipelines, dbt, Pandas]
-    other: [Streamlit]
-    ops: [MLflow, Docker, CI/CD, Git]
-    web: [FastAPI, Flask]
+    cloud: [AWS, Azure, GCP, SageMaker]
+    languages: [Python, SQL]
+    ml: [scikit-learn, PyTorch, Machine Learning, Model Training, Model Evaluation]
+    other: [Statistics, No-Code AI Tools]
+    ops: [MLOps, MLflow, Model Registries, CI/CD, Docker, Git]
     databases: [Vector Databases, Snowflake]
+    domains: []
+    web: [FastAPI, Flask, Streamlit, APIs]
+    data: [Pandas, Data Pipelines, Data Warehousing, Medallion Architecture, dbt]
+    genai: [LangChain, LLMs, RAG, Guardrails, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8291746'
   location: USA
-  extracted_at: '2026-02-05T12:38:24.764208'
+  extracted_at: '2026-08-15T23:08:32.739976'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

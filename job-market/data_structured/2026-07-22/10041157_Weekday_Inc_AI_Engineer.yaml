@@ -1,17 +1,20 @@
 company:
   name: Weekday, Inc.
   stage: null
-  focus: AI staffing and client recruitment services
+  focus: |-
+    Recruiting platform staffing AI engineering roles for
+    clients
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing AI-powered applications using Azure OpenAI, LLMs,
-      RAG pipelines, and prompt engineering. The engineer designs
-      and implements GenAI solutions like intelligent copilots and
-      conversational AI, making this clearly an ai-first role.
+      The role shapes LLM behaviour directly: it develops prompt
+      engineering strategies, RAG pipelines, and AI orchestration
+      workflows to improve response quality, and it continuously
+      optimizes models and prompts. It builds copilots and
+      conversational AI solutions on LLMs (Azure OpenAI), so per
+      Step 2 this is ai-first.
   responsibilities:
   - Design, develop, and deploy AI-powered applications using Azure OpenAI, Python,
     and Microsoft Copilot technologies
@@ -20,33 +23,34 @@ position:
   - Integrate Azure AI services with enterprise applications, APIs, databases, and
     cloud platforms
   - Develop prompt engineering strategies, RAG pipelines, and AI orchestration workflows
-  - Implement secure AI architectures ensuring compliance with data privacy, governance,
-    and responsible AI principles
-  - Monitor AI application performance and continuously optimize models, prompts,
-    and system efficiency
-  - Collaborate with DevOps and cloud teams for deployment, CI/CD pipelines, and production
-    support
-  - Prepare technical documentation, architecture diagrams, and contribute to AI best
-    practices
+    to improve response quality and business outcomes
+  - Collaborate with business stakeholders, architects, and data professionals to
+    translate requirements into AI solutions
+  - Implement secure AI architectures while ensuring data privacy, governance, and
+    responsible AI compliance
+  - Monitor AI application performance, troubleshoot issues, and continuously optimize
+    models, prompts, and system efficiency
+  - Work with DevOps and cloud teams to support deployment, CI/CD pipelines, monitoring,
+    and production support
   use_cases:
-  - Enterprise intelligent automation workflows
-  - Conversational AI and intelligent copilots for business productivity
-  - RAG-based enterprise knowledge retrieval and response systems
-  - AI-powered application integration with enterprise systems and data platforms
-  - Secure and compliant enterprise AI solutions
+  - Enterprise intelligent automation of complex business workflows
+  - Intelligent copilots and AI-powered productivity applications
+  - Conversational AI solutions for enterprise users
+  - AI-enhanced integration of enterprise applications with Azure services
+  - Response quality improvement for business outcomes via RAG and prompt engineering
   skills:
-    genai: [Azure OpenAI, Microsoft Copilot, LLMs, Prompt Engineering, RAG, Generative
-        AI, Conversational AI, Embeddings, Agentic Workflows, Copilot Studio]
-    ml: []
-    web: [REST APIs, APIs]
-    databases: []
-    data: []
-    cloud: [Azure, Azure AI Foundry]
-    ops: [CI/CD, Model Deployment, Monitoring]
+    cloud: [Azure, Azure AI Foundry, Cognitive Services]
     languages: [Python]
+    ml: []
+    other: [Responsible AI, AI Security]
+    ops: [CI/CD]
+    databases: []
     domains: []
-    other: [Responsible AI]
-  is_customer_facing: true
+    web: [REST APIs, Microsoft Graph APIs]
+    data: []
+    genai: [Azure OpenAI, LLMs, Generative AI, Prompt Engineering, RAG, Embeddings,
+      Conversational AI, Microsoft Copilot]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10041157'
@@ -54,4 +58,6 @@ meta:
   locations:
   - Kochi, IND
   - Bengaluru, IND
-  extracted_at: '2026-07-22T13:25:07.965110'
+  extracted_at: '2026-08-16T16:26:19.028734'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

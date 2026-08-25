@@ -1,0 +1,52 @@
+company:
+  name: Roche
+  stage: null
+  focus: Pharmaceuticals and healthcare innovation
+position:
+  title: Full-Stack Software Engineer (Frontend, Backend & Cloud) – Applied & Agentic
+    AI Systems
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role explicitly states dedicated AI Engineers own the AI
+      work; this engineer builds the UI, backend APIs, cloud, and
+      DevOps that allow AI solutions to run in production. Hosting
+      MCP servers, streaming responses, and consuming LLM outputs
+      is plumbing around models, not shaping model behaviour, and
+      AI coding agents are developer tooling.
+  responsibilities:
+  - Develop scalable UI components in TypeScript with React/Next.js or Angular, handling
+    real-time LLM streams and unpredictable data
+  - Design and build backend services and APIs in Python supporting multi-agent workflows
+    and GenAI applications
+  - Build, host, and secure MCP servers and standard APIs for data exchange
+  - Design secure cloud infrastructure on AWS using Infrastructure-as-Code with Terraform
+  - Build and maintain CI/CD pipelines and Docker containerization
+  - Use AI coding assistants and autonomous agents (Claude Code, Ona) to accelerate
+    development in an agentic SDLC
+  - Conduct code reviews for human-written and AI-generated code
+  use_cases:
+  - Production infrastructure for applied AI solutions in healthcare
+  - Real-time streaming LLM interfaces (Generative UI)
+  - Backend APIs serving multi-agent workflows and GenAI applications
+  - MCP servers standardizing data exchange for AI systems
+  - Cloud deployment and DevOps automation for AI workloads
+  skills:
+    genai: [LLMs, Agentic Workflows, MCP, Generative AI, Claude Code]
+    ml: []
+    web: [React, Next.js, Angular, Microservices]
+    databases: [Snowflake, OpenSearch, Graph Databases]
+    data: []
+    cloud: [AWS, IAM, AWS Lambda, AWS S3, ECS]
+    ops: [Docker, CI/CD, GitHub Actions, Terraform, Infrastructure as Code, Code Review]
+    languages: [TypeScript, Python]
+    domains: []
+    other: [TDD]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10660410'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T11:09:32.697196'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

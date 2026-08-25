@@ -1,0 +1,49 @@
+company:
+  name: APTIV
+  stage: null
+  focus: Automotive safety, electrification, and connectivity systems
+position:
+  title: Senior Engineer - AI/ML -Ops (6-8 Yrs)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates MLOps infrastructure (Ray
+      clusters, EKS, Airflow, MLflow, CI/CD) for autonomous
+      driving ML workloads. It does not shape model behavior—no
+      prompt work, no LLM involvement, and no training/tuning of
+      models by this person—only hosting, scaling, and pipeline
+      plumbing, which is ai-support.
+  responsibilities:
+  - Build and operate MLOps platforms on AWS supporting autonomous driving ML workloads
+  - Implement and maintain highly available multi-zone training and deployment environments
+  - Operate distributed multi-GPU training setups such as Ray clusters
+  - Maintain infrastructure standards for compute, storage, networking, and security
+  - Troubleshoot and resolve platform-level issues impacting ML productivity
+  - Implement ML pipelines with Airflow orchestration and MLflow experiment tracking
+    and model versioning
+  - Support CI/CD pipelines for ML code, models, and infrastructure (GitHub-based)
+  - Ensure ML workflows are reproducible, traceable, and auditable
+  use_cases:
+  - MLOps platform for autonomous driving ML workloads
+  - Multi-GPU distributed model training infrastructure
+  - Experiment tracking and model lifecycle management
+  - Reproducible and auditable ML pipelines for automotive engineering
+  skills:
+    genai: []
+    ml: [Model Training, Model Deployment]
+    web: []
+    databases: []
+    data: [Airflow, Ray]
+    cloud: [AWS, EKS]
+    ops: [MLOps, MLflow, Kubernetes, Terraform, CI/CD, Infrastructure as Code, GitHub]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10823571'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T12:10:40.747982'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

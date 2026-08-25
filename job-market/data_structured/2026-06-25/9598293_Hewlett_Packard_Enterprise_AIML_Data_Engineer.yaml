@@ -1,53 +1,57 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud computing and networking solutions
+  stage: null
+  focus: Edge-to-cloud enterprise technology and networking solutions
 position:
   title: AI/ML Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building data pipelines, ETL/ELT
-      processes, and Feature Stores to support AI/ML initiatives
-      at HPE Networking. While the team works in an AI-driven
-      context, this specific role does not involve building,
-      training, or deploying models — it enables AI/ML teams by
-      providing clean, well-structured data infrastructure.
+      The role builds and maintains data pipelines, a feature
+      store, and data integration/storage infrastructure that feed
+      AI/ML and analytics initiatives, but never shapes model
+      behaviour - there is no prompting, retrieval design, agent
+      work, training, or evaluation. Data engineering that feeds
+      models is plumbing, so the role is ai-support.
   responsibilities:
-  - Develop, maintain, and optimize data pipelines and Feature Store for seamless
-    data ingestion and transformation
-  - Design, develop, and architect scalable data engineering pipelines considering
-    performance and storage
-  - Implement advanced data transformations and quality checks ensuring data accuracy,
+  - Develop, maintain, and optimize data pipelines, workflows, and a Feature Store
+    as a scalable data solution for seamless ingestion and transformation
+  - Design, architect, and implement data engineering pipelines with attention to
+    performance, scalability, storage, and processing
+  - Implement advanced data transformations and quality checks to ensure data accuracy,
     completeness, security, and consistency
-  - Integrate data from diverse sources using AWS S3 and Snowflake for ingestion,
-    transformation, and storage
-  - Create and implement advanced data models and schemas with data governance best
-    practices
-  - Perform web crawling and API-based data extraction from sources like Salesforce
-    API and Bulk API
+  - Integrate data from diverse sources (APIs, streams, web crawling) into AWS S3
+    storage and a Snowflake SQL data warehouse
+  - Create advanced data models and schemas and uphold data governance and data management
+    best practices
+  - Build end-to-end pipelines for semi-structured and unstructured data including
+    text, complex tables, images, video, and audio
   use_cases:
-  - Data pipelines and Feature Store supporting AI-driven support and automation tools
-    for HPE Networking
-  - Ingestion and transformation of semi-structured and unstructured data (text, images,
-    video, audio) for ML consumption
-  - Data engineering enabling proactive and predictive customer support experiences
-  - Automation and self-service platforms for networking support and services
+  - AI-driven support and services experiences for HPE Networking customers, partners,
+    and employees
+  - Provisioning and managing feature/data infrastructure that feeds AI and ML models
+  - Proactive and predictive support experiences that shorten resolution times and
+    accelerate task completion
+  - Self-service and intelligent automation to shift support from reactive to anticipatory
+  - Scalable ingestion, transformation, and governance of structured and unstructured
+    data across diverse sources
   skills:
-    domains: []
+    cloud: [AWS, AWS S3, AWS Glue, AWS EMR, AWS EC2, AWS RDS, IAM]
     languages: [Python, SQL]
     ml: [Feature Store]
-    cloud: [AWS S3, AWS Glue, AWS EMR, AWS EC2, AWS RDS, IAM]
-    genai: []
-    data: [PySpark, Databricks, Spark, Kafka, Kafka Streaming, Data Pipelines, Data
-        modeling and schema design, Data Governance]
-    other: [Web crawling and scraping, Root Cause Analysis (RCA)]
-    ops: [GitHub Actions]
-    web: [Salesforce API]
+    other: [Root Cause Analysis]
+    ops: [GitHub Actions, Monitoring]
     databases: [Relational Databases, Snowflake]
+    domains: []
+    web: [Salesforce API]
+    data: [PySpark, Data Pipelines, Data Engineering, Data Modeling, Data Governance,
+      Web Crawling, Databricks, Kafka, Spark, Kafka Streaming]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9598293'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:44:51.038927'
+  extracted_at: '2026-08-16T13:08:58.470577'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,50 +1,52 @@
 company:
   name: OUTFRONT Media
-  stage: Public
-  focus: Out-of-home advertising and media
+  stage: null
+  focus: Out-of-home advertising and real-world media company
 position:
   title: AI Automation Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building AI agents in Copilot Studio and
-      AWS Bedrock, contributing to an internal AI platform
-      (OUTGPT) built on Vercel AI SDK and Bedrock, and shipping
-      AI-powered automations. The engineer directly builds,
-      deploys, and iterates on AI agents and LLM-powered
-      workflows.
+      The role designs and ships AI agents in Copilot Studio and
+      AWS Bedrock, iterating on where agent workflows break, and
+      builds features on an internal LLM platform (OUTGPT) built
+      on the Vercel AI SDK. Designing agent flows and working
+      directly on LLM-based systems is shaping model behavior,
+      with clear LLM/agent components, so the role is ai-first.
   responsibilities:
-  - Ship AI-powered automations that replace broken manual processes across business
-    teams at OUTFRONT
-  - Build AI agents and workflows in Copilot Studio for M365-native use cases and
-    in AWS Bedrock for autonomous and system-data work
+  - Embed with business teams across OUTFRONT to find broken manual processes and
+    ship AI-powered automations that fix them
+  - Build AI agents in Copilot Studio for M365-native use cases and in AWS Bedrock
+    for autonomous and system-data work
   - Contribute features, integrations, and capabilities to OUTGPT, the internal AI
-    platform built on Vercel AI SDK and AWS Bedrock
-  - Build integrations using REST APIs, webhooks, OAuth, SQL, Snowflake, and Salesforce
-    to connect automation systems
-  - Embed with business stakeholders to identify automation opportunities, gather
-    requirements, and deliver solutions
-  - Mentor interns while receiving mentorship from the Senior AI Automation Engineer
-    and Lead AI Platform Engineer
+    platform built on the Vercel AI SDK and AWS Bedrock
+  - Build integrations across REST APIs, webhooks, OAuth, SQL, Snowflake, and Salesforce
+    as the connective tissue of automations
+  - Pair on stakeholder engagements with the Senior AI Automation Engineer and take
+    the lead on own projects over time
+  - Mentor an intern while being mentored by the Senior AI Automation Engineer and
+    Lead AI Platform Engineer
+  - Ramp on the AWS and Microsoft stacks while shipping production work from day one
   use_cases:
-  - Business process automation across Finance, Sales Ops, and other internal teams
-  - M365-native AI agents for employee productivity and workflow assistance
-  - Autonomous AI agents for system-data processing and operational tasks
-  - Internal AI platform (OUTGPT) for enterprise AI tooling and integrations
+  - Automating broken manual business processes for internal teams like Finance and
+    Sales Ops
+  - M365-native AI assistants built with Copilot Studio
+  - Autonomous agents operating over system data using AWS Bedrock
+  - Internal AI platform (OUTGPT) providing LLM capabilities to the company
+  - Connecting Salesforce, Snowflake, and internal systems to power automations
   skills:
-    domains: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS S3, RDS, IAM, Step Functions]
     languages: [Python, TypeScript, Node.js, SQL]
     ml: []
-    cloud: [AWS Bedrock, AWS Lambda, AWS S3, AWS RDS, IAM, AWS Step Functions]
-    genai: [Vercel AI SDK, Copilot Studio, AI Agents, LLM application development,
-      MCP, A2A]
+    other: [Power Platform, Power Apps, Power Automate, Microsoft 365, Salesforce,
+      Sigma, Kiro]
+    ops: [Bitbucket, GitHub]
+    databases: [Snowflake, PostgreSQL]
+    domains: []
+    web: [REST APIs, Webhooks, OAuth, JSON, Next.js]
     data: []
-    other: [Salesforce, Microsoft Power Platform, Power Apps, Power Automate, Microsoft
-        365, Claude Code]
-    ops: [Bitbucket]
-    web: [Next.js, REST APIs, OAuth, Webhooks]
-    databases: [PostgreSQL, Snowflake]
-  is_customer_facing: true
+    genai: [LLMs, AI Agents, Copilot Studio, Vercel AI SDK, MCP, A2A, Claude Code]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '9625122'
@@ -52,4 +54,6 @@ meta:
   locations:
   - New York, USA
   - Fairfield, USA
-  extracted_at: '2026-06-25T19:46:26.536624'
+  extracted_at: '2026-08-16T13:19:09.432628'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

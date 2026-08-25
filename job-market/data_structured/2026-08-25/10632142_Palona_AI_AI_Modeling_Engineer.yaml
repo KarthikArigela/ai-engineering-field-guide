@@ -1,0 +1,60 @@
+company:
+  name: Palona AI
+  stage: null
+  focus: AI voice agents for restaurant ordering
+position:
+  title: AI Modeling Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM/agent behavior: prompting and
+      context construction, tool-use policies, model routing,
+      fine-tuning and preference optimization, and building
+      evaluations for voice agents. LLM/agentic components are
+      clearly involved, so ai-first.
+  responsibilities:
+  - Develop modeling and experimentation strategies for voice, language, reasoning,
+    ordering, multilingual, and multimodal agent problems
+  - Build rigorous offline and online evaluations measuring task completion, accuracy,
+    safety, latency, cost, and conversational quality
+  - Create and maintain representative datasets from simulations, human annotation,
+    production feedback, and edge cases
+  - Evaluate frontier and open-source models and make build, buy, route, prompt, fine-tune,
+    or distill decisions
+  - Improve prompting, context construction, memory, tool-use policies, structured
+    outputs, model routing, and fallback behavior
+  - Design fine-tuning, preference optimization, distillation, or other post-training
+    work when beneficial
+  - Partner with speech and real-time engineers to improve ASR, TTS, turn-taking,
+    interruption handling, and latency
+  - Ship model changes with guardrails, staged rollouts, monitoring, rollback paths,
+    and quality gates
+  use_cases:
+  - Voice AI agents taking restaurant phone orders in noisy real-world environments
+  - Multilingual and multimodal conversational ordering
+  - 'Speech quality: ASR, TTS, turn-taking, and interruption handling'
+  - Model routing and selection across frontier and open-source models
+  - Production model evaluation, guardrails, and regression detection
+  skills:
+    genai: [LLMs, AI Agents, Prompt Engineering, Structured Outputs]
+    ml: [PyTorch, JAX, Hugging Face, Fine-Tuning, Machine Learning, Distillation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10632142'
+  location: Toronto, CAN
+  locations:
+  - Toronto, CAN
+  - New York, USA
+  - Los Altos, USA
+  extracted_at: '2026-08-25T11:00:02.814690'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

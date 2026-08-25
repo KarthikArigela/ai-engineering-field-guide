@@ -1,53 +1,58 @@
 company:
   name: Databricks
-  stage: Public
-  focus: Unified data, analytics and AI platform
+  stage: null
+  focus: |-
+    Unified data and AI platform for analytics and machine
+    learning
 position:
   title: Pre-sales Senior Technical Solutions Engineer (Data and AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a pre-sales technical solutions engineer role at
-      Databricks focused on demonstrating the Data Intelligence
-      Platform to customers. The role involves solution
-      architecture, proofs-of-concept, and customer advisory work
-      rather than directly building, training, or deploying AI/ML
-      models. The candidate works NEAR AI by showcasing Databricks
-      capabilities to customers, not by developing the AI systems
-      themselves.
+      This is a pre-sales technical solutions role that demos and
+      integrates the Databricks Data Intelligence Platform for
+      customers: hands-on evaluations, Spark programming,
+      cloud/3rd-party integrations, and authoring reference
+      architectures and demos. There is no prompt engineering, RAG
+      design, agent orchestration, fine-tuning, or model output
+      evaluation — the person presents a platform built by others,
+      so the role is ai-support.
   responsibilities:
-  - Build and maintain relationships with clients to provide technical and business
-    value in collaboration with Account Executives and Solutions Architects
-  - Conduct hands-on evaluations and Spark programming demonstrations to excite clients
-    about Databricks
-  - Integrate Databricks with the wider cloud ecosystem and third-party applications
-    for customer solutions
-  - Act as a Big Data Analytics advisor on architecture and design aspects
+  - Build successful technical relationships with clients across an assigned territory,
+    delivering technical and business value in collaboration with an Account Executive
+    and Senior Solutions Architect
+  - Generate customer excitement about Databricks through hands-on evaluations and
+    Spark programming, integrating with the wider cloud ecosystem and third-party
+    applications
+  - Act as a Big Data Analytics advisor to customers on architecture and design
   - Author reference architectures, how-tos, and demo applications to support customers
-  - Engage with the technical community through workshops, seminars, and meet-ups
-  - Identify customer pain points and deliver technical propositions that demonstrate
-    business value
-  - Develop towards becoming an independently operating Solutions Architect
+  - Contribute to the Databricks technical community through workshops, seminars,
+    and meet-ups
+  - Develop technical and pre-sales skills with the goal of becoming an independently
+    operating Solutions Architect
+  - Travel to customer sites in the UK approximately 20-30% of the time
   use_cases:
-  - Big data analytics and data warehousing solutions for enterprise customers
-  - Cloud data platform integration and architecture design
-  - Generative AI and machine learning solution demonstrations for pre-sales
-  - Data engineering and data science enablement on the Databricks platform
+  - Big data analytics and data warehousing workloads on a unified cloud platform
+  - Data science, machine learning, and generative AI solutions for enterprise customers
+  - Hands-on customer evaluations, proofs-of-concept, and demo applications
+  - Integration of the platform with the wider cloud ecosystem and third-party applications
+  - Reference architectures and how-tos addressing customer data challenges
   skills:
-    genai: [Generative AI]
-    ml: [Machine Learning]
-    web: []
-    databases: []
-    data: [Spark, Databricks, Delta Lake, Data Warehousing, Data Engineering, Big
-        Data, Apache Spark]
     cloud: [AWS, GCP, Azure]
-    ops: [MLflow]
     languages: [Python, Java, Scala]
+    ml: [Machine Learning]
+    other: [Data Science, System Design]
+    ops: []
+    databases: []
     domains: []
-    other: [Data Science, Solution Architecture]
+    web: []
+    data: [Spark, Databricks, Data Engineering, Data Warehousing, Big Data Analytics]
+    genai: [Generative AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10149700'
   location: London, GBR
-  extracted_at: '2026-07-22T13:31:25.453060'
+  extracted_at: '2026-08-16T17:18:53.538015'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

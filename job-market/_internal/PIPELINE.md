@@ -182,7 +182,32 @@ python scrapers/extract_from_html.py --all --csv data/scrapes/{YYYY-MM-DD}/all_j
 # 5. LLM enrichment
 python extract_llm.py --all --csv data/scrapes/{YYYY-MM-DD}/all_jobs_dedup.csv
 
-# 6. Re-run analysis.ipynb on combined dataset
+# 6. Canonicalize skill names
+python analysis/canonicalize_skills.py
+
+# 7. Re-run analysis.ipynb on combined dataset
 ```
+
+## Before Changing the Model or the Prompt
+
+Either change silently rewrites what the numbers mean. The `glm-5.1` to
+`glm-5.2` switch mid-2026 moved the AI-First share by up to 10 percentage
+points and added 6 skills per job, none of it real. Extract to a staging
+directory first, never over `data_structured/`, and run the checks in
+[eval/](eval/):
+
+```bash
+# cheap, no judge, run these on every scrape - not just prompt changes.
+# with no argument it checks the current corpus for self-consistency;
+# with a git ref it also diffs against that ref's extraction.
+eval/run_checks.sh 7e269b34
+
+# the 50-job blind A/B, for a substantive prompt change. use a fresh seed:
+# seed 2026 has already been graded and is a regression set, not evidence.
+uv run python eval/build_eval.py --baseline /tmp/base --out ./run2 --seed 4242
+```
+
+Each extracted record stamps `meta.model` and `meta.prompt_sha`, so a mixed
+corpus is visible in the data rather than having to be reconstructed later.
 
 All months' data accumulates under dated folders in `data_raw/` and `data_structured/` — the analysis notebook and helper scripts read those directories recursively.

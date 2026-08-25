@@ -1,0 +1,69 @@
+company:
+  name: True Anomaly
+  stage: null
+  focus: |-
+    Space defense technology: autonomous spacecraft and
+    interceptors
+position:
+  title: Senior Compliance Engineer, AI Governance
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements guardrails, content
+      filtering, prompt injection mitigation, and audit gates
+      within LLM pipelines, which is directly shaping LLM output
+      quality and behavior. LLMs are explicitly the target, so ai-
+      first despite the compliance-focused title.
+  responsibilities:
+  - Lead compliance assessment readiness across NIST SP 800-171/53, CMMC Level 3,
+    CSF, and EAR/ITAR cybersecurity frameworks
+  - Design, implement, and maintain compliance checkpoints and enforcement gates within
+    LLM pipelines, including input/output filtering and prompt injection controls
+  - Build data classification guardrails preventing CUI, ITAR-controlled, or classified
+    data from entering unauthorized AI systems
+  - Conduct AI-specific risk assessments of vendors, training data provenance, and
+    third-party AI API security against NIST AI RMF
+  - Develop and enforce AI system acceptable use policies and maintain an enterprise
+    AI system inventory
+  - Collaborate with AI/ML engineers and DevSecOps teams to integrate compliance gates
+    into CI/CD and MLOps workflows
+  - Maintain SSPs, POA&Ms, audit evidence repositories, and conduct internal compliance
+    audits
+  - Coordinate with external assessors, auditors, and government partners during assessment
+    engagements
+  use_cases:
+  - AI governance and compliance controls for enterprise LLM deployments in a defense
+    context
+  - Guardrails preventing classified or export-controlled data from leaking into AI
+    systems
+  - Prompt injection detection and content policy enforcement in LLM pipelines
+  - AI vendor and platform risk assessment against NIST AI RMF and CMMC requirements
+  - Audit logging and traceability of AI interactions for incident investigation
+  - Regulatory compliance (CMMC, NIST, ITAR) readiness for space defense systems
+  skills:
+    cloud: [Azure, AWS, AWS GovCloud]
+    languages: [Python]
+    ml: [Machine Learning, Model Evaluation, MLOps]
+    other: [NIST SP 800-53, CMMC, NIST SP 800-171, NIST AI RMF, ITAR, EAR, GDPR, System
+        Security Plans, POA&M, CISSP, CISA, CRISC, Agile, Responsible AI, Security
+        Clearance]
+    ops: [CI/CD, DevSecOps, Model Deployment, Model Monitoring]
+    databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Guardrails, OpenAI API, Anthropic API, Llama, Azure OpenAI, LLMs, LangChain,
+      Prompt Engineering, Azure Content Safety, OpenAI Moderation API, Constitutional
+        AI, Embeddings]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10764465'
+  location: USA
+  locations:
+  - USA
+  - Long Beach, USA
+  remote: true
+  extracted_at: '2026-08-25T11:42:29.397791'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

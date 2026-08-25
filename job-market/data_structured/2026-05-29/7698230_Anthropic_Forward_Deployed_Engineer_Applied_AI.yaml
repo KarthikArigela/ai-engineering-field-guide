@@ -1,53 +1,52 @@
 company:
   name: Anthropic
-  stage: Late-stage (well-funded, major AI lab)
+  stage: null
   focus: |-
-    Building safe, reliable, and interpretable AI systems
-    (Claude)
+    AI safety research building reliable, interpretable,
+    steerable AI systems
 position:
   title: Forward Deployed Engineer, Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly
-      builds production applications using Claude models, delivers
-      technical artifacts like MCP servers and sub-agents, and
-      performs prompt engineering and agent development. The role
-      involves hands-on work deploying and building AI systems at
-      customer sites, making it clearly ai-first.
+      The role shapes LLM behavior directly: building production
+      applications with Claude, delivering MCP servers, sub-
+      agents, and agent skills, with required experience in
+      advanced prompt engineering, agent development, and
+      evaluation frameworks. Forward Deployed Engineers who adapt
+      and deploy AI solutions at customer sites are explicitly ai-
+      first.
   responsibilities:
-  - Build production applications integrated with Claude models within customer systems,
-    meeting customer requirements
-  - Deliver technical artifacts including MCP servers, sub-agents, and agent skills
-    for production workflows
+  - Build production applications with Claude models within customer systems, ensuring
+    products meet customer requirements
+  - Deliver technical artifacts such as MCP servers, sub-agents, and agent skills
+    for use in production customer workflows
   - Provide white glove deployment support for Anthropic products in enterprise environments
-  - Identify and codify repeatable deployment patterns, contributing insights back
+  - Identify and codify repeatable deployment patterns and contribute insights back
     to Product and Engineering teams
-  - Maintain strong knowledge of latest LLM capabilities, implementation patterns,
-    and AI product development stacks
-  - Build long-term relationships with customers and proactively identify new AI deployment
-    opportunities
-  - Travel to customer sites (~25%) to build collaboratively in person
-  - Champion Anthropic's mission of safe and beneficial AI in the field
+  - Stay current on LLM capabilities, implementation patterns, and AI product development
+    stacks
+  - Build long-term customer relationships and proactively identify new AI deployment
+    opportunities across the engagement lifecycle
+  - Travel to customer sites (estimated 25%) to build in person and champion Anthropic's
+    mission in the field
   use_cases:
-  - Enterprise AI application development using Claude models
-  - Production deployment of AI agents and sub-agents in customer environments
-  - MCP server development for enterprise workflow integration
-  - Advanced prompt engineering and evaluation at enterprise scale
-  - AI transformation of customer business workflows across verticals like financial
-    services and healthcare
+  - Enterprise AI applications built on Claude models
+  - Agentic production workflows using MCP servers, sub-agents, and agent skills
+  - AI adoption and workflow transformation for strategic enterprise customers
+  - AI solutions for complex business problems in verticals like financial services
+    and healthcare
   skills:
-    domains: []
+    cloud: []
     languages: [Python, TypeScript, Java]
     ml: []
-    cloud: []
-    genai: [Prompt Engineering, Agent Development, MCP, LLM Deployment at Scale, LLM
-        Evaluation, Anthropic API]
-    data: []
-    other: [Enterprise IT Systems, Customer-facing Technical Consulting]
+    other: []
     ops: []
-    web: [Production Application Development, REST APIs]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Anthropic API, Prompt Engineering, MCP, AI Agents, LLMs, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
@@ -59,4 +58,6 @@ meta:
   - Boston, USA
   - San Francisco, USA
   - Washington, USA
-  extracted_at: '2026-05-29T08:46:34.078162'
+  extracted_at: '2026-08-16T08:31:50.768363'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

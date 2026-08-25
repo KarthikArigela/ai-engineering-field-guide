@@ -1,0 +1,59 @@
+company:
+  name: Plane
+  stage: null
+  focus: |-
+    Open-source work management platform for projects,
+    knowledge, and requests
+position:
+  title: Software Engineer, AI Application
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships agent workflows, MCP tool
+      surfaces, retrieval (chunking, embeddings, reranking), and
+      evaluation harnesses that shape LLM/agent output quality.
+      That is direct shaping of an LLM-based agent system, making
+      it ai-first.
+  responsibilities:
+  - Build agent workflows that operate on Plane data, including planning loops, tool
+    calling, multi-step execution, and failure recovery
+  - Design and ship MCP servers exposing Plane capabilities as tools with schemas,
+    permissions, and error semantics
+  - 'Own the retrieval layer end to end: chunking, embedding models, vector storage,
+    hybrid search, and reranking'
+  - Build customer-facing agent interfaces with streaming output, step visibility,
+    approval gates, and interruption
+  - Establish evaluation harnesses with datasets, regression suites, and offline/online
+    metrics
+  - Instrument tracing, token cost, and latency across agent runs and drive down production
+    failure modes
+  - Design permission and audit models for agent actions
+  - Evaluate models, frameworks, and techniques and recommend adoption decisions
+  use_cases:
+  - AI agents planning, tracking, and shipping work inside a work management platform
+  - Agent tool calling via MCP against workspace data with permission and audit controls
+  - Retrieval over workspace context for agents (chunking, embeddings, hybrid search,
+    reranking)
+  - Human-in-the-loop agent interfaces with approval gates and interruption
+  - Evaluation and monitoring of agent quality, cost, and latency in production
+  skills:
+    genai: [MCP, AI Agents, Agentic Workflows, Function Calling, Embeddings, RAG,
+      LLMs, LLM Evaluation]
+    ml: []
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10737828'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:33:38.131359'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

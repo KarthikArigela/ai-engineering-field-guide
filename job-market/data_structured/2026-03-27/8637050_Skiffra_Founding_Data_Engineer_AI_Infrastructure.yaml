@@ -1,56 +1,62 @@
 company:
   name: Skiffra
-  stage: Seed
+  stage: null
   focus: |-
-    AI-native orchestration systems for physical industries like
-    mining and natural resources
+    AI-native orchestration platform for industrial and
+    physical-world operations
 position:
   title: Founding Data Engineer (AI Infrastructure)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building data infrastructure and
-      pipelines that enable AI/ML systems, but does not directly
-      build, train, or deploy models. The work involves creating
-      semantic layers, data contracts, and ingestion pipelines
-      that power downstream AI agents and LLMs - classic enabling
-      infrastructure work rather than hands-on model development.
+      The role builds the data foundation — pipelines, schemas,
+      contracts, lineage, and a semantic metadata layer — that
+      feeds LLMs and agents designed elsewhere; the person never
+      writes prompts, designs retrieval, or evaluates model
+      output. The deliverable is clean, reliable data
+      infrastructure rather than model behaviour, so this is ai-
+      support despite the AI-native product.
   responsibilities:
   - Design and maintain a semantic layer that translates raw database schemas into
-    high-context metadata for LLMs and autonomous agents
-  - Integrate ERPs, operational tools, and legacy systems into a unified internal
-    data layer powering the orchestration engine
-  - Design schemas and data contracts consumed by LLMs and workflow engines for predictable,
-    high-fidelity inputs
-  - Ensure data lineage and metadata enable LLMs to understand business significance
-    of data points
+    high-context metadata so LLMs and autonomous agents can reason across enterprise
+    data
+  - Integrate ERPs, operational tools, and legacy systems into a clean, unified internal
+    data layer powering Skiffra's orchestration engine
+  - Design schemas and data contracts consumed by LLMs and workflow engines to ensure
+    predictable, high-fidelity inputs from messy sources
+  - Ensure every data point carries the lineage and metadata an LLM needs to understand
+    its business significance
   - Architect end-to-end ingestion and normalization pipelines for structured, semi-structured,
     and unstructured data
-  - Implement monitoring, observability, and automated data quality gates for the
-    orchestration engine
-  - Partner with product and engineering to translate operational needs into scalable
-    data systems
+  - Implement monitoring, observability, and automated data quality gates so the orchestration
+    engine never acts on stale or corrupted enterprise context
+  - Partner with product and engineering to translate complex operational needs into
+    scalable data systems
   use_cases:
-  - AI-native orchestration for physical world industries
-  - Intelligent adaptive workflows for mining and natural resources
-  - Real-time decision support for high-stakes industrial operations
-  - Autonomous agents reasoning across enterprise data
-  - Data integration from legacy systems and ERPs for AI consumption
+  - AI-native orchestration of industrial operations, starting with mining and natural
+    resources
+  - Autonomous agents that understand and act on complex industrial and enterprise
+    systems
+  - Real-time decision support for high-stakes physical-world operations
+  - Unifying fragmented enterprise data (ERPs, operational tools, legacy systems)
+    into high-fidelity context for LLM reasoning
   skills:
-    domains: []
+    cloud: [Cloud Data Infrastructure]
     languages: [Python, SQL]
     ml: []
-    cloud: [Cloud data infrastructure]
-    genai: [Data contracts for LLMs, RAG]
-    data: [Data Pipelines, Streaming systems, Event-driven systems, Data cataloging,
-      Data lineage, Data quality gates]
-    other: []
-    ops: [Observability]
-    web: [APIs]
+    other: [Event-Driven Architecture, ERP Integration]
+    ops: [Monitoring, Observability]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Discovery, Data Cataloging, Data Contracts, Data Lineage,
+      Data Quality, Semantic Layer, Data Access Controls]
+    genai: [LLMs, RAG, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8637050'
   location: Los Angeles, USA
-  extracted_at: '2026-03-27T14:50:08.408686'
+  extracted_at: '2026-08-16T03:26:44.728937'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

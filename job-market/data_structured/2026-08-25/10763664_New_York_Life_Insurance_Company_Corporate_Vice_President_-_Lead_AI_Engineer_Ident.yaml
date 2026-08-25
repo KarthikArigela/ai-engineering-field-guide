@@ -1,0 +1,62 @@
+company:
+  name: New York Life Insurance Company
+  stage: Fortune 100 mutual company
+  focus: |-
+    Insurance and financial services (Fortune 100 mutual
+    company)
+position:
+  title: Corporate Vice President - Lead AI Engineer, Identity & Access Management
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role hands-on builds multi-agent orchestration, MCP
+      tooling, RAG architectures, prompt engineering, and
+      guardrails for agents — directly shaping LLM/agent behavior.
+      This is ai-first.
+  responsibilities:
+  - Own engineering and enterprise adoption of the IAM Orchestration and MCP Identity
+    Gateway, governing authentication, delegation, and policy enforcement for human
+    and non-human identities
+  - Lead design and delivery of the Cyber Multi-Agent Ecosystem on GCP Gemini Enterprise
+    Agent Platform and/or Amazon AgentCore, integrating MCP tooling, vector databases,
+    and RAG
+  - Develop and operationalize AI agents across IAM sub-domains (IGA, PAM, WAM, Active
+    Directory, LDAP) for workflow automation
+  - Design Agent Card standards, a Central Agent Registry, and Agent-to-Agent (A2A)
+    communication protocols
+  - Build an OPA-based policy engine for runtime authorization and Separation of Duties
+    enforcement across agents and pipelines
+  - Establish security guardrails including prompt injection mitigation, execution
+    isolation, and unsafe automation prevention
+  - Represent the CISO organization on the AI Security Review Board, assessing AI
+    proposals and agentic identity risks
+  - Provide technical leadership and mentorship to sub-domain teams and drive cross-functional
+    delivery governance
+  use_cases:
+  - Agentic automation of Cyber and IAM operations (IGA, PAM, WAM, AD, LDAP)
+  - MCP Identity Gateway for governed authentication and authorization of human and
+    non-human identities
+  - AI agent security governance and risk assessment via the Security Review Board
+  - Enterprise-wide AI agent registry and agent-to-agent communication framework
+  - Intelligent identity threat detection and automated access workflows
+  skills:
+    genai: [LangGraph, Google ADK, AutoGen, Agentic Workflows, Multi-Agent Systems,
+      Prompt Engineering, LLMs, RAG, MCP, Embeddings, Guardrails, Fine-Tuning]
+    ml: []
+    web: [APIs, OAuth]
+    databases: [Vector Databases, Redis, PostgreSQL, Firestore]
+    data: []
+    cloud: [GCP, Vertex AI, Gemini, AWS, AWS Bedrock]
+    ops: [MLOps]
+    languages: [Python, PowerShell, Java]
+    domains: []
+    other: [Identity and Access Management, SailPoint, CyberArk, PingIdentity, Active
+        Directory, LDAP, OPA, Zero Trust, SIEM, Jira, SAML, SPIFFE/SPIRE]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10763664'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:42:03.790096'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

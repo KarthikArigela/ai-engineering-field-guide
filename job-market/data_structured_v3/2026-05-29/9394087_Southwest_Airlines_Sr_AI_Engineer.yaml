@@ -1,0 +1,64 @@
+company:
+  name: Southwest Airlines
+  stage: null
+  focus: Commercial passenger airline and air travel services
+position:
+  title: Sr AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behaviour: it designs task-
+      oriented agent architectures (planner/executor, tool
+      routing, HITL checkpoints), builds RAG retrieval and
+      grounding pipelines, authors modular prompts and versioned
+      prompt libraries, and defines LLM evaluation suites with
+      CI/CD gates. All shaped components are LLM/agent systems
+      (LangGraph, CrewAI, Bedrock Agents), making it ai-first.
+  responsibilities:
+  - Design, build, and operate task-oriented agents (planner/executor, tool routing,
+    HITL checkpoints, fallbacks, circuit breakers) with clear interfaces and SLOs
+  - Design and productionize retrieval/grounding pipelines (RAG, structured APIs,
+    metadata/knowledge graphs) covering chunking, embeddings lifecycle, and relevance
+    tuning
+  - Serve as technical SME for prompt engineering, authoring modular system/instruction
+    prompts and tool specs with versioned prompt libraries and A/B variants
+  - Define per-use-case evaluation suites (functional, behavioral, safety, latency,
+    cost) and automate offline/online evals and eval gates into CI/CD pipelines
+  - Implement PII redaction, policy-as-code checks, guardrails, and compliant audit
+    trails across agents and context pipelines
+  - Optimize context size, caching, rerankers, model selection, and tool routing to
+    reduce cost per successful task while meeting SLOs
+  - Lead data engineering for context stores including schemas/data contracts, batch/stream
+    ETL, embedding jobs, and freshness SLAs with the Data Platform
+  - Integrate runtime frameworks (LangGraph/AgentCore, Bedrock Agents/Guardrails)
+    with enterprise systems, drive documentation standards, and mentor AI engineers
+  use_cases:
+  - Customer-facing agentic AI experiences for getting help, exploring options, and
+    completing transactions through plain-language interactions
+  - Internal agentic AI solutions for enterprise and back-office technology teams
+    to simplify workflows and improve operational efficiency
+  - Grounded, accurate AI responses through retrieval pipelines with embeddings lifecycle,
+    reranking, and relevance evaluation
+  - Production AI services with reliability, observability, evaluation gates, and
+    enterprise controls (PII, policy-as-code, guardrails)
+  - Latency and cost optimization for AI tasks at scale while meeting SLOs
+  skills:
+    genai: [AI Agents, LangGraph, CrewAI, RAG, Prompt Engineering, LLMs, Embeddings,
+      Guardrails, LLM Evaluation, Reranking]
+    ml: []
+    web: [FastAPI, APIs]
+    databases: [Vector Databases, pgvector, OpenSearch, Knowledge Graphs, Redshift]
+    data: [ETL]
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, AWS S3, VPC]
+    ops: [Infrastructure as Code, CI/CD, Observability, Monitoring, Git]
+    languages: [Python]
+    domains: []
+    other: [Agile, A/B Testing, PII Handling, Policy as Code]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9394087'
+  location: Choudwar, IND
+  extracted_at: '2026-08-16T10:50:41.341569'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

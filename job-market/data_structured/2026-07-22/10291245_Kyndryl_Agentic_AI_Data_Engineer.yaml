@@ -1,56 +1,62 @@
 company:
   name: Kyndryl
-  stage: Public
-  focus: Enterprise IT infrastructure and managed services
+  stage: null
+  focus: |-
+    Mission-critical IT infrastructure services and enterprise
+    technology management
 position:
   title: Agentic AI Data Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly builds and optimizes RAG pipelines,
-      vector databases, semantic layers, and knowledge graphs
-      specifically designed to power autonomous agents. While it
-      has a heavy data engineering component, the core purpose is
-      architecting AI grounding infrastructure (RAG, vector
-      embeddings, agentic reasoning loops) that directly enables
-      LLM-based agents to function.
+      The role explicitly designs retrieval/RAG infrastructure:
+      architecting RAG pipelines, optimizing vector embeddings,
+      and building semantic layers and knowledge graphs that
+      provide agents context for reasoning loops. Designing
+      retrieval and grounding for LLM-driven autonomous agents is
+      shaping model behaviour, and the LLM/agent component is
+      central to the role, making it ai-first rather than plain
+      data plumbing.
   responsibilities:
   - Design and optimize scalable ETL/ELT pipelines supporting batch and real-time
     processing across hybrid cloud environments
-  - Architect and scale RAG pipelines transforming unstructured IT logs and documentation
-    into optimized vector embeddings
-  - Manage health and performance of vector databases (Pinecone, Milvus, Weaviate)
-    ensuring sub-second retrieval for agentic reasoning
-  - Build knowledge graphs and semantic layers providing agents with context to navigate
-    complex infrastructure
-  - Develop secure, high-throughput API endpoints enabling autonomous agents to access
-    structured and unstructured datasets
-  - Implement data quality frameworks, validation rules, and automated testing for
-    pristine data delivery
-  - Build and maintain CI/CD pipelines for data infrastructure ensuring fresh and
-    reliable context windows
+  - Architect and scale RAG data pipelines, transforming unstructured IT logs and
+    documentation into optimized vector embeddings
+  - Own the health and performance of vector databases (e.g., Pinecone, Milvus, Weaviate),
+    ensuring sub-second retrieval for agentic reasoning loops
+  - Build knowledge graphs and semantic layers that give autonomous agents the context
+    to navigate complex infrastructure problems
+  - Develop secure, high-throughput API endpoints enabling agents to access structured
+    and unstructured datasets
+  - Implement data quality frameworks, validation rules, and automated testing loops
+    for pristine data delivery
+  - Build, deploy, and maintain CI/CD pipelines for the data infrastructure keeping
+    the AI context fresh and reliable
   - Collaborate with architects, software engineers, and data scientists to translate
     business needs into data infrastructure
   use_cases:
-  - Enterprise AI agents navigating and analyzing complex corporate IT infrastructure
-  - Retrieval-Augmented Generation (RAG) over unstructured IT logs and documentation
-  - High-context AI semantic search across enterprise data
-  - Autonomous agent reasoning over structured and unstructured datasets
-  - AI grounding infrastructure for enterprise data retrieval
+  - Grounding autonomous agents in enterprise data via RAG over unstructured IT logs
+    and documentation
+  - High-context AI search and retrieval over complex corporate datasets
+  - Sub-second vector retrieval to support agentic reasoning loops
+  - Knowledge graph and semantic layer navigation of complex IT infrastructure problems
+  - Enabling agents to seamlessly access and analyze structured and unstructured enterprise
+    data
   skills:
-    genai: [RAG, Embeddings]
-    ml: []
-    web: [REST APIs]
-    databases: [Vector Databases, Pinecone, Milvus, Weaviate, Knowledge Graphs, Vector
-        Search, PostgreSQL, MongoDB, NoSQL]
-    data: [ETL, Data Pipelines, Airflow, dbt, Kafka, Databricks, Spark, Data Modeling,
-      Data Governance, Data Engineering, DataHub]
     cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, CI/CD, GitHub, Great Expectations]
-    languages: [Python, SQL]
+    languages: [SQL, Python]
+    ml: [Feature Stores]
+    other: [Agile, Visual Studio]
+    ops: [CI/CD, Docker, Kubernetes, Distributed Systems, GitHub]
+    databases: [Vector Databases, Pinecone, Milvus, Weaviate, PostgreSQL, DB2, MongoDB,
+      NoSQL, Relational Databases, Knowledge Graphs]
     domains: []
-    other: [Distributed Systems, Agile]
-  is_customer_facing: true
+    web: [APIs]
+    data: [Data Pipelines, Data Engineering, Data Mining, Data Modeling, Data Governance,
+      DataHub, Great Expectations, Semantic Layers, Airflow, dbt, Kafka, Databricks,
+      AWS Glue, Azure Synapse, Dataproc]
+    genai: [RAG, Embeddings, AI Agents]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10291245'
@@ -61,4 +67,6 @@ meta:
   - Gurugram, IND
   - Bengaluru, IND
   - Greater Noida, IND
-  extracted_at: '2026-07-22T13:39:50.552014'
+  extracted_at: '2026-08-16T18:31:06.516941'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

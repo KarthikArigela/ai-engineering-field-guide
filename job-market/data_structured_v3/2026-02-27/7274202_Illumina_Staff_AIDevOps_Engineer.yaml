@@ -1,0 +1,65 @@
+company:
+  name: Illumina
+  stage: null
+  focus: |-
+    Genomic technology enabling disease detection, diagnosis,
+    and treatment
+position:
+  title: Staff AI/DevOps Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM/agent behavior: it designs
+      federated agent ecosystems, builds MCP servers for tool
+      calling and coordination, orchestrates AI agents to generate
+      standards-compliant code, and integrates LLMs and generative
+      AI into bot solutions. Since LLMs and agents are the
+      components being shaped (not just served), the
+      classification is ai-first despite the DevOps framing.
+  responsibilities:
+  - Design and implement AI infrastructure to support federated agent development
+    and distributed deployment across the organization for infrastructure and cloud
+    service requests
+  - Manage and orchestrate AI agents to generate architecturally sound code adhering
+    to enterprise standards and best practices
+  - Build and maintain MCP servers and related infrastructure for agent communication,
+    coordination, and enterprise integration
+  - Accelerate code review processes by leveraging AI agents for automated analysis,
+    quality checks, and architectural validation
+  - Integrate LLMs and generative AI models and APIs into bot solutions for natural
+    language understanding and intelligent responses
+  - Develop and manage infrastructure-as-code using Terraform and Ansible to provision
+    and configure resources on AWS and Azure
+  - Establish monitoring, governance, and security frameworks for AI agent operations,
+    including OAuth-based authentication and API security for MCP servers
+  - Act as a forward deployed engineer coaching functional teams on AI infrastructure
+    best practices and mentor junior engineers
+  use_cases:
+  - AI-powered bots for automating infrastructure and cloud service requests and support
+    tasks
+  - AI agent-driven code generation with enterprise architectural standards
+  - Automated code review with quality checks and architectural validation
+  - Federated agent ecosystems with MCP-based communication across enterprise tools
+  - Natural-language self-service solutions for internal operations
+  skills:
+    genai: [MCP, AI Agents, Agentic Workflows, Multi-Agent Systems, LLMs, Generative
+        AI, RAG, Embeddings]
+    ml: [Machine Learning]
+    web: [APIs, OAuth, OpenID Connect]
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS, Azure, IAM, AWS Bedrock, AWS Lambda, Azure AI Foundry, Azure Functions,
+      Agent Core, Agent Loop, Microsoft Graph API, Azure AD]
+    ops: [Terraform, Ansible, Docker, Kubernetes, Infrastructure as Code, Distributed
+        Systems, GitHub]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: [Microsoft 365, ServiceNow, Jira, Confluence, AI Governance, API Security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7274202'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-15T23:52:17.098731'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

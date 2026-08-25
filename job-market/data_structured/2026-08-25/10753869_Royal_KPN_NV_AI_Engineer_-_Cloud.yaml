@@ -1,0 +1,49 @@
+company:
+  name: Royal KPN N.V.
+  stage: null
+  focus: Dutch telecom company driving AI adoption
+position:
+  title: AI Engineer - Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates a central LLM Gateway on Azure,
+      integrating multiple model providers, CI/CD pipelines, and
+      infrastructure. It serves and manages models rather than
+      shaping model behavior through prompts, retrieval, or fine-
+      tuning, so it is ai-support.
+  responsibilities:
+  - Develop and maintain a central GenAI Gateway (LLM Gateway) on Azure integrating
+    OpenAI and non-OpenAI models
+  - Manage the complete lifecycle of deployed LLM models
+  - Implement CI/CD pipelines in Azure DevOps for automated deployments and testing
+  - Define priorities and influence the GenAI Lab roadmap
+  - Operationalize and integrate AI capabilities into business processes, IT systems,
+    and data platforms
+  - Collaborate with domain experts, engineers, and business stakeholders on reusable
+    GenAI building blocks
+  use_cases:
+  - Central LLM gateway providing access to multiple model providers across the enterprise
+  - Reusable GenAI building blocks for company-wide AI use cases
+  - Integration of AI capabilities into business processes and IT systems
+  skills:
+    genai: [LLMs, LangChain, Mistral, Llama]
+    ml: []
+    web: [REST APIs, WebSockets, OAuth]
+    databases: [Vector Databases]
+    data: []
+    cloud: [Azure, Azure OpenAI, OpenAI API, Anthropic API, Azure AI Search, AKS,
+      Azure Monitor]
+    ops: [CI/CD, Azure DevOps, Terraform, Infrastructure as Code, Docker, Kubernetes,
+      Monitoring, Observability, LangSmith, Code Review]
+    languages: [Python]
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10753869'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T11:38:38.020563'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

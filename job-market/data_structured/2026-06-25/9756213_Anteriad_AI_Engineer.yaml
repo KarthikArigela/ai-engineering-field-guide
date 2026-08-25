@@ -1,56 +1,62 @@
 company:
   name: Anteriad
   stage: null
-  focus: B2B marketing data-driven solutions
+  focus: B2B marketing data and analytics solutions
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building LLM-powered agents, RAG
-      pipelines, and agentic AI workflows using frameworks like
-      LangChain, LangGraph, and Mastra. The engineer will design
-      and orchestrate multi-agent systems with tool use, memory,
-      and multi-step reasoning — clearly hands-on AI/ML system
-      building.
+      The role directly shapes LLM behaviour: developing LLM-
+      powered agents and RAG pipelines, orchestrating multi-agent
+      workflows, and doing hands-on prompt engineering with tool
+      use and state management. AI coding assistants are also
+      used, but the core deliverable is LLM/agent solutions, so it
+      is ai-first.
   responsibilities:
   - Develop LLM-powered agents and RAG pipelines with tool use, multi-step reasoning,
     memory, and human-in-the-loop using frameworks like LangChain, LangGraph, and
     Mastra
   - Build, orchestrate, and optimize agentic AI workflows coordinating multiple agents,
-    tools, and steps with context and state management
-  - Leverage AI-assisted development tools (Claude, Cursor, Copilot, etc.) across
-    the development lifecycle for coding, refactoring, debugging, and documentation
-  - Design, develop, and maintain scalable web applications with React.js, Tailwind
-    CSS frontend and Node.js/Express.js/FastAPI backend
+    tools, and steps with context and state management across multi-step tasks
+  - Leverage AI-assisted development tools across the development lifecycle to accelerate
+    coding, refactoring, debugging, test generation, and documentation
+  - Manage code using Git, GitHub, or Bitbucket including versioning, pull requests,
+    and code reviews
+  - Design, develop, and maintain scalable web applications with React.js and Tailwind
+    CSS frontends and Node.js/Express.js/FastAPI backend services
   - Develop, integrate, and optimize RESTful APIs ensuring performance, scalability,
     and security best practices
-  - Manage code using Git platforms including versioning, pull requests, and code
-    reviews
-  - Identify performance bottlenecks and reliability issues using AI-driven insights
+  - Identify performance bottlenecks and reliability issues, using AI-driven insights
     to optimize applications
   - Collaborate with product, design, and QA teams in an agile environment to adapt
     to evolving requirements
   use_cases:
-  - B2B marketing data-driven decision making
-  - Agentic AI workflows for marketing automation and customer acquisition
-  - RAG-powered knowledge retrieval and intelligence for marketing solutions
-  - AI-enhanced development productivity and code quality optimization
+  - Data-driven B2B marketing decision making for customer acquisition, demand generation,
+    and account-based marketing
+  - LLM-powered agents with tool use, memory, and multi-step reasoning
+  - RAG pipelines integrated into applications
+  - Multi-agent workflow orchestration for intelligent solutions
+  - Scalable web applications and APIs powering marketing solutions
   skills:
-    domains: []
-    languages: [Python, JavaScript, TypeScript, Java, SQL]
-    ml: []
     cloud: []
-    genai: [LangChain, LangGraph, Mastra, RAG, Prompt Engineering, MCP, Anthropic
-        API, OpenAI/LLM APIs, Agentic Workflows]
-    data: []
-    other: [GitHub Copilot, Cursor]
+    languages: [Python, JavaScript, TypeScript, Java]
+    ml: []
+    other: []
     ops: [Git, GitHub, Bitbucket, LangSmith, Langfuse]
-    web: [React, Node.js, Express.js, FastAPI, Tailwind CSS, REST APIs, Spring Boot]
-    databases: [PostgreSQL, MySQL, MongoDB, pgvector, Pinecone, Chroma]
+    databases: [PostgreSQL, MySQL, MongoDB, Vector Databases, pgvector, Pinecone,
+      Chrom]
+    domains: []
+    web: [React, Tailwind CSS, Node.js, Express.js, FastAPI, REST APIs, Spring Boot]
+    data: []
+    genai: [LangChain, LangGraph, Mastra, RAG, LLMs, AI Agents, Agentic Workflows,
+      Prompt Engineering, Function Calling, Embeddings, MCP, Guardrails, LLM Evaluation,
+      Anthropic API, Cursor, Codex, GitHub Copilot, Lovable]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9756213'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:57:34.192794'
+  extracted_at: '2026-08-16T14:53:15.756154'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

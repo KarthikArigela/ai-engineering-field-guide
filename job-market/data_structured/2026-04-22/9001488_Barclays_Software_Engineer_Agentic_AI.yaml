@@ -1,56 +1,59 @@
 company:
   name: Barclays
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Software Engineer Agentic AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on designing and developing
-      agentic AI systems using frameworks like LangChain,
-      LangGraph, and CrewAI. The engineer will build multi-agent
-      systems, integrate LLMs into enterprise systems (RAG, prompt
-      engineering, tool-calling), and manage model lifecycles —
-      all hands-on AI system building work.
+      The role leads design and development of agentic AI systems
+      with LangChain, LangGraph, and CrewAI, and directly shapes
+      model behavior through prompt engineering, RAG, tool-
+      calling, and agent reasoning strategies. LLM and agent
+      components are central, so per Step 2 this is ai-first.
   responsibilities:
-  - Lead the design and development of agentic AI systems using frameworks like LangChain,
-    LangGraph, and CrewAI to build autonomous, goal-driven AI workflows
+  - Lead the design and development of agentic AI systems using frameworks such as
+    LangChain, LangGraph, and CrewAI to build autonomous, goal-driven AI workflows
   - Drive hands-on development of multi-agent systems including agent collaboration,
     task delegation, memory management, and tool integration patterns
-  - Integrate Large Language Models into enterprise systems including prompt engineering,
-    tool-calling, RAG, and agent reasoning strategies
-  - Guide teams on model lifecycle management, inference optimization, and production
+  - Lead integration of Large Language Models into enterprise systems, including prompt
+    engineering, tool-calling, RAG, and agent reasoning strategies
+  - Act as hands-on expert in Python-based AI/ML development, applying machine learning,
+    deep learning, and data processing fundamentals
+  - Guide teams on model lifecycle management, inference optimisation, and production
     readiness of AI solutions
   - Ensure AI solutions align with responsible AI principles, data privacy, security,
     and regulatory expectations
   - Set standards for engineering quality, testing, observability, and operational
     readiness in AI-driven systems
-  - Deliver software using Agile methodologies and apply DORA metrics to drive delivery
-    predictability
-  - Evaluate and influence adoption of latest AI innovations including speculative
-    AI techniques and hybrid symbolic-LLM approaches
+  - Deliver software using Agile methodologies, apply DORA metrics, and champion AI-assisted
+    engineering practices such as Claude Code and GitHub Copilot
   use_cases:
-  - Autonomous multi-agent AI workflows for enterprise banking operations
-  - LLM-powered enterprise systems with RAG and tool-calling capabilities
-  - Goal-driven AI agents for task delegation and collaboration
-  - AI-assisted engineering practices for developer productivity
-  - Production-ready AI solutions with inference optimization in cloud environments
+  - Autonomous, goal-driven AI agent workflows for enterprise systems
+  - Multi-agent collaboration, task delegation, memory management, and tool integration
+  - LLM-powered enterprise solutions using RAG, prompt engineering, and agent reasoning
+  - Production-ready AI systems with observability, testing, and operational readiness
+  - AI-assisted developer productivity tooling across engineering teams
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas]
     cloud: [AWS Bedrock]
-    genai: [LangChain, LangGraph, CrewAI, RAG, Prompt Engineering, LLMs, Multi-Agent
-        Systems, Claude Code, GitHub Copilot]
-    data: []
-    other: [Agile, DORA Metrics]
-    ops: [Docker, Kubernetes, CI/CD, GitLab CI, DevSecOps, Jira, PACT Contract Testing]
-    web: [REST APIs]
+    languages: [Python]
+    ml: [scikit-learn, TensorFlow, PyTorch, Keras, Machine Learning, Deep Learning]
+    other: [Agile, DORA Metrics, IntelliJ IDEA, Pact, JUnit, JMeter, Mutation Testing,
+      Jira, Responsible AI, Event-Driven Architecture]
+    ops: [Kubernetes, Docker, CI/CD, DevSecOps, GitLab CI, Observability, Inference
+        Optimization]
     databases: []
+    domains: []
+    web: []
+    data: [NumPy, Pandas]
+    genai: [LangChain, LangGraph, CrewAI, AI Agents, Multi-Agent Systems, LLMs, Prompt
+        Engineering, RAG, Function Calling, Claude Code, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9001488'
   location: Bengaluru East, IND
-  extracted_at: '2026-04-22T12:59:08.729209'
+  extracted_at: '2026-08-16T07:00:02.481710'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: KLA
+  stage: null
+  focus: |-
+    Semiconductor manufacturing process control and inspection
+    equipment
+position:
+  title: AI/ML Engineer - MLOps/SRE
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an MLOps/SRE role: the person builds and operates
+      deployment pipelines, containerized serving infrastructure,
+      CI/CD, observability, and incident response for ML/LLM
+      systems that data scientists build and train. Drift and
+      data-health monitoring feeds retraining workflow triggers
+      and rollbacks - reliability engineering, not shaping model
+      behavior. No prompt, retrieval, agent, or training/eval
+      design work is in scope.
+  responsibilities:
+  - Design and implement reusable MLOps platform capabilities for training, deployment,
+    and monitoring of ML/LLM systems
+  - Build standardized pipelines for data validation, feature generation, training,
+    evaluation, model packaging, and release
+  - Own model registry, artifact storage, and metadata lineage to ensure reproducibility
+    and auditability
+  - Deploy models and AI services on Kubernetes with safe rollout strategies (blue/green,
+    canary, A/B) and hardened low-latency inference services
+  - Create CI/CD workflows for ML code and pipelines with automated tests, quality
+    gates, and approval controls
+  - Define and track SLIs/SLOs and implement end-to-end observability (logging, metrics,
+    tracing, dashboards, alerting) for ML services and model behavior
+  - Lead incident response and post-incident reviews, driving systemic fixes through
+    runbooks and automation
+  - Implement model and data monitoring for drift, bias, and degradation with automated
+    feedback loops that trigger retraining or rollback; integrate security, compliance,
+    and governance practices
+  use_cases:
+  - Operating production ML/LLM services for enterprise IT at a semiconductor company
+  - Standardized, reproducible training and deployment of ML models
+  - Low-latency, high-throughput inference serving for AI services
+  - Model quality and data health monitoring for drift, bias, and degradation
+  - Automated retraining workflows and safe rollback when quality thresholds are breached
+  skills:
+    genai: [LLMs]
+    ml: [Machine Learning, PyTorch, TensorFlow, scikit-learn]
+    web: [REST APIs, gRPC]
+    databases: []
+    data: [Airflow, Data Pipelines, Feature Stores, Feast, Great Expectations, DVC]
+    cloud: [Azure, AWS, GCP, SageMaker, Vertex AI, Azure ML, RBAC]
+    ops: [MLOps, Site Reliability Engineering, DevOps, CI/CD, Kubernetes, Containerization,
+      Infrastructure as Code, MLflow, Kubeflow, Model Deployment, Model Serving, Model
+        Registry, Model Monitoring, Monitoring, Observability, Incident Management,
+      Blue/Green Deployment, Canary Deployment, Autoscaling, Caching, Distributed
+        Systems, Secrets Management, Vulnerability Scanning, Evidently, Whylogs]
+    languages: [Python]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8535779'
+  location: Chennai, IND
+  extracted_at: '2026-08-16T02:14:50.780448'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

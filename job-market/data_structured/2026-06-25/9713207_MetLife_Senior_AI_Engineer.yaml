@@ -1,54 +1,60 @@
 company:
   name: MetLife
-  stage: Public
-  focus: Insurance, annuities, employee benefits, asset management
+  stage: null
+  focus: |-
+    Insurance, annuities, employee benefits, and asset
+    management
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing and building AI
-      agents, multi-agent systems, and LLM orchestration
-      frameworks using tools like LangChain and Semantic Kernel.
-      The engineer will implement RAG architectures, prompt
-      engineering, and deploy AI-driven automation platforms in
-      production — all hands-on work with AI/ML systems.
+      The role designs and builds AI agents, multi-agent
+      orchestration frameworks, and RAG/knowledge retrieval
+      systems on LLMs, directly shaping model behaviour through
+      prompts, retrieval, and agent flows. The LLM/agent component
+      is central, so it is ai-first rather than ai-support or ml-
+      first.
   responsibilities:
   - Design and develop AI agents and multi-agent systems for enterprise use cases
-    including workflow automation, copilots, and decision systems
+    such as workflow automation, copilots, and decision systems
   - Build agent orchestration frameworks leveraging LLMs and tool integrations
   - Develop solutions for document processing, summarization, classification, and
-    knowledge retrieval systems
-  - Build and maintain scalable microservices-based architectures and robust APIs
-    for AI services
-  - Design and manage data pipelines, storage, and retrieval mechanisms for AI applications
-  - Leverage Azure DevOps and CI/CD pipelines for automated build, release, and deployment
-    of AI solutions
-  - Provide production support, monitoring, and continuous improvements for deployed
-    AI systems
-  - Integrate AI-enabled applications with enterprise systems across claims platforms,
-    document hubs, and workflow engines
+    knowledge retrieval
+  - Develop end-to-end AI-enabled applications integrating backend systems, APIs,
+    microservices, and data platforms
+  - Integrate AI solutions with enterprise systems across claims platforms, document
+    hubs, and workflow engines
+  - Build and maintain scalable microservices-based architectures with robust APIs
+    and reusable frameworks for AI services
+  - Design and manage data pipelines, storage, and retrieval mechanisms
+  - Leverage Azure DevOps and CI/CD pipelines for automated build, release, and deployment,
+    and provide production support and monitoring for deployed AI solutions
   use_cases:
   - Enterprise workflow automation
-  - AI copilots for business processes
-  - Document processing, summarization, and classification
-  - Knowledge retrieval and enterprise search systems
-  - Decision support systems for insurance and claims workflows
+  - Copilots for enterprise users
+  - Decision support systems
+  - Document processing and summarization
+  - Document classification
+  - Knowledge retrieval and search
+  - Insurance claims platform integration
   skills:
-    domains: [Insurance and Claims domain]
-    languages: [Python, SQL]
+    cloud: [Azure, Cloud-Native Development]
+    languages: [Python]
     ml: [NLP]
-    cloud: [Azure, Cloud-native development]
-    genai: [LangChain, Semantic Kernel, Prompt Engineering, RAG, AI Agents, Multi-Agent
-        Systems]
-    data: []
-    other: []
-    ops: [Azure DevOps, CI/CD, Application Insights]
-    web: [REST APIs, Microservices]
-    databases: [Vector Databases]
+    other: [Document Processing, Responsible AI]
+    ops: [Azure DevOps, CI/CD, Observability, Application Insights, Distributed Systems]
+    databases: [SQL, Vector Databases]
+    domains: []
+    web: [Microservices, REST APIs]
+    data: [Data Pipelines, Data Modeling]
+    genai: [LangChain, Semantic Kernel, Prompt Engineering, RAG, LLMs, AI Agents,
+      Multi-Agent Systems, Agentic Workflows, Function Calling]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9713207'
   location: Hyderabad, IND
-  extracted_at: '2026-06-25T19:49:12.898227'
+  extracted_at: '2026-08-16T14:28:40.022986'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

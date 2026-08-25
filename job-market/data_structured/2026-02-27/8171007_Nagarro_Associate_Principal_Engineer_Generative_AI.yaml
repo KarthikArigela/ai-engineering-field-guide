@@ -1,55 +1,55 @@
 company:
   name: Nagarro
-  stage: Public
-  focus: Digital product engineering
+  stage: null
+  focus: Digital product engineering services
 position:
   title: Associate Principal Engineer, Generative AI
   ai_type:
     type: ai-first
     reasoning: |-
-      Role requires deep hands-on experience with LLMs, RAG
-      implementation, prompt engineering, fine-tuning, and
-      distillation. Direct involvement in building and deploying
-      generative AI solutions using LangChain, LlamaIndex, and
-      vector databases.
+      The role requires expert-level prompt engineering,
+      implementing RAG architectures, fine-tuning/distillation of
+      LLMs, and GenAI evaluation - all activities that directly
+      shape LLM behavior and output quality. With LLMs at the core
+      of the work, this is ai-first.
   responsibilities:
-  - Convert client business use cases into technical designs that meet requirements
-    elegantly
-  - Map decisions with requirements and translate technical specifications to developers
-  - Identify and evaluate different solutions to select the best option for client
-    requirements
-  - Define guidelines and benchmarks for non-functional requirements during project
-    implementation
-  - Write and review design documents covering architecture, framework, and high-level
-    application design
+  - Convert client business use cases and technical requirements into technical designs
+    that elegantly meet the requirements
+  - Identify different solution options and narrow down the best fit for client requirements
+  - Translate design decisions and requirements to developers and write/review design
+    documents covering overall architecture, framework, and high-level design
   - Review architecture and design for extensibility, scalability, security, design
-    patterns, and ensure best practices
-  - Develop and design overall solutions including technologies, patterns, and frameworks
-  - Conduct proof of concepts to validate that suggested designs and technologies
-    meet requirements
+    patterns, user experience, and NFRs, ensuring best practices are followed
+  - Define guidelines and benchmarks for NFR considerations during project implementation
+  - Develop overall solutions for functional and non-functional requirements, defining
+    technologies, patterns, and frameworks
+  - Resolve issues raised during code review through systematic root cause analysis
+    and justify decisions taken
+  - Carry out POCs to validate that suggested designs and technologies meet requirements
   use_cases:
-  - Generative AI applications
-  - RAG-based knowledge retrieval systems
-  - LLM-powered conversational interfaces
-  - Enterprise AI solutions with vector search
-  - Fine-tuned domain-specific models
+  - Generative AI applications built around client business use cases
+  - RAG-based retrieval solutions implemented on client projects
+  - Fine-tuned and distilled LLM solutions deployed into production environments
+  - Managed cloud AI/ML services for client solution delivery
   skills:
-    domains: []
+    cloud: [Azure ML, Azure AI Foundry]
     languages: [Python]
-    ml: [Fine-Tuning, distillation, PyTorch, TensorFlow, scikit-learn, BLEU, ROUGE,
-      Model Evaluation]
-    cloud: [Azure Machine Learning Studio, AI Foundry]
-    genai: [LLMs, Transformers, Prompt Engineering, RAG, LangChain, LlamaIndex, LangGraph,
-      LangSmith, Hugging Face Transformers]
-    data: []
+    ml: [Transformers, scikit-learn, PyTorch, TensorFlow, Distillation]
     other: []
-    ops: [MLOps]
-    web: []
+    ops: [LangSmith, MLOps]
     databases: [Vector Databases, Weaviate, Neo4j]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, GPTs, Llama, Anthropic API, Gemini, Qwen, Mistral, BERT, Prompt
+        Engineering, RAG, LangChain, LlamaIndex, LangGraph, Fine-Tuning, Generative
+        AI, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8171007'
   location: IND
   remote: true
-  extracted_at: '2026-02-27T12:55:51.695482'
+  extracted_at: '2026-08-16T00:35:19.649486'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

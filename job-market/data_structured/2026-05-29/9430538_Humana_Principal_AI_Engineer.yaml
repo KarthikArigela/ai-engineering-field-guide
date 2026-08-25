@@ -1,57 +1,56 @@
 company:
   name: Humana
-  stage: Public
-  focus: |-
-    Healthcare insurance and services company providing
-    Medicare, Medicaid, and individual/family health plans
+  stage: 'Publicly traded (NYSE: HUM)'
+  focus: U.S. healthcare insurance and health services company
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This Principal AI Engineer role is hands-on with AI
-      architecture, explicitly working with LLMs, vector
-      databases, embeddings, prompting, and agents. The role
-      "contributes hands-on across the stack" and is responsible
-      for designing and building AI-powered systems for workflow
-      understanding and simplification, not just supporting AI
-      initiatives or infrastructure.
+      The core skills explicitly require AI architecture with
+      LLMs, Vector DBs, embeddings, prompting, and agents, and the
+      role contributes hands-on across the stack. Designing
+      prompts, retrieval (embeddings/vector stores), and agent
+      flows is shaping LLM behaviour, so this is ai-first despite
+      the heavy architecture-leadership framing.
   responsibilities:
-  - Advise and make recommendations to senior IT and business leaders on areas for
-    service simplification
-  - Define and maintain system architecture and technology stack for AI-powered simplification
+  - Serve as senior technical leader in the Simplification Center of Excellence, owning
+    technical architecture, technology strategy, and delivery of enterprise simplification
     capabilities
-  - Collaborate with product managers, designers, and engineers to make technical
-    decisions and create development roadmaps
-  - Conduct code reviews, provide constructive feedback, and promote continuous improvement
-    in code quality and development processes
-  - Mentor engineers and enforce best practices for AI and software engineering
-  - Contribute hands-on across the stack, including AI architecture (LLMs, vector
-    DBs, embeddings, prompting, agents)
-  - Collaborate with DevOps for CI/CD and cloud deployments
-  - Participate in hiring and onboarding new team members
+  - Advise senior IT and business leaders on service simplification opportunities
+    and enterprise-wide initiatives
+  - Lead the design of scalable, secure, extensible systems enabling workflow understanding,
+    discovery, rapid prototyping, and solution validation
+  - Define and maintain system architecture, technology stack, and technical standards,
+    influencing platform and integration decisions
+  - Collaborate with product, design, data, and engineering stakeholders to translate
+    business needs into technical requirements, design patterns, and roadmaps
+  - Conduct code reviews, mentor engineers, and enforce engineering best practices
+  - Contribute hands-on across the stack, including AI architecture with LLMs, vector
+    databases, embeddings, prompting, and agents
+  - Collaborate with DevOps for CI/CD and cloud deployments, and participate in hiring
+    and onboarding
   use_cases:
-  - Workflow understanding and process automation across healthcare operations
-  - Service simplification initiatives to improve how work is designed and delivered
-  - Rapid prototyping and solution validation for healthcare services
-  - Discovery and analysis of complex business and operational workflows
-  - Human-centered experience improvements for associates, members, patients, and
-    providers
-  - AI-powered acceleration capabilities for enterprise decision-making
+  - Enterprise service and workflow simplification across the organization
+  - Workflow understanding and process discovery to improve how work is designed and
+    delivered
+  - Rapid prototyping and solution validation for new enterprise capabilities
+  - Impact assessment of simplification initiatives for associates, members, patients,
+    and providers
+  - Human-centered experience improvements in healthcare services
   skills:
-    domains: []
-    languages: [TypeScript, .NET, Java, Python]
-    ml: []
     cloud: [Azure, GCP]
-    genai: [LLMs, Embeddings, Prompting, AI Agents]
+    languages: [TypeScript, .NET, Java, Python]
+    ml: [Machine Learning]
+    other: [Test-Driven Development, Human-Centered Design]
+    ops: [Kubernetes, CI/CD, DevOps, Infrastructure as Code, Containerization]
+    databases: [PostgreSQL, Vector Databases]
+    domains: []
+    web: [React, Full-Stack Development]
     data: [Data Pipelines]
-    other: []
-    ops: [Kubernetes, Test-driven development, CI/CD, Containerization, Infrastructure
-        as Code]
-    web: [React]
-    databases: [Vector Databases, PostgreSQL]
+    genai: [LLMs, Embeddings, Prompt Engineering, AI Agents]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9430538'
   location: Dallas, USA
@@ -61,4 +60,6 @@ meta:
   - New York, USA
   - Louisville, USA
   - Washington, USA
-  extracted_at: '2026-05-29T09:06:07.183999'
+  extracted_at: '2026-08-16T11:19:41.205711'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

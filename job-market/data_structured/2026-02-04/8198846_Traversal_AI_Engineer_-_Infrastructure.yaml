@@ -1,63 +1,62 @@
 company:
   name: Traversal
-  stage: Series B
-  focus: |-
-    AI Site Reliability Engineer for enterprise incident
-    troubleshooting and remediation
+  stage: null
+  focus: AI SRE platform for enterprise incident resolution
 position:
   title: AI Engineer - Infrastructure
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI Infrastructure Engineer role focused on
-      building the platform and reliability systems that power
-      Traversal's AI products. The role involves designing and
-      operating infrastructure for inference, data pipelines, and
-      agentic workflows, but does not directly build, train, or
-      fine-tune models - rather it creates the systems that enable
-      AI systems to run reliably at scale.
+      This is reliability/infrastructure engineering for AI
+      products: the person builds and operates the serving layer —
+      Kubernetes-native scheduling, Kafka pipelines, autoscaling,
+      observability, and IaC — around AI inference and MCP agent
+      tooling. They do not write prompts, design retrieval or
+      agent flows, train, or evaluate models; the deliverable is
+      capacity and reliability, not model behavior.
+      Productionizing MCP toolchains with circuit breaking,
+      timeouts, and sandboxing is ops hardening of infrastructure,
+      which falls under the serving/scaling edge case.
   responsibilities:
   - Design scalable, reliable infrastructure for AI inference, data pipelines, and
     agentic workflows
-  - Migrate from Python multiprocessing + Postgres-as-queue to Kubernetes-native queuing
-    and orchestration using KEDA/HPA, Jobs/CronJobs, and Kueue/Argo
-  - Operate and tune managed Kafka systems including partitioning, throughput optimization,
-    DLQ design, and idempotent sink implementation
-  - Implement autoscaling based on real signals like queue lag, in-flight requests,
-    and latency with burst capacity and safe drains
-  - Productionize MCP toolchains with reliability patterns including circuit breaking,
-    timeouts, sandboxing, and audit logging
-  - Build observability systems with RED/USE dashboards and OpenTelemetry traces across
-    gateway, agent, tool, Kafka, and sink layers
-  - Manage infrastructure as code using Terraform, Helm, and Kustomize for multi-environment
-    deployments with policy-as-code and workload identity
+  - Migrate from Python multiprocessing and Postgres-as-queue to Kubernetes-native
+    queuing and orchestration (KEDA/HPA, Jobs/CronJobs, Kueue/Argo)
+  - 'Operate managed Kafka: tune partitioning and throughput, design DLQ and replay
+    runbooks, and implement idempotent sinks'
+  - Build autoscaling on real signals such as queue lag, in-flight requests, and latency,
+    with burst capacity and safe drains
+  - Productionize MCP toolchains with circuit breaking, timeouts, sandboxing, and
+    audit
+  - Implement canary and blue/green rollouts for stateful services with cache pre-warming
+    and graceful termination
+  - Build RED/USE dashboards and OpenTelemetry traces across gateway, agent, tool,
+    Kafka, and sinks
+  - Evolve Terraform/Helm/Kustomize infrastructure as code for multi-environment deployments,
+    secrets, policy-as-code, and workload identity
   use_cases:
-  - AI-powered site reliability engineering and production incident troubleshooting
-    for enterprises
-  - High-concurrency AI inference serving for Fortune 50 companies with multi-tenancy
-  - Agentic tooling and workflows via MCP for automated incident remediation and prevention
-  - Real-time data pipeline processing using Kafka for AI agent operations and event
-    streaming
-  - Enterprise-grade AI infrastructure with SOC 2 Type II compliance for secure, reliable
-    AI operations
-  - Autonomous production issue resolution to free engineers from manual firefighting
+  - Automated troubleshooting and remediation of complex production incidents
+  - Prevention of enterprise production incidents before they occur
+  - AI-powered enterprise software maintenance
+  - High-concurrency AI inference serving and agentic tooling for Fortune 50 enterprises
   skills:
-    domains: []
+    cloud: [AWS, EKS]
     languages: [Python, Rust]
     ml: []
-    cloud: [AWS, EKS]
-    genai: [MCP]
-    data: [Kafka]
     other: []
-    ops: [Kubernetes, KEDA, HPA, ArgoCD, Kueue, Terraform, Helm, Kustomize, OpenTelemetry,
-      OPA, Rego, GPU workload operations, MIG, Envoy, Istio, Cilium, eBPF, Circuit
-        breaking, Autoscaling, Queuing systems, Incident response, Chaos testing,
-      Capacity planning, Security, Canary deployments, Blue/green deployments]
-    web: []
+    ops: [Kubernetes, Terraform, Helm, Kustomize, KEDA, HPA, Kueue, ArgoCD, OpenTelemetry,
+      Observability, Autoscaling, Incident Response, Chaos Testing, Capacity Planning,
+      OPA, Rego, GPU Workload Operations, Envoy, Istio, Cilium, eBPF]
     databases: [PostgreSQL, ClickHouse]
+    domains: []
+    web: []
+    data: [Kafka, Data Governance, Data Lineage, Data Tokenization]
+    genai: [MCP, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8198846'
   location: New York, USA
-  extracted_at: '2026-02-05T12:12:35.353109'
+  extracted_at: '2026-08-15T22:51:58.741312'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

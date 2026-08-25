@@ -1,0 +1,56 @@
+company:
+  name: Veracity Insurance Solutions, LLC
+  stage: null
+  focus: Insurance solutions for small businesses
+position:
+  title: Senior Applied AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships agentic systems (multi-agent
+      orchestration, tool calling, RAG, MCP integrations) and
+      builds evals and guardrails around agent behavior, which is
+      shaping LLM output quality directly. It also defines AI-
+      first engineering principles and prompt libraries.
+  responsibilities:
+  - Design and ship production agentic systems including multi-agent orchestration,
+    tool use, RAG pipelines, and MCP-based integrations against platform APIs
+  - Build the reliability layer around agents with evals, guardrails, observability,
+    cost controls, and regression testing
+  - Implement maker-checker patterns so AI accelerates regulated workflows without
+    autonomously touching money, bind, or compliance decisions
+  - Integrate agent capabilities with the deterministic core including canonical data
+    model, Config Hub, and Control Tower task orchestration
+  - Co-author and drive adoption of AI-first engineering principles including agent
+    harnesses, shared prompt libraries, and eval-gated CI across squads
+  - Shape AI-first product principles including human-in-the-loop patterns and agent
+    UX conventions
+  - Work with engineering leadership on the AI architecture roadmap and production
+    proof points
+  use_cases:
+  - Document understanding for insurance intake
+  - Agent orchestration and workflow acceleration on an insurance platform
+  - MCP-based agent integrations against platform APIs
+  - AI-accelerated regulated insurance workflows with human oversight
+  - AI-assisted code review and eval-gated CI for engineering
+  skills:
+    genai: [Agentic Workflows, Multi-Agent Systems, Function Calling, RAG, MCP, LLMs,
+      Structured Outputs, Prompt Engineering, LLM Evaluation, Guardrails]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: [Data Modeling]
+    cloud: []
+    ops: [Observability, Code Review]
+    languages: []
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10800133'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:56:01.912612'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

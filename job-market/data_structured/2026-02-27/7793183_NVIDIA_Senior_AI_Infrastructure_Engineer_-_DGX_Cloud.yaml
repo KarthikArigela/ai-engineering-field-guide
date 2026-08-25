@@ -1,57 +1,55 @@
 company:
   name: NVIDIA
-  stage: Public
-  focus: |-
-    GPU computing, AI hardware, and high-performance computing
-    solutions
+  stage: null
+  focus: GPU and AI computing hardware and software
 position:
   title: Senior AI Infrastructure Engineer - DGX Cloud
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building and maintaining
-      infrastructure/platforms that enable AI training and
-      inference workloads, but does not involve building,
-      training, fine-tuning, or deploying AI/ML models themselves.
-      The work is on the underlying systems, automation, and
-      reliability engineering that supports AI workloads run by
-      others.
+      This is an SRE/infrastructure role for DGX Cloud: the person
+      designs, builds, hosts, and scales the GPU cloud platform
+      that AI training and inference run on. They do not shape
+      model behaviour themselves (no prompts, retrieval, fine-
+      tuning, or evals), so per the serving/scaling edge case the
+      deliverable is capacity and reliability, making it ai-
+      support.
   responsibilities:
-  - Design, build, deploy, and run internal tooling for large scale AI training and
-    inferencing platform on cloud infrastructure
-  - Conduct performance characterization and analysis on large multi-GPU and multi-node
-    clusters
-  - Engage in full service lifecycle from inception and design through deployment,
-    operation and refinement
-  - Support services before launch through system design consulting, developing software
-    tools, platforms and frameworks, capacity management and launch reviews
-  - Maintain live services by measuring and monitoring availability, latency and overall
-    system health
-  - Scale systems sustainably through automation and evolve systems to improve reliability
-    and velocity
-  - Practice sustainable incident response and blameless postmortems
-  - Participate in on-call rotation to support production systems
+  - Design, build, deploy, and run internal tooling for a large-scale AI training
+    and inference platform on cloud infrastructure
+  - Conduct in-depth performance characterization and analysis on large multi-GPU
+    and multi-node clusters
+  - Own the full service lifecycle from design through deployment, operation, and
+    refinement
+  - Support services before launch through system design consulting, tooling development,
+    capacity management, and launch reviews
+  - Maintain live services by measuring and monitoring availability, latency, and
+    overall system health
+  - Scale systems sustainably through automation and reliability/velocity improvements
+  - Practice incident response, blameless postmortems, and participate in an on-call
+    rotation for production systems
   use_cases:
-  - Large scale AI training platform infrastructure
-  - AI inferencing platform infrastructure
-  - Multi-GPU and multi-node cluster management
-  - GPU cloud services reliability and uptime
-  - Internal tooling for AI infrastructure operations
+  - Large-scale AI training and inference platform built on cloud GPU infrastructure
+  - High-reliability, high-uptime internal and external GPU cloud services
+  - Capacity and performance management for multi-GPU, multi-node clusters
+  - Automation and lifecycle management of production private/public cloud systems
   skills:
-    domains: []
+    cloud: [OpenStack, Public Cloud]
     languages: [Python, Go, C++, Java]
-    ml: [GPU computing]
-    cloud: [OpenStack, Public cloud]
-    genai: []
-    data: []
-    other: []
-    ops: [Kubernetes, Terraform, Linux, Docker, Networking, Distributed Systems, CI/CD,
-      Infrastructure as Code, Slurm]
+    ml: []
+    other: [Networking, Storage]
+    ops: [Linux, Kubernetes, Terraform, Infrastructure as Code, CI/CD, Distributed
+        Systems, Docker, Slurm]
+    databases: []
+    domains: []
     web: []
-    databases: [Storage systems]
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7793183'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:43:37.870180'
+  extracted_at: '2026-08-16T00:11:15.364829'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

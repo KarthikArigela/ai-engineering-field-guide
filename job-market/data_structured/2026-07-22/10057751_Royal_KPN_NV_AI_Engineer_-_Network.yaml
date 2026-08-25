@@ -1,27 +1,28 @@
 company:
   name: Royal KPN N.V.
-  stage: Public
-  focus: Dutch telecommunications and network services
+  stage: null
+  focus: Dutch telecommunications and network services provider
 position:
   title: AI Engineer - Network
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      maintaining agentic AI systems and reinforcement learning
-      models for autonomous network optimization. The engineer
-      works hands-on with AI agents, RL techniques, and ML
-      pipelines in production, not just supporting infrastructure
-      for others.
+      The role designs, builds, and maintains agentic AI systems
+      (agents that observe, decide, and act, e.g., the Broadband
+      Disruption Agent), which is designing agent flows and
+      shaping model behavior. It also translates network
+      objectives into self-adapting models via reinforcement
+      learning, but since a core LLM/agent component is involved,
+      the role is ai-first.
   responsibilities:
   - Build, develop, and maintain agentic AI systems enabling autonomous network optimization
-    and decision-making
-  - Design system architectures, validate software quality, and ensure production
-    ownership of AI solutions
-  - Build and maintain scalable AI/ML pipelines with focus on reliability, performance,
+    and decision-making (e.g., the Broadband Disruption Agent)
+  - Create system designs, validate software quality, check run-time behavior, and
+    take production ownership
+  - Build and maintain scalable AI/ML pipelines with a focus on reliability, performance,
     and maintainability
-  - Define and implement monitoring, testing, and governance strategies for agentic
-    AI solutions in production
+  - Define and implement monitoring, testing, and governance strategies to ensure
+    robustness and compliance of agentic AI solutions in production
   - Collaborate with network domain experts, data engineers, and software teams to
     integrate agentic solutions into real-time network environments
   - Translate network objectives into data-driven, self-adapting models using reinforcement
@@ -29,25 +30,29 @@ position:
   - Stay current on innovations in agentic AI, reinforcement learning, and telecom
     network automation
   use_cases:
-  - Autonomous network optimization and real-time decision-making
-  - Broadband disruption detection and resolution agent
-  - On-site technician support agent for field mechanics
-  - Production-grade agentic platform for telecom network operations
-  - Self-adapting network models using reinforcement learning
+  - Autonomous network optimization and real-time decision-making in telecom operations
+  - Broadband Disruption Agent for faster resolution of network disruptions
+  - On-Site Technician Support agent assisting field mechanics
+  - Improving network reliability and customer experience across network and service
+    domains
+  - Production-grade agentic AI platform for operational network processes
   skills:
-    genai: [AI Agents, Agentic Workflows]
-    ml: [Reinforcement Learning, Machine Learning, Deep Learning]
-    web: [Microservices]
-    databases: []
-    data: [Data Pipelines]
-    cloud: []
-    ops: [Model Deployment, Model Monitoring, MLOps, Docker, Kubernetes, CI/CD, Monitoring]
+    cloud: [Cloud-Native Architecture]
     languages: [Python, Java]
-    domains: []
-    other: [Distributed Systems]
+    ml: [Reinforcement Learning, Machine Learning]
+    other: []
+    ops: [Model Deployment, Model Monitoring, CI/CD, Containerization, Distributed
+        Systems]
+    databases: []
+    domains: [Telecom Network Automation]
+    web: []
+    data: [Data Pipelines]
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10057751'
   location: Amsterdam, NLD
-  extracted_at: '2026-07-22T13:25:52.133736'
+  extracted_at: '2026-08-16T16:34:16.292291'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

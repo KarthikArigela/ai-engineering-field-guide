@@ -1,59 +1,63 @@
 company:
   name: Boomi
-  stage: Late-stage private (PE-owned)
-  focus: |-
-    Intelligent integration and automation platform for
-    enterprise data connectivity
+  stage: null
+  focus: Intelligent integration and automation platform
 position:
   title: Senior Fullstack AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying AI agents,
-      implementing RAG pipelines, and orchestrating multi-agent
-      systems using frameworks like LangChain and AutoGen. As a
-      Forward Deployed Engineer, they are directly creating,
-      architecting, and deploying AI systems - hands-on work with
-      models and agents.
+      The role directly shapes model behavior: architecting and
+      orchestrating LLM agents (ChatB, Agent Studio, LangChain,
+      AutoGen), designing RAG/retrieval pipelines, applying tool
+      use and function calling, and defining evals that monitor
+      LLM behavior. Since LLMs and agent components are central,
+      and it is a forward-deployed engineer role building AI
+      solutions, it is ai-first.
   responsibilities:
   - Architect, build, and orchestrate intelligent agents using ChatB, Agent Studio,
-    and LLM frameworks
-  - Lead the design, experimentation, and validation of new AI workflows for internal
-    productivity improvements
-  - Design agent hierarchies and orchestration pipelines using coordination frameworks
-    like LangChain, AutoGen, CrewAI, and Semantic Kernel
+    and LLM frameworks (OpenAI, Anthropic, Claude, Gemini)
+  - Design multi-agent hierarchies and orchestration pipelines using coordination
+    frameworks such as LangChain, AutoGen, CrewAI, and Semantic Kernel
   - Investigate and integrate state-of-the-art AI techniques including tool use, reasoning,
-    memory, RAG, and function calling
+    memory, reflection, RAG, and function calling
   - Build APIs and connectors enabling agents to interact with Boomi's integration
     and automation ecosystem
-  - Implement vector databases, knowledge graphs, and retrieval pipelines for context-aware
-    responses
+  - Implement vector databases, knowledge graphs, and retrieval pipelines to enhance
+    context-aware responses
   - Define KPIs, monitor LLM behaviors, and evaluate model performance through offline
     and live testing
-  - Mentor internal teams on AI agent architectures, experimental methods, and technical
-    excellence
+  - Lead internal Customer Zero platform innovation, experimenting with and validating
+    AI workflows that drive measurable productivity improvements
+  - Mentor internal teams on AI agent architectures and support AI transparency, data
+    governance, and model safety guidelines
   use_cases:
-  - Enterprise business process automation through AI agents
-  - Multi-agent collaboration for complex workflow orchestration
-  - Context-aware retrieval and knowledge graph systems
-  - Intelligent integration between enterprise systems
-  - Internal productivity improvement through AI-driven automation
+  - Internal AI platforms and agents serving as Customer Zero prototypes for new AI
+    capabilities
+  - Intelligent business automation augmenting internal operations and productivity
+  - Multi-agent collaboration and autonomous reasoning systems
+  - Context-aware retrieval and knowledge-graph-enhanced agent responses
+  - AI-driven integration and automation across the Boomi ecosystem
   skills:
-    domains: []
-    languages: [Python, TypeScript, JavaScript]
-    ml: [PyTorch, TensorFlow, Hugging Face]
     cloud: [AWS, Azure, GCP]
-    genai: [LangChain, AutoGen, CrewAI, Semantic Kernel, OpenAI API, Anthropic API,
-      Gemini, RAG, Prompt Engineering, Function Calling]
-    data: [Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, LLMOps]
-    web: [APIs, Microservices, Event-driven architecture]
-    databases: [Pinecone, Weaviate, Chroma, FAISS]
+    languages: [Python, TypeScript, JavaScript]
+    ml: [PyTorch, TensorFlow, Hugging Face, Model Evaluation]
+    other: [Event-Driven Architecture, Responsible AI]
+    ops: [MLOps, LLMOps, CI/CD, DevOps, Infrastructure as Code, Docker, Kubernetes,
+      Observability]
+    databases: [Vector Databases, Pinecone, Weaviate, Chrom, FAISS, Knowledge Graphs]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Data Pipelines, Data Governance]
+    genai: [ChatB, Agent Studio, LLMs, OpenAI API, Anthropic API, Gemini, AI Agents,
+      Multi-Agent Systems, Agentic Workflows, LangChain, AutoGen, CrewAI, Semantic
+        Kernel, RAG, Function Calling, Prompt Engineering]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7906983'
   location: IND
   remote: true
-  extracted_at: '2026-03-03T11:42:32.994417'
+  extracted_at: '2026-08-16T00:15:26.693150'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

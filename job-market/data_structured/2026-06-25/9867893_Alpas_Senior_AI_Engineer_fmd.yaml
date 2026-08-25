@@ -1,55 +1,56 @@
 company:
   name: Alpas
   stage: null
-  focus: Automating supplier search and procurement
+  focus: Automated supplier search and discovery platform
 position:
   title: Senior AI Engineer (f/m/d)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, training, and
-      deploying ML/NLP models, developing AI agents with
-      LangGraph, building RAG systems with vector databases, and
-      implementing MLOps pipelines for model lifecycle management.
-      The engineer owns the full AI architecture from training to
-      inference, making this clearly an ai-first position.
+      The role directly shapes model behaviour: designing
+      AI/agentic architecture, building agents with LangGraph,
+      developing RAG systems with vector databases, and
+      training/evaluating PyTorch NLP models. Since LLM and agent
+      components are central to the work, this is ai-first.
   responsibilities:
-  - Lead AI and agentic architecture from training to inference, ensuring stable performance
-    and integration with internal software
-  - Develop scalable AI agents with LangGraph and NLP pipelines for automating supplier
-    search decision-making
-  - Build RAG systems using vector databases and apply agentic workflow patterns
-  - Implement MLOps pipelines including auto-retraining systems and monitoring for
-    AI agents at scale
-  - Train and evaluate PyTorch NLP models, benchmark models and solutions, and continuously
-    improve them
-  - Optimize model performance and inference efficiency while controlling costs of
-    agentic workloads
-  - Ensure seamless integration of AI components into the Alpas platform and backend
-    systems
-  - Mentor and support junior engineers while guiding the team toward automation goals
+  - Own the AI and agentic architecture from training to inference, ensuring stable
+    performance, quality, and integration with internal software
+  - Develop scalable AI agents with LangGraph and NLP pipelines applying agentic workflow
+    patterns
+  - Build RAG systems using vector databases
+  - Train, evaluate, and continuously improve PyTorch NLP models and benchmark models
+    and solutions
+  - Implement MLOps pipelines with auto-retraining and optimize model performance
+    and inference efficiency
+  - Ensure scalable and reliable integration among agents and between agents and the
+    Alpas platform backend
+  - Build monitoring pipelines for AI agents at scale and control the cost of agentic
+    workloads
+  - Support and mentor junior engineers and guide the team toward automating supplier
+    search decisions
   use_cases:
-  - Automated supplier search and discovery at scale
-  - Agentic decision-making during supplier evaluation and selection
-  - RAG-powered information retrieval for supplier data
-  - Automated retraining and continuous improvement of NLP models
-  - Cost-efficient AI agent orchestration for business workflows
+  - Fully automated supplier search at high quality
+  - Automated decision-making during supplier search via AI agents
+  - RAG-based retrieval over supplier data using vector databases
+  - Scalable agent-to-agent and agent-to-backend orchestration for the Alpas platform
+  - Production monitoring and cost control for agentic AI workloads at scale
   skills:
-    domains: []
-    languages: [Python, PyTest, SQL]
-    ml: [PyTorch, scikit-learn, NLP, Model training and fine-tuning, Model inference
-        optimization]
     cloud: [GCP, Vertex AI, Cloud Run, Cloud Functions, Azure AI]
-    genai: [LangGraph, RAG, Agentic Workflows, LLMs]
-    data: [PubSub, Pandas, SciPy]
-    other: [System Design]
-    ops: [MLflow, Kubeflow, KServe, Docker, ArgoCD, CI/CD, Kubernetes, Terraform,
-      MLOps]
-    web: [FastAPI, REST APIs]
+    languages: [Python]
+    ml: [PyTorch, scikit-learn, Pandas, SciPy, NLP]
+    other: [PyTest, System Design]
+    ops: [MLOps, CI/CD, Docker, Kubernetes, Terraform, MLflow, Kubeflow, KServe, ArgoCD,
+      Monitoring]
     databases: [Vector Databases]
+    domains: []
+    web: [FastAPI]
+    data: [PubSub]
+    genai: [LangGraph, RAG, AI Agents, Agentic Workflows, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9867893'
   location: Berlin, DEU
-  extracted_at: '2026-06-25T19:54:32.098773'
+  extracted_at: '2026-08-16T15:37:58.107315'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,58 +1,65 @@
 company:
   name: Vertafore
-  stage: Public
-  focus: Insurance technology software and data solutions
+  stage: null
+  focus: |-
+    Insurance software and technology for agencies, MGAs, and
+    carriers
 position:
   title: Sr. Technical Lead, Software Engineer (Java, React, Oracle, AI skills)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a full-stack software engineering tech
-      lead role (React, Java, Oracle) where AI is used as an
-      augmentation tool (GitHub Copilot, Claude Code, prompt
-      engineering) to accelerate coding velocity — not to build,
-      deploy, or fine-tune AI/ML models. The AI involvement is
-      about using AI-assisted development tools and championing
-      AI-native engineering practices within the team, making this
-      an ai-support role.
+      The AI work is entirely about using AI coding assistants
+      (GitHub Copilot, Claude Code) to boost engineering velocity,
+      triage bugs, and championing AI-native engineering practices
+      across the team — the deliverable is developer workflow, not
+      model behavior. There is no product LLM being shaped through
+      prompts, retrieval, agents, or training. Per the edge cases,
+      rolling out AI coding tools so engineers ship faster is ai-
+      support.
   responsibilities:
-  - Lead end-to-end full stack development using React, Java, and Oracle for scalable
-    web applications
-  - Take ownership of the full development lifecycle from design and deployment ensuring
-    quality standards
-  - Drive AI-augmented engineering practices, including governance, AI-native standards,
-    and mentoring the team on AI development workflows
-  - Conduct code reviews to ensure adherence to best practices for performance, scalability,
-    and security
-  - Mentor junior developers on best practices and technologies
+  - Lead end-to-end full-stack development of complex web applications using React,
+    Java, and Oracle, focusing on scalable and efficient solutions
+  - Own the full development lifecycle from design and development to deployment,
+    ensuring adherence to timelines and quality standards
   - Collaborate with cross-functional teams including UX/UI designers, QA engineers,
-    and product owners
-  - Engage with product teams to gather requirements and translate business needs
-    into technical solutions
-  - Maintain technical documentation for solutions to ensure knowledge transfer and
+    and product owners to integrate front-end and back-end services
+  - Drive team governance and AI-native standards, design high-context specifications,
+    evaluate new AI capabilities, and mentor the team on advanced engineering workflows
+  - Utilize AI-assisted development toolkits (GitHub Copilot, Claude Code) and AI
+    diagnostics to accelerate coding velocity, documentation, and root-cause analysis
+  - Critically review, audit, and benchmark AI-assisted code contributions against
+    enterprise performance, data privacy, and security standards before production
+    rollout
+  - Conduct code reviews and mentor junior developers on best practices, performance,
+    scalability, and security
+  - Maintain technical documentation for solutions to support knowledge transfer and
     maintenance
   use_cases:
-  - Insurance lifecycle digital systems spanning sales, servicing, and back-office
-    operations
-  - Enterprise web applications for insurance agencies, MGAs, and carriers
-  - Data-driven distribution and compliance transaction processing
-  - Scalable full-stack applications with REST APIs and microservices for distributed
-    systems
+  - Insurance lifecycle software spanning sales, servicing, and back-office operations
+    for agencies, MGAs, and carriers
+  - Enterprise web applications for insurance distribution workflows
+  - AI-assisted coding, documentation, and bug triage to accelerate development velocity
+  - AI code quality governance against enterprise performance, privacy, and security
+    standards
+  - Asynchronous message-driven integration between distributed systems
   skills:
-    genai: [GitHub Copilot, Claude Code, Prompt Engineering]
+    cloud: [AWS, EC2, AWS S3]
+    languages: [TypeScript, JavaScript, Java, SQL]
     ml: []
-    web: [React, Redux Toolkit, Formik, Yup, Webpack, Vite, HTML, CSS, REST APIs,
-      Microservices, Spring Boot, Hibernate, JSP, Playwright, Axios]
+    other: [Hibernate, Jest, React Testing Library, Rally, Agile]
+    ops: [Git, GitLab CI, CI/CD, Terraform, Distributed Systems]
     databases: [Oracle]
-    data: [RabbitMQ]
-    cloud: [AWS, AWS S3]
-    ops: [Git, GitLab CI, CI/CD, Terraform]
-    languages: [TypeScript, Java, SQL, JavaScript, Node.js]
     domains: []
-    other: [Jest, Agile]
+    web: [React, Redux Toolkit, Formik, Yup, HTML, CSS, REST APIs, Axios, Fetch API,
+      Spring Boot, Struts, JSP, Servlets, Microservices, Webpack, Vite, Parcel, Playwright]
+    data: [RabbitMQ]
+    genai: [GitHub Copilot, Claude Code, Prompt Engineering]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10256108'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:36:17.333129'
+  extracted_at: '2026-08-16T18:13:02.063910'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

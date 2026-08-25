@@ -1,56 +1,62 @@
 company:
   name: ABBYY
-  stage: Public
-  focus: Document AI and intelligent automation for enterprise
+  stage: null
+  focus: Purpose-built AI and intelligent document automation
 position:
   title: Senior Machine Learning Engineer -  AI-Assisted Data Annotation
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs and vision-
-      language models for automated data annotation, including
-      fine-tuning, prompt engineering, and inference optimization.
-      The engineer designs and builds AI-powered annotation
-      pipelines that generate ground truth labels at scale, which
-      is direct model work, not just supporting infrastructure.
+      The role directly shapes LLM and vision-language model
+      behavior: designing and refining prompting strategies, few-
+      shot examples, instruction tuning, and fine-tuning
+      approaches, plus building evaluation frameworks and feedback
+      loops that judge model-generated output quality. Because
+      prompt-driven LLM/VLM components are the core of the work,
+      this is ai-first rather than ml-first or ai-support.
   responsibilities:
-  - Design and implement AI-powered annotation pipelines using large models to generate
-    ground truth labels at scale
+  - Design and implement AI-powered annotation pipelines using LLMs and vision-language
+    models to generate ground truth labels at scale
   - Develop and refine prompting strategies, few-shot examples, and fine-tuning approaches
-    to improve accuracy and consistency
-  - Build systems for label verification, confidence scoring, and quality validation
-  - Create evaluation frameworks to benchmark automated annotations against human-labeled
+    to improve annotation accuracy and consistency
+  - Build systems for label verification, confidence scoring, and quality validation,
+    and create evaluation frameworks benchmarking automated annotations against human-labeled
     data
+  - Own the automated annotation track end-to-end, driving technical decisions on
+    model selection, pipeline design, and validation strategies
+  - Evaluate which tasks suit automated annotation versus human review and design
+    human-in-the-loop review workflows with Data Operations
   - Build and optimize large-scale inference pipelines for processing millions of
-    documents
+    documents, including batching, caching, and fallback mechanisms
   - Implement monitoring and alerting for quality degradation and system failures
-  - Design batching, caching, and fallback mechanisms to balance cost, throughput,
-    and accuracy
-  - Collaborate with Data Operations to design human-in-the-loop workflows for efficient
-    review
+  - Collaborate with Platform teams on model serving, APIs, and infrastructure scaling
   use_cases:
-  - Automated document annotation and labeling for AI training data generation
-  - Document understanding tasks including classification, extraction, layout analysis,
-    and semantic parsing
-  - Large-scale document processing and data engineering for enterprise customers
-  - Quality validation and confidence scoring for automated annotations
-  - Human-in-the-loop workflows for reviewing and improving AI-generated labels
-  - Intelligent automation for document processing in enterprise workflows
+  - Automated generation of ground truth training labels at scale for document AI
+    models
+  - AI-assisted annotation for document understanding tasks including classification,
+    extraction, layout analysis, and semantic parsing
+  - Label quality verification, confidence scoring, and validation feeding downstream
+    model training
+  - Human-in-the-loop review workflows balancing automated annotation with human judgment
+  - Large-scale document processing covering millions of documents with cost, throughput,
+    and accuracy trade-offs
   skills:
-    domains: [Document understanding, Classification, Extraction, Layout analysis,
-      Semantic parsing]
-    languages: [Python]
-    ml: [Fine-Tuning, PyTorch, Confidence scoring, Quality metrics]
     cloud: []
-    genai: [LLMs, Vision-Language Models, Prompt Engineering, Instruction tuning]
-    data: [Data annotation systems]
-    other: []
-    ops: [Model Deployment, Inference pipelines, Human-in-the-loop, Evaluation frameworks]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, PyTorch]
+    other: [Data Annotation, Confidence Scoring, Human-in-the-Loop]
+    ops: [Model Deployment, Monitoring]
     databases: []
+    domains: [Document Understanding]
+    web: []
+    data: []
+    genai: [LLMs, Vision-Language Models, Prompt Engineering, Fine-Tuning, Few-Shot
+        Learning, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9460767'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:07:28.341453'
+  extracted_at: '2026-08-16T11:37:34.416902'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

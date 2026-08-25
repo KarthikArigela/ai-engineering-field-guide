@@ -1,50 +1,55 @@
 company:
   name: ConnectWise
-  stage: Public
-  focus: Software for technology solution providers
+  stage: null
+  focus: |-
+    Business management and automation software for technology
+    solution providers
 position:
   title: Sr. Software Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves designing, developing, and
-      deploying AI-driven applications using RAG, Agentic AI, and
-      ML models. The engineer builds and optimizes ML models,
-      works with vector databases, embeddings, and LLMs for
-      intelligent retrieval and reasoning — all hands-on work with
-      AI/ML systems.
+      The role designs and deploys RAG and Agentic AI
+      applications, works with vector databases, embeddings, and
+      LLMs for intelligent retrieval and reasoning, and
+      builds/optimizes ML models — directly shaping model behavior
+      and output quality. LLM and agent components are central to
+      the responsibilities, so it is ai-first.
   responsibilities:
   - Design, develop, and deploy AI-driven applications using RAG and Agentic AI frameworks
-  - Build and optimize machine learning models for production use
+  - Build and optimize machine learning models
   - Build and maintain scalable data pipelines and services to support AI workflows
-  - Implement RESTful APIs using Python frameworks for AI model integration
+  - Implement RESTful APIs using Python frameworks such as FastAPI and Flask for AI
+    model integration
   - Collaborate with product and engineering teams to translate business needs into
     AI solutions
-  - Debug and optimize AI systems across the stack for performance and reliability
+  - Debug and optimize AI systems across the stack to ensure performance and reliability
   - Work with vector databases, embeddings, and LLMs for intelligent retrieval and
     reasoning
-  - Contribute to internal AI standards, reusable components, and best practices
+  - Participate in code reviews, testing, and documentation of AI components, and
+    contribute to internal AI standards and best practices
   use_cases:
-  - Intelligent retrieval and reasoning using RAG and vector databases
-  - Agentic AI workflows for business process automation
-  - ML model deployment for real-world applications in technology solution provider
-    management
-  - AI-driven service delivery automation and business management
+  - Intelligent retrieval and reasoning over business data using RAG and LLMs
+  - Agentic AI applications that automate workflows for technology solution providers
+  - AI-powered features embedded in business management and service delivery software
+  - Production AI model integration exposed through REST APIs
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Hugging Face, Machine Learning]
-    cloud: [AWS, Azure, GCP, SageMaker, Vertex AI, AWS S3]
-    genai: [RAG, AI Agents, LangChain, LlamaIndex, Haystack, GPT-4, Anthropic API,
-      Mistral, Embeddings, Modular Cognitive Processes (MCP)]
-    data: [Airflow]
+    cloud: [AWS, Azure, GCP, AWS S3, SageMaker, Vertex AI]
+    languages: [Python]
+    ml: [Machine Learning, Hugging Face]
     other: [pytest, unittest]
-    ops: [Docker, Jenkins, CI/CD, Git]
+    ops: [CI/CD, Git, Docker, Jenkins]
+    databases: [Vector Databases, OpenSearch, Pinecone, Weaviate, SQL, NoSQL]
+    domains: []
     web: [FastAPI, Flask, REST APIs]
-    databases: [OpenSearch, Pinecone, Weaviate, NoSQL]
+    data: [Data Pipelines, Airflow]
+    genai: [RAG, AI Agents, MCP, Generative AI, LangChain, LlamaIndex, Haystack, LLMs,
+      Embeddings, GPT-4, Anthropic API, Mistral]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9650543'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:50:19.009400'
+  extracted_at: '2026-08-16T13:48:11.932472'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,56 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Financial services and banking technology
+  stage: null
+  focus: |-
+    Banking and financial services with AI-powered customer
+    experiences
 position:
   title: Senior Lead AI Engineer (LLM Gateway, FM Hosting)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on AI/ML engineering focused on building,
-      deploying, and optimizing LLM inference systems and
-      foundation model hosting infrastructure. The engineer will
-      directly work on LLM optimization techniques, model
-      training, similarity search, guardrails, and improving
-      performance/scalability of production AI systems - all core
-      AI engineering work on the models themselves, not just
-      supporting infrastructure.
+      The role shapes models directly: it lists foundation model
+      training, guardrails, and model evaluation as components the
+      engineer builds, and inventing state-of-the-art LLM
+      optimization techniques (training/inference optimization,
+      quantization-class work) as a core duty. Because LLM and
+      generative components are the target, this is ai-first
+      despite the gateway/hosting framing in the title.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for associates
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products for associates
     and customers
-  - Design, develop, and deploy AI software components including foundation model
-    training, LLM inference, similarity search, guardrails, and model evaluation
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput
-  - Contribute to technical vision and long-term roadmap of foundational AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Design and develop complex AI systems with experimentation, governance, and observability
-    capabilities
+  - Lead and mentor engineers and influence cross-functional stakeholders
   use_cases:
-  - Answering customer questions in real time through AI-powered systems
-  - Informing customers about unusual charges with personalized alerts
-  - Enhancing banking products with AI-powered capabilities for improved customer
-    experiences
-  - Supporting associate work processes with AI-powered tools and automation
-  - Providing responsible and scalable AI infrastructure for banking applications
-  - Enabling similarity search and guardrails for secure AI interactions
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time through AI-powered interactions
+  - AI-powered tools that change how internal associates work
+  - Foundational AI platform enabling teams across the company to embed AI into their
+    products
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [LLMs, LLM Inference, LLM Optimization, Guardrails]
-    data: []
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Experimentation, AI Governance, Observability]
-    web: []
+    ops: [Model Deployment, Observability]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +61,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-05-29T09:01:17.453826'
+  extracted_at: '2026-08-16T10:34:34.051025'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

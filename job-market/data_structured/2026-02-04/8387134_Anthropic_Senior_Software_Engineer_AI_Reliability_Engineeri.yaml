@@ -1,53 +1,61 @@
 company:
   name: Anthropic
-  stage: Series B
-  focus: Safe and beneficial AI systems
+  stage: null
+  focus: Developing reliable, interpretable, and steerable AI systems
 position:
   title: Senior Software Engineer, AI Reliability Engineering
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is AI Reliability Engineering focused on
-      infrastructure, monitoring, and operational aspects of model
-      serving systems. The engineer is NOT building, training,
-      fine-tuning, or deploying models, but rather building the
-      platform and systems that SUPPORT model serving (SLOs,
-      monitoring, failover, cost optimization for GPU
-      infrastructure).
+      This is reliability engineering for LLM serving and training
+      infrastructure: SLOs, monitoring, failover, incident
+      response, and cost optimization of GPU/TPU/Trainium
+      utilization. The person runs, hosts, and scales models
+      others build rather than shaping model behavior through
+      prompts, retrieval, agent design, training, or evals. The
+      deliverable is capacity and uptime, which classifies as ai-
+      support under the serving/hosting edge case.
   responsibilities:
-  - Develop Service Level Objectives for large language model serving and training
-    systems, balancing availability and latency with development velocity
-  - Design and implement monitoring systems including availability, latency and other
-    salient metrics for AI infrastructure
-  - Design and implement high-availability language model serving infrastructure capable
-    of handling millions of external customers and high-traffic internal workloads
+  - Develop Service Level Objectives for LLM serving and training systems, balancing
+    availability and latency with development velocity
+  - Design and implement monitoring systems covering availability, latency, and other
+    salient metrics
+  - Assist in designing and implementing high-availability language model serving
+    infrastructure for millions of external customers and high-traffic internal workloads
   - Develop and manage automated failover and recovery systems for model serving deployments
     across multiple regions and cloud providers
   - Lead incident response for critical AI services, ensuring rapid recovery and systematic
-    improvements from each incident
+    post-incident improvements
   - Build and maintain cost optimization systems for large-scale AI infrastructure,
-    focusing on accelerator (GPU/TPU/Trainium) utilization and efficiency
+    focusing on GPU/TPU/Trainium accelerator utilization and efficiency
+  - Uplevel reliability mindsets across Anthropic and partner with internal teams
+    to build more robust and reliable systems
   use_cases:
-  - Large-scale language model serving infrastructure for millions of external customers
-  - High-traffic internal AI workloads and training pipelines
-  - Distributed model serving across multiple regions and cloud providers
-  - Real-time inference with strict latency and availability requirements
-  - GPU/TPU accelerator infrastructure for model training and serving
+  - Reliable LLM inference serving for millions of external customers and high-traffic
+    internal workloads
+  - Automated failover and recovery for model serving across multiple regions and
+    cloud providers
+  - SLO-driven monitoring and incident response for LLM serving and training systems
+  - Cost optimization of large-scale GPU/TPU/Trainium accelerator infrastructure
+  - High-availability infrastructure for large-scale model training and batch inference
   skills:
-    genai: []
-    ml: []
-    web: []
-    databases: []
-    data: []
-    cloud: [Distributed systems, GPU, TPU, Trainium, Cloud providers]
-    ops: [Monitoring, Observability, SLO/SLA frameworks, High availability, Chaos
-        engineering, Incident response, Failover systems, RDMA, InfiniBand, Cost optimization]
+    cloud: []
     languages: []
-    domains: []
+    ml: [Machine Learning, Model Training, ML Hardware Accelerators]
     other: []
+    ops: [Observability, Monitoring, Distributed Systems, Model Deployment, Batch
+        Inference, SLO/SLA Frameworks, Chaos Engineering, Incident Response, RDMA,
+      InfiniBand]
+    databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8387134'
   location: London, GBR
-  extracted_at: '2026-02-05T13:03:10.677386'
+  extracted_at: '2026-08-15T23:32:31.898824'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

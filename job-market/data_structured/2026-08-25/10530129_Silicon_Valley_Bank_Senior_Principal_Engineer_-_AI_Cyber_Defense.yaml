@@ -1,0 +1,59 @@
+company:
+  name: Silicon Valley Bank
+  stage: null
+  focus: U.S. bank's global capability center for cybersecurity
+position:
+  title: Senior Principal Engineer - AI Cyber Defense
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role explicitly designs and develops AI/ML-driven
+      security capabilities (anomaly detection, behavioral
+      analytics, threat prediction), which is shaping model
+      behaviour, but all components are classical ML with no LLM,
+      prompt, or agent component. Much of the rest is leveraging
+      AI embedded in existing security tools, but the design work
+      makes it ml-first.
+  responsibilities:
+  - Design enterprise cybersecurity strategies spanning perimeter security, AI-driven
+    defense, and data protection
+  - Architect and optimize perimeter security technologies including NGFW, WAF, proxies,
+    email gateways, and DNS security
+  - Design AI/ML-driven security capabilities for anomaly detection, threat prediction,
+    and behavioral analytics
+  - Lead data protection programs including DLP, SSPM, DSPM, CSPM, data discovery,
+    classification, and remediation
+  - Integrate security platforms with SIEM, SOAR, XDR, UEBA, and AI-driven analytics
+    for automated response
+  - Automate security operations, policy management, and workflow orchestration using
+    APIs and scripting
+  - Support incident response, threat hunting, and forensic investigations
+  - Ensure compliance with security policies, regulatory requirements, and audit obligations
+  use_cases:
+  - Anomaly detection and behavioral analytics for cyber threat detection
+  - Threat prediction and risk-based decision making in security operations
+  - Automated response and security workflow orchestration
+  - Attack surface reduction through predictive analytics and intelligent filtering
+  - Data protection and governance across cloud and SaaS environments
+  - Defense against AI-driven and adversarial attacks
+  skills:
+    genai: []
+    ml: [Anomaly Detection, Machine Learning]
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [Azure, AWS, GCP]
+    ops: [SIEM, SOAR, XDR, EDR, UEBA]
+    languages: [Python, PowerShell]
+    domains: []
+    other: [Palo Alto NGFW, Zscaler, Proofpoint, Akamai WAF, DLP, CSPM, Zero Trust,
+      ZTNA, SASE, Threat Intelligence, Incident Response, Threat Hunting, Data Classification,
+      Data Governance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10530129'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:34:52.567578'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

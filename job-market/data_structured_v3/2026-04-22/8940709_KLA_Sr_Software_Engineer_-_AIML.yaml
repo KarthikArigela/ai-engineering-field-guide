@@ -1,0 +1,56 @@
+company:
+  name: KLA
+  stage: null
+  focus: |-
+    Semiconductor manufacturing equipment and process control
+    electronics
+position:
+  title: Sr. Software Engineer - AI/ML
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing RAG
+      pipelines (chunking, embeddings, reranking), building
+      agentic workflows with tool/function calling, and creating
+      evaluation frameworks and guardrails for prompts and models.
+      Since LLM and agent components are the core deliverable,
+      this is ai-first.
+  responsibilities:
+  - Design and deliver LLM-powered applications including RAG with enterprise knowledge
+    sources
+  - Build agentic workflows with tool/function calling, orchestration, and multi-step
+    reasoning
+  - Build and optimize retrieval pipelines covering chunking, embeddings, vector search,
+    reranking, and grounding
+  - Create evaluation frameworks with golden datasets, automated scoring, A/B testing,
+    and regression testing for prompts and models
+  - Deploy AI/ML systems into production on Azure with monitoring, incident response,
+    and cost optimization
+  - Apply Responsible AI practices covering privacy, security reviews, model risk
+    management, and bias/fairness
+  use_cases:
+  - Enterprise knowledge retrieval and Q&A via RAG over internal knowledge sources
+  - Document intelligence including text extraction, summarization, and classification
+  - Multi-step reasoning agents with tool calling and orchestration
+  - Production LLM applications with continuous evaluation and regression testing
+  - Enterprise analytics driving strategic decisions and operational efficiency
+  skills:
+    genai: [RAG, AI Agents, Agentic Workflows, Function Calling, Prompt Engineering,
+      Guardrails, Embeddings, LLMs, LLM Evaluation, Rerankers]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: [Vector Databases, Vector Search]
+    data: [ETL, Data Quality]
+    cloud: [Azure, Azure AI Search]
+    ops: [CI/CD, Monitoring, Incident Response, Distributed Systems]
+    languages: [Python, SQL]
+    domains: []
+    other: [Responsible AI, A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8940709'
+  location: Chennai, IND
+  extracted_at: '2026-08-16T06:24:14.528180'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

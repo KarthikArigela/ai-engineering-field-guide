@@ -1,0 +1,60 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services with AI-driven experiences
+position:
+  title: Lead AI Engineer (Gen AI Platform Services)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior: it includes
+      foundation model training, building guardrails and model
+      evaluation, and inventing LLM optimization techniques for
+      training and inference software. Optimizing a model's own
+      training/inference internals and building guardrails/evals
+      is shaping, and LLM components are central, so this is ai-
+      first.
+  responsibilities:
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, HuggingFace,
+    VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+    at Capital One
+  - Stay abreast of the latest AI research and judiciously apply novel techniques
+    in production
+  use_cases:
+  - Real-time personalized banking customer experiences
+  - Alerting customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered tools that change how internal associates work
+  - Platform services that enable teams across the company to add AI capabilities
+    to their products
+  skills:
+    genai: [LLMs, NeMo Guardrails]
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [LLM Inference, Observability]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9226818'
+  location: San Jose, USA
+  locations:
+  - San Jose, USA
+  - New York, USA
+  extracted_at: '2026-08-16T09:38:43.366716'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,62 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services
+position:
+  title: Lead AI/ML Engineer (Platform, kubeflow)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs, builds, and deploys the components that
+      shape model behavior and output quality itself: foundation
+      model training, guardrails, model evaluation, and LLM
+      optimization techniques for training and inference. Because
+      LLMs are the explicit target (large language model
+      inference, LLM optimization, NeMo Guardrails), this is ai-
+      first rather than ml-first.
+  responsibilities:
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+    at Capital One
+  use_cases:
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges (fraud and anomaly alerts)
+  - Answering customer questions in real time with AI assistants
+  - Internal AI tools that change how associates work
+  - Shared AI models and platforms that empower teams across the company to add AI
+    to their products
+  skills:
+    genai: [Guardrails, LLMs, Memory]
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
+    web: []
+    databases: [Vector Databases, Similarity Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Kubeflow, LLM Inference, Observability]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9284888'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - San Jose, USA
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T10:02:57.746886'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

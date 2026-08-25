@@ -1,0 +1,52 @@
+company:
+  name: Staples India
+  stage: null
+  focus: Retail office supplies and business products
+position:
+  title: Lead AI/ML Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role shapes model behaviour (forecasting, price
+      elasticity, RL/multi-armed bandits for pricing) but involves
+      only classical ML/statistical techniques with no LLM or
+      agent component, so it is ml-first.
+  responsibilities:
+  - Design, develop and deploy time-series forecasting models for demand and pricing
+  - Apply statistical and causal inference techniques to evaluate promotion effectiveness
+    and seasonality
+  - Build dynamic pricing, promotion optimization and recommendation models using
+    reinforcement learning or multi-armed bandits
+  - Architect ML pipelines for promotion targeting and ROI optimization
+  - Develop cross-channel regular price optimization models across B2C and B2B segments
+  - Implement model monitoring, retraining, and drift detection systems
+  - Design end-to-end data workflows from ingestion to production APIs and dashboards
+  - Collaborate with cloud teams for deployment on Azure or GCP
+  use_cases:
+  - Demand forecasting across thousands of SKUs
+  - Price elasticity modeling and pricing strategy
+  - Cross-channel regular price optimization across B2C and B2B
+  - Promotion effectiveness, incrementality, and lift analysis
+  - Dynamic pricing with seasonality and peak-demand patterns
+  - Profitability optimization and revenue maximization
+  skills:
+    genai: []
+    ml: [Prophet, ARIMA, DeepAR, LSTM, Temporal Fusion Transformer, Reinforcement
+        Learning, Multi-Armed Bandits, TensorFlow, PyTorch, scikit-learn, Feature
+        Engineering, Model Evaluation, Time Series Forecasting, Causal Inference]
+    web: [APIs]
+    databases: [Azure SQL, Snowflake, Databricks Delta]
+    data: [Data Pipelines]
+    cloud: [Azure, GCP]
+    ops: [Git, Model Monitoring, Model Deployment]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10812502'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T12:02:39.888359'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

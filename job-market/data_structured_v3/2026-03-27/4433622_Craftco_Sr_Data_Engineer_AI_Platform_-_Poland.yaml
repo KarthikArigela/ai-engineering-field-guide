@@ -1,0 +1,60 @@
+company:
+  name: Craft.co
+  stage: Post-Series B, backed by top-tier investors
+  focus: Supplier risk intelligence and monitoring platform
+position:
+  title: Sr. Data Engineer (AI Platform - Poland)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The core responsibility is integrating LLMs into production
+      AI agent workflows and building structured-output pipelines
+      with grounding, reference resolution, and evidence
+      traceability - this directly shapes model output quality
+      (prompt/schema design, grounding, output traceability), so
+      Step 1 is yes. An LLM/agent component is involved, making it
+      ai-first, even though the rest of the role is data and
+      backend engineering.
+  responsibilities:
+  - Integrate large language models into production AI agent workflows, building structured-output
+    pipelines with grounding, reference resolution, and evidence traceability
+  - Design and evolve APIs that serve risk intelligence data to customers and external
+    integrations
+  - Build and maintain data ingestion pipelines, owning the full lifecycle from extraction
+    through loading and error handling
+  - Own reliability of async task processing systems including health monitoring,
+    autoscaling, alerting, and incident response
+  - Build and maintain shared libraries and internal developer tooling that accelerate
+    the engineering team
+  - Manage the full service lifecycle from standing up new services to decommissioning
+    legacy ones
+  use_cases:
+  - Supplier risk intelligence - discovering, evaluating, and continuously monitoring
+    suppliers at scale
+  - AI research and monitoring agents delivering actionable intelligence on a proprietary
+    data platform
+  - Securing critical supply chains from risk for Fortune 500, government, and global
+    platform customers
+  - Serving risk intelligence data to customers and external integrations via APIs
+  skills:
+    genai: [LLMs, Structured Outputs, Agentic Workflows, OpenAI API, Anthropic API,
+      Pydantic AI, Claude Code]
+    ml: []
+    web: [GraphQL, Apollo Federation, Strawberry, APIs]
+    databases: [PostgreSQL, SQLAlchemy, DynamoDB]
+    data: [Pandas, Polars, Kafka, Airflow, Celery, ETL, Data Warehouses, Data Lakes]
+    cloud: [AWS, AWS S3, AWS Batch, AWS RDS, AWS Lambda, AWS DMS, ECS, SQS, Vertex
+        AI]
+    ops: [Docker, Terraform, Infrastructure as Code, Datadog, MLflow, Observability]
+    languages: [Python, SQL, asyncio]
+    domains: []
+    other: [Pydantic, SDLC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '4433622'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T02:57:00.095624'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

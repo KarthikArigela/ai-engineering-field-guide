@@ -1,0 +1,65 @@
+company:
+  name: Thomson Reuters
+  stage: null
+  focus: |-
+    Information and technology services for legal, tax,
+    accounting, and media professionals
+position:
+  title: Senior Software Engineer - AI I
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing RAG
+      pipelines (chunking, hybrid retrieval, citations,
+      grounding), building agentic workflows with function
+      calling, memory, and guardrails, and developing Semantic
+      Kernel orchestration. These are LLM/agent components, so it
+      is ai-first despite the .NET software engineer title.
+  responsibilities:
+  - Build and own .NET services and REST APIs integrated with Azure OpenAI and Azure
+    AI Services
+  - Design RAG pipelines using Azure AI Search with hybrid retrieval, chunking strategies,
+    grounding, and citations
+  - Create agentic workflows using tool/function calling, planning, memory, and guardrails
+    for safe execution
+  - Develop Semantic Kernel skills, connectors, and planners to orchestrate intelligent
+    behavior
+  - Implement observability across latency, cost, token usage, and quality metrics
+    using App Insights and OpenTelemetry
+  - Collaborate with product, security, and data partners to ensure compliant and
+    impactful solutions
+  - Mentor teammates, write RFCs, and guide architecture decisions
+  use_cases:
+  - AI-powered .NET services and applications integrated with Azure OpenAI
+  - Grounded retrieval-augmented generation with hybrid search, citations, and citation
+    accuracy
+  - Agentic AI workflows with tool calling, planning, memory, and guardrails for safe
+    execution
+  - Production AI systems with observability for latency, cost, token usage, and quality
+  - Compliant AI solutions serving legal, tax, accounting, and compliance domains
+  skills:
+    genai: [Azure OpenAI, RAG, Agentic Workflows, Function Calling, Guardrails, Semantic
+        Kernel, Embeddings, LLM Evaluation, RAGAS]
+    ml: []
+    web: [REST APIs, ASP.NET Core, OAuth, OIDC, JWT, React, Blazor]
+    databases: [Neo4j, Knowledge Graphs, RDF]
+    data: []
+    cloud: [Azure AI Services, Azure AI Search, Azure AI Studio, Azure App Service,
+      Azure Functions, AKS, Azure Container Apps, Azure API Management, Azure Key
+        Vault, Azure Cognitive Services]
+    ops: [CI/CD, Application Insights, OpenTelemetry, Observability]
+    languages: [C#, .NET]
+    domains: []
+    other: [PII Handling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8373747'
+  location: Eagan, USA
+  locations:
+  - Eagan, USA
+  - Toronto, CAN
+  - New York, USA
+  extracted_at: '2026-08-15T23:29:21.615045'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

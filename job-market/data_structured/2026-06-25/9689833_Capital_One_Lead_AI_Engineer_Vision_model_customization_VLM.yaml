@@ -1,52 +1,55 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services
 position:
   title: Lead AI Engineer (Vision model customization, VLM)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI
-      systems including foundation model training, LLM inference,
-      and vision model customization (VLMs). The engineer designs,
-      develops, and optimizes production AI systems using state-
-      of-the-art techniques for training and inference. This is
-      hands-on work with models, not support infrastructure for
-      others.
+      The role designs and develops foundation model training,
+      model evaluation, guardrails, and LLM optimization
+      techniques - all direct shaping of model behavior and output
+      quality. The title's focus on VLM (vision-language model)
+      customization plus explicit LLM inference and guardrails
+      work means an LLM/prompt-driven generative component is
+      central, making it ai-first rather than ml-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, technical
-    program managers, and product managers to deliver AI-powered products
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products for associates
+    and customers
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and apply state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Customize and fine-tune vision language models (VLMs) for business use cases
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - AI-powered customer interaction and question answering
-  - Vision model customization for document and image understanding
-  - Scalable enterprise AI infrastructure for internal teams
+  - Informing customers about unusual charges (fraud-related alerts)
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Vision-language model customization for enterprise AI applications
   skills:
-    domains: [Computer Vision]
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training, Fine-Tuning]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Vision Language Models (VLMs), LLM Inference, RAG / Similarity Search,
-      Guardrails, LLM Optimization, Prompt Engineering]
-    data: []
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model Evaluation, AI Governance, Model Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Guardrails, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9689833'
   location: McLean, USA
@@ -55,4 +58,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-06-25T19:48:27.635872'
+  extracted_at: '2026-08-16T14:12:31.336033'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

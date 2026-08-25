@@ -1,0 +1,59 @@
+company:
+  name: Saas Labs
+  stage: null
+  focus: Cloud phone and AI voice agent platform (JustCall)
+position:
+  title: Software Development Engineer I - AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the integration layer around a voice agent
+      platform (AIVA) — REST APIs, webhooks, CRM connectors,
+      workflow triggers — but does not shape model behavior: no
+      prompt engineering, retrieval design, training, or evals.
+      The description even says "you don't need to build the
+      models"; the person enables AI agents that another team
+      owns, so this is ai-support.
+  responsibilities:
+  - Wire the AIVA voice agent platform to customer business tools such as CRMs, project
+    management tools, and webhook endpoints
+  - Design and implement trigger-based workflows driven by call outcomes (e.g. HubSpot
+    deal updates, follow-up agent calls, Monday.com task creation)
+  - Build integrations from scratch including REST APIs, OAuth flows, webhook handlers,
+    and event transforms
+  - Extend and customize existing connectors for AI-specific use cases with the integrations
+    team
+  - Write Node.js services and APIs powering agent actions, workflow state, and integration
+    payloads with MongoDB storage
+  - 'Contribute to shared backend infrastructure: async job queues, event pipelines,
+    retry/fallback patterns'
+  - Document integration contracts, workflow specs, and API schemas for the AI team
+  use_cases:
+  - AI voice agents that answer calls, qualify leads, and schedule appointments
+  - Call-outcome-driven workflow automation across CRMs and business tools
+  - Automated follow-up actions such as enqueuing agent calls after no-answer
+  - Sentiment-flagged task creation in project management tools
+  - End-to-end automation of customer conversation workflows
+  skills:
+    genai: []
+    ml: []
+    web: [REST APIs, Webhooks, OAuth, Express, React]
+    databases: [MongoDB]
+    data: [RabbitMQ]
+    cloud: []
+    ops: []
+    languages: [Node.js]
+    domains: []
+    other: [MERN Stack, n8n, Zapier, Salesforce, HubSpot, Monday.com, Event-Driven
+        Architecture, Cursor]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10337747'
+  location: Noida, IND
+  locations:
+  - Noida, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-25T09:45:55.650052'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

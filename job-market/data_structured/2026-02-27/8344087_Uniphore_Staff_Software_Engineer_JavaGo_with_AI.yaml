@@ -1,48 +1,50 @@
 company:
   name: Uniphore
   stage: null
-  focus: |-
-    B2B AI-native company delivering multimodal AI architecture
-    with Generative AI, Knowledge AI, and Emotion AI for
-    enterprise customer experiences
+  focus: Enterprise B2B AI-native customer experience platform
 position:
   title: Staff Software Engineer (Java/Go with AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience with agentic
-      frameworks (LangGraph, LangChain, crewAI), building RAG
-      systems and vector search, plus LLM fine-tuning techniques
-      (LoRA, QLoRA). The position involves directly building,
-      integrating, and deploying AI/LLM systems, not just
-      supporting infrastructure.
+      The requirements mandate hands-on experience with agentic
+      frameworks (LangGraph, LangChain, crewAI) and building or
+      integrating RAG systems with vector search, meaning the
+      engineer designs agent flows and retrieval that shape LLM
+      output quality. Good-to-have LLM fine-tuning (LoRA, QLoRA)
+      and LLM observability/guardrails further confirm shaping
+      behavior, so this is ai-first rather than a generic backend
+      role.
   responsibilities:
-  - Design and develop application software as a Full Stack Developer within Product
-    Engineering
-  - Develop and maintain enterprise grade SaaS software using Agile methodology
-  - Build and integrate RAG (Retrieval-Augmented Generation) systems and vector search
-    capabilities
-  - Develop scalable core Java applications, Web Applications and Web Services
-  - Perform peer code reviews and ensure high quality, scalable project delivery
-  - Collaborate with multi-location teams to deliver requirements within agreed timelines
+  - Design and develop applications as a full-stack developer within multi-location
+    Product Engineering teams
+  - Develop and maintain enterprise-grade SaaS software using Agile methodology
+  - Build scalable core Java applications, web applications, and web services
+  - Develop creative solutions and write technical designs based on requirements
+  - Build and integrate agentic AI features and RAG systems with vector search
+  - Perform peer code reviews and provide feedback
+  - Collaborate with multi-region teams to deliver requirements on time with good
+    quality
+  - Promote high quality, scalability, and timely completion of projects
   use_cases:
-  - Multimodal AI architecture combining Generative AI, Knowledge AI, and Emotion
-    AI
-  - Enterprise customer experience optimization through voice, video, and text analysis
-  - RAG systems for enterprise knowledge retrieval and search
-  - Workflow automation with AI copilot guidance
-  - Customer-facing enterprise AI deployments across multiple industry verticals
+  - Multimodal capture and analysis of voice, video, and text data
+  - Generative AI copilot guiding enterprise users
+  - Knowledge AI for enterprise knowledge retrieval
+  - Emotion AI for understanding customer sentiment
+  - Workflow automation across customer-facing enterprise processes
   skills:
-    domains: []
+    cloud: []
     languages: [Java, Python, Go, Rust, SQL]
     ml: []
-    cloud: []
-    genai: [LangGraph, LangChain, CrewAI, RAG, Vector search, LoRA, Fine-Tuning]
+    other: [SLO/SLA Management]
+    ops: [Linux, MLOps, LLMOps, LLM Observability]
+    databases: [PostgreSQL, MongoDB, Redis, ClickHouse, NoSQL, Graph Databases, Time-Series
+        Databases, Vector Search]
+    domains: []
+    web: [J2EE, Struts, Spring Boot, Hibernate, Microservices, REST APIs, WebSockets,
+      gRPC]
     data: [Kafka]
-    other: [Microservices]
-    ops: [MLOps, LLMOps, LLM observability, Linux]
-    web: [REST, WebSockets, gRPC, MCP, Spring Boot, Struts, J2EE]
-    databases: [PostgreSQL, MongoDB, ClickHouse, Redis, GraphDB]
+    genai: [LangGraph, LangChain, CrewAI, MCP, RAG, Guardrails, LoRA, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
@@ -51,4 +53,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-03T11:23:31.070560'
+  extracted_at: '2026-08-16T00:57:30.258749'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

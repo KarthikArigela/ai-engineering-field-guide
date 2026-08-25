@@ -1,55 +1,55 @@
 company:
   name: Cinder
-  stage: Series A
-  focus: |-
-    AI-powered trust and safety platform for protecting online
-    interaction integrity
+  stage: Backed by Accel and Y Combinator
+  focus: Trust and safety platform for internet integrity
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      Role involves hands-on work with LLMs including data
-      preparation, fine-tuning, evaluation, and production
-      deployment at scale. Direct implementation of RAG
-      architectures, embedding models, and agent frameworks for
-      production systems.
+      The role owns the complete LLM lifecycle — data preparation,
+      fine-tuning, evaluation frameworks, and production
+      deployment — and explicitly requires RAG architectures,
+      prompt engineering, embedding models, and agentic
+      frameworks. This is direct shaping of LLM behaviour, so it
+      is ai-first.
   responsibilities:
   - Own the complete lifecycle of large language model implementation from data preparation
-    and fine-tuning through rigorous evaluation and production deployment
+    and fine-tuning through evaluation and production deployment
   - Develop automated evaluation frameworks that continuously assess model accuracy,
     identify edge cases, and quantify improvements across iterations
-  - Work directly with product managers and engineers to integrate AI as a core product
-    capability
-  - Shape AI roadmap by staying current with industry developments, evaluating emerging
-    techniques, and making pragmatic adoption decisions
-  - Design and implement low-latency, high-throughput, cloud-based AI/ML systems capable
-    of handling thousands of requests per second
+  - Collaborate with product managers and software engineers to integrate AI as a
+    core product capability
+  - Shape the AI roadmap by staying current with industry developments and evaluating
+    emerging techniques
+  - Design and implement low-latency, high-throughput cloud-based AI/ML systems handling
+    thousands of requests per second
   - Build foundational infrastructure including model serving, monitoring, deployment
-    pipelines, and automated testing frameworks that enables rapid experimentation
-    while maintaining production reliability
+    pipelines, and automated testing frameworks to enable rapid experimentation with
+    production reliability
   use_cases:
-  - Real-time content integrity and safety detection to prevent online abuse
-  - AI-powered moderation of user interactions at the product frontend
-  - Protecting online platforms from harmful content and malicious behavior
-  - Integration with major AI companies like OpenAI, Midjourney, and ElevenLabs for
-    content safety
-  - Enterprise-grade trust and safety solutions for high-volume digital products
+  - Real-time content integrity and abuse detection at the interaction layer of internet
+    products
+  - AI agents powering trust and safety workflows for enterprise customers
+  - High-throughput production LLM systems for a safety platform handling thousands
+    of requests per second
+  - Automated model evaluation to identify edge cases and improve moderation accuracy
   skills:
-    domains: []
+    cloud: [AWS]
     languages: [Python]
-    ml: [Fine-Tuning, TensorFlow, PyTorch, Keras]
-    cloud: [AWS, Terraform]
-    genai: [LLMs, RAG, Embeddings, Prompt Engineering, AI Agents, LangChain]
-    data: []
+    ml: [PyTorch, TensorFlow, Keras, Machine Learning]
     other: []
-    ops: [MLOps, CI/CD for ML, model versioning, Monitoring, Observability, Model
-        Deployment, deployment pipelines]
-    web: []
+    ops: [MLOps, CI/CD, Monitoring, Observability, Model Deployment, Terraform]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Fine-Tuning, RAG, Embeddings, Prompt Engineering, AI Agents, LangChain]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8082491'
   location: New York, USA
-  extracted_at: '2026-02-05T11:58:51.560425'
+  extracted_at: '2026-08-15T22:39:07.876588'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,47 +1,56 @@
 company:
   name: TTEC Digital
-  stage: Public
-  focus: AI-powered customer experience tools and services
+  stage: 'Public company (NASDAQ: TTEC)'
+  focus: Customer experience services and AI CX platform software
 position:
   title: Senior Software Engineer (Platform — Backend / AI/ML / Integrations)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role explicitly involves building AI/ML services and
-      pipelines — RAG, streaming inference, embeddings, LLM APIs,
-      eval frameworks, and model serving — as a core track. While
-      it also includes backend platform and integrations work, the
-      AI/ML specialization track and requirements for hands-on
-      experience building with LLMs, RAG, and model serving place
-      it firmly in ai-first territory.
+      The AI/ML track of this role explicitly includes designing
+      RAG pipelines, building eval frameworks, and running
+      streaming inference and model training/serving for
+      production GenAI/NLU systems, which are shaping activities
+      involving LLMs. The backend and integrations tracks support
+      the same AI CX platform, so the role shapes LLM system
+      behavior and is ai-first.
   responsibilities:
-  - Build Go services on an event-driven, high-throughput, low-latency event bus (NATS-class)
-  - Develop AI/ML pipelines including RAG, streaming inference, and evaluation frameworks
-  - Build connector frameworks integrating CCaaS, CRM, and telephony platforms (SIP/RTP)
-  - Design and maintain high-throughput transactional data models and WebSocket backends
-  - Own latency budgets and committed delivery timelines across specialization tracks
-  - Rapidly prototype, demo, and ship features in a fast-paced startup-style environment
-  - Debug complex issues across unfamiliar code, stack traces, and third-party APIs
+  - Build Go services on an event-driven, high-throughput, low-latency real-time platform
+    event bus
+  - Develop AI/ML services and pipelines including RAG, streaming inference, and eval
+    frameworks
+  - Build connector frameworks to CCaaS/CTI, CRM, and telephony platforms (Genesys,
+    Amazon Connect, NICE, Five9, SIP/RTP)
+  - Own high-throughput transactional data models and WebSocket backends
+  - Own latency budgets and committed delivery timelines
+  - Ship working prototypes in fast 1-week sprint cycles with Friday demos, failing
+    fast and moving forward
+  - Use AI-assisted development daily to multiply engineering velocity
+  - Work across specialization tracks (backend/platform, AI/ML, integrations) on the
+    combined voice, desktop, and intelligence platform
   use_cases:
-  - Automated quality assurance for customer interactions
-  - Conversational analytics for enterprise contact centers
+  - Automated quality assurance (QA) for contact center interactions
+  - Conversational analytics on customer interactions
   - Knowledge assist for customer service agents
   - Agentic automation for customer experience workflows
-  - Real-time voice and desktop platform for live enterprise deployments
+  - Real-time combined voice, desktop, and intelligence platform for enterprise CX
   skills:
-    genai: [LLMs, RAG, Embeddings, OpenAI API, Generative AI, Fine-Tuning, LLM Evaluation]
-    ml: []
-    web: [WebSockets]
-    databases: [Knowledge Graphs]
-    data: [NATS, Kafka]
     cloud: [GCP, Amazon Connect]
-    ops: [Model Deployment]
     languages: [Go, Python]
-    domains: []
-    other: [Event-Driven Architecture, Distributed Systems, Genesys, SIP]
+    ml: [Model Training]
+    other: [SIP, RTP, SIPREC, CCaaS, CTI, CRM, Genesys, NICE, Five9, Telephony, Event-Driven
+        Architecture, AI-Assisted Development]
+    ops: [Model Deployment, Streaming Inference, Distributed Systems]
+    databases: [Knowledge Graphs]
+    domains: [NLU]
+    web: [WebSockets]
+    data: [NATS, Kafka, Redpanda]
+    genai: [LLMs, SLMs, RAG, Embeddings, AI Agents, Generative AI, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10246788'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:37:22.119471'
+  extracted_at: '2026-08-16T18:09:54.648574'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

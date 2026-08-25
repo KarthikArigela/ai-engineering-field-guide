@@ -1,55 +1,57 @@
 company:
   name: Guidehouse
-  stage: Public
-  focus: Management and technology consulting for government
+  stage: null
+  focus: Technology consulting for government and commercial clients
 position:
   title: API Developer/Data Engineer Managing Consultant-Fraud/AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a data engineering and API
-      development consulting position that supports AI-enabled
-      capabilities by building data pipelines, but does not
-      involve directly building, training, fine-tuning, or
-      deploying AI/ML models. The AI aspect is limited to enabling
-      high-quality data for downstream AI use cases like semantic
-      search and entity resolution.
+      This is a data engineering and API integration consulting
+      role: the person builds pipelines, integrations, and
+      ontology/data models that feed AI capabilities (semantic
+      search, entity resolution) designed elsewhere. They never
+      write prompts, design retrieval, fine-tune models, or build
+      evals, and AI/ML product experience is only listed as nice-
+      to-have. Per the dataset/pipeline rule, this is ai-support.
   responsibilities:
   - Lead the design, development, and deployment of data integration and API solutions
-    within data platforms
-  - Architect and implement end-to-end data pipelines including ingestion, transformation,
+    within client data platforms
+  - Architect and implement end-to-end data pipelines covering ingestion, transformation,
     validation, and delivery of structured and unstructured data
-  - Develop and maintain ontology models, data schemas, and relationships to support
+  - Develop and maintain ontology models, data schemas, and relationships supporting
     analytics, search, and operational use cases
   - Integrate data across multiple systems and platforms using scalable and secure
     patterns
   - Implement data validation, quality assurance, and governance processes including
-    completeness checks and metadata integrity
-  - Support development of AI-enabled capabilities by enabling high-quality, well-structured
-    data pipelines
-  - Operate within an Agile delivery model, contributing to sprint planning, backlog
-    refinement, and iterative delivery
+    schema validation and metadata integrity
+  - Support development of AI-enabled capabilities such as semantic search, entity
+    resolution, and analytics by enabling high-quality, well-structured data pipelines
+  - Translate business and mission needs into technical requirements and scalable
+    integration designs while ensuring compliance with security, privacy, and audit
+    requirements
   - Drive technical design decisions, mentor junior engineers, and act as technical
-    lead within a matrixed team environment
+    lead within a matrixed consulting team
   use_cases:
-  - Semantic search and entity resolution for fraud detection
-  - Data integration and pipeline automation across enterprise systems
-  - Financial crime compliance monitoring and analytics
-  - Analytics on structured and unstructured data including NLP and document processing
-  - Ontology-driven applications and graph-based relationship analytics
+  - Fraud detection and financial crime compliance data and monitoring solutions
+  - AI-enabled semantic search and entity resolution built on structured data pipelines
+  - Cross-system data integration for federal and government environments
+  - Ontology-driven analytics, relationship mapping, and operational use cases
+  - Ingestion and delivery of structured and unstructured data for enterprise analytics
   skills:
-    genai: [Semantic Search]
-    ml: []
-    web: [REST APIs, APIs, JSON, Microservices]
-    databases: [SQL Server, Knowledge Graphs, Graph Databases, Oracle]
-    data: [Parquet, Data Pipelines, Data Engineering, Data Modeling, Data Governance]
-    cloud: [GCP, IAM, API Gateway, Apigee, Kong, AWS, Azure]
-    ops: []
+    cloud: [GCP, IAM, Apigee, Kong, Azure API Management, API Gateway]
     languages: [Python, Java, JavaScript, C#, .NET, SQL]
-    domains: [NLP]
-    other: [XML, Agile]
+    ml: [NLP]
+    other: [Agile, Entity Resolution, RBAC, LexisNexis, Fraud Detection]
+    ops: []
+    databases: [SQL Server, Graph Data Modeling, Ontology Modeling]
+    domains: []
+    web: [REST APIs, JSON, XML]
+    data: [Data Engineering, Data Pipelines, Data Modeling, Metadata Management, Data
+        Governance, Parquet]
+    genai: [Semantic Search]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10174663'
   location: McLean, USA
@@ -58,4 +60,6 @@ meta:
   - New York, USA
   - Arlington, USA
   remote: true
-  extracted_at: '2026-07-22T13:32:47.229963'
+  extracted_at: '2026-08-16T17:35:11.135442'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

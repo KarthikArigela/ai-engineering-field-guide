@@ -1,50 +1,55 @@
 company:
   name: Writer
-  stage: Series C (Valued at $1.9B)
-  focus: Enterprise generative AI platform and agents
+  stage: Valued at $1.9B, backed by Premji Invest, Radical Ventures, and ICONIQ Growth
+  focus: Enterprise generative AI platform
 position:
   title: Software engineer, generative AI (UK)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying
-      generative AI services, agentic workflows, and integrating
-      LLMs and vector databases into the core platform. The
-      engineer works hands-on with generative AI technologies to
-      create production AI applications, making this an ai-first
-      position.
+      The role builds generative AI applications and services,
+      with required expertise in LLMs, vector databases (Pinecone,
+      Weaviate, pgvector), and open-source agentic frameworks,
+      plus responsibilities to integrate AI models and agentic
+      workflows into the platform. This means the engineer designs
+      retrieval and agent flows themselves, shaping LLM behaviour
+      rather than merely consuming an API or serving someone
+      else's models.
   responsibilities:
-  - Design and develop secure, scalable generative AI services and applications using
-    Python and modern frameworks
-  - Build and optimize high-performance APIs and microservices integrating AI models
-    and agentic workflows into the core platform
-  - Own architecture and system design decisions for core platform components from
-    proposal through production deployment
-  - Implement responsive user interfaces using React and TypeScript to bridge backend
-    services and frontend enablement
-  - Collaborate with product managers, data scientists, and DevOps engineers to communicate
-    plans and drive cross-functional alignment
-  - Partner with DevOps to build continuous deployment, logging, and monitoring systems
-    for distributed workloads
+  - Design and develop robust, secure, and scalable generative AI services and applications
+    using Python
+  - Build and optimize high-performance, low-latency APIs and microservices to integrate
+    advanced AI models and agentic workflows into the core platform
+  - Own the architecture of core platform components as a whole-systems thinker, from
+    initial proposal through production deployment
+  - Implement and maintain responsive user interfaces using React and TypeScript to
+    bridge backend services and frontend enablement
+  - Communicate changes, plans, and proposals to cross-functional teams including
+    product managers, data scientists, and DevOps engineers
+  - Partner with DevOps teams to build continuous deployment, logging, and monitoring
+    systems across distributed workloads
   use_cases:
-  - Enterprise generative AI agents grounded in company data
-  - Agentic workflows for complex corporate environments
-  - Enterprise-wide AI transformation across industries like consumer packaged goods
-  - Secure and scalable deployment of LLM-powered applications for large enterprises
+  - Enterprise-wide deployment of generative AI agents grounded in company data
+  - Secure adoption of AI in complex corporate environments with IAM, SSO, and RBAC
+  - AI-driven business transformation with reported revenue increases and cost reductions
+    in industries like consumer packaged goods
+  - Integration of advanced AI models and agentic workflows into an enterprise platform
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, IAM]
     languages: [Python, TypeScript, asyncio]
     ml: []
-    cloud: [AWS, GCP, Azure]
-    genai: [LLMs, Agentic frameworks, Anthropic API, GitHub Copilot]
-    data: []
-    other: [IAM, SSO, SAML, OAuth, OIDC, RBAC, Cursor]
-    ops: [Docker, Kubernetes, CI/CD]
-    web: [React, FastAPI, REST APIs, Microservices]
+    other: [SSO, SAML, OIDC, RBAC, Cursor, GitHub Copilot]
+    ops: [Docker, Kubernetes, Continuous Deployment, Monitoring]
     databases: [Pinecone, Weaviate, pgvector, PostgreSQL]
+    domains: []
+    web: [FastAPI, Microservices, REST APIs, React, OAuth]
+    data: []
+    genai: [Generative AI, LLMs, Agentic Workflows, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9603467'
   location: London, GBR
-  extracted_at: '2026-06-25T19:43:57.109036'
+  extracted_at: '2026-08-16T13:11:52.261750'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

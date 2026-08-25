@@ -1,63 +1,64 @@
 company:
   name: Natera
-  stage: Public
-  focus: Genetic testing and diagnostics using cell-free DNA
+  stage: null
+  focus: Cell-free DNA genetic testing and diagnostics
 position:
   title: Principal AI/ML Platform Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role focuses on building platforms and infrastructure
-      that enable AI/ML work for others, rather than directly
-      building, training, or deploying models. While the role
-      involves GenAI and LLM technologies, the primary
-      responsibility is creating the tooling, frameworks, and
-      services that data scientists and engineers use to build and
-      deploy AI solutions. The emphasis is on platform
-      architecture, governance, compliance, and infrastructure -
-      classic AI platform engineering that supports AI development
-      rather than hands-on model work.
+      The role designs RAG frameworks, prompt orchestration,
+      guardrails, agent frameworks, and LLM evaluation pipelines,
+      and prototypes foundation model fine-tuning — directly
+      shaping model behavior and output quality. LLM/GenAI
+      components are central to the platform, so it classifies as
+      ai-first.
   responsibilities:
-  - Define technical vision and architecture for Natera's ML and GenAI platforms ensuring
-    scalability, reliability, and compliance
-  - Build, operate, and evolve core AI platform components including data access,
-    LLM model registries, evaluation pipelines, vector databases, RAG frameworks,
-    and agent frameworks
-  - Design, build, and operate end-to-end ML/DL/FM infrastructure covering feature
-    engineering, distributed training, evaluation, deployment, and monitoring
-  - Implement production-grade GenAI and ML services and APIs powering critical workflows
-    from genomics analytics to clinical trial optimization
-  - Lead deployment and scaling of large models using modern MLOps practices including
-    Kubernetes, MLflow, and AWS-native services
-  - Embed governance and monitoring guardrails into AI/ML pipelines including bias
-    testing, safety, security, hallucination detection, and audit trails
-  - Set coding standards, review designs, and ensure best practices in reproducibility,
-    monitoring, and observability as principal technical authority
-  - Evaluate and integrate emerging AI/ML technologies including foundation models,
-    multimodal AI, biomedical reasoning agents, and federated learning
+  - Define the technical vision and architecture for Natera's ML and GenAI platforms,
+    ensuring scalability, reliability, and compliance across diverse use cases
+  - Build and operate core AI platform components including LLM model registries,
+    evaluation pipelines, vector databases, RAG frameworks, agent frameworks, and
+    prompt orchestration with guardrails
+  - Design, build, and operate end-to-end ML/DL/foundation model infrastructure spanning
+    feature engineering, distributed training, evaluation, deployment, and monitoring
+  - Implement production-grade GenAI and ML services and APIs powering workflows from
+    genomics analytics to clinical trial optimization to patient-facing solutions
+  - Deploy and scale large models (custom-trained LLMs, multimodal, deep learning)
+    using modern MLOps practices and optimize inference latency, throughput, and cost
+  - Embed governance and monitoring guardrails into AI pipelines (bias testing, hallucination
+    detection, PHI/PII redaction, audit trails) and partner with governance to ensure
+    HIPAA, CLIA, CAP, FDA, and GxP compliance
+  - Act as principal technical authority, set coding standards, review designs, and
+    mentor engineers and data scientists
+  - Evaluate emerging AI/ML technologies, lead build-vs-buy assessments, and prototype
+    and productionize new approaches such as foundation model fine-tuning and GenAI
+    copilots
   use_cases:
-  - Genomics analytics and clinical trial optimization for diagnostics
-  - Patient-facing solutions and provider engagement workflows
-  - R&D, Lab Ops, Clinical Trials, and Billing workflow automation
-  - Unstructured data extraction, classification, summarization, and generation from
+  - Genomics analytics and genetic testing workflows
+  - Clinical trial optimization
+  - Patient-facing AI/ML products and patient/provider engagement
+  - Internal workflows across R&D, Lab Ops, Clinical Trials, and Billing
+  - Unstructured data extraction, classification, summarization, and retrieval from
     knowledge bases
-  - Domain-specific copilots for lab workflows and clinical operations
-  - Personalized genetic testing and earlier targeted interventions
+  - Domain-specific copilots for lab workflows
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow]
     cloud: [AWS]
-    genai: [LangChain, LlamaIndex, CrewAI, RAG, Agentic Workflows, prompt orchestration,
-      Fine-Tuning, LLMOps]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Deep Learning, Feature Engineering, Federated Learning]
+    other: [Responsible AI]
+    ops: [Kubernetes, MLflow, MLOps, LLMOps, CI/CD, Model Deployment, Model Monitoring,
+      Observability, Distributed Systems]
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [APIs]
     data: [Spark]
-    other: []
-    ops: [MLflow, Kubernetes]
-    web: []
-    databases: [Vector Databases]
+    genai: [LangChain, LlamaIndex, CrewAI, RAG, Prompt Engineering, Guardrails, Agentic
+        Workflows, LLMs, Generative AI, Fine-Tuning, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7789635'
   location: USA
-  extracted_at: '2026-02-05T11:31:24.697841'
+  extracted_at: '2026-08-15T22:08:25.457323'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

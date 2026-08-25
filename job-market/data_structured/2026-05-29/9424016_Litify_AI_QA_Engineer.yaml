@@ -1,58 +1,61 @@
 company:
   name: Litify
-  stage: Series B
-  focus: |-
-    Legal technology platform and operating solution for law
-    firms
+  stage: Backed by Bessemer Venture Partners
+  focus: All-in-one legal operations platform for law firms
 position:
   title: AI QA Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a QA Engineer role that uses AI tools (Claude,
-      GitHub Copilot) to assist with testing workflows and review
-      AI-generated test outputs. However, the engineer is not
-      building, training, fine-tuning, or deploying AI/ML models
-      themselves - they are using AI as a productivity tool while
-      performing quality assurance work on legal software built on
-      Salesforce.
+      This is a QA engineer role where AI is a tool, not the
+      object being shaped. The person reviews AI-generated test
+      outputs as QA validation/oversight, uses Claude and GitHub
+      Copilot as workflow assistants to generate test cases and
+      scripts, and writes traditional Playwright automation. They
+      do not build evals, guardrails, prompts, retrieval systems,
+      or train models, and their judgments are not fed back as
+      preference/reward signals — so per the QA oversight and AI-
+      coding-assistant rules, this is ai-support.
   responsibilities:
-  - Review and validate AI-generated test results, critically assessing outputs for
-    accuracy, completeness, and false positives/negatives
-  - Perform manual test execution and targeted exploratory edge-case testing on complex
-    workflows and integration points
-  - Own QA strategy and execution for your squad including test planning, risk assessment,
+  - Review and validate AI-generated test results for accuracy, completeness, and
+    false positives/negatives, applying domain judgment to determine pass/fail outcomes
+  - Perform manual, exploratory, and edge-case testing on complex workflows, boundary
+    conditions, and integration points where AI coverage is insufficient
+  - Own QA strategy and execution for the squad, including test planning, risk assessment,
     and release readiness decisions
-  - Write and maintain automated tests in Playwright following Page Object Model design
-    patterns to expand coverage
+  - Write and maintain Playwright automation following Page Object Model design patterns,
+    expanding coverage toward 80% by end of year
   - Leverage AI development tools (Claude, GitHub Copilot) to generate test cases,
     write automation scripts, and debug failures
-  - Report defects, track bugs, and provide actionable suggestions for product enhancements
-  - Collaborate with development, product management, delivery teams, and Customer
-    Support throughout the SDLC
+  - Report defects, track bugs, and provide clear, actionable suggestions for product
+    enhancements
+  - Collaborate with development, product management, delivery, and Customer Support
+    teams across the SDLC to triage complex application issues
   use_cases:
-  - Legal software quality assurance for Salesforce-based enterprise applications
-  - AI-augmented testing workflow where AI agents perform initial test passes and
-    human engineers validate results
-  - Automated regression testing using Playwright to achieve 80% coverage target
-  - Exploratory testing for edge cases and complex workflows in legal technology platform
-  - Test management and risk assessment for agile squad release decisions
+  - AI agents performing initial automated test passes on a Salesforce-based legal
+    software product
+  - Human QA review and validation of AI-generated test results for pass/fail determination
+  - AI-assisted test case generation, automation script writing, and failure debugging
+  - Quality assurance for an all-in-one legal operations platform used by law firms
+    and legal departments
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: [Salesforce]
-    genai: [Anthropic API, GitHub Copilot]
-    data: []
-    other: [Quality Assurance, Test Automation, Manual Testing, Exploratory Testing,
-      Test Planning, Risk Assessment]
-    ops: [Jira, Xray, CI/CD, Agile/Scrum]
-    web: [Playwright, Selenium, Cypress, WebdriverIO, Page Object Model]
+    other: [Page Object Model, Jira, Xray, Salesforce, Agile, Manual Testing, Automated
+        Testing]
+    ops: [CI/CD]
     databases: []
+    domains: []
+    web: [Playwright, Cypress, Selenium, WebdriverIO]
+    data: []
+    genai: [Anthropic API, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9424016'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:05:59.585284'
+  extracted_at: '2026-08-16T11:14:13.098252'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

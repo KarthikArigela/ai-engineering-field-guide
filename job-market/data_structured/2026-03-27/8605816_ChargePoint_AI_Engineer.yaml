@@ -1,49 +1,53 @@
 company:
   name: ChargePoint
-  stage: Public
-  focus: EV charging network and electric mobility infrastructure
+  stage: 'Publicly traded (NYSE: CHPT)'
+  focus: |-
+    EV charging network with hardware, software, and mobile
+    solutions
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building and deploying LLM-powered
-      applications including Copilot-style experiences, AI agents,
-      and RAG systems at enterprise scale. The position requires
-      hands-on work with generative AI systems, not just
-      supporting infrastructure for AI work.
+      The role requires hands-on work with LLMs and Generative AI
+      systems, including RAG, embeddings, vector search, and
+      prompt engineering, plus building Copilot-style and agent-
+      based applications — direct shaping of LLM behavior. An
+      LLM/agent component is central to the position, making it
+      ai-first.
   responsibilities:
-  - Design and develop production-grade Generative AI systems
-  - Architect and deliver LLM-powered applications including Copilot-style experiences
-    and AI agents
-  - Implement RAG systems, embeddings, and vector search solutions
-  - Develop and train ML, deep learning, and NLP models
-  - Build and maintain data pipelines for AI systems
-  - Deploy and operate AI systems using Docker/Kubernetes
-  - Implement prompt engineering and model optimization
-  - Collaborate with cross-functional teams to understand requirements and deliver
-    AI solutions
+  - Design, develop, and operate production-grade Generative AI systems
+  - Architect and deliver LLM-powered applications including Copilot-style experiences,
+    AI agents, and automation at enterprise scale
+  - Assist in developing and training ML, deep learning, and NLP models
+  - Support building and maintaining data pipelines, including preprocessing, feature
+    engineering, and data validation
+  - Test, evaluate, and optimize model performance
+  - Deploy models into staging or production environments under guidance
+  - Write clean, well-documented Python code for AI experiments and prototypes
+  - Collaborate with cross-functional teams and influence GenAI architecture and standards
+    across teams
   use_cases:
-  - Copilot-style experiences for enterprise users
-  - AI agents for automation at enterprise scale
-  - EV charging network optimization
-  - Enterprise automation and workflow enhancement
-  - Information security AI applications
+  - Copilot-style conversational AI experiences
+  - AI agents and enterprise automation
+  - Enterprise-scale LLM-powered applications
+  - Training and evaluation of ML, deep learning, and NLP models
   skills:
-    domains: []
-    languages: [Python, Java, Go, TypeScript]
-    ml: [Deep Learning, NLP, ML models]
     cloud: [Azure, AWS, GCP]
-    genai: [LLMs, RAG, Embeddings, vector search, Prompt Engineering, AI Agents, Copilot-style
-        systems]
-    data: []
-    other: []
-    ops: [Distributed Systems, Docker, Kubernetes, LLMOps, MLOps]
+    languages: [Python, Java, Go, TypeScript]
+    ml: [Machine Learning, Deep Learning, NLP, Feature Engineering]
+    other: [Responsible AI]
+    ops: [Docker, Kubernetes, LLMOps, MLOps, Distributed Systems]
+    databases: [Vector Search, Vector Databases]
+    domains: []
     web: [APIs, Microservices]
-    databases: [Vector Databases]
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, RAG, Embeddings, Prompt Engineering, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8605816'
   location: Sardarpur, IND
-  extracted_at: '2026-03-27T14:47:39.282939'
+  extracted_at: '2026-08-16T03:16:43.865759'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

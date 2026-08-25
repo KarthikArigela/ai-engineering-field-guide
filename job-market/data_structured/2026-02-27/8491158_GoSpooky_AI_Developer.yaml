@@ -1,50 +1,55 @@
 company:
   name: GoSpooky
   stage: null
-  focus: Global social media agency for brands
+  focus: |-
+    Global social media agency for content, community, and
+    commerce
 position:
   title: AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on building, deploying, and
-      orchestrating complex AI workflows including advanced RAG
-      systems and multi-agent frameworks. The role involves hands-
-      on work with GenAI frameworks (LangChain, LlamaIndex), model
-      serving on Vertex AI, fine-tuning models, and implementing
-      AI agents - all direct work ON AI systems rather than just
-      supporting infrastructure.
+      The role directly shapes LLM/agent behaviour: it develops
+      advanced RAG pipelines and multi-agent systems, orchestrates
+      fine-tuning, serving, and monitoring on Vertex AI, and works
+      with AI evaluation frameworks (GenAI Evals, DSPy, RAGAs).
+      Step 2: LLM and agent components are central, so the role is
+      ai-first.
   responsibilities:
   - Develop and deploy complex AI workflows (advanced RAG, multi-agent systems) integrated
     with core productivity tools
-  - Build robust APIs and backends for RAG Pipelines and AI agents
+  - Build robust APIs and backends powering RAG pipelines and AI agents
   - Design and maintain scalable data pipelines for ETL, ingestion, and data preparation
     to ground models in high-quality data
-  - Manage the testing deployment lifecycle, automating and versioning updates. Orchestrate
-    models on Vertex AI (fine-tuning, serving, monitoring)
-  - Implement AIOps and Agent Observability (tracing, logging, monitoring), while
-    enforcing security for model inputs, outputs, and infrastructure
+  - Manage the testing and deployment lifecycle, automating and versioning updates
+  - Orchestrate models on Vertex AI (fine-tuning, serving, monitoring)
+  - Implement AIOps and agent observability (tracing, logging, monitoring)
+  - Enforce security for model inputs, outputs, and infrastructure
   use_cases:
-  - Advanced RAG systems for information retrieval
-  - Multi-agent systems for automated workflows
-  - AI agents integrated with productivity tools
-  - Model fine-tuning and serving on Vertex AI
-  - Data pipelines for grounding models in high-quality data
+  - Advanced RAG workflows grounded in high-quality company data
+  - Multi-agent AI systems integrated with core productivity tools
+  - End-to-end AI infrastructure powering next-generation AI tools for social media
+    teams
+  - Agent observability, tracing, and security monitoring for AI systems in production
   skills:
+    cloud: [GCP, Vertex AI, IAM]
+    languages: [Python, TypeScript, SQL]
+    ml: [Machine Learning, Neural Networks]
+    other: [Pydantic, API Security, Secrets Management, n8n, Video Generation Models,
+      GDPR, Responsible AI]
+    ops: [Git, Docker, Kubernetes, CI/CD, DevOps, LLMOps, AIOps, Observability]
+    databases: [BigQuery, Vector Databases, Weaviate, Milvus, Qdrant, Neo4j]
     domains: []
-    languages: [Python, TypeScript, Pydantic]
-    ml: [Fine-Tuning]
-    cloud: [GCP, Vertex AI]
-    genai: [LangChain, LlamaIndex, Haystack, RAG, Multi-Agent Systems, LangGraph,
-      Google ADK, Vertex AI Agent Builder, MCP, DSPy, RAGAs]
-    data: [Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, Git, AIOps, LLMOps]
-    web: [FastAPI]
-    databases: [BigQuery, SQL, Weaviate, Milvus, Qdrant, Neo4j]
+    web: [FastAPI, APIs]
+    data: [Data Pipelines, Data Engineering, Data Warehousing, Data Governance]
+    genai: [RAG, Multi-Agent Systems, AI Agents, LangChain, LlamaIndex, Haystack,
+      LangGraph, Google ADK, Vertex AI Agent Builder, Microsoft Agent Framework, MCP,
+      A2A, Fine-Tuning, DSPy, RAGAS, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8491158'
   location: Amsterdam, NLD
-  extracted_at: '2026-02-27T12:39:55.537201'
+  extracted_at: '2026-08-16T01:45:16.390357'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

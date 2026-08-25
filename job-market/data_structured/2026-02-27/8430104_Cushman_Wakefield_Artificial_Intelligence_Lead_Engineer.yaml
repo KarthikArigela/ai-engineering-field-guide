@@ -1,62 +1,65 @@
 company:
   name: Cushman & Wakefield
-  stage: Public
-  focus: Global commercial real estate services
+  stage: null
+  focus: Global commercial real estate services and occupier advisory
 position:
   title: Artificial Intelligence Lead (Engineer)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role requiring hands-on engineering of
-      LLMs, multimodal models, graph neural networks, and agent-
-      based systems. The candidate directly builds, deploys, and
-      fine-tunes AI models and implements RAG pipelines, vector
-      search, and LLMOps practices rather than just supporting
-      infrastructure or data pipelines for others.
+      This role directly shapes model behavior: it implements
+      CI/CD and automated testing for prompts, builds copilots and
+      agents with LangChain/Semantic Kernel/LlamaIndex, designs
+      vector search and retrieval pipelines, and integrates LLMs
+      (Azure OpenAI, Anthropic, Llama, Mistral) into production
+      systems. Although it also covers classical ML (graph neural
+      networks, reinforcement learning), a role shaping both LLM
+      and classical ML systems is ai-first.
   responsibilities:
-  - Define and evolve AI strategy shaping how LLMs, multimodal models, predictive
-    analytics, and agent-based automation drive value across workplace, portfolio,
-    transactions, sustainability, and FM operations
-  - Design, engineer, and deploy AI/ML systems using Python, TypeScript, Go, Rust
-    with frameworks including TensorFlow, PyTorch, LangChain, Semantic Kernel, and
-    LlamaIndex
-  - Develop reference architectures for AI microservices, model serving infrastructure,
-    vector search and retrieval pipelines, and real-time event-driven AI applications
+  - Define and evolve the AI strategy for GOS Tech, shaping how LLMs, multimodal models,
+    predictive analytics, and agent-based automation drive value across occupier services
+  - Evaluate and implement cutting-edge AI technologies and develop reference architectures
+    for AI microservices, model serving infrastructure, vector search and retrieval
+    pipelines, and real-time event-driven AI applications
+  - Design, engineer, and deploy production AI/ML systems using Python, TypeScript,
+    TensorFlow, PyTorch, LangChain, Semantic Kernel, LlamaIndex, and Azure ML/Databricks
+  - Build pipelines for ingestion, transformation, and ML feature extraction from
+    real estate datasets including leases, occupancy, transactions, IoT telemetry,
+    and finance
   - Implement MLOps and LLMOps practices including CI/CD for models and prompts, drift
-    detection, model monitoring, evaluation, and human feedback loops
-  - Build robust pipelines for ingestion, transformation, and ML feature extraction
-    from real estate datasets including leases, occupancy, transactions, IoT telemetry,
-    and operational workflows
-  - Develop intelligent features for transaction modeling, lease abstraction and document
-    automation, workplace experience analytics, space demand forecasting, facility
-    optimization, and portfolio scenario modeling
-  - Build advanced copilots, agents, and workflow automation for internal teams and
-    client-facing experiences
-  - Establish governance for AI/ML assets including model lineage, data quality controls,
-    automated testing, fairness, bias detection, and interpretability
+    detection, model monitoring and evaluation, and human feedback loops
+  - Establish AI governance covering model lineage, data quality controls, automated
+    testing for prompts and models, and fairness, bias detection, and interpretability
+  - Develop real estate AI features such as transaction modeling, lease abstraction,
+    space demand forecasting, and portfolio scenario modeling
+  - Build copilots, agents, and workflow automation for internal teams and client-facing
+    experiences
   use_cases:
-  - Transaction modeling and lease abstraction with document automation
-  - Workplace experience analytics and space demand forecasting
+  - Lease abstraction and document automation
+  - Space demand forecasting and transaction modeling
+  - Portfolio scenario modeling and optimization
+  - Workplace experience analytics
   - Facility optimization and predictive operations
-  - Portfolio scenario modeling and corporate portfolio optimization
-  - Copilots and workflow automation for real estate consulting
-  - Intelligent decision support across occupier lifecycle from transactions to operations
+  - Copilots and agents for consultant workflows and client-facing occupier services
   skills:
+    cloud: [Azure ML, Azure Synapse]
+    languages: [Python, TypeScript, Go, Rust, Node.js, SQL]
+    ml: [Machine Learning, Deep Learning, TensorFlow, PyTorch, JAX, Keras, Graph Neural
+        Networks, Reinforcement Learning, Predictive Analytics]
+    other: [Event-Driven Architecture]
+    ops: [MLOps, LLMOps, CI/CD, Drift Detection, Model Monitoring, Model Deployment]
+    databases: [Vector Databases, Pinecone, Cosmos DB, FAISS, Weaviate, Vector Search]
     domains: []
-    languages: [Python, TypeScript, Node.js, Go, Rust, SQL]
-    ml: [PyTorch, TensorFlow, JAX, Keras, graph neural networks, Reinforcement Learning]
-    cloud: [Azure ML, Azure Synapse, Databricks, Delta Lake]
-    genai: [LangChain, Semantic Kernel, LlamaIndex, RAG, AI Agents, LLMs, Azure OpenAI,
-      Anthropic API, Llama, Mistral, multimodal models, Prompt Engineering]
-    data: [Kafka, Event Hub, PySpark]
-    other: []
-    ops: [LLMOps, Docker, Kubernetes, CI/CD, Model Monitoring, drift detection]
-    web: [Microservices, REST APIs, event-driven architectures]
-    databases: [Pinecone, CosmosDB, FAISS, Weaviate, Vector Databases]
+    web: [APIs, Microservices]
+    data: [Databricks, Delta Lake, PySpark, Kafka, Event Hubs, Data Modeling]
+    genai: [LLMs, Azure OpenAI, Anthropic API, Llama, Mistral, Multimodal Models,
+      LangChain, Semantic Kernel, LlamaIndex, AI Agents, Copilots, Generative AI]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '8430104'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T12:43:01.897256'
+  extracted_at: '2026-08-16T01:20:08.329346'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

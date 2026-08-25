@@ -1,0 +1,54 @@
+company:
+  name: Sift Stack
+  stage: ''
+  focus: |-
+    Data infrastructure platform for hardware engineering
+    telemetry
+position:
+  title: Senior Software Engineer, Frontend (Agentic AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a frontend product engineering role for agentic UI.
+      The person builds browser surfaces, streaming interactions,
+      and rendering for agents designed by others; they don't
+      write prompts, design retrieval, or tune model behaviour.
+      Curiosity about AI products is a bonus, not the deliverable.
+  responsibilities:
+  - Talk directly to customers and partner with product to turn review workflows into
+    agent capabilities
+  - Build the frontend surfaces where Sift Agents live
+  - 'Design agentic UX interaction patterns: streaming responses, long-running tasks,
+    interruptions, and agent transparency'
+  - Render agent findings alongside large real-time telemetry data and keep it fast
+  - Push browser performance limits with Web Workers, OPFS-backed caching, and escaping
+    React when needed
+  - Contribute to the component library to keep agentic UI patterns consistent
+  - Collaborate with backend and full stack engineers on API design for agent sessions
+  use_cases:
+  - AI agents that investigate anomalies in hardware telemetry
+  - Agents reviewing test and flight data for rockets, satellites, and autonomous
+    vehicles
+  - Generating dashboards and analysis scripts from telemetry
+  - Surfacing engineering insights buried in high-frequency sensor data
+  - Agentic chat interface for hardware engineers' data review workflows
+  skills:
+    genai: [AI Agents, LLMs]
+    ml: []
+    web: [React, Next.js, Redux, Tailwind CSS, Radix UI, WebAssembly, D3.js, WebGL,
+      Apache ECharts]
+    databases: [DuckDB, Timescale, QuestDB, InfluxDB, Druid]
+    data: [Parquet, Flink, Kafka, Redpanda, Apache Beam]
+    cloud: [AWS, Azure, GCP]
+    ops: [GitHub Actions, Docker, Kubernetes, Terraform]
+    languages: [TypeScript, Go, Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10402870'
+  location: Marina del Rey, USA
+  extracted_at: '2026-08-25T09:59:24.808331'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

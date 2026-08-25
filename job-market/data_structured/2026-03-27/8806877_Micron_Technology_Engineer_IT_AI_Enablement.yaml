@@ -1,58 +1,62 @@
 company:
   name: Micron Technology
-  stage: Public
-  focus: |-
-    Memory and storage solutions (DRAM, NAND, NOR) for data
-    centers and computing
+  stage: null
+  focus: Memory and storage solutions (DRAM, NAND, NOR)
 position:
   title: Engineer, IT, AI Enablement
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying AI-driven tools,
-      implementing RAG systems, designing multi-agent workflows,
-      and working directly with AI platforms like Copilot Studio
-      and Azure AI Foundry. The engineer will create and deploy AI
-      agents, manage context with MCP, and implement prompt
-      engineering - all hands-on AI system development work.
+      The role designs agent flows (multi-agent orchestration,
+      A2A), writes prompts, and builds retrieval and context-aware
+      systems (RAG with semantic chunking, MCP, memory
+      persistence, context window optimization) for LLMs —
+      directly shaping model behavior. Since LLM and agent
+      components are central to the work, this is ai-first.
   responsibilities:
   - Build and deploy AI-driven tools and workflows using platforms like Copilot Studio,
-    UiPath, and automation frameworks
-  - Connect AI agents with enterprise systems (SharePoint, M365), external APIs, and
-    knowledge bases for seamless interoperability
-  - Design and implement intelligent automation solutions to improve efficiency for
-    repetitive business tasks
-  - Partner with cross-functional teams to enable AI literacy and create best-practice
-    documentation
-  - Collaborate with cybersecurity teams to enforce data protection and ensure AI
-    solutions meet security and compliance standards
-  - Implement secure agent interactions using encryption, authentication, and authorization
-    mechanisms
-  - Integrate agents with identity platforms (OAuth2, OIDC, SAML, Entra ID) for secure
-    access control
-  - Collect feedback, iterate solutions, and contribute to continuous improvement
-    of AI initiatives
+    UiPath, and other automation frameworks
+  - Connect AI agents with enterprise systems such as SharePoint, M365, external APIs,
+    and knowledge bases to ensure interoperability
+  - Identify repetitive tasks and design intelligent automation solutions to improve
+    efficiency
+  - Design multi-agent workflows for complex tasks such as decision-making, negotiation,
+    and collaborative problem-solving
+  - Build context-aware systems using MCP with prompt engineering, memory management,
+    and context window optimization for LLMs
+  - Ensure secure agent interactions using encryption, authentication, and authorization,
+    integrating with identity platforms like OAuth2, OIDC, SAML, Entra ID, and AD
+    FS
+  - Collaborate with cybersecurity teams on governance and compliance, enforcing data
+    protection and threat modeling standards
+  - Partner with cross-functional teams to enable AI literacy, create best-practice
+    documentation, and support internal training sessions
   use_cases:
-  - Enterprise-wide AI adoption and enablement across business areas
-  - Process automation for repetitive enterprise tasks
-  - Intelligent workflow automation using AI agents
-  - Knowledge management and retrieval with RAG systems
-  - Multi-agent orchestration for complex business decision-making
+  - Enterprise-wide AI adoption and productivity enablement
+  - Intelligent automation of repetitive business processes
+  - AI agent integration with enterprise systems, APIs, and knowledge bases
+  - Context-aware assistants with memory persistence for long-horizon tasks
+  - Multi-agent collaboration for decision-making and problem-solving
+  - Secure, governed AI agent access and identity management
   skills:
-    domains: []
-    languages: [.NET, C#, Python, Java, SQL, PowerShell, Bash]
-    ml: [Machine learning pipelines]
-    cloud: [Azure AI Foundry, AWS Bedrock, Vertex AI, Entra ID]
-    genai: [Copilot Studio, RAG, Prompt Engineering, Multi-Agent Systems, MCP, Agent
-        orchestration frameworks]
-    data: []
-    other: [UiPath, SharePoint, Microsoft 365, SAML, AD FS]
+    cloud: [Azure AI Foundry, AWS Bedrock, Vertex AI]
+    languages: [Python, C#, Java, SQL, PowerShell, .NET, Bash]
+    ml: [Machine Learning]
+    other: [UiPath, SharePoint, Microsoft 365, SAML, OIDC, Entra ID, AD FS, Threat
+        Modeling]
     ops: []
-    web: [OAuth, OIDC, APIs]
     databases: []
+    domains: []
+    web: [APIs, OAuth]
+    data: [Data Quality]
+    genai: [Copilot Studio, RAG, Semantic Chunking, MCP, Prompt Engineering, LLMs,
+      Generative AI, AI Agents, Agentic Workflows, Multi-Agent Systems, A2A, Memory
+        Management, Context Window Optimization]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8806877'
   location: Hyderabad, IND
-  extracted_at: '2026-03-27T15:53:38.433231'
+  extracted_at: '2026-08-16T04:41:24.220550'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

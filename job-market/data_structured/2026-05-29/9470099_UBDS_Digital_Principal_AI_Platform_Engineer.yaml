@@ -1,18 +1,18 @@
 company:
   name: UBDS Digital
-  stage: unknown
-  focus: Cloud, data and AI solutions for public and private sectors
+  stage: null
+  focus: Cloud, data and AI solutions for public and private sector
 position:
   title: Principal AI Platform Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is an AI Platform Engineer role focused on building
-      infrastructure, platforms, and governance frameworks for AI
-      solutions. The responsibilities emphasize platform
-      standards, observability, security, orchestration, and
-      operational support rather than hands-on model training,
-      fine-tuning, or implementing LLM applications directly.
+      The role leads design and implementation of AI architectures
+      including RAG architectures and agentic AI orchestration
+      frameworks with MCP servers, which is shaping model
+      behaviour through retrieval and agent flow design. LLM
+      components (Claude/Anthropic, Azure OpenAI, Amazon Bedrock)
+      are central to the stack, so it is ai-first.
   responsibilities:
   - Lead the design and implementation of AI architectures across complex transformation
     programmes
@@ -21,32 +21,34 @@ position:
   - Define platform standards covering governance, observability, security, orchestration
     and operational support
   - Support technical discovery, bids and client architecture discussions
-  - Mentor and upskill engineers moving into AI engineering delivery
   - Build reusable engineering patterns, accelerators and reference architectures
+  - Mentor and upskill engineers moving into AI engineering delivery
+  - Support internal AI enablement and automation initiatives
   use_cases:
-  - Enterprise AI platform deployment and governance
-  - AI solution migration from experimentation to production at scale
-  - Secure AI delivery for public sector and regulated environments
+  - Secure production AI platforms for public and private sector organisations
+  - Enterprise AI capabilities integrated into cloud and data ecosystems
+  - RAG and agentic AI solutions built on AWS and Azure AI services
+  - Moving AI solutions from experimentation to large-scale secure production delivery
   - Internal AI enablement and automation initiatives
-  - Cloud-native AI platform integration with enterprise ecosystems
   skills:
-    domains: []
+    cloud: [AWS Bedrock, SageMaker, Azure AI Foundry, Azure OpenAI, Cloud-Native Engineering]
     languages: [Python]
-    ml: []
-    cloud: [AWS, AWS Bedrock, SageMaker, Azure AI Foundry, Azure OpenAI, Cloud-native
-        engineering]
-    genai: [Anthropic API, RAG, Agentic AI orchestration frameworks, MCP servers]
-    data: [Databricks]
-    other: []
-    ops: [MLOps, Model evaluation, AI governance frameworks]
-    web: []
+    ml: [Machine Learning]
+    other: [Responsible AI]
+    ops: [MLOps, Observability, Model and Data Lifecycle Management]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Databricks]
+    genai: [Anthropic API, RAG, Agentic Workflows, MCP, LLM Evaluation]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9470099'
   location: London, GBR
   locations:
   - London, GBR
   - Manchester, GBR
-  extracted_at: '2026-05-29T09:07:35.386192'
+  extracted_at: '2026-08-16T11:41:14.344252'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

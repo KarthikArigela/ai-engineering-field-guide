@@ -1,60 +1,61 @@
 company:
   name: NICE
-  stage: Public
+  stage: 'Publicly traded (NASDAQ: NICE)'
   focus: |-
-    Enterprise AI, cloud, and digital customer experience
-    solutions
+    Enterprise software for customer experience and financial
+    crime prevention
 position:
   title: Senior Software Engineer, AI, Actimize(AI Engineer)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on design and implementation of AI-
-      powered automations using generative AI, agent-based
-      frameworks, and workflow orchestration. The engineer builds
-      reusable agents, MCP-style connectors, and integrates AI
-      solutions directly into production workflows, which
-      constitutes active building and deploying of AI systems.
+      The role designs and builds AI agents, agent-based
+      frameworks, and generative AI automations, which is shaping
+      LLM/agent behavior. MCP-style connectors and reusable agent
+      components confirm an LLM/agent focus with no classical ML
+      component, so it is ai-first.
   responsibilities:
   - Design and implement AI-powered automations using generative AI, agent-based frameworks,
     and workflow orchestration technologies
-  - Build and maintain secure integrations (APIs, MCP-style connectors) across Professional
-    Services systems including CRM, project management, ticketing, and document repositories
+  - Build and maintain secure integrations (APIs, MCP-style connectors) across PS
+    systems such as CRM, project management, ticketing, and document repositories
   - Develop reusable automation components, agents, and frameworks that scale across
     PS engagements and regions
+  - Ensure solutions are production-ready, secure, compliant, and aligned to enterprise
+    AI standards
   - Identify high-impact opportunities to reduce manual effort, cycle time, and delivery
-    risk through AI automation
-  - Execute AI automation initiatives based on cost optimization, ROI targets, and
-    prioritization from leadership
-  - Define and track success metrics for automations including effort reduction, time
-    savings, and quality improvements
-  - Package successful automations into scalable PS assets, playbooks, and reusable
-    tools
-  - Partner with enterprise AI, security, and architecture teams to ensure responsible
-    and compliant AI use
+    risk through AI automation, and embed solutions into standard PS workflows
+  - Collaborate with PS leadership, AI Champions, and stakeholders to execute automation
+    initiatives aligned to ROI and cost optimization priorities
+  - Define success metrics for automations and track and report realized benefits,
+    continuously optimizing solutions
+  - Package successful automations into scalable assets, playbooks, and reusable tools,
+    and support rollout and adoption across PS teams
   use_cases:
-  - AI-driven automation of professional services delivery processes to reduce manual
-    effort and cycle time
-  - Agent-based automation for integrating enterprise systems (CRM, project management,
-    ticketing, document repositories)
-  - Workflow orchestration for embedding AI into standard professional services delivery
-    workflows
-  - Cost optimization and ROI realization through scalable AI automation across PS
-    teams and regions
+  - AI-driven automation of Actimize Professional Services delivery processes
+  - Reducing manual effort, cycle time, and cost-to-serve across professional services
+    engagements
+  - Integrating enterprise PS systems (CRM, project management, ticketing, document
+    repositories) via APIs and MCP-style connectors
+  - Measuring and realizing ROI through effort reduction, time savings, and quality
+    improvements
+  - Scaling reusable AI automation assets across PS teams and regions
   skills:
-    genai: [Generative AI, AI Agents, Agentic Workflows, MCP, Prompt Engineering]
+    cloud: []
+    languages: []
     ml: []
-    web: [APIs, REST APIs, Microservices]
-    databases: [PostgreSQL, Redis]
-    data: []
-    cloud: [AWS, Azure]
-    ops: [Docker, Kubernetes, CI/CD, Monitoring]
-    languages: [Python, SQL]
+    other: [Workflow Automation, Event-Driven Architecture, Responsible AI]
+    ops: []
+    databases: []
     domains: []
-    other: [Event-Driven Architecture, Responsible AI]
+    web: [APIs]
+    data: []
+    genai: [Generative AI, AI Agents, MCP]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10200665'
   location: Pune, IND
-  extracted_at: '2026-07-22T13:34:28.996175'
+  extracted_at: '2026-08-16T17:49:29.899345'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

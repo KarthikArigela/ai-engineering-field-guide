@@ -1,0 +1,53 @@
+company:
+  name: Holly
+  stage: seed-stage
+  focus: HR platform for local and county government hiring
+position:
+  title: Senior Software Engineer,  Data & AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs retrieval (semantic search, embeddings) and
+      LLM-assisted extraction pipelines, plus evals, tracing, and
+      fallbacks to make model behavior measurable — clear shaping
+      of LLM components, so ai-first despite heavy data-
+      engineering duties.
+  responsibilities:
+  - Own the Data Platform end-to-end from raw public government sources to clean canonical
+    datasets
+  - Build ingestion and normalization pipelines handling scanned PDFs, HTML, and spreadsheets
+    (parsing, OCR, dedupe, entity resolution)
+  - Design canonical data models and domain schemas with data quality, validation,
+    lineage, and observability
+  - Build semantic search and retrieval over large government datasets
+  - Design inference APIs for extraction, classification, and matching
+  - Build evals, tracing, and fallbacks so model behavior is measurable and dependable
+  - Evolve pipelines toward automated, self-healing, monitored systems
+  use_cases:
+  - Turning scattered government public records into clean searchable trustworthy
+    datasets
+  - Extraction and normalization of salary schedules, job classifications, MOUs, and
+    budgets
+  - Semantic search over large changing government datasets
+  - AI-powered extraction, classification, and matching services for product engineers
+  - Government HR modernization for hiring and workforce management
+  skills:
+    cloud: []
+    languages: [SQL, TypeScript]
+    ml: [Model Evaluation]
+    other: [OCR, Web Scraping]
+    ops: [Monitoring]
+    databases: [PostgreSQL, Semantic Search, Vector Search, ClickHouse, BigQuery,
+      Snowflake]
+    domains: []
+    web: []
+    data: [Data Pipelines, Data Modeling]
+    genai: [Embeddings]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10798380'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:55:17.947821'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

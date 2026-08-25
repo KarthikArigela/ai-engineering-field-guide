@@ -1,0 +1,51 @@
+company:
+  name: WeblineIndia
+  stage: null
+  focus: Software services and IT outsourcing company
+position:
+  title: Agentic AI Developer (n8n & Workflow Automation)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent flows, multi-agent orchestration,
+      prompt engineering (CoT/ReAct), and RAG with vector
+      databases in n8n — directly shaping LLM agent behavior, so
+      it is ai-first.
+  responsibilities:
+  - Architect end-to-end autonomous agentic workflows in n8n using the AI Agent node,
+    sub-workflows, and MCP
+  - Develop custom tools via HTTP requests and JavaScript/Python nodes for agents
+    to interact with CRM, databases, and SaaS platforms
+  - Build multi-agent orchestration systems where specialized agents collaborate on
+    high-level objectives
+  - Design and refine system prompts using Chain-of-Thought and ReAct techniques
+  - Implement human-in-the-loop approval nodes for critical AI decisions
+  - Integrate vector databases (Pinecone, Qdrant) within n8n for RAG and long-term
+    agent memory
+  - Monitor and debug agent behavior, hallucinations, rate limits, and workflow failures
+  use_cases:
+  - Autonomous AI agents and multi-agent systems for business process automation
+  - Agent-driven integration with CRM, databases, and third-party SaaS platforms
+  - Autonomous lead research and self-correcting customer support bots
+  - Retrieval-augmented agent memory using proprietary knowledge bases
+  skills:
+    genai: [AI Agents, Multi-Agent Systems, Agentic Workflows, MCP, Prompt Engineering,
+      RAG, Function Calling, OpenAI API, Anthropic API, Gemini, Ollama, Llama, LangChain,
+      CrewAI, LLMs]
+    ml: []
+    web: [REST APIs, Webhooks, OAuth, JSON]
+    databases: [Pinecone, Qdrant, Vector Databases, SQL, NoSQL]
+    data: []
+    cloud: []
+    ops: [Docker]
+    languages: [JavaScript, Python]
+    domains: []
+    other: [n8n]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10809952'
+  location: Ahmedabad, IND
+  extracted_at: '2026-08-25T12:00:12.013055'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

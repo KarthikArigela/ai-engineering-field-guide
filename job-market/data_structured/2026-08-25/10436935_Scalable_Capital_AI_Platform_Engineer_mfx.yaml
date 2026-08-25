@@ -1,0 +1,51 @@
+company:
+  name: Scalable Capital
+  stage: null
+  focus: |-
+    Digital investment and banking platform for European retail
+    investors
+position:
+  title: AI Platform Engineer (m/f/x)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains the AI provisioning platform,
+      LLM gateway access, observability, and cost/governance
+      controls. It serves and governs models that AI Software
+      Engineers build; it does not shape model behavior via
+      prompts, retrieval, or training. Per the edge-case rule,
+      serving and scaling models others shape is ai-support.
+  responsibilities:
+  - Develop and maintain an internal AI provisioning platform streamlining access
+    to LLMs and MCP Servers (e.g., via LiteLLM)
+  - Implement LLM observability, logging, and alerting using Datadog and Langfuse
+  - Enforce model governance covering security, data privacy, rate limiting, and LLM
+    API cost management
+  - Collaborate with embedded AI Software Engineers to support cloud-native architectures
+    and agentic workflow integrations
+  - Build and maintain infrastructure monitoring reliability and performance of production
+    AI systems
+  use_cases:
+  - Internal AI provisioning platform for streamlined LLM access
+  - Observability and monitoring of production agentic and LLM-driven workflows
+  - Cost, security, and governance controls over LLM API usage in a fintech environment
+  skills:
+    genai: [LLMs, MCP]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [LLMOps, LiteLLM, Langfuse, Datadog, Terraform, Infrastructure as Code, CI/CD,
+      Docker, DevOps, Monitoring]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10436935'
+  location: Berlin, DEU
+  extracted_at: '2026-08-25T10:07:59.539928'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

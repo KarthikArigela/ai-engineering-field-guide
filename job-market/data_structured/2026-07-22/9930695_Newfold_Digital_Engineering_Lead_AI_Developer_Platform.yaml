@@ -1,58 +1,62 @@
 company:
   name: Newfold Digital
-  stage: Public
-  focus: Web hosting and small business online platform
+  stage: null
+  focus: |-
+    All-in-one web hosting and online platform for small
+    businesses
 position:
   title: Engineering Lead – AI & Developer Platform
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      While the job involves integrating LLM capabilities (RAG,
-      prompt engineering, agentic workflows), the description
-      explicitly states "This is primarily an SDE role focused on
-      adding AI capabilities to our existing systems - you won't
-      be doing foundational ML work." The core focus is on
-      building developer platforms, engineering infrastructure,
-      and scalable systems with AI as an added layer, not
-      building/training/fine-tuning models themselves.
+      The role explicitly integrates LLM capabilities hands-on:
+      prompt engineering, embeddings, RAG pipelines, and agentic
+      workflows with LangChain/LangGraph/MCP, meaning the person
+      shapes LLM behavior through prompts, retrieval design, and
+      agent flows. The description states it is primarily an SDE
+      role adding AI capabilities to existing systems, but the
+      LLM/agent design work itself makes it ai-first rather than
+      ai-support.
   responsibilities:
-  - Lead architecture and implementation of companywide AI initiatives across multiple
+  - Lead architecture and implementation of company-wide AI initiatives across multiple
     brands and product ecosystems
-  - Build scalable developer platform capabilities and improve engineering productivity
-    through tooling, workflows, and automation
-  - Drive AI integrations across customer flows, internal tools, automation, and support
-    systems
-  - Define long-term technical direction for platform modernization and establish
-    engineering standards and reusable frameworks
-  - Evaluate and introduce modern AI tooling including LLM integrations, RAG systems,
-    copilots, and agentic workflows
+  - Build scalable developer platform capabilities for engineering teams and define
+    long-term technical direction for platform modernization
+  - Drive AI integrations including LLM integrations, RAG systems, copilots, and agentic
+    workflows across customer flows, internal tools, automation, and support systems
+  - Improve engineering productivity through tooling, workflows, CI/CD, observability,
+    and automation
   - Partner with Infra, SRE, Security, and Product teams for platform reliability
     and scalability
-  - Mentor engineers and influence cross-functional technical decisions
-  - Drive operational excellence around logging, monitoring, telemetry, debugging,
-    and platform reliability
+  - Establish engineering standards, reusable frameworks, and best practices while
+    mentoring engineers
+  - Own applications end-to-end including pipelines, deployment, logging, and telemetry
   use_cases:
-  - AI-powered customer support flows and automation
-  - Internal developer platform modernization with AI-assisted tooling
-  - RAG-based knowledge retrieval for customer-facing and internal systems
-  - Agentic workflows for automation across multi-brand ecosystems
-  - Copilot and AI-assisted developer productivity tools
+  - AI-powered features embedded in customer-facing flows, internal tools, automation,
+    and support systems
+  - Copilots and agentic workflows for internal automation and developer productivity
+  - RAG pipelines and LLM integrations across multi-brand product ecosystems
+  - Internal developer platform capabilities and engineering productivity tooling
+  - Platform observability, logging, and monitoring for reliability and scalability
   skills:
-    genai: [LLMs, Prompt Engineering, Embeddings, RAG, Agentic Workflows, LangChain,
-      LangGraph, MCP, AI Agents, GitHub Copilot, Cursor, Claude Code]
+    cloud: [AWS, GCP, OCI]
+    languages: [Java, Node.js]
     ml: []
-    web: [Spring Boot, Microservices, OAuth, REST APIs]
-    databases: [Redis, ClickHouse, PostgreSQL]
-    data: [Kafka, Data Pipelines]
-    cloud: [AWS, GCP, IAM]
-    ops: [Kubernetes, Docker, Grafana, Datadog, Prometheus, Jenkins, Helm, Terraform,
-      OpenTelemetry, CI/CD, Monitoring, Observability, Linux]
-    languages: [Java, Node.js, JavaScript, Python, SQL, Bash]
+    other: [Networking, SSO, Event-Driven Architecture, Responsible AI]
+    ops: [Docker, Kubernetes, Jenkins, Helm, Terraform, OpenTelemetry, Loki, Prometheus,
+      Grafana, Datadog, CI/CD, Maven, Tomcat, Linux, Observability, Monitoring, Distributed
+        Systems]
+    databases: [Redis, ClickHouse]
     domains: []
-    other: [Event-Driven Architecture, Distributed Systems, System Design]
-  is_customer_facing: true
-  is_management: true
+    web: [Spring Boot, Microservices, OAuth, JWT]
+    data: [Kafka]
+    genai: [Prompt Engineering, Embeddings, RAG, LLMs, Agentic Workflows, LangChain,
+      LangGraph, MCP, Spring AI, GitHub Copilot, Cursor, Claude Code]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '9930695'
   location: Mumbai, IND
-  extracted_at: '2026-07-22T13:43:52.913921'
+  extracted_at: '2026-08-16T19:16:43.453739'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

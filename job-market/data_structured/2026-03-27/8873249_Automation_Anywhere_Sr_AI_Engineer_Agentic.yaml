@@ -1,49 +1,53 @@
 company:
   name: Automation Anywhere
-  stage: Late-stage/Private
-  focus: |-
-    AI-powered automation platform for enterprises with agentic
-    process automation
+  stage: null
+  focus: Enterprise agentic process automation and RPA software
 position:
   title: Sr. AI Engineer ( Agentic)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building and deploying AI
-      agents, agentic automations, and GenAI solutions. The
-      position requires hands-on experience with AI Agents, MCP
-      (Model Context Protocol), A2A (Agent-to-Agent), and
-      integration of generative AI with automation systems, which
-      constitutes working directly ON AI systems rather than just
-      supporting them.
+      The role centers on building and delivering agentic GenAI
+      automations using AI Agents, MCP, A2A, and API tasks —
+      designing agent flows and tool calling is shaping model
+      behavior, so it is ai-first. L3 support, Control Room
+      administration, and deployment duties are secondary, and the
+      IQ Bot document automation (classical ML) element is
+      dominated by the agentic LLM work.
   responsibilities:
-  - Build and deploy agentic automation solutions using AI Agents, MCP, A2A, MVP,
-    and API Tasks
-  - Develop and integrate APIs and connectors for automation solutions
-  - Build learning instances using IQ Bot or Document Automation for real automation
+  - Deliver and support automation and GenAI solutions using agentic automations,
+    AI Agents, MCP, A2A, and API tasks
+  - Build and integrate APIs, connectors, and third-party systems to expand automation
+    capabilities
+  - Build IQ Bot / Document Automation learning instances and apply them in real automation
     projects
-  - Deploy automation solutions on cloud infrastructure (AWS VMs)
-  - Provide L3 support and troubleshoot critical production issues
-  - Collaborate with cross-functional teams to deliver GenAI and automation solutions
+  - Perform Control Room administration, deployment, and support tasks
+  - Deploy automation solutions on virtual machines in AWS cloud environments
+  - Provide L3 support and resolve critical production issues
+  - Collaborate with cross-functional teams, stakeholders, and internal customers
+    within Agile/Scrum teams
   use_cases:
   - Agentic process automation for enterprise workflows
-  - Document processing and intelligent data extraction
-  - End-to-end orchestration of automated business processes
-  - Integration of generative AI with RPA systems
+  - Document processing automation with learning instances
+  - API-driven automation integrating third-party systems
+  - GenAI integration into enterprise automation solutions
+  - Deployment and L3 support of production automation systems
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [IQ Bot, Document Automation]
-    cloud: [AWS]
-    genai: [AI Agents, MCP, A2A (Agent-to-Agent), Generative AI, Agentic Automations]
-    data: []
-    other: [RPA, Agile]
-    ops: [Virtual Machines]
-    web: [APIs, REST APIs]
+    cloud: [AWS, Virtual Machines]
+    languages: []
+    ml: []
+    other: [IQ Bot, Document Automation, Control Room Administration, RPA, Agile]
+    ops: []
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: [APIs, Connectors]
+    data: []
+    genai: [Agentic Automations, AI Agents, MCP, A2A, Generative AI]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8873249'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T13:16:30.543465'
+  extracted_at: '2026-08-16T05:26:08.910016'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

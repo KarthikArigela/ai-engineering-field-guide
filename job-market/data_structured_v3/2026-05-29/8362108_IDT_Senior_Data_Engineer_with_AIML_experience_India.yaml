@@ -1,0 +1,68 @@
+company:
+  name: IDT
+  stage: Publicly traded, listed on NYSE
+  focus: |-
+    Prepaid communications and payment services; international
+    voice carrier
+position:
+  title: Senior Data Engineer (with AI/ML experience) India
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it defines prompt
+      engineering processes, orchestration flows, and fine-tuning
+      routines for conversational interfaces, and it oversees
+      vector data stores and indexing methodologies for RAG
+      workflows. These are model-shaping activities on LLM
+      components, so it is ai-first despite the data engineer
+      title.
+  responsibilities:
+  - Design, develop, and maintain scalable data pipelines feeding centralized feature
+    stores, model-training workflows, and real-time inference services
+  - Design, optimize, and maintain ETL/ELT pipelines and data structures within the
+    cloud data warehouse (Snowflake/Redshift) to support core Business Intelligence
+  - Build and optimize workflows for extracting, storing, and retrieving semantic
+    representations of unstructured data to enable advanced search and retrieval patterns
+  - Architect and implement lightweight analytics and dashboarding solutions delivering
+    natural language query experience and AI-backed insights
+  - Define and execute processes for prompt engineering techniques, orchestration
+    flows, and model fine-tuning routines powering conversational interfaces
+  - Oversee vector data stores and develop efficient indexing methodologies to support
+    retrieval-augmented generation (RAG) workflows
+  - Partner with data stakeholders to gather requirements for language-model initiatives
+    and translate them into scalable solutions
+  - Create and maintain documentation for data processes, workflows, and model deployment
+    routines
+  use_cases:
+  - Business Intelligence and cloud data warehousing for prepaid communications and
+    payment services
+  - LLM-driven conversational interfaces with natural language query over analytics
+    data
+  - Semantic search and retrieval over unstructured data using vector stores and RAG
+  - Data pipelines feeding feature stores and real-time model inference services
+  - AI-backed dashboards and insights for data-driven decision-making
+  skills:
+    genai: [LLMs, RAG, Prompt Engineering, Fine-Tuning, LangChain, LlamaIndex, Llama]
+    ml: [Machine Learning, Model Training, Hugging Face]
+    web: [APIs, JSON]
+    databases: [Snowflake, Redshift, Vector Databases, DataStax AstraDB, Relational
+        Databases]
+    data: [Spark, Hadoop, Kafka, ETL, Data Pipelines, Data Warehousing]
+    cloud: [AWS, Azure ML]
+    ops: [MLOps, LLMOps, CI/CD, Version Control, Linux, Model Deployment, Feature
+        Stores]
+    languages: [Python, SQL, PL/SQL]
+    domains: []
+    other: [Business Intelligence, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8362108'
+  location: Pune, IND
+  locations:
+  - Pune, IND
+  - Bengaluru, IND
+  remote: true
+  extracted_at: '2026-08-16T08:36:17.612324'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

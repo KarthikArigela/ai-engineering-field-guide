@@ -1,0 +1,58 @@
+company:
+  name: InMobi
+  stage: null
+  focus: Global advertising and AI commerce platform
+position:
+  title: Staff Engineer 1 – Salesforce AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds Agentforce agents, prompt
+      templating, autonomous workflows, and multi-agent systems on
+      Salesforce, directly shaping agent behaviour and LLM-driven
+      output quality. Integration plumbing is secondary to this
+      agent-shaping work, so it classifies as ai-first.
+  responsibilities:
+  - Design, build, and deploy scalable Salesforce-centric solutions including Agentforce/AI-driven
+    orchestration, prompt templating, and Data Cloud integration
+  - Design high-scale integrations using Platform Events, Change Data Capture, and
+    REST/SOAP APIs for real-time data flows
+  - Build integrations between Salesforce structured/unstructured data and downstream
+    AI agents
+  - Deploy and monitor Salesforce-integrated products with agent observability, telemetry,
+    and auditability
+  - Develop data health monitoring and context enrichment pipelines for agent-consumed
+    CRM data
+  - Lead technical solutioning for autonomous workflows, co-pilots, and multi-agent
+    systems on Salesforce
+  - Architect distributed systems with real-time Salesforce data synchronization using
+    Kafka, Spark, or similar streaming technologies
+  - Write high-performance backend middleware in Java bridging CRM and cloud services
+  use_cases:
+  - Autonomous CRM workflows and co-pilots for sales and revenue operations
+  - Multi-agent systems powering context-aware actions for internal teams and customer-facing
+    use cases
+  - Real-time data synchronization between Salesforce and enterprise systems
+  - AI-driven customer engagement via Experience Cloud community platforms
+  - Agent observability, auditability, and governed CRM data quality for AI agents
+  skills:
+    genai: [Agentforce, Prompt Engineering, AI Agents, Agentic Workflows, Multi-Agent
+        Systems, LLMs, LLM Evaluation, RAG]
+    ml: []
+    web: [Salesforce, Apex, Lightning Web Components, Experience Cloud, REST APIs,
+      SOAP APIs, SOQL, Salesforce Shield, Salesforce DX, MuleSoft]
+    databases: [Salesforce Data Cloud]
+    data: [Kafka, Spark, Data Pipelines, Change Data Capture]
+    cloud: [GCP, Azure]
+    ops: [CI/CD, GitHub Actions, Copado, Observability, Telemetry, Distributed Systems]
+    languages: [Java, Python]
+    domains: []
+    other: [Slack, Event-Driven Architecture, Apache Camel]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10710350'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:24:18.817628'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

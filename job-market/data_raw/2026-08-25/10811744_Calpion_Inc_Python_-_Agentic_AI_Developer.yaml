@@ -1,0 +1,121 @@
+job_id: 10811744
+title: Python - Agentic AI Developer
+company: Calpion Inc.
+location: Yelahanka, IND
+work_type: FULL_TIME
+company_size: 150 Employees
+description: |
+  Python Developer — Agentic AI Platform  Healthcare RCM
+  Automation | Calpion Inc. Location Experience Positions
+  Bangalore, India Reports to 4–8 years 13 About the Role PM &
+  Technical Lead We are building an enterprise agentic AI
+  platform that serves as the automation backbone across three
+  healthcare RCM product lines — Artemis (ABA therapy
+  management), Olympus. This platform replaces traditional RPA
+  with intelligent agents that reason, adapt, and self-heal —
+  combining deterministic automation with LLM-powered
+  decision-making for healthcare workflows. You will be a core
+  member of the platform team, responsible for building
+  reusable agent workflows, MCP tool integrations, and the LLM
+  reasoning layer that powers denial management, payer
+  intelligence, document processing, and browser automation
+  across all products. This is not a chatbot or copilot role.
+  You will be building production agents that process
+  healthcare claims, interact with payer portals, generate
+  appeal letters, parse EDI transactions, and make decisions
+  that directly impact revenue recovery. The work requires
+  equal comfort with infrastructure-level Python, LLM prompt
+  engineering, and healthcare domain understanding. What You
+  Will Work On Agent Development & Orchestration • Design and
+  build agentic workflows using LangGraph for complex, multi-
+  step healthcare processes — denial management pipelines,
+  eligibility verification chains, prior authorization
+  workflows • Implement the 4-tier cost architecture:
+  deterministic scripts (Tier 1), LLM fallback for self
+  healing (Tier 2), cached AI navigation (Tier 3), and full
+  reasoning agents (Tier 4) • Build multi-agent systems where
+  specialized agents (claim analyzer, appeal writer, payer
+  policy checker) collaborate through structured handoffs •
+  Integrate agents with AWS Step Functions for durable,
+  stateful execution of long-running workflows with human-in-
+  the-loop approval gates MCP Tool Development Page 1 Calpion
+  Inc. | Confidential • Build reusable MCP (Model Context
+  Protocol) server tools wrapping existing APIs — AdvancedMD,
+  CollaborateMD, clearinghouse APIs (Waystar, Change
+  Healthcare, Availity), payer portal integrations • Design
+  the MCP tool library architecture so that every connector
+  built for one product. • Implement custom MCP tools for
+  healthcare-specific operations: EDI 835/837 parsing,
+  CARC/RARC code lookup, CPT/ICD-10 reference queries, payer
+  policy retrieval Browser Automation • Build and maintain
+  Playwright-based browser automation for healthcare portals
+  (AdvancedMD, payer portals, clearinghouse portals) •
+  Implement the LLM fallback self-healing pattern —
+  deterministic Playwright as primary path, Claude Vision via
+  Bedrock for automatic recovery when portal UI selectors
+  break • Develop cached navigation plans for payer portals —
+  LLM discovers navigation once, caches the plan, replays
+  deterministically on subsequent runs • Integrate with Amazon
+  Bedrock AgentCore Browser Tool for managed, isolated browser
+  sessions Must-Have Skills Python (Core) • 4+ years
+  production Python — deployed services handling real
+  workloads, not scripts or notebooks • Strong async Python
+  (asyncio, aiohttp) — browser automation and agent loops are
+  inherently async • Pydantic for data validation and
+  structured outputs • Experience with at least one web
+  automation framework: Playwright (strongly preferred),
+  Selenium, or Puppeteer via Pyppeteer • Comfortable with
+  Python packaging, dependency management, and writing
+  maintainable code AWS Services • Hands-on experience with at
+  least 4 of: ECS Fargate, Lambda, Step Functions, SQS, SNS,
+  EventBridge, S3, RDS PostgreSQL, Secrets Manager, Bedrock •
+  Understanding of IAM policies, VPC networking, and security
+  groups • Experience with CDK or CloudFormation for
+  infrastructure-as-code (CDK TypeScript preferred given
+  existing codebase) Page 2 LLM / AI Engineering Calpion Inc.
+  | Confidential • Practical experience building applications
+  with LLM APIs — Claude (Anthropic), GPT (OpenAI), or
+  equivalent • Understanding of prompt engineering patterns:
+  ReAct (Reason + Act), chain-of-thought, few-shot examples,
+  structured output extraction • Experience with at least one
+  agent framework: LangGraph, LangChain, CrewAI, or AutoGen •
+  Understanding of RAG — vector embeddings, similarity search,
+  knowledge base construction • Awareness of token economics —
+  knowing when to use an LLM and when a regex or SQL query is
+  the right answer Software Engineering Fundamentals • Git
+  workflows, code review practices, CI/CD pipelines • REST API
+  design and consumption • PostgreSQL — complex queries,
+  indexes, JSONB columns • Error handling for unreliable
+  external systems (retry logic, circuit breakers, dead letter
+  queues) • Structured logging, CloudWatch integration,
+  distributed tracing concepts Good-to-Have Skills •
+  Healthcare RCM domain knowledge — EDI 837/835 formats,
+  CARC/RARC denial codes, CPT/HCPCS coding, clearinghouse
+  workflows, payer portal navigation • MCP (Model Context
+  Protocol) — experience building MCP servers/tools or
+  familiarity with the specification • Amazon Bedrock —
+  AgentCore, Knowledge Bases, or model invocation via Bedrock
+  Runtime API • LangGraph specifically — graph-based state
+  machine design for multi-step agent workflows • Document AI
+  — PDF extraction, OCR, table extraction from scanned
+  documents • HIPAA compliance awareness — PHI handling,
+  encryption requirements, audit trail needs • Playwright MCP
+  server for browser automation via AI agents •
+  Voice/telephony integration — Twilio, Deepgram, ElevenLabs
+  (relevant for Olympus voice bot) • Prior experience
+  replacing or working alongside RPA tools (UiPath, Automation
+  Anywhere, Blue Prism) Page 3 What We Are NOT Looking For
+  Calpion Inc. | Confidential • Pure data scientists or ML
+  researchers — this is an engineering role, not a modeling
+  role. We use frontier LLMs via API, we don’t train models. •
+  Chatbot/copilot builders — our agents take real actions on
+  production systems (submit claims, navigate portals, post
+  payments). This requires a production engineering mindset,
+  not a demo mindset. • Framework tourists — we need people
+  who can evaluate when to use LangGraph vs a simple Python
+  function, when to use an LLM vs a regex, when to use an
+  agent vs a cron job. Tool selection judgment matters more
+  than tool familiarity. Page 4
+posted_date: 2026-08-23
+url: "https://builtin.com/job/python-agentic-ai-developer/10811744"
+source: Built In

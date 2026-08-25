@@ -1,49 +1,52 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-powered customer
-    experiences
+  stage: null
+  focus: Banking and financial services
 position:
   title: Lead AI Engineer (AI Foundations, LLM Customization and Finetuning)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building and deploying
-      AI/ML systems including foundation model training, LLM
-      inference, and LLM optimization techniques. The engineer
-      will work hands-on with model training, inference, and
-      optimization - core AI development work.
+      The role explicitly owns foundation model training, LLM
+      customization and fine-tuning, guardrails, and model
+      evaluation, which is directly shaping model behaviour and
+      output quality. It also optimizes LLM training and inference
+      internals for latency, throughput, and cost, and all
+      targeted models are LLMs, so it is ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    associate workflows and customer interactions
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products for associates
+    and customers
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and governance
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Apply novel techniques from AI research judiciously in production systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - Real-time customer question answering and support
-  - AI-powered products that change how associates work
-  - Scalable AI infrastructure for enterprise-wide AI deployment
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Proprietary AI models and platforms that empower teams across the company to enhance
+    their products with AI
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, LLM training and inference, Foundation model training,
-      Similarity search, LLM optimization]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Guardrails]
-    data: []
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model evaluation and governance, AI observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LLMs, Fine-Tuning, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +58,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T14:14:32.663202'
+  extracted_at: '2026-08-16T04:30:17.832715'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,52 @@
+company:
+  name: Calliere
+  stage: null
+  focus: Innovation studio building scalable software
+position:
+  title: Principal AI Engineer, Distributed Systems & Intelligent Platforms
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role requires hands-on LLM engineering — tool/function
+      calling, prompt construction, multi-agent coordination, RAG,
+      embeddings — which directly shapes model behavior, so it is
+      ai-first. The shaping work is embedded in a full-
+      stack/backend role but is explicitly required, not
+      incidental.
+  responsibilities:
+  - Build and own backend services in Python and Node.js, architecting serverless
+    compute layers and APIs
+  - Contribute to workflow engines, state machines, asynchronous event pipelines,
+    and reliable retry/failure patterns across distributed services
+  - Design and evolve RESTful interfaces and integrate third-party and internal systems
+  - Apply advanced NoSQL data modeling (composite keys, transactional writes) for
+    performance under load
+  - Monitor, debug, and improve system observability and deployment reliability on
+    cloud-native infrastructure
+  - Take end-to-end ownership of features and collaborate across time zones in code
+    reviews
+  use_cases:
+  - AI-native learning platform for skill growth and development
+  - Agentic systems and distributed workflow orchestration
+  - Retrieval-augmented generation with embedding and vector search pipelines
+  skills:
+    cloud: [AWS Lambda, AWS S3, AWS]
+    languages: [Python, Node.js]
+    ml: []
+    other: []
+    ops: [Docker, Langfuse]
+    databases: [NoSQL, DynamoDB, Vector Search]
+    domains: []
+    web: [REST APIs, Full-Stack Development]
+    data: [Event-Driven Architecture]
+    genai: [Function Calling, Prompt Engineering, Multi-Agent Systems, Embeddings,
+      RAG, LLMs]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10682339'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:14:52.204807'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,54 +1,64 @@
 company:
   name: Version 1
-  stage: Established
-  focus: IT consulting and technology transformation services
+  stage: null
+  focus: |-
+    IT consultancy delivering technology and transformation
+    solutions
 position:
   title: AI Technical Content Developer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on creating documentation and training
-      materials ABOUT AI tools, not building or deploying AI
-      systems. The role translates technical AI capabilities into
-      learning content and maintains documentation for AI adoption
-      programs, but does not involve hands-on model development,
-      fine-tuning, or deployment.
+      The role creates training materials, playbooks, labs, and
+      documentation about AI tools for an internal adoption
+      programme — it never shapes model behaviour itself. There is
+      no prompt design, retrieval/RAG work, fine-tuning, or
+      evaluation of model output; the deliverable is enablement
+      content. Per Step 3, this is ai-support.
   responsibilities:
   - Create and maintain AI playbook documentation covering all phases of the software
     delivery lifecycle
   - Develop training materials, certification content, and practical guides for core
-    AI tools including Cursor, GitHub Copilot, Claude, and M365 Copilot
-  - Build hands-on lab content for the AI Champions network with structured exercises
+    AI tools including Cursor, GitHub Copilot, Claude, and Microsoft 365 Copilot
+  - Build hands-on lab content for the AI Champions network, with structured exercises
     tailored to varying technical skill levels
-  - Design and deliver onboarding content for new AI Champions
-  - Establish and maintain documentation standards, templates, and a centralized content
-    library for the CoE
+  - Design and deliver onboarding content for new AI Champions to ensure they are
+    productive from day one
+  - Establish documentation standards, templates, and a centralised content library
+    for the Centre of Excellence
   - Collaborate with the AI Engineering lead to document new delivery patterns, automation
     workflows, and tooling best practices
-  - Create user guides and adoption materials for internal AI solutions
-  - Review and update all content regularly to reflect tool updates, new capabilities,
-    and lessons learned
+  - Create user guides and adoption materials for internal AI solutions with the AI
+    Solutions & Internal Adoption lead
+  - Review and update content to reflect tool updates and delivery lessons, and contribute
+    to customer-facing enablement materials for consulting engagements
   use_cases:
-  - AI training and enablement for employees
-  - AI Champions network development
-  - AI tool adoption across software delivery lifecycle
-  - Internal AI solution documentation
-  - Customer-facing AI enablement materials
+  - AI-assisted software delivery workflows across the SDLC using coding assistants
+    like Cursor, GitHub Copilot, Claude, and Microsoft 365 Copilot
+  - Enterprise-wide AI adoption and enablement through an AI Champions network and
+    certification pathways
+  - Hands-on training labs covering beginner to advanced AI tool use cases
+  - Automation workflows and developer productivity tooling best practices
+  - User guides and adoption materials for internal AI solutions
+  - Customer-facing enablement materials supporting commercial consulting engagements
   skills:
-    domains: []
-    languages: [Markdown]
+    cloud: [Azure AI Services]
+    languages: []
     ml: []
-    cloud: [Azure AI services, AWS, Microsoft, Oracle]
-    genai: [GitHub Copilot, Cursor, Anthropic API, Microsoft 365 Copilot, Copilot
-        Studio]
-    data: []
-    other: [Confluence, Notion]
-    ops: [Jira, Azure DevOps, Git, CI/CD]
+    other: [Technical Writing, Confluence, Notion, Markdown, Jira, SDLC, Instructional
+        Design, Responsible AI, EU AI Act]
+    ops: [Azure DevOps, Git, CI/CD, DevOps]
+    databases: []
+    domains: []
     web: []
-    databases: [Snowflake]
-  is_customer_facing: true
+    data: []
+    genai: [Cursor, GitHub Copilot, Anthropic API, Microsoft 365 Copilot, Copilot
+        Studio]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8788416'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T15:33:41.074054'
+  extracted_at: '2026-08-16T04:33:41.090911'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

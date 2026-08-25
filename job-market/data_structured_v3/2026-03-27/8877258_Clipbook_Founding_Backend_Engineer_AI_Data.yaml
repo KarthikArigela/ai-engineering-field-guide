@@ -1,0 +1,63 @@
+company:
+  name: Clipbook
+  stage: Seed-stage ($3.3M seed round co-led by Mark Cuban, after bootstrapping to
+    seven-figure ARR)
+  focus: |-
+    AI-powered media monitoring and analytics for comms and PR
+    teams
+position:
+  title: Founding Backend Engineer – AI & Data
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly puts LLMs into production by designing
+      RAG pipelines, embeddings, prompt execution, agentic
+      systems, and fine-tuned models themselves — this is directly
+      shaping LLM behaviour through retrieval, prompts, agents,
+      and fine-tuning (Step 1 = yes). Since LLM/agent components
+      dominate (classical ML is secondary), Step 2 gives ai-first.
+  responsibilities:
+  - Architect and build core backend systems in Python, Node.js, and PostgreSQL, owning
+    features from concept through deployment
+  - Design and maintain scalable data infrastructure for ingesting, normalizing, deduplicating,
+    indexing, and querying massive multi-modal datasets (text, audio, video)
+  - Put LLMs and ML models into production for real workflows, including RAG pipelines,
+    embeddings, prompt execution, agentic systems, and fine-tuned models
+  - Develop performant APIs and internal services that power the product end-to-end
+    with reliability, security, and cost-consciousness
+  - Join customer calls to gather feedback and rapidly iterate on solutions for comms
+    and public affairs teams
+  - Shape engineering culture, code quality standards, system design principles, and
+    documentation as a founding engineer
+  - Build systems that hold up under 10x growth while making pragmatic near-term investment
+    tradeoffs
+  use_cases:
+  - AI-powered media monitoring and analytics for communications, PR, and public affairs
+    teams
+  - Tracking, searching, and making sense of coverage across text, audio, and video
+  - Ingesting, deduplicating, and indexing multi-modal datasets across news, social
+    media, and policy sources
+  - RAG-based retrieval and LLM workflows over media coverage
+  - Real-time insights serving communications teams, government agencies, and enterprise
+    clients
+  skills:
+    genai: [RAG, Embeddings, Prompt Engineering, Agentic Workflows, Fine-Tuning, LLMs,
+      Semantic Search, RLHF, LLM Evaluation]
+    ml: [Machine Learning, Multimodal Models]
+    web: [APIs]
+    databases: [PostgreSQL, BigQuery, Vector Databases]
+    data: [Spark, Kafka, Flink, ETL, Data Pipelines, Web Scraping]
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, CI/CD, Distributed Systems, Inference Optimization]
+    languages: [Python, Node.js]
+    domains: [Computer Vision]
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8877258'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T05:32:13.602107'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

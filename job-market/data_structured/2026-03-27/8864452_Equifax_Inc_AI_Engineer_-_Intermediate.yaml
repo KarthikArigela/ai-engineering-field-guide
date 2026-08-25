@@ -1,49 +1,62 @@
 company:
   name: Equifax Inc.
-  stage: Public
-  focus: Credit reporting and data analytics for financial services
+  stage: null
+  focus: Credit reporting, data analytics, and identity solutions
 position:
   title: AI Engineer - Intermediate
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying AI
-      agents using LangChain/LangGraph, architecting agentic AI
-      frameworks, and deploying solutions on GCP's Vertex AI. The
-      position requires 1+ years of experience building solutions
-      with agentic AI frameworks and creating/deploying AI agents
-      to production.
+      The role explicitly requires architecting solutions with
+      LangChain/LangGraph agentic AI frameworks and designing,
+      developing, and deploying AI agents on GCP, which is
+      designing agent flows and shaping model behavior. Monitoring
+      and debugging agentic workflows with LLM observability tools
+      like Langfuse further confirms this. Substantial data
+      engineering duties exist, but the named agent-building
+      responsibility makes it ai-first.
   responsibilities:
+  - Architect and deploy cutting-edge cloud-native solutions including highly scalable
+    APIs, microservices, and PaaS/SaaS platforms
   - Design, develop, and deploy AI agents on Google Cloud Platform using agentic AI
-    frameworks
-  - Build and architect cloud-native solutions including APIs, microservices, and
-    PaaS/SaaS platforms
-  - Prepare data for analytical use by building data pipelines from multiple sources
-  - Integrate, consolidate, cleanse and structure data for client solutions
-  - Perform design and interpretation of large, complex datasets
-  - Implement security best practices in pipelines and infrastructure
-  - Provide guidance and mentorship to junior data engineers
-  - Stay up-to-date with GCP advancements and propose new solutions
+    frameworks like LangChain and LangGraph
+  - Build data pipelines to gather, integrate, consolidate, cleanse, and structure
+    data from multiple sources and systems
+  - Develop rules and tracking processes for data quality models, implement data quality
+    checks, and troubleshoot data anomalies
+  - Perform design, creation, and interpretation of large and highly complex datasets
+    for analytical use
+  - Implement security best practices in data pipelines and infrastructure, including
+    data management and reporting improvements
+  - Monitor and debug agentic workflows using LLM observability tools such as Langfuse
+  - Provide guidance and mentorship to junior data engineers and review their dataset
+    implementations
   use_cases:
-  - AI agent development and deployment for enterprise solutions
-  - Data quality management and analytics pipelines
-  - Cloud-native microservices and API development
-  - Enterprise data integration and processing
+  - Deploying AI agents to production on Google Cloud Platform
+  - Data quality management and anomaly detection across multi-source data pipelines
+  - Integrating, cleansing, and structuring data for use in client-facing analytics
+    solutions
+  - Design and interpretation of large, highly complex datasets for analytical use
+  - Accelerating development of scalable APIs and microservices with AI-powered coding
+    assistants
   skills:
+    cloud: [GCP, Vertex AI, AWS, Azure]
+    languages: [Python, JavaScript, TypeScript, Java]
+    ml: []
+    other: [Vibe Coding]
+    ops: [Kubernetes, Docker, CI/CD, GitHub Actions, ArgoCD, Jenkins, Langfuse, MLOps]
+    databases: [SQL, NoSQL, Spanner, AlloyDB, PostgreSQL, MySQL, MongoDB, DynamoDB,
+      Firestore]
     domains: []
-    languages: [Python, JavaScript, TypeScript, Java, SQL]
-    ml: [Vertex AI, MLOps]
-    cloud: [GCP, AWS, Azure]
-    genai: [LangChain, LangGraph, GitHub Copilot, Gemini, ChatGPT, Anthropic API,
-      Llama, Langfuse]
-    data: []
-    other: []
-    ops: [Kubernetes, Docker, GitHub Actions, ArgoCD, Jenkins]
-    web: [React, Angular, Vue, REST APIs]
-    databases: [PostgreSQL, MySQL, Spanner DB, AlloyDB, MongoDB, DynamoDB, Firestore]
+    web: [APIs, Microservices, Angular, React, Vue]
+    data: [Data Pipelines, Data Quality]
+    genai: [LangChain, LangGraph, AI Agents, Agentic Workflows, Generative AI, Gemini,
+      ChatGPT, Anthropic API, Llama, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8864452'
   location: Pune, IND
-  extracted_at: '2026-03-27T16:07:51.286988'
+  extracted_at: '2026-08-16T05:20:37.920469'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

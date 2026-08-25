@@ -1,0 +1,61 @@
+company:
+  name: Illumina
+  stage: null
+  focus: Genomic technology for disease detection and human health
+position:
+  title: QA Engineer (AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs AI-system test strategies and
+      defines/monitors AI-specific quality metrics (accuracy vs
+      ground truth, hallucination rates, safety/policy adherence)
+      for LLM and agentic systems like virtual agents, chatbots,
+      copilots, and RAG — that is building evals and output-
+      quality monitoring themselves, which counts as shaping.
+      Using LLM tools to accelerate test authoring alone would be
+      ai-support, but the eval and quality-metric design work on
+      LLM targets makes this ai-first.
+  responsibilities:
+  - Own end-to-end quality for web, API, data, and AI/ML-powered features
+  - Develop and maintain test plans, test cases, traceability, and test data for product
+    and AI features
+  - Design and execute test strategies for AI/LLM capabilities including virtual agents,
+    chatbots, copilots, and RAG-based systems
+  - Define and monitor AI-specific quality metrics such as accuracy vs ground truth,
+    hallucination and error rates, and safety or policy adherence
+  - Use approved LLM-powered tools to accelerate test design, data generation, exploratory
+    testing, and script authoring
+  - Own automated regression suites, release readiness criteria, go/no-go quality
+    signals, and the full defect lifecycle including root cause analysis
+  - Plan performance, load, and scalability testing and validate data integrity across
+    biomedical data pipelines
+  - Integrate automation into CI/CD pipelines and communicate quality risks and trends
+    to stakeholders including government partners
+  use_cases:
+  - Virtual agents, chatbots, and copilots for AI-powered user experiences
+  - RAG-based systems for grounded information retrieval
+  - Internal QA copilots and automation bots for test authoring and execution
+  - AI-enhanced biomedical and genomic data workflows
+  - Reliable, explainable, and safe AI features in an FDA-regulated genomic health
+    environment
+  skills:
+    genai: [Generative AI, RAG, LLMs, AI Agents, LangChain, LangGraph, AWS Bedrock,
+      OpenAI API, MCP, ChatGPT, Claude, GitHub Copilot]
+    ml: [Machine Learning]
+    web: [APIs, Microservices]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, GitHub Actions, Jenkins, Azure DevOps, GitLab CI]
+    languages: [Python, JavaScript]
+    domains: []
+    other: [Jira, Test Automation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8548687'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T02:22:39.240336'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

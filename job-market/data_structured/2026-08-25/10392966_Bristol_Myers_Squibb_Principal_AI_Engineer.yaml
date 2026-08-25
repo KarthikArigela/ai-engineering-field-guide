@@ -1,0 +1,65 @@
+company:
+  name: Bristol Myers Squibb
+  stage: null
+  focus: |-
+    Global pharmaceutical company focused on drug discovery and
+    patient therapies
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds multi-agent orchestration
+      workflows, prompt management, tool-calling protocols, and
+      LLM evaluation frameworks - directly shaping LLM behavior
+      and output quality. There is no classical-ML-only focus, so
+      it is ai-first.
+  responsibilities:
+  - Design, build, and deploy autonomous multi-agent workflows using orchestration
+    frameworks such as LangGraph, CrewAI, and AutoGen
+  - Architect graph-based agent workflows with 10+ nodes involving agent collaboration,
+    task decomposition, and sequential/parallel execution
+  - Build production-grade FastAPI applications with async I/O integrating PostgreSQL,
+    Redis, and external enterprise services
+  - Implement real-time agent streaming using SSE and WebSocket protocols with RESTful
+    and event-driven API architectures
+  - Integrate cloud LLM providers (AWS Bedrock, Azure OpenAI, Anthropic Claude, OpenAI
+    GPT-4) and design prompt management systems
+  - Implement conversation state persistence via Redis checkpointing and tool-calling
+    protocols (MCP, function calling)
+  - Integrate observability platforms (Langfuse, LangSmith) for agent tracing, telemetry,
+    and cost optimization
+  - Implement evaluation frameworks measuring agent success rates, reasoning quality,
+    and output accuracy
+  - Mentor junior engineers on async Python patterns, agent design, and LLMOps best
+    practices
+  use_cases:
+  - Autonomous multi-step agent systems performing business-domain tasks beyond simple
+    chatbots
+  - Agent collaboration, task decomposition, and sequential/parallel execution across
+    business domains
+  - Hybrid intelligence combining LLM reasoning with rule-based logic and statistical
+    analysis
+  - Structured analytical output generation via response transformation pipelines
+  - Enterprise agent orchestration with real-time streaming interfaces
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, LangChain, AI Agents, Agentic Workflows, Prompt
+        Engineering, LLMs, Function Calling, MCP, Fine-Tuning, Anthropic API, OpenAI
+        API, ReAct]
+    ml: []
+    web: [FastAPI, REST APIs, WebSockets, APIs]
+    databases: [PostgreSQL, Redis]
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI, AWS, Azure, GCP]
+    ops: [Langfuse, LangSmith, LLMOps, Docker, CI/CD, Git]
+    languages: [Python, asyncio]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10392966'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T09:56:59.436060'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -484,8 +484,8 @@ def dump_yaml(data: dict) -> str:
 # --------------------------------------------------------------------------- #
 # Driver
 # --------------------------------------------------------------------------- #
-def load_jobs():
-    files = sorted(STRUCTURED_DIR.rglob("*.yaml"))
+def load_jobs(root: Path | None = None):
+    files = sorted((root or STRUCTURED_DIR).rglob("*.yaml"))
     return files
 
 
@@ -497,10 +497,13 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true", help="analyze only, write nothing")
     ap.add_argument("--check", action="store_true", help="round-trip: flag files that would change")
+    ap.add_argument("--dir", type=Path, default=STRUCTURED_DIR,
+                    help="directory to canonicalize; point it at a staging copy "
+                         "when re-extracting before the swap")
     args = ap.parse_args()
 
-    files = load_jobs()
-    print(f"Scanning {len(files)} structured YAML files in {STRUCTURED_DIR}\n")
+    files = load_jobs(args.dir)
+    print(f"Scanning {len(files)} structured YAML files in {args.dir}\n")
 
     before_counts = {c: Counter() for c in CANON}
     after_counts = {c: Counter() for c in CANON}
@@ -578,7 +581,7 @@ def main():
         LOOKUP_INV[cat] = inv
     # recount raw forms from data for genai to show real absorption
     genai_before = Counter()
-    files2 = load_jobs()
+    files2 = load_jobs(args.dir)
     for f in files2:
         try:
             data = yaml.safe_load(f.read_text(encoding="utf-8"))

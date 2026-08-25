@@ -1,65 +1,65 @@
 company:
   name: Order.co
-  stage: Series B/C (raised $75M, nearly $0.5B in spend)
-  focus: |-
-    B2B Agentic Commerce platform for Office of the CFO -
-    procurement and spend management with embedded AI agents
+  stage: Raised $75M in funding from investors including MIT, Stage 2 Capital, Rally
+    Ventures, and 645 Ventures
+  focus: B2B procurement and spend management platform
 position:
   title: Senior AI / Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure and data engineering role focused
-      on building data pipelines, cloud infrastructure, and
-      platforms that ENABLE AI work rather than directly building
-      AI models. The role involves deploying/operationalizing AI
-      systems, building data platforms for AI-driven products, and
-      implementing AI-assisted engineering tools - all supporting
-      infrastructure for teams that work on AI, not hands-on
-      model/agent development.
+      This is a data platform and infrastructure engineering role:
+      the core work is ETL/ELT pipelines, cloud data
+      infrastructure, IaC, CI/CD, and observability. The AI
+      portions are limited to supporting the deployment and
+      operationalization of AI services others build and
+      evaluating AI coding assistants (Claude Code, Codex,
+      Copilot) for engineering productivity, with no prompt
+      design, retrieval, fine-tuning, or output-quality eval
+      ownership. Serving AI systems and rolling out AI developer
+      tools are both explicitly ai-support.
   responsibilities:
   - Design, build, and maintain scalable data pipelines, integrations, and AI workflows
-    that support analytics, operational reporting, and AI-driven products
-  - Develop infrastructure automation and deployment workflows using Terraform or
-    CloudFormation, implementing IaC practices and CI/CD pipelines
-  - Build and maintain monitoring, alerting, and observability solutions for data
-    and AI systems, ensuring reliability and operational excellence
+  - Develop reliable ETL/ELT systems supporting analytics, operational reporting,
+    and AI-driven products
+  - Contribute to the architecture and evolution of the company's data platform and
+    AI infrastructure
+  - Develop infrastructure automation and deployment workflows using infrastructure
+    as code (Terraform/CloudFormation)
+  - Build and maintain CI/CD pipelines and monitoring, alerting, and observability
+    solutions for data and AI systems
   - Support the deployment and operationalization of machine learning and AI-powered
-    services, contributing to production-ready AI systems
-  - Architect and evolve the company's data platform and AI infrastructure, optimizing
-    for scalability, security, and maintainability
-  - Mentor junior and mid-level engineers through code reviews, pairing, and technical
-    guidance while contributing to roadmap planning and technical design
-  - Partner cross-functionally with Engineering, Product, Analytics, and Operations
-    teams to translate business problems into scalable data and AI solutions
+    services
+  - Evaluate and integrate AI-assisted engineering tools and help establish best practices
+    for AI-assisted development and operational safety
+  - Mentor junior and mid-level engineers and collaborate cross-functionally with
+    Product, Analytics, and Operations teams
   use_cases:
-  - B2B procurement and spend management platform with embedded AI agents
-  - Intuitive B2C-like shopping experience for business purchasing and payments
-  - AI-driven automation of procurement and finance workflows from requisition to
-    reconciliation
-  - Predictive, prescriptive, and personalized user experience for B2B commerce
-  - All-in-one platform for finance and procurement leaders to orchestrate business
-    operations
-  - Zero-training buying experience for end users with AI-powered recommendations
-    and workflows
+  - Automating procurement and finance workflows from requisition to reconciliation
+  - Embedded AI agents for B2B purchasing and vendor connections
+  - Analytics and operational reporting on business spend data
+  - AI-driven products enabling intelligent decision-making and automation in spend
+    management
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, ECS, SQS, SNS, API Gateway, EventBridge, AWS S3, Glue
+        Catalog, Lake Formation]
     languages: [Python, SQL]
-    ml: []
-    cloud: [AWS Lambda, ECS, AWS SQS, AWS SNS, API Gateway, AWS EventBridge, AWS Glue,
-      AWS S3, AWS Lake Formation, Serverless architecture]
-    genai: []
-    data: [Airflow, Dagster, AWS Step Functions, PySpark, AWS EMR, dbt, Data Pipelines,
-      Event-driven architecture]
-    other: [AI-assisted engineering tools, GitHub Copilot, Claude Code]
-    ops: [Terraform, Infrastructure as Code, CI/CD, GitHub Actions, CircleCI, Observability,
-      Data security, Access controls, AI/ML workflows]
-    web: []
+    ml: [Machine Learning]
+    other: [Event-Driven Architecture]
+    ops: [Terraform, CloudFormation, Infrastructure as Code, CI/CD, GitHub Actions,
+      CircleCI, Monitoring, Observability]
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [Airflow, Dagster, AWS Step Functions, Spark, PySpark, AWS Glue, Amazon
+        EMR, Data Pipelines, dbt]
+    genai: [Claude Code, Codex, GitHub Copilot]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9512147'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:09:20.347769'
+  extracted_at: '2026-08-16T12:04:31.407510'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

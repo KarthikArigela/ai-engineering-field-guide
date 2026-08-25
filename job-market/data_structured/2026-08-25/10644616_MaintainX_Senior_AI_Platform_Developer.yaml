@@ -1,0 +1,50 @@
+company:
+  name: MaintainX
+  stage: Series D
+  focus: AI-powered maintenance and asset management platform
+position:
+  title: Senior AI Platform Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role integrates LLMs and AI tool execution into
+      production workflows and builds the AI platform's
+      abstractions, which involves shaping how LLM and agent
+      components behave rather than merely consuming an API.
+      Platform reliability work supports this, but the LLM
+      workflow integration and tool execution design make it ai-
+      first.
+  responsibilities:
+  - Build and operate scalable backend services and internal APIs for the AI platform
+  - Integrate LLMs and AI tool execution into reliable, production-ready workflows
+  - Own production reliability of AI platform infrastructure through observability,
+    alerting, and incident response
+  - Improve performance and cost efficiency of AI runtimes through profiling, tuning,
+    and capacity planning
+  - Contribute to shared infrastructure including CI/CD, observability, and deployments
+  use_cases:
+  - AI-powered maintenance and asset management platform
+  - Internal AI platform enabling product teams to ship AI features reliably at scale
+  - Production-ready LLM and AI tool execution workflows
+  - Cost-efficient and performant AI runtime operations
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Terraform, Infrastructure as Code, CI/CD, Observability, Pulumi, Incident
+        Response]
+    languages: [Python]
+    domains: []
+    other: [Distributed Systems, Asynchronous Processing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10644616'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:04:38.990828'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

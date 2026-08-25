@@ -1,51 +1,49 @@
 company:
   name: GE Appliances
-  stage: Public
-  focus: Home appliances manufacturing and innovation
+  stage: null
+  focus: Home appliance manufacturing
 position:
   title: Data & AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deploying AI/ML
-      systems including fine-tuning models, implementing RAG,
-      deploying intelligent agents, and developing inference
-      pipelines. The engineer will directly work with LLMs, vector
-      databases, and production AI applications, not just
-      supporting infrastructure.
+      The role directly shapes model behavior: it fine-tunes ML/DL
+      models, builds RAG with embeddings and vector search, and
+      designs, deploys, and manages intelligent agents on
+      Agentspace. Since LLMs and agent workflows are central
+      alongside classical ML, the role is ai-first.
   responsibilities:
   - Build and fine-tune machine learning and deep learning models for NLP, computer
     vision, and recommendation systems
-  - Develop APIs and microservices for model inference and integration into enterprise
-    applications
+  - Develop APIs and microservices for model inference and seamless integration into
+    enterprise applications
   - Implement scalable training and inference pipelines using distributed computing
-    on GCP
-  - Design, deploy, and manage intelligent agents supporting enterprise workflows
-    using Agent space
-  - Apply retrieval-augmented generation (RAG), embeddings, and vector search techniques
+    frameworks on Google Cloud Platform
+  - Design, deploy, and manage intelligent agents on Agentspace supporting enterprise
+    workflows
+  - Apply RAG, embeddings, and vector search techniques to enhance model performance
   - Integrate open-source and commercial LLMs into GCP-hosted applications
   - Implement monitoring, evaluation, and continuous learning pipelines for AI solutions
-  - Collaborate with data scientists, platform engineers, and business teams to deliver
-    AI-powered solutions
+  - Collaborate with data scientists, platform engineers, and business teams to translate
+    use cases into AI-powered solutions
   use_cases:
-  - Natural language processing applications
-  - Computer vision systems
-  - Recommendation systems
-  - Enterprise workflow automation through intelligent agents
-  - Enterprise decision-making acceleration
-  - AI-powered enterprise applications
+  - Enterprise AI-powered applications to accelerate innovation and decision-making
+  - Intelligent agents supporting enterprise workflows
+  - NLP, computer vision, and recommendation systems
+  - AI model inference integrated into enterprise applications
+  - Monitoring and evaluation of production AI solutions
   skills:
-    domains: [NLP, Computer Vision]
+    cloud: [GCP, Vertex AI, Pub/Sub]
     languages: [Python]
-    ml: [Hugging Face, Deep Learning, Machine Learning]
-    cloud: [GCP, Vertex AI]
-    genai: [LLMs, RAG, Embeddings, OpenAI API, Anthropic API, Agent space, Agentic
-        orchestration frameworks]
-    data: [Pub/Sub, Distributed computing]
-    other: []
-    ops: [MLOps, CI/CD]
-    web: [APIs and microservices]
-    databases: [BigQuery, Vector Databases]
+    ml: [Machine Learning, Deep Learning, Fine-Tuning, Model Evaluation, Hugging Face]
+    other: [Distributed Computing]
+    ops: [MLOps, CI/CD, Model Monitoring]
+    databases: [BigQuery, Vector Databases, Vector Search]
+    domains: [NLP, Computer Vision, Recommender Systems]
+    web: [APIs, Microservices]
+    data: []
+    genai: [Agentspace, AI Agents, Agentic Workflows, RAG, Embeddings, LLMs, OpenAI
+        API, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +52,6 @@ meta:
   locations:
   - Hyderabad, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-03T11:29:37.444940'
+  extracted_at: '2026-08-15T23:49:21.347826'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

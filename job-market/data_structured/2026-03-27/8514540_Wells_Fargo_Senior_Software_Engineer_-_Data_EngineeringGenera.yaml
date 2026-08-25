@@ -1,48 +1,54 @@
 company:
   name: Wells Fargo
-  stage: Public
-  focus: Financial services and banking
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Software Engineer - Data Engineering/Generative AI
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role requires 2+ years of experience using LLMs for
-      automation and hands-on experience with GenAI use cases. The
-      combination of data engineering with generative AI indicates
-      hands-on work implementing AI solutions, likely building
-      data pipelines that feed into or support LLM-based
-      automation systems.
+      This is primarily a data engineering role centered on Spark,
+      Hadoop, Hive, batch processing, and data warehousing. LLMs
+      appear only as a tool "for automation" plus a vague "hands-
+      on with GenAI use cases" line, with no prompt engineering,
+      RAG design, agent flows, fine-tuning, or eval work, so the
+      person does not shape model behaviour.
   responsibilities:
   - Lead moderately complex initiatives and deliverables within technical domain environments
-  - Design, code, test, debug, and document for projects and programs associated with
-    technology domain
-  - Build and optimize large-scale data pipelines for high-volume batch processing
-  - Implement GenAI use cases and leverage LLMs for automation
-  - Collaborate with peers and managers to resolve technical challenges and achieve
-    goals
-  - Lead projects and provide guidance to less experienced staff
-  - Work with CI/CD pipelines, improve code coverage and vulnerability remediation
+  - Contribute to large-scale planning of strategies
+  - Design, code, test, debug, and document projects and programs including upgrades
+    and deployments
+  - Review and resolve moderately complex technical challenges requiring in-depth
+    evaluation of technologies and procedures
+  - Lead a team to meet existing and potential client needs while applying function,
+    policy, and compliance knowledge
+  - Collaborate and consult with peers, colleagues, and mid-level managers to resolve
+    technical challenges
+  - Lead projects, act as an escalation point, and provide guidance to less experienced
+    staff
   use_cases:
-  - LLM-powered automation for data processing workflows
-  - Large-scale data transformation and batch processing
-  - Data warehousing and pipeline development for financial services
-  - Big data processing using Apache Spark and Hadoop ecosystem
-  - GenAI use cases for enterprise data applications
+  - Large-scale data processing and big data pipeline construction
+  - High-volume batch data transformation for warehousing
+  - Automation of tasks using LLMs
+  - Data lakehouse management with open table formats
+  - Data validation, governance, security, and compliance for banking data
   skills:
-    domains: []
-    languages: [Python, Java, SQL, Bash scripting]
+    cloud: [Object Storage, GCP, AWS, Azure]
+    languages: [Bash, Java, Python, SQL]
     ml: []
-    cloud: [GCP, AWS, Azure]
-    genai: [LLMs, Generative AI]
-    data: [Spark, Hadoop, Hive, Big data pipelines]
-    other: []
-    ops: [CI/CD, Autosys, Unix Shell scripting]
+    other: [Agile, Financial Services]
+    ops: [Autosys, CI/CD]
+    databases: [Data Warehousing, Relational Databases, Dremio]
+    domains: []
     web: [REST APIs]
-    databases: [Relational Databases, Data Warehousing, Dremio, Iceberg, Delta]
+    data: [Batch Processing, Data Pipelines, Spark, Hive, Hadoop, Data Modeling, Data
+        Governance, Iceberg, Delta Lake, Data Engineering]
+    genai: [LLMs, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8514540'
   location: Hyderabad, IND
-  extracted_at: '2026-03-27T14:23:36.795856'
+  extracted_at: '2026-08-16T03:11:59.858245'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

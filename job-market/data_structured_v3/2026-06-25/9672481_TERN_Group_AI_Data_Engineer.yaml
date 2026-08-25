@@ -1,0 +1,56 @@
+company:
+  name: TERN Group
+  stage: venture-backed
+  focus: Software platform for travel advisors and agency operations
+position:
+  title: AI & Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds eval harnesses, datasets, and production
+      monitoring that judge whether AI features are good enough to
+      ship, and builds the agentic tooling those features run on -
+      directly shaping model output quality. Since agentic and LLM
+      components are explicitly central to the work, this
+      classifies as ai-first despite the strong data engineering
+      foundation.
+  responsibilities:
+  - Build and ship the data infrastructure, services, and agentic tooling that Tern's
+    AI features run on
+  - Build evaluation systems that determine whether AI features are good enough to
+    ship and keep - eval harnesses, datasets, and production monitoring running as
+    software
+  - Own data quality as a first-class concern across ingestion, modeling, and reporting,
+    catching and fixing problems end to end
+  - Build and maintain ETL systems moving data from application and third-party sources
+    into the warehouse, keeping them reliable as volume grows
+  - Work with product squads to build reporting that gives advisors and agency owners
+    visibility into business performance
+  - Monitor AI quality and drift in production and own fixes after launch
+  - Share context early and write clearly so other engineers can build on the work
+  use_cases:
+  - AI features embedded in a travel advisor platform
+  - Evaluation and drift monitoring to keep AI features trustworthy in production
+  - Data pipelines moving application and third-party data into a warehouse
+  - Reporting and dashboards for travel advisors and agency owners on business performance
+  - System of record for advisors and agencies that feeds AI features
+  skills:
+    genai: [Claude Code, MCP, Agentic Workflows, LLM Evaluation]
+    ml: []
+    web: [Ruby on Rails, Hotwire]
+    databases: [PostgreSQL, BigQuery]
+    data: [dbt, ETL]
+    cloud: [Heroku, GCP]
+    ops: [Model Monitoring]
+    languages: []
+    domains: []
+    other: [ThoughtSpot, Hex]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9672481'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T14:03:30.781395'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,56 @@
+company:
+  name: Calpion Inc.
+  stage: null
+  focus: Healthcare RCM automation via agentic AI platform
+position:
+  title: Python - Agentic AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agentic workflows, MCP tools, prompt
+      engineering patterns, RAG, and LLM reasoning layers that
+      shape model behavior in production. LLM/agent components are
+      central, so ai-first.
+  responsibilities:
+  - Design and build agentic workflows using LangGraph for multi-step healthcare processes
+    such as denial management and eligibility verification
+  - Implement a 4-tier cost architecture combining deterministic scripts, LLM fallback
+    self-healing, cached AI navigation, and full reasoning agents
+  - Build multi-agent systems with structured handoffs between specialized agents
+  - Develop reusable MCP server tools wrapping healthcare APIs and EDI/CPT/ICD-10
+    operations
+  - Build and maintain Playwright-based browser automation for payer and clearinghouse
+    portals with LLM fallback recovery
+  - Integrate agents with AWS Step Functions for durable, stateful workflow execution
+    with human-in-the-loop gates
+  use_cases:
+  - Denial management and payer intelligence for healthcare RCM
+  - Claims processing and eligibility verification automation
+  - Appeal letter generation and prior authorization workflows
+  - Browser automation of payer and clearinghouse portals with self-healing recovery
+  - EDI 835/837 transaction parsing and medical code lookup
+  skills:
+    genai: [Anthropic API, OpenAI API, Prompt Engineering, ReAct, Chain-of-Thought,
+      Structured Outputs, LangGraph, LangChain, CrewAI, AutoGen, RAG, Embeddings,
+      Semantic Search, MCP, AI Agents, Agentic Workflows, Multi-Agent Systems, AWS
+        Bedrock]
+    ml: []
+    web: [aiohttp, Playwright, Selenium, REST APIs]
+    databases: [PostgreSQL, JSONB]
+    data: []
+    cloud: [AWS, ECS, AWS Lambda, IAM, SageMaker, AWS S3, AWS Step Functions, Amazon
+        SQS, Amazon SNS, Amazon EventBridge, AWS Secrets Manager]
+    ops: [Terraform, CI/CD, Git, CloudWatch, GitHub, Distributed Systems, AWS CDK]
+    languages: [Python, asyncio, Pydantic, TypeScript]
+    domains: []
+    other: [Puppeteer, Code Review, Healthcare RCM, EDI 837/835, CARC/RARC Denial
+        Codes, OCR, HIPAA Compliance, UiPath, Twilio, Deepgram, ElevenLabs, Claude
+        Vision]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10811744'
+  location: Yelahanka, IND
+  extracted_at: '2026-08-25T12:02:08.104309'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

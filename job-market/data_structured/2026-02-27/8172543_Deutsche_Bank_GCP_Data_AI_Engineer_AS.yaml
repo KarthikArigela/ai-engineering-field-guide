@@ -1,48 +1,59 @@
 company:
   name: Deutsche Bank
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: GCP Data & AI Engineer, AS
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on building and deployment of AI
-      systems including RAG pipelines, agentic workflows, and AI
-      applications using Google ADK, Vertex AI, and vector
-      databases. This goes beyond supporting AI work to actively
-      implementing multi-agent systems and operationalizing AI
-      solutions.
+      The role explicitly builds and deploys RAG pipelines,
+      designs agentic workflows (Google ADK, A2A protocol, multi-
+      agent systems), and requires prompt engineering and
+      knowledge of LLMs and embedding models — all direct shaping
+      of LLM/agent behavior and output quality. Although heavy on
+      data engineering, the LLM-shaping responsibilities decide
+      the classification.
   responsibilities:
-  - Design, develop and maintain data pipelines using Python and SQL on GCP
-  - Work with Cloud Composer to manage and process batch data jobs efficiently
-  - Develop and deploy google cloud services using Terraform
-  - Build and deploy AI and RAG pipelines
-  - Design, build and deploy agentic workflows using Google ADK
-  - Operationalize AI applications and monitor data pipelines
-  - Implement CI/CD pipelines using GitHub Actions
-  - Consume and host REST APIs using Python
+  - Design, develop, and maintain data pipelines using Python and SQL on GCP
+  - Manage and process batch data jobs with Cloud Composer and develop complex SQL
+    queries for analysis, extraction, and transformation
+  - Build and deploy AI and RAG pipelines using Vertex AI, vector databases, and embedding
+    models
+  - Design, build, and deploy agentic workflows with Google ADK, the A2A protocol,
+    and multi-agent systems
+  - Operationalize AI applications and strategize approaches for robust, scalable
+    AI systems
+  - Develop and deploy GCP services with Terraform and implement CI/CD pipelines using
+    GitHub Actions
+  - Consume and host REST APIs using Python and automate ETL testing
+  - Monitor and troubleshoot data pipelines, including L3 support for implemented
+    workloads, using Jira and Confluence for collaboration
   use_cases:
+  - End-to-end data integration, preparation, transformation, and quality workloads
+    on GCP
   - Advanced data analytics on prepared data
-  - Retrieval-Augmented Generation (RAG) for enterprise data
-  - Multi-agent systems using agentic frameworks and a2a protocol
-  - AI-powered data transformation and quality workflows
-  - LLM-based applications using Gemini and embedding models
+  - AI use cases built on RAG pipelines and vector search over enterprise data
+  - Agentic workflow applications using Google ADK and multi-agent systems
+  - Batch data processing and orchestrated data movement
+  - L3 operational support for deployed data and AI workloads
   skills:
-    domains: []
+    cloud: [GCP, Vertex AI, Dataflow, Cloud Functions, Cloud Run, GKE]
     languages: [Python, SQL]
-    ml: [Embeddings]
-    cloud: [GCP, Cloud Function, Cloud Run, Vertex AI]
-    genai: [Google ADK, RAG, Multi-agent system, a2a protocol, Agent cards, LLMs,
-      Gemini, Prompt Engineering]
-    data: [Cloud Composer, Data Flow, Data Pipelines]
-    other: [Jira, Confluence]
-    ops: [GKE, Terraform, GitHub Actions, Bit Bucket, CI/CD]
-    web: [REST APIs, APIGEE]
+    ml: []
+    other: [Jira, Confluence, Agile]
+    ops: [Terraform, CI/CD, GitHub Actions, GitHub, Bitbucket]
     databases: [BigQuery, Vector Databases]
+    domains: []
+    web: [REST APIs, Apigee]
+    data: [Data Pipelines, Cloud Composer]
+    genai: [RAG, Agentic Workflows, Multi-Agent Systems, Google ADK, A2A Protocol,
+      Gemini, LLMs, Embeddings, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8172543'
   location: Hadapsar, IND
-  extracted_at: '2026-02-27T13:04:47.686014'
+  extracted_at: '2026-08-16T00:35:38.375794'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

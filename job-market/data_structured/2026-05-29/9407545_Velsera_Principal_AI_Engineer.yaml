@@ -1,57 +1,66 @@
 company:
   name: Velsera
-  stage: Series B+ (established company formed in 2023 via merger)
+  stage: null
   focus: |-
-    AI-powered multimodal data analytics for drug discovery and
-    clinical genomics
+    Genomics and biomedical data analytics software for life
+    sciences
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role as the engineer will build and ship
-      production AI/LLM systems including self-hosted model
-      serving, model invocation layers, and governance workflows.
-      The role requires hands-on experience with RAG, LLM tool-
-      use/agentic patterns, and operating model serving
-      infrastructure across self-hosted open-weight models and
-      cloud-managed APIs (Bedrock, Vertex AI).
+      Although the role emphasizes the platform layer (serving,
+      governance, integrations) over prompt engineering or model
+      research, the responsibilities and requirements clearly
+      involve shaping model behavior: designing RAG and LLM tool-
+      use/agentic patterns beyond prototypes, establishing
+      evaluation patterns and governance workflows (intake,
+      evaluation, approval, versioning) for LLM systems, and
+      shipping AI features end-to-end. With LLM and agent
+      components throughout, this qualifies as ai-first rather
+      than pure infrastructure work.
   responsibilities:
   - Build a governed model access layer supporting self-hosted open-weight models,
-    cloud-managed models (Bedrock), and customer-supplied models
+    cloud-managed models such as Bedrock, and customer-supplied models
   - Integrate AI capabilities into platform experiences including batch workflows
     and interactive sessions
-  - Establish patterns for model evaluation, versioning, approvals, audit trails,
-    and safe rollout procedures
-  - Design production-ready, compliant AI/LLM serving and invocation layer that is
-    multi-tenant, auditable, and secure
-  - Develop governance workflow for models covering intake, evaluation, approval,
+  - Establish patterns for evaluation, versioning, approvals, audit trails, and safe
+    rollout of AI features
+  - Ship a first set of AI-in-the-platform features end-to-end such as assisted validation/compliance
+    tooling, cost/error assistance, and workflow helpers
+  - Define a governance workflow for models covering intake, evaluation, approval,
     versioning, and deprecation for regulated customers
-  - Create AI-native platform features such as assisted validation tooling, cost/error
-    assistance, and workflow helpers
+  - Design for security, auditability, and compliance in regulated environments (FedRAMP,
+    HIPAA, 21 CFR Part 11, GxP) across AWS, Azure, and GCP
+  - Ensure operational readiness with monitoring, incident playbooks, and measurable
+    SLOs for key AI services
+  - Set technical direction for a growing AI platform team, partnering with product,
+    security/compliance, and scientific teams
   use_cases:
   - AI-powered multimodal data harmonization and analytics for drug discovery and
     development
-  - Clinical NGS interpretation, reporting, and adoption for genomic analysis
-  - Assisted validation and compliance tooling for regulated biomedical workflows
-  - Cost and error assistance for reproducible analysis pipelines
-  - Workflow helpers for scientific and pharmaceutical research teams
-  - Secure, auditable model serving for regulated life sciences environments
+  - Clinical NGS interpretation, reporting, and adoption
+  - Governed AI/LLM serving and invocation embedded in reproducible biomedical analysis
+    workflows
+  - Assisted validation and compliance tooling for regulated environments
+  - Workflow helpers and cost/error assistance within scientific analysis pipelines
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Bedrock, Vertex AI, IAM]
     languages: [Python, Java, Go, TypeScript]
-    ml: [Open-weight models]
-    cloud: [AWS, Azure, GCP, FedRAMP, HIPAA, 21 CFR Part 11, GxP, Security architectures,
-      IAM, Network isolation]
-    genai: [AWS Bedrock, Google Vertex AI, RAG, LLM tool-use/agentic patterns]
-    data: [CWL, WDL, Nextflow, FHIR, OMOP, GA4GH standards]
-    other: []
-    ops: [Model Deployment, MLOps, Model governance]
-    web: []
+    ml: []
+    other: [FedRAMP, HIPAA Compliance, 21 CFR Part 11, GxP, Nextflow, CWL, WDL, GA4GH,
+      FHIR, OMOP, Genomics]
+    ops: [MLOps, Model Deployment, Monitoring]
     databases: []
+    domains: []
+    web: []
+    data: [Data Governance]
+    genai: [LLMs, RAG, Agentic Workflows, Function Calling, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9407545'
   location: Pune, IND
-  extracted_at: '2026-05-29T09:03:51.836781'
+  extracted_at: '2026-08-16T10:59:56.815720'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

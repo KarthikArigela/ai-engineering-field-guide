@@ -1,0 +1,55 @@
+company:
+  name: Epiq
+  stage: null
+  focus: Alternative legal services and legal technology
+position:
+  title: Software Engineer, Infrastructure, AI Labs
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates cloud infrastructure
+      (Terraform, Kubernetes, CI/CD, observability) beneath an AI
+      platform but never shapes model behavior - no prompts,
+      retrieval, agent design, training, or evals. Judge the role,
+      not the employer: this is platform/infra engineering at an
+      AI company.
+  responsibilities:
+  - Design and implement cloud infrastructure with Terraform, including reusable modules,
+    environment topology, and drift remediation
+  - Operate production Kubernetes including orchestration, autoscaling, resource governance,
+    network policy, and cluster lifecycle
+  - Build CI/CD and release infrastructure with progressive delivery and rollback
+    mechanisms
+  - Define platform service-level objectives and build metrics, tracing, alerting,
+    and error-budget practices
+  - Implement security and compliance infrastructure including hardening, audit logging,
+    data-residency controls, retention, and legal hold
+  - Maintain network, secrets, key, credential, TLS, and certificate-lifecycle infrastructure
+  - Contribute to incident response, post-incident review, developer tooling, and
+    architectural review
+  use_cases:
+  - Cloud infrastructure platform for Epiq's AI legal services platform
+  - Infrastructure supporting intelligent agents, reasoning engines, and knowledge
+    systems for litigation, investigations, and compliance
+  - Security and compliance infrastructure for legal data residency, retention, and
+    legal hold
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [PostgreSQL]
+    data: [RabbitMQ]
+    cloud: [Azure, AWS, GCP]
+    ops: [Terraform, Kubernetes, CI/CD, Prometheus, Grafana, OpenTelemetry, Docker,
+      GitHub Actions, Azure DevOps, Infrastructure as Code, Observability, Monitoring]
+    languages: [Python, Go]
+    domains: []
+    other: [System Design]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10651350'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:06:52.059408'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,55 @@
+company:
+  name: Capgemini
+  stage: null
+  focus: Global IT consulting and technology services
+position:
+  title: AI UX/UI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs an end-to-end wireframe generation and
+      vibecoding agent workflow, curates the design system into
+      machine-consumable agent context, and encodes accessibility
+      rules as agent constraints — directly shaping agent behavior
+      and output quality. Uses AI code-gen tools like Claude Code,
+      Figma Make, and v0 as the core pipeline.
+  responsibilities:
+  - Design and build the wireframe generation and vibecoding workflow end to end,
+    from intent capture through component output into the UI shell
+  - Curate the client's enterprise design system into a machine-consumable form the
+    agent can encode and enforce (components, tokens, interaction patterns, accessibility
+    rules)
+  - Establish Storybook as the canonical artifact and visual review surface
+  - 'Define the human-in-the-loop review model: what UX approves, at what fidelity,
+    with what confidence signals'
+  - Ship React components and vibecoded UX artifacts into the Box & Tree MFE shell
+    feeding the SAFe decomposition pipeline (Story/Gherkin generation)
+  - Partner with the client's UX team as stakeholders and end users; align scope with
+    delivery partners within SOW
+  use_cases:
+  - Automated generation of interactive wireframes from design intent
+  - Vibecoded UX component generation deployed into a micro-frontend shell
+  - Design system enforcement by an AI agent (tokens, components, WCAG accessibility
+    constraints)
+  - Downstream SAFe decomposition with automated Story and Gherkin generation
+  - Human-in-the-loop UX review of AI-generated artifacts
+  skills:
+    genai: [Claude Code, AI Agents, Prompt Engineering]
+    ml: []
+    web: [React, Storybook, Microservices]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: [Design Systems, Accessibility, Component-Driven Development, Figma, SAFe,
+      Gherkin]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10404727'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-25T10:00:07.228606'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

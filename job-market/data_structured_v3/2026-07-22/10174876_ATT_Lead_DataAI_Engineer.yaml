@@ -1,0 +1,64 @@
+company:
+  name: AT&T
+  stage: null
+  focus: Telecommunications, connectivity, and technology services
+position:
+  title: Lead Data/AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it designs,
+      optimizes, and evaluates prompts, architects RAG and context
+      management strategies, builds agent workflows with
+      LangGraph, fine-tunes LLMs, and builds LLM evals and
+      guardrails. LLMs and agents are the core of the work, so it
+      is ai-first.
+  responsibilities:
+  - Design, optimize, and evaluate prompts for LLMs to achieve precise, contextually
+    appropriate outputs across diverse use cases
+  - Architect dynamic context management strategies including session memory, retrieval-augmented
+    generation, and user personalization to enhance agent performance
+  - Build and manage complex conversational and agent workflows using frameworks like
+    LangGraph to support multi-agent and multi-step solutions
+  - Integrate, fine-tune, and orchestrate LLMs within Python-based applications for
+    scalable production deployment
+  - Develop and maintain backend services and APIs to deliver end-to-end AI applications
+  - Implement testing, monitoring, and evaluation pipelines to continuously improve
+    prompt effectiveness, context handling, and agent performance
+  - Architect and optimize robust data pipelines, translating AI use case requirements
+    into data models and ensuring data integrity through statistical quality procedures
+  - Collaborate with product, data science, and engineering teams, mentor peers, and
+    advocate best practices in DevOps and secure, ethical AI automation
+  use_cases:
+  - Autonomous AI agents that automate complex enterprise workflows
+  - Intelligent automation driving organizational productivity and cost savings
+  - Context-rich conversational agents with session memory and personalization
+  - RAG-based knowledge retrieval and grounding for agent answers
+  - Smarter operations and adaptive digital services via seamless data pipelines
+  skills:
+    genai: [LLMs, Prompt Engineering, RAG, LangGraph, AI Agents, Agentic Workflows,
+      OpenAI API, Anthropic API, Fine-Tuning, Context Engineering, Embeddings, LLM
+        Evaluation, LLM-as-a-Judge, Guardrails, LoRA, QLoRA, DPO, GitHub Copilot,
+      Cursor, Windsurf]
+    ml: [Machine Learning, Statistics, scikit-learn, XGBoost, LightGBM, CatBoost,
+      Feature Engineering, Model Evaluation]
+    web: [FastAPI, Flask, REST APIs, GraphQL, Microservices]
+    databases: [Snowflake, NoSQL, Vector Search]
+    data: [Spark, Kafka, Databricks, Data Pipelines]
+    cloud: []
+    ops: [Docker, CI/CD, DevOps, Model Monitoring]
+    languages: [Python, Java, Scala, SQL]
+    domains: []
+    other: [Visual Studio, A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10174876'
+  location: Bratislava, SVK
+  locations:
+  - Bratislava, SVK
+  - Burari, IND
+  - Brno, CZE
+  extracted_at: '2026-08-16T17:34:34.105190'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

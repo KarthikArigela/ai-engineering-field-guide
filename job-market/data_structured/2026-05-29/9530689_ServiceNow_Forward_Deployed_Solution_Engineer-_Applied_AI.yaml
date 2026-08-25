@@ -1,57 +1,57 @@
 company:
   name: ServiceNow
-  stage: Public
-  focus: AI-powered enterprise workflow automation platform
+  stage: null
+  focus: Enterprise AI platform for workflow automation
 position:
   title: Forward Deployed Solution Engineer- Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role directly building
-      and deploying LLM-enabled applications. The role involves
-      hands-on work with LangChain, Semantic Kernel, vector
-      databases, prompt chaining, and LLM pipelines - working
-      directly ON AI systems, not just supporting them.
+      The role builds LLM-enabled applications end-to-end,
+      authoring prompts and prompts scaffolds, applying prompt
+      chaining, vector search and context management, and using
+      LLM frameworks like LangChain and Semantic Kernel — direct
+      shaping of LLM behaviour and retrieval. It is also
+      explicitly a Forward Deployed Engineer role adapting AI
+      solutions at customer sites, which is ai-first.
   responsibilities:
   - Build solution-ready LLM-enabled applications spanning backend logic, data orchestration,
     and front-end UI
-  - Operate in the field alongside customers to adapt, deploy, and iterate solutions
-    in live production environments
-  - Codify reusable assets including libraries, prompts, and scaffolds to accelerate
-    future customer engagements
-  - Shape developer experience by providing feedback to platform and product teams
-  - Design and implement AI-native software in production environments with focus
-    on scalability and security
-  - Engineer with versatility across APIs, orchestration pipelines, vector DBs, LLM
-    frameworks, and UI components
-  - Build scaffolds, SDKs, and documentation to scale success across customers
-  - Inform product strategy through field-tested insights and extensible code contributions
+  - Operate in the field, working side-by-side with customers to design, deploy, and
+    iterate in live environments
+  - Deliver production-ready solutions in agile end-to-end sprints
+  - Codify reusable assets such as libraries, prompts, scaffolds, SDKs, and documentation
+    to scale success across customers
+  - Engineer across APIs, orchestration pipelines, vector DBs, LLM frameworks, and
+    UI components
+  - Integrate with legacy enterprise systems while shipping safely at speed in high-stakes
+    contexts
+  - Influence platform and product strategy by sharing field-tested insights and extensible
+    code
   use_cases:
-  - Enterprise workflow automation and AI-powered business process transformation
-  - Integration of AI capabilities into SaaS platforms for enterprise operational
-    efficiency
-  - Building intelligent, scalable AI solutions that solve mission-critical enterprise
-    challenges
-  - Production deployment of LLM-enabled applications in secure, regulated enterprise
-    environments
-  - AI-native solution development for Fortune 500 customers across multiple industries
-  - Real-time AI system deployment and iteration in customer-embedded environments
+  - Enterprise GenAI applications solving customers' mission-critical business challenges
+  - AI-powered workflows that scale in production across industries
+  - Reference implementations for scalable enterprise GenAI deployments
+  - Integration of AI capabilities into SaaS platforms such as ServiceNow and Salesforce
+  - Secure AI solution deployments in regulated enterprise environments
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python, Node.js, Java]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [LangChain, Semantic Kernel, Prompt Engineering, prompt chaining]
-    data: []
-    other: []
-    ops: [CI/CD, Docker, infrastructure-as-code, distributed systems monitoring, latency
-        tuning]
-    web: [React, Angular, REST, GraphQL]
+    other: [ServiceNow, Salesforce]
+    ops: [CI/CD, Infrastructure as Code, Docker, Monitoring, Distributed Systems]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [React, Angular, REST APIs, GraphQL]
+    data: []
+    genai: [LLMs, Generative AI, LangChain, Semantic Kernel, Prompt Engineering, Context
+        Engineering]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9530689'
   location: New York, USA
   remote: true
-  extracted_at: '2026-05-29T09:09:42.153042'
+  extracted_at: '2026-08-16T12:19:44.297507'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

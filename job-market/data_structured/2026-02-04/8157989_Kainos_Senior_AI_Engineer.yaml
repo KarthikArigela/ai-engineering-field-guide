@@ -1,50 +1,53 @@
 company:
   name: Kainos
   stage: null
-  focus: AI and data solutions consulting
+  focus: |-
+    Digital services and AI/data solutions for enterprise and
+    government
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on deployment of AI solutions
-      including prompt engineering, RAG, model evaluation, fine-
-      tuning LLMs, and implementing agentic AI. This involves
-      direct work with building and deploying models, not just
-      supporting infrastructure.
+      The essential requirements centre on shaping LLM behaviour:
+      prompt engineering, RAG, model evaluation and monitoring,
+      with desirable experience fine-tuning or distilling LLMs
+      (GPT, Llama, Claude, Gemini). These activities determine
+      model output quality and explicitly involve LLMs, so the
+      role is ai-first.
   responsibilities:
-  - Deliver advanced AI solutions using state-of-the-art machine learning, generative
+  - Deliver advanced AI solutions leveraging state-of-the-art machine learning, generative
     and agentic AI technologies
+  - Deploy modern AI/ML solutions into production, including prompt engineering, RAG,
+    model evaluation and monitoring
   - Drive adoption of modern AI frameworks, AIOps best practices and scalable cloud-native
     architectures
   - Collaborate with customers to translate business challenges into trustworthy AI
     solutions
-  - Ensure responsible AI practices throughout project lifecycles including model
-    interpretability and ethical considerations
-  - Provide technical mentorship and foster culture of innovation and engineering
-    excellence
-  - Deploy AI/ML solutions into production with monitoring using metrics like precision,
-    recall, NDCG and drift detection
-  - Handle large-scale, unstructured, and multimodal data engineering for AI workloads
+  - Ensure responsible AI practices, model interpretability and ethical considerations
+    throughout delivery
+  - Mentor and provide technical direction to more junior developers and colleagues
+  - Foster a culture of innovation, continuous learning and engineering excellence
   use_cases:
-  - Government digital services transformation at citizen scale
-  - Healthcare AI solutions with responsible and ethical deployment
-  - Defence sector AI applications with security and compliance standards
-  - Enterprise AI solutions with agentic AI capabilities
-  - Production-grade RAG applications for knowledge retrieval
-  - LLM fine-tuning and deployment for commercial clients
+  - Production-grade AI solutions for government, healthcare, defence and commercial
+    clients
+  - Generative AI and agentic AI applications delivered at citizen scale
+  - Trustworthy AI deployment with responsible AI and security compliance standards
+  - Model evaluation and monitoring of AI systems in production
+  - RAG and semantic search solutions using vector databases and knowledge graphs
   skills:
-    domains: []
+    cloud: [Azure, AWS]
     languages: [Python]
-    ml: [PyTorch, TensorFlow, Model distillation, scikit-learn, XGBoost, Model Evaluation,
-      Drift detection]
-    cloud: [AWS, Azure]
-    genai: [Prompt Engineering, RAG, AI Agents, Fine-Tuning, Semantic search]
-    data: []
-    other: [Responsible AI]
-    ops: [Docker, Kubernetes, CI/CD, AIOps]
-    web: []
+    ml: [Model Evaluation, Model Interpretability, Machine Learning, PyTorch, TensorFlow,
+      scikit-learn, XGBoost]
+    other: [Responsible AI, ISO42001]
+    ops: [CI/CD, Kubernetes, Docker, Monitoring, AIOps]
     databases: [Vector Databases, Knowledge Graphs]
+    domains: []
+    web: []
+    data: [Data Engineering]
+    genai: [Prompt Engineering, RAG, LLMs, Fine-Tuning, Generative AI, AI Agents,
+      Llama, Gemini, GPT, Anthropic API, Semantic Search]
   is_customer_facing: true
   is_management: false
 meta:
@@ -56,4 +59,6 @@ meta:
   - Birmingham, GBR
   - Belfast, GBR
   remote: true
-  extracted_at: '2026-02-05T12:06:27.722352'
+  extracted_at: '2026-08-15T22:46:20.433296'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

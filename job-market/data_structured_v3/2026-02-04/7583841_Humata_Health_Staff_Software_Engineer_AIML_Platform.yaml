@@ -1,0 +1,60 @@
+company:
+  name: Humata Health
+  stage: null
+  focus: |-
+    AI automation of healthcare prior authorization document
+    processing
+position:
+  title: Staff Software Engineer (AI/ML Platform)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role designs and operates the AI/ML platform and MLOps
+      infrastructure — model versioning, feature stores, drift
+      monitoring, CI/CD, and backend services — rather than
+      shaping model behaviour. There is no evidence of prompt
+      design, retrieval/agent flows, or model training/fine-
+      tuning; the deliverable is platform reliability and scale
+      for models built by others, with drift monitoring being ops-
+      level monitoring infrastructure.
+  responsibilities:
+  - Own the long-term technical roadmap, design, and implementation of highly available,
+    performant services and infrastructure across the AI/ML platform using Python,
+    Go, and JavaScript/TypeScript
+  - Serve as technical leader and subject matter expert, driving alignment across
+    engineering, data science, product, and security teams on platform requirements
+    and best practices
+  - Define and implement the strategic vision for MLOps, including model versioning,
+    feature stores, drift monitoring, and CI/CD pipelines for regulated healthcare
+    data
+  - Lead development of resilient, high-throughput backend services and APIs (REST,
+    gRPC) that integrate ML system components and core services
+  - Mentor and coach senior and mid-level engineers, raising the bar for engineering
+    excellence, observability, testing, and documentation
+  - Act as critical escalation point for complex production issues, debugging and
+    optimizing performance bottlenecks across services and infrastructure
+  use_cases:
+  - Automated prior authorization document processing for health insurance companies
+  - Handling regulated healthcare data with rigorous security and compliance standards
+  - ML platform services powering document processing to improve healthcare efficiency
+    and patient outcomes
+  skills:
+    genai: []
+    ml: [ML Engineering]
+    web: [REST APIs, gRPC, Microservices]
+    databases: []
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [MLOps, CI/CD, Docker, Kubernetes, Model Versioning, Feature Stores, Model
+        Monitoring, Model Serving, Model Deployment, Experiment Tracking]
+    languages: [Python, Go, JavaScript, TypeScript]
+    domains: []
+    other: [FHIR, HL7, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7583841'
+  location: USA
+  extracted_at: '2026-08-15T21:48:36.266347'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

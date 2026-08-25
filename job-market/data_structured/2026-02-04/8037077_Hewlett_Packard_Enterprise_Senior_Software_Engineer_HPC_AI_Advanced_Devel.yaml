@@ -1,53 +1,52 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: |-
-    Edge-to-cloud computing solutions, HPC systems, and
-    enterprise infrastructure
+  stage: null
+  focus: Edge-to-cloud enterprise IT solutions and services
 position:
   title: Senior Software Engineer – HPC & AI Advanced Development
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on HPC infrastructure, distributed
-      systems, and data pipelines for simulation telemetry. While
-      there are "nice to have" mentions of AI surrogates and LLMs,
-      the core responsibilities involve building scalable
-      workflows, data analysis infrastructure, and distributed
-      memory programming - all supporting technologies for AI/HPC
-      workloads rather than directly building or deploying AI
-      models.
+      The core responsibilities are HPC systems engineering:
+      scaling discrete-event simulations on supercomputers and
+      building distributed data-analysis workflows for telemetry,
+      with no shaping of model behavior. LLM fine-tuning and AI
+      surrogates appear only as nice-to-haves, so the role is ai-
+      support.
   responsibilities:
-  - Develop distributed HPC/AI workflows for processing large-scale telemetry datasets
-    (terabytes to petabytes)
-  - Compose and integrate open-source solutions using distributed and parallel programming
-    approaches for scaling data and simulations
-  - Collaborate in consensus-driven design processes and Agile development environments
-  - Create technical documentation, collaborate with users, and present progress through
-    various communication channels
+  - Develop distributed HPC/AI workflows for interactive processing of large-scale
+    telemetry datasets from terabytes to petabytes
+  - Scale high-fidelity discrete-event simulations on HPE supercomputers using distributed-memory
+    and resilient execution techniques like checkpointing
+  - Build solutions by composing existing open-source software and applying distributed
+    and parallel programming approaches to scale data and simulation sizes
+  - Develop workflows for distributed, large-scale analysis of traces, logs, and telemetry
+    data from simulations and HPC systems
+  - Participate in a collaborative, consensus-driven design process in an Agile development
+    environment
+  - Create documentation, collaborate with users, and present progress in writing,
+    slides, and verbally
   use_cases:
-  - Scaling high-fidelity discrete-event simulations on HPE supercomputers using distributed
-    memory and checkpointing
-  - Distributed large-scale data analysis of traces, logs, and telemetry data from
-    simulations and HPC systems
-  - Interactive processing of massive telemetry datasets for HPC system monitoring
-    and analysis
-  - Digital twin software development integrated with visualization tools and AI/ML
-    workflows
-  - AI surrogate development for real-time HPC system error detection
-  - LLM-powered chat interfaces for analysis and development environments
+  - Distributed analysis of traces, logs, and telemetry from simulations and HPC systems
+  - Scalable discrete-event simulation of HPC system designs on supercomputers
+  - Interactive processing of terabyte to petabyte scale datasets
+  - Resilient large-scale simulation execution via checkpointing
+  - Real-time HPC system error detection with AI surrogates
+  - LLM-powered chat interface for analysis and development environments
   skills:
-    domains: [SST simulator, digital twin, discrete event simulation]
-    languages: [Python, C, C++]
-    ml: [AI surrogates, Fine-Tuning]
     cloud: []
-    genai: [LLMs]
-    data: [Pandas, NumPy, Dask, Spark]
-    other: []
-    ops: [Docker, Kubernetes, Slurm, Podman, Apptainer, CI/CD, checkpointing techniques,
-      distributed memory programming, performance debugging, AIOps]
-    web: []
+    languages: [C, C++, Python]
+    ml: [AI Surrogates]
+    other: [HPC, Scientific Computing, Parallel Programming, Version Control, Code
+        Review, Automated Testing, Digital Twin, Discrete Event Simulation, SST, Checkpointing,
+      Performance Optimization]
+    ops: [Distributed Systems, CI/CD, Docker, Podman, Apptainer, Slurm, Kubernetes,
+      AIOps, MLOps]
     databases: []
+    domains: []
+    web: [Full-Stack Development]
+    data: [Pandas, NumPy, Dask, Spark, Data Engineering, Data Science]
+    genai: [LLMs, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
@@ -59,4 +58,6 @@ meta:
   - San Jose, USA
   - Washington, USA
   remote: true
-  extracted_at: '2026-02-05T11:52:16.898827'
+  extracted_at: '2026-08-15T22:33:37.972824'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

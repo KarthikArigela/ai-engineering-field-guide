@@ -1,56 +1,60 @@
 company:
   name: Ciklum
   stage: null
-  focus: Custom product engineering and technology consulting
+  focus: Custom product engineering and technology services company
 position:
   title: Senior AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, developing, and
-      deploying production-grade AI solutions powered by LLMs,
-      RAG, and advanced NLP techniques. The engineer will build
-      automated evaluation frameworks, optimize retrieval
-      architectures, and work hands-on with vector databases and
-      embeddings — all core AI/ML system building activities.
+      The role directly shapes LLM output quality: leading audits
+      of RAG pipelines, optimizing hybrid retrieval (BM25, vector
+      databases, semantic search), and building automated LLM
+      evaluation frameworks (RAGAS) that measure faithfulness and
+      relevance. This is clearly ai-first per Step 2, since
+      LLM/RAG components dominate the work.
   responsibilities:
-  - Design, develop, and deploy production-grade AI/ML applications using Python
-  - Lead technical audits of RAG pipelines and optimize hybrid retrieval strategies
-    combining BM25, vector databases, and semantic search
-  - Build automated evaluation frameworks using RAGAS and other LLM assessment methodologies
-  - Develop Python-based validation harnesses to measure faithfulness, relevance,
-    answer correctness, and retrieval effectiveness
-  - Integrate evaluation metrics into CI/CD pipelines and Azure DevOps quality gates
-  - Provide technical leadership, conduct code reviews, and mentor mid-level engineers
+  - Design, develop, and deploy production-grade AI/ML applications using Python,
+    translating architectural blueprints into scalable, maintainable code
+  - Lead technical audits of RAG pipelines and retrieval architectures
+  - Optimize hybrid retrieval strategies combining BM25, vector databases, and semantic
+    search techniques
+  - Instrument and monitor KPIs across pgvector-based retrieval systems and implement
+    enhancements to improve relevance and accuracy
+  - Build automated evaluation frameworks using RAGAS and develop Python-based validation
+    harnesses measuring faithfulness, relevance, and answer correctness
+  - Establish AI quality scorecards and performance benchmarks, integrating evaluation
+    metrics into CI/CD pipelines and Azure DevOps quality gates
+  - Provide technical leadership, guidance, and mentoring to mid-level engineers and
+    conduct code reviews
   - Collaborate with product managers, architects, and stakeholders to define technical
-    roadmaps
-  - Drive continuous improvement initiatives across AI engineering and testing practices
+    roadmaps and delivery plans
   use_cases:
-  - Enterprise-grade AI solutions powered by LLMs and RAG
-  - Retrieval-augmented generation and search optimization for knowledge retrieval
-  - Automated AI quality assurance and evaluation for production AI systems
-  - NLP-driven applications for complex business challenges
-  - Scalable and reliable AI product delivery for multinational organizations and
-    startups
+  - Enterprise-grade AI solutions powered by LLMs, RAG, and advanced NLP
+  - Hybrid enterprise search and retrieval optimization using BM25, pgvector, and
+    vector databases
+  - Automated quality evaluation and validation of RAG applications
+  - Production AI/ML applications for complex business challenges
   skills:
-    genai: [LLMs, RAG, Semantic Search, Prompt Engineering, OpenAI API, Anthropic
-        API, Azure OpenAI, LangChain, LlamaIndex, Semantic Kernel, LLM Evaluation,
-      Embeddings]
-    ml: [NLP, Machine Learning]
-    web: []
-    databases: [PostgreSQL, pgvector, Vector Databases]
-    data: [Data Pipelines]
     cloud: [Azure, AWS, GCP]
+    languages: [Python]
+    ml: [Machine Learning]
+    other: [BM25, Responsible AI]
     ops: [Azure DevOps, CI/CD, Monitoring, Observability]
-    languages: [Python, SQL]
-    domains: []
-    other: [Distributed Systems, Code Review, Responsible AI]
+    databases: [pgvector, Vector Databases, PostgreSQL]
+    domains: [NLP]
+    web: []
+    data: [Data Pipelines]
+    genai: [RAG, LLMs, Generative AI, Semantic Search, Embeddings, RAGAS, LLM Evaluation,
+      Azure OpenAI, OpenAI API, Anthropic API, LangChain, LlamaIndex, Semantic Kernel]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10277026'
   location: Pune, IND
   locations:
   - Pune, IND
   - Chennai, IND
-  extracted_at: '2026-07-22T13:38:27.226673'
+  extracted_at: '2026-08-16T18:25:17.017971'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

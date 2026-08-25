@@ -1,47 +1,52 @@
 company:
   name: Jade Global
   stage: null
-  focus: IT services and consulting company
+  focus: null
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role focused on building,
-      deploying, and productionizing LLM-based GenAI applications.
-      The engineer works directly on models, implementing RAG
-      pipelines, agentic systems, and multi-agent architectures
-      using modern GenAI frameworks.
+      The role builds LLM-based GenAI applications end-to-end:
+      designing RAG pipelines, agentic/multi-agent systems with
+      MCP and A2A, and doing prompt engineering and fine-tuning,
+      all of which directly shape LLM behavior. With LLM and agent
+      components central to the work, this is ai-first.
   responsibilities:
   - Build and deploy LLM-based GenAI applications end-to-end
+  - Work with multiple LLMs including OpenAI/Azure OpenAI, Gemini, Claude, Llama,
+    and Mistral
   - Design and implement agentic and multi-agent systems using MCP and A2A
   - Develop RAG pipelines and document intelligence solutions
-  - Build AI backend services using FastAPI and Flask
-  - Develop and integrate chat UIs, copilots, and dashboards with AI APIs
+  - Build AI backend services with FastAPI and Flask, integrating chat UIs, copilots,
+    and dashboards with AI APIs
   - Productionize, deploy, and monitor AI systems on cloud platforms
   - Ensure performance, security, scalability, and Responsible AI compliance
-  - Fine-tune open-source LLMs using LoRA, PEFT, and Hugging Face
   use_cases:
-  - Enterprise document intelligence and knowledge management
-  - AI-powered chatbots and copilots for business operations
-  - Agentic AI systems for autonomous task execution
-  - RAG-based search and retrieval across organizational data
-  - Multi-agent workflows for complex business process automation
+  - Enterprise chat interfaces and copilots powered by multiple LLMs
+  - Document intelligence and retrieval-augmented Q&A over business documents
+  - Agentic and multi-agent automation of enterprise workflows
+  - AI dashboards and backend services integrated with AI APIs
+  - RPA combined with agentic AI for process automation
   skills:
+    cloud: [Azure, AWS, GCP, Azure ML, SageMaker, Vertex AI]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, NLP, Hugging Face]
+    other: [Responsible AI, RPA, Async Workflows]
+    ops: [MLOps, Docker, Kubernetes, CI/CD, MLflow]
+    databases: [Vector Databases, FAISS, Pinecone, Weaviate, Chrom, Milvus]
     domains: []
-    languages: [Python, JavaScript]
-    ml: [Hugging Face, Fine-Tuning, Deep Learning, NLP]
-    cloud: [Azure, AWS, GCP, SageMaker, Vertex AI, Azure ML]
-    genai: [OpenAI API, Azure OpenAI, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen,
-      RAG, Prompt Engineering, LLMs, Embeddings, MCP, LoRA]
+    web: [FastAPI, Flask, HTML, CSS, JavaScript, Streamlit, React, REST APIs, WebSockets]
     data: []
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, MLflow]
-    web: [FastAPI, Flask, REST, WebSockets, React, HTML, CSS, Streamlit]
-    databases: [FAISS, Pinecone, Weaviate, Chroma, Milvus]
+    genai: [LLMs, OpenAI API, Azure OpenAI, Gemini, Anthropic API, Llama, Mistral,
+      MCP, A2A, Agentic Workflows, Multi-Agent Systems, AI Agents, RAG, LangChain,
+      LangGraph, LlamaIndex, CrewAI, AutoGen, Google ADK, Microsoft Copilot, Prompt
+        Engineering, Embeddings, Generative AI, Fine-Tuning, LoRA]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9186117'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:56:20.243324'
+  extracted_at: '2026-08-16T09:20:19.185532'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

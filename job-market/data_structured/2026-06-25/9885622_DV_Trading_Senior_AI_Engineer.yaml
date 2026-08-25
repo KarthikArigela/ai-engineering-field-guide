@@ -1,45 +1,49 @@
 company:
   name: DV Trading
-  stage: Established (spun out in 2016, 600+ employees)
-  focus: Proprietary trading and financial services
+  stage: ''
+  focus: |-
+    Proprietary trading firm providing liquidity to financial
+    markets
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building production agent systems,
-      defining agent and MCP development standards, and shipping
-      reference implementations of LLM-powered agents. The
-      engineer works hands-on with agent systems, tool-calling,
-      and multi-model environments, not just supporting
-      infrastructure for others.
+      The role directly shapes LLM/agent behavior: defining
+      standards for agent and MCP development, building production
+      LLM-powered agent applications, designing patterns for
+      connecting agents to tools and data sources, and agent
+      evaluation. This is squarely Step 1 shaping work on
+      LLM/agent systems, so it is ai-first.
   responsibilities:
   - Define firm-wide standards for agent and MCP development
-  - Build reference agent applications for business teams
+  - Build reference agent applications that demonstrate production patterns for business
+    teams
   - Design patterns for connecting agents to internal databases, APIs, and knowledge
     sources
   - Establish security and governance requirements for AI in a regulated trading environment
-  - Partner with Security on AI-specific controls including data access, audit, and
+  - Partner with Security on AI-specific controls covering data access, audit, and
     threat detection
   - Evaluate and adopt infrastructure for agent deployment and observability
   - Partner with stakeholders to identify and deliver high-value AI use cases
   use_cases:
-  - Production agent systems for financial trading operations
-  - Agent-based access to internal databases, APIs, and knowledge sources
-  - AI governance and standardization across a regulated trading firm
-  - Agent deployment with security controls in a sensitive-data environment
+  - Agent-based applications delivered to business teams at a proprietary trading
+    firm
+  - Connecting AI agents to internal databases, APIs, and knowledge sources
+  - Secure, governed AI adoption in a regulated trading environment
+  - Agent deployment and observability infrastructure
+  - High-value firm-wide AI use cases identified with stakeholders
   skills:
-    domains: [Financial services security and compliance]
-    languages: [Python, SQL]
-    ml: []
     cloud: []
-    genai: [Agent systems, MCP, Tool-calling, 'Multi-model environments (Claude, GPT)',
-      Agent evaluation and testing, LLM-powered systems]
-    data: []
-    other: []
+    languages: [Python]
+    ml: []
+    other: [Security]
     ops: [Kubernetes, CI/CD, Observability]
-    web: [APIs]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, AI Agents, MCP, Function Calling, Anthropic API, GPT, Agent Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
@@ -48,4 +52,6 @@ meta:
   locations:
   - Chicago, USA
   - New York, USA
-  extracted_at: '2026-06-25T19:57:00.514772'
+  extracted_at: '2026-08-16T15:48:08.786190'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,55 @@
 company:
   name: Astronomer
-  stage: Series C or later
-  focus: Unified DataOps platform powered by Apache Airflow
+  stage: null
+  focus: Commercial DataOps platform built around Apache Airflow
 position:
   title: Senior Software Engineer, Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building AI systems using LLMs,
-      embeddings, and retrieval techniques to create an
-      intelligence layer for data. The engineer will design and
-      implement components for semantic search, code generation,
-      and information retrieval - working hands-on with AI models
-      rather than just supporting AI infrastructure.
+      The role designs and engineers the "brain" of Astronomer's
+      context layer - crafting semantic search, retrieval, and
+      code generation components and experimenting with LLMs,
+      embeddings, and cutting-edge retrieval techniques to make
+      LLMs effective for data work. This is shaping
+      retrieval/context assembly and LLM output quality, with LLMs
+      explicitly central, so ai-first.
   responsibilities:
-  - Shape the future of AI for data engineering by building intelligent systems that
-    understand, reason about, and optimize the flow of data across organizations
-  - Design and engineer the brain of Astronomer's context layer, crafting components
-    that power data modeling, semantic search, retrieval, and code generation
-  - Push the boundaries of applied AI by experimenting with LLMs, embeddings, and
-    cutting-edge retrieval techniques to create developer tools
-  - Turn research into reality by working with R&D and product teams to bring early
-    AI concepts to life in the product experience
-  - Solve high-impact information retrieval and search challenges at a global scale
-    using Astronomer's visibility into data pipelines
+  - Design and engineer the brain of Astronomer's global context layer, including
+    components for data modeling, semantic search, retrieval, and code generation
+  - Experiment with LLMs, embeddings, and cutting-edge retrieval techniques to build
+    developer tools for data practitioners
+  - Solve high-impact information retrieval and search challenges at global scale
+  - Build intelligent systems that understand, reason about, and optimize the flow
+    of data across organizations
+  - Collaborate side by side with R&D and product teams to bring early AI concepts
+    into the product experience
   - Influence the technical vision and architecture for the next generation of AI-driven
     data products
+  - Represent Astronomer in the community through open-source contributions, technical
+    talks, and publications
   use_cases:
-  - Global context layer for data providing intelligence across organizations from
-    raw ingestion to production dashboards and AI products
-  - AI-powered search and discovery enabling data practitioners to find and understand
-    data across their organization
-  - LLM-assisted code generation for data and analytics workflows, generating Python
-    and SQL code against data platforms
-  - Automated root cause analysis for data pipelines using AI to understand and diagnose
-    data flow issues
-  - Semantic information retrieval for data platforms allowing natural language queries
-    over data infrastructure and metadata
+  - Search and discovery over organizational data
+  - Code generation for data and analytics
+  - Automated root cause analysis of data pipelines
+  - Semantic search and retrieval over a global data context layer
+  - Developer tools that give data practitioners the metadata needed to use LLMs effectively
   skills:
-    domains: []
+    cloud: []
     languages: [Python, SQL]
     ml: []
-    cloud: []
-    genai: [LLMs, Embeddings, retrieval techniques, code generation, semantic search,
-      information retrieval]
-    data: [Airflow, Data Pipelines]
-    other: [R&D collaboration]
-    ops: []
-    web: []
+    other: []
+    ops: [Machine Learning Infrastructure]
     databases: [Vector Databases]
+    domains: [Information Retrieval]
+    web: []
+    data: [Airflow, Data Modeling, Data Pipelines]
+    genai: [LLMs, Embeddings, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7423323'
   location: New York, USA
-  extracted_at: '2026-02-05T10:51:11.128940'
+  extracted_at: '2026-08-15T21:37:02.112024'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,55 @@
 company:
   name: Airtable
   stage: null
-  focus: No-code app platform for accelerating business processes
+  focus: No-code app platform for business workflow automation
 position:
   title: AI Analytics Engineer (Marketing Analytics)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is building data infrastructure and BI dashboards
-      for marketing analytics, not building or deploying AI/ML
-      models. While the candidate must be "AI-native" in using
-      tools like Claude and ChatGPT to accelerate their work, AI
-      is a productivity tool for the job rather than the primary
-      work output. The role focuses on dbt pipelines, data
-      modeling, and dashboards that enable marketing decisions.
+      The core work is analytics engineering: designing dbt
+      pipelines, data models, and dashboards for marketing
+      metrics. AI appears in two ways that do not constitute
+      shaping model behavior: daily use of AI coding assistants
+      (Cursor, Claude, ChatGPT, Gemini) to write SQL and debug,
+      which is explicitly ai-support, and building an "AI Business
+      Context layer" and natural-language data access tooling,
+      which is context/data provisioning for AI systems rather
+      than prompt design, RAG, agent flows, or evals. No
+      responsibilities involve shaping model output quality.
   responsibilities:
-  - Design and maintain canonical data models for core marketing metrics, managing
-    the full lifecycle from prototyping to production
+  - Design and maintain trustworthy, canonical data models for core marketing metrics,
+    owning the full lifecycle from prototyping through production
   - Develop and govern dbt data pipelines, establishing data integrity standards and
-    SLAs for Marketing data delivery
-  - Build and optimize dashboards for campaign performance, funnel conversion, pipeline
-    contribution, and lead scoring
-  - Drive data independence for Marketing stakeholders by eliminating reliance on
-    ad-hoc data requests and manual reporting
-  - Establish the AI Business Context layer for marketing use cases and lead development
-    of natural language data access tools
+    SLAs for accurate, timely delivery across the Marketing organization
+  - Build and optimize self-serve dashboards for campaign performance, funnel conversion,
+    pipeline contribution, and lead scoring
+  - Collaborate with Marketing and data partners to establish the AI Business Context
+    layer for marketing use cases
+  - Lead development of tools enabling natural language data access and AI-assisted
+    reporting for non-technical stakeholders
   - Serve as the primary data partner for marketing managers, demand generation teams,
-    and leadership
-  - Translate complex data insights into clear business recommendations via dashboards,
-    memos, and presentations
+    and leadership, translating insights into business recommendations
+  - Achieve mastery of Airtable's marketing data models, pipelines, and BI tools within
+    the first six months
   use_cases:
-  - Marketing campaign performance analytics and optimization
-  - Funnel conversion tracking and analysis
-  - Pipeline attribution and contribution reporting
-  - Lead scoring model support and visibility
-  - Self-serve analytics and data access for marketing teams
-  - Natural language data querying for non-technical stakeholders
+  - Marketing campaign performance and attribution analytics
+  - Funnel conversion and pipeline contribution measurement
+  - Lead scoring for demand generation
+  - Self-serve real-time BI dashboards for marketing stakeholders
+  - Natural language data access and AI-assisted reporting for non-technical users
+  - Data integrity and governance for canonical marketing metrics
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [Anthropic API, ChatGPT, Cursor, Gemini]
-    data: [SQL, dbt, Looker, Omni, Databricks, Pandas, Tableau, Hex]
-    other: [Salesforce, Marketo]
+    languages: [SQL, Python]
+    ml: []
+    other: [Looker, Omni, Tableau, Hex, Salesforce, Marketo]
     ops: [GitHub]
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: [dbt, Databricks, Pandas, Data Pipelines]
+    genai: [Cursor, Anthropic API, ChatGPT, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +59,6 @@ meta:
   - Austin, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T15:52:05.872638'
+  extracted_at: '2026-08-16T04:44:38.129676'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

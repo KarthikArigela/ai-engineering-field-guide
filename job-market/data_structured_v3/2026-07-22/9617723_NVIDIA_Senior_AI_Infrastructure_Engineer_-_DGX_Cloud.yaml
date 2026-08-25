@@ -1,0 +1,57 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: AI computing hardware; DGX Cloud GPU cloud services
+position:
+  title: Senior AI Infrastructure Engineer - DGX Cloud
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds and operates the GPU cloud infrastructure
+      that hosts NVIDIA's large-scale AI training and inference
+      platform, with the deliverable being capacity, reliability,
+      uptime, and performance of multi-GPU clusters. There is no
+      prompt engineering, retrieval design, agent orchestration,
+      training/fine-tuning, or eval work that would shape model
+      behavior. Serving and scaling models/platforms that others
+      build is explicitly ai-support.
+  responsibilities:
+  - Design, build, deploy, and run internal tooling for a large-scale AI training
+    and inferencing platform built on cloud infrastructure
+  - Conduct in-depth performance characterization and analysis on large multi-GPU
+    and multi-node clusters
+  - Own the full service lifecycle from inception and design through deployment, operation,
+    and refinement
+  - Support services pre-launch through system design consulting, developing software
+    tools and frameworks, capacity management, and launch reviews
+  - Maintain live services by measuring and monitoring availability, latency, and
+    overall system health
+  - Scale systems sustainably through automation and reliability improvements
+  - Practice incident response, blameless postmortems, and participate in an on-call
+    rotation for production systems
+  use_cases:
+  - Large-scale AI model training platform on GPU cloud infrastructure
+  - AI inferencing services for the DGX Cloud platform
+  - GPU cloud services delivered with maximum reliability and uptime
+  - Performance optimization of large multi-GPU and multi-node compute clusters
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Public Cloud]
+    ops: [Kubernetes, OpenStack, Linux, Networking, Storage, Containers, Terraform,
+      Infrastructure as Code, Distributed Systems, Slurm]
+    languages: [Python, Go, C++, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9617723'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T18:54:17.521737'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

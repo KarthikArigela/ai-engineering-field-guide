@@ -1,0 +1,53 @@
+company:
+  name: MariaDB Corporation
+  stage: null
+  focus: Open-source relational database for enterprise applications
+position:
+  title: Senior Developer - AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements AI agent integration, agent
+      framework interoperability (MCP, A2A), and retrieval/RAG
+      pipelines, directly shaping LLM application behavior. This
+      is LLM/agent work, so it's ai-first.
+  responsibilities:
+  - Lead end-to-end feature development from application design and API implementation
+    to deployment and monitoring
+  - Integrate AI agent frameworks (LangChain) and interoperability protocols (MCP,
+    A2A) into production applications
+  - Develop secure, versioned application data models with multi-tenant isolation,
+    auditability, and data classification
+  - Build application services deployable across AWS, Azure, GCP, and on-premises
+    with automated CI/CD
+  - Define and meet performance goals via query optimization, profiling, caching,
+    and security practices
+  - Own application components, conduct design and code reviews, and mentor team members
+  use_cases:
+  - Next-generation AI capabilities built on a relational database engine
+  - Enterprise AI applications requiring correctness, performance, and governance
+  - Multi-tenant data management with auditability and data classification
+  - Framework-agnostic agent and interoperability APIs (MCP, A2A)
+  - Semantic search and retrieval-augmented generation over enterprise data
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, MCP, RAG, AI Agents, Embeddings,
+      Semantic Search, LLMs, Mem0, Graphiti, Letta]
+    ml: []
+    web: [REST APIs, gRPC]
+    databases: [Vector Databases, Neo4j, Kuzu, FalkorDB, Redis, MariaDB, MySQL, Graph
+        Databases]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, OpenTelemetry]
+    languages: [Python, Go, Java, C++, SQL]
+    domains: []
+    other: [RBAC, Row-Level Security, Open Source]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10523259'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T10:30:45.818207'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

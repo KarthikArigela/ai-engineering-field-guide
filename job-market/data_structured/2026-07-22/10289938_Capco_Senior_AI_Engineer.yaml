@@ -1,52 +1,55 @@
 company:
   name: Capco
-  stage: Public
-  focus: Management consulting for financial services
+  stage: null
+  focus: Technology and management consulting for financial services
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building, fine-tuning, and
-      deploying LLMs and multi-modal AI models, architecting
-      agentic workflows, and implementing RAG systems for
-      financial services clients. The engineer works directly on
-      building and deploying generative AI systems throughout the
-      full lifecycle.
+      The role shapes model behaviour directly: designing agentic
+      workflows, prompt engineering, RAG architectures, and fine-
+      tuning/deploying LLMs and multi-modal models. Since LLM and
+      agentic generative components dominate the work, this is ai-
+      first.
   responsibilities:
   - Architect and develop autonomous AI systems leveraging multi-modal large language
     models across text, image, audio, and video
   - Design and implement agentic workflows using prompt engineering, RAG, APIs, and
     enterprise data integrations
-  - Fine-tune, optimize, and deploy large language and multi-modal models with focus
+  - Fine-tune, optimize, and deploy large language and multi-modal models with a focus
     on scalability, reliability, and low-latency performance
-  - Build scalable MLOps pipelines and cloud-native AI applications for secure, production-grade
-    deployments
-  - Collaborate with clients and cross-functional teams to shape AI engineering strategy
-    and accelerate GenAI adoption
-  - Collaborate with client stakeholders to drive innovation and deliver measurable
-    business impact in financial services environments
+  - Build scalable MLOps pipelines and cloud-native AI applications to support secure,
+    production-grade deployments
+  - Collaborate with client stakeholders and cross-functional teams to shape AI engineering
+    strategy and accelerate GenAI adoption
+  - Work hands-on across the full AI engineering lifecycle, from architecture to enterprise
+    production deployment
   use_cases:
   - Generative AI and agentic systems for financial services clients
-  - Multi-modal AI applications spanning text, image, audio, and video
-  - Enterprise-grade RAG and semantic search solutions
-  - Autonomous multi-agent orchestration platforms
-  - Production AI deployments in regulated enterprise environments
+  - Autonomous AI systems processing multi-modal content across text, image, audio,
+    and video
+  - Enterprise AI applications grounded in enterprise data via RAG and integrations
+  - Scalable, low-latency production AI deployments in regulated enterprise environments
+  - Accelerating GenAI adoption across Tier 1 financial institutions
   skills:
-    genai: [LLMs, RAG, Prompt Engineering, Agentic Workflows, AI Agents, Multi-Agent
-        Systems, Fine-Tuning, Generative AI, Embeddings, Semantic Search]
-    ml: []
-    web: [APIs]
-    databases: [Vector Databases]
-    data: []
     cloud: [AWS, Azure, GCP]
-    ops: [MLOps, CI/CD, Model Monitoring, Observability, Model Deployment]
     languages: [Python]
+    ml: [Machine Learning, Multi-Modal Models]
+    other: [Agile, Responsible AI]
+    ops: [MLOps, CI/CD, Observability, Model Monitoring, Model Deployment, Distributed
+        Systems]
+    databases: [Vector Databases]
     domains: []
-    other: [Distributed Systems, Responsible AI, Agile]
+    web: [APIs, Backend Development]
+    data: []
+    genai: [LLMs, Generative AI, Agentic Workflows, AI Agents, Prompt Engineering,
+      RAG, Fine-Tuning, Semantic Search]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10289938'
   location: London, GBR
-  extracted_at: '2026-07-22T13:42:11.717370'
+  extracted_at: '2026-08-16T18:29:59.975765'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

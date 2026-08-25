@@ -1,67 +1,68 @@
 company:
   name: Anthelion Capital
-  stage: Unknown
+  stage: null
   focus: |-
-    Investment firm building AI and data platform for private
-    credit and structured finance
+    Proprietary AI and data platform for private credit and
+    structured finance investing
 position:
   title: AI Infrastructure / Platform Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is an infrastructure/platform engineer role focused on
-      building and maintaining the foundational systems that
-      SUPPORT data science and AI workflows. The role works
-      "across the infrastructure layer beneath our ML and AI
-      workflows" on data pipelines, orchestration, compute
-      provisioning, and model serving infrastructure - these are
-      enabling technologies, not hands-on model building or
-      deployment. While the role involves operationalizing agentic
-      AI platforms and model serving, it's focused on hosting,
-      monitoring, and infrastructure rather than building, fine-
-      tuning, or training models directly.
+      While most of the role is data/ML infrastructure, the
+      engineer explicitly designs and implements evaluation
+      frameworks and quality standards for AI agents (automated
+      benchmarking, regression testing, production-readiness
+      criteria), which is building evals and therefore shaping
+      model output quality. Since the shaped components are
+      LLM/agent systems (agents, MCP integration), the role is ai-
+      first.
   responsibilities:
   - Design, build, and maintain production data pipelines that ingest, transform,
     and deliver structured and unstructured data to downstream ML workflows
-  - Own and extend Prefect-based orchestration layer including flow scheduling, error
-    handling, retry logic, and human-in-the-loop patterns
-  - Build and maintain scalable infrastructure for model training, retraining, and
-    inference including GPU compute provisioning and container orchestration
-  - Implement and manage model serving infrastructure including containerized endpoints,
-    API gateways, and self-serve deployment frameworks
-  - Support the buildout and operationalization of agentic AI workflows including
+  - Own and extend the Prefect-based orchestration layer, including flow scheduling,
+    error handling, retry logic, and human-in-the-loop suspend/resume patterns
+  - Build scalable infrastructure for model training, retraining, and batch/real-time
+    inference, including GPU compute provisioning and container orchestration
+  - Implement model serving infrastructure with containerized endpoints, API gateways,
+    and self-serve deployment frameworks for the data science team
+  - Deploy monitoring systems tracking model health, data drift, prediction consumption,
+    and pipeline reliability
+  - Support the buildout and operationalization of agentic AI workflows, including
     agent hosting, lifecycle management, and integration with MCP servers
-  - Deploy, configure, and maintain shared AI platform services as containerized workloads
-    on Azure with end-to-end ownership of networking and connectivity
-  - Maintain CI/CD pipelines, branch protection policies, and release management workflows
-    across data science repositories
-  - Design and implement evaluation frameworks and quality standards for AI agents
-    including automated benchmarking and regression testing
+  - Design and implement evaluation frameworks and quality standards for AI agents,
+    including automated benchmarking, regression testing, and production-readiness
+    criteria
+  - Manage Azure cloud infrastructure, containerized shared AI platform services,
+    networking/access, and CI/CD pipelines across data science repositories
   use_cases:
-  - Investment lifecycle automation from underwriting to portfolio management in private
-    credit and structured finance
-  - Integration of structured and unstructured data for investment decision-making
-  - Advanced analytics and automated workflows for risk-adjusted returns
-  - Agentic AI workflows for institutional investment decisions
-  - Real-time and batch model inference for investment analytics
-  - Data quality and traceability from raw ingestion through model consumption
+  - AI and data platform powering the investment lifecycle from underwriting to portfolio
+    management
+  - Ingestion and transformation of structured and unstructured data for ML workflows
+    in private credit and structured finance
+  - Operationalized agentic AI workflows integrated into production investment systems
+  - Automated workflows supporting superior risk-adjusted investment returns
+  - Production monitoring of model health, data drift, and prediction consumption
+    across ML systems
   skills:
-    domains: []
+    cloud: [Azure, Azure Container Apps, Azure Container Instances, Azure Container
+        Registry, Azure Blob Storage, Azure Key Vault, Azure Virtual Networks, Azure
+        Managed Identities]
     languages: [Python, SQL]
     ml: []
-    cloud: [Azure, Azure Container Apps, Azure Container Instances (ACI), Azure Container
-        Registry (ACR), Azure Blob Storage, Azure Key Vault, Azure Managed Identities,
-      Azure Virtual Networks]
-    genai: [MCP, LangChain]
-    data: [Prefect, Airflow, Dagster, Data Pipelines, dbt, Feature stores]
     other: []
-    ops: [Docker, Kubernetes, CI/CD, MLflow, Langfuse, Model serving infrastructure,
-      GPU compute provisioning, Batch inference, Observability, Data drift detection]
-    web: [Real-time APIs]
+    ops: [MLOps, Docker, Kubernetes, CI/CD, Model Deployment, Model Monitoring, Observability,
+      Langfuse, MLflow, Git, Artifactory, API Gateways, Feature Stores]
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [Data Pipelines, Prefect, Airflow, Dagster, dbt, Data Contracts]
+    genai: [MCP, LangChain, Agentic Workflows, AI Agents, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9156532'
   location: New York, USA
-  extracted_at: '2026-05-29T08:55:05.947220'
+  extracted_at: '2026-08-16T09:09:52.452007'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

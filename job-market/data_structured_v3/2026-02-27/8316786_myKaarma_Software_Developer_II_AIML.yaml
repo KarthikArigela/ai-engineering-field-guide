@@ -1,0 +1,55 @@
+company:
+  name: myKaarma
+  stage: ''
+  focus: SaaS platform for automotive dealership fixed operations
+position:
+  title: Software Developer II (AI/ML)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role leads the design, build, and integration of AI/ML
+      solutions, explicitly including training, fine-tuning, and
+      deploying models into production, which is directly shaping
+      model behaviour. LLM components are central (consuming LLM
+      APIs, RAG and LLM agent application patterns,
+      transformer/LLM fundamentals), so it classifies as ai-first.
+      Consuming LLM APIs alone would be ai-support, but fine-
+      tuning and training responsibilities push it into shaping.
+  responsibilities:
+  - Design, develop, and test software components used by automotive dealerships to
+    interact with their customers
+  - Lead the design, build, and integration of AI/ML solutions, including developing
+    and consuming LLM APIs
+  - Train, fine-tune, and deploy AI/ML models into production systems
+  - Collaborate directly with business stakeholders, including customers, to understand
+    requirements and deliver impactful solutions
+  - Work across a variety of tech stacks including microservices, mobile development,
+    and cloud platforms
+  - Mentor and review the work of SDE I engineers to help them grow in technical expertise
+  - Improve overall system architecture, scalability, and reliability
+  - Challenge trade-offs between speed and reliability when building solutions
+  use_cases:
+  - Communication between automotive dealerships and vehicle owners
+  - Service scheduling and payment tools for dealership service centers
+  - LLM-powered features for dealership customer interactions
+  - AI/ML solutions embedded in a fixed-ops SaaS platform
+  - Fine-tuned model deployment into production dealership systems
+  skills:
+    genai: [OpenAI API, Gemini, Cursor, Codex, LLMs, RAG]
+    ml: [Fine-Tuning, Neural Networks, Transformers]
+    web: [Angular, React, GWT, Bootstrap, Spring, Microservices]
+    databases: [MySQL, MongoDB, Redis, Elasticsearch, Vitess]
+    data: [RabbitMQ, Kafka]
+    cloud: [AWS Bedrock, SageMaker, AWS, GCP]
+    ops: [Docker, Docker Swarm, Kubernetes, Model Deployment]
+    languages: [Java, Python, C#, Kotlin, Swift]
+    domains: []
+    other: [Drools, Kong, Android, iOS, Flutter, Responsible AI]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8316786'
+  location: Noida, IND
+  extracted_at: '2026-08-16T00:50:44.642768'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

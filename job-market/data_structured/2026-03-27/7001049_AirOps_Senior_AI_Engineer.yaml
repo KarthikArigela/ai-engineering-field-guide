@@ -1,50 +1,50 @@
 company:
   name: AirOps
-  stage: Series A/B
-  focus: |-
-    End-to-end content engineering platform for AI-driven
-    marketing and SEO
+  stage: VC-backed startup (backed by Greylock, Unusual Ventures, Wing VC, and Founder
+    Collective)
+  focus: AI-era content engineering platform for marketing teams
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying LLM-
-      powered features including AI agents (SEO Strategy Agent)
-      and copilots (Workflow Builder Copilot), with hands-on work
-      in prompt engineering, RAG implementation, and model
-      optimization. The position is focused on creating AI systems
-      rather than just supporting infrastructure for AI.
+      The role directly shapes LLM behavior: optimizing AI
+      performance through prompt engineering, RAG, and evaluation
+      frameworks, and building LLM-powered features like the SEO
+      Strategy Agent and Workflow Builder Copilot. Since the
+      shaped components are LLMs (GPT-4o, Claude) driving
+      content/SEO workflows, this is ai-first.
   responsibilities:
-  - Develop and integrate LLM-powered features including AI-assisted workflow automation,
+  - Develop and integrate LLM-powered features such as AI-assisted workflow automation,
     code generation, and content strategy
+  - Drive development of advanced AI systems including the SEO Strategy Agent and
+    Workflow Builder Copilot
   - Optimize AI performance through prompt engineering, retrieval-augmented generation
     (RAG), and evaluation frameworks
   - Build and scale AI infrastructure ensuring low-latency responses, caching, and
     cost-efficient model usage
-  - Implement AI observability and safeguards monitoring quality, security, and compliance
-  - Collaborate with product and engineering teams to deliver intuitive AI-driven
-    user experiences
-  - Stay ahead of AI advancements and continuously improve AI-powered capabilities
-  - Collaborate with early adopters to optimize model performance and usability
+  - Implement AI observability and safeguards, monitoring quality, security, and compliance
+  - Collaborate with product management to shape the AI roadmap and technical architecture
+  - Work with early adopters to optimize model performance and usability
   use_cases:
-  - AI-powered SEO strategy optimization for brands
-  - Content engineering and creation assistance
-  - Workflow automation and copilot experiences
-  - AI-driven content quality and citation optimization
-  - Code generation for workflow builders
+  - AI-driven SEO strategy optimization via the SEO Strategy Agent
+  - AI-assisted workflow creation via the Workflow Builder Copilot
+  - AI-assisted workflow automation for marketers
+  - Code generation for building workflows
+  - Content strategy and content creation that earns citations from AI-driven search
+    platforms
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [Hugging Face]
     cloud: []
-    genai: [GPT-4o, Anthropic API, Prompt Engineering, RAG, LangChain, OpenAI SDK,
-      OpenAI Ada embeddings, Cohere embeddings]
-    data: []
-    other: []
-    ops: []
-    web: []
+    languages: [Python]
+    ml: [Hugging Face, Machine Learning]
+    other: [A/B Testing]
+    ops: [Observability, Caching, Rate Limiting]
     databases: [pgvector, Weaviate, Pinecone]
+    domains: [NLP]
+    web: []
+    data: []
+    genai: [LangChain, LLMs, Prompt Engineering, RAG, Embeddings, OpenAI API, GPT-4o,
+      Anthropic API, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
@@ -53,4 +53,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T13:45:23.883401'
+  extracted_at: '2026-08-16T02:57:37.977055'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

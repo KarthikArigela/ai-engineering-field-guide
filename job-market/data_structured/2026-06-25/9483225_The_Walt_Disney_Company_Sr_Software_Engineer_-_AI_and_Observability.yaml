@@ -1,56 +1,62 @@
 company:
   name: The Walt Disney Company
-  stage: Public
-  focus: Media, entertainment, and streaming technology
+  stage: null
+  focus: |-
+    Media and streaming technology for Disney's entertainment
+    and sports products
 position:
   title: Sr Software Engineer - AI and Observability
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves designing and building agentic
-      AI systems powered by foundation models (Claude, GPT-4)
-      using frameworks like LangChain/LangGraph, including
-      developing complex machine learning models and AI-driven
-      detection for system reliability. The engineer owns the
-      architectural vision for autonomous agents that reason over
-      system behaviors, which is hands-on work building and
-      deploying AI/ML systems.
+      The role directly shapes LLM/agent behavior: it leads
+      development of agentic AI systems powered by foundation
+      models (GPT-4, Claude), and requires deep prompt
+      engineering, model evaluation, and building agentic
+      workflows with LangChain/LangGraph. Per Step 1 and 2,
+      shaping LLM-driven agents and their output quality makes
+      this ai-first.
   responsibilities:
   - Own the design and operation of production-grade intelligent systems leveraging
-    real-time signals and AI-driven detection to ensure health of critical services
-  - Lead development of agentic AI systems powered by modern foundation models for
-    automated reasoning, decisioning, and predictive modeling at global scale
-  - Oversee creation of end-to-end data pipelines processing high-volume telemetry
+    real-time signals and AI-driven detection to safeguard critical services and premium
+    customer experiences
+  - Lead development of agentic AI systems powered by foundation models (GPT-4, Claude
+    Opus/Sonnet), defining strategy for automated reasoning, decisioning, and predictive
+    modeling for global-scale system reliability
+  - Oversee creation of end-to-end data pipelines that process high-volume telemetry
     and user signals into automated insights and root cause analysis
   - Design and maintain scalable APIs and microservices providing explainability and
-    predictive signals to cross-functional stakeholders
+    predictive signals to cross-functional engineering and product stakeholders
   - Partner with leadership and cross-functional teams to embed intelligence into
-    global workflows such as incident response and release validation
-  - Promote engineering best practices, mentor junior engineers, and drive innovation
-    in observability through applied AI
+    incident response and release validation workflows, reducing Time-to-Detect and
+    Time-to-Resolve
+  - Promote engineering best practices, mentor junior engineers, and provide technical
+    guidance through code and design reviews
   use_cases:
-  - Automated anomaly detection and root cause analysis for distributed streaming
-    systems
-  - Agentic AI for autonomous incident response and resolution across Disney+, Hulu,
-    and ESPN
-  - Real-time telemetry processing for proactive system reliability insights
-  - Predictive modeling for system health and performance of global streaming infrastructure
-  - AI-driven release validation and operational workflow automation
+  - Automated detection and reliability monitoring for Disney's global streaming services
+  - Root cause analysis over massive telemetry and log datasets
+  - Autonomous agents reasoning over system behaviors across Disney+, Hulu, and ESPN
+  - Predictive insights reducing Time-to-Detect and Time-to-Resolve in incident response
+    and release validation
+  - Automated insights pipelines from high-volume user and telemetry signals
   skills:
-    genai: [LangChain, LangGraph, Prompt Engineering, Agentic Workflows, GPT-4, Claude
-        Opus/Sonnet, Model Evaluation]
-    ml: [PyTorch, TensorFlow, Machine Learning Systems Deployment]
-    web: [REST APIs, Microservices]
+    cloud: [AWS, AWS Bedrock]
+    languages: []
+    ml: [PyTorch, TensorFlow, Machine Learning]
+    other: [Agile]
+    ops: [Docker, Kubernetes, Git, CI/CD, Datadog, Grafana, Conviva, Observability,
+      Monitoring, Distributed Systems]
     databases: [MongoDB]
-    data: [PySpark, Pandas]
-    cloud: [AWS Bedrock, AWS]
-    ops: [Docker, Kubernetes, Datadog, Grafana, CI/CD, Observability, Conviva, Git]
-    languages: [Python, SQL]
     domains: []
-    other: []
+    web: [APIs, Microservices]
+    data: [PySpark, Pandas, Data Pipelines]
+    genai: [LangChain, LangGraph, Prompt Engineering, Agentic Workflows, AI Agents,
+      LLM Evaluation, GPT-4, Anthropic API, Cursor]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9483225'
   location: Glendale, USA
-  extracted_at: '2026-06-25T19:40:58.897988'
+  extracted_at: '2026-08-16T12:45:35.097340'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

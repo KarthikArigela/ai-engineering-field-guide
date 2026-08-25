@@ -1,59 +1,57 @@
 company:
   name: Omnissa
-  stage: Private, Series D or later (4000+ employees)
+  stage: Private company
   focus: |-
-    AI-driven digital work platform for secure remote access and
-    virtualized desktops
+    AI-driven digital workspace platform for secure application
+    access
 position:
   title: Senior Engineer - Java (Backend, Cloud/AI Domain)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Java Backend Engineer role focused on building
-      cloud infrastructure, security, and access management
-      systems. While the company has an AI-driven platform and
-      mentions "AI domain experience" as desirable, the actual
-      work involves backend development, containers, REST APIs,
-      and distributed systems - not building, training, or
-      deploying ML models. The role supports the AI platform
-      through infrastructure and security implementation, making
-      it ai-support.
+      This is a Java backend engineering role focused on secure
+      enterprise application access. AI appears only as a passing
+      domain mention ("AI domain experience", "Experience on AI
+      technology") with no responsibilities involving prompts,
+      retrieval, agents, training, or evals, so the person does
+      not shape model behavior. The deliverable is backend
+      services, APIs, and infrastructure, making it ai-support.
   responsibilities:
-  - Design and develop enterprise-grade Java backend applications for secure application
-    access and management
-  - Build high-performance REST APIs adhering to industry standards and best practices
-  - Architect and implement containerized Java applications with strong security features
-    including MFA, SSO, and secure session management
-  - Collaborate with product management and architects to deliver scalable, reliable
-    software solutions
-  - Participate in component-level architectural design and code reviews for large-scale
-    distributed systems
-  - Automate unit and integration tests within CI/CD pipelines following professional
-    software engineering practices
+  - Design, develop, and optimize the Omnissa product for streamlining secure access
+    to enterprise applications
+  - Design and implement highly usable REST APIs adhering to standards and best practices
+  - Write and deploy containerized Java backend services
+  - Build services with asynchronous event-driven frameworks such as Netty
+  - Automate unit and integration tests within a CI/CD pipeline
+  - Participate in component-level architectural design and code reviews
+  - Collaborate with product management and architects to deliver high-quality features
+  - Design and implement large-scale distributed systems supporting all cloud platforms
   use_cases:
-  - Secure remote access to enterprise applications and virtualized desktops from
-    any device
-  - Unified endpoint management and virtual apps/desktops delivery
-  - Digital employee experience monitoring and optimization
-  - AI-driven autonomous workspaces with self-configuring and self-healing capabilities
-  - Enterprise security and compliance management through centralized identity and
-    access control
-  - Multi-factor authentication and single sign-on for secure application delivery
+  - Secure, simplified remote access to enterprise applications from any device
+  - Application delivery across virtualized desktops, SaaS applications, and internal
+    resources
+  - Access control via multi-factor authentication, single sign-on, and secure session
+    management
+  - Unified endpoint management and digital employee experience on a cloud platform
+  - Autonomous workspaces that self-configure, self-heal, and self-secure to optimize
+    security and IT operations
   skills:
-    domains: []
-    languages: [Java, Multi-threading, Python, Bash]
+    cloud: [Cloud Computing]
+    languages: [Java, Bash, Python]
     ml: []
-    cloud: [AWS, Azure, GCP, Security, MFA, SSO, TLS]
-    genai: [AI technology]
-    data: [Kafka]
-    other: [TCP/IP, UDP, Distributed Systems, Algorithms, Data Structures, System
-        Design]
-    ops: [Docker, CI/CD, Kubernetes]
-    web: [Spring Boot, REST APIs, Netty, Angular, WebSockets, HTTPS]
+    other: [Multi-threading, Networking, Code Review, Event-Driven Architecture, TCP/IP,
+      TLS, Security Protocols]
+    ops: [Docker, Distributed Systems, CI/CD]
     databases: []
+    domains: []
+    web: [Spring Boot, REST APIs, Netty, WebSockets, Angular]
+    data: [Kafka]
+    genai: [AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9330661'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:01:48.136717'
+  extracted_at: '2026-08-16T10:21:00.658151'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

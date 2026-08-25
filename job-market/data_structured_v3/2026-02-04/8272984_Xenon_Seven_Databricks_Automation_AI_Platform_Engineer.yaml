@@ -1,0 +1,63 @@
+company:
+  name: Xenon Seven
+  stage: null
+  focus: IT solutions development and on-demand tech talent services
+position:
+  title: Databricks Automation & AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds automation frameworks, deployment pipelines,
+      and platform integration for Databricks and AWS, including
+      serving components like Mosaic AI Gateway and Model Serving.
+      The person never writes prompts, designs retrieval or agent
+      flows, trains models, or builds evals/guardrails - they
+      automate and scale infrastructure that other teams build.
+      The deliverable is platform capacity and deployment
+      reliability, not model behaviour, so this is ai-support.
+  responsibilities:
+  - Build automation workflows for MLOps, LLMOps, and application deployment within
+    Databricks
+  - Enhance workspace onboarding automation including Unity Catalog, permissions,
+    and environment setup
+  - Develop reusable modules for workspace provisioning, catalog configuration, model
+    deployment, and governance workflows
+  - Integrate Mosaic AI components (Gateway, Model Serving, Agents) into platform
+    automation
+  - Ensure consistency, reliability, and scalability across multi-workspace environments
+    with automated rollback and fail-fast mechanisms
+  - Build AWS integrations using Lambda, API Gateway, and Service Principal-based
+    authentication
+  - Automate Databricks job orchestration, monitoring, and deployment pipelines bridging
+    AWS and Databricks
+  use_cases:
+  - Automated deployment of ML and LLM workloads on Databricks
+  - Workspace provisioning and governance automation across multi-workspace environments
+  - AI platform integration bridging AWS and Databricks services
+  - Production stability with automated rollback and fail-fast deployment strategies
+  skills:
+    genai: [Mosaic AI]
+    ml: []
+    web: []
+    databases: []
+    data: [Databricks, Unity Catalog]
+    cloud: [AWS, AWS Lambda, API Gateway, IAM]
+    ops: [MLOps, LLMOps, Model Deployment, Model Serving, Monitoring, Docker]
+    languages: [Python]
+    domains: []
+    other: [Service Principal Authentication]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8272984'
+  location: SWE
+  locations:
+  - SWE
+  - BEL
+  - DEU
+  - DNK
+  - Hyderabad, IND
+  remote: true
+  extracted_at: '2026-08-15T23:03:54.024126'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

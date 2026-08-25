@@ -2,59 +2,63 @@ company:
   name: AHEAD
   stage: null
   focus: |-
-    Digital transformation platforms and cloud infrastructure
-    services
+    Enterprise digital transformation through cloud, automation,
+    and software delivery services
 position:
   title: Senior AI Engineer, AI Services
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on builder role responsible for designing,
-      developing, and deploying agentic AI solutions directly. The
-      role involves building multi-agent systems using LangChain,
-      LangGraph, Autogen, and CrewAI, implementing RAG pipelines,
-      and integrating LLMs/SLMs - all core AI engineering work
-      focused on building and deploying AI models and agents.
+      The role directly shapes LLM/agent behavior: building multi-
+      agent systems, designing RAG and retrieval pipelines,
+      implementing tool/function calling and structured outputs,
+      and building guardrails and behavioral testing for agents.
+      LLMs and agentic components are the core of the work, so it
+      is ai-first.
   responsibilities:
-  - Build and deploy multi-agent systems using frameworks like LangChain, LangGraph,
-    Autogen, CrewAI, and LlamaIndex
+  - Design, build, and deploy multi-agent AI solutions using frameworks such as LangChain,
+    LangGraph, AutoGen, CrewAI, and LlamaIndex
   - Develop custom agents for document processing, workflow automation, SDLC acceleration,
     data analysis, and business process orchestration
   - Integrate LLMs, SLMs, embeddings, and retrieval pipelines with enterprise systems
-    like SharePoint, Salesforce, ServiceNow, and databases
-  - Create and operate LLM/ML endpoints, agent memory/state stores, and event-driven
-    triggers using Python, Kafka, EventBridge, Airflow, and AWS services
-  - Implement monitoring, metrics, guardrails, and automated testing for multi-agent
-    systems to ensure production reliability
-  - Work directly with clients to translate business needs into technical agent designs
-    and execution roadmaps
+    including SharePoint, Salesforce, ServiceNow, Jira, Oracle, and databases
+  - Build real-time and batch workflow pipelines using Python, Kafka, EventBridge,
+    Airflow, Snowflake, S3, n8n, and AWS Batch
+  - Implement monitoring, metrics, guardrails, and automated testing for agent behaviors,
+    prompts, ETL jobs, and model outputs
   - Apply enterprise standards for data security, access control, auditing, model
-    governance, and safe AI usage
-  - Coach junior engineers on agent design patterns, RAG, orchestration, and clean
-    engineering practices
+    governance, PII handling, and safe AI usage within agentic flows
+  - Collaborate with client stakeholders to translate business needs into technical
+    agent designs, roadmaps, proposals, and documentation
+  - Coach junior engineers on agent design patterns, RAG, and orchestration while
+    contributing to reusable accelerators and internal best practices
   use_cases:
-  - Document intelligence for processing and analyzing enterprise documents
-  - Service desk automation using agents to handle support workflows
-  - Coding automation and SDLC acceleration through AI-assisted development tools
-  - Operations automation and business process orchestration across enterprise systems
-  - Decision support systems using RAG and tool-calling for data-driven insights
-  - Real-time and batch workflow automation connecting agents to enterprise data sources
+  - Document intelligence and document processing automation
+  - Coding automation and SDLC acceleration
+  - Service desk and operations automation
+  - Decision support
+  - Business process orchestration and workflow automation
+  - Enterprise data analysis and retrieval over client systems
   skills:
-    domains: []
+    cloud: [AWS, AWS S3, AWS Batch, EventBridge, Snowflake Cortex, Databricks Mosaic,
+      NVIDIA NIM]
     languages: [Python]
-    ml: [model deployment]
-    cloud: [AWS S3, AWS Batch, AWS, EventBridge, Snowflake Cortex, Databricks Mosaic,
-      NVIDIA NIMs]
-    genai: [LangChain, LangGraph, AutoGen, CrewAI, LlamaIndex, RAG, Function Calling,
-      tool-calling, Prompt Engineering, AI Agents]
-    data: [Kafka, Airflow, n8n, Data Pipelines]
-    other: []
-    ops: [Docker, CI/CD, MLOps, Monitoring]
-    web: []
-    databases: [Pinecone, pgvector, Elasticsearch, Snowflake]
+    ml: []
+    other: [n8n, SharePoint, Salesforce, ServiceNow, Jira, Event-Driven Architecture,
+      Agile]
+    ops: [MLOps, Observability, Monitoring, CI/CD, Containerization, Model Deployment]
+    databases: [Pinecone, Elasticsearch, Snowflake, pgvector, Vector Databases, Oracle]
+    domains: []
+    web: [APIs]
+    data: [Kafka, Airflow, Data Pipelines, Celery]
+    genai: [LangChain, LangGraph, AutoGen, CrewAI, LlamaIndex, LLMs, SLMs, Embeddings,
+      RAG, Function Calling, Structured Outputs, Guardrails, Multi-Agent Systems,
+      Agentic Workflows]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7898928'
   location: USA
-  extracted_at: '2026-02-05T11:39:06.703103'
+  extracted_at: '2026-08-15T22:18:51.130359'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

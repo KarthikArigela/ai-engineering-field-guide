@@ -1,59 +1,57 @@
 company:
   name: Circles (circles.co)
-  stage: Late-stage (backed by Peak XV/Sequoia, Warburg Pincus, Founders Fund, EDBI)
-  focus: |-
-    Global SaaS platform for telco operators enabling digital
-    brand launches and transformation
+  stage: Backed by Peak XV Partners, Warburg Pincus, Founders Fund, and EDBI
+  focus: SaaS platform for telco operators to launch digital brands
 position:
   title: Senior Engineer, Agentic AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role is explicitly titled "Senior Engineer, Agentic AI"
-      and requires hands-on experience building enterprise-grade
-      Agentic AI applications using LangGraph, RAG, VectorDBs, LLM
-      APIs, and MCP. The candidate will own the entire agentic AI
-      lifecycle from concept to launch, making this clearly an ai-
-      first role focused on building and deploying AI agent
-      systems.
+      The role owns the agentic AI domain end-to-end and requires
+      hands-on experience with LangGraph, MCP, RAG, and vector
+      databases, meaning the person directly designs agent flows
+      and retrieval that shape LLM output. This is LLM/agent work,
+      so it is ai-first; customer-facing duties do not change
+      that.
   responsibilities:
-  - Own the agentic AI domain from both business and technical perspective
-  - Own the entire agentic AI lifecycle from concept to launch to value delivery
-  - Work directly with end customers as a forward engineer gathering requirements,
-    feedback, and providing AI solutions
-  - Deliver data solutions across data warehousing, reporting, and digital analytics
-    for customers
-  - Drive actionable insights for BI and country teams to identify cross-sell and
-    up-sell opportunities
-  - Collaborate with business units across geographies to understand analytics needs
-    and generate accurate reports
+  - Own the agentic AI domain from both business and technical perspective, driving
+    the full lifecycle from concept to launch to value
+  - Engage directly with customers to gather requirements and feedback and provide
+    solutions as a forward engineer
+  - Build enterprise-grade agentic AI and GenAI applications using frameworks such
+    as LangGraph, RAG, and MCP
   - Ensure data governance, data security, and responsible AI practices when handling
     customer sensitive data
-  - Maintain accountability for project scope, cost, resource planning, monitoring
-    and reporting
+  - Design data architectures scalable to high volume and velocity and support real-time
+    event processing
+  - Debug production issues using metrics and logs
+  - Deliver data solutions including data warehousing, reporting, and digital analytics
+    for business units and external partners
+  - Collaborate with BI, data, and engineering teams to generate accurate reports
+    and actionable cross-sell/up-sell insights
   use_cases:
-  - Agentic AI applications for telco operators and digital brands
-  - Enterprise data warehousing and digital analytics for telecom
-  - Cross-sell and up-sell opportunity identification through AI-driven insights
-  - Business reporting and data analysis for internal operations worldwide
-  - Data exchange interfaces with external partners
-  - Real-time event processing for telecom operations
+  - Enterprise agentic AI applications for telco and digital experiences
+  - Customer-facing delivery of data and AI solutions
+  - Data warehousing, reporting, and digital analytics for BI and country teams
+  - Actionable insights for cross-sell and up-sell opportunity identification
+  - High-volume real-time event processing and data exchange with external partners
   skills:
-    domains: []
-    languages: [Python, Go, SQL]
-    ml: []
     cloud: []
-    genai: [LangGraph, RAG, LLMs, MCP, Agentic AI frameworks]
-    data: [Data warehousing, Real-time event processing, Data architecture, Data Governance,
-      Digital analytics]
-    other: [Responsible AI]
-    ops: [Phoenix, ML Ops]
+    languages: [Python, Go]
+    ml: []
+    other: [Responsible AI, Data Science]
+    ops: [MLOps, Phoenix]
+    databases: [Vector Databases]
+    domains: []
     web: [FastAPI]
-    databases: [VectorDB]
+    data: [Data Governance, Data Warehousing, Data Architecture, Real-Time Event Processing]
+    genai: [LangGraph, RAG, MCP, LLMs, Generative AI, AI Agents]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9035825'
   location: IND
   remote: true
-  extracted_at: '2026-04-22T13:37:06.594432'
+  extracted_at: '2026-08-16T07:20:16.997065'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

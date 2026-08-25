@@ -1,58 +1,63 @@
 company:
   name: American Express
-  stage: Public
-  focus: Financial services and payment solutions
+  stage: null
+  focus: |-
+    Digital workplace tools and services for American Express
+    colleagues
 position:
   title: Sr AI Engineer I
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      shipping AI-powered solutions including multi-agent systems,
-      MCP server infrastructure, and agent observability. The
-      engineer will work hands-on with agentic AI frameworks, LLM
-      platforms (ChatGPT, Claude, Copilot Studio), and prompt
-      engineering to create production AI tools.
+      The role directly shapes LLM/agent behavior: it designs and
+      ships multi-agent systems, builds MCP server infrastructure,
+      applies prompt engineering and orchestration frameworks, and
+      builds production observability measuring agent output
+      quality (hallucination rate, accuracy). All named platforms
+      (ChatGPT, Copilot, Claude, agentic frameworks) are LLM/agent
+      components, making this ai-first.
   responsibilities:
-  - Implement AI into product management workflows including discovery, road mapping,
+  - Implement AI into product management workflows including discovery, roadmapping,
     prioritization, and backlog management
-  - Develop and deploy AI-powered tools using platforms like ChatGPT, M365 Copilot,
-    Copilot Studio, Claude, and agentic AI frameworks
-  - Design, build, and ship multi-agent systems for enterprise use cases
-  - Build and implement Model Context Protocol (MCP) server infrastructure
-  - Build production observability for agent systems including tracing, logging, metrics
-    for hallucination rate, latency, cost, and accuracy
-  - Own AI systems in production ensuring reliability, latency, cost optimization,
-    and failure mode management
+  - Develop AI-powered tools and accelerators using platforms such as ChatGPT, M365
+    Copilot, Copilot Studio, and Claude
+  - Design, build, and ship multi-agent systems and implement MCP server infrastructure
+  - Build production observability for agent systems with tracing, logging, and metrics
+    covering hallucination rate, latency, cost, and accuracy
+  - Own reliability, latency, cost, and failure modes of built systems in production
   - Develop capabilities that automate synthesis of research, telemetry, and feedback
     into actionable product insights
-  - Partner with Product, Engineering, Risk, and Governance teams to ensure compliant
-    and responsible AI use and drive adoption
+  - Define AI-enabled product management operating model including tools, workflows,
+    and guardrails
+  - Partner with Product, Engineering, Risk, and Governance teams to drive compliant,
+    responsible AI adoption and enablement
   use_cases:
-  - AI-enabled product management transformation across discovery, road mapping, prioritization,
+  - AI-enabled product management workflows covering discovery, roadmapping, prioritization,
     and backlog management
-  - Automated synthesis of research, telemetry, and customer feedback into actionable
-    product insights
-  - AI-driven scenario modeling and roadmap planning support
-  - Enterprise multi-agent systems for internal workplace productivity
-  - Production agent observability and monitoring for hallucination, latency, cost,
-    and accuracy
+  - Automated synthesis of research, telemetry, and customer feedback into product
+    insights
+  - AI-driven scenario modeling and prioritization support for roadmap planning
+  - Enterprise AI tooling built on multi-agent systems and MCP server infrastructure
+  - Colleague productivity and digital workplace experience enhancement at American
+    Express
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: []
-    genai: [Multi-Agent Systems, MCP, Prompt Engineering, Agentic AI frameworks, AI
-        orchestration frameworks, ChatGPT / OpenAI APIs, Claude / Anthropic APIs,
-      M365 Copilot, Copilot Studio]
-    data: []
-    other: [Rapid prototyping, Product management, Enterprise governance and compliance]
-    ops: [AI observability and tracing, Production system reliability]
-    web: []
+    other: [Citizen Development]
+    ops: [Observability]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [ChatGPT, M365 Copilot, Copilot Studio, Anthropic API, AI Agents, Agentic
+        Workflows, Multi-Agent Systems, MCP, Prompt Engineering, Guardrails, Generative
+        AI, AI Automation]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '9633627'
   location: New York, USA
-  extracted_at: '2026-06-25T19:46:58.742823'
+  extracted_at: '2026-08-16T13:26:29.451908'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

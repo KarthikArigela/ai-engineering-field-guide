@@ -1,58 +1,60 @@
 company:
   name: Jasper
-  stage: Series B+
-  focus: |-
-    AI marketing platform for enterprise content creation and
-    workflow automation
+  stage: null
+  focus: AI-powered marketing platform for enterprise workflows
 position:
   title: AI & IT Systems Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves deploying AI systems across the
-      organization, designing intelligent workflows with AI agents
-      (Claude, ChatGPT), and building automation infrastructure
-      for agentic AI to trigger real actions across the tech
-      stack. While it has an IT foundation, the role explicitly
-      requires hands-on AI implementation work (70-80% of time)
-      deploying AI solutions and building AI-driven automation
-      systems.
+      Despite spending 70-80% of time on "AI enablement," the role
+      deploys off-the-shelf tools (Claude, ChatGPT, Zapier) into
+      internal IT workflows and SaaS integrations rather than
+      shaping model behavior — there is no prompt engineering,
+      retrieval design, training, or eval work described. The
+      deliverable is IT infrastructure, automation, and internal
+      team efficiency, making this ai-support.
   responsibilities:
-  - Modernize and fine-tune IT systems to securely support autonomous and agentic
-    AI workflows, building scalable automation infrastructure
-  - Operationalize AI initiatives using tools like Claude, ChatGPT, and Zapier, designing
-    intelligent cross-platform workflows
-  - Design intelligent workflows connecting platforms like Google Workspace and Slack,
-    enabling AI agents to trigger real multi-step actions
-  - Administer and optimize core IT domains including Identity Providers and Mobile
-    Device Management using tools like Okta Workflows
-  - Deploy across departments to assist with technical rollout of AI enablement projects
-  - Manage and streamline the broader SaaS ecosystem including Google Workspace, Linear,
+  - Modernize and fine-tune IT systems to securely and efficiently support autonomous
+    and agentic AI workflows
+  - Operationalize AI initiatives using tools like Claude, ChatGPT, and Zapier in
+    partnership with the Director of AI Enablement & IT
+  - Design intelligent cross-platform workflows connecting Google Workspace and Slack
+    so AI agents can trigger real multi-step actions
+  - Administer and optimize core IT domains including Identity Providers (Okta) and
+    Mobile Device Management (Rippling)
+  - Streamline identity and access operations using Okta Workflows
+  - Manage and streamline the broader SaaS stack including Google Workspace, Linear,
     and other applications
+  - Deploy across departments to assist with the technical rollout of AI enablement
+    projects
   - Create playbooks and training resources to help teams adopt new AI tools into
     existing workflows
   use_cases:
-  - Automating cross-platform workflows triggered by AI agents
-  - AI-driven IT operations and infrastructure management
-  - Marketing workflow automation and enablement
-  - Enterprise SaaS integration and orchestration via AI
+  - Internal IT automation supporting agentic AI workflows
+  - Cross-platform workflow automation where AI agents trigger multi-step actions
+    across Google Workspace and Slack
   - Identity and access management automation
+  - AI tool adoption and enablement across company departments
+  - SaaS ecosystem management and streamlining
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: []
-    genai: [Anthropic API, ChatGPT/OpenAI API, Zapier]
-    data: []
-    other: []
-    ops: [Okta Workflows, Okta, Rippling IT, Identity and Access Management, Mobile
-        Device Management, Workflow automation]
-    web: [Google Workspace, Slack, Linear, SaaS integration]
+    other: [Zapier, Okta, Okta Workflows, Mobile Device Management, Rippling, Google
+        Workspace, Slack, Linear]
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Anthropic API, ChatGPT, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8736024'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T14:19:58.548775'
+  extracted_at: '2026-08-16T04:11:59.702924'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

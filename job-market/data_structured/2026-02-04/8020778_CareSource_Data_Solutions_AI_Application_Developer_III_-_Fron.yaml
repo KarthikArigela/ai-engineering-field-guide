@@ -1,53 +1,61 @@
 company:
   name: CareSource
-  stage: Public
-  focus: Healthcare insurance and managed care
+  stage: null
+  focus: Healthcare insurance and managed care provider
 position:
   title: Data Solutions AI Application Developer III - Front-end Development with
     Python experience
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building user interfaces and
-      applications that operationalize AI solutions developed by
-      others. The role primarily uses low-code platforms and UI
-      development to expose AI capabilities, not building,
-      training, or deploying the AI models themselves. It serves
-      as a bridge between analytics teams and business execution.
+      The role builds UIs and low-code applications that expose
+      generative, agentic, and NLP capabilities built by other
+      teams (data scientists/data engineers). It consumes AI
+      models and translates their outputs into business workflows,
+      with no evidence of prompt engineering, RAG/agent design,
+      evals, or model training, so it does not shape model
+      behavior.
   responsibilities:
   - Design, configure, test, and deploy AI-enablement applications using low-code/no-code
     platforms
-  - Develop intuitive user interfaces that expose generative, agentic, and NLP-based
-    AI capabilities to business teams
-  - Translate model outputs into business workflows, integrating with existing platforms
-    and use cases
-  - Collaborate with data engineers and data scientists to transition solutions from
-    analytical environments into production
+  - Develop user interfaces that expose generative, agentic, and NLP-based AI capabilities
+    to business and operational teams
+  - Translate model outputs into business workflows and integrate them with existing
+    platforms and use cases
   - Develop Python and SQL logic to support automation, orchestration, and system
     integration where low-code tools are insufficient
-  - Conduct application performance testing and troubleshooting efforts to enhance
-    reliability and ensure compliance standards
+  - Collaborate with data engineers and data scientists to transition solutions from
+    analytical environments such as Databricks into production
+  - Conduct application performance testing, troubleshooting, and incident management
+    to enhance reliability
+  - Ensure application solutions meet usability, accessibility, compliance, and performance
+    standards
+  - Work across IT, platform architecture, and analytics teams using Agile methodologies
+    with rapid prototyping
   use_cases:
-  - Generative AI (LLM-based) applications for business workflows
-  - Agentic AI solutions deployed through user interfaces
-  - NLP-driven capabilities integrated into operational processes
-  - AI model outputs translated into actionable business workflows
-  - Healthcare industry applications using AI technologies
-  - Rapid prototyping and deployment of AI-powered business applications
+  - Operationalizing generative AI, agentic AI, and NLP capabilities across enterprise
+    healthcare workflows
+  - Delivering AI-powered user interfaces and applications to business and operational
+    teams
+  - Accelerating AI adoption in business workflows via low-code and platform-native
+    development tools
+  - Automating and integrating business processes with AI-driven intelligence
   skills:
-    domains: [NLP]
-    languages: [Python, SQL]
-    ml: []
     cloud: [Azure, AWS, GCP]
-    genai: [Generative AI, AI Agents, Microsoft Copilot Studio]
-    data: [Databricks]
-    other: [Microsoft Power Apps, UiPath, Low-code/no-code platforms, Agile]
+    languages: [Python, SQL]
+    ml: [NLP]
+    other: [Power Apps, UiPath, Low-Code Development, SDLC, Agile, OOP, UI/UX]
     ops: [CI/CD]
-    web: [Streamlit, Flask, FastAPI, Django]
     databases: [Snowflake]
+    domains: []
+    web: [Streamlit, Flask, FastAPI, Django]
+    data: [Databricks]
+    genai: [Copilot Studio, Generative AI, LLMs, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8020778'
   location: USA
-  extracted_at: '2026-02-05T11:50:01.048129'
+  extracted_at: '2026-08-15T22:30:03.050193'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

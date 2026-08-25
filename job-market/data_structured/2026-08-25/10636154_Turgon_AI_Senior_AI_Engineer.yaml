@@ -1,0 +1,52 @@
+company:
+  name: Turgon AI
+  stage: null
+  focus: AI agents and humans delivering IT services
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role architects multi-agent orchestration
+      (LangGraph/LangChain), designs prompts, tunes RAG pipelines,
+      builds evals, and chooses between models - all direct
+      shaping of LLM/agent behavior. No training-only component,
+      so it is ai-first.
+  responsibilities:
+  - Lead architectural design of complex multi-agent systems using LangGraph/LangChain
+    for long-running asynchronous enterprise tasks
+  - Design and build automated evaluation pipelines measuring agent accuracy, hallucination
+    rates, and success metrics
+  - Optimize RAG pipelines for scale, tuning chunking strategies, retrieval algorithms,
+    and vector search parameters
+  - Make cost and latency decisions on using large vs smaller specialized models to
+    balance performance and unit economics
+  - Collaborate with product team to translate business requirements into concrete
+    agentic behaviors and tool definitions
+  - Mentor junior AI engineers, conduct code reviews, and define AI engineering best
+    practices
+  use_cases:
+  - AI agents that understand enterprise infrastructure, processes, and data
+  - Generating new integrations and business logic on the fly
+  - Root-causing IT issues instantly
+  - Enterprise-grade agentic workflows for IT services delivery
+  skills:
+    genai: [LangGraph, LangChain, Agentic Workflows, Multi-Agent Systems, Prompt Engineering,
+      LLM Evaluation, RAG, Vector Search, Fine-Tuning, Llama, Mistral, LLMs]
+    ml: [Machine Learning, NLP, Llama, Fine-Tuning, LLMOps]
+    web: []
+    databases: [Snowflake, Vector Databases]
+    data: [Ray]
+    cloud: []
+    ops: [LLMOps, MLOps, Kubeflow]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10636154'
+  location: New Delhi, IND
+  extracted_at: '2026-08-25T11:02:13.961452'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

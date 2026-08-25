@@ -1,56 +1,67 @@
 company:
   name: Worldly
-  stage: Series B or later
+  stage: Public benefit corporation backed by mission-aligned investors
   focus: |-
-    ESG and sustainability intelligence platform for supply
-    chains
+    ESG impact intelligence platform for supply chain
+    sustainability
 position:
   title: ML Ops Engineer - Data Lake & AI Infrastructure
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building and scaling ML pipelines using
-      LangChain/Haystack, enabling RAG and LLM-powered
-      applications, and integrating AI/ML systems with data
-      infrastructure. While it has strong infrastructure and data
-      engineering components, it includes direct hands-on work
-      with LLM tools and RAG implementation, making it ai-first.
+      This is an infrastructure role: the person designs and
+      operates the data lakehouse, ingestion/ETL pipelines,
+      orchestration, CI/CD, and monitoring for ML and LLM systems
+      that data scientists build on. RAG and LLM applications are
+      "enabled" by integrating the data lake with AI/ML systems,
+      not by the engineer shaping prompts, retrieval design, or
+      model behaviour. The deliverable is capacity and pipelines,
+      so this is ai-support.
   responsibilities:
   - Design and deploy data lakehouse infrastructure using open-source technologies
-    to ingest and manage high-volume structured and unstructured data
-  - Build and scale ML pipelines using modern tools such as MLflow, LangChain/Haystack,
-    and orchestrate them via Airflow or Dagster
+    (MinIO, Apache Iceberg, Trino) to ingest and manage high-volume structured and
+    unstructured data
+  - Build and scale ML pipelines using MLflow, LangChain/Haystack, orchestrated via
+    Airflow or Dagster
   - Implement data ingestion and transformation workflows using Apache NiFi, Airbyte,
     and dbt
   - Support federated querying and real-time analytics via Trino, ClickHouse, or StarRocks
-  - Enable retrieval-augmented generation (RAG) and other LLM-powered applications
-    by integrating the data lake with AI/ML systems
+  - Enable RAG and other LLM-powered applications by integrating the data lake with
+    AI/ML systems
   - Develop CI/CD pipelines for ML models, infrastructure-as-code, and data pipeline
     deployments
   - Monitor, debug, and optimize data and ML services running across distributed environments
     including mainland China
+  - Collaborate with data scientists, platform and DevOps engineers, and sustainability
+    analysts to translate use cases into scalable MLOps workflows
   use_cases:
-  - Sustainability performance measurement and impact intelligence across supply chains
-  - Real-time analytics on structured and unstructured ESG data
-  - Retrieval-augmented generation for sustainability insights and document indexing
-  - Compliance monitoring with evolving global regulations
-  - Trend analysis and supplier performance tracking for consumer goods industries
+  - Sustainability and ESG impact intelligence for apparel, footwear, and consumer
+    goods supply chains
+  - Unifying structured and unstructured supply chain data at scale across global
+    regions including China
+  - Supplier performance insights, trend analysis, and compliance with evolving global
+    regulations
+  - RAG and LLM-powered applications over an integrated enterprise data lake
+  - Monitoring ML prediction performance and drift metrics across distributed environments
   skills:
-    genai: [LangChain, Haystack, RAG]
-    ml: [Hugging Face]
-    web: []
-    databases: [Apache Iceberg, MinIO, Trino, ClickHouse, StarRocks, Ceph, HDFS, Hudi,
-      Delta Lake, Presto, DuckDB]
-    data: [Airflow, Dagster, Apache NiFi, Airbyte, dbt, Prefect]
     cloud: [Alibaba Cloud, Huawei Cloud]
-    ops: [MLflow, Kubernetes, Docker, Terraform, CI/CD, vLLM]
-    languages: [Python]
+    languages: []
+    ml: [Hugging Face]
+    other: [GDPR, CSRD]
+    ops: [MLflow, vLLM, CI/CD, Infrastructure as Code, Kubernetes, Docker, Terraform,
+      MLOps, Model Monitoring]
+    databases: [Trino, Presto, ClickHouse, DuckDB, StarRocks]
     domains: []
-    other: []
+    web: []
+    data: [MinIO, Ceph, HDFS, Apache Iceberg, Apache Hudi, Delta Lake, Airflow, Dagster,
+      Prefect, Apache NiFi, Airbyte, dbt, Data Pipelines, Data Engineering]
+    genai: [LangChain, Haystack, RAG, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8834912'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T13:21:41.860977'
+  extracted_at: '2026-08-16T04:56:18.933993'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

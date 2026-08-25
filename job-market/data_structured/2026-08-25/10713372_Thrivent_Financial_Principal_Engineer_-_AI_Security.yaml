@@ -1,0 +1,56 @@
+company:
+  name: Thrivent Financial
+  stage: null
+  focus: Financial services and wealth management
+position:
+  title: Principal Engineer - AI Security
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements security patterns and
+      guardrails for enterprise consumption of generative AI,
+      builds threat models and detection for generative AI attack
+      patterns, and evaluates defensive applications of AI - this
+      is shaping LLM-era model behavior and guardrails (OWASP LLM
+      Top 10), so ai-first.
+  responsibilities:
+  - Define the enterprise strategy and architecture for defending against AI-enabled
+    threats such as automated vulnerability discovery and exploitation
+  - Establish detection, prevention, and response capabilities specific to generative
+    AI threat patterns
+  - Define and implement security patterns and guardrails for safe enterprise AI consumption
+  - Build threat models focused on generative AI attack patterns and adversarial AI
+    techniques
+  - Design telemetry and detection engineering to identify anomalous AI-enabled behavior
+  - Prototype and evaluate defensive applications of AI for security operations
+  - Set engineering standards for AI security and integrate controls into CI/CD and
+    cyber defense tooling
+  - Mentor engineers, influence senior leadership on AI risk posture, and represent
+    the organization externally on AI security
+  use_cases:
+  - Defense against AI-powered cyber attacks and automated exploitation
+  - Detection and response to generative AI threat patterns
+  - Secure enterprise adoption and consumption of AI technologies
+  - AI threat intelligence and adversarial AI research
+  - Security telemetry and anomaly detection for AI-enabled threats
+  skills:
+    genai: [LLMs, Guardrails]
+    ml: [Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [IAM]
+    ops: [CI/CD]
+    languages: []
+    domains: []
+    other: [Threat Modeling, Incident Response, Security Operations, Detection Engineering,
+      OWASP LLM Top 10, MITRE ATLAS, XDR, SIEM, Enterprise Security Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10713372'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:25:21.772359'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

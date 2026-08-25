@@ -1,0 +1,62 @@
+company:
+  name: NatWest Group
+  stage: null
+  focus: Banking and financial services provider
+position:
+  title: AI Principal Engineer, VP
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires RAG, embedding pipelines, LLM
+      orchestration, prompt engineering, and evaluating/fine-
+      tuning OpenAI and Anthropic models, which directly shape LLM
+      behaviour and output quality. An LLM/agent component is
+      clearly present alongside classical ML, so the role is ai-
+      first.
+  responsibilities:
+  - Design and engineer software with customer or user experience as the primary objective
+  - Define and provide oversight and governance of engineering and design solutions
+    focused on end-to-end automation, resilience, security, performance, and scalability
+  - Define and develop architecture models and roadmaps for application and software
+    components to meet business and technical requirements
+  - Collaborate with feature teams to rapidly deliver high-quality software that adds
+    business value
+  - Determine the design and delivery approach for the platform's software throughout
+    its lifecycle
+  - Design complex software, scripts, and tools enabling delivery of bank platforms,
+    applications, and services
+  - Build and optimize pipelines for LLMs, ML models, and data processing
+  - Define and enforce standards for MLOps, CI/CD, experiment tracking, model deployment,
+    observability, security, and performance tuning
+  use_cases:
+  - AI and ML model pipelines supporting banking platforms and services
+  - RAG and LLM orchestration for bank applications
+  - Time-series forecasting and model optimization for banking
+  - Customer-centric digital banking experiences
+  - End-to-end automation of bank software delivery
+  skills:
+    genai: [LLMs, RAG, Embeddings, LLM Orchestration, Prompt Engineering, OpenAI API,
+      Anthropic API, Fine-Tuning]
+    ml: [Machine Learning, Supervised Learning, Unsupervised Learning, Time-Series
+        Forecasting, Feature Engineering, Model Evaluation, Model Retraining, AutoML]
+    web: [APIs]
+    databases: [Database Design]
+    data: [Data Pipelines]
+    cloud: [AWS, GCP]
+    ops: [MLOps, CI/CD, Experiment Tracking, Model Deployment, Observability, DevOps,
+      Feature Stores, Performance Tuning, GPU Compute]
+    languages: [Python]
+    domains: []
+    other: [Agile, Software Architecture]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10052082'
+  location: Chennai, IND
+  locations:
+  - Chennai, IND
+  - Gurugram, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-16T16:30:41.456365'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

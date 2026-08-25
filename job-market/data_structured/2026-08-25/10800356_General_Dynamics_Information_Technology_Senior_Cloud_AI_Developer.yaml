@@ -1,0 +1,50 @@
+company:
+  name: General Dynamics Information Technology
+  stage: null
+  focus: IT and professional services for US government agencies
+position:
+  title: Senior Cloud / AI Developer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role integrates AI capabilities into Java cloud
+      applications on GCP, but there is no evidence of shaping
+      model behavior—no prompts, RAG, fine-tuning, or eval design;
+      it mentions only "basic evaluation/monitoring concepts" as a
+      bonus-level familiarity. The core work is cloud-native
+      backend engineering that consumes AI capabilities.
+  responsibilities:
+  - Design, develop, and maintain Java-based cloud-native applications on GCP
+  - Build services for image capture, ingestion, processing, storage, retrieval, and
+    distribution workflows
+  - Create and maintain RESTful APIs for internal services and external partner integration
+  - Implement AI-enabled capabilities for application use cases
+  - Ensure security and compliance via secure coding, IAM controls, encryption, and
+    auditing
+  - Develop CI/CD pipelines and infrastructure-as-code with DevOps
+  - Implement observability practices including logging, metrics, tracing, and alerting
+  - Collaborate with DevOps, QA, Product Management, and security stakeholders
+  use_cases:
+  - Image capture, ingestion, processing, storage, and distribution workflows
+  - Secure image sharing with internal teams and external partners
+  - AI-enabled application capabilities within image-based business workflows
+  skills:
+    genai: [AI Integration]
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: []
+    cloud: [GCP, IAM]
+    ops: [CI/CD, Infrastructure as Code, Docker, Kubernetes, Monitoring, Git]
+    languages: [Java]
+    domains: []
+    other: [Agile, ServiceNow, SDLC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10800356'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:56:23.628992'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

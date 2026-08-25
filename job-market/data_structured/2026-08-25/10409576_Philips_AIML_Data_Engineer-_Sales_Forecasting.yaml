@@ -1,0 +1,48 @@
+company:
+  name: Philips
+  stage: null
+  focus: Health technology and smart consumer products
+position:
+  title: AI/ML Data Engineer- Sales Forecasting
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role includes fine-tuning LLMs and building/deploying AI
+      models for personalization and predictive health insights,
+      which is shaping model behavior (training/fine-tuning).
+      Since LLM fine-tuning is explicitly required, it is
+      classified ai-first despite the data engineering focus.
+  responsibilities:
+  - Build and deploy AI models for personalization, anomaly detection, and predictive
+    health insights
+  - Build scalable data pipelines for real-time sensor data, user feedback, and behavioral
+    patterns
+  - Collaborate with BU, COE and cloud teams to integrate AI into consumer-facing
+    apps and business platforms
+  - Implement SDLC practices for continuous delivery and monitoring of AI models
+  - Build AI-driven user interfaces and applications
+  - Ensure data privacy and compliance with consumer data protection regulations
+  use_cases:
+  - Personalized consumer health experiences
+  - Anomaly detection in consumer health data
+  - Predictive health insights from sensor and behavioral data
+  - Sales forecasting
+  skills:
+    genai: [LLMs]
+    ml: [PyTorch, TensorFlow, Fine-Tuning, Anomaly Detection]
+    web: [Next.js, React]
+    databases: []
+    data: [Data Pipelines, Data Engineering]
+    cloud: [Azure, GCP]
+    ops: [Kubernetes, Monitoring]
+    languages: [Python, SQL, Node.js]
+    domains: []
+    other: [GDPR, CCPA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10409576'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:00:59.076006'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

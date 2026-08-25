@@ -2,56 +2,56 @@ company:
   name: NucleusTeq
   stage: null
   focus: |-
-    Generative AI, Machine Learning, Data Modernization, Cloud
-    Computing, Enterprise Automation
+    Software services for Generative AI, data modernization,
+    cloud, and enterprise automation
 position:
   title: Data Engineer + Gen AI (In-Person @ NYC)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Data Engineering role with GenAI as a
-      secondary component. The core responsibilities focus on
-      building data platforms, ETL pipelines, and data
-      infrastructure using PySpark, Airflow, and GCP services. The
-      GenAI work involves integrating LLM capabilities into
-      existing data platforms (semantic search, AI-driven
-      analytics) rather than directly building, training, or fine-
-      tuning models. The role supports AI/ML work through data
-      engineering and platform development rather than hands-on
-      model development.
+      The core responsibilities are data platform engineering
+      (PySpark, Airflow, GCP pipelines, data warehousing) with no
+      model-shaping work listed. GenAI appears only in
+      qualifications as conceptual understanding and integration
+      experience (semantic search, embeddings) rather than
+      designing prompts, retrieval, or agent flows themselves, so
+      the deliverable is data infrastructure with AI capabilities
+      wired in.
   responsibilities:
-  - Design and build high performance, scalable data platforms and data infrastructure
+  - Design and build high-performance, scalable data platforms
   - Lead a team of engineers to drive product development and adoption
-  - Collaborate with product teams to translate business requirements into engineering
-    artifacts
-  - Work with platform engineers, usecase owners, and analytical users to develop
-    innovative data solutions
-  - Follow DevOps principles to achieve engineering excellence
-  - Create and maintain large scale data transformation pipelines and ETL tools
-  - Write and maintain APIs for data platform services
-  - Integrate GenAI capabilities including semantic search and AI-driven analytics
-    into data platforms
+  - Collaborate with product and business teams to translate roadmap and vision into
+    engineering artifacts
+  - Partner with platform engineers, use case owners, and analytical users to deliver
+    innovative solutions
+  - Integrate GenAI capabilities such as semantic search and AI-driven analytics into
+    data platforms
+  - Apply DevOps principles to engineering delivery
   use_cases:
-  - Semantic search capabilities on data platforms
+  - Large-scale data transformation and ETL pipelines on Google Cloud
+  - Low code/no code tooling for large-scale data transformation
+  - Semantic search over enterprise data
   - AI-driven analytics and automated data insights
-  - Large scale data transformation and ETL processing
-  - Real-time data platform with governance and analytics
-  - Enterprise data warehousing and dimensional modeling
-  - Vector database integration for LLM-powered features
   skills:
-    domains: []
-    languages: [Python, SQL, Java, Scala]
+    cloud: [GCP, AWS Glue, Dataflow, Dataproc, Pub/Sub, Cloud Storage, Composer]
+    languages: [Python, Java, Scala, SQL]
     ml: []
-    cloud: [GCP, BigQuery, Dataflow, Dataproc, Pub/Sub, Cloud Storage, Composer]
-    genai: [Generative AI, LLMs, Prompt Engineering, Embeddings]
-    data: [PySpark, Airflow, AWS Glue, Spark, Hive, data warehousing, Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, Git, CI/CD, Jenkins, DevOps]
-    web: [FastAPI, Flask]
-    databases: [Vector Databases, MySQL, PostgreSQL, NoSQL]
+    other: [Code Review, Jira, Confluence, Agile, SAFe]
+    ops: [Docker, Kubernetes, Git, CI/CD, DevOps, Jenkins, XLR, Stash, Splunk, High
+        Availability, Disaster Recovery, Test Automation]
+    databases: [BigQuery, Hive, MySQL, PostgreSQL, NoSQL, Vector Databases, Relational
+        Databases]
+    domains: []
+    web: [FastAPI, Flask, APIs]
+    data: [PySpark, Spark, Airflow, Data Pipelines, Big Data, Data Warehousing, Data
+        Modeling, Data Integration]
+    genai: [AI Agents, Generative AI, LLMs, Prompt Engineering, Embeddings, Semantic
+        Search]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9296408'
   location: New York, USA
-  extracted_at: '2026-05-29T08:59:30.945566'
+  extracted_at: '2026-08-16T10:08:33.856863'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

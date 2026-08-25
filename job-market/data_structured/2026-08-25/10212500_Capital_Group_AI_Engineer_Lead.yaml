@@ -1,0 +1,59 @@
+company:
+  name: Capital Group
+  stage: null
+  focus: Investment management and financial services
+position:
+  title: AI Engineer Lead
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds production LLM applications end-
+      to-end: RAG pipelines (chunking, embeddings, retrieval),
+      agent workflows with guardrails, prompt engineering, and
+      evaluation harnesses. This is directly shaping model
+      behavior via retrieval, prompts, and agents, so it is ai-
+      first.
+  responsibilities:
+  - Partner with business partners and investment professionals to scope high-value
+    AI opportunities and translate ambiguous needs into technical specifications
+  - Design, build, and operate production generative AI applications including copilots,
+    assistants, knowledge-search, and agentic workflows
+  - Architect and implement end-to-end RAG pipelines covering parsing, ingestion,
+    chunking, embeddings, vector storage, retrieval, and prompt management
+  - Build agents and agentic workflows with guardrails and auditable boundaries
+  - Practice eval-driven development with evaluation harnesses measuring correctness,
+    latency, and hallucination
+  - Own systems end-to-end including observability, cost tracking, and audit trails;
+    apply FinOps to AI workloads
+  - Integrate AI solutions with enterprise data systems, APIs, and MLOps/LLMOps tooling
+  - Embed security, privacy, and compliance controls (IAM, encryption, audit logging)
+    and codify reusable patterns and playbooks
+  use_cases:
+  - Copilots and assistants for investment professionals
+  - Knowledge-search experiences over enterprise data
+  - Agentic workflows that execute multi-step business tasks with guardrails
+  - Retrieval-augmented generation over firm documents and data systems
+  - Improving the investment process and business outcomes at an asset manager
+  skills:
+    genai: [LLMs, Prompt Engineering, RAG, Agentic Workflows, Embeddings, Guardrails,
+      LLM Evaluation]
+    ml: []
+    web: [APIs]
+    databases: [Vector Databases]
+    data: []
+    cloud: [IAM]
+    ops: [MLOps, LLMOps, Observability, Distributed Systems, System Design]
+    languages: [Python]
+    domains: []
+    other: [FinOps, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10212500'
+  location: Irvine, USA
+  locations:
+  - Irvine, USA
+  - Los Angeles, USA
+  extracted_at: '2026-08-25T09:32:53.513476'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,57 @@
+company:
+  name: Rightway
+  stage: null
+  focus: |-
+    Healthcare navigation and pharmacy benefits guidance
+    platform
+position:
+  title: Sr. AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds Agent OS, a platform for designing agent
+      orchestration, tool/function calling, MCP, structured
+      outputs, and LLM evaluation infrastructure — directly
+      shaping model behavior and output quality. LLM/agent
+      components are central, so it's ai-first.
+  responsibilities:
+  - Build the core Agent OS platform for running AI-powered workflows reliably in
+    production
+  - Create safe, well-defined ways for AI systems to interact with existing services
+    and data
+  - Design authorization and data-access patterns for AI operating on sensitive healthcare
+    data
+  - Build evaluation infrastructure to measure quality, compare changes, and catch
+    regressions
+  - Develop observability, tracing, and auditability for AI systems in production
+  - Establish reusable platform patterns for other engineers building AI capabilities
+  - Make build-versus-buy decisions across agents, models, tools, and evaluation
+  - Partner with product, security, compliance, data, and engineering teams
+  use_cases:
+  - Automated answering of healthcare member questions like prior authorization status
+    and drug costs
+  - AI-powered workflows for care navigation and pharmacy benefits
+  - Connecting AI to internal healthcare systems with controlled data access
+  - Measuring and evaluating AI quality for safe production deployment in a regulated
+    environment
+  skills:
+    genai: [AI Agents, Agentic Workflows, Function Calling, MCP, Structured Outputs,
+      LLMs, LLM Evaluation, RAG, Conversational AI]
+    ml: []
+    web: [gRPC, GraphQL, OAuth, APIs, React, React Native]
+    databases: [PostgreSQL]
+    data: [Kafka]
+    cloud: []
+    ops: [LangSmith, Observability, OpenTelemetry, Distributed Systems, Kubernetes]
+    languages: [TypeScript, Node.js, Ruby]
+    domains: []
+    other: [HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10507199'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:27:04.774512'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,58 @@
+company:
+  name: New York Life Insurance Company
+  stage: null
+  focus: Insurance and wealth management products
+position:
+  title: Senior Associate - Quality Engineer, AI & Automation
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a quality engineering role where AI/GenAI tools are
+      used as accelerators for test design, defect triage, and
+      coverage analysis. The person does not shape model behaviour
+      through prompts, retrieval, or fine-tuning as the
+      deliverable; AI is a tool applied to testing workflows. AI
+      validation and guardrail testing are QA oversight, not model
+      shaping.
+  responsibilities:
+  - Design, build, and maintain automated test suites across API, UI, integration,
+    data, regression, and end-to-end workflows
+  - Use AI and GenAI tools to accelerate test design, coverage analysis, defect triage,
+    test data generation, and failure pattern detection
+  - Review developer unit test strategies, code coverage, and contract tests before
+    code moves downstream
+  - Build automation into CI/CD pipelines with automated quality gates for pull requests,
+    builds, and deployments
+  - Develop dashboards and reporting on automation coverage, failure trends, flaky
+    tests, and quality health
+  - Analyze recurring defects and production incidents to drive root-cause prevention
+  - Collaborate with Product, Engineering, Architecture, DevSecOps, and business stakeholders
+    on test strategy for wealth management features
+  - Mentor peers on automation design and AI-assisted quality practices
+  use_cases:
+  - Automated quality engineering for wealth management platforms
+  - Advisor, client, account, portfolio, and transaction workflow testing
+  - AI-accelerated test design, defect triage, and coverage analysis
+  - CI/CD quality gates and release readiness for regulated financial services
+  - Data validation and reconciliation across accounts, holdings, balances, and reports
+  skills:
+    genai: [Generative AI, LLMs, Embeddings, Prompt Engineering]
+    ml: []
+    web: [Playwright, REST APIs, OpenAPI]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Jenkins, GitHub Actions, GitLab CI, Azure DevOps, Git, Monitoring,
+      Observability, Datadog, Grafana, OpenTelemetry]
+    languages: [Python, Java, JavaScript, TypeScript, SQL]
+    domains: []
+    other: [pytest, Selenium, mabl, Cypress, REST Assured, Postman, Cucumber, JUnit,
+      TestNG, Pact, Splunk, Dynatrace, Docker]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10651479'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:07:03.118990'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

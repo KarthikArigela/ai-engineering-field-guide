@@ -1,56 +1,60 @@
 company:
   name: Rockwell Automation
-  stage: Public
-  focus: Industrial automation technology and manufacturing solutions
+  stage: null
+  focus: Industrial automation technology for manufacturers
 position:
   title: Senior Agentic AI Architect/Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on building and architecting of AI
-      agents, RAG pipelines, and Generative AI solutions. The
-      engineer is directly implementing model systems (tool/skill
-      integration, embeddings, vector databases) rather than just
-      supporting infrastructure.
+      The role directly shapes LLM/agent behavior: it architects
+      AI agents with tools, skills, and MCP client/server
+      integration, and designs end-to-end RAG pipelines including
+      embedding generation and vector database retrieval. It also
+      builds output-quality guardrails (PII filtering, guarded
+      conversation frameworks). Since LLM and agent components are
+      central, this is ai-first.
   responsibilities:
-  - Architect AI Agents that use Tools and Skills including instantiation of MCP clients
-    and servers
-  - Architect scalable end-to-end Retrieval-Augmented Generation (RAG) pipelines including
-    data ingestion, document processing, and prompt generation
-  - Increase model serving layers and high-throughput data processing pipelines employing
-    advanced libraries like Polars to ensure ultra-low latency
-  - Design and implement secure system architectures for all new AI products with
-    PII filtering and guarded conversation frameworks
-  - Use Terraform for provisioning and manage Azure infrastructure-as-code for AI
-    solutions
-  - Implement centralized observability, logging, and alerting to support automated
-    and reproducible CI/CD pipelines
-  - Lead projects within the AI Engineering organization and implement enterprise
-    AI vision
+  - Architect AI Agents that use tools and skills, including instantiation of MCP
+    clients and servers
+  - Architect scalable end-to-end RAG pipelines spanning data ingestion, document
+    processing, and embedding generation with Azure OpenAI or Gemini, integrated with
+    vector and NoSQL databases
+  - Optimize model serving layers and high-throughput data processing pipelines for
+    ultra-low latency and efficient resource use across cloud environments
+  - Design and implement secure system architectures for new AI products, ensuring
+    compliance with enterprise data governance and security policies via PII filtering
+    and guarded conversation frameworks
+  - Provision and manage Azure infrastructure with Terraform and maintain centralized
+    observability supporting automated, reproducible CI/CD pipelines
+  - Serve as a technical leader in the AI Engineering organization, implementing the
+    enterprise Generative AI and Agentic AI vision
   use_cases:
-  - Industrial manufacturing automation and optimization
-  - Enterprise AI solutions for manufacturing productivity
-  - Enterprise search and knowledge retrieval through RAG systems
-  - Multi-agent systems for industrial workflows
-  - Document processing and data extraction for manufacturing operations
-  - Secure AI applications with data governance and compliance
+  - Enterprise agentic AI and generative AI solutions
+  - End-to-end RAG over enterprise documents (ingestion, retrieval, generation)
+  - AI agents using tools, skills, and MCP client/server integration
+  - Secure AI products with PII filtering and guarded conversations
+  - ERP integration with solutions like IFS Cloud
+  - High-throughput, ultra-low-latency model serving in the cloud
   skills:
-    domains: []
+    cloud: [Azure, AWS, GCP]
     languages: [Python, SQL]
     ml: [XGBoost, Causal Inference, Matrix Factorization]
-    cloud: [Azure OpenAI, Azure, AWS, GCP]
-    genai: [LangChain, LangGraph, LlamaIndex, OpenAI API, Anthropic API, RAG, Prompt
-        Engineering, AI Agents, Function Calling, MCP]
-    data: [Airflow, Polars]
-    other: [PII filtering, Data governance, SAFe, Enterprise architecture, System
-        Design]
-    ops: [Terraform, Docker, Kubernetes, CI/CD, MLflow]
+    other: [IFS Cloud, SAFe, PII Filtering]
+    ops: [MLOps, Docker, Terraform, CI/CD, Observability, Model Deployment]
+    databases: [Vector Databases, NoSQL, Redis, pgvector, Azure Cosmos DB, Azure AI
+        Search, MongoDB Atlas]
+    domains: []
     web: []
-    databases: [Cosmos DB, Azure AI Search, Redis, pgvector, MongoDB Atlas]
-  is_customer_facing: false
+    data: [Airflow, Polars, Data Pipelines, Data Governance]
+    genai: [Generative AI, AI Agents, RAG, MCP, Function Calling, Multi-Agent Systems,
+      Embeddings, Azure OpenAI, Gemini, Guardrails]
+  is_customer_facing: true
   is_management: false
 meta:
   job_id: '9514988'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:09:30.966259'
+  extracted_at: '2026-08-16T12:09:30.218951'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

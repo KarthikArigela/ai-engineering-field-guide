@@ -1,63 +1,65 @@
 company:
   name: Lynx Software Technologies
-  stage: unknown
-  focus: |-
-    Secure edge computing and mission-critical systems for
-    aerospace, defense, automotive, and industrial
+  stage: null
+  focus: Modular software for secure, mission-critical edge computing
 position:
   title: Principal AI Platform Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is an AI Platform Engineer building the
-      infrastructure and tooling platform for AI-assisted
-      workflows, not building or deploying AI models directly. The
-      role focuses on platform engineering, LLMOps observability,
-      CI/CD, infrastructure as code, and secure integrations -
-      enabling others to use AI tools while working on the
-      supporting platform, orchestration, and operational
-      infrastructure.
+      The role explicitly shapes LLM behaviour: it designs multi-
+      step/agentic workflows with guardrails and output
+      validation, owns prompt versioning and automated LLM
+      evaluations (Langfuse), and defines platform standards for
+      orchestration frameworks and prompt assets. Although much of
+      the job is Azure platform and LLMOps infrastructure work,
+      these activities directly determine model output quality, so
+      it is ai-first rather than ai-support.
   responsibilities:
-  - Define and enforce platform standards for AI orchestration frameworks, prompt
-    assets, tracing, and metadata
+  - Define and enforce the platform standard for how AI tools use orchestration frameworks,
+    prompt assets, tracing, and metadata
+  - Bring existing advanced AI tools into alignment with shared platform conventions
+    while preserving agentic or workflow-specific behavior
   - Build and maintain Azure-based production infrastructure including networking,
     identity, secrets, storage, database, monitoring, and deployment patterns
   - Implement infrastructure as code and CI/CD for sandbox-to-production promotion
   - Deepen LLMOps capabilities including prompt versioning, golden datasets, automated
-    evaluations, cost tracking, feedback loops, regression detection, and release
-    controls
+    evaluations, cost tracking, feedback loops, and regression detection
   - Own secure integrations with CodeBeamer, GitHub, and event-driven APIs or webhooks
   - Establish operational discipline through logging, alerting, rollback, test coverage,
-    runbooks, rate limiting, and supportability
-  - Partner with engineering, IT, security, and compliance stakeholders to support
-    auditable AI-assisted workflows
-  - Mentor and coach other senior and intermediate engineers, provide technical guidance,
-    and conduct architectural review
+    runbooks, and rate limiting in partnership with engineering, IT, security, and
+    compliance stakeholders
+  - Mentor and coach senior and intermediate engineers, conduct architectural reviews,
+    and help define the technical trajectory of the platform
   use_cases:
-  - AI-assisted certification workflows for safety-critical systems
-  - Mission-critical edge computing AI deployment with deterministic, certifiable
-    workloads
-  - Engineering workflow automation in regulated aerospace, defense, and automotive
-    environments
-  - C/C++ code analysis and test generation workflows
-  - Traceability and human-in-the-loop review processes for safety-critical systems
+  - AI-assisted certification and engineering workflows for mission-critical edge
+    systems
+  - Auditable, traceable AI-assisted workflows with human-in-the-loop review and controlled
+    change management for regulated environments
+  - Standardized and secure organizational access to AI capabilities through an internal
+    platform
+  - Secure integration with enterprise engineering systems such as CodeBeamer and
+    GitHub via webhook-driven workflows
+  - C/C++ code analysis and test-generation workflows supporting safety-critical certification
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [Azure, Azure Container Apps, Azure Key Vault, Entra ID, Managed Identity,
+      Azure VNet, Azure Container Registry, RBAC]
+    languages: [Python, C++]
     ml: []
-    cloud: [Azure, Azure Container Apps, Azure Key Vault, Entra ID, RBAC]
-    genai: [LangChain, LangGraph, LLM observability, Prompt Engineering, RAG, AI Agents]
-    data: []
-    other: []
-    ops: [Langfuse, GitHub Actions, Terraform, Bicep, Azure DevOps, CI/CD, Infrastructure
-        as Code, secrets management, audit logging, rate limiting, Monitoring, alerting,
-      logging]
-    web: [REST APIs, webhooks, React]
+    other: [CodeBeamer, Jira, DO-178C]
+    ops: [LLMOps, Langfuse, CI/CD, Infrastructure as Code, Terraform, Bicep, GitHub
+        Actions, Azure DevOps, GitHub, Monitoring]
     databases: [PostgreSQL]
+    domains: []
+    web: [APIs, Webhooks, React]
+    data: []
+    genai: [LangChain, LangGraph, LLMs, Agentic Workflows, Guardrails, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9370910'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:02:08.250548'
+  extracted_at: '2026-08-16T10:36:54.320313'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

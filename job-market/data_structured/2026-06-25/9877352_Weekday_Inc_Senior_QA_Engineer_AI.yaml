@@ -1,53 +1,60 @@
 company:
   name: Weekday, Inc.
   stage: null
-  focus: AI-powered products and platforms
+  focus: Recruiting platform hiring for client companies
 position:
   title: Senior QA Engineer (AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a QA engineering role focused on testing AI-enabled
-      products, not building or deploying AI models. The role
-      involves test automation, validating AI feature behavior,
-      and ensuring quality of AI-driven applications, but does not
-      include model training, fine-tuning, or inference
-      engineering. The AI exposure is limited to testing and
-      validation of AI features.
+      This is a QA/test automation role: the core work is test
+      plans, automation frameworks, defect tracking, and CI/CD
+      integration. AI/ML validation here is QA oversight (checking
+      feature accuracy, consistency, reliability) rather than
+      shaping model behavior through prompts, retrieval, agent
+      design, or training, and AI/LLM evaluation experience
+      appears only as good-to-have. Per the QA-oversight rule,
+      this is ai-support.
   responsibilities:
   - Design, develop, and execute comprehensive test plans, test cases, and test strategies
     for web, mobile, API, and AI-driven applications
-  - Build and maintain scalable automated testing frameworks to improve test coverage,
-    efficiency, and release confidence
+  - Build and maintain scalable automated testing frameworks and automated test suites
+    for APIs, microservices, and user interfaces
   - Validate AI and machine learning-based features for accuracy, consistency, reliability,
     and expected behavior
   - Perform functional, regression, integration, system, performance, and end-to-end
     testing
-  - Develop automated test suites for APIs, microservices, and user interfaces
-  - Collaborate with DevOps teams to integrate automated testing into CI/CD pipelines
-  - Identify, document, track, and verify software defects through resolution
-  - Mentor junior QA engineers and promote best practices across the team
+  - Identify, document, track, and verify software defects through resolution and
+    analyze root causes
+  - Integrate automated testing into CI/CD pipelines in collaboration with DevOps
+    teams
+  - Monitor application quality metrics and contribute to continuous process improvement
+    initiatives
+  - Mentor junior QA engineers and promote testing best practices across the team
   use_cases:
-  - Quality assurance and testing of AI-enabled products and platforms
-  - Automated testing of web, mobile, and API applications
-  - AI model output evaluation and prompt testing
-  - Performance, security, and reliability testing of distributed systems
-  - CI/CD pipeline integration for continuous quality validation
+  - Quality assurance of AI-enabled products and platforms covering quality, reliability,
+    performance, and scalability
+  - Validation of AI and ML feature outputs for accuracy and consistent behavior
+  - Automated functional, regression, and end-to-end testing across web, mobile, API,
+    and microservice applications
+  - Defect detection, root-cause analysis, and quality gating within CI/CD pipelines
   skills:
-    domains: []
-    languages: [Python, Java, JavaScript, SQL]
+    cloud: [Cloud Platforms]
+    languages: [Java, Python, JavaScript]
     ml: [Machine Learning]
-    cloud: []
-    genai: [Generative AI, LLMs, Prompt Testing]
-    data: []
-    other: [Agile]
-    ops: [Test Automation, Selenium, CI/CD, Performance Testing, Docker, Kubernetes,
-      Shift-left Testing, Git]
-    web: [REST API Testing, Microservices]
+    other: [Test Automation, Software Testing, Performance Testing, Security Testing,
+      Agile]
+    ops: [CI/CD, Version Control, Distributed Systems]
     databases: []
+    domains: []
+    web: [APIs, Microservices]
+    data: [Data Quality Testing]
+    genai: [Generative AI, LLMs, Prompt Testing]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9877352'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:53:07.160835'
+  extracted_at: '2026-08-16T15:43:25.816086'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

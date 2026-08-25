@@ -1,0 +1,63 @@
+company:
+  name: Trimble
+  stage: null
+  focus: |-
+    Technology company; enterprise revenue and financial
+    automation
+position:
+  title: Staff software Engineer -  Snowflake/AI Automation Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is fundamentally Snowflake data engineering:
+      building data models, pipelines, and ERP integrations for
+      revenue automation. Snowflake AI features (Cortex Analyst,
+      Snowflake Intelligence) are consumed as product capabilities
+      rather than shaped through prompting, RAG design, or
+      evaluation, and preparing governed datasets for others'
+      modeling is plumbing rather than shaping model behavior.
+  responsibilities:
+  - Design, build, and optimize Snowflake-based data models and pipelines to support
+    Revenue AI and automation use cases
+  - Develop scalable solutions to automate revenue recognition, forecasting, analytics,
+    and reporting
+  - Integrate Snowflake with ERP systems like Salesforce and Oracle to enable end-to-end
+    Quote-to-Revenue workflows
+  - Prepare high-quality, governed datasets to support AI/ML-enabled analytics and
+    automation
+  - Ensure data accuracy, reconciliation, and compliance with SOX and audit requirements
+  - Optimize Snowflake performance, cost management, and security best practices
+  - Participate in system upgrades, enhancements, and production support for revenue
+    systems
+  - Contribute to documentation, controls, and operational runbooks for enterprise
+    data platforms
+  use_cases:
+  - Revenue recognition automation
+  - Revenue forecasting and analytics
+  - End-to-end Quote-to-Revenue workflows across ERP systems
+  - AI-driven automation of enterprise financial and revenue processes
+  - SOX-compliant, audit-ready reporting and reconciliation
+  skills:
+    genai: [Cortex Analyst, Cortex Search, Snowflake Intelligence]
+    ml: [Machine Learning, Predictive Modeling]
+    web: []
+    databases: [Snowflake]
+    data: [Data Modeling, Data Pipelines, ETL, Data Governance, dbt, Airflow]
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD]
+    languages: [SQL, Python]
+    domains: []
+    other: [Oracle EBS, Oracle Cloud ERP, SAP, NetSuite, RevPro, Salesforce, SOX Compliance,
+      Revenue Recognition]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8582723'
+  location: Pune, IND
+  locations:
+  - Pune, IND
+  - Chennai, IND
+  remote: true
+  extracted_at: '2026-08-16T02:41:05.121684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

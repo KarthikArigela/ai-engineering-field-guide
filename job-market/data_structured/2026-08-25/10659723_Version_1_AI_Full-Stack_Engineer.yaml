@@ -1,0 +1,57 @@
+company:
+  name: Version 1
+  stage: null
+  focus: IT consulting and technology transformation services
+position:
+  title: AI Full-Stack Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role consumes Galaxy's AI platform (AgentCore, Bedrock,
+      SageMaker) as an underlying intelligence layer designed and
+      owned by another team; model-level evaluation is explicitly
+      the AI platform team's. The engineer builds frontends,
+      backends, data layers, and CI/CD around it without shaping
+      model behaviour, prompts, or retrieval themselves.
+  responsibilities:
+  - Design and build full stack AI-powered applications from scratch consuming Galaxy's
+    AI platform (AgentCore, Bedrock, SageMaker)
+  - Build responsive production-quality React frontends with streaming UIs for real-time
+    AI responses
+  - Build robust scalable Python backend services integrating with LLMs, agentic workflows,
+    and enterprise data sources
+  - Design data layers using PostgreSQL, Databricks, and Redis as appropriate
+  - Re-architect, harden, and scale AI prototypes into production-ready applications,
+    remediating security, scalability, and performance gaps
+  - Manage CI/CD pipelines with Kubernetes and Terraform, implementing automated testing
+    and observability
+  - Advise teams on architectural best practices and define reusable patterns, templates,
+    and starter kits for building on the AI platform
+  - Mentor engineers on full stack best practices for AI-powered products
+  use_cases:
+  - Full stack AI-powered products for institutional and individual clients in finance
+    and digital assets
+  - Real-time AI response rendering in streaming frontends
+  - Taking AI prototypes to production at scale
+  - AI-powered search and retrieval features
+  - Enterprise applications integrating agentic AI workflows with enterprise data
+  skills:
+    genai: [LLMs, Agentic Workflows, Embeddings]
+    ml: []
+    web: [React, WebSockets, REST APIs, FastAPI, Angular, Vue, OAuth]
+    databases: [PostgreSQL, Redis, Vector Databases]
+    data: [Databricks]
+    cloud: [AWS, AWS Bedrock, SageMaker, ECS, EKS, AWS Lambda, API Gateway, AWS S3,
+      IAM]
+    ops: [CI/CD, Kubernetes, Terraform, Docker, Git, CloudWatch]
+    languages: [Python, Go, Java, Node.js]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10659723'
+  location: Mumbai, IND
+  extracted_at: '2026-08-25T11:09:16.099681'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

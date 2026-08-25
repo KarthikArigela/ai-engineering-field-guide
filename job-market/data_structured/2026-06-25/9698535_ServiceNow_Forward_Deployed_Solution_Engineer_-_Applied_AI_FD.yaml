@@ -1,57 +1,58 @@
 company:
   name: ServiceNow
-  stage: Public
-  focus: Enterprise AI platform and workflow automation
+  stage: ''
+  focus: Enterprise AI platform for workflow automation
 position:
   title: Forward Deployed Solution Engineer - Applied AI FDE
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly
-      builds and deploys LLM-enabled applications with customers.
-      The engineer owns the full stack from LLM pipelines to
-      backend services, working hands-on with GenAI tools like
-      LangChain, vector DBs, and prompt chaining to deliver
-      production AI solutions. FDEs who deploy AI solutions are
-      classified as ai-first.
+      This Forward Deployed Engineer role owns LLM pipelines end
+      to end: writing prompts and scaffolds, and using LLM tooling
+      explicitly named in the qualifications (LangChain, Semantic
+      Kernel, prompt chaining, vector search, context management).
+      Shaping LLM behaviour is the core deliverable, and the role
+      also matches the Forward Deployed Engineer edge case of
+      adapting and deploying AI solutions at customer sites, which
+      is ai-first.
   responsibilities:
-  - Build production-ready LLM-enabled applications spanning backend logic, data orchestration,
+  - Build solution-ready LLM-enabled applications spanning backend logic, data orchestration,
     and front-end UI
-  - Work side-by-side with strategic customers to adapt, deploy, and iterate AI solutions
-    in live environments
-  - Deliver solution-ready builds end-to-end in agile sprints
-  - Engineer across the full stack including APIs, orchestration pipelines, vector
-    databases, LLM frameworks, and UI components
-  - Codify reusable assets such as libraries, prompts, SDKs, and scaffolds to accelerate
-    future engagements
-  - Share field-tested insights with platform and product teams to inform product
-    strategy
-  - Integrate with legacy enterprise systems while navigating ambiguity and shipping
-    safely at speed
-  - Debug distributed systems, tune for latency, and implement monitoring in production
-    environments
+  - Operate in the field, working side-by-side with customers to adapt, deploy, and
+    iterate solutions in live environments
+  - Deliver production-ready solutions in agile end-to-end sprints, integrating with
+    legacy systems and shipping safely at speed
+  - Codify reusable assets such as libraries, prompts, scaffolds, SDKs, and documentation
+    to accelerate future engagements
+  - Engineer with versatility across APIs, orchestration pipelines, vector DBs, LLM
+    frameworks, and UI components
+  - Influence platform and product strategy by sharing field-tested insights and extensible
+    code with internal teams
   use_cases:
-  - Enterprise AI workflow automation and orchestration
-  - LLM-powered customer solution delivery for Fortune 500 enterprises
-  - Scalable GenAI reference implementations for regulated enterprise environments
-  - AI-native workflow integration with legacy enterprise systems
-  - Reusable AI patterns and scaffolds for cross-industry deployment
+  - Production GenAI applications deployed at strategic enterprise customers
+  - AI-native workflows that solve mission-critical enterprise challenges
+  - Reusable AI scaffolds, SDKs, and libraries powering multiple deployments across
+    industries
+  - Reference implementations for scalable GenAI in secure, regulated enterprise environments
+  - Integrating AI capabilities into SaaS platforms like ServiceNow and Salesforce
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python, Node.js, Java]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [LangChain, Semantic Kernel, Prompt chaining, Vector search, Context management]
+    other: [ServiceNow, Salesforce]
+    ops: [CI/CD, Docker, Infrastructure as Code, Monitoring, Distributed Systems]
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [React, Angular, REST APIs, GraphQL]
     data: []
-    other: [ServiceNow Platform, Salesforce]
-    ops: [CI/CD, Docker, Kubernetes, Terraform, Monitoring, Distributed systems debugging,
-      Infra-as-code]
-    web: [React, Angular, REST, GraphQL]
-    databases: [Vector Databases]
+    genai: [LLMs, Generative AI, LangChain, Semantic Kernel, Prompt Engineering, Context
+        Engineering]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9698535'
   location: London, GBR
   remote: true
-  extracted_at: '2026-06-25T19:52:29.903732'
+  extracted_at: '2026-08-16T14:17:50.523057'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,61 +1,71 @@
 company:
   name: Komodo Health
-  stage: Series E
-  focus: Healthcare data and AI-powered analytics for life sciences
+  stage: null
+  focus: |-
+    Healthcare real-world data and AI analytics for life
+    sciences
 position:
   title: Senior AI Sales Engineer, AI Data Solutions
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Sales Engineering role where the primary
-      responsibility is selling and positioning AI-powered
-      analytics products to life sciences clients. While the
-      candidate needs AI fluency and a "builder mentality" with
-      hands-on experimentation, the role itself involves demoing,
-      solution design, and sales support rather than building,
-      training, or deploying AI/ML systems as core job functions.
+      This is a pre-sales role: the core work is discovery, demos,
+      solution design, and clearing AI governance blockers with
+      buyers — the deliverable is closed deals, not model
+      behavior. Hands-on AI experience (agents, Claude Code,
+      LangFlow) is explicitly tinkering to build reusable demo
+      assets and automate the SE's own workflow, with production
+      deployments "not required," so the person does not shape
+      model output quality. Explaining and positioning AI
+      trust/governance is advisory, not building evals or
+      guardrails.
   responsibilities:
-  - Partner with Sales during discovery to identify technical, data, and AI requirements
-    and pain points for life sciences clients
+  - Partner with Sales during discovery to identify technical, data, and AI requirements,
+    pain points, and desired commercial outcomes for life sciences clients
   - Design and present tailored solutions combining Komodo's Healthcare Map, AI engine,
-    and software products to meet client objectives
-  - Run technical and AI-powered demonstrations including live plain-language analyses
-    and no-code exploration for prospective customers
-  - Position Komodo's differentiated AI against competitors by addressing model trust,
-    data provenance, reproducibility, and governance
+    and software products, and quantify the business value
+  - Run live technical and AI-powered demonstrations — plain-language analyses and
+    no-code exploration — answering ad-hoc customer questions in the room
+  - Position Komodo's differentiated AI versus general-purpose foundation models and
+    real-world-data vendors, addressing model trust, data provenance, reproducibility,
+    and governance
   - Support customer AI councils, security reviews, and enterprise procurement to
-    accelerate larger multi-product deals
-  - Navigate internal review processes aligning Legal, Compliance, Security/AI Governance,
-    and Product teams on technical proposals
-  - Feed customer and competitive signal back into the product and AI roadmap
-  - Mentor junior Sales Engineers and share reusable AI-centric best practices and
-    demo assets
+    unlock and accelerate larger multi-product deals
+  - Provide expert guidance on healthcare claims and real-world data, including clinical
+    ontologies, identity resolution, and patient-journey insights
+  - Build and share a personal library of reusable, AI-centric demo assets and proof-of-value
+    frameworks, and mentor junior Sales Engineers
+  - Feed customer and competitive signal back into the product and AI roadmap while
+    navigating internal Legal, Compliance, Security/AI Governance, and Product reviews
   use_cases:
-  - AI-powered healthcare analytics that compress weeks of analysis into minutes for
-    life sciences clients
-  - Real-world data exploration through plain-language queries on healthcare claims
-    and patient journeys
-  - Retrieval-grounded analytics for clinical ontologies and patient-journey insights
-    in BioPharma
-  - Trustworthy AI demonstrations for healthcare compliance and AI governance reviews
-  - Commercial outcome mapping tying AI and data capabilities to measurable customer
-    ROI
+  - AI-powered analytics on real-world healthcare data that compresses weeks of manual
+    analysis into minutes
+  - Plain-language, no-code exploration of patient journeys, treatment patterns, and
+    care gaps for life sciences clients
+  - Retrieval-grounded analytics over the Healthcare Map to answer commercial, HEOR/RWE,
+    and Medical Affairs questions
+  - Trustworthy, explainable, governed AI for regulated healthcare environments, supporting
+    customer AI councils and procurement reviews
+  - Reusable AI-centric demo and proof-of-value assets to shorten the path from discovery
+    to close
   skills:
-    genai: [LLMs, Generative AI, AI Agents, RAG, Claude Code, Cursor, Responsible
-        AI]
-    ml: []
-    web: [APIs]
-    databases: []
-    data: [Data Pipelines]
     cloud: [AWS, Azure]
-    ops: []
     languages: [Python, SQL]
+    ml: [Machine Learning]
+    other: [Real-World Data, Clinical Ontologies, Identity Resolution, 837/835 Data,
+      NDC Codes, HIPAA Compliance, GDPR, Responsible AI, Salesforce, Tableau, Looker]
+    ops: []
+    databases: []
     domains: []
-    other: [Salesforce, Tableau, HIPAA Compliance, GDPR, Data Visualization]
+    web: [APIs]
+    data: [Data Integration]
+    genai: [Claude Code, Cursor, LangFlow, LLMs, Generative AI, AI Agents, RAG]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10194967'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:37:03.689273'
+  extracted_at: '2026-08-16T17:42:05.596042'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

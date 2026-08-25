@@ -1,57 +1,64 @@
 company:
   name: Patlytics
-  stage: Series B
-  focus: |-
-    AI-native patent intelligence platform for IP protection and
-    monetization
+  stage: Series B ($40M led by SignalFire)
+  focus: AI-native patent intelligence platform for IP workflows
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building and deploying LLM pipelines,
-      agentic workflows, retrieval systems, and fine-tuning models
-      for patent intelligence applications. The engineer works
-      hands-on with model selection, prompt architecture, evals
-      frameworks, and production inference optimization — all core
-      AI/LLM system building.
+      The role directly shapes LLM behaviour: designing multi-step
+      LLM pipelines with prompt architecture, model selection, and
+      structured output contracts; building evals frameworks and
+      golden datasets; developing retrieval systems (vector
+      search, BM25, re-ranking); and architecting agentic
+      workflows. Since LLMs and generative AI are the core models
+      being shaped, Step 2 yields ai-first.
   responsibilities:
-  - Develop and deploy scalable AI/ML algorithms for IP applications
-  - Design and iterate on multi-step LLM pipelines for patent claim analysis, infringement
-    detection, and prior art search
-  - Build and maintain evals frameworks with success metrics, golden datasets, and
-    regression testing
+  - Design, implement, and iterate on multi-step LLM pipelines for patent claim analysis,
+    infringement detection, and prior art search, including model selection, prompt
+    architecture, and structured output contracts
+  - Build and maintain a rigorous evals framework defining success metrics per pipeline
+    stage, curating golden datasets from real IP cases, and running continuous regression
+    testing
   - Develop retrieval systems (vector search, BM25 hybrids, re-ranking) optimized
-    for patent corpus characteristics
-  - Architect and ship agentic workflows with tool use, memory, and multi-turn reasoning
-    for IP research tasks
-  - Develop data classification techniques and post-training on latest LLMs
-  - Manage cost, latency, and quality tradeoffs for production inference including
-    prompt caching and model migration
-  - Build monitoring tools for data pipeline performance, data quality, and production
-    models
+    for patent corpus characteristics like long documents and technical claim language
+  - Architect and ship agentic workflows coordinating tool use, memory, and multi-turn
+    reasoning over complex IP research tasks
+  - Collaborate with patent attorneys and domain experts to encode expert judgment
+    into prompts, rubrics, and fine-tuning datasets, and measure the results
+  - Own cost, latency, and quality tradeoffs for production inference, including prompt
+    caching, context window management, batching, and model migration planning on
+    AWS, GCP, and LLM providers
+  - Build tools to monitor data pipeline performance, data quality, and models in
+    production
+  - Improve ML methodologies by running computational experiments, testing enhancements,
+    and fine-tuning parameters
   use_cases:
-  - Patent claim analysis and structured output generation
-  - Patent infringement detection across large document corpora
-  - Prior art search using hybrid retrieval over patent databases
-  - Agentic IP research workflows with multi-turn reasoning and tool use
-  - Citation-backed patent intelligence for litigation support
+  - Patent claim analysis
+  - Infringement detection
+  - Prior art search
+  - Agentic automation of complex IP research tasks
+  - Citation-backed patent intelligence across the IP workflow from invention disclosure
+    to litigation
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [scikit-learn, Pandas, ML pipeline lifecycle, Post-training]
     cloud: [AWS, GCP]
-    genai: [LLM pipelines, Prompt Engineering, RAG, Agentic Workflows, Fine-Tuning,
-      Structured Outputs, Re-ranking, Anthropic API, OpenAI API, Gemini, Prompt caching,
-      Model routing]
-    data: [Spark, Data Pipelines]
+    languages: [Python, SQL]
+    ml: [Machine Learning, scikit-learn]
     other: []
-    ops: [Evals frameworks, Model Monitoring]
-    web: [APIs, Async processing]
-    databases: [Vector Search, BM25]
+    ops: [Monitoring, Observability]
+    databases: [Vector Search, BM25, Data Warehousing]
+    domains: []
+    web: [APIs]
+    data: [Pandas, Spark, Data Pipelines, Data Modeling]
+    genai: [LLMs, Generative AI, Prompt Engineering, Structured Outputs, Agentic Workflows,
+      Function Calling, LLM Evaluation, Fine-Tuning, Re-ranking, Prompt Caching, Anthropic
+        API, GPT, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9119928'
   location: New York, USA
-  extracted_at: '2026-04-22T13:10:45.084493'
+  extracted_at: '2026-08-16T08:22:03.811785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

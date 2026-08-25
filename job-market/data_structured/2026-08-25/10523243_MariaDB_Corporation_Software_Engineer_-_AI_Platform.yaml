@@ -1,0 +1,53 @@
+company:
+  name: MariaDB Corporation
+  stage: null
+  focus: Relational database engine for enterprise applications
+position:
+  title: Software Engineer - AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role integrates agent frameworks (LangChain, LangGraph,
+      MCP, A2A), builds RAG/embedding/semantic search systems, and
+      designs agent interoperability APIs themselves — direct
+      model-behavior shaping with LLM/agent components.
+  responsibilities:
+  - Lead full software development lifecycle from application design and API implementation
+    to deployment and monitoring
+  - Connect production applications with agent frameworks and interoperability protocols
+    (MCP, A2A) for framework-agnostic APIs
+  - Develop secure, versioned application data models with multi-tenant isolation,
+    auditability, and data classification
+  - Build application services that deploy across AWS, Azure, GCP, and on-premises
+    environments with automated CI/CD
+  - Define and meet performance goals via query optimization, code profiling, caching,
+    and security practices
+  - Own application components end-to-end, lead design/code reviews, and mentor team
+    members
+  use_cases:
+  - AI agent orchestration on top of a relational database engine
+  - Retrieval-augmented generation and semantic search over enterprise data
+  - Multi-tenant, auditable data management for enterprise AI applications
+  - Framework-agnostic AI interoperability via MCP and A2A protocols
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, AutoGen, MCP, AI Agents, RAG, Semantic Search,
+      Embeddings, LLMs]
+    ml: []
+    web: [REST APIs, gRPC]
+    databases: [Vector Databases, Relational Databases, MariaDB, MySQL, Neo4j, Graph
+        Databases, Redis]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, OpenTelemetry]
+    languages: [Python, Go, Java, C++, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10523243'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T10:30:35.953539'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

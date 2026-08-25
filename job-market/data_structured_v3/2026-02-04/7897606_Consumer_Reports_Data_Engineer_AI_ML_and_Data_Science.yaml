@@ -1,0 +1,60 @@
+company:
+  name: Consumer Reports
+  stage: Nonprofit
+  focus: |-
+    Independent nonprofit consumer product testing, ratings, and
+    advocacy
+position:
+  title: Data Engineer (AI, ML, and Data Science)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds ETL/ELT pipelines, feature stores, and data
+      APIs that deliver clean datasets for separate AI/ML
+      engineers to train and deploy models; it never writes
+      prompts, designs retrieval or agent flows, or
+      trains/evaluates models itself. Per the dataset-plumbing
+      edge case, building pipelines that feed someone else's model
+      work is ai-support.
+  responsibilities:
+  - Design, develop, and maintain ETL/ELT pipelines for structured and unstructured
+    data supporting AI/ML model development, evaluation, and monitoring
+  - Build and optimize data processing workflows in Databricks, AWS SageMaker, or
+    similar cloud platforms
+  - Collaborate with AI/ML engineers to deliver clean, reliable datasets for model
+    training and inference
+  - Implement data quality, observability, and lineage tracking within the ML lifecycle
+  - Develop data APIs and microservices to power AI applications and reporting/analytics
+    dashboards
+  - Support AI/ML application deployment by building and maintaining feature stores
+    and production-optimized data pipelines
+  - Ensure adherence to data governance, security, and compliance standards across
+    AI and data workflows
+  - Integrate data from multiple internal and external systems including APIs, third-party
+    datasets, and cloud storage
+  use_cases:
+  - Data infrastructure powering AI/ML model training, evaluation, and monitoring
+  - Generative AI applications serving consumers and supporting CR's multi-year AI
+    roadmap
+  - Feature stores and pipelines optimized for production AI/ML workloads
+  - Reporting and analytics dashboards
+  - Data integration across internal systems, APIs, and third-party datasets
+  skills:
+    genai: []
+    ml: []
+    web: [Microservices, APIs]
+    databases: []
+    data: [PySpark, Airflow, dbt, Prefect, Databricks, ETL, Data Pipelines, Data Governance]
+    cloud: [SageMaker, AWS, GCP, Azure]
+    ops: [CI/CD, Kubernetes, Observability, Feature Stores]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7897606'
+  location: Yonkers, USA
+  extracted_at: '2026-08-15T22:17:40.428232'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

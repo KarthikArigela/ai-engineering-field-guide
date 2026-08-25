@@ -1,65 +1,63 @@
 company:
   name: Payoneer
-  stage: Public
-  focus: |-
-    Global financial platform for cross-border payments and
-    business operations
+  stage: null
+  focus: Global cross-border payments and financial services platform
 position:
   title: AI/ML Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role requiring hands-on experience
-      training and fine-tuning Small Language Models (SLMs),
-      implementing RAG solutions, and deploying models to
-      production. The candidate will work directly with model
-      training (SFT, RLHF, instruction tuning), optimization
-      techniques (quantization, pruning, distillation), and
-      inference deployment - all core AI/ML engineering tasks on
-      the models themselves.
+      The role directly shapes model behaviour: training and fine-
+      tuning small language models with SFT, RLHF, instruction
+      tuning, and PEFT/LoRA, plus defining evaluation frameworks,
+      red-teaming, and benchmarking model output quality. Because
+      the models being shaped are LLMs/SLMs with RAG and agentic
+      workflows, the classification is ai-first.
   responsibilities:
   - Design, train, and fine-tune Small Language Models (SLMs) using PyTorch, TensorFlow,
-    or JAX
-  - Implement distributed training pipelines (DDP, FSDP) across GPU/TPU clusters and
-    conduct hyperparameter optimization
-  - Develop evaluation frameworks including perplexity, BLEU, ROUGE, BERTScore and
-    perform red-teaming for responsible AI
-  - Deploy models using Docker, Kubernetes and cloud platforms (AWS SageMaker, GCP
-    Vertex AI, Azure ML)
-  - Optimize inference performance through quantization, pruning, distillation and
-    ONNX/TensorRT conversion
-  - Build and maintain model registries, experiment tracking (MLflow, Comet) and monitor
-    model/data drift in production
-  - Implement RAG solutions and explore PEFT methods (LoRA, QLoRA), mixture-of-experts
-    (MoE), and agentic workflows
-  - Collaborate with product teams to translate business requirements into model objectives
-    and KPIs
+    or JAX, including SFT, RLHF, and instruction tuning
+  - Implement efficient training pipelines leveraging distributed training (DDP, FSDP,
+    DeepSpeed) across GPU/TPU clusters
+  - Develop and maintain data pipelines for collecting, cleaning, tokenising, and
+    pre-processing large-scale training corpora
+  - Define and implement model evaluation frameworks (perplexity, BLEU, ROUGE, BERTScore)
+    and conduct red-teaming, bias analysis, and safety evaluations
+  - Containerise and deploy models using Docker, Kubernetes, and cloud ML platforms
+    (AWS SageMaker, GCP Vertex AI, Azure ML)
+  - Optimise inference performance through quantisation (INT8/INT4), pruning, distillation,
+    and ONNX/TensorRT conversion
+  - Monitor model drift, data drift, and performance degradation in production; implement
+    automated retraining triggers
+  - Collaborate with product managers, engineers, and domain experts to translate
+    business requirements into model objectives and KPIs
   use_cases:
-  - Cross-border payment processing and financial workflow automation
-  - Multi-currency and workforce management optimization
-  - Business intelligence and working capital solutions
-  - Global payments compliance and regulatory workflows
-  - Customer-facing AI solutions for financial services
-  - Document processing and NLP for financial transactions
+  - Small language models fine-tuned for business-aligned AI solutions on a cross-border
+    financial platform
+  - RAG-based solutions for retrieval over enterprise data
+  - Agentic workflows applied where needed to business problems
+  - Production NLP model deployment with drift monitoring and automated retraining
+  - Responsible AI deployment supported by red-teaming, bias analysis, and safety
+    evaluations
   skills:
-    domains: [NLP]
+    cloud: [AWS, GCP, Azure, SageMaker, Vertex AI, Azure ML]
     languages: [Python, C++]
-    ml: [PyTorch, TensorFlow, JAX, Hugging Face, Hugging Face Datasets, LoRA, TRL,
-      Accelerate, SFT (Supervised Fine-Tuning), RLHF, Instruction Tuning, Adapter
-        Layers, DeepSpeed, CUDA, Perplexity, BLEU, ROUGE, BERTScore, Red-teaming,
-      Mixture-of-Experts (MoE)]
-    cloud: [AWS, SageMaker, GCP, Vertex AI, Azure, Azure ML]
-    genai: [RAG, Agentic Workflows, LangChain, LlamaIndex]
-    data: [Pandas, NumPy, Spark, Dask]
-    other: []
-    ops: [Model Quantization, Pruning, Distillation, ONNX, TensorRT, Docker, Kubernetes,
-      MLflow, Weights & Biases, Comet, Model Registry, Experiment Tracking, Model
-        Drift Monitoring, Data Drift Monitoring, CI/CD, Git, GitHub, GitLab CI]
+    ml: [PyTorch, TensorFlow, JAX, Hugging Face, Transformers, CUDA, Machine Learning,
+      Deep Learning, Model Training, Distributed Training, DeepSpeed, Quantization,
+      Distillation, Mixture-of-Experts, Hyperparameter Optimization]
+    other: [Responsible AI, Red-Teaming]
+    ops: [MLOps, Docker, Kubernetes, MLflow, Comet, Weights & Biases, CI/CD, Git,
+      GitHub, GitLab CI, TensorRT, ONNX, Model Deployment, Model Monitoring]
+    databases: [Vector Databases, FAISS, Pinecone, Weaviate]
+    domains: [NLP, Vision-Language Models]
     web: []
-    databases: [FAISS, Pinecone, Weaviate]
+    data: [Pandas, NumPy, Spark, Dask, Data Pipelines]
+    genai: [RAG, Agentic Workflows, RLHF, LoRA, Fine-Tuning, Instruction Tuning, LLMs,
+      LLM Evaluation, Mistral, LangChain, LlamaIndex]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9177346'
   location: Gurugram, IND
-  extracted_at: '2026-05-29T08:55:12.629551'
+  extracted_at: '2026-08-16T09:16:40.121548'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

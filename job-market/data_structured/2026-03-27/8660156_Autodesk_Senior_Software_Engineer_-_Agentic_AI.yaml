@@ -1,20 +1,23 @@
 company:
   name: Autodesk
-  stage: Public
+  stage: null
   focus: |-
-    Design and make software for architecture, engineering,
-    construction, manufacturing
+    Software for designing and making buildings, products, and
+    media
 position:
   title: Senior Software Engineer - Agentic AI
   ai_type:
     type: ai-support
     reasoning: |-
-      Despite the "Agentic AI" title, the core responsibilities
-      focus on building distributed systems, cloud infrastructure,
-      and platform scalability with no hands-on AI/ML work. AI is
-      only mentioned in preferred qualifications as optional
-      exposure, making this an infrastructure/platform role that
-      supports AI applications.
+      The stated responsibilities focus on distributed backend
+      systems, cloud infrastructure, CI/CD automation, and
+      platform reliability—none of which shape model behaviour.
+      All AI/LLM content (Bedrock, agent-style workflows, tool
+      calling, RAG, guardrails) appears only in preferred
+      qualifications as nice-to-have exposure rather than day-to-
+      day work. Per the rules, AI named only as a bonus is ai-
+      support, and the "Agentic AI" title cannot override the
+      actual responsibilities.
   responsibilities:
   - Drive the technical vision and architecture for large-scale, distributed collaboration
     systems
@@ -23,25 +26,30 @@ position:
   - Automate cloud infrastructure, CI/CD pipelines, testing, and observability
   - Provide technical leadership and mentor engineers while fostering an inclusive,
     collaborative team culture
+  - Build scalable services and core platform capabilities for the AI-first application
+    platform used across products
   use_cases:
-  - AI-first application platform for Autodesk products
-  - Workflow-driven workspace for users and internal teams
-  - Agent-style workflow automation features
-  - Collaborative tools across design and engineering products
+  - Cohesive, unified AI-first application platform experience across Autodesk products
+  - Workflow-driven workspace improving how users and internal teams work
+  - Large-scale distributed collaboration systems shared across products
+  - Agent-style workflow automation features layered on product workflows
   skills:
-    domains: []
+    cloud: [AWS, SageMaker]
     languages: [Node.js, TypeScript]
     ml: []
-    cloud: [AWS, AWS Bedrock, SageMaker]
-    genai: [RAG, LLM application patterns]
-    data: []
-    other: [Distributed Systems]
-    ops: [Terraform, CI/CD, Docker]
-    web: []
+    other: [Agile, Code Review]
+    ops: [Terraform, CI/CD, Infrastructure as Code, Docker, Distributed Systems, Observability]
     databases: [NoSQL]
+    domains: []
+    web: []
+    data: []
+    genai: [AWS Bedrock, LLMs, Agentic Workflows, RAG, Function Calling, LLM Evaluation,
+      Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8660156'
   location: Pune, IND
-  extracted_at: '2026-03-27T13:40:01.737257'
+  extracted_at: '2026-08-16T03:33:47.427770'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

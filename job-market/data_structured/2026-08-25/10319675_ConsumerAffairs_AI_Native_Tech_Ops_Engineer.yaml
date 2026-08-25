@@ -1,0 +1,51 @@
+company:
+  name: ConsumerAffairs
+  stage: null
+  focus: Consumer reviews and marketplace platform
+position:
+  title: AI Native, Tech Ops Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a tech ops/infrastructure engineer; AI appears
+      only as generic "AI-powered automation" and "AI skills" to
+      streamline ops tooling, with no shaping of model behavior,
+      prompts, retrieval, or evals. The deliverable is
+      infrastructure reliability and automation, not model output
+      quality.
+  responsibilities:
+  - Monitor and maintain infrastructure including servers, networks, storage, and
+    applications
+  - Respond to system alerts and incidents, diagnosing and resolving issues to minimize
+    downtime
+  - Plan and execute system upgrades, patches, and configuration changes with minimal
+    disruption
+  - Automate routine tasks using scripts and AI skills to improve operational efficiency
+  - Support disaster recovery plans and manage backup and restore processes
+  - Decommission legacy infrastructure including EC2 instances, VPCs, and load balancers
+    with Terraform state cleanup
+  - Maintain logging, monitoring, and alerting pipelines using OpenSearch, Vector,
+    Prometheus, and Kafka
+  - Triage and remediate security vulnerabilities (CVEs) across infrastructure components
+  use_cases: []
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: [OpenSearch, PostgreSQL, Redis, Aurora RDS]
+    data: [Kafka]
+    cloud: [AWS, EKS, AWS Lambda]
+    ops: [Linux, CI/CD, Kubernetes, ArgoCD, GitOps, Terraform, Infrastructure as Code,
+      Datadog, Prometheus]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10319675'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:41:14.004096'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

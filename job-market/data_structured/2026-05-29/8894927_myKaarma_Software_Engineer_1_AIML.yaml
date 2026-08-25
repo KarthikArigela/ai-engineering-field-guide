@@ -1,52 +1,53 @@
 company:
   name: myKaarma
-  stage: Unknown
-  focus: SaaS platform for automotive dealership fixed ops solutions
+  stage: null
+  focus: SaaS platform for automotive dealership fixed ops
 position:
   title: Software Engineer 1 (AI/ML)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role explicitly involves building and integrating AI/ML
-      solutions, including developing and consuming LLM APIs,
-      training and fine-tuning models, and deploying them into
-      production. While it's a generalist software engineer title,
-      the AI/ML responsibilities are hands-on with models (fine-
-      tuning, training, LLM APIs, RAG, agents), making it ai-
-      first.
+      The role's core responsibilities include training and fine-
+      tuning models and deploying self-fine-tuned open-source
+      LLMs, which is directly shaping model behavior. Since LLMs
+      (OpenAI/Gemini APIs, fine-tuned open-source models) are the
+      primary target, this classifies as ai-first rather than ml-
+      first or ai-support.
   responsibilities:
-  - Design, develop, and test software components for automotive dealership customer
-    engagement
-  - Build and integrate AI/ML solutions including LLM APIs, model training, fine-tuning,
-    and production deployment
+  - Design, develop, and test software components that enable automotive dealerships
+    to better engage with their customers
+  - Build and integrate AI/ML solutions including developing and consuming LLM APIs,
+    training and fine-tuning models, and deploying them into production
   - Collaborate with business stakeholders and customers to translate real-world needs
     into scalable technical solutions
-  - Work across diverse tech stacks including microservices, mobile development, and
-    cloud infrastructure
-  - Communicate with team leaders and product managers to set project goals, timelines,
-    and deliverables
-  - Drive technical excellence by evaluating tradeoffs and owning high-quality outcomes
+  - Work across diverse tech stacks including microservices, iOS/Android development,
+    and cloud infrastructure
+  - Communicate with team leaders and product managers to set clear project goals,
+    timelines, and deliverables
+  - Drive technical excellence by challenging tradeoffs such as speed vs. reliability
+    and taking ownership of high-quality outcomes
   use_cases:
-  - Customer engagement automation for automotive dealerships
-  - LLM-powered service scheduling and communication
-  - AI-driven payment and service interaction optimization
-  - RAG-based knowledge retrieval for dealership operations
-  - Automated customer communication and support
+  - Automotive dealership customer engagement
+  - Communication, scheduling, and payment tools connecting dealerships with vehicle
+    owners
+  - LLM-powered AI features for dealership service interactions
+  - Fixed ops workflow automation for the automotive service industry
   skills:
-    domains: []
-    languages: [Python, Java, C#, Kotlin, Swift]
-    ml: [Neural Networks, Transformers, Model training and evaluation]
     cloud: [AWS, GCP]
-    genai: [OpenAI API, Gemini, Fine-Tuning, RAG, LLM-based agents, Prompt Engineering,
-      Codex]
-    data: [Kafka, RabbitMQ]
-    other: []
-    ops: [Docker, Kubernetes, Docker Swarm]
-    web: [Spring Boot, Angular, React, Microservices, REST, Flutter]
-    databases: [MySQL, MongoDB, Redis, Elasticsearch]
-  is_customer_facing: false
+    languages: [Java, Python, C#, Kotlin, Swift]
+    ml: [Neural Networks, Transformers, Model Training]
+    other: [Android, iOS, Flutter, Drools, Responsible AI]
+    ops: [Docker, Docker Swarm, Kubernetes, Kong]
+    databases: [MySQL, MongoDB, Redis, Elasticsearch, Vitess]
+    domains: []
+    web: [Angular, React, GWT, Bootstrap, Spring Boot, Microservices]
+    data: [RabbitMQ, Kafka]
+    genai: [OpenAI API, Gemini, LLMs, RAG, AI Agents, Fine-Tuning, Codex, Cursor]
+  is_customer_facing: true
   is_management: false
 meta:
   job_id: '8894927'
   location: Noida, IND
-  extracted_at: '2026-05-29T08:47:45.391999'
+  extracted_at: '2026-08-16T08:42:49.899136'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

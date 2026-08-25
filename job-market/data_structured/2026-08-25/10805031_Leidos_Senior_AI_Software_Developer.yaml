@@ -1,0 +1,50 @@
+company:
+  name: Leidos
+  stage: null
+  focus: Defense and government IT services
+position:
+  title: Senior AI Software Developer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds microservices software; AI appears only as
+      AI-assisted coding tools (Claude Code) the developer uses to
+      accelerate coding and as a nice-to-have exposure to AI-
+      enabled systems. No shaping of model behavior, prompts, or
+      retrieval.
+  responsibilities:
+  - Design, develop, and maintain microservices-based applications
+  - Collaborate with product owners, architects, and engineers in an Agile/SAFe environment
+  - Translate requirements into working software solutions with systems engineering
+    and program teams
+  - Develop clean, testable code following CI/CD and DevSecOps practices
+  - Integrate services with databases, messaging systems, and external APIs
+  - Implement automated testing strategies including unit, integration, contract,
+    and end-to-end testing
+  - Use AI-assisted development tools to accelerate coding, refactoring, debugging,
+    and test creation
+  - Support troubleshooting, performance tuning, and continuous improvement
+  use_cases:
+  - National air traffic operations software
+  - Safety-critical air traffic control automation (Leidos Common Baseline)
+  - Cloud-native microservices for government air traffic systems
+  skills:
+    genai: [Claude Code]
+    ml: []
+    web: [Microservices, APIs]
+    databases: [Relational Databases, NoSQL]
+    data: [Kafka]
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, DevSecOps, Linux, Git, Docker, Kubernetes]
+    languages: [Java, Python, C++]
+    domains: []
+    other: [Agile, SAFe]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10805031'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:58:31.320360'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

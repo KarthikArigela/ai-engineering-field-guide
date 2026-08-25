@@ -1,54 +1,58 @@
 company:
   name: F5
-  stage: Public
-  focus: Application security, delivery, and networking solutions
+  stage: null
+  focus: Application delivery and security cybersecurity solutions
 position:
   title: Engineer III - AI Specialist
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on designing, building, and
-      deploying AI-powered services and intelligent agents using
-      GPT models for F5 products. The engineer will work hands-on
-      with LLM architectures, agentic workflows, and AI model
-      optimization, making it a clear ai-first classification.
+      The role builds intelligent agents and designs workflows
+      using GPT models for F5 products — designing agent flows and
+      LLM-driven workflows is directly shaping model behavior
+      (Step 1 yes). Since LLM/agent components are central (Step
+      2), this is ai-first; the maintenance and observability
+      duties are secondary.
   responsibilities:
-  - Design, develop, and deploy AI-powered services enabling agent-driven workflows
-    for F5 products
+  - Design, develop, and deploy services powered by the latest AI models to enable
+    agent-driven workflows for F5 products
   - Build intelligent agents and design workflows utilizing GPT models for automation
-    in F5 systems
-  - Maintain and optimize F5's internal AI systems including GPT-based implementations
-    for high availability
-  - Collaborate with product teams, IT, and vendors to integrate AI-driven agents
-    across diverse environments
-  - Develop observability tools and monitoring systems to enhance AI model reliability
+    and advanced capabilities in F5 systems
+  - Maintain, optimize, and support F5's internal GPT-based AI systems, ensuring high
+    availability and scalable performance
+  - Collaborate with product teams, IT departments, and vendors to integrate AI-driven
+    agents and workflows across diverse system environments
+  - Develop observability tools, monitoring systems, and automation frameworks to
+    enhance AI model reliability
   - Coordinate with platform teams to improve CI/CD environments with AI-focused automation
-  - Explore emerging AI technologies and frameworks to integrate innovative solutions
-    into F5 products
+    and best practices
+  - Ensure compliance with architecture standards and security policies while addressing
+    audit inquiries
   - Provide technical leadership and establish guidelines for integrating AI technologies
     and agentic workflows
   use_cases:
-  - Agent-driven automation workflows for F5 networking and security products
-  - Intelligent agents for system automation using GPT models
-  - AI-powered capabilities integrated into F5 application delivery and security systems
-  - Conversational AI systems for enterprise use
-  - Automated monitoring and observability for AI model reliability
+  - Agent-driven automation workflows embedded in F5 products
+  - GPT-powered intelligent agents for automation in F5 systems
+  - Internal GPT-based AI systems maintenance and optimization
+  - AI model reliability monitoring and observability tooling
+  - AI-powered conversational systems for product integrations
   skills:
-    domains: []
-    languages: [Python, JavaScript, Go, Bash, SQL]
-    ml: [TensorFlow, PyTorch, Keras, Hugging Face, Reinforcement Learning]
     cloud: [Azure, AWS, GCP]
-    genai: [GPT-4 / OpenAI APIs, LangChain, RASA, Dialogflow, Agentic Workflows, Prompt
-        Engineering]
-    data: [Spark, Airflow, Dask]
-    other: []
-    ops: [Kubernetes, Docker, Terraform, Ansible, Helm, CI/CD, GitLab CI, Jenkins,
-      Prometheus, Grafana, Datadog, MLOps, OpenShift]
+    languages: [Python, JavaScript, Go, Bash]
+    ml: [TensorFlow, PyTorch, Keras, Hugging Face, Reinforcement Learning]
+    other: [Ethical AI]
+    ops: [Kubernetes, Docker, CI/CD, Terraform, Ansible, Helm, Prometheus, Grafana,
+      Datadog, OpenShift, GitLab CI, Jenkins, MLOps]
+    databases: [PostgreSQL, SQL Server, MongoDB]
+    domains: []
     web: [REST APIs]
-    databases: [PostgreSQL, MS SQL, MongoDB]
+    data: [Spark, Airflow, Dask]
+    genai: [Agentic Workflows, AI Agents, LLMs, LangChain, Rasa, Dialogflow]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9039297'
   location: Hyderabad, IND
-  extracted_at: '2026-04-22T13:40:33.429103'
+  extracted_at: '2026-08-16T07:23:18.929888'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,58 @@
 company:
   name: AssemblyAI
   stage: Series C
-  focus: Speech AI models and voice applications
+  focus: Builds Speech AI models for voice applications
 position:
   title: Applied AI Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a customer-facing technical role that involves
-      helping customers implement and integrate AssemblyAI's
-      Speech AI models, but does not involve building, training,
-      fine-tuning, or deploying models. The role focuses on
-      technical support, building demos, troubleshooting API
-      issues, and acting as a liaison between customers and the
-      engineering/research teams.
+      This is a Forward Deployed Engineer-style role that adapts
+      and deploys AssemblyAI's Speech AI models at customer sites,
+      building demos, proofs-of-concept, and production
+      implementations, which the classification rules mark as ai-
+      first. The core models are prompted speech-to-text models
+      (e.g., Universal-Streaming with keyterms prompting) that
+      produce text, fitting the ai-first branch rather than
+      classical ML.
   responsibilities:
-  - Guide customers through the entire product journey from onboarding to production
-    deployment and ongoing support
-  - Build custom demos, prototypes, and proofs-of-concept showcasing Speech AI applications
-    for customer use cases
-  - Lead technical discovery sessions and provide architecture guidance for integrating
-    Speech AI APIs
-  - Troubleshoot production issues for customers using streaming and async APIs across
-    various programming languages
-  - Assist with competitive evaluations and benchmarks to help customers compare model
-    performance
-  - Serve as the voice of the customer to internal teams, providing feedback on products
-    and features
-  - Contribute to documentation, guides, and example code to help developers integrate
-    APIs effectively
+  - Guide customers through implementation, technical onboarding, development, testing,
+    and production deployment of Speech AI models
+  - Build custom demos, prototypes, and proofs-of-concept showcasing AssemblyAI's
+    models for specific customer use cases
+  - Lead technical discovery sessions with prospects and design optimal implementations
+  - Assist with competitive evaluations by providing benchmarks and designing fair
+    comparison tests
+  - Troubleshoot production issues with streaming and async APIs, debugging code across
+    multiple languages
+  - Provide technical guidance on architecture, scaling, data privacy, and API integration
+    best practices
+  - Travel to customer sites for technical workshops, implementation support, and
+    relationship building
+  - Serve as voice of the customer by testing and dogfooding new products and contributing
+    feedback to Product and Research
   use_cases:
-  - Voice agents and virtual assistants powered by speech recognition
-  - Meeting assistants and transcription services for collaboration tools
-  - Contact center solutions for real-time speech processing and analytics
-  - Medical scribes for healthcare documentation and record-keeping
-  - Real-time streaming applications with low-latency speech-to-text processing
-  - Multilingual speech recognition and understanding for global applications
+  - Real-time streaming speech-to-text transcription
+  - Voice agents and meeting assistants
+  - Contact center speech analytics
+  - Medical scribes
+  - Multilingual speech recognition
   skills:
-    domains: [Speech Recognition, NLP, audio processing]
-    languages: [Python, TypeScript, JavaScript, Java, Go, Ruby]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: [OpenAI/Claude APIs, Prompt Engineering]
-    data: [real-time data streaming]
-    other: []
+    languages: [Python, TypeScript, JavaScript, Java, Go, Ruby]
+    ml: [Machine Learning]
+    other: [Audio Processing, Public Speaking]
     ops: []
-    web: [Web APIs, WebSockets, REST]
     databases: []
+    domains: [Speech Recognition, NLP]
+    web: [APIs, WebSockets]
+    data: [Real-Time Data Streaming]
+    genai: [Anthropic API, Cursor, Windsurf]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8228578'
   location: USA
-  extracted_at: '2026-02-05T12:14:59.359881'
+  extracted_at: '2026-08-15T22:53:50.807849'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

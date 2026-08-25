@@ -1,62 +1,69 @@
 company:
   name: Morgan Stanley
-  stage: Public
-  focus: Global financial services and investment banking
+  stage: null
+  focus: |-
+    Global financial services: investment banking, wealth and
+    asset management
 position:
   title: AI Platform Engineer - Vice President
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a platform engineering role focused on building
-      infrastructure and tooling that enables other teams to
-      deploy AI solutions. The core work involves Kubernetes,
-      Terraform, cloud architecture, API gateways, and CI/CD —
-      classic platform/infrastructure engineering. While the
-      platform serves GenAI use cases (fine-tuned models, vector
-      stores, agent orchestration), the engineer is building the
-      platform that supports AI rather than directly building,
-      training, or fine-tuning models themselves. The "nice to
-      have" section mentions GenAI experience, indicating it's
-      secondary to the platform engineering focus.
+      The role's stated responsibilities include implementing
+      GenAI solutions focused on Agentic Orchestration and Agent
+      Builder frameworks, integrating large-scale vector stores
+      for embeddings, and building reusable solutions to scale
+      Generative AI use cases with pre-trained and fine-tuned
+      models - directly shaping LLM/agent and retrieval components
+      rather than merely serving models built by others. Although
+      much of the work is platform infrastructure (Kubernetes,
+      Terraform, CI/CD), the agent-flow design, embedding/vector-
+      store integration, and fine-tuned model use involve LLMs, so
+      it is ai-first.
   responsibilities:
-  - Develop tooling and self-service capabilities for deploying AI solutions leveraging
-    Kubernetes/OpenShift, Python, authentication solutions, APIs, and REST frameworks
+  - Develop tooling and self-service capabilities for deploying AI solutions firmwide
+    using Kubernetes/OpenShift, Python, APIs, and REST frameworks
   - Develop Terraform modules and cloud architecture to enable secure AI cloud service
     deployment and consumption at scale
   - Build common, reusable platform solutions to scale Generative AI use cases using
     pre-trained and fine-tuned models
-  - Integrate with large-scale vector stores for embeddings and other AI platform
-    capabilities
-  - Analyze and implement GenAI solutions focusing on Agentic Orchestration and Agent
-    Builder frameworks
-  - Author best practices documentation and architecture decision records for Generative
-    AI ecosystem tools, models, and libraries
-  - Ensure AI platform reliability, scalability, and operational readiness including
-    upgrade strategies, logging, monitoring, and automation
-  - Participate in Agile/Scrum ceremonies and on-call rotation in a build/run team
-    model
+  - Analyze, investigate, and implement GenAI solutions focusing on Agentic Orchestration
+    and Agent Builder frameworks, including integration with large-scale vector stores
+    for embeddings
+  - Author best practices and architecture decision records for the Generative AI
+    ecosystem covering model selection, libraries, authentication, and service communication
+  - Ensure the AI platform is reliable, scalable, and operational through blueprints
+    for upgrade/release strategies, logging, monitoring, metrics, and automated system
+    management
+  - Participate in Agile/Scrum ceremonies and the team on-call rotation in a build/run
+    team model
   use_cases:
-  - Enterprise AI development platform enabling firmwide AI adoption
-  - Self-service AI solution deployment for internal teams
-  - Scalable and secure consumption of cloud-based AI services
-  - Generative AI application enablement including agentic orchestration and multi-agent
-    workflows
-  - Vector store integration for embeddings-based AI applications
+  - Firmwide AI development platform enabling teams to build applications with AI
+    capabilities
+  - Secure enterprise-wide deployment and consumption of AI cloud services at scale
+  - Scaling Generative AI use cases using pre-trained and fine-tuned models
+  - Agentic orchestration and multi-agent workflow automation on the platform
+  - Semantic retrieval through large-scale vector stores for embeddings
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Fine-Tuning, Hugging Face]
     cloud: [AWS, Azure, GCP]
-    genai: [LangChain, LangGraph, Agentic Workflows, GPT, Llama, Embeddings]
-    data: [Kafka]
-    other: [OAuth 2.0]
-    ops: [Kubernetes, OpenShift, Terraform, Docker, CI/CD, Jenkins, GitOps, Grafana,
-      Prometheus, Blue/Green Deployment, OpenTelemetry, MLOps]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [SQL, Redis, Vector Databases]
+    languages: [Python]
+    ml: [Hugging Face]
+    other: [Agile, Data Privacy, Multiprocessing, Multithreading, Asynchronous I/O,
+      Performance Profiling, Unit Testing, Performance Testing, BDD]
+    ops: [Kubernetes, OpenShift, Terraform, CI/CD, Jenkins, GitOps, DevOps, OpenTelemetry,
+      Grafana, Loki, Prometheus, Cortex, MLOps, LLMOps, ModelOps, SRE, Blue/Green
+        Deployments]
+    databases: [Vector Databases, SQL, NoSQL, Redis]
+    domains: []
+    web: [APIs, REST APIs, API Gateway, Flask, FastAPI, Microservices, OAuth]
+    data: [Data Engineering, Big Data, Kafka, Data Governance]
+    genai: [Generative AI, LLMs, AI Agents, Agentic Workflows, LangChain, LangGraph,
+      Embeddings, Fine-Tuning, GPT, Llama]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9059014'
   location: New York, USA
-  extracted_at: '2026-04-22T14:06:43.630248'
+  extracted_at: '2026-08-16T07:43:34.515285'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

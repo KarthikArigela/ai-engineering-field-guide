@@ -1,0 +1,67 @@
+company:
+  name: ZS
+  stage: null
+  focus: Management consulting and technology firm
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it designs and
+      deploys LLM-based pipelines using RAG, agentic workflows,
+      PEFT/LoRA fine-tuning, prompt engineering, and
+      prompt/response guardrails. Because the model being shaped
+      is an LLM/generative component, the classification is ai-
+      first despite heavy cloud and DevOps responsibilities.
+  responsibilities:
+  - Take ownership of architecture design and development of scalable and distributed
+    software systems
+  - Translate business requirements into technical requirements and own technical
+    execution, code quality, and timelines
+  - Design, develop, and deploy LLM-based pipelines using patterns like RAG, agentic
+    workflows, and PEFT (LoRA, QLoRA)
+  - Architect the governance layer from data to AI model output using Databricks Unity
+    Catalog
+  - Design, develop, and deploy prompt and response guardrails to enable responsible
+    AI requirements
+  - Utilize AWS and Azure services including IAM, monitoring, load balancing, autoscaling,
+    ECR, AKS, and ACR
+  - Implement DevOps practices with Docker and Kubernetes for continuous integration
+    and delivery, plus automation and monitoring scripts
+  - Collaborate with cross-functional teams, conduct code reviews, and provide guidance
+    on software design and best practices
+  use_cases:
+  - LLM-based solution development for consulting client engagements
+  - Enterprise knowledge retrieval and search via RAG, vector databases, and hybrid
+    search
+  - Agent-driven workflow automation for business processes
+  - Responsible AI enablement through guardrails and end-to-end governance from data
+    to model output
+  - Production LLM deployments serving thousands of users
+  skills:
+    genai: [RAG, Agentic Workflows, AI Agents, Prompt Engineering, LoRA, PEFT, Guardrails,
+      LLMs, OpenAI API, Anthropic API, AWS Bedrock, LangChain, DSPy]
+    ml: []
+    web: [FastAPI, Django, React, Next.js, Tailwind CSS]
+    databases: [Vector Databases, Hybrid Search, Vector Search, Redis, Redshift, RDS]
+    data: [Databricks, Unity Catalog]
+    cloud: [AWS, Azure, IAM, ECR, AKS, ACR, AWS S3]
+    ops: [Docker, Kubernetes, Terraform, CloudFormation, CI/CD, DevOps, Git, Azure
+        DevOps, Monitoring, Distributed Systems]
+    languages: [Python, JavaScript]
+    domains: []
+    other: [Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8237390'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - Princeton, USA
+  - Bellevue, USA
+  - Thousand Oaks, USA
+  - South San Francisco, USA
+  extracted_at: '2026-08-16T05:40:46.493893'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

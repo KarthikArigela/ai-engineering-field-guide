@@ -1,0 +1,58 @@
+company:
+  name: Matrix Global Services
+  stage: null
+  focus: |-
+    Global IT services, consulting, and technology solutions
+    delivery
+position:
+  title: AI/Data Engineer – Snowflake, DBT, Python Focus
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that builds pipelines,
+      platforms, and datasets to feed AI/ML work owned by Data
+      Scientists and ML Engineers; the description explicitly
+      states it is a data engineering profile supporting AI
+      initiatives rather than shaping models. There is no
+      prompting, RAG design, training, or model evaluation work —
+      AI/ML is a secondary, nice-to-have requirement.
+  responsibilities:
+  - Design, build, and maintain scalable data platforms, pipelines, and data products
+    supporting analytics and AI use cases
+  - Develop production-grade data workflows using Python, Snowflake, and dbt
+  - Build and optimize ETL/ELT pipelines for large-scale structured and unstructured
+    datasets
+  - Use dbt for data transformation, modeling, testing, and documentation
+  - Optimize Snowflake architecture, performance, and cost efficiency for enterprise
+    data workloads
+  - Develop and maintain data models, data marts, and semantic layers
+  - Prepare high-quality datasets and support AI/ML initiatives by enabling downstream
+    model consumption
+  - Build APIs and backend services to expose data and AI capabilities while ensuring
+    data quality, governance, and security
+  use_cases:
+  - Modern data platform and pipeline enablement for enterprise analytics
+  - Dataset preparation and data supply for downstream AI/ML model consumption
+  - Large-scale data warehousing and transformation with Snowflake and dbt
+  - Operationalizing AI/ML workflows in collaboration with data scientists
+  - Exposing data and AI capabilities through APIs and backend services
+  skills:
+    genai: [LangChain, LLMs, Embeddings, RAG, Generative AI]
+    ml: [Hugging Face, Machine Learning]
+    web: [APIs, Microservices]
+    databases: [Snowflake]
+    data: [dbt, ETL, Data Modeling, Data Warehousing, Airflow, Prefect, Data Governance]
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9666150'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T14:01:08.838334'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

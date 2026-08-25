@@ -1,0 +1,55 @@
+company:
+  name: Lendable
+  stage: null
+  focus: |-
+    Fintech consumer credit products: loans, credit cards, car
+    finance
+position:
+  title: Senior AI Quality Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly includes building AI Agents that
+      exploratory test changes and using LLMs/AI tooling to
+      accelerate test authoring, triage failures, and surface
+      coverage gaps - i.e., designing and building agent flows
+      that shape system behaviour. This makes it ai-first rather
+      than a generic quality engineer role.
+  responsibilities:
+  - Enable product teams to keep quality bar high, rotating across teams
+  - Define and evolve the pragmatic test pyramid and coverage/reliability/speed trade-offs
+  - Build AI agents that exploratory test changes and catch issues pre-production
+  - Use AI tooling to speed up test authoring, cluster failures, and surface coverage
+    gaps
+  - Build reliable E2E automation, test environments, and data fixtures; drive down
+    flakiness
+  - Partner with product and engineering on shift-left quality and risk surfacing
+  - Close the loop on production issues using observability tooling and SLOs
+  - Set up performance benchmarks to prevent regressions in critical systems
+  use_cases:
+  - AI agents that exploratory test code changes and catch issues before production
+  - AI-assisted test authoring, failure clustering, and coverage gap detection
+  - Automated quality assurance for consumer credit products (loans, credit cards,
+    car finance)
+  - Performance benchmarking and regression prevention in fintech systems
+  - Production issue triage and SLO monitoring tied to customer impact
+  skills:
+    genai: [LLMs, AI Agents]
+    ml: []
+    web: [APIs, React, React Native]
+    databases: [PostgreSQL]
+    data: [RabbitMQ]
+    cloud: [AWS]
+    ops: [CI/CD, GitHub Actions, Datadog, Grafana, Docker, Kubernetes, GitHub]
+    languages: [TypeScript, PHP, Kotlin]
+    domains: []
+    other: [Sentry, Service Level Objectives, PHPUnit, Behat, JUnit, Kotest, Jest,
+      Maestro, K6, Jira, Confluence, Symfony]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10592074'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:51:02.318788'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

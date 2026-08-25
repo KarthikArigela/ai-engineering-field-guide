@@ -1,52 +1,53 @@
 company:
   name: Embark
-  stage: Unknown
+  stage: null
   focus: |-
-    Business transformation consulting solving complex problems
-    for finance, accounting, HR, and technology leaders
+    Consulting for finance, accounting, HR, and technology
+    leaders
 position:
   title: Application Developer (AI Enablement) Senior Associate - Business Transformation
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a software development role (C#/.NET
-      application developer) that works NEAR AI by integrating AI
-      services/APIs into production software. The role involves
-      implementing GenAI-assisted workflows and AI-enabled
-      features but is not focused on building, training, fine-
-      tuning, or deploying models directly.
+      This is primarily a software application developer (C#,
+      .NET, REST APIs, SQL) whose AI work is limited to
+      "identifying and implementing AI-enabled features" by
+      integrating AI/GenAI services and APIs into production
+      software. The role never writes prompts, designs retrieval
+      or agent flows, fine-tunes models, or evaluates model output
+      quality, so it consumes AI APIs rather than shaping model
+      behavior.
   responsibilities:
-  - Define, design, develop, test, and deploy software solutions utilizing a variety
-    of technologies
-  - Design and implement RESTful APIs to support various applications and services
-    surrounding finance and accounting ecosystem
+  - Define, design, develop, test, and deploy software solutions using a variety of
+    technologies
+  - Design and implement RESTful APIs supporting applications in the finance and accounting
+    ecosystem
+  - Identify and implement AI-enabled features and automations, including GenAI-assisted
+    workflows, within client-facing applications
+  - Work alongside process experts, consultants, and client resources as a technical
+    expert on small consulting teams
   - Develop SQL queries and build data structures to support application requirements
-  - Ensure code quality through code reviews, unit testing, and integration testing
-  - Identify and implement AI-enabled features and automations including GenAI-assisted
-    workflows within client-facing applications
-  - Integrate AI services and APIs into production software with attention to security
-    and data governance
-  - Collaborate with cross-functional teams to understand requirements and develop
-    effective solutions
+  - Set up and configure development environments, including version control systems,
+    IDEs, and necessary tools
+  - Ensure code quality through code reviews, unit testing, and integration testing;
+    troubleshoot and debug software applications
   - Document software designs, technical specifications, and procedures
   use_cases:
-  - Finance and accounting business process automation
-  - GenAI-assisted workflow enhancements for client-facing applications
-  - AI-enabled features integrated into production software applications
-  - Data-driven solutions supporting financial systems and ERP datasets
-  - RESTful API development for financial services ecosystem
-  - Cloud-based application deployment and integration
+  - AI-enabled features and automations embedded in client-facing applications
+  - GenAI-assisted workflows for finance and accounting business processes
+  - Integration of AI/GenAI services and APIs into production software
+  - Data-driven solutions supporting financial, accounting, and ERP systems
   skills:
-    domains: []
-    languages: [C#, Python, Java, JavaScript]
-    ml: [Machine Learning]
     cloud: [AWS, Azure, GCP]
-    genai: [Generative AI]
-    data: [Hadoop, Spark, Data Pipelines, Azure Data Factory, SSIS]
-    other: [IoT, Object-oriented programming, Design patterns]
+    languages: [C#, .NET, Python, Java, JavaScript, SQL]
+    ml: [Machine Learning]
+    other: [IoT, ERP, Object-Oriented Programming]
     ops: [DevOps, Git]
-    web: [.NET, REST APIs]
-    databases: [SQL]
+    databases: []
+    domains: []
+    web: [REST APIs]
+    data: [Data Pipelines, Azure Data Factory, SSIS, Hadoop, Spark, Data Governance]
+    genai: [Generative AI]
   is_customer_facing: true
   is_management: false
 meta:
@@ -61,4 +62,6 @@ meta:
   - Oklahoma City, USA
   - Lilongwe, MWI
   remote: true
-  extracted_at: '2026-05-29T09:04:01.948284'
+  extracted_at: '2026-08-16T10:46:30.803178'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

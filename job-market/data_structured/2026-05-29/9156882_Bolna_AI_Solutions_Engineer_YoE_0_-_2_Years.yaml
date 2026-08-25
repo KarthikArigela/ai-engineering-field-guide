@@ -1,56 +1,53 @@
 company:
   name: Bolna
-  stage: Seed (YC F25)
+  stage: YC F25, backed by General Catalyst
   focus: |-
-    Voice AI infrastructure for deploying intelligent voice
-    agents in India
+    Voice AI infrastructure for intelligent multilingual voice
+    agents
 position:
   title: 'AI Solutions Engineer [YoE: 0 - 2 Years]'
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, writing, and
-      iterating on prompts and tools that power voice AI agents.
-      The engineer works hands-on with LLMs to build conversation
-      flows, test agents, and optimize system prompts—core AI
-      system building activities, even without heavy coding. It's
-      essentially an applied prompt engineering / AI agent
-      deployment role.
+      The core job is writing, testing, and iterating on system
+      prompts for LLM-powered voice agents, designing conversation
+      flows, and red-teaming them to fix failures — all direct
+      shaping of model behaviour and output quality. Since the
+      shaped models are LLM-driven voice agents, this is ai-first.
   responsibilities:
-  - Write, test, and iterate on system prompts for voice agents across multiple industries
-  - Analyze real call recordings to identify agent failures and fix them
+  - Write, test, and iterate on system prompts for voice agents across verticals like
+    D2C, fintech, healthcare, and logistics
+  - Listen to real call recordings, identify where agents fail, and fix them
   - Build conversation flows and call pathways for new customer deployments
-  - Onboard new customers by understanding their use case, setting up agents, and
-    launching them live
-  - Maintain a library of prompts, templates, and best practices across verticals
-  - Red-team voice agents to find edge cases and improve robustness
-  - Test agents in vernacular languages including Hindi, Hinglish, and regional languages
-  - Feed customer insights back to product and engineering teams
+  - Onboard new customers by understanding their use case, setting up their agent,
+    and getting it live
+  - Maintain a growing library of prompts, templates, and best practices across Bolna's
+    verticals
+  - Red-team agents to find edge cases and harden them against failure
+  - Test agents with vernacular inputs in Hindi, Hinglish, and regional languages
+  - Feed customer and end-user insights back to product and engineering
   use_cases:
-  - Intelligent voice agents for customer support
-  - Voice AI for collections and debt recovery
-  - Voice agents for sales and lead conversion
-  - Multilingual voice conversations in Indian languages
-  - Industry-specific voice agent deployments across D2C, fintech, healthcare, and
-    logistics
+  - Voice agents for outbound collections calls
+  - Customer support over voice calls
+  - Sales and conversion calls
+  - Multilingual conversations in Hindi, Hinglish, and regional Indian languages
+  - Vertical-specific agents for D2C, fintech, healthcare, and logistics
   skills:
-    genai: [Prompt Engineering, 'LLM Prompting (ChatGPT, Claude)', System Prompt Design,
-      'Voice AI Tools (Vapi, ElevenLabs)', Conversation Flow Design, 'LLM Fundamentals
-        (context windows, temperature, hallucination)', Red-teaming / Adversarial
-        Testing]
-    ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: []
     languages: []
+    ml: []
+    other: []
+    ops: []
+    databases: []
     domains: []
-    other: [No-code / Low-code Automation, Customer Onboarding, Hindi / Hinglish /
-        Regional Indian Languages]
+    web: []
+    data: []
+    genai: [Prompt Engineering, LLMs, ChatGPT, Anthropic API, AI Agents, Vapi, ElevenLabs]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9156882'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:50:04.826025'
+  extracted_at: '2026-08-16T09:09:00.768731'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,68 +1,70 @@
 company:
   name: Juniper Square
-  stage: Late-stage (backed by $350M+, 1,000+ employees, founder-led since 2014)
-  focus: |-
-    Private markets investment management and fund
-    administration platform
+  stage: Backed by $350M+ in funding, founder-led since 2014
+  focus: Private markets fund administration and technology platform
 position:
   title: Senior Staff Software Engineer (AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a platform/infrastructure engineering
-      leadership position that builds the systems substrate
-      supporting AI workloads (JunieAI, agentic workloads), but
-      the core mandate is distributed systems architecture, cloud
-      infrastructure, and developer platform engineering — not
-      directly building, training, or deploying AI models. The AI-
-      related responsibilities (infrastructure for inference
-      pipelines, agent runtimes, GPU scheduling) are
-      enabling/supporting AI teams rather than hands-on model
-      work.
+      This is a platform/infrastructure architect role: the person
+      designs distributed systems, cloud foundations, and
+      developer tooling rather than shaping model behavior. The
+      AI-related work is building the substrate that hosts JunieAI
+      and agentic workloads (isolation boundaries, governance,
+      inference pipelines, agent fleets) owned by separate AI
+      workflow teams, plus evangelizing AI-assisted engineering —
+      serving and scaling, not shaping. Per the serving/hosting
+      edge case, the deliverable is capacity and reliability, so
+      the role is ai-support.
   responsibilities:
-  - Define and own end-to-end systems architecture strategy across services, infrastructure,
-    and developer platform
-  - Design and prototype critical platform components including scalable, fault-tolerant
-    distributed systems
-  - Build a paved-road developer platform with golden paths, internal tooling, CI/CD,
+  - Define and own the end-to-end systems architecture strategy across services, cloud
+    infrastructure, and developer platform
+  - Design scalable, fault-tolerant distributed systems spanning synchronous APIs,
+    asynchronous workflows, and event-driven architectures
+  - Build the paved-road developer platform with golden paths, internal tooling, CI/CD,
     and self-service infrastructure
-  - Architect cloud infrastructure supporting compute, networking, storage, and deployment
-    across all product lines
-  - Partner with AI workflow teams to support production AI workloads including inference
-    pipelines and agent fleets
-  - Architect core systems for enterprise scale to handle data volumes of $100B+ AUM
-    managers
-  - Lead reliability and operational excellence initiatives including incident response,
-    capacity planning, and cost optimization
-  - Mentor senior engineers and act as executive technical authority for systems architecture
-  - Serve as senior technical voice in enterprise sales and customer onboarding conversations
+  - Build the systems substrate powering JunieAI and agentic workloads, including
+    safe agentic execution with isolation boundaries, resource governance, auditability,
+    and human-in-the-loop controls
+  - Architect core systems for $100B+ AUM enterprise scale, handling 10x current data
+    volumes, enterprise integrations, and security/compliance expectations
+  - Lead architecture reviews, incident response maturity, capacity planning, load
+    testing, and cloud cost optimization
+  - Serve as the senior technical voice in enterprise sales and onboarding conversations
+    and as executive technical authority for systems architecture
+  - Mentor senior engineers and partner with engineering leadership, product, security,
+    and executive stakeholders
   use_cases:
-  - Platform infrastructure powering JunieAI agentic workloads in private markets
-  - Safe agentic execution with isolation boundaries, resource governance, and human-in-the-loop
-    controls
-  - Enterprise-grade multi-tenant distributed systems for fund administration managing
-    $300B+ in assets
-  - Scalable cloud platform serving largest PE institutions with thousands of entities
-    and tens of thousands of LPs
-  - Event-driven and streaming architectures for financial data processing at 10x
-    current scale
+  - Platform infrastructure for private markets fund administration serving 2,300+
+    GPs and $300B+ under administration
+  - Infrastructure powering JunieAI, a purpose-built AI platform embedding intelligence
+    across private markets workflows
+  - Safe production execution of AI agents and inference pipelines with isolation,
+    governance, and human-in-the-loop controls
+  - Enterprise-grade integrations for large institutional private equity firms including
+    APIs, bulk data interfaces, and ERP/GL connectivity
+  - Scalability to 10x current transaction and data volumes for $100B+ AUM managers
+    with deep multi-tier fund structures
   skills:
-    domains: []
-    languages: [Python, Go, Java, SQL]
+    cloud: [AWS, Azure, GCP, Serverless]
+    languages: [Python, Go, Java]
     ml: []
-    cloud: [AWS, Azure, GCP, Cloud Cost Optimization]
-    genai: [Agent Runtimes]
-    data: [Kafka]
-    other: [Distributed Systems Architecture, Multi-tenancy, Event-Driven Architecture,
-      Enterprise Security (SSO/SCIM)]
-    ops: [Kubernetes, Docker, Service Mesh, Terraform, Pulumi, CI/CD, SRE, 'Monitoring/Observability
-        (SLOs, error budgets)', Infrastructure as Code, GPU Scheduling, Model Deployment]
-    web: []
+    other: [Event-Driven Architecture, Platform Engineering, Multi-Tenancy]
+    ops: [Kubernetes, Service Mesh, Terraform, Pulumi, Infrastructure as Code, CI/CD,
+      Distributed Systems, Observability, Monitoring, SRE, Chaos Engineering, Model
+        Deployment]
     databases: [PostgreSQL]
+    domains: []
+    web: [APIs]
+    data: [Kafka]
+    genai: [LLMs, AI Agents]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9862884'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:53:34.079706'
+  extracted_at: '2026-08-16T15:35:26.384176'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

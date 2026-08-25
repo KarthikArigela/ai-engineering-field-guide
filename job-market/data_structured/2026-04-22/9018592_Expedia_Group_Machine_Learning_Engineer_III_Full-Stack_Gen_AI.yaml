@@ -1,59 +1,64 @@
 company:
   name: Expedia Group
-  stage: Public
-  focus: Global online travel technology and booking platform
+  stage: null
+  focus: Online travel technology and booking platform
 position:
   title: Machine Learning Engineer III (Full-Stack Gen AI & Agentic Systems)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly hands-on building, fine-tuning, and
-      deploying LLMs, RAG pipelines, and agentic systems in
-      production. The engineer architects training pipelines,
-      builds agent orchestration, deploys inference platforms, and
-      implements evaluation frameworks — all core AI/ML model
-      development and deployment work.
+      The role directly shapes LLM behavior: it builds fine-
+      tuning/adaptation (LoRA/QLoRA), distillation, and RLHF/DPO
+      pipelines, designs RAG and agentic workflows, and builds LLM
+      evaluation frameworks including LLM-as-a-Judge. Since LLMs
+      and agent systems are the core deliverable, this is ai-
+      first; building and serving inference platforms is secondary
+      to shaping the models themselves.
   responsibilities:
-  - Architect, implement, and scale LLM training, fine-tuning (LoRA/QLoRA), distillation,
-    and RLHF/DPO pipelines for production GenAI systems
+  - Architect, implement, and scale LLM training, fine-tuning, adaptation (LoRA/QLoRA/adapters),
+    distillation, and RLHF/DPO pipelines for production GenAI systems and chatbots
   - Build and optimize RAG pipelines with vector stores and retrieval memory layers
-    supporting multimodal data (vision, audio, text, music)
+    supporting multimodal data such as vision, audio, text, and music
   - Design and develop agentic workflows using LangChain, AutoGen, LangGraph, and
-    OpenAI Agents SDK with typed tool contracts and retry logic
-  - Integrate memory strategies including vector retrieval, episodic/semantic memory,
-    and context compression into agent workflows
+    OpenAI Agents SDK, including typed tool contracts, schema validation, and retry
+    logic
+  - Integrate memory strategies including vector retrieval, episodic and semantic
+    memory, and context compression into agent workflows
+  - Implement evaluation, safety, and reliability frameworks using LangSmith, DeepEval,
+    and OpenClaw, including LLM-as-a-Judge evaluation and hallucination mitigation
   - Build and deploy production inference platforms optimized for latency and cost
     using vLLM, TensorRT-LLM, and DeepSpeed
-  - Implement evaluation, safety, and reliability frameworks using LangSmith, DeepEval,
-    and OpenClaw with hallucination mitigation
-  - Develop containerized cloud-ready systems with Docker, AWS/Azure; implement CI/CD
-    and model versioning with MLflow
-  - Design intuitive user interfaces and experiences for agentic systems, ensuring
-    seamless frontend-to-backend interaction
+  - Develop containerized, cloud-ready systems with Docker on AWS/Azure, implementing
+    CI/CD, experiment tracking, and model versioning with MLflow, and monitor model
+    drift and agent performance via dashboards and alerts
+  - Design user-facing interfaces for agentic systems and mentor peers on ML system
+    design, distributed training, multi-agent orchestration, and production deployment
   use_cases:
-  - Personalized travel discovery and recommendations powered by multimodal LLMs
-  - Interactive chatbot (Trip Matching) on Instagram converting travel reels and posts
-    into hotel suggestions
-  - Real-time cross-platform marketing campaign execution with AI-powered agentic
-    automation
-  - Data-driven marketing automation for Expedia Group brands
-  - Multimodal content understanding across vision, audio, text, and music for travel
-    search
+  - Personalized travel discovery powered by multimodal LLMs and GenAI
+  - Interactive chatbots such as 'Trip Matching' on Instagram that transform inspiring
+    reels and posts into hotel suggestions
+  - Personalized recommendations at scale for travelers and partners
+  - Real-time, cross-platform marketing campaign execution
+  - Production GenAI chatbots and agentic systems for travel experiences
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [PyTorch, Distributed ML Training]
     cloud: [AWS, Azure]
-    genai: [LoRA/QLoRA, RLHF/DPO, RAG, LangChain, AutoGen, LangGraph, OpenAI Agents
-        SDK, Prompt Engineering, Fine-Tuning, Agentic Workflows]
-    data: []
+    languages: [Python]
+    ml: [PyTorch, Distributed Training, DeepSpeed]
     other: [UX/UI Design]
-    ops: [vLLM, TensorRT-LLM, DeepSpeed, MLflow, LangSmith, DeepEval, Docker, CI/CD]
-    web: []
+    ops: [vLLM, TensorRT-LLM, Docker, CI/CD, MLflow, LangSmith, DeepEval, OpenClaw,
+      Model Monitoring]
     databases: [Vector Databases]
+    domains: [NLP]
+    web: [Full-Stack Development]
+    data: []
+    genai: [LangChain, AutoGen, LangGraph, OpenAI Agents SDK, RAG, Agentic Workflows,
+      LLMs, Generative AI, Fine-Tuning, LoRA, RLHF, DPO, Distillation, Context Engineering,
+      Prompt Engineering, LLM Evaluation, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9018592'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T12:57:01.245269'
+  extracted_at: '2026-08-16T07:10:37.954361'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,52 @@
+company:
+  name: Tiger Analytics
+  stage: null
+  focus: AI and analytics consulting for enterprise clients
+position:
+  title: Gen AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements end-to-end RAG pipelines,
+      agentic architectures, and evaluation frameworks, directly
+      shaping LLM behavior and output quality. This is clearly ai-
+      first per Step 1 and 2.
+  responsibilities:
+  - Build high-performance API services on AWS with a focus on Python
+  - Design and implement end-to-end RAG pipelines including retrievers, vector stores,
+    and generators
+  - Optimize latency and relevance tuning for production-grade RAG performance
+  - Develop autonomous and semi-autonomous agents using frameworks like LangChain,
+    CrewAI, or Semantic Kernel
+  - Manage agent orchestration, tool integration, and error handling for non-deterministic
+    AI outputs
+  - Manage memory and context across multi-turn interactions and external API interfacing
+  - Use evaluation frameworks such as RAGAS and TruLens to assess grounding accuracy
+    and hallucination detection
+  - Iterate systems based on performance metrics and continuous improvement practices
+  use_cases:
+  - Enterprise RAG-based question answering over enterprise documents
+  - Autonomous and semi-autonomous agents for enterprise workflows
+  - Grounded generation with hallucination detection and evaluation
+  - Multi-turn conversational agents with memory management
+  skills:
+    genai: [Generative AI, RAG, Agentic Workflows, LangChain, CrewAI, Semantic Kernel,
+      AI Agents, Embeddings, LLM Evaluation]
+    ml: []
+    web: [APIs]
+    databases: [Pinecone, Weaviate, pgvector]
+    data: []
+    cloud: [AWS]
+    ops: []
+    languages: [Python]
+    domains: []
+    other: [RAGAS, TruLens]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10367553'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:50:19.659300'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

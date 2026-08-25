@@ -1,61 +1,66 @@
 company:
   name: Bristol Myers Squibb
-  stage: Public
+  stage: null
   focus: |-
-    Global biopharmaceutical company focused on drug discovery
-    and patient therapies
+    Biopharmaceutical company developing medicines and cell
+    therapies
 position:
   title: Senior AI Copilot Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, deploying, and optimizing AI
-      Copilot agents using Azure OpenAI, RAG patterns, prompt
-      flows, and agent communication frameworks. The engineer is
-      hands-on with model deployment, prompt optimization, and
-      building custom copilots — core AI/LLM system development
-      work.
+      The role shapes LLM/agent behaviour directly: building and
+      optimizing prompt flows, designing RAG grounding with Azure
+      OpenAI and Azure Cognitive Search, implementing agent
+      orchestration and agent-to-agent communication (A2A, MCP),
+      and monitoring/evaluating Copilot agent accuracy and
+      usability. Since all shaping work targets LLM-based Copilot
+      agents, it is ai-first.
   responsibilities:
   - Design, build, and deploy custom Copilot agents using Microsoft Copilot Studio
     and Azure AI Foundry
-  - Architect and implement AI solutions integrating enterprise data across Microsoft
-    365, SharePoint, and Power Platform
+  - Architect AI solutions integrating enterprise data, applications, and workflows
+    across Microsoft 365, SharePoint, and Power Platform
   - Develop custom connectors, grounding data pipelines, and AI orchestration logic
     to extend Copilot capabilities
-  - Leverage Azure OpenAI, Azure Cognitive Search, and Azure AI Services to deliver
-    RAG-based agent solutions
+  - Deliver retrieval-augmented generation (RAG) based agent solutions using Azure
+    OpenAI, Azure Cognitive Search, and Azure AI Services
   - Build and optimize prompt flows, semantic memory, and contextual grounding for
-    AI agents
-  - Develop automation workflows using Power Automate integrated with AI and enterprise
-    data sources
-  - Implement agent-to-agent communication frameworks such as A2A and MCP
-  - Collaborate with business teams to identify use cases and translate them into
-    scalable AI applications, including building POCs and prototypes
+    AI agents, including A2A and MCP agent communication frameworks
+  - Build Power Apps and Power Automate automation workflows integrated with AI and
+    enterprise data sources
+  - Collaborate with business teams to identify use cases and develop proofs of concept
+    and AI prototypes demonstrating business value
+  - Monitor, evaluate, and continuously improve Copilot agent performance, accuracy,
+    and usability while ensuring Responsible AI, data security, and governance compliance
   use_cases:
-  - Enterprise copilot agents for biopharma workflows across Microsoft 365 ecosystem
-  - RAG-based knowledge retrieval and Q&A over enterprise data in SharePoint and other
-    sources
-  - Automated business workflows integrating AI with Power Platform for pharmaceutical
-    operations
-  - Agent-to-agent communication for multi-step enterprise process automation
-  - Clinical and operational AI assistants supporting drug discovery and patient care
-    processes
+  - Enterprise Copilot agents extending Microsoft 365, SharePoint, and Teams workflows
+  - RAG-based agents grounded in enterprise data and business applications
+  - Business process automation via Power Apps and Power Automate integrated with
+    AI
+  - Agent-to-agent communication and orchestration for enterprise workflows
+  - Proofs of concept and AI prototypes demonstrating business value for internal
+    stakeholders
   skills:
-    domains: []
+    cloud: [Azure AI Foundry, Azure OpenAI, Azure Cognitive Search, Azure Cognitive
+        Services]
     languages: [Python, C#, TypeScript]
     ml: []
-    cloud: [Azure AI Foundry, Azure Cognitive Services]
-    genai: [Microsoft Copilot Studio, Azure OpenAI, RAG, Prompt Engineering, Prompt
-        flows, MCP, A2A (Agent-to-Agent), Function Calling, Prompt chaining]
-    data: []
-    other: [Power Platform, Power Automate, Power Apps, Power BI, Responsible AI governance]
-    ops: [Azure DevOps, MLOps]
-    web: [Microsoft Graph API, SharePoint REST APIs, SPFx (SharePoint Framework),
-      React]
-    databases: [Azure Cognitive Search, Vector Databases, Semantic Search, Dataverse]
+    other: [Microsoft 365, SharePoint, SharePoint Framework, Power Platform, Power
+        Apps, Power Automate, Power BI, Dataverse, Microsoft Graph, Responsible AI]
+    ops: [MLOps, Azure DevOps]
+    databases: [Vector Databases]
+    domains: []
+    web: [REST APIs, React]
+    data: [Data Pipelines]
+    genai: [Copilot Studio, RAG, Prompt Engineering, Agentic Workflows, AI Agents,
+      MCP, A2A, Function Calling, Semantic Search, LLM Evaluation, Conversational
+        AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8950260'
   location: Hyderabad, IND
-  extracted_at: '2026-04-22T13:38:33.671424'
+  extracted_at: '2026-08-16T06:29:24.277026'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

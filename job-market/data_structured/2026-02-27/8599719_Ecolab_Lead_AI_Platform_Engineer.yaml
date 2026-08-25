@@ -1,46 +1,54 @@
 company:
   name: Ecolab
-  stage: Public
-  focus: Water treatment and hygiene solutions
+  stage: null
+  focus: |-
+    AI-driven solutions optimizing restaurant industry
+    operations
 position:
   title: Lead AI Platform Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is focused on building and maintaining data
-      pipelines using Databricks, Spark, and Delta Lake to support
-      data scientists and analysts. The position involves
-      infrastructure and data engineering work that enables AI/ML
-      initiatives but does not directly involve building,
-      training, or deploying models.
+      This is a Databricks data engineering role: the person
+      builds, orchestrates, and maintains data pipelines (Spark,
+      Delta Lake, dbt), with no prompt design, retrieval/RAG work,
+      agent flows, training, or evals. Machine learning appears
+      only as a preferred-qualification context, so the role
+      supports AI products rather than shaping model behaviour.
   responsibilities:
-  - Design, develop, and maintain scalable and robust data pipelines on Databricks
-    using Spark SQL, PySpark, and Delta Lake
+  - Design, develop, and maintain scalable data pipelines on Databricks using Spark
+    SQL, PySpark, and Delta Lake
   - Collaborate with data scientists and analysts to understand data requirements
     and deliver solutions
   - Optimize and troubleshoot existing data pipelines for performance and reliability
-  - Ensure data quality and integrity across various data sources
-  - Implement robust pipeline orchestration using Databricks Workflows, dbt, or similar
-    tools
-  - Implement Infrastructure as Code principles for managing Databricks infrastructure
+  - Ensure data quality and integrity across data sources, with quality checks, reports,
+    and dashboards
+  - Implement pipeline orchestration using Databricks Workflows, dbt, or similar tools
+  - Implement data security, compliance best practices, and Infrastructure as Code
+    for managing Databricks infrastructure
+  - Monitor pipeline performance and conduct maintenance, updates, and documentation
+    of processes and specifications
   use_cases:
-  - Restaurant operations optimization through AI-powered solutions
-  - Efficiency and sustainability improvements for restaurant clients
-  - Data-driven decision making for operational optimization
+  - AI solutions that optimize operations for clients in the restaurant industry
+  - Making restaurants more efficient and sustainable
+  - Data infrastructure supporting data science and analytics for client solutions
   skills:
+    cloud: []
+    languages: [SQL]
+    ml: [Machine Learning]
+    other: [Tableau, Power BI]
+    ops: [Infrastructure as Code]
+    databases: []
     domains: []
-    languages: [PySpark, Python]
-    ml: []
-    cloud: [Databricks]
-    genai: []
-    data: [Spark SQL, Data Pipelines, dbt, Kafka, Kinesis, Tableau, Power BI]
-    other: []
-    ops: [Data quality monitoring, Infrastructure as Code]
     web: []
-    databases: [Delta Lake]
+    data: [Databricks, Spark SQL, PySpark, Delta Lake, Databricks Workflows, Databricks
+        Asset Bundles, dbt, Data Pipelines, Kafka, Kinesis]
+    genai: []
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8599719'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:29:49.953519'
+  extracted_at: '2026-08-16T02:55:57.246715'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

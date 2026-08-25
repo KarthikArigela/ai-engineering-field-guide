@@ -1,45 +1,50 @@
 company:
   name: Nebius
-  stage: Public
-  focus: Cloud computing platform serving the AI economy
+  stage: Publicly traded (listed on Nasdaq)
+  focus: AI cloud computing infrastructure and GPU cloud services
 position:
   title: Site Reliability Engineer (SRE) AI Infrastructure (Early Career)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure/platform role supporting AI
-      workloads, not building AI systems. The SRE works on network
-      infrastructure, Kubernetes, and operational tooling that
-      enables AI cloud services. There's no direct work on models,
-      training, or AI system development.
+      This early-career SRE role operates network and cloud
+      infrastructure (NetInfra) for an AI cloud provider; it
+      involves no shaping of model behaviour - no prompts,
+      retrieval design, training, or evals. Deploying approved
+      changes and learning networking/Kubernetes fundamentals is
+      infrastructure operations, so the role is ai-support.
   responsibilities:
-  - Assist in day-to-day SRE operations tasks in network infrastructure
+  - Assist with day-to-day SRE operations tasks in NetInfra (network infrastructure)
   - Deploy tested and approved changes following clear instructions
-  - Execute small and well-defined tasks from the backlog
-  - Work on small SRE projects including tests and technical documentation
+  - Execute small, well-defined tasks or SRE projects from the backlog
+  - Create tests for changes and projects where applicable
+  - Write technical documentation about completed work
   - Track and update Jira tasks according to progress
-  - Study network and system fundamentals including Linux Kernel, eBPF, traffic control
-  - Learn container and platform fundamentals including Kubernetes and Terraform
-  - Learn configuration management and automation basics
+  - Study network and system fundamentals including Ethernet/IP networking, routing,
+    Linux kernel, eBPF, traffic control, IPVS, and DPDK
+  - Learn container and platform fundamentals including Kubernetes, Helm, Terraform,
+    and configuration management
   use_cases:
-  - AI cloud infrastructure for customers
-  - Network infrastructure operations
-  - Container and platform services for AI workloads
-  - Cloud computing platform reliability
+  - Operation of network infrastructure for an AI cloud platform
+  - Supporting production systems running real customer AI/ML workloads
+  - Automation and reliability of cloud infrastructure serving the AI economy
   skills:
-    genai: []
-    ml: []
-    web: []
-    databases: []
-    data: []
-    cloud: []
-    ops: [Kubernetes, Terraform, Helm, Docker, Linux, eBPF]
+    cloud: [Cloud Computing]
     languages: [Python, Go, C++]
+    ml: []
+    other: [Networking, Jira, Configuration Management]
+    ops: [Git, Kubernetes, Helm, Terraform, Infrastructure as Code, Linux, Docker,
+      eBPF, DPDK]
+    databases: []
     domains: []
-    other: [Git, Networking, Jira]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8765256'
   location: Amsterdam, NLD
-  extracted_at: '2026-03-27T13:14:28.606010'
+  extracted_at: '2026-08-16T04:22:35.954433'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

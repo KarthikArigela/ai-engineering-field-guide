@@ -1,56 +1,62 @@
 company:
   name: Allata
   stage: null
-  focus: Global consulting and technology services
+  focus: Global technology consulting and services firm
 position:
   title: Software Test Engineer (Automation + AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Software Test Engineer role focused on
-      test automation for web, SaaS, API, and mobile applications.
-      AI tools (Copilot, Cursor, RAG approaches) are used as
-      productivity aids to speed up test generation and analyze
-      failures, not to build or deploy AI/ML systems. The role
-      works NEAR AI but not ON AI.
+      This is a test automation/QA engineering role where AI is
+      used as a productivity tool: AI coding assistants (GitHub
+      Copilot, Cursor, Claude) for test script development, and
+      RAG approaches to retrieve knowledge from documentation. The
+      role does not shape model behavior, design prompts/retrieval
+      as a product, or train/evaluate models — it consumes AI
+      tools designed by others, which classifies it as ai-support.
   responsibilities:
-  - Design and execute comprehensive test strategies across UI, API, and database
-    layers to own release quality
-  - Build and maintain scalable automation frameworks using Selenium, Playwright,
-    and Cypress with POM and BDD patterns
-  - Test APIs thoroughly including authentication, payloads, error handling, and contract
+  - Analyze requirements, user stories, and API contracts to design comprehensive
+    test scenarios and automation strategies
+  - Build and maintain automated UI tests using Selenium, Playwright, and Cypress
+    with clean, reusable frameworks (POM, BDD)
+  - Test APIs thoroughly covering authentication, payloads, error handling, and contract
     validation
   - Write SQL queries to validate data integrity, transformations, and business logic
-  - Integrate test suites into CI/CD pipelines and monitor execution quality and build
-    health
-  - Champion Shift-Left practices by participating in requirement reviews, API contract
-    validation, and early test planning
-  - Use AI-powered tools and RAG approaches to extract knowledge from technical docs,
-    speed up code reviews, and recognize defect patterns
-  - Track defects in JIRA with clear reproduction steps and collaborate with developers
-    on resolution
+    in databases
+  - Integrate test suites into CI/CD pipelines, monitor execution quality, and investigate
+    flaky tests
+  - Track defects in JIRA with clear reproduction steps and impact analysis, collaborating
+    with developers on code reviews and Shift-Left testing
+  - Use AI-powered tools and RAG approaches to speed up test generation, review code,
+    extract knowledge from technical docs, and recognize defect patterns
+  - Maintain test documentation, dashboards, and quality metrics while contributing
+    to framework improvements
   use_cases:
-  - Automated test generation and acceleration using AI coding assistants
-  - Test failure pattern analysis and root cause identification
-  - Code review acceleration using AI tools
-  - RAG-based knowledge retrieval from technical documentation and past test runs
-  - Automated quality assurance for web, SaaS, API, and mobile applications
+  - Automated quality assurance for Web, SaaS, API, and Mobile applications
+  - API contract validation and integration/regression testing across releases
+  - Database data integrity and business logic validation via SQL
+  - Regression cycle time reduction through parallel, scalable test automation in
+    CI/CD
+  - AI-assisted test generation, code review, and defect pattern recognition
+  - RAG-based retrieval of knowledge from technical documentation and past test runs
   skills:
-    domains: []
-    languages: [Java, JavaScript, TypeScript]
-    ml: []
     cloud: [AWS, Azure]
-    genai: [GitHub Copilot, Cursor, Anthropic API, RAG]
+    languages: [Java, JavaScript, TypeScript, SQL]
+    ml: []
+    other: [TestNG, Page Object Model, BDD, Cucumber, Gherkin, Postman, Jira, Agile,
+      Code Review, JMeter, K6, BrowserStack, LambdaTest, OWASP, Testim.io, Katalon,
+      Functionize, OOP, JWT, ISTQB Certification]
+    ops: [CI/CD, Git, Docker, Jenkins, Azure DevOps, GitHub Actions]
+    databases: [Chroma, Pinecone]
+    domains: []
+    web: [Selenium, Playwright, Cypress, REST APIs, OAuth]
     data: []
-    other: [Selenium, Playwright, Cypress, TestNG, Page Object Model, BDD (Cucumber/Gherkin),
-      Postman, Jira, JMeter, K6, BrowserStack, LambdaTest, OWASP, Testim.io, Katalon,
-      Functionize]
-    ops: [Git, Jenkins, Azure DevOps, GitHub Actions, Docker]
-    web: [REST API Testing]
-    databases: [SQL, Chroma, Pinecone]
+    genai: [GitHub Copilot, Cursor, Claude Code, RAG]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9542111'
   location: Vadodara, IND
-  extracted_at: '2026-06-25T19:42:38.332043'
+  extracted_at: '2026-08-16T12:48:40.844644'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

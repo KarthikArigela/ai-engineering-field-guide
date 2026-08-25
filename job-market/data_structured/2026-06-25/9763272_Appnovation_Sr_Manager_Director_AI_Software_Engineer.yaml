@@ -1,48 +1,56 @@
 company:
   name: Appnovation
   stage: null
-  focus: Digital consulting and software solutions
+  focus: |-
+    Global digital consulting partner for strategy, design,
+    engineering and managed services
 position:
   title: Sr. Manager/ Director AI Software Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a fullstack developer role at a digital consulting
-      agency that uses AI-powered tools (Claude Code, GitHub
-      Copilot) to enhance developer productivity and code quality.
-      The role does not involve building, training, fine-tuning,
-      or deploying AI/ML models — AI is used as a tool, not the
-      core work. The focus is on web/mobile application
-      development and client consulting.
+      The only AI-related requirement is using AI-powered coding
+      assistants (Claude Code, GitHub Copilot) to improve
+      productivity and code quality - the engineer uses AI tools
+      rather than shaping any model's behaviour. There is no
+      prompt design, retrieval, fine-tuning, or model evaluation
+      work. Per the edge cases, AI as a tool used to write code is
+      ai-support.
   responsibilities:
-  - Build web and mobile applications for Appnovation's clients as a senior fullstack
-    developer
-  - Provide strategy consulting and architectural decision-making for client engagements
-  - Contribute to best practices, code quality standards, and scalable solution design
-  - Develop backend services using Python, Node.js, and Express.js
-  - Build frontend experiences using React, Vue.js, and TypeScript
-  - Design and manage databases including RDBMS and NoSQL solutions
-  - Consume and develop RESTful APIs and microservices
-  - Manage multiple client initiatives with competing priorities in a fast-paced environment
+  - Build web and mobile applications for Appnovation's clients as part of a senior
+    engineering team
+  - Provide strategy consulting and contribute to architectural decisions and best
+    practices
+  - Develop fullstack solutions spanning Python backends and React/Vue frontends
+  - Design, develop and consume RESTful APIs and microservices
+  - Design and manage relational and NoSQL databases
+  - Apply modern DevOps practices including Git, CI/CD pipelines, and AWS cloud and
+    serverless deployments
+  - Use AI-powered coding tools such as Claude Code and GitHub Copilot to enhance
+    productivity and code quality
+  - Manage multiple client initiatives with competing priorities across internal and
+    external relationships
   use_cases:
-  - Web and mobile application development for enterprise clients
-  - Digital product and service creation for consulting clients
-  - Strategy consulting for digital transformation initiatives
-  - Scalable backend and frontend solutions for diverse industries
+  - AI-assisted code development and optimization for client digital solutions
+  - Developer productivity and code quality enhancement via AI coding assistants
+  - Web and mobile application delivery for consulting clients
+  - Strategy consulting on scalable, automated digital architectures
   skills:
-    domains: [Life Sciences domain knowledge]
-    languages: [Python, TypeScript, ES6]
+    cloud: [AWS, Serverless Architecture, Cloud Computing]
+    languages: [Python, JavaScript, TypeScript]
     ml: []
-    cloud: [AWS, Serverless Architecture]
-    genai: [Claude Code, GitHub Copilot]
+    other: [Unit Testing, Integration Testing, Agile]
+    ops: [Git, CI/CD, DevOps]
+    databases: [MySQL, PostgreSQL, MongoDB, DynamoDB, Relational Databases, NoSQL]
+    domains: []
+    web: [React, Vue, Node.js, Express.js, REST APIs, Microservices, Full-Stack Development]
     data: []
-    other: [Agile]
-    ops: [Git, CI/CD, Unit Testing, Integration Testing]
-    web: [React, Vue, Node.js, Express.js, REST APIs, Microservices]
-    databases: [MySQL, PostgreSQL, MongoDB, DynamoDB]
+    genai: [Claude Code, GitHub Copilot]
   is_customer_facing: true
   is_management: true
 meta:
   job_id: '9763272'
   location: New York, USA
-  extracted_at: '2026-06-25T19:52:51.868587'
+  extracted_at: '2026-08-16T14:55:36.191237'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,49 @@
+company:
+  name: Genzeon
+  stage: null
+  focus: Technology services and solutions provider
+position:
+  title: AI/ML Software Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a generic full-stack engineering role (React,
+      Python, PostgreSQL); AI/ML appears only as a "nice to have"
+      involving calling model endpoints and using
+      embeddings/vector stores, which does not shape model
+      behavior.
+  responsibilities:
+  - Design, build, and maintain ReactJS single-page applications
+  - Develop Python services and APIs (REST/GraphQL) with data models, validation,
+    and testing
+  - Write performant SQL on PostgreSQL including stored procedures, query tuning,
+    and schema evolution
+  - Automate workflows with UNIX shell scripting for build, deploy, and backups
+  - Partner with SRE/DevOps on observability, SLIs/SLOs, and incident response
+  - Set up and improve CI/CD pipelines with quality gates and automated tests
+  - Contribute to code reviews, technical design docs, and engineering standards
+  use_cases:
+  - Full-stack production web applications
+  - Automation of build, deploy, and backup workflows
+  - Reliable operation of production systems with observability and incident response
+  skills:
+    cloud: [Azure]
+    languages: [Python, SQL]
+    ml: []
+    other: [Shell Scripting]
+    ops: [Azure DevOps, CI/CD, Git, Docker, Kubernetes, Prometheus, Grafana, OpenTelemetry,
+      ELK Stack]
+    databases: [PostgreSQL, MongoDB, Cassandra, DynamoDB, Redis, NoSQL]
+    domains: []
+    web: [React, REST APIs, GraphQL, FastAPI, Flask, Django, TypeScript, OAuth, Webhooks,
+      OpenAPI]
+    data: [Data Pipelines, RabbitMQ, Kafka]
+    genai: [Embeddings, Vector Databases]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10391480'
+  location: Pune, IND
+  extracted_at: '2026-08-25T09:56:21.529861'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

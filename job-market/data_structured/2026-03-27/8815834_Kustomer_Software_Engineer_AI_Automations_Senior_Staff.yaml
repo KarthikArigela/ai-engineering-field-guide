@@ -1,53 +1,56 @@
 company:
   name: Kustomer
-  stage: Series B
-  focus: |-
-    Conversational CRM platform with AI-powered customer
-    experience
+  stage: Series B ($30M led by Norwest, 2025)
+  focus: Conversational CRM platform for customer service experiences
 position:
   title: Software Engineer, AI Automations (Senior, Staff)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing, building, and deploying AI
-      agents and automation systems that become core participants
-      in the software development lifecycle. The engineer will
-      directly implement AI-powered tools and agentic systems, not
-      just support infrastructure for others' AI work.
+      The core responsibility is to "design, build, and deploy AI
+      agents and automation" that act as participants in the SDLC
+      — that is designing agent flows and agentic tooling, which
+      is shaping model behaviour. Although this sits in a
+      developer-experience context, the engineer builds the agents
+      themselves rather than merely rolling out off-the-shelf
+      tools like Cursor or Copilot, so it is ai-first.
   responsibilities:
-  - Design, build, and deploy AI agents and automation that accelerate every phase
-    of the SDLC from code generation through deployment
-  - Implement AI and agentic participants as core parts of the software development
-    process at Kustomer
-  - Evaluate and incorporate cutting-edge AI and automation tooling to improve quality,
-    efficiency, and development velocity
-  - Partner with engineers across teams to identify friction points and design AI-powered
-    solutions
-  - Champion best practices and drive adoption of AI-powered tools across the engineering
-    organization
-  - Build foundational developer tooling and platforms that modernize how engineers
-    create systems and workflows
+  - Design, build, and deploy AI agents and automations that accelerate every phase
+    of the SDLC, from code generation and review through testing, deployment, and
+    monitoring
+  - Make AI and agentic participants a core part of how software gets built at Kustomer
+  - Rapidly evaluate and incorporate forward-thinking AI and automation tooling to
+    continuously push quality, efficiency, reliability, and development velocity
+  - Partner with engineers across teams to identify friction and design solutions,
+    iterating quickly
+  - Champion best practices that drive real adoption of AI-powered tools across the
+    engineering organization
+  - Modernize how engineers create systems, workflows, and tooling so every engineer
+    moves faster and ships better
+  - As founding engineer of the AI Automations team, set direction for the organization
+    and build foundational tools that engineers rely on
   use_cases:
-  - Automated code generation and review acceleration
-  - AI-powered end-to-end testing automation
-  - Automated deployment and monitoring workflows
-  - Developer experience enhancement through AI agents
-  - Software development lifecycle automation
-  - Engineering productivity and velocity optimization
+  - AI agents embedded across the software development lifecycle (code generation,
+    review, testing, deployment, monitoring)
+  - Developer-experience tooling and automations that speed up engineering workflows
+  - AI-powered end-to-end software testing
+  - Internal platform automations that raise engineering velocity and reliability
   skills:
-    domains: []
+    cloud: [ECS]
     languages: [Go, Python, JavaScript]
     ml: []
-    cloud: [ECS]
-    genai: [AI Agents, automation]
-    data: []
-    other: []
-    ops: [Docker, Terraform, developer tooling, CI/CD]
-    web: [Full-Stack Development]
+    other: [HIPAA Compliance]
+    ops: [Terraform, Docker]
     databases: []
+    domains: []
+    web: [Full-Stack Development]
+    data: []
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8815834'
   location: New York, USA
-  extracted_at: '2026-03-27T14:15:01.052530'
+  extracted_at: '2026-08-16T04:44:07.393826'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

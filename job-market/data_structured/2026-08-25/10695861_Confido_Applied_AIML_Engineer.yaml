@@ -1,0 +1,49 @@
+company:
+  name: Confido
+  stage: null
+  focus: AI infrastructure platform for CPG finance and operations
+position:
+  title: Applied AI/ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM systems for document understanding and
+      designs agentic workflows with eval harnesses and
+      guardrails, directly shaping LLM behavior. It also includes
+      classical forecasting, but roles spanning both LLM and
+      classical ML are ai-first.
+  responsibilities:
+  - Build LLM systems converting messy financial documents into clean, typed, validated
+    data
+  - Design agentic workflows that retrieve and reason over fragmented enterprise systems
+  - Build eval harnesses and guardrails to run agentic systems in production
+  - Build and improve demand forecasting across thousands of intermittent series with
+    backtesting
+  - 'Wrangle messy data: baselining, anomaly detection, entity reconciliation, ingestion'
+  - Own evaluation datasets, benchmarks, and monitoring for probabilistic systems
+  use_cases:
+  - Document understanding and data extraction from financial documents
+  - Demand forecasting for CPG brands
+  - Agentic reasoning over fragmented enterprise systems
+  - Entity reconciliation across heterogeneous data sources
+  - Production evaluation and monitoring of probabilistic systems
+  skills:
+    genai: [LLMs, Agentic Workflows, RAG, Guardrails, LLM Evaluation]
+    ml: [Machine Learning, Model Evaluation, Anomaly Detection, Time-Series Forecasting,
+      XGBoost, Prophet, ARIMA]
+    web: []
+    databases: []
+    data: [Data Engineering]
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: [Document Understanding]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10695861'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:19:53.428699'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

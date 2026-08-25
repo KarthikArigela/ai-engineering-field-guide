@@ -1,0 +1,55 @@
+company:
+  name: Scale AI
+  stage: null
+  focus: |-
+    AI data and full-stack technology for enterprise and
+    government
+position:
+  title: AI Infrastructure Engineer, Sandbox Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates a sandboxing/code-execution
+      platform for agents — isolation, virtualization,
+      performance, incident response. The person does not shape
+      model behavior (no prompts, RAG, fine-tuning, or evals); LLM
+      agent frameworks appear only as a nice-to-have. Serving
+      infrastructure that other teams consume is ai-support.
+  responsibilities:
+  - Design and build the sandboxing platform, client library, and API surface for
+    secure code execution in containerized and virtualized environments
+  - Ensure isolation, security, and reproducibility of execution across user sessions
+    and workloads
+  - Optimize cold-start latency, memory footprint, and resource utilization at scale
+  - Reduce error rates through systematic debugging, monitoring, and proactive fixes
+  - Partner with internal teams using the platform to understand needs, debug issues,
+    and build supporting tooling
+  - Respond to production incidents, conduct root cause analysis, and implement preventive
+    fixes
+  - Develop and maintain a sandboxing product roadmap balancing immediate needs with
+    long-term architecture
+  - Lead architecture reviews and own projects end-to-end from design through deployment
+  use_cases:
+  - Secure agent sandboxing and code execution platform
+  - Powering agentic workflows across internal and customer-managed environments
+  - Isolated, reproducible execution of user sessions and workloads
+  - High-performance execution layer for engineers and researchers running AI agents
+  skills:
+    genai: [MCP]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, Linux, Monitoring]
+    languages: [Go, Rust, C++]
+    domains: []
+    other: [Virtualization, Firecracker, gVisor, QEMU, Kata Containers, CRIU]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10353280'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:46:59.765302'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,54 +1,55 @@
 company:
   name: Proofpoint
-  stage: Public
-  focus: |-
-    Human-centric cybersecurity protecting email, cloud, and
-    collaboration tools
+  stage: null
+  focus: Cybersecurity protecting people, data, and AI agents
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on work building and
-      deploying AI systems - specifically developing transformer-
-      based models, fine-tuning, implementing RAG/retrieval
-      approaches, and prompt engineering for text classification.
-      The engineer will work directly on model development,
-      experimentation, and production deployment, not just
-      supporting infrastructure.
+      The role directly shapes model behavior and output quality:
+      fine-tuning transformer-based models, implementing prompt-
+      based classification, embedding-based retrieval, and
+      designing experiments to evaluate and improve model
+      performance. Prompt/LLM-based components are explicitly
+      involved, making this ai-first rather than ml-first.
   responsibilities:
-  - Develop and deploy transformer-based models for classification tasks using pre-trained
-    models, fine-tuning, and embedding-based retrieval
-  - Evaluate and improve model performance for low true-positive classification problems
+  - Develop and deploy transformer-based models for classification tasks, leveraging
+    pre-trained models, fine-tuning techniques, and embedding-based retrieval
+  - Evaluate generalized/base models on low true-positive classification problems
+    and improve model performance
   - Implement prompt-based classification techniques and vector-based retrieval approaches
-  - Design and execute experiments to measure model efficacy while balancing computational
-    cost
-  - Collaborate with cross-functional teams to translate product requirements into
-    AI/ML solutions
-  - Conduct build vs. buy evaluations by researching and testing AI/ML technologies
+    to enhance accuracy and efficiency
+  - Design and execute experiments to measure model efficacy, balancing performance
+    with computational cost
+  - Collaborate with Product Management and cross-functional teams to translate product
+    requirements into practical AI/ML solutions
+  - Support build vs. buy evaluations by researching and testing available AI/ML technologies
   - Ensure AI solutions are scalable, secure, and aligned with enterprise best practices
   - Stay current with advancements in transformers, LLMs, and AI-driven text classification
+    and apply relevant innovations
   use_cases:
-  - Classification of digital communications for regulated industries
-  - Email and cloud communication security analysis
-  - Threat detection and data loss prevention
-  - AI workflow protection and monitoring
-  - Text classification for cybersecurity applications
+  - Automated classification of digital communications for regulated industries
+  - Improving classification precision on low true-positive problems
+  - Retrieval-enhanced and prompt-based text classification
+  - Cost-efficient, scalable enterprise text classification
   skills:
-    domains: [NLP]
-    languages: [Java, Python]
-    ml: [Transformers, Hugging Face, TensorFlow, PyTorch, Fine-Tuning]
-    cloud: [cloud environments]
-    genai: [Prompt Engineering, vector-based retrieval, Embeddings, LLMs]
-    data: []
-    other: []
+    cloud: [Cloud Environments]
+    languages: [Java]
+    ml: [PyTorch, TensorFlow, Hugging Face, Model Evaluation]
+    other: [Agile]
     ops: [Linux, Docker]
+    databases: [Vector Search]
+    domains: [NLP]
     web: []
-    databases: []
+    data: []
+    genai: [Prompt Engineering, Embeddings, LLMs, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8649152'
   location: IND
   remote: true
-  extracted_at: '2026-03-27T15:28:08.795294'
+  extracted_at: '2026-08-16T03:30:05.992184'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

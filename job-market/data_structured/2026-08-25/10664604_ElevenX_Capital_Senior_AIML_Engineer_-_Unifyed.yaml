@@ -1,0 +1,55 @@
+company:
+  name: ElevenX Capital
+  stage: null
+  focus: Venture capital firm hiring for AI/ML roles
+position:
+  title: Senior AI/ML Engineer - Unifyed
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role centers on end-to-end classical ML: data modeling,
+      feature engineering, training
+      prediction/classification/recommendation models, and MLOps.
+      LLMs, embeddings, vector search, and RAG appear only as
+      awareness/integration exposure among many techniques, not as
+      the primary shaping work, so ml-first.
+  responsibilities:
+  - Define ML use cases with product and domain stakeholders
+  - 'Own end-to-end pipeline: data ingestion, cleaning, feature engineering, training,
+    evaluation, deployment, and monitoring'
+  - Design and maintain data models and schemas for analytics and ML training
+  - Build, train, and tune models for prediction, classification, ranking, recommendations,
+    anomaly detection, and NLP
+  - Build reproducible training pipelines and deploy models as APIs, microservices,
+    or batch jobs
+  - Implement monitoring, alerting, and model versioning/rollback strategies
+  - Evaluate and integrate modern AI tools such as vector databases, embedding models,
+    LLM APIs, and RAG architectures
+  - Mentor junior engineers and data scientists
+  use_cases:
+  - Prediction and classification models
+  - Ranking and recommendation systems
+  - Anomaly detection
+  - NLP applications
+  - RAG and semantic search with embeddings and vector databases
+  skills:
+    genai: [LLMs, Embeddings, OpenAI API, Anthropic API, RAG]
+    ml: [scikit-learn, PyTorch, TensorFlow, Machine Learning, Deep Learning, Hugging
+        Face, Feature Engineering, Model Evaluation]
+    web: [REST, GraphQL, Microservices]
+    databases: [NoSQL, Vector Search, Semantic Search, OpenSearch, Elasticsearch,
+      Pinecone, Weaviate, pgvector, DynamoDB, Relational Databases]
+    data: [Pandas, NumPy, Airflow]
+    cloud: [AWS, AWS S3, AWS Lambda, SageMaker, GCP, Vertex AI, Azure, Azure ML]
+    ops: [MLflow, Weights & Biases, Docker, CI/CD, Infrastructure as Code, Kubeflow]
+    languages: [Python, SQL]
+    domains: []
+    other: [EDA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10664604'
+  location: Gurugram, IND
+  extracted_at: '2026-08-25T11:10:14.995324'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

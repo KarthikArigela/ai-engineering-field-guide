@@ -1,50 +1,48 @@
 company:
   name: Binalyze
-  stage: Scaling/Growth (post-Series implied by "scaling globally")
-  focus: |-
-    Digital forensics and investigation platform (AIR) for
-    security teams
+  stage: null
+  focus: Cybersecurity investigation and digital forensics platform
 position:
   title: AI & Process Automation Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves directly building AI-powered automations
-      using tools like Claude and n8n, designing AI workflows, and
-      integrating AI into business processes. The engineer is
-      hands-on with AI tools to create production automations,
-      which qualifies as deploying/implementing AI solutions.
+      The role builds business-process automations in n8n and
+      consumes AI tools (Claude, ChatGPT) as components inside
+      those workflows; nothing names prompt design, retrieval,
+      evals, guardrails, or fine-tuning. Per Step 1, calling an AI
+      tool somebody else designed is not shaping model behaviour,
+      and the deliverable is operational capacity (time reclaimed,
+      manual work eliminated), so this is ai-support.
   responsibilities:
-  - Design and build AI-powered automations to free up capacity across GTM and other
-    business teams
-  - Map business problems and processes by engaging stakeholders before designing
-    solutions
-  - Build automation workflows using n8n, Claude, and other tools
-  - Improve data, documentation, and process structures to ensure clean inputs for
-    AI automations
-  - Monitor, measure, document, and iterate on deployed automations in production
-  - Communicate technical concepts to non-technical stakeholders and bring them along
-    on adoption
-  - Manage multiple concurrent automation builds autonomously
-  - Measure and report impact of automation work (time saved, adoption rates, error
-    reduction)
+  - Map business problems and processes hands-on, starting with GTM teams, before
+    designing automations from scratch
+  - Design and build AI-powered automation workflows using n8n, Claude, and other
+    tools
+  - Integrate business systems via APIs, webhooks, and connectors across CRMs, HR
+    platforms, and comms tools
+  - Monitor, measure, document, and iterate on automations running in production
+  - Improve how data, documentation, and processes are structured so automations run
+    on clean, reliable inputs
+  - Bring internal stakeholders along so they can adopt and extend the automations
+    built
+  - Autonomously manage workload across multiple concurrent automation builds
   use_cases:
-  - GTM team automation to eliminate manual work and reclaim time
-  - Business process automation across HR, operations, and communications tools
-  - AI-powered workflow integration across CRM, HR platforms, and comms tools
-  - Data and documentation structuring to support reliable AI automation inputs
+  - Automating go-to-market team workflows to free up business capacity
+  - Eliminating manual work across People, Operations, and GTM functions
+  - Integrating business tools such as CRMs, HR platforms, and comms tools
+  - Delivering measurable time savings and faster team operations through automation
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: []
-    genai: [Anthropic API, ChatGPT]
-    data: []
-    other: [n8n, Make (Integromat), Zapier, HubSpot, Gong, Process mapping and redesign,
-      System integrations]
+    other: [n8n, Make, Zapier, HubSpot, Gong]
     ops: []
-    web: [APIs, Webhooks]
     databases: []
+    domains: []
+    web: [APIs, Webhooks]
+    data: []
+    genai: [Anthropic API, ChatGPT]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +52,6 @@ meta:
   - GBR
   - EST
   remote: true
-  extracted_at: '2026-05-29T08:52:08.419320'
+  extracted_at: '2026-08-16T08:55:31.920550'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

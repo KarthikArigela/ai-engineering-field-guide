@@ -1,50 +1,50 @@
 company:
   name: Saviynt
   stage: null
-  focus: |-
-    Enterprise Identity Cloud platform for security and
-    compliance
+  focus: Enterprise identity governance and cloud security platform
 position:
   title: Senior Engineer - Agentic AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building, deploying, and
-      optimizing Agentic AI systems using LLMs. The engineer will
-      work hands-on with foundation models (GPT, Claude, Llama),
-      implement RAG and prompt engineering, develop multi-agent AI
-      workflows, and build inference pipelines - all core AI-first
-      activities.
+      The role shapes LLM behavior directly: it applies RAG and
+      prompt engineering techniques, designs multi-agent AI
+      workflows, and builds domain-specific features using
+      foundation models (GPT, Claude, Llama). Because LLM and
+      agent components are explicitly the work being shaped, this
+      is ai-first.
   responsibilities:
-  - Design and implement multi-agent AI workflows for enterprise identity use cases
-  - Develop microservices and APIs with focus on scalability and resilience using
-    Kubernetes and HPA
+  - Design and implement multi-agent AI workflows within the Enterprise Identity Cloud
   - Work with foundation models (GPT, Claude, Llama) to build domain-specific AI features
   - Apply RAG and prompt engineering techniques for enterprise identity use cases
   - Develop cost-efficient inference pipelines with AWS Bedrock and Azure OpenAI
-  - Implement observability (metrics, traces, logs) into deployed systems
-  - Develop and deploy solutions in multi-cloud environments (AWS, Azure)
-  - Integrate with secure messaging and orchestration systems (Kafka, RabbitMQ, Istio)
+  - Build scalable, resilient microservices and APIs using Kubernetes and HPA
+  - Implement observability (metrics, traces, logs) across all deployed systems
+  - Deploy solutions in multi-cloud environments integrating Kafka, RabbitMQ, and
+    Istio
+  - Ensure systems meet security, compliance, and enterprise audit requirements
   use_cases:
-  - Enterprise identity and access management automation
-  - AI-driven security and compliance solutions
-  - Multi-agent workflows for identity governance
-  - Domain-specific AI features for enterprise identity use cases
-  - RAG-based enterprise search and retrieval
+  - Enterprise identity and access management (IAM/IGA)
+  - AI-driven identity governance and compliance automation
+  - Domain-specific LLM features for enterprise identity use cases
+  - Multi-agent AI workflows for identity security
   skills:
-    domains: []
+    cloud: [AWS, Azure, AWS Bedrock, Azure OpenAI]
     languages: [Python, Java]
     ml: [Transformers]
-    cloud: [AWS Bedrock, Azure OpenAI, AWS, Azure]
-    genai: [LangChain, LangGraph, GPT, Anthropic API, Llama, RAG, Prompt Engineering]
-    data: [Kafka, RabbitMQ]
     other: []
-    ops: [Kubernetes, Docker, Prometheus, Grafana, ELK, Istio]
-    web: []
+    ops: [Kubernetes, Docker, HPA, Prometheus, Grafana, ELK Stack, Istio, Observability]
     databases: [PostgreSQL, Redis, Vector Databases]
+    domains: []
+    web: [Microservices, APIs]
+    data: [Kafka, RabbitMQ]
+    genai: [LangChain, LangGraph, RAG, Prompt Engineering, LLMs, Agentic Workflows,
+      Llama, GPT, Anthropic API, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7463674'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:49:54.946420'
+  extracted_at: '2026-08-15T23:55:33.022679'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

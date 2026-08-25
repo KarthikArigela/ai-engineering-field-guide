@@ -1,17 +1,19 @@
 company:
   name: Harman
-  stage: Public
-  focus: Automotive infotainment and connected technology solutions
+  stage: null
+  focus: Automotive audio, infotainment, and connected car technology
 position:
   title: Software Engineer - Data Engineer/AI
   ai_type:
     type: ml-first
     reasoning: |-
-      This role involves building and optimizing traditional ML/DL
-      models (CNN, RNN, Reinforcement Learning) using TensorFlow,
-      Keras, and Spark ML across areas like Computer Vision, NLP,
-      and Recommendation Systems. There is no mention of LLMs,
-      agents, RAG, or GenAI tools, making it an ML-first position.
+      The role builds and optimizes models directly (Computer
+      Vision, NLP, Recommendation Systems) using TensorFlow,
+      scikit-learn, Keras, and Reinforcement Learning, which is
+      shaping model behaviour. No LLM, prompt, retrieval, or agent
+      component appears anywhere - all named techniques (CNN, RNN,
+      RL, recommenders) are classical ML/DL - so it classifies as
+      ml-first.
   responsibilities:
   - Design, develop, and deploy machine learning and AI solutions to solve business
     problems
@@ -24,26 +26,28 @@ position:
   - Ensure code is secure, scalable, and performance-optimized
   - Document solutions and communicate technical concepts to non-technical stakeholders
   use_cases:
-  - Computer Vision for automotive applications
-  - Natural Language Processing solutions
+  - Computer Vision model development
+  - NLP model development
   - Recommendation systems
-  - In-vehicle infotainment and connected ecosystem enhancements
-  - Large-scale data processing for ML workflows
+  - Large-scale data processing feeding ML workflows
+  - In-vehicle infotainment and connected car technology solutions
   skills:
-    domains: [Computer Vision, NLP]
-    languages: [Python, R, PySpark, Scala, SQL]
-    ml: [Machine Learning, Deep Learning, CNN, RNN, Reinforcement Learning, TensorFlow,
-      scikit-learn, Keras, Spark ML, Model Optimization]
     cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Databricks, Spark, Distributed Computing]
+    languages: [Python, R, Scala]
+    ml: [Machine Learning, Deep Learning, CNNs, RNN, Reinforcement Learning, TensorFlow,
+      scikit-learn, Keras, Spark ML, Model Optimization]
     other: [Data Structures and Algorithms]
-    ops: [Linux]
-    web: []
+    ops: [Linux, Distributed Systems]
     databases: []
+    domains: [NLP, Computer Vision, Recommender Systems]
+    web: []
+    data: [PySpark, Databricks, Data Pipelines]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9706667'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:45:22.660611'
+  extracted_at: '2026-08-16T14:24:26.990033'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

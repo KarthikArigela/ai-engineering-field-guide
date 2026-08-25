@@ -1,0 +1,52 @@
+company:
+  name: Zensar Technologies
+  stage: null
+  focus: Digital solutions and experience engineering for enterprises
+position:
+  title: QE for AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM evaluation frameworks, tests RAG
+      pipelines (chunking, embeddings, reranking), validates agent
+      orchestration, and designs guardrails and hallucination
+      detection — all shaping model output quality. LLM/agentic
+      targets dominate, so ai-first.
+  responsibilities:
+  - Define evaluation frameworks for LLMs, RAG pipelines, and multi-agent systems
+  - Design test strategies for non-deterministic systems including semantic correctness,
+    hallucination detection, and consistency checks
+  - Build offline and online LLM evaluation testing pipelines
+  - Validate multi-agent orchestration flows and simulate adversarial edge cases
+  - Validate end-to-end RAG pipelines including chunking, embeddings, retrieval, and
+    re-ranking
+  - Ensure compliance with enterprise AI governance, auditability, and traceability
+    requirements
+  - Automate prompt testing, regression testing, and response comparison
+  - Integrate AI validation into CI/CD pipelines
+  use_cases:
+  - Quality assurance for GenAI and agentic systems in production
+  - Hallucination detection and factuality verification
+  - RAG pipeline correctness and failure-point analysis
+  - Multi-agent workflow robustness and adversarial testing
+  - Enterprise AI governance, explainability, and auditability
+  skills:
+    genai: [LLMs, RAG, Multi-Agent Systems, Agentic Workflows, LLM Evaluation, Prompt
+        Engineering, Guardrails, Embeddings]
+    ml: [Generative AI]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10365252'
+  location: Pune, IND
+  extracted_at: '2026-08-25T09:49:34.593683'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

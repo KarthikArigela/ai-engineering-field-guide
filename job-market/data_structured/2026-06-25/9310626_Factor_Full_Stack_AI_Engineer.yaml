@@ -5,55 +5,58 @@ company:
 position:
   title: Full Stack AI Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building production-grade AI products
-      including RAG, document retrieval, LLM orchestration, and
-      AI-assisted contract intelligence workflows. While it is a
-      full-stack role, the core product is AI-powered legal
-      tooling and the engineer is expected to work hands-on with
-      AI/ML components like embeddings, vector search, and LLM
-      orchestration, not just supporting infrastructure for
-      others.
+      The core responsibilities are full-stack plumbing around AI-
+      enabled document intelligence: FastAPI services, data
+      layers, async job queues, Redis, React frontends, and Azure
+      operations. The shaping work (RAG, embeddings, vector
+      search, LLM orchestration) appears only under Desirable
+      Criteria, and the AI in day-to-day duties is a coding
+      accelerator (Codex), so per the nice-to-have rule this is
+      ai-support.
   responsibilities:
-  - Build production services using Python, FastAPI and Pydantic models for AI-enabled
-    document and contract intelligence
-  - Design and operate reliable data layers using PostgreSQL, SQLAlchemy and Alembic
-    including migrations and data modeling
+  - Build production backend services using Python, FastAPI and Pydantic that support
+    AI-enabled document and contract intelligence
+  - Model, migrate and operate reliable data layers with PostgreSQL, SQLAlchemy and
+    Alembic
   - Build and maintain asynchronous job systems with queue processing, retries, idempotency,
-    dead-letter handling and failure recovery
-  - Build React and TypeScript interfaces that consume backend services and provide
-    transparent job states and polished UX
+    dead-letter handling, cancellation and failure recovery
+  - Use Redis for caching, transient state, job status and coordination with reliability
+    patterns such as timeouts and circuit breakers
+  - Build React and TypeScript interfaces with TanStack Query that expose transparent
+    job states, error handling and polished interactions for long-running AI jobs
   - Support document-heavy workflows including ingestion, retrieval, structured extraction,
-    redlining and AI-assisted review
-  - Operate within Azure-based environments including Blob Storage, Key Vault, managed
-    databases and containerised deployments
-  - Use AI coding tools to accelerate implementation, debugging, refactoring, testing
-    and documentation while maintaining high code quality
-  - Instrument production systems using Application Insights or equivalent observability
-    tooling
+    redlining, rich text editing and AI-assisted review
+  - Operate within Azure environments using Blob Storage, Key Vault, managed databases
+    and containerised deployments, with observability via Application Insights
+  - Use AI coding tools such as Codex to accelerate implementation, debugging, testing
+    and documentation while owning correctness, security and production quality
   use_cases:
-  - Contract intelligence and automated legal document processing
-  - AI-assisted contract review, redlining and structured extraction
-  - RAG-based document retrieval and search across legal corpora
-  - Asynchronous workflow automation for complex legal transactions
-  - Enterprise-grade secure legal service delivery at scale
+  - AI-powered contract intelligence for complex legal workflows
+  - Document ingestion, retrieval and structured extraction from legal documents
+  - Redlining and AI-assisted contract review for legal teams
+  - Workflow automation for transactional legal and contracting work
+  - Asynchronous processing and progress tracking of long-running AI jobs
+  - Enterprise authentication, authorisation and auditability for legal tech products
   skills:
-    domains: [Legal tech, Contract intelligence]
+    cloud: [Azure, Azure Blob Storage, Azure Key Vault, Azure MSAL]
     languages: [Python, TypeScript]
     ml: []
-    cloud: [Azure, Azure Blob Storage, Azure Key Vault, Azure MSAL]
-    genai: [RAG, Embeddings, LLMs, Document chunking, Retrieval evaluation, Codex,
-      Cursor, Claude Code]
-    data: []
     other: []
-    ops: [Docker, Application Insights, OpenTelemetry]
-    web: [FastAPI, Pydantic, React, TanStack Query, OAuth/OIDC, Radix UI, shadcn/ui,
-      Tailwind CSS, TipTap, Vite]
+    ops: [Application Insights, OpenTelemetry, Docker]
     databases: [PostgreSQL, SQLAlchemy, Alembic, Redis, Vector Search]
+    domains: []
+    web: [FastAPI, Pydantic, React, TanStack Query, OAuth, OIDC, Radix UI, shadcn/ui,
+      Tailwind CSS, TipTap, Vite]
+    data: []
+    genai: [Codex, Cursor, Claude Code, RAG, Embeddings, Document Chunking, Retrieval
+        Evaluation, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9310626'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:40:39.354091'
+  extracted_at: '2026-08-16T12:40:44.588845'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

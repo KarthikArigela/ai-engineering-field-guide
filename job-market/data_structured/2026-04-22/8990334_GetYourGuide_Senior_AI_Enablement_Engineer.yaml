@@ -1,56 +1,56 @@
 company:
   name: GetYourGuide
-  stage: Public
-  focus: |-
-    Online travel experience marketplace connecting travelers
-    with activities
+  stage: null
+  focus: Online marketplace for travel experiences and activities
 position:
   title: Senior AI Enablement Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is about enabling internal AI adoption across
-      GetYourGuide — building platforms, governance, and tooling
-      for other teams to use AI, not building or training AI/ML
-      models directly. The engineer assesses, evaluates, and
-      governs AI tools rather than developing models, fine-tuning,
-      or deploying them hands-on.
+      The role enables and governs internal AI adoption:
+      evaluating AI tools for security, compliance, and
+      operational suitability, setting standards, and reducing
+      shadow AI. Nothing in the responsibilities involves shaping
+      model behavior — no prompt design, retrieval/RAG
+      architecture, training, evals, or output-quality work — so
+      this is an AI enablement/governance role (ai-support).
   responsibilities:
-  - Develop and support internal AI platform capabilities to help teams adopt AI tools
-    practically and effectively
-  - Own initiatives from problem definition through technical evaluation, implementation,
-    and ongoing improvement
+  - Develop and support internal AI platform capabilities that help teams adopt AI
+    tools practically and effectively
   - Assess internal AI needs and translate them into scalable technical solutions
   - Evaluate AI tools and approaches with attention to security, compliance, and operational
     suitability
-  - Drive AI adoption while reducing shadow AI and improving governance processes
-  - Own the AI governance framework and lead security and compliance conversations
-    as the senior AI technical authority
-  - Collaborate with cross-functional stakeholders to balance technical possibilities
-    with business needs
-  - Act as the primary technical escalation point and advisor for teams navigating
-    AI adoption and tooling decisions
+  - Drive internal AI adoption while reducing shadow AI and improving governance processes
+  - Serve as the senior AI technical authority, owning the AI governance framework
+    and leading security and compliance conversations
+  - Act as the primary technical escalation point and go-to advisor for AI adoption,
+    tooling decisions, and governance requirements
+  - Manage and continuously improve the global SaaS application stack to deliver a
+    strong employee experience
+  - Partner with IT, Security, Legal, and the AI Council to set standards and make
+    sound technical choices
   use_cases:
-  - Internal AI platform and tooling enablement for enterprise teams
-  - AI governance and compliance framework management
-  - Shadow AI reduction and standardization of AI tool usage
-  - Security and compliance assessment of AI tools for organizational use
-  - Employee experience improvement through managed AI capabilities
+  - Internal AI adoption enablement across the company
+  - AI governance and reduction of shadow AI
+  - Security and compliance evaluation of AI tools
+  - Standardized, secure access to AI capabilities for internal teams
+  - Global SaaS application stack management for employee experience
   skills:
-    genai: [AI Platforms and Tooling]
-    ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [Security and Governance, SaaS Administration, Platform Engineering, Systems
-        Administration]
     languages: []
+    ml: []
+    other: [AI Platforms, Responsible AI, Cybersecurity]
+    ops: [Platform Administration, Sysadmin]
+    databases: []
     domains: []
-    other: [Compliance, Stakeholder Management, Cybersecurity]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8990334'
   location: Berlin, DEU
-  extracted_at: '2026-04-22T12:27:24.836974'
+  extracted_at: '2026-08-16T06:54:21.847783'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

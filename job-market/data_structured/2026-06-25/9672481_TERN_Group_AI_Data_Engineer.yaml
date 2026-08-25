@@ -1,59 +1,56 @@
 company:
   name: TERN Group
-  stage: Venture-backed (early-to-mid stage)
-  focus: Software platform for travel agencies and advisors
+  stage: venture-backed
+  focus: Software platform for travel advisors and agency operations
 position:
   title: AI & Data Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and shipping AI
-      features, eval harnesses for LLM quality, agentic tooling,
-      and production monitoring for AI systems. While data
-      engineering is a significant component, the core mandate is
-      owning AI system quality end-to-end including building eval
-      systems, agentic/MCP tooling, and the infrastructure AI
-      features run on — which is hands-on AI work, not just
-      supporting infrastructure for others.
+      The role builds eval harnesses, datasets, and production
+      monitoring that judge whether AI features are good enough to
+      ship, and builds the agentic tooling those features run on -
+      directly shaping model output quality. Since agentic and LLM
+      components are explicitly central to the work, this
+      classifies as ai-first despite the strong data engineering
+      foundation.
   responsibilities:
-  - Build and ship the data infrastructure, services, and agentic tooling that power
-    Tern's AI features in production
-  - Build evaluation systems including eval harnesses, datasets, and production monitoring
-    to determine if AI features are good enough to ship and maintain
-  - Own data quality across ingestion, modeling, and reporting to catch problems before
-    they reach models, dashboards, or users
-  - Build and maintain ETL systems that move and shape data from application and third-party
-    sources into the warehouse
+  - Build and ship the data infrastructure, services, and agentic tooling that Tern's
+    AI features run on
+  - Build evaluation systems that determine whether AI features are good enough to
+    ship and keep - eval harnesses, datasets, and production monitoring running as
+    software
+  - Own data quality as a first-class concern across ingestion, modeling, and reporting,
+    catching and fixing problems end to end
+  - Build and maintain ETL systems moving data from application and third-party sources
+    into the warehouse, keeping them reliable as volume grows
   - Work with product squads to build reporting that gives advisors and agency owners
     visibility into business performance
-  - Monitor AI feature quality in production, debug bad outputs, and improve systems
-    over time
-  - Share context early and write clearly to unblock colleagues and raise engineering
-    standards
+  - Monitor AI quality and drift in production and own fixes after launch
+  - Share context early and write clearly so other engineers can build on the work
   use_cases:
-  - AI-powered features for travel advisor business management platform
-  - LLM evaluation and observability for production AI features
-  - ETL pipelines feeding AI features and business reporting from application and
-    third-party sources
-  - Advisor and agency reporting dashboards for business performance visibility
-  - Agentic and MCP-based tooling built on top of internal systems
-  - Production monitoring for AI quality and drift detection
+  - AI features embedded in a travel advisor platform
+  - Evaluation and drift monitoring to keep AI features trustworthy in production
+  - Data pipelines moving application and third-party data into a warehouse
+  - Reporting and dashboards for travel advisors and agency owners on business performance
+  - System of record for advisors and agencies that feeds AI features
   skills:
-    domains: []
-    languages: [Python, SQL, Ruby]
-    ml: []
     cloud: [Heroku, GCP]
-    genai: [LLM Evaluation, MCP-based tooling, Agentic Workflows, Claude Code, Prompt
-        Engineering]
-    data: [dbt, Data Pipelines]
+    languages: []
+    ml: []
     other: [ThoughtSpot, Hex]
-    ops: [Production monitoring, CI/CD]
-    web: [Ruby on Rails, Hotwire]
+    ops: [Model Monitoring]
     databases: [PostgreSQL, BigQuery]
+    domains: []
+    web: [Ruby on Rails, Hotwire]
+    data: [dbt, Data Pipelines]
+    genai: [Claude Code, MCP, Agentic Workflows, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9672481'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:45:23.182966'
+  extracted_at: '2026-08-16T14:03:30.781395'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

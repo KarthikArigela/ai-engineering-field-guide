@@ -1,0 +1,48 @@
+company:
+  name: Guidehouse
+  stage: null
+  focus: Management consulting and technology services
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM-based applications including RAG and
+      agent orchestration, and supports evaluation frameworks and
+      human-in-the-loop workflows, directly shaping model
+      behaviour and output quality. LLM/agent components dominate,
+      so it is ai-first.
+  responsibilities:
+  - Design and deploy AI-enabled workflows for RCM use cases
+  - Build LLM-based applications including RAG and agent orchestration
+  - Develop containerized AI services using Docker and Kubernetes (AKS/EKS/GKE)
+  - Implement CI/CD pipelines for Kubernetes deployments
+  - Integrate AI with enterprise systems and data pipelines
+  - Support agent runtime, evaluation frameworks, and human-in-the-loop workflows
+  - Ensure scalability and reliability of AI services in production
+  use_cases:
+  - Revenue Cycle Management AI workflows
+  - Claims processing and denials management
+  - AR management and medical coding assistance
+  - Healthcare performance analytics
+  skills:
+    cloud: [Azure AI, AWS Bedrock, SageMaker, Vertex AI]
+    languages: [Python]
+    ml: [Model Evaluation]
+    other: [Responsible AI]
+    ops: [MLOps, CI/CD, Docker, Kubernetes, Helm, Model Monitoring]
+    databases: [Vector Databases]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Generative AI, Agentic Workflows, Embeddings, Semantic Search,
+      Agent-Based Orchestration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10339531'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:46:23.897883'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

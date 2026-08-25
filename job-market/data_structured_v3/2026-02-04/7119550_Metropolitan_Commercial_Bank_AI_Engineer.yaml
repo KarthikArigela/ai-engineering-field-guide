@@ -1,0 +1,62 @@
+company:
+  name: Metropolitan Commercial Bank
+  stage: 'Publicly traded (parent Metropolitan Bank Holding Corp., NYSE: MCB)'
+  focus: Full-service commercial bank in New York City
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role requires building and deploying LLM-based
+      applications using RAG, prompt engineering, vector
+      databases, LangChain/LlamaIndex, fine-tuning, and agent-
+      based architectures — all direct model-shaping activities.
+      Although much of the role covers MLOps/AIOps and production
+      scaling, shaping both LLM and classical ML systems
+      classifies as ai-first.
+  responsibilities:
+  - Establish and enforce architecture standards for production AI systems, including
+    data pipelines, model serving infrastructure, and real-time inference services
+  - Implement AIOps/MLOps pipelines for CI/CD of ML models, model governance, monitoring,
+    and lifecycle management
+  - Build and deploy LLM-based applications using RAG, prompt engineering, and vector
+    databases
+  - Design, construct, and maintain the Bank's AIOps solution with Snowflake as the
+    primary ML platform (Snowpark Python, UDFs/UDTFs, Tasks/Streams)
+  - Integrate AI/ML models into production environments and optimize model serving
+    (compression, caching, hardware acceleration) for low latency and high reliability
+  - Design and maintain scalable software applications with integrated AI/ML capabilities,
+    writing clean code in Python, Java, C, C++, and Go
+  - Partner with data scientists, AI scientists, product managers, data engineers,
+    and DevOps to operationalize AI algorithms
+  - Mentor teams and coordinate between AI scientists and engineering teams to improve
+    models with production feedback
+  use_cases:
+  - Enterprise generative AI systems for banking operations
+  - Personalization engines for customer experiences
+  - Automation tools for bank workflows
+  - Fraud risk, AML, and underwriting analytics in financial services
+  - Real-time AI/ML inference at enterprise scale (thousands of daily inferences)
+  - Model governance, monitoring, and drift detection for a regulated banking environment
+  skills:
+    genai: [RAG, Prompt Engineering, LangChain, LlamaIndex, Fine-Tuning, AI Agents,
+      LLMs, Generative AI, Embeddings]
+    ml: [scikit-learn, PyTorch, TensorFlow, Keras, Deep Learning, NLP, Machine Learning]
+    web: [React, Flask, FastAPI, Node.js, APIs]
+    databases: [Snowflake, Snowpark, Vector Databases, Vector Search, SQL, NoSQL]
+    data: [Pandas, Data Engineering, Data Pipelines, ETL, Spark, PySpark]
+    cloud: [AWS, GCP, Azure]
+    ops: [LLMOps, MLOps, AIOps, Docker, Kubernetes, Terraform, CloudFormation, CI/CD,
+      Prometheus, Grafana, MLflow, GPU Optimization, Real-Time Inference, Model Deployment,
+      Monitoring, SRE]
+    languages: [Python, Java, C, C++, Go]
+    domains: []
+    other: [Agile, Code Review, Explainable AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7119550'
+  location: New York, USA
+  extracted_at: '2026-08-15T21:22:10.762124'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

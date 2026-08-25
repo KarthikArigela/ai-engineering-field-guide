@@ -1,0 +1,56 @@
+company:
+  name: Clear Street
+  stage: null
+  focus: Cloud-native unified capital markets trading platform
+position:
+  title: Senior Software Engineer - Studio - Java, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns the AI service layer end-to-end: retrieval
+      (RAG pipelines), orchestration, guardrails, and evaluation,
+      and requires hands-on patterns like tool calling and evals.
+      This directly shapes model behaviour and output quality, and
+      the components are LLM-based, so it is ai-first.
+  responsibilities:
+  - Own the AI service layer for Clear Street Studio, covering retrieval, orchestration,
+    guardrails, and evaluation
+  - Design, implement, and productionize reliable AI workflows that augment the Studio
+    trading platform
+  - Build tooling to monitor, tune, and evaluate models and workflows, including guardrails
+    ensuring outputs meet quality and regulatory requirements
+  - Collaborate with technical and non-technical teams across the firm to identify
+    high-ROI AI opportunities
+  - Build rapid prototypes and translate them into production-grade systems using
+    AI-powered development tools
+  - Create reusable libraries, SDKs, and tooling to enable AI development throughout
+    the firm
+  - Stay current on applied AI by reading papers, evaluating new models, and testing
+    new tools
+  - Participate in code review and architecture design, manage deployments, and support
+    the overall Studio platform
+  use_cases:
+  - Augmenting the Studio trading platform with production AI features
+  - Retrieval and knowledge-grounded LLM workflows over trading platform data
+  - Guardrails and evaluation ensuring AI outputs meet quality and regulatory requirements
+    in financial services
+  - Enabling firm-wide AI development through reusable libraries, SDKs, and tooling
+  skills:
+    genai: [LLMs, RAG, Function Calling, LLM Evaluation, Guardrails, Red-Teaming]
+    ml: [Machine Learning]
+    web: [Spring]
+    databases: [PostgreSQL, Redis]
+    data: [Kafka]
+    cloud: [AWS]
+    ops: [Kubernetes]
+    languages: [Java, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7664544'
+  location: New York, USA
+  extracted_at: '2026-08-15T21:56:17.632068'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

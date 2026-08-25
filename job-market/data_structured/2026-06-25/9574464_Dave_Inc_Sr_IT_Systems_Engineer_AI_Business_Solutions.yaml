@@ -1,54 +1,59 @@
 company:
   name: Dave Inc.
-  stage: Public
-  focus: Consumer financial app and lending platform
+  stage: ''
+  focus: Consumer fintech app offering cash advances and credit
 position:
   title: Sr. IT Systems Engineer, AI & Business Solutions
   ai_type:
     type: ai-first
     reasoning: |-
       The role explicitly requires designing and implementing
-      agentic workflows using LLM APIs (ChatGPT, Claude, Gemini)
-      to create conversational interfaces for non-engineering
-      stakeholders. The engineer builds agent-driven solutions
-      end-to-end, making this a hands-on role working directly
-      with AI/LLM systems rather than just supporting them.
+      agentic workflows and building agents on LLM APIs (ChatGPT,
+      Claude, Gemini) so non-engineering stakeholders can query
+      company data conversationally. Designing agent flows is
+      shaping model behavior, and an LLM/agent component is
+      central to the deliverable, so it is ai-first despite the
+      surrounding IT/compliance automation work.
   responsibilities:
-  - Automate high-volume manual processes like audit evidence collection, data gathering,
-    and compliance reporting using APIs and workflows
-  - Build integrations pulling data from systems of record (Okta, Workspace, GitHub,
-    security tools, GCP, Snowflake) into BigQuery for audit readiness and analytics
-  - Design and implement agentic workflows enabling non-engineering stakeholders to
-    interact with company data through conversational interfaces
-  - Own the operational lifecycle of integrations including monitoring, alerting,
-    troubleshooting, and evolution
+  - Automate high-volume manual processes such as audit evidence collection, data
+    gathering, and compliance reporting using APIs and workflows
+  - Build integrations that pull data from systems of record (Okta, Google Workspace,
+    GitHub, security tools, Google Cloud, Snowflake) into BigQuery for audit readiness
+    and analytics
+  - Design and implement agentic workflows that let non-engineering stakeholders interact
+    with company data and reports through conversational interfaces
+  - 'Own the operational lifecycle of integrations: monitoring, alerting, troubleshooting,
+    and evolving them as business requirements change'
   - Identify manual handoffs and repetitive tasks across IT, audit, and business functions
-    and build automation or agent-driven solutions to eliminate them
-  - Work cross-functionally with business teams to translate pain points into technical
-    solutions and measure impact
-  - Build scalable, resilient, and secure compliance and IT systems
+    and eliminate them with automation or agent-driven solutions
+  - Partner cross-functionally with business teams to translate pain points into technical
+    solutions and measure impact on time savings and compliance readiness
+  - Build scalable, resilient, and secure systems that embed continuous compliance
+    into day-to-day workflows
   use_cases:
   - Automated audit evidence collection and compliance reporting
-  - Conversational AI interfaces for non-technical stakeholders to query company data
-    and reports
-  - Agent-driven automation of repetitive IT, audit, and business workflows
-  - Compliance monitoring and continuous control readiness
-  - Data consolidation and analytics for audit readiness across enterprise systems
+  - Conversational access to company data and reports for non-engineering stakeholders
+  - Consolidated audit-readiness and analytics data warehouse in BigQuery
+  - Cross-system integration and automation across identity, security, and SaaS platforms
+  - Continuous compliance and IT General Controls monitoring
   skills:
-    domains: [SOC 2, SOX, ITGC, GDPR]
-    languages: [Python, SQL]
+    cloud: [GCP, Compute Engine, Cloud Functions, Cloud Run, Cloud Storage, Okta]
+    languages: [Python]
     ml: []
-    cloud: [GCP]
-    genai: [LLMs, Agentic Workflows, Prompt Engineering]
-    data: [Data Pipelines]
-    other: [Okta, Google Workspace, GitHub, Encryption and PII handling]
-    ops: [Terraform, GitHub Actions, CI/CD, Observability]
-    web: [REST APIs]
+    other: [Google Workspace, SOC 2, SOX, ITGC, GDPR, Encryption, PII Handling]
+    ops: [Terraform, Infrastructure as Code, GitHub, CI/CD, GitHub Actions, Monitoring,
+      Observability]
     databases: [BigQuery, Snowflake]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Validation, Data Governance]
+    genai: [Agentic Workflows, AI Agents, LLMs, ChatGPT, Anthropic API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9574464'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:44:15.586957'
+  extracted_at: '2026-08-16T12:58:08.167643'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

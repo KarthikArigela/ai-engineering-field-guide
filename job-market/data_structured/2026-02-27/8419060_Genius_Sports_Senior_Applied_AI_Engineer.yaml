@@ -1,55 +1,59 @@
 company:
   name: Genius Sports
   stage: null
-  focus: |-
-    Sports data and technology for live sports analytics and fan
-    experiences
+  focus: Sports technology and live sports data
 position:
   title: Senior Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and implementing
-      production multimodal AI agents, LLM integrations, and
-      agentic systems that process audio/video/text feeds. The
-      engineer will work hands-on with models (Gemini, ChatGPT,
-      Claude), implement prompt-as-code, and develop decision
-      logic for AI-powered products.
+      The role directly shapes LLM and agent behavior: it builds
+      agentic components (sensor agents, specialist agents,
+      decision logic), writes prompt-as-code with strict JSON
+      contracts, and builds evaluation/regression workflows for
+      prompts and model routing. Since LLMs and multimodal
+      generative models (Gemini, ChatGPT, Claude) are the systems
+      being shaped, this is ai-first.
   responsibilities:
-  - Build and maintain multimodal agents that process audio/video/text feeds into
-    structured real-time signals
-  - Implement streaming-friendly pipelines with chunking, normalization, time-sync,
-    and async execution
+  - Build and maintain multimodal agents (sensor agents, specialist agents, decision
+    logic) that convert broadcast and radio feeds into structured, real-time signals
+    and event candidates
+  - Implement streaming-friendly pipelines including chunking, normalization, time-sync,
+    async execution, and robust retry/backoff for model and tool calls
   - Develop prompt-as-code with strict JSON contracts, schema validation, and deterministic
-    post-processing
-  - Improve system robustness under noisy inputs and handle edge cases
-  - Partner with product and domain leads to translate sport rules into validation
-    logic and integrate outputs
-  - Contribute to evaluation workflows with test cases, failure mode categories, and
-    regression checks
-  - Stay up-to-date with emerging GenAI technologies and best practices
-  - Mentor team members in data engineering principles
+    post-processing to reduce brittleness
+  - Improve system robustness under noisy real-world inputs
+  - Partner with product, platform, and domain leads to translate sport rules and
+    edge cases into validation logic and integrate outputs into downstream consumers
+    such as tagging, live feeds, and analytics
+  - Contribute to the evaluation workflow by adding test cases, failure mode categories,
+    and regression checks for prompts and model routing
+  - Stay up-to-date with emerging Gen AI technologies, tools, and best practices
+  - Mentor and support team members in data engineering principles and practices
   use_cases:
-  - Audio Intelligence for sports broadcasts
+  - Converting broadcast and radio feeds into structured, real-time signals and event
+    candidates
+  - Audio Intelligence product for live sports
   - Semi-automated broadcast-to-data tagging
-  - Highlight and momentum signal generation
-  - Real-time sports event detection from broadcast and radio feeds
-  - Converting multimodal feeds into structured data signals
+  - Generating highlight and momentum signals from live sports content
+  - Powering downstream tagging, live feeds, and sports analytics consumers
   skills:
-    domains: []
-    languages: [Python, Java, Rust]
-    ml: [Audio ML, Speech recognition, Acoustic event detection]
     cloud: [AWS Bedrock, Vertex AI]
-    genai: [Gemini, ChatGPT, Anthropic API, LLMs, Prompt Engineering, Multimodal AI,
-      RAG, Agentic Workflows]
-    data: [Kafka, Pulsar, Flink]
-    other: []
-    ops: [Git]
-    web: []
+    languages: [Python, Java, Rust]
+    ml: []
+    other: [Agile]
+    ops: [Git, Model Monitoring, Observability]
     databases: []
+    domains: [Acoustic Event Detection]
+    web: [JSON]
+    data: [Kafka, Pulsar, Flink]
+    genai: [LLMs, Multimodal Models, Gemini, ChatGPT, Anthropic API, AI Agents, Prompt
+        Engineering, Structured Outputs, RAG, Generative AI, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8419060'
   location: New York, USA
-  extracted_at: '2026-03-03T12:43:00.397214'
+  extracted_at: '2026-08-16T01:15:25.735679'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

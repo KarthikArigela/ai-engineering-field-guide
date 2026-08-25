@@ -1,55 +1,58 @@
 company:
   name: RevenueBase
   stage: null
-  focus: Data infrastructure for trustworthy AI agents and B2B data
+  focus: Verified B2B data infrastructure for AI agents
 position:
   title: Senior Data & AI Platform Engineer (AWS, Snowflake, Vector Search)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on implementation of vector
-      embeddings, LLM API integration, semantic search systems,
-      and RAG workflows. The engineer builds, deploys, and
-      optimizes production AI systems including embedding
-      generation pipelines and similarity-based retrieval - direct
-      work on AI/ML systems rather than just supporting
-      infrastructure.
+      The engineer designs retrieval themselves - embedding
+      generation, Pinecone vector storage, semantic search and
+      similarity retrieval - and builds internal services and SDKs
+      around prompt orchestration and LLM-based enrichment, which
+      counts as shaping model-driven output quality. LLM/embedding
+      components are central to the role, so it classifies as ai-
+      first.
   responsibilities:
   - Design and build data-driven tools operating on large datasets stored in S3 and
     Snowflake
-  - Implement embedding generation pipelines using LLM APIs like OpenAI and store
-    in vector databases like Pinecone
-  - Develop enrichment workflows using LLM APIs to generate derived columns and write
-    results back to Snowflake
-  - Build reusable internal services and SDKs for embedding generation, prompt orchestration,
-    and data augmentation
-  - Optimize performance and cost across AWS infrastructure for AI-powered systems
+  - Implement pipelines that extract data from Snowflake, generate vector embeddings
+    via OpenAI APIs, and store them in Pinecone for semantic search and similarity-based
+    retrieval
+  - Develop enrichment workflows that query structured data, call LLM APIs to generate
+    derived columns, and write enriched results back to Snowflake
+  - Build reusable internal services and SDKs around embedding generation, prompt
+    orchestration, and data augmentation
+  - Optimize performance and cost across AWS infrastructure
   - Ensure reliability, observability, and maintainability of AI-powered pipelines
-    and services
+  - Work closely with product and data teams to turn use cases into scalable engineering
+    solutions
   use_cases:
-  - Semantic search and similarity-based retrieval on B2B data
-  - AI-powered data enrichment using LLMs to generate new insights from structured
-    data
-  - Enterprise data platform enabling autonomous AI agents to access trustworthy B2B
-    data
-  - Internal tools and frameworks for LLM-based data transformation and validation
-  - Query abstraction layer making AI-enhanced analytics accessible to non-engineering
-    teams
+  - Semantic search and similarity-based retrieval over large B2B datasets
+  - LLM-powered batch enrichment of structured B2B data records
+  - AI-enhanced analytics made accessible to non-engineering teams
+  - Internal SDKs and frameworks for LLM-based data transformation and validation
+  - Verified, continuously refreshed B2B data powering autonomous AI agents and GTM
+    workflows
   skills:
-    domains: []
+    cloud: [AWS, IAM, AWS Lambda, ECS, EKS, AWS S3]
     languages: [Python]
     ml: []
-    cloud: [AWS, IAM, AWS Lambda, AWS S3]
-    genai: [OpenAI API, Embeddings, semantic search, RAG, Prompt Engineering]
-    data: [Data Pipelines, Airflow, Prefect, Dagster]
-    other: [Distributed Systems]
-    ops: [ECS/EKS, Terraform, CDK]
+    other: []
+    ops: [Distributed Systems, Terraform, CDK, Infrastructure as Code, Observability]
+    databases: [Snowflake, Pinecone, Vector Databases]
+    domains: []
     web: [APIs]
-    databases: [Snowflake, Pinecone]
+    data: [Data Modeling, Data Pipelines, Airflow, Prefect, Dagster]
+    genai: [OpenAI API, LLMs, Embeddings, Semantic Search, Prompt Engineering, RAG,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8541149'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T13:15:50.866977'
+  extracted_at: '2026-08-16T02:18:42.751466'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

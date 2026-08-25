@@ -1,55 +1,55 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Financial services and banking technology
+  stage: null
+  focus: Credit cards and consumer banking technology
 position:
   title: Director, Software Engineer - Card Tech AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a leadership role focused on using AI tools (Claude,
-      LLM coding assistance) to accelerate software development
-      workflows. The role involves managing teams, conducting code
-      reviews, and leveraging AI-generated output rather than
-      building, training, or deploying AI models. While they use
-      AI tools extensively, the primary work is software
-      engineering leadership and mentoring teams to adopt AI-
-      native development practices.
+      The role uses LLM coding assistants (Claude, Windsurf,
+      Copilot) and agentic dev tools to ship software faster and
+      coaches engineers on AI-native workflows - the deliverable
+      is developer velocity and production software for Card Tech,
+      not model behaviour. There is no prompt product, RAG design,
+      evals, fine-tuning, or output-quality system owned by this
+      person; auditing AI-generated code via design/code review is
+      standard engineering QA, not a reward or preference signal.
+      Per the edge case for rolling out AI coding tools, this is
+      ai-support.
   responsibilities:
   - Lead, mentor, and grow a high-velocity team of engineers, fostering a culture
     of AI adoption and rapid execution
-  - Embrace and incubate AI-native workflows, leveraging Claude and LLMs to fundamentally
-    change the math on development speed
-  - Operate as a Player-Coach, remaining deeply hands-on to ship production-ready
-    code and solve complex technical problems
+  - Operate as a Player-Coach, staying hands-on to ship production-ready code and
+    solve complex technical problems
+  - Incubate AI-native workflows leveraging Claude and LLMs to fundamentally increase
+    development speed
   - Collaborate with product teams to transform intent into functional reality using
     rigorous, spec-driven design
-  - Partner with stakeholders to explain AI-generated architectures, ensuring the
-    final product matches initial intent flawlessly
-  - Work within Agile cycles to design, audit, and support technical solutions, serving
-    as the ultimate fail-safe for AI output
-  - Lead efforts to bridge Intent=Execution, guaranteeing high-leverage output without
-    technical debt or hallucinations
-  - Conduct design and code reviews to ensure AI-generated code meets world-class
-    standards for quality and integrity
+  - Design, audit, and support technical solutions within Agile cycles, serving as
+    the ultimate fail-safe for AI output
+  - Conduct design and code reviews to ensure AI-generated code meets standards for
+    quality, security, and scalability
+  - Partner with stakeholders to explain AI-generated architectures and ensure final
+    products match original intent
   use_cases:
-  - AI-accelerated software development using LLM coding assistants
-  - Spec-driven design and architecture generation using AI tools
-  - Automated code generation and review workflows
-  - AI-native development practices for enterprise software
-  - Bridging the gap between business intent and technical execution through AI
-  - Ensuring quality, security, and scalability of AI-generated code
+  - AI-assisted software development for credit card technology products
+  - Accelerating development velocity through LLM coding assistants and agentic development
+    tools
+  - Auditing AI-generated code and architectures to prevent hallucinations and technical
+    debt
+  - Translating product intent into production software via spec-driven design
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: []
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [Anthropic API, LLMs, LLM coding assistance tools]
-    data: [Data platforms]
-    other: [Spec-driven design, Software development]
-    ops: [Agile, Code review, DevOps]
-    web: []
+    other: [Agile, Code Review]
+    ops: [DevOps]
     databases: []
+    domains: []
+    web: []
+    data: [Data Engineering]
+    genai: [LLMs, Anthropic API, Windsurf, GitHub Copilot, Spec-Driven Design]
   is_customer_facing: false
   is_management: true
 meta:
@@ -61,4 +61,6 @@ meta:
   - Richmond, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-05-29T08:56:16.472072'
+  extracted_at: '2026-08-16T09:33:40.832929'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

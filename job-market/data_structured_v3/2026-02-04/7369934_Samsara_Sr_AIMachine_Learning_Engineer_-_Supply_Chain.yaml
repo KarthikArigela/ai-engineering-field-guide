@@ -1,0 +1,62 @@
+company:
+  name: Samsara
+  stage: 'Recently public (NYSE: IOT)'
+  focus: IoT Connected Operations Cloud for physical operations
+position:
+  title: Sr. AI/Machine Learning Engineer - Supply Chain
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role owns the design, training, validation, and
+      deployment of classical ML and statistical models — time
+      series forecasting, inventory optimization, supplier risk
+      scoring, and anomaly detection — with no LLM or agent
+      components anywhere in the description. The person clearly
+      shapes model behavior (Step 1 yes), and since only classical
+      ML/statistical forecasting is involved (Step 2), this is ml-
+      first.
+  responsibilities:
+  - Define the end-to-end AI transformation roadmap for supply chain alongside the
+    Director, aligned with company OKRs and executive stakeholders
+  - Own the design, training, validation, and deployment of ML and statistical models
+    such as demand forecasting, inventory optimization, and supplier risk scoring
+  - Build predictive models to forecast demand, lead times, and cellular spend across
+    Samsara's global supply network
+  - Create novel features from large-scale ERP, IoT, and third-party datasets and
+    build pipelines and ETL jobs to serve models and stakeholders
+  - Deliver production-grade code supporting batch and real-time inference with MLOps
+    best practices
+  - Act as the AI liaison to Product, Engineering, Procurement, and Finance, ensuring
+    alignment on data requirements and change management
+  - Establish governance frameworks, documentation standards, and quality controls
+    for model development, validation, and lifecycle management
+  - Mentor junior scientists through code reviews and partner with Ops management
+    to drive adoption of AI-driven workflows
+  use_cases:
+  - Demand forecasting across thousands of SKUs
+  - Inventory optimization across the global supply network
+  - Supplier risk scoring using real-time IoT signals
+  - Lead time and cellular spend forecasting
+  - Anomaly detection in supply chain operations
+  - Cost optimization of cloud and GPU spend for ML workloads
+  skills:
+    genai: []
+    ml: [Machine Learning, Time Series Forecasting, Statistical Modeling, Optimization,
+      Anomaly Detection, Prophet, LSTMs, Transformers, Bayesian Methods, Multi-Armed
+        Bandits, Quantization, Pruning]
+    web: []
+    databases: []
+    data: [ETL, Data Pipelines]
+    cloud: [AWS, GCP, Azure, Serverless]
+    ops: [MLOps, CI/CD, Model Versioning, Model Monitoring, Real-Time Inference]
+    languages: [Python, SQL]
+    domains: [Supply Chain, Operations Research, IoT]
+    other: [Tableau, Power BI, A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7369934'
+  location: USA
+  extracted_at: '2026-08-15T21:33:19.774702'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

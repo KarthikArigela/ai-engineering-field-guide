@@ -1,52 +1,56 @@
 company:
   name: Octopus Energy
-  stage: Public
-  focus: Energy supplier and technology platform
+  stage: ''
+  focus: Renewable energy supplier with Kraken tech platform
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      Role involves building and scaling systems for LLMs, RAG,
-      and agents. Hands-on work with prompt engineering, knowledge
-      retrieval pipelines, and AI model evaluation - directly
-      working ON GenAI systems rather than just supporting
-      infrastructure.
+      The role directly shapes model behaviour: designing
+      RAG/knowledge retrieval systems (embeddings, chunking),
+      prompt assembly and context engineering, agent workflows,
+      and building evals and output-quality monitoring for LLMs.
+      All of these are shaping activities applied to LLMs and
+      GenAI systems, so the classification is ai-first.
   responsibilities:
-  - Design and develop reusable, scalable platform services that expose GenAI models,
+  - Design and develop reusable, scalable AI platform services that expose GenAI models,
     knowledge retrieval pipelines, and agent workflows to application teams
   - Build and maintain knowledge retrieval systems including embedding generation,
     chunking, and database management strategies
-  - Set up frameworks for monitoring and evaluating AI output quality including relevance,
-    accuracy, safety, drift, and cost
-  - Create prompt templates, system prompts, and guidelines for context engineering
-    and platform users
-  - Work with cross-functional teams to build flagship AI projects and develop best
-    practices for AI at Octopus
-  - Design and build backend applications and services that connect AI models into
-    wider applications and business logic
+  - Set up frameworks for monitoring and evaluating AI output quality (relevance,
+    accuracy, safety, drift, cost)
+  - Implement platform observability covering latency, cost, and usage
+  - Design context engineering systems for prompt assembly, including prompt templates,
+    system prompts, and guidelines for platform users
+  - Develop best practices for how Octopus works with AI across teams
+  - Build Python-based applications and data products within a cross-functional team
   use_cases:
-  - Generate tens of thousands of high-quality customer emails combining energy industry
-    knowledge with customer-specific data
-  - Enterprise knowledge retrieval and search using RAG systems
-  - AI-powered customer support and communication systems
-  - Agent-based workflows for energy specialist assistance
-  - Platform services enabling multiple teams to deploy GenAI applications
+  - Generating tens of thousands of customer emails for Energy Specialists, blending
+    Octopus communication style with customer data
+  - Knowledge retrieval and grounding for GenAI applications using customer data from
+    Kraken
+  - GenAI platform services and shared infrastructure enabling internal Octopus teams
+    to use LLMs, RAG, and agents
+  - AI agents and agent workflows integrated into energy customer service operations
+  - Supporting the transition to Net Zero through AI-driven energy technology
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Reinforcement Learning, Embeddings, ML evaluation]
     cloud: []
-    genai: [LLMs, RAG, AI Agents, Agentic Workflows, Prompt Engineering, Function
-        Calling, Fine-Tuning]
-    data: [Data Pipelines]
+    languages: [Python]
+    ml: [Machine Learning, Reinforcement Learning]
     other: []
-    ops: [CI/CD, Git, logging, tracing, Monitoring, testing]
-    web: [backend development]
-    databases: [Vector Databases]
-  is_customer_facing: true
+    ops: [Git, CI/CD, Monitoring, Observability]
+    databases: [Databases]
+    domains: []
+    web: [Backend Development]
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Generative AI, AI Agents, Embeddings, Context Engineering,
+      Prompt Engineering, LLM Evaluation, Function Calling, Agentic Workflows, Fine-Tuning]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8494138'
   location: London, GBR
-  extracted_at: '2026-02-27T11:29:03.581601'
+  extracted_at: '2026-08-16T01:49:11.510806'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

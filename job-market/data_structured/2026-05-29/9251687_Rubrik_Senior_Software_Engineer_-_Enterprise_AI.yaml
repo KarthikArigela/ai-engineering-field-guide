@@ -1,58 +1,64 @@
 company:
   name: Rubrik
-  stage: Public
-  focus: |-
-    Zero Trust Data Security and cyber resilience platform with
-    enterprise AI acceleration
+  stage: null
+  focus: Zero Trust data security and cyber resilience platform
 position:
   title: Senior Software Engineer - Enterprise AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is building platform infrastructure and backend
-      services that integrate with AI tools, not working directly
-      on models. The role involves building Kubernetes clusters,
-      cloud infrastructure, and distributed systems that enable
-      other teams to use AI capabilities. While the role requires
-      familiarity with AI tooling (Claude, LiteLLM, agent
-      frameworks), the core work is infrastructure/backend
-      engineering to support AI adoption across the organization.
+      This is a senior backend/platform engineering role
+      (Kubernetes, distributed systems, AWS/GCP, Terraform, CI/CD)
+      on Rubrik's internal AI enablement team. The AI content is
+      limited to familiarity with agentic AI tools (Claude,
+      LiteLLM, AI gateways, agent frameworks) and building backend
+      services that integrate with them — the person consumes AI
+      tools designed elsewhere rather than shaping model behaviour
+      via prompts, retrieval design, agent flows, or training.
+      Enabling internal AI adoption and integrating with third-
+      party AI infrastructure is ai-support per the edge cases.
   responsibilities:
   - Own end-to-end delivery of major platform initiatives, from design through deployment
     and post-launch success
-  - Own Kubernetes at depth — clusters, networking, operators, container lifecycle,
-    and multi-tenant orchestration
+  - Build and operate Kubernetes at depth — clusters, networking, operators, container
+    lifecycle, and multi-tenant orchestration
   - Design, develop, and optimize distributed services and cloud-native infrastructure
     on AWS and/or GCP for scale, reliability, and performance
+  - Build backend services and platforms that integrate with agentic AI tools, AI
+    gateways, and agent frameworks to enable AI adoption across Rubrik
   - Drive engineering excellence through code quality standards, design reviews, automation,
     and CI/CD best practices
-  - Collaborate across teams — Product, AI, and Security — to align architecture with
-    business objectives
-  - Be a mentor and multiplier, guiding engineers through architecture decisions,
-    trade-offs, and delivery
+  - Mentor engineers and guide them through architecture decisions, trade-offs, and
+    delivery
+  - Collaborate with Product, AI, and Security teams to align architecture with business
+    objectives
   - Partner with leadership to align engineering strategy with product objectives
     and technical roadmap
   use_cases:
-  - Internal AI enablement platform for engineering teams
-  - AI-powered workflow automation to improve organizational efficiency
-  - Infrastructure services integrating with agentic AI tools and AI gateways
-  - Backend services that support AI agent deployment and monitoring
-  - Platform for applied AI adoption across distributed systems
+  - Internal AI enablement platform that makes AI adoption easy for engineering teams
+    across the organization
+  - AI-powered workflows that improve engineering productivity and enterprise operational
+    efficiency
+  - Backend services integrating agentic AI tools, AI gateways, and agent frameworks
+  - Cloud-native platform infrastructure supporting Rubrik's data security and cyber
+    resilience operations
   skills:
-    domains: []
+    cloud: [AWS, GCP, IAM]
     languages: [Python, Go]
     ml: []
-    cloud: [AWS, GCP, ABAC]
-    genai: [Anthropic API, LiteLLM, Agentic Workflows, AI Gateways]
-    data: []
-    other: []
-    ops: [Kubernetes, Terraform, CI/CD, Prometheus, Grafana, Datadog, OpenTelemetry,
-      OPA]
-    web: [Distributed Systems, API Gateways]
+    other: [System Design, ABAC, Platform-as-a-Service]
+    ops: [Kubernetes, Distributed Systems, Terraform, Infrastructure as Code, CI/CD,
+      Prometheus, Grafana, Datadog, OpenTelemetry, OPA, Service Mesh]
     databases: []
+    domains: []
+    web: [API Gateways]
+    data: []
+    genai: [Anthropic API, LiteLLM, AI Gateways, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9251687'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:59:32.573696'
+  extracted_at: '2026-08-16T09:50:47.896913'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

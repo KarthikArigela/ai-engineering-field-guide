@@ -1,57 +1,55 @@
 company:
   name: Holland & Knight LLP
-  stage: Public
-  focus: Full-service law firm and legal services
+  stage: null
+  focus: Law firm providing legal services
 position:
   title: AI Legal Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, building, testing,
-      and deploying AI-enabled workflows including prompt
-      engineering, RAG pipelines, evaluation frameworks, and
-      guardrails. While it has a significant enablement and change
-      management component, the core responsibility is hands-on
-      creation and maintenance of AI solutions using LLM-based
-      tools and techniques.
+      The role directly shapes model behavior through hands-on
+      prompt design, retrieval/RAG pipeline development,
+      evaluation frameworks, and guardrails for LLM-based legal
+      workflows. The workflows run on LLM tools (Harvey, Legora,
+      Microsoft Copilot) and the person iterates on prompts,
+      retrieval sources, and output-quality monitoring, so this is
+      ai-first.
   responsibilities:
   - Design, build, test, and deploy AI legal workflows and skills across firm-approved
-    AI tools for use cases such as contract review, due diligence, drafting, research,
-    and summarization
+    AI tools for practice group use cases
   - Partner with attorneys and knowledge management professionals to identify high-value
     use cases and translate practice needs into structured AI solutions
   - Develop and maintain retrieval pipelines, document templates, and reusable workflow
     components with attorney-ready documentation
   - Build and execute evaluation frameworks to measure workflow quality, accuracy,
-    and reliability, and iterate based on feedback
-  - Lead enablement and change management efforts including training sessions, workshops,
-    1:1 coaching, and playbook development to drive sustained AI adoption
-  - Embed human-review checkpoints and audit mechanisms aligned with Firm governance,
+    and reliability, iterating based on feedback and outcomes
+  - Deliver training, workshops, 1:1 coaching, and playbooks to drive adoption and
+    change management for deployed AI workflows
+  - Develop best-practice standards and use-case libraries that enable attorneys to
+    independently and responsibly leverage AI tools
+  - Embed human-review checkpoints and audit mechanisms aligned with firm governance,
     confidentiality, and professional responsibility requirements
-  - Track adoption, usage, and impact metrics for deployed workflows and recommend
-    refinements or expansion opportunities
-  - Manage ongoing maintenance of production workflows including updates to prompts,
-    retrieval sources, and guardrails
+  - Maintain production workflows, updating prompts, retrieval sources, and guardrails
+    in response to model, platform, and practice changes
   use_cases:
-  - Contract review and analysis
-  - Due diligence automation
-  - Legal document drafting assistance
-  - Legal research and summarization
-  - Knowledge retrieval and question answering for legal practice groups
-  - AI workflow governance and risk management in legal settings
+  - Contract review
+  - Due diligence
+  - Legal drafting
+  - Legal research
+  - Document summarization
+  - Attorney self-service AI workflow building
   skills:
-    genai: [Prompt Engineering, RAG, LLMs, AI Agents, Guardrails, LLM Evaluation,
-      Microsoft Copilot, Generative AI, Embeddings]
-    ml: []
-    web: []
-    databases: []
-    data: [Data Pipelines]
     cloud: []
-    ops: []
     languages: [Python, SQL]
+    ml: []
+    other: [Harvey, Legora, Microsoft Office, Responsible AI]
+    ops: []
+    databases: []
     domains: []
-    other: [Microsoft Office Suite, Responsible AI, Agile]
-  is_customer_facing: true
+    web: []
+    data: []
+    genai: [Prompt Engineering, RAG, LLM Evaluation, Guardrails, Microsoft Copilot]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10285910'
@@ -59,4 +57,6 @@ meta:
   locations:
   - Los Angeles, USA
   - Newport Beach, USA
-  extracted_at: '2026-07-22T13:38:09.117723'
+  extracted_at: '2026-08-16T18:28:14.822822'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

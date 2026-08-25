@@ -1,54 +1,62 @@
 company:
   name: BECU
-  stage: Public
-  focus: Credit union and financial services
+  stage: null
+  focus: Member-owned credit union providing financial services
 position:
   title: Sr. Software Engineer - AI Innovation Team
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building AI-powered features,
-      integrating ML models and generative AI services into
-      production applications, troubleshooting model performance
-      and inference issues, and optimizing prompts. The engineer
-      works hands-on with AI/ML systems, designing AI-enabled
-      architectures and managing model interactions in production
-      environments.
+      The role goes beyond consuming AI APIs: its own duties
+      include troubleshooting prompt optimization challenges,
+      validating/monitoring/safeguarding model outputs, and
+      desired experience with embedding pipelines, vector
+      databases, and advanced prompt engineering - all shaping
+      activities. Generative AI services and LLM-centric
+      techniques are explicitly involved, making this ai-first.
   responsibilities:
-  - Build and implement AI-powered application features and services that integrate
-    AI/ML models and AI service APIs
-  - Design scalable, maintainable, and secure AI systems aligned with enterprise standards
-    and long-term strategies
-  - Troubleshoot AI-related issues including model performance degradation, inference
-    bottlenecks, and prompt optimization challenges
-  - Mentor junior staff in AI technologies, coding practices, and technical decision-making
-  - Partner with cross-functional teams to evaluate new AI capabilities and contribute
-    to the AI-enabled features roadmap
-  - Document AI integration patterns and share best practices to foster a continuous
-    learning environment
+  - Build moderate to complex AI-powered application features and services, including
+    components that integrate AI/ML models and AI service APIs
+  - Design scalable, secure, maintainable solutions ensuring AI systems align with
+    long-term strategy and enterprise standards
+  - Guide peers in best practices for AI workflow integration, model interaction,
+    and external AI service management
+  - Troubleshoot AI-related issues such as model performance degradation, inference
+    bottlenecks, prompt optimization challenges, and data pipeline inconsistencies
+  - Identify opportunities in AI integration patterns, automation strategies, development
+    tools, and deployment pipelines; mentor junior staff
+  - Perform unit testing and identify defects across traditional and AI-augmented
+    code paths to ensure quality and reliability
+  - Partner with cross-functional teams to evaluate new AI capabilities, assess feasibility,
+    and shape the AI feature and platform roadmap
+  - Document AI integration patterns and share knowledge to support continuous learning
+    around evolving AI technologies
   use_cases:
-  - AI-powered features for financial services applications
-  - Generative AI service integration in enterprise systems
-  - ML model deployment and monitoring in production environments
-  - Automation strategies and AI-driven development tooling
-  - Enterprise AI capability evaluation and technical feasibility assessment
+  - AI-powered features embedded in enterprise applications for a credit union serving
+    1.5 million members
+  - Integration of machine learning models and generative AI services into production
+    software
+  - Validation, monitoring, and safeguarding of model outputs for responsible AI practices
+  - Automation strategies and AI-augmented development workflows across the engineering
+    organization
   skills:
-    domains: []
-    languages: [TypeScript, Python, SQL]
-    ml: []
     cloud: [Azure, AWS, GCP]
-    genai: [Prompt Engineering, Generative AI services, Embedding pipelines, AI coding
-        assistants]
-    data: []
-    other: [Test-Driven Development, Git]
+    languages: [TypeScript, Python, SQL]
+    ml: [Machine Learning]
+    other: [Responsible AI, Test-Driven Development, Secure Coding]
     ops: [Kubernetes, Docker, CI/CD, Azure DevOps, GitHub Actions, Jenkins, TeamCity,
-      MLOps]
-    web: [Node.js, React]
+      Git, MLOps]
     databases: [Vector Databases]
+    domains: []
+    web: [Node.js, React]
+    data: []
+    genai: [Generative AI, Prompt Engineering, Embeddings, AI Coding Assistants]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9822669'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:50:21.994314'
+  extracted_at: '2026-08-16T15:12:52.149302'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,58 @@
+company:
+  name: ClearRoute
+  stage: null
+  focus: |-
+    Engineering consultancy for quality engineering and cloud
+    platforms
+position:
+  title: AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      Beyond serving infrastructure, the role explicitly includes
+      integrating LLM APIs and AI agent frameworks with prompt
+      management and rate-limit guardrails they build themselves,
+      which is shaping LLM behaviour and qualifies as ai-first.
+      Classical ML platform work (MLOps, model serving) is
+      secondary to these LLM integration duties.
+  responsibilities:
+  - Design and deliver internal developer platforms and infrastructure-as-code (Terraform,
+    Pulumi, CDK)
+  - Build, harden, and operate Kubernetes clusters (EKS, GKE, AKS) with CI/CD pipelines
+    end-to-end
+  - Implement secrets management with HashiCorp Vault and certificate lifecycle automation
+  - Embed SRE practices and integrate security tooling into delivery pipelines
+  - 'Design and operate AI/ML infrastructure: GPU node pools, model-serving runtimes
+    (Triton, vLLM, BentoML), and vector database deployments'
+  - Build MLOps pipelines for model training, versioning, evaluation, and promotion
+    to production
+  - Integrate LLM APIs and AI agent frameworks into developer platforms including
+    prompt management, observability, and guardrails
+  - Lead technical discovery sessions with clients, coach client engineers, and produce
+    architecture documentation
+  use_cases:
+  - Internal developer platforms that improve developer experience and delivery speed
+  - Model-serving and MLOps infrastructure for production AI workloads
+  - Safe integration of LLM-powered tooling into existing developer workflows
+  - Platform hardening, reliability, and security for enterprise infrastructure
+  - Client advisory on AI readiness, governance, and security controls
+  skills:
+    genai: [OpenAI API, Anthropic API, LLMs, AI Agents, Prompt Engineering]
+    ml: []
+    web: []
+    databases: [pgvector, Weaviate, Qdrant]
+    data: [Kafka]
+    cloud: [AWS, GCP, Azure, AWS Bedrock, Vertex AI]
+    ops: [Terraform, CI/CD, Kubernetes, Docker, Helm, ArgoCD, GitHub Actions, GitLab
+        CI, Linux, Triton, vLLM, MLOps, Kubeflow, MLflow, Git, Ray, Ansible]
+    languages: [Python, Bash, Go]
+    domains: []
+    other: [Code Review, System Design]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10452845'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:11:29.852684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

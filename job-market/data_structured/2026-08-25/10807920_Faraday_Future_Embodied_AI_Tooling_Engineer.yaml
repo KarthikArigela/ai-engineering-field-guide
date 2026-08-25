@@ -1,0 +1,55 @@
+company:
+  name: Faraday Future
+  stage: null
+  focus: AI-enabled electric vehicles, robotics, and crypto
+position:
+  title: Embodied AI Tooling Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds tooling and infrastructure around embodied
+      AI: data acquisition, cleaning, timestamp alignment,
+      teleoperation, and dashboards. It feeds datasets and
+      pipelines to others' training rather than shaping model
+      behavior through prompts, training, or evals, so it is ai-
+      support despite the robotics/AI environment.
+  responsibilities:
+  - Architect a modular, scalable robotics tooling portfolio spanning simulation,
+    hardware-in-the-loop, and cloud infrastructure
+  - Define and execute the technical roadmap for the end-to-end AI tooling ecosystem
+  - Establish standards for data formats (MCAP, HDF5, LeRobot) and communication protocols
+  - Build scalable tools for high-fidelity data collection from physical robots and
+    simulation
+  - Develop automated pipelines for data cleaning, timestamp synchronization, and
+    multimodal sensor fusion (LiDAR, Camera, IMU)
+  - Engineer low-latency teleoperation systems and real-time tele-monitoring dashboards
+  - Design data scrubbing and labeling interfaces to accelerate humanoid robot dataset
+    creation
+  - Collaborate with AI researchers, hardware engineers, and partners to bridge tooling
+    gaps
+  use_cases:
+  - Data acquisition from physical robot platforms and simulation environments
+  - Multimodal data lifecycle management for robot training datasets
+  - Remote robot teleoperation and real-time monitoring
+  - Humanoid robot dataset creation with labeling and scrubbing tools
+  - Embodied AI architecture infrastructure for intelligent electric vehicles
+  skills:
+    cloud: []
+    languages: [Python, C++]
+    ml: [PyTorch, TensorFlow, Sensor Fusion, LeRobot, Hugging Face]
+    other: [ROS/ROS2, NVIDIA Isaac Sim, Gazebo, Mujoco, MCAP, HDF5, Teleoperation
+        Hardware]
+    ops: [Distributed Systems]
+    databases: []
+    domains: [Robotics]
+    web: []
+    data: [Data Pipelines]
+    genai: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10807920'
+  location: El Segundo, USA
+  extracted_at: '2026-08-25T11:59:28.264332'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

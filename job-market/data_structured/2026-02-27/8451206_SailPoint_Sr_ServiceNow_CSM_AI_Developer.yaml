@@ -1,58 +1,61 @@
 company:
   name: SailPoint
   stage: null
-  focus: Identity Security
+  focus: Identity security and access management software
 position:
   title: Sr. ServiceNow CSM AI Developer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role implements and configures the ServiceNow AI
-      platform, building solutions using pre-built AI capabilities
-      like Now Assist, AI Search, Virtual Agent, and Predictive
-      Intelligence rather than training or fine-tuning models. The
-      developer works with existing AI/GenAI features within the
-      ServiceNow ecosystem to create customer service workflows
-      and automation solutions, which is supporting AI
-      functionality rather than building AI systems directly.
+      The role's core deliverable is building AI-first solutions
+      on the ServiceNow platform, including designing Virtual
+      Agent conversational flows, configuring Now Assist GenAI
+      capabilities, and AI Search retrieval for customer service
+      workflows. The developer shapes how these LLM/agent features
+      behave themselves rather than merely consuming an AI API
+      another team designed, so it is ai-first.
   responsibilities:
   - Design, develop, and deploy ServiceNow CSM features including Now Assist, case
-    management, workspaces, playbooks, and platform analytics
+    management, workspaces, playbooks, advanced work assignment, and platform analytics
   - Configure and customize core CSM components using client/server-side scripting,
     UI policies, business rules, and Flow Designer
+  - Build custom AI and automation workflows delivering AI-first solutions for customer
+    service operations
   - Build and maintain integrations with third-party tools using REST/SOAP APIs and
     IntegrationHub spokes
-  - Transform customer requirements into fully functional cross-modular solutions
-    within the ServiceNow platform
-  - Create custom AI and automation workflows, custom user interfaces, and actionable
-    dashboards
-  - Provide tier-2 support and troubleshooting for ServiceNow incidents and operational
-    requests
-  - Ensure application meets SailPoint security standards and best practices
-  - Monitor system performance, perform regular maintenance, and proactively take
-    corrective actions
+  - Create custom user interfaces in Service Portal and workspaces leveraging UI Builder
+    and custom HTML/CSS/JavaScript
+  - Collaborate with architects, product owners, and internal customers to translate
+    requirements into cross-modular technical solutions
+  - Provide tier-2 support, troubleshooting, and platform administration covering
+    users, workflows, tables, and data
+  - Contribute to the ServiceNow platform roadmap and strategy, evaluating impact
+    of new platform releases on current processes
   use_cases:
-  - Customer service management and case lifecycle automation
-  - AI-powered customer support workflows and self-service portals
-  - Enterprise identity security operations and support
-  - Virtual agent and AI search for customer inquiry resolution
-  - Advanced work assignment and workforce optimization for support teams
+  - AI-powered customer service management on ServiceNow CSM
+  - Case lifecycle management with intelligent routing and playbooks
+  - Conversational self-service for customers via Virtual Agent
+  - AI-assisted agent productivity using Now Assist GenAI
+  - AI-driven search and knowledge management for customer support portals
+  - Predictive task intelligence and recommended actions for support workflows
   skills:
-    domains: []
-    languages: [JavaScript, Python]
-    ml: [Predictive Intelligence]
     cloud: []
-    genai: [ServiceNow AI, Now Assist GenAI, AI Search, Virtual Agent, Task Intelligence]
-    data: []
-    other: [ServiceNow CSM, Business rules]
-    ops: [Flow Designer, MID Server]
-    web: [REST APIs, SOAP APIs, Service Portal, UI policies, IntegrationHub, Glide
-        APIs, Angular, HTML, CSS]
+    languages: [JavaScript, Python]
+    ml: [Task Intelligence, Predictive Intelligence, Recommended Actions]
+    other: [ServiceNow, Flow Designer, IntegrationHub, MID Server, Glide APIs, Microsoft
+        Teams, Slack, Confluence, Agile]
+    ops: []
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: [REST APIs, SOAP APIs, HTML, CSS, Angular]
+    data: []
+    genai: [Now Assist, AI Search, Virtual Agent]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8451206'
   location: IND
   remote: true
-  extracted_at: '2026-02-27T12:28:52.791098'
+  extracted_at: '2026-08-16T01:27:06.240710'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,51 @@
+company:
+  name: Qvantel
+  stage: null
+  focus: Telecom software and managed services
+position:
+  title: AI Automation Developer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      Despite the 'AI' title, the role is an
+      infrastructure/operations automation developer. There is no
+      work shaping model behaviour - no prompts, RAG, agents,
+      training, or evals. It's ops scripting and tooling.
+  responsibilities:
+  - Build and maintain custom automation tools and glue code using Go and Python to
+    streamline operational workflows
+  - Manage lifecycle of containerized applications using Kubernetes, Helm, and Jenkins
+  - Automate database tasks such as backups, scaling, schema migrations, and performance
+    monitoring across SQL and NoSQL environments
+  - Create advanced Bash and Python scripts for system hardening, automated patching,
+    and incident response
+  - Automate deployment of monitoring and alerting stacks for observability
+  - Implement automated self-healing mechanisms and scaling policies for platform
+    reliability
+  - Maintain CI/CD pipelines for infrastructure and automation tooling using a GitOps
+    approach
+  use_cases:
+  - Automation of telecom managed services operational workflows
+  - Database operations automation (backups, scaling, migrations, monitoring)
+  - Automated patching, system hardening, and incident response on Linux
+  - Infrastructure observability and self-healing platform automation
+  skills:
+    genai: []
+    ml: []
+    web: [Web Services]
+    databases: [SQL, NoSQL, PostgreSQL, MySQL, MongoDB]
+    data: []
+    cloud: []
+    ops: [Kubernetes, Docker, Helm, Jenkins, GitLab CI, GitHub Actions, CI/CD, GitOps,
+      Monitoring, Infrastructure as Code, Terraform, Pulumi, Ansible, Linux]
+    languages: [Python, Go, Java, Bash, Perl]
+    domains: []
+    other: [Shell Scripting, Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10661822'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T11:09:50.883245'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,20 +1,24 @@
 company:
   name: Securonix
-  stage: Growth/Private Equity (backed by Vista Equity Partners)
+  stage: Backed by Vista Equity Partners
   focus: |-
-    AI-powered cybersecurity SIEM platform for threat detection,
+    Cloud-native SIEM platform for threat detection,
     investigation, and response
 position:
   title: Senior Software Engineer (Java & Agentic AI)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role requires experience with "AI Tools & Agent
-      Integration" and the company's platform is explicitly
-      "powered by agentic AI." The engineer will be building and
-      integrating agentic AI capabilities into the cybersecurity
-      SIEM platform using Java/Python, making this an ai-first
-      role focused on implementing AI agents.
+      The responsibilities are entirely conventional Java
+      engineering — designing and maintaining applications, code
+      reviews, mentoring developers, and documentation — with no
+      evidence the person writes prompts, designs retrieval or
+      agent flows, or evaluates model output. AI appears only in
+      the job title, the company's marketing copy, and a single
+      skills line about "AI tools & agent integration experience,"
+      which indicates consuming or integrating existing AI
+      capabilities rather than shaping model behaviour. A generic
+      software role on an AI product is ai-support.
   responsibilities:
   - Design, develop, and maintain Java applications with a focus on performance, scalability,
     and maintainability
@@ -22,36 +26,38 @@ position:
     applications
   - Oversee and mentor a team of software developers, providing technical guidance
     and fostering continuous improvement
-  - Collaborate with product managers, security analysts, and stakeholders to translate
-    requirements into technical specifications
-  - Integrate AI tools and agentic AI capabilities into the cybersecurity platform
-  - Develop and maintain high-quality code, ensuring adherence to best practices and
-    coding standards
-  - Contribute to development processes, tools, CI/CD pipelines, and technical documentation
-  - Stay current with emerging technologies and industry trends in cybersecurity and
-    AI, integrating new tools into development
+  - Collaborate with product managers, security analysts, product owners, and designers
+    to translate requirements into technical specifications
+  - Participate in code reviews and contribute to improving development processes,
+    tools, and best practices
+  - Stay current with emerging cybersecurity technologies and modern Java practices,
+    integrating new tools as appropriate
+  - Contribute to technical documentation including design specifications, user guides,
+    and API documentation
   use_cases:
-  - Agentic AI-powered cybersecurity threat detection, investigation, and response
-  - User and Entity Behavior Analytics (UEBA) for behavioral insight across users,
-    entities, and data
-  - Real-time security analytics with automated response capabilities
-  - AI-enriched threat intelligence for continuously updated detections and investigations
-  - Unified SIEM platform enabling security teams to decide and act faster across
-    the threat lifecycle
+  - Agentic AI-powered threat detection, investigation, and response (TDIR) in a unified
+    SIEM
+  - Behavioral analytics (UEBA) across users, entities, and data
+  - Threat intelligence enrichment of detections and investigations
+  - Automated security response with human-in-the-loop oversight
+  - Real-time security analytics and rapid search and investigation
   skills:
-    domains: [Cybersecurity]
-    languages: [Java, Python, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [AI Tools & Agent Integration]
-    data: []
-    other: [Agile]
-    ops: [Docker, Kubernetes, CI/CD, Git, Maven, Gradle, JUnit, Mockito, TestNG]
-    web: [REST APIs, JSON, Microservices]
+    languages: [Java, Python, SQL, PHP]
+    ml: []
+    other: [Maven, Gradle, JUnit, Mockito, TestNG, Agile, SaaS, Queue-Based Architecture]
+    ops: [CI/CD, Git, GitHub, GitLab CI, Bitbucket, Docker, Kubernetes, Infrastructure
+        as Code]
     databases: [MySQL, MariaDB]
+    domains: []
+    web: [REST APIs, JSON, Microservices, Laravel]
+    data: []
+    genai: [AI Agents]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9127519'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:51:21.072565'
+  extracted_at: '2026-08-16T08:57:12.215729'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,51 @@
+company:
+  name: TALPRO INDIA PRIVATE LIMITED
+  stage: null
+  focus: Custom internal AI agents and workflow automation
+position:
+  title: AI Engineer – Internal Agents & Workflows
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent workflows, tool calling, structured
+      outputs, RAG with citations, and guardrails/evals — all
+      direct shaping of LLM behavior. Clear ai-first.
+  responsibilities:
+  - Design and implement agentic workflows with tool calling, multi-step reasoning,
+    and structured outputs
+  - Build integrations with internal systems such as Slack, Jira, email, calendar,
+    and CRM
+  - Implement RAG and knowledge systems for product and internal docs with citations
+  - Build access control patterns including SSO/AD group-aware retrieval and role-based
+    response filtering
+  - Ship MVP automations quickly and add guardrails such as evals, logging, and retry/timeout
+    handling
+  - Document workflows and provide runbooks for internal adoption
+  use_cases:
+  - AI triage bot classifying bugs vs change requests and auto-creating tickets
+  - Sales copilot answering real-time questions grounded in product specs
+  - Automated follow-up email generation, approval routing, and sending
+  - Interview evaluation agent applying role rubrics to transcripts
+  - Self-serve internal knowledge assistants and chatbots in Slack
+  skills:
+    genai: [Claude Agent SDK, MCP, LangGraph, OpenAI API, LLMs, AI Agents, Agentic
+        Workflows, RAG, Prompt Engineering, Structured Outputs, Function Calling,
+      LlamaIndex, LangChain]
+    ml: []
+    web: [APIs, OAuth]
+    databases: [pgvector, Pinecone, Elasticsearch]
+    data: [Temporal, Dagster, Airflow, Prefect]
+    cloud: []
+    ops: []
+    languages: [Python, TypeScript]
+    domains: []
+    other: [SSO]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10815420'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T12:04:10.271402'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

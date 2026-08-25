@@ -1,0 +1,53 @@
+company:
+  name: Microsoft
+  stage: null
+  focus: Software, cloud and AI platforms
+position:
+  title: Senior and/or Principal Software Engineer - AI Frameworks Networking, Systems
+    and Tools
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the systems/networking stack, tools, and SDK
+      integration for running AI models, but does not shape model
+      behavior through prompts, retrieval, fine-tuning, or evals.
+      Per the edge case, serving/hosting/scaling models others
+      build is ai-support even when it involves accelerators and
+      inference infrastructure.
+  responsibilities:
+  - Design and implement the AI systems stack, related tools, and their integration
+    with Azure
+  - Deliver the stack as part of a software development kit (SDK) on schedule
+  - Apply engineering principles to define robust and maintainable architectures and
+    designs
+  - Collaborate across disciplines from hardware designers to ML developers
+  - Establish and drive adoption of good coding standards and patterns
+  - Perform software development in C/C++, C#, Python, and other languages
+  - Identify requirements, scope solutions, estimate work, and schedule deliverables
+  use_cases:
+  - Running AI models across supercomputers, servers, desktops, mobile, IoT, and browsers
+  - Software stacks for novel AI accelerators built with hardware teams and partners
+  - Optimizing and scaling out model training and inference
+  - Azure integration and SDK delivery of the AI systems stack
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure]
+    ops: []
+    languages: [C++, C, C#, Python, Rust]
+    domains: []
+    other: [Embedded Programming, Computer Architecture, Systems Programming, Concurrency,
+      Interprocess Communication, Device Drivers, Kernel Interfaces, eBPF, Performance
+        Profiling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10516313'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:29:01.715782'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

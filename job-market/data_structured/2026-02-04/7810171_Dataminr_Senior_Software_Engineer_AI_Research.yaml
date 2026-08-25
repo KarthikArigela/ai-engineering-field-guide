@@ -1,54 +1,57 @@
 company:
   name: Dataminr
-  stage: Series D+ (Public company-equivalent, founded 2009)
+  stage: null
   focus: |-
-    Real-time event detection and AI-powered intelligence
-    platform for early risk and threat discovery
+    AI-powered real-time event detection and risk intelligence
+    platform
 position:
   title: Senior Software Engineer, AI Research
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs including
-      training, building, adapting, optimizing, and deploying
-      models in production. The engineer works directly on Agentic
-      AI applications and implements state-of-the-art methods in
-      Generative AI, going beyond infrastructure or support to
-      actively develop and deploy AI systems.
+      The role trains, adapts, and optimizes LLMs directly with
+      PyTorch and Transformers (explicitly "not just using APIs"),
+      which is shaping model behavior, and it deploys agents and
+      LLMs in production. Since LLM and agent components are
+      central to the work, the classification is ai-first.
   responsibilities:
-  - Train, build, adapt, optimize, and deploy state-of-the-art LLMs in Predictive
-    AI, Generative AI, and Agentic AI applications
-  - Deploy Agents and LLMs that improve performance across multimodal data (text,
-    images, videos, audio, sensor data) at very large scale
+  - Collaborate with Research Scientists, Engineers, and Data Scientists to train,
+    build, adapt, optimize, and deploy LLM models in production at very large scale
+  - Deploy Agents and LLMs that improve state-of-the-art performance across multimodal
+    data including text, images, videos, audio, and sensor data
   - Own the technical design and implementation of robust API services, libraries,
-    and container strategies that define and support the end-to-end LLMOps lifecycle
-  - Optimize DL/LLM training and inference performance for speed and cost on specialized
-    hardware
+    and container strategies supporting the end-to-end LLMOps lifecycle
+  - Optimize deep learning and LLM training and inference performance (speed/cost)
+    on specialized hardware
   - Drive the full lifecycle of complex AI problems from research and literature review
-    to data exploration, implementation of novel in-house methods, and productization
+    through hands-on data exploration, novel method implementation, and productization
+  - Implement state-of-the-art methods in NLP, computer vision, knowledge representation,
+    vector databases, and generative AI
   use_cases:
-  - ReGenAI automatically regenerates real-time Live Event Briefs as events unfold
-  - Intel Agents autonomously generate critical context for clients on real-time events,
-    threats, and risks
-  - Multimodal event detection from images, video, sensor data, audio, and text in
-    over 150 languages
-  - Early signal detection of emerging risks, events, and threats before they unfold
-    for organizations
-  - Real-time analysis of billions of public data inputs spanning multiple modalities
+  - Real-time event detection from billions of public data inputs across text, image,
+    video, audio, and sensor data
+  - 'ReGenAI: automatic regeneration of real-time Live Event Briefs as events unfold'
+  - 'Intel Agents: autonomous generation of critical context on real-time events,
+    threats, and risks for clients'
+  - Delivering earliest signals of emerging risks and threats to Fortune 50 and Fortune
+    100 organizations
+  - Multimodal event detection across 150+ languages
   skills:
-    domains: [NLP, Computer Vision, Knowledge Representation and Management]
-    languages: [Python]
-    ml: [PyTorch, Transformers, Deep Learning]
     cloud: [AWS]
-    genai: [LLMs, Generative AI, LangGraph]
-    data: [Databricks]
-    other: []
-    ops: [Langfuse, Kubernetes, Docker, LLMOps, MLOps]
-    web: []
+    languages: [Python]
+    ml: [PyTorch, Transformers, Deep Learning, Machine Learning]
+    other: [Knowledge Representation and Management]
+    ops: [MLOps, LLMOps, Kubernetes, Docker, Langfuse]
     databases: [Vector Databases]
+    domains: [NLP, Computer Vision]
+    web: [APIs]
+    data: [Databricks]
+    genai: [LLMs, Generative AI, LangGraph, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7810171'
   location: USA
-  extracted_at: '2026-02-05T11:33:21.754608'
+  extracted_at: '2026-08-15T22:10:05.528681'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

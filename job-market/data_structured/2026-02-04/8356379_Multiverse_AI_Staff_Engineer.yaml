@@ -1,54 +1,57 @@
 company:
   name: Multiverse
-  stage: Series D
-  focus: AI and tech upskilling platform
+  stage: Series D (unicorn, $1.7bn valuation)
+  focus: AI and tech upskilling apprenticeship platform
 position:
   title: AI Staff Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role is directly working ON AI systems - establishing
-      LLM best practices, fine-tuning and embedding machine
-      learning models, and building AI-powered features using GPT,
-      Claude, and Gemini. This is hands-on model work, not just
-      infrastructure or support.
+      The role directly shapes LLM behaviour: it establishes
+      technical standards and governance for LLM design, fine-
+      tuning, and integration, and requires hands-on prompt
+      engineering and evaluation for production use cases like
+      content generation, semantic search, and summarisation. LLMs
+      are central to the role, so it is ai-first.
   responsibilities:
-  - Design, architect, and deliver AI-powered features in partnership with Product,
-    Design, and Data teams
-  - Establish technical standards and governance for leveraging Large Language Models
-    (LLMs), including design, fine-tuning, and integration
+  - Design, architect, and deliver AI-powered features partnering with Product, Design,
+    and Data teams
+  - Establish technical standards and governance for leveraging LLMs, including design,
+    fine-tuning, and integration for production use cases
   - Develop, fine-tune, and embed machine learning models into production systems
-    for high-impact use cases
-  - Own the end-to-end lifecycle from raw data through experimentation, deployment,
-    and continuous iteration
-  - Track performance, accuracy, and adoption of AI features to drive constant improvement
-  - Mentor engineers across teams, sharing expertise to elevate AI capabilities and
-    set best practices
-  - Build robust MLOps pipelines and cloud infrastructure on AWS for deployment and
-    monitoring
-  - Champion innovation by exploring new AI tools and driving organizational adoption
-    across teams
+    using tools like Cursor and Gemini
+  - Own the end-to-end lifecycle from raw data through experimentation, deployment
+    to users, and continuous iteration
+  - Track performance, accuracy, and adoption of AI features and use insights to drive
+    improvement
+  - Mentor and coach engineers across teams, setting direction for AI best practices
+  - Build deployment and monitoring pipelines using AWS cloud services and MLOps best
+    practices
+  - Champion new AI tools and drive their adoption across multiple teams while balancing
+    experimentation with delivery
   use_cases:
-  - Personalised learning experiences tailored to individual learners' needs and progress
-  - Content generation for creating scalable, adaptive learning materials
-  - Semantic search capabilities to help learners find relevant content and resources
-  - Summarisation of educational content to improve information accessibility and
-    retention
-  - AI-assisted learning tools that enhance the overall educational experience
+  - Content generation for learning materials
+  - Semantic search over learning content
+  - Summarisation of learning content
+  - Personalised learning experiences for learners
+  - AI-powered features that improve learner productivity and measurable performance
   skills:
-    domains: []
-    languages: [Python, TypeScript]
-    ml: [Fine-Tuning, Feature Engineering]
     cloud: [AWS]
-    genai: [LLMs, GPT, Anthropic API, Gemini, Prompt Engineering]
-    data: [data preprocessing]
+    languages: [Python, TypeScript]
+    ml: [Machine Learning, Feature Engineering]
     other: []
-    ops: [MLOps, MLflow, Kubeflow, Docker, Kubernetes, CI/CD, Monitoring]
-    web: [FastAPI, Microservices, REST]
+    ops: [MLOps, Observability, Version Control]
     databases: []
+    domains: []
+    web: [APIs, Microservices]
+    data: []
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, Semantic Search, LLM Evaluation,
+      Gemini, GPT, Anthropic API, Cursor]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8356379'
   location: London, GBR
-  extracted_at: '2026-02-05T12:58:39.478986'
+  extracted_at: '2026-08-15T23:25:42.376647'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

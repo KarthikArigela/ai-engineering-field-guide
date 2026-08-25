@@ -1,56 +1,63 @@
 company:
   name: Hitachi
-  stage: Public
-  focus: Energy technology and transformer engineering solutions
+  stage: null
+  focus: Energy grid technology and transformer engineering
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, training, evaluating,
-      and deploying AI/ML models and GenAI solutions including
-      LLM-based assistants, RAG systems, and agentic AI workflows.
-      The engineer works hands-on with model pipelines, generative
-      AI, and agent orchestration end-to-end.
+      The role builds and integrates LLM-based assistants, RAG
+      systems, and agentic AI workflows, and works with prompt
+      engineering, embeddings, and guardrails - directly shaping
+      LLM behavior and output quality. It also involves model
+      training and evaluation for transformer workflows, but the
+      clear LLM/agent component makes it ai-first.
   responsibilities:
   - Develop and support end-to-end AI/ML pipelines for transformer design, operations,
-    manufacturing, and service workflows including data ingestion, model training,
+    manufacturing, and service workflows, including data ingestion, model training,
     evaluation, and deployment
-  - Architect cloud-based AI/ML and GenAI resources including compute, storage, and
-    AI services based on solution requirements
   - Build and integrate Generative AI solutions such as LLM-based assistants, RAG
     systems, and domain-specific chatbots for engineering and operational users
   - Support development of agentic AI workflows where AI agents reason, plan, and
-    coordinate tasks across tools, data sources, and systems
-  - Collaborate cross-functionally with transformer design engineers, operations teams,
-    and digital product stakeholders to co-develop AI solutions
-  - Implement MLOps and GenAIOps practices including automation, versioning, monitoring,
-    and lifecycle management
+    coordinate tasks across tools, data sources, and systems under defined guardrails
+  - Assist in architecting cloud-based AI/ML and GenAI resources (compute, storage,
+    AI services) based on solution requirements
+  - Co-develop AI solutions in a cross-functional environment with transformer design
+    engineers, operations teams, and digital product stakeholders
+  - Support implementation of MLOps and GenAIOps practices including automation, versioning,
+    monitoring, and lifecycle management
   - Contribute to testing, validation, and performance tuning of AI/ML and GenAI solutions
     prior to deployment
   - Document solution designs, AI architectures, and pipeline workflows to support
-    scalability and reuse across functions
+    scalability and reuse
   use_cases:
-  - AI/ML for transformer design optimization
-  - LLM-based assistants and chatbots for engineering and operational users
-  - RAG systems for engineering knowledge retrieval in transformer domain
-  - Agentic AI workflows for automating cross-system engineering and operational tasks
-  - AI-driven manufacturing and service workflow optimization
+  - LLM-based assistants and domain-specific chatbots for engineering and operational
+    users in the transformer business
+  - RAG systems for retrieving engineering and operational knowledge
+  - End-to-end AI/ML pipelines for transformer design, manufacturing, operations,
+    and service workflows
+  - Agentic AI workflows that reason, plan, and coordinate tasks across tools and
+    data sources
+  - Cloud-based AI/ML and GenAI resource architecture for energy engineering solutions
   skills:
-    domains: []
-    languages: [Python]
-    ml: [scikit-learn, TensorFlow, PyTorch, NumPy, Pandas]
     cloud: [Azure, Azure ML, Azure AI Foundry]
-    genai: [LLMs, Embeddings, Prompt Engineering, RAG, LangChain, Semantic Kernel,
-      Agentic AI Workflows, Function Calling, Multi-step AI Orchestration]
-    data: [Databricks]
-    other: []
-    ops: [CI/CD, Containerization, MLOps, GenAIOps]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, scikit-learn, TensorFlow, PyTorch, Model Training, Model
+        Evaluation]
+    other: [Responsible AI]
+    ops: [MLOps, GenAIOps, CI/CD, Containerization]
     databases: [SQL]
+    domains: []
+    web: []
+    data: [NumPy, Pandas, Databricks]
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, Embeddings, Agentic Workflows,
+      AI Agents, Function Calling, Guardrails, Semantic Kernel, LangChain]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9892182'
   location: Chennai, IND
-  extracted_at: '2026-06-25T19:55:48.725826'
+  extracted_at: '2026-08-16T15:54:54.718053'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

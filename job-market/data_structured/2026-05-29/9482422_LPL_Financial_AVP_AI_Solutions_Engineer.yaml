@@ -1,59 +1,55 @@
 company:
   name: LPL Financial
-  stage: Public
-  focus: |-
-    Wealth management and financial services platform for
-    advisors
+  stage: 'Publicly traded (Nasdaq: LPLA)'
+  focus: Wealth management and financial advisory services
 position:
   title: AVP, AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on technical role building agentic AI
-      solutions directly. The engineer will deploy LLMs via AWS
-      Bedrock, implement RAG pipelines, build multi-agent
-      orchestration systems, and develop AI-driven workflows for
-      exception handling and reconciliation. This involves direct
-      work with models, agents, and AI infrastructure.
+      The role designs and builds agentic AI solutions, agent
+      flows, and multi-agent orchestration with memory management,
+      and deploys LLMs via Bedrock with RAG pipelines
+      (LangChain/Haystack) and embedding models — all direct
+      model-behavior shaping work. Since the shaped components are
+      LLMs and agents, it is ai-first.
   responsibilities:
-  - Design and develop agentic AI solutions for data governance, exception detection,
-    and reconciliation frameworks
+  - Design and develop agentic AI solutions for data governance tracking, compliance
+    monitoring, exception detection, and reconciliation across multiple data domains
+    on the LDX platform
   - Build intelligent agents that apply rules or adaptive intelligence to automate
     exception handling and reconciliation
-  - Develop APIs and microservices using Python FastAPI and .NET Core for agentic
+  - Deploy and manage LLMs (Claude, GPT, Amazon Titan) via AWS Bedrock and integrate
+    RAG pipelines using LangChain or Haystack
+  - Build knowledge bases and embedding models with short-term and long-term memory
+    persistence for multi-agent orchestration
+  - Develop APIs and microservices using Python (FastAPI) and .NET Core for agentic
     workflows
-  - Deploy and manage LLMs via AWS Bedrock and integrate RAG pipelines using LangChain
-    or Haystack
-  - Build knowledge bases and embedding models for contextual reasoning using vector
-    databases
-  - Implement event-driven architectures using AWS EventBridge, Lambda, and Step Functions
-    for real-time orchestration
-  - Integrate AI workflows with LDX UI components built in Angular for user review
-    and configuration
-  - Apply memory management techniques for multi-agent orchestration with short-term
-    and long-term memory persistence
+  - Implement event-driven orchestration using AWS EventBridge, Lambda, and Step Functions
+  - Integrate AI workflows with LDX UI components built in Angular for exception review,
+    rule configuration, and reconciliation visualization
+  - Ensure observability (CloudWatch, X-Ray, Dynatrace), security (IAM, KMS), and
+    compliance (SOC2, GDPR) across AWS deployments
   use_cases:
-  - Data governance tracking and compliance monitoring for financial services
-  - Exception detection and resolution across multiple data domains in wealth management
-  - Automated reconciliation frameworks using rule-based and AI-driven logic
+  - Automated data governance tracking and compliance monitoring
+  - Exception detection and resolution across multiple data domains
+  - Reconciliation frameworks combining rule-based and AI-driven logic
   - Lifecycle management workflows for investor and operational domains
-  - Intelligent automation of regulatory and compliance processes
-  - Real-time orchestration of financial data validation and exception handling
+  - Real-time orchestration of intelligent automation via event-driven AI workflows
   skills:
-    domains: [data governance]
-    languages: [Python, C#, TypeScript, SQL]
-    ml: [Embeddings, ML engineering, model lifecycle management]
-    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, Fargate, Step Functions, EventBridge,
-      Glue, AWS S3, AWS Agent core]
-    genai: [LangChain, Haystack, RAG, AI Agents, Agentic Workflows, Prompt Engineering,
-      LLMs, Anthropic API, GPT, Amazon Titan]
-    data: []
-    other: [compliance, SOC2, GDPR, IAM, KMS, UiPath, RPA, GitHub Copilot, Cursor,
-      Infrastructure as Code, Event-Driven Architecture, observability, security best
-        practices, cost optimization]
-    ops: [CloudWatch, X-Ray, Dynatrace, Terraform, CI/CD, Docker, Kubernetes]
-    web: [FastAPI, REST, Microservices, .NET Core, Angular]
-    databases: [Pinecone, OpenSearch, Vector Databases]
+    cloud: [AWS, AWS Bedrock, AWS AgentCore, SageMaker, AWS Lambda, AWS Fargate, AWS
+        Step Functions, AWS EventBridge, AWS Glue, AWS S3, IAM, AWS KMS]
+    languages: [Python, .NET]
+    ml: [Machine Learning]
+    other: [Event-Driven Architecture, UiPath, SOC 2, GDPR, Cursor, GitHub Copilot]
+    ops: [Terraform, Infrastructure as Code, CI/CD, CloudWatch, AWS X-Ray, Dynatrace,
+      Observability]
+    databases: [Vector Databases, Pinecone, OpenSearch]
+    domains: []
+    web: [FastAPI, Angular, APIs, Microservices]
+    data: [Data Governance]
+    genai: [AI Agents, Agentic Workflows, LLMs, RAG, LangChain, Haystack, Embeddings,
+      Anthropic API, GPT, Amazon Titan]
   is_customer_facing: false
   is_management: false
 meta:
@@ -62,4 +58,6 @@ meta:
   locations:
   - Austin, USA
   - New York, USA
-  extracted_at: '2026-05-29T09:07:53.198393'
+  extracted_at: '2026-08-16T11:48:01.284648'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

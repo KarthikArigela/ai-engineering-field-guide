@@ -1,63 +1,61 @@
 company:
   name: Toloka
-  stage: Well-funded startup (strategic investment from Bezos Expeditions and Nebius
-    Group)
-  focus: AI data generation, labeling, and evaluation for GenAI
+  stage: well-funded startup backed by Bezos Expeditions and Nebius Group
+  focus: AI training and evaluation data for GenAI models
 position:
   title: Freelance Principal AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on with AI systems — designing and
-      building agentic workflows, RAG pipelines, synthetic data
-      generation, and evaluation pipelines for frontier LLMs.
-      While the person doesn't train models directly, they
-      actively build and deploy AI-driven data solutions using LLM
-      technologies, making this an ai-first role. The emphasis on
-      understanding SFT, RLHF/RLAIF, DPO/PPO, reward modeling, and
-      LoRA/PEFT further supports working directly with AI/ML
-      systems.
+      The role shapes model output quality: it designs evaluation
+      pipelines for frontier LLMs, builds preference/reward-
+      oriented training and evaluation data (RLHF/RLAIF, reward
+      modeling context), and hands-on develops agentic systems,
+      RAG, and synthetic data generation workflows. Although the
+      person does not train models themselves, building evals and
+      judgment pipelines for LLM targets is shaping an LLM, so it
+      is ai-first.
   responsibilities:
-  - Act as primary technical counterpart to CTOs, VPs of Engineering, and research
-    leaders at client organizations
-  - Diagnose client data needs and translate ambitious model goals into practical,
-    scalable AI data strategies
-  - Design and build hands-on data-generation, labeling, and evaluation pipelines
-    including agentic systems, RAG, and synthetic data generation
-  - Architect and run experiments on complex multi-stage solutions, iterating from
-    MVP to production
-  - Provide technical leadership across multiple client engagements, establishing
-    reusable engineering standards and best practices
-  - Mentor Solution Engineers and Technical Consultants to raise the technical bar
-    across the organization
-  - Own end-to-end delivery including timelines, quality, scalability, and commercial
+  - Act as the primary technical counterpart to client CTOs, VPs of Engineering, and
+    research leadership on AI data challenges
+  - Diagnose client data needs and model goals, proposing data strategies with options
+    and rationale
+  - Design and build data-generation, labeling, and evaluation pipelines that feed
+    LLM training and evaluation
+  - Develop AI-driven solutions such as agentic systems, RAG, and synthetic data generation,
+    integrated into automated multi-stage pipelines
+  - Run experiments to validate data quality and delivery speed, iterating solutions
+    from MVP to production
+  - Own delivery end to end, including timelines, quality, scalability, and commercial
     outcomes (Gross Margin, Contribution Margin)
-  - Identify and drive expansion opportunities within client accounts
+  - Establish reusable engineering standards and best practices across engagements
+    and mentor Solution Engineers and Technical Consultants
+  - Manage escalations and drive client expansion opportunities
   use_cases:
-  - Data generation and labeling pipelines for frontier foundation model training
-  - Evaluation pipelines for LLMs including safety and efficacy assessment
-  - Domain-specific reasoning dataset construction for enterprise clients
-  - Synthetic data generation workflows for AI model training
-  - Agentic systems and RAG-based data solutions for AI training and evaluation
-  - Quality-controlled multi-stage data pipelines producing training and evaluation
-    data at scale
+  - Evaluation pipelines for frontier foundation models
+  - Domain-specific reasoning datasets for enterprise AI training
+  - Synthetic data generation workflows for model training
+  - Data-generation and labeling pipelines producing training and evaluation data
+    for LLMs
+  - Agentic systems and RAG solutions embedded in client data pipelines
   skills:
-    genai: [LLMs, RAG, Agentic Workflows, AI Agents, Fine-Tuning, RLHF, LoRA, Prompt
-        Engineering, SFT, DPO, PPO, Synthetic Data Generation, LLM Evaluation, PEFT,
-      Reward Modeling]
-    ml: [Machine Learning]
-    web: [APIs]
-    databases: []
-    data: [NumPy, Pandas, Data Pipelines]
     cloud: []
-    ops: [Git]
     languages: [Python]
-    domains: [NLP]
-    other: [Data Labeling]
+    ml: []
+    other: [Version Control, Data-Centric AI, Crowdsourcing]
+    ops: []
+    databases: []
+    domains: []
+    web: [APIs]
+    data: [Pandas, NumPy, Data Pipelines, Data Labeling]
+    genai: [RAG, Agentic Workflows, AI Agents, Synthetic Data Generation, LLMs, Fine-Tuning,
+      LLM Evaluation, RLHF, RLAIF, SFT, DPO, PPO, Reward Modeling, LoRA]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10202287'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:34:32.570108'
+  extracted_at: '2026-08-16T17:50:44.528655'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

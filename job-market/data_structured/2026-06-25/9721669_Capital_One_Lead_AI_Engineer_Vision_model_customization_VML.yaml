@@ -1,53 +1,54 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services with AI/ML products
 position:
   title: Lead AI Engineer (Vision model customization, VML)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing foundation models (including vision models), LLM
-      inference, and AI systems. The engineer works on model
-      training, optimization techniques, guardrails, and inference
-      engineering — all hands-on work with AI/ML models. The
-      "Vision model customization" focus and foundation model
-      training confirm this is ai-first.
+      The role directly shapes model behavior: it designs and
+      builds foundation model training, LLM inference
+      optimization, guardrails, and model evaluation for
+      proprietary AI systems. Explicit LLM components (LLM
+      inference, LLM optimization, NeMo Guardrails) mean the
+      shaping work targets LLM/generative models, so ai-first
+      despite the vision-model focus in the title.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, and model evaluation
-  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
+    VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
-  - Customize and fine-tune vision models for production use cases
+    cost, latency, and throughput of large-scale production AI systems
+  - Customize vision models for Capital One applications (Vision Model Lab)
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Apply novel research techniques from scientific publications into production AI
-    systems
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - Vision model customization for document and image processing in financial services
-  - Enterprise-scale AI model training and inference infrastructure
-  - Customer-facing AI assistants for real-time question answering
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Real-time, personalized customer banking experiences
+  - Informing customers about unusual charges and answering questions in real time
+  - Vision model customization for internal and customer-facing banking applications
+  - Foundational AI platform capabilities empowering teams across Capital One to enhance
+    products with AI
   skills:
-    domains: [Computer Vision]
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [Hugging Face, PyTorch, Model Optimization]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Foundation Model Training, LLM Inference, Vision Model Customization,
-      Guardrails, Prompt Engineering]
-    data: []
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model Evaluation, AI Governance, Observability]
+    ops: [Model Deployment]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Search, Vector Databases]
+    data: []
+    genai: [Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9721669'
   location: McLean, USA
@@ -56,4 +57,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-06-25T19:51:52.132087'
+  extracted_at: '2026-08-16T14:35:04.825879'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

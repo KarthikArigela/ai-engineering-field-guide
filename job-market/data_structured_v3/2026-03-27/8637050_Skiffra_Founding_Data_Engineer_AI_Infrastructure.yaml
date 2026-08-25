@@ -1,0 +1,62 @@
+company:
+  name: Skiffra
+  stage: null
+  focus: |-
+    AI-native orchestration platform for industrial and
+    physical-world operations
+position:
+  title: Founding Data Engineer (AI Infrastructure)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the data foundation — pipelines, schemas,
+      contracts, lineage, and a semantic metadata layer — that
+      feeds LLMs and agents designed elsewhere; the person never
+      writes prompts, designs retrieval, or evaluates model
+      output. The deliverable is clean, reliable data
+      infrastructure rather than model behaviour, so this is ai-
+      support despite the AI-native product.
+  responsibilities:
+  - Design and maintain a semantic layer that translates raw database schemas into
+    high-context metadata so LLMs and autonomous agents can reason across enterprise
+    data
+  - Integrate ERPs, operational tools, and legacy systems into a clean, unified internal
+    data layer powering Skiffra's orchestration engine
+  - Design schemas and data contracts consumed by LLMs and workflow engines to ensure
+    predictable, high-fidelity inputs from messy sources
+  - Ensure every data point carries the lineage and metadata an LLM needs to understand
+    its business significance
+  - Architect end-to-end ingestion and normalization pipelines for structured, semi-structured,
+    and unstructured data
+  - Implement monitoring, observability, and automated data quality gates so the orchestration
+    engine never acts on stale or corrupted enterprise context
+  - Partner with product and engineering to translate complex operational needs into
+    scalable data systems
+  use_cases:
+  - AI-native orchestration of industrial operations, starting with mining and natural
+    resources
+  - Autonomous agents that understand and act on complex industrial and enterprise
+    systems
+  - Real-time decision support for high-stakes physical-world operations
+  - Unifying fragmented enterprise data (ERPs, operational tools, legacy systems)
+    into high-fidelity context for LLM reasoning
+  skills:
+    genai: [LLMs, RAG, AI Agents]
+    ml: []
+    web: [APIs]
+    databases: [Vector Databases]
+    data: [ETL, Data Pipelines, Data Discovery, Data Cataloging, Data Contracts, Data
+        Lineage, Data Quality, Semantic Layer, Data Access Controls]
+    cloud: [Cloud Data Infrastructure]
+    ops: [Monitoring, Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: [Event-Driven Architecture, ERP Integration]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8637050'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-16T03:26:44.728937'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

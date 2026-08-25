@@ -1,54 +1,52 @@
 company:
   name: Nielsen
-  stage: Public
-  focus: Media measurement, analytics, and audience insights
+  stage: null
+  focus: Media audience measurement and analytics insights
 position:
   title: AI Architect [Lead Software Engineer]
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on architecting and
-      implementing LLM orchestration, vector database solutions,
-      and AI agents. The role involves hands-on work building
-      enterprise-grade AI solutions using LangChain, AWS Bedrock
-      agents, Gemini, and ChatGPT - directly working ON AI systems
-      rather than supporting infrastructure. The mandate
-      explicitly states transitioning experimental POCs into
-      scalable AI engineering solutions.
+      The role architects and deploys LLM orchestration and vector
+      database solutions, and designs agents in Gemini, Glean, and
+      AWS Bedrock — directly shaping LLM/agent behaviour via
+      orchestration and retrieval design. With a clear LLM and
+      agent component, this is ai-first per Step 2.
   responsibilities:
-  - Architect and deploy LLM orchestration and vector database solutions at scale
+  - Architect and deploy LLM orchestration and vector database solutions at enterprise
+    scale
   - Design and implement AI solutions ranging from Databricks modules to advanced
-    AI agents in Gemini and Glean
+    agents in Gemini and Glean
+  - Industrialize AI by transitioning experimental POCs into enterprise-grade, governed,
+    and scalable engineering solutions
   - Partner with AI Product Managers and functional leads to translate business opportunities
     into technical outcomes
-  - Lead the AI braintrust community by guiding engineers and building AI developer
-    capabilities
-  - Ensure all AI solutions include FinOps cost implications and governance risk considerations
-  - Transition experimental AI POCs into enterprise-grade, governed, and scalable
-    engineering solutions
-  - Identify performance bottlenecks and architectural risks before they impact the
-    business
+  - Lead the AI braintrust by guiding engineers and building a community of AI and
+    data product developers
+  - Ensure every proposed solution incorporates FinOps cost and governance risk implications
+  - Proactively identify performance bottlenecks and architectural risks before they
+    impact the business
   use_cases:
-  - Enterprise AI agent deployment using AWS Bedrock, Gemini, and Glean platforms
-  - LLM orchestration and vector database solutions for media analytics
-  - Databricks-based AI/ML modules for audience measurement insights
-  - AI-powered content engagement analysis and recommendation systems
-  - Scalable AI infrastructure for media measurement and audience analytics
-  - Governed AI solutions for business decision support in media industry
+  - Enterprise-scale LLM orchestration and vector database solutions
+  - AI agents built on Gemini, Glean, and AWS Bedrock for internal workflows
+  - Industrializing AI POCs into governed, cost-aware enterprise deployments
+  - AI-driven analytics supporting Nielsen's media audience measurement business
   skills:
-    domains: []
+    cloud: []
     languages: [Python, Java]
     ml: []
-    cloud: [AWS Bedrock, FinOps, Cloud-native deployments]
-    genai: [LangChain, Gemini, ChatGPT, LLMs, AI Agents]
-    data: [Databricks]
     other: []
-    ops: [AI Governance]
-    web: []
+    ops: [FinOps]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Databricks]
+    genai: [LLMs, LangChain, AWS Bedrock, Gemini, ChatGPT, AI Agents, Glean]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9293281'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:00:48.692981'
+  extracted_at: '2026-08-16T10:05:31.290024'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

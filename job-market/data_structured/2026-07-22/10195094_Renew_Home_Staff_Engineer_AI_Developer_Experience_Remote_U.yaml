@@ -7,52 +7,55 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on Developer Experience (DevX) —
-      improving the tooling, workflows, and infrastructure that
-      enable engineers to work effectively. While AI tools (GitHub
-      Copilot, Cursor, Claude, etc.) are a key area of adoption
-      and governance, the engineer is not building, training, or
-      deploying AI models themselves. They are evaluating,
-      integrating, and standardizing AI development tools for
-      internal engineering teams, which is enabling work near AI
-      rather than hands-on model work.
+      This is a Developer Experience role that rolls out and
+      governs AI coding tools (GitHub Copilot, Claude, Cursor,
+      Codex) so other engineers ship faster — the deliverable is
+      developer workflow, not model behaviour. The person
+      evaluates and adopts tools built by others; they do not
+      design prompts, retrieval, agent flows, or train models
+      themselves. Per the edge-case rule on AI developer tooling
+      rollout, this is ai-support.
   responsibilities:
   - Lead the evolution of AI Developer Experience, enabling engineers to safely and
     effectively leverage AI throughout the software development lifecycle
   - Drive evaluation, adoption, and governance of AI development tooling including
     code generation, in-editor assistance, and agentic workflows
-  - Measure and improve the speed of common developer actions across TypeScript/Node
-    and Python codebases including build times, pre-push hooks, linting, and type
-    checking
-  - Own devcontainer strategy for local and cloud-based development environments
+  - Measure and improve the speed of developer actions across TypeScript/Node and
+    Python codebases, covering builds, pre-push hooks, linting, type checking, and
+    Nx task orchestration
+  - Own the devcontainer strategy (local and cloud-based) for a secure, consistent,
+    and reproducible development experience
   - Maintain and improve local testing frameworks and developer-facing test infrastructure
   - Own and evolve shared internal libraries and configuration systems used across
     application teams
   - Contribute to CI/CD and delivery pipelines, SDLC definition, language and library
-    upgrade cycles, developer onboarding, documentation, and observability
-  - Mentor engineers and influence engineering culture as a technical leader
+    upgrade cycles, onboarding, documentation, and observability
+  - Mentor engineers and influence engineering culture as the dedicated owner and
+    point of accountability for DevX progress
   use_cases:
-  - AI-assisted code generation and in-editor assistance for software engineers
-  - Agentic workflows for software development lifecycle
-  - Developer productivity and velocity optimization across monorepos
-  - Standardized and reproducible development environments via devcontainers
-  - Governance and guardrails for safe AI tool adoption in engineering teams
+  - AI-assisted code generation and in-editor coding assistance for engineers
+  - Agentic AI workflows embedded in the software development lifecycle
+  - Governed, secure, and measurable adoption of AI development tools across engineering
+  - Faster developer inner loop across TypeScript/Node and Python codebases
+  - Reproducible development environments via devcontainers
   skills:
-    genai: [GitHub Copilot, Claude Code, OpenAI API, Cursor, Codex, Agentic Workflows,
-      Generative AI]
-    ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [Nx, Docker, CI/CD, Observability]
     languages: [TypeScript, Node.js, Python]
+    ml: []
+    other: [NPM, PyPI]
+    ops: [Nx, Devcontainers, CI/CD, Observability]
+    databases: []
     domains: []
-    other: [Microservices, NPM, PyPI]
+    web: []
+    data: []
+    genai: [GitHub Copilot, Anthropic API, OpenAI API, Cursor, Codex, Agentic Workflows,
+      Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10195094'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:33:20.958250'
+  extracted_at: '2026-08-16T17:42:00.438655'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

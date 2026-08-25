@@ -1,54 +1,59 @@
 company:
   name: NextHire Consulting
   stage: null
-  focus: Data engineering and AI/ML consulting services
+  focus: |-
+    Digital consulting firm building data engineering and AI/ML
+    solutions
 position:
   title: Wednesday Solutions- AI engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on work with LLMs including fine-
-      tuning, RAG, vector-DB integrations, multi-agent
-      orchestration, and deploying/evaluating models. While it
-      also involves data pipelines and full-stack development, the
-      core AI engineering responsibilities of building and
-      optimizing AI/ML systems place it firmly in the ai-first
-      category.
+      The role explicitly requires designing, deploying, fine-
+      tuning, and evaluating LLMs, building RAG with vector-DB
+      integrations, multi-agent orchestration, and automated model
+      evaluation mechanisms - all direct shaping of LLM/agent
+      behavior, making it ai-first.
   responsibilities:
-  - Architect solutions by selecting appropriate tools, frameworks, and cloud services
+  - Architect solutions by choosing the right tools, frameworks, and cloud services
     to meet business goals
   - Advise and educate customers on data engineering, AI/ML algorithms, strategies,
     and processes
   - Build data pipelines that process, store, integrate, and analyze large volumes
     of data
-  - Design, deploy, fine-tune, and evaluate LLMs including RAG and vector-DB integrations
-  - Build or leverage AI/ML algorithms to solve real business problems
-  - Write test suites and build automated CI/CD pipelines with observability and monitoring
-    for model evaluation
-  - Participate in peer reviews and proactively communicate with the team to ensure
-    quality deliverables
-  - Mentor and coach colleagues while sharing learnings via articles, case studies,
+  - Create visualizations and insights from data to support data-backed business decisions
+  - Build or leverage AI/ML algorithms, LLM solutions with RAG and multi-agent orchestration,
+    to solve real business problems
+  - Write test suites and build automated CI/CD pipelines to increase release frequency
+    and reduce manual effort
+  - Create automated mechanisms to evaluate models under changing conditions, with
+    built-in observability and monitoring
+  - Participate in peer reviews and share learnings via articles, case studies, books,
     and webinars
   use_cases:
-  - RAG-based knowledge retrieval and search systems
-  - Multi-agent orchestration for automated business workflows
-  - Multimodal AI systems for diverse data processing
-  - Data-driven business decision making through large-scale data pipelines and visualizations
-  - AI/ML model optimization and evaluation for measurable business impact
+  - Data pipelines that process, store, integrate, and analyze large volumes of data
+  - Data visualization and insights for data-backed business decision-making
+  - LLM applications with RAG and vector database integrations
+  - Multi-agent orchestration and multimodal AI workflows
+  - AI workflow automation using orchestration platforms and AI tools
+  - AI/ML solutions solving real business problems with measurable ROI
   skills:
-    domains: []
-    languages: [Python, Go]
-    ml: [scikit-learn, TensorFlow, PyTorch, Keras, NLTK, spaCy, Hugging Face]
     cloud: [AWS, GCP]
-    genai: [Fine-Tuning, RAG, Agentic Workflows, Multimodal AI, n8n, relay.app]
-    data: [Data Pipelines]
-    other: []
-    ops: [MLflow, Kubeflow, CI/CD, Observability]
-    web: [React, Next.js, Node.js, Full-Stack Development]
+    languages: [Go, Python]
+    ml: [Machine Learning, scikit-learn, TensorFlow, PyTorch, Keras, NLTK, spaCy,
+      Hugging Face]
+    other: [Multimodal AI, n8n, Relay.app, Byword, Exa, Clay]
+    ops: [MLOps, MLflow, Kubeflow, CI/CD, Monitoring, Observability]
     databases: [Vector Databases]
+    domains: []
+    web: [Full-Stack Development, React, Next.js, Node.js]
+    data: [Data Pipelines, Data Engineering]
+    genai: [LLMs, RAG, Fine-Tuning, LLM Evaluation, Agentic Workflows]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9645395'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:46:55.335719'
+  extracted_at: '2026-08-16T13:42:39.907786'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

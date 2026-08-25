@@ -1,46 +1,47 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Gen AI Engineer - Assistant Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves implementing and fine-tuning
-      generative AI models, prompt engineering, RAG systems, and
-      deploying AI models in production. The engineer works hands-
-      on with LLMs, LoRA/QLoRA fine-tuning, and GenAI tools like
-      LangChain and LlamaIndex, making it a clear ai-first role.
+      The role directly shapes LLM behaviour: it fine-tunes
+      generative AI models (LoRA/QLoRA), does prompt engineering,
+      and builds RAG systems with hybrid search. Since
+      LLM/generative components are what the person shapes, this
+      is ai-first.
   responsibilities:
   - Implement and fine-tune generative AI models under the guidance of senior team
     members
   - Contribute to prompt engineering and development of AI-powered workflows
-  - Assist with the deployment, monitoring, and maintenance of AI models in production
+  - Assist with deployment, monitoring, and maintenance of AI models in production
     environments
-  - Collaborate with data scientists and engineers to ensure seamless integration
-    of AI capabilities
+  - Collaborate with data scientists and engineers to integrate AI capabilities seamlessly
   - Perform data preprocessing, feature engineering, and API development for AI applications
   - Participate in code reviews, testing, and documentation to ensure quality and
     reliability
-  - Stay updated with advancements in GenAI and share relevant learnings with the
-    team
+  - Stay current with GenAI advancements and share learnings with the team
   use_cases:
-  - AI-powered workflows for Controls Technology team
-  - Generative AI-driven features and products for banking operations
-  - RAG-based information retrieval and search systems
-  - AI model deployment and monitoring in production environments
+  - AI-driven features and products for Citi's Controls Technology organization
+  - AI-powered workflows built on generative AI models
+  - RAG-based retrieval with hybrid search techniques
+  - Production deployment, monitoring, and maintenance of AI models
+  - Data preprocessing and API development supporting AI applications for banking
+    controls
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, Keras, Hugging Face, Fine-Tuning]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, Prompt Engineering, LoRA, RAG, LangChain, LlamaIndex]
-    data: [Data Preprocessing, Feature Engineering]
-    other: [AI Compliance]
-    ops: [Docker, Git]
-    web: [APIs]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Keras, Feature Engineering]
+    other: [Responsible AI]
+    ops: [Docker, Git, Model Deployment, Model Monitoring]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Preprocessing]
+    genai: [Generative AI, LLMs, Prompt Engineering, Fine-Tuning, LoRA, RAG, Hybrid
+        Search, LangChain, LlamaIndex, Hugging Face]
   is_customer_facing: false
   is_management: false
 meta:
@@ -49,4 +50,6 @@ meta:
   locations:
   - Pune, IND
   - Chennai, IND
-  extracted_at: '2026-04-22T13:33:34.925494'
+  extracted_at: '2026-08-16T05:44:05.437545'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

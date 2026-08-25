@@ -1,56 +1,57 @@
 company:
   name: Nagarro
   stage: null
-  focus: |-
-    Digital product engineering company building products,
-    services, and experiences at scale
+  focus: Digital product engineering and IT services company
 position:
   title: Senior Staff Engineer, Generative AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on work building, deploying, and
-      fine-tuning GenAI and Agentic AI solutions end-to-end. Key
-      requirements include implementing RAG architectures, fine-
-      tuning/distillation techniques, prompt engineering, and
-      production GenAI deployments - all direct work ON AI
-      systems.
+      The role requires expert-level prompt engineering, designing
+      RAG architectures, fine-tuning and distillation, GenAI
+      evaluation metrics (BLEU, ROUGE, perplexity), and building
+      MCP-based Agentic AI solutions — all directly shaping LLM
+      behaviour. With proven production delivery of end-to-end
+      GenAI/Agentic AI solutions, this is clearly ai-first.
   responsibilities:
-  - Understand client business use cases and technical requirements to convert them
+  - Understand client business use cases and technical requirements and convert them
     into elegant technical designs
   - Architect and implement scalable GenAI and Agentic AI solutions end-to-end
-  - Define guidelines and benchmarks for non-functional requirements during project
-    implementation
-  - Write and review design documents explaining overall architecture, framework,
-    and high-level design
-  - Review architecture and design for extensibility, scalability, security, and best
-    practices
-  - Develop and design overall solutions for functional and non-functional requirements
-  - Carry out POCs to validate suggested designs and technologies meet requirements
-  - Resolve code review issues through systematic root cause analysis
+  - Write and review design documents covering overall architecture, frameworks, and
+    high-level design for developers
+  - Define guidelines and benchmarks for NFR considerations like extensibility, scalability,
+    and security during implementation
+  - Productionize AI systems on Azure or AWS with enterprise-grade reliability and
+    performance
+  - Build and expose APIs using FastAPI, integrating with databases through an ORM
+  - Carry out POCs to validate that suggested designs and technologies meet requirements
+  - Resolve issues raised during code review through systematic root-cause analysis
   use_cases:
-  - Enterprise GenAI and Agentic AI solutions
-  - RAG architectures for client business use cases
-  - Scalable AI solutions for enterprise workloads
-  - Production AI deployments on cloud platforms
-  - Fine-tuned and distilled AI models for specific use cases
+  - Enterprise GenAI and Agentic AI solutions delivered end-to-end
+  - RAG-based retrieval systems built on vector databases
+  - Production AI deployments on Azure and AWS for enterprise-scale workloads
+  - AI pipelines for building, fine-tuning, and serving models via SageMaker, Vertex
+    AI, and Azure ML
+  - Scalable AI APIs integrated with enterprise databases
   skills:
-    domains: []
+    cloud: [Azure, AWS, Azure ML, Azure AI Foundry, SageMaker, Vertex AI]
     languages: [Python]
-    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face]
-    cloud: [Azure ML, Azure AI Foundry, SageMaker, Vertex AI, AWS, Azure]
-    genai: [GPT, Llama, Anthropic API, Gemini, Mistral, BERT, Transformers, LangChain,
-      LlamaIndex, LangGraph, LangSmith, RAG, Prompt Engineering, Fine-Tuning, Distillation,
-      MCP]
-    data: [Airflow, Kafka, Databricks]
+    ml: [PyTorch, TensorFlow, scikit-learn, Transformers, Hugging Face, Distillation]
     other: []
-    ops: [Docker, Kubernetes, GitHub Actions, Terraform]
+    ops: [Docker, Kubernetes, CI/CD, GitHub Actions, ArgoCD, Terraform, Bicep, LangSmith]
+    databases: [Vector Databases, Weaviate, Neo4j, SQLAlchemy, Tortoise ORM]
+    domains: []
     web: [FastAPI, React]
-    databases: [Weaviate, Neo4j, SQLAlchemy]
+    data: [Airflow, Kafka, Databricks]
+    genai: [LLMs, Prompt Engineering, RAG, LangChain, LlamaIndex, LangGraph, MCP,
+      Fine-Tuning, AI Agents, Generative AI, LLM Evaluation, Llama, Gemini, Mistral,
+      Anthropic API, Qwen, BERT]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8791685'
   location: IND
   remote: true
-  extracted_at: '2026-03-27T15:25:02.337073'
+  extracted_at: '2026-08-16T04:35:48.844480'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,79 @@
+company:
+  name: Nebius
+  stage: null
+  focus: AI cloud infrastructure and GPU platform
+position:
+  title: Forward Deployment Engineer — Azure AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role onboards client projects onto an Azure AI platform
+      using existing runbooks, Terraform, and CI/CD pipelines.
+      There is no prompt writing, retrieval design, model
+      training, or output-quality shaping — model deployment and
+      lifecycle support is serving others' models. LLM/RAG work is
+      only a nice-to-have, so this is ai-support.
+  responsibilities:
+  - Onboard requestor and client projects onto the Azure AI platform using approved
+    runbooks and golden paths
+  - Work closely with teams throughout onboarding, go-live, and early operations
+  - Apply and adapt Terraform modules and CI/CD pipelines to project workloads
+  - Support machine learning workload deployment and lifecycle management on Azure
+  - Capture gaps, delivery friction, and feature requests and provide structured feedback
+    to Platform Engineering
+  - Improve runbooks, documentation, and reusable onboarding patterns
+  - Uphold security, governance, and compliance guardrails during onboarding
+  use_cases:
+  - Onboarding client ML workloads onto an Azure AI cloud platform
+  - Supporting machine learning model deployment and lifecycle management on Azure
+  - Automating infrastructure provisioning for AI projects with Terraform and CI/CD
+  - Optionally supporting Azure OpenAI, LLM, agent, and RAG workloads
+  skills:
+    genai: [LLMs, AI Agents, RAG]
+    ml: [Model Deployment]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure, Azure Well-Architected Framework, Azure ML, Azure AI Foundry, AKS,
+      Azure OpenAI]
+    ops: [Terraform, Infrastructure as Code, CI/CD, GitHub Actions, Azure DevOps,
+      GitLab CI, Kubernetes]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10538420'
+  location: GRC
+  locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  remote: true
+  extracted_at: '2026-08-25T10:36:48.619693'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,53 +1,58 @@
 company:
   name: McCain Foods
-  stage: null
-  focus: |-
-    Global food manufacturing company specializing in frozen
-    potato products
+  stage: Global family-owned company
+  focus: Global frozen food manufacturer
 position:
   title: AI Ops Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building, training, and
-      deploying generative AI models (GPT, VAE, GANs) and deep
-      learning systems. The engineer will directly implement AI
-      solutions, optimize model performance, and build ML
-      pipelines rather than just supporting AI infrastructure.
+      The role designs, develops, trains, and optimizes generative
+      AI models itself, including GPT-based LLM techniques
+      alongside VAE and GANs, and maintains training/evaluation
+      pipelines. Per the rules, a role that shapes both LLM and
+      classical generative systems is ai-first, and GPT/NLP work
+      puts the LLM component squarely in scope.
   responsibilities:
-  - Design, develop, and implement generative AI models and algorithms using GPT,
-    VAE, and GANs
-  - Collaborate with cross-functional teams to define AI project requirements aligned
-    with business goals
+  - Design, develop, and implement generative AI models and algorithms using techniques
+    such as GPT, VAE, and GANs
   - Optimize existing generative AI models for improved performance, scalability,
     and efficiency
-  - Develop and maintain AI pipelines including data preprocessing, feature extraction,
+  - Develop and maintain AI pipelines covering data preprocessing, feature extraction,
     model training, and evaluation
-  - Drive DevOps and MLOps practices covering CI/CD and monitoring of AI models
-  - Implement monitoring and logging tools to ensure AI model performance and reliability
+  - Drive DevOps and MLOps practices including continuous integration, deployment,
+    and monitoring of AI models
+  - Build and manage AI pipelines using Docker, Kubernetes, and Git, with monitoring
+    and logging for model reliability
+  - Collaborate with cross-functional teams to define AI project requirements aligned
+    with business goals
   - Apply trusted AI practices to ensure fairness, transparency, and accountability
-    in AI systems
-  - Provide technical mentorship and guidance to junior team members
+    in AI models and systems
+  - Provide technical mentorship to junior team members and document AI concepts for
+    technical and non-technical stakeholders
   use_cases:
-  - Automate business processes using AI/ML
-  - Improve decision-making through AI-driven insights
-  - Image recognition and object detection
-  - Natural language processing applications
-  - Innovation and digital transformation in food manufacturing
+  - Automating business processes with AI
+  - Improving decision-making with machine learning models
+  - Text and language processing using NLP techniques
+  - Image recognition, object detection, and image generation
+  - Driving business innovation through generative AI
   skills:
+    cloud: [Azure, AWS, GCP]
+    languages: [Python, R]
+    ml: [Machine Learning, Deep Learning, Model Training, TensorFlow, PyTorch, Keras,
+      Transformers, BERT, GANs, VAE, Hugging Face, spaCy, NLTK]
+    other: [Responsible AI, Agile, Matplotlib, Seaborn, Plotly]
+    ops: [MLOps, DevOps, CI/CD, Docker, Kubernetes, Git, Model Monitoring]
+    databases: []
     domains: [NLP, Computer Vision]
-    languages: [Python, R, SQL]
-    ml: [TensorFlow, PyTorch, Keras, scikit-learn, VAE, GANs, spaCy, NLTK]
-    cloud: [AWS, Azure, GCP]
-    genai: [GPT, BERT, Transformer models, Hugging Face]
-    data: []
-    other: [Matplotlib, Seaborn, Plotly, Agile]
-    ops: [Docker, Kubernetes, Git, CI/CD, MLflow]
     web: []
-    databases: [PostgreSQL]
+    data: [Data Engineering]
+    genai: [Generative AI, GPT]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '4201005'
   location: Gurugram, IND
-  extracted_at: '2026-03-03T11:53:34.959006'
+  extracted_at: '2026-08-15T23:37:39.501363'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

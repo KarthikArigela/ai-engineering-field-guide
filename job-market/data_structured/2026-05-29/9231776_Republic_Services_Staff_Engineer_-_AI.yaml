@@ -1,62 +1,66 @@
 company:
   name: Republic Services
-  stage: Public
+  stage: 'publicly traded (NYSE: RSG)'
   focus: |-
-    Environmental services, recycling, waste management,
-    sustainability solutions
+    Environmental services: recycling, waste, and sustainability
+    solutions
 position:
   title: Staff Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role is explicitly building an enterprise-grade Agentic
-      AI platform that integrates LLMs and agentic workflows. The
-      engineer will work directly with GenAI technologies,
-      building core services, APIs, and orchestration pipelines
-      for AI solutions. This is hands-on development of AI
-      systems, not just supporting infrastructure or general
-      software engineering.
+      The role builds and scales an enterprise Agentic AI
+      platform, including core services, APIs, and orchestration
+      pipelines that integrate LLMs and agentic workflows with
+      enterprise data — designing agent orchestration is shaping
+      model behaviour. LLM/agent components are explicitly
+      central, so the role is ai-first, even though much of the
+      description is generic web development.
   responsibilities:
-  - Build and scale an enterprise-grade Agentic AI platform for rapid GenAI solution
-    development
-  - Develop core services, APIs, and orchestration pipelines integrating LLMs and
-    agentic workflows with enterprise data
+  - Provide technical direction on project deliverables for onshore and offshore development
+    team members
+  - Build and maintain core services, APIs, and orchestration pipelines that integrate
+    LLMs and agentic workflows with enterprise data and applications
   - Partner with product managers, data scientists, and business stakeholders to identify
     and prioritize GenAI use cases
-  - Translate business challenges into AI-enabled solutions while ensuring enterprise
-    architecture standards compliance
-  - Implement robust access controls, auditability, and compliance with AI governance
-    and ethical standards
-  - Provide technical leadership and direction for onshore and offshore development
-    teams
-  - Lead code reviews, ensure code quality, and oversee technical design and documentation
+  - Translate business challenges such as inefficiency, risk exposure, and customer
+    friction into AI-enabled solutions
+  - Lead the technical design and documentation of the Digital Platform including
+    Angular, Node.js, Drupal, AWS, and CI/CD
+  - Align platform design with enterprise architecture principles covering scalability,
+    security, observability, and resilience, including AI governance and ethical standards
+  - Maintain code quality by leading code reviews and ensuring unit test coverage
+  - Provide Tier 2 and 3 support for escalated IT issues and review application performance
+    metrics for enhancement opportunities
   use_cases:
-  - Enterprise-wide agentic AI platform enabling rapid GenAI solution development
-    across the organization
-  - AI-powered operational efficiency solutions addressing business process inefficiencies
-    and risk exposure
-  - Customer experience enhancement through AI-enabled solutions reducing customer
+  - Enterprise Agentic AI platform enabling teams to build, integrate, and operationalize
+    GenAI solutions with minimal friction
+  - LLM and agentic workflow integration with enterprise data and applications
+  - AI-enabled solutions addressing business inefficiency, risk exposure, and customer
     friction
-  - Integration of LLM workflows with enterprise data and applications for intelligent
-    automation
-  - AI governance and compliance platform ensuring responsible AI deployment across
-    use cases
+  - eCommerce and highly transactional web applications with A/B and multivariate
+    testing optimization
+  - Enterprise digital platform with governance, security, and compliance controls
   skills:
-    domains: []
-    languages: [JavaScript, TypeScript, Python, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [LangChain, LangGraph, RAG, AI Agents, Agentic Workflows, LLMs, Prompt
-        Engineering, OpenAI API, Anthropic API]
+    languages: [JavaScript]
+    ml: []
+    other: [Agile, Kanban, A/B Testing, eCommerce, Code Review, Object-Oriented Programming,
+      Responsible AI]
+    ops: [CI/CD, DevOps, Jenkins, Git, SonarQube, PMD, Checkstyle, FindBugs, Splunk,
+      SolarWinds, vROps, TeaLeaf, Observability]
+    databases: []
+    domains: []
+    web: [Angular, Node.js, Drupal, CSS, HTML, Bootstrap, Material Design, LESS, Sass,
+      Gulp, Grunt, Webpack, Jasmine, Karma, Bower, Uglify, REST APIs]
     data: []
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, Jenkins, Git]
-    web: [Angular, Node.js, REST, Bootstrap, Material Design, CSS3, HTML5]
-    databases: [Vector Databases, PostgreSQL, MongoDB, Redis]
+    genai: [Generative AI, AI Agents, Agentic Workflows, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9231776'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:57:26.488934'
+  extracted_at: '2026-08-16T09:43:24.878075'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

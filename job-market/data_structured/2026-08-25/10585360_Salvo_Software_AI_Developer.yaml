@@ -1,0 +1,56 @@
+company:
+  name: Salvo Software
+  stage: null
+  focus: |-
+    Global software solutions for enterprise digital
+    transformation
+position:
+  title: AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role trains, fine-tunes (SFT, LoRA/Q-LoRA), quantizes,
+      and evaluates LLMs, plus designs RAG pipelines and MCP-based
+      agentic workflows — directly shaping LLM behavior, so ai-
+      first.
+  responsibilities:
+  - Train and fine-tune LLMs using supervised fine-tuning (SFT) with LoRA/Q-LoRA pipelines
+  - Implement data preprocessing workflows including tokenization and long-context
+    handling
+  - Design and implement end-to-end RAG pipelines for document-grounded question answering
+  - Build vector stores and embedding pipelines, optimizing retrieval strategies such
+    as hybrid search, re-ranking, and chunking
+  - Develop MCP server integrations and agentic workflows giving models structured
+    access to internal systems
+  - Deploy and maintain models in offline, on-prem, and air-gapped environments with
+    quantization (GGUF, GPTQ, AWQ, bitsandbytes)
+  - Build and maintain inference systems using vLLM, TGI, and Ollama with GPU optimization
+  - Build backend Python services, manage local CI/CD pipelines, and maintain local
+    model registries and versioning
+  use_cases:
+  - Document-grounded question answering and knowledge retrieval
+  - Context-aware LLM systems over domain-specific corpora
+  - Tool and API access for LLMs via MCP in controlled, auditable ways
+  - LLM training, fine-tuning, and inference in offline, on-prem, air-gapped environments
+  skills:
+    genai: [LLMs, Fine-Tuning, LoRA, Llama, Mistral, Qwen, RAG, Embeddings, MCP, Agentic
+        Workflows, HyDE]
+    ml: [PyTorch, TensorFlow, scikit-learn, Transformers, Hugging Face, Pandas, Quantization,
+      Model Training, CUDA, cuDNN]
+    web: []
+    databases: [PostgreSQL, MySQL, FAISS, Chroma, Weaviate, pgvector, Vector Databases]
+    data: []
+    cloud: [AWS]
+    ops: [vLLM, Docker, Git, CI/CD, Azure DevOps, TGI, Ollama, bitsandbytes]
+    languages: [Python]
+    domains: []
+    other: [XML, python-docx, OpenXML]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10585360'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:47:59.265461'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

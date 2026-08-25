@@ -1,58 +1,66 @@
 company:
   name: Vinmar International
   stage: null
-  focus: Global plastics, chemicals and petrochemical distribution
+  focus: |-
+    Global petrochemical and chemicals marketing and
+    distribution
 position:
   title: AI Automation Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI
-      solutions including LLM integrations, RAG pipelines, AI
-      agents, prompt engineering, and Microsoft Copilot
-      implementations. The candidate works hands-on with
-      generative AI technologies to create enterprise AI
-      applications, which is core AI/LLM development work rather
-      than peripheral support.
+      The role designs prompt engineering strategies, RAG
+      pipelines, AI agents, vector databases, and tokenization
+      workflows, and integrates LLMs and Generative AI services
+      (including Microsoft Copilot) into business applications -
+      directly shaping model behaviour and output quality. Since
+      LLMs and agent components are the shaped targets, this is
+      ai-first, despite the substantial data engineering portion
+      of the role.
   responsibilities:
-  - Design, develop, and deploy AI-powered applications and automation solutions to
-    improve operational efficiency
-  - Implement Microsoft Copilot solutions and integrate AI models for intelligent
-    insights and natural language querying
-  - Integrate LLMs and Generative AI services into business applications using APIs
-    and workflow orchestration tools
-  - Develop prompt engineering strategies, RAG pipelines, AI agents, and vector databases
-    for enterprise AI initiatives
-  - Design and maintain scalable Medallion Architecture data lakes within Microsoft
-    Fabric
-  - Develop ETL/ELT pipelines using Dataflows Gen2, Fabric Notebooks, PySpark, and
-    Azure Data Factory
-  - Build enterprise-grade Power BI semantic models using Direct Lake, DAX, and KQL
-  - Implement governance, security, and compliance standards across Microsoft Fabric
-    and Azure environments
+  - Design, develop, and deploy AI-powered applications and automation solutions that
+    improve operational efficiency and business outcomes
+  - Implement Microsoft Copilot solutions and integrate LLMs and Generative AI services
+    into business applications using APIs, connectors, and workflow orchestration
+    tools
+  - Develop prompt engineering strategies, RAG pipelines, AI agents, vector databases,
+    and tokenization workflows to support enterprise AI initiatives
+  - Design and maintain Medallion Architecture data lakes (Bronze, Silver, Gold) within
+    Microsoft Fabric
+  - Develop ETL/ELT pipelines using Dataflows Gen2, Fabric Notebooks, PySpark, Python,
+    and Azure Data Factory
+  - Build Power BI semantic models using Direct Lake, DAX, and KQL to deliver high-performance
+    analytics
+  - Implement governance, security, and compliance standards including Row-Level Security,
+    workspace governance, and access controls across Microsoft Fabric and Azure
+  - Evaluate emerging AI technologies and collaborate with business stakeholders and
+    IT to translate requirements into scalable AI and analytics solutions
   use_cases:
-  - Enterprise AI automation for business process improvement
-  - Natural language querying and intelligent insights delivery
-  - Retrieval-Augmented Generation for enterprise knowledge access
-  - AI agent-driven workflow automation
-  - Large-scale analytics and reporting via Power BI semantic models
-  - Responsible AI governance and compliance
+  - Business process automation and workflow automation for operational efficiency
+  - Natural language querying and intelligent insights delivered through Microsoft
+    Copilot experiences
+  - Enterprise AI applications powered by LLMs, RAG, and vector databases over business
+    data
+  - Data-driven decision making via enterprise analytics and large-scale reporting
+  - Governed, secure enterprise data platform management on Microsoft Fabric and Azure
   skills:
-    genai: [LLMs, Microsoft Copilot, Copilot Studio, RAG, Prompt Engineering, AI Agents,
-      Generative AI, Azure OpenAI]
+    cloud: [Azure, Azure AI Foundry]
+    languages: [Python, KQL]
     ml: []
-    web: []
+    other: [Power BI, DAX, Responsible AI]
+    ops: [DevOps, CI/CD, Git, Infrastructure as Code]
     databases: [Vector Databases]
-    data: [Microsoft Fabric, PySpark, Data Pipelines, ETL/ELT, Azure Data Factory,
-      Medallion Architecture]
-    cloud: [Azure AI Foundry, Azure]
-    ops: [CI/CD, Git, Infrastructure as Code, DevOps]
-    languages: [Python]
     domains: []
-    other: [Power BI, DAX, KQL, Row-Level Security, Responsible AI, AI Governance]
+    web: [APIs]
+    data: [Microsoft Fabric, Medallion Architecture, Dataflows Gen2, Fabric Notebooks,
+      PySpark, Azure Data Factory, Data Pipelines]
+    genai: [LLMs, Microsoft Copilot, Copilot Studio, Prompt Engineering, RAG, AI Agents,
+      Generative AI, Tokenization, Azure OpenAI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10116655'
   location: Mumbai, IND
-  extracted_at: '2026-07-22T13:33:12.183572'
+  extracted_at: '2026-08-16T17:06:57.916459'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

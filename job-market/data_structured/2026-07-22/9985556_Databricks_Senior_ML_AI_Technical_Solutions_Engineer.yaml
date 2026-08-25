@@ -1,57 +1,69 @@
 company:
   name: Databricks
-  stage: Public
-  focus: Data and AI lakehouse platform
+  stage: null
+  focus: Unified data, analytics, and AI Lakehouse platform
 position:
   title: Senior ML & AI Technical Solutions Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves directly troubleshooting, debugging, and
-      optimizing GenAI/ML workloads including LLM deployments, AI
-      agents, RAG systems, and model serving on the Databricks
-      platform. The TSE works hands-on with LLMs, agentic
-      frameworks, vector search, and inference systems to resolve
-      complex customer issues, which constitutes direct work ON AI
-      systems rather than peripheral support.
+      This is a support/solutions engineering role: the core work
+      is debugging and maintaining customers' GenAI and ML
+      workloads — diagnosing deployments, optimizing
+      performance/cost, and advising customers on techniques like
+      prompt engineering, RAG, and agentic frameworks. The person
+      does not own the design of prompts, retrieval, or agent
+      systems; they troubleshoot systems customers built, so the
+      deliverable is workload stability and customer service
+      rather than shaping model behaviour themselves.
   responsibilities:
-  - Act as senior technical solution expert for complex issues spanning data pipelines,
-    ML pipelines, and AI applications using distributed systems expertise
-  - Analyze and troubleshoot production workloads at the code level, optimizing for
+  - Act as senior technical solutions expert debugging complex customer issues spanning
+    data pipelines, ML pipelines, and AI applications using the Databricks Platform
+  - Analyse and troubleshoot production workloads at the code level, optimising for
     performance, reliability, latency, and cost
   - Diagnose and support ML and LLM deployments including real-time and batch inference,
     autoscaling, monitoring, logging, and alerting
-  - Guide customers on experiment tracking, model registry, versioning, evaluation,
-    labelling, tracing, and lifecycle observability
-  - Provide high-quality support for customers leveraging Databricks AI for generative
-    AI use cases including LLMs, AI agents, RAG, and prompt engineering
-  - Collaborate with internal engineering teams to influence product roadmap and drive
-    improvements
-  - Contribute to technical documentation, wikis, and internal AI system skill development
+  - Serve as Subject Matter Expert guiding customers on experiment tracking, model
+    registry, versioning, evaluation, labelling, tracing, and lifecycle observability
+  - Guide customers in solving generative AI use cases using LLMs, AI Agents, RAG/Agentic
+    RAG, MCP, vector embeddings, semantic search, Vector Search/Lakebase databases,
+    context orchestration, memory management, and prompt engineering
+  - Collaborate cross-functionally with engineering and account teams to influence
+    product roadmap and resolve customer issues
+  - Contribute to wikis, technical documentation, and teach internal AI systems new
+    skills used by customers and partners
+  - Adopt GenAI tooling to improve personal efficiency and amplify the team's output
   use_cases:
-  - Debugging and optimizing GenAI and ML workloads on Databricks platform
-  - Troubleshooting LLM deployments including real-time and batch inference
-  - Supporting RAG and agentic RAG applications with vector search and semantic search
-  - Model lifecycle management including training, evaluation, monitoring, and drift
-    detection
-  - Optimizing production AI systems for performance, reliability, latency, and cost
+  - Debugging and maintaining stable customer GenAI and ML production workloads on
+    the Databricks Platform
+  - Real-time and batch ML/LLM inference deployment support with autoscaling, monitoring,
+    and alerting
+  - Generative AI applications built with LLMs, AI agents, RAG, vector search, and
+    semantic search
+  - ML lifecycle management including experiment tracking, model registry, evaluation,
+    and drift monitoring
+  - Customer advisory on solving generative AI challenges with Agent Bricks, Vector
+    Search, and Model Serving products
   skills:
-    genai: [LangChain, LangGraph, RAG, Prompt Engineering, LLMs, AI Agents, MCP, Embeddings,
-      Semantic Search, Agentic Workflows, Generative AI]
-    ml: [Feature Engineering, Model Training, Model Evaluation, Deep Learning, NLP,
-      PyTorch, TensorFlow, Transformers, Fine-Tuning, Machine Learning]
-    web: []
-    databases: [Vector Databases, Vector Search]
-    data: [Spark, Data Pipelines, Databricks]
     cloud: [AWS, Azure, GCP]
-    ops: [MLflow, MLOps, LLMOps, Model Deployment, Model Monitoring, Monitoring, Distributed
-        Systems]
-    languages: [Python, Scala, Java, SQL]
-    domains: []
+    languages: [Python, Scala, Java]
+    ml: [Machine Learning, Deep Learning, Feature Engineering, Model Training, Model
+        Evaluation, Drift Detection, NLP]
     other: []
+    ops: [MLOps, LLMOps, Distributed Systems, Model Monitoring, Observability, Experiment
+        Tracking, Model Registry, Model Deployment, Inference, Tracing]
+    databases: [Vector Search, Lakebase]
+    domains: []
+    web: [APIs]
+    data: [Databricks, Spark, Data Pipelines, Data Engineering]
+    genai: [Generative AI, LLMs, AI Agents, RAG, MCP, Prompt Engineering, Embeddings,
+      Semantic Search, LangChain, LangGraph, Context Orchestration, Memory Management,
+      Agent Bricks]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9985556'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:45:23.268717'
+  extracted_at: '2026-08-16T19:32:01.348353'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

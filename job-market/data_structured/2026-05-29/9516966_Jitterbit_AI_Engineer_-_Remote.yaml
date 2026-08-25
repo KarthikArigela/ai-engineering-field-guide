@@ -1,57 +1,56 @@
 company:
   name: Jitterbit
-  stage: Growth-stage (recognized in Gartner MQ for 7 straight years)
+  stage: null
   focus: |-
-    Integration Platform as a Service (iPaaS) and business
-    automation
+    iPaaS, API management, and business process automation
+    platform
 position:
   title: AI Engineer - Remote
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role requiring direct work
-      with LLM models, RAG implementation, LangChain, LlamaIndex,
-      and deployment of AI-driven applications. The engineer is
-      responsible for building, designing, and architecting AI
-      capabilities including model deployment, not just supporting
-      infrastructure or data pipelines.
+      The role builds, designs, and architects AI capabilities on
+      the platform using LLMs, RAG, LangChain, and LlamaIndex, and
+      requires expertise in these LLM technologies to develop AI-
+      driven applications. Designing retrieval/RAG and LLM-based
+      systems is shaping model behaviour and output quality, so it
+      is ai-first.
   responsibilities:
-  - Build, design, and architect AI capabilities on Jitterbit's iPaaS platform
-  - Develop robust, scalable AI-driven applications using LLMs, RAG, LangChain, and
-    LlamaIndex
-  - Design and implement multi-tenant SaaS applications with AI features integrated
-    24/7/365
-  - Collaborate with cross-functional teams including product management and operations
-    to ship new features
-  - Mentor and help other engineers grow in their AI and backend development capabilities
-  - Architect cloud-based distributed applications and microservices with AI capabilities
-  - Implement model deployment frameworks including TensorFlow Serving, MLflow, and
-    Kubernetes-based deployments
-  - Work with Azure AI, AWS Bedrock, and OpenAI to integrate AI services into the
-    platform
+  - Build, design, and architect AI capabilities on the Jitterbit iPaaS platform
+  - Design and develop scalable, robust AI-driven applications using LLMs, RAG, LangChain,
+    and LlamaIndex
+  - Create reliable AI systems that run seamlessly 24/7/365 at scale
+  - Build large-scale, multi-tenant SaaS and cloud-based distributed applications
+    with microservices architectures
+  - Collaborate with engineers, product management, and operations to define, design,
+    and ship new features
+  - Mentor and help other engineers and developers grow
+  - Stay current with emerging trends and technologies in AI and cloud computing
   use_cases:
-  - Business process automation and workflow integration for enterprises
-  - Low-code application creation infused with AI capabilities
-  - API management and integration powered by AI systems
-  - Critical business automation solutions enhanced with LLM-based intelligence
-  - Multi-tenant SaaS platform providing AI-driven integration and automation
-  - 24/7/365 reliable AI systems for enterprise digital transformation
+  - AI capabilities embedded in an iPaaS platform for business process automation
+  - LLM and RAG-powered features for integrating and automating customers' systems
+  - AI-augmented low-code integration, API management, and application creation
+  - Mission-critical B2B business automation at enterprise scale
   skills:
-    domains: []
+    cloud: [Azure AI, AWS]
     languages: [Python, Java, C++]
-    ml: [Hugging Face, TensorFlow Serving, spaCy, NLTK]
-    cloud: [Azure AI, AWS Bedrock, AWS]
-    genai: [LangChain, LlamaIndex, RAG, OpenAI API]
-    data: [Kafka, Data Pipelines]
-    other: [Microservices, SaaS, Multi-tenant architecture]
-    ops: [MLflow, Kubernetes, Docker, Terraform, CloudFormation, CI/CD, Jenkins, GitLab
-        CI, CircleCI, Linux]
-    web: [Nginx, Apache Tomcat]
-    databases: [Elasticsearch, Redis, MySQL, SQL Server, MongoDB, AWS DocumentDB]
+    ml: [spaCy, NLTK, Transformers, NLP]
+    other: [Multi-Tenant SaaS, Security Best Practices]
+    ops: [Nginx, Apache Tomcat, Apache, Linux, Docker, Kubernetes, TensorFlow Serving,
+      MLflow, CI/CD, Jenkins, GitLab CI, CircleCI, Terraform, CloudFormation, Distributed
+        Systems]
+    databases: [Elasticsearch, InfluxDB, Redis, MySQL, MongoDB, AWS DocumentDB, SQL
+        Server]
+    domains: []
+    web: [Microservices]
+    data: [Kafka, Data Pipelines, Data Warehousing]
+    genai: [LLMs, RAG, OpenAI API, LangChain, LlamaIndex, AWS Bedrock]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9516966'
   location: Pune, IND
   remote: true
-  extracted_at: '2026-05-29T09:08:15.290795'
+  extracted_at: '2026-08-16T12:09:32.329768'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

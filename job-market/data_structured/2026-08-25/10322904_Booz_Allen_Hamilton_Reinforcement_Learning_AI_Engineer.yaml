@@ -1,0 +1,53 @@
+company:
+  name: Booz Allen Hamilton
+  stage: null
+  focus: Consulting for government defense and intelligence missions
+position:
+  title: Reinforcement Learning AI Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role trains, evaluates, and deploys RL/MARL agents with
+      no LLM or agent-prompting component, so shaping behavior
+      maps to classical ML and thus ml-first.
+  responsibilities:
+  - Design, implement, and train RL and multi-agent reinforcement learning algorithms
+    for complex decision-making problems
+  - Develop scalable training pipelines using Python and modern ML frameworks
+  - Build and evaluate agents in simulated environments using Gym, PettingZoo, or
+    custom simulators
+  - Apply policy optimization, value-based learning, model-based RL, and imitation
+    learning techniques
+  - Collaborate with domain experts to define reward structures, constraints, and
+    evaluation metrics
+  - Implement distributed training workflows leveraging cloud compute, containerization,
+    and orchestration
+  - Transition trained models into production systems following software engineering
+    best practices
+  - Contribute to system architecture and performance optimization, with optional
+    C++ or Rust extensions
+  use_cases:
+  - Complex decision-making for national-security mission systems
+  - Autonomy and control systems for defense applications
+  - Multi-agent behavior in high-fidelity simulation environments
+  - In-space solutions and mission-scale RL applications
+  skills:
+    genai: []
+    ml: [Reinforcement Learning, PyTorch, TensorFlow, JAX, Neural Networks, Model
+        Training, CUDA, Imitation Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [Cloud Compute]
+    ops: [Docker, Kubernetes]
+    languages: [Python, C++, Rust]
+    domains: [Multi-Agent Systems]
+    other: [Gym, PettingZoo, AFSIM]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10322904'
+  location: El Segundo, USA
+  extracted_at: '2026-08-25T09:42:07.397280'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

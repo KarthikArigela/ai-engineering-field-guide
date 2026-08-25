@@ -1,0 +1,47 @@
+company:
+  name: Life360
+  stage: null
+  focus: Family safety and location-sharing mobile app
+position:
+  title: Senior Data Engineer II, AI Native
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds data pipelines and lakehouse infrastructure;
+      LLMs are used only as coding assistants, which is explicitly
+      not shaping. No prompt design, retrieval, or model training
+      is part of the responsibilities, so it is ai-support.
+  responsibilities:
+  - Design, build, and maintain scalable distributed data pipelines from ingestion
+    through ELT to storage
+  - Support streaming and batch processing for real-time analytics, ML, and experimentation
+  - Automate, test, and harden data workflows to ensure reliability at scale
+  - Architect logical and physical data models for evolving business needs
+  - Build and maintain features for ML models
+  - Collaborate with product, analytics, and data science teams to turn data into
+    value
+  use_cases:
+  - Real-time analytics on location and driving data
+  - Experimentation platform support
+  - Feature pipelines for ML models
+  - Large-scale batch and streaming data processing
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: []
+    databases: [Snowflake, BigQuery]
+    data: [Databricks, dbt, Spark, Presto, Trino, Airflow, Data Pipelines, Data Modeling]
+    cloud: [AWS, GCP, Azure]
+    ops: [CI/CD, GitHub Actions, Terraform]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10489728'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:21:53.618187'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

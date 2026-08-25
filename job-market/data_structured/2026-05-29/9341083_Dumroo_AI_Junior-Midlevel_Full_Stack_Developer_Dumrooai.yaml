@@ -1,50 +1,52 @@
 company:
   name: Dumroo AI
-  stage: Seed
-  focus: AI-powered ecosystem for education
+  stage: null
+  focus: AI-powered education technology platform
 position:
   title: Junior-Midlevel  Full Stack Developer – Dumroo.ai AI Ecosystem for Education
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general full-stack software development role at an
-      AI company. While the role involves "contributing" to
-      features using ML models and LLMs, and requires exposure to
-      AI concepts, the core responsibilities focus on building
-      software components, APIs, data pipelines, and backend
-      systems that power AI workflows rather than directly
-      building, training, or deploying AI models. The role is
-      primarily software engineering with some AI integration
-      work.
+      This is a full-stack developer role that builds software
+      components, APIs, data pipelines, and backend systems
+      powering AI-driven workflows. The AI involvement is limited
+      to "contributing to features using" existing ML models and
+      LLMs, with AI knowledge listed only as exposure/preferred
+      qualifications — there is no evidence of shaping model
+      behavior through prompts, retrieval design, fine-tuning, or
+      evals. The person consumes AI capabilities another team
+      designs, so this is ai-support.
   responsibilities:
-  - Collaborate with engineering and product teams to build, test, and deploy software
-    components and APIs
-  - Work on data pipelines, integrations, and backend systems powering AI-driven workflows
-  - Contribute to development of features using machine learning models and LLMs
+  - Build, test, and deploy software components and APIs in collaboration with engineering
+    and product teams
+  - Develop data pipelines, integrations, and backend systems powering AI-driven workflows
+  - Contribute to feature development using machine learning models and LLMs
   - Write clean, maintainable, and well-documented code
   - Participate in code reviews, sprint planning, and daily stand-ups
-  - Work closely with DevOps and QA teams to ensure high system performance and reliability
+  - Work with DevOps and QA teams to ensure high system performance and reliability
   use_cases:
-  - AI-powered educational ecosystem for teachers, students, administrators, and parents
-  - AI-driven workflows for educational technology solutions
-  - Machine learning model integration for education features
-  - LLM-powered features for educational platforms
-  - Data pipelines supporting AI-driven educational workflows
+  - AI-powered education platform connecting teachers, students, administrators, and
+    parents
+  - AI-driven workflows for educational technology products
+  - Features built on machine learning models and LLMs including NLP and predictive
+    analytics
   skills:
-    domains: [NLP]
-    languages: [JavaScript, TypeScript, Python, Node.js]
-    ml: [predictive analytics, Hugging Face]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, OpenAI API, LangChain]
-    data: [Data Pipelines, data transformation]
-    other: []
-    ops: [Git, Agile]
-    web: [REST APIs, GraphQL, WebSockets, APIs]
+    languages: [JavaScript, TypeScript, Python, Node.js]
+    ml: [Machine Learning, NLP, Predictive Analytics]
+    other: [Agile]
+    ops: [Git]
     databases: [PostgreSQL, MongoDB, Redis]
+    domains: []
+    web: [APIs, REST APIs, GraphQL, WebSockets]
+    data: [Data Pipelines]
+    genai: [LLMs, OpenAI API, LangChain, Hugging Face]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9341083'
   location: IND
   remote: true
-  extracted_at: '2026-05-29T09:00:41.728325'
+  extracted_at: '2026-08-16T10:25:36.734380'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

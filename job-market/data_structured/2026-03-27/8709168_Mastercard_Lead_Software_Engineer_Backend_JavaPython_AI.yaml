@@ -1,53 +1,57 @@
 company:
   name: Mastercard
-  stage: Public
-  focus: Global payments technology and digital transactions
+  stage: null
+  focus: Global digital payments technology and services
 position:
   title: Lead Software Engineer, Backend (Java/Python & AI/LLM)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a backend engineering role that builds
-      infrastructure and services to support AI features, not to
-      build/train AI models. The role focuses on creating APIs,
-      microservices, and data pipelines that enable AI integration
-      - the candidate works NEAR AI by exposing AI capabilities
-      through backend systems, but doesn't build, train, or fine-
-      tune models themselves.
+      The role builds backend services and APIs that expose and
+      integrate AI capabilities owned by data science and ML teams
+      — it calls inference APIs, integrates pre-trained models,
+      and implements supporting data flows like caching and
+      context retrieval, rather than shaping model behavior
+      itself. Prompt engineering and vector databases appear only
+      as preferred nice-to-have familiarity, not core
+      responsibilities.
   responsibilities:
-  - Lead backend services for AI features by building and maintaining backend components
-    and APIs for generative AI use cases
-  - Create scalable microservices in Java or Python to expose AI capabilities, handle
-    requests, and integrate model outputs into applications
-  - Integrate generative AI technologies by working with data science and ML teams
-    to productionize models and connect them to the platform
-  - Build service interfaces, manage data formats, integrate external APIs, and implement
-    supporting data flows such as caching or context retrieval
-  - Ensure quality, performance, and security by writing tests, profiling performance,
-    resolving bottlenecks, and setting up monitoring and alerts
-  - Collaborate cross-functionally with product, design, and data science teams in
-    an agile environment
-  - Mentor junior engineers through code reviews and knowledge sharing while promoting
-    clean coding and best practices
+  - Build and maintain backend components and APIs for generative AI use cases, creating
+    scalable microservices in Java or Python to expose AI capabilities and integrate
+    model outputs into applications
+  - Work with data science and ML teams to productionize models, building service
+    interfaces, integrating external APIs, and implementing supporting data flows
+    such as caching and context retrieval
+  - Own service quality by writing tests, profiling performance, resolving bottlenecks,
+    setting up monitoring and alerts, and diagnosing production issues
+  - Collaborate cross-functionally with product, design, and data science in an agile
+    team, shaping technical decisions for AI-powered features
+  - Mentor junior engineers through code reviews and knowledge sharing, promoting
+    clean coding, testing discipline, and improvements to tools and processes
   use_cases:
-  - Generative AI features for payments and commerce applications
-  - Backend infrastructure for AI-powered financial services
-  - APIs that expose AI/ML model capabilities to applications
-  - Data flows and caching for AI inference systems
+  - Backend APIs and microservices exposing generative AI capabilities for payments-related
+    products
+  - Productionizing ML models built by data science teams and connecting them to the
+    platform
+  - Integrating pre-trained models and external inference APIs into applications
+  - Supporting data flows such as caching and context retrieval for AI features
   skills:
+    cloud: [API Gateway, AWS, GCP, Azure, Serverless]
+    languages: [Java, Python, Go]
+    ml: [Machine Learning, TensorFlow, PyTorch, Transformers]
+    other: [Jira, Agile, Payments]
+    ops: [Docker, CI/CD, Git, Monitoring, Kubernetes, Terraform, Infrastructure as
+        Code]
+    databases: [SQL, NoSQL, Caching, ORM, Vector Databases]
     domains: []
-    languages: [Java, Python, Go, SQL]
-    ml: [TensorFlow, PyTorch, ML model inference]
-    cloud: [AWS, GCP, Azure]
-    genai: [OpenAI API, LLMs, Prompt Engineering]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, Terraform]
-    web: [Spring Boot, FastAPI, REST APIs, Microservices]
-    databases: [Vector Databases, PostgreSQL, NoSQL, Caching systems]
+    web: [Spring Boot, FastAPI, REST APIs, Microservices, JSON, Swagger, Postman]
+    data: [Message Queues]
+    genai: [Generative AI, OpenAI API, LLMs, Prompt Engineering, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8709168'
   location: Pune, IND
-  extracted_at: '2026-03-27T14:35:49.407909'
+  extracted_at: '2026-08-16T04:03:23.901709'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

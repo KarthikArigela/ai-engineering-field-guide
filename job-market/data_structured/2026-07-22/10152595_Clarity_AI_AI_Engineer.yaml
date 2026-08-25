@@ -1,55 +1,60 @@
 company:
   name: Clarity AI
-  stage: Late-stage (backed by BlackRock, SoftBank, Deutsche Börse)
-  focus: Sustainability tech and ESG data analytics
+  stage: Backed by investors including BlackRock, SoftBank, and Deutsche Börse
+  focus: AI-powered sustainability data and analytics platform
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, deploying, and optimizing
-      GenAI systems including advanced RAG, reasoning loops, fine-
-      tuning (SFT, LoRA), and production-grade model tuning. The
-      engineer works hands-on with LLMs, agents, and evaluation
-      systems to ship GenAI-powered features.
+      The role directly shapes LLM behaviour: it designs
+      evaluation suites (LLM-as-a-judge), builds advanced RAG and
+      reasoning loops (hybrid search, reranking, CoT/ReAct), and
+      leads SFT/LoRA fine-tuning workflows. All targets are
+      GenAI/LLM systems, so it is ai-first.
   responsibilities:
   - Design and execute experiments to improve GenAI capabilities, optimizing for user
     value, reliability, and cost-effectiveness
-  - Build robust multi-dimensional evaluation suites using LLM-as-a-judge, semantic
-    checks, and unit tests to ensure features are production-ready and hallucination-resistant
-  - Implement and tune advanced retrieval strategies including hybrid search, reranking,
-    and agentic retrieval, and optimize complex reasoning loops such as CoT and ReAct
-  - Lead supervised fine-tuning (SFT) and Parameter-Efficient Fine-Tuning (LoRA) workflows
-    to adapt models to specific product domains
-  - Balance the Quality-Cost-Latency triangle by optimizing token usage and reducing
-    inference latency
-  - Bridge latest AI developments with tangible product impact by moving proof-of-concepts
-    to reliable, validated products
-  - Collaborate on defining the product roadmap by proving what is possible with frontier
-    models and architectures
+  - Build robust multi-dimensional evaluation suites (LLM-as-a-judge, semantic checks,
+    unit tests) to ensure features are production-ready and hallucination-resistant
+  - Implement and tune advanced RAG strategies such as hybrid search, reranking, and
+    agentic retrieval
+  - Optimize complex reasoning loops (e.g., CoT, ReAct) to make current and future
+    agents smarter and more reliable
+  - Lead the strategy for supervised fine-tuning (SFT) and Parameter-Efficient Fine-Tuning
+    (LoRA) to adapt models to product domains
+  - Optimize the quality-cost-latency trade-off by reducing token usage and inference
+    latency
+  - Own the quality loop, moving features from proof-of-concept to reliable, validated
+    production products
+  - Help define the product roadmap by proving what is possible with frontier models
+    and architectures
   use_cases:
-  - Sustainability and ESG data analysis for investors, governments, and companies
-  - GenAI-powered features for informed decision-making on societal impact
-  - Retrieval-augmented generation for domain-specific knowledge access
-  - Agentic reasoning systems for complex analytical tasks
-  - LLM-powered evaluation and quality assurance for production AI features
+  - GenAI-powered features for sustainability and ESG data analytics
+  - Supporting investment and market decisions of investors, companies, governments,
+    and consumers
+  - Smarter, more reliable agents over Clarity AI's sustainability data via advanced
+    RAG
+  - Hallucination-resistant, production-ready AI answers in specific product domains
   skills:
-    genai: [RAG, LLMs, AI Agents, Agentic Workflows, Multi-Agent Systems, Prompt Engineering,
-      Fine-Tuning, LoRA, Embeddings, Semantic Search, OpenAI API, Anthropic API, LLM
-        Evaluation, Generative AI, Local LLM Execution]
-    ml: [Machine Learning]
-    web: []
-    databases: [Vector Databases]
-    data: []
     cloud: [AWS Bedrock, Vertex AI]
-    ops: [Model Deployment]
     languages: [Python]
-    domains: []
+    ml: [Machine Learning]
     other: []
+    ops: []
+    databases: [Vector Databases]
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, LLM Evaluation, Hybrid Search,
+      Reranking, Chain-of-Thought, ReAct, AI Agents, Multi-Agent Systems, Fine-Tuning,
+      LoRA, OpenAI API, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10152595'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:30:38.628169'
+  extracted_at: '2026-08-16T17:21:07.135711'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

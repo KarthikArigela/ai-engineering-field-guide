@@ -1,0 +1,55 @@
+company:
+  name: Holly
+  stage: seed-stage
+  focus: HR platform for city and county government
+position:
+  title: Staff Software Engineer, Data & AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs LLM-assisted extraction, embeddings-based
+      retrieval, semantic search, and inference APIs, plus
+      establishes evals and guardrails for model-backed systems —
+      clearly shaping model behaviour and output quality with LLM
+      components involved, so ai-first.
+  responsibilities:
+  - Own the Data Platform end-to-end, from raw public government sources to clean
+    canonical datasets
+  - Design ingestion and normalization pipelines for messy inputs (scanned PDFs, HTML,
+    spreadsheets) with parsing, OCR, dedupe, and entity resolution
+  - Incorporate LLM-assisted extraction and embeddings into data pipelines where they
+    add leverage
+  - Set the architecture for semantic search and retrieval over large government datasets
+  - Design inference APIs for extraction, classification, matching, and matching AI-powered
+    data processing
+  - Establish evals, tracing, fallbacks, and cost controls for model-backed systems
+  - Own data quality, validation, lineage, and observability
+  - Lead cross-team architecture decisions and set technical direction for the data
+    domain
+  use_cases:
+  - Extraction and normalization of messy local-government data (salary schedules,
+    job classifications, MOUs, budgets)
+  - Semantic search and retrieval over large government datasets
+  - AI-powered classification, matching, and entity resolution on public records
+  - Inference APIs powering data capabilities for a government HR platform
+  - Data quality, lineage, and observability for trustworthy canonical datasets
+  skills:
+    cloud: []
+    languages: [TypeScript, SQL]
+    ml: [Embeddings]
+    other: [OCR]
+    ops: [Monitoring, Data Observability]
+    databases: [PostgreSQL, Vector Search, Semantic Search, ClickHouse, BigQuery,
+      Snowflake]
+    domains: []
+    web: []
+    data: [Data Pipelines, Data Modeling, Web Scraping]
+    genai: [LLM-Assisted Parsing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10798377'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:55:09.907133'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

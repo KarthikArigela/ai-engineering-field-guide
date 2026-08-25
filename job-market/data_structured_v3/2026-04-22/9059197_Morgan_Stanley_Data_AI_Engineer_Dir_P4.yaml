@@ -1,0 +1,54 @@
+company:
+  name: Morgan Stanley
+  stage: null
+  focus: Global financial services firm
+position:
+  title: Data AI Engineer, Dir, P4
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains data infrastructure
+      (pipelines, ETL, data quality, governance) that feeds the
+      firm's firmwide AI development platform. There is no prompt
+      work, retrieval design, model training, or output-quality
+      evaluation — the person never shapes model behaviour.
+      Building datasets and pipelines for an AI platform is
+      plumbing, so the role is ai-support even though Snowflake
+      Cortex appears as a nice-to-have.
+  responsibilities:
+  - Develop and maintain data pipelines and ETL processes for the firm's Data AI platforms
+  - Work with structured and unstructured data to ensure it is accessible and usable
+  - Optimize data systems for performance and scalability
+  - Implement data quality and data governance standards
+  - Collaborate with technology and business stakeholders to translate data needs
+    into technical solutions and data-driven insights
+  - Create and maintain technical documentation, training materials, and knowledge-sharing
+    content
+  - Participate in code reviews and contribute to improving development processes
+  - Contribute to the broader data architecture community through knowledge sharing
+    and presentations
+  use_cases:
+  - Firmwide AI development platform enabling teams to build AI-powered applications
+  - Accelerating AI adoption across Morgan Stanley's financial services businesses
+  - Making structured and unstructured data accessible and usable for AI and analytics
+  - Delivering data-driven insights to technology and business units
+  skills:
+    genai: [Snowflake Cortex]
+    ml: []
+    web: []
+    databases: [SQL, NoSQL, Snowflake, Data Warehousing]
+    data: [Spark, Hadoop, Databricks, Data Modeling, Kafka, Data Pipelines, ETL, Data
+        Governance]
+    cloud: [AWS, Azure]
+    ops: [Git, CI/CD, DevOps]
+    languages: [Python]
+    domains: []
+    other: [Jupyter Notebooks, Tableau, Power BI, Collibra]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9059197'
+  location: New York, USA
+  extracted_at: '2026-08-16T07:35:55.096769'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

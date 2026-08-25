@@ -1,51 +1,54 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (GenAI Platform, Agentic Infrastructure)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing foundation model training, LLM inference,
-      guardrails, vector search, and LLM optimization techniques
-      for production AI systems. The engineer works hands-on with
-      LLMs, model training, and inference infrastructure at scale.
+      The role designs, builds, and supports AI software
+      components that directly shape model behavior and output
+      quality: foundation model training, LLM inference,
+      guardrails, model evaluation, and similarity search, plus
+      inventing LLM optimization techniques for performance. Since
+      LLMs are the primary target of this training, guarding, and
+      optimization work, the role is ai-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Lead and mentor engineering teams and influence cross-functional stakeholders
+  - Stay abreast of the latest AI research and apply novel techniques in production
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - AI-powered customer service and real-time question answering
-  - LLM inference and serving infrastructure at enterprise scale
-  - Foundation model training and optimization for production deployment
-  - Governance, evaluation, and observability of AI systems
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Real-time, personalized customer banking experiences
+  - Informing customers about unusual charges (fraud detection alerts)
+  - Answering customer questions in real time
+  - Internal AI platforms empowering teams across Capital One to add AI capabilities
+    to their products
   skills:
-    domains: []
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training, Similarity Search, Model
-        Optimization]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Guardrails, LLM Inference]
-    data: []
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model Evaluation, AI Governance]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Guardrails, Generative AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9867860'
   location: Plano, USA
@@ -56,4 +59,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:56:00.703157'
+  extracted_at: '2026-08-16T15:37:28.240024'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

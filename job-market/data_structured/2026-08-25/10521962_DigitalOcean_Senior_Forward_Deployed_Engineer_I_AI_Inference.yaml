@@ -1,0 +1,55 @@
+company:
+  name: DigitalOcean
+  stage: null
+  focus: Cloud infrastructure and GPU cloud services
+position:
+  title: Senior Forward Deployed Engineer I (AI Inference)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role optimizes the internals of LLM inference:
+      quantization (FP8/FP4), continuous batching, KV-cache-aware
+      routing, prefill/decode disaggregation, and contributing
+      performance fixes to vLLM/llm-d. Optimizing a model's
+      internals is shaping, and all targets are LLMs, making it
+      ai-first.
+  responsibilities:
+  - Drive end-to-end design, development, and delivery of AI workloads with large
+    generative models as AI Inference lead on the FDE team
+  - Architect and deploy production-grade multi-tenant LLM inference engines on Kubernetes-native
+    frameworks like llm-d, NVIDIA Dynamo, Ray Serve, vLLM, and SGLang
+  - Embed with external customer tech leads to debug latency spikes, profile GPU memory
+    utilization, and refactor inference code for high-concurrency production workloads
+  - Implement cluster-scale LLM serving strategies including prefill/decode disaggregation,
+    KV-cache-aware routing, tiered prefix caching, and expert parallelism for MoE
+    models
+  - Guide customers on compute efficiency using tensor/data parallelism, continuous
+    batching, and FP8/FP4 quantization to improve tokens-per-second per dollar
+  - Build reusable internal blueprints from customer edge cases and contribute performance
+    fixes back to open-source inference ecosystems (vLLM, llm-d)
+  - Travel up to 30% for customer engagements, workshops, and conferences
+  use_cases:
+  - High-throughput, low-latency LLM serving for AI-native startups on GPU cloud
+  - Cluster-scale multi-tenant generative AI inference infrastructure
+  - Latency optimization including time-to-first-token and time-per-output-token
+  - GPU compute efficiency and cost optimization for AI enterprises
+  - Production deployment and debugging of high-concurrency LLM inference workloads
+  skills:
+    genai: [LLMs]
+    ml: [Quantization, Tensor Parallelism]
+    web: [gRPC]
+    databases: []
+    data: [Ray]
+    cloud: [GPU Cloud]
+    ops: [vLLM, Kubernetes, Docker, Triton, TensorRT, Distributed Systems, Model Deployment]
+    languages: [Python, Go]
+    domains: []
+    other: [Customer-Facing Engineering]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10521962'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:30:18.587188'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

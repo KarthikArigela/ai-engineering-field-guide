@@ -1,54 +1,54 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global banking and financial services
+  stage: null
+  focus: Global bank building internal GenAI platforms
 position:
   title: Python Software Engineer - Generative AI Products and Platform - Vice President
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building the foundational backend systems
-      for 'Citi Assist,' a Generative AI assistant platform. While
-      it's a software engineering role, the core purpose is
-      building GenAI products and platforms (LLM-powered
-      assistant), and the job requires direct experience with
-      Generative AI concepts and LLMs. The engineer is building
-      the systems that power GenAI capabilities, making this ai-
-      first.
+      This is a hands-on backend Python engineer on Citi's GenAI
+      platform, but the stated work is production Python services,
+      CI/CD, containers, and Postgres. The description never
+      mentions writing prompts, designing retrieval/RAG or agent
+      flows, or training models; GenAI/LLM experience is a
+      qualification rather than a shaping responsibility. Per the
+      edge case for backend engineers on AI products who only
+      consume the AI components, this is ai-support.
   responsibilities:
-  - Build and deliver Python backend services for Citi Assist, a GenAI digital assistant
-    for all Citi employees
-  - Own features end-to-end from ideation through production deployment with high
-    autonomy
-  - Implement security best practices and AI safety measures in all code and systems
-  - Conduct and participate in constructive code reviews and collaborate closely with
-    team members
-  - Maintain engineering craftsmanship through clean code, meaningful commits, and
-    rigorous CI/CD practices
-  - Deploy and manage containerized applications on Kubernetes/OpenShift infrastructure
-  - Communicate progress proactively and drive work forward without detailed specifications
-  - Build platforms and guidance that enable the broader organization to adopt GenAI
-    safely and effectively
+  - Build, test, and ship production-grade Python backend services for the Citi Assist
+    Generative AI assistant
+  - Own features end to end, framing problems, driving work forward autonomously from
+    idea to production
+  - Implement security best practices and address emerging AI safety challenges in
+    code and system design
+  - Participate in code reviews, unblock peers, and contribute to a collaborative
+    engineering culture
+  - Uphold engineering craftsmanship standards including clean code, meaningful commits,
+    and rigorous CI/CD
+  - Deploy and manage applications in containerized Kubernetes/OpenShift environments
+  - Work with relational databases such as Postgres
+  - Build data pipelines and ETL tooling with tools like Airflow and Dagster
   use_cases:
-  - Enterprise GenAI digital assistant (Citi Assist) serving hundreds of thousands
-    of bank employees globally
-  - Centralized GenAI platform enabling safe and scalable AI adoption across a large
-    organization
-  - AI safety and compliance infrastructure for responsible GenAI deployment in banking
+  - Citi Assist, a Generative AI digital assistant for all Citi employees globally
+  - Central platform and guidance enabling organization-wide, safe GenAI adoption
+  - Internal employee productivity and self-service banking technology
   skills:
-    domains: []
-    languages: [Python, TypeScript, Go, Java, SQL]
-    ml: []
     cloud: []
-    genai: [GitHub Copilot, LLMs]
-    data: [Airflow, Dagster]
+    languages: [Python, TypeScript, Node.js, Go, Java]
+    ml: []
     other: []
-    ops: [Kubernetes, OpenShift, Docker/Containers, CI/CD, Tekton, Harness, GitHub]
-    web: [Node.js, React, Next.js]
+    ops: [Kubernetes, OpenShift, Docker, CI/CD, GitHub, Tekton, Harness]
     databases: [PostgreSQL]
+    domains: []
+    web: [React, Next.js]
+    data: [Airflow, Dagster, Data Pipelines]
+    genai: [Generative AI, LLMs, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8926580'
   location: Pune, IND
-  extracted_at: '2026-04-22T13:43:57.094886'
+  extracted_at: '2026-08-16T06:18:03.157215'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

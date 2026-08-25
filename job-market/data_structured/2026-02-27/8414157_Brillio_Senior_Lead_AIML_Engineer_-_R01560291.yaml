@@ -1,53 +1,60 @@
 company:
   name: Brillio
   stage: null
-  focus: Enterprise AI solutions and agentic AI
+  focus: |-
+    Digital technology consulting delivering enterprise AI
+    solutions
 position:
   title: Senior Lead AI/ML Engineer - R01560291
   ai_type:
     type: ai-first
     reasoning: |-
-      This is hands-on work building AI systems - specifically
-      multi-agent AI architectures using LangGraph, LLM
-      orchestration, and RAG. The role involves designing,
-      developing, and optimizing autonomous AI agents with
-      reinforcement learning, not supporting others who work on
-      AI.
+      The role hands-on shapes LLM behavior: designing multi-agent
+      orchestration in LangGraph, building RAG and knowledge-graph
+      retrieval for agent reasoning, and applying RLHF/RLAIF to
+      fine-tune agents. These are all LLM/agent components, so it
+      is ai-first despite the Lead title.
   responsibilities:
-  - Design and develop multi-agent AI systems using LangGraph for workflow automation
-    and autonomous problem-solving
+  - Design and develop multi-agent AI systems using LangGraph for workflow automation,
+    complex decision-making, and autonomous problem-solving
   - Build memory-augmented, context-aware AI agents capable of planning, reasoning,
-    and executing tasks
-  - Develop and optimize agent orchestration workflows using LangGraph for high performance
-    and scalability
-  - Implement knowledge graphs, vector databases, and RAG techniques for enhanced
-    agent reasoning
-  - Apply reinforcement learning methodologies (RLHF/RLAIF) to fine-tune AI agents
+    and executing tasks across multiple domains
+  - Define scalable architectures for LLM-powered agents that integrate with enterprise
+    applications
+  - Implement knowledge graphs, vector databases (Pinecone, Weaviate, FAISS), and
+    RAG techniques for enhanced agent reasoning
+  - Apply reinforcement learning (RLHF/RLAIF) methodologies to fine-tune AI agents
     for improved decision-making
-  - Lead Agentic AI proof-of-concept projects and scale successful prototypes into
-    production
-  - Mentor a team of AI Engineers and Data Scientists on LangGraph and multi-agent
-    architectures
+  - Lead AI research in Agentic AI and LLM orchestration, prototyping self-learning
+    agents with real-time feedback loops
+  - Drive Agentic AI proof-of-concept projects demonstrating business impact and scale
+    prototypes into production
+  - Mentor AI Engineers and Data Scientists and establish best practices for model
+    evaluation, responsible AI, and deployment of autonomous agents
   use_cases:
-  - Enterprise workflow automation using multi-agent AI systems
-  - Autonomous problem-solving across multiple business domains
-  - Complex decision-making with context-aware AI agents
-  - Enhanced reasoning through RAG and knowledge graph integration
-  - Self-improving AI agents that adapt based on real-time feedback
+  - Enterprise workflow automation via autonomous multi-agent systems
+  - Complex decision-making and autonomous problem-solving for enterprise challenges
+  - Memory-augmented agents that plan, reason, and execute tasks across domains
+  - Enhanced agent reasoning through knowledge graphs and RAG-based retrieval
+  - Self-improving agents that adapt from real-time feedback (RLHF/RLAIF)
+  - Operational efficiency and cost savings through Agentic AI automation
   skills:
-    domains: []
-    languages: []
-    ml: [Reinforcement Learning, Fine-Tuning]
     cloud: []
-    genai: [LangGraph, Multi-Agent Systems, LLMs, RAG]
-    data: []
-    other: []
+    languages: []
+    ml: [Reinforcement Learning, Model Evaluation]
+    other: [Generative Design Concepts, Responsible AI]
     ops: []
+    databases: [Knowledge Graphs, Vector Databases, Pinecone, Weaviate, FAISS]
+    domains: []
     web: []
-    databases: [Knowledge Graphs, Pinecone, Weaviate, FAISS]
+    data: []
+    genai: [LangGraph, LLMs, RAG, AI Agents, Agentic Workflows, Multi-Agent Systems,
+      Fine-Tuning, RLHF]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8414157'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:40:49.123243'
+  extracted_at: '2026-08-16T01:11:58.203763'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

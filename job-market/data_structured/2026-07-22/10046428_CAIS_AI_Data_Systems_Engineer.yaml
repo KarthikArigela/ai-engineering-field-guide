@@ -1,57 +1,62 @@
 company:
   name: CAIS
-  stage: Series C+
-  focus: Alternative investment platform for financial advisors
+  stage: null
+  focus: |-
+    Alternative investment platform for independent financial
+    advisors
 position:
   title: AI & Data Systems Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role configures and integrates off-the-shelf platforms
-      (Snowflake Cortex, N8N, Salesforce, Airtable) and deploys
-      automations rather than building, training, or fine-tuning
-      AI/ML models. The AI involvement is limited to using AI-
-      native tools like Claude/CoWork and Snowflake Cortex for
-      workflow automation, making this an enabling/support role
-      adjacent to AI work.
+      The role deploys intelligent automations using Snowflake
+      Cortex, Claude/CoWork, and N8N, and co-pilots prototyping,
+      testing, and operationalizing of agentic workflows —
+      designing agent flows is shaping, and the agents/automations
+      are the deliverable. Much of the job is platform integration
+      and data work, but the explicit hands-on responsibility for
+      building agentic workflows makes it ai-first rather than ai-
+      support.
   responsibilities:
   - Own configuration and integration of the Business Transformation tool stack, resolving
     API, connectivity, and configuration blockers
   - Design and implement Salesforce-Snowflake integrations and other cross-system
     data flows
-  - Build Streamlit apps and operational dashboards for business users
+  - Build Streamlit apps and operational dashboards that put data in business users'
+    hands
   - Deploy intelligent automations using Snowflake Cortex, Claude/CoWork, N8N, and
-    AI-native tooling
-  - Maintain Snowflake queries, data models, and reporting layers for operational
-    and analytical needs
+    AI-native tooling, including prototyping and operationalizing agentic workflows
+  - Create reusable automation templates and patterns that raise the team's delivery
+    velocity
+  - Maintain Snowflake queries, data models, and reporting layers, and use DataHub
+    to catalog assets and support data discoverability
   - Partner with Technology to implement SDLC, testing, deployment, and version control
-    practices for the tool stack
-  - Define lightweight automation standards including reliability, error handling,
-    and logging guardrails
-  - Bridge BT and Engineering/InfoSec teams, translating business requirements into
-    technical specs and mentoring team members
+    practices, and define automation guardrails (reliability, error handling, logging)
+  - Bridge BT and Engineering/InfoSec, translate business requirements into specs,
+    and mentor team members on automation and data tools
   use_cases:
-  - Workflow automation for platform operations and business transformation
-  - Cross-system data integration between Salesforce, Snowflake, and other SaaS platforms
-  - Operational dashboards and internal tooling for business users
-  - Agentic workflow prototyping and operationalization
+  - Intelligent automation of platform operations across the pre-trade, trade, and
+    post-trade experience
+  - Agentic workflows automating business transformation and internal operations tasks
+  - Self-service operational dashboards and data reporting for business users
+  - Cross-system data integration between Salesforce, Snowflake, and SaaS tools
   - Data cataloging and discoverability across the business transformation environment
-  - Automated pre-trade, trade, and post-trade operational processes for alternative
-    investments
   skills:
-    genai: [Claude Code, LangChain, Agentic Workflows]
-    ml: []
-    web: [Streamlit, APIs]
-    databases: [Snowflake]
-    data: [DataHub, Data Pipelines, Data Modeling]
-    cloud: [Snowflake Cortex]
-    ops: [Git, CI/CD]
+    cloud: []
     languages: [Python, SQL]
+    ml: []
+    other: [n8n, Zapier, Make, Airtable, Salesforce, Stonly]
+    ops: [Git, CI/CD]
+    databases: [Snowflake]
     domains: []
-    other: [n8n, Airtable, Salesforce, Stonly, Zapier, Zapier]
+    web: [Streamlit, APIs]
+    data: [DataHub, Alation, Collibra, Data Modeling]
+    genai: [Snowflake Cortex, Anthropic API, Agentic Workflows, LangChain, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10046428'
   location: New York, USA
-  extracted_at: '2026-07-22T13:25:02.852265'
+  extracted_at: '2026-08-16T16:29:18.768234'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

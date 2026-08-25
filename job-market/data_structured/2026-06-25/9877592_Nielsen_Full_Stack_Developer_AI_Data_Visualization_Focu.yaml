@@ -1,55 +1,60 @@
 company:
   name: Nielsen
-  stage: Public
-  focus: Media measurement and audience analytics
+  stage: null
+  focus: Media measurement and audience insights
 position:
   title: Full Stack Developer (AI & Data Visualization Focus)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role explicitly involves integrating LLMs and ML models
-      into production software, leveraging AI prompting techniques
-      to build intelligent features like automated summaries,
-      predictive text, and smart search. While it is a full-stack
-      developer position, the AI implementation responsibilities
-      are hands-on with models and LLMs rather than just
-      infrastructure support.
+      The role explicitly shapes LLM output themselves: "AI
+      Implementation: Leverage AI techniques and advanced
+      prompting" to build features like automated summaries,
+      predictive text, and smart search, plus a qualification in
+      "AI prompting techniques" and integrating LLMs into
+      production software. A full-stack engineer who writes
+      prompts to drive LLM features is shaping model behaviour, so
+      ai-first.
   responsibilities:
-  - Design, develop, and maintain scalable full-stack applications using Python and
-    modern front-end frameworks
+  - Design, develop, and maintain scalable full-stack applications using Python frameworks
+    (Django/Flask/FastAPI) and modern front-end frameworks
   - Build and optimize RESTful APIs and microservices connecting data layers with
     user-facing applications
-  - Develop data workflows and pipelines to extract data from cloud tables and integrate
-    into application features
-  - Implement AI techniques and advanced prompting to build intelligent features such
+  - Develop workflows and pipelines to extract data from cloud tables (SQL, Spark)
+    and integrate it into application features
+  - Leverage AI techniques and advanced prompting to build intelligent features such
     as automated summaries, predictive text, and smart search
-  - Integrate Tableau dashboards and custom JavaScript visualization libraries into
-    applications
-  - Design and maintain database schemas and handle ETL processes for application
+  - Integrate Tableau dashboards or custom JavaScript visualization libraries (D3.js,
+    Chart.js) into applications for interactive insights
+  - Design and maintain efficient database schemas and handle ETL processes for application
     performance
-  - Collaborate with business stakeholders and translate technical architecture into
-    accessible terms
+  - Stay abreast of emerging full-stack, visualization, and AI tools to continuously
+    optimize the SDLC
+  - Support ad-hoc requests and translate technical architecture into layman's terms
+    for business stakeholders
   use_cases:
-  - Automated content summarization and predictive text generation
-  - Smart search functionality within media analytics applications
-  - Interactive data visualization and dashboards for media insights
-  - Large-scale data processing and integration for audience measurement
-  - ETL pipelines connecting cloud data warehouses to user-facing applications
+  - Automated summaries and predictive text features in applications
+  - Smart search within applications
+  - Interactive data visualization dashboards for always-on media insights
+  - Large-scale data processing and ETL feeding application features
+  - Media measurement and audience engagement analytics
   skills:
-    domains: []
-    languages: [Python, JavaScript, SQL]
-    ml: [Machine learning model integration]
     cloud: [AWS, GCP]
-    genai: [LLMs, Prompt Engineering]
-    data: [PySpark, Spark, Data Pipelines]
+    languages: [Python, JavaScript, SQL]
+    ml: [Machine Learning]
     other: [Tableau]
     ops: []
-    web: [Django, Flask, FastAPI, React, Vue, Angular, HTML5, CSS3, Node.js, REST
-        APIs, Microservices, D3.js, Chart.js]
-    databases: [Data warehousing]
+    databases: []
+    domains: []
+    web: [Django, Flask, FastAPI, React, Vue, Angular, Node.js, REST APIs, Microservices,
+      HTML, CSS, D3.js, Chart.js]
+    data: [Spark, PySpark, Data Pipelines, Data Warehousing]
+    genai: [LLMs, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9877592'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:53:16.589229'
+  extracted_at: '2026-08-16T15:43:18.722137'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

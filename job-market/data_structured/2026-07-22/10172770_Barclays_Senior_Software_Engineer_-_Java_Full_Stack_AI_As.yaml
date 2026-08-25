@@ -1,57 +1,67 @@
 company:
   name: Barclays
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Senior Software Engineer - Java Full Stack & AI Assisted Engineering
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a full-stack software engineering role that uses AI
-      tools (Copilot, Claude, ChatGPT Enterprise) to accelerate
-      development work — building Java/Spring Boot microservices
-      and React frontends. The role does not involve building,
-      training, fine-tuning, or deploying AI/ML models. AI is used
-      as a productivity aid for code generation, testing, and
-      documentation, making this an AI-support role.
+      This is a full-stack Java engineer role where AI appears
+      exclusively as coding assistants (Claude, GitLab Duo, GitHub
+      Copilot, ChatGPT Enterprise) that the engineer uses for code
+      generation, test automation, documentation, and root cause
+      analysis, plus driving adoption of AI-assisted development.
+      The person never shapes a model's behaviour through prompts,
+      retrieval, or training as a deliverable - the output is
+      software and developer workflow, so it is ai-support.
   responsibilities:
   - Design, develop, test, and deploy enterprise-grade applications using Java and
     Spring Boot
-  - Build scalable, resilient, and secure microservices-based solutions with cloud-native
-    architecture on AWS
-  - Develop responsive modern user interfaces using ReactJS and TypeScript
-  - Implement Infrastructure as Code using Terraform or CloudFormation and support
-    CI/CD automation
-  - Leverage AI engineering tools such as Claude, GitHub Copilot, and ChatGPT Enterprise
-    for code generation, test automation, and documentation
-  - Drive responsible and secure adoption of AI-assisted development practices across
-    engineering teams
-  - Perform code reviews, ensure observability, and contribute to technical debt reduction
-    and platform modernization
-  - Mentor junior and mid-level engineers and contribute to sprint planning and technical
-    leadership activities
+  - Build scalable, resilient, and secure microservices-based solutions with modern
+    user interfaces in ReactJS and TypeScript
+  - Design and implement cloud-native solutions on AWS, including ECS/EKS, Lambda,
+    API Gateway, S3, DynamoDB/RDS, CloudWatch, IAM, and EventBridge
+  - Implement Infrastructure as Code with Terraform or CloudFormation and support
+    CI/CD automation and release processes
+  - Ensure observability through logging, monitoring, and alerting frameworks and
+    meet performance, security, and reliability standards
+  - Leverage AI engineering tools (Claude, GitLab Duo, GitHub Copilot, ChatGPT Enterprise)
+    for code generation, test automation, documentation, code review support, and
+    root cause analysis
+  - Drive responsible and secure adoption of AI-assisted development practices and
+    mentor team members on AI-enabled engineering best practices
+  - Lead complex technical investigations and production issue resolutions, contribute
+    to architecture discussions, and perform code reviews
   use_cases:
-  - Enterprise-grade banking and financial services applications
-  - Cloud-native microservices deployment on AWS
-  - AI-assisted software development lifecycle acceleration including code generation,
-    test automation, and root cause analysis
-  - Scalable and secure infrastructure management for digital banking solutions
+  - Enterprise-grade full-stack banking applications built with Java, Spring Boot,
+    ReactJS, and TypeScript
+  - Scalable cloud-native microservices deployed on AWS
+  - 'AI-assisted software development: code generation, test automation, documentation,
+    code review support, and root cause analysis'
+  - Automated CI/CD pipelines, Infrastructure as Code, and release processes
+  - Application observability, monitoring, alerting, and production issue resolution
   skills:
-    genai: [GitHub Copilot, Claude Code, ChatGPT, Prompt Engineering, Generative AI,
-      AI Agents]
+    cloud: [AWS, EKS, ECS, AWS Lambda, API Gateway, AWS S3, IAM, EventBridge]
+    languages: [Java, TypeScript, JavaScript]
     ml: []
-    web: [HTML, CSS, Spring Boot, REST APIs, Microservices, React]
-    databases: [NoSQL, DynamoDB]
-    data: [Kafka]
-    cloud: [AWS, AWS Lambda, AWS S3, ECS, EKS, IAM, API Gateway]
-    ops: [Docker, Kubernetes, Terraform, CloudFormation, CI/CD, GitLab CI, Jenkins,
-      CloudWatch, Monitoring, Observability, SonarQube, Infrastructure as Code]
-    languages: [Java, TypeScript, JavaScript, SQL]
+    other: [JPA, Hibernate, Event-Driven Architecture, API Security, Open Banking
+        APIs, Financial Services, Code Review]
+    ops: [Docker, Kubernetes, Terraform, CloudFormation, Infrastructure as Code, CI/CD,
+      GitLab CI, Jenkins, SonarQube, Monitoring, Observability, CloudWatch, Distributed
+        Systems]
+    databases: [SQL, NoSQL, DynamoDB, RDS]
     domains: []
-    other: [Event-Driven Architecture, Agile, System Design, Code Review]
+    web: [Spring Boot, REST APIs, Microservices, React, Responsive Web Design, HTML,
+      CSS]
+    data: [Kafka]
+    genai: [Anthropic API, GitLab Duo, GitHub Copilot, ChatGPT Enterprise, Prompt
+        Engineering, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10172770'
   location: Pune, IND
-  extracted_at: '2026-07-22T13:31:48.973218'
+  extracted_at: '2026-08-16T17:30:34.362920'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,59 +1,65 @@
 company:
   name: Bloomreach
-  stage: Series B
-  focus: AI-powered personalization and marketing automation platform
+  stage: null
+  focus: Agentic AI platform for commerce personalization
 position:
   title: Marketing Platform Engineer (Data & AI)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role builds the data infrastructure and API backbone
-      that enables AI agents to function, rather than building,
-      training, or deploying the AI models themselves. The
-      engineer is responsible for data pipelines, context
-      retrieval systems, and API architecture that support AI
-      operations - this is enabling work for AI systems, not
-      hands-on AI/ML development.
+      The role designs the retrieval/context backbone that LLM
+      agents consume: versioned context endpoints with filtering,
+      boosting, time-decay, and ranking logic tuned for relevance
+      and sub-second latency, plus re-embedding maintenance and
+      reasoning about prompt versioning and retrieval quality.
+      This is designing retrieval and context assembly for agents
+      (shaping behavior), not merely moving data or consuming an
+      AI API another team designed. The Salesforce data-quality
+      work alone would be ai-support, but the retrieval design and
+      ranking optimization make agent output quality the
+      deliverable.
   responsibilities:
-  - Own Salesforce data integrity including data quality, deduplication, and enrichment
-    while maintaining the single source of truth
-  - Engineer the context retrieval backbone by designing versioned, documented API
-    endpoints for GTM agents
-  - Optimize retrieval performance through tuning query logic, filters, boosts, and
-    ranking algorithms for sub-second latency
-  - Scale GTM Brain data sources by integrating new sources without disrupting existing
-    agents
-  - Maintain context freshness through background jobs, re-embeddings, and data pipelines
-    that prevent drift
-  - Enable agent developers with starter queries and templated context patterns for
-    rapid adoption
-  - Collaborate on vendor strategy integrating tools like N8N, Clay, and Rattle into
-    the context architecture
-  - Build the GTM data stack coordinating with RevOps and AI Ops on Salesforce, enrichment
-    platforms, and LLM tools integration
+  - Own Salesforce data integrity including quality, deduplication, enrichment, field
+    standardization, and freshness as the single source of truth
+  - Design and ship versioned, documented API endpoints that GTM agents call to retrieve
+    context such as contacts, accounts, engagement history, and intent signals
+  - Optimize retrieval performance by tuning query logic, filters, boosts, and ranking
+    algorithms for sub-second, contextually relevant, cost-effective results
+  - Scale GTM Brain data sources (product usage, web signals, third-party enrichment,
+    intent platforms) without forcing agents to rebuild their logic
+  - Build and operate background jobs that refresh context on schedule, fix failed
+    re-embeddings, and backfill deltas without drift or disruption
+  - Enable agent developers and operators with starter queries and templated context
+    patterns, coordinating with AI Ops and enablement teams
+  - Evaluate and integrate vendor tools like N8N, Clay, and Rattle ensuring their
+    data flows meet latency and freshness requirements
+  - Co-create the scalable GTM data stack with RevOps and AI Ops, integrating Salesforce,
+    BigQuery, Supabase/Postgres, LLM tools, and analytics
   use_cases:
-  - Conversational shopping assistant providing personalized product guidance
-  - Autonomous search for intuitive product discovery
-  - AI-powered autonomous marketing workflow automation
-  - Real-time customer journey personalization across touchpoints
-  - Sales and marketing agent context retrieval and intelligence
-  - Data enrichment and deduplication for customer relationship management
+  - Centralized real-time context retrieval serving 50-200 GTM (sales and marketing)
+    AI agents
+  - Agent access to contacts, accounts, engagement history, intent signals, and enrichment
+    data with fresh, reliable context
+  - Salesforce data enrichment and deduplication powering reliable agent intelligence
+  - Autonomous marketing and workflow automation for go-to-market teams
+  - Agentic personalization across the customer journey for commerce brands
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: []
-    genai: [prompt versioning, retrieval optimization, LLM tooling]
-    data: [n8n, Data Pipelines, data quality management, data deduplication]
-    other: []
-    ops: [Monitoring, alerting, Observability]
-    web: [APIs, REST APIs, API versioning]
-    databases: [Salesforce, Supabase, PostgreSQL, BigQuery, query optimization, schema
-        design]
+    other: [Salesforce, n8n, Clay, Rattle]
+    ops: [Monitoring, Observability]
+    databases: [PostgreSQL, Supabase, BigQuery]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [AI Agents, LLMs, RAG, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7933255'
   location: GBR
   remote: true
-  extracted_at: '2026-02-27T12:36:22.230571'
+  extracted_at: '2026-08-16T00:17:47.799925'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

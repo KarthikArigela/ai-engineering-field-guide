@@ -1,54 +1,62 @@
 company:
   name: Riverflex
-  stage: Established (post-Series, with equity scheme and major enterprise clients)
-  focus: |-
-    Digital consulting and AI-powered software engineering
-    services for enterprise clients
+  stage: null
+  focus: Digital product and AI engineering consultancy
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely ai-first: the engineer will directly
-      build, design, and deploy AI/GenAI systems using LLMs, RAG
-      architectures, ML pipelines, and agentic frameworks. The
-      hands-on work includes model training, prompt chaining,
-      embedding retrieval, and deploying scalable AI workloads —
-      all core AI/ML system building activities.
+      The role directly shapes LLM behavior: designing RAG
+      architectures, prompt chaining, embedding retrieval, context
+      management via MCP, and agent workflows with
+      LangChain/Semantic Kernel, plus owning prompt evaluation and
+      model performance monitoring. With multiple LLM and agent
+      components throughout, this is ai-first despite the
+      supporting ML fundamentals.
   responsibilities:
-  - Build scalable AI and GenAI systems using transformer-based models and RAG architectures
-  - Design and implement ML/AI pipelines including model training, evaluation, prompt
-    chaining, embedding retrieval, and context management
+  - Build scalable AI and GenAI systems using transformer-based models (GPT, Mistral,
+    Claude) and RAG architectures
+  - Design and implement ML/AI pipelines covering model training, evaluation, prompt
+    chaining, embedding retrieval, and context management with MCP protocols
   - Engineer modular, well-tested Python code for AI agents, APIs, and microservices
+  - Implement agent workflows and end-to-end AI experiences using orchestration tools
+    such as LangChain, Semantic Kernel, and n8n
   - Apply MLOps practices for reproducible training, deployment, and monitoring of
     models in production
-  - Use orchestration tools like LangChain and Semantic Kernel to implement agent
-    workflows
-  - Collaborate with product, engineering, and data teams to integrate AI into user-facing
-    applications
+  - Partner with data engineering to build feature stores and vector search capabilities
+    serving curated data
   - Optimize AI systems for cost, latency, and scalability across Azure infrastructure
-  - Mentor and guide teammates on AI engineering best practices
+    (Azure ML, Azure AI Services)
+  - Lead best practices for prompt evaluation, testing, and model monitoring, and
+    mentor AI engineers internally and at clients
   use_cases:
-  - Building GenAI applications powered by LLMs and RAG for enterprise clients
-  - Deploying AI agents and agentic workflows for business process automation
-  - Implementing scalable AI-powered services and APIs for digital products
-  - Enterprise AI solutions for major clients like IKEA
-  - Internal AI tooling and accelerators to grow organizational AI capability
+  - Next-generation digital products for clients and internal tools
+  - AI-powered services and GenAI applications built on RAG architectures
+  - Agent workflows and end-to-end AI experiences orchestrated with LangChain and
+    Semantic Kernel
+  - AI capabilities integrated into user-facing applications via APIs and microservices
+  - Human-in-the-loop feedback and responsible AI safeguards including bias mitigation
+    and data privacy
   skills:
-    domains: []
+    cloud: [Azure, Azure ML]
     languages: [Python]
-    ml: [Transformers, ML fundamentals, NLP, Model Training, Fine-Tuning]
-    cloud: [Azure, Azure ML, Azure AI Services]
-    genai: [LangChain, Semantic Kernel, RAG, Prompt Engineering, Prompt chaining,
-      MCP, AI Agents, GPT, Anthropic API, Mistral, Embedding retrieval]
+    ml: [Machine Learning, Transformers, NLP, Model Training, Model Evaluation]
+    other: [n8n, Responsible AI, Human-in-the-Loop Feedback]
+    ops: [MLOps, CI/CD, MLflow, Kubeflow, Docker, Kubernetes, Terraform, Infrastructure
+        as Code, Distributed Systems, Model Deployment, Model Monitoring]
+    databases: [Vector Databases, Vector Search, Pinecone, FAISS, Weaviate]
+    domains: []
+    web: [APIs, Microservices]
     data: []
-    other: [n8n, Human-in-the-loop feedback, Responsible AI design]
-    ops: [MLflow, Kubeflow, Docker, Kubernetes, CI/CD, Terraform, MLOps]
-    web: [FastAPI, REST APIs, Microservices]
-    databases: [PostgreSQL, Pinecone, FAISS, Weaviate, Vector Search, Feature stores]
+    genai: [LLMs, Generative AI, RAG, Prompt Engineering, MCP, Embeddings, AI Agents,
+      Agentic Workflows, LangChain, Semantic Kernel, LLM Evaluation, GPT, Mistral,
+      Anthropic API]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9082883'
   location: Amsterdam, NLD
-  extracted_at: '2026-04-22T13:11:30.694897'
+  extracted_at: '2026-08-16T07:53:49.511814'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

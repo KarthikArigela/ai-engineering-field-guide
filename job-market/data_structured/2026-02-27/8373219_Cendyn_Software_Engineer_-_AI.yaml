@@ -1,51 +1,52 @@
 company:
   name: Cendyn
   stage: null
-  focus: Hospitality technology products
+  focus: Hospitality technology software products for hotels
 position:
   title: Software Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work directly building and
-      deploying AI systems including LLM integration, RAG
-      implementation, and prompt engineering. The engineer will
-      develop AI orchestration workflows and AI-powered APIs,
-      which constitutes working ON AI systems rather than just
-      supporting them.
+      The role builds and maintains RAG systems, develops prompt
+      engineering strategies, and contributes to evaluation
+      frameworks for AI output quality — direct shaping of model
+      behavior. The models being shaped are LLMs (OpenAI,
+      Anthropic, Azure OpenAI), so the classification is ai-first.
   responsibilities:
   - Implement AI features using LLMs (OpenAI, Anthropic, Azure OpenAI) integrated
     into Cendyn products
-  - Build and maintain RAG (Retrieval-Augmented Generation) systems using vector databases
-  - Develop prompt engineering strategies and evaluation frameworks for AI output
-    quality
-  - Build user interfaces using modern frameworks (React, Vue.js, Angular) that surface
+  - Build and maintain RAG systems using vector databases
+  - Develop prompt engineering strategies and contribute to evaluation frameworks
+    for AI output quality
+  - Build user interfaces with modern frameworks (React, Vue.js, Angular) that surface
     AI capabilities
-  - Develop backend services across technology stack (.NET/C#, Node.js, Python) implementing
-    AI orchestration workflows
+  - Develop backend services across .NET, Node.js, and Python implementing AI orchestration
+    workflows
   - Contribute to data pipelines that prepare and serve data to AI systems
-  - Configure cloud infrastructure (AWS, Azure) for AI workloads and maintain CI/CD
-    pipelines with containerization
+  - Configure cloud infrastructure (AWS, Azure) for AI workloads with senior guidance
+  - Contribute to CI/CD pipelines for AI-powered applications using Docker and Kubernetes
   use_cases:
-  - AI-powered hospitality technology solutions
-  - Intelligent features across Cendyn products
-  - LLM-integrated applications for hospitality industry
-  - RAG-powered information retrieval systems
-  - AI-enhanced user experiences for hospitality platforms
+  - Intelligent AI features embedded in hospitality technology products
+  - Retrieval-augmented generation over hospitality domain data
+  - AI-powered APIs and LLM orchestration workflows for product features
+  - User-facing interfaces surfacing AI capabilities to hotel customers
   skills:
-    domains: []
-    languages: [.NET/C#, Python, TypeScript]
+    cloud: [AWS, Azure, GCP]
+    languages: [Python, JavaScript, TypeScript, C#, .NET, Node.js]
     ml: []
-    cloud: [AWS, Azure]
-    genai: [OpenAI API, Anthropic API, Azure OpenAI, RAG, Prompt Engineering]
-    data: []
-    other: []
+    other: [Agile]
     ops: [Docker, Kubernetes, CI/CD, Git]
-    web: [React, Vue, Angular, Node.js, REST APIs]
     databases: [Vector Databases, SQL, NoSQL]
+    domains: []
+    web: [React, Vue, Angular, REST APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, OpenAI API, Anthropic API, Azure OpenAI, RAG, Prompt Engineering,
+      LLM Evaluation, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8373219'
   location: Hyderabad, IND
-  extracted_at: '2026-02-27T12:04:06.955935'
+  extracted_at: '2026-08-16T01:02:50.485392'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

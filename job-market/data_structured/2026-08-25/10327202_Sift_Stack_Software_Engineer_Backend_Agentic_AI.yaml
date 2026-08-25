@@ -1,0 +1,56 @@
+company:
+  name: Sift Stack
+  stage: null
+  focus: |-
+    Data infrastructure platform for hardware engineering
+    telemetry
+position:
+  title: Software Engineer, Backend  (Agentic AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes agent behaviour directly: designing tool
+      interfaces, context and memory management, guardrails,
+      evaluation suites, and integrating frontier models. Agents
+      and LLM tooling are the product, so it is ai-first.
+  responsibilities:
+  - Talk directly to customers and partner with product to turn review workflows into
+    agent capabilities
+  - Design, ship, and operate agentic systems reasoning over large-scale time-series
+    data
+  - Build tool interfaces, sandboxed execution for agent-generated code, context and
+    memory management, and guardrails
+  - Build distributed systems for streaming long-running agent work that survives
+    disconnects and resumes across restarts
+  - Design job-based execution scheduling agent workloads on Kubernetes in cloud and
+    on-prem
+  - Develop and maintain Sift's MCP server
+  - Design and implement APIs powering agentic capabilities
+  - Build evaluation suites and instrument quality, latency, cost, and failure modes;
+    assess frontier models
+  use_cases:
+  - AI agents that investigate anomalies in high-frequency hardware telemetry
+  - Agents reviewing test and flight data for rockets, satellites, autonomous vehicles
+  - Generating dashboards and analysis scripts for hardware engineers
+  - Surfacing engineering insights buried in large-scale time-series data
+  - MCP server letting agents and customer AI tools query telemetry directly
+  skills:
+    genai: [AI Agents, MCP, Guardrails, LLMs, LLM Evaluation]
+    ml: []
+    web: [REST APIs, gRPC, Protobuf, React, TypeScript]
+    databases: [PostgreSQL, TimescaleDB]
+    data: [Kafka, Flink, Parquet, Arrow]
+    cloud: [AWS]
+    ops: [Kubernetes, Docker, ArgoCD, GitHub Actions, Grafana, Prometheus, Linux,
+      Observability, Terragrunt, Distributed Systems]
+    languages: [Go, Python, Rust]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10327202'
+  location: Marina del Rey, USA
+  extracted_at: '2026-08-25T09:43:23.585339'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

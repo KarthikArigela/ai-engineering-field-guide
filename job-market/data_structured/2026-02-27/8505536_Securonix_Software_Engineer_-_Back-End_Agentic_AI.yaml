@@ -2,55 +2,61 @@ company:
   name: Securonix
   stage: Backed by Vista Equity Partners
   focus: |-
-    AI-powered SIEM and cybersecurity platform for threat
-    detection, investigation, and response
+    Cloud-native SIEM and cybersecurity threat detection
+    platform
 position:
   title: Software Engineer - Back-End & Agentic AI
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role explicitly requires "AI Tools & Agent Integration
-      Experience" and is building a platform "powered by agentic
-      AI" with a human-in-the-loop philosophy. The job involves
-      developing a Threat Intelligence Platform that integrates AI
-      agents, requiring hands-on work with agent systems rather
-      than just supporting infrastructure for them.
+      The role is a back-end software engineer building the
+      ThreatQ threat intelligence platform, with responsibilities
+      focused on performance, scalability, and code quality — not
+      on shaping model behavior. AI appears only as a skill line
+      ("AI Tools & Agent Integration Experience") and in the job
+      title, suggesting integration/consumption of AI capabilities
+      rather than writing prompts, designing retrieval or agent
+      flows, or training/evaluating models. Per the rules, the
+      title cannot override the responsibilities, so this is ai-
+      support.
   responsibilities:
-  - Design, develop, and maintain the Threat Intelligence Platform ThreatQ with focus
-    on performance, scalability, and maintainability
+  - Design, develop, and maintain the ThreatQ Threat Intelligence Platform with a
+    focus on performance, scalability, and maintainability
   - Collaborate with team members, product owners, and designers to implement product
     requirements
-  - Participate in code reviews to provide and receive constructive feedback for maintaining
-    code quality standards
-  - Collaborate with product managers, security analysts, and stakeholders to translate
-    requirements into technical specifications
-  - Develop and maintain high-quality code ensuring adherence to best practices and
-    coding standards
-  - Stay current with emerging technologies in cybersecurity and integrate new AI
-    tools and techniques into development processes
+  - Participate in code reviews, providing and receiving constructive feedback to
+    maintain code quality standards
+  - Translate requirements from product managers, security analysts, and stakeholders
+    into technical specifications
+  - Develop and maintain high-quality code adhering to best practices and coding standards
+  - Stay current with emerging cybersecurity technologies and integrate new tools
+    and techniques into development processes
   - Contribute to technical documentation including design specifications, user guides,
     and API documentation
   use_cases:
-  - Threat detection and investigation using agentic AI with human-in-the-loop philosophy
-  - Real-time analytics and automated response for cybersecurity threats
-  - Behavioral insight across users, entities, and data using advanced UEBA
-  - Threat intelligence enrichment with real-world context
-  - Rapid search and investigation capabilities for security analysts
+  - Unified threat detection, investigation, and response (TDR) within a single SIEM
+    platform
+  - Agentic AI-powered security operations with human-in-the-loop accountability
+  - Behavioral analytics (UEBA) across users, entities, and data
+  - Real-time threat intelligence enrichment of detections and investigations
+  - Automated, measurable security response and rapid search and investigation for
+    security analysts
   skills:
-    domains: []
-    languages: [Java, Python, SQL, JavaScript, TypeScript, PHP]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [AI Tools, Agent Integration]
+    languages: [Java, Python, TypeScript, JavaScript, PHP]
+    ml: []
+    other: [JUnit, Mockito, TestNG, Agile]
+    ops: [CI/CD, Git, Docker, Kubernetes, Infrastructure as Code, Maven, Gradle]
+    databases: [SQL, MySQL, MariaDB]
+    domains: []
+    web: [React, Angular, HTML, CSS, Laravel, REST APIs, JSON, Microservices]
     data: []
-    other: []
-    ops: [Git, Maven, Gradle, JUnit, Mockito, TestNG, Docker, Kubernetes, Infrastructure
-        as Code]
-    web: [React, Angular, HTML, CSS, REST APIs, JSON, Microservices, Laravel]
-    databases: [MySQL, MariaDB]
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8505536'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:48:30.615355'
+  extracted_at: '2026-08-16T01:59:12.613304'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

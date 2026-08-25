@@ -1,53 +1,63 @@
 company:
   name: BMLL
-  stage: Acquired (by Nordic Capital, 2025)
-  focus: Financial market data and analytics SaaS
+  stage: Acquired by Nordic Capital in 2025, with Optiver as minority shareholder
+  focus: |-
+    Historical market data and analytics for equities, futures,
+    and options
 position:
   title: Senior Software Engineer (AI & SaaS Applications)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general SaaS software engineering role at a
-      financial data company. The role involves building
-      microservices and SaaS applications, with AI tools (LLM
-      coding assistants, Copilot) used for developer productivity
-      rather than building AI/ML systems. The desirable skills
-      mention some exposure to semantic search and vector
-      databases, but the core role is software engineering, not
-      AI/ML development.
+      The core work is designing and building Python/TypeScript
+      microservices, AWS infrastructure, and PostgreSQL data
+      layers for financial data SaaS products. AI appears only as
+      coding assistants (Claude, GitHub Copilot, Cursor) and
+      automated workflows used to accelerate the engineer's own
+      delivery, with LLM orchestration frameworks (LangChain,
+      LlamaIndex) mentioned only as a desirable exposure — the
+      person never shapes model behaviour, prompts, retrieval, or
+      evals.
   responsibilities:
-  - Design and build scalable, reliable microservices for core SaaS products including
-    single- and multi-tenant enterprise architectures
+  - Design, implement, and evolve scalable, reliable, and secure microservices for
+    core SaaS products across single- and multi-tenant enterprise architectures
   - Adopt and champion AI engineering tools, LLM-driven coding assistants, and automated
-    workflows to improve delivery speed and code quality
-  - Collaborate closely with the Product Owner to translate complex financial data
-    requirements into well-scoped engineering tasks
-  - Contribute to AWS infrastructure operations including CloudWatch monitoring, diagnostics,
+    workflows to improve own delivery speed and code quality
+  - Work closely with the SaaS Product Owner to translate complex financial data requirements
+    into well-scoped engineering tasks
+  - Contribute to AWS infrastructure and use CloudWatch Logs for monitoring, diagnostics,
     and incident support
-  - Support development of junior and mid-level engineers through code reviews, technical
-    guidance, and knowledge sharing
+  - Support development of junior and mid-level engineers through code reviews and
+    technical guidance, without formal line management responsibility
   - Write well-tested, maintainable code and contribute to CI/CD pipelines and quality
-    standards
+    standards across the team
+  - Build data science and financial data visualisation features for the BMLL Lab
+    and Vantage products
   use_cases:
-  - Data science and data visualization applications for large financial datasets
-  - Enterprise SaaS delivery for financial market data analytics
-  - Order book data analytics and trading strategy optimization
-  - Multi-tenant B2B SaaS for capital markets participants
+  - Data science and data visualisation SaaS applications for large financial datasets
+  - Harmonised Level 3, 2 and 1 historical order book data and analytics across global
+    equities, ETFs, futures, and US equity options
+  - Accelerating trading strategy research and optimisation for financial market participants
+  - Enterprise B2B SaaS delivery across single- and multi-tenant architectures
+  - Market behaviour analysis through granular T+1 order book data
   skills:
-    genai: [GitHub Copilot, Cursor, Claude Code, OpenAI API, LangChain, LlamaIndex,
-      Semantic Search, LLMs]
+    cloud: [AWS, Cognito, AWS Lambda, Fargate, API Gateway, AWS S3, IAM, SQS, SNS,
+      Step Functions, EventBridge, Secrets Manager]
+    languages: [Python, TypeScript]
     ml: []
-    web: [REST APIs, Microservices]
-    databases: [PostgreSQL, Snowflake, DuckDB, Vector Databases]
-    data: [Spark, Databricks, Pandas]
-    cloud: [AWS, AWS Lambda, AWS S3, API Gateway, IAM]
-    ops: [Terraform, CI/CD, CloudWatch, Docker, Kubernetes]
-    languages: [Python, TypeScript, SQL]
+    other: [Code Review, Agile, Event-Driven Architecture, Multi-Tenant SaaS]
+    ops: [Terraform, Infrastructure as Code, CloudWatch, Observability, CI/CD]
+    databases: [PostgreSQL, Vector Databases, Snowflake, DuckDB]
     domains: []
-    other: [Event-Driven Architecture, Agile, Code Review]
+    web: [REST APIs, Microservices]
+    data: [Pandas, Spark, Databricks]
+    genai: [Anthropic API, GitHub Copilot, Cursor, LLMs, Agentic Workflows, LangChain,
+      LlamaIndex, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9502774'
   location: London, GBR
-  extracted_at: '2026-07-22T13:41:23.854070'
+  extracted_at: '2026-08-16T18:52:38.191390'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

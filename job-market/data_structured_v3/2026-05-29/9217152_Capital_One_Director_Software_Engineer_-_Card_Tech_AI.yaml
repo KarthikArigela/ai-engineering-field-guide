@@ -1,0 +1,66 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Credit cards and consumer banking technology
+position:
+  title: Director, Software Engineer - Card Tech AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role uses LLM coding assistants (Claude, Windsurf,
+      Copilot) and agentic dev tools to ship software faster and
+      coaches engineers on AI-native workflows - the deliverable
+      is developer velocity and production software for Card Tech,
+      not model behaviour. There is no prompt product, RAG design,
+      evals, fine-tuning, or output-quality system owned by this
+      person; auditing AI-generated code via design/code review is
+      standard engineering QA, not a reward or preference signal.
+      Per the edge case for rolling out AI coding tools, this is
+      ai-support.
+  responsibilities:
+  - Lead, mentor, and grow a high-velocity team of engineers, fostering a culture
+    of AI adoption and rapid execution
+  - Operate as a Player-Coach, staying hands-on to ship production-ready code and
+    solve complex technical problems
+  - Incubate AI-native workflows leveraging Claude and LLMs to fundamentally increase
+    development speed
+  - Collaborate with product teams to transform intent into functional reality using
+    rigorous, spec-driven design
+  - Design, audit, and support technical solutions within Agile cycles, serving as
+    the ultimate fail-safe for AI output
+  - Conduct design and code reviews to ensure AI-generated code meets standards for
+    quality, security, and scalability
+  - Partner with stakeholders to explain AI-generated architectures and ensure final
+    products match original intent
+  use_cases:
+  - AI-assisted software development for credit card technology products
+  - Accelerating development velocity through LLM coding assistants and agentic development
+    tools
+  - Auditing AI-generated code and architectures to prevent hallucinations and technical
+    debt
+  - Translating product intent into production software via spec-driven design
+  skills:
+    genai: [LLMs, Claude, Windsurf, GitHub Copilot, Spec-Driven Design]
+    ml: []
+    web: []
+    databases: []
+    data: [Data Engineering]
+    cloud: [AWS, Azure, GCP]
+    ops: [DevOps]
+    languages: []
+    domains: []
+    other: [Agile, Code Review]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9217152'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - Chicago, USA
+  - Richmond, USA
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T09:33:40.832929'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

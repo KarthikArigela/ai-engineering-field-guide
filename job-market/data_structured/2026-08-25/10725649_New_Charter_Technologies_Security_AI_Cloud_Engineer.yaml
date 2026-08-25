@@ -1,0 +1,59 @@
+company:
+  name: New Charter Technologies
+  stage: null
+  focus: Managed IT and security services for SMBs
+position:
+  title: Security / AI Cloud Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role configures and manages security controls (DLP,
+      alerting, misconfiguration remediation) around AI platforms
+      built by others; it does not shape model behavior, prompts,
+      retrieval, or evals. Safety/governance oversight of models
+      is ai-support unless the person builds evals or guardrails
+      themselves.
+  responsibilities:
+  - Design, implement, and manage security controls for client AI platforms and cloud
+    environments (Microsoft 365 Copilot, Azure OpenAI, Google Workspace AI)
+  - Configure and tune Data Loss Prevention (DLP) policies to prevent sensitive data
+    exposure through AI tools
+  - Develop and maintain alerting rules to detect abuse, anomalous behavior, and policy
+    violations in AI-enabled platforms
+  - Identify, remediate, and track security misconfigurations across AI and cloud
+    environments using industry frameworks and tooling
+  - Conduct security assessments of client AI deployments to identify gaps and risks
+  - Collaborate with vCISO and compliance teams on AI security considerations
+  - Document findings and produce reports for technical and executive audiences
+  - Support pre-sales and scoping conversations with technical expertise
+  use_cases:
+  - Securing client AI platform adoption (Microsoft 365 Copilot, Azure OpenAI, Google
+    Workspace AI)
+  - Data loss prevention for AI tools and integrations
+  - Abuse and anomaly alerting in AI-enabled platforms
+  - Misconfiguration remediation across AI and cloud environments
+  - Security assessment and hardening of client AI deployments
+  skills:
+    genai: [Microsoft Copilot, ChatGPT]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure OpenAI, Google Gemini, Microsoft Sentinel, AWS]
+    ops: [Microsoft Defender, Microsoft Purview, DLP, CASB, CSPM, Prisma Cloud, Wiz]
+    languages: []
+    domains: []
+    other: [Zero-Trust Architecture]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10725649'
+  location: USA
+  locations:
+  - USA
+  - New York, USA
+  - Washington, USA
+  remote: true
+  extracted_at: '2026-08-25T11:28:55.967102'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

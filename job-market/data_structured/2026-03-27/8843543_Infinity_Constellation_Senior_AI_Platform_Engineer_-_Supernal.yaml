@@ -1,56 +1,58 @@
 company:
   name: Infinity Constellation
-  stage: Unknown
-  focus: |-
-    Building AI employees/teammates for SMBs using agentic
-    workflows
+  stage: Startup
+  focus: Agentic AI Employees for SMB hiring
 position:
   title: Senior AI Platform Engineer - Supernal
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, designing, and
-      deploying AI agent systems including conversational agents,
-      RAG implementations, and LLM orchestration. The engineer is
-      hands-on with agentic architectures, multi-turn conversation
-      design, and production AI systems, not just supporting
-      infrastructure for AI work.
+      The role directly shapes model and agent behavior: it
+      designs multi-turn conversational agents, tool usage, LLM
+      orchestration, RAG design, and debugs prompts and agent
+      logic in production. An LLM/agent component is central to
+      the job (agentic AI Employees), and voice platforms like
+      ElevenLabs and Retell are deployment vehicles for those
+      agents, so this is ai-first.
   responsibilities:
   - Build advanced AI agent workflows on n8n and Supernal's proprietary platform
   - Design, implement, and deploy conversational agents with multi-turn flows, state
     management, and tool usage
-  - Own end-to-end technical delivery for high-priority customer implementations from
-    architecture through production
+  - Own end-to-end technical delivery for high-priority customer implementations,
+    from architecture through production launch
+  - Translate customer requirements and SOWs into technical designs, execution plans,
+    and deliverables
   - Make architectural decisions across LLM orchestration, RAG design, API integrations,
     and workflow decomposition
   - Handle real-world voice system challenges including latency, interruptions, fallbacks,
-    and error handling
-  - Write automated tests including unit tests and end-to-end tests for workflow validation
-  - Debug complex production issues across agent logic, prompts, integrations, and
-    external dependencies
-  - Define and evolve best practices for building and delivering reliable AI Employees
+    and failure recovery
+  - Write automated tests and debug complex production issues across agent logic,
+    prompts, and integrations
+  - Define, document, and evolve best practices for building and delivering reliable
+    AI Employees
   use_cases:
-  - Conversational AI agents for SMB business operations
-  - Voice-first AI employees handling live users and multi-turn conversations
-  - Production AI systems with real-time constraints and complex integrations
-  - AI teammates deployed to handle actual business workflows and value-generating
-    tasks
+  - Voice-first AI Employees for SMB businesses acting as their first AI hire
+  - Production conversational agents handling live users and multi-turn dialogue
+  - Telephony-based voice agents with streaming audio and real-time constraints
+  - Agentic workflow automation integrated with customer business systems and APIs
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [n8n, LangChain, RAG, LLMs, Prompt Engineering, Function Calling, Agentic
-        architectures, ElevenLabs, Retell, Zapier, Make]
-    data: []
-    other: []
-    ops: [Automated testing, Unit testing, End-to-end testing, Error handling]
-    web: [REST APIs, APIs]
+    languages: []
+    ml: []
+    other: [n8n, Zapier, Make, Nextiva, Telephony, Automated Testing]
+    ops: [Monitoring]
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [AI Agents, Agentic Workflows, Conversational AI, LLMs, RAG, Prompt Engineering,
+      Function Calling, ElevenLabs, Retell]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8843543'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:43:11.412803'
+  extracted_at: '2026-08-16T05:00:50.068704'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -7,43 +7,47 @@ position:
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work with AI/ML including
-      developing and consuming LLM APIs, training and fine-tuning
-      models, and deploying them to production. This is direct
-      model building and deployment work rather than support or
-      infrastructure roles.
+      The role explicitly builds and integrates AI/ML solutions,
+      including developing and consuming LLM APIs, training and
+      fine-tuning models, and deploying them to production. Fine-
+      tuning models and working with LLM application patterns
+      (RAG, LLM-based agents) is shaping model behaviour, and an
+      LLM component is involved, so it is ai-first.
   responsibilities:
   - Design, develop, and test software components that enable automotive dealerships
     to better engage with their customers
-  - Build and integrate AI/ML solutions including developing and consuming LLM APIs,
+  - Build and integrate AI/ML solutions, including developing and consuming LLM APIs,
     training and fine-tuning models, and deploying them into production environments
   - Collaborate with business stakeholders and customers to translate real-world needs
     into scalable technical solutions
-  - Work across diverse tech stacks such as microservices, iOS/Android development,
-    cloud infrastructure, and more
-  - Communicate effectively with team leader and product managers to set clear project
-    goals, timelines, and deliverables
-  - Drive technical excellence by challenging tradeoffs between speed and reliability
-    and taking ownership of high-quality outcomes
+  - Work across diverse tech stacks such as microservices, mobile (iOS/Android) development,
+    and cloud infrastructure
+  - Communicate with team leaders and product managers to set clear project goals,
+    timelines, and deliverables
+  - Drive technical excellence by challenging tradeoffs (speed vs. reliability) and
+    taking ownership of high-quality outcomes
   use_cases:
-  - Automotive dealership customer engagement solutions
-  - LLM-powered communication tools for service centers
-  - RAG and LLM-based agent applications
-  - Self-fine-tuned open-source models for automotive domain
+  - Customer engagement tools for automotive dealership service centers
+  - AI-powered communication, scheduling, and payment workflows connecting dealerships
+    and vehicle owners
+  - LLM-based applications using RAG and agent patterns for dealership service operations
+  - Cloud-based SaaS platform for automotive fixed operations
   skills:
-    domains: []
-    languages: [Java, Python, C#]
-    ml: []
     cloud: [AWS, GCP]
-    genai: [OpenAI API, Gemini, RAG, LLM agents, Fine-Tuning, Prompt Engineering]
+    languages: [Java, Python, C#, Kotlin, Swift]
+    ml: [Transformers, Neural Networks, Machine Learning]
+    other: [Drools, Android, iOS, Responsible AI]
+    ops: [Docker, Docker Swarm, Kubernetes, Kong]
+    databases: [MySQL, MongoDB, Redis, Elasticsearch, Vitess]
+    domains: []
+    web: [Angular, React, GWT, Bootstrap, Flutter, Spring Boot, Microservices]
     data: [RabbitMQ, Kafka]
-    other: [Drools]
-    ops: [Docker, Kubernetes]
-    web: [Angular, React, Spring Boot, Microservices]
-    databases: [MySQL, MongoDB, Redis, Elasticsearch]
+    genai: [OpenAI API, Gemini, Fine-Tuning, LLMs, RAG, AI Agents, Codex, Cursor]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7763023'
   location: Noida, IND
-  extracted_at: '2026-02-27T13:07:58.773231'
+  extracted_at: '2026-08-16T00:09:41.289734'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

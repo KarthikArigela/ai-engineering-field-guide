@@ -1,53 +1,61 @@
 company:
   name: Microsoft
-  stage: Public
-  focus: Cloud and AI platform services
+  stage: null
+  focus: |-
+    Cloud software and AI platforms for productivity and
+    developer products
 position:
   title: Principal Software Engineer - Responsible AI (CoreAI)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves designing and building customer-facing
-      Responsible AI services that identify, measure, mitigate,
-      and monitor AI risks in AI-generated content. The preferred
-      qualifications explicitly mention machine learning model
-      development, release, and operations (4+ years), and the
-      role integrates with Azure OpenAI, Azure AI Content Safety,
-      and Azure AI Studio, indicating hands-on work building and
-      deploying AI services.
+      The responsibilities are entirely about designing and
+      operating large-scale distributed cloud services (high
+      availability, low latency, observability, DevOps culture)
+      and integrating existing AI services, with no evidence of
+      shaping model behaviour - no prompt design, retrieval
+      architecture, training, or eval/guardrail authoring is
+      described. The role engineers the service layer for
+      Responsible AI capabilities (Content Safety) while
+      scientists own the model work, and per the
+      serving/infrastructure edge case the deliverable is capacity
+      and reliability, not model behaviour.
   responsibilities:
-  - Design and develop large-scale distributed cloud services for Responsible AI with
-    high availability, scalability, robustness, and observability
-  - Lead project development across the organization, collaborating with subject matter
-    experts and stakeholders to drive release plans
+  - Design and develop large-scale distributed cloud services and solutions focused
+    on high availability, scalability, robustness, and observability
+  - Lead project development across the organization, working with subject matter
+    experts and stakeholders to drive development and release plans
   - Evaluate alternative architectures and technologies to best fit business requirements
     and service KPIs
-  - Own end-to-end development lifecycle and production readiness of services, driving
-    DevOps culture
-  - Conduct code and design reviews to uphold modern software engineering best practices
+  - Take end-to-end responsibility for the development lifecycle and production readiness
+    of services and drive the team's DevOps culture
+  - Uphold modern software engineering best practices through code and design reviews
+    and make service decisions based on data and telemetry
+  - Own the design of new Responsible AI services and their integration with Azure
+    AI Content Safety, Azure OpenAI Service, and Azure AI Studio
   - Collaborate with Microsoft stakeholders to deliver cohesive end-to-end experiences
-    for customers across Azure AI services
-  - Stay current with state-of-the-art technologies to improve customer experience
-    and serve business needs
+    for customers
   use_cases:
-  - Identifying, measuring, mitigating, and monitoring Responsible AI risks in AI-generated
+  - Identify, measure, mitigate, and monitor Responsible AI risks in AI-generated
+    and human-generated content
+  - Content safety and moderation across text, image, audio, video, and multimodal
     content
-  - Content safety analysis across text, image, audio, video, and multimodal content
-  - Integration of Responsible AI services with Azure OpenAI, Azure AI Content Safety,
-    and Azure AI Studio
-  - Enabling builders of all skill levels to create safe AI applications
+  - Customer-facing Responsible AI services delivered with high performance, low latency,
+    and high availability
+  - Integration of Responsible AI capabilities with Azure AI Content Safety, Azure
+    OpenAI Service, and Azure AI Studio
   skills:
-    genai: [Generative AI]
+    cloud: [Azure, Azure OpenAI, Azure AI Content Safety, Azure AI Foundry]
+    languages: [Python, C, C++, C#, Java, JavaScript, Go]
     ml: [Machine Learning]
-    web: [Microservices]
+    other: [Responsible AI, Code Review]
+    ops: [Distributed Systems, DevOps, Observability]
     databases: []
-    data: []
-    cloud: [Azure, Azure OpenAI, Azure ML]
-    ops: [Model Deployment, Distributed Systems, DevOps, CI/CD, Monitoring, Observability]
-    languages: [C#, C++, Java, JavaScript, Go, Python]
     domains: []
-    other: [Responsible AI, Code Review, System Design]
-  is_customer_facing: true
+    web: []
+    data: []
+    genai: []
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10218282'
@@ -57,4 +65,6 @@ meta:
   - New York, USA
   - San Francisco, USA
   - Mountain View, USA
-  extracted_at: '2026-07-22T13:34:53.444817'
+  extracted_at: '2026-08-16T17:59:10.194767'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

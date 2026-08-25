@@ -1,0 +1,64 @@
+company:
+  name: PEMCO
+  stage: ''
+  focus: |-
+    Mutual insurance company offering auto, home, renters, and
+    boat coverage
+position:
+  title: Senior Databricks AI/ML Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role operationalizes models built by others: it
+      explicitly feeds raw data into "models defined by data
+      scientists," scales data scientist models, and builds ETL
+      pipelines, deployment pipelines, and MLOps monitoring. There
+      is no prompt engineering, RAG design, fine-tuning, or
+      output-quality evaluation by this person; Azure OpenAI and
+      Cognitive Services appear only as familiar APIs, not work
+      they shape. The deliverable is data and ML infrastructure,
+      not model behavior.
+  responsibilities:
+  - Serve as Databricks architect, designing and governing Databricks workspaces and
+    Lakehouse architecture across Dev, Test, and Prod environments
+  - Lead implementation of Databricks SQL, Delta Live Tables, and MLflow tracking
+    for reproducible and scalable experimentation
+  - Build and maintain ETL pipelines and data workflows using Databricks, Spark, and
+    SQL Server to ingest and transform structured and unstructured data
+  - Develop automated MLOps workflows for model deployment, monitoring, and observability
+  - Operationalize data scientist models, scaling them to terabyte-scale data and
+    production systems
+  - Conduct workshops and architecture design for analytics projects using Azure and
+    Databricks AI/ML products
+  - Develop and optimize complex SQL queries and stored procedures in SQL Server for
+    data processing and business rules
+  - Conduct code reviews and provide production support, incident resolution, and
+    performance tuning for data workflows
+  use_cases:
+  - Insurance underwriting, pricing, and claims analytics
+  - Fraud detection
+  - Customer engagement analytics
+  - Pattern and anomaly identification in business data
+  - Real-time and offline analytics for data-driven decision making
+  skills:
+    genai: []
+    ml: [Machine Learning, Unsupervised Learning, Anomaly Detection]
+    web: []
+    databases: [SQL Server, Snowflake]
+    data: [Databricks, Delta Live Tables, Spark, ETL, Data Pipelines, Data Engineering,
+      Kafka, Azure Event Hubs]
+    cloud: [Azure, Azure ML, Azure OpenAI, Azure Cognitive Services, Microsoft Fabric,
+      Synapse Analytics]
+    ops: [MLflow, MLOps, CI/CD, Model Deployment, Model Monitoring, Observability]
+    languages: [SQL]
+    domains: []
+    other: [Power BI, Agile, Scrum]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8793427'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T04:37:04.674946'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

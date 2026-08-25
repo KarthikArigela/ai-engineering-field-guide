@@ -1,49 +1,53 @@
 company:
   name: S&P Global
-  stage: Public
-  focus: Financial intelligence and data analytics for global markets
+  stage: ''
+  focus: Financial market intelligence, data, and analytics services
 position:
   title: Senior Java Developer (with Gen AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a senior Java developer role focused on
-      building the platform/framework that powers AI/ML solutions.
-      The core responsibilities are Java backend development,
-      microservices, and cloud infrastructure. While the team
-      works on an AI/ML-powered document extraction platform and
-      GenAI knowledge is listed, the role itself is about building
-      the surrounding platform and infrastructure, not directly
-      building, training, or deploying ML models.
+      The role is a senior Java developer building and maintaining
+      platform features for Foreseer, an AI/ML-powered human-in-
+      the-loop document extraction product. The responsibilities
+      are general software engineering (Java microservices,
+      security, documentation, scalable solutions) with no
+      evidence of shaping model behavior via prompts, retrieval
+      design, fine-tuning, or evals. GenAI appears only as a
+      knowledge qualification ("AI/ML solutions architecture",
+      "Knowledge of GenAI Platforms and tech stacks"), so the role
+      supports rather than shapes the AI system.
   responsibilities:
-  - Design, develop and maintain functionalities to create new solutions on the Foreseer
-    platform
-  - Write high quality code using industry best practices for a cloud-native distributed
-    framework
-  - Implement new features and iterations for document information extraction projects
+  - Design, develop, and maintain functionalities to create new solutions on the Foreseer
+    document extraction platform
+  - Write high-quality code using industry best practices and implement new features
+    and project iterations
   - Implement security measures and compliance standards to protect sensitive data
-  - Maintain comprehensive documentation of platform, processes and procedures
-  - Support and foster a quality-first agile culture built on partnership and trust
-  - Ensure use of standards, governance and best practices for scalable solutions
+    and meet industry regulations
+  - Maintain comprehensive documentation of platform, processes, and procedures for
+    knowledge sharing
+  - Ensure standards, governance, and best practices to deliver high-quality, scalable
+    solutions
   - Learn and understand all aspects of the framework and project deliverables
+  - Support and foster a quality-first, agile culture built on partnership, trust,
+    and sharing
   use_cases:
-  - Information extraction from structured and semi-structured documents
-  - Web content data extraction
-  - Human-in-the-loop AI/ML platform for document processing
-  - Digital transformation solutions for enterprise data
-  - Auto-scalable cloud-native document intelligence platform
+  - Information extraction from structured and semi-structured documents and websites
+  - Human-in-the-loop document processing platform combining AI/ML with a review UI
+  - Digital transformation solutions delivered on a distributed, cloud-native, auto-scalable
+    framework
   skills:
+    cloud: [AWS, AWS S3, EKS, AWS EC2]
+    languages: [Java, Python]
+    ml: []
+    other: [Data Structures and Algorithms, Agile]
+    ops: [CI/CD, Containerization, Git, Azure DevOps, Distributed Systems]
+    databases: [Relational Databases, NoSQL, Redis]
     domains: []
-    languages: [Java, J2EE, Python]
-    ml: [AI/ML Solutions Architecture]
-    cloud: [AWS S3, EKS, AWS EC2]
-    genai: [GenAI Platforms]
-    data: [ActiveMQ]
-    other: [Distributed Systems]
-    ops: [Docker/Containers, CI/CD, Azure DevOps, Git]
-    web: [Spring Boot, Spring Framework, Spring JPA, Spring Security, REST, Microservices,
+    web: [J2EE, Spring Boot, Spring JPA, Spring Security, MVC, REST APIs, Microservices,
       React, Vaadin]
-    databases: [Redis Search, Relational Databases, NoSQL]
+    data: [ActiveMQ, JMS]
+    genai: [Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -52,4 +56,6 @@ meta:
   locations:
   - Gurugram, IND
   - Hyderabad, IND
-  extracted_at: '2026-04-22T12:39:14.001371'
+  extracted_at: '2026-08-16T07:58:51.620254'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

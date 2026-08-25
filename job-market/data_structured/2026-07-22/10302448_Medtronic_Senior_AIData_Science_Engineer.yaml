@@ -1,55 +1,57 @@
 company:
   name: Medtronic
-  stage: Public
+  stage: null
   focus: Healthcare technology and medical devices
 position:
   title: Senior AI/Data Science Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      maintaining AI/ML solutions including generative AI, LLM-
-      based applications, RAG, and agentic workflows, as well as
-      traditional ML models. The engineer is hands-on with model
-      development, production deployment, and MLOps practices
-      throughout the AI lifecycle.
+      The role builds generative AI solutions including LLM-based
+      applications, RAG, and agentic workflows, and defines
+      evaluation, performance, bias, and monitoring frameworks —
+      direct model-shaping work. It also develops classical ML
+      models, but a role shaping both LLM and classical ML systems
+      is ai-first.
   responsibilities:
-  - Translate business objectives into practical analytics and AI solutions for the
-    Commercial domain
   - Lead end-to-end delivery of advanced analytics, machine learning, and AI solutions
-    from ideation to production
+    for the Commercial domain
   - Develop descriptive, diagnostic, predictive, and prescriptive models using statistical
     and machine learning techniques
-  - Build generative AI solutions including LLM-based applications, RAG, and agentic
-    workflows
-  - Turn models into production-ready code, APIs, and enterprise AI applications with
-    MLOps practices
+  - Build generative AI solutions including LLM-based applications, retrieval-augmented
+    generation, and agentic workflows
   - Define evaluation, performance, bias, and monitoring frameworks for AI solutions
-  - Use cloud platforms and distributed computing to build scalable enterprise AI
-    solutions
-  - Mentor and coach data scientists and advance AI practices across the organization
+  - Turn models and requirements into production-ready code, APIs, and enterprise
+    AI applications, with lifecycle management
+  - Develop and maintain machine learning pipelines, reusable libraries, and enterprise
+    AI services
+  - Translate business objectives into analytics and AI solutions and communicate
+    insights to technical and non-technical stakeholders
+  - Mentor data scientists and advance data science and AI practices across the organization
   use_cases:
-  - Commercial analytics for healthcare and MedTech business operations
-  - Customer and operational analytics to drive measurable business impact
-  - Generative AI applications including LLM-based apps, RAG, and agentic workflows
-  - Predictive and prescriptive modeling for complex business challenges
-  - AI-enabled product development for enterprise business processes
+  - Commercial, customer, and operational analytics for a medical technology company
+  - Predictive and prescriptive models to solve complex business challenges
+  - LLM-based applications with retrieval-augmented generation and agentic workflows
+  - AI-enabled products embedded into healthcare business processes
+  - Data-driven decision support for global business stakeholders
   skills:
-    genai: [Generative AI, LLMs, RAG, Agentic Workflows, Prompt Engineering]
-    ml: [scikit-learn, TensorFlow, PyTorch, XGBoost, Machine Learning, Feature Engineering,
-      Model Training, Statistical Modeling]
-    web: [APIs, Microservices]
-    databases: [Snowflake]
-    data: [Data Pipelines]
     cloud: [Cloud Platforms]
-    ops: [MLOps, CI/CD, Model Deployment, Monitoring]
     languages: [Python, SQL]
+    ml: [Machine Learning, Statistical Modeling, Feature Engineering, Model Evaluation,
+      scikit-learn, TensorFlow, PyTorch, XGBoost]
+    other: [A/B Testing, Responsible AI, Healthcare]
+    ops: [MLOps, CI/CD, ML Pipelines, Monitoring, Distributed Systems]
+    databases: [Snowflake]
     domains: []
-    other: [Distributed Systems, A/B Testing, Responsible AI]
+    web: [APIs]
+    data: []
+    genai: [Generative AI, LLMs, RAG, Agentic Workflows]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10302448'
   location: IND
   remote: true
-  extracted_at: '2026-07-22T13:40:02.980217'
+  extracted_at: '2026-08-16T18:40:33.706895'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

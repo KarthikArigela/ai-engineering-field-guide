@@ -1,0 +1,57 @@
+company:
+  name: Prophecy
+  stage: ''
+  focus: AI-native data preparation and analysis platform
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: leading fine-tuning
+      (SFT, DPO, RLHF), distillation, quantization, prompt
+      orchestration, RAG design, and building multi-agent systems
+      with eval harnesses and A/B prompt testing. LLM and agent
+      components are central to every requirement, so this is ai-
+      first.
+  responsibilities:
+  - Lead fine-tuning (SFT, DPO, RLHF), distillation, and quantization of LLMs using
+    PyTorch and Hugging Face
+  - Ship production AI agents built with frameworks like LangChain, LlamaIndex, and
+    CrewAI
+  - Design RAG pipelines, vector database integrations, and prompt orchestration
+  - Build multi-agent systems for ETL automation and code-generation loops, including
+    eval harnesses and reliability/latency benchmarking
+  - 'Enforce MLOps/DevOps discipline for agents: CI/CD, canary releases, observability,
+    and A/B prompt testing'
+  - Architect high-scale backends (10k+ RPS) on AWS/GCP with Kubernetes and serverless
+  - Code weekly prototypes, debug, unblock, and mentor staff engineers on the toughest
+    problems
+  - Own vision, roadmap, and MVPs for open-ended user-facing AI projects from ambiguity
+    to impact
+  use_cases:
+  - AI-native data preparation and transformation at enterprise scale
+  - ETL automation through multi-agent systems
+  - Code generation and text-to-SQL for data pipelines
+  - Semantic extraction and knowledge graph construction
+  - AI-assisted data analysis with agents and humans collaborating in visual and document
+    interfaces
+  skills:
+    genai: [Fine-Tuning, RLHF, LangChain, LlamaIndex, CrewAI, AI Agents, RAG, Prompt
+        Engineering, Multi-Agent Systems, LLM Evaluation, Codex, Text-to-SQL]
+    ml: [PyTorch, Hugging Face, Distillation, Quantization]
+    web: [APIs]
+    databases: [Vector Databases, Pinecone, Weaviate, Neo4j, Neptune, Knowledge Graphs]
+    data: [Spark, ETL]
+    cloud: [AWS, GCP, Serverless]
+    ops: [MLOps, DevOps, CI/CD, Kubernetes, Observability]
+    languages: [Python, Go, Java, Scala, SQL]
+    domains: []
+    other: [A/B Testing, Code Review, Compiler Development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8421850'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T01:15:58.293487'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

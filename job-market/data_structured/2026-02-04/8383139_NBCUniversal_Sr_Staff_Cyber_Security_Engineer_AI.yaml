@@ -1,59 +1,63 @@
 company:
   name: NBCUniversal
-  stage: Public
-  focus: Global media and entertainment company
+  stage: Subsidiary of Comcast Corporation
+  focus: |-
+    Media and entertainment company producing film, TV, and
+    streaming content
 position:
   title: Sr Staff Cyber Security Engineer (AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a cybersecurity role focused on security controls,
-      threat modeling, and risk mitigation for AI systems and
-      emerging technologies. The engineer designs security
-      frameworks and safeguards for AI implementations rather than
-      building, training, or deploying AI models themselves.
+      This is a security architecture role that provides
+      oversight, threat modeling, and security guidance for AI
+      systems and other emerging technologies, rather than shaping
+      model behavior or output quality. The person develops
+      control strategies and mitigation requirements for systems
+      built by other engineering teams, which falls under
+      governance/oversight of models. No evidence exists that they
+      build evals or guardrails themselves, so the role is ai-
+      support.
   responsibilities:
-  - Partner with business, enterprise IT, and Cyber Security teams to ensure secure
-    technology design and deployment aligned with security strategies
-  - Function as a security subject matter expert embedded with engineering teams,
-    developing threat models and control strategies for new and evolving platforms
-  - Design and implement security controls for AI systems and other emerging technologies,
-    addressing wide variety of system threats
-  - Collaborate across the Cyber organization to provide security guidance and mitigation
-    requirements to business stakeholders
-  - Communicate the importance of key Cyber programs to obtain support, trust, and
-    buy-in from business and technology teams
-  - Develop and document security guidelines and best practices for AI systems and
-    other technology platforms
-  - Provide mentorship to junior team members and foster a culture of continuous improvement
-    and excellence
+  - Partner with NBCUniversal businesses, enterprise IT, and the Cyber Security organization
+    to ensure technology is designed and deployed securely and aligned with security
+    and enterprise technology strategies
+  - Serve as a security subject matter expert embedded with engineering teams delivering
+    solutions across NBCUniversal
+  - Develop security controls applicable to AI systems and other emerging technologies
+  - Develop threat models and control strategies integrated into the design, development,
+    and operation of new and evolving technology platforms
+  - Collaborate across the Cyber organization and with business stakeholders to produce
+    security guidance and mitigation requirements
+  - Communicate the importance of key Cyber programs and services to obtain support,
+    trust, and buy-in from business and technology teams
+  - Develop and document security guidelines and security best practices
+  - Provide mentorship to more junior members of the team
   use_cases:
-  - Securing generative AI platforms such as Azure OpenAI services and models including
-    GPT-4, Llama, and Midjourney
-  - Protecting AI systems from common security threats and mitigating associated safety
-    and security risks
-  - Implementing security controls for cloud-based AI services and emerging technology
-    platforms
-  - Managing data privacy and compliance for AI applications handling sensitive information
-  - Addressing security requirements for AI applications across film, television,
-    streaming, and theme park operations
+  - Security architecture and threat modeling for AI systems and other emerging technologies
+  - Secure design and deployment of technology platforms across media and entertainment
+    businesses
+  - Security guidance and mitigation for network, cloud, web, and application environments
+  - Risk identification and mitigation for generative AI platforms and ML technologies
+  - Compliance alignment with data privacy and security regulations
   skills:
-    domains: []
+    cloud: [Azure OpenAI, Cloud Computing]
     languages: []
-    ml: []
-    cloud: [Azure OpenAI services, Cloud security, 'Cloud platforms (IaaS, PaaS, SaaS)']
-    genai: [Generative AI platforms]
-    data: []
-    other: [AI/ML Security, Threat modeling, MITRE ATT&CK, OWASP Top 10, CWE/SANS
-        Top 25, NIST CSF, CIS Critical Security Controls, Security architecture, 'GRC
-        (Governance, Risk, Compliance)', Incident Response, GDPR, CCPA, PCI DSS, HIPAA
-        Compliance, SOX]
+    ml: [Machine Learning]
+    other: [Cybersecurity, Security Architecture, Threat Modeling, OWASP Top 10, CWE/SANS
+        Top 25, MITRE ATT&CK, Cloud Security Matrix, NIST CSF, CIS Critical Security
+        Controls, Incident Response, GRC, PCI DSS, SOX, HIPAA Compliance, GDPR, CCPA]
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, GPT-4, Llama, Midjourney]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8383139'
   location: New York, USA
-  extracted_at: '2026-02-05T13:01:54.635574'
+  extracted_at: '2026-08-15T23:31:26.891752'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

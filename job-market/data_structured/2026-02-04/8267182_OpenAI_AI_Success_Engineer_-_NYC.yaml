@@ -1,58 +1,67 @@
 company:
   name: OpenAI
-  stage: Public
-  focus: AI research and deployment company
+  stage: null
+  focus: |-
+    AI research and deployment company building general-purpose
+    AI products
 position:
   title: AI Success Engineer - NYC
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a post-sales customer success role focused on
-      helping customers adopt and deploy OpenAI's existing AI
-      products rather than building or training models. The role
-      involves technical advisory, account management, workflow
-      mapping, and configuration guidance - supporting customers
-      who use AI platforms rather than working directly ON AI
-      systems.
+      This is a post-sales customer success / technical account
+      management role: it advises, enables, and coordinates
+      enterprise adoption of OpenAI products, with the deliverable
+      being account health, deployment, and value realization. It
+      requires being able to explain model behavior, embeddings,
+      retrieval augmentation, and fine-tuning approaches, but the
+      person does not themselves build prompts, design retrieval
+      or agent flows, or otherwise shape model behavior. Customer-
+      facing advisory work alone does not make the role ai-first,
+      so it classifies as ai-support.
   responsibilities:
-  - Lead technical relationship for post-sale customers as trusted advisor on deployment,
-    adoption, and value realization
+  - Lead the technical relationship for post-sale customers as trusted advisor on
+    deployment, adoption, and value realization
   - Own account health, adoption velocity, and ongoing technical deployment across
-    customer portfolio
-  - Conduct technical enablement and configuration sessions across OpenAI products
-    including API, agentic platform, ChatGPT Enterprise, and Codex
-  - Identify and validate use cases by embedding with customer teams to understand
-    workflows and pain points
-  - Lead account level coordination across workstreams including product activation,
-    change management, and deployment planning
-  - Translate customer objectives into actionable adoption roadmaps with clear sequencing,
-    milestones, and KPIs
-  - Partner cross-functionally with Solutions Architecture, Product, Engineering and
-    Research to surface customer feedback and field patterns
-  - Guide value realization and measure impact through baselines, KPI definition,
-    and post-deployment reporting
+    a customer portfolio
+  - Serve as product expert across the OpenAI API, agentic platform, Codex, and ChatGPT
+    Enterprise, conducting technical enablement and configuration sessions
+  - Identify and validate use cases by embedding with customer teams to map workflows
+    and pain points
+  - Lead multi-workstream account coordination including new product activation, change
+    management, and rollout planning
+  - Translate customer objectives into actionable adoption roadmaps with sequencing,
+    milestones, and KPIs, and report on post-deployment impact
+  - Partner with Solutions Architecture, Product, Engineering, and Research by surfacing
+    customer feedback, field patterns, and technical blockers
+  - Facilitate workshops on use case design, adoption best practices, and internal
+    enablement, and drive customer expansions
   use_cases:
-  - Enterprise workflow transformation using OpenAI's AI platform
-  - Technical integration and deployment of ChatGPT Enterprise for large organizations
-  - Codex-powered automation and code generation workflows
-  - Agentic platform implementation for autonomous AI workflows
-  - API-driven AI adoption across business lines and processes
-  - Customer use case design from initial deployment to scaled enterprise adoption
+  - Enterprise post-sales deployment and adoption of OpenAI's API and agentic platform
+  - Customer enablement and configuration of Codex, ChatGPT Enterprise, and OpenAI
+    APIs
+  - Identifying and validating new AI use cases within customer business workflows
+  - Secure enterprise integration with SSO and compliance requirements like GDPR and
+    HIPAA
+  - Customer value realization measured through baselines, KPIs, and post-deployment
+    reporting
   skills:
-    domains: []
+    cloud: [Cloud Platforms]
     languages: [Python, JavaScript]
-    ml: [Fine-Tuning, custom model usage]
-    cloud: [SSO, enterprise security, cloud platforms]
-    genai: [OpenAI API, OpenAI SDKs, Embeddings, retrieval augmentation, ChatGPT Enterprise,
-      agentic platform, Codex]
-    data: []
-    other: [GDPR, HIPAA Compliance, enterprise compliance]
+    ml: []
+    other: [SSO, Encryption, GDPR, HIPAA Compliance]
     ops: [CI/CD, Docker]
-    web: [REST APIs]
     databases: []
+    domains: []
+    web: [REST APIs]
+    data: []
+    genai: [OpenAI API, Codex, ChatGPT Enterprise, Embeddings, RAG, Fine-Tuning, Generative
+        AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8267182'
   location: New York, USA
-  extracted_at: '2026-02-05T12:26:49.070923'
+  extracted_at: '2026-08-15T23:02:46.280593'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

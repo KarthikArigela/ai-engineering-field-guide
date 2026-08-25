@@ -1,60 +1,62 @@
 company:
   name: Graham Holdings Company
-  stage: Public
-  focus: Education and test preparation services
+  stage: null
+  focus: Education and professional training services (Kaplan)
 position:
   title: Data Engineer, AI (Hybrid)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a data engineering position building
-      pipelines and lakehouse transformations in Databricks to
-      deliver analytics-ready data. While it supports AI/ML
-      initiatives through data preparation, feature engineering
-      datasets, and RAG-style data preparation, the core work is
-      data pipeline construction and governance, not directly
-      building, training, or deploying ML models or agents.
+      This is a data engineering role whose deliverable is
+      pipelines, transformations, and curated datasets in a
+      Databricks Lakehouse; AI/ML is "enabled" by providing
+      governed features and training datasets for others, matching
+      the dataset-plumbing edge case. GenAI involvement is limited
+      to supporting prompt engineering iteration with test cases,
+      evaluation datasets, telemetry, and RAG-style data
+      preparation - the person does not write the prompts or
+      design the retrieval system themselves.
   responsibilities:
   - Design, build, and operate reliable ELT/ETL pipelines to ingest, transform, and
     curate analytics-ready datasets
-  - Own the Lakehouse transformation layer in Databricks including workflows, notebooks,
-    and jobs using Spark/SQL/Python
-  - Build data quality controls, validation, reconciliation, and observability (monitoring,
-    alerting, SLAs) for pipelines and jobs
-  - Optimise performance and cost through efficient compute usage, incremental processing,
-    partitioning, and tuning of Spark/SQL workloads
-  - Support AI/ML initiatives through data preparation, pipeline build-out, feature/training
-    dataset curation, and integration into production patterns
-  - Collaborate on GenAI projects including prompt engineering iteration support,
-    evaluation datasets, and telemetry/metrics
-  - Apply security-by-design principles and governance requirements including data
-    classification, retention, lineage, and access controls
-  - Contribute to Lakehouse design decisions (data layout, medallion architecture,
-    Delta patterns, access strategies) with AI team and stakeholders
+  - Implement and maintain data models (dimensional and lakehouse curated layers)
+    with semantic definitions for reporting, analytics, and AI use cases
+  - Act as the primary engineer for the Databricks Lakehouse transformation layer,
+    building workflows, notebooks, and jobs with Spark/SQL/Python
+  - Build data quality controls and observability (monitoring, alerting, SLAs) and
+    optimise performance and cost of Spark/SQL workloads
+  - Support AI/ML initiatives through data preparation, pipeline build-out, and governed
+    feature/training datasets with versioning and reproducibility
+  - Collaborate on GenAI projects with prompt engineering iteration support, including
+    test cases, evaluation datasets, and telemetry
+  - Apply security-by-design and governance requirements (classification, retention,
+    lineage, access controls) across ingestion and transformation
+  - Support audits and assurance activities with evidence of controls and data handling
+    practices
   use_cases:
-  - Lakehouse data transformation and analytics-ready dataset delivery for Kaplan
-    Australia
-  - Data pipeline construction for reporting, analytics, and AI/ML consumption
-  - Feature and training dataset preparation for ML model enablement
-  - RAG-style data preparation including document ingestion, chunking, and metadata
-    enrichment
-  - Prompt engineering evaluation and performance telemetry for GenAI solutions
-  - Data governance, security, and compliance in a regulated education environment
+  - Analytics-ready data delivery for reporting and business analytics at Kaplan Australia
+  - Lakehouse data transformation and curated layers in Databricks
+  - AI/ML enablement through governed feature and training datasets
+  - GenAI project support including RAG-style data preparation and prompt evaluation
+    datasets
+  - Semantic retrieval data preparation using embeddings and vector search
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Embeddings]
     cloud: [AWS]
-    genai: [RAG, Prompt Engineering]
-    data: [Databricks, Spark, Data Pipelines, Data Modelling, Medallion Architecture,
-      Delta Lake, Data Quality Management]
-    other: [Data Governance, Jira, Confluence, Microsoft 365, Agile]
-    ops: []
-    web: []
+    languages: [Python, SQL]
+    ml: [Feature Engineering]
+    other: [Jira, Confluence, Microsoft 365, Agile, PII Handling]
+    ops: [Observability, Monitoring]
     databases: [Vector Search]
+    domains: []
+    web: []
+    data: [Databricks, Spark, Data Pipelines, Data Modeling, Data Engineering, Data
+        Quality, Data Governance, Medallion Architecture, Delta Lake]
+    genai: [Prompt Engineering, RAG, LLMs, Generative AI, Embeddings, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9905332'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:57:04.831000'
+  extracted_at: '2026-08-16T16:01:48.449640'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

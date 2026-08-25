@@ -1,0 +1,50 @@
+company:
+  name: Cloudflare
+  stage: null
+  focus: Global network and Internet security/performance services
+position:
+  title: Software Engineer, AI Agents
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds production AI agents: designing agent flows,
+      tool calling with MCP and Agent SDK, prompts, evals,
+      guardrails, and output-quality monitoring. This is directly
+      shaping LLM/agent behavior, making it ai-first.
+  responsibilities:
+  - Build production AI agents on Cloudflare Workers with Durable Objects for state
+    and short-term memory
+  - Wire agent tools using the Agent SDK, MCP, and function calling
+  - Use Vectorize, KV, R2, and D1 for semantic memory, caching, files, and configuration
+  - Run models through Workers AI and AI Gateway and integrate third-party models
+  - Create evals, guardrails, and audits; measure, tune, and re-ship quickly
+  - Build agents that summarize, propose fixes, and escalate to humans
+  - Integrate with queues, webhooks, and Pub/Sub for event publishing
+  - Design observability with structured logging and end-to-end tracing for distributed
+    AI workflows
+  use_cases:
+  - Customer support agents at global scale
+  - Agent-driven case summarization, fix proposals, and human escalation
+  - Semantic memory and recall for agent conversations
+  - Reducing cost per support case and time to first response
+  skills:
+    genai: [AI Agents, Agentic Workflows, MCP, Function Calling, Prompt Engineering,
+      LLM Evaluation, Guardrails, LLMs, Embeddings]
+    ml: []
+    web: [APIs, Webhooks]
+    databases: [PostgreSQL, Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS]
+    ops: [Observability, Monitoring, Distributed Systems]
+    languages: [TypeScript, Rust]
+    domains: []
+    other: [Cloudflare Workers, Durable Objects, Workers AI, AI Gateway, Pub/Sub,
+      Salesforce, Service Cloud]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10775359'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:46:36.483877'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

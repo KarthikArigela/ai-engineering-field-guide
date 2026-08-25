@@ -1,0 +1,65 @@
+company:
+  name: Sia Partners
+  stage: ''
+  focus: |-
+    Global management consulting firm combining strategy and
+    data science
+position:
+  title: Generative AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing prompt
+      templates (CoT, ReAct, Graph-of-Thought, agent flows),
+      implementing RAG pipelines, building autonomous agents,
+      benchmarking LLMs for use-case fit, and evaluating fine-
+      tuning strategies (PEFT, LoRA, RLHF). Since LLM/agent
+      components are central to the work, this is ai-first.
+  responsibilities:
+  - Build LLM-powered applications using frameworks like LangChain and LlamaIndex
+  - Implement RAG pipelines with vector databases (Pinecone, FAISS, pgvector, ChromaDB)
+    to ground LLM responses in internal knowledge
+  - Design robust, reusable prompt templates using CoT, ReAct, Graph-of-Thought, and
+    agent flows, and tune prompt flows to improve model reliability, relevance, and
+    UX
+  - Develop multimodal AI solutions (text, audio, image) and build autonomous agents
+    where relevant
+  - Drive MLOps excellence including CI/CD for ML pipelines, drift detection, canary
+    releases, and retraining schedules
+  - Deploy GenAI models on AWS/GCP/Azure using services like SageMaker, Bedrock, and
+    Vertex AI
+  - Ensure performance observability, security guardrails, and compliance (GDPR, Responsible
+    AI)
+  - Benchmark open-source and commercial LLMs for use-case fit and evaluate fine-tuning
+    strategies (PEFT, LoRA, RLHF); support cross-functional teams in delivering PoCs
+    and enterprise rollouts
+  use_cases:
+  - Bespoke GenAI solutions for enterprise clients across sectors such as banking,
+    energy, healthcare, and technology
+  - Grounding LLM responses in internal company knowledge via RAG and semantic search
+  - Autonomous agents and agentic workflows embedded in business applications
+  - Multimodal AI applications spanning text, audio, and image
+  - Cost-effective value delivery by matching refinement level (semantic search, RAG,
+    agents, fine-tuning) to customer business needs
+  skills:
+    genai: [LLMs, Generative AI, OpenAI API, Anthropic API, Mistral, LangChain, LlamaIndex,
+      RAG, Semantic Search, AI Agents, Agentic Workflows, Prompt Engineering, Chain
+        of Thought, ReAct, Graph-of-Thought, Embeddings, Guardrails, LLM Evaluation,
+      Multimodal AI, Fine-Tuning, PEFT, LoRA, RLHF]
+    ml: [PyTorch, Hugging Face, Transformers, NLP, Machine Learning]
+    web: [FastAPI, Flask, Microservices, APIs]
+    databases: [Pinecone, FAISS, pgvector, Chroma, Qdrant, Milvus, Weaviate]
+    data: []
+    cloud: [AWS, GCP, Azure, SageMaker, AWS Bedrock, Vertex AI]
+    ops: [MLOps, CI/CD, DevOps, Observability]
+    languages: [Python]
+    domains: []
+    other: [GDPR, Responsible AI]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9447320'
+  location: Mumbai, IND
+  extracted_at: '2026-08-16T11:29:38.753534'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,18 +1,21 @@
 company:
   name: Trimble
-  stage: Public
-  focus: Geospatial and positioning technology solutions
+  stage: null
+  focus: |-
+    Technology company; enterprise revenue and financial
+    automation
 position:
   title: Staff software Engineer -  Snowflake/AI Automation Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is ai-support because it focuses on building data
-      pipelines and infrastructure on Snowflake to support AI
-      initiatives, rather than building or deploying AI/ML models
-      directly. The engineer prepares datasets and enables AI/ML
-      analytics but does not work hands-on with model development,
-      training, or deployment.
+      The role is fundamentally Snowflake data engineering:
+      building data models, pipelines, and ERP integrations for
+      revenue automation. Snowflake AI features (Cortex Analyst,
+      Snowflake Intelligence) are consumed as product capabilities
+      rather than shaped through prompting, RAG design, or
+      evaluation, and preparing governed datasets for others'
+      modeling is plumbing rather than shaping model behavior.
   responsibilities:
   - Design, build, and optimize Snowflake-based data models and pipelines to support
     Revenue AI and automation use cases
@@ -20,32 +23,32 @@ position:
     and reporting
   - Integrate Snowflake with ERP systems like Salesforce and Oracle to enable end-to-end
     Quote-to-Revenue workflows
-  - Support AI/ML-enabled analytics by preparing high-quality, governed datasets for
-    advanced modeling and automation
-  - Collaborate with Finance, Revenue Accounting, IT, and Data Science teams to translate
-    business requirements into technical solutions
+  - Prepare high-quality, governed datasets to support AI/ML-enabled analytics and
+    automation
   - Ensure data accuracy, reconciliation, and compliance with SOX and audit requirements
   - Optimize Snowflake performance, cost management, and security best practices
+  - Participate in system upgrades, enhancements, and production support for revenue
+    systems
   - Contribute to documentation, controls, and operational runbooks for enterprise
     data platforms
   use_cases:
   - Revenue recognition automation
-  - Financial forecasting and analytics
-  - Quote-to-Revenue workflow automation
-  - ERP data integration and reconciliation
-  - Compliance and audit-ready revenue processes
+  - Revenue forecasting and analytics
+  - End-to-end Quote-to-Revenue workflows across ERP systems
+  - AI-driven automation of enterprise financial and revenue processes
+  - SOX-compliant, audit-ready reporting and reconciliation
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [Cortex Analyst]
-    data: [Data Pipelines, dbt, Airflow]
-    other: [Oracle EBS, Oracle Cloud ERP, SAP, NetSuite, RevPro, Data governance,
-      Salesforce]
+    languages: [SQL, Python]
+    ml: [Machine Learning, Predictive Modeling]
+    other: [Oracle EBS, Oracle Cloud ERP, SAP, NetSuite, RevPro, Salesforce, SOX Compliance,
+      Revenue Recognition]
     ops: [CI/CD]
+    databases: [Snowflake]
+    domains: []
     web: []
-    databases: [Snowflake, Snowflake Intelligence]
+    data: [Data Modeling, Data Pipelines, Data Governance, dbt, Airflow]
+    genai: [Cortex Analyst, Cortex Search, Snowflake Intelligence]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +58,6 @@ meta:
   - Pune, IND
   - Chennai, IND
   remote: true
-  extracted_at: '2026-03-03T11:47:51.446684'
+  extracted_at: '2026-08-16T02:41:05.121684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

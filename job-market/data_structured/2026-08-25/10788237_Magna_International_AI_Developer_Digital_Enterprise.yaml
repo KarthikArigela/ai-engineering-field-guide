@@ -1,0 +1,54 @@
+company:
+  name: Magna International
+  stage: null
+  focus: Automotive mobility technology and parts supplier
+position:
+  title: AI Developer, Digital Enterprise
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly designs and implements RAG and agentic
+      workflows using LangChain and LangGraph (tooling, chaining,
+      memory, orchestration), which is shaping LLM behavior.
+      Though heavily platform/MLOps-oriented, the presence of
+      hands-on RAG/agent design makes it ai-first.
+  responsibilities:
+  - Design, build, and maintain AI/ML platform components (training clusters, feature
+    stores, inference services, GenAI, vision, RAG, NLP)
+  - Develop and manage infrastructure-as-code for scalable deployments (Terraform,
+    ARM templates)
+  - Implement and operate CI/CD pipelines for automated model training, testing, and
+    deployment
+  - Integrate AI services with existing systems via APIs, messaging, and data pipelines
+  - Monitor performance, reliability, and model drift; establish alerting and incident-response
+    runbooks
+  - Optimize system performance through capacity planning, tuning, and disaster recovery
+  - Write and maintain high-quality reusable code and libraries in C#, Python, and
+    Java
+  - Collaborate with cross-functional teams and document system designs and SOPs
+  use_cases:
+  - Enterprise AI platform for the automotive/mobility business
+  - GenAI, vision, RAG, and NLP services in production
+  - Automated model training and deployment pipelines
+  - AI service integration with enterprise systems via APIs and messaging
+  - Model drift monitoring and reliability at enterprise scale
+  skills:
+    genai: [RAG, Agentic Workflows, LangChain, LangGraph, Generative AI]
+    ml: [PyTorch, TensorFlow, scikit-learn, Machine Learning]
+    web: [Microservices, APIs]
+    databases: [Feature Stores]
+    data: [Kafka, Azure Data Factory, Databricks, Apache Beam, Data Pipelines]
+    cloud: [AWS, Azure]
+    ops: [Docker, Kubernetes, Helm, MLOps, GitLab CI, ArgoCD, MLflow, Terraform, CI/CD,
+      Prometheus, Grafana, ELK Stack, Monitoring, Model Deployment, Azure Monitor]
+    languages: [Python, C#, Java]
+    domains: [NLP, Computer Vision]
+    other: [Infrastructure as Code, Distributed Systems, GDPR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10788237'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:51:21.356202'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

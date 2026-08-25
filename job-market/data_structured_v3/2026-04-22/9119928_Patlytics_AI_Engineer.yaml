@@ -1,0 +1,64 @@
+company:
+  name: Patlytics
+  stage: Series B ($40M led by SignalFire)
+  focus: AI-native patent intelligence platform for IP workflows
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: designing multi-step
+      LLM pipelines with prompt architecture, model selection, and
+      structured output contracts; building evals frameworks and
+      golden datasets; developing retrieval systems (vector
+      search, BM25, re-ranking); and architecting agentic
+      workflows. Since LLMs and generative AI are the core models
+      being shaped, Step 2 yields ai-first.
+  responsibilities:
+  - Design, implement, and iterate on multi-step LLM pipelines for patent claim analysis,
+    infringement detection, and prior art search, including model selection, prompt
+    architecture, and structured output contracts
+  - Build and maintain a rigorous evals framework defining success metrics per pipeline
+    stage, curating golden datasets from real IP cases, and running continuous regression
+    testing
+  - Develop retrieval systems (vector search, BM25 hybrids, re-ranking) optimized
+    for patent corpus characteristics like long documents and technical claim language
+  - Architect and ship agentic workflows coordinating tool use, memory, and multi-turn
+    reasoning over complex IP research tasks
+  - Collaborate with patent attorneys and domain experts to encode expert judgment
+    into prompts, rubrics, and fine-tuning datasets, and measure the results
+  - Own cost, latency, and quality tradeoffs for production inference, including prompt
+    caching, context window management, batching, and model migration planning on
+    AWS, GCP, and LLM providers
+  - Build tools to monitor data pipeline performance, data quality, and models in
+    production
+  - Improve ML methodologies by running computational experiments, testing enhancements,
+    and fine-tuning parameters
+  use_cases:
+  - Patent claim analysis
+  - Infringement detection
+  - Prior art search
+  - Agentic automation of complex IP research tasks
+  - Citation-backed patent intelligence across the IP workflow from invention disclosure
+    to litigation
+  skills:
+    genai: [LLMs, Generative AI, Prompt Engineering, Structured Outputs, Agentic Workflows,
+      Function Calling, LLM Evaluation, Fine-Tuning, Re-ranking, Prompt Caching, Claude,
+      GPT, Gemini]
+    ml: [Machine Learning, scikit-learn]
+    web: [APIs]
+    databases: [Vector Search, BM25, Data Warehousing]
+    data: [Pandas, Spark, Data Pipelines, Data Modeling]
+    cloud: [AWS, GCP]
+    ops: [Monitoring, Observability]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9119928'
+  location: New York, USA
+  extracted_at: '2026-08-16T08:22:03.811785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

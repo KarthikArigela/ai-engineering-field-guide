@@ -1,54 +1,63 @@
 company:
   name: Dojo
-  stage: Public
+  stage: null
   focus: Payments infrastructure for in-person commerce
 position:
   title: Senior Software Engineer - AI Platform Engineering
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is an AI Platform Engineering role focused on building
-      infrastructure, APIs, orchestration, and tooling to enable
-      other teams to consume AI capabilities. The engineer builds
-      platforms and foundations for AI adoption rather than
-      directly building, training, or fine-tuning models
-      themselves.
+      This platform engineer directly shapes model behaviour: they
+      implement agent orchestration (LangGraph, CrewAI, Google
+      ADK), build vector search and retrieval systems powering
+      RAG, and build guardrails and monitoring for LLM output
+      quality — not merely serving models another team configured.
+      Because the shaped components are LLMs and agents, this is
+      ai-first despite the platform engineering framing.
   responsibilities:
-  - Design and build the AI platform that powers LLMs, agents, and other AI solutions
+  - Design and build the core AI platform powering LLMs, agents, and other AI solutions
     across Dojo
-  - Develop APIs, SDKs, and tooling that allow product teams to consume AI capabilities
-    at scale
-  - Implement orchestration for multi-model and multi-service workflows using frameworks
-    like LangGraph, Crew AI, and agentic frameworks
-  - Build and manage vector search and retrieval systems to support RAG and knowledge
+  - Develop APIs, SDKs, and tooling so product teams can consume AI capabilities at
+    scale with strong developer experience
+  - Implement orchestration for multi-model and multi-service workflows using agentic
+    frameworks such as LangGraph, CrewAI, and Google ADK
+  - Build and manage vector search and retrieval systems supporting RAG and knowledge
     integration
-  - Build robust monitoring, logging, and guardrails to ensure AI systems are safe,
-    observable, and compliant
+  - Build monitoring, logging, and guardrails to keep AI systems safe, observable,
+    and compliant
   - Automate infrastructure and model deployment with Kubernetes, Terraform, and CI/CD
     pipelines
-  - Partner with security, compliance, and product teams to ensure safe use of AI
-    in production
+  - Partner with security, compliance, and product to ensure safe use of AI in production
+  - Track AI platform trends and open-source tools to bring best practices into the
+    stack
   use_cases:
-  - Enabling product teams to consume LLM capabilities at scale through APIs and SDKs
-  - Orchestrating multi-model and multi-service AI workflows using agentic frameworks
-  - Supporting RAG implementations with vector search and retrieval systems
-  - Monitoring and ensuring safety of AI systems in production environments
-  - Deploying and managing AI models through automated infrastructure pipelines
+  - Central AI platform enabling LLMs, agents, and AI solutions across a payments
+    company
+  - RAG-based knowledge integration backed by vector search and retrieval systems
+  - Multi-model, multi-service agentic workflow orchestration
+  - Safe, observable, and compliant AI in production via monitoring, logging, and
+    guardrails
+  - Self-service AI consumption for product teams through APIs and SDKs
   skills:
-    domains: []
+    cloud: [GCP, Vertex AI, Cloud-Native Architecture]
     languages: [Python, Go, Java, .NET]
     ml: []
-    cloud: [VertexAI, GCP]
-    genai: [LangChain, LangGraph, CrewAI, Google Agent Development Kit, RAG]
+    other: [Event-Driven Architecture, Responsible AI]
+    ops: [Kubernetes, Service Mesh, Terraform, CI/CD, Helm, Infrastructure as Code,
+      MLOps, MLflow, Ollama, OpenRouter, Prometheus, Grafana, LangSmith, Opik, Observability,
+      Monitoring, Model Deployment, Distributed Systems]
+    databases: [Vector Databases, Vector Search, FAISS, Pinecone, Weaviate, Vertex
+        Vector Search]
+    domains: []
+    web: [APIs, Microservices]
     data: []
-    other: [Distributed Systems, Microservices, event-driven systems]
-    ops: [LangSmith, Prometheus, Grafana, MLflow, Ollama, OpenRouter, Kubernetes,
-      Terraform, Helm, CI/CD, service mesh]
-    web: []
-    databases: [FAISS, Pinecone, Weaviate, Vertex Vector Search]
+    genai: [LLMs, AI Agents, Agentic Workflows, LangChain, LangGraph, CrewAI, Google
+        ADK, RAG, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7105692'
   location: London, GBR
-  extracted_at: '2026-02-05T10:16:54.757670'
+  extracted_at: '2026-08-15T21:18:57.289026'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

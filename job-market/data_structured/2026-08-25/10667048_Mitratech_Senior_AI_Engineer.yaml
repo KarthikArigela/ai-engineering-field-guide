@@ -1,0 +1,55 @@
+company:
+  name: Mitratech
+  stage: null
+  focus: Legal, Risk, Compliance and HR operations software
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and operates LLM agents, RAG architectures,
+      MCP servers, prompt versioning, and evaluation
+      pipelines—directly shaping model behavior and output
+      quality, with LLMs as the target. Full-stack platform work
+      reinforces but the shaping activities decide.
+  responsibilities:
+  - Design and own LLM-powered agents end-to-end for internal tooling, customer-facing
+    features, and workflow automation
+  - Design agent workflows and RAG architectures for team-level use
+  - Build and operate MCP servers exposing company data and services as structured
+    tools for AI models
+  - Define testing, reliability, and operational practices; own delivery and on-call
+    quality for major services
+  - Stand up evaluation pipelines (Langfuse + eval harnesses) and prompt-versioning
+    practices to drive reliability and cost/quality improvements
+  - Lead design reviews, mentor across the team, and drive engineering practice improvements
+  - Collaborate with product, data, and platform teams to deliver agent-based solutions
+    with platform patterns and governance hooks
+  - Ship full-stack platform components including FastAPI services, Terraform infrastructure,
+    and CI/CD delivery
+  use_cases:
+  - Internal tooling automation via LLM agents
+  - Customer-facing AI features in legal, risk, compliance, and HR products
+  - Workflow automation through agent-based solutions
+  - Company data and services exposed as tools to AI models via MCP servers
+  skills:
+    genai: [LangChain, LangGraph, RAG, AI Agents, MCP, Anthropic API, LLMs, Generative
+        AI, Prompt Engineering, LLM Evaluation]
+    ml: [Pydantic]
+    web: [FastAPI, OAuth, React]
+    databases: [Redis, Snowflake, DynamoDB, PostgreSQL, MongoDB, SQLAlchemy]
+    data: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, ECS, API Gateway]
+    ops: [Terraform, CI/CD, Langfuse, Observability]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [JWT, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10667048'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:11:09.618488'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

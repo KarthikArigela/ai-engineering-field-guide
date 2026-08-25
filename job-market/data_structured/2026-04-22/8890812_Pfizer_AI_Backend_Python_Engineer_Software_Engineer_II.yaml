@@ -1,52 +1,56 @@
 company:
   name: Pfizer
-  stage: Public
-  focus: Global pharmaceutical and biotechnology corporation
+  stage: null
+  focus: Global pharmaceutical and biotechnology company
 position:
   title: AI Backend Python Engineer (Software Engineer II) - Evergreen REQ
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly implementing LLM integrations,
-      building generative AI pipelines, and developing APIs for
-      model serving and inference using frameworks like LangChain,
-      Langfuse, and litellm. The engineer is hands-on with AI/LLM
-      systems, making this an ai-first role.
+      The role builds generative AI pipelines and LLM integrations
+      into production systems themselves using LangChain and
+      LiteLLM, deciding how LLMs are wired into applications
+      rather than merely consuming an endpoint designed elsewhere.
+      No other team is named as owning the LLM behaviour, so this
+      is shaping an LLM-based system -> ai-first.
   responsibilities:
-  - Implement Python-based backend services (on FastAPI) for AI workloads, including
+  - Implement Python-based backend services on FastAPI for AI workloads, including
     LLM integration and generative AI pipelines
   - Develop APIs and microservices for model serving and inference with guidance from
-    senior team members
-  - Build and maintain AWS-based infrastructure components for AI workloads (e.g.,
-    Lambda, EKS)
-  - Integrate LLMs and generative AI models into production systems using frameworks
-    like LangChain, Langfuse, and litellm
+    senior engineers
+  - Integrate LLMs and generative AI models into production systems using LangChain,
+    Langfuse, and LiteLLM
+  - Build and maintain AWS-based infrastructure components for AI workloads such as
+    Lambda and EKS
   - Implement monitoring, logging, and observability features for assigned backend
     services
-  - Write clean, well-tested, and maintainable code following established patterns
-    and best practices
-  - Participate in code reviews and contribute to team knowledge sharing
+  - Write clean, well-tested, maintainable code and participate in code reviews and
+    knowledge sharing
   - Debug and resolve production issues with support from senior engineers
+  - Collaborate with cross-functional teams to understand requirements and deliver
+    features
   use_cases:
-  - LLM integration and generative AI pipelines for pharmaceutical applications
-  - Model serving and inference APIs for production AI workloads
-  - Scalable backend services powering generative AI applications
-  - AWS-hosted AI infrastructure for enterprise workloads
-  - LLM observability and monitoring for production systems
+  - Backend services powering generative AI applications
+  - LLM integrations in production systems
+  - Model serving and inference APIs
+  - AWS-hosted AI workload infrastructure
+  - Monitoring and observability for LLM-powered services
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [AWS, AWS Lambda, API Gateway, EKS]
+    languages: [Python, SQL]
     ml: []
-    cloud: [AWS Lambda, EKS, API Gateway, AWS]
-    genai: [LangChain, Langfuse, litellm, LLMs, Generative AI pipelines]
+    other: [Event-Driven Architecture]
+    ops: [Langfuse, Model Deployment, Observability, Docker, Git, CI/CD]
+    databases: [NoSQL]
+    domains: []
+    web: [FastAPI, REST APIs, Microservices]
     data: []
-    other: []
-    ops: [Docker, Git, CI/CD]
-    web: [FastAPI, RESTful API design, Microservices]
-    databases: [SQL, NoSQL]
+    genai: [LLMs, Generative AI, LangChain, LiteLLM]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8890812'
   location: Chennai, IND
-  extracted_at: '2026-04-22T13:40:11.523617'
+  extracted_at: '2026-08-16T05:57:47.397934'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

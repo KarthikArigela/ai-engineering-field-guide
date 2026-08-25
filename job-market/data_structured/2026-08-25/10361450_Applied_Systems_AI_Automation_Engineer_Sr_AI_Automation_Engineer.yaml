@@ -1,0 +1,55 @@
+company:
+  name: Applied Systems
+  stage: null
+  focus: Insurance technology (Insurtech) software and services
+position:
+  title: AI Automation Engineer/ Sr. AI Automation Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds Claude agents, tool-calling and
+      retrieval pipelines, and builds evaluations/quality
+      monitoring for AI apps and agents, which is shaping LLM
+      behavior. Hence ai-first.
+  responsibilities:
+  - Build and deploy micro-apps with business owners, taking proofs of concept to
+    production (dashboards, reporting tools, chatbots, support agents)
+  - Design, build, and publish reusable Claude skills and agents including retrieval
+    and tool-calling pipelines
+  - Integrate AI into business systems such as Salesforce/Agentforce, Slack, NetSuite,
+    and SQL data sources
+  - Harden applications for production with authentication, secrets management, CI/CD,
+    logging, monitoring, and cost controls
+  - Operate and maintain applications on a governed shared GCP platform and support
+    issue response
+  - Automate secure software maintenance with tooling that auto-updates libraries
+    and dependencies
+  - Build evaluations, regression tests, and quality monitoring for shipped apps and
+    agents
+  use_cases:
+  - Chatbots and support agents for business operations
+  - Retrieval and tool-calling agents grounded in company data
+  - Internal business apps, dashboards, and reconciliation/reporting tools
+  - AI integrations with Salesforce, Slack, and NetSuite
+  - AI quality monitoring including task completion, retrieval quality, and drift
+  skills:
+    genai: [Anthropic API, AI Agents, Agentic Workflows, Function Calling, RAG, Prompt
+        Engineering, LLM Evaluation]
+    ml: []
+    web: [Microservices, APIs]
+    databases: [Vector Databases, Pinecone, pgvector]
+    data: []
+    cloud: [GCP, Vertex AI]
+    ops: [CI/CD, Monitoring, LangSmith, Langfuse]
+    languages: [Python, SQL]
+    domains: []
+    other: [Salesforce, Slack, NetSuite]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10361450'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:48:41.534396'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

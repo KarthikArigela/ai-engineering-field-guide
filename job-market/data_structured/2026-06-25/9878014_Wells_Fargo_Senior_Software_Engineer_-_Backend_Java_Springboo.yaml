@@ -1,6 +1,6 @@
 company:
   name: Wells Fargo
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Software Engineer - Backend Java, Springboot, Microservices, Oracle/
@@ -8,42 +8,46 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a traditional backend software engineering role
-      focused on Java/Spring Boot microservices, with Gen AI
-      listed as a keyword but no actual AI/ML model building,
-      training, or deployment responsibilities. The role involves
-      modernizing legacy applications into cloud-native systems,
-      not working directly on AI/ML systems.
+      "Gen AI" appears only in the job title; the description
+      contains no responsibilities for shaping model behavior — no
+      prompts, RAG, agents, fine-tuning, or evals. The actual work
+      is backend Java/microservices engineering and legacy
+      application modernization, so the role is ai-support.
   responsibilities:
   - Lead moderately complex initiatives and deliverables within technical domain environments
-  - Design, code, test, debug, and document projects including upgrades and deployments
+  - Contribute to large scale planning of technology strategies
+  - Design, code, test, debug, and document projects and programs including upgrades
+    and deployments
   - Review and resolve moderately complex technical challenges requiring in-depth
-    evaluation of technologies
+    evaluation of technologies and procedures
   - Modernize legacy applications and systems into cloud-native applications
-  - Collaborate with peers and managers to resolve technical challenges and achieve
-    goals
-  - Lead projects and provide guidance and direction to less experienced staff
-  - Contribute to large scale planning of strategies
+  - Lead projects and act as an escalation point, providing guidance and direction
+    to less experienced staff
+  - Collaborate and consult with peers, colleagues, and mid-level managers to resolve
+    technical challenges and achieve goals
   use_cases:
-  - Modernizing legacy banking systems into cloud-native applications
-  - Building and maintaining microservices-based backend infrastructure
-  - Event-driven architecture for financial services applications
-  - Cloud-native application development for enterprise banking
+  - Modernization of legacy banking applications into cloud-native microservices
+  - Event-driven backend services using Kafka, JMS, and RabbitMQ messaging
+  - Enterprise Java web services (REST/SOAP) backed by Oracle, PostgreSQL, and MongoDB
+  - Automated build, test, and deployment pipelines with monitoring and metrics collection
   skills:
-    domains: []
-    languages: [Java]
+    cloud: [AWS, Azure, PCF, EC2, Azure AD, Azure Web App]
+    languages: [Java, J2EE, SQL]
     ml: []
-    cloud: [AWS, Azure, Azure DevOps, PCF]
+    other: [Event-Driven Architecture, Test-Driven Development, BDD, Cucumber, Agile,
+      Object-Oriented Design]
+    ops: [Gradle, GitHub, Jenkins, NPM, CI/CD, DevOps, Azure DevOps, Splunk, CloudWatch,
+      AppDynamics]
+    databases: [Oracle, PostgreSQL, MongoDB, Elasticsearch]
+    domains: []
+    web: [Spring Boot, Microservices, REST APIs, GraphQL, SOAP, HTML5, Angular, React]
+    data: [JMS, Kafka, RabbitMQ]
     genai: [Generative AI]
-    data: [Kafka, RabbitMQ, JMS]
-    other: [Agile]
-    ops: [Docker, Jenkins, CI/CD, GitHub, Gradle, NPM, Splunk, CloudWatch, AppDynamics,
-      Cucumber, TDD, BDD]
-    web: [Spring Boot, Microservices, REST, GraphQL, SOAP, Angular, React, HTML5]
-    databases: [Oracle, PostgreSQL, MongoDB, SQL, Elasticsearch]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9878014'
   location: Hyderabad, IND
-  extracted_at: '2026-06-25T19:55:39.065162'
+  extracted_at: '2026-08-16T15:44:09.774175'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,98 @@
+company:
+  name: Proton.ai
+  stage: null
+  focus: AI operating system for wholesale distribution
+position:
+  title: Senior Data Engineer (AI-Native) — Data Layer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates data pipelines, ingestion,
+      medallion modeling, and serving layers. AI agents (Claude
+      Code, Cursor) are used as dev tools to write code faster,
+      which is explicitly ai-support, and the data layer merely
+      feeds an AI brain owned by others. The person shapes no
+      model behavior themselves.
+  responsibilities:
+  - 'Own the Data Layer end to end: ingestion from file-, event-, and API-based sources;
+    medallion-style modeling (raw, refined, curated); and the serving layer powering
+    products and the AI brain'
+  - Build and operate ingestion and transformation pipelines using a modern orchestration
+    framework and cloud data warehouse
+  - Ingest and reconcile large, messy real-world data across batch files, streaming
+    events, and APIs
+  - Model data across medallion layers to keep it trustworthy, queryable, and stable
+    for downstream teams and the AI
+  - Operate AI coding agents (Claude Code and similar) to scope work, structure context,
+    run agents in parallel, and ship reviewed production-quality output
+  - Build validation, reconciliation, lineage, backfills, and idempotent/incremental
+    loads to ensure data correctness
+  - Partner with backend, AI, product engineers, and occasionally customers' IT teams
+    to define data contracts
+  - Drive the Data Layer's next-level architecture, tooling, scale, and source expansion
+  use_cases:
+  - Unified data layer serving CRM, PIM, eCommerce AI, and Order & Quote Entry AI
+    products
+  - Data foundation feeding Proton's AI brain and AI/ML products (retrieval, feature/serving
+    layers)
+  - Ingesting and reconciling messy distributor data from ERP and ecommerce sources
+  - Trustworthy, reconciled data serving downstream engineering and product teams
+  skills:
+    cloud: [Cloud Data Warehouse]
+    languages: [SQL]
+    ml: []
+    other: [Data Contracts, Medallion Architecture, ERP Integration]
+    ops: [Claude Code, Cursor, Codex, Data Reconciliation]
+    databases: [Lakehouse]
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10315558'
+  location: GRC
+  locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - ARG
+  - IRL
+  - CZE
+  remote: true
+  extracted_at: '2026-08-25T09:39:37.068249'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

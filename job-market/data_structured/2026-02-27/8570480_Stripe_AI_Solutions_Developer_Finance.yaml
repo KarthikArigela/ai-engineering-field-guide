@@ -1,59 +1,64 @@
 company:
   name: Stripe
-  stage: Late-stage private / Pre-IPO
+  stage: null
   focus: |-
-    Financial infrastructure platform for payments and business
-    operations
+    Financial infrastructure and payments platform for
+    businesses
 position:
   title: AI Solutions Developer, Finance
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building, operationalizing, and
-      deploying AI agents for Finance use cases using Agentic AI
-      tools. The developer creates agents, designs knowledge
-      layers, builds data pipelines that feed agents, and hands
-      off working AI solutions to Finance teams—this is hands-on
-      work deploying AI systems, not just supporting
-      infrastructure.
+      The role builds and operationalizes AI agents, does prompt
+      engineering, and designs knowledge layers, validation
+      patterns, and validation agents specifically to improve
+      agent accuracy and output quality. It also scopes tool
+      calling/MCP integrations into agent workflows. This is
+      directly shaping LLM/agent behavior, so it is ai-first.
   responsibilities:
   - Build and operationalize AI agents for Finance use cases using Agentic Solutions
-    and automation tools, delivering end-to-end solutions from prototype to handoff
+    and automation tools, delivering end-to-end from prototype to handoff
   - Design reusable knowledge layers, validation patterns, and data quality frameworks
-    to improve agent accuracy and reliability
-  - Collaborate with Engineering to scope custom tools and integrations via MCP when
-    platform capabilities are insufficient
-  - Scope automation opportunities independently and navigate platform constraints
-    through creative workarounds
-  - Enable Finance teams through training, documentation, and self-service tooling
-    for long-term ownership
+    to improve agent accuracy and reliability across multiple use cases
+  - Collaborate with Engineering to scope and test custom tools and MCP integrations
+    when platform capabilities are insufficient
   - Write and optimize SQL queries for data extraction, transformation, and validation
     that feed agent workflows
-  - Establish monitoring and observability for deployed agents including metrics,
-    alerting, and incident response
-  - Serve as the escalation point for technical issues and document learnings and
-    best practices for reuse
+  - Enable Finance teams through training, documentation (SOPs, runbooks), and self-service
+    tooling so they can maintain agents long-term
+  - Establish monitoring and observability for deployed agents, including metrics,
+    alerting, and incident response processes
+  - Scope automation opportunities independently and navigate platform constraints
+    with creative workarounds such as pre-coded tools and query chaining
+  - Document learnings, patterns, and best practices for reuse across the Finance
+    AI portfolio
   use_cases:
-  - Finance process automation using AI agents
-  - Controllership workflow automation
-  - Treasury and tax operations automation
-  - Finance Operations and Facilities automation
-  - Financial data validation and reconciliation
-  - Knowledge layer creation for Finance domain accuracy
+  - Automation of manual Finance processes (Controllership, Treasury, Tax, Finance
+    Operations) with AI agents
+  - Data extraction, transformation, and validation pipelines feeding finance agent
+    workflows
+  - Reusable knowledge layers and data quality frameworks improving agent accuracy
+    for financial use cases
+  - Self-service enablement so Finance teams can independently run and maintain AI
+    agents
+  - Operationalizing and scaling a portfolio of Finance AI automation solutions with
+    monitoring and incident response
   skills:
-    domains: [Finance domain knowledge]
-    languages: [SQL, Python]
-    ml: []
     cloud: []
-    genai: [AI Agents, Prompt Engineering, LLM tools, MCP, Conversational interfaces]
-    data: [Databricks, ETL/ELT processes, Data Pipelines]
-    other: [Low-code automation tools, RPA, Workflow Automation]
-    ops: [Version control]
+    languages: [Python]
+    ml: []
+    other: [RPA, Low-Code Tools, Workflow Automation, Code Review, Business Intelligence]
+    ops: [Monitoring, Observability, Version Control]
+    databases: [SQL]
+    domains: []
     web: []
-    databases: []
+    data: [Databricks, Data Pipelines, Data Analytics]
+    genai: [AI Agents, Prompt Engineering, LLMs, Conversational AI, MCP]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8570480'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:52:54.587703'
+  extracted_at: '2026-08-16T02:31:28.879333'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

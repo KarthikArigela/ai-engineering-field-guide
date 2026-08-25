@@ -1,0 +1,65 @@
+company:
+  name: Baseten
+  stage: Series E
+  focus: AI inference infrastructure and model serving platform
+position:
+  title: Software Engineer - Voice AI (Inference Runtime)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates real-time serving
+      infrastructure for open-source voice models (STT/TTS/voice
+      agents) developed by others; the stated deliverables are
+      latency (p95/p99), throughput, GPU efficiency, and customer
+      SLOs — capacity, not model behaviour. Optimizations named
+      (dynamic batching, async scheduling, runtime tuning) are
+      serving-level work, not shaping model internals or outputs,
+      and the training/eval iteration loops are tooling around
+      models rather than judging output quality. Per the
+      serving/hosting edge case, this is ai-support even though
+      vLLM and TensorRT are named.
+  responsibilities:
+  - Own and lead Voice AI product areas end-to-end, from architecture and system design
+    through implementation, rollout, and long-term production operations
+  - Design, build, and operate real-time, large-scale, high-performance model serving
+    systems for STT, TTS, and voice agent workloads in mission-critical customer deployments
+  - Develop a world-class model serving stack for state-of-the-art open-source voice
+    models, reducing end-to-end and tail latency (p95/p99), increasing throughput,
+    and improving GPU efficiency via profiling and runtime tuning
+  - Build large-scale real-time infrastructure for multi-model voice agents, orchestrating
+    STT, TTS, and agent components with streaming I/O to meet customer SLOs
+  - Design tight training and inference iteration loops for voice model customization,
+    enabling fast evaluation, safe rollout, and rapid experimentation
+  - Drive cross-team collaboration with sister engineering teams to solve full-stack
+    technical problems and coordinate end-to-end delivery
+  - Mentor teammates through code reviews, design docs, and technical leadership
+  use_cases:
+  - Production voice AI serving for customers across productivity, customer service,
+    clinical conversation, creator tools, and education
+  - Real-time speech-to-text and text-to-speech inference at scale
+  - Multi-model voice agent pipelines with streaming I/O meeting strict latency SLOs
+  - Streaming speech recognition with speaker diarization
+  - Custom voice model development with rapid evaluation, safe rollout, and experimentation
+  skills:
+    genai: [Claude Code, Codex, Cursor]
+    ml: [Whisper]
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, vLLM, TensorRT, ONNX, Model Serving, Dynamic Batching,
+      PyTorch Profiler, Service Mesh]
+    languages: [Python]
+    domains: [STT, TTS, Speech-to-Speech]
+    other: [SDKs, CLIs, Real-Time Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9145164'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T09:05:21.274497'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

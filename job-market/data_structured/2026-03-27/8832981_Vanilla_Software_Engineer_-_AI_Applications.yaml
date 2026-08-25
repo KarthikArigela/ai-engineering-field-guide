@@ -1,53 +1,60 @@
 company:
   name: Vanilla
-  stage: Seed
-  focus: AI-powered estate planning and wealth transfer platform
+  stage: startup
+  focus: |-
+    AI-powered estate advisory platform for estate planning and
+    wealth transfer
 position:
   title: Software Engineer - AI Applications
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building applied AI applications
-      using LLMs, including integrating models, fine-tuning,
-      creating training/evaluation pipelines, and building RAG
-      systems. The engineer will work hands-on with AI/LLM
-      technologies to deploy production applications, not just
-      support infrastructure.
+      The role builds applied applications on top of LLMs and is
+      directly responsible for output quality: tuning AI for high
+      accuracy, fine-tuning models, using RAG to tune LLMs, and
+      building evaluation, monitoring, and training pipelines.
+      That is shaping model behavior with LLMs involved, so ai-
+      first, even though the position emphasizes software
+      engineering over ML research.
   responsibilities:
-  - Build applied AI applications using Large Language Models with focus on high accuracy
-    rates
-  - Construct services to ingest and process structured results from AI models
-  - Build models and services that ingest data, extract key information, and surface
+  - Utilize existing Large Language Models to build applied AI applications focused
+    on producing high accuracy rates
+  - Construct services and models that ingest data, extract key information, and surface
     insights
-  - Develop tooling for model training, evaluation, inference serving, monitoring
+  - Build tooling to support model training, evaluation, inference serving, monitoring,
     and alerting
-  - Create and optimize model training pipelines using latest ML frameworks and open
-    source tools
-  - Design and implement database schemas and optimize query performance
-  - Extract, transform, and load data from disparate sources into centralized systems
-  - Collaborate with engineering teams, subject matter experts, product managers,
-    and designers
+  - Develop new model training pipelines using the latest ML frameworks and open source
+    tools
+  - Build and maintain scalable microservices and integrate with backend services
+    and APIs
+  - Identify, extract, transform, and load data from disparate sources into a centralized
+    system, normalizing, cleansing, and validating it
+  - Design and implement database schemas, optimize queries, and manage database performance
+  - Collaborate with engineers, subject matter experts, product managers, and designers
+    to find AI-driven ways to streamline or replace workflows
   use_cases:
-  - Estate planning document creation and automation
-  - Scenario modeling for wealth transfer
-  - Client visualization and data extraction
-  - Streamlining and replacing archaic estate planning workflows
-  - Information extraction from structured and unstructured data sources
+  - Estate planning automation with AI-powered advisory workflows
+  - Data extraction from documents to surface key insights for advisors
+  - Scenario modeling and client visualization for wealth transfer
+  - Document creation for estate planning
+  - Streamlining or replacing archaic estate planning processes with applied AI
   skills:
-    domains: []
-    languages: [Python, JavaScript, Go, Rust, SQL]
-    ml: [LLM fine-tuning, NLP, Model training and evaluation]
     cloud: []
-    genai: [OpenAI API, Anthropic API, LangChain, LangGraph, RAG, Prompt Engineering]
-    data: [ETL and data pipelines]
-    other: []
-    ops: [AI observability and monitoring, Model Deployment]
-    web: [REST APIs, Microservices, APIs]
-    databases: [Database design and optimization]
+    languages: [Python, JavaScript, Go, Rust]
+    ml: [Machine Learning, NLP, Model Training, Model Evaluation]
+    other: [Code Review]
+    ops: [Model Deployment, Monitoring, Observability]
+    databases: [Database Management]
+    domains: []
+    web: [Microservices, APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, OpenAI API, Anthropic API, RAG, LangChain, LangGraph, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8832981'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:51:46.349352'
+  extracted_at: '2026-08-16T04:54:40.760524'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

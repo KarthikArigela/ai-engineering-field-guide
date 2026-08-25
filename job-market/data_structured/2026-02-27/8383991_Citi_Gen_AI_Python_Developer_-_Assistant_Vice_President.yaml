@@ -1,55 +1,55 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global bank providing financial services
+  stage: null
+  focus: Global banking and financial services
 position:
   title: Gen AI Python Developer - Assistant Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves direct integration with LLM/GenAI services
-      for intelligent code analysis, transformation, and
-      automation. The developer will build AI-powered features and
-      innovate with Generative AI capabilities, making this hands-
-      on work with AI models rather than just supporting
-      infrastructure.
+      The role develops AI-powered features in-house and
+      integrates LLM/GenAI services for intelligent code analysis,
+      transformation, and code generation, with prompt engineering
+      and LLM evaluation frameworks expected. The developer shapes
+      how the LLM behaves within tools they own end-to-end rather
+      than merely consuming an API another team designed, so Step
+      1 is yes and the LLM component makes it ai-first.
   responsibilities:
-  - Own and maintain Python-based services built with FastAPI and Uvicorn across multiple
-    tool domains
-  - Develop AI-powered features for release automation, migration utilities, and developer
-    productivity tools
-  - Integrate with LLM/GenAI services for intelligent code analysis, transformation,
-    and automation
-  - Build and maintain REST APIs that serve frontend applications and integrate with
-    enterprise systems
+  - Own and maintain Python backend services built with FastAPI and Uvicorn across
+    multiple developer tool domains
+  - Develop AI-powered features integrating LLM/GenAI services for code analysis,
+    transformation, and generation
+  - Build and maintain REST APIs serving frontend applications and enterprise system
+    integrations
+  - Work with MongoDB/PostgreSQL for storing and querying metadata
+  - Remediate CVEs in Python dependencies and ensure code quality via pytest, Locust,
+    Black, isort, and SonarQube
   - Support Kubernetes/Helm-based deployments across DEV, UAT, COB, and PROD environments
-  - Collaborate with engineering teams to understand their needs and gather feedback
-    for tool improvements
-  - Encourage and support users in adopting AI-powered tools through demos, office
-    hours, and hands-on assistance
+  - Collaborate with engineering teams and drive adoption of AI-powered tools through
+    demos, office hours, and hands-on assistance
   - Contribute to AI innovation initiatives, exploring new use cases and proof-of-concepts
   use_cases:
-  - Release automation and CI/CD modernization for developer workflows
+  - AI-powered release automation for engineering teams
   - Source control migration from BitBucket to GitHub Enterprise
-  - AI-powered code analysis and transformation using LLMs
-  - Automated configuration transformations and code generation
-  - Developer productivity tools leveraging Generative AI
-  - Enterprise developer tool integration and workflow automation
+  - CI/CD modernization and developer workflow automation
+  - Intelligent code analysis, transformation, and code/config generation via LLMs
+  - Developer productivity tools serving thousands of internal developers
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: [GCP, Vertex AI]
-    genai: [LLM/GenAI integration, Prompt Engineering]
-    data: []
-    other: [Jinja2, YAML, JSON]
-    ops: [asyncio, async/await, Docker, Kubernetes, Helm, pytest, Locust, Black, isort,
-      SonarQube, Git, GitHub, BitBucket, CI/CD]
-    web: [FastAPI, Uvicorn, Flask, Django REST, REST APIs, OIDC, OAuth]
+    languages: [Python, asyncio]
+    ml: []
+    other: [Jinja2, YAML, pytest, Locust, Black, isort, SonarQube]
+    ops: [Docker, Kubernetes, Helm, CI/CD, DevOps, Git, GitHub, GitLab CI, BitBucket]
     databases: [MongoDB, PostgreSQL]
-  is_customer_facing: true
+    domains: []
+    web: [FastAPI, Uvicorn, Flask, Django, REST APIs, OAuth, JSON]
+    data: []
+    genai: [LLMs, Generative AI, Prompt Engineering, LLM Evaluation]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8383991'
   location: Pune, IND
-  extracted_at: '2026-02-27T12:30:27.396840'
+  extracted_at: '2026-08-16T01:04:26.022165'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

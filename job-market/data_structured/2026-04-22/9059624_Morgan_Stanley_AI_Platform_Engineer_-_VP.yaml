@@ -1,62 +1,66 @@
 company:
   name: Morgan Stanley
-  stage: Public
+  stage: null
   focus: |-
-    Global financial services firm providing investment banking,
-    securities, and wealth management
+    Global financial services firm: investment banking, wealth
+    and investment management
 position:
   title: AI Platform Engineer - VP
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building a firmwide AI Development
-      Platform with hands-on work in Generative AI, including
-      agentic orchestration, agent builder frameworks (LangChain,
-      LangGraph), fine-tuning models, working with embeddings, and
-      integrating vector stores. While it's a platform engineering
-      role, the candidate is expected to directly implement GenAI
-      solutions and contribute to design decisions for building
-      Generative AI solutions, making it ai-first.
+      The role explicitly implements GenAI solutions with Agentic
+      Orchestration and Agent Builder frameworks (LangChain,
+      LangGraph), integrates vector stores for embeddings, scales
+      Generative AI use cases with pre-trained and fine-tuned
+      models, and authors best practices on model selection (GPT,
+      Llama, Hugging Face) - all activities that shape LLM/agent
+      behaviour. The Kubernetes and API platform engineering is in
+      service of these GenAI capabilities, so the role is ai-first
+      rather than ai-support.
   responsibilities:
-  - Develop tooling and self-service capabilities for deploying AI solutions, enhancing
-    developer experience for building and deploying AI applications
+  - Develop tooling and self-service capabilities for deploying AI solutions firmwide,
+    enhancing the developer experience for building and deploying AI applications
   - Build common, reusable platform solutions to scale Generative AI use cases using
     pre-trained and fine-tuned models
-  - Design scalable, robust, secure, and flexible architecture for the AI development
-    platform
-  - Leverage Kubernetes/OpenShift to develop modern containerized workloads and orchestrate
-    deployments via GitOps methods
-  - Integrate with large-scale vector stores for embeddings and analyze GenAI solutions
-    focusing on Agentic Orchestration and Agent Builder frameworks
-  - Author best practices on the Generative AI ecosystem including models (GPT, Llama,
-    Hugging Face) and libraries (LangChain)
-  - Contribute to major design decisions for Generative AI solutions including authentication,
-    service communication, and container strategy
-  - Ensure AI platform reliability, scalability, and operational excellence with blueprints
-    for upgrade strategies, logging, monitoring, and automation
+  - Design scalable, robust, secure, and flexible architecture for components of the
+    firmwide AI development platform
+  - Develop modern containerized workloads on Kubernetes/OpenShift, orchestrated via
+    JFrog Artifactory, Helm, Kustomize, and GitOps deployment methods
+  - Integrate with capabilities such as large-scale vector stores for embeddings
+  - Analyze, investigate, and implement GenAI solutions focusing on Agentic Orchestration
+    and Agent Builder frameworks
+  - Author best practices for the Generative AI ecosystem, including model selection
+    (GPT, Llama, Hugging Face) and libraries such as LangChain
+  - Ensure the AI platform is reliable and operational through release/upgrade strategies
+    (Blue/Green), logging, monitoring, metrics, and automation of system management
+    tasks
   use_cases:
-  - Firmwide AI Development Platform for deploying Generative AI solutions across
-    the enterprise
-  - Agentic Orchestration and multi-agent workflow automation
-  - Fine-tuning and deploying pre-trained LLMs at enterprise scale
-  - Vector store integration for embedding-based retrieval and search
-  - Self-service developer tooling for AI application deployment
-  - Personalized client advice through AI-powered applications like Genome
+  - Firmwide AI development platform enabling internal teams to build and deploy AI
+    applications
+  - Self-service tooling for deploying Generative AI solutions across the enterprise
+  - Scaling Generative AI use cases using pre-trained and fine-tuned LLMs
+  - Agentic orchestration and multi-agent workflow automation frameworks
+  - Retrieval and semantic capabilities over large-scale vector stores with embeddings
   skills:
+    cloud: [Cloud-Native Architecture]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, TensorFlow, PyTorch, Hugging Face]
+    other: [Agile, Responsible AI, Information Security]
+    ops: [Kubernetes, OpenShift, Docker, Helm, Kustomize, JFrog Artifactory, GitOps,
+      CI/CD, Jenkins, DevOps, OpenTelemetry, Grafana, Loki, Prometheus, Cortex, MLOps,
+      LLMOps, SRE, Blue/Green Deployments, Distributed Systems]
+    databases: [SQL, NoSQL, Redis, Vector Databases]
     domains: []
-    languages: [Python, SQL]
-    ml: [Hugging Face, TensorFlow, PyTorch]
-    cloud: []
-    genai: [LangChain, LangGraph, GPT, Llama, Agentic Workflows, Fine-Tuning, Embeddings]
-    data: [Kafka]
-    other: [OAuth 2.0, Microservices, Responsible AI]
-    ops: [Kubernetes, OpenShift, Docker, Helm, Kustomize, GitOps, Jenkins, CI/CD,
-      Grafana, Prometheus, Loki, OpenTelemetry, JFrog Artifactory, Blue/Green Deployment]
-    web: [Flask, FastAPI, REST APIs]
-    databases: [NoSQL, Redis, Vector Databases]
+    web: [FastAPI, Flask, REST APIs, API Gateway, OAuth, Microservices]
+    data: [Kafka, Data Engineering, Data Governance, Big Data]
+    genai: [Generative AI, LLMs, LangChain, LangGraph, Agentic Workflows, AI Agents,
+      Embeddings, Fine-Tuning, GPT, Llama]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9059624'
   location: New York, USA
-  extracted_at: '2026-04-22T12:55:28.565716'
+  extracted_at: '2026-08-16T07:39:01.771050'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

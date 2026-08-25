@@ -1,52 +1,52 @@
 company:
   name: Kainos
-  stage: Public
-  focus: |-
-    AI and data consulting, digital transformation, and
-    enterprise solutions
+  stage: null
+  focus: AI and data solutions for government and commercial clients
 position:
   title: Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with generative and agentic
-      AI systems, including prompt engineering, RAG
-      implementation, LLM fine-tuning, and deploying AI solutions
-      into production. The Lead AI Engineer directly builds,
-      architecting, and delivers AI models and frameworks rather
-      than just supporting AI infrastructure.
+      The role explicitly requires hands-on work shaping LLM
+      behaviour: prompt engineering, RAG design, model evaluation,
+      and output-quality monitoring (precision, recall, NDCG,
+      drift detection), with desirable experience fine-tuning or
+      distilling LLMs. The solutions centre on generative and
+      agentic AI, so the LLM/agent component makes it ai-first.
   responsibilities:
   - Architect, design, and deliver advanced AI solutions leveraging state-of-the-art
-    machine learning, generative, and agentic AI technologies
-  - Drive the adoption of modern AI frameworks, AIOps best practices, and scalable
-    cloud-native architectures
-  - Provide hands-on technical leadership and collaborate with customers to translate
-    business challenges into trustworthy AI solutions
-  - Ensure responsible AI practices throughout development including model interpretability
-    and ethical considerations
-  - Manage, coach, and develop junior team members while fostering a culture of innovation
-    and engineering excellence
-  - Deploy production-grade AI solutions including prompt engineering, RAG, model
-    evaluation, and monitoring
+    machine learning, generative and agentic AI technologies
+  - Drive adoption of modern AI frameworks, AIOps best practices, and scalable cloud-native
+    architectures
+  - Collaborate with customers to translate business challenges into trustworthy AI
+    solutions
+  - Ensure responsible AI practices, model interpretability, and ethical considerations
+    throughout delivery
+  - Provide hands-on technical leadership and mentorship, fostering innovation and
+    engineering excellence
+  - Manage, coach, and develop a small number of staff, including performance management
+    and career development
+  - Provide direction and leadership for the team while solving challenging problems
+    together
   use_cases:
-  - Digital transformation services for government, healthcare, defence, and commercial
-    sectors
-  - Generative AI and agentic AI solutions for citizen-scale applications
-  - AI solutions for Workday enterprise platforms
-  - Responsible AI deployment with cybersecurity and ethical compliance
-  - Large-scale data processing and multimodal AI applications
-  - AI-powered digital services delivering measurable business value
+  - Production-grade AI solutions for government, healthcare, defence, and commercial
+    sector clients
+  - Citizen-scale digital services transformation
+  - Enterprise generative AI and agentic AI solution delivery
+  - Trustworthy and responsible AI deployment with measurable business value
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, scikit-learn, XGBoost]
     cloud: [Azure, AWS]
-    genai: [RAG, Prompt Engineering, AI Agents, Fine-Tuning, LLM distillation]
-    data: []
-    other: []
-    ops: [Kubernetes, Docker, CI/CD, AIOps]
+    languages: [Python]
+    ml: [Machine Learning, PyTorch, TensorFlow, scikit-learn, XGBoost, Model Evaluation,
+      Model Distillation, Model Interpretability]
+    other: [Responsible AI, Code Review, ISO 42001]
+    ops: [CI/CD, Kubernetes, Docker, AIOps, Model Monitoring]
+    databases: [Vector Databases, Knowledge Graphs]
+    domains: []
     web: []
-    databases: [Vector Databases, Semantic Search, Knowledge Graphs]
+    data: [Data Engineering]
+    genai: [Prompt Engineering, RAG, LLMs, Fine-Tuning, Generative AI, AI Agents,
+      GPT, Llama, Anthropic API, Gemini, Semantic Search]
   is_customer_facing: true
   is_management: true
 meta:
@@ -58,4 +58,6 @@ meta:
   - Birmingham, GBR
   - Belfast, GBR
   remote: true
-  extracted_at: '2026-02-05T11:09:06.064575'
+  extracted_at: '2026-08-15T21:48:16.072113'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

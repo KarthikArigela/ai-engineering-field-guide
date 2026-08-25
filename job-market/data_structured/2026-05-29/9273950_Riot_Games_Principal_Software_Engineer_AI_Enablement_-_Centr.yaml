@@ -1,51 +1,61 @@
 company:
   name: Riot Games
-  stage: Public
-  focus: Video game development and publishing
+  stage: null
+  focus: |-
+    Video game developer creating player-first games and live
+    services
 position:
   title: Principal Software Engineer, AI Enablement - Central Product
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role because the engineer is responsible
-      for integrating modern AI practices (LLMs, generative AI,
-      reinforcement learning) directly into engines, tools, and
-      pipelines. They build production-ready AI integrations and
-      deploy AI solutions, not just support infrastructure or data
-      pipelines for AI teams.
+      The role leads technical execution of integrating generative
+      AI and LLM systems into production engines and pipelines,
+      builds new middleware/APIs connecting AI research to live
+      development, and lists LLM orchestration as a desired
+      qualification - designing how LLM components are used, not
+      just consuming an API another team built. While the team
+      enables adoption across Riot, the deliverable is production-
+      ready AI integrations and new AI foundations built from
+      scratch, making the AI systems themselves the product rather
+      than a developer-workflow rollout.
   responsibilities:
-  - Lead the technical execution of integrating modern AI practices into existing
-    engines, tools, and pipelines
-  - Deploy onto partner teams to break down complex AI implementation problems and
-    deliver scalable, highly performant solutions
-  - Train and coach embedded team engineers through pair programming, technical reviews,
-    and hands-on collaboration
-  - Share engineering best practices, security guardrails, and performance standards
-    for AI usage across development ecosystem
+  - Lead the technical execution of integrating modern AI practices (generative AI,
+    LLMs, reinforcement learning) into existing engines, tools, and pipelines
+  - Embed with partner teams across Riot to break down complex AI implementation problems,
+    establish technical direction, and deliver scalable, highly performant solutions
+  - Mentor and coach embedded team engineers through pair programming and technical
+    reviews, ensuring seamless handoff of code ownership
+  - Evangelize engineering best practices, security guardrails, and performance standards
+    for AI usage across Riot's development ecosystem
   - Develop new foundations, middleware, or APIs to connect AI research with practical
-    development when industry tools are insufficient
-  - Navigate highly complex technical spaces and build consensus among engineering
-    and product leadership
+    development when industry-standard tools are insufficient
+  - Navigate highly complex, ambiguous technical spaces, communicating trade-offs
+    and building consensus among engineering and product leadership
   use_cases:
-  - Integration of generative AI and LLMs into game engines and development pipelines
-  - Reinforcement learning applications in game development and live services
-  - AI-powered developer tools and middleware for game production
-  - High-concurrency live service products enhanced with AI capabilities
-  - Cross-functional AI enablement across multiple game teams and products
+  - Integrating generative AI, LLMs, and reinforcement learning into AAA game engines,
+    tools, and pipelines
+  - Building middleware and APIs that connect AI research to live game production
+    environments
+  - Enabling AI-powered development workflows across internal game development teams
+  - Developer enablement and adoption of modern AI practices in large-scale live-service
+    game development
   skills:
-    domains: []
-    languages: [C++, Python, C#]
-    ml: [PyTorch, TensorFlow, Reinforcement Learning]
     cloud: []
-    genai: [LLMs, Generative AI]
-    data: []
-    other: [Unreal Engine, Systems integration, Technical leadership, Middleware development]
+    languages: [C++, Python, C#]
+    ml: [Reinforcement Learning, PyTorch, TensorFlow]
+    other: [Unreal Engine]
     ops: []
-    web: [APIs]
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [Generative AI, LLMs, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9273950'
   location: Los Angeles, USA
-  extracted_at: '2026-05-29T08:59:35.863944'
+  extracted_at: '2026-08-16T09:56:21.879654'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

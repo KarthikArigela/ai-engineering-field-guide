@@ -1,48 +1,55 @@
 company:
   name: Photon
   stage: null
-  focus: Digital technology consulting and solutions
+  focus: Digital engineering and IT consulting services
 position:
   title: GEN AI/ML Developer  - Jersey
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, developing, fine-
-      tuning, and deploying generative AI models including GANs,
-      VAEs, and transformer models. The developer works hands-on
-      with model optimization, prompt engineering, and production
-      deployment of AI systems.
+      The role directly shapes model behaviour: it requires hands-
+      on work with prompt structures and fine-tuning model outputs
+      to align with business needs, plus fine-tuning models for
+      performance. Transformer-based LLM components (GPT, BERT,
+      prompt structures) are explicitly involved, so it is ai-
+      first even though classical generative techniques (GANs,
+      VAEs) are also present.
   responsibilities:
   - Design and develop algorithms for generative models using deep learning techniques
-  - Collaborate with cross-functional teams to integrate generative AI solutions into
-    existing systems
-  - Research and stay updated on latest advancements in generative AI technologies
-    and methodologies
-  - Fine-tune models for performance and efficiency
+  - Fine-tune models for performance and efficiency, aligning outputs with business
+    needs and user expectations
+  - Work with cross-functional teams to integrate generative AI solutions into existing
+    systems
   - Troubleshoot and resolve issues related to generative AI models and implementations
-  - Create and maintain comprehensive documentation for AI models and their applications
+  - Stay current on generative AI research advancements and incorporate them into
+    work
+  - Deploy AI models into production environments
+  - Create and maintain documentation for AI models and their applications
   - Explain complex technical concepts to non-technical stakeholders
   use_cases:
-  - Generative model development using GANs and VAEs
-  - NLP applications using transformer models such as GPT and BERT
-  - Production deployment of fine-tuned AI models aligned with business needs
-  - Prompt engineering for aligning model outputs with user expectations
+  - Generative model development integrated into existing enterprise systems
+  - Natural language processing applications built on transformer models such as GPT
+    and BERT
+  - Content generation using GANs and Variational Autoencoders
+  - Model outputs tuned to align with business needs and user expectations
   skills:
-    genai: [LLMs, Prompt Engineering, Generative AI]
-    ml: [TensorFlow, PyTorch, Transformers, Fine-Tuning, Neural Networks, Deep Learning,
-      Machine Learning, Feature Engineering, GANs]
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [Model Deployment]
     languages: [Python]
-    domains: [NLP]
+    ml: [Machine Learning, Deep Learning, TensorFlow, PyTorch, NLP, Transformers,
+      GANs, VAEs, Feature Engineering, Neural Networks]
     other: []
+    ops: [Model Deployment]
+    databases: []
+    domains: []
+    web: []
+    data: [Data Preprocessing]
+    genai: [Prompt Engineering, Fine-Tuning, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9914686'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:42:50.140084'
+  extracted_at: '2026-08-16T19:06:03.261125'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

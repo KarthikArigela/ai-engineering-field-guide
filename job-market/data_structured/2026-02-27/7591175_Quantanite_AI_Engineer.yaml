@@ -1,53 +1,61 @@
 company:
   name: Quantanite
-  stage: unknown
+  stage: null
   focus: |-
-    Customer experience solutions combining automation and human
-    intelligence
+    Customer experience and business process automation
+    solutions
 position:
   title: AI Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role involves designing and developing an AI-based
-      platform that will crawl unstructured data sources and
-      extract meaningful information using ML algorithms, NLP,
-      deep learning, and other AI technologies. This is hands-on
-      development of AI solutions, not just supporting
-      infrastructure.
+      The responsibilities center on building data pipelines
+      (crawling, ETL, fact tables, integrations, data quality)
+      around an AI-based platform, not on shaping model behavior.
+      AI technologies (ML, NLP, deep learning, image/speech
+      recognition) appear as background experience requirements
+      rather than activities like prompt design, retrieval/RAG
+      design, fine-tuning, or building evals, so the role is ai-
+      support.
   responsibilities:
-  - Implement architecture and design from definition phase to go-live phase
-  - Define conceptual and low-level models using AI technology
-  - Hands-on development of AI-led solutions
-  - Implement entire data pipeline including data crawling, ETL, creating fact tables,
+  - Implement solution architecture and design from the definition phase through go-live
+  - Define conceptual and low-level models of applying AI technology within the cognitive
+    data solution
+  - Hands-on development of the AI-led solution
+  - Implement the entire data pipeline including data crawling, ETL, fact tables,
     and data quality management
-  - Integrate with multiple systems using API, web services, or data exchange mechanisms
-  - Build interfaces that gather data from various data sources including flat files,
-    data extracts, and enterprise applications
-  - Ensure solutions are scalable, maintainable, and meet best practices for security,
-    performance, and data management
-  - Lead, develop, and assist developers and team members
+  - Build interfaces and integrations with multiple systems via APIs, web services,
+    and data exchange from flat files, extracts, feeds, and enterprise applications
+  - Ensure the solution is scalable, maintainable, and follows best practices for
+    security, performance, and data management
+  - Lead, develop, and assist developers and other team members while owning research
+    assignments
+  - Collaborate with business analysts, SMEs, and internal stakeholders, and engage
+    with clients and operations teams where required
   use_cases:
-  - Crawling and analyzing unstructured data sources to extract meaningful information
-  - Building cognitive data solutions for customer experience applications
-  - Natural language processing for data extraction and understanding
-  - Image and speech recognition capabilities
-  - Data warehousing and business intelligence
+  - AI-based platform that crawls unstructured data sources and extracts meaningful
+    information
+  - Cognitive data solution supporting customer experience transformation
+  - Enterprise data integration across flat files, extracts, feeds, and enterprise
+    applications
+  - Data warehousing with fact tables and data quality management on Azure
   skills:
-    domains: [Image Recognition, Speech Recognition]
-    languages: [Python, SQL]
-    ml: [Machine Learning, NLP, Deep Learning]
-    cloud: [Azure Data Factory, Azure Databricks, Azure Data Lake Storage, Azure Synapse,
-      Azure]
+    cloud: [Azure, Azure Data Factory, Azure Data Lake Storage, Azure Synapse]
+    languages: [Python]
+    ml: [Machine Learning, NLP, Deep Learning, Image Recognition, Speech Recognition]
+    other: [Agile, RUP, XP, Eclipse, Rational Suite, Enterprise Architect]
+    ops: [Git, Feature Store]
+    databases: [SQL, MySQL, MongoDB, Cassandra, SQL Server, Vector Databases, FAISS,
+      Chroma, Pinecone, Weaviate]
+    domains: []
+    web: [Full-Stack Development, APIs]
+    data: [Data Pipelines, Data Warehousing, Databricks, Spark, Microsoft Fabric]
     genai: []
-    data: [Spark, Data Pipelines, Data Warehousing]
-    other: []
-    ops: [Git]
-    web: [REST APIs]
-    databases: [MySQL, MongoDB, Cassandra, SQL Server, FAISS, Chroma, Pinecone, Weaviate]
-  is_customer_facing: false
-  is_management: true
+  is_customer_facing: true
+  is_management: false
 meta:
   job_id: '7591175'
   location: Mumbai, IND
-  extracted_at: '2026-03-03T11:30:44.759865'
+  extracted_at: '2026-08-16T00:02:29.519447'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

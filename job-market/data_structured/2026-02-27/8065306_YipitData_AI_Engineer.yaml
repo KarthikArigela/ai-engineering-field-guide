@@ -1,50 +1,52 @@
 company:
   name: YipitData
-  stage: Series B+
-  focus: Market research and analytics using alternative data
+  stage: Raised $475M from The Carlyle Group at a valuation of over $1B
+  focus: Market research and analytics for the disruptive economy
 position:
   title: AI Engineer
   ai_type:
     type: ml-first
     reasoning: |-
-      The role focuses on traditional ML/DL development including
-      training, fine-tuning, and optimizing models using
-      TensorFlow, PyTorch, and Scikit-learn. While NLP is
-      mentioned, the emphasis is on standard ML workflows (data
-      preprocessing, feature engineering, model evaluation) rather
-      than LLM-specific technologies or GenAI frameworks.
+      The role shapes model behavior through training, fine-
+      tuning, experimenting on, and evaluating deep learning
+      models (TensorFlow, PyTorch, scikit-learn) for NLP and
+      predictive analytics. No LLM, prompt, RAG, or agent
+      component is mentioned, so the shaping work is classical
+      ML/DL, making it ml-first.
   responsibilities:
   - Assist in the development, training, and fine-tuning of machine learning models
   - Work with large datasets including data cleaning, preprocessing, and feature engineering
   - Implement and optimize deep learning models using frameworks such as TensorFlow,
     PyTorch, or Scikit-learn
-  - Support research and development of AI applications in natural language processing
-    and predictive analytics
+  - Support research and development of AI applications in NLP and predictive analytics
   - Collaborate with software engineers to deploy and integrate AI models into production
     environments
   - Conduct experiments, analyze results, and enhance model performance
+  - Stay updated with the latest advancements in AI and machine learning
   use_cases:
   - Natural language processing applications
-  - Predictive analytics for market research
-  - Alternative data analysis for actionable insights
-  - Data transformation for strategic intelligence
-  - ML model deployment for production systems
+  - Predictive analytics
+  - Market research and analytics on alternative data
+  - Production deployment of AI models
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [TensorFlow, PyTorch, scikit-learn, Hugging Face, spaCy, Feature Engineering,
-      Model Evaluation]
     cloud: [SageMaker, Vertex AI, Azure AI]
-    genai: []
-    data: [Pandas, NumPy, data preprocessing]
-    other: []
-    ops: [MLOps, CI/CD for ML models]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, Fine-Tuning, Model Training, TensorFlow,
+      PyTorch, scikit-learn, Hugging Face, spaCy, Feature Engineering, Model Evaluation,
+      NumPy]
+    other: [Regular Expressions, Responsible AI]
+    ops: [MLOps, CI/CD]
     databases: []
+    domains: [NLP]
+    web: []
+    data: [Pandas]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8065306'
   location: IND
   remote: true
-  extracted_at: '2026-02-27T12:45:50.130937'
+  extracted_at: '2026-08-16T00:24:04.910239'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

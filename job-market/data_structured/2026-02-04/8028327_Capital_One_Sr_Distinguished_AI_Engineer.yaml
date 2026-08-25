@@ -1,54 +1,57 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI-powered customer
-    experiences
+  stage: null
+  focus: Banking and financial services
 position:
   title: Sr. Distinguished AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      Role involves hands-on work with foundation models, LLM
-      inference, guardrails, model evaluation, and optimization
-      techniques. The engineer will design, develop, deploy, and
-      support AI software components including foundation model
-      training and LLM inference systems.
+      The role directly shapes model behavior through foundation
+      model training, guardrails, model evaluation, and inventing
+      LLM optimization techniques for training and inference. LLMs
+      are explicitly central to the work (LLM inference,
+      guardrails, optimization), making this ai-first under Step
+      2.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    how associates work and customers interact with Capital One
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
     experimentation, governance, and observability
-  - Leverage a broad stack of Open Source and SaaS AI technologies including AWS Ultraclusters,
-    Huggingface, VectorDBs, Nemo Guardrails, and PyTorch
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
     cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Lead and mentor engineering organizations and influence cross-functional stakeholders
-    up to SVP level
+  - Apply novel techniques from recent AI research to production systems
+  - Architect, design, and support complex enterprise AI systems deployed on cloud
+    platforms
+  - Lead and mentor engineers while influencing cross-functional stakeholders up to
+    the SVP level
   use_cases:
-  - Informing customers about unusual charges and detecting fraud in real-time
-  - Answering customer questions in real-time with AI-powered conversational interfaces
-  - Creating personalized customer experiences through ML-driven recommendations and
-    insights
-  - Enhancing associate productivity with AI-powered tools and automation
-  - Building responsible and scalable AI governance, guardrails, and observability
-    systems
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Proprietary AI models and platforms enabling teams across Capital One to enhance
+    products with AI
   skills:
-    domains: [Computer Vision, Speech Recognition, optical character recognition]
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, foundation model training]
-    cloud: [AWS, GCP, Azure, AWS Bedrock, SageMaker]
-    genai: [OpenAI API, Anthropic API, RAG, Guardrails]
-    data: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model Deployment, model evaluation, model observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases, Pinecone, Weaviate, Chroma, Qdrant, Milvus, FAISS]
-  is_customer_facing: true
-  is_management: true
+    data: []
+    genai: [LLMs, Guardrails]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '8028327'
   location: McLean, USA
@@ -59,4 +62,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T11:50:58.489678'
+  extracted_at: '2026-08-15T22:31:13.099785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

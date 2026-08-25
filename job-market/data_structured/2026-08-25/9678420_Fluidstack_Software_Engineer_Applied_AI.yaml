@@ -1,0 +1,58 @@
+company:
+  name: Fluidstack
+  stage: null
+  focus: AI data center and compute infrastructure development
+position:
+  title: Software Engineer, Applied AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs the agent platform itself — giving AI
+      agents tools, guardrails, audit trails, and authorization to
+      operate systems, plus processing unstructured vendor
+      material with AI. Designing agent orchestration and
+      guardrails is shaping model behaviour, so ai-first.
+  responsibilities:
+  - 'Build core platform primitives end to end: entity ownership, audit, authorization,
+    and orchestration'
+  - Own and design the domain model for power, datacenters, and chips as composable
+    entities
+  - Integrate with vendor systems and ingest domain formats such as KMZ, BIM, Revit,
+    and vendor docs
+  - Make AI agents first-class operators by providing tools, guardrails, and audit
+    trails
+  - Build pipelines that process unstructured vendor material to automate site design
+    and schedule generation
+  - Build a live model of project delivery schedules with durable workflows across
+    teams
+  use_cases:
+  - Automated generation of end-to-end data center site designs and schedules from
+    unstructured vendor documents
+  - Live self-updating project delivery schedule model replacing static Gantt charts
+  - Agent platform wrapping AI in authorization, audit, and guardrails for infrastructure
+    development
+  - Extraction and synthesis of structured data from unstructured engineering formats
+  skills:
+    genai: [LLMs, MCP, Agentic Workflows, Claude Code, Cursor, Guardrails]
+    ml: [Machine Learning]
+    web: []
+    databases: [PostgreSQL]
+    data: [Airflow]
+    cloud: []
+    ops: [Temporal, OPA, RBAC]
+    languages: [Go, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9678420'
+  location: Austin, USA
+  locations:
+  - Austin, USA
+  - Seattle, USA
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-25T12:20:39.908135'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

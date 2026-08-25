@@ -1,43 +1,45 @@
 company:
   name: Circle.so
-  stage: Series C
+  stage: null
   focus: All-in-one platform for online communities
 position:
   title: Senior Full-Stack Software Engineer, Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role where the engineer will work hands-
-      on building AI agents, RAG systems, and LLM-powered
-      features. They will directly build and deploy AI solutions,
-      not just support infrastructure for others.
+      The role requires hands-on experience shipping RAG systems,
+      AI agents, and LLM-powered tools, and the person designs and
+      runs AI evaluations to validate LLM feature output quality —
+      direct shaping of LLM behavior. The model components are
+      LLM/agent-based with no classical ML focus, so despite the
+      full-stack Rails emphasis, this is ai-first.
   responsibilities:
-  - Ship full-stack AI projects end-to-end using Ruby on Rails backend and React frontend
+  - Ship full-stack AI projects end-to-end on a Ruby on Rails backend and React frontend
   - Design and run experiments including A/B tests and AI evaluations to validate
-    AI features
-  - Build and integrate AI infrastructure components optimized for production-level
-    LLM inference
-  - Develop AI agents and Retrieval-Augmented Generation systems for customer applications
+    AI features, measure impact, and guide iteration
+  - Build and integrate AI infrastructure components optimized for performance and
+    reliability to support production-level LLM inference
   - Improve processes, tools, and systems to scale AI features into production-ready
     solutions
-  - Stay current with cutting-edge AI research, techniques, and tools
+  - Stay up to date with cutting-edge AI research, techniques, and tools
+  - Work closely with Circle's leaders and designers throughout the feature design
+    process
   use_cases:
-  - AI agents for community management and automation
-  - Retrieval-Augmented Generation for knowledge management and search
-  - AI-powered content generation and recommendations
-  - AI evaluations and observability for measuring feature impact
-  - LLM-powered tools for enhancing community engagement
+  - AI agents and LLM-powered tools for an online community platform
+  - Retrieval-Augmented Generation over community content
+  - AI evaluations and observability for production LLM features
+  - LLM inference infrastructure supporting production AI features at scale
   skills:
-    domains: []
-    languages: [Python]
-    ml: [AI evaluations]
     cloud: []
-    genai: [RAG, AI Agents, LLMs]
-    data: [A/B testing]
-    other: []
-    ops: [Model Deployment, AI observability]
-    web: [Ruby on Rails, React]
+    languages: [Ruby]
+    ml: []
+    other: [A/B Testing]
+    ops: [Model Deployment, Observability]
     databases: [MySQL, PostgreSQL]
+    domains: []
+    web: [Ruby on Rails, React, Full-Stack Development]
+    data: []
+    genai: [LLMs, RAG, AI Agents, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
@@ -76,4 +78,6 @@ meta:
   - USA
   - DOM
   remote: true
-  extracted_at: '2026-02-27T12:36:08.901438'
+  extracted_at: '2026-08-16T01:19:54.129071'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

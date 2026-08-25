@@ -1,0 +1,56 @@
+company:
+  name: Planet (weareplanet.com)
+  stage: null
+  focus: Payments, VAT refunds and currency conversion services
+position:
+  title: Platform Engineer - AI Platforms & Cloud Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role explicitly focuses on cloud infrastructure,
+      automation, and operations rather than AI model development.
+      The engineer builds and runs platforms hosting AI services
+      but never shapes model behaviour via prompts, retrieval,
+      training, or evals, so it is ai-support.
+  responsibilities:
+  - Design, build, and maintain cloud infrastructure supporting AI and Generative
+    AI platforms
+  - Develop and maintain Infrastructure as Code solutions using Terraform
+  - Support AI platform services across AWS and Azure
+  - Implement automation to improve platform reliability, scalability, security, and
+    operational efficiency
+  - Design and manage cloud networking, security controls, and access management for
+    AI workloads
+  - Support containerized workloads and Kubernetes-based platforms
+  - Monitor platform health, performance, capacity, and cost
+  - Support incident response, troubleshooting, and root cause analysis, and ensure
+    platforms meet regulatory requirements
+  use_cases:
+  - Cloud infrastructure hosting AI and Generative AI platforms for payments company
+  - Self-service platform enabling internal AI teams to build and deploy AI services
+  - Governed, secure AWS and Azure environments for AI workloads in a regulated payments
+    environment
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, Azure, AWS Bedrock, Azure AI Foundry, EKS, AKS]
+    ops: [Terraform, Kubernetes, CI/CD, Ansible, OpenTelemetry, Monitoring, Observability,
+      Linux, Windows Administration, Infrastructure as Code]
+    languages: [Python, PowerShell, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10778854'
+  location: Porto, PRT
+  locations:
+  - Porto, PRT
+  - London, GBR
+  - Warsaw, POL
+  extracted_at: '2026-08-25T11:48:44.394339'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

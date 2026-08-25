@@ -1,0 +1,67 @@
+company:
+  name: PointClickCare
+  stage: Privately held, founder-led
+  focus: Healthcare SaaS platform for long-term and post-acute care
+position:
+  title: Principal AI Engineer (US)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      This role directly shapes LLM/agent behavior: it sets org-
+      wide standards for reasoning loops, tool use/function
+      calling, memory, and safety, develops advanced prompting
+      strategies, evaluates LLM/GenAI model output quality, and
+      designs RAG data pipelines. Every shaping activity targets
+      LLMs and agentic systems, so it is ai-first.
+  responsibilities:
+  - Set the technical vision and reference architecture for agentic AI across applications,
+    defining org-wide standards for reasoning loops, tool use/function calling, memory,
+    safety, and interoperability
+  - Build and govern reusable platform components including model broker and multi-model
+    routing, orchestration services, evaluation harnesses, prompt/versioning stores,
+    and telemetry
+  - Develop and refine advanced prompting strategies for LLMs and test, evaluate,
+    and analyze the performance of LLM and other GenAI models
+  - Establish offline and online evaluation methodologies for agent behavior and safety,
+    with dashboards tied to business outcomes
+  - Drive cross-functional roadmaps and integration standards across OCIO and business
+    teams, setting API/versioning contracts and optimizing LLM/agent cost performance
+  - Mentor and coach engineers on AI maturity, lead technical knowledge sharing sessions,
+    perform peer reviews, and approve pull requests
+  - Serve as the go-to Subject Matter Expert and internal AI expert for enterprise
+    applications, senior leadership, vendors, and business partners
+  - Identify, prioritize, and execute AI use cases with clear business outcomes, transitioning
+    prototypes into secure, observable production solutions aligned with Responsible
+    AI, security, and regulatory requirements
+  use_cases:
+  - Enterprise-wide AI enablement and agentic AI embedded across multiple healthcare
+    SaaS products
+  - RAG-based retrieval over enterprise documents with OCR/NER preprocessing, chunking,
+    embeddings, and vector stores
+  - Multi-model routing and orchestration to optimize LLM and agent cost, latency,
+    and performance
+  - Agent behavior and safety evaluation with dashboards tied to business outcomes
+  - Transforming AI prototypes into secure, observable, production-ready healthcare
+    solutions under governance and regulatory requirements
+  skills:
+    genai: [RAG, LangChain, OpenAI API, Anthropic API, Claude Code, Claude Cowork,
+      Copilot Studio, LLMs, Generative AI, AI Agents, Function Calling, Prompt Engineering,
+      Embeddings, LLM Evaluation, Salesforce Agentforce]
+    ml: [OCR, NER]
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [Azure AI Foundry, Azure AI Search]
+    ops: [Multi-Model Routing, Model Serving]
+    languages: [Python, Java]
+    domains: []
+    other: [Boomi, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8663109'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T03:36:08.596799'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,65 @@
 company:
   name: Illumina
-  stage: Public
+  stage: null
   focus: |-
-    Genomic sequencing technology and DNA analysis for
-    healthcare diagnostics
+    Genomic technology enabling disease detection, diagnosis,
+    and treatment
 position:
   title: Staff AI/DevOps Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building, deploying, and managing AI
-      agents, MCP servers, and LLM integrations directly - not
-      just supporting infrastructure for others. The engineer will
-      design federated AI ecosystems, orchestrate autonomous
-      agents, and implement AI-powered solutions using LLMs and
-      generative AI technologies.
+      The role directly shapes LLM/agent behavior: it designs
+      federated agent ecosystems, builds MCP servers for tool
+      calling and coordination, orchestrates AI agents to generate
+      standards-compliant code, and integrates LLMs and generative
+      AI into bot solutions. Since LLMs and agents are the
+      components being shaped (not just served), the
+      classification is ai-first despite the DevOps framing.
   responsibilities:
   - Design and implement AI infrastructure to support federated agent development
-    and distributed deployment across the organization
-  - Build and maintain MCP (Model Context Protocol) servers and infrastructure for
-    agent communication, coordination, and enterprise integration
-  - Manage and orchestrate AI agents to generate architecturally sound code with adherence
-    to enterprise standards
-  - Integrate AI models and APIs, including LLMs and generative AI, into bot solutions
-    for natural language understanding
+    and distributed deployment across the organization for infrastructure and cloud
+    service requests
+  - Manage and orchestrate AI agents to generate architecturally sound code adhering
+    to enterprise standards and best practices
+  - Build and maintain MCP servers and related infrastructure for agent communication,
+    coordination, and enterprise integration
+  - Accelerate code review processes by leveraging AI agents for automated analysis,
+    quality checks, and architectural validation
+  - Integrate LLMs and generative AI models and APIs into bot solutions for natural
+    language understanding and intelligent responses
   - Develop and manage infrastructure-as-code using Terraform and Ansible to provision
-    resources on AWS and Azure
-  - Establish monitoring, governance, and security frameworks for AI agent operations
-    in enterprise environments
-  - Act as forward deployed engineer coaching teams on AI infrastructure best practices
-    and guiding adoption
-  - Mentor junior engineers on software development, AI integration, DevOps, and platform
-    engineering
+    and configure resources on AWS and Azure
+  - Establish monitoring, governance, and security frameworks for AI agent operations,
+    including OAuth-based authentication and API security for MCP servers
+  - Act as a forward deployed engineer coaching functional teams on AI infrastructure
+    best practices and mentor junior engineers
   use_cases:
-  - Automated infrastructure and cloud service request handling via AI-powered bots
-  - Code generation and automated code review with architectural validation
-  - Enterprise IT support automation through intelligent self-service solutions
-  - Multi-agent AI platforms for distributed task orchestration
-  - Natural language interfaces for enterprise operations and support
+  - AI-powered bots for automating infrastructure and cloud service requests and support
+    tasks
+  - AI agent-driven code generation with enterprise architectural standards
+  - Automated code review with quality checks and architectural validation
+  - Federated agent ecosystems with MCP-based communication across enterprise tools
+  - Natural-language self-service solutions for internal operations
   skills:
-    domains: []
+    cloud: [AWS, Azure, IAM, AWS Bedrock, AWS Lambda, Azure AI Foundry, Azure Functions,
+      Agent Core, Agent Loop, Microsoft Graph API, Azure AD]
     languages: [Python, TypeScript, JavaScript]
-    ml: []
-    cloud: [AWS, Azure, AWS Bedrock, AWS Agent Core, Azure AI Foundry]
-    genai: [LangChain, MCP, LLMs, RAG, AI agent frameworks, Generative AI]
-    data: []
-    other: [ServiceNow, Jira, GitHub]
-    ops: [Terraform, Ansible, Docker, Kubernetes, OAuth 2.0, OpenID Connect]
-    web: [Microsoft Graph API]
+    ml: [Machine Learning]
+    other: [Microsoft 365, ServiceNow, Jira, Confluence, Responsible AI, API Security]
+    ops: [Terraform, Ansible, Docker, Kubernetes, Infrastructure as Code, Distributed
+        Systems, GitHub]
     databases: [Vector Databases]
-  is_customer_facing: true
-  is_management: true
+    domains: []
+    web: [APIs, OAuth, OpenID Connect]
+    data: []
+    genai: [MCP, AI Agents, Agentic Workflows, Multi-Agent Systems, LLMs, Generative
+        AI, RAG, Embeddings]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '7274202'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:39:00.642900'
+  extracted_at: '2026-08-15T23:52:17.098731'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,63 +1,64 @@
 company:
   name: Samsara
-  stage: Public
-  focus: |-
-    Connected Operations Cloud platform for IoT data analytics
-    and physical operations
+  stage: 'Recently public (NYSE: IOT)'
+  focus: IoT Connected Operations Cloud for physical operations
 position:
   title: Senior Marketing AI Data Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role focuses on building data infrastructure,
-      pipelines, and platforms that enable AI/ML workloads (RAG,
-      feature stores, vector databases) rather than directly
-      building, training, or fine-tuning models. The engineer
-      supports data preparation and deployment for generative AI
-      applications but does not work hands-on with model
-      development, inference, or LLM fine-tuning.
+      The role explicitly requires building and scaling RAG
+      infrastructure, including vector database integrations and
+      data-to-embedding pipelines for LLM applications, which is
+      designing retrieval and shaping LLM output quality (Step 1:
+      yes). An LLM component is clearly involved (GenAI pipelines,
+      unstructured data for LLMs), so Step 2 makes it ai-first
+      even though the role is framed as data engineering.
   responsibilities:
-  - Architect and maintain complex marketing databases, datasets, pipelines, and Customer
-    Data Platform (CDP) to enable advanced segmentation, targeting, automation, and
-    analytics
-  - Design and implement data infrastructure for AI/ML initiatives, including building
-    pipelines for Generative AI applications, feature stores, and vector database
-    integrations
-  - Support execution of expanding conversational BI and Ambient AI within the marketing
+  - Architect and maintain marketing databases, datasets, pipelines, and Samsara's
+    Customer Data Platform to enable advanced segmentation, targeting, automation,
+    and analytics
+  - Design and implement data infrastructure for AI/ML initiatives, including pipelines
+    for Generative AI applications, feature stores, and vector database integrations
+    supporting predictive modeling and personalization
+  - Build and scale RAG infrastructure, including managing vector database integrations
+    and data-to-embedding pipelines for LLM applications
+  - Support the expansion of conversational BI and Ambient AI within the marketing
     organization in partnership with the BI team
-  - Automate manual tasks through AI to achieve efficiency gains across the marketing
-    organization
-  - Manage critical, high-volume data pipelines with SLAs for growth initiatives and
-    advanced analytics while improving efficiency and data quality
-  - Facilitate sophisticated data integration and transformation requirements between
-    applications, data marts, AI models, and CDP environments
-  - Partner directly with non-technical stakeholders to translate business questions
-    into technical requirements and scalable data solutions
-  - Write optimized data transformations in Python/SQL to generate data products for
-    customer systems and operations teams
-  - Mentor junior engineers, conduct code reviews, and define best practices for the
-    data engineering team
+  - Automate manual marketing tasks through the use of AI, driving efficiency gains
+    across the marketing organization
+  - Manage critical, high-volume data pipelines and their SLAs while continuously
+    improving efficiency and data quality
+  - Partner with non-technical stakeholders (Marketing, Sales, Ops) to translate ambiguous
+    business questions into technical requirements and scalable data solutions, writing
+    optimized Python/SQL data transformations
+  - Mentor junior engineers, conduct code reviews, and help define best practices
+    for the data engineering team
   use_cases:
-  - Marketing customer segmentation and targeting through Customer Data Platform
-  - Predictive modeling and personalization for marketing campaigns
-  - Conversational Business Intelligence for marketing analytics
-  - Ambient AI applications for marketing operations automation
-  - RAG (Retrieval-Augmented Generation) for LLM-powered marketing tools
-  - Data-driven decision making for marketing and sales teams
+  - Marketing and sales analytics enabling data-driven revenue decisions
+  - Customer segmentation, targeting, and personalization via the Customer Data Platform
+  - Predictive modeling for marketing applications
+  - RAG-powered LLM applications built on vector databases and embedding pipelines
+  - Automation of manual marketing tasks using AI
+  - Conversational BI and Ambient AI within the marketing organization
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [feature stores]
     cloud: []
-    genai: [RAG, LLM data preparation, embeddings pipelines]
-    data: [Databricks, dbt, Customer Data Platform (CDP), Data Pipelines, Data Modeling]
-    other: []
-    ops: [MLflow, Kubeflow, MLOps]
+    languages: [Python, SQL]
+    ml: [Feature Engineering, Feature Stores]
+    other: [Customer Data Platforms, Hightouch, Segment, Lattice, Blueshift, Lytics,
+      Adobe Real-time CDP, Marketing Automation, CRM, Web Analytics, Marketo, Salesforce,
+      Google Analytics, Looker, Domo, Tableau, MixPanel, MarTech]
+    ops: [MLOps, MLflow, Kubeflow]
+    databases: [Vector Databases, BigQuery, Redshift, RDS, Snowflake, Data Warehousing]
+    domains: []
     web: []
-    databases: [Snowflake, BigQuery, Redshift, RDS, Vector Databases]
+    data: [Data Modeling, Data Pipelines, Databricks, dbt]
+    genai: [RAG, Generative AI, LLMs, Embeddings]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8180915'
   location: USA
-  extracted_at: '2026-02-05T12:09:30.677915'
+  extracted_at: '2026-08-15T22:49:25.948956'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

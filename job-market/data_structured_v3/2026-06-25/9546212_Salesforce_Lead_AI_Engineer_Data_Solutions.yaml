@@ -1,0 +1,65 @@
+company:
+  name: Salesforce
+  stage: null
+  focus: AI-powered CRM and enterprise cloud software
+position:
+  title: Lead AI Engineer, Data Solutions
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM agent behavior: driving
+      improvement via prompting, model selection, and fine-tuning,
+      designing AI agents with LLM reasoning, tool usage, and
+      structured outputs, and building evaluation frameworks and
+      golden traces for agent performance. LLM/agent components
+      are central, so it is ai-first.
+  responsibilities:
+  - 'Design the agent flywheel: feedback loops that continuously evaluate, optimize,
+    and improve agent performance from real-world outcomes'
+  - Drive continuous improvement of agents via prompting, policies, model selection,
+    and fine-tuning
+  - Build and deploy ML models for classification, ranking, forecasting, and recommendation
+  - Design AI agents combining LLM reasoning, tool usage, and ML decisioning, with
+    reusable patterns for multi-step reasoning, tool orchestration, and structured
+    outputs
+  - Build scalable data pipelines (batch and near real-time) that transform interaction
+    data into features, labels, and evaluation datasets for training and inference
+  - Build offline and online evaluation frameworks, including evaluation datasets,
+    golden traces, and regression-style test sets
+  - Run A/B experiments and track key metrics such as quality, revenue impact, and
+    latency
+  - Build scalable Python services and APIs powering agent workflows, ensuring reliability,
+    observability, and performance
+  use_cases:
+  - Agent flywheel that continuously improves AI agent performance from production
+    outcomes
+  - Intelligent decisioning agents embedded in business-critical CRM workflows
+  - Offline and online evaluation of agent and ML model quality
+  - ML-driven engagement, conversion, and recommendation optimization
+  - Scalable data pipelines feeding continuous retraining and evaluation of models
+    and agents
+  skills:
+    genai: [LLMs, Prompt Engineering, AI Agents, Agentic Workflows, Function Calling,
+      Structured Outputs, Fine-Tuning, LLM Evaluation]
+    ml: [Machine Learning, Supervised Learning, Model Evaluation, Model Training]
+    web: [APIs]
+    databases: [Snowflake, BigQuery]
+    data: [Data Pipelines, ETL, Spark, Airflow, Dagster, Data Quality]
+    cloud: []
+    ops: [Model Deployment, LangSmith, Braintrust, Observability]
+    languages: [Python]
+    domains: []
+    other: [A/B Testing, CRM]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9546212'
+  location: Chicago, USA
+  locations:
+  - Chicago, USA
+  - New York, USA
+  - Seattle, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T12:49:24.089734'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

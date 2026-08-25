@@ -1,61 +1,66 @@
 company:
   name: Life360
-  stage: Public
-  focus: Family location sharing, safety, and tracking services
+  stage: null
+  focus: Family location sharing and safety tracking app
 position:
   title: Senior Software Engineer II, AI Native, Experimentation & ML
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role requires hands-on experience building with LLMs
-      (1+ year) and heavy use of agentic AI workflows (Claude
-      Code, Cursor, Copilot) as a primary development methodology.
-      The engineer actively orchestrates AI agents to generate
-      code, specs, and tests, and codifies AI-native engineering
-      practices. While the backend systems built (experimentation,
-      recommendation infrastructure) are not themselves AI models,
-      the role's identity and workflow are fundamentally centered
-      on building with and operationalizing AI tools.
+      This is a backend infrastructure engineer building
+      experimentation (A/B testing, feature flagging) and
+      recommendation/personalization serving systems — data
+      pipelines, feature stores, and low-latency serving paths for
+      models shaped by others, which is plumbing rather than
+      shaping model behavior. The AI work centers on using coding
+      agents (Claude Code, Cursor, Copilot) as development
+      collaborators and codifying agentic workflow playbooks for
+      the org, which is a developer-workflow deliverable
+      explicitly classified as ai-support.
   responsibilities:
   - Design and build high-quality APIs and services for the experimentation platform
     and recommendation/personalization systems
-  - Orchestrate AI agents (Claude Code) as a first-class collaborator to create specs,
+  - Build high-throughput data pipelines, low-latency serving services, feature infrastructure,
+    and alerting and monitoring
+  - Orchestrate AI agents (Claude Code) as first-class collaborators to create specs,
     generate code and tests, verify results, and perform reviews
-  - Define and codify AI-native engineering practices and playbooks for the broader
-    engineering organization
-  - Build across the backend stack shipping performant, reliable services to tens
-    of millions of users
+  - Define and codify AI-Native engineering practices and agentic workflow playbooks
+    the broader engineering org adopts
   - Collaborate with product managers and data teams to turn complex user problems
-    into scalable engineering solutions
-  - Contribute to architectural decisions, code reviews, and continuous improvement
-    of team practices
-  - Participate in on-call rotation and incident response
-  - Mentor team members and help evolve the team's AI-native engineering practices
+    into elegant, scalable engineering solutions
+  - Contribute to architectural decisions, code reviews, and mentoring of team members
+  - Participate in on-call rotation and incident response, and support performance,
+    reliability, and accessibility of owned features
+  - Automate prompting strategies and help teammates adopt AI-native engineering workflows
   use_cases:
-  - A/B testing and experimentation platform for product teams to ship with confidence
-  - Recommendation and personalization systems for member experiences
-  - Feature flagging and metrics analysis at consumer internet scale
-  - Low-latency model serving infrastructure for ML-powered features
-  - High-throughput data pipelines turning user signals into better family safety
-    experiences
+  - A/B testing, feature flagging, and experiment metrics analysis platform for product
+    teams
+  - Recommendation and personalization infrastructure that turns member signals into
+    better family safety app experiences
+  - Feature stores and low-latency online serving powering ML features at consumer
+    internet scale (tens of millions of users)
+  - Agentic AI development workflows for spec generation, coding, testing, and code
+    review
   skills:
-    domains: []
-    languages: [Java, Python, SQL]
-    ml: [Feature Stores, ML Serving, Recommendation Systems]
     cloud: [AWS]
-    genai: [Claude Code, Cursor, GitHub Copilot, LLM Prompting and Evaluation, Agentic
-        Workflows]
-    data: [Kafka, Distributed Streaming Platforms, Kafka Streams, Flink, Schema Registry,
-      Confluent Platform]
-    other: [Distributed Systems, A/B Testing, Feature Flagging]
-    ops: [Containerized Deployments, CI/CD, GitHub Actions, Maven, Nexus, Prometheus,
-      Grafana, Datadog]
-    web: [Spring Boot]
+    languages: [Java]
+    ml: [Feature Stores, Recommendation Systems]
+    other: [A/B Testing, Feature Flagging]
+    ops: [CI/CD, GitHub Actions, Maven, Nexus, Prometheus, Grafana, Datadog, Monitoring,
+      Observability, Distributed Systems, Model Deployment]
     databases: []
+    domains: []
+    web: [Spring Boot, APIs]
+    data: [Kafka, Kafka Streams, Flink, Data Pipelines, Schema Registry, Confluent
+        Platform]
+    genai: [Claude Code, Cursor, GitHub Copilot, Agentic Workflows, AI Agents, LLMs,
+      Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9812301'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:58:50.234248'
+  extracted_at: '2026-08-16T15:11:43.166590'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

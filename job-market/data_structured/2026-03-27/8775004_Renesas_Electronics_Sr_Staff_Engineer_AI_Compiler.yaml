@@ -1,23 +1,26 @@
 company:
   name: Renesas Electronics
-  stage: Public
+  stage: null
   focus: |-
-    Automotive semiconductors and SoCs for software-defined
-    vehicles
+    Embedded semiconductor solutions for automotive, industrial,
+    and IoT
 position:
   title: Sr Staff Engineer, AI Compiler
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building AI compilers, graph
-      optimization, and code generation for NPUs - core work ON AI
-      systems. The position focuses on optimizing how AI workloads
-      are compiled and executed on hardware, which is fundamental
-      AI infrastructure work, not support work.
+      The role shapes model internals: it designs graph-level
+      optimizations, quantization-aware rewrites, tiling, and NPU
+      code generation, which falls under the "optimizing a model's
+      own internals is shaping" edge case. The stated workloads
+      explicitly span classical targets (CNNs, perception, sensor
+      fusion) and LLM/generative targets (transformers, generative
+      models, in-vehicle assistants), and a role shaping both is
+      ai-first.
   responsibilities:
   - Lead AI compiler architecture across model ingestion, graph optimization, lowering,
     code generation, and runtime integration
-  - Design and implement graph-level optimizations including operator fusion, quantization-aware
+  - Design and implement graph-level optimizations such as operator fusion, quantization-aware
     rewrites, memory-aware scheduling, and partitioning
   - Drive performance optimization for target NPUs including tiling, tensor layout,
     and multi-core execution strategies
@@ -25,33 +28,34 @@ position:
     through compiler insights
   - Own performance KPIs for real automotive AI workloads using simulators, profilers,
     and silicon-correlated models
-  - Ensure compiler outputs meet automotive requirements including real-time behavior,
-    determinism, and quality expectations
+  - Ensure compiler outputs meet automotive requirements for real-time behavior, determinism,
+    and quality
   - Mentor senior engineers and set technical direction without people-management
     responsibilities
   use_cases:
-  - Perception and sensor fusion for autonomous vehicles
-  - In-vehicle AI assistants
-  - Advanced driver assistance systems (ADAS)
-  - In-vehicle infotainment (IVI)
-  - Automotive gateway and SDV workloads
+  - ADAS perception and sensor fusion
+  - In-vehicle assistants
+  - Advanced driver assistance for software-defined vehicles
+  - Multi-domain automotive workloads (ADAS, IVI, gateway) on centralized SoC platforms
+  - Power- and safety-efficient AI inference acceleration on automotive NPUs
   skills:
-    domains: [automotive functional safety]
-    languages: [C++, Python]
-    ml: [MLIR, LLVM, TVM, graph optimization, NPU optimization, CNNs, Transformers,
-      AI inference, Quantization, operator fusion, tensor layout optimization, multi-core
-        execution, hardware-software co-design, heterogeneous computing]
     cloud: []
-    genai: []
-    data: []
-    other: []
+    languages: [C++, Python]
+    ml: [MLIR, LLVM, TVM, Graph Optimization, Quantization, CNNs, Transformers]
+    other: [Agile, Safety-Critical Systems, Heterogeneous SoCs, Performance Modeling,
+      Hardware-Software Co-Design]
     ops: []
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8775004'
   location: IND
   remote: true
-  extracted_at: '2026-03-27T15:02:56.721746'
+  extracted_at: '2026-08-16T04:28:28.721025'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

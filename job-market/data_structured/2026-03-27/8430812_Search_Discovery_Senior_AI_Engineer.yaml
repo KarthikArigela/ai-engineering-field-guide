@@ -1,55 +1,57 @@
 company:
   name: Search Discovery
-  stage: Unknown
-  focus: |-
-    Data, cloud, and AI consulting helping companies turn raw
-    data into decisions
+  stage: null
+  focus: Data, cloud, and AI consulting and products
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI/ML
-      systems, including RAG systems, LLM applications, and AI
-      agents. The engineer will architect LLMOps workflows,
-      develop production LLM services, and implement evaluation
-      frameworks for AI models - all hands-on work with AI systems
-      themselves.
+      The role directly shapes LLM behaviour: designing RAG
+      systems with vector databases and embedding strategies,
+      building evaluation frameworks for model performance, and
+      establishing guardrail/observability systems to mitigate
+      hallucinations and bias. These are all Step 1 shaping
+      activities applied to LLM-based products, making it ai-
+      first.
   responsibilities:
   - Lead implementation of rigorous evaluation frameworks to monitor model performance,
     drift, and cost in real-time
   - Architect and develop high-performance backend services and APIs using Python
     (FastAPI) to serve large language models at scale
-  - Design advanced Retrieval-Augmented Generation (RAG) systems, selecting and managing
-    vector databases and optimizing embedding strategies
-  - Establish comprehensive model observability and guardrail systems to monitor performance,
-    detect drift, and implement safety filters
-  - Build robust integration layers connecting AI agents securely to external enterprise
+  - Design advanced RAG systems, selecting and managing vector databases and optimizing
+    embedding strategies for accuracy and speed
+  - Establish model observability and guardrail systems to detect distribution drift
+    and implement automated safety filters mitigating hallucinations, bias, and toxic
+    outputs
+  - Build robust integration layers that connect AI agents securely to external enterprise
     systems, CRMs, and legacy databases
-  - Conduct code reviews, provide technical guidance, and foster continuous learning
-    within the engineering team
+  - Conduct code reviews, provide technical guidance, and mentor engineers on best
+    practices for building deterministic software around probabilistic AI models
   - Collaborate with infrastructure teams to define deployment strategies ensuring
-    solutions scale dynamically
-  - Define end-to-end architecture for AI products on Google Cloud Platform ensuring
-    high availability and security
+    solutions scale dynamically under load
+  - Define the end-to-end architecture for AI products on cloud platforms (preferably
+    GCP) ensuring high availability, security, and cost-effectiveness
   use_cases:
-  - Enterprise AI product development and deployment
-  - Retrieval-Augmented Generation (RAG) systems for enterprise clients
-  - AI agent integration with enterprise systems and CRMs
-  - Real-time model monitoring and safety guardrails
-  - Scalable LLM serving infrastructure for commercial applications
+  - Cloud-based commercial AI products for enterprise clients
+  - Serving large language models at scale in production
+  - Enterprise RAG with vector search over organizational data
+  - AI agents integrated with enterprise systems, CRMs, and legacy databases
+  - Model safety and quality monitoring to mitigate hallucinations, bias, and toxic
+    outputs
   skills:
-    domains: []
+    cloud: [GCP]
     languages: [Python, TypeScript]
     ml: []
-    cloud: [GCP]
-    genai: [LangChain, LangGraph, LlamaIndex, Prompt Engineering, LoRA, RAG, Fine-Tuning]
-    data: []
     other: []
-    ops: [LLMOps, Model registry and versioning, Git, Inference optimization]
-    web: [FastAPI, REST, GraphQL, gRPC]
-    databases: [Pinecone, Weaviate, PostgreSQL, Vector Databases]
-  is_customer_facing: true
+    ops: [LLMOps, Git]
+    databases: [Vector Databases, Pinecone, Weaviate, PostgreSQL]
+    domains: []
+    web: [REST APIs, GraphQL, gRPC, FastAPI]
+    data: []
+    genai: [LangChain, LangGraph, LlamaIndex, RAG, LLMs, AI Agents, Embeddings, Guardrails,
+      Prompt Engineering, Fine-Tuning, LoRA]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8430812'
@@ -60,4 +62,6 @@ meta:
   - Atlanta, USA
   - Cleveland, USA
   - New York, USA
-  extracted_at: '2026-03-27T13:30:52.025029'
+  extracted_at: '2026-08-16T03:08:57.131046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,63 @@
 company:
   name: Point72
-  stage: Public
+  stage: null
   focus: Global alternative investment firm
 position:
   title: IT Operations Engineer (Application Support) - AI & Data Technology
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an IT Operations/Application Support role focused on
-      monitoring, maintaining, and supporting AI and Data
-      platforms in production. The engineer ensures availability,
-      performance, and reliability of AI services and model
-      inference layers, but does not build, train, fine-tune, or
-      deploy AI models themselves. They work near AI systems to
-      provide operational support rather than working directly on
-      AI/ML development.
+      This role runs, monitors, and supports AI/ML platforms in
+      production - monitoring inference layers, triaging
+      incidents, and improving observability - but never shapes
+      model behavior: no prompt writing, retrieval design,
+      training, or evals. The deliverable is platform availability
+      and reliability, not model output quality, so it is ai-
+      support.
   responsibilities:
-  - Own the day-to-day operational health of compliance approved AI and Data platforms
+  - Own day-to-day operational health of compliance-approved AI and Data platforms
     in production, ensuring high availability, performance, and reliability
   - Monitor AI and Data services, model inference layers, APIs, and data dependencies
     using logs, metrics, dashboards, and alerts
-  - Lead incident triage, coordination, and resolution for platform outages or service
-    degradations
+  - Provide production-focused user support for AI tools and Data platforms, prioritizing
+    issue resolution
+  - Lead incident triage, coordination, and resolution for platform outages, partnering
+    with development and infrastructure teams
+  - Enhance observability, alerting, and operational runbooks to reduce mean time
+    to detect and resolve incidents
   - Conduct post-incident root cause analysis and drive corrective and preventive
     improvements
   - Support production deployments, configuration changes, and platform upgrades with
-    a focus on risk mitigation and stability
+    focus on risk mitigation and stability
   - Automate repetitive operational tasks and support workflows using Python and other
     scripting tools
   use_cases:
-  - AI platform operations and monitoring for compliance-approved production environments
-  - Model inference layer monitoring and troubleshooting in production
-  - AI tool user support and production issue resolution
-  - Data platform operations and data pipeline dependency management
-  - Investment platform infrastructure support for AI/ML applications
+  - Production operations and support for compliance-approved AI and Data platforms
+    at an investment firm
+  - Monitoring AI services, model inference layers, APIs, and data dependencies for
+    availability and reliability
+  - Incident management, root cause analysis, and troubleshooting across application,
+    data, and system layers
+  - Automation of operational tasks and support workflows for AI and Data platform
+    reliability
   skills:
-    domains: []
-    languages: [Python, SQL, .NET]
-    ml: [model serving, inference pipelines]
     cloud: [AWS, Azure]
-    genai: []
-    data: [Databricks]
+    languages: [Python, SQL, .NET]
+    ml: []
     other: []
-    ops: [Windows, Monitoring, logging, incident management, root cause analysis,
-      Distributed Systems, automation, Observability]
-    web: [APIs]
+    ops: [Distributed Systems, Windows, Model Deployment, Inference Pipelines, Observability,
+      Monitoring, Incident Management]
     databases: [SQL Server]
+    domains: []
+    web: [APIs]
+    data: [Databricks]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8544833'
   location: IND
   remote: true
-  extracted_at: '2026-02-27T12:17:34.756494'
+  extracted_at: '2026-08-16T02:20:00.454104'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

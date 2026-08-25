@@ -1,0 +1,63 @@
+company:
+  name: Hewlett Packard Enterprise
+  stage: null
+  focus: Edge-to-cloud enterprise IT solutions and services
+position:
+  title: Senior Software Engineer – HPC & AI Advanced Development
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core responsibilities are HPC systems engineering:
+      scaling discrete-event simulations on supercomputers and
+      building distributed data-analysis workflows for telemetry,
+      with no shaping of model behavior. LLM fine-tuning and AI
+      surrogates appear only as nice-to-haves, so the role is ai-
+      support.
+  responsibilities:
+  - Develop distributed HPC/AI workflows for interactive processing of large-scale
+    telemetry datasets from terabytes to petabytes
+  - Scale high-fidelity discrete-event simulations on HPE supercomputers using distributed-memory
+    and resilient execution techniques like checkpointing
+  - Build solutions by composing existing open-source software and applying distributed
+    and parallel programming approaches to scale data and simulation sizes
+  - Develop workflows for distributed, large-scale analysis of traces, logs, and telemetry
+    data from simulations and HPC systems
+  - Participate in a collaborative, consensus-driven design process in an Agile development
+    environment
+  - Create documentation, collaborate with users, and present progress in writing,
+    slides, and verbally
+  use_cases:
+  - Distributed analysis of traces, logs, and telemetry from simulations and HPC systems
+  - Scalable discrete-event simulation of HPC system designs on supercomputers
+  - Interactive processing of terabyte to petabyte scale datasets
+  - Resilient large-scale simulation execution via checkpointing
+  - Real-time HPC system error detection with AI surrogates
+  - LLM-powered chat interface for analysis and development environments
+  skills:
+    genai: [LLMs, Fine-Tuning]
+    ml: [AI Surrogates]
+    web: [Full Stack Development]
+    databases: []
+    data: [Pandas, NumPy, Dask, Spark, Data Engineering, Data Science]
+    cloud: []
+    ops: [Distributed Systems, CI/CD, Docker, Podman, Apptainer, Slurm, Kubernetes,
+      AIOps, MLOps]
+    languages: [C, C++, Python]
+    domains: []
+    other: [HPC, Scientific Computing, Parallel Programming, Version Control, Code
+        Review, Automated Testing, Digital Twin, Discrete Event Simulation, SST, Checkpointing,
+      Performance Optimization]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8037077'
+  location: USA
+  locations:
+  - USA
+  - New York, USA
+  - San Jose, USA
+  - Washington, USA
+  remote: true
+  extracted_at: '2026-08-15T22:33:37.972824'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

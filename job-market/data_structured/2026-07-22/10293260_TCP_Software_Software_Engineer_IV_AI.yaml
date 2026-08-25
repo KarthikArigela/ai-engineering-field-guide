@@ -1,51 +1,59 @@
 company:
   name: TCP Software
   stage: null
-  focus: Timekeeping and workforce management solutions
+  focus: Timekeeping and workforce management software
 position:
   title: Software Engineer IV (AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a senior software engineering role at a workforce
-      management company where AI is used as a development
-      accelerator (AI coding assistants, agentic pipelines, AI-
-      assisted code review), not as the core product. The engineer
-      builds cloud-hosted web applications for
-      timekeeping/workforce management, with AI tooling enhancing
-      productivity rather than being the deliverable itself.
+      The core deliverable is cloud-hosted timekeeping and
+      workforce management web applications; AI appears only as
+      developer tooling — daily use of coding assistants (Claude
+      Code, GitHub Copilot, Cursor), agentic development
+      pipelines, MCP integrations, and reviewing/hardening AI-
+      generated code. Using AI coding tools to do engineering work
+      is explicitly not shaping model behaviour, and no prompts,
+      retrieval, agents, or evals are the product itself, so this
+      is ai-support.
   responsibilities:
   - Design, develop, test, and document cloud-hosted web applications in a cross-functional
     agile environment
   - Deliver quality code backed by unit tests and automated acceptance tests
   - Review, define, analyze, and improve detailed specifications and implement feature
     development
-  - Lead peer code reviews and guide the team toward best practice design patterns
-  - Use AI-assisted development tools and agentic pipelines to accelerate delivery
-    while holding AI-generated code to high review standards
-  - Mentor junior team members and provide technical leadership
   - Build and maintain test automation to ensure fast delivery of quality products
+  - Lead peer code reviews and guide the team toward best-practice design patterns
+  - Use AI-assisted development tools to accelerate delivery and hold AI-generated
+    code to the same review standard as human-written code
+  - Mentor junior team members and provide technical leadership
+  - Operate independently, setting priorities and goals while continuing to learn
+    and grow technically
   use_cases:
-  - AI-assisted software development to accelerate code delivery
-  - Automated code review using AI tooling
-  - Multi-agent and agentic development workflows for internal productivity
-  - MCP integrations for development pipelines
+  - AI-assisted code generation to accelerate software delivery
+  - Critical review, testing, and hardening of AI-generated code before it ships
+  - Agentic development pipelines with MCP integrations
+  - AI-assisted code review
+  - Multi-agent and automated development workflows
+  - Internal AI developer tooling
   skills:
-    genai: [Claude Code, GitHub Copilot, Cursor, MCP, Agentic Workflows, Multi-Agent
-        Systems, Prompt Engineering, LLMs, AI Agents]
-    ml: []
-    web: [AngularJS, REST APIs, Jasmine]
-    databases: [SQL Server]
-    data: []
     cloud: []
-    ops: [Docker, Jenkins, CI/CD, GitHub]
-    languages: [C#, .NET, JavaScript, SQL]
+    languages: [C#, .NET, JavaScript]
+    ml: []
+    other: [Jasmine, Test Automation]
+    ops: [Docker, Jenkins, CI/CD]
+    databases: [SQL Server]
     domains: []
-    other: [Code Review, Agile, Test Automation]
+    web: [Angular]
+    data: []
+    genai: [Claude Code, GitHub Copilot, Cursor, MCP, Prompt Engineering, Agentic
+        Workflows, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10293260'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:39:01.605550'
+  extracted_at: '2026-08-16T18:32:46.045916'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

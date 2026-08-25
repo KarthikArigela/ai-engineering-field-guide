@@ -1,19 +1,20 @@
 company:
   name: Findem
-  stage: Series B+
-  focus: Talent data platform with 3D data and AI
+  stage: null
+  focus: AI-powered talent data platform combining 3D data
 position:
   title: Staff Quality Assurance Engineer(QA with AI Expertise)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Quality Assurance Engineer role that uses AI tools
-      to improve testing processes and automation, but does not
-      involve building, training, or deploying AI models. The role
-      focuses on leveraging AI-assisted development tools
-      (Copilot, ChatGPT, etc.) to enhance QA workflows, test
-      generation, and automation - supporting the engineering team
-      rather than working directly on AI systems.
+      This is a QA/SDET role that uses AI-assisted development
+      tools (ChatGPT, GitHub Copilot, Cursor, etc.) to accelerate
+      test generation and automation for Findem's AI-powered
+      talent products. The engineer does not shape any model's
+      behavior themselves — no prompt design, retrieval, fine-
+      tuning, or building model evals — they consume AI tooling to
+      test products another team built, which is ai-support per
+      the coding-assistant edge case.
   responsibilities:
   - Scale QA operations using AI tools and frameworks
   - Use AI technologies to enhance testing coverage and automation across multiple
@@ -21,29 +22,32 @@ position:
   - Write, execute, and report comprehensive test plans and test cases
   - Develop and maintain automated tests for web and backend systems
   - Accelerate CI/CD automation pipelines and improve test coverage analysis
-  - Identify changes across repositories and commits to help QA focus testing efficiently
+  - Identify changes across repositories and commits to focus QA testing efficiently
   - Champion best practices for testing, automation, and AI integration in QA processes
+  - Guide and mentor engineers on leveraging AI tools in QA and development
   use_cases:
-  - AI-powered campaign creation and assistance
-  - AI copilot for candidate search functionality
-  - Profile enrichment using AI-generated insights
-  - Auto-suggested job titles for candidates
-  - Company list generation for sourcing
-  - Talent analytics and competitive intelligence
+  - AI-powered campaign creation for talent sourcing
+  - AI Copilot assisting with start search
+  - AI-assisted profile enrichment
+  - Insights for profile enrichment
+  - Auto-suggested job titles
+  - Company list generation
   skills:
-    domains: []
+    cloud: []
     languages: [TypeScript, Java, Python, Bash]
     ml: []
-    cloud: []
-    genai: [VS Cline, ChatGPT, GitHub Copilot, Codeium, Anthropic API, Cursor, Cody]
-    data: []
-    other: []
-    ops: [Jenkins, Jira, Bitbucket, Git, CI/CD]
-    web: [Playwright, Selenium]
+    other: [Jira]
+    ops: [CI/CD, Jenkins, Git, Bitbucket]
     databases: []
+    domains: []
+    web: [Playwright, Selenium]
+    data: []
+    genai: [ChatGPT, GitHub Copilot, Cursor, Codeium, Anthropic API, Cody, Cline]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7576819'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T13:08:43.108105'
+  extracted_at: '2026-08-16T00:00:16.881538'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

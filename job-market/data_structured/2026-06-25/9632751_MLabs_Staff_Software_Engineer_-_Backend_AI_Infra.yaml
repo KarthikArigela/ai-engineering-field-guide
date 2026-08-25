@@ -1,61 +1,69 @@
 company:
   name: MLabs
-  stage: High-growth
-  focus: Autonomous AI agents for high-frequency trading
+  stage: null
+  focus: Autonomous AI agents for high-frequency financial trading
 position:
   title: Staff Software Engineer - Backend & AI Infra
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building agent runtime engines, deploying
-      autonomous agents for high-frequency trading, migrating from
-      third-party LLM APIs to self-hosted inference, and
-      architecting telemetry/feedback loops for agent fleets. The
-      engineer directly designs, deploys, and optimizes AI agent
-      infrastructure and model serving, making this an ai-first
-      role.
+      The role designs backend services, runtime engines, and
+      deployment infrastructure for a fleet of LLM-powered trading
+      agents - the deliverable is capacity, reliability, and
+      sovereignty, not model behavior. Model work is explicitly
+      serving-focused (migrating from external LLM APIs to self-
+      hosted inference), which per the edge cases is ai-support.
+      No prompt engineering, retrieval design, fine-tuning, or
+      eval building is mentioned, and the telemetry/feedback loop
+      is data capture plumbing rather than judging model output
+      quality for training.
   responsibilities:
-  - Lead the evolution of the per-agent plugin runtime, migrating from a distributed
-    Go/Python hybrid to a centralized high-performance Go service with Postgres state
-    and real-time websocket price feeds
-  - Build a YAML-configurable Rules Engine (Scanner Gateway) bridging signal production
+  - Lead evolution of the per-agent plugin runtime, migrating from a distributed Go/Python
+    hybrid to a centralized high-performance Go service with Postgres state and real-time
+    websocket price feeds
+  - Build a YAML-configurable Scanner Gateway rules engine bridging signal production
     and execution for complex scoring and filtering
-  - Develop and maintain a centralized profit-trailing execution system (RatchetStop
-    Backend) with sub-second evaluation and websocket-based order execution
-  - Manage the Model Context Protocol (MCP) server bridging agents to platform tools
-    and oversee high-throughput data pipelines for real-time market intelligence
-  - Lead the migration of agents from third-party platforms to custom in-house hosting
-    with isolated workspaces and state persistence
+  - Develop and maintain the RatchetStop backend, a centralized profit-trailing service
+    with sub-second evaluation and websocket-based order execution that protects capital
+    even when agents are offline
+  - Manage the Model Context Protocol (MCP) server bridging agents to platform tools,
+    and oversee a high-throughput data pipeline (Redis, Postgres, ClickHouse) for
+    real-time market intelligence ingestion
+  - Lead migration of agents from third-party platforms to a custom-built, self-hosted
+    environment with isolated workspaces and state persistence
   - Evaluate and implement the transition from external LLM APIs (Anthropic, Google)
-    to self-hosted inference optimized for telemetry and performance
-  - Architect telemetry and feedback loop systems to capture agent decisions and scores
-    for fleet-wide learning and improvement
-  - Build CI/CD pipelines for zero-downtime rollouts and manage AWS/EKS infrastructure
-    using Infrastructure-as-Code
+    to self-hosted inference optimized for telemetry capture and performance
+  - Architect telemetry systems capturing every agent decision and score to create
+    a self-reinforcing loop where the fleet improves from collective performance data
+  - Build CI/CD pipelines for zero-downtime rollouts, design monitoring and alerting
+    frameworks, manage AWS/EKS environments via Infrastructure-as-Code, and act as
+    primary responder for trading system incidents
   use_cases:
-  - Autonomous AI agent fleet for high-frequency trading
-  - Real-time market intelligence ingestion and signal processing
-  - Sub-second capital protection via profit-trailing execution systems
-  - Self-hosted LLM inference replacing third-party model providers
-  - Agent decision telemetry and self-reinforcing learning loops
-  - Sovereign infrastructure for autonomous financial software
+  - Fleet of autonomous agents executing high-frequency trading strategies
+  - Real-time market intelligence ingestion with signal scoring and filtering
+  - Profit-trailing capital protection with sub-second order execution even when agents
+    are offline
+  - Self-hosted LLM inference replacing third-party provider APIs to power agent decision-making
+  - Telemetry-driven feedback loop where the agent fleet improves from collective
+    performance data
+  - Sovereign model and agent hosting with isolated workspaces and state persistence
   skills:
-    domains: [High-frequency trading]
+    cloud: [AWS, EKS]
     languages: [Go, Python]
     ml: []
-    cloud: [AWS, EKS]
-    genai: [MCP, Self-hosted LLM inference, Agent runtime development, Anthropic API,
-      Google AI API]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, Terraform, CI/CD, Infrastructure-as-Code, Telemetry
-        systems]
-    web: [WebSockets, FastAPI]
+    other: [YAML, Incident Response]
+    ops: [Model Deployment, CI/CD, Monitoring, Infrastructure as Code]
     databases: [PostgreSQL, Redis, ClickHouse]
+    domains: [High-Frequency Trading]
+    web: [WebSockets]
+    data: [Data Pipelines]
+    genai: [MCP, AI Agents, LLMs, Anthropic API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9632751'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:48:57.405636'
+  extracted_at: '2026-08-16T13:25:51.136578'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,56 @@
+company:
+  name: Demandbase
+  stage: null
+  focus: |-
+    B2B go-to-market pipeline AI platform for account-based
+    marketing
+position:
+  title: DevOps Engineer - AI Runtime Services
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns guardrails and PII/policy enforcement at the
+      gateway plus the shared evals and experimentation harnesses,
+      and building guardrails, evals, or output-quality monitoring
+      is explicitly shaping model behavior. Although much of the
+      job is gateway/reliability infrastructure, the shaping
+      components make it ai-first.
+  responsibilities:
+  - 'Own and operate the LLM gateway: provider keys, routing, rate limits, failover,
+    and quotas'
+  - Own runtime reliability with SLOs, on-call, incident response, and postmortems
+  - Build cost controls including per-team and per-model attribution, budgets, and
+    quotas
+  - 'Implement LLM observability: traces, spans, prompt/response capture, ingest and
+    billing visibility'
+  - Build shared evals and experimentation infrastructure for prompt and model changes
+  - Develop caching (response and semantic) and guardrails including PII handling
+    and policy enforcement
+  - Build internal AI tooling and services used company-wide
+  use_cases:
+  - Centralized LLM gateway serving all AI features in the Demandbase platform
+  - LLM spend control with budgets, quotas, and cost attribution
+  - Observability and tracing for all prompt/response traffic across AI features
+  - Evals infrastructure to validate prompt and model changes
+  - Caching and safety guardrails including PII detection and policy enforcement
+  skills:
+    genai: [LLMs, RAG, AI Agents, Guardrails, LLM Evaluation, Semantic Search, Prompt
+        Engineering]
+    ml: []
+    web: []
+    databases: [ClickHouse]
+    data: []
+    cloud: [GCP]
+    ops: [LiteLLM, LangSmith, Datadog, Arize, Kubernetes, EKS, AWS, Terraform, GitOps,
+      Flux, Karpenter, Prometheus, Loki, GitLab CI, Observability, Monitoring]
+    languages: [Python]
+    domains: []
+    other: [FinOps]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10368173'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T09:50:30.535460'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

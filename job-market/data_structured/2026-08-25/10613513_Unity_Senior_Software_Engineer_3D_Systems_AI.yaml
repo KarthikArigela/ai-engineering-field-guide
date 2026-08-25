@@ -1,0 +1,54 @@
+company:
+  name: Unity
+  stage: null
+  focus: Game engine and real-time 3D development platform
+position:
+  title: Senior Software Engineer, 3D Systems & AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs runtime protocols and feedback loops that
+      let AI systems inspect engine state, invoke engine
+      capabilities, and validate outcomes, plus interfaces for
+      understanding/generation/orchestration by AI-driven tools —
+      that is shaping agent/tool-call behavior on structured
+      application state, involving LLM agents and MCP-style
+      interfaces (ai-first). It also involves substantial engine
+      and networking engineering, but the AI-shaping component
+      with agents/tools makes it ai-first.
+  responsibilities:
+  - Define runtime protocols, formats, and execution models to encode, compress, and
+    replay interactive 3D content between engines and AI models
+  - Own and evolve critical engine subsystems from low-level C++ runtime to high-level
+    C# APIs across editor, build, simulation, streaming, and playback
+  - Build systems to capture, serialize, stream, and synchronize scene state, assets,
+    interactions, and rendering data under tight performance constraints
+  - Design interfaces and feedback loops that let AI systems inspect engine state,
+    invoke capabilities, and validate outcomes
+  - Profile, debug, and ship modular high-performance real-time systems end-to-end
+  use_cases:
+  - Streaming interactive Unity 3D content into other game engines and platforms
+  - Encoding and exchanging interactive 3D content for rendering and interchange
+  - AI-driven understanding, transformation, generation, and orchestration of 3D content
+  - AI systems inspecting and acting on structured engine/application state
+  - Real-time scene state synchronization and replay across processes and networks
+  skills:
+    genai: [AI Agents, Function Calling, MCP, Agentic Workflows, Embeddings]
+    ml: [Model Training, Reinforcement Learning]
+    web: []
+    databases: [Vector Search]
+    data: []
+    cloud: []
+    ops: []
+    languages: [C++, C#]
+    domains: []
+    other: [USD, glTF, Unity DOTS, Synthetic Data]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10613513'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:54:58.777300'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

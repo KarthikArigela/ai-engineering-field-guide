@@ -1,53 +1,52 @@
 company:
   name: MCG Health
-  stage: Public
-  focus: Healthcare evidence-based care guidelines and content
+  stage: ''
+  focus: Evidence-based healthcare guidelines and clinical content
 position:
   title: Generative AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying
-      generative AI solutions with LLMs, including RAG
-      implementations, prompt optimization, and full-stack AI
-      application development. The engineer is directly
-      responsible for automating content workflows using OpenAI
-      models, embeddings, and chunking techniques, which is core
-      AI/ML development work rather than support infrastructure.
+      The role builds internal LLM applications using RAG,
+      chunking, and embedding techniques and collaborates with
+      data scientists to optimize prompts, directly shaping model
+      behavior and output quality. Since LLMs are the core
+      component being shaped, this is ai-first.
   responsibilities:
-  - Drive automation and workflow improvements through innovative LLM solutions balancing
-    speed, function, and robustness
-  - Rapid prototyping of generative AI applications with full-stack development from
-    proof-of-concept to front-end UI
-  - Develop ETL/data pre-processing workflows to structure and manage clinical content
-    for LLM pipelines
-  - Collaborate with clinical editors and data scientists to implement RAG, optimize
-    prompts, and evaluate AI strategies
-  - Evaluate, measure, and continuously improve performance of generative AI solutions
-  - Stay current with industry developments in generative AI technologies and best
-    practices
-  use_cases:
-  - Automate search, filter, retrieval, and critical evaluation of medical literature
+  - Design and deploy internal-use applications that leverage large language models
+    in the health technology domain
+  - Build full-stack generative AI applications from rapid prototypes through front-end
+    UI
+  - Automate search, filtering, retrieval, and critical evaluation of medical literature
     to accelerate content production
-  - Improve content creation efficiency with AI-powered copy editing assistance tools
-  - Streamline evidence-based care guideline updates through automated literature
-    review workflows
-  - Enable clinical editors to create content more efficiently and accurately with
-    AI-powered tools
+  - Develop ETL and data pre-processing workflows to structure clinical content for
+    LLM pipelines
+  - Evaluate, measure, and improve application performance on a continuous basis
+  - Work with data scientists to rigorously evaluate strategies for optimizing prompts
+  - Collaborate with clinical and copy editors to prioritize new use cases and gather
+    feedback
+  use_cases:
+  - Automating search, filtering, and retrieval of medical literature
+  - Critical evaluation of medical literature for evidence-based care guidelines
+  - Copy editing assistance to improve efficiency of clinical content creation
+  - Accelerating the content update cycle for evidence-based care guidelines
+  - Internal AI-powered tools for clinical editors, copy editors, and informaticists
   skills:
-    domains: []
+    cloud: [Azure, AWS]
     languages: [Python]
     ml: []
-    cloud: [Azure, AWS]
-    genai: [OpenAI API, RAG, Embeddings, chunking, Prompt Engineering]
-    data: [Data Pipelines]
-    other: []
-    ops: [CI/CD, containerized services]
-    web: [React]
+    other: [Health Technology]
+    ops: [MLOps, CI/CD]
     databases: []
+    domains: []
+    web: [React, Full-Stack Development]
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, OpenAI API, RAG, Embeddings, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8218275'
   location: USA
-  extracted_at: '2026-02-05T12:14:22.016263'
+  extracted_at: '2026-08-15T22:53:02.758306'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

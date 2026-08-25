@@ -1,0 +1,64 @@
+company:
+  name: Citi
+  stage: null
+  focus: Global banking and financial services technology
+position:
+  title: AI Solutions Data Platform Engineer - Assistant Vice President
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      Although the core deliverable is a data platform, the role
+      explicitly requires hands-on design, development, and
+      integration of AI agents into data engineering workflows,
+      plus setting up MCP servers and designing MCP-compatible
+      tool interfaces that let agents query, transform, and
+      validate data autonomously, with RAG grounding in enterprise
+      data. That is agent flow and tool-calling design — shaping
+      LLM/agent behaviour — so it is ai-first.
+  responsibilities:
+  - Drive creation of a scalable, high-quality data-intensive platform leveraging
+    Data Virtualization and Data Domains methodologies
+  - Design and develop large-scale data pipelines and ETL/ELT solutions using Spark,
+    Databricks, Starburst/Trino, Snowflake, and Hadoop
+  - Design, develop, and integrate AI agents into data engineering workflows and software
+    systems
+  - Set up and configure MCP servers to expose data tools, database connections, and
+    APIs as contextual resources for LLM-powered agents
+  - Design MCP-compatible tool interfaces enabling agents to query, transform, and
+    validate data autonomously
+  - Build and maintain large, complex database systems and design OLTP, ODS, and data
+    warehouse applications
+  - Ensure data quality and data lineage across data processing and analytics solutions
+  - Apply LLMs to data engineering contexts such as automated schema inference, natural
+    language querying, and intelligent data cataloging
+  use_cases:
+  - Enterprise financial controllers data platform with data virtualization and federation
+    across data domains
+  - Automated schema inference and intelligent data cataloging using LLMs
+  - Natural language querying of enterprise data via LLM-powered agents
+  - Autonomous AI agent execution of data queries, transformations, and validation
+    through MCP tool interfaces
+  - Real-time processing and analytics of structured and unstructured enterprise data
+  skills:
+    genai: [AI Agents, MCP, RAG, LLMs, OpenAI API, Gemini, Anthropic API, Llama]
+    ml: []
+    web: []
+    databases: [Snowflake, Redshift, MongoDB, Oracle, Vector Databases, Pinecone,
+      Weaviate, Chroma, OLTP, ODS]
+    data: [Databricks, Spark, Starburst/Trino, Hadoop, Airflow, Ab Initio, Talend,
+      ETL, Data Pipelines, Data Modeling, Data Warehousing, Data Lakes, Data Mesh,
+      Data Virtualization, Data Federation, Data Quality, Data Lineage, Flink, Real-Time
+        Data Processing, Big Data]
+    cloud: []
+    ops: [Distributed Systems]
+    languages: [Scala, Java, Python, PL/SQL, SQL, Unix Shell Scripting]
+    domains: []
+    other: [Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10019976'
+  location: Pune, IND
+  extracted_at: '2026-08-16T16:12:06.729445'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,212 @@
+job_id: 10533752
+title: Senior Engineer, AI/ML
+company: A2Z Sync
+location: USA
+remote: true
+work_type: FULL_TIME
+description: |
+  We operate a multi-tenant automotive SaaS platform serving
+  thousands of dealer groups across the United States, running
+  on a native AWS (NAWS) backend: Lambda, EventBridge,
+  DynamoDB, S3, Step Functions. That platform works. Now we
+  are making it think: production agentic AI systems built
+  code-first and deployed on AWS Bedrock AgentCore, connected
+  to real systems, making decisions and executing workflows
+  against real dealer data and real money.
+
+  This is a hands-on builder role. Expect the large majority
+  of your time in code. But we are not hiring a pair of hands.
+  Every agent you ship makes decisions that touch dealer
+  revenue, so we need an engineer who understands the business
+  problem before writing the technical solution: someone who
+  asks what a workflow is worth, weighs build cost against
+  dealer impact, and knows when the right answer is a simpler
+  tool, or no agent at all.
+
+  What you will own:
+
+  Building production agents in Strands/LangGraph on
+  AgentCore: agent logic, tool orchestration, and multi-agent
+  workflows deployed on AgentCore Runtime with Memory,
+  Identity, and Gateway.
+
+  Tool interfaces: framework-agnostic Python tools, MCP
+  servers, and AgentCore Gateway targets that let agents
+  safely call production APIs.
+
+  Evaluation harnesses: offline/online eval pipelines and LLM-
+  as-judge CI/CD gates that catch regressions before dealers
+  do.
+
+  Guardrails and safe failure: approval gates and rollback
+  paths that determine whether an agent fails safe or fails
+  loud.
+
+  Cost and latency management: per-agent cost tracking and
+  multi-model routing so each workflow earns more than it
+  costs.
+
+  Production observability: AgentCore session tracing,
+  OpenTelemetry, and CloudWatch dashboards for every agent you
+  ship.
+
+  Tech environment: Strands Agents SDK on AWS Bedrock
+  AgentCore (Runtime, Gateway, Memory, Identity,
+  Observability); MCP servers; Bedrock Guardrails; Anthropic
+  models (Haiku, Sonnet, Opus); NAWS stack (Lambda,
+  EventBridge, DynamoDB, S3, Step Functions, ECS Fargate,
+  Aurora, API Gateway, CDK); Python primary, Java (Spring
+  Boot) secondary.
+
+  You work within the platform's established architectural
+  patterns, and produce deliverables using agentic frameworks,
+  AWS serverless core, MCP/tool design, and observability
+  without someone looking over your shoulder. Prompt
+  engineering and tool-use design are core engineering
+  disciplines here, not an afterthought.
+
+  Scope and scale:
+
+  5,000+ destination dealer tenants, each with isolated
+  databases and per-tenant configuration.
+
+  Agent workflows that touch production transaction data: real
+  dealer money, not a sandbox.
+
+  Tens of thousands of API requests across REST, SOAP, and
+  event-driven integration surfaces that your agents' tools
+  will call into.
+
+  A growing portfolio of production agents, each with its own
+  cost, latency, and evaluation budget.
+
+  Your first 6 months:
+
+  Month 1: Ramp on the platform architecture, existing agents,
+  and integration surfaces, and on the dealer workflows behind
+  them, so you know what the agents are for, not just how they
+  run. Ship your first tool integration (MCP server or Gateway
+  target) to production.
+
+  Months 2-3: Own end-to-end agent workflows, from design
+  through production on AgentCore: Strands agent logic, tool
+  interfaces, evaluation harness with CI gates, and
+  guardrails.
+
+  Months 4+: Running autonomously: shipping new agents and
+  tools with minimal oversight, with observability and cost
+  tracking in place for everything you own.
+
+  Requirements
+
+  Must have:
+
+  5+ years of software engineering experience, including
+  hands-on production experience building LLM agents in a
+  code-first framework. Strands Agents and LangGraph are
+  equally acceptable, as are Google ADK, OpenAI Agents SDK,
+  and comparable frameworks. If you have built and operated
+  real agents in any of them, you will pick up Strands
+  quickly.
+
+  Business-conscious judgment: you start from the problem and
+  its value, not the technology, and you have walked away from
+  a clever solution because a simpler one served the customer
+  better.
+
+  Strong Python; ability to read and contribute to Java
+  (Spring Boot) services.
+
+  Hands-on experience with AWS serverless (Lambda,
+  EventBridge, DynamoDB, Step Functions).
+
+  Experience with prompt engineering, tool/function-calling
+  design, and evaluating LLM output quality in production.
+
+  An appetite for a heads-down building role: you measure your
+  week in shipped code.
+
+  Strongly preferred:
+
+  Direct experience with Strands Agents and/or AgentCore
+  Runtime (or migrating agent workloads from Lambda/Fargate to
+  a managed agent runtime); LLM-as-judge, agent-to-agent
+  orchestration, and agent governance.
+
+  Direct production experience with MCP (Model Context
+  Protocol) servers.
+
+  Comfort owning production observability (OpenTelemetry,
+  CloudWatch) for the systems you build.
+
+  Nice to have:
+
+  Automotive, fintech, or multi-tenant marketplace platform
+  experience.
+
+  Familiarity with Bedrock Guardrails, LLM-as-judge
+  evaluation, model cost/latency optimization, and multi-agent
+  orchestration patterns.
+
+  Experience with data pipelines (Glue/Athena) or ETL/data
+  lake tooling.
+
+  BenefitsAbout A2Z Sync
+
+  A2Z Sync is a fast-paced and innovative automotive SaaS
+  company seeking to make life better for our customers. We
+  offer you a fun, casual, and collaborative culture, while
+  fostering an environment where you work hard, see your
+  results, and feel your impact. We are committed to our
+  employees, and this starts with providing benefits that
+  allow you to care for you and your family.
+
+  Mission
+
+  At A2Z Sync, we replace the friction of disconnected systems
+  with the velocity of a single platform. We integrate digital
+  insights with in-store operations to deliver transparent
+  transactions that bring clarity to the car buyer and
+  increased profitability to the dealer.
+
+  Our Values: We Are DRIVEN
+
+  - Dealership Obsessed: We measure our success by the dealer's
+    wins and the trust of their buyers, not just our own code.
+  - Relentless Ownership: No lone wolves, but no pass-backs
+    either. We don't say "that's not my job."
+  - Invent with Purpose: We don't chase "shiny" tech. We replace
+    guesswork with intelligence, building the "data backbone"
+    that turns raw information into a competitive advantage.
+  - Value Every Perspective: We are Better Together. We check
+    egos at the door.
+  - Evolve or Evaporate: Change is our constant. We stay ahead
+    by learning faster than the competition.
+  - Now Over Next: Perfection is the enemy of progress. We
+    prefer action over endless analysis.
+
+  Here’s how we are doing it:
+
+  - A2Z Sync offers comprehensive medical, dental, and vision
+    benefits.
+  - Employer provided STD/LTD and life insurance.
+  - Matching 401k plan.
+  - Unlimited paid time off, including 10 paid holidays.
+  - Real ownership of a high-stakes AI surface — your roadmap,
+    your architecture decisions, your metrics.
+  - The expected salary range for this role is $160,000 to
+    $190,000 annually, commensurate with experience and
+    qualifications.
+  - A2Z Sync is an Equal Opportunity Employer and does not
+    discriminate against any employee or applicant for
+    employment because of race, color, sex, age, national
+    origin, religion, sexual orientation, gender identity,
+    veteran status, basis of disability or any other federal,
+    state or local protected class.
+industries:
+  - Automotive
+  - Information Technology
+  - Software
+posted_date: 2026-08-05
+url: "https://www.builtinla.com/job/senior-engineer-ai-ml/10533752"
+source: Built In

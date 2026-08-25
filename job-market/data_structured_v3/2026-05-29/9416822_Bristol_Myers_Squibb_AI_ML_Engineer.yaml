@@ -1,0 +1,66 @@
+company:
+  name: Bristol Myers Squibb
+  stage: null
+  focus: |-
+    Global biopharmaceutical company developing medicines for
+    patients
+position:
+  title: AI & ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior by developing and
+      integrating RAG, conversational agents, agentic AI
+      workflows, and prompt engineering, alongside building
+      classical ML models. Since the position shapes both LLM-
+      based and classical ML systems, it classifies as ai-first.
+  responsibilities:
+  - Build focused data pipelines pulling from GPS source systems (SAP, MES, LIMS,
+    planning and quality systems) and transform raw data into clean, usable datasets
+    for prototypes and applications
+  - Apply Medallion architecture layering and dbt to organize data into modular, testable,
+    reusable transformation models
+  - Prepare curated datasets tailored for AI/ML feature engineering, application consumption,
+    and analytical exploration
+  - Build and deploy machine learning models — predictive, classification, anomaly
+    detection, and optimization — supporting GPS use cases
+  - Develop and integrate GenAI and LLM-based capabilities including conversational
+    agents, retrieval-augmented generation (RAG), and agentic AI workflows
+  - Perform feature engineering on complex operational data to improve model performance
+    and explainability, using Databricks for development, experimentation, and deployment
+  - Partner with Software Engineers and Systems Analysts to define data contracts,
+    APIs, and output formats that applications consume
+  - Engage business stakeholders to validate data quality and coordinate with centralized
+    IT/BI&T teams on governance and production handoff
+  use_cases:
+  - Data foundations and AI capabilities powering Digital Lab prototypes and applications
+  - Predictive, classification, anomaly detection, and optimization models for pharmaceutical
+    supply and manufacturing (GPS) use cases
+  - Conversational agents and retrieval-augmented generation (RAG) over operational
+    lab and manufacturing data
+  - Agentic AI workflows that turn operational data into intelligent applications
+  - Curated datasets for feature engineering, application consumption, and analytical
+    exploration in a prototyping context
+  skills:
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, Conversational AI, Agentic
+        Workflows, AI Agents]
+    ml: [Machine Learning, Feature Engineering, Model Training, Model Evaluation,
+      Anomaly Detection]
+    web: [React, Node.js, APIs]
+    databases: []
+    data: [Spark, dbt, Databricks, Medallion Architecture, Data Pipelines, ETL, Data
+        Lineage, Data Governance]
+    cloud: [AWS, AWS Glue, AWS S3, AWS Lambda]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [SAP, MES, LIMS, Kinaxis, Blue Yonder, Decision Intelligence, Data Quality
+        Frameworks]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9416822'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-16T11:06:32.002001'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

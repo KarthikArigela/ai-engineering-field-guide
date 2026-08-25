@@ -1,0 +1,50 @@
+company:
+  name: Staples India
+  stage: null
+  focus: Ecommerce office supplies and retail
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes LLM behavior by building GenAI and agentic
+      AI systems (LangChain/LangGraph) for search and content use
+      cases, alongside classical ML. Since it shapes both LLM and
+      classical systems, it is ai-first.
+  responsibilities:
+  - Design, build, and improve ML models for product matching, entity resolution,
+    semantic retrieval, and search relevance
+  - Develop ranking and recommendation systems and optimize multi-stage ranking pipelines
+  - Run experimentation frameworks including offline evaluation and A/B testing
+  - Apply reinforcement learning and bandits for personalization and ranking optimization
+  - Build and deploy GenAI and agentic AI systems for search, discovery, and content
+    use cases
+  - Productionize ML systems using Databricks pipelines and deploy via AKS
+  - Monitor model performance and iterate using MLOps/LLMOps best practices
+  - Scope ambiguous problems independently and drive them from idea to production
+  use_cases:
+  - Ecommerce product matching and entity resolution
+  - Semantic retrieval and search relevance
+  - Ranking and recommendation systems
+  - Personalization via reinforcement learning and bandits
+  - GenAI and agentic experiences for search, discovery, and content
+  skills:
+    genai: [Generative AI, LLMs, LangChain, LangGraph, Agentic Workflows]
+    ml: [Machine Learning, NLP, Embeddings, Deep Learning, Reinforcement Learning,
+      Model Evaluation]
+    web: []
+    databases: [Snowflake]
+    data: [Databricks]
+    cloud: [AKS]
+    ops: [Kubernetes, MLOps, LLMOps, MLflow]
+    languages: [Python]
+    domains: [Computer Vision]
+    other: [A/B Testing, Data Lakes]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10812575'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T12:02:46.061621'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

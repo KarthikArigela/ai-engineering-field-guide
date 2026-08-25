@@ -1,51 +1,65 @@
 company:
   name: Mastercard
-  stage: Public
-  focus: Global digital payments technology company
+  stage: null
+  focus: Global digital payments technology and services
 position:
   title: Lead AI Software Engineer- AI Enablement
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building a Generative AI/LLM platform
-      including MLOps/LLMOps infrastructure. The engineer will
-      implement model deployment, orchestration, RAG systems, and
-      agent deployment - working directly ON AI systems rather
-      than just supporting them.
+      Although framed as platform/cloud engineering, the role
+      explicitly requires hands-on shaping of LLM behaviour:
+      prompt engineering, RAG design (chunking, embeddings, vector
+      stores), agent orchestration and at-scale deployment (MCP,
+      A2A, AI Agents), and model evaluation, governance, and
+      tuning. The deliverable includes model behaviour and output
+      quality for Generative AI LLMs, not just hosting capacity,
+      so with LLMs central it is ai-first.
   responsibilities:
-  - Design, configure, and implement a Gen AI platform including MLOps/LLMOps for
-    LLMs both commercial and open source
+  - Design, configure, and implement a Generative AI platform, including MLOps/LLMOps
+    for commercial and open source LLMs
+  - Deploy MCP servers and AI agents at scale, managing context window size and security
+    controls (A2A protocol)
   - Ensure alignment to appropriate patterns and standards for cloud integration and
     automation
-  - Identify opportunities for reuse and improved efficiency in AI platform development
-  - Engage with IT and business partners, product owners and stakeholders to create
-    meaningful roadmaps
-  - Champion Mastercard engineering principles and participate in Software Engineering
-    Guild sharing best practices
-  - Help identify and drive meaningful behavior changing metrics for the AI platform
+  - Drive cloud patterns, standards, and best practices across Mastercard and its
+    M&A entities
+  - Engage with IT and business partners, product owners, and stakeholders to create
+    roadmaps and prioritize the most important work
+  - Identify opportunities for reuse and improved efficiency and champion Mastercard's
+    engineering principles
+  - Share knowledge, best practices, and ideas as an active member of the Software
+    Engineering Guild
+  - Help identify and drive meaningful behavior-changing metrics
   use_cases:
-  - Generative AI platform for Large Language Models serving enterprise-wide use cases
-  - MCP server deployment at scale for protocol-based AI interactions
-  - AI Agents deployment with context window management and A2A protocol support
-  - RAG systems with prompt engineering, chunking, embeddings, and vector stores
-  - Model evaluation, governance, tuning, and orchestration for commercial and open
-    source models
+  - Enterprise Generative AI platform for serving commercial and open source LLMs
+    across the company
+  - MLOps/LLMOps for deploying and governing foundation models at scale
+  - At-scale deployment of MCP servers and AI agents with context window and security
+    management
+  - RAG infrastructure including chunking, embeddings, and vector stores
+  - Integration with AI/data platforms such as Databricks, watsonx, and S3
+  - GenAI developer tooling rollout with GitHub Copilot, Amazon Q, and Claude
   skills:
-    domains: []
+    cloud: [AWS, Azure, SageMaker, AWS Bedrock, AgentCore, Azure ML, Azure AI Foundry,
+      watsonx, AWS S3]
     languages: []
-    ml: [Model Evaluation, model governance, Fine-Tuning]
-    cloud: [SageMaker, AWS Bedrock, Azure ML, Microsoft Foundry, AWS S3, watsonx,
-      AWS, Azure, cloud architecture, cloud integration, cloud native modernization]
-    genai: [MCP protocol, AI Agents, A2A protocol, RAG, Prompt Engineering, Embeddings,
-      GitHub Copilot, Amazon Q, Anthropic API]
-    data: [Databricks, Iceberg]
-    other: [Agile, Waterfall, SDLC]
-    ops: [containerization, Kubernetes, CDK, Bicep, Terraform, automation]
-    web: []
+    ml: [Machine Learning]
+    other: [Responsible AI, Agile, Waterfall, SDLC, Code Review]
+    ops: [MLOps, LLMOps, Kubernetes, Terraform, CDK, Bicep, Site Reliability Engineering,
+      Observability, Containerization]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Databricks, Iceberg]
+    genai: [LLMs, Generative AI, MCP, A2A, AI Agents, RAG, Prompt Engineering, Chunking,
+      Embeddings, Fine-Tuning, LLM Evaluation, Model Hubs, GitHub Copilot, Amazon
+        Q, Anthropic API]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8331154'
   location: New York, USA
-  extracted_at: '2026-02-05T12:53:21.583529'
+  extracted_at: '2026-08-15T23:21:26.655971'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

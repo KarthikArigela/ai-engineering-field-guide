@@ -1,57 +1,61 @@
 company:
   name: HopHR
-  stage: Private (Family Office)
-  focus: Family office management for investments and foundations
+  stage: null
+  focus: |-
+    Family office managing investments, foundations, and family
+    programs
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying LLM
-      agents, RAG pipelines, and fine-tuning foundation models
-      (LoRA, PEFT, RLHF). The candidate is expected to architect
-      production-grade GenAI systems and own the full ML lifecycle
-      from data prep to GPU-scaled deployment, making this clearly
-      an ai-first position.
+      The role architects and builds production LLM agents, RAG
+      pipelines, and prompts, and performs LLM fine-tuning (LoRA,
+      PEFT, RLHF), which directly shapes model behavior and output
+      quality. Generative LLM/agent components are the core
+      deliverable, so it is ai-first.
   responsibilities:
-  - Design, prototype, and build GenAI solutions including RAG document pipelines
-    and task-specific agents using LangChain/LlamaIndex, microservices, and Ray/KubeRay
+  - Design, prototype, and build GenAI solutions, RAG document pipelines, and task-specific
+    agents to support multiple business functions
   - Design and orchestrate multi-step agent pipelines integrating LLM prompts, external
     APIs, and human-in-the-loop escalations
-  - Own the end-to-end ML lifecycle from requirements and data prep through fine-tuning
-    (LoRA, PEFT, RLHF), evaluation, and MLflow registry with automated drift and quality
-    alerts
-  - Architect data and storage systems ingesting from BigQuery and object-store lakes,
-    generating embeddings persisted to vector databases with governance enforcement
-  - Package and deploy scalable infrastructure using Docker, Helm, and Kubernetes
-    with GPU scheduling, autoscaling, blue-green rollouts, and cost telemetry
-  - Instrument observability with tracking, metrics, structured logs, A/B testing,
-    and security/privacy guardrails across all pipelines
-  - Lead and mentor peers by translating ambiguous business ideas into roadmaps, running
-    build-vs-buy analysis, and setting code standards for agentic patterns
+  - Own the end-to-end ML lifecycle from data prep and feature engineering through
+    classical ML or LLM fine-tuning, evaluation, and MLflow registry with drift and
+    quality alerts
+  - Ingest from BigQuery and object-store lakes, generate embeddings, persist to vector
+    databases, and enforce governance via OpenMetadata and column-level ACLs
+  - Package with Docker and deploy on Kubernetes with GPU scheduling, autoscaling,
+    blue-green rollouts, and cost telemetry via Prometheus/Grafana
+  - Instrument tracking, metrics, and structured logs; run A/B or shadow tests; embed
+    security, privacy, and cost guardrails in every pipeline
+  - Translate ambiguous business ideas into executable roadmaps, run build-vs-buy
+    analysis, set code standards, and coach peers on agentic patterns and ethical
+    AI
   use_cases:
-  - RAG-based document pipelines for multi-entity family office knowledge retrieval
-  - Task-specific AI agents supporting multiple business functions across investments,
-    foundations, and operations
-  - Multi-step agent workflows with human-in-the-loop escalation for critical decision-making
-  - LLM fine-tuning for domain-specific applications within the family office context
-  - Cost-aware and secure GenAI platform serving diverse organizational needs from
-    grants to private investments
+  - RAG document pipelines for multiple business functions
+  - Task-specific GenAI agents supporting enterprise business units
+  - Multi-step agent workflows with human-in-the-loop escalation
+  - Classical ML and fine-tuned LLM models for organizational use cases
+  - Secure, cost-aware LLM platform with observability and A/B testing for the family
+    office
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [PyTorch, Fine-tuning foundation models]
     cloud: []
-    genai: [LangChain, LlamaIndex, RAG, LLM Agents, LoRA, RLHF, n8n]
-    data: [Spark, Kafka, Airbyte, Pub-Sub, Parquet, Avro]
-    other: [OpenMetadata]
-    ops: [MLflow, Ray, KubeRay, Docker, Kubernetes, Helm, Prometheus, Grafana, GitHub
-        Actions, CI/CD]
-    web: []
-    databases: [BigQuery, Redshift, Qdrant, pgvector]
+    languages: [Python, SQL]
+    ml: [Machine Learning, Feature Engineering]
+    other: [n8n, A/B Testing]
+    ops: [MLflow, Docker, Kubernetes, Helm, GitHub Actions, Prometheus, Grafana, CI/CD,
+      Git, KubeRay]
+    databases: [BigQuery, Redshift, Qdrant, pgvector, Vector Databases]
+    domains: []
+    web: [Microservices]
+    data: [Ray, Spark, Parquet, Avro, OpenMetadata, Airbyte, Kafka, Pub/Sub]
+    genai: [LangChain, LlamaIndex, RAG, LLMs, Generative AI, AI Agents, Agentic Workflows,
+      LoRA, RLHF, Fine-Tuning, Embeddings]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9576291'
   location: Los Angeles, USA
-  extracted_at: '2026-06-25T19:42:43.301348'
+  extracted_at: '2026-08-16T13:00:01.344266'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

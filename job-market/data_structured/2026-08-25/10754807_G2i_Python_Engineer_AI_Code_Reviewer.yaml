@@ -1,0 +1,47 @@
+company:
+  name: G2i
+  stage: null
+  focus: null
+position:
+  title: Python Engineer, AI Code Reviewer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role's core deliverable is judging the quality of LLM
+      coding agent interactions (Codex, Claude Code, Cursor) and
+      providing opinionated feedback that defines output-quality
+      standards. Judging model output quality and shaping
+      evaluation criteria is shaping behavior, on LLM/agent
+      targets, so ai-first.
+  responsibilities:
+  - Evaluate AI-generated coding interactions end-to-end
+  - Judge whether agent outputs are useful, correct at a high level, and aligned with
+    strong engineering judgment
+  - Assess the quality of preambles, explanations, and reasoning
+  - Distinguish and rate different levels of response quality
+  - Provide clear, opinionated feedback on what worked and what did not
+  - Help define standards for what great AI coding agent interactions look like
+  use_cases:
+  - Evaluating AI coding agent interactions for quality and engineering judgment
+  - Defining standards for AI-assisted developer workflows
+  - Rating and ranking agent responses to guide model quality
+  skills:
+    genai: [Codex, Claude Code, Cursor, Prompt Engineering]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [TypeScript, JavaScript, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10754807'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:38:45.924971'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

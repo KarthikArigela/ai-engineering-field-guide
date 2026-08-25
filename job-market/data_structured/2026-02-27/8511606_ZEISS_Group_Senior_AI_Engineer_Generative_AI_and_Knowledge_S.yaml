@@ -1,51 +1,57 @@
 company:
   name: ZEISS Group
-  stage: Public
+  stage: null
   focus: |-
-    Optics and optoelectronics across medical, research, and
-    industrial applications
+    Optics and optoelectronics: industrial metrology,
+    microscopy, medical technology
 position:
   title: Senior AI Engineer – Generative AI and Knowledge Systems
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and implementing GenAI
-      systems using LangGraph, RAG, and LLM fine-tuning. The
-      engineer will design AI agent workflows and multi-agent
-      systems, which is hands-on AI/ML development work.
+      The role directly shapes LLM behavior through prompt
+      engineering, fine-tuning LLMs, designing RAG and graph-based
+      retrieval, and building agent workflows with LangGraph. LLMs
+      and generative AI are central, so it is ai-first rather than
+      ml-first.
   responsibilities:
-  - Design and implement cutting-edge generative AI systems using frameworks like
-    LangGraph and RAG
-  - Develop and fine-tune large language models (LLMs) for various applications
-  - Build graph-based knowledge systems and implement semantic search solutions
-  - Design and implement scalable data pipelines and ETL workflows
-  - Create AI agent workflows and multi-agent systems
-  - Develop production-grade AI systems with REST APIs using Python frameworks
-  - Experiment with and implement novel AI techniques and transformer-based NLP models
+  - Design and implement AI systems leveraging LangGraph, RAG, and graph-based techniques
+    to build innovative knowledge systems
+  - Apply prompt engineering and fine-tuning to shape LLM behavior for target applications
+  - Design AI agent workflows and multi-agent systems
+  - Apply NLP techniques including text preprocessing, embeddings, and transformer-based
+    models
+  - Design and implement scalable data pipelines and ETL workflows for structured
+    and unstructured data
+  - Develop REST APIs in Python using Flask, Django, or FastAPI
+  - Experiment with and implement novel AI techniques such as reinforcement learning
+    and reasoning systems
   - Collaborate with cross-functional teams and communicate technical concepts to
-    stakeholders
+    non-technical stakeholders
   use_cases:
-  - Knowledge systems and graph-based information retrieval
-  - Enterprise search and semantic search solutions
-  - AI-driven decision support systems
-  - Natural language processing and text analytics
-  - Intelligent document processing and information extraction
+  - AI-driven knowledge systems for organizational knowledge management
+  - Graph-based knowledge and ontology systems
+  - Retrieval-Augmented Generation over structured and unstructured enterprise data
+  - Semantic search across enterprise knowledge sources
+  - Agent-based AI workflows for business problem solving
   skills:
-    domains: []
-    languages: [Python]
-    ml: [NLP, Transformers, PyTorch, TensorFlow, Hugging Face, BERT, GPT, Text Embeddings,
-      Reinforcement Learning]
     cloud: [AWS, Azure, GCP]
-    genai: [LangGraph, LangChain, RAG, Prompt Engineering, Fine-Tuning, AI Agents,
-      Multi-Agent Systems, Semantic Search]
-    data: [Knowledge Graphs, Data Pipelines]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Hugging Face, Transformers, Reinforcement Learning]
     other: []
     ops: [MLOps]
+    databases: [Knowledge Graphs, Pinecone, pgvector, Milvus]
+    domains: [NLP]
     web: [FastAPI, Flask, Django, REST APIs]
-    databases: [Pinecone, pgvector, Milvus, Vector Databases]
+    data: [Data Pipelines]
+    genai: [Generative AI, LLMs, LangGraph, RAG, Prompt Engineering, Fine-Tuning,
+      Embeddings, Agentic Workflows, Multi-Agent Systems, Semantic Search, BERT, GPT,
+      T5]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8511606'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:38:53.961424'
+  extracted_at: '2026-08-16T02:00:51.478370'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

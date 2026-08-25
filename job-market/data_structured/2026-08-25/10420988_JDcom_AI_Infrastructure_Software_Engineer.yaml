@@ -1,0 +1,50 @@
+company:
+  name: JD.com
+  stage: null
+  focus: Cross-border e-commerce, retail, logistics and technology
+position:
+  title: AI Infrastructure Software Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role runs, schedules, and optimizes GPU clusters for
+      training infrastructure—scheduling, fault tolerance, and
+      utilization measurement—without shaping model behavior,
+      prompts, retrieval, or training itself. Serving/hosting
+      models others build is ai-support even when CUDA, Triton,
+      and GPU clusters are named.
+  responsibilities:
+  - Build AI infrastructure technical architecture for JD.com's cross-border e-commerce
+    and drive architectural standards
+  - Lead top-level architectural design for complex technical projects and break down
+    execution steps
+  - Develop the intelligent computing operating system and optimize GPU resource scheduling
+    in Kubernetes or Ray
+  - Resolve GPU cluster fault recovery and elastic checkpointing for high availability
+  - Build cluster efficiency evaluation models and measure computing resource utilization
+    (MFU/HFU)
+  - Track industry trends and introduce new AI infrastructure technologies based on
+    business needs
+  use_cases:
+  - GPU resource scheduling for cross-border e-commerce AI workloads
+  - Fault-tolerant GPU cluster operation with elastic checkpointing
+  - Compute utilization measurement and efficiency evaluation for AI clusters
+  skills:
+    genai: []
+    ml: [CUDA, PyTorch, Megatron-LM, DeepSpeed]
+    web: []
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [Kubernetes, Triton]
+    languages: [C++, Python]
+    domains: []
+    other: [Distributed Systems, High-Performance Computing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10420988'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:04:12.076787'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

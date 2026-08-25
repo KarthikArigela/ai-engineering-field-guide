@@ -1,48 +1,51 @@
 company:
   name: Kraken Digital Asset Exchange
-  stage: Public
-  focus: Cryptocurrency and digital asset exchange
+  stage: null
+  focus: Cryptocurrency exchange and digital asset trading platform
 position:
   title: Senior Software Engineer – AI Infrastructure
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves directly building and operating the
-      infrastructure layer that powers AI agent systems, including
-      model inference, orchestration, and execution in production.
-      While it's infrastructure-focused, the engineer works
-      directly on the systems that run model inference and agent
-      orchestration, making this ai-first rather than ai-support.
+      This role builds and operates the inference, orchestration,
+      and execution infrastructure for agent systems designed by a
+      separate Agent Systems team; the stated deliverables are
+      reliability, latency, throughput, and cost — capacity, not
+      model behaviour. Guardrails and evaluation are mentioned
+      only in an infrastructure failure-handling/monitoring
+      context (and evaluation is merely a nice-to-have
+      familiarity), not as shaping model output. Per the
+      serving/infrastructure edge case, this is ai-support.
   responsibilities:
   - Design and build the infrastructure layer powering AI agent systems in production
   - Develop high-performance Rust services that handle model inference, orchestration,
     and execution
-  - Architect scalable systems capable of supporting millions of users and high request
-    throughput
-  - Build reliable ML infrastructure and MLOps patterns for model deployment, evaluation,
-    and monitoring
+  - Architect scalable systems supporting millions of users and high request throughput
+  - Build ML infrastructure and MLOps patterns for model deployment, evaluation, and
+    monitoring
   - Define guardrails, observability, and failure handling for agent-driven workflows
   - Optimize latency, throughput, and cost across inference and orchestration layers
-  - Partner closely with the Agent Systems team to translate experimental prototypes
-    into hardened production systems
+  - Partner with the Agent Systems team to translate experimental prototypes into
+    hardened production systems
   use_cases:
-  - AI agent systems operating across internal systems at Kraken
-  - Model inference serving at production scale for millions of users
-  - Agent orchestration and execution for financial workflows
-  - Real-time guardrails and failure handling for agent-driven operations
+  - Production infrastructure layer powering intelligent AI agents at scale
+  - Model inference and agent orchestration serving millions of users under strict
+    latency and reliability requirements
+  - Safe execution of agents operating across internal systems
+  - Guardrails, observability, and failure handling for agent-driven workflows in
+    a crypto trading environment
   skills:
-    domains: []
+    cloud: []
     languages: [Rust]
-    ml: []
-    cloud: [Cloud-native infrastructure]
-    genai: [LLM-powered agent systems]
-    data: []
-    other: []
-    ops: [Distributed Systems, Model inference, Model Deployment, MLOps, ML infrastructure,
-      Observability, Container orchestration, High-performance networking, Asynchronous
-        systems, Evaluation frameworks, Performance optimization]
-    web: []
+    ml: [Model Evaluation]
+    other: [Performance Optimization, Reliability Engineering]
+    ops: [Distributed Systems, MLOps, ML Infrastructure, Model Deployment, Model Monitoring,
+      Monitoring, Observability, Container Orchestration, Cloud-Native Infrastructure]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [AI Agents, LLMs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -71,4 +74,6 @@ meta:
   - CZE
   - GBR
   remote: true
-  extracted_at: '2026-06-25T19:40:32.678927'
+  extracted_at: '2026-08-16T12:32:15.284399'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

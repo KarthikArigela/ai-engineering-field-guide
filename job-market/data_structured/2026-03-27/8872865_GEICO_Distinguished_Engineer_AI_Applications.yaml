@@ -1,59 +1,60 @@
 company:
   name: GEICO
-  stage: Public
-  focus: |-
-    Insurance company providing auto coverage and customer
-    service
+  stage: null
+  focus: Auto insurance and property-casualty coverage provider
 position:
   title: Distinguished Engineer, AI Applications
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves architecting and building Generative AI
-      and agentic workflow platforms, including hands-on work with
-      LLM orchestration, RAG systems, and multi-agent frameworks.
-      The position directly builds production systems using LLMs
-      (GPT, Llama, Mistral, Claude) for conversational and agentic
-      workflows, which is core AI/ML work.
+      The role owns and designs the architecture of GenAI and
+      agentic workflow platforms, including retrieval/RAG systems,
+      prompt and context management, agent orchestration, and
+      evaluation/observability tooling - all activities that shape
+      model behavior and output quality. LLM and agent components
+      are explicitly central, and the role includes hands-on
+      engagement, so it is ai-first.
   responsibilities:
   - Define, own, and evolve the foundational architecture for GEICO's Generative AI
-    and agentic workflow platforms
-  - Serve as final technical authority on complex architectural decisions impacting
-    multiple products, teams, and business domains
-  - Design interconnected platform components including knowledge curation, search
-    and retrieval, prompt/context management, workflow orchestration, and semantic/knowledge
-    graph systems
+    and agentic workflow platforms, serving as final technical authority on enterprise-wide
+    architectural decisions
+  - Design interconnected platform components powering end-to-end GenAI workflows,
+    including knowledge curation, search and retrieval, prompt and context management,
+    workflow orchestration, and semantic/knowledge graph systems
   - Establish and drive multi-year technical strategy and roadmaps for AI platform
-    capabilities and GenAI applications
-  - Lead evaluation and selection of core technologies including LLM orchestration,
-    agentic workflows, RAG systems, and observability tooling
+    capabilities and GenAI applications in partnership with product and business leaders
+  - Lead evaluation and selection of core technologies including LLM orchestration
+    frameworks, agentic workflows, RAG systems, and evaluation/observability tooling
+  - Define reference architecture and best practices for GenAI application development,
+    deployment, and integration aligned with enterprise architecture
+  - Influence investment decisions by evaluating build-vs-buy tradeoffs and communicating
+    business impact of GenAI applications with metrics and feedback loops
   - Collaborate across engineering, data science, ML, product, and design organizations
-    to align on platform and GenAI application direction
-  - Mentor senior engineers and technical leads on architectural thinking and engineering
-    quality
-  - Tackle complex technical and business challenges affecting system-wide performance,
-    reliability, and scalability
+    to align technical standards and promote enterprise-wide GenAI adoption
+  - Mentor senior engineers and technical leads while establishing best practices
+    for platform reliability, observability, and operational excellence
   use_cases:
-  - Virtual agent platform supporting 20K+ contact center employees across claims,
-    service, and sales
-  - Knowledge curation and management for enterprise information
-  - Search and retrieval systems for internal knowledge access
-  - Agentic workflows for complex task execution
-  - Conversational AI for customer service automation
-  - Production-grade GenAI workflows across multiple lines of business
+  - Virtual agent platform supporting productivity and service quality for 20K+ contact
+    center employees across claims, service, and sales
+  - Enterprise knowledge curation and management for contact center operations
+  - Search and retrieval systems including semantic search and knowledge graphs
+  - Conversational and agentic workflows powered by production LLM systems
+  - Production-grade GenAI workflows spanning multiple lines of business across the
+    insurance enterprise
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS, Azure]
-    genai: [LangChain, LlamaIndex, RAG, Agentic frameworks, Multi-Agent Systems, LLMs,
-      Prompt Engineering, GPT, Anthropic API, Llama, Mistral]
-    data: [Kafka, Spark, Ray, Airflow, Temporal, Prefect]
-    other: []
-    ops: [LangSmith, Arize Phoenix, Weights & Biases, OpenTelemetry, Kubernetes, CI/CD]
+    languages: []
+    ml: []
+    other: [Feature Stores]
+    ops: [CI/CD, Kubernetes, Monitoring, Observability, Distributed Systems, LangSmith,
+      Arize, Weights & Biases, OpenTelemetry]
+    databases: [Vector Databases, Elasticsearch, Qdrant, Milvus, Pinecone, Weaviate,
+      Snowflake, Relational Databases, NoSQL, Knowledge Graphs]
+    domains: []
     web: []
-    databases: [Elasticsearch, Qdrant, Milvus, Pinecone, Weaviate, Vector Databases,
-      Snowflake]
+    data: [Kafka, Spark, Ray, Airflow, Temporal, Prefect]
+    genai: [LangChain, LlamaIndex, RAG, Agentic Workflows, Multi-Agent Systems, LLMs,
+      Generative AI, LLM Evaluation, Embeddings, GPT, Llama, Mistral, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
@@ -63,4 +64,6 @@ meta:
   - New York, USA
   - Seattle, USA
   - Palo Alto, USA
-  extracted_at: '2026-03-27T13:26:44.028565'
+  extracted_at: '2026-08-16T05:26:12.801834'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

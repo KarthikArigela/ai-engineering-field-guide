@@ -1,0 +1,56 @@
+company:
+  name: Manychat
+  stage: null
+  focus: |-
+    Conversational marketing automation platform for social
+    channels
+position:
+  title: Staff Site Reliability Engineer (AI Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      Beyond operating inference infrastructure, the role
+      explicitly designs guardrails in the AI Gateway and builds
+      observability for model quality and drift signals, plus eval
+      pipelines and quality monitoring for LLM outputs — that is
+      shaping model output quality, with LLMs as the target.
+  responsibilities:
+  - 'Own reliability and performance of AI infrastructure: AI Gateway, inference services,
+    and LLM provider integrations (Amazon Bedrock, Azure OpenAI)'
+  - 'Design and evolve the AI Gateway: routing, provider failover, rate limiting,
+    caching, and guardrails'
+  - 'Build observability for AI systems: latency/throughput/error SLOs per model and
+    provider, token-level metrics, quality and drift signals'
+  - 'Drive cost optimization and FinOps for AI workloads: per-feature cost visibility,
+    model right-sizing, caching strategies, provider mix'
+  - Run capacity planning and incident response for inference services; write runbooks
+    and postmortems
+  - 'Scale AI expertise across the org: set standards, review designs, coach teams
+    shipping LLM-backed features'
+  use_cases:
+  - Customer-facing conversational automations for Instagram, Messenger, WhatsApp,
+    and TikTok
+  - LLM-backed features in the critical path of business automation
+  - Multi-provider LLM inference via an AI Gateway with routing and failover
+  - Cost visibility and optimization across AI workloads
+  skills:
+    genai: [LLMs, OpenAI API, Anthropic API, Guardrails, LLM Evaluation]
+    ml: [Quantization, Model Evaluation]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI, AWS]
+    ops: [vLLM, Triton, LiteLLM, Kong AI Gateway, Kubernetes, Terraform, Infrastructure
+        as Code, CI/CD, Prometheus, Grafana, OpenTelemetry, Model Deployment, Observability,
+      Monitoring]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10439004'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T10:08:39.087801'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,66 +1,68 @@
 company:
   name: Tempo Software
-  stage: Late-stage / Bootstrapped (founded 2007, 30,000+ customers, profitable)
+  stage: null
   focus: |-
-    Enterprise productivity and project management software for
-    Atlassian ecosystem
+    Time and resource management software for the Atlassian
+    ecosystem
 position:
   title: Senior AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, shipping, and owning
-      production AI systems powered by LLMs and autonomous agents
-      — including an LLM-powered correlation engine, a natural
-      language-to-structured-parameters compiler, MCP tool
-      definitions, and evaluation frameworks. The engineer works
-      hands-on with model selection, prompt design, agent
-      architecture, and RAG, making this clearly an AI-first role.
+      The role directly shapes model behavior: prompt design, RAG
+      architectures, agent orchestration, model selection, and
+      building evaluation, regression, and calibration frameworks
+      for LLM outputs. Every core deliverable (insight synthesis
+      engine, planning-rules compiler, MCP tool definitions, agent
+      architecture) involves LLMs and autonomous agents, so it is
+      ai-first rather than ml-first.
   responsibilities:
-  - Build and ship production AI systems working alongside domain engineers for enterprise
-    customers
-  - Design and implement LLM-powered insight synthesis engine that produces actionable
+  - Ship production AI systems embedded in a product team alongside domain engineers
+  - Build statistical and ML-based detectors that recognize meaningful patterns in
+    portfolio signals from CDC event streams and external tool integrations
+  - Develop an LLM-powered correlation engine that turns raw signals into actionable
     insights with root causes, confidence scores, and evidence chains
-  - Develop statistical and ML-based anomaly detection systems for portfolio signals
-    from CDC event streams
-  - Build a Planning Rules compiler that translates natural language planning rules
-    into structured parameters for a Monte Carlo scheduling engine
-  - Create evaluation and testing frameworks including regression suites for prompts,
-    A/B testing for model updates, and confidence calibration
-  - Define MCP tool specifications for domain capabilities within a hub-and-spoke
-    MCP architecture
-  - Serve as the internal anchor for AI engineering — guiding prompt design, evaluation
-    strategy, model selection, and agent architecture decisions
-  - Absorb and internalize work from external AI partners, establishing patterns for
+  - Design the translation layer between natural language planning rules and the structured
+    parameters that drive the Monte Carlo scheduling engine
+  - Build evaluation and testing frameworks including regression suites for prompt
+    changes, A/B testing infrastructure, and confidence calibration
+  - Define MCP tool specifications for domain capabilities that Tempo AI discovers
+    and invokes at runtime
+  - Absorb work from external AI partners and establish AI engineering patterns for
     the broader engineering team
+  - Act as internal anchor for prompt design, evaluation strategy, model selection,
+    and agent architecture decisions
   use_cases:
-  - Real-time signal detection and anomaly detection for portfolio management (velocity
-    changes, capacity saturation, dependency risks)
-  - LLM-powered insight synthesis with root cause analysis and confidence scoring
-    for enterprise decision-making
-  - Natural language to structured parameter translation for Monte Carlo scheduling
-    and planning
-  - Runtime tool discovery and invocation via MCP for domain capabilities like capacity
-    lookups and scenario simulations
-  - AI output reliability through evaluation frameworks, regression testing, and confidence
-    calibration at enterprise scale
+  - Portfolio signal and anomaly detection such as velocity changes, capacity saturation,
+    and dependency risks
+  - LLM-powered insight synthesis with root causes, confidence scores, and evidence
+    chains for enterprise decision-making
+  - Natural-language planning rules compiled into structured inputs for Monte Carlo
+    scheduling simulations
+  - Runtime tool invocation over domain capabilities like item queries, capacity lookups,
+    and scenario simulations
+  - Enterprise time management, resource planning, and portfolio management within
+    the Atlassian ecosystem
   skills:
-    domains: [Enterprise SaaS, Portfolio Management, Resource Planning]
-    languages: [Python, Kotlin, TypeScript]
-    ml: [Anomaly Detection, Time-Series Analysis, Statistical Signal Processing, Confidence
-        Scoring / Calibration, Monte Carlo Simulation]
     cloud: [AWS Bedrock, Azure OpenAI, Vertex AI]
-    genai: [LangChain, LlamaIndex, CrewAI, AutoGen, Prompt Engineering, RAG, Function
-        Calling / Tool Use, Context Management, MCP, Autonomous Agents, Agentic Workflows]
-    data: [CDC Event Streams, Event-Driven Architecture, Real-Time Data Pipelines]
-    other: []
-    ops: [CI/CD, Observability, A/B Testing Infrastructure]
-    web: []
+    languages: [Python, Kotlin, TypeScript]
+    ml: [Machine Learning, Anomaly Detection, Time-Series Analysis, Statistical Signal
+        Processing, Confidence Calibration]
+    other: [Event-Driven Architecture, Monte Carlo Simulation, A/B Testing, Code Review]
+    ops: [CI/CD, Observability]
     databases: []
+    domains: []
+    web: []
+    data: [Change Data Capture, Data Pipelines]
+    genai: [LLMs, AI Agents, LangChain, LlamaIndex, CrewAI, AutoGen, Prompt Engineering,
+      RAG, Function Calling, Context Engineering, LLM Evaluation, MCP, Guardrails,
+      Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9603202'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:46:17.420843'
+  extracted_at: '2026-08-16T13:11:48.155475'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

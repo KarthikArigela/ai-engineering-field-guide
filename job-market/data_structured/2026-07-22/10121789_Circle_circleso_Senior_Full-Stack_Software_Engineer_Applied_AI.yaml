@@ -1,52 +1,50 @@
 company:
   name: Circle (circle.so)
   stage: null
-  focus: All-in-one community platform for creators and businesses
+  focus: All-in-one platform for branded online communities
 position:
   title: Senior Full-Stack Software Engineer, Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and shipping AI
-      features end-to-end, including AI agents, RAG systems, LLM-
-      powered tools, and LLM inference infrastructure. The
-      engineer works hands-on with LLMs in production, not merely
-      supporting AI built by others. While it's a full-stack role,
-      the Applied AI team's mission is squarely about applying
-      LLMs to build transformative AI features.
+      The role ships production AI features — RAG systems, AI
+      agents, and LLM-powered tools — and designs AI evaluations
+      to validate them, which means directly shaping LLM behavior
+      through retrieval, agent flows, and evals. With LLMs as the
+      explicit target, this is ai-first, even though it is a full-
+      stack engineering role.
   responsibilities:
   - Ship full-stack AI projects end-to-end on a Ruby on Rails backend and React frontend
-  - Design and run experiments including A/B tests and AI evaluations to validate
+  - Design and run experiments, including A/B tests and AI evaluations, to validate
     AI features and measure impact
-  - Build and integrate AI infrastructure components optimized for production-level
-    LLM inference
-  - Scale AI features into production-ready solutions by improving processes, tools,
-    and systems
+  - Build and integrate AI infrastructure components optimized for performance and
+    reliability to support production-level LLM inference
+  - Improve processes, tools, and systems to scale AI features into production-ready
+    solutions
   - Stay up-to-date with cutting-edge AI research, techniques, and tools
   - Collaborate closely with leaders and designers throughout the feature design process
-  - Foster a bias for action prioritizing speed of iteration and experimentation while
-    maintaining code quality
   use_cases:
-  - AI agents for community platform automation and assistance
-  - Retrieval-Augmented Generation for knowledge retrieval within communities
-  - LLM-powered tools for creators, coaches, and educators
-  - AI evaluations and observability for production AI features
-  - LLM inference infrastructure to support AI features at scale
+  - AI agents for an online community platform
+  - Retrieval-Augmented Generation over community content
+  - AI evaluations and observability for production LLM features
+  - LLM-powered tools for creators, coaches, educators, and businesses
   skills:
-    genai: [LLMs, RAG, AI Agents, LLM Evaluation, Generative AI]
-    ml: []
-    web: [Ruby on Rails, React, Full-Stack Development]
-    databases: [PostgreSQL, MySQL]
-    data: []
     cloud: []
-    ops: [Monitoring, Observability]
-    languages: [Python, Ruby, TypeScript, JavaScript]
-    domains: []
+    languages: []
+    ml: []
     other: [A/B Testing]
+    ops: [Model Deployment, Observability]
+    databases: [MySQL, PostgreSQL]
+    domains: []
+    web: [Ruby on Rails, React, Full-Stack Development]
+    data: []
+    genai: [RAG, AI Agents, LLMs, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10121789'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:29:06.941645'
+  extracted_at: '2026-08-16T17:06:36.109813'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

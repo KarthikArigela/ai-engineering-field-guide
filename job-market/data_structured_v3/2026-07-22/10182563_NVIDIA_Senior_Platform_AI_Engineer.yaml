@@ -1,0 +1,63 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPUs and accelerated computing for graphics and AI
+position:
+  title: Senior Platform AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates the infrastructure platform
+      (model serving, job orchestration, auth, observability,
+      storage/caching, SLAs) that other SCG teams' agents and
+      models run on — it owns platform contracts and onboarding
+      rather than shaping model behaviour, with no prompt design,
+      retrieval, fine-tuning, or eval work. Per the model-serving
+      edge case, serving and scaling models/agents someone else
+      builds is ai-support even though it is ML infrastructure at
+      heart.
+  responsibilities:
+  - Define architectural direction, infrastructure investments, and roadmap priorities
+    for the efficiency platform across silicon architecture, build, methodology, validation,
+    and applied AI teams
+  - Define platform contracts and onboard new agents and skills from domain teams
+    across SCG
+  - Own end-to-end delivery of the platform from design and implementation through
+    sustained production operation, with accountability for security, reliability,
+    and performance
+  - Lead unified solutions including orchestration patterns, authentication and authorization,
+    observability, and SLA enforcement
+  - Manage storage and caching strategies that scale across heterogeneous compute
+    environments
+  - Serve as the technical authority for AI-powered infrastructure across SCG, setting
+    engineering standards, resolving cross-team architectural challenges, and mentoring
+    senior engineers
+  use_cases:
+  - Efficiency platform powering an intelligent automation ecosystem for NVIDIA silicon
+    development
+  - Running agents and skills built by silicon architecture, build, methodology, and
+    validation teams
+  - ML infrastructure and model serving for silicon bring-up, characterization, debug,
+    and production sign-off workflows
+  - Scalable platform supporting chip development and EDA toolchain workloads
+  skills:
+    genai: [AI Agents]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [ML Infrastructure, Model Serving, Kubernetes, Job Queues, Container Runtimes,
+      Celery, Sidekiq, Temporal, Observability, Distributed Systems]
+    languages: [Python, C, C++, Go, Java, Rust]
+    domains: []
+    other: [Silicon Design, EDA Toolchains]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10182563'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T17:37:52.149288'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

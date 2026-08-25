@@ -1,0 +1,66 @@
+company:
+  name: Mindera
+  stage: null
+  focus: |-
+    Software engineering and technology consulting for global
+    clients
+position:
+  title: Data Engineer - Generative AI & Vector Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs retrieval for LLM applications themselves:
+      chunking enterprise data, generating embeddings, building
+      RAG pipelines, optimizing vector indexing and retrieval, and
+      supporting prompt engineering initiatives. Designing
+      retrieval/RAG (chunking, embeddings, context assembly) is
+      shaping model output quality per Step 1, and with an
+      explicit LLM/RAG component the role is ai-first.
+  responsibilities:
+  - Design and develop scalable data ingestion pipelines for AI and ML applications
+  - Build automated pipelines to clean, transform, chunk, enrich, and load enterprise
+    data into Vector Databases
+  - Create workflows for generating embeddings and optimize vector database indexing,
+    storage, metadata management, and retrieval performance
+  - Build Retrieval-Augmented Generation (RAG) pipelines and support prompt engineering
+    and retrieval optimization initiatives
+  - Develop production-grade ETL/ELT and batch/near real-time ingestion pipelines
+    orchestrated with Apache Airflow
+  - Develop cloud-native solutions on AWS using services such as S3, Glue, EMR, Lambda,
+    and Athena
+  - Write complex SQL across distributed sources and federate queries across data
+    platforms with Starburst/Trino
+  - Implement monitoring, logging, and alerting; troubleshoot production data issues
+    and ensure data integrity and governance
+  use_cases:
+  - Enterprise data preparation and indexing for LLM applications
+  - Semantic search and retrieval systems powered by vector databases
+  - Retrieval-Augmented Generation (RAG) for AI-powered platforms
+  - Voice AI solutions
+  - Large-scale cloud data processing and federated querying across distributed data
+    platforms
+  skills:
+    genai: [RAG, LLMs, Generative AI, Embeddings, Semantic Search, Prompt Engineering]
+    ml: [Machine Learning]
+    web: [REST APIs, JSON]
+    databases: [Vector Databases, Pinecone, Milvus, Qdrant, Chroma, Weaviate, FAISS,
+      Vector Search]
+    data: [ETL, Data Pipelines, Data Transformation, Data Cleansing, Data Chunking
+        Strategies, Metadata Management, Data Modeling, Data Connectors, Airflow,
+      Starburst, Trino, Presto]
+    cloud: [AWS, AWS S3, AWS Glue, EMR, AWS Lambda, Athena, IAM]
+    ops: [CloudWatch, Monitoring]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10053871'
+  location: Chennai, IND
+  locations:
+  - Chennai, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-16T16:31:39.923990'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

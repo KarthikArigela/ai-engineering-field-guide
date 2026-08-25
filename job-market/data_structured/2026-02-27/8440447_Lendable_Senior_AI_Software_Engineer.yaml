@@ -1,56 +1,60 @@
 company:
   name: Lendable
-  stage: Unicorn (backed by Balderton Capital and Goldman Sachs)
-  focus: |-
-    Fintech company building consumer finance products (loans,
-    credit cards, car finance) using AI and machine learning
+  stage: Unicorn; backed by Balderton Capital and Goldman Sachs
+  focus: Fintech consumer credit and lending products
 position:
   title: Senior AI Software Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deploying AI
-      systems - specifically LLMs, embeddings, MCP integrations,
-      and AI-powered tools. The engineer will create connectors
-      for AI systems, build knowledge base pipelines, and work
-      directly with AWS Bedrock and LLMs to deliver internal
-      automation solutions.
+      The role directly shapes LLM behaviour: it builds knowledge
+      base pipelines (retrieval/embeddings for LLM systems), MCP
+      integrations, guardrails, and AI application patterns on AWS
+      Bedrock for internal AI tooling. Since the shaped models are
+      LLMs and agentic AI, the classification is ai-first.
   responsibilities:
   - Build connectors and integrations making company data available to AI systems
-    (Google Workspace, Slack, Jira, GitHub, Snowflake, Confluence)
+    (Google Workspace, Slack, Jira, GitHub, Snowflake, Confluence and more)
   - Build and maintain knowledge base pipelines, MCP integrations and API connections
-    powering AI tooling across the business
+    that power AI tooling across the business
   - Support internal teams to create their own AI-powered data sources, automated
-    workflows and internal tools
-  - Build templates, guardrails and building blocks enabling non-engineers to experiment
-    safely with AI
-  - Contribute to internal automation platform using AWS Bedrock, n8n and custom-built
-    solutions
-  - Work with security and data governance to ensure integrations are safe and appropriate
-  - Ship quickly, measure outcomes (time saved, errors reduced, adoption) and iterate
-    based on learnings
+    workflows and internal tools using rapid app builder tools
+  - Build templates, guardrails and building blocks that make it easy for non-engineers
+    to experiment safely with AI
+  - Contribute to the internal automation platform using tools like AWS Bedrock, n8n
+    and custom-built solutions
+  - Work with security and data governance requirements to ensure integrations are
+    safe and appropriate
+  - Work with PM and engineering lead to identify highest-leverage opportunities,
+    ship quickly, measure outcomes (time saved, errors reduced, adoption) and iterate
+  - Take end-to-end ownership from problem definition through design, implementation,
+    monitoring and iteration
   use_cases:
-  - Internal automation and workflow optimization across Finance, Compliance, Product,
-    QA teams
-  - AI-powered knowledge retrieval and search across company data sources
-  - Automated data pipelines connecting business tools to AI systems
-  - Internal tooling platform enabling non-engineers to build with AI
-  - Measurable efficiency improvements through time savings and error reduction
+  - AI-powered internal tools and automated workflows for teams like Finance, Compliance,
+    Product and QA
+  - Making company data sources (Google Workspace, Slack, Jira, GitHub, Snowflake,
+    Confluence) available to AI systems
+  - Knowledge base pipelines and MCP integrations powering AI tooling across the business
+  - Internal automation platform for building and running AI workflows
+  - Templates and guardrails enabling non-engineers to safely build AI-powered tools
+  - 'Measurable efficiency gains: time saved, errors reduced and tool adoption'
   skills:
-    domains: []
+    cloud: [AWS Bedrock]
     languages: [Python, TypeScript]
     ml: []
-    cloud: [AWS Bedrock]
-    genai: [LLMs, Embeddings, MCP]
+    other: [n8n, Zapier, Jira]
+    ops: [Kubernetes, GitHub]
+    databases: [Vector Databases, Snowflake]
+    domains: []
+    web: [Next.js, React, APIs]
     data: []
-    other: [Google Workspace, Slack, Jira, GitHub, Confluence]
-    ops: [Kubernetes, n8n, Zapier, Docker]
-    web: [APIs, Next.js, React]
-    databases: [Pinecone, Weaviate, pgvector, Snowflake]
+    genai: [LLMs, Embeddings, MCP, AI Agents, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8440447'
   location: London, GBR
   remote: true
-  extracted_at: '2026-03-03T11:51:10.801428'
+  extracted_at: '2026-08-16T01:24:00.181046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

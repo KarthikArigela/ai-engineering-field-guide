@@ -1,0 +1,55 @@
+company:
+  name: Citi
+  stage: null
+  focus: Global banking and financial services
+position:
+  title: Senior Generative AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behaviour directly: designing RAG
+      systems, prompt engineering frameworks, agent orchestration
+      (LangGraph, Google ADK), and fine-tuning LLMs. All shaping
+      targets are LLMs/agents, so it is ai-first.
+  responsibilities:
+  - Architect and implement end-to-end Generative AI pipelines including LLM integrations,
+    RAG systems, AI agents, and prompt engineering frameworks
+  - Develop production-ready Python services and APIs powering AI-driven features
+  - Evaluate, integrate, and fine-tune LLMs and embedding models for financial use
+    cases
+  - Build and maintain ML/GenAI deployment pipelines with MLOps practices
+  - Design multi-agent orchestration frameworks for complex operational workflows
+  - Collaborate with AI Risk and Compliance teams on governance and responsible AI
+  - Design data pipelines feeding AI systems using vector databases and enterprise
+    data platforms
+  - Mentor junior developers and lead code reviews
+  use_cases:
+  - LLM-powered automation of Citi's operational workflows
+  - Domain-specific financial AI via fine-tuned LLMs and embeddings
+  - Enterprise retrieval and search over financial data using RAG
+  - Multi-step agentic workflows for operations teams
+  - Governed enterprise AI delivery in a regulated banking environment
+  skills:
+    genai: [LLMs, Generative AI, RAG, AI Agents, Prompt Engineering, Fine-Tuning,
+      LangChain, LangGraph, LlamaIndex, Semantic Kernel, Google ADK, Agentic Workflows,
+      Embeddings, OpenAI API, Azure OpenAI, Anthropic API, AWS Bedrock, LoRA, Semantic
+        Search, Mistral, Function Calling]
+    ml: [Machine Learning, Model Evaluation, Vector Search]
+    web: [FastAPI, Flask, APIs]
+    databases: [Vector Databases, Pinecone, Weaviate, pgvector, Chrom, PostgreSQL,
+      MongoDB, Redis, NoSQL]
+    data: [Data Pipelines, Spark, Airflow, Kafka, Data Engineering]
+    cloud: [AWS, Azure, GCP, Vertex AI, SageMaker]
+    ops: [MLOps, MLflow, Weights & Biases, Docker, Kubernetes, GitHub Actions, CI/CD,
+      Git, Model Deployment]
+    languages: [Python, SQL, Bash]
+    domains: []
+    other: [Agile, Responsible AI, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10585555'
+  location: New York, USA
+  extracted_at: '2026-08-25T10:48:13.545534'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

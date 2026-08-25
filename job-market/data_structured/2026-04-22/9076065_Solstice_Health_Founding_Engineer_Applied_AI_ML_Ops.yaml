@@ -1,53 +1,59 @@
 company:
   name: Solstice Health
-  stage: Seed
+  stage: Raised $3.5mm+ from investors including Twelve Below, Virtue, and founders
+    of Datavant, Commure, and Paradigm
   focus: |-
-    Commercial engine for pharmaceutical marketing content
-    supply chain
+    Commercial content supply chain platform for life sciences
+    marketing
 position:
   title: Founding Engineer (Applied AI & ML Ops)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly responsible for building and deploying
-      AI/ML systems — specifically LLM pipelines, RAG
-      architectures, agents, and ML Ops infrastructure. The
-      engineer will work hands-on with prompt engineering, model
-      experimentation, and production deployment of LLM-based
-      solutions, making this an ai-first role.
+      The role directly shapes LLM behaviour through prompt
+      engineering, RAG design, model benchmarking, building LLM
+      eval infrastructure, and architecting agents and LLM
+      pipelines. With LLMs central to every responsibility, Step 2
+      classifies this as ai-first.
   responsibilities:
-  - Leverage prompt engineering, RAG, model experimentation, and benchmarking to optimize
-    platform performance on biopharma marketing data
-  - Build and maintain complex LLM pipelines that process proprietary commercial and
-    marketing data to produce compliant life sciences content
-  - Implement ML Ops best practices including CI/CD for ML, model versioning, automated
-    testing, and monitoring
-  - Develop LLM evaluation infrastructure to store, analyze, and iterate on LLM outputs
+  - Own the end-to-end lifecycle of AI systems from experimentation to production
+    deployment and ongoing optimization
+  - Optimize platform performance on real biopharma marketing data using prompt engineering,
+    RAG, model experimentation, and benchmarking
+  - Wrangle proprietary commercial and marketing brand data into complex LLM pipelines
+    to produce high-quality, compliant life sciences marketing content
+  - Implement MLOps best practices including CI/CD pipelines for ML, model versioning,
+    automated testing, and monitoring
+  - Develop LLM eval infrastructure to store, analyze, and iterate on LLM outputs
     and client feedback
   - Scope, architect, and build state-of-the-art agents and pipelines while supporting
     customers directly
   - Flex across the full stack (frontend, backend, infra) to build whatever is necessary
     to support customers
+  - Collaborate closely with co-founders on all facets of the startup
   use_cases:
-  - Automated generation of compliant life sciences marketing content using LLMs
-  - RAG-based retrieval and processing of biopharma commercial and brand data
-  - LLM-powered content supply chain optimization for pharmaceutical marketers
-  - Agentic AI pipelines for marketing content production and review
-  - LLM evaluation and benchmarking for quality assurance in regulated industries
+  - Generating high-quality, compliant life sciences marketing content from proprietary
+    brand data
+  - Pharmaceutical content supply chain and commercialization for marketers
+  - LLM-driven workflows for biopharma marketing across 50+ pharma brands
+  - Automated marketing content production for life sciences manufacturers and agencies
   skills:
-    domains: []
+    cloud: [AWS]
     languages: [Python]
     ml: []
-    cloud: [AWS]
-    genai: [Prompt Engineering, RAG, LLM Agents, GPT, Anthropic API, Gemini, LLM Evaluation]
-    data: []
-    other: [Full-Stack Development]
-    ops: [Docker, CI/CD, Model Versioning, Automated Testing, Monitoring]
-    web: [FastAPI]
+    other: []
+    ops: [MLOps, CI/CD, Docker, Model Versioning, Monitoring]
     databases: []
+    domains: []
+    web: [FastAPI, Full-Stack Development]
+    data: []
+    genai: [Prompt Engineering, RAG, LLMs, LLM Evaluation, AI Agents, Gemini, GPT,
+      Anthropic API]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9076065'
   location: New York, USA
-  extracted_at: '2026-04-22T13:00:17.001062'
+  extracted_at: '2026-08-16T07:47:06.221409'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

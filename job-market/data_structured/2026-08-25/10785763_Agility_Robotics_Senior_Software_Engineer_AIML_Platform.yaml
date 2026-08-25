@@ -1,0 +1,56 @@
+company:
+  name: Agility Robotics
+  stage: null
+  focus: |-
+    Commercially deployed humanoid robots for warehouse
+    automation
+position:
+  title: Senior Software Engineer, AI/ML Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds ML infrastructure (pipelines, experiment
+      tracking, model registries, deployment, monitoring) that
+      enables other AI teams; it does not shape model behavior
+      itself. Serving, deploying, and monitoring models built by
+      others is ai-support even though the platform supports
+      foundation models for robotics.
+  responsibilities:
+  - Architect and build foundational ML platform infrastructure covering data collection,
+    training, evaluation, and model management
+  - Build version-controlled ML pipelines with automated, reproducible training and
+    evaluation
+  - Implement CI/CD for ML workflows, model packaging, and deployment to production
+  - 'Apply MLOps best practices: reproducibility, lineage, rollback, monitoring, and
+    governance'
+  - Integrate ML orchestration and metadata tracking with existing data lake and pipelines
+  - Collaborate with AI researchers and robotics engineers to translate requirements
+    into scalable systems
+  - Monitor models post-deployment and provide centralized experiment tracking
+  use_cases:
+  - Fleet-scale humanoid robotics ML platform
+  - Robot foundation models and end-to-end policies for humanoids
+  - Perception, controls, and skills for robots in warehouses and manufacturing
+  - Training and sim/real evaluation of robot models
+  - Model management and observability for deployed robot behaviors
+  skills:
+    genai: []
+    ml: [Model Training, Machine Learning]
+    web: []
+    databases: []
+    data: [Airflow, Data Pipelines]
+    cloud: [AWS, GCP, Azure]
+    ops: [MLOps, MLflow, Weights & Biases, Kubeflow, Terraform, CI/CD, Model Deployment,
+      Model Monitoring, Monitoring]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10785763'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:50:42.245815'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

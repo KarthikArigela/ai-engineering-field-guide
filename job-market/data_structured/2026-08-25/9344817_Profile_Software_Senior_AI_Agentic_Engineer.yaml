@@ -1,0 +1,61 @@
+company:
+  name: Profile Software
+  stage: null
+  focus: Banking and investment management software (FinTech)
+position:
+  title: Senior AI Agentic Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent architecture, tool-calling,
+      memory/state, evals and guardrails for an agentic LLM
+      platform — squarely shaping model behavior. LLM/agent
+      components dominate, so ai-first.
+  responsibilities:
+  - 'Own the architecture of the Group''s agentic platform: orchestration patterns,
+    agent decomposition, tool-calling design, memory and state management, human-in-the-loop
+    integration'
+  - Lead implementation across the agent framework stack (LangGraph, LangChain or
+    equivalent)
+  - Design integration patterns with systems of record via the SQL/T-SQL output layer
+  - 'Define and operate the evaluation layer: golden datasets, regression suites,
+    agent-level metrics, human review workflows'
+  - Own observability and tracing (Langfuse, CloudWatch) plus runtime quality, latency
+    and cost envelope
+  - Lead the in-house agentic engineering team with technical mentorship and code
+    review; manage external delivery partner
+  - 'Convert client demand into deployed agents and own production readiness: SLOs,
+    security, regulatory alignment (DORA, MiFID II, GDPR, NIS2)'
+  - Represent the agentic platform in client technical discussions and architectural
+    reviews
+  use_cases:
+  - Process automation for banking and wealth management clients
+  - Reconciliation and exception handling agents
+  - Automated communications
+  - Client-facing agentic platform pilots on Profile One
+  skills:
+    genai: [LangGraph, LangChain, AutoGen, CrewAI, Agentic Workflows, Multi-Agent
+        Systems, Function Calling, LLMs, LLM Evaluation, AI Agents]
+    ml: [Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS S3, IAM]
+    ops: [CloudWatch, Langfuse, Docker, Observability]
+    languages: [SQL, T-SQL]
+    domains: [NLP]
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9344817'
+  location: Oslo, NOR
+  locations:
+  - Oslo, NOR
+  - Nea Smyrni, GRC
+  - Stockholm, SWE
+  - London, GBR
+  - Nérac, FRA
+  extracted_at: '2026-08-25T12:19:16.445096'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

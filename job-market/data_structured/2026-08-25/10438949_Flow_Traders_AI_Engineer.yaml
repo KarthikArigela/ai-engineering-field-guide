@@ -1,0 +1,51 @@
+company:
+  name: Flow Traders
+  stage: null
+  focus: Electronic trading and market making firm
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds LLM agents (prompt versioning,
+      RAG pipelines, agent architectures, evals, guardrails)
+      across the full lifecycle, which is directly shaping model
+      behaviour and output quality. LLMs/agents are central, so
+      it's ai-first.
+  responsibilities:
+  - Design and implement AI agents capable of planning, reasoning, and executing multi-step
+    workflows
+  - Build single-agent and multi-agent architectures for enterprise use cases
+  - Deploy agents on managed platforms (Anthropic, Azure OpenAI, GCP Vertex AI)
+  - Own the agent release lifecycle including prompt/config versioning, staged rollouts,
+    and canary releases
+  - Implement RAG pipelines, vector databases, and structured knowledge layers
+  - Build evaluation frameworks measuring accuracy, task completion, and reliability
+  - Implement guardrails, fallback mechanisms, error handling, and cost controls
+  - Translate workflows from Trading, Risk, Compliance, Finance, and Operations into
+    agent-driven automation
+  use_cases:
+  - Investigation workflows and reporting automation
+  - Reconciliation and decision support
+  - Agent-driven automation of Trading workflows
+  - Agent-driven automation of Risk, Compliance, Finance, and Operations workflows
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, CrewAI, LLMs, AI Agents, Agentic Workflows,
+      RAG, Prompt Engineering, Anthropic API, Azure OpenAI]
+    ml: []
+    web: [APIs, Microservices]
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS, Azure, GCP, Vertex AI]
+    ops: [Docker, Kubernetes, CI/CD, Observability]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10438949'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T10:08:29.732675'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

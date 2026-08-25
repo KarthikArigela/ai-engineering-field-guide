@@ -1,59 +1,57 @@
 company:
   name: NICE
-  stage: Public
-  focus: |-
-    Enterprise customer experience and financial crime
-    compliance software
+  stage: 'Publicly traded (NASDAQ: NICE)'
+  focus: Customer experience and financial crime prevention software
 position:
   title: Senior Software Engineer, AI, Actimize(AI Engineer)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, building, and
-      deploying AI-powered automations using generative AI, agent-
-      based frameworks, and MCP-style connectors. The engineer
-      builds reusable automation components and agents that are
-      production-deployed, making this hands-on work with AI/LLM
-      systems rather than supporting others who build them.
+      The role designs and builds generative AI automations and
+      agent-based frameworks itself, including building agents,
+      reusable automation components, and MCP-style connectors —
+      that is shaping agent flows and tool calling. An LLM/agent
+      component is explicitly involved, so the classification is
+      ai-first.
   responsibilities:
   - Design and implement AI-powered automations using generative AI, agent-based frameworks,
     and workflow orchestration technologies
-  - Build and maintain secure API and MCP-style integrations across PS systems including
-    CRM, project management, delivery tooling, ticketing, and document repositories
+  - Build and maintain secure integrations (APIs, MCP-style connectors) across PS
+    systems such as CRM, project management, delivery tooling, ticketing, and document
+    repositories
   - Develop reusable automation components, agents, and frameworks that scale across
     PS engagements and regions
-  - Ensure solutions are production-ready, secure, compliant, and aligned to enterprise
-    AI standards
   - Identify high-impact opportunities to reduce manual effort, cycle time, and delivery
-    risk through AI automation
-  - Execute AI automation initiatives based on cost optimization and ROI targets,
-    defining and tracking success metrics
+    risk within Professional Services processes
+  - Execute automation initiatives against ROI and cost-optimization targets, define
+    success metrics, and track realized benefits
   - Package successful automations into scalable PS assets, playbooks, and reusable
-    tools
-  - Partner with enterprise AI, security, and architecture teams to ensure responsible
-    and compliant AI use
+    tools, and support rollout and adoption across PS teams
+  - Partner with enterprise AI, security, and architecture teams to ensure responsible,
+    compliant, production-ready AI solutions
   use_cases:
-  - AI-driven automation of professional services delivery processes
-  - Agent-based workflow orchestration for enterprise system integration
-  - Automated reduction of manual effort and cycle time in consulting delivery
-  - AI-powered quality improvement and cost optimization across PS engagements
-  - Scalable AI assets and playbooks for professional services teams
+  - AI-driven automation of professional services delivery workflows
+  - Reduction of manual effort, cycle time, and cost-to-serve across PS engagements
+  - Integration of enterprise systems (CRM, ticketing, project management, document
+    repositories) via agents and APIs
+  - Workflow orchestration across delivery tooling and regions
+  - ROI tracking and cost optimization through measurable automation value
   skills:
-    domains: []
-    languages: [Python, SQL]
+    cloud: [Cloud Platforms]
+    languages: []
     ml: []
-    cloud: [Cloud platforms, Enterprise SaaS tooling]
-    genai: [Generative AI, Agent-based frameworks, MCP-style connectors, Prompt Engineering,
-      Workflow automation]
-    data: []
-    other: [API integration, Security and compliance frameworks]
-    ops: [AI governance]
-    web: [REST APIs, Event-driven architecture, Enterprise system integration, CRM
-        integration]
+    other: [Workflow Automation, Event-Driven Architecture, Responsible AI]
+    ops: []
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [Generative AI, AI Agents, MCP]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9774708'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:58:33.463463'
+  extracted_at: '2026-08-16T14:59:55.610981'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

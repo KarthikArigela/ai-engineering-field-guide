@@ -1,0 +1,63 @@
+company:
+  name: Mozilla
+  stage: Wholly owned by the non-profit 501(c) Mozilla Foundation (non-profit-backed)
+  focus: Open-source internet products including Firefox browser
+position:
+  title: Senior Machine Learning Engineer, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates ML platform infrastructure:
+      model serving, inference workflows, GPU orchestration,
+      deployment automation, and observability. The deliverable is
+      capacity, reliability, and cost efficiency for models that
+      others build, with no prompting, retrieval, evals, or
+      behavior-shaping work in the core responsibilities.
+      Inference optimizations like batching and quantization
+      appear only as bonus skills for serving throughput and
+      latency, so this stays ai-support under the serving/scaling
+      edge case.
+  responsibilities:
+  - Design, build, and operate core AI platform components used to train, deploy,
+    and serve machine learning models in production
+  - Own model serving and inference workflows end-to-end, driving improvements in
+    reliability, scalability, performance, and operational excellence
+  - Optimize inference systems for throughput, latency, and cost efficiency across
+    CPU and GPU workloads
+  - Design and manage GPU-based inference and training workloads including performance
+    tuning, capacity planning, and resource utilization optimization
+  - Own the model lifecycle including packaging, versioning, testing strategies, validation,
+    and deployment automation
+  - Implement and evolve observability practices (metrics, logging, tracing, alerting)
+    for ML services and pipelines
+  - Partner with product, infrastructure, security, and data teams to design scalable
+    platform capabilities for AI-powered features
+  - Mentor junior engineers through code reviews and participate in on-call rotations,
+    incident response, and post-incident reviews
+  use_cases:
+  - Intelligent experiences across Mozilla products such as Firefox
+  - High-throughput, low-latency model inference serving at global scale
+  - Model training pipelines and GPU orchestration for ML workloads
+  - Secure, privacy-respecting AI systems operating in production
+  - Scalable platform capabilities that enable AI-powered product features
+  skills:
+    genai: []
+    ml: [Machine Learning, Model Training, Quantization, GPU Workloads]
+    web: []
+    databases: []
+    data: []
+    cloud: [Cloud Computing]
+    ops: [Model Serving, Model Deployment, CI/CD, Docker, Kubernetes, Observability,
+      Distributed Systems]
+    languages: [Python]
+    domains: []
+    other: [Privacy-Preserving ML]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9669430'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T14:02:19.400545'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

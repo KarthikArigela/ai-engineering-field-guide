@@ -1,51 +1,55 @@
 company:
   name: EXL
-  stage: Public
-  focus: Digital operations, analytics, and AI solutions
+  stage: null
+  focus: AI and analytics data engineering services
 position:
   title: Cloud AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building AI-ready data pipelines, ETL
-      workflows, and synthetic datasets that enable AI/ML teams,
-      but does not involve directly building, training, fine-
-      tuning, or deploying models. The work is infrastructure and
-      data engineering in support of AI use cases.
+      The role designs and builds data pipelines, ETL workflows,
+      and synthetic datasets that feed AI models developed by
+      others. It does not shape model behavior through prompts,
+      retrieval, training, fine-tuning, or evaluation, and does
+      not build evals or guardrails. Per the dataset/pipeline
+      rule, moving and preparing data for someone else's AI work
+      is ai-support.
   responsibilities:
   - Design, build, and maintain scalable AI-ready data pipelines across GCP and Snowflake
   - Develop and optimize ETL workflows to ingest, transform, validate, and integrate
     structured data for analytics and AI solutions
-  - Create and curate synthetic datasets reflecting real-world data patterns, edge
-    cases, and business scenarios for AI model development
-  - Build APIs and backend workflows to enable seamless data access, integration,
-    and orchestration for AI-driven applications
+  - Create and curate synthetic datasets reflecting real-world patterns, anomalies,
+    and edge cases for AI model development and testing
+  - Build APIs and backend workflows enabling data access, integration, and orchestration
+    for AI-driven applications
   - Collaborate with data scientists, ML engineers, product teams, and business stakeholders
-    to deliver reliable data solutions
-  - Implement monitoring, quality checks, automation, and CI/CD practices to improve
+    on data requirements
+  - Implement monitoring, data quality checks, automation, and CI/CD practices for
     reliability and operational efficiency
   - Optimize pipeline performance, storage, compute usage, and cloud costs across
     modern data platforms
   use_cases:
-  - AI-ready data pipeline infrastructure for analytics and model development
-  - Synthetic dataset generation for AI model training and testing
-  - Structured data integration and transformation for AI-driven applications
-  - Scalable data access and orchestration via APIs and backend workflows
+  - AI-ready data pipelines enabling advanced analytics and AI use cases
+  - Synthetic dataset generation for AI model development and testing
+  - Structured data integration for AI-driven applications
+  - Data access and orchestration APIs supporting AI and analytics solutions
+  - Pipeline performance tuning and cloud cost optimization on GCP and Snowflake
   skills:
-    genai: []
-    ml: []
-    web: [REST APIs]
-    databases: [Snowflake]
-    data: [ETL Pipelines, Data Pipelines, Data Modeling, Data Engineering, Synthetic
-        Data Generation, Data Quality Frameworks]
-    cloud: [GCP, Cloud Cost Optimization]
-    ops: [CI/CD, Monitoring]
+    cloud: [GCP]
     languages: [Python, SQL]
-    domains: []
+    ml: []
     other: []
-  is_customer_facing: true
+    ops: [CI/CD, Monitoring, Version Control]
+    databases: [Snowflake]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Modeling, Data Quality, Synthetic Data, Data Engineering]
+    genai: []
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10092975'
   location: Noida, IND
-  extracted_at: '2026-07-22T13:27:41.549185'
+  extracted_at: '2026-08-16T16:50:34.938773'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

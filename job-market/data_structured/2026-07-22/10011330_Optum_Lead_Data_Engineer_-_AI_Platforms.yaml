@@ -1,66 +1,73 @@
 company:
   name: Optum
-  stage: Public
-  focus: Healthcare technology, pharmacy benefits, and care delivery
+  stage: null
+  focus: Healthcare technology and services improving health outcomes
 position:
   title: Lead Data Engineer - AI Platforms
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on architecting and building data
-      platforms, pipelines, and infrastructure that SUPPORT AI/ML
-      and GenAI workloads (feature stores, embedding pipelines,
-      vectorized datasets, semantic layers). The engineer does not
-      build, train, fine-tune, or deploy models themselves, but
-      enables other AI/ML teams by providing AI-ready data
-      foundations.
+      This is a data platform architecture role: the person builds
+      the pipelines and foundations (feature stores, embedding
+      generation pipelines, vectorized datasets, retrieval
+      platforms, semantic layers) that feed AI systems, while
+      explicitly collaborating with AI/ML Engineers and Data
+      Scientists who own the model work. The description never has
+      this person writing prompts, designing retrieval logic,
+      training, or evaluating models themselves - the platforms
+      merely "support" RAG, copilots, and Agentic AI. Building
+      data foundations for others' AI systems is plumbing, so this
+      is ai-support.
   responsibilities:
   - Lead the architecture, design, and implementation of AI-first enterprise data
-    platforms supporting AI/ML, Generative AI, Agentic AI, and operational workloads
-  - Design end-to-end data architectures spanning ingestion, processing, storage,
-    serving, governance, and semantic knowledge layers using Lakehouse, Medallion,
-    and Data Mesh patterns
-  - Build AI-ready data foundations including feature stores, embedding generation
-    pipelines, vectorized datasets, and semantic indexing for AI inference workloads
-  - Architect enterprise semantic layers and knowledge platforms unifying data products,
-    metadata, embeddings, lineage, knowledge graphs, and business semantics
-  - Establish enterprise-wide data governance frameworks including data quality controls,
-    security standards, and regulatory compliance (HIPAA, GDPR, PII)
-  - Lead platform reliability and operational excellence initiatives including observability,
-    monitoring, cost optimization, and platform modernization
-  - Collaborate with AI/ML Engineers, Data Scientists, and Enterprise Architects to
-    ensure data platforms support model training, inference, RAG, and Agentic AI applications
-  - Mentor engineering teams and drive technical excellence across the organization
-  use_cases:
-  - Enterprise knowledge retrieval and RAG systems for AI copilots and agents
-  - Semantic search and vector search across enterprise knowledge assets
-  - Feature stores and embedding pipelines supporting AI/ML model training and inference
-  - Enterprise copilots and Agentic AI workflows consuming business-aware knowledge
-  - Healthcare data platforms supporting analytics, AI-driven applications, and regulated
+    platforms supporting AI/ML, Generative AI, Agentic AI, and advanced analytics
     workloads
-  - Enterprise knowledge graphs and semantic interoperability for AI data consumption
+  - Define enterprise data strategy and architecture standards spanning ingestion,
+    processing, storage, serving, governance, and consumption
+  - Build AI-ready data foundations including feature stores, embedding generation
+    pipelines, vectorized datasets, and semantic indexing
+  - Architect Lakehouse, Data Mesh, Medallion, Lambda, and Kappa patterns with batch,
+    streaming, and real-time processing at TB to PB scale
+  - Design semantic layers and knowledge architectures (knowledge graphs, ontologies,
+    semantic search) that make enterprise data AI-consumable for RAG and copilots
+  - Establish data governance, security, and compliance frameworks including RBAC,
+    encryption, masking, and HIPAA/GDPR/PII protections
+  - Implement observability, monitoring, lineage tracking, and operational excellence
+    practices for platform reliability and cost efficiency
+  - Mentor engineering teams and collaborate with AI/ML Engineers and Data Scientists
+    to ensure platforms support model training, inference, and RAG systems
+  use_cases:
+  - Enterprise data platforms powering AI/ML training, inference, Generative AI, and
+    Agentic AI workloads
+  - RAG and enterprise knowledge retrieval for AI copilots and intelligent applications
+  - Semantic knowledge layers that turn raw healthcare data into business-aware, AI-consumable
+    assets
+  - Governed and compliant data sharing under HIPAA, GDPR, and PII regulations
+  - Batch, streaming, and real-time data processing at TB to PB scale
+  - Advanced analytics and operational workloads for healthcare and pharmacy benefits
   skills:
-    genai: [Embeddings, RAG, Semantic Search, AI Agents, Agentic Workflows, Context
-        Engineering]
-    ml: [Feature Stores]
-    web: [REST APIs]
-    databases: [BigQuery, Snowflake, Redshift, PostgreSQL, MySQL, SQL Server, Oracle,
-      Cosmos DB, NoSQL, Pinecone, Chroma, FAISS, Vector Databases, Vector Search,
-      Knowledge Graphs, Graph Databases, Neo4j]
-    data: [Databricks, Delta Lake, Apache Iceberg, Spark, PySpark, Kafka, Spark Streaming,
-      Airflow, dbt, Data Pipelines, Data Modeling, Data Engineering, Data Governance,
-      Data Mesh, Lakehouse Architecture, Medallion Architecture, Lambda Architecture,
-      Kappa Architecture, Parquet, Hadoop, Azure Event Hub, AWS Kinesis]
-    cloud: [AWS S3, Azure Data Factory, Azure Synapse, AWS, Azure, GCP, IAM]
+    cloud: [AWS, Azure, GCP, IAM, AWS S3, Azure Data Lake Storage, GCS]
+    languages: [Python, SQL]
+    ml: [Feature Stores, Anomaly Detection]
+    other: [HIPAA Compliance, GDPR, Ontologies, RBAC, Enterprise Search]
     ops: [Docker, Kubernetes, CI/CD, Jenkins, GitHub Actions, Monitoring, Observability,
       DataOps]
-    languages: [Python, SQL]
+    databases: [BigQuery, Snowflake, Azure Synapse, PostgreSQL, MySQL, SQL Server,
+      Oracle, Cosmos DB, NoSQL, Pinecone, Chroma, FAISS, Vector Databases, Vector
+        Search, Knowledge Graphs, Graph Databases]
     domains: []
-    other: [Microservices, Distributed Systems, HIPAA Compliance, GDPR, System Design,
-      Event-Driven Architecture, Responsible AI]
+    web: [REST APIs, Microservices]
+    data: [Databricks, Delta Lake, Spark, PySpark, Spark SQL, Kafka, Spark Streaming,
+      Azure Event Hub, Kinesis, HDFS, Parquet, ORC, Airflow, Azure Data Factory, dbt,
+      Apache Iceberg, Data Pipelines, Data Governance, Data Mesh, Data Modeling, Data
+        Engineering, Metadata Management, Lakehouse Architecture, Medallion Architecture,
+      Lambda Architecture, Kappa Architecture]
+    genai: [Generative AI, AI Agents, RAG, Embeddings, Semantic Search, Context Engineering]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10011330'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:22:26.147007'
+  extracted_at: '2026-08-16T16:14:04.187483'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,61 +1,61 @@
 company:
   name: Sezzle
   stage: null
-  focus: Fintech payments and buy-now-pay-later shopping platform
+  focus: |-
+    Interest-free installment payments and fintech shopping
+    platform
 position:
   title: AI Engineer II (Remote)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role because the engineer will build AI-
-      powered platforms and systems from scratch, implement RAG
-      and LLM application patterns, develop agentic systems, and
-      deploy AI solutions directly into customer-facing products
-      and internal tools. The role requires hands-on experience
-      with transformer architectures, fine-tuning strategies,
-      embeddings, vector databases, and intelligent automation -
-      all core AI/ML engineering activities.
+      The role builds AI-powered platforms and
+      agentic/orchestration systems from scratch and applies
+      prompt engineering, RAG, embeddings/vector search, and LLM
+      application patterns directly, so the engineer shapes LLM
+      behaviour and output quality rather than merely consuming AI
+      APIs. LLM and agent components are central to the work,
+      making this ai-first.
   responsibilities:
   - Lead the design, development, and ownership of AI-powered internal platforms and
-    systems built from the ground up
-  - Own end-to-end delivery of complex projects from problem discovery through production
-    rollout and iteration
+    systems, including initiatives built from the ground up
+  - Own end-to-end delivery of complex projects, from problem discovery and system
+    design through production rollout and iteration
   - Design and implement AI-driven features, intelligent automation, and orchestration
-    systems
+    systems that enhance customer experiences and team productivity
   - Embed AI capabilities into customer-facing products, internal tools, and operational
     workflows
   - Build full-stack systems spanning backend services, APIs, data layers, and frontend
     interfaces
-  - Apply systems thinking to ensure reliability, performance, security, permissions,
-    and auditability across platforms
+  - Ensure reliability, performance, security, permissions, and auditability across
+    platforms
   - Participate in production support and incident response for owned systems
   - Mentor AI team members through code reviews, design feedback, and hands-on guidance
   use_cases:
-  - AI-powered platforms for internal operations
-  - Intelligent automation and orchestration of workflows
-  - Customer-facing AI-enhanced shopping experiences
-  - Decision support systems for business operations
-  - NLP applications including text classification, semantic search, and information
-    extraction
-  - AI-assisted or agentic systems interacting with tools and data
+  - AI-powered internal platforms and tools for business operations
+  - Intelligent automation and orchestration of complex workflows
+  - AI capabilities embedded in customer-facing fintech and shopping products
+  - Enhancing the customer shopping and payments experience
+  - Improving decision-making and automating operational workflows
   skills:
-    domains: []
-    languages: [Python, SQL, Go]
-    ml: [Transformers, BERT, GPT, Fine-Tuning, Embeddings, text classification, named
-        entity recognition, information extraction, supervised learning, unsupervised
-        learning, Feature Engineering, Model Evaluation, statistical inference]
     cloud: [AWS]
-    genai: [RAG, Prompt Engineering, LLM application patterns, Agentic Workflows,
-      semantic search]
-    data: []
+    languages: [Python, SQL, Go]
+    ml: [Machine Learning, Transformers, Feature Engineering, Model Evaluation, Statistical
+        Inference]
     other: []
-    ops: [Docker, Kubernetes, CI/CD, GitLab CI]
-    web: [React]
-    databases: [Vector Databases, Pinecone, Weaviate, pgvector]
-  is_customer_facing: true
-  is_management: true
+    ops: [Docker, Kubernetes, CI/CD, GitLab CI, Distributed Systems]
+    databases: [Vector Databases]
+    domains: [NLP]
+    web: [React, APIs, Full-Stack Development]
+    data: []
+    genai: [Prompt Engineering, RAG, LLMs, Embeddings, Semantic Search, AI Agents,
+      Fine-Tuning]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '8590444'
   location: IND
   remote: true
-  extracted_at: '2026-02-27T12:50:28.269785'
+  extracted_at: '2026-08-16T02:47:21.727616'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

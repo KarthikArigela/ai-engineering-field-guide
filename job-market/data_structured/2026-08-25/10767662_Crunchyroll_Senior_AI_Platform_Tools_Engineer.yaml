@@ -1,0 +1,58 @@
+company:
+  name: Crunchyroll
+  stage: null
+  focus: Anime and manga streaming, games, and merchandise for fans
+position:
+  title: Senior AI Platform & Tools Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds structured evals, eval harnesses, RAG
+      patterns, agent scaffolding, and prompt libraries themselves
+      — direct shaping of LLM/agent behavior and quality. Tool
+      administration alone would be ai-support, but the platform
+      work explicitly includes LLM evaluation and agent/prompt
+      design.
+  responsibilities:
+  - Build an automated AI evaluation platform running structured evals (capability,
+    cost, latency, behavior, reliability) at scale
+  - Instrument usage and cost telemetry across the approved AI stack including token
+    usage, seat utilization, vendor spend, and drift detection
+  - 'Automate AI governance: intake triage, scoring pipelines, approval routing, and
+    policy-as-code enforcement with Glean agents and JSM workflows'
+  - Develop golden-path templates, reference architectures, and reusable components
+    such as RAG patterns, agent scaffolding, prompt libraries, and eval harnesses
+  - Administer and configure enterprise AI tools (ChatGPT, Glean, Claude, Gemini)
+    in partnership with IT and Security
+  - Track new AI tool feature releases, assess adoption, and drive rollout for maximum
+    employee value
+  - Build medium-complexity agents and workflows for non-technical teams compliant
+    with security and governance standards
+  - Partner with the AI Security Engineer to enforce security controls at the platform
+    level
+  use_cases:
+  - Automated AI evaluation and governance platform for enterprise AI adoption
+  - Usage, cost, and drift telemetry across an approved AI tool stack
+  - Golden-path templates and reusable RAG/agent components for internal teams
+  - Agents and workflow automations for non-technical business teams
+  - Administration and adoption of enterprise AI tools (ChatGPT, Glean, Claude, Gemini)
+  skills:
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, TypeScript]
+    ml: []
+    other: [Glean, Policy-as-Code, JSM, NIST AI RMF, ISO 42001, EU AI Act, GDPR]
+    ops: [CI/CD, Observability]
+    databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, AI Agents, Prompt Engineering, LLM Evaluation, ChatGPT, Anthropic
+        API, Gemini]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10767662'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-25T11:43:40.458825'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

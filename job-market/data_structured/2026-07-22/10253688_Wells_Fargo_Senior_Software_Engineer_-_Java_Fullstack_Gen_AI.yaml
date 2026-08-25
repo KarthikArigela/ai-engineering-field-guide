@@ -1,54 +1,55 @@
 company:
   name: Wells Fargo
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Software Engineer - Java Fullstack, Gen AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Java fullstack software engineering role
-      at a large bank, with GenAI tools mentioned only as
-      "familiarity" items (GitHub Copilot, agentic workflows, LLM-
-      based test generation) for productivity enhancement. The
-      role involves building microservices, web applications, and
-      payment systems — not building, training, or deploying AI/ML
-      models. GenAI is a supplementary skill, not the core
-      responsibility.
+      This is a Java fullstack engineering role in Wells Fargo's
+      payments domain. GenAI appears only as a "familiarity with"
+      desired qualification - GitHub Copilot, agentic AI
+      workflows, and LLM-based test generation are tools the
+      engineer would use, not systems they design, prompt, or
+      tune. No responsibility involves shaping model behavior or
+      output quality, so this is ai-support.
   responsibilities:
-  - Lead moderately complex technical initiatives and contribute to large-scale strategic
-    planning
-  - Design, code, test, debug, and document software projects including upgrades and
-    deployments
-  - Build applications using Java, Spring framework, and Spring Boot with microservices
-    architecture
-  - Develop front-end solutions using React, Angular, or Node.js
-  - Review and resolve complex technical challenges requiring in-depth evaluation
-    of technologies and procedures
-  - Provide technical leadership, mentoring, and architecture guidance to junior engineers
-  - Collaborate with cross-functional teams to deliver solutions in an Agile environment
-  - Evaluate and onboard new tools and technologies to improve productivity
+  - Lead moderately complex initiatives and deliverables within technical domain environments
+  - Design, code, test, debug, and document projects and programs, including upgrades
+    and deployments
+  - Contribute to large-scale planning of technology strategies
+  - Review and resolve moderately complex technical challenges requiring in-depth
+    evaluation of technologies and procedures
+  - Collaborate and consult with peers, colleagues, and mid-level managers to resolve
+    technical challenges and achieve goals
+  - Lead projects and act as an escalation point, providing guidance and direction
+    to less experienced staff
+  - Work closely with multiple technology teams to understand requirements and deliver
+    solutions
+  - Mentor junior engineers and provide technical design and architecture guidance
   use_cases:
-  - Payment processing systems supporting Wires, SWIFT, and ISO 20022 message structures
-  - Enterprise application development with microservices and web services
-  - Cloud migration of applications to Azure or GCP
-  - Search and indexing solutions using ElasticSearch
-  - GenAI-assisted development and testing workflows using GitHub Copilot and LLM-based
-    tools
+  - Payments processing with Wires/SWIFT and ISO 20022 message structures
+  - Microservices and web services development for banking applications
+  - Cloud migration of applications to Azure/GCP/PCF/OCP environments
+  - Document search and indexing via MongoDB and Elasticsearch
+  - Message-driven processing with Kafka and Solace
   skills:
-    genai: [GitHub Copilot, Agentic Workflows, LLMs]
+    cloud: [Azure, GCP, PCF, OCP]
+    languages: [Java, JavaScript, Node.js]
     ml: []
-    web: [Spring Boot, Microservices, React, Angular, Spring Framework, REST APIs]
-    databases: [MongoDB, Elasticsearch, Oracle, SQL Server, Redis]
-    data: [Kafka]
-    cloud: [Azure, GCP, Cloud Migration]
-    ops: [CI/CD, Jenkins, GitHub, Docker]
-    languages: [Java, Node.js]
-    domains: [Payments]
-    other: [Agile]
+    other: [Agile, Payments, SWIFT, ISO 20022]
+    ops: [CI/CD, Jenkins, GitHub, Artifactory, SonarQube]
+    databases: [MongoDB, Elasticsearch, Redis, Oracle, SQL Server, Ignite, Coherence]
+    domains: []
+    web: [Spring Framework, Spring Boot, Microservices, React, Angular]
+    data: [Kafka, Solace]
+    genai: [GitHub Copilot, Agentic Workflows, Generative AI, LLM-Based Test Generation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10253688'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:37:37.698494'
+  extracted_at: '2026-08-16T18:11:44.998520'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

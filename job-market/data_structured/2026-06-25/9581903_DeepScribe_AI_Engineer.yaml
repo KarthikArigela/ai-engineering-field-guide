@@ -1,51 +1,53 @@
 company:
   name: DeepScribe
-  stage: Series B
-  focus: AI agents for clinical workflow automation
+  stage: Raised over $60M in total funding from investors including Index Ventures
+  focus: |-
+    AI agents for clinical documentation and healthcare workflow
+    automation
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, shipping, and
-      optimizing LLM-powered healthcare applications, including
-      inference pipelines and real-time speech recognition
-      systems. The engineer owns end-to-end AI workflows from
-      prototype to production, working hands-on with LLMs and
-      speech models.
+      The role owns end-to-end LLM-powered applications from
+      prototype to production and improves an LLM-based
+      documentation platform, directly shaping LLM behavior and
+      output quality, with required LLM inference experience
+      (OpenAI, Anthropic, Llama). Speech recognition work is
+      classical ML, but a role shaping both LLM and classical
+      systems is ai-first.
   responsibilities:
-  - Develop and own end-to-end AI applications including clinical trial matching,
-    ambient copilots, and billing automation
-  - Improve the LLM-powered clinical documentation platform used by thousands of clinicians
-    daily
+  - Develop and own end-to-end AI applications such as clinical trial matching, ambient
+    copilots, and billing automation
+  - Improve the LLM-powered documentation platform used daily by thousands of clinicians
   - Build and optimize inference pipelines and real-time speech recognition systems
-  - Collaborate with PMs, designers, clinical experts, and GTM teams to rapidly iterate
-    and launch features
-  - Ship production AI services from prototype to production with direct customer
-    interaction
-  - Work across the full stack (frontend, backend) to deliver complete AI-powered
-    features
+  - Collaborate closely with PMs, designers, clinical experts, and GTM teams to iterate
+    and launch high-impact features
+  - Own new AI workflows from prototype to production
+  - Ship fast, talk directly to customers, and incorporate real user feedback
   use_cases:
-  - Clinical trial matching using LLM-based reasoning
-  - Ambient clinical documentation and medical note generation
-  - Real-time speech recognition for clinical conversations
-  - Billing automation for healthcare workflows
-  - AI copilots for clinicians to reduce burnout
+  - Ambient clinical documentation for clinicians
+  - Clinical trial matching
+  - Billing automation for healthcare organizations
+  - Real-time speech recognition of clinical conversations
+  - Ambient copilots that reduce clinician burnout
   skills:
-    domains: ['EHR integrations (FHIR, HL7)', Healthcare ontologies]
-    languages: [Python, SQL]
-    ml: [Speech recognition / ASR, Whisper]
     cloud: []
-    genai: [LLM inference, OpenAI API, Anthropic API, Llama]
-    data: []
-    other: [HIPAA Compliance, SOC-2 compliance]
-    ops: [Inference pipeline optimization]
-    web: []
+    languages: []
+    ml: [ASR, Whisper, Machine Learning]
+    other: [EHR Integrations, FHIR, HL7, SOC 2, HIPAA Compliance]
+    ops: [Model Deployment]
     databases: []
+    domains: []
+    web: [Full-Stack Development]
+    data: []
+    genai: [LLMs, OpenAI API, Anthropic API, Llama, AI Agents]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9581903'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:45:10.945025'
+  extracted_at: '2026-08-16T13:02:34.589475'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,47 +1,47 @@
 company:
   name: S&P Global
-  stage: Public
-  focus: |-
-    Credit ratings, benchmarks, analytics, and workflow
-    solutions for global capital markets
+  stage: 'Publicly traded (NYSE: SPGI)'
+  focus: Credit ratings and financial market analytics
 position:
   title: Agentic AI Senior Software Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an agentic AI role focused on architecting and
-      implementing AI-driven solutions including LLM-powered
-      agents, autonomous testing systems, and AI copilots. The
-      role involves hands-on work with LLMOps, GenAI frameworks,
-      and building intelligent automation systems for quality
-      engineering, which is direct work on AI systems rather than
-      supporting infrastructure.
+      The role architects and implements Agentic AI platforms and
+      integrates LLM-powered agents and copilots into QE
+      workflows, meaning the person designs agent flows and shapes
+      LLM-driven behavior themselves (Step 1: yes). LLM and agent
+      components are central to the work, so it classifies as ai-
+      first.
   responsibilities:
   - Architect and implement Agentic AI platforms for autonomous testing and defect
     triage
-  - Integrate AI copilots and LLM-powered agents into Quality Engineering workflows
+  - Integrate AI copilots and LLM-powered agents into QE workflows
   - Define and execute the Agentic AI architecture roadmap for QE transformation
   - Evaluate and integrate LLMOps, GenAI, and autonomous agent frameworks
   - Lead AI experimentation labs to validate use cases and proofs of concept
   - Ensure AI solutions are scalable, secure, and compliant with enterprise standards
+  - Collaborate with customer experience advocates to align AI quality insights with
+    customer journeys
+  - Embed AI maturity benchmarks (e.g., TMMi) and enable QE through intelligent environments,
+    data observability, and ethical AI governance
   use_cases:
-  - Autonomous testing and defect triage for software quality engineering
-  - AI-powered copilots that assist with quality engineering workflows
+  - Autonomous testing in Quality Engineering
+  - Automated defect triage
   - Predictive insights and intelligent decision-making for engineering effectiveness
-  - Intelligent environments with data observability and ethical AI governance
-  - AI-driven quality insights aligned with customer journeys and experience
+  - AI copilots and LLM-powered agents embedded in QE workflows
+  - Data observability and AI governance for intelligent QE environments
   skills:
-    domains: []
-    languages: [Python]
-    ml: [AI model testing]
     cloud: [Azure AI]
-    genai: [Generative AI, LLM-powered agents, agentic AI frameworks, autonomous agent
-        frameworks]
-    data: [ML pipelines, data observability]
-    other: [Responsible AI, ethical AI]
-    ops: [LLMOps, containerized environments, DevSecOps]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, Model Evaluation, ML Pipelines]
+    other: [Responsible AI, Data Privacy, TMMi]
+    ops: [LLMOps, DevSecOps, Data Observability, Containerization]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [AI Agents, LLMs, Generative AI, AI Copilots]
   is_customer_facing: false
   is_management: false
 meta:
@@ -50,4 +50,6 @@ meta:
   locations:
   - New York, USA
   - Princeton, USA
-  extracted_at: '2026-02-05T11:45:16.625519'
+  extracted_at: '2026-08-15T22:25:14.092159'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

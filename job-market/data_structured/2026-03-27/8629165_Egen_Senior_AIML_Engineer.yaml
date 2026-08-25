@@ -2,18 +2,18 @@ company:
   name: Egen
   stage: null
   focus: |-
-    Data and AI consulting helping clients drive impact through
-    data and insights on Google Cloud and Salesforce platforms
+    Data and AI engineering consulting on Google Cloud and
+    Salesforce
 position:
   title: Senior AI/ML Engineer*
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building end-to-end GenAI applications,
-      developing RAG pipelines, fine-tuning LLMs, and deploying
-      agentic workflows. The position requires hands-on work with
-      models throughout their full lifecycle from prototype to
-      production.
+      The role directly shapes LLM behavior: designing RAG
+      pipelines and semantic search, leading LLM and embedding
+      fine-tuning, building agentic workflows, and applying prompt
+      engineering. All shaping activities target LLM/GenAI
+      components, making it ai-first.
   responsibilities:
   - Design and implement end-to-end GenAI applications using Python, LangChain, and
     LlamaIndex on Google Cloud
@@ -22,33 +22,38 @@ position:
   - Lead LLM and embedding fine-tuning efforts to improve domain-specific performance
   - Build and manage agentic workflows that automate complex multi-step reasoning
     tasks
-  - Collaborate directly with customers to understand requirements and implement AI
-    solutions
-  - Apply MLOps best practices to ensure models are served efficiently, monitored,
-    and continuously improved
+  - Take AI features such as document intelligence and RAG pipelines from prototype
+    to scalable production services
+  - Collaborate directly with clients to translate business needs into high-performance
+    AI architectures
+  - Apply MLOps best practices so models are served efficiently, monitored, and continuously
+    improved
+  - Solve real-world constraints including latency, error handling, and cost optimization
   use_cases:
-  - Document intelligence and processing
-  - Retrieval-augmented generation (RAG) pipelines
-  - Semantic search systems
-  - Agentic workflow automation for complex reasoning tasks
-  - Domain-specific LLM optimization and fine-tuning
+  - Document intelligence
+  - Enterprise RAG pipelines for knowledge retrieval and question answering
+  - Semantic search over large document collections
+  - Automating complex multi-step reasoning tasks with agentic workflows
+  - Domain-specific model performance improvement via LLM and embedding fine-tuning
+  - Cost-, latency-, and reliability-optimized production AI services
   skills:
-    domains: []
-    languages: [Python, SQL, Bash]
-    ml: [LLM Fine-tuning, Embedding Fine-tuning, Neural Networks, Model training and
-        tuning]
     cloud: [GCP, Vertex AI]
-    genai: [LangChain, LlamaIndex, Gemini, GPT-4, LLaMA, Prompt Engineering, RAG,
-      Semantic Search]
-    data: []
+    languages: [Python, SQL, Bash]
+    ml: [Machine Learning, Neural Networks]
     other: []
     ops: [MLOps]
+    databases: [Vector Databases, Vector Search, Pinecone, pgvector]
+    domains: []
     web: []
-    databases: [GCP Vector Search, Pinecone, pgvector]
+    data: [Data Engineering]
+    genai: [LangChain, LlamaIndex, RAG, Semantic Search, LLMs, Gemini, GPT-4, Llama,
+      Prompt Engineering, Fine-Tuning, Embeddings, Agentic Workflows, Generative AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8629165'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:06:41.145585'
+  extracted_at: '2026-08-16T03:22:58.213244'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

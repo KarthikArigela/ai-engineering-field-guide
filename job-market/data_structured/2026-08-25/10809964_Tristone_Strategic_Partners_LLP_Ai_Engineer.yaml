@@ -1,0 +1,47 @@
+company:
+  name: Tristone Strategic Partners LLP
+  stage: null
+  focus: Financial services firm embedding agentic AI
+position:
+  title: Ai Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds agents, MCP servers, retrieval systems for
+      AI context, and evaluation loops that shape AI-generated
+      code quality. This is directly shaping LLM/agent behavior
+      and output quality, so ai-first.
+  responsibilities:
+  - Implement agents, MCP servers, and supporting services that propose and apply
+    changes to large codebases
+  - Develop retrieval systems giving AI agents accurate, up-to-date context from codebases
+    and design artifacts
+  - Build compile/test/evaluate pipelines (static analysis, safety checks, performance
+    gates) to measure AI-generated changes
+  - Apply best practices in concurrency, telemetry, and configuration to keep AI outputs
+    reliable and idiomatic
+  - Collaborate on experiments to evaluate and improve AI-driven workflows
+  - Comply with IT policies and maintain information security
+  use_cases:
+  - Agents that propose and apply changes to large codebases
+  - Retrieval of accurate context from codebases and design artifacts for AI agents
+  - Evaluation pipelines ensuring AI-generated code is reliable, auditable, and safe
+  skills:
+    genai: [LangChain, LangGraph, AutoGen, AI Agents, MCP, Embeddings, Fine-Tuning]
+    ml: [LLMs]
+    web: []
+    databases: [Vector Search]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Java, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10809964'
+  location: Mumbai, IND
+  extracted_at: '2026-08-25T12:00:26.555049'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,60 @@
 company:
   name: Medtronic
-  stage: Public
+  stage: null
   focus: Medical devices and healthcare technology
 position:
   title: AI/Data Science Engineer II(Data Engineer)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Data Engineer role that builds data infrastructure
-      and pipelines to enable AI/ML use cases, but does not
-      involve building, training, or deploying models directly.
-      The role designs data architectures and pipelines that
-      "support" AI/ML initiatives and forecasting models created
-      by data science teams, which is the definition of ai-support
-      work.
+      The role designs and maintains data pipelines, data models,
+      and governed datasets that feed AI/ML and analytics
+      initiatives owned by other teams (Data Science, Finance). It
+      never shapes model behavior via prompts, retrieval,
+      training, or evaluation - AI/ML appears only as a downstream
+      consumer of the data plumbing. Per the dataset/pipeline
+      rule, this is ai-support.
   responsibilities:
-  - Enable scalable AI/ML use cases by designing and optimizing data architectures,
-    feature-ready data models, and real-time pipelines
-  - Translate finance processes into scalable and governed data models with domain
-    ownership
+  - Design and optimize data architectures, feature-ready data models, and real-time/near-real-time
+    pipelines that enable scalable AI/ML and advanced analytics use cases
+  - Translate finance processes (FP&A, revenue, cost, margin, forecasting) into scalable
+    and governed data models
   - Design, build, and maintain robust ETL/ELT pipelines using modern data platforms
-    like Snowflake and Azure
-  - Develop optimized data models using fact/dimension structures to support financial
-    reporting and analytics
+    such as Snowflake and Azure
+  - Develop optimized fact/dimension data models to support financial reporting, planning,
+    and analytics
   - Partner with finance stakeholders, data engineers, and IT teams to align data
     architecture with business needs
   - Support downstream analytics including Power BI dashboards, forecasting models,
     and AI/ML initiatives
-  - Optimize data pipelines and queries for scalability, performance, and cost efficiency
-  - Evaluate and enhance data architecture to improve speed, reliability, and business
-    impact of financial insights
+  - Streamline financial data processes through automation and standardization, optimizing
+    pipelines and queries for scalability, performance, and cost
+  - Continuously evaluate and enhance data architecture to improve the speed, reliability,
+    and business impact of financial insights
   use_cases:
-  - Financial forecasting and predictive analytics
-  - FP&A revenue, cost, margin, and forecasting analytics
-  - Enterprise AI initiatives and advanced analytics
-  - Financial planning and reporting automation
-  - Sales performance reporting and revenue analytics
-  - Real-time and near-real-time financial data processing
+  - Financial reporting and analytics for FP&A, revenue, cost, margin, and P&L processes
+  - Forecasting models for financial planning
+  - Power BI dashboards that improve finance data accessibility
+  - Enterprise AI/ML initiatives supported by governed, feature-ready datasets
+  - Automation and standardization of financial data processes in Global Finance
   skills:
-    domains: [Financial analytics]
-    languages: [SQL, Python]
-    ml: []
     cloud: [Azure, AWS, GCP]
-    genai: []
-    data: [Spark, Data Pipelines, Data Governance, Data Modeling, Data lineage]
-    other: []
+    languages: [SQL, Python]
+    ml: [Machine Learning, Forecasting]
+    other: [Power BI, SAP, OneStream, ERP Platforms]
     ops: []
-    web: [Power BI]
-    databases: [Snowflake, SAP]
+    databases: [Snowflake]
+    domains: []
+    web: []
+    data: [Data Pipelines, Data Modeling, Data Architecture, Data Governance, Data
+        Lineage, Spark]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9207684'
   location: IND
   remote: true
-  extracted_at: '2026-05-29T08:56:57.010615'
+  extracted_at: '2026-08-16T09:29:13.463230'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

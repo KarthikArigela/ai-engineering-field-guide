@@ -1,0 +1,58 @@
+company:
+  name: Esko
+  stage: Publicly traded
+  focus: Software and hardware for packaging design and print
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing agentic
+      systems with LangGraph/CrewAI/AutoGen, building evaluation
+      pipelines (G-Eval, RAGAS, LLM-as-a-Judge), implementing
+      advanced RAG retrieval, quantizing models (AWQ/GGUF), and
+      constructing guardrails and red-teaming workflows. Every
+      shaping target is an LLM or agent component, making this ai-
+      first.
+  responsibilities:
+  - Lead the design, optimization, and governance of Esko's Generative AI ecosystem
+    for scalable, production-grade AI capabilities across products
+  - Design and scale agentic AI systems to support long-running, complex workflows
+    using orchestration frameworks such as LangGraph, CrewAI, or AutoGen
+  - Develop systematic evaluation and benchmarking pipelines to measure performance,
+    hallucinations, and latency
+  - Implement advanced RAG strategies including multi-stage re-ranking, hybrid search,
+    and query expansion for high-precision knowledge retrieval
+  - Optimize model inference performance using quantization approaches and caching
+    strategies for cost-efficient high throughput
+  - Collaborate with Data Science and DevOps teams to transition experimental prototypes
+    into hardened, production-ready APIs
+  - Implement safety guardrails, red-teaming workflows, and alignment mechanisms to
+    meet industry regulations and brand-safety standards
+  use_cases:
+  - Agentic AI for long-running, complex workflows across Esko packaging products
+  - High-precision enterprise knowledge retrieval via advanced RAG
+  - LLM evaluation and benchmarking for performance, hallucinations, and latency
+  - Cost-efficient, high-throughput model inference at production scale
+  - Brand-safe, regulation-compliant generative AI outputs
+  skills:
+    genai: [LangGraph, CrewAI, AutoGen, AI Agents, RAG, Re-ranking, Hybrid Search,
+      Query Expansion, G-Eval, RAGAS, LLM-as-a-Judge, Guardrails, Red-Teaming, LLMs,
+      Generative AI, Fine-Tuning, LoRA, QLoRA, LangChain, LlamaIndex, Haystack]
+    ml: [PyTorch, JAX, Quantization]
+    web: [APIs]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus]
+    data: []
+    cloud: []
+    ops: [Weights & Biases, MLflow, LLMOps, CI/CD]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9120752'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T18:48:14.795314'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

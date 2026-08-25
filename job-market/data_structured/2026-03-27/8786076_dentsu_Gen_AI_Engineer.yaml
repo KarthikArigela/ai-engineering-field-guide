@@ -1,54 +1,58 @@
 company:
   name: dentsu
-  stage: Public
-  focus: |-
-    Global marketing and advertising network providing AI-
-    powered business solutions
+  stage: null
+  focus: Marketing and customer experience services
 position:
   title: Gen AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and fine-
-      tuning LLM-powered applications, RAG pipelines, and agentic
-      AI workflows. The engineer works hands-on with LLMs,
-      implements RAG architectures, and deploys AI models to
-      production environments.
+      The role directly shapes model behavior: it designs and
+      fine-tunes LLM applications, builds RAG pipelines with
+      retrieval strategies, creates agentic workflows with tool
+      calling, and builds LLM evaluation and observability
+      frameworks. LLMs and agents are the core of the work, so
+      this is ai-first.
   responsibilities:
   - Design, develop, and fine-tune LLM-powered applications for enterprise use cases
+  - Evaluate LLM applications and develop observability frameworks
   - Implement RAG pipelines using vector databases, embeddings, and optimized retrieval
     strategies
-  - Build agentic AI workflows with multi-step reasoning, tool calling, and integration
-    with APIs
-  - Integrate GenAI solutions into multi-cloud or hybrid cloud environments (AWS,
+  - Build agentic AI workflows with multi-step reasoning, tool calling, and API integration
+  - Integrate GenAI solutions into multi-cloud and hybrid cloud environments (AWS,
     Azure, GCP)
   - Develop and optimize edge AI deployments for low-latency use cases
-  - Create data pipelines for AI ingestion, preprocessing, and governance
-  - Implement AI safety, bias mitigation, and compliance measures
-  - Work closely with LLMOps teams to enable continuous integration & deployment of
-    AI models
+  - Create data pipelines for AI data ingestion, preprocessing, and governance
+  - Implement AI safety, bias mitigation, and compliance measures and work with LLMOps
+    teams on CI/CD of AI models
   use_cases:
-  - Enterprise LLM-powered applications
-  - RAG-based knowledge retrieval and question answering
-  - Multi-step agentic AI workflows with tool integration
-  - Edge AI deployments for low-latency scenarios
-  - Multi-modal AI processing (text, image, speech, video)
-  - AI governance and compliance systems
+  - Enterprise LLM applications solving business problems
+  - Retrieval-augmented knowledge access over enterprise data
+  - Agentic automation with multi-step reasoning and tool calling
+  - Low-latency edge AI deployments
+  - Multi-modal AI across text, image, speech, and video
+  - Real-time AI streaming applications
   skills:
-    domains: [Multi-modal AI]
+    cloud: [AWS, Azure, GCP, AWS Bedrock, SageMaker, Azure AI Foundry, Vertex AI,
+      AWS IoT Greengrass, Azure Percept, Serverless]
     languages: [Python, Node.js, Rust]
-    ml: [PyTorch, TensorFlow, Hugging Face]
-    cloud: [AWS Bedrock, SageMaker, Azure AI Foundry, Vertex AI, AWS IoT Greengrass]
-    genai: [LangGraph, LlamaIndex, PromptFlow, OpenAI API, Anthropic API, RAG, AI
-        Agents, Prompt Engineering]
-    data: [Kafka]
-    other: []
-    ops: [Docker, Kubernetes, LLMOps, NVIDIA Jetson, Azure Percept]
-    web: [REST APIs, Microservices, WebSockets]
-    databases: [Pinecone, Weaviate, Milvus, FAISS, Azure Cognitive Search]
+    ml: [PyTorch, TensorFlow, Hugging Face, Machine Learning]
+    other: [Edge AI, NVIDIA Jetson, Event-Driven Architecture, Responsible AI, AI
+        Safety]
+    ops: [LLMOps, Docker, Kubernetes, CI/CD, Observability]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, FAISS, Azure Cognitive
+        Search]
+    domains: []
+    web: [APIs, Microservices, WebSockets]
+    data: [Data Pipelines, Kafka]
+    genai: [Generative AI, LLMs, RAG, Agentic Workflows, Generative Agents, Fine-Tuning,
+      Embeddings, PromptFlow, LangGraph, LlamaIndex, Anthropic API, OpenAI API, Function
+        Calling, LLM Evaluation, MCP, A2A, Multimodal AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8786076'
   location: Pune, IND
-  extracted_at: '2026-03-27T15:37:08.477323'
+  extracted_at: '2026-08-16T04:31:36.567789'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

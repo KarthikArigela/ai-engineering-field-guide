@@ -2,50 +2,53 @@ company:
   name: Conveyor
   stage: Series B
   focus: |-
-    Customer trust AI automation platform for security reviews
-    and RFPs
+    Customer Trust AI automation for B2B security reviews and
+    RFPs
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an ai-first role building AI agents for security
-      reviews and RFPs. The role requires direct experience with
-      LLMs, RAG flows, agent frameworks, prompt engineering, and
-      evals/observability. The engineer will implement and improve
-      AI products, not just support infrastructure.
+      The role directly shapes LLM behaviour: it requires prompt
+      engineering, evals, RAG flows, and agent frameworks, and the
+      core responsibility is analyzing, evaluating, and improving
+      AI quality for Conveyor's LLM-powered agents (Sue for
+      security reviews, Phil for RFPs). LLMs are explicitly the
+      focus, making this ai-first.
   responsibilities:
-  - Analyze AI quality and performance, propose and experiment with new technologies,
-    then implement and improve Conveyor products
+  - Analyze AI quality and performance, propose and experiment with new technologies
+    and ideas, then implement and improve Conveyor products
   - Define and implement metrics and processes to evaluate and improve AI quality
   - Autonomously manage and own individual project priorities, deadlines, and deliverables
-    with minimal guidance
-  - Collaborate frequently with teammates, partner with Product and Design to plan
-    features and inform roadmap based on technical feasibility
-  - Ensure product maintainability so other engineers can contribute new functionality
-    easily without technical debt
+  - Scope and implement project-level solutions with minimal guidance
+  - Collaborate and pair frequently with teammates and peers
+  - Inform the product roadmap and implementation decisions based on feasibility
+  - Ensure the product is maintainable so other engineers can contribute new functionality
+    without accruing technical debt
+  - Partner with Product and Design to plan new features and maximize implementation
+    velocity
   use_cases:
-  - Automated B2B customer security review processes using AI agents
-  - AI-powered RFP (Request for Proposal) automation to eliminate manual effort
-  - Customer trust automation platform to streamline B2B sales cycle
-  - AI agents (Sue for security reviews, Phil for RFPs) that handle complex enterprise
-    workflows
+  - Automated customer security reviews via the Sue AI agent
+  - Automated RFP response generation via the Phil AI agent
+  - Customer Trust AI automation platform eliminating manual effort in the B2B sales
+    cycle
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LLMs, Prompt Engineering, RAG, Agentic Workflows, Evals and observability,
-      Search technologies]
-    data: []
-    other: [Software engineering]
-    ops: []
-    web: []
+    languages: []
+    ml: [Machine Learning]
+    other: [Search Technologies]
+    ops: [Observability]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Prompt Engineering, RAG, Agentic Workflows, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9334892'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:01:54.672192'
+  extracted_at: '2026-08-16T10:23:15.819312'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,60 @@
 company:
   name: Volante Technologies
   stage: null
-  focus: Cloud Payments as a Service for financial businesses
+  focus: |-
+    Low-code cloud Payments as a Service for financial
+    businesses
 position:
   title: Principal, AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and architecting
-      enterprise AI platforms, AI agents, RAG systems, and GenAI-
-      powered products. The engineer defines standards for model
-      selection, fine-tuning, and evaluation, and drives hands-on
-      AI innovation including agentic workflows and multi-model
-      orchestration. This is squarely a hands-on AI building role
-      at a principal level.
+      The role leads design and implementation of AI platforms
+      with RAG, agentic workflows, MCP integrations, prompt
+      management, and model evaluation frameworks, and sets
+      standards for model selection - directly shaping LLM/agent
+      behaviour. With LLMs, agents, and GenAI central to the
+      responsibilities, this is ai-first.
   responsibilities:
   - Define enterprise AI architecture and technology roadmap
   - Lead design and implementation of AI platforms, AI agents, and AI-powered products
-  - Build scalable AI platforms supporting RAG, Agentic Workflows, MCP Integrations,
-    Multi-model Orchestration, and AI Observability
+  - Build scalable AI platforms supporting RAG, Agentic Workflows, MCP integrations,
+    multi-model orchestration, model evaluation frameworks, prompt management, and
+    AI observability
   - Establish standards for model selection, evaluation, governance, security, and
     observability
-  - Drive CI/CD and MLOps adoption across engineering teams
-  - Evaluate emerging AI technologies and foundation models, define build-vs-buy strategies,
-    and drive POCs
-  - Mentor junior and senior AI engineers and develop AI competency frameworks
+  - Drive adoption of GenAI across software engineering, operations, and customer-facing
+    products
+  - Drive CI/CD and MLOps adoption, performance optimization, and cost governance
+    initiatives
+  - Mentor junior and senior AI engineers, conduct technical interviews, and develop
+    AI competency frameworks
   - Collaborate with customers and business stakeholders to identify AI opportunities
   use_cases:
-  - Enterprise AI platform for payments and financial services
-  - RAG-based knowledge retrieval and search
-  - AI agents and agentic workflows for financial operations
-  - Multi-model orchestration for production AI products
-  - GenAI-powered customer-facing payment products
-  - AI-driven operational automation
+  - Enterprise AI platform powering AI-enabled payments products
+  - AI agents and agentic workflows for financial business operations
+  - RAG and knowledge-grounded AI capabilities for payments domain
+  - GenAI adoption across engineering, operations, and customer-facing products
+  - Model evaluation, governance, and observability for production AI systems
   skills:
-    genai: [LLMs, Agentic Workflows, MCP, RAG, Fine-Tuning, Prompt Engineering, LangChain,
-      LlamaIndex, AutoGen, CrewAI, Semantic Kernel, Responsible AI, AI Agents, LLM
-        Evaluation]
-    ml: []
-    web: []
-    databases: [Vector Databases, Knowledge Graphs]
-    data: [Data Pipelines]
     cloud: [Azure ML, SageMaker, Azure, AWS]
-    ops: [MLflow, Model Deployment, Kubernetes, Terraform, CI/CD, MLOps]
     languages: [Python, Java]
+    ml: [Model Evaluation]
+    other: [Event-Driven Architecture, Responsible AI]
+    ops: [Distributed Systems, MLflow, Model Lifecycle Management, Kubernetes, Terraform,
+      CI/CD, MLOps, AI Observability]
+    databases: [Vector Databases, Knowledge Graphs]
     domains: []
-    other: [Distributed Systems, Event-Driven Architecture, Microservices, System
-        Design]
+    web: [Microservices]
+    data: [Data Pipelines]
+    genai: [LLMs, Foundation Models, AI Agents, RAG, Fine-Tuning, Prompt Engineering,
+      Generative AI, LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, MCP,
+      Agentic Workflows, Multi-Model Orchestration, Prompt Management]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10260275'
   location: Pune, IND
-  extracted_at: '2026-07-22T13:36:44.385644'
+  extracted_at: '2026-08-16T18:16:24.628439'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

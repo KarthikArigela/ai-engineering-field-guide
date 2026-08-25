@@ -1,17 +1,21 @@
 company:
   name: Holiday Channel | My Holiday World
-  stage: Startup
-  focus: Digital media and entertainment for holiday experiences
+  stage: startup
+  focus: |-
+    Digital media and entertainment platform for all things
+    holiday
 position:
   title: AI Engineer Internship (UNPAID)
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves directly building, training, and fine-
-      tuning ML models for NLP, computer vision, and
-      recommendation systems, as well as deploying AI
-      microservices. The intern works hands-on with end-to-end AI
-      workflows from data preprocessing to model deployment.
+      The intern builds, trains, and fine-tunes ML models for NLP,
+      computer vision, and recommendation engines, which is
+      shaping model behaviour (Step 1 yes). No LLM, prompt, RAG,
+      or agent work appears in the responsibilities - generative
+      AI is only a nice-to-have and third-party AI APIs are merely
+      integrated - so the shaped models are classical ML/DL
+      targets, making this ml-first.
   responsibilities:
   - Collaborate with the development team to design and implement AI solutions within
     applications
@@ -20,31 +24,34 @@ position:
   - Develop and deploy AI microservices using FastAPI/RESTful APIs
   - Containerize and run services on Google Cloud Run for scalable deployments
   - Work with structured and unstructured datasets to create data-driven solutions
-  - Integrate third-party AI services and APIs
+  - Integrate third-party AI services and APIs when applicable
   - Optimize models for performance, scalability, and efficiency
   - Contribute to GitHub repositories and participate in code reviews
   use_cases:
-  - Personalization and intelligence features for holiday media and entertainment
-    platforms
-  - NLP for holiday content understanding and processing
-  - Computer vision for holiday-related image and video content
-  - Recommendation engines for holiday shopping, entertainment, and travel
-  - Generative AI for text, image, or video content creation
+  - Personalization and intelligence features for a holiday media, marketplace, and
+    streaming platform
+  - NLP features for holiday content and user interactions
+  - Computer vision features across holiday media
+  - Recommendation engines for content and product discovery
+  - Generative AI models for holiday-themed text, image, or video content
   skills:
-    domains: [NLP, Computer Vision, Recommender Systems]
+    cloud: []
     languages: [Python]
-    ml: [TensorFlow, PyTorch]
-    cloud: [Cloud Run, GCP]
-    genai: [Generative AI]
-    data: []
-    other: []
-    ops: [Docker, GitHub, CI/CD]
-    web: [FastAPI, REST APIs, Microservices]
+    ml: [Machine Learning, TensorFlow, PyTorch, Fine-Tuning, Model Training, Model
+        Evaluation]
+    other: [Code Review]
+    ops: [Docker, Google Cloud Run, GitHub, CI/CD, Model Monitoring]
     databases: [PostgreSQL, Supabase]
+    domains: [NLP, Computer Vision, Recommender Systems]
+    web: [FastAPI, REST APIs, Microservices]
+    data: [Data Preprocessing]
+    genai: [Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9752470'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:48:34.147522'
+  extracted_at: '2026-08-16T14:50:38.734548'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

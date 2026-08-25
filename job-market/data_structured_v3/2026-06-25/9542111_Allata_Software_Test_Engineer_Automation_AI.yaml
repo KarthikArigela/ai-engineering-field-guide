@@ -1,0 +1,62 @@
+company:
+  name: Allata
+  stage: null
+  focus: Global technology consulting and services firm
+position:
+  title: Software Test Engineer (Automation + AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a test automation/QA engineering role where AI is
+      used as a productivity tool: AI coding assistants (GitHub
+      Copilot, Cursor, Claude) for test script development, and
+      RAG approaches to retrieve knowledge from documentation. The
+      role does not shape model behavior, design prompts/retrieval
+      as a product, or train/evaluate models — it consumes AI
+      tools designed by others, which classifies it as ai-support.
+  responsibilities:
+  - Analyze requirements, user stories, and API contracts to design comprehensive
+    test scenarios and automation strategies
+  - Build and maintain automated UI tests using Selenium, Playwright, and Cypress
+    with clean, reusable frameworks (POM, BDD)
+  - Test APIs thoroughly covering authentication, payloads, error handling, and contract
+    validation
+  - Write SQL queries to validate data integrity, transformations, and business logic
+    in databases
+  - Integrate test suites into CI/CD pipelines, monitor execution quality, and investigate
+    flaky tests
+  - Track defects in JIRA with clear reproduction steps and impact analysis, collaborating
+    with developers on code reviews and Shift-Left testing
+  - Use AI-powered tools and RAG approaches to speed up test generation, review code,
+    extract knowledge from technical docs, and recognize defect patterns
+  - Maintain test documentation, dashboards, and quality metrics while contributing
+    to framework improvements
+  use_cases:
+  - Automated quality assurance for Web, SaaS, API, and Mobile applications
+  - API contract validation and integration/regression testing across releases
+  - Database data integrity and business logic validation via SQL
+  - Regression cycle time reduction through parallel, scalable test automation in
+    CI/CD
+  - AI-assisted test generation, code review, and defect pattern recognition
+  - RAG-based retrieval of knowledge from technical documentation and past test runs
+  skills:
+    genai: [GitHub Copilot, Cursor, Claude Code, RAG]
+    ml: []
+    web: [Selenium, Playwright, Cypress, REST APIs, OAuth]
+    databases: [Chroma, Pinecone]
+    data: []
+    cloud: [AWS, Azure]
+    ops: [CI/CD, Git, Docker, Jenkins, Azure DevOps, GitHub Actions]
+    languages: [Java, JavaScript, TypeScript, SQL]
+    domains: []
+    other: [TestNG, Page Object Model, BDD, Cucumber, Gherkin, Postman, JIRA, Agile,
+      Code Review, JMeter, K6, BrowserStack, LambdaTest, OWASP, Testim.io, Katalon,
+      Functionize, OOP, JWT, ISTQB Certification]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9542111'
+  location: Vadodara, IND
+  extracted_at: '2026-08-16T12:48:40.844644'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

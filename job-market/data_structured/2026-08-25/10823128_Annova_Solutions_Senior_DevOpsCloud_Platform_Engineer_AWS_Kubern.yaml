@@ -1,0 +1,59 @@
+company:
+  name: Annova Solutions
+  stage: null
+  focus: Cloud and AI infrastructure engineering services
+position:
+  title: Senior DevOps/Cloud Platform Engineer (AWS| Kubernetes|AI Infrastructure)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys, serves, and scales LLM/SLM infrastructure
+      (vLLM, Ollama, GPU nodes) but does not shape model behavior
+      through prompts, retrieval, training, or evals. It is
+      classic DevOps/cloud platform work; serving models someone
+      else builds is ai-support.
+  responsibilities:
+  - Design, deploy, and manage secure, scalable AWS infrastructure and multi-environment
+    cloud platforms
+  - Design and operate production-grade Kubernetes clusters on Amazon EKS with autoscaling,
+    RBAC, and service meshes
+  - Build end-to-end CI/CD pipelines with GitOps, automated testing, security scanning,
+    and zero-downtime deployment strategies
+  - Develop infrastructure as code with Terraform and CloudFormation
+  - Deploy and manage SLMs and LLMs in production, including GPU-enabled Kubernetes
+    nodes and scalable inference infrastructure
+  - Manage Amazon RDS databases including performance tuning, backup, recovery, and
+    replication
+  - Implement monitoring, observability, log aggregation, and incident response with
+    CloudWatch, Prometheus, Grafana, and ELK
+  - Ensure security and compliance with SOC 2, HITRUST, and HIPAA, and optimize AWS
+    and GPU infrastructure costs
+  use_cases:
+  - Enterprise AI workload hosting on AWS and EKS
+  - Production LLM/SLM inference serving on CPU and GPU infrastructure
+  - CI/CD and GitOps automation for multi-environment deployments
+  - Healthcare/compliance-grade secure cloud infrastructure (SOC 2, HITRUST, HIPAA)
+  - Database and observability operations for high-throughput applications
+  - Cloud and GPU cost optimization
+  skills:
+    cloud: [AWS, EKS, Amazon EC2, AWS Lambda, AWS S3, Amazon ECR, Amazon ECS, IAM,
+      Route 53, VPC, AWS WAF, Systems Manager, CloudFront, EventBridge]
+    languages: []
+    ml: [Hugging Face, CUDA]
+    other: [Secrets Manager, SNS, SQS, NVIDIA GPUs, SOC 2, HITRUST, HIPAA Compliance]
+    ops: [CloudWatch, Kubernetes, Docker, Helm, Terraform, CloudFormation, GitOps,
+      CI/CD, GitHub Actions, Jenkins, GitLab CI, ArgoCD, vLLM, Model Deployment, Prometheus,
+      Grafana, ELK Stack, Loki, MLOps, Istio, Linkerd]
+    databases: [Vector Databases, Amazon RDS, PostgreSQL, MySQL, Redis, OpenSearch]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Ollama]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10823128'
+  location: Indore, IND
+  extracted_at: '2026-08-25T12:10:11.761755'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

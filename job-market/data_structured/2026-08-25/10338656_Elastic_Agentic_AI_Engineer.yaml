@@ -1,0 +1,58 @@
+company:
+  name: Elastic
+  stage: null
+  focus: Search AI platform for search, security, and observability
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agentic workflows, RAG grounding with ESRE,
+      fine-tunes LLMs, and monitors model drift — directly shaping
+      LLM/agent behavior and output quality. LLMs and agents are
+      central, so it is ai-first.
+  responsibilities:
+  - Design and implement agentic workflows that use reasoning and tools to execute
+    end-to-end business processes
+  - Ground agents in enterprise knowledge using RAG and the Elasticsearch Relevance
+    Engine (ESRE)
+  - Develop and fine-tune LLMs and integrate them with internal APIs and third-party
+    SaaS tools
+  - Provision and manage cloud environments on AWS, Azure, and GCP using Terraform
+  - Establish DevOps practices and CI/CD pipelines for automated deployment, testing,
+    and performance optimization of agents
+  - Apply security and network fundamentals (VPC, API gateways, encryption, IAM) to
+    protect sensitive data
+  - Implement observability and tracing systems to monitor agent behavior, latency,
+    token spend, and model drift
+  - Act as Elastic Stack subject matter expert and enable internal business partners
+    to use the stack
+  use_cases:
+  - Autonomous enterprise agents that complete complex business tasks
+  - Grounding agents in enterprise knowledge for accurate task completion
+  - Workflow automation to accelerate organizational productivity
+  - Integrating agents with internal APIs and third-party SaaS tools for autonomous
+    action
+  skills:
+    cloud: [AWS, Azure, GCP, IAM]
+    languages: [Python, TypeScript]
+    ml: []
+    other: [Elastic Stack, Elasticsearch Relevance Engine, Agent Builder, SAML, Copilot
+        Studio, ServiceNow, Salesforce, Responsible AI]
+    ops: [LangSmith, Terraform, DevOps, CI/CD, Docker, Kubernetes, Observability,
+      Monitoring, Distributed Tracing]
+    databases: []
+    domains: []
+    web: [OAuth]
+    data: []
+    genai: [Agentic Workflows, RAG, Fine-Tuning, LLMs, LangGraph, LangChain, Multi-Agent
+        Systems, MCP, Generative AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10338656'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:46:05.715083'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

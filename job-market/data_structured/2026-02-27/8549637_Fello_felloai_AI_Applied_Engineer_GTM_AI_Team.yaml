@@ -1,57 +1,58 @@
 company:
   name: Fello (fello.ai)
-  stage: VC-backed startup (hyper-growth, profitable)
-  focus: |-
-    AI operating system for GTM teams - autonomous agents for
-    marketing, sales, and operations
+  stage: VC-backed, profitable hyper-growth startup
+  focus: AI operating system for GTM teams
 position:
   title: AI Applied Engineer (GTM AI Team)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on building autonomous AI
-      agents, LLM-native workflows, and agentic systems from the
-      ground up. The position involves hands-on work with LLMs
-      including tool use, function calling, RAG implementation,
-      and multi-step reasoning - all core AI/ML development work.
+      The role directly shapes LLM behavior: designing autonomous
+      agents with tool use, function calling, structured outputs,
+      and multi-step reasoning, plus implementing RAG with
+      embeddings and vector databases and applying prompt
+      engineering for reliability. These are core model-shaping
+      activities on LLM/agent systems, making it ai-first.
   responsibilities:
-  - Design and deploy autonomous AI agents that research, reason, and execute business
-    workflows
-  - Build agentic systems using LLM capabilities including tool use, function calling,
-    structured outputs, and multi-step reasoning
-  - Create internal AI copilots for marketing, sales, operations, and leadership teams
-  - Implement RAG systems using embeddings and vector databases for agent context
-    and memory
-  - Build AI workflows for account enrichment, lead qualification, insight generation,
-    and automation
-  - Integrate AI agents with HubSpot, internal databases, enrichment platforms, and
-    product systems
-  - Build scraping, parsing, and AI extraction systems to convert unstructured data
-    into structured intelligence
-  - Continuously improve agents for speed, intelligence, cost-efficiency, and reliability
+  - Design and deploy autonomous AI agents that research, reason, and execute real
+    business workflows
+  - Build agentic systems using tool use, function calling, structured outputs, and
+    multi-step reasoning
+  - Implement retrieval systems (RAG) with embeddings and vector databases to give
+    agents context and memory
+  - Create internal AI copilots used daily by marketing, sales, operations, and leadership
+  - Integrate AI agents deeply into the company stack including HubSpot, internal
+    databases, and enrichment platforms
+  - Build scraping, parsing, and AI extraction systems to convert unstructured web
+    data into structured intelligence
+  - Rapidly prototype, test, and deploy new AI capabilities as new models and tools
+    emerge
+  - Build reusable internal frameworks, tools, and agent architectures, owning systems
+    end-to-end from idea to production
   use_cases:
-  - Autonomous AI agents for go-to-market operations
-  - Account research and data enrichment automation
-  - Lead qualification and insight generation
-  - Workflow automation for marketing and sales operations
-  - Internal AI copilots for business teams
-  - Unstructured data extraction and intelligence gathering
+  - Autonomous GTM agents that research accounts, enrich data, and qualify leads
+  - Automating marketing, sales, and operations workflows end-to-end
+  - Internal AI copilots for daily use by marketing, sales, operations, and leadership
+  - Converting unstructured web data into structured business intelligence
+  - Generating insights and automating execution across revenue teams
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [OpenAI API, Anthropic API, LLM agents, Function Calling, Prompt Engineering,
-      RAG, Embeddings, Multi-step reasoning]
-    data: [Data Pipelines]
-    other: [n8n, Make, Zapier, Web scraping, HubSpot]
+    languages: []
+    ml: []
+    other: [n8n, Make, Zapier, Web Scraping, HubSpot]
     ops: []
-    web: [APIs, Webhooks]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs, Webhooks]
+    data: [Data Pipelines]
+    genai: [LLMs, AI Agents, Agentic Workflows, Function Calling, Structured Outputs,
+      Prompt Engineering, RAG, Embeddings, OpenAI API, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8549637'
   location: IND
   remote: true
-  extracted_at: '2026-03-03T12:15:29.363574'
+  extracted_at: '2026-08-16T02:22:44.418628'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

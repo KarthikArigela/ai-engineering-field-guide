@@ -1,49 +1,53 @@
 company:
   name: Writer
-  stage: Series C+ (Valued at $1.9B)
-  focus: Enterprise generative AI platform and AI agents
+  stage: Valued at $1.9B and backed by investors including Premji Invest, Radical
+    Ventures, and ICONIQ Growth
+  focus: |-
+    Enterprise generative AI platform for building and deploying
+    AI agents
 position:
   title: Software engineer, generative AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building generative AI services,
-      integrating LLMs and agentic workflows into the platform,
-      and deploying AI applications using vector databases. The
-      engineer works hands-on with AI models and agentic
-      frameworks as core responsibilities, not merely supporting
-      infrastructure for others.
+      The role designs and builds generative AI applications using
+      LLMs, vector databases (Pinecone, Weaviate, pgvector), and
+      open-source agentic frameworks, integrating agentic
+      workflows into the core platform — i.e., shaping LLM
+      behavior through retrieval and agent flow design rather than
+      merely consuming an API. Since LLM and agent components are
+      central, it is ai-first.
   responsibilities:
   - Design and develop robust, secure, and scalable generative AI services and applications
     using Python and modern frameworks
-  - Build and optimize high-performance, low-latency APIs and microservices integrating
+  - Build and optimize high-performance, low-latency APIs and microservices to integrate
     advanced AI models and agentic workflows into the core platform
   - Own the architecture of core platform components from initial proposal through
-    production deployment as a whole-systems thinker
-  - Implement and maintain responsive user interfaces using React and TypeScript to
-    bridge backend services and frontend enablement
-  - Collaborate with cross-functional teams including product managers, data scientists,
-    and DevOps engineers to communicate changes and proposals
+    production deployment
+  - Implement responsive user interfaces using React and TypeScript to bridge backend
+    services and frontend enablement
+  - Communicate changes, plans, and proposals to cross-functional teams, collaborating
+    with product managers, data scientists, and DevOps engineers
   - Partner with DevOps teams to build continuous deployment, logging, and monitoring
-    systems for performance, security, and reliability
+    systems ensuring performance, security, and reliability across distributed workloads
   use_cases:
-  - Enterprise-wide AI-powered workflow orchestration for large corporations
-  - AI agents grounded in enterprise company data for business transformation
-  - Revenue growth and cost reduction through generative AI adoption in industries
-    like consumer packaged goods
-  - Secure and scalable deployment of generative AI solutions in complex corporate
-    environments
+  - Enterprise AI agents grounded in company data
+  - Enterprise-wide generative AI transformation for large corporations
+  - Secure adoption of generative AI in complex corporate environments
+  - Driving revenue growth and cost reduction for enterprise customers
+  - Enterprise administration and billing services
   skills:
-    domains: []
-    languages: [Python, TypeScript]
+    cloud: [AWS, GCP, Azure, IAM, SSO, SAML, OIDC, RBAC]
+    languages: [Python, TypeScript, asyncio]
     ml: []
-    cloud: [AWS, GCP, Azure]
-    genai: [LLMs, Agentic frameworks, Anthropic API, GitHub Copilot]
-    data: []
-    other: [Microservices, IAM, SSO, SAML, OAuth, OIDC, RBAC, Cursor]
-    ops: [Docker, Kubernetes, CI/CD]
-    web: [React, FastAPI, Asyncio, REST APIs]
+    other: []
+    ops: [Docker, Kubernetes, CI/CD, Monitoring]
     databases: [Pinecone, Weaviate, pgvector, PostgreSQL]
+    domains: []
+    web: [FastAPI, REST APIs, Microservices, React, OAuth]
+    data: []
+    genai: [Generative AI, LLMs, Agentic Workflows, Anthropic API, Cursor, GitHub
+        Copilot]
   is_customer_facing: false
   is_management: false
 meta:
@@ -53,4 +57,6 @@ meta:
   - New York, USA
   - Seattle, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:45:50.456967'
+  extracted_at: '2026-08-16T13:12:03.751618'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

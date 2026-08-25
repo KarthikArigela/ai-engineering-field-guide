@@ -1,53 +1,60 @@
 company:
   name: Magnitude Software
-  stage: Private
-  focus: Reporting, analytics, and performance management solutions
+  stage: null
+  focus: |-
+    Financial reporting, analytics, and performance management
+    software
 position:
   title: Principal Software Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building agentic capabilities
-      and integrating LLMs into production software, including
-      prompt engineering and API integration with OpenAI/Azure
-      OpenAI. The engineer actively implements AI-first practices
-      and agentic workflows into product features, making this a
-      hands-on AI building role rather than a support role.
+      The role shapes LLM/agent behavior as the product: it
+      requires hands-on integration of LLMs into production
+      software (prompt engineering, OpenAI/Azure OpenAI APIs) and
+      building agentic workflows and AI-assisted user experiences
+      into the company's SaaS and desktop applications. The
+      internal AI-developer-tool evangelism alone would be ai-
+      support, but the product-facing agentic and prompt work
+      makes this ai-first.
   responsibilities:
-  - Evangelize and champion AI-first practices within software development across
-    the engineering organization
-  - Integrate AI capabilities into product features including agentic workflows and
+  - Be the tip of the spear in using and evangelizing AI within software development
+  - Integrate AI capabilities into product features, including agentic workflows and
     AI-assisted user experiences
-  - Design and implement scalable backend solutions using .NET/.NET Core, C#, and
-    SQL
+  - Provide technical leadership on complex software development challenges across
+    strategic product initiatives
+  - Design and implement robust, scalable, high-performing backend solutions using
+    .NET/.NET Core, C#, and SQL
   - Own the full development lifecycle from requirements through testing, producing
-    clean and maintainable code
-  - Provide technical leadership in solving complex software development challenges
-    and modernizing legacy architectures
-  - Lead code reviews, architecture discussions, and mentor junior and mid-level engineers
-  - Collaborate with product owners and stakeholders to translate requirements into
-    well-architected solutions
+    clean, maintainable code
+  - Lead, critique, and coach others in code reviews and architecture discussions,
+    resolving impediments for engineers
+  - Interact with product owners and stakeholders to clarify requirements and translate
+    them into well-architected solutions
   use_cases:
   - Agentic workflows embedded in enterprise SaaS and desktop applications
-  - AI-assisted user experiences for finance and data teams
-  - Modernization of legacy enterprise software architectures using AI tools
-  - Integration of LLMs into financial reporting and analytics products
+  - AI-assisted user experiences in reporting and analytics products
+  - Modernizing legacy enterprise architectures and reducing tech debt
+  - Data replication and ETL pipelines for finance data workflows
+  - Financial planning and analysis (FP&A), controllership, and reporting solutions
   skills:
-    genai: [GitHub Copilot, Claude Code, Agentic Workflows, LLMs, Prompt Engineering,
-      OpenAI API, Azure OpenAI, Generative AI, AI Agents, Cursor]
+    cloud: []
+    languages: [C#, .NET, TypeScript, JavaScript, Java, SQL]
     ml: []
-    web: [React, REST APIs]
-    databases: [SQL Server, PostgreSQL]
-    data: [Data Pipelines, ETL Pipelines]
-    cloud: [Azure]
-    ops: [Docker, CI/CD, DevOps]
-    languages: [C#, .NET, TypeScript, JavaScript, Java, Python, SQL]
+    other: [Agile, Code Review, Database Security, Enterprise Financial Systems]
+    ops: []
+    databases: []
     domains: []
-    other: [Agile, Code Review, System Design, Microservices]
+    web: [React]
+    data: [Data Pipelines, Data Replication]
+    genai: [GitHub Copilot, Claude Code, Devin, Lovable, Prompt Engineering, LLMs,
+      OpenAI API, Azure OpenAI, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10184744'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:32:53.629591'
+  extracted_at: '2026-08-16T17:40:08.307053'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

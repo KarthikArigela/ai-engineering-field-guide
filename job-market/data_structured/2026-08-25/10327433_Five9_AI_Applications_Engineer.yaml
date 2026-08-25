@@ -1,0 +1,56 @@
+company:
+  name: Five9
+  stage: null
+  focus: Cloud contact center software with AI and automation
+position:
+  title: AI Applications Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates the platform that AI solutions
+      run on — cloud, pipelines, runtime, guardrails — while the
+      AI Automation Engineer builds the actual AI solutions.
+      Serving, hosting, and operating LLM/agent systems the person
+      does not shape is ai-support even though it names serving,
+      evaluation, and prompt version management tooling.
+  responsibilities:
+  - Build and operate the cloud AI platform — compute, environments, networking, and
+    runtime — keeping it production-grade, secure, and reliable
+  - Provision and manage infrastructure as code with Terraform for reproducible, auditable
+    environments
+  - Build and maintain CI/CD delivery pipelines with automated testing and security
+    gates
+  - Stand up model and agent serving, evaluation, prompt and version management, and
+    MLOps/LLMOps tooling
+  - Build secure connectors, data pipelines, and integration surfaces for AI solutions
+  - Engineer security, data-classification, and responsible-AI controls (IAM, secrets,
+    egress, policy-as-code) with InfoSec
+  - Build reusable components, shared libraries, and self-service tooling as a paved
+    road for builders
+  - Instrument monitoring, logging, cost tracking, and SLOs; own platform reliability
+    and incident response
+  use_cases:
+  - Internal AI adoption platform for enterprise-wide AI solutions
+  - Model and agent serving runtime for LLM-based systems in production
+  - Paved-road internal developer platform for AI solution builders
+  - Secure governance and responsible-AI controls for enterprise AI
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: [GCP, IAM]
+    ops: [Terraform, Docker, Kubernetes, CI/CD, MLOps, LLMOps, Monitoring, Infrastructure
+        as Code, Model Deployment]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10327433'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T09:43:50.900436'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

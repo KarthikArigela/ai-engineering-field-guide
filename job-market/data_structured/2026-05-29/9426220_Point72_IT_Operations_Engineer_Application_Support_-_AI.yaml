@@ -1,55 +1,63 @@
 company:
   name: Point72
-  stage: Public
-  focus: Global alternative investment firm
+  stage: null
+  focus: Global alternative investment management firm
 position:
   title: IT Operations Engineer (Application Support) - AI & Data Technology
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is an IT Operations/SRE position supporting AI and
-      Data platforms. The engineer monitors model inference,
-      manages production deployments, troubleshoots platform
-      issues, and automates operational workflows - but does NOT
-      build, train, fine-tune, or deploy models themselves. They
-      support the infrastructure that enables AI/ML systems to run
-      reliably.
+      The role runs and supports AI/Data platforms in production:
+      monitoring inference layers, triaging incidents, supporting
+      deployments, and automating ops tasks. It never shapes model
+      behavior (no prompt engineering, retrieval design, fine-
+      tuning, or eval building) — it serves models that other
+      teams build, which per the edge cases is ai-support even
+      with model serving and inference named.
   responsibilities:
-  - Own day-to-day operational health of compliance approved AI and Data platforms
-    in production, ensuring high availability, performance, and reliability
+  - Own day-to-day operational health, high availability, performance, and reliability
+    of compliance-approved AI and Data platforms in production
   - Monitor AI and Data services, model inference layers, APIs, and data dependencies
     using logs, metrics, dashboards, and alerts
-  - Lead incident triage, coordination, and resolution for platform outages or service
+  - Provide production-focused user support for AI tools and Data platforms, prioritizing
+    issue resolution
+  - Lead incident triage, coordination, and resolution for platform outages and service
     degradations, partnering with development and infrastructure teams
-  - Perform deep technical troubleshooting across applications, data, and system layers
-  - Enhance observability, alerting, and operational runbooks to reduce mean time
-    to detect and resolve incidents
-  - Automate repetitive operational tasks and support workflows using Python and other
-    scripting tools
-  - Collaborate closely with AI and Data engineering teams to improve platform resilience,
-    scalability, and overall supportability
+  - Perform deep technical troubleshooting across application, data, and system layers
+  - Enhance observability, alerting, and operational runbooks to reduce MTTD and MTTR,
+    and conduct post-incident root cause analysis with corrective and preventive improvements
+  - Support production deployments, configuration changes, and platform upgrades with
+    strong focus on risk mitigation and stability
+  - Automate repetitive operational tasks and support workflows using Python and scripting
+    tools, collaborating with AI and Data engineering teams to improve platform resilience
+    and supportability
   use_cases:
-  - AI and Data platform operations and reliability for alternative investment firm
-  - Model inference monitoring and serving for production AI systems
-  - Production support for compliance-approved AI tools and data platforms
-  - Incident management and operational excellence for distributed AI/data services
-  - Platform stability and scalability for AI/ML infrastructure
+  - Production operations and high availability for AI and Data platforms at an investment
+    firm
+  - Monitoring and incident management for model inference services, APIs, and data
+    dependencies
+  - Production support and troubleshooting of AI tools and Data platforms for internal
+    users
+  - Automation of operational support workflows for platform reliability
+  - Support of Reference/Alternate Data applications
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS, Azure]
-    genai: []
-    data: [Databricks]
+    languages: [Python, SQL, .NET]
+    ml: []
     other: []
-    ops: [Windows, Incident management, Observability, Root cause analysis, Production
-        troubleshooting]
-    web: [.NET, API management, Distributed services]
+    ops: [Windows, Distributed Systems, Model Deployment, Inference Pipelines, Incident
+        Management, Observability, Monitoring]
     databases: [SQL Server]
+    domains: []
+    web: [APIs]
+    data: [Databricks]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9426220'
   location: IND
   remote: true
-  extracted_at: '2026-05-29T09:04:17.229429'
+  extracted_at: '2026-08-16T11:14:42.261570'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

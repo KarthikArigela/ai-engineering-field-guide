@@ -1,63 +1,70 @@
 company:
   name: Pattern
-  stage: Growth/E-commerce accelerator
+  stage: null
   focus: |-
     Ecommerce accelerator helping global brands grow across
-    marketplaces using AI-powered data intelligence and creative
-    automation
+    marketplaces
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and operating
-      production AI systems including agentic workflows, LLM-based
-      classification engines, generative pipelines, and retrieval
-      systems. The engineer works daily with LLMs, embeddings, and
-      diffusion models, designing and deploying them as core
-      components of the product — not as supporting
-      infrastructure.
+      The role designs and builds production AI systems directly:
+      retrieval pipelines, agentic workflows, generative
+      pipelines, and classification engines using LLMs,
+      embeddings, and vector search, which is core model-behavior
+      shaping. LLM and agent components are clearly involved
+      (LangGraph, agentic workflows, LLMs), making it ai-first
+      rather than ml-first. Using Claude Code for personal coding
+      velocity is incidental and does not change the
+      classification.
   responsibilities:
-  - Own one or two critical systems end-to-end, driving architecture, implementation,
-    and operational health
+  - Own one or two systems end-to-end, driving their architecture, implementation,
+    operational health, and evolution
+  - Drive cross-system technical decisions on data contracts, API boundaries, shared
+    infrastructure, and integration patterns
   - Design and build production AI systems including retrieval pipelines, agentic
-    workflows, generative pipelines, and classification engines
-  - Drive cross-system technical decisions including data contracts, API boundaries,
-    and shared infrastructure
+    workflows, generative pipelines, and classification engines with the right cost/latency/quality
+    trade-offs
+  - Build intelligent agents that discover, collect, and keep product and competitor
+    data fresh across marketplaces at scale
+  - Build the semantic engine that normalizes messy product data into a consistent
+    taxonomy using LLMs, vector search, and hierarchical classification
+  - Build creative automation and generative pipelines that turn structured product
+    intelligence into marketplace-ready imagery, video, and copy
   - Set engineering standards through code reviews, design documents, and architectural
     RFCs
-  - Build intelligent agents for data collection, product intelligence normalization,
-    and marketplace analytics
-  - Partner with product and stakeholders to frame and solve problems end-to-end
-  - Mentor and elevate engineers through pairing, review rigor, and raising production-ready
-    standards
+  - Mentor and elevate engineers through pairing, review rigor, and raising the bar
+    on production readiness
   use_cases:
-  - Agentic competitive intelligence — automated discovery and monitoring of product
-    and competitor data across marketplaces
-  - Product attribute normalization — turning messy unstructured product data into
-    consistent taxonomy using LLMs and vector search
-  - Marketplace behavioral analytics — modeling what drives customer purchase decisions
-    using consumer behavior and competitive data
-  - Creative automation at scale — generating marketplace-ready imagery, video, and
-    copy from structured product intelligence
-  - Closed-loop ecosystem connecting data collection, intelligence analysis, creative
-    generation, and brand strategy
+  - Agentic marketplace data collection and competitive intelligence for brand digital
+    presence
+  - Product attribute normalization turning unstructured product data into a consistent,
+    searchable taxonomy
+  - Marketplace behavioral analytics surfacing the attributes that drive customer
+    conversion
+  - Creative automation generating marketplace-ready imagery, video, and copy at scale
+  - Cross-system intelligence ecosystem connecting data collection, analysis, and
+    creative activation
   skills:
-    domains: []
+    cloud: [AWS, ECS, AWS Lambda, AWS S3, AWS SQS, AWS SNS, AWS Bedrock, AWS Step
+        Functions, RunPod, Replicate, Fal]
     languages: [Python, TypeScript, SQL]
-    ml: [Diffusion Models, Computer vision, NLP, Classification pipelines]
-    cloud: [AWS]
-    genai: [LLMs, LangGraph, Embeddings, Agentic Workflows, RAG/retrieval pipelines,
-      Prompt Engineering, AWS Bedrock]
-    data: []
-    other: [Distributed Systems, Event-Driven Architecture]
-    ops: [Terraform, Docker, Temporal, Apache Airflow (Astronomer), Celery, RunPod,
-      Replicate, Fal]
-    web: [FastAPI, React/Next.js, SQLAlchemy]
-    databases: [PostgreSQL, Redis, Snowflake, DynamoDB, Vector Databases]
+    ml: [Diffusion Models, Speech-to-Text, Model Training, Classification Pipelines]
+    other: [Event-Driven Architecture]
+    ops: [Terraform, Temporal, Celery, Distributed Systems]
+    databases: [PostgreSQL, Redis, Snowflake, DynamoDB, Vector Databases, Vector Search,
+      SQLAlchemy]
+    domains: [Computer Vision, NLP]
+    web: [FastAPI, React, Next.js, APIs]
+    data: [Airflow, Data Modeling]
+    genai: [LLMs, Embeddings, Agentic Workflows, LangGraph, RAG, Generative AI, Claude
+        Code]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9096220'
   location: Pune, IND
-  extracted_at: '2026-04-22T12:40:00.498238'
+  extracted_at: '2026-08-16T07:59:26.401273'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

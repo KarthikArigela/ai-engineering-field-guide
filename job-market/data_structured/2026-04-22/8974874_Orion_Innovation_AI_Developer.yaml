@@ -1,57 +1,64 @@
 company:
   name: Orion Innovation
-  stage: Unknown
+  stage: null
   focus: |-
-    Global business and technology services firm delivering
-    digital transformation and product development
+    Global business and technology services and product
+    development firm
 position:
   title: AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on building and deploying
-      agentic AI systems, including designing autonomous agents,
-      implementing multi-agent orchestration with LangGraph,
-      building RAG pipelines, and optimizing LLM performance. The
-      developer works directly on AI/LLM models and frameworks,
-      not just supporting infrastructure.
+      The role directly shapes LLM behavior: designing autonomous
+      agents with tool-use and self-correction, orchestrating
+      multi-agent flows in LangGraph, building RAG pipelines with
+      memory, prompt/context engineering, and implementing eval
+      frameworks and guardrails. With heavy LLM and agent
+      components throughout, this is clearly ai-first.
   responsibilities:
-  - Design and develop autonomous agents capable of independent planning, tool-use,
-    context & prompt engineering, and self-correction
-  - Implement multi-agent orchestration using LangGraph for task delegation, conflict
-    resolution, and collaborative reasoning between specialized agents
-  - Build sophisticated RAG pipelines with episodic and semantic memory to maintain
-    context over long interactions
-  - Architect and deploy AI services across AWS (Bedrock/SageMaker) and Azure (OpenAI
-    Service/Foundry) with high availability and cost optimization
+  - Design and develop autonomous agents with independent planning, tool-use (function
+    calling), context and prompt engineering, and self-correction
+  - Implement LangGraph to orchestrate task delegation, conflict resolution, and collaborative
+    reasoning across specialized agents
+  - Build advanced RAG pipelines with episodic and semantic memory to maintain context
+    over long interactions
+  - Architect and deploy AI services across AWS (Bedrock/SageMaker) and Azure (OpenAI/Foundry)
+    with high availability and cost optimization
   - Implement evaluation frameworks (Ragas, TruLens) and safety guardrails to prevent
     hallucinations and ensure responsible agent behavior
   - Optimize LLM latency and throughput using prompt caching, quantization, and specialized
     model routing
-  - Perform prompt engineering and context engineering for AI agent systems
+  - Perform prompt engineering and context engineering across agentic workflows
   use_cases:
-  - Autonomous multi-agent systems for complex business problem solving
-  - Enterprise AI workflow deployment across multi-cloud environments
-  - Knowledge-graph-enhanced RAG for long-context business interactions
-  - Agentic AI solutions for industries including financial services, telecom, life
-    sciences, and more
+  - Autonomous multi-agent systems that collaborate to solve complex, long-horizon
+    business problems
+  - Knowledge retrieval and long-context reasoning via RAG pipelines with episodic
+    and semantic memory
+  - Reasoning-heavy AI workflows deployed multi-cloud with high availability and cost
+    optimization
+  - Hallucination prevention and responsible agent behavior through evals and safety
+    guardrails
   skills:
-    domains: []
-    languages: [Python, TypeScript, asyncio, Pydantic]
-    ml: [Quantization]
     cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS Step Functions, AWS S3, Azure
-        OpenAI, Azure AI Search]
-    genai: [LangGraph, RAG, Prompt Engineering, Function Calling, MCP, LoRA, Ragas,
-      TruLens]
-    data: []
-    other: []
+        OpenAI, Azure AI Foundry, Azure AI Search]
+    languages: [Python, asyncio, TypeScript, Node.js]
+    ml: [Machine Learning, Quantization]
+    other: [Pydantic]
     ops: [Docker, Kubernetes, CI/CD, LLMOps]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, pgvector, Neo4j, Knowledge
+        Graphs, CosmosDB, PostgreSQL]
+    domains: []
     web: [FastAPI]
-    databases: [Pinecone, Weaviate, Milvus, pgvector, Neo4j, CosmosDB, PostgreSQL]
+    data: []
+    genai: [AI Agents, Agentic Workflows, Multi-Agent Systems, LangGraph, RAG, Function
+        Calling, Prompt Engineering, Context Engineering, Prompt Caching, Guardrails,
+      Ragas, TruLens, MCP, A2A, LoRA, Fine-Tuning, Generative AI, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8974874'
   location: IND
   remote: true
-  extracted_at: '2026-04-22T13:23:06.854848'
+  extracted_at: '2026-08-16T06:41:49.370079'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

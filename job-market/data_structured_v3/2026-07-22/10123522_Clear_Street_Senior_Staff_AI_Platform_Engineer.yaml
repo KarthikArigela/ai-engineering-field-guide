@@ -1,0 +1,57 @@
+company:
+  name: Clear Street
+  stage: null
+  focus: |-
+    Cloud-native brokerage and clearing infrastructure for
+    capital markets
+position:
+  title: Senior / Staff AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs the core of an LLM copilot: reliable
+      orchestration of model + tools, low-latency tool execution,
+      and grounding/citation UX patterns, which is designing agent
+      flows and tool calling — direct model-behaviour shaping. An
+      LLM/copilot component is central to the product, so it is
+      ai-first rather than ml-first.
+  responsibilities:
+  - Build the core AI platform that powers a copilot inside a new AI-native trading
+    experience
+  - Develop a high-performance Rust backend supporting streaming responses, low-latency
+    tool execution, caching, and reliable orchestration of model + tools
+  - Design robust APIs and runtime components for AI capabilities including authentication/authorization,
+    rate limits, auditing, tracing, retries, and fallbacks
+  - Build safe action infrastructure for trading workflows with deterministic order
+    previews, confirmation flows, idempotent tool calls, and audit logs
+  - Partner with product and frontend teams to enable AI-native UX patterns such as
+    streaming, citations/grounding, explanations, and reversible actions
+  - Translate deep business domain knowledge into secure, resilient platform primitives
+    and deliver platform architecture end-to-end
+  use_cases:
+  - AI copilot powering a new AI-native trading experience
+  - Safe, auditable order execution and trading workflows with previews, confirmations,
+    and reversible actions
+  - Streaming conversational AI with grounded citations and explanations for traders
+  - High-performance platform for liquidity venue access across multiple asset classes
+  - Cloud-native clearing and custody supporting billions in daily trading volume
+  skills:
+    genai: [LLMs, Function Calling]
+    ml: []
+    web: [React, React Native, APIs]
+    databases: [PostgreSQL]
+    data: [Data Modeling]
+    cloud: []
+    ops: [Model Serving, Distributed Systems, Observability]
+    languages: [Rust, TypeScript, Tokio]
+    domains: []
+    other: [Trading Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10123522'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T17:08:57.049429'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

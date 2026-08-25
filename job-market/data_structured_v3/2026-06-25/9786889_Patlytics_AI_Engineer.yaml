@@ -1,0 +1,64 @@
+company:
+  name: Patlytics
+  stage: Series B
+  focus: AI-native patent intelligence platform for IP workflows
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing multi-step
+      LLM pipelines with model selection, prompt architecture, and
+      structured output contracts; building evals frameworks and
+      golden datasets; designing retrieval (vector search, BM25,
+      reranking); architecting agentic workflows; and doing post-
+      training/fine-tuning on LLMs. Since LLMs and agents are the
+      core artifact being shaped, this is ai-first.
+  responsibilities:
+  - Design and iterate on multi-step LLM pipelines for patent claim analysis, infringement
+    detection, and prior art search, owning model selection, prompt architecture,
+    and structured output contracts
+  - Build and maintain an evals framework with per-stage success metrics, golden datasets
+    curated from real IP cases, and continuous regression testing
+  - Develop retrieval systems (vector search, BM25 hybrids, re-ranking) optimized
+    for patent corpora, long documents, and technical claim language
+  - Architect and ship agentic workflows coordinating tool use, memory, and multi-turn
+    reasoning over complex IP research tasks
+  - Apply data classification techniques and post-training on the latest LLMs
+  - Collaborate with patent attorneys and domain experts to encode expert judgment
+    into prompts, rubrics, and fine-tuning datasets
+  - Own cost, latency, and quality tradeoffs for production inference including prompt
+    caching, context window management, and model migration across AWS, GCP, and LLM
+    providers
+  - Build tooling to monitor data pipeline performance, data quality, and models in
+    production
+  use_cases:
+  - Patent claim analysis
+  - Infringement detection
+  - Prior art search
+  - Agentic IP research automation
+  - Retrieval over large patent corpora with technical and biological claim language
+  - Citation-backed patent intelligence for IP protection and litigation
+  skills:
+    genai: [LLMs, Prompt Engineering, Structured Outputs, LLM Evaluation, Agentic
+        Workflows, Function Calling, Fine-Tuning, Prompt Caching, Claude, GPT, Gemini]
+    ml: [Machine Learning, scikit-learn, Statistics]
+    web: [APIs]
+    databases: [SQL, Vector Search, Data Warehousing, Database Modeling]
+    data: [Pandas, Spark, Data Pipelines]
+    cloud: [AWS, GCP]
+    ops: [Observability, Monitoring, Model Deployment]
+    languages: [Python]
+    domains: []
+    other: [BM25, Reranking]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9786889'
+  location: Toronto, CAN
+  locations:
+  - Toronto, CAN
+  - New York, USA
+  extracted_at: '2026-08-16T15:04:40.671842'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

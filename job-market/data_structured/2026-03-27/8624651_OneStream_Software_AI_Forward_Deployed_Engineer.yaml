@@ -1,52 +1,62 @@
 company:
   name: OneStream Software
-  stage: Public
-  focus: Enterprise finance platform with embedded AI for CFOs
+  stage: null
+  focus: |-
+    Enterprise finance platform unifying financial and
+    operational data with embedded AI
 position:
   title: AI Forward Deployed Engineer
   ai_type:
     type: ai-first
     reasoning: |-
       This is a Forward Deployed Engineer role that designs,
-      implements, and deploys AI solutions (SensibleAI Forecast,
-      Studio, Agents) directly to customers. FDEs working hands-on
-      with AI systems to implement and harden AI solutions for
-      production deployment are classified as ai-first, not ai-
-      support.
+      implements, and hardens cross-product AI solutions
+      (SensibleAI Forecast, Studio, Agents, LLM apps) adapted to
+      customer environments, which the rules classify as ai-first.
+      The role shapes AI solution behaviour at customer sites
+      rather than merely consuming an API another team built, and
+      explicitly names depth in LLM apps.
   responsibilities:
   - Design, implement, and harden cross-product AI solutions spanning SensibleAI Forecast,
-    Studio, and Agents
-  - Deliver hands-on AI-focused implementations and expansion projects for enterprise
-    customers
-  - Orchestrate the SensibleAI Portfolio with OneStream core to deliver modular solutions
-    for financial and analytics requirements
-  - Produce reusable demos, implementations, workflows, best practices, and instructional
-    videos
-  - Diagnose and resolve AI solution field issues and document decisions and trade-offs
-  - Collaborate with AI Delivery to harden solutions for production and with AI Engineering
-    to channel learnings into roadmaps
-  - Engage with finance and data teams and facilitate workshops and office hours
+    Studio, Agents, Genesis Blocks, and the OneStream core platform
+  - Deliver hands-on AI-focused implementations, expansion projects, and established
+    deployments at customer sites
+  - Orchestrate the SensibleAI portfolio with the OneStream core platform to deliver
+    modular solutions for complex financial and analytics requirements
+  - Interact, collaborate, and present to diverse stakeholders including developers,
+    sponsors, and executives
+  - Produce reusable demos, implementations, checklists, workflows, best practices,
+    and instructional videos for Presales, Delivery, Partners, and customers
+  - Diagnose and resolve AI solution field issues and support Delivery and Partner
+    teams with structured guidance
+  - Collaborate with AI Delivery and AI Engineering to harden solutions for production
+    and channel learnings and product gaps into roadmaps
+  - Engage with finance and data teams, facilitate workshops and office hours, and
+    work with partner FDEs
   use_cases:
-  - Financial forecasting and planning automation
-  - Enterprise financial planning and analysis (FP&A)
-  - AI-powered financial decision support
-  - Corporate performance management (CPM/EPM)
-  - Data-driven analytics for finance teams
+  - AI-powered financial forecasting within the OneStream ecosystem
+  - AI agents and generative AI solutions for enterprise finance workflows
+  - AI-driven financial planning and analytics (FP&A/CPM/EPM) implementations
+  - Modular cross-product AI solutions tailored to complex financial and analytics
+    requirements
+  - Production-hardened AI deployments for customer transformations in finance
   skills:
-    domains: []
-    languages: [SQL, Python, C#]
-    ml: [Machine Learning]
     cloud: []
-    genai: [LLM applications]
-    data: [Data Pipelines, Data Modeling, data visualization]
-    other: []
-    ops: [containerization]
-    web: [REST APIs]
+    languages: [Python, C#, SQL]
+    ml: [Machine Learning, Forecasting]
+    other: [Data Visualization, OneStream]
+    ops: [Containerization]
     databases: []
+    domains: []
+    web: [REST APIs]
+    data: [Data Modeling, Data Pipelines, Data Governance]
+    genai: [LLMs]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8624651'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T13:32:59.008565'
+  extracted_at: '2026-08-16T03:20:36.314645'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

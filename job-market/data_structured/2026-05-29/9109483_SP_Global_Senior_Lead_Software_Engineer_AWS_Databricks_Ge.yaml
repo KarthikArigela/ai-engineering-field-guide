@@ -1,57 +1,59 @@
 company:
   name: S&P Global
-  stage: Public
-  focus: Financial data, analytics, and market intelligence
+  stage: null
+  focus: Financial market intelligence and data analytics solutions
 position:
   title: Senior Lead Software Engineer (AWS, Databricks, Gen AI, LLM)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves leading development of Generative AI and
-      agentic systems, including multi-agent orchestration and
-      tool integration, as well as building AI-driven data
-      delivery experiences and conversational interfaces for
-      interacting with proprietary datasets using natural
-      language. The position requires hands-on work with LLM-based
-      systems, prompt design, and agent orchestration, making it
-      clearly ai-first.
+      The role explicitly leads development of Generative AI and
+      agentic systems including multi-agent orchestration and tool
+      integration, requires prompt design and agent orchestration
+      expertise, and engineers YAML/context bundles for natural-
+      language interaction with proprietary datasets. This is
+      direct shaping of LLM behavior (prompts, context assembly,
+      agent flows), making it ai-first despite the heavy platform
+      engineering component.
   responsibilities:
   - Architect and scale a cloud-native analytics platform supporting high concurrency
     and real-time data workflows
   - Lead development of Generative AI and agentic systems, including multi-agent orchestration
     and tool integration
+  - Engineer YAML and context bundles enabling natural-language interrogation of proprietary
+    Xpressfeed datasets in CIQ Workbench
   - Build and enhance data pipelines and analytics capabilities using Databricks/Spark
     to drive product insights
-  - Translate business requirements into scalable, revenue-driving product features
-    through collaboration with product managers and stakeholders
   - Establish performance, observability, and reliability frameworks for both platform
     and AI systems
+  - Translate business requirements into scalable, revenue-driving product features
+    through collaboration with product managers and stakeholders
   - Provide technical leadership and mentorship to a global engineering team, driving
     best practices and cross-team collaboration
-  - Pioneer AI-driven data delivery and modernize trial and data delivery experiences
-    within CIQ Workbench
   use_cases:
-  - AI-driven exploratory data analysis for financial markets professionals
-  - Conversational natural language interfaces for querying proprietary Xpressfeed
-    datasets
-  - Automated data delivery and trial experience modernization
-  - Multi-agent orchestration for enterprise analytics workflows
-  - Real-time data pipeline analytics for product insights and user engagement
+  - AI-driven modernization of trial and data delivery experience in CIQ Workbench
+  - Conversational natural-language interfaces for querying proprietary Xpressfeed
+    market data
+  - Cloud-native analytics platform for high-concurrency, real-time data workflows
+  - Data pipelines and analytics for market intelligence product insights
+  - Generative AI and agentic systems with multi-agent orchestration for enterprise
+    workflows
   skills:
-    domains: []
+    cloud: [AWS]
     languages: []
     ml: []
-    cloud: [AWS]
-    genai: [Generative AI, LLM-based systems, Prompt Engineering, Agentic Workflows,
-      Multi-Agent Systems]
-    data: [Databricks, Spark, Delta Lake]
-    other: [Distributed Systems, Cloud-native architecture, YAML]
-    ops: [GitHub Actions, Terraform, CI/CD]
-    web: []
+    other: [YAML]
+    ops: [CI/CD, GitHub Actions, Terraform, DevOps, Distributed Systems, Observability]
     databases: []
+    domains: []
+    web: []
+    data: [Databricks, Spark, Delta Lake]
+    genai: [Generative AI, LLMs, Agentic Workflows, Prompt Engineering]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9109483'
   location: Hyderabad, IND
-  extracted_at: '2026-05-29T08:49:38.002762'
+  extracted_at: '2026-08-16T08:53:41.488832'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

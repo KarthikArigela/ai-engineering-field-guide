@@ -1,50 +1,57 @@
 company:
   name: Clear Street
-  stage: Late-stage (founded 2018, well-funded)
-  focus: Cloud-native clearing, custody, and trading infrastructure
+  stage: null
+  focus: |-
+    Cloud-native brokerage and clearing infrastructure for
+    capital markets
 position:
   title: Senior / Staff AI Platform Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building the core AI platform that powers
-      a copilot inside an AI-native trading experience, including
-      orchestrating LLM models with tools, streaming responses,
-      and implementing retrieval/grounding systems. The engineer
-      directly builds and deploys AI capabilities (model
-      orchestration, tool execution, inference infrastructure),
-      making this an ai-first role despite being platform-focused.
+      The role designs the core of an LLM copilot: reliable
+      orchestration of model + tools, low-latency tool execution,
+      and grounding/citation UX patterns, which is designing agent
+      flows and tool calling — direct model-behaviour shaping. An
+      LLM/copilot component is central to the product, so it is
+      ai-first rather than ml-first.
   responsibilities:
-  - Build the core AI platform powering a copilot inside an AI-native trading experience
+  - Build the core AI platform that powers a copilot inside a new AI-native trading
+    experience
   - Develop a high-performance Rust backend supporting streaming responses, low-latency
-    tool execution, caching, and model+tool orchestration
-  - Design robust APIs and runtime components for AI capabilities including authentication,
+    tool execution, caching, and reliable orchestration of model + tools
+  - Design robust APIs and runtime components for AI capabilities including authentication/authorization,
     rate limits, auditing, tracing, retries, and fallbacks
   - Build safe action infrastructure for trading workflows with deterministic order
     previews, confirmation flows, idempotent tool calls, and audit logs
   - Partner with product and frontend teams to enable AI-native UX patterns such as
-    streaming, citations, grounding, and reversible actions
-  - Translate business domain knowledge into secure, resilient platform primitives
+    streaming, citations/grounding, explanations, and reversible actions
+  - Translate deep business domain knowledge into secure, resilient platform primitives
+    and deliver platform architecture end-to-end
   use_cases:
-  - AI copilot for an AI-native trading platform
-  - Safe action infrastructure for trading workflows with order previews and confirmations
-  - Low-latency LLM tool execution for mission-critical financial operations
-  - Streaming AI responses with grounding and citations for trader-facing UX
+  - AI copilot powering a new AI-native trading experience
+  - Safe, auditable order execution and trading workflows with previews, confirmations,
+    and reversible actions
+  - Streaming conversational AI with grounded citations and explanations for traders
+  - High-performance platform for liquidity venue access across multiple asset classes
+  - Cloud-native clearing and custody supporting billions in daily trading volume
   skills:
-    genai: [LLMs, AI Agents, Function Calling, Agentic Workflows, RAG, Embeddings]
-    ml: []
-    web: [React, React Native, APIs, Microservices]
-    databases: [PostgreSQL]
-    data: []
     cloud: []
-    ops: [Model Deployment, Monitoring, Observability, Distributed Systems]
-    languages: [Rust, TypeScript, Python]
+    languages: [Rust, TypeScript, Tokio]
+    ml: []
+    other: [Trading Systems]
+    ops: [Model Deployment, Distributed Systems, Observability]
+    databases: [PostgreSQL]
     domains: []
-    other: [Concurrency, Networking, Performance Profiling]
+    web: [React, React Native, APIs]
+    data: [Data Modeling]
+    genai: [LLMs, Function Calling]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10123522'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:29:20.470733'
+  extracted_at: '2026-08-16T17:08:57.049429'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

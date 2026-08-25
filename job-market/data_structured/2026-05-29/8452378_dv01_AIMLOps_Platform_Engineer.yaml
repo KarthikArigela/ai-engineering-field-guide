@@ -1,64 +1,72 @@
 company:
   name: dv01
-  stage: Series B+
+  stage: null
   focus: |-
-    Data analytics platform for structured finance and loan
-    market transparency
+    Structured finance data analytics and loan-level
+    transparency platform
 position:
   title: AI/MLOps Platform Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is focused on building and operating the
-      infrastructure platform that supports AI/ML workloads —
-      CI/CD for AI, scalable inference infrastructure,
-      observability, cost management, and reliability. While the
-      engineer works with AI systems like LLM runtimes and agentic
-      platforms, their primary responsibility is the operational
-      and infrastructure layer (DevOps, platform engineering,
-      governance), not directly building, training, or fine-tuning
-      models themselves. They enable other teams to develop and
-      deploy AI-powered services.
+      Most of the role is platform/infrastructure work (inference
+      hosting with vLLM/llama.cpp, CI/CD, observability,
+      governance), which alone would be ai-support. However, the
+      description explicitly requires designing and operating
+      benchmarking and evaluation frameworks for agentic AI
+      systems, including LLM-as-a-judge, to measure the impact of
+      model, prompt, and architecture changes - building evals is
+      shaping model output quality on LLM/agent targets. Per the
+      edge-case rules, that makes this role ai-first.
   responsibilities:
   - Design, build, and operate cloud-native infrastructure and platform tooling that
-    accelerates AI development across the company
-  - Own DevOps and infrastructure for AI Ops and Agentic Systems including CI/CD,
-    scalable inference, observability, cost management, and reliability
+    accelerates AI development and enables teams to deploy AI-powered services safely
+    in production
+  - Own the DevOps and infrastructure side of AI Ops and agentic systems, including
+    CI/CD for AI workloads, scalable inference infrastructure, observability, cost
+    management, and reliability
   - Build and maintain infrastructure supporting AI services such as LLM-backed APIs,
-    MCP servers, and agentic systems for production applications
-  - Apply MLOps concepts to improve platform operations including AI-driven monitoring,
-    alerting, anomaly detection, and incident response
-  - Define and implement infrastructure-level governance for AI systems including
-    access controls, deployment policies, and secure-by-default patterns
-  - Act as a technical leader influencing platform architecture, mentoring engineers,
-    and aligning AI platform capabilities with business goals
+    MCP servers, and agentic systems, enabling secure tool access, runtime orchestration,
+    and isolation boundaries
+  - Apply MLOps and AI-driven approaches to monitoring, alerting, anomaly detection,
+    and incident response across AI and non-AI systems
+  - Define and implement infrastructure-level governance for AI systems, including
+    access controls, deployment policies, and auditability, in partnership with security
+    and compliance teams
   - Design and operate scalable benchmarking and evaluation frameworks for agentic
-    AI systems
-  - Contribute to dv01's AI and data roadmap and establish technical direction and
-    strategy
+    AI systems, including LLM-as-a-judge techniques for accuracy, reliability, cost-performance,
+    and regression detection
+  - Provide technical leadership, influence platform architecture and best practices,
+    mentor engineers, and help set AI and data roadmap direction
   use_cases:
-  - Structured finance data analytics and risk assessment
-  - Loan performance monitoring across mortgages, personal loans, auto, BNPL, small
-    business, and student loans
-  - AI-driven anomaly detection and monitoring for platform operations
-  - LLM-backed API services and agentic systems for production applications
-  - Automated incident response and predictive alerting for infrastructure
+  - AI-powered services and agentic systems running in production at a structured
+    finance analytics company
+  - LLM-backed APIs and MCP servers used by production applications
+  - AI-driven monitoring, anomaly detection, and incident response across platform
+    operations
+  - Benchmarking and evaluation of agentic AI systems for accuracy, reliability, and
+    cost-performance tradeoffs
+  - Loan-level data transparency and risk analytics for lenders and investors in structured
+    products
   skills:
-    domains: []
-    languages: [Go, Python]
-    ml: [PyTorch, LLVM/MLIR]
-    cloud: [IAM, GCP, Cloudflare]
-    genai: [MCP, Agentic AI systems, LLM-as-a-judge]
-    data: [Data Pipelines]
+    cloud: [GCP, Cloudflare, IAM]
+    languages: [Go]
+    ml: [PyTorch, Neural Networks, Anomaly Detection, LLVM, MLIR]
     other: []
-    ops: [Kubernetes, Docker, Terraform, CI/CD, vLLM, llama.cpp, MLOps, LLM runtimes,
-      Pulumi, GitHub Actions, Harness, Observability, Infrastructure-as-Code]
+    ops: [Kubernetes, Docker, Terraform, Infrastructure as Code, CI/CD, DevOps, MLOps,
+      Observability, Monitoring, Distributed Systems, Secrets Management, vLLM, llama.cpp,
+      Pulumi, GitHub Actions, Harness]
+    databases: []
+    domains: []
     web: []
-    databases: [Data Warehousing]
+    data: [Data Engineering, Data Warehousing, Data Pipelines]
+    genai: [LLMs, MCP, AI Agents, LLM Evaluation, LLM-as-a-Judge]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8452378'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:48:20.571740'
+  extracted_at: '2026-08-16T08:37:38.832443'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

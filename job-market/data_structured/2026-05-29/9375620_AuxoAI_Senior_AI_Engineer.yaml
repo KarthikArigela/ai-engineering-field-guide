@@ -1,54 +1,59 @@
 company:
   name: AuxoAI
   stage: null
-  focus: AI-driven automation and data-powered operations
+  focus: |-
+    AI solutions, intelligent automation, and data-powered
+    operations
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on development of Generative AI
-      workflows, fine-tuning LLMs, implementing RAG systems, and
-      building agentic AI applications using frameworks like
-      LangGraph, Autogen, and CrewAI. The engineer is directly
-      building, deploying, and optimizing AI/ML technology stacks
-      from concept to production, not just supporting AI work.
+      The role directly shapes LLM behaviour: developing prompt
+      engineering, fine-tuning, RAG pipelines, and LLM-based
+      applications, plus designing agentic AI systems with
+      orchestration frameworks (AutoGen, LangGraph, CrewAI). Since
+      LLM and agent components are central, this is ai-first.
   responsibilities:
-  - Design, develop, and deploy AI/ML technology stacks from concept to production
-  - Provide technical leadership and mentorship to junior engineers in best practices
-    and advanced techniques
+  - Design, develop, and deploy AI/ML technology stacks from concept through production
+    and deployment
   - Develop and optimize Generative AI workflows including prompt engineering, fine-tuning,
-    RAG and LLM-based applications
-  - Work with Large Language Models such as Claude, Llama, Mistral, and GPT, ensuring
-    efficient adaptation for various use cases
+    RAG, and LLM-based applications
+  - Work with LLMs such as Claude, Llama, Mistral, and GPT, adapting them efficiently
+    for various use cases
   - Design and implement AI-driven automation using agentic AI systems and orchestration
-    frameworks like Autogen, LangGraph, and CrewAI
-  - Leverage cloud AI infrastructure (AWS, Azure, GCP) for scalable deployment and
-    performance tuning
-  - Collaborate with cross-functional teams to deliver AI-driven solutions and gather
-    requirements
-  - Lead customer discussions, engagement, and success stories
+    frameworks like AutoGen, LangGraph, and CrewAI
+  - Leverage cloud AI infrastructure on AWS, Azure, and GCP for scalable deployment
+    and performance tuning
+  - Provide technical leadership and mentorship to junior engineers on best practices
+    and advanced techniques
+  - Front-end customer discussions, customer engagement, and success stories
+  - Collaborate with cross-functional teams and stakeholders to gather requirements
+    and translate them into technical specifications
   use_cases:
-  - AI-driven automation and intelligent automation
-  - RAG-based knowledge retrieval and question answering
-  - LLM-powered applications for various enterprise use cases
-  - Agentic AI systems for autonomous task execution
-  - Data-powered operations and analytics
+  - AI-driven product development
+  - Intelligent automation of business processes
+  - Data-powered operations
+  - LLM-based applications adapted to varied enterprise use cases
+  - Agentic AI workflow automation across projects
+  - Scalable enterprise AI deployment on cloud infrastructure with AI governance
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Bedrock, Azure OpenAI]
     languages: [Python]
     ml: [PyTorch, TensorFlow]
-    cloud: [AWS Bedrock, Azure OpenAI Studio, AWS, Azure, GCP]
-    genai: [LangGraph, AutoGen, CrewAI, Prompt Engineering, Fine-Tuning, RAG, LLM-based
-        applications, Anthropic API, Llama, Mistral, GPT, AI Agents, AI Workflow Automation]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, Git, Model Orchestration]
-    web: [Flask, Django, APIs]
+    other: [Agile]
+    ops: [Docker, Kubernetes, Git]
     databases: []
+    domains: []
+    web: [Flask, Django, APIs]
+    data: []
+    genai: [Generative AI, Prompt Engineering, Fine-Tuning, RAG, LLMs, Anthropic API,
+      Llama, Mistral, GPT, AI Agents, AutoGen, LangGraph, CrewAI]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9375620'
   location: Bengaluru South, IND
-  extracted_at: '2026-05-29T09:02:45.543770'
+  extracted_at: '2026-08-16T10:38:57.212280'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

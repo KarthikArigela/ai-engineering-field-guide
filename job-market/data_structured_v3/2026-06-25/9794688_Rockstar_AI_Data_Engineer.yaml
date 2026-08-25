@@ -1,0 +1,70 @@
+company:
+  name: Rockstar
+  stage: null
+  focus: |-
+    eCommerce and Amazon marketplace services and technology for
+    global brands
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The person directly shapes LLM behavior: drafting structured
+      prompts, Claude Skills, and Gemini Gems, building AI agents
+      with Claude Code and Claude Co-work, and validating AI-
+      generated outputs against manual analysis. The models being
+      shaped are LLMs (Claude, Gemini), so the role is ai-first
+      despite the heavy data engineering component.
+  responsibilities:
+  - Query, extract, and transform data from the BigQuery data warehouse to answer
+    multi-dimensional business questions spanning inventory, organic sales, traffic,
+    sponsored ads, and DSP
+  - Understand the full warehouse schema and design the joins required for accurate
+    cross-domain analysis
+  - Design and build automated data pipelines and queries that feed AI tools with
+    clean, structured, contextually appropriate data
+  - Develop and refine Claude Skills, Gemini Gems, and structured prompts that enable
+    conversational AI to conduct reliable eCommerce data analysis
+  - Collaborate with prompt engineers to document analytical best practices so AI
+    tools can replicate expert-level thinking
+  - Continuously improve and validate AI-generated outputs against manual analysis
+    to ensure accuracy and trustworthiness
+  - Identify operational bottlenecks and repetitive tasks across the business and
+    design AI agents to automate them
+  - Build, test, and maintain AI agents using Claude (Claude Code, Claude Co-work)
+    and Gemini, ensuring reliable performance and team adoption
+  use_cases:
+  - Conversational AI analysis of eCommerce data (inventory, organic sales, traffic,
+    sponsored ads, DSP)
+  - Self-service chatbot-style analytics for non-SQL users
+  - AI agents automating repetitive operational workflows
+  - Automated data reporting and client deliverable generation
+  - Amazon marketplace analytics for global brands
+  skills:
+    genai: [LLMs, Claude, Claude Code, Claude Co-work, Claude Skills, Gemini, AI Agents,
+      Prompt Engineering, Structured Outputs, Function Calling, MCP]
+    ml: []
+    web: [JSON]
+    databases: [BigQuery]
+    data: [Pandas, NumPy, Data Pipelines, Data Modeling, Data Warehousing]
+    cloud: []
+    ops: []
+    languages: [SQL, Python, JavaScript]
+    domains: []
+    other: [Amazon Ads API, DSP Reporting, Statistical Analysis]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9794688'
+  location: PER
+  locations:
+  - PER
+  - CAN
+  - IND
+  - BRA
+  - MEX
+  - ARG
+  remote: true
+  extracted_at: '2026-08-16T15:06:58.047856'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

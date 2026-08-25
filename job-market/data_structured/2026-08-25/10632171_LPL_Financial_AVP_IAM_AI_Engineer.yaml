@@ -1,0 +1,65 @@
+company:
+  name: LPL Financial
+  stage: null
+  focus: Wealth management and financial advisory services
+position:
+  title: AVP, IAM AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an IAM/security engineering role governing
+      identities for AI agents, not shaping model behavior. The
+      person builds identity runtime controls, secrets workflows,
+      and authorization policies around agentic systems; they
+      never design prompts, retrieval, or agent logic themselves.
+      AI knowledge (LLMs, MCP) appears only as a preference for
+      context, so the role is ai-support.
+  responsibilities:
+  - Operationalize and automate identity runtime controls (authentication, authorization,
+    policy enforcement) for human and non-human identities
+  - Design governance controls for AI agents and NHIs across provisioning, entitlement,
+    rotation, certification, and deprovisioning
+  - Develop secrets-manager workflows for AI systems including rotation, just-in-time
+    and ephemeral credentials
+  - Define and enforce least-privilege policy-as-code authorization models for agents
+    and workloads
+  - Establish reference architecture for identity flows in agentic systems (user-to-agent,
+    agent-to-agent, workload-to-service)
+  - Integrate identity telemetry with SIEM/SOC tooling and build monitoring and anomaly
+    detection for agent behavior
+  - Partner with GRC, risk, and audit stakeholders on compliance and audit evidence
+  - Recruit, build, mentor, and lead a team supporting NHI and agentic IAM workstreams
+  use_cases:
+  - Identity and access governance for AI agents and non-human identities
+  - Secrets management and credential rotation for AI workloads
+  - Least-privilege authorization for agentic systems
+  - Identity telemetry and anomaly detection for agent behavior
+  - Regulatory compliance and audit evidence for IAM controls
+  skills:
+    genai: [MCP, LLMs]
+    ml: []
+    web: [REST APIs]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Terraform, CI/CD, Kubernetes]
+    languages: [Python]
+    domains: []
+    other: [Ping Identity, SailPoint, CyberArk, HashiCorp Vault, OIDC, OAuth 2.0,
+      Identity & Access Management, SPIFFE/SPIRE, mTLS, SIEM, CISSP, Financial Services
+        Compliance]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10632171'
+  location: Tempe, USA
+  locations:
+  - Tempe, USA
+  - Austin, USA
+  - New York, USA
+  - San Diego, USA
+  - Fort Mill, USA
+  - Charlotte, USA
+  extracted_at: '2026-08-25T11:00:11.396700'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,62 @@
 company:
   name: Husqvarna Group
-  stage: Public
-  focus: Outdoor power equipment and gardening tools manufacturer
+  stage: null
+  focus: null
 position:
   title: Senior Full Stack Engineer – Cloud & AI Applications
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general Full Stack Engineer role that includes AI
-      integration as one component among many (frontend, backend,
-      cloud). The role focuses on INTEGRATING AI/ML services (not
-      building/training models) and building data pipelines FOR AI
-      teams. While it mentions LLM applications and RAG in
-      preferred skills, the core work is full-stack development
-      with AI as a supporting capability.
+      This is primarily a full-stack/cloud engineering role where
+      AI work means integrating LLM-based services, embeddings,
+      and inference APIs built by others, plus data pipelines that
+      feed AI workflows and collaborating on
+      observability/evaluation. The activities that would
+      constitute shaping (RAG design, LangChain/LangGraph, agentic
+      workflows) appear only in the "Good to Have" section, so per
+      the integration edge case this is ai-support.
   responsibilities:
-  - Design and build scalable web applications using React with strong HTML/CSS fundamentals
-  - Develop and maintain robust backend services using Node.js (TypeScript) or Python
-  - Design and operate scalable data pipelines using Databricks or Python-based ETL
-    frameworks
-  - Design, deploy, and operate applications on AWS or Azure including Docker and
-    Kubernetes
-  - Integrate AI/ML services into applications including LLM-based services, embeddings,
+  - Design and build scalable full-stack web applications with React frontends and
+    Node.js (TypeScript) or Python backend services
+  - Design, deploy, and operate cloud-native applications on AWS or Azure using Docker,
+    Kubernetes, IAM, Infrastructure as Code, and CI/CD pipelines with multi-environment
+    promotion
+  - Integrate AI/ML services into applications, including LLM-based services, embeddings,
     and inference APIs
-  - Build and manage RESTful APIs with OAuth2/JWT authentication and authorization
-  - Implement infrastructure as code and own CI/CD pipelines across dev/QA/prod environments
-  - Contribute to monitoring, alerting, incident response, and security-by-design
-    principles
+  - Design and operate scalable data pipelines using Databricks or Python-based ETL
+    frameworks, including PostgreSQL/SQL, NoSQL, and lakehouse architectures
+  - Build systems supporting near-real-time data ingestion for AI-enabled workflows
+  - Build secure, scalable RESTful APIs with OAuth2/JWT authentication, applying security-by-design
+    and least-privilege principles
+  - Build AI-driven UI components such as chat interfaces and dynamic workflows
+  - Collaborate on AI system observability, evaluation, and monitoring in production;
+    define engineering standards and mentor junior engineers at the lead level
   use_cases:
-  - Intelligent workflows and user experiences enabled by AI/ML capabilities
-  - Near-real-time data ingestion for AI-enabled workflows
-  - AI-driven UI components including chat interfaces and dynamic workflows
-  - Secure and scalable digital products for outdoor power equipment business
-  - Cloud-native applications with modern software architecture
+  - AI-enabled digital products with intelligent workflows and user experiences
+  - AI-driven UI components such as chat interfaces and dynamic workflows
+  - Near-real-time data ingestion pipelines feeding AI-enabled workflows
+  - LLM-based application integrations with embeddings and inference APIs
+  - Secure, scalable cloud-hosted web applications for enterprise digital products
   skills:
-    domains: [NLP]
-    languages: [Node.js, TypeScript, Python]
-    ml: []
-    cloud: [AWS, Azure]
-    genai: [LangChain, LangGraph, CrewAI, AutoGen, RAG, Embeddings, LLM-based services]
-    data: [Databricks, Data Pipelines]
+    cloud: [AWS, Azure, IAM]
+    languages: [TypeScript, JavaScript, Python]
+    ml: [Machine Learning]
     other: []
-    ops: [Docker, Kubernetes, Infrastructure as Code, Terraform, CI/CD, MLflow]
-    web: [React, HTML/CSS, REST APIs, OAuth, JWT]
+    ops: [Docker, Kubernetes, CI/CD, Infrastructure as Code, Terraform, Bicep, CloudFormation,
+      Git, MLOps, LLMOps, Observability, Monitoring, Distributed Systems, Secrets
+        Management]
     databases: [PostgreSQL, SQL, NoSQL, Vector Databases]
+    domains: [NLP]
+    web: [React, Node.js, REST APIs, OAuth, JWT, HTML, CSS, Micro-Frontends, Design
+        Systems]
+    data: [Data Pipelines, Databricks, Lakehouse]
+    genai: [LLMs, Embeddings, RAG, LangChain, LangGraph, CrewAI, AutoGen, Agentic
+        Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8714772'
   location: Navi Mumbai, IND
-  extracted_at: '2026-03-27T14:54:02.093679'
+  extracted_at: '2026-08-16T04:06:00.209561'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

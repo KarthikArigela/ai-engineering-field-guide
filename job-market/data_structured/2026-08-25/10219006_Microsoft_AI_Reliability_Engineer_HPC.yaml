@@ -1,0 +1,53 @@
+company:
+  name: Microsoft
+  stage: null
+  focus: Large-scale AI infrastructure and model training
+position:
+  title: AI Reliability Engineer (HPC)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role keeps HPC/GPU infrastructure reliable and efficient
+      — hosting and scaling models others shape. Responsibilities
+      (uptime, observability, automation, incident management)
+      deliver capacity, not model behaviour, so per the edge case
+      rules it is ai-support.
+  responsibilities:
+  - Ensure uptime, resiliency, and fault tolerance of HPC clusters powering model
+    training and inference
+  - Design and maintain monitoring, alerting, and logging systems for GPU, cluster,
+    storage, and networking visibility
+  - Build automation for deployments, incident response, scaling, and failover in
+    CPU+GPU environments
+  - Lead on-call rotations, troubleshoot production issues, and conduct blameless
+    postmortems
+  - Ensure data privacy, compliance, and secure operations across training and serving
+    environments
+  - Partner with ML engineers and platform teams to improve developer experience and
+    research-to-production workflows
+  use_cases:
+  - Reliable HPC infrastructure for large-scale AI model training
+  - Infrastructure for AI inference and serving
+  - Observability and incident response for GPU clusters
+  - Automation of deployment, scaling, and failover for ML workloads
+  skills:
+    genai: [Generative AI]
+    ml: [Machine Learning, Model Training]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure, AWS, GCP]
+    ops: [Kubernetes, Docker, CI/CD, Terraform, Grafana, Datadog, OpenTelemetry, Distributed
+        Systems, Monitoring, Observability, Site Reliability Engineering, Model Deployment]
+    languages: [Python, Go, Bash]
+    domains: []
+    other: [High-Performance Computing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10219006'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:33:13.895412'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

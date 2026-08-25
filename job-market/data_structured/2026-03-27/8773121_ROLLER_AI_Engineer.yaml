@@ -1,52 +1,56 @@
 company:
   name: ROLLER
-  stage: Growth (300+ employees, global presence)
-  focus: |-
-    SaaS platform for leisure and attractions industry -
-    ticketing, POS, memberships
+  stage: null
+  focus: SaaS platform for the leisure and attractions industry
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is building and deploying GenAI platforms, RAG
-      systems, and AI pipelines directly. The engineer will work
-      hands-on with LLMs, vector databases, and agentic frameworks
-      (LangGraph, LangChain) to create production AI systems.
+      The role directly shapes LLM behaviour: it designs RAG
+      architectures, optimizes prompt engineering, implements LLM
+      evaluation frameworks, and builds guardrails and AI
+      governance controls. The models involved are LLMs and GenAI
+      agents (LangChain, LangGraph, vector databases), so per Step
+      2 this is ai-first.
   responsibilities:
-  - Develop Enterprise GenAI platform and services for various business verticals
+  - Develop enterprise GenAI platform and services for various business verticals
     using Python and LangChain
   - Design and implement RAG systems using vector databases and LLMs
   - Build scalable AI pipelines for ingestion, embedding, retrieval, and generation
     workflows
   - Integrate LLMs with enterprise data sources and APIs
-  - Implement LLM evaluation frameworks to measure model performance and response
-    quality
-  - Establish AI governance and guardrails practices including safety checks and monitoring
+  - Implement LLM evaluation frameworks to measure model performance, hallucination,
+    and response quality
+  - Establish AI governance and guardrails practices including safety checks, monitoring,
+    and responsible AI controls
   - Optimize prompt engineering strategies and model interactions for accuracy and
     performance
-  - Implement observability for AI systems and build AI usage dashboards
+  - Implement observability for AI systems with dashboards for prompt tracing, token
+    usage, latency, and evaluation metrics
   use_cases:
-  - Enterprise GenAI platform for multiple business verticals
-  - Intelligent automation systems for leisure and attractions industry
-  - AI-powered ticketing and point-of-sale operations
-  - Customer support and service automation
-  - Business operations automation and optimization
+  - GenAI platform services powering AI-enabled business verticals
+  - Intelligent automation of business workflows
+  - Enterprise knowledge retrieval and grounded generation via RAG
+  - Agentic AI workflows for business process automation
   skills:
-    domains: []
-    languages: [Python]
-    ml: [LLM Fine-tuning]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LangGraph, RAG, Prompt Engineering, LLM Evaluation, Voice AI]
-    data: []
-    other: [Responsible AI, n8n]
-    ops: []
-    web: []
+    languages: [Python]
+    ml: []
+    other: [n8n, Responsible AI]
+    ops: [Observability, Monitoring, Self-Hosted LLMs]
     databases: [Vector Databases, Pinecone, Weaviate, OpenSearch]
+    domains: []
+    web: []
+    data: []
+    genai: [LangChain, LangGraph, RAG, LLMs, Generative AI, AI Agents, Prompt Engineering,
+      LLM Evaluation, Guardrails, Embeddings, Fine-Tuning, Voice AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8773121'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T14:47:08.806169'
+  extracted_at: '2026-08-16T04:25:16.059435'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

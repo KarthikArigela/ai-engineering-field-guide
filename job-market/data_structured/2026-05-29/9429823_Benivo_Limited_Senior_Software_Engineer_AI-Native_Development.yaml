@@ -1,51 +1,54 @@
 company:
   name: Benivo Limited
-  stage: Series B
-  focus: SaaS platform for Global Mobility and relocation management
+  stage: ''
+  focus: Global Mobility SaaS platform
 position:
   title: Senior Software Engineer (AI-Native Development)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is explicitly stated as "not an AI/ML or research role"
-      but rather a software engineering position that uses AI
-      tools (Copilot, Claude, Codex) to accelerate development.
-      The engineer orchestrates AI agents for code generation,
-      testing, and documentation but does not build, train,
-      deploy, or fine-tune models themselves.
+      The description explicitly states this is not an AI/ML role:
+      it is a software engineering role that uses AI coding tools
+      (Codex, Claude, GitHub Copilot, Cursor) to accelerate the
+      engineer's own development work. Per the edge case, using or
+      rolling out AI coding assistants to ship software faster is
+      ai-support unless the agents or prompts themselves are the
+      product, and here the deliverable is Benivo's SaaS product.
   responsibilities:
   - Build new product capabilities from requirements through release
   - Work confidently inside a large, evolving codebase with technical debt and business-critical
     logic
-  - Set up and use multiple AI agents or agentic workflows to accelerate requirements
-    analysis, implementation, testing, refactoring, unit testing, and documentation
-  - Review and strengthen AI-generated output rather than relying on it blindly
+  - Set up and operate multiple AI agents and agentic workflows to accelerate requirements
+    analysis, implementation, testing, refactoring, and documentation
+  - Review, evaluate, debug, and refine AI-generated outputs through prompt iteration
+    and workflow design
   - Write maintainable, production-grade code and automated tests
   - Make sound technical decisions across architecture, performance, security, and
     maintainability
   - Help raise the bar for AI-native engineering practices across the organisation
   use_cases:
-  - Requirements analysis using AI agents
-  - Code generation and implementation assistance
-  - Automated testing and unit test generation
-  - Code refactoring and documentation automation
-  - Legacy code modernisation
-  - AI-assisted code review and quality evaluation
+  - AI-accelerated software development spanning requirements analysis, implementation,
+    and documentation
+  - AI-assisted code generation, refactoring, and unit testing
+  - AI-assisted code review with evaluation of correctness and security
+  - Engineering productivity acceleration for a Global Mobility SaaS product
   skills:
-    domains: []
-    languages: [C#, SQL]
-    ml: []
     cloud: []
-    genai: [Prompt Engineering, AI Agents, Agentic Workflows, GitHub Copilot, Anthropic
-        API, Codex, Cursor]
-    data: []
-    other: []
-    ops: [Automated Testing, CI/CD]
-    web: [.NET, React, REST APIs]
+    languages: [C#, .NET]
+    ml: []
+    other: [Automated Testing, System Design]
+    ops: [CI/CD]
     databases: [Databases]
+    domains: []
+    web: [React, APIs]
+    data: []
+    genai: [Codex, Anthropic API, GitHub Copilot, Cursor, AI Agents, Agentic Workflows,
+      Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9429823'
   location: London, GBR
-  extracted_at: '2026-05-29T09:06:04.285016'
+  extracted_at: '2026-08-16T11:18:57.855311'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

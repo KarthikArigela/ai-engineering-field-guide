@@ -1,61 +1,59 @@
 company:
   name: OneTrust
-  stage: Late-stage (Series C+)
-  focus: AI-ready data governance and compliance platform
+  stage: null
+  focus: Data privacy and responsible AI governance platform
 position:
   title: Senior Site Reliability Engineer (AI)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is primarily a Site Reliability Engineer role focused
-      on production service reliability, SLI/SLO management, and
-      incident response. While the job description includes AI-
-      related responsibilities (LLM-based tools for MTTR
-      reduction, AI-assisted incident response, anomaly
-      detection), the AI work is in service of operational
-      reliability rather than building core AI/ML products. The
-      role supports AI-enhanced operations but is fundamentally an
-      SRE position.
+      Beyond core SRE duties, the role explicitly requires
+      developing/integrating LLM-based tools with strong prompt
+      engineering and evaluation of LLM outputs, plus RAG/vector
+      database architectures for operational intelligence — direct
+      shaping of LLM behaviour, so it is ai-first rather than ai-
+      support. Secondary ML work (anomaly detection, capacity
+      prediction) does not change this since an LLM component is
+      involved.
   responsibilities:
-  - Own production services end-to-end including reliability, scalability, and operational
+  - Own production services end-to-end covering reliability, scalability, and operational
     excellence
-  - Participate in on-call rotation and lead incident response
+  - Participate in the on-call rotation and lead incident response
   - Define, implement, and maintain SLIs and SLOs aligned with customer experience
-    across critical services
-  - Manage and enforce error budgets to balance system reliability with product feature
-    velocity
+    and manage error budgets
   - Improve alert quality by reducing noise and focusing on actionable, high-signal
     alerts
-  - Embed with product teams to review architectures and catch reliability risks early
-  - Build operational automation scripts in Python, Bash, Java, or Ruby for incident
-    response
-  - Build and operate AI-assisted incident response systems including root cause analysis,
+  - Build and operate AI-assisted incident response systems for root cause analysis,
     log summarization, and anomaly triage
-  - Develop and integrate LLM-based tools to reduce MTTR and improve alert quality
+  - Develop or integrate LLM-based tools to reduce MTTR and improve alert quality
+  - Build automation scripts in Python, Bash, Java, or Ruby for operational automation
+    and incident response
+  - Embed with product teams to review architectures and catch reliability risks early
   use_cases:
-  - AI-assisted incident response for root cause analysis, log summarization, and
-    anomaly triage
-  - LLM-based operational tools to reduce mean time to resolution (MTTR) and improve
-    alert quality
+  - AI-assisted incident response including root cause analysis and log summarization
+  - Anomaly triage and alert quality improvement to reduce MTTR
   - Machine learning for anomaly detection, capacity prediction, and failure pattern
     analysis
-  - RAG-based operational intelligence using vector databases and embeddings
-  - Automated production service reliability monitoring and remediation
+  - Operational intelligence built on vector databases, embeddings, and RAG architectures
+  - High availability, observability, and reliability of a production application
+    platform
   skills:
+    cloud: [AWS, Azure, GCP, EKS, AKS, GKE]
+    languages: [Python, Bash, Java, Ruby]
+    ml: [Machine Learning, Anomaly Detection]
+    other: [SLIs/SLOs, Service Mesh, Gremlin, Chaos Monkey]
+    ops: [Kubernetes, Datadog, Prometheus, Grafana, Terraform, Helm, Jenkins, GitLab
+        CI, CI/CD, Infrastructure as Code, PagerDuty, Distributed Systems]
+    databases: [SQL, NoSQL, Vector Databases]
     domains: []
-    languages: [Python, Bash, Java, Ruby, SQL]
-    ml: [Anomaly Detection]
-    cloud: [Azure, AWS, GCP, EKS, AKS, GKE]
-    genai: [RAG, LLM-based tooling, Prompt Engineering]
+    web: [Spring Boot, Microservices]
     data: []
-    other: []
-    ops: [Datadog, Prometheus, Grafana, Kubernetes, Docker, Terraform, Helm, Jenkins,
-      GitLab CI, PagerDuty, Gremlin, Service meshes, JVM tuning, CI/CD, SLI/SLO management]
-    web: [Spring Boot]
-    databases: [Vector Databases, NoSQL]
+    genai: [Prompt Engineering, LLMs, LLM Evaluation, RAG, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9584882'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:44:18.317959'
+  extracted_at: '2026-08-16T13:03:33.983056'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

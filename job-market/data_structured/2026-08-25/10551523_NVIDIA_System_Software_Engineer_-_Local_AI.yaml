@@ -1,0 +1,55 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPU and AI computing hardware and software
+position:
+  title: System Software Engineer - Local AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role applies model optimization techniques
+      (quantization, pruning, sparsity, distillation) to model
+      internals and builds inference runtimes covering LLMs and
+      vision-language workloads, which is shaping model behavior.
+      Since LLM targets are involved, it is ai-first.
+  responsibilities:
+  - Build and optimize the local AI inference stack for RTX, RTX Pro and DGX GPUs
+    focusing on performance, stability, and scalability
+  - Architect and develop modern inference runtimes and execution stacks across LLMs,
+    vision-language, TTS, ASR, and diffusion workloads
+  - Perform end-to-end optimization of AI models, data pipelines, and inference runtimes
+    across current and next-generation GPU architectures
+  - Apply model optimization techniques such as quantization, pruning, sparsity, and
+    distillation for efficient local and edge deployment
+  - Perform system-level debugging, performance optimization, and performance-accuracy
+    trade-off analysis
+  - Develop infrastructure for performance and accuracy sweeps and drive fixes based
+    on results
+  - Establish engineering guidelines to accelerate bring-up and production readiness
+    of new models and inference backends
+  - Partner with software, research, architecture, and product teams to grow the AI
+    ecosystem on RTX and DGX PCs
+  use_cases:
+  - On-device local AI inference on RTX and DGX GPUs
+  - Low-latency LLM and vision-language model serving on local devices
+  - TTS, ASR, and diffusion model workloads on edge platforms
+  - Efficient deployment of large models on resource-constrained local and edge devices
+  skills:
+    genai: [Generative AI]
+    ml: [PyTorch, WinML, DXCGC, Machine Learning, Deep Learning, CUDA, Neural Networks]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, TensorRT, Llama.cpp, Quantization]
+    languages: [C++]
+    domains: []
+    other: [Vulkan, DirectX]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10551523'
+  location: Pune, IND
+  extracted_at: '2026-08-25T10:40:23.633653'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

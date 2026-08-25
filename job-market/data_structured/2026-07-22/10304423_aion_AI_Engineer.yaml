@@ -1,57 +1,61 @@
 company:
   name: aion
   stage: VC-backed startup
-  focus: Enterprise AI platform for building and deploying AI
+  focus: |-
+    Enterprise AI platform for building, fine-tuning, and
+    deploying AI
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and fine-
-      tuning LLM-powered applications including RAG pipelines,
-      agentic workflows, multi-agent systems, and model
-      evaluation. The engineer works hands-on with foundation
-      models, prompt engineering, and AI agents to deliver
-      production-grade AI solutions, which is core ai-first work.
-      The company's deployment-alongside-customers model further
-      reinforces hands-on AI implementation.
+      The role directly shapes LLM behavior: it owns prompt
+      engineering, RAG pipeline design, agentic and multi-agent
+      workflow engineering, plus model evaluation, prompt
+      optimization, and fine-tuning. Since LLMs and agents are the
+      core deliverable, Step 2 yields ai-first.
   responsibilities:
-  - Design, build, and deploy AI-powered applications using LLMs, multimodal models,
-    and intelligent agents
+  - Design, build, and deploy AI-powered applications using Large Language Models,
+    multimodal models, and intelligent agents
   - Develop advanced prompt engineering strategies, RAG pipelines, and agentic workflows
   - Build multi-agent systems capable of reasoning, planning, and executing complex
     enterprise tasks
+  - Integrate foundation models from leading providers while optimizing performance,
+    reliability, and cost
   - Evaluate, fine-tune, and optimize AI models for production use cases
   - Integrate AI applications with enterprise systems, databases, APIs, and third-party
     platforms
-  - Build scalable inference pipelines and implement robust evaluation frameworks
-  - Optimize AI applications for latency, accuracy, scalability, and operational efficiency
-  - Deploy alongside customers to turn production-ready AI into real business outcomes
+  - Build scalable inference pipelines and implement observability, monitoring, logging,
+    and evaluation pipelines for AI systems
+  - Collaborate with Product, Platform, Infrastructure, and Customer Success teams
+    to deliver customer-centric AI solutions
   use_cases:
   - Enterprise workflow automation
   - Customer experience enhancement through AI
-  - Multi-agent systems for complex enterprise task execution
-  - Retrieval-Augmented Generation for enterprise knowledge access
-  - Production AI model serving and optimization
-  - Cross-industry AI use case prototyping and productionization
+  - Production AI applications across multiple industries
+  - Multi-agent execution of complex enterprise tasks
+  - AI quality and performance evaluation with observability pipelines
   skills:
-    genai: [LLMs, Prompt Engineering, RAG, Agentic Workflows, Multi-Agent Systems,
-      AI Agents, LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Fine-Tuning, OpenAI
-        API, Anthropic API, Gemini, Llama, Mistral, Generative AI, LLM Evaluation]
-    ml: [PyTorch, TensorFlow, Machine Learning, Deep Learning, Model Training, Model
-        Evaluation]
-    web: [REST APIs]
-    databases: [Vector Databases, Pinecone, Weaviate, Milvus, Chroma, pgvector]
-    data: []
     cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, CI/CD, Git, MLOps, Model Deployment, Monitoring, Observability,
-      vLLM, TensorRT]
     languages: [Python]
+    ml: [Machine Learning, Deep Learning, Supervised Learning, Model Training, Model
+        Evaluation, PyTorch, TensorFlow]
+    other: []
+    ops: [Docker, Kubernetes, Git, CI/CD, MLOps, Model Deployment, Distributed Systems,
+      Observability, Monitoring, vLLM, TensorRT-LLM, TGI, GPU Optimization]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, Chrom, pgvector]
     domains: []
-    other: [Microservices, Distributed Systems, Code Review]
+    web: [APIs, REST APIs]
+    data: []
+    genai: [LLMs, Prompt Engineering, RAG, AI Agents, Agentic Workflows, Multi-Agent
+        Systems, LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Fine-Tuning, Foundation
+        Models, Generative AI, Multimodal AI, GPT, Anthropic API, Gemini, Llama, Mistral,
+      LLM Evaluation, Hallucination Mitigation]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10304423'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:41:04.211456'
+  extracted_at: '2026-08-16T18:43:05.859808'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,59 +1,60 @@
 company:
   name: TVS Next
   stage: null
-  focus: Digital transformation and data & AI consulting services
+  focus: Data and AI solutions for enterprise digital transformation
 position:
   title: AI Engineer
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves directly designing, developing, training,
-      and deploying AI/ML models to solve business problems. The
-      engineer works hands-on with ML frameworks, model
-      evaluation, and production deployment of AI solutions. While
-      it includes infrastructure and data pipeline work, the core
-      focus is building and deploying AI models.
+      The role trains, evaluates, optimizes, and monitors ML
+      models (predictive analytics, classification, recommenders,
+      decision support), which is shaping model behavior. All
+      model work is classical supervised/unsupervised ML; LLMs and
+      Generative AI appear only as preferred/bonus qualifications,
+      not core responsibilities, so there is no LLM or agent
+      component to the day-to-day work.
   responsibilities:
   - Design, develop, train, and deploy AI and Machine Learning models to solve real-world
     business problems
-  - Build intelligent AI solutions including predictive analytics, classification
-    models, recommendation systems, and decision support systems
-  - Prepare structured and unstructured datasets for AI model training, validation,
-    and inference including feature engineering and data cleansing
-  - Deploy AI models using REST APIs, microservices, and cloud-native architectures
-  - Monitor model performance, prediction quality, model drift, and retraining requirements
-    in production
-  - Apply Responsible AI principles including fairness, explainability, bias mitigation,
-    and governance
-  - Collaborate with Product Managers, Data Engineers, and stakeholders to deliver
-    enterprise AI solutions
-  - Design and optimize data pipelines supporting AI and machine learning workflows
+  - Build intelligent AI solutions including predictive analytics, classification,
+    recommendation, and decision support systems
+  - Evaluate, validate, and optimize AI models to improve accuracy, robustness, scalability,
+    and business value
+  - Prepare structured and unstructured data and design data pipelines supporting
+    AI and machine learning workflows
+  - Deploy AI models via REST APIs, microservices, and cloud-native architectures
+    built with Flask or FastAPI
+  - Use Docker and CI/CD pipelines for automated, secure, and repeatable AI deployments
+  - Monitor model performance, prediction quality, drift, and data quality, and troubleshoot
+    production issues
+  - Apply Responsible AI principles and collaborate with product managers, engineers,
+    data scientists, and business stakeholders to deliver enterprise AI solutions
   use_cases:
-  - Predictive analytics for business forecasting
-  - Classification models for categorization and detection
-  - Recommendation systems for personalized experiences
+  - Predictive analytics for business decision-making
+  - Classification models for real-world business problems
+  - Recommendation systems
   - Intelligent automation of business processes
-  - Decision support systems for enterprise operations
-  - Digital transformation solutions for manufacturing, automotive, supply chain,
-    financial services, and healthcare domains
+  - Decision support systems
+  - Enterprise AI solutions for digital transformation
   skills:
-    genai: [LLMs, Generative AI]
-    ml: [PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas, Supervised Learning,
-      Unsupervised Learning, Feature Engineering, Model Evaluation, Deep Learning,
-      Machine Learning]
-    web: [FastAPI, Flask, REST APIs, Microservices]
-    databases: []
-    data: [Airflow, Spark, Hadoop, Data Pipelines]
     cloud: [Azure, AWS, GCP, Azure ML, SageMaker]
-    ops: [Docker, CI/CD, Git, MLflow, Kubeflow, Model Deployment, Model Monitoring,
-      Monitoring]
-    languages: [Python, SQL, Java, C++, Scala]
-    domains: [NLP, Computer Vision]
-    other: [Predictive Analytics, Recommendation Systems, Responsible AI, Agile, Code
-        Review]
+    languages: [Python, Java, C++, Scala]
+    ml: [Machine Learning, Deep Learning, Supervised Learning, Unsupervised Learning,
+      Feature Engineering, Model Evaluation, Model Validation, Predictive Analytics,
+      TensorFlow, PyTorch, Keras, NLP]
+    other: [Responsible AI, Bias Detection, Explainable AI, Agile]
+    ops: [Docker, CI/CD, Git, MLOps, MLflow, Kubeflow, Model Monitoring]
+    databases: [SQL]
+    domains: []
+    web: [REST APIs, Flask, FastAPI, Microservices]
+    data: [NumPy, Pandas, Data Pipelines, Spark, Hadoop, Airflow]
+    genai: [LLMs, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10284052'
   location: Chennai, IND
-  extracted_at: '2026-07-22T13:39:28.842810'
+  extracted_at: '2026-08-16T18:28:48.373714'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

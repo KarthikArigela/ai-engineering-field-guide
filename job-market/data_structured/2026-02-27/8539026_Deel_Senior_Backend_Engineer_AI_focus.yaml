@@ -1,43 +1,39 @@
 company:
   name: Deel
-  stage: Series C+
-  focus: Global payroll and HR platform with AI-powered tools
+  stage: null
+  focus: Global payroll and HR platform for distributed teams
 position:
   title: Senior Backend Engineer (AI focus)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a backend engineering role focused on integrating AI
-      APIs into production systems and building backend services
-      that bring AI capabilities to payroll workflows. The
-      engineer collaborates with ML engineers but does not
-      directly build, train, fine-tune, or deploy models - they
-      integrate existing AI services and build the infrastructure
-      to support AI-powered tools.
+      The role builds backend services that integrate third-party
+      AI APIs into payroll workflows, and prompt engineering and
+      chatbot experience appear only as bonus qualifications. The
+      core work is consuming AI APIs another team designed plus
+      ETL/data plumbing, not shaping model behavior or output
+      quality, so it is ai-support.
   responsibilities:
-  - Build backend services that bring AI capabilities to life inside Payroll workflows
-  - Collaborate with ML engineers and operations to create real-world AI-powered tools
+  - Build backend services that bring AI capabilities into payroll workflows
   - Integrate AI APIs into production systems
-  - Work with unstructured/messy data and ETL pipelines
-  - Build and maintain robust API integrations
-  - Develop backend services using JavaScript, Node.js, and PostgreSQL
+  - Collaborate with ML engineers and operations to create real-world AI-powered tools
+  - Work with unstructured and messy data in ETL pipelines
+  - Build strong API integrations across backend services
   use_cases:
-  - AI-powered payroll workflows automation
-  - Integrating AI capabilities into global HR and payroll systems
-  - AI-powered tools for global workforce management
-  - Conversational interfaces and chatbots for payroll operations
-  - Document and file processing (CSV, PDF, Excel) with AI
+  - AI-assisted payroll workflows
+  - Document and file parsing (CSV, PDF, Excel) for payroll data
+  - Chatbot and conversational interfaces for HR and payroll
   skills:
-    domains: []
-    languages: [JavaScript, Python]
-    ml: []
     cloud: []
-    genai: [AI API integration, OpenAI API, Gemini, Anthropic API, Prompt Engineering]
-    data: [Document parsing, Data Pipelines, Unstructured data processing]
-    other: []
+    languages: [JavaScript, Node.js, Python]
+    ml: []
+    other: [Document Parsing]
     ops: []
-    web: [Node.js, APIs, Chatbot interfaces]
     databases: [PostgreSQL]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [OpenAI API, Gemini, Anthropic API, Conversational AI, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +54,6 @@ meta:
   - BIH
   - Dydnia, POL
   remote: true
-  extracted_at: '2026-02-27T11:29:57.284350'
+  extracted_at: '2026-08-16T02:16:09.818709'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

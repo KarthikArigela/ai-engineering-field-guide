@@ -1,49 +1,51 @@
 company:
   name: Rockwell Automation
-  stage: Public
-  focus: Industrial automation and manufacturing technology solutions
+  stage: null
+  focus: Industrial automation technology for manufacturers
 position:
   title: Senior Software Test Engineer- AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a quality assurance/testing role that uses AI tools
-      to improve testing processes, not building or deploying
-      AI/ML systems. The role focuses on championing AI
-      integration into testing workflows and using AI coding
-      assistants (GitHub Copilot), but does not involve hands-on
-      work with models, training, or AI system development.
+      The role champions integrating AI tools into testing
+      processes and uses AI coding assistants like GitHub Copilot,
+      but never shapes model behaviour — no prompt design,
+      retrieval, fine-tuning, or model evals. The deliverable is
+      test automation quality and process improvement, with AI
+      named as a tool the engineer uses, which makes this ai-
+      support.
   responsibilities:
-  - Research, guide and implement innovation across the testing practice
-  - Champion AI integration into testing processes to improve efficiency and upskill
-    test engineers
+  - Research, guide, and implement innovation across the testing practice
+  - Champion AI integration into testing processes to improve efficiency and help
+    upskill and mentor test engineers
   - Perform hands-on scripting and PR reviews for automation frameworks and infrastructure
-  - Help deliver high visibility customer-facing programs to ensure quality solutions
-  - Lead Quality Platform programs focusing on innovation and process improvements
-  - Work on cross-initiative quality projects with QA Managers to promote continuous
-    improvement
-  - Focus on test orchestration solutions and tools improvement
-  - Cultivate knowledge sharing and mentoring of Quality Engineers
+  - Contribute to and support test tooling automation and direct scripting
+  - Work on cross-initiative quality projects with Quality Assurance Managers to promote
+    continuous improvement
+  - Improve the overall test orchestration solution and tools
+  - Help deliver high visibility customer-facing programmes ensuring quality solutions
   use_cases:
-  - Test automation framework development
-  - Quality assurance process improvement
-  - AI-assisted testing workflows
-  - Continuous integration and build automation
-  - Customer-facing quality solution delivery
+  - AI-assisted test automation for quality assurance processes
+  - Test orchestration and automation framework improvements
+  - Continuous integration and build automation for testing pipelines
+  - Quality platform programmes driving process improvement across the organisation
+  - Upskilling and mentoring of quality engineers
   skills:
-    genai: [GitHub Copilot, AI testing tools]
-    ml: []
-    web: [.NET, Selenium WebDriver]
-    databases: []
-    data: []
     cloud: []
-    ops: [Docker, Terraform, Jenkins, CI/CD]
-    languages: [C#, Java]
+    languages: [C#, .NET, Java]
+    ml: []
+    other: [Object-Oriented Programming, Bellatrix, Test Automation]
+    ops: [CI/CD, Docker, Terraform, Jenkins, DevOps]
+    databases: []
     domains: []
-    other: []
-  is_customer_facing: true
+    web: [Selenium WebDriver]
+    data: []
+    genai: [GitHub Copilot]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8159543'
   location: Pune, IND
-  extracted_at: '2026-03-27T13:45:59.438799'
+  extracted_at: '2026-08-16T03:02:49.868652'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

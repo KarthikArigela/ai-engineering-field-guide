@@ -1,56 +1,60 @@
 company:
   name: ClickUp
-  stage: Series B
-  focus: AI-powered productivity and workspace platform
+  stage: null
+  focus: |-
+    Converged AI workspace unifying tasks, docs, chat, and
+    enterprise search
 position:
   title: Senior AI Engineer - AI Platform
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs, including
-      applying them directly to build product features,
-      integrating with multiple LLM providers, and managing model
-      selection and routing. While there's a
-      platform/infrastructure component, the engineer is actively
-      building and deploying AI solutions rather than just
-      supporting others' AI work.
+      The role applies LLMs hands-on to build ClickUp's
+      intelligent product features and manages model selection,
+      routing, and fallback strategies across multiple LLM
+      providers, which is choosing between models based on output
+      quality, cost, and performance. It also builds automated
+      evaluation infrastructure for AI services. Since LLMs and
+      LLM orchestration are central, this is ai-first.
   responsibilities:
-  - Architect, design, and implement scalable AI platform services that support the
-    deployment, orchestration, and lifecycle management of LLMs and other AI models
-  - Apply LLMs and other AI technologies directly to build and enhance ClickUp's intelligent
-    features, working closely with product and engineering teams
-  - Build and maintain robust APIs and backend systems that enable seamless integration
-    of AI-powered features into ClickUp's core platform
+  - Architect, design, and implement scalable AI platform services for deployment,
+    orchestration, and lifecycle management of LLMs and other AI models
+  - Apply LLMs directly to build and enhance intelligent product features across ClickUp
+  - Build and maintain robust APIs and backend systems that integrate AI-powered features
+    into the core platform
   - Develop infrastructure for model serving, monitoring, logging, and automated evaluation
-    to ensure high reliability and performance of AI services
+    of AI services in production
   - Integrate with multiple LLM providers and manage model selection, routing, and
     fallback strategies for optimal performance and cost
-  - Drive the adoption of best practices in AI privacy, security, and compliance,
-    including data anonymization and regulatory adherence
-  - Optimize platform performance, scalability, and cost-efficiency, leveraging cloud-native
+  - Drive best practices in AI privacy, security, and compliance, including data anonymization
+    and regulatory adherence
+  - Optimize platform performance, scalability, and cost-efficiency leveraging cloud-native
     technologies and distributed systems
+  - Collaborate cross-functionally with product, frontend, and data teams on user-centric
+    AI experiences
   use_cases:
-  - Context-driven AI workspace that unifies tasks, docs, chat, calendar, and enterprise
+  - Intelligent AI-powered features in a unified work management workspace
+  - Context-driven AI assistance across tasks, docs, chat, calendar, and enterprise
     search
-  - Intelligent features powered by LLMs across ClickUp's productivity platform
-  - AI-driven applications integrating search technologies for enhanced user experience
-  - Productivity tools that help teams break free from silos and reclaim time
-  - Enterprise search capabilities supercharged by AI for improved information retrieval
+  - LLM orchestration and lifecycle management platform services
+  - Multi-provider model routing and fallback for performance and cost optimization
+  - AI privacy, security, and compliance for production AI services
   skills:
-    domains: []
-    languages: [Python, Go, TypeScript]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: [LangGraph, OpenAI API, Anthropic API, Google AI, LLMs, model routing]
-    data: [Airflow, Ray]
+    languages: [Python, Go, TypeScript]
+    ml: [Model Evaluation]
     other: []
-    ops: [Kubernetes, Docker, Kubeflow, MLOps, Model Deployment, Monitoring, logging,
-      automated evaluation]
-    web: []
+    ops: [Kubernetes, Docker, MLOps, Model Deployment, Monitoring, Distributed Systems]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Airflow, Ray]
+    genai: [LLMs, LangGraph, OpenAI API, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8247031'
   location: USA
-  extracted_at: '2026-02-05T12:20:20.008194'
+  extracted_at: '2026-08-15T22:58:29.778236'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

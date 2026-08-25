@@ -1,57 +1,62 @@
 company:
   name: Pulsora
-  stage: Well-funded startup (founded 2021)
+  stage: null
   focus: Enterprise sustainability and ESG management platform
 position:
   title: AI Engineer - India
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building, deploying, fine-
-      tuning, and optimizing LLMs and generative AI systems. The
-      core responsibilities include developing agentic workflows
-      with LangChain/LangGraph, building RAG pipelines, fine-
-      tuning LLMs with LoRA/QLoRA, and deploying production-grade
-      LLM applications—all hands-on AI model and agent development
-      work.
+      The role directly shapes LLM behaviour: building and
+      optimizing RAG pipelines (embeddings, vector databases,
+      rerankers), architecting multi-agent workflows in
+      LangChain/LangGraph, fine-tuning LLMs with LoRA/QLoRA, and
+      developing prompt engineering techniques. Since every
+      shaping activity targets LLMs and agents, this is ai-first.
   responsibilities:
   - Design, develop, and deploy production-grade applications leveraging various LLMs
     with context optimization
-  - Architect and implement multi-step and multi-agent workflows using LangChain and
-    LangGraph
+  - Architect and implement sophisticated multi-step and multi-agent workflows using
+    frameworks like LangChain and LangGraph
   - Build and optimize RAG pipelines including embeddings, vector databases, and advanced
-    rerankers
-  - Lead LLM fine-tuning efforts using techniques like LoRA and QLoRA for domain-specific
-    tasks
-  - Develop and refine advanced prompt engineering techniques to maximize model performance
-    and safety
-  - Use AI-powered code generation tools to create full applications including frontend
-    and backend
-  - Own end-to-end full-stack implementation from frontend to backend
-  - Integrate AI/LLM Python functionality with Java services and collaborate with
-    cross-functional teams
+    rerankers to enhance response quality and relevance
+  - Lead LLM fine-tuning efforts (e.g., LoRA, QLoRA) for domain-specific knowledge
+    and tasks
+  - Develop and refine advanced prompt engineering techniques to maximize model performance,
+    consistency, and safety
+  - Use AI code generation applications (Replit, Cursor, Google AI Studio, GitHub
+    Copilot) to create full applications, generate tests, and integrate them into
+    the core product
+  - Own end-to-end full-stack implementation from frontend to backend, including exposing
+    Python AI functionality via Java services
+  - Collaborate closely with team leads, managers, QA, and product managers in the
+    US, partially working US hours
   use_cases:
-  - ESG and sustainability data management and compliance
-  - Enterprise sustainability reporting and tracking
-  - Domain-specific LLM fine-tuning for ESG/sustainability knowledge
-  - Agentic workflow automation for sustainability insights
-  - RAG-based enterprise search and information retrieval
+  - ESG and sustainability compliance, tracking, and insight platform for enterprises
+  - Domain-specific LLM applications for enterprise sustainability workflows via fine-tuning
+  - Retrieval-augmented answers over enterprise ESG data using vector search and reranking
+  - Multi-step and multi-agent automation of complex domain workflows
+  - AI-accelerated full-application development integrated into the core product
   skills:
-    domains: []
-    languages: [Python, Java]
-    ml: [Pandas, NumPy, scikit-learn]
     cloud: []
-    genai: [LangChain, LangGraph, RAG, LoRA, Prompt Engineering, Fine-Tuning, OpenAI
-        API, Anthropic API, Gemini, Ollama, Agentic Workflows, Embeddings, Reranking]
-    data: []
-    other: [GitHub Copilot, Cursor, Replit, Google AI Studio]
+    languages: [Python, Java]
+    ml: [scikit-learn]
+    other: [Replit]
     ops: []
-    web: [React, REST APIs]
-    databases: [Vector Databases]
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [React, REST APIs, Full-Stack Development]
+    data: [Pandas, NumPy]
+    genai: [LLMs, Generative AI, Agentic Workflows, LangChain, LangGraph, RAG, Embeddings,
+      Reranking, Fine-Tuning, LoRA, Prompt Engineering, Context Engineering, Gemini,
+      OpenAI API, Anthropic API, Llama, Ollama, Cursor, GitHub Copilot, Google AI
+        Studio, Vibe Coding]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9109761'
   location: IND
   remote: true
-  extracted_at: '2026-04-22T12:44:32.157270'
+  extracted_at: '2026-08-16T08:07:33.871193'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

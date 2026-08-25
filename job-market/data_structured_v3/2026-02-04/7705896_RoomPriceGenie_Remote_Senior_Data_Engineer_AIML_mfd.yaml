@@ -1,0 +1,62 @@
+company:
+  name: RoomPriceGenie
+  stage: null
+  focus: Hotel pricing optimization and revenue management software
+position:
+  title: Remote Senior Data Engineer (AI/ML) (m/f/d)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role: building and scaling
+      ETL/ELT pipelines, dbt models, and warehouse infrastructure
+      that feed a pricing optimization and forecasting engine
+      owned by ML engineers. There is no prompt work, retrieval
+      design, model training, or output-quality shaping, and GenAI
+      appears only as a nice-to-have (Databricks for GenAI use
+      cases), so the role is ai-support.
+  responsibilities:
+  - Design and maintain scalable ETL/ELT pipelines powering the pricing optimization
+    engine and forecasting
+  - Evolve the data platform and architecture to handle rapidly scaling users, datasets,
+    and feature complexity
+  - Model, test, document, and optimize data in the warehouse using dbt
+  - Collaborate with a Product Manager and a team of ML and Backend Engineers on the
+    RM engine
+  - Take full ownership of projects from conception through post-deployment, partnering
+    with Product and Design teams
+  - Serve as an Individual Contributor influencing data and architectural direction,
+    reporting to the RM Engine Engineering Manager
+  use_cases:
+  - Hotel room pricing optimization and revenue management
+  - Recommending optimal room prices in seconds based on internal hotel data and market
+    trends
+  - Demand and booking forecasting to improve occupancy
+  - Revenue enhancement for independent and small hotels
+  skills:
+    genai: [Generative AI]
+    ml: [SciPy]
+    web: [Django, FastAPI]
+    databases: [Snowflake, Data Warehousing, PostgreSQL, MongoDB, DocumentDB, DynamoDB]
+    data: [ETL/ELT Pipelines, Dagster, dbt, Databricks, Pandas, Polars, NumPy, Cube.dev,
+      Celery, RabbitMQ]
+    cloud: [AWS Aurora/RDS]
+    ops: [Terraform, OpenTofu, Datadog]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7705896'
+  location: GBR
+  locations:
+  - GBR
+  - ESP
+  - BEL
+  - AUT
+  - DEU
+  - IRL
+  remote: true
+  extracted_at: '2026-08-15T21:58:11.201558'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

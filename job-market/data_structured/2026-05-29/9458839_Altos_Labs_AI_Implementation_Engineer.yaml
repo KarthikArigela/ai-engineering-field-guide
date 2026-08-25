@@ -1,51 +1,57 @@
 company:
   name: Altos Labs
-  stage: Series B
-  focus: |-
-    Cell rejuvenation and reversing disease through biology
-    research
+  stage: ''
+  focus: Biotech researching cell rejuvenation to reverse disease
 position:
   title: AI Implementation Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on enabling AI adoption across the
-      enterprise rather than building or training models. The
-      engineer evaluates, integrates, and operationalizes AI tools
-      (like Claude Enterprise, ChatGPT, Copilot) and builds the
-      infrastructure for their safe use - this is
-      platform/infrastructure work supporting AI implementation.
+      The role rolls out enterprise AI tools (Claude Enterprise,
+      ChatGPT, Copilot) across the company, building tool
+      configuration, telemetry, compute management, governance,
+      and adoption/cost reporting around them. There is no prompt
+      design, retrieval/RAG, agent orchestration, training, or
+      output-quality evaluation of models - the deliverable is
+      enterprise adoption and operational infrastructure, which is
+      ai-support per the rollout edge case.
   responsibilities:
-  - Collaborate with leadership to develop enterprise AI rollout strategies and maintain
-    AI roadmap
-  - Perform technical due diligence on AI tools and platforms, validating security
-    and compliance
-  - Design and maintain core infrastructure for AI tools including telemetry and compute
-    resource management
-  - Develop technical documentation, tutorials, and best-practice guides for AI tool
-    adoption
-  - Build systems for reporting AI tool adoption metrics, costs, and impact analysis
+  - Collaborate with leadership to identify requirements, develop rollout strategies,
+    and maintain an enterprise AI roadmap
+  - Perform technical due diligence on new AI tools and platforms, validating security
+    and compliance with IT, Cybersecurity, and Legal
+  - Design, build, and maintain the core infrastructure for enterprise AI tools
+  - Develop telemetry systems and strategies for managing compute resources
+  - Build reporting and analytics systems providing metrics on AI tool adoption, cost,
+    and impact
+  - Develop technical documentation, tutorials, and best-practice guides, and promote
+    standards for responsible AI use
+  - Provide technical insights and feasibility assessments on new technologies and
+    integration strategies
   use_cases:
-  - Enterprise AI tool evaluation and onboarding across scientific and corporate teams
-  - Secure and compliant AI tool integration with IT, cybersecurity, and legal oversight
-  - AI usage monitoring with telemetry for cost tracking and operational insights
-  - Scientific research enablement through standardized AI tool adoption
-  - Corporate workflow automation through AI assistant platforms
+  - Enterprise rollout and onboarding of AI tools across scientific and corporate
+    teams
+  - AI tool governance, security, and compliance validation
+  - Telemetry and compute resource management for AI tool usage
+  - Usage, cost, and impact reporting on AI tool adoption
+  - Promoting responsible and efficient AI use standards
   skills:
-    domains: []
+    cloud: []
     languages: []
     ml: []
-    cloud: [IT Infrastructure]
-    genai: [Generative AI, Claude Enterprise, ChatGPT, LLMs]
-    data: []
-    other: [Responsible AI, Technical Documentation]
-    ops: [Telemetry, Cybersecurity]
-    web: []
+    other: [Responsible AI]
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, ChatGPT, Claude Enterprise, GitHub Copilot, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9458839'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:06:36.769537'
+  extracted_at: '2026-08-16T11:36:27.485629'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,58 @@
+company:
+  name: Benchling
+  stage: null
+  focus: AI-powered R&D cloud platform for biotech
+position:
+  title: Agentic AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships enterprise agentic AI systems:
+      orchestration, tool calling/MCP, memory, evaluation, and
+      observability around LLMs. That is directly shaping model
+      behaviour and agent flows, so it's ai-first. Model training
+      experience is explicitly not the bar.
+  responsibilities:
+  - 'Define foundational architecture for enterprise agentic AI: orchestration, agent
+    frameworks, tool integrations (MCP), memory/state management, evaluation, and
+    observability'
+  - Write production code at least half the time and stand up CI/CD, testing, evaluation,
+    and deployment infrastructure for agentic systems
+  - Graduate prototypes into hardened production-grade systems and own production
+    support under a 'you build it, you run it' model
+  - 'Build enterprise-grade design: multi-tenant isolation, secrets management, audit
+    logging, encryption, RBAC, and human-in-the-loop controls; threat model agentic
+    architectures'
+  - Enable builders across the company with templates, SDKs, sandboxes, and coaching
+    on production patterns
+  - Partner with Data, Analytics & Systems team on source-of-truth datasets and pipelines,
+    and with department leaders on transformed workflows
+  - 'Elevate engineering standards: code quality, testing, documentation, on-call
+    practices; drive technical hiring and mentor engineers'
+  use_cases:
+  - Enterprise agentic AI applications spanning departmental boundaries
+  - AI agents and models embedded in scientists' R&D workflows
+  - RAG over business content like Confluence, contracts, and policies
+  - Workflow automation for internal company operations
+  - 'Agentic workflow threat modeling: prompt injection, tool misuse, data exfiltration'
+  skills:
+    genai: [LLMs, MCP, Agentic Workflows, OpenAI API, Anthropic API, LangChain, CrewAI,
+      RAG, LangGraph, Prompt Engineering]
+    ml: []
+    web: []
+    databases: [pgvector, Pinecone]
+    data: [Prefect, Airflow]
+    cloud: []
+    ops: [LangSmith, Arize, CI/CD, Temporal]
+    languages: [Python, TypeScript, Node.js, Go]
+    domains: []
+    other: [n8n, Langflow, Confluence, HIPAA Compliance, SOC 2]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10755025'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:39:05.497411'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

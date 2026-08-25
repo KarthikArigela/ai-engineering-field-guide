@@ -1,0 +1,56 @@
+company:
+  name: Jahnel Group
+  stage: early-stage startup
+  focus: |-
+    Software engineering consultancy connecting developers with
+    clients
+position:
+  title: Senior Backend Engineer (AI/Data Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role takes the lead in integrating LLM APIs (OpenAI,
+      Anthropic) into production and orchestrating LLM workflows
+      with LangChain to drive intelligent sourcing decisions -
+      designing the LLM-driven workflow themselves rather than
+      consuming an integration another team built. Since an
+      LLM/agent component is central to the platform, this is ai-
+      first.
+  responsibilities:
+  - Design and implement scalable backend systems for data ingestion, transformation,
+    and AI workflows
+  - Integrate LLM APIs (OpenAI, Anthropic) into production environments using frameworks
+    like LangChain to enable intelligent sourcing decisions
+  - Own development and maintenance of REST APIs, services, and background jobs
+  - Build robust ETL pipelines and analytics-ready data formats
+  - Implement infrastructure-as-code with Terraform and manage deployments on AWS
+    (ECS, Lambda, S3, API Gateway)
+  - Optimize data models and queries, ensure system reliability, and lead initiatives
+    to enhance observability, monitoring, and CI/CD practices
+  - Collaborate cross-functionally with product and AI teams and mentor junior engineers
+  - Make critical architectural decisions to ensure platform scalability, performance,
+    and extensibility
+  use_cases:
+  - AI-powered procurement platform
+  - LLM-driven intelligent sourcing decisions
+  - Data ingestion and ETL pipelines for analytics-ready procurement data
+  - Production LLM workflows embedded in backend services
+  skills:
+    genai: [LangChain, OpenAI API, Anthropic API, LLMs]
+    ml: []
+    web: [NestJS, REST APIs]
+    databases: [PostgreSQL]
+    data: [ETL, Data Pipelines, Data Modeling]
+    cloud: [AWS, ECS, AWS Lambda, AWS S3, API Gateway]
+    ops: [Terraform, Docker, CI/CD, Monitoring, Observability]
+    languages: [Python, Node.js]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '6741169'
+  location: New York, USA
+  extracted_at: '2026-08-15T21:04:44.504503'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

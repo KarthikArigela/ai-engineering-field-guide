@@ -1,51 +1,58 @@
 company:
   name: APTIV
-  stage: Public
-  focus: Automotive technology and mobility solutions
+  stage: null
+  focus: Automotive technology and vehicle safety systems
 position:
   title: Embedded AI C++ Engineer – Intelligent Cockpit C++/Linux/Android
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role involves integrating ML models (CNNs, LLMs, VLMs)
-      for embedded devices, accelerating runtime execution of CV
-      and ML algorithms, and optimizing across CPU, GPU, DSP, NPU
-      architectures. This is hands-on work deploying and
-      optimizing AI models, not just supporting infrastructure.
+      This role integrates and runs ML models (CNNs, LLMs, VLMs)
+      built by others on embedded automotive hardware, using
+      inference engines like ONNX Runtime, TensorRT, TFLite,
+      ArmNN, and TVM. The deliverable is runtime performance,
+      hardware integration, and cross-core scheduling, not model
+      behavior — no prompt design, retrieval, training, or output-
+      quality evals. Per the edge cases, serving/accelerating
+      models the person does not shape is ai-support even when
+      TensorRT and GPUs/NPUs are named.
   responsibilities:
-  - Write high-quality, well-tested, and efficient C++ code for AI/ML software stack
-  - Integrate ML models including CNNs, LLMs, and vision-language models for Interior
-    Sensing and Intelligent Cockpit applications on embedded devices
+  - Write high-quality, well-tested, and efficient C++ code for the AI/ML software
+    stack
+  - Integrate CNNs, LLMs, and vision-language models for Interior Sensing and Intelligent
+    Cockpit applications on embedded devices
   - Accelerate runtime execution of computer vision and machine learning algorithms
     for specific hardware architectures
   - Develop efficient back-end applications for ML applications on Android and Linux
-  - Integrate vehicle sensors and cameras with automotive operating systems like Android
-    Automotive OS
-  - Optimize algorithm scheduling across heterogeneous device cores including CPU,
-    GPU, DSP, and NPU
+  - Integrate vehicle sensors and cameras with automotive operating systems such as
+    Android Automotive OS
+  - Optimize algorithm scheduling across heterogeneous device cores (CPU, GPU, DSP,
+    NPU)
+  - Work in an Agile/SCRUM team alongside Machine Learning, System, and Software engineers
   use_cases:
-  - Interior Sensing for automotive applications
-  - Intelligent Cockpit systems
-  - Computer vision for vehicle interior monitoring
-  - Vision-language model integration for automotive AI
-  - Vehicle sensor and camera integration for AI applications
+  - Interior sensing in vehicle cockpits
+  - Intelligent cockpit in-vehicle applications
+  - On-device computer vision and ML inference on automotive embedded hardware
+  - Running CNN, LLM, and vision-language models on heterogeneous embedded SoCs
+  - Integrating vehicle sensors and cameras with automotive operating systems
   skills:
-    domains: [Computer Vision]
-    languages: [C++, Kotlin, Java, JNI]
-    ml: [CNNs]
     cloud: []
-    genai: [LLMs, Vision-Language Models]
-    data: []
-    other: []
-    ops: [ONNX Runtime, TensorRT, TensorFlow Lite, ArmNN, TVM, Linux, Android, Android
-        Automotive OS, Yocto, Buildroot, Git, CMake, Make, CPU, GPU, DSP, NPU, AI
-        accelerators, Qualcomm SoC, Texas Instruments SoC, Samsung SoC, NXP SoC, MediaTek
-        SoC]
-    web: []
+    languages: [C++, C, Java, Kotlin]
+    ml: [Machine Learning, CNNs, TFLite, ArmNN, TVM]
+    other: [Android, Android Automotive OS, Automotive Middleware, NDK/JNI, Yocto,
+      Buildroot, Kernel Modules, Bootloaders, Board Bring-Up, Gerrit, Bitbucket, CMake,
+      Make, Autotools, Qualcomm, Texas Instruments, Samsung, NXP, MediaTek]
+    ops: [ONNX Runtime, TensorRT, Linux, Git, GitHub, GitLab CI]
     databases: []
+    domains: [Computer Vision]
+    web: []
+    data: []
+    genai: [LLMs, Vision-Language Models]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8339516'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:59:50.961646'
+  extracted_at: '2026-08-16T00:55:57.148299'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: Infrrd
+  stage: null
+  focus: |-
+    Intelligent Document Processing platform for automated data
+    extraction
+position:
+  title: Python Developer (Gen AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it implements GenAI
+      workflows with prompt design, tools, and guards, designs and
+      tunes vector retrieval over PGVector for RAG-like patterns,
+      and builds evaluators and regression suites for LLM
+      pipelines. Because the shaped components are LLM/GenAI
+      systems throughout, this is ai-first rather than ml-first or
+      ai-support.
+  responsibilities:
+  - Build and debug product features, resolving issues across APIs, data transformations,
+    and deployment workflows with rapid turnaround
+  - Build and maintain Python utilities and services for validation, transformation,
+    and automation of QC checklist execution
+  - Implement GenAI workflows using LangChain/OpenAI, including prompt design, tools,
+    and guards for reliability and traceability
+  - Design and tune vector indexing and retrieval over PGVector for checklist content,
+    policies, and artifacts
+  - Create evaluators, test harnesses, and regression suites for LLM pipelines and
+    generated code outputs
+  - Instrument logs and metrics, perform root-cause analysis across data, prompts,
+    and model outputs, and document playbooks
+  - Collaborate with Product/CS/QA to triage tickets, reproduce issues, and ship hotfixes
+    and safe migrations
+  - Harden deployments with config management, secrets hygiene, and rollback strategies,
+    and maintain knowledge base and SOPs for integrations and compliance-sensitive
+    workflows
+  use_cases:
+  - Automated data extraction from complex, messy unstructured documents (Intelligent
+    Document Processing)
+  - Automation and validation of QC checklist execution for onboarding workflows
+  - RAG-style retrieval over checklist content, policies, and artifacts via PGVector
+  - Evaluation and regression testing of LLM pipelines and generated code outputs
+  - Root-cause analysis and observability across data, prompts, and model outputs
+  - Compliance-sensitive workflows in mortgage/QC/RegTech domains
+  skills:
+    genai: [LangChain, OpenAI API, Prompt Engineering, Function Calling, Guardrails,
+      LLMs, Generative AI, RAG, LLM Orchestration, Structured Outputs, Gemini, MCP,
+      LLM Evaluation, GitHub Copilot, Cursor]
+    ml: [NLTK]
+    web: [FastAPI, REST APIs, JSON]
+    databases: [MongoDB, PostgreSQL, pgvector, Vector Databases, Vector Search]
+    data: [Pandas]
+    cloud: []
+    ops: [Observability, MLOps, CI/CD, GitHub Actions, Docker, Git, GitHub]
+    languages: [Python, asyncio]
+    domains: []
+    other: [Jira, Confluence, Postman, cURL, VS Code, Poetry, pytest, Code Review,
+      Debugging]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7633296'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T02:59:04.490821'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

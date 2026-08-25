@@ -1,48 +1,52 @@
 company:
   name: C the Signs
   stage: null
-  focus: Healthcare AI for cancer prediction and early detection
+  focus: AI-powered healthcare technology improving patient outcomes
 position:
   title: AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Data Engineer role focused on building data
-      pipelines and preparing datasets for LLM training. While
-      they support AI work by preparing and optimizing data, they
-      are not building, training, fine-tuning, or deploying the
-      models themselves - they work in a supporting role to enable
-      the ML engineers who do.
+      This is a data engineering role that builds pipelines and
+      datasets feeding ML engineers' LLM and ML training runs -
+      moving, cleaning, and structuring data rather than shaping
+      model behavior. The role does not own prompt writing,
+      retrieval design, model training, or output-quality
+      evaluation (LLM fine-tuning appears only as a preferred
+      familiarity), so per the dataset edge case it is ai-support.
   responsibilities:
+  - Collaborate with data scientists and machine learning engineers to understand
+    data requirements for LLM and machine learning model fine-tuning
   - Design, build, and maintain scalable data pipelines to ingest, process, and store
-    massive healthcare datasets
-  - Collaborate with ML engineers to understand data requirements for LLM and machine
-    learning model fine-tuning
-  - Implement robust data cleaning, validation, and transformation processes to ensure
-    data quality and integrity
+    massive and diverse healthcare datasets
+  - Implement data validation, cleaning, and transformation processes to ensure integrity,
+    accuracy, and consistency of training datasets
   - Develop and optimize data structures and schemas for efficient access and utilization
     by LLMs and machine learning models
-  - Monitor data pipeline performance, troubleshoot issues, and implement optimizations
-    to improve efficiency
   - Identify and acquire new data sources while ensuring compliance with healthcare
-    regulations like HIPAA
+    regulations such as HIPAA
+  - Monitor data pipeline performance, troubleshoot issues, and implement optimizations
+    for efficiency and reliability
   - Document data engineering processes, data models, and data dictionaries
   use_cases:
-  - Healthcare data preparation for LLM training and fine-tuning
-  - Cancer prediction and early detection using AI
-  - High-volume healthcare dataset processing and optimization
-  - HIPAA-compliant healthcare data pipeline management
+  - Preparing and delivering high-quality healthcare datasets for LLM and machine
+    learning model training and fine-tuning
+  - Scalable ingestion, processing, and storage of large diverse healthcare datasets
+  - Data quality, validation, and regulatory compliance (HIPAA) for healthcare AI
+    systems
+  - AI technology that improves patient outcomes, saves lives, and advances health
+    equity
   skills:
-    domains: [HIPAA Compliance, Healthcare Standards]
-    languages: [Python, Scala, Java]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: [Fine-Tuning]
-    data: [Spark, Data Pipelines, data warehousing, Data Modeling, Airflow]
-    other: []
+    languages: [Python, Scala, Java]
+    ml: [Machine Learning]
+    other: [FHIR, HL7, HIPAA Compliance]
     ops: []
+    databases: [Data Warehousing]
+    domains: []
     web: []
-    databases: []
+    data: [Data Pipelines, Data Modeling, Big Data, Spark, Airflow]
+    genai: [LLMs, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
@@ -53,4 +57,6 @@ meta:
   - New York, USA
   - Boston, USA
   remote: true
-  extracted_at: '2026-05-29T08:56:09.641269'
+  extracted_at: '2026-08-16T09:18:36.668394'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

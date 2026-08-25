@@ -1,55 +1,59 @@
 company:
   name: CoreWeave
-  stage: Public
-  focus: AI cloud infrastructure platform
+  stage: 'Publicly traded (Nasdaq: CRWV)'
+  focus: AI hyperscaler cloud infrastructure and ML developer tools
 position:
   title: AI Solutions Engineer, Pre-Sales- W&B
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Solutions Engineer role that requires hands-on
-      experience training, fine-tuning, evaluating, and deploying
-      deep learning and LLM-based systems. The role involves
-      architecting RAG pipelines, multi-agent systems, LLM fine-
-      tuning workflows, and building working prototypes that
-      demonstrate real customer value, which aligns with building
-      and deploying AI/ML systems rather than just supporting AI
-      work.
+      The role designs and prototypes RAG pipelines, LLM fine-
+      tuning workflows, multi-agent systems, and
+      evaluation/guardrail frameworks for customers, directly
+      shaping LLM behaviour and output quality. Although titled
+      pre-sales, forward-deployed engineers who adapt and
+      architect GenAI systems themselves are ai-first, and
+      LLM/agent components dominate the work.
   responsibilities:
-  - Build proof of value engagements and partner with Account Executives to drive
-    discovery, solution design, and technical evaluations
-  - Lead technical conversations with ML engineers and researchers to architect scalable
-    solutions across the CoreWeave and Weights & Biases ecosystem
-  - Design and deliver demos and prototypes showcasing experiment tracking, distributed
-    training, agentic workflows, fine-tuning, evaluation, and inference at scale
+  - Own technical wins by building proofs of value (PoVs), partnering with Account
+    Executives on discovery, solution design, and technical evaluations
+  - Lead deep technical conversations with ML engineers, researchers, and platform
+    teams to understand AI/GenAI workloads and architect scalable solutions across
+    CoreWeave and Weights & Biases
+  - Design and deliver live demos, PoV engagements, and rapid prototypes showcasing
+    experiment tracking, distributed training, agentic workflows, fine-tuning, evaluation,
+    and inference at scale
   - Architect modern ML and GenAI systems including distributed training, RAG pipelines,
-    multi-agent systems, and LLM fine-tuning workflows
+    multi-agent systems, LLM fine-tuning workflows, and inference solutions
   - Translate business objectives into measurable technical outcomes such as model
-    quality improvements, cost reductions, and performance gains
-  - Serve as a trusted technical advisor influencing architectural decisions and best
-    practices across MLOps, LLMOps, and platform engineering
+    quality, cost, performance, and faster iteration cycles
+  - Serve as a trusted technical advisor influencing architectural decisions across
+    MLOps, LLMOps, and platform engineering
   - Partner with Product and Engineering to relay customer feedback and shape roadmap
     priorities
   use_cases:
-  - Distributed training of deep learning models at scale
-  - Retrieval-augmented generation (RAG) pipelines for enterprise applications
-  - Multi-agent systems with tool-using capabilities
-  - LLM fine-tuning and evaluation workflows
-  - Experiment tracking and model optimization
-  - Inference serving and optimization at scale
+  - Experiment tracking and model evaluation for ML development
+  - Distributed training of deep learning and LLM systems on AI cloud infrastructure
+  - RAG pipelines and multi-agent GenAI applications
+  - LLM fine-tuning workflows (PEFT/LoRA/QLoRA) with evaluation and guardrails
+  - Inference optimization and model serving at scale
+  - MLOps/LLMOps platform engineering for enterprise AI deployments
   skills:
-    domains: []
-    languages: [Python, TypeScript, JavaScript]
-    ml: [PyTorch, Hugging Face, LoRA, TRL, Unsloth, Ragas, TruLens, DeepEval]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, DSPy, LlamaIndex, CrewAI, RAG, Fine-Tuning, Prompt Engineering,
-      AI Agents]
-    data: []
+    languages: [Python, TypeScript, JavaScript]
+    ml: [Machine Learning, Deep Learning, Distributed Training, Transformers, Reinforcement
+        Learning]
     other: []
-    ops: [MLflow, vLLM, TensorRT-LLM, Triton, TGI, Kubernetes, Docker, Slurm, Ray]
+    ops: [Weights & Biases, Experiment Tracking, MLOps, LLMOps, Kubernetes, Slurm,
+      vLLM, TensorRT-LLM, Triton, TGI, Docker]
+    databases: [Vector Databases]
+    domains: []
     web: []
-    databases: [Vector Databases, Embeddings]
-  is_customer_facing: true
+    data: [Ray]
+    genai: [LLMs, Generative AI, RAG, Agentic Workflows, Multi-Agent Systems, AI Agents,
+      Fine-Tuning, LLM Evaluation, Guardrails, Embeddings, LangChain, DSPy, LlamaIndex,
+      CrewAI, OpenClaw, Ragas, TruLens, DeepEval, LoRA, TRL, Unsloth]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8551241'
@@ -62,4 +66,6 @@ meta:
   - Washington, USA
   - Philadelphia, USA
   - San Francisco, USA
-  extracted_at: '2026-02-27T12:07:49.049872'
+  extracted_at: '2026-08-16T02:24:52.762425'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

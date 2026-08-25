@@ -1,53 +1,53 @@
 company:
   name: Linktree
-  stage: Series B+
-  focus: |-
-    Link-in-bio platform empowering creators to curate and
-    monetize their digital presence
+  stage: null
+  focus: Link-in-bio platform for creators and brands
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is hands-on AI engineering work building, deploying,
-      and maintaining AI agents, prompt engineering, and fine-
-      tuning models directly integrated into production services.
-      The role owns the full AI application lifecycle from data
-      pipelines to real-time inference, not just supporting
-      infrastructure.
+      The role directly shapes LLM behavior: prompt engineering
+      and prompt management/versioning, building AI agents,
+      evaluation design and eval loops, and fine-tuning are core
+      responsibilities. Gemini, Claude, and OpenAI APIs and AI
+      agents explicitly put LLM/agent components at the center,
+      making it ai-first.
   responsibilities:
   - Build, deploy, and maintain AI agents and features across Linktree's core product
-    surfaces including personalization, recommendations, and creator analytics
-  - Partner with Product and Engineering to translate business problems into solutions,
-    driving roadmap from problem definition through to production
+    surfaces including personalisation, recommendations, and creator analytics
+  - Partner with Product and Engineering to translate business problems into AI-driven
+    solutions, from problem definition through production
   - Design and own scalable data pipelines for feature engineering, model training,
     evaluation, and real-time inference
-  - 'Establish and uphold engineering best practices for AI: evaluation design, prompt
-    management & versioning, testing & monitoring'
+  - Integrate AI models into high-throughput, low-latency production services
+  - 'Establish and uphold AI engineering best practices: evaluation design, prompt
+    management and versioning, testing and monitoring'
   - Lead technical design reviews and mentor engineers on AI foundations and production-grade
     AI patterns
-  - Evaluate and adopt new AI techniques, frameworks, and tooling to keep Linktree
-    at the frontier of applied AI
+  - Evaluate and adopt new AI techniques, frameworks, and tooling
   use_cases:
-  - Personalization systems for creator profiles
-  - Recommendation engines for content and products
-  - Creator analytics and insights
-  - AI agents for user interaction and support
-  - Real-time inference for high-throughput, low-latency services
+  - AI agents and AI-powered features across Linktree's link-in-bio product
+  - Personalisation for 70+ million users
+  - Content and product recommendations
+  - Creator analytics
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Fine-Tuning]
     cloud: [Vertex AI, AWS]
-    genai: [Prompt Engineering, OpenAI API, Anthropic Claude API, Google Gemini API]
-    data: [Airflow, Data Pipelines, Batch/Streaming Pipelines, Data Quality Monitoring]
+    languages: []
+    ml: [Model Training, Feature Engineering]
     other: []
-    ops: [Braintrust, AutoEval, MLflow, Docker]
-    web: []
+    ops: [MLOps, MLflow, Braintrust, AutoEval, Containerization]
     databases: []
+    domains: []
+    web: []
+    data: [Airflow, Data Pipelines, Data Quality Monitoring]
+    genai: [Prompt Engineering, Fine-Tuning, AI Agents, LLM Evaluation, Gemini, Anthropic
+        API, OpenAI API]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9176382'
   location: London, GBR
-  extracted_at: '2026-05-29T08:55:04.866035'
+  extracted_at: '2026-08-16T09:15:50.891289'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,62 @@
+company:
+  name: Husqvarna Group
+  stage: null
+  focus: null
+position:
+  title: Senior Full Stack Engineer – Cloud & AI Applications
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is primarily a full-stack/cloud engineering role where
+      AI work means integrating LLM-based services, embeddings,
+      and inference APIs built by others, plus data pipelines that
+      feed AI workflows and collaborating on
+      observability/evaluation. The activities that would
+      constitute shaping (RAG design, LangChain/LangGraph, agentic
+      workflows) appear only in the "Good to Have" section, so per
+      the integration edge case this is ai-support.
+  responsibilities:
+  - Design and build scalable full-stack web applications with React frontends and
+    Node.js (TypeScript) or Python backend services
+  - Design, deploy, and operate cloud-native applications on AWS or Azure using Docker,
+    Kubernetes, IAM, Infrastructure as Code, and CI/CD pipelines with multi-environment
+    promotion
+  - Integrate AI/ML services into applications, including LLM-based services, embeddings,
+    and inference APIs
+  - Design and operate scalable data pipelines using Databricks or Python-based ETL
+    frameworks, including PostgreSQL/SQL, NoSQL, and lakehouse architectures
+  - Build systems supporting near-real-time data ingestion for AI-enabled workflows
+  - Build secure, scalable RESTful APIs with OAuth2/JWT authentication, applying security-by-design
+    and least-privilege principles
+  - Build AI-driven UI components such as chat interfaces and dynamic workflows
+  - Collaborate on AI system observability, evaluation, and monitoring in production;
+    define engineering standards and mentor junior engineers at the lead level
+  use_cases:
+  - AI-enabled digital products with intelligent workflows and user experiences
+  - AI-driven UI components such as chat interfaces and dynamic workflows
+  - Near-real-time data ingestion pipelines feeding AI-enabled workflows
+  - LLM-based application integrations with embeddings and inference APIs
+  - Secure, scalable cloud-hosted web applications for enterprise digital products
+  skills:
+    genai: [LLMs, Embeddings, RAG, LangChain, LangGraph, CrewAI, AutoGen, Agentic
+        Workflows]
+    ml: [Machine Learning]
+    web: [React, Node.js, REST APIs, OAuth, JWT, HTML, CSS, Micro-Frontends, Design
+        Systems]
+    databases: [PostgreSQL, SQL, NoSQL, Vector Databases]
+    data: [Data Pipelines, ETL, Databricks, Lakehouse]
+    cloud: [AWS, Azure, IAM]
+    ops: [Docker, Kubernetes, CI/CD, Infrastructure as Code, Terraform, Bicep, CloudFormation,
+      Git, MLOps, LLMOps, Observability, Monitoring, Distributed Systems, Secrets
+        Management]
+    languages: [TypeScript, JavaScript, Python]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8714772'
+  location: Navi Mumbai, IND
+  extracted_at: '2026-08-16T04:06:00.209561'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

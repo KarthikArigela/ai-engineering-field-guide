@@ -1,54 +1,60 @@
 company:
   name: Quantanite
   stage: null
-  focus: |-
-    Cognitive data solutions and AI-based data extraction
-    platform
+  focus: Cognitive data solutions and AI-driven payment/CX products
 position:
   title: Jr AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI agents
-      using frameworks like LangChain, developing AI/ML models
-      using TensorFlow and PyTorch, and implementing AI algorithms
-      for payment and CX products. The position requires hands-on
-      work with LLMs, deep learning models, and agent frameworks,
-      which is core AI/ML development work.
+      The role builds, tests, and deploys AI agents using
+      frameworks like LangChain, AutoGPT, and CrewAI, and works to
+      improve agent interaction reliability and performance —
+      designing agent flows is shaping model behaviour. LLMs
+      (ChatGPT, Claude) and agent orchestration are central to the
+      cognitive data platform, so the classification is ai-first
+      despite the classical ML components (TensorFlow/PyTorch
+      models also being present).
   responsibilities:
-  - Build and deploy AI agents using various frameworks and tools
+  - Build and deploy AI agents using various frameworks and tools, testing agent interactions
+    and improving reliability and performance
   - Lead the design, development, and implementation of AI algorithms and models to
     enhance payment and CX product offerings
-  - Test agent interactions, document behaviors, and improve reliability and performance
   - Develop and deploy AI models including deep learning models using TensorFlow,
     PyTorch, and other ML/DL frameworks
   - Design and maintain the full AI data pipeline including data crawling, ETL, and
     building fact tables
-  - Apply statistical and programming expertise for data analysis and modeling
-  - Optimize AI models for on-premise infrastructure with focus on performance and
+  - Apply statistical and programming expertise (NumPy, Pandas) for data analysis
+    and modeling
+  - Optimize AI models for on-premise infrastructure with a focus on performance and
     security compliance
   - Mentor junior AI/ML engineers and contribute to documentation and process standardization
+  - Contribute to the broader AI agent ecosystem and cross-functional collaboration
   use_cases:
-  - Cognitive data solution for unstructured data extraction
-  - Payment product enhancement through AI
-  - Customer experience (CX) product optimization
-  - Data crawling and information extraction from unstructured sources
-  - Image and speech recognition applications
+  - Cognitive data platform that crawls unstructured data sources and extracts meaningful
+    information
+  - AI-powered payment product offerings
+  - Customer experience (CX) product enhancement
+  - AI agent automation with reliable, tested agent interactions
+  - On-premise AI model deployment optimized for performance and security compliance
   skills:
-    domains: [Image recognition, Speech Recognition]
+    cloud: [Azure]
     languages: [Python, SQL]
-    ml: [TensorFlow, PyTorch, NumPy, Pandas, NLP, Deep Learning, ML algorithms]
-    cloud: [Azure Data Factory, Azure Synapse, Azure Data Lake Storage]
-    genai: [LangChain, AutoGPT, CrewAI, Multi-Agent Systems, ChatGPT, Anthropic API,
-      LLMs]
-    data: [Databricks, Spark, Data Pipelines]
+    ml: [TensorFlow, PyTorch, Deep Learning, Machine Learning, NLP]
     other: []
-    ops: [DevOps, Docker]
-    web: [REST APIs, APIs, Full-Stack Development]
-    databases: [FAISS, Chroma, Pinecone, Weaviate, Relational Databases, NoSQL]
+    ops: [DevOps]
+    databases: [Relational Databases, NoSQL, FAISS, Chroma, Pinecone, Weaviate]
+    domains: []
+    web: [Full-Stack Development, APIs, REST APIs]
+    data: [Data Pipelines, Pandas, NumPy, Azure Data Factory, Databricks, Spark, Azure
+        Synapse, Data Lake Storage]
+    genai: [AI Agents, LLMs, ChatGPT, LangChain, AutoGPT, CrewAI, Generative AI, Multi-Agent
+        Systems, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '6799887'
   location: Mumbai, IND
-  extracted_at: '2026-03-03T11:24:10.434323'
+  extracted_at: '2026-08-15T23:43:00.606608'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

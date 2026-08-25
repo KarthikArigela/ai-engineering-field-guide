@@ -1,0 +1,57 @@
+company:
+  name: Experian
+  stage: null
+  focus: Global data and technology company for financial services
+position:
+  title: Staff Backend AI Engineer, Remote
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agentic AI workflows end-to-end with
+      LangGraph, AutoGen, CrewAI, tool calling, multi-agent
+      coordination, and RAG pipelines — directly shaping model
+      behavior and agent orchestration, so it is ai-first.
+      Classical backend/infra responsibilities are secondary.
+  responsibilities:
+  - Architect, build, and own high-throughput transactional services with high availability
+    and fault tolerance
+  - Design and implement agentic AI workflows using orchestration frameworks with
+    tool-calling and multi-agent coordination on AWS
+  - Write production-grade Python and Go services and set language idioms and performance
+    baselines
+  - Design and govern AWS-native infrastructure aligned with the Well-Architected
+    Framework
+  - Establish engineering standards for code review, test coverage, CI/CD, and observability
+  - Lead technical design reviews and produce architecture decision records
+  - Resolve performance bottlenecks in distributed systems including query optimization
+    and caching
+  - Mentor senior and mid-level engineers and contribute to on-call and incident response
+  use_cases:
+  - Large-scale transactional platform services handling millions of transactions
+    per second
+  - Agentic AI workflows with multi-agent coordination and tool calling
+  - RAG pipelines and LLM integration within production services
+  - High-volume OLTP and event-driven backend systems
+  skills:
+    genai: [LangGraph, AutoGen, CrewAI, Function Calling, Agentic Workflows, RAG,
+      AI Agents, LLMs, OpenAI API]
+    ml: []
+    web: [FastAPI, Pydantic, Microservices]
+    databases: [DynamoDB, PostgreSQL, Redis, Elasticsearch, Amazon Aurora, Amazon
+        MSK]
+    data: [Kafka, Amazon SQS]
+    cloud: [AWS, ECS, EKS, AWS Lambda, SageMaker, AWS S3, API Gateway]
+    ops: [Docker, Terraform, Helm, CI/CD, Jenkins, GitHub Actions, Harness, Datadog,
+      OpenTelemetry, CloudWatch]
+    languages: [Python, Go, asyncio]
+    domains: []
+    other: [Event-Driven Architecture, Distributed Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10749269'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:36:33.146667'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

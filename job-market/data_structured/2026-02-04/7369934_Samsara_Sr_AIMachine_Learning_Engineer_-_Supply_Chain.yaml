@@ -1,66 +1,62 @@
 company:
   name: Samsara
-  stage: Public
-  focus: |-
-    Connected Operations Cloud for IoT data and physical
-    operations
+  stage: 'Recently public (NYSE: IOT)'
+  focus: IoT Connected Operations Cloud for physical operations
 position:
   title: Sr. AI/Machine Learning Engineer - Supply Chain
   ai_type:
     type: ml-first
     reasoning: |-
-      The role involves hands-on work building, training, and
-      deploying traditional ML and statistical models for time
-      series forecasting, optimization, and anomaly detection. The
-      focus is on classical ML techniques (Prophet, LSTMs) rather
-      than modern LLMs/GenAI agents, with direct ownership of
-      model development and production deployment.
+      The role owns the design, training, validation, and
+      deployment of classical ML and statistical models — time
+      series forecasting, inventory optimization, supplier risk
+      scoring, and anomaly detection — with no LLM or agent
+      components anywhere in the description. The person clearly
+      shapes model behavior (Step 1 yes), and since only classical
+      ML/statistical forecasting is involved (Step 2), this is ml-
+      first.
   responsibilities:
   - Define the end-to-end AI transformation roadmap for supply chain alongside the
-    Director, aligning with company OKRs and working closely with executive stakeholders
+    Director, aligned with company OKRs and executive stakeholders
   - Own the design, training, validation, and deployment of ML and statistical models
-    including demand forecasting, inventory optimization, and supplier risk scoring
+    such as demand forecasting, inventory optimization, and supplier risk scoring
   - Build predictive models to forecast demand, lead times, and cellular spend across
     Samsara's global supply network
-  - Create novel features using large-scale ERP, IoT, and third-party datasets; build
-    pipelines and ETL jobs to serve models and stakeholders
-  - Deliver production-grade code that supports both batch and real-time inference
-    with MLOps best practices
-  - Act as the AI liaison to Product, Engineering, Procurement, and Finance—ensuring
-    alignment on data requirements, integration, and change management
-  - Drive enhancements to data infrastructure and analytics platform to support real-time
-    model training, monitoring, and inference at scale
+  - Create novel features from large-scale ERP, IoT, and third-party datasets and
+    build pipelines and ETL jobs to serve models and stakeholders
+  - Deliver production-grade code supporting batch and real-time inference with MLOps
+    best practices
+  - Act as the AI liaison to Product, Engineering, Procurement, and Finance, ensuring
+    alignment on data requirements and change management
   - Establish governance frameworks, documentation standards, and quality controls
     for model development, validation, and lifecycle management
+  - Mentor junior scientists through code reviews and partner with Ops management
+    to drive adoption of AI-driven workflows
   use_cases:
-  - Demand forecasting across thousands of SKUs with time series models to predict
-    future inventory needs
-  - Supply risk modeling using real-time IoT signals to identify and mitigate supplier
-    vulnerabilities
-  - Inventory optimization using predictive analytics to balance stock levels, reduce
-    costs, and improve operational efficiency
-  - Lead time forecasting to anticipate delays and optimize procurement and logistics
-    planning
-  - Anomaly detection on large-scale ERP and IoT datasets to identify operational
-    issues and opportunities for improvement
-  - Cellular spend forecasting to optimize telecommunications costs across the global
-    supply network
+  - Demand forecasting across thousands of SKUs
+  - Inventory optimization across the global supply network
+  - Supplier risk scoring using real-time IoT signals
+  - Lead time and cellular spend forecasting
+  - Anomaly detection in supply chain operations
+  - Cost optimization of cloud and GPU spend for ML workloads
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, Serverless]
     languages: [Python, SQL]
-    ml: [time series forecasting, statistical modeling, Machine Learning, optimization,
-      Anomaly Detection, Prophet, LSTMs, GPU/TPU, A/B testing, multi-armed bandits,
-      Bayesian methods, model compression, Quantization, pruning]
-    cloud: [AWS, GCP, Azure]
-    genai: []
-    data: [Data Pipelines, Tableau, Power BI]
-    other: []
-    ops: [MLOps, CI/CD, model versioning, Model Monitoring]
-    web: []
+    ml: [Machine Learning, Time Series Forecasting, Statistical Modeling, Optimization,
+      Anomaly Detection, Prophet, LSTMs, Transformers, Bayesian Methods, Multi-Armed
+        Bandits, Quantization, Pruning]
+    other: [Tableau, Power BI, A/B Testing]
+    ops: [MLOps, CI/CD, Model Versioning, Model Monitoring, Real-Time Inference]
     databases: []
+    domains: [Supply Chain, Operations Research, IoT]
+    web: []
+    data: [Data Pipelines]
+    genai: []
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7369934'
   location: USA
-  extracted_at: '2026-02-05T10:43:41.500739'
+  extracted_at: '2026-08-15T21:33:19.774702'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

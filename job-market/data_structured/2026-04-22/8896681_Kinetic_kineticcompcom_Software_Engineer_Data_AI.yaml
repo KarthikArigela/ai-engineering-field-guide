@@ -1,57 +1,61 @@
 company:
   name: Kinetic (kineticcomp.com)
-  stage: Growth Stage (backed by Nationwide)
+  stage: Backed by Nationwide
   focus: |-
-    Workers' comp technology for injury prediction, prevention,
-    and management
+    Workers' comp technology for injury prediction and
+    prevention
 position:
   title: Software Engineer, Data & AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role explicitly involves building "autonomous AI agents"
-      and "LLM-based applications" as core responsibilities. While
-      it also covers data engineering (ETL pipelines, data lakes),
-      the AI component—particularly deploying LLM and agentic AI
-      features in production—places it in the ai-first category.
-      The preferred qualifications reinforce this with emphasis on
-      LLM and agentic AI production experience.
+      The role explicitly includes designing and building
+      autonomous AI agents and LLM-based applications, with
+      preferred experience deploying AI features using LLMs and
+      agentic AI patterns. Designing agent flows and LLM
+      application behavior is direct model shaping, and the
+      components involved are LLM/agent systems, making this ai-
+      first despite the strong data engineering component.
   responsibilities:
   - Design, develop, and implement robust, scalable, cloud-native data and AI solutions
     supporting Kinetic's mission
-  - Build and maintain autonomous AI agents and LLM-based applications
-  - Design and operate ETL pipelines and data lakes as part of the data ecosystem
-  - Write clean, efficient, well-tested, and maintainable code in a collaborative
-    team environment
-  - Participate in architecture and code reviews ensuring quality, performance, and
-    scalability
+  - Build and maintain the data ecosystem including ETL pipelines, data lakes, autonomous
+    AI agents, and LLM-based applications
+  - Write clean, efficient, well-tested, and maintainable code in a team environment
+  - Participate in architecture and code reviews to ensure quality, performance, reliability,
+    and scalability
   - Implement security, reliability, and observability best practices in software
-    systems
-  - Troubleshoot complex technical issues with root cause analysis and post-mortem
-    documentation
+    design and development
+  - Troubleshoot and resolve complex technical issues with emphasis on root cause
+    analysis and post-mortems
   - Contribute across the stack including backend services, internal tools, and AI-powered
     features
+  - Deliver software from concept through production including CI/CD, monitoring,
+    and operational support
   use_cases:
-  - Generative AI for workers' compensation claims management
-  - Autonomous AI agents for operational automation
-  - Injury prediction and prevention using data-driven insights
-  - LLM-based applications for workplace safety improvement
-  - Wearable tech data integration for strain and sprain injury reduction
+  - Workplace injury prediction and prevention for labor-intensive industries
+  - Generative AI for workers' comp claims management
+  - Accelerating return-to-work programs for injured workers
+  - Autonomous AI agents and LLM applications across the data ecosystem
+  - Wearable tech reducing strain and sprain injuries in parcel, manufacturing, and
+    warehousing
   skills:
-    domains: []
-    languages: [Python, SQL]
+    cloud: [AWS]
+    languages: [Python]
     ml: []
-    cloud: [AWS, Cloud-native architecture]
-    genai: [LLMs, Agentic AI patterns]
-    data: [Airflow, Data Pipelines, Data lakes]
     other: []
-    ops: [Terraform, CI/CD, Docker]
-    web: []
+    ops: [Terraform, CI/CD, Monitoring, Observability]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines, Data Lakes, Airflow]
+    genai: [LLMs, AI Agents, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8896681'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:36:37.209106'
+  extracted_at: '2026-08-16T05:59:56.614425'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

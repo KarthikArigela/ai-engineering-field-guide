@@ -1,52 +1,55 @@
 company:
   name: Chubb
-  stage: Public
+  stage: 'Publicly traded (NYSE: CB, S&P 500 component)'
   focus: |-
-    Global insurance provider offering property, casualty,
-    accident, health, reinsurance, and life insurance
+    Global property, casualty, and life insurance and
+    reinsurance
 position:
   title: Principal Engineer - Java/.Net with AI-First
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Principal Engineer role leading architecture and
-      development of Java/.NET systems with AI integration. The
-      role focuses on embedding AI/ML capabilities into core
-      platforms using cloud ML frameworks and cognitive services,
-      but primarily involves software architecture and system
-      integration rather than hands-on model building, training,
-      or fine-tuning.
+      This is a principal Java/.NET engineer role whose AI work is
+      integrating pre-built capabilities (Azure Cognitive
+      Services, cloud ML frameworks, GenAI features, predictive
+      analytics) into enterprise platforms and using AI coding
+      tools like Claude/Cursor for acceleration. There is no
+      evidence of the person writing prompts, designing RAG or
+      agent flows, training/fine-tuning models, or building evals
+      or guardrails, so they do not shape model behaviour. The AI-
+      first branding does not override the integration-focused
+      responsibilities.
   responsibilities:
-  - Architect and evolve large-scale, distributed systems with microservices, ensuring
-    scalability, resilience, and AI-driven features like predictive analytics or GenAI
-    integration
+  - Architect and evolve large-scale distributed systems with microservices, embedding
+    AI-driven features such as predictive analytics and GenAI integration
   - Lead technical strategy from requirements gathering to implementation, including
-    API design (REST/gRPC), database optimization (SQL/NoSQL), and performance tuning
-  - Mentor senior developers, conduct code/design reviews, and champion best practices
+    API design (REST/gRPC), database optimization, and performance tuning
+  - Mentor senior developers, conduct code and design reviews, and champion best practices
     like TDD, CI/CD, and agile methodologies
   - Collaborate with product and engineering leaders to align AI-first solutions with
-    business goals, while adopting tools like Azure Cognitive Services or cloud ML
-    frameworks
+    business goals
+  - Adopt AI capabilities such as Azure Cognitive Services and cloud ML frameworks
+    when building intelligent enterprise systems
+  - Combine hands-on coding with strategic decision-making for high-impact projects
+    in cloud-native environments
   use_cases:
-  - Predictive analytics for insurance insights and risk assessment
-  - GenAI integration for intelligent automation and augmented decision-making
-  - AI-driven features embedded in core insurance platforms
-  - Cloud-native enterprise systems with ML capabilities
-  - Asynchronous processing enhanced with AI opportunities
-  - Multi-cloud deployments for insurance industry solutions
+  - Predictive analytics features embedded in enterprise insurance systems
+  - GenAI integration into core insurance platforms
+  - Intelligent automation capabilities embedded into enterprise applications
+  - AI-augmented enterprise-grade platforms built on Java/.NET stacks
   skills:
-    domains: []
-    languages: [Java, Kotlin, .NET, C#, TypeScript]
-    ml: [TensorFlow, PyTorch]
     cloud: [Azure Cognitive Services, AWS, Azure, GCP]
-    genai: [Anthropic API, Cursor]
+    languages: [Java, Kotlin, .NET, C#, TypeScript, SQL]
+    ml: [TensorFlow, PyTorch, Machine Learning]
+    other: [TDD, Agile, Code Review]
+    ops: [Distributed Systems, CI/CD]
+    databases: [PostgreSQL, MongoDB, NoSQL]
+    domains: []
+    web: [ASP.NET, Spring Boot, Microservices, REST APIs, gRPC, React]
     data: []
-    other: [TDD, Agile]
-    ops: [CI/CD]
-    web: [Spring Boot, ASP.NET, React, REST, gRPC, Microservices]
-    databases: [PostgreSQL, MongoDB]
+    genai: [Generative AI, Anthropic API, Cursor]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9247888'
   location: IND
@@ -54,4 +57,6 @@ meta:
   - IND
   - Bengaluru, IND
   remote: true
-  extracted_at: '2026-05-29T08:58:18.570204'
+  extracted_at: '2026-08-16T09:48:00.941418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

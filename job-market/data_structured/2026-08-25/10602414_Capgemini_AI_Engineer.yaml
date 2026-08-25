@@ -1,0 +1,53 @@
+company:
+  name: Capgemini
+  stage: null
+  focus: Global technology consulting and managed services
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns prompt/context engineering, RAG pipelines,
+      agent orchestration, evaluation harnesses, and guardrails
+      for LLM/agentic systems — directly shaping model behavior in
+      production. LLM/agent components dominate, so ai-first.
+  responsibilities:
+  - Design and build production-grade AI/agentic systems from architecture through
+    deployment, monitoring, and iteration
+  - 'Own the full lifecycle of AI capabilities: problem framing, evaluation strategy,
+    prompt/context engineering, orchestration, and post-launch tuning'
+  - Build deterministic guardrails around probabilistic components including retries,
+    validation, fallback paths, and human-in-the-loop checkpoints
+  - Design evaluation harnesses and offline/online eval pipelines to catch regressions
+  - Make architectural tradeoffs on latency, cost, and reliability including token
+    economics
+  - Integrate AI systems into existing production infrastructure such as APIs, data
+    pipelines, and orchestration layers
+  use_cases:
+  - Production LLM and agentic systems delivery for enterprise clients
+  - AI capabilities integrated into existing client production infrastructure
+  - Regulated-industry AI systems requiring reliability and auditability
+  - Cost- and latency-optimized AI system deployments
+  skills:
+    genai: [Agentic Workflows, Anthropic API, OpenAI API, LangGraph, CrewAI, Vector
+        Databases, RAG, Prompt Engineering, Guardrails, LLMs]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Observability, CI/CD, Kubernetes]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10602414'
+  location: Pune, IND
+  locations:
+  - Pune, IND
+  - Hyderabad, IND
+  extracted_at: '2026-08-25T10:53:28.588372'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

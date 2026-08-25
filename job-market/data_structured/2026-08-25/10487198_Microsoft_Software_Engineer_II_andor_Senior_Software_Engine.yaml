@@ -1,0 +1,54 @@
+company:
+  name: Microsoft
+  stage: null
+  focus: |-
+    AI compilers and frameworks for supercomputers and
+    accelerators
+position:
+  title: Software Engineer II and/or Senior Software Engineer - AI Compilers
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds AI compiler features and optimization passes
+      (LLVM, MLIR, Torch Dynamo, Triton) and AI kernel/numerical
+      workload optimization, which is shaping model internals —
+      not just serving others' models. The targets are the
+      workloads behind Microsoft's advanced AI models and
+      supercomputers, with the tooling centered on the LLM
+      training/inference stack (Torch Dynamo, Triton), so this
+      maps to ai-first.
+  responsibilities:
+  - Invent and implement compiler features and advanced optimization passes using
+    LLVM, MLIR, Torch Dynamo, and Triton
+  - Develop code generation techniques for new hardware platforms
+  - Design and develop AI software in C++ and Python
+  - Optimize AI workloads for performance
+  - Design new programming abstractions for AI
+  - Collaborate with hardware architects, ML developers, and researchers across Microsoft
+  - Identify requirements, plan and design solutions, and schedule deliverables
+  - Establish coding standards and drive adoption across the team
+  use_cases:
+  - Compiling and optimizing AI model training and inference workloads
+  - Code generation for new AI accelerator hardware (Maia-200) and supercomputers
+  - Programming abstractions for AI developers
+  - Performance optimization of AI workloads across Microsoft platforms
+  skills:
+    genai: []
+    ml: [Triton, Torch Dynamo, AI Inference Systems, AI Kernel Development]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [High-Performance Computing]
+    languages: [C++, Python, C]
+    domains: []
+    other: [LLVM, MLIR, Compilers]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10487198'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:21:33.654211'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: Uniphore
+  stage: null
+  focus: AI-native enterprise customer experience platform
+position:
+  title: Staff Software Engineer (Java/Python with AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The mandatory work is backend platform engineering:
+      designing and operating Java/Python services, API contracts,
+      data models, and SaaS/on-prem infrastructure on the BAIC
+      platform. All GenAI skills (RAG, LangGraph, agent
+      frameworks, fine-tuning) are explicitly marked "Good to
+      Have, Not Mandatory", and the AI used day-to-day is coding
+      agents as developer tooling, which is explicitly not shaping
+      model behavior.
+  responsibilities:
+  - Own new BAIC platform capabilities end-to-end from ambiguous problem framing through
+    high-level and low-level design to production rollout and customer adoption
+  - Design and build scalable, reliable, low-latency backend services in Java (Spring
+    Boot) and Python (FastAPI)
+  - Drive rigorous low-level design covering API contracts, data models, concurrency,
+    failure modes, backpressure, idempotency, and observability
+  - Build for both SaaS and on-premises/customer-controlled deployments, making trade-offs
+    around topology, secrets, network boundaries, and upgrade paths
+  - Partner with DevOps/SRE to codify infrastructure in Terraform and ship through
+    GitHub Actions, establishing deployment, rollback, and environment-promotion patterns
+  - Troubleshoot, debug, and optimize existing services for performance, reliability,
+    and scalability in cloud and on-prem environments
+  - Use coding agents and AI-assisted developer tooling routinely to amplify throughput
+    while owning final quality, design integrity, and security
+  - Raise the engineering bar through design reviews, code reviews, and mentorship
+    in collaboration with product, design, and AI/ML teams
+  use_cases:
+  - Enterprise knowledge management on the Business AI Cloud (BAIC) platform
+  - Agent orchestration for enterprise customer workflows
+  - Unified data access across customer interaction channels
+  - Model serving for enterprise customers across SaaS and on-premises deployments
+  - Multimodal capture and analysis of voice, video, and text for customer experience
+  skills:
+    genai: [RAG, LangGraph, LangChain, CrewAI, Agentic Workflows, Function Calling,
+      LLMs, Guardrails, LLM Evaluation, Fine-Tuning, LoRA, QLoRA, Instruction Tuning,
+      Coding Agents]
+    ml: []
+    web: [Spring Boot, Vert.x, FastAPI, REST APIs, gRPC, WebSockets]
+    databases: [PostgreSQL, MongoDB, Relational Databases, NoSQL, Vector Search, Vector
+        Databases]
+    data: [Kafka, Data Modeling]
+    cloud: [AWS, GCP, Azure]
+    ops: [Terraform, GitHub Actions, CI/CD, Kubernetes, Distributed Systems, Observability,
+      OpenTelemetry, Prometheus, Grafana, Distributed Tracing, Linux]
+    languages: [Java, Python, JavaScript, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture, Shell Scripting]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9109443'
+  location: Chennai, IND
+  locations:
+  - Chennai, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-16T08:07:34.560228'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

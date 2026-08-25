@@ -1,55 +1,63 @@
 company:
   name: CAIS
-  stage: Public
-  focus: Alternative investment platform for financial advisors
+  stage: null
+  focus: |-
+    Alternative investments platform for independent financial
+    advisors
 position:
   title: IT Support Manager / Microsoft Engineer (AI Forward)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an IT Support Manager role where AI tools (Claude
-      Code, OpenAI Codex, ChatGPT) are used to assist with
-      Microsoft administration tasks and enable end-users, not to
-      build or deploy AI models. The person uses AI as a
-      productivity tool for scripting, automation, and
-      troubleshooting - the work itself is IT support and
-      Microsoft environment management.
+      This is an IT support leadership and Microsoft estate
+      administration role where AI tools (Claude Code, Codex) are
+      used as instruments to write scripts, automate admin tasks,
+      and troubleshoot configurations - explicitly stated as "AI
+      tools are how you do the work, not the work itself." The
+      role provisions AI tool access and evangelizes prompt basics
+      to employees but does not shape any model's behavior through
+      prompt design for a product, retrieval, agents, fine-tuning,
+      or evals. No model-behavior deliverable means ai-support.
   responsibilities:
-  - Manage CAIS's support function firmwide, leveraging internal staff and MSP resources
-    while holding partners accountable for performance
-  - Act as the senior escalation point for all end-user support issues across the
-    organization, owning complex tickets through to resolution
-  - Lead day-to-day administration and engineering of the Microsoft estate including
-    Intune device policies, Azure/Entra applications, and M365 service health
-  - Use Claude Code and OpenAI Codex as primary tools for engineering solutions, generating
-    scripts, automating admin tasks, and improving documentation
-  - Manage provisioning, permissions, and configuration for end-user AI platforms
-    and serve as the first point of contact for access issues
-  - Evangelize AI tooling across the organization by running informal sessions, sharing
-    practical tips, and introducing basic prompt engineering concepts
-  - Build trust as the visible face of IT at CAIS HQ, being physically present and
-    accessible as the go-to person for support issues
+  - Manage the firmwide IT support function, leveraging internal staff and MSP resources
+    and holding partners accountable for service quality
+  - Serve as the senior escalation point for all end-user support issues, owning complex
+    or unresolved tickets through to resolution
+  - Lead day-to-day administration and engineering of the Microsoft estate, including
+    Intune device policies and compliance profiles, Azure/Entra enterprise application
+    management, and M365 service health
+  - Use Claude Code and OpenAI Codex as primary tools to generate and refine scripts,
+    automate repetitive admin tasks, troubleshoot configurations, and improve documentation
+  - Manage provisioning, permissions, and basic configuration for end-user AI platforms
+    and act as first point of contact for AI access issues
+  - Enable employee AI adoption through informal sessions, practical tips, basic prompt
+    engineering concepts, and one-on-one guidance
+  - Be the visible, accessible face of IT at CAIS headquarters, building trust with
+    employees as the go-to technology resource
   use_cases:
-  - IT support and helpdesk operations for financial services company
-  - Microsoft 365 and Azure environment administration and management
-  - AI-assisted scripting and automation for administrative tasks
-  - End-user enablement and adoption of AI tools in enterprise environment
-  - Device management and compliance using Intune and Azure services
-  - AI tool provisioning and access management for employees
+  - Automating Microsoft 365, Azure, and Intune administrative tasks with AI-generated
+    scripts
+  - Troubleshooting and improving Microsoft environment configurations using AI tooling
+  - Improving IT documentation with AI assistants
+  - Managing end-user access and provisioning for AI platforms like Claude, Codex,
+    and Copilot
+  - Employee AI onboarding, enablement, and basic prompt engineering education
   skills:
-    domains: []
-    languages: [scripting]
-    ml: []
     cloud: [Microsoft 365, Azure, Entra ID, Intune]
-    genai: [Claude Code, Codex, ChatGPT, GitHub Copilot, Prompt Engineering]
-    data: []
+    languages: []
+    ml: []
     other: []
-    ops: [IT support, MSP management, automation]
-    web: []
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Claude Code, Codex, Anthropic API, ChatGPT, GitHub Copilot, Prompt Engineering]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '9257001'
   location: New York, USA
-  extracted_at: '2026-05-29T08:58:41.116456'
+  extracted_at: '2026-08-16T09:50:52.942532'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

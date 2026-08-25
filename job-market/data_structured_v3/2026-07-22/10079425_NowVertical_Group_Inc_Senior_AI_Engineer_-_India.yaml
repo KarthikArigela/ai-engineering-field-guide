@@ -1,0 +1,64 @@
+company:
+  name: NowVertical Group Inc.
+  stage: Publicly listed on TSXV
+  focus: |-
+    Data and AI solutions consultancy delivering business
+    insights
+position:
+  title: Senior AI Engineer - India
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: designing multi-
+      agent orchestration (LangGraph, CrewAI), building RAG
+      pipelines, writing system prompts and routing logic, and
+      implementing AI guardrails and output-quality optimization.
+      These are all LLM/agent-centric shaping activities, so it is
+      ai-first.
+  responsibilities:
+  - Lead implementation of multi-agent systems using Google AI SDKs (Vertex AI Agent
+    Builder), LangGraph, CrewAI, and other orchestration frameworks
+  - Design and build stateful, tool-augmented agents with advanced reasoning, long-term
+    planning, and short/long-term memory systems
+  - Deliver production-grade LLM applications including RAG pipelines, specialised
+    agents, and developer copilots
+  - Design system prompts, dynamic routing logic, and AI guardrails using Vertex AI
+    Model Garden or Azure AI Studio
+  - Develop reusable AI microservices, agent frameworks, and core AI platform capabilities
+    including model routing, centralised observability, and safety filters
+  - Deploy and manage agent-based systems on GCP, Azure, and/or AWS using Docker,
+    Kubernetes, and Cloud Run with monitoring via LangSmith, Azure Monitor, and Vertex
+    AI Inspector
+  - Drive incident response and post-mortems for production AI system failures
+  - Act as technical lead on AI engineering workstreams, mentor junior engineers,
+    and define engineering standards across the team
+  use_cases:
+  - Multi-agent AI systems with orchestration patterns, memory, and autonomous tool-augmented
+    execution
+  - RAG pipelines for enterprise knowledge retrieval over unstructured data
+  - Specialised LLM agents and developer copilots
+  - Integration of enterprise APIs and legacy systems into agentic workflows
+  - Production AI platform with model routing, observability, and safety filters
+  skills:
+    genai: [LLMs, AI Agents, Multi-Agent Systems, Agentic Workflows, RAG, LangGraph,
+      CrewAI, LlamaIndex, Haystack, Google AI SDKs, Prompt Engineering, Guardrails,
+      Function Calling, Fine-Tuning, LLM Evaluation]
+    ml: []
+    web: [FastAPI, Microservices]
+    databases: [Vector Databases, Pinecone, Weaviate, Azure AI Search, BigQuery, Azure
+        Synapse]
+    data: [Data Pipelines, ETL, Pub/Sub]
+    cloud: [GCP, Azure, AWS, Vertex AI, Azure AI Foundry, Cloud Run, GKE, AKS, EKS]
+    ops: [Docker, Kubernetes, Terraform, Pulumi, Infrastructure as Code, CI/CD, LangSmith,
+      Azure Monitor, Observability]
+    languages: [Python, Go, Node.js]
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10079425'
+  location: Navi Mumbai, IND
+  extracted_at: '2026-08-16T16:42:56.030256'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

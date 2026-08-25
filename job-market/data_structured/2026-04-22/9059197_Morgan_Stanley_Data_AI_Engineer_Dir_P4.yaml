@@ -1,52 +1,53 @@
 company:
   name: Morgan Stanley
-  stage: Public
-  focus: Global financial services and investment banking
+  stage: null
+  focus: Global financial services firm
 position:
   title: Data AI Engineer, Dir, P4
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building and maintaining data
-      infrastructure and pipelines for AI platforms, not on
-      building, training, or deploying AI/ML models directly. The
-      responsibilities center on ETL processes, data quality, data
-      governance, and data systems optimization — all
-      enabling/serving AI teams rather than working on AI systems
-      themselves.
+      The role builds and maintains data infrastructure
+      (pipelines, ETL, data quality, governance) that feeds the
+      firm's firmwide AI development platform. There is no prompt
+      work, retrieval design, model training, or output-quality
+      evaluation — the person never shapes model behaviour.
+      Building datasets and pipelines for an AI platform is
+      plumbing, so the role is ai-support even though Snowflake
+      Cortex appears as a nice-to-have.
   responsibilities:
-  - Develop and maintain data pipelines and ETL processes for the Data AI platform
-  - Work with structured and unstructured data to ensure accessibility and usability
+  - Develop and maintain data pipelines and ETL processes for the firm's Data AI platforms
+  - Work with structured and unstructured data to ensure it is accessible and usable
   - Optimize data systems for performance and scalability
   - Implement data quality and data governance standards
-  - Collaborate with stakeholders across technology and business units to translate
-    data needs into technical solutions
-  - Create and maintain technical documentation and training materials for knowledge
-    sharing
-  - Participate in code reviews and contribute to improvement of development processes
+  - Collaborate with technology and business stakeholders to translate data needs
+    into technical solutions and data-driven insights
+  - Create and maintain technical documentation, training materials, and knowledge-sharing
+    content
+  - Participate in code reviews and contribute to improving development processes
   - Contribute to the broader data architecture community through knowledge sharing
     and presentations
   use_cases:
   - Firmwide AI development platform enabling teams to build AI-powered applications
-  - Data infrastructure supporting AI adoption across Morgan Stanley's financial services
-    businesses
-  - ETL pipelines feeding structured and unstructured data into AI platforms
-  - Data governance and quality assurance for enterprise AI data systems
+  - Accelerating AI adoption across Morgan Stanley's financial services businesses
+  - Making structured and unstructured data accessible and usable for AI and analytics
+  - Delivering data-driven insights to technology and business units
   skills:
-    domains: []
+    cloud: [AWS, Azure]
     languages: [Python]
     ml: []
-    cloud: [Snowflake Cortex, AWS, Azure]
-    genai: []
-    data: [Spark, Hadoop, Databricks, Kafka, Jupyter Notebooks, Data Pipelines, Data
-        Modeling]
-    other: [Tableau, Power BI, Collibra]
-    ops: [Git, CI/CD]
-    web: []
+    other: [Jupyter Notebooks, Tableau, Power BI, Collibra]
+    ops: [Git, CI/CD, DevOps]
     databases: [SQL, NoSQL, Snowflake, Data Warehousing]
+    domains: []
+    web: []
+    data: [Spark, Hadoop, Databricks, Data Modeling, Kafka, Data Pipelines, Data Governance]
+    genai: [Snowflake Cortex]
   is_customer_facing: false
-  is_management: false
+  is_management: true
 meta:
   job_id: '9059197'
   location: New York, USA
-  extracted_at: '2026-04-22T13:07:52.000336'
+  extracted_at: '2026-08-16T07:35:55.096769'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

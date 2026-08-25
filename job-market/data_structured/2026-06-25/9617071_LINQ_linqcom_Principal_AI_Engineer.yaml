@@ -1,56 +1,60 @@
 company:
   name: LINQ (linq.com)
   stage: PE-backed
-  focus: K-12 school district operations software
+  focus: K-12 school operations and administration software
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is explicitly about designing, building, and
-      shipping multi-step, tool-using LLM agents in production
-      using frameworks like LangGraph, OpenAI Agents SDK, and
-      Anthropic tool use. The engineer works directly on agent
-      systems — orchestration, evaluation, guardrails, and
-      deployment — making this hands-on AI building, not
-      supporting infrastructure or general SWE.
+      The role builds multi-step, tool-using LLM agents, designs
+      evals and guardrails, and shapes orchestration patterns —
+      directly shaping model behavior (Step 1 yes). All model
+      targets are LLM/agent components (foundation model APIs,
+      LangGraph, MCP, Anthropic/OpenAI tool use), and the
+      description explicitly disclaims ML training, so it is ai-
+      first under Step 2.
   responsibilities:
-  - Embed with teams across LINQ to map workflows, identify friction, and ship agents
-    that take real work off people's plates
-  - Design and ship production-ready multi-step, tool-using agents using foundation
-    model APIs, agent frameworks, and MCP servers
-  - Build reusable agent skills, patterns, and primitives that compound across teams
-  - Establish evaluation harnesses, guardrails, and observability instrumentation
-    for shipped agents
-  - Define LINQ's internal agent platform architecture including orchestration patterns,
-    skills library, and evaluation discipline
-  - Co-launch an internal AI champions network with agent templates, reusable skills,
-    and MCP integrations
-  - Run enablement sessions and office hours to drive AI adoption across the organization
-  - Partner with CTO on AI strategy and ensure compliance with FERPA, COPPA, PCI,
-    and CCPA requirements
+  - Embed with teams across LINQ to map how work gets done and ship multi-step, tool-using
+    agents that take real work off people's plates
+  - Build durable, production-ready agents using foundation model APIs, agent frameworks,
+    and MCP servers, leaving behind reusable skills and patterns
+  - Design evals, guardrails, and instrumentation, standing up metrics and dashboards
+    to prove impact in time saved and errors avoided
+  - Hand off shipped agents to internal champions and sustaining teams through documentation
+    and training
+  - 'Help define LINQ''s internal agent platform: orchestration patterns, skills library,
+    and evaluation discipline'
+  - Evaluate and recommend AI tooling and make build-vs-buy-vs-integrate recommendations
+    to leadership
+  - Enable teams through an internal AI champions network, office hours, workshops,
+    and agent templates
+  - Partner with the CTO on AI strategy and with Security and Compliance to meet FERPA,
+    COPPA, PCI, and CCPA requirements
   use_cases:
-  - Sales motion automation including pipeline hygiene and RFP support
-  - Customer experience automation including support deflection and ticket triage
-  - Knowledge management and internal workflow automation
-  - Internal agent platform for cross-team AI adoption and orchestration
-  - Reusable agent skills library for enterprise workflow simplification
+  - Go-to-market workflow automation (sales motion, pipeline hygiene, RFP support)
+  - Customer experience automation (support deflection, ticket triage, knowledge management)
+  - Internal agent platform with reusable, shareable agent skills across teams
+  - Agentic workflow automation that reduces manual work across business functions
+  - LLM-to-enterprise-system integration via MCP servers
   skills:
-    domains: [FERPA/COPPA compliance, PCI compliance, CCPA compliance]
-    languages: [JavaScript, TypeScript, Python]
-    ml: []
     cloud: [AWS]
-    genai: [LangGraph, OpenAI Agents SDK, Anthropic tool use, OpenAI API, Anthropic
-        API, MCP, Agentic Workflows, Prompt Engineering, Agent evaluation and guardrails]
-    data: []
-    other: []
-    ops: [Docker, Monitoring and observability tooling]
-    web: [React, Node.js]
-    databases: [SQL]
+    languages: [JavaScript, TypeScript]
+    ml: []
+    other: [FERPA, COPPA, SOC 2, HIPAA Compliance]
+    ops: [Observability]
+    databases: []
+    domains: []
+    web: [React, Node.js, APIs]
+    data: [Data Pipelines]
+    genai: [LangGraph, OpenAI Agents SDK, OpenAI API, Anthropic API, Function Calling,
+      MCP, AI Agents, LLMs, Guardrails, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9617071'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:46:07.468306'
+  extracted_at: '2026-08-16T13:14:54.750857'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

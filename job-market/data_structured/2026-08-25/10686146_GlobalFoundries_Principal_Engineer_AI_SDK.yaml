@@ -1,0 +1,54 @@
+company:
+  name: GlobalFoundries
+  stage: null
+  focus: |-
+    Semiconductor foundry providing design and fabrication
+    services
+position:
+  title: Principal Engineer AI SDK
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role optimizes neural network acceleration on embedded
+      RISC-V AI hardware and works with ML compiler infrastructure
+      (MLIR, IREE, TVM), which is shaping classical ML/DL system
+      internals. No LLM, prompt, or agent components are involved,
+      so it is ml-first.
+  responsibilities:
+  - Lead architecture, development, and production of embedded AI software stacks
+    on Linux-based RISC-V AI hardware
+  - Design and build the end-to-end Linux SDK including Board Support Packages, kernel
+    drivers, and tooling
+  - Lead firmware/OS bring-up and bridge SoC hardware with production ML frameworks
+    like PyTorch and TensorFlow
+  - Optimize neural network acceleration on the AI hardware
+  - Build developer tooling for the SDK
+  - Establish automated testing frameworks, system observability, and CI/CD pipelines
+    for SDK integration and performance regression testing
+  - Drive technical consensus across cross-functional teams as a senior individual
+    contributor
+  use_cases:
+  - Neural network acceleration on embedded RISC-V AI hardware
+  - Linux AI SDK for SoC-based edge AI platforms
+  - Hardware-software bridging for production ML frameworks on custom silicon
+  - Developer tooling and SDK for AI application development on MIPS by GF hardware
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, Neural Networks, MLIR, TVM, TFLite]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Observability, Automated Testing]
+    languages: [Python]
+    domains: []
+    other: [Linux, Embedded Systems, Board Support Packages, Kernel Drivers, SoC Architecture,
+      RISC-V, Firmware, IREE, Power Management, Open Source Development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10686146'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:16:25.938047'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

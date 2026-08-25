@@ -1,0 +1,63 @@
+company:
+  name: Syndesus
+  stage: Seed stage, backed by Tier-1 crypto VCs
+  focus: Autonomous AI trading agents for crypto markets
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes the behaviour of an autonomous LLM-driven
+      trading agent fleet: it evaluates prompted general-purpose
+      models against fine-tuned ones, builds the evaluation
+      framework that judges agent decision quality and feeds
+      outcomes back into strategy, and optimizes structured
+      outputs at agent-fleet scale. Although the learning loop is
+      RL-based, the agents and model-hosting decisions involve
+      LLMs, and a role shaping both LLM and classical ML systems
+      is ai-first.
+  responsibilities:
+  - Design and implement the closed-loop pipeline connecting live trade outcomes back
+    to strategy improvement across signal quality, position sizing, timing, and risk
+    parameters
+  - Build the evaluation framework that separates genuine predictive signal from noise
+    across agents, market conditions, and configurations
+  - Automate the strategy generation and testing cycle, exploring new configurations,
+    validating them against real fleet data, and surfacing deployment candidates
+  - Detect market regime shifts and manage fleet-level coordination including concentration
+    risk, capital allocation, and exploration vs. exploitation balance
+  - Decompose every trade into component drivers (signal quality, execution efficiency,
+    exit timing) and wire attributions back into strategy design
+  - Own the build-vs-buy decision on model hosting, evaluating proxied external APIs
+    versus fine-tuned models on owned infrastructure and executing the chosen path
+  - Optimize inference for a large autonomous agent fleet with concurrent agents,
+    structured outputs, and cost efficiency at scale
+  - Build the telemetry and data capture layers recording every decision, signal score,
+    and evaluation across the fleet
+  use_cases:
+  - Autonomous crypto trading agents executing with real capital 24/7
+  - Fleet self-improvement where agents learn from each other's winning patterns without
+    human intervention
+  - Continuous strategy generation, validation, and deployment candidate selection
+  - Market regime detection and adaptive risk management across a trading agent fleet
+  - Cost-efficient model inference serving for concurrent autonomous agents
+  skills:
+    genai: [Fine-Tuning, Structured Outputs, Multi-Agent Systems, PEFT, LoRA]
+    ml: [Reinforcement Learning, Online Learning, Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [vLLM, TGI]
+    languages: [Python, Go, TypeScript]
+    domains: []
+    other: [Financial ML, DeFi]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9496222'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T11:53:16.872257'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

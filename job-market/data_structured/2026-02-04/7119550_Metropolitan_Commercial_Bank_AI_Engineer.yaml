@@ -1,59 +1,62 @@
 company:
   name: Metropolitan Commercial Bank
-  stage: Public
-  focus: Full-service commercial banking
+  stage: 'Publicly traded (parent Metropolitan Bank Holding Corp., NYSE: MCB)'
+  focus: Full-service commercial bank in New York City
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on work building and deploying LLM-
-      based applications using RAG, prompt engineering, vector
-      databases, and fine-tuning models. The engineer directly
-      constructs production AI systems including generative AI
-      systems, agent-based architectures, and model serving
-      infrastructure, not just supporting infrastructure for
-      others.
+      The role requires building and deploying LLM-based
+      applications using RAG, prompt engineering, vector
+      databases, LangChain/LlamaIndex, fine-tuning, and agent-
+      based architectures — all direct model-shaping activities.
+      Although much of the role covers MLOps/AIOps and production
+      scaling, shaping both LLM and classical ML systems
+      classifies as ai-first.
   responsibilities:
   - Establish and enforce architecture standards for production AI systems, including
     data pipelines, model serving infrastructure, and real-time inference services
   - Implement AIOps/MLOps pipelines for CI/CD of ML models, model governance, monitoring,
     and lifecycle management
-  - Build and deploy LLM-based applications using RAG, prompt engineering, vector
-    databases, and agent-based architectures
-  - Design and maintain scalable software applications with integrated AI/ML capabilities
-    using Snowflake as the primary ML platform
-  - Partner with cross-functional teams to operationalize AI algorithms and coordinate
-    between research and engineering teams
-  - Optimize model serving for performance and scale using techniques like model compression,
-    caching, and hardware acceleration
-  - Build end-to-end AI solutions from front-end (React) to back-end APIs (Flask,
-    FastAPI, Node.js)
-  - Implement monitoring, alerting, and SRE principles to ensure AI system reliability
-    and detect model degradation
+  - Build and deploy LLM-based applications using RAG, prompt engineering, and vector
+    databases
+  - Design, construct, and maintain the Bank's AIOps solution with Snowflake as the
+    primary ML platform (Snowpark Python, UDFs/UDTFs, Tasks/Streams)
+  - Integrate AI/ML models into production environments and optimize model serving
+    (compression, caching, hardware acceleration) for low latency and high reliability
+  - Design and maintain scalable software applications with integrated AI/ML capabilities,
+    writing clean code in Python, Java, C, C++, and Go
+  - Partner with data scientists, AI scientists, product managers, data engineers,
+    and DevOps to operationalize AI algorithms
+  - Mentor teams and coordinate between AI scientists and engineering teams to improve
+    models with production feedback
   use_cases:
-  - Generative AI systems for banking operations and customer services
-  - Personalization engines for tailored banking experiences and recommendations
-  - Automation tools for streamlining banking processes and workflows
-  - Fraud detection and risk assessment using AI/ML models
-  - AML (Anti-Money Laundering) compliance and monitoring systems
-  - Commercial/treasury analytics for business banking decisions
+  - Enterprise generative AI systems for banking operations
+  - Personalization engines for customer experiences
+  - Automation tools for bank workflows
+  - Fraud risk, AML, and underwriting analytics in financial services
+  - Real-time AI/ML inference at enterprise scale (thousands of daily inferences)
+  - Model governance, monitoring, and drift detection for a regulated banking environment
   skills:
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Java, C, C++, Go]
+    ml: [scikit-learn, PyTorch, TensorFlow, Keras, Deep Learning, NLP, Machine Learning]
+    other: [Agile, Code Review, Explainable AI]
+    ops: [LLMOps, MLOps, AIOps, Docker, Kubernetes, Terraform, CloudFormation, CI/CD,
+      Prometheus, Grafana, MLflow, GPU Optimization, Real-Time Inference, Model Deployment,
+      Monitoring, SRE]
+    databases: [Snowflake, Snowpark, Vector Databases, Vector Search, SQL, NoSQL]
     domains: []
-    languages: [Python, Java, C, C++, Go, SQL]
-    ml: [Fine-Tuning, PyTorch, TensorFlow, Keras, scikit-learn]
-    cloud: [CloudFormation, AWS, GCP, Azure]
-    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, agent-based architectures,
-      Embeddings, vector search]
-    data: [Snowpark Python, Spark, PySpark, Data Pipelines]
-    other: []
-    ops: [LLMOps, Docker, Kubernetes, Terraform, CI/CD, Prometheus, Grafana, MLflow,
-      SRE, Model Monitoring]
-    web: [React, Flask, FastAPI, Node.js]
-    databases: [Vector Databases, Snowflake]
+    web: [React, Flask, FastAPI, Node.js, APIs]
+    data: [Pandas, Data Engineering, Data Pipelines, Spark, PySpark]
+    genai: [RAG, Prompt Engineering, LangChain, LlamaIndex, Fine-Tuning, AI Agents,
+      LLMs, Generative AI, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7119550'
   location: New York, USA
-  extracted_at: '2026-02-05T10:19:19.838897'
+  extracted_at: '2026-08-15T21:22:10.762124'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,60 @@
 company:
   name: Dojo
   stage: null
-  focus: Payments infrastructure and in-person commerce solutions
+  focus: Payments infrastructure for in-person commerce
 position:
   title: AI Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is building platforms, infrastructure, and tooling
-      that enable other teams to use AI - APIs, orchestration
-      frameworks, monitoring systems, and deployment pipelines.
-      The focus is on creating the foundational infrastructure
-      (platform engineering) for AI solutions rather than directly
-      building, training, or fine-tuning models/agents.
+      The role directly shapes model behaviour: it designs agent
+      orchestration with LangGraph, CrewAI, and Google ADK, builds
+      vector search and RAG retrieval systems, and implements
+      guardrails and monitoring for LLM output safety. Since LLMs
+      and agents are the core target, this is ai-first despite the
+      platform engineering framing.
   responsibilities:
-  - Design and build the AI platform that powers LLMs, agents, and other AI solutions
+  - Design and build the core AI platform powering LLMs, agents, and other AI solutions
     across Dojo
-  - Develop APIs, SDKs, and tooling that allow product teams to consume AI capabilities
-    at scale
-  - Implement orchestration for multi-model and multi-service workflows using agentic
-    frameworks
+  - Develop APIs, SDKs, and tooling so product teams can consume AI capabilities at
+    scale with great developer experience
+  - Implement orchestration for multi-model and multi-service agent workflows using
+    frameworks like LangGraph, CrewAI, and Google ADK
   - Build and manage vector search and retrieval systems to support RAG and knowledge
     integration
-  - Build robust monitoring, logging, and guardrails to ensure AI systems are safe
-    and observable
+  - Build monitoring, logging, and guardrails to keep AI systems safe, observable,
+    and compliant using tools like LangSmith, Opik, Prometheus, and Grafana
   - Automate infrastructure and model deployment with Kubernetes, Terraform, and CI/CD
     pipelines
+  - Partner with security, compliance, and product teams to ensure safe use of AI
+    in production
+  - Track AI platform trends and emerging open-source tools, bringing best practices
+    into the stack
   use_cases:
-  - AI-powered payment processing and commerce solutions
-  - RAG-based knowledge integration systems
-  - Agentic workflows for business operations
-  - Multi-model AI service orchestration
-  - Vector search and retrieval for enterprise applications
+  - Company-wide AI platform taking LLM and agent solutions from prototype to production
+    at a payments company
+  - AI capabilities served to product teams at scale via APIs and SDKs
+  - RAG and knowledge integration powered by vector search and retrieval systems
+  - Safe, governed, and observable AI in production with guardrails and monitoring
   skills:
-    domains: []
+    cloud: [GCP, Vertex AI, Cloud-Native Architecture]
     languages: [Python, Go, Java, .NET]
     ml: []
-    cloud: [VertexAI, GCP]
-    genai: [LangChain, LangGraph, CrewAI, Google Agent Development Kit, RAG]
+    other: [Event-Driven Architecture, Responsible AI]
+    ops: [Kubernetes, Terraform, CI/CD, Helm, MLflow, MLOps, Infrastructure as Code,
+      Model Deployment, LangSmith, Opik, Prometheus, Grafana, Observability, Monitoring,
+      Ollama, Distributed Systems, Service Mesh]
+    databases: [Vector Search, Vector Databases, FAISS, Pinecone, Weaviate]
+    domains: []
+    web: [APIs, Microservices]
     data: []
-    other: []
-    ops: [LangSmith, Opik, Prometheus, Grafana, MLflow, Ollama, OpenRouter, Kubernetes,
-      Terraform, Helm]
-    web: []
-    databases: [FAISS, Pinecone, Weaviate, Vertex Vector Search]
+    genai: [LLMs, AI Agents, Agentic Workflows, LangChain, LangGraph, CrewAI, Google
+        ADK, RAG, Guardrails, OpenRouter]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8520577'
   location: London, GBR
-  extracted_at: '2026-02-27T12:40:46.477595'
+  extracted_at: '2026-08-16T02:06:50.459842'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

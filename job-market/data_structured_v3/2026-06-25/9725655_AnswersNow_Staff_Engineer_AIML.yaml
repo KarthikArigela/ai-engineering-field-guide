@@ -1,0 +1,60 @@
+company:
+  name: AnswersNow
+  stage: growth-stage startup
+  focus: Virtual ABA autism therapy platform
+position:
+  title: Staff Engineer AI/ML
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The AI work described is architectural integration:
+      designing a config-driven AI/LLM integration framework, ETL
+      pipelines, and ensuring scalability and reliability of ML/AI
+      model integration. No prompt design, retrieval/RAG design,
+      evals, fine-tuning, or model output-quality work is named —
+      the models are consumed, not shaped. Per Step 1 this is not
+      shaping model behaviour, so the role is ai-support despite
+      the AI/ML title.
+  responsibilities:
+  - Manage a team of Engineering Team Leads and their squads, owning hiring, performance,
+    culture, delivery, and engineering processes
+  - 'Own and evolve the core platform architecture: React frontend, Node.js/Express
+    APIs, Postgres, and AWS ECS infrastructure'
+  - Drive the JavaScript to TypeScript migration, establishing patterns, tooling,
+    and standards for the team
+  - Design and extend the ETL pipeline and config-driven AI integration framework
+    that lets engineers ship AI-powered features faster and more reliably
+  - Define and execute the technical strategy for integrating ML/AI models into the
+    core platform, ensuring scalability, performance, and reliability
+  - Lead technical design reviews, create architecture decision records, and own the
+    plan for resolving systemic technical debt
+  - Mentor engineers across levels and establish standards for code quality, testing,
+    observability, on-call runbooks, and incident response
+  - Partner with the CTO, product leadership, and clinical stakeholders to scope,
+    sequence, and de-risk large technical initiatives
+  use_cases:
+  - AI-powered features embedded in a virtual ABA autism therapy platform
+  - Config-driven LLM integration framework enabling engineers to ship AI features
+    faster and more reliably
+  - ETL and data pipelines processing platform and clinical data on AWS
+  - Scalable integration of ML/AI models into a healthcare product handling PHI
+  skills:
+    genai: [LLMs]
+    ml: [Machine Learning]
+    web: [React, Node.js, Express]
+    databases: [PostgreSQL]
+    data: [ETL, Data Pipelines, Message Queues]
+    cloud: [AWS, ECS, RDS, AWS S3, AWS Lambda]
+    ops: [Distributed Systems, Model Lifecycle Management, Observability]
+    languages: [JavaScript, TypeScript]
+    domains: []
+    other: [Event-Driven Architecture, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9725655'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T14:37:53.698185'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

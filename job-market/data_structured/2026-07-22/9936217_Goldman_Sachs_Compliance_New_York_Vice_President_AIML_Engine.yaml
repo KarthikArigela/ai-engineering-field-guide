@@ -1,56 +1,61 @@
 company:
   name: Goldman Sachs
-  stage: Public
+  stage: null
   focus: |-
     Global investment banking, securities, and investment
-    management
+    management firm
 position:
   title: Compliance, New York, Vice President, AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building GenAI-driven solutions
-      including agentic frameworks, RAG pipelines, fine-tuning
-      LLMs, prompt engineering, and working with embeddings and
-      vector databases. The engineer designs and implements end-
-      to-end AI/ML solutions for compliance applications, which is
-      hands-on work with models and agents.
+      The role directly shapes LLM behavior through prompt
+      engineering, model fine-tuning, RAG pipeline design,
+      embeddings, and building agentic frameworks for compliance
+      automation. Since LLMs and agents are the central components
+      being shaped, this is ai-first despite the classical ML
+      skills also listed.
   responsibilities:
-  - Design and architect scalable end-to-end AI/ML solutions tailored for compliance
-    applications with adherence to regulatory requirements
-  - Develop GenAI-driven solutions including agentic frameworks, RAG pipelines, and
-    embeddings for compliance knowledge bases
-  - Explore AI/ML problems including model fine-tuning, prompt engineering, and experimentation
-    with algorithmic approaches
-  - Develop, test, and maintain production-ready code for AI/ML systems
+  - Design and architect scalable, end-to-end AI/ML solutions tailored for compliance
+    applications while adhering to regulatory requirements
+  - Build GenAI-driven solutions including agentic frameworks for automating compliance
+    processes, RAG pipelines, and embeddings for compliance knowledge bases
+  - Explore model fine-tuning, prompt engineering, and diverse algorithmic approaches
+    to address novel business challenges
+  - Develop, test, and maintain high-quality, production-ready code
   - Lead technical projects from inception to completion, providing guidance and mentorship
     to junior engineers
-  - Collaborate with compliance officers, legal counsel, and stakeholders to translate
-    business requirements into technical solutions
+  - Collaborate with compliance officers, legal counsel, and other stakeholders to
+    translate business requirements into technical solutions
   - Participate in code reviews and promote best practices for AI/ML development including
     version control, testing, and documentation
+  - Stay current with the latest advancements in AI/ML platforms, tools, and techniques
   use_cases:
-  - Automating compliance processes using agentic AI frameworks
-  - Building compliance knowledge bases using RAG pipelines and embeddings
-  - Detecting and mitigating regulatory and reputational risks
-  - Processing petabyte-scale structured and unstructured data for compliance monitoring
-  - Running vertical AI agents on massive-scale data for compliance automation
+  - Automating compliance processes using vertical AI agents at massive data scale
+  - Preventing, detecting, and mitigating regulatory and reputational risks
+  - Compliance knowledge bases built with RAG pipelines and embeddings
+  - Processing petabyte-scale structured and unstructured textual data with LLM applications
+  - Detecting suspicious or non-compliant activity across firm communications and
+    transactions
   skills:
-    genai: [LLMs, RAG, AI Agents, Agentic Workflows, Prompt Engineering, Fine-Tuning,
-      Embeddings, LangChain, AutoGen, Generative AI, LLM Evaluation]
-    ml: [PyTorch, TensorFlow, Transformers, scikit-learn, Deep Learning, Neural Networks,
-      Quantization, Machine Learning]
-    web: []
-    databases: [Vector Databases]
-    data: [Data Governance]
     cloud: []
-    ops: [Docker, Kubernetes, CI/CD, MLOps, Model Deployment, Model Monitoring]
-    languages: [Python, SQL]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, Transformers, CNNs, RNNs, PyTorch, TensorFlow,
+      Hugging Face, scikit-learn, Quantization, Knowledge Distillation, Model Interpretability]
+    other: [Code Review, Financial Regulations]
+    ops: [MLOps, Model Deployment, Docker, Kubernetes, CI/CD, Model Monitoring, Distributed
+        Systems]
+    databases: [Vector Databases]
     domains: []
-    other: [Distributed Systems, Code Review]
+    web: []
+    data: [Data Governance]
+    genai: [LLMs, Generative AI, AI Agents, RAG, Prompt Engineering, Fine-Tuning,
+      Embeddings, LangChain, AutoGen, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9936217'
   location: New York, USA
-  extracted_at: '2026-07-22T13:43:42.145208'
+  extracted_at: '2026-08-16T19:17:21.205638'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

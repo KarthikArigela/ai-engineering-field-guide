@@ -56,3 +56,15 @@ Many assignments include explicit scoring rubrics. Patterns across repos:
 - Make it configurable - one engineer built a PDF summarizer CLI with configurable models and chunking strategies, got two competing offers within 72 hours
 - Show production awareness - error handling, monitoring hooks, cost estimates, even when not explicitly required
 - The single biggest differentiator: candidates who skip evaluation and testing of AI outputs are the ones who don't get offers
+
+## Questions after the webinar
+
+People asked about several adjacent career questions after the webinar.
+
+- **What should an AI product manager know?** The core product-management skills don't change. AI product managers also benefit from building a prototype quickly, showing it to users, and sharing it with the team. This is my perspective rather than a universal requirement, so talk to people currently doing the role as well.
+- **Can someone get hired without a computer-science degree?** Yes. A computer-science degree can show useful background, but it isn't the only way to acquire or demonstrate the knowledge. When I conducted interviews, I didn't use a candidate's university or degree as an evaluation criterion. I cared about how the person performed in the interview.
+- **What do you expect from a data scientist with seven or eight years of experience?** Data scientists already know how to design experiments, measure behavior, and compare models. That experience maps directly to AI-system evaluation. The likely gap is software engineering. Interview expectations don't become lower when someone changes specialties. Bring engineering skills up to the required baseline and use evaluation experience to differentiate yourself.
+- **How should a recent data-science graduate demonstrate readiness?** Show evidence of practice, not only theory. A project with tests, evaluation, clear decisions, and a working deployment shows that you can engineer a system rather than only describe one.
+- **Is a software-engineering background required?** It helps, but it isn't a prerequisite. Coding agents can write much of the implementation. You still need enough engineering judgment to evaluate the result, identify what's wrong, and direct revisions. If the AI-engineering job search takes time, software-engineering roles can be a parallel route for building that judgment. You don't need to abandon the AI-engineering goal first.
+
+The original audience questions and follow-up recordings are preserved in the [Telegram Writing Assistant Git history](https://github.com/alexeygrigorev/telegram-writing-assistant/blob/2057c34/articles/ai-engineer-webinar-qa.md).

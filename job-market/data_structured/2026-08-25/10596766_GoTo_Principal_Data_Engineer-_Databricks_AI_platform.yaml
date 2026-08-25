@@ -1,0 +1,51 @@
+company:
+  name: GoTo
+  stage: null
+  focus: Remote work and collaboration technology
+position:
+  title: Principal Data Engineer- Databricks & AI platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role owns Databricks data platform architecture, Spark
+      tuning, and ETL frameworks - data plumbing, not model
+      behaviour. GenAI/RAG/LLM exposure is only a nice-to-have,
+      and agentic AI tooling rollout is a developer-workflow
+      deliverable, so this is ai-support.
+  responsibilities:
+  - Own architecture and roadmap for the Databricks platform including Unity Catalog,
+    Delta Lake, cluster configuration, and workflow orchestration
+  - Lead architecture of data platform, pipelines, and AI-ready datasets to support
+    GenAI and ML use cases
+  - Design and evolve medallion (Bronze/Silver/Gold) lakehouse architecture
+  - Set standards for data quality, security, and access control across the platform
+  - Tune Spark jobs and cluster configurations for performance and cost efficiency
+  - Build and maintain core ETL frameworks and reusable components
+  - Lead migrations from legacy data platforms onto Databricks
+  - Embed infrastructure-as-code and CI/CD practices into pipeline development and
+    set standards for agentic AI tooling adoption across Data teams
+  use_cases:
+  - Enterprise lakehouse platform supporting GenAI and ML workloads
+  - Governed, high-quality datasets for analytics and AI use cases
+  - Cost-efficient large-scale data processing and ETL
+  - Legacy data warehouse migration to Databricks
+  skills:
+    cloud: [AWS, Azure, GCP]
+    languages: [Python, SQL]
+    ml: []
+    other: []
+    ops: [Infrastructure as Code, CI/CD, Databricks Asset Bundles]
+    databases: []
+    domains: []
+    web: []
+    data: [Databricks, Unity Catalog, Delta Lake, Spark, Data Pipelines, Data Modeling,
+      Airflow, dbt, Kafka]
+    genai: [Generative AI, RAG, LLMs]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10596766'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:52:17.138001'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

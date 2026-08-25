@@ -1,49 +1,50 @@
 company:
   name: Anthropic
-  stage: Public Benefit Corporation
-  focus: Build safe, beneficial AI systems like Claude
+  stage: null
+  focus: AI safety research and Claude AI systems
 position:
   title: Staff + Senior Software Engineer, AI Reliability
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI Reliability Engineering role focused on
-      infrastructure, observability, and incident response for LLM
-      serving systems. The engineer builds monitoring systems,
-      ensures high availability, and operates serving
-      infrastructure rather than building, training, or fine-
-      tuning models themselves. They support the reliability of AI
-      systems without directly working on the AI/ML models or
-      agents.
+      This is an SRE/reliability role: the person develops SLOs,
+      monitoring, high-availability serving infrastructure, and
+      incident response for LLM serving paths. They shape
+      capacity, uptime, and latency — not model behavior — no
+      prompts, retrieval, fine-tuning, or output-quality work. Per
+      the serving edge case, running and hardening models others
+      build is ai-support even with GPUs, TPUs, and serving
+      infrastructure named.
   responsibilities:
-  - Develop appropriate Service Level Objectives for large language model serving
-    systems, balancing availability and latency with development velocity
+  - Develop Service Level Objectives for large language model serving systems, balancing
+    availability and latency with development velocity
   - Design and implement monitoring and observability systems across the token path
   - Assist in the design and implementation of high-availability serving infrastructure
     across multiple regions and cloud providers
   - Lead incident response for critical AI services, ensuring rapid recovery, thorough
     incident reviews, and systematic improvements
-  - Support the reliability of safeguard model serving critical for site reliability
-    and safety commitments
+  - Support the reliability of safeguard model serving, critical for site reliability
+    and Anthropic's safety commitments
+  - Partner with teams across Anthropic to improve reliability across critical serving
+    paths from SDK through network, API layers, serving infrastructure, and accelerators
   use_cases:
-  - Large-scale language model serving infrastructure
-  - High-availability AI service delivery across multiple regions and cloud providers
-  - Safeguard model serving for safety commitments
-  - Real-time token path monitoring and observability
-  - Incident management and rapid recovery for critical AI services
+  - Reliable large language model (Claude) serving infrastructure
+  - Multi-region, multi-cloud high-availability model serving
+  - Monitoring and observability across the token serving path
+  - Reliability of safeguard model serving for safety commitments
+  - Incident response and resilience for critical AI services
   skills:
-    domains: []
+    cloud: []
     languages: []
-    ml: [ML accelerators]
-    cloud: [high-availability infrastructure, multi-cloud]
-    genai: []
-    data: []
+    ml: []
     other: []
-    ops: [Distributed Systems, SRE, incident response, Monitoring, Observability,
-      Service Level Objectives, GPUs, TPUs, Trainium, RDMA, InfiniBand, chaos engineering,
-      resilience testing]
-    web: []
+    ops: [Distributed Systems, Site Reliability Engineering, Model Deployment, Monitoring,
+      Observability, Chaos Engineering, GPUs, TPUs, Trainium, RDMA, InfiniBand]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -53,4 +54,6 @@ meta:
   - New York, USA
   - Seattle, USA
   - San Francisco, USA
-  extracted_at: '2026-02-27T12:31:19.455584'
+  extracted_at: '2026-08-16T01:23:09.225543'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

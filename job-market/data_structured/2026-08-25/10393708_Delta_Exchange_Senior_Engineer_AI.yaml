@@ -1,0 +1,57 @@
+company:
+  name: Delta Exchange
+  stage: null
+  focus: Cryptocurrency derivatives trading exchange
+position:
+  title: Senior Engineer AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing RAG
+      pipelines, agentic workflows, prompt engineering, function
+      calling, and building evals for output quality. LLM/agent
+      components dominate, making it ai-first.
+  responsibilities:
+  - Design, build, and maintain production AI applications end-to-end across backend,
+    frontend, and inference services
+  - Architect RAG systems using vector databases, embedding models, and chunking strategies
+    optimised for accuracy and latency
+  - Build agentic workflows with tool/function calling, multi-step reasoning, and
+    structured output parsing
+  - Write and iterate on system prompts, few-shot examples, and prompt chains to maximise
+    output quality
+  - Drive inference cost optimisation via model selection, caching, token budgeting,
+    and request batching
+  - Build and maintain evaluation frameworks measuring accuracy, relevance, hallucination
+    rates, and regressions
+  - Deploy and manage AI services on Kubernetes with CI/CD pipelines on AWS/GCP
+  - Integrate AI capabilities with third-party platforms such as Telegram bots and
+    chat widgets
+  use_cases:
+  - Conversational support agents for exchange users
+  - RAG-powered search across product content
+  - Code-generation copilots
+  - Trading-strategy assistants for derivatives traders
+  - AI-powered chat integrations via Telegram bots and chat widgets
+  skills:
+    genai: [RAG, Prompt Engineering, AI Agents, Agentic Workflows, Function Calling,
+      Structured Outputs, LLMs, Embeddings, OpenAI API, Anthropic API, LangChain,
+      Fine-Tuning, MCP, Claude Code, Codex, LiteLLM, LLM Evaluation]
+    ml: []
+    web: [Flask, FastAPI, Node.js, Next.js]
+    databases: [Vector Databases, PostgreSQL, Redis]
+    data: [RabbitMQ]
+    cloud: [AWS, GCP]
+    ops: [Docker, Kubernetes, CI/CD, Sentry, Observability]
+    languages: [Python, TypeScript, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10393708'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T09:57:20.003534'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

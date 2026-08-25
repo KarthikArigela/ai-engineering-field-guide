@@ -1,0 +1,52 @@
+company:
+  name: Guidewire Software
+  stage: null
+  focus: Cloud software platform for P&C insurance
+position:
+  title: Senior Application Engineer - AI (Python, FastAPI & LLM)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role integrates LLM components designed and configured
+      by a paired AI Engineer and AI Architect; the developer
+      handles prompt invocation, response handling, and fallback
+      plumbing on AWS Bedrock rather than shaping prompts,
+      retrieval, or agent flows themselves. AI coding tools
+      (Claude Code, Copilot) are delivery accelerators, not the
+      product. So Step 1 fails and this is ai-support.
+  responsibilities:
+  - Own end-to-end dev work for AI productization features on a Strike Team, including
+    REST APIs, frontend wiring, and AI component integration
+  - 'Integrate LLM-based components into production paths: prompt invocation, response
+    handling, fallbacks, and observability on AWS Bedrock'
+  - Make day-to-day implementation decisions and contribute to design reviews, escalating
+    cross-cutting concerns to the Engineering Manager
+  - Build on shared platform foundations (CI/CD, vector DB, auth, QA, UI/UX) and push
+    back when gaps exist
+  - Uphold code quality through review, testing, and engineering hygiene; mentor the
+    Consultant Product Engineer and AI pairing partners
+  - Use AI coding tools like Claude Code and Copilot to accelerate delivery
+  use_cases:
+  - Production LLM-backed features for insurance customers, delivered end-to-end
+  - LLM integration paths with streaming, fallbacks, cost controls, and observability
+  - RAG features taken to production on AWS Bedrock
+  - Multi-tenant SaaS features for P&C insurers
+  skills:
+    cloud: [AWS Bedrock, AWS Lambda, ECS, API Gateway]
+    languages: [Python, Java, TypeScript, SQL, asyncio]
+    ml: []
+    other: [Event-Driven Architecture]
+    ops: [pytest, CI/CD, Git, Observability]
+    databases: [NoSQL, Vector Databases]
+    domains: []
+    web: [FastAPI, Pydantic, REST APIs, React]
+    data: []
+    genai: [LLMs, Prompt Engineering, Claude Code, GitHub Copilot, RAG]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10553581'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:41:00.000341'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

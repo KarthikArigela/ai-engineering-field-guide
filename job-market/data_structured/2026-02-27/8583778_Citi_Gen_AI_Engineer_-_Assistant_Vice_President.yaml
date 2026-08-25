@@ -1,20 +1,20 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global financial services and banking institution
+  stage: null
+  focus: Global banking and financial services
 position:
   title: Gen AI Engineer - Assistant Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is ai-first because it involves hands-on
-      implementation and fine-tuning of generative AI models,
-      prompt engineering, developing AI-powered workflows, and
-      deploying AI models to production. The position requires
-      direct work with LLMs, RAG systems, and fine-tuning
-      techniques like LoRA/QLoRA.
+      The role directly shapes model behaviour: implementing and
+      fine-tuning generative AI models (LoRA/QLoRA), contributing
+      to prompt engineering, and working with RAG systems. LLMs
+      and generative AI are the core of the stack, so this
+      classifies as ai-first.
   responsibilities:
-  - Implement and fine-tune generative AI models under guidance of senior team members
+  - Implement and fine-tune generative AI models under the guidance of senior team
+    members
   - Contribute to prompt engineering and development of AI-powered workflows
   - Assist with deployment, monitoring, and maintenance of AI models in production
     environments
@@ -23,25 +23,23 @@ position:
   - Perform data preprocessing, feature engineering, and API development for AI applications
   - Participate in code reviews, testing, and documentation to ensure quality and
     reliability
-  - Stay updated with advancements in GenAI and share relevant learnings with the
-    team
+  - Stay updated with GenAI advancements and share relevant learnings with the team
   use_cases:
-  - Controls technology solutions for banking/financial services
-  - AI-powered workflow automation
-  - Generative AI feature development and product integration
-  - Enterprise AI-driven applications
+  - Generative AI solutions for financial controls technology
+  - AI-powered workflows supporting internal controls and compliance processes
+  - AI-driven features and products delivered with business stakeholders
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, Keras, Hugging Face]
     cloud: [AWS, GCP, Azure]
-    genai: [LoRA, Prompt Engineering, Fine-Tuning, RAG, hybrid search, LangChain,
-      LlamaIndex, LLMs]
-    data: []
-    other: [Git]
-    ops: [Docker]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, PyTorch, TensorFlow, Keras, Feature Engineering]
+    other: [Responsible AI]
+    ops: [Model Deployment, Docker, Git, Code Review]
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, LoRA, RAG, Hybrid Search, LangChain,
+      Hugging Face, LlamaIndex, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -50,4 +48,6 @@ meta:
   locations:
   - Pune, IND
   - Chennai, IND
-  extracted_at: '2026-03-03T11:59:22.354634'
+  extracted_at: '2026-08-16T02:46:20.703849'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

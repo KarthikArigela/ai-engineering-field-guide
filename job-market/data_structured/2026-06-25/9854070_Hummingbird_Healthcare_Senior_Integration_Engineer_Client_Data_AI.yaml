@@ -2,21 +2,21 @@ company:
   name: Hummingbird Healthcare
   stage: null
   focus: |-
-    Technology-enabled patient access services for healthcare
+    Technology-enabled patient access services for health
     systems
 position:
   title: Senior Integration Engineer, Client Data & AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily about building data integration
-      pipelines (ETL, Epic EHR integrations) that make data AI-
-      accessible for others. While the role uses AI-assisted
-      coding and mentions "AI-native" workflows, the engineer is
-      not building, training, fine-tuning, or deploying AI/ML
-      models themselves. They are enabling AI work by preparing
-      and structuring data for downstream AI consumption and
-      citizen developers.
+      This is a data integration/ETL role: the engineer builds
+      pipelines connecting client Epic EHR and telephony systems
+      to the platform, and structures data so it is AI-accessible
+      for others. They do not write prompts, design retrieval or
+      agent flows, or evaluate model output themselves; AI appears
+      as a working partner (AI-assisted coding, agent-driven
+      monitoring) and as a consumer of the data plumbing, which is
+      tool usage, not shaping model behaviour.
   responsibilities:
   - Lead technical integration with client Epic EHR systems, building extraction and
     ETL pipelines across Clarity, Caboodle, FHIR, or other access methods
@@ -24,36 +24,42 @@ position:
     issues, and validate data quality before pipelines go live
   - Assess client telephony systems and build pipelines that ingest historical telephony
     data and pair it with Epic clinical data
-  - Model and structure ingested data so it is readily available for AI to access
-    and usable by citizen developers
+  - Model and structure ingested data so it is readily accessible to AI and usable
+    by citizen developers building on the platform
   - Own the technical integration workstream during client onboarding, coordinating
-    with client contacts and internal teams
+    with client contacts and internal teams and communicating status, risks, and blockers
   - Design reusable integration frameworks and automation using agents, templated
-    pipelines, and self-service tooling
+    pipelines, and self-service tooling to speed up each onboarding
   - Apply AI-native development practices including AI-assisted coding and agent-driven
-    monitoring within CI/CD and IaC standards
-  - Mentor less experienced engineers by reviewing pipeline work and coaching them
-    through client-specific complexity
+    monitoring within CI/CD and infrastructure-as-code standards
+  - Document client-specific configurations and integration decisions, and mentor
+    less experienced engineers
   use_cases:
-  - Healthcare patient access data integration from Epic EHR systems
-  - ETL pipeline development for ingesting clinical and telephony data
-  - Data modeling for AI-accessible healthcare data platforms
-  - Client onboarding automation for healthcare system integrations
+  - Ingesting client Epic EHR clinical data into Hummingbird's patient access platform
+  - Ingesting historical telephony and contact center data and pairing it with Epic
+    clinical data
+  - Preparing and modeling client data so it is accessible to AI tools and citizen
+    developers
+  - Automating and accelerating client onboarding integrations with reusable frameworks
+    and agents
+  - Validating client data quality before integration pipelines go live
   skills:
-    domains: ['Epic EHR (Clarity, Caboodle, FHIR)', Telephony data systems]
+    cloud: []
     languages: [SQL, Python]
     ml: []
-    cloud: []
-    genai: [AI-assisted coding, AI Agents]
-    data: [Data Pipelines, Data Modeling]
-    other: [Mentorship]
+    other: [Epic EHR, Clarity, Caboodle, FHIR, Telephony Data Systems]
     ops: [CI/CD, Infrastructure as Code]
-    web: [APIs]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Modeling]
+    genai: [AI Agents, AI-Assisted Coding]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9854070'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:52:58.085711'
+  extracted_at: '2026-08-16T15:27:15.599392'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,48 +1,52 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI/ML
+  stage: null
+  focus: Banking and financial services
 position:
   title: Lead AI Engineer (GenAI Platform, AI Foundations, LLM Core and Agentic AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, building, and
-      deploying foundation model training, LLM inference,
-      guardrails, and optimization for large-scale production AI
-      systems. The engineer works hands-on with LLMs, similarity
-      search, and model evaluation as core responsibilities, not
-      just supporting infrastructure for others.
+      The role directly shapes model behaviour: foundation model
+      training, LLM optimization for
+      scalability/latency/throughput, guardrails, and model
+      evaluation are named core responsibilities, and optimizing
+      training/inference internals counts as shaping. The models
+      being shaped are explicitly LLMs (LLM Core, LLM inference,
+      agentic AI), so this is ai-first rather than ml-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, and model evaluation
-  - Leverage open source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate Open Source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Apply novel techniques from AI research to production systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Apply novel AI research techniques in production systems at scale
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - AI-powered customer interaction and question answering
-  - Foundation model training and LLM inference at enterprise scale
-  - Associate productivity enhancement through AI-powered tools
-  - Large-scale production AI infrastructure for governance, observability, and experimentation
+  - Informing customers about unusual charges
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Proprietary AI models and platforms empowering teams across Capital One to enhance
+    products with AI
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [Foundation Model Training, PyTorch, Hugging Face, Model Optimization]
-    cloud: [AWS Ultraclusters, AWS, Azure, GCP]
-    genai: [LLM Inference, Guardrails, RAG / Similarity Search]
-    data: []
+    ml: [Machine Learning, PyTorch, Hugging Face, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model Evaluation, AI Governance, AI Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LLMs, AI Agents, Generative AI, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +58,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:42:48.975748'
+  extracted_at: '2026-08-16T12:52:53.481448'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

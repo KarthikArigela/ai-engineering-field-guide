@@ -1,57 +1,66 @@
 company:
   name: Relativity Space
-  stage: Series C+
-  focus: 3D-printed rockets and aerospace manufacturing
+  stage: null
+  focus: |-
+    Aerospace company building rockets and orbital launch
+    services
 position:
   title: Senior Data & AI Analytics Developer II
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves architecting and deploying AI-powered
-      analytics solutions including Agentic BI platforms
-      (Aperium), AI-native reporting experiences with natural
-      language querying, and designing data structures optimized
-      for AI model consumption. The candidate directly builds and
-      implements AI-driven analytics systems, making this an ai-
-      first role.
+      The core deliverable is BI: data models, SQL
+      transformations, and dashboards, with AI arriving via third-
+      party agentic BI platforms (Aperium, Tableau Pulse,
+      ThoughtSpot) that the person deploys and configures rather
+      than shapes. Prompt engineering and RAG appear only as "nice
+      to haves but not required," and the semantic-layer work is
+      data plumbing feeding models others built. Step 1 is
+      therefore no → ai-support.
   responsibilities:
-  - Architect and govern AI-powered analytics solutions including deploying and optimizing
-    Agentic BI platforms like Aperium to replace traditional BI dashboards with conversational,
-    AI-driven insights
-  - Design and implement AI-native reporting experiences delivering operational and
-    financial insights with natural language querying, automated insight generation,
-    and intelligent data exploration
-  - Own end-to-end development of analytical data models and dashboards from requirements
-    gathering through ongoing enhancements
-  - Develop complex SQL transformations to build reliable models from multiple source
-    systems (ERP, MES, HRIS)
-  - Communicate findings, model logic, and analytics roadmap to technical peers and
-    executive audiences; drive alignment across Data Engineering and Finance stakeholders
-  - Monitor solution performance, data freshness, and usability of AI Analytics products
-  - Champion a culture of quality, documentation, and continuous improvement within
-    the team
+  - Architect and govern AI-powered analytics solutions, including deploying and optimizing
+    agentic BI platforms like Aperium to replace traditional dashboards with conversational,
+    AI-driven insights and self-service analytics
+  - Design and implement AI-native reporting experiences enabling natural language
+    querying, automated insight generation, and intelligent data exploration for Finance,
+    Accounting, and leadership
+  - Own end-to-end development of analytical data models and dashboards, from requirements
+    gathering and data modeling through validation and ongoing enhancements
+  - Develop complex SQL transformations to build reliable data models from ERP, MES,
+    and HRIS source systems, ensuring accuracy through robust testing and reconciliation
+  - Communicate findings, model logic, and the analytics roadmap to technical peers
+    and executive audiences, driving alignment across Data Engineering and Finance
+    stakeholders
+  - Monitor solution performance, data freshness, and usability to keep AI Analytics
+    products reliable and actionable
+  - Serve as technical anchor and mentor for the broader team, championing quality,
+    documentation, and continuous improvement
   use_cases:
-  - Conversational AI-driven financial and operational analytics replacing traditional
+  - Conversational, AI-driven financial and operational insights replacing traditional
     BI dashboards
-  - Natural language querying for financial and accounting data exploration
-  - Automated insight generation for Finance, Accounting, and leadership stakeholders
-  - Self-service analytics across enterprise data systems (ERP, MES, HRIS)
-  - AI-powered enterprise reporting and decision-making for aerospace manufacturing
-    operations
+  - Natural language querying and self-service analytics for Finance and Accounting
+    users
+  - Automated insight generation and intelligent data exploration for leadership decision-making
+  - Enterprise-scale financial visibility and reporting across FP&A, Accounting, and
+    partner organizations
+  - Unified analytical data models integrating ERP, MES, and HRIS systems
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
     cloud: []
-    genai: [Aperium, Tableau Pulse, ThoughtSpot, Prompt Engineering, RAG, LLMs]
-    data: [dbt, Data Modeling, Semantic Layers]
-    other: [Microsoft Office, Data Visualization, Infor LN, ERP Systems]
+    languages: [SQL]
+    ml: []
+    other: [Aperium, Tableau Pulse, ThoughtSpot, Power BI, Infor LN, ERP Systems,
+      Microsoft Office, Data Visualization, Data Storytelling]
     ops: [GitLab CI, CI/CD]
-    web: [Power BI]
     databases: []
+    domains: []
+    web: []
+    data: [dbt, Data Modeling, Semantic Layers]
+    genai: [LLMs, Prompt Engineering, RAG]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9618351'
   location: Long Beach, USA
-  extracted_at: '2026-06-25T19:43:45.751906'
+  extracted_at: '2026-08-16T13:15:53.154182'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

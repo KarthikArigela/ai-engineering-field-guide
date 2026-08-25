@@ -1,48 +1,50 @@
 company:
   name: Prodigal
-  stage: Series B
-  focus: |-
-    Building AI Agents for loan servicing and consumer finance
-    collections
+  stage: Backed by Y Combinator, Accel and Menlo Ventures
+  focus: Agentic AI applications for loan servicing and collections
 position:
   title: Solution Engineer (AI Agents)
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves directly building AI solutions including
-      AI agents, NLP models, and leveraging LLMs for entity
-      recognition and RAG-based applications. This is hands-on
-      implementation and deployment of AI/LLM systems for
-      enterprise customers, not just supporting infrastructure.
+      The role builds AI agents and applies NLP techniques and
+      LLMs for entity recognition as core deliverables, which is
+      directly shaping model behavior and output quality. LLM and
+      agent components are explicitly involved, so it is ai-first.
+      The customer onboarding component resembles forward-deployed
+      work, which is also ai-first.
   responsibilities:
-  - Build AI solutions including AI agents and NLP models for enterprise customers
-  - Implement workflow automation to enhance operational efficiency
-  - Leverage NLP techniques and LLMs for entity recognition tasks
-  - Collaborate with Customer Success team for customer onboarding and seamless solution
-    implementation
-  - Ensure 99.9% uptime for critical systems by monitoring data ingestion and publishing
-    pipelines
-  - Identify, report, and prioritize bug resolution while proposing scalable solutions
+  - Build AI solutions for enterprise customers, including AI agents, NLP models,
+    and workflow automation
+  - Leverage NLP techniques and LLMs for entity recognition on consumer finance interactions
+  - Build process automation and internal tooling to enhance efficiency
+  - Support customer onboarding in collaboration with the Customer Success team to
+    ensure seamless implementation of Prodigal's solutions
+  - Ensure 99.9% uptime for critical systems by proactively monitoring key subsystems
+    such as data ingestion and publishing pipelines
+  - Identify, report, and prioritize bug resolution while proposing robust, scalable
+    solutions
   use_cases:
-  - AI agents for loan servicing and collections
-  - Consumer finance workflow automation
-  - NLP-based entity recognition in financial interactions
-  - Operational efficiency enhancement for lending companies
-  - Customer engagement automation in consumer finance
+  - AI agents for loan servicing and collections in consumer finance
+  - Entity recognition over consumer finance interactions using NLP and LLMs
+  - Workflow automation and process efficiency for enterprise customers
+  - Customer onboarding and implementation of Prodigal's AI solutions
   skills:
-    domains: []
-    languages: [Python, SQL, Bash]
-    ml: []
     cloud: []
-    genai: [NLP techniques, LLMs, RAG-based applications, GenAI tools]
-    data: [PySpark, Databricks]
+    languages: [Python, SQL, Bash]
+    ml: [Entity Recognition]
     other: []
     ops: [Git]
-    web: []
     databases: [MongoDB]
+    domains: [NLP]
+    web: []
+    data: [PySpark, Databricks]
+    genai: [AI Agents, Generative AI, LLMs, RAG]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8753894'
   location: Mumbai, IND
-  extracted_at: '2026-03-27T16:12:38.800655'
+  extracted_at: '2026-08-16T04:17:31.477930'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

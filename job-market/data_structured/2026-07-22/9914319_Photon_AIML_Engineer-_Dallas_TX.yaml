@@ -1,54 +1,61 @@
 company:
   name: Photon
   stage: null
-  focus: Digital technology consulting services
+  focus: null
 position:
   title: AI/ML Engineer- Dallas, TX
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      integrating ML models and LLM-based systems including RAG
-      pipelines, agentic workflows, and production-grade AI
-      solutions. The engineer works hands-on with models, fine-
-      tuning, and LLM frameworks, making this clearly an ai-first
-      position.
+      The role directly shapes LLM behavior: designing RAG
+      pipelines, building LLM-powered agents and agentic
+      orchestration (LangGraph, CrewAI, AutoGen), applying prompt
+      engineering, and fine-tuning with LoRA/QLoRA. Classical ML
+      and deep learning are also core, and a role shaping both LLM
+      and classical systems is ai-first.
   responsibilities:
+  - Architect end-to-end AI/ML solutions combining classical ML, deep learning, and
+    LLM-based approaches
   - Design, develop, and deploy scalable ML models and pipelines from data ingestion
-    through production deployment
-  - Apply classical ML, deep learning, and LLM-based techniques to solve structured
-    and unstructured data problems
+    and feature engineering through training, evaluation, and production deployment
   - Build and integrate LLM-powered features including RAG pipelines, intelligent
-    agents, and workflow automation
-  - Establish MLOps practices including versioning, CI/CD for models, continuous training,
-    monitoring, and drift detection
-  - Build production-grade AI systems with reliability, scalability, and continuous
-    feedback loops
+    agents, and workflow automation using modern frameworks
+  - Establish robust MLOps practices including versioning, CI/CD for models, continuous
+    training, monitoring, and drift detection
+  - Build production-grade AI systems that are reliable, scalable, and continuously
+    improving through feedback loops
+  - Apply ML and LLM techniques to structured and unstructured data problems across
+    domains
   - Mentor junior engineers and lead technical initiatives
   use_cases:
-  - RAG pipelines for enterprise knowledge retrieval
-  - Intelligent AI agents and workflow automation
-  - Structured and unstructured data problem solving across domains
+  - Solving structured and unstructured data problems across business domains
+  - Enterprise-grade applications with integrated LLM and agentic capabilities
+  - RAG pipelines and vector search for knowledge retrieval
+  - Intelligent agents and workflow automation
   - Real-time ML systems and recommendation engines
-  - Multi-modal AI applications (text, image, audio)
+  - Production ML with monitoring, drift detection, and continuous improvement
   skills:
-    genai: [LangChain, LlamaIndex, Prompt Engineering, RAG, OpenAI API, Gemini, Anthropic
-        API, LangGraph, CrewAI, AutoGen, LoRA, QLoRA, Multi-Agent Systems, AI Agents,
-      Agentic Workflows]
-    ml: [scikit-learn, PyTorch, TensorFlow, Fine-Tuning, Transfer Learning, Deep Learning,
-      Machine Learning, Feature Engineering]
-    web: [FastAPI, Flask, REST APIs]
-    databases: [Vector Search, Pinecone, Weaviate, Milvus, Chroma, Vector Databases]
-    data: [NumPy, Pandas, Spark, Hadoop]
     cloud: [SageMaker, Vertex AI]
-    ops: [Docker, Kubernetes, CI/CD, MLflow, MLOps, Model Deployment, Monitoring]
     languages: [Python, SQL]
-    domains: []
+    ml: [Machine Learning, Deep Learning, scikit-learn, TensorFlow, PyTorch, Transfer
+        Learning, Recommendation Systems, Multimodal Models, Model Training, Feature
+        Engineering, Model Evaluation]
     other: [System Design]
+    ops: [Docker, Kubernetes, CI/CD, MLflow, MLOps, Model Deployment, Model Monitoring,
+      Drift Detection, GitHub]
+    databases: [Vector Search, Data Warehouses, Vector Databases, Pinecone, Weaviate,
+      Milvus, Chroma]
+    domains: []
+    web: [APIs, FastAPI, Flask]
+    data: [NumPy, Pandas, Spark, Hadoop, Data Pipelines]
+    genai: [LangChain, LlamaIndex, LLMs, Prompt Engineering, RAG, OpenAI API, Gemini,
+      Anthropic API, AI Agents, LangGraph, CrewAI, AutoGen, Fine-Tuning, LoRA]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9914319'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:42:24.666003'
+  extracted_at: '2026-08-16T19:06:06.985738'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,53 +1,53 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI-driven customer
-    experiences
+  stage: null
+  focus: Banking and financial services
 position:
   title: Lead AI Engineer (FM Hosting, LLM Inference)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with large language model
-      inference, foundation model training, and LLM optimization
-      techniques. The engineer will design, deploy, and support AI
-      software components including inference systems, guardrails,
-      and model evaluation, working directly with AI models and
-      optimization.
+      The role goes beyond hosting or serving models: it designs
+      and develops AI software components including foundation
+      model training, LLM inference optimization, guardrails,
+      model evaluation, and similarity search, which are
+      activities that shape model behaviour and output quality.
+      Since the models involved are LLMs and foundation models,
+      the classification is ai-first rather than ai-support
+      despite the "FM Hosting" title.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    how associates work and customers interact with Capital One
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage a broad stack of Open Source and SaaS AI technologies including AWS Ultraclusters,
-    Huggingface, VectorDBs, Nemo Guardrails, and PyTorch
+    governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Develop and apply novel techniques from AI research to optimize training and inference
-    software for better hardware utilization and performance
+  - Apply novel techniques from AI research to production systems
   use_cases:
-  - Real-time customer experience personalization using AI/ML
-  - Informing customers about unusual financial charges and suspicious activity
-  - Answering customer questions in real-time through AI-powered systems
-  - Enhancing banking products with responsible and scalable AI capabilities
-  - AI-powered solutions for associates to improve productivity
-  - Large-scale production AI systems for banking applications
+  - Real-time, personalized customer banking experiences
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - Platform enabling teams across Capital One to enhance products with AI
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Foundation Model Training, Model Evaluation]
-    cloud: [AWS Ultraclusters, AWS, GCP, Azure]
-    genai: [Huggingface, LLM Inference, Guardrails, Similarity Search]
-    data: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [LLM Optimization]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
-  is_customer_facing: true
+    data: []
+    genai: [LLMs, Guardrails]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8297038'
@@ -57,4 +57,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T12:40:40.190623'
+  extracted_at: '2026-08-15T23:10:41.964828'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

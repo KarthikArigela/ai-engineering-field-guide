@@ -1,0 +1,56 @@
+company:
+  name: Cerebras Systems Inc.
+  stage: null
+  focus: AI chips and inference hardware
+position:
+  title: Senior Software Development Engineer in Test (SDET)  - AI Cluster Networking
+    and Security
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a QA/testing role for AI cluster hardware and
+      networking infrastructure (switches, routers, interconnects,
+      Kubernetes, security). The person does not shape any model's
+      behavior through prompts, retrieval, training, or evals —
+      they validate infrastructure reliability and security. ML
+      knowledge is only a 'huge plus'.
+  responsibilities:
+  - Define optimized test strategies and methodologies for validating large-scale
+    AI cluster deployments
+  - Break large distributed ML training and inference systems into unit-testable components
+  - Automate tests for cluster features covering high availability, failure scenarios,
+    performance, stress, and security
+  - Test cluster software components including Kubernetes, Prometheus, and Grafana
+  - Test cluster hardware including ML wafer-scale accelerators, CPU runtime nodes,
+    SwarmX interconnect, and MemoryX weight transfer
+  - Qualify cluster networking solutions including high-speed switches, routers, and
+    optics from vendors
+  - Qualify cluster security features including OS security, network security, cloud
+    compliance, and certifications
+  use_cases:
+  - Reliability and availability testing of large-scale AI compute clusters
+  - Validation of cluster networking (switches, routers, optics, interconnects)
+  - Security and compliance qualification of cluster OS, network, and cloud access
+  - Automated testing of high availability, failure, performance, and stress scenarios
+  - Observability and monitoring validation for cluster software
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, Kubernetes]
+    ops: [Docker, Prometheus, Grafana, Linux, Observability]
+    languages: [Python, Go, C++]
+    domains: [ML Model Training and Inference]
+    other: [BGP, Juniper, Arista, Cisco, Ixia/Spirent Network Test Equipment, Distributed
+        Systems Testing, Network Security Testing, Firewalls, Datacenter Networking,
+      gdb, ML Hardware Accelerators]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10712074'
+  location: Choudwar, IND
+  extracted_at: '2026-08-25T11:24:49.323118'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

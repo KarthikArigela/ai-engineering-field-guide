@@ -1,0 +1,58 @@
+company:
+  name: Icreon Tech
+  stage: null
+  focus: Digital technology consultancy building payments automation
+position:
+  title: AI Automation Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds AI agents and LLM workflows
+      (tool calling, structured outputs, prompt design, LLM
+      evaluation, guardrails), directly shaping model behavior,
+      with LLM/agent components central to the work.
+  responsibilities:
+  - Design and build AI agents and workflows for reconciliation, audit preparation,
+    reporting, analytics, exception handling, and incident automation
+  - Implement agentic workflows using Java/Spring AI or Python-based orchestration
+  - Integrate Claude/Anthropic, OpenAI, and Gemini model APIs with secure enterprise
+    patterns
+  - Build workflow orchestration using n8n, Temporal, Camunda, Airflow, or LangGraph
+  - Integrate payment, finance, reporting, case-management, and data platforms via
+    APIs, events, queues, and data pipelines
+  - Implement tool calling, structured outputs, validation rules, deterministic checks,
+    and business-rule guardrails
+  - Embed human-in-the-loop review, approval, escalation, and exception-resolution
+    steps
+  - Create reusable connectors, workflow templates, agent patterns, prompts, test
+    harnesses, and engineering standards
+  use_cases:
+  - Payments reconciliation automation
+  - Audit preparation and reporting
+  - Financial analytics
+  - Incident handling automation
+  - Operational exception management
+  - Human-in-the-loop approval workflows for regulated payments operations
+  skills:
+    genai: [Spring AI, Anthropic API, OpenAI API, Gemini, Prompt Engineering, Function
+        Calling, Structured Outputs, LLMs, Generative AI, Agentic Workflows, LangGraph,
+      LangChain, MCP, Semantic Kernel, AutoGen, RAG, Embeddings, Vector Databases,
+      LLM Evaluation]
+    ml: []
+    web: [Spring Boot, FastAPI, REST APIs]
+    databases: []
+    data: [Airflow, Kafka, RabbitMQ, Data Pipelines]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Git, CI/CD, Monitoring]
+    languages: [Java, Python, SQL]
+    domains: []
+    other: [n8n, Temporal, Camunda, Event-Driven Architecture, API Gateways, ISO 20022,
+      SWIFT, PCI DSS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10432739'
+  location: Noida, IND
+  extracted_at: '2026-08-25T10:07:05.754762'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

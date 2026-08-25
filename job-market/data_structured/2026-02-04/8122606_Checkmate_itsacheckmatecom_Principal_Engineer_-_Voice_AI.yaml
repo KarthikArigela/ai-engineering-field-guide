@@ -1,58 +1,59 @@
 company:
   name: Checkmate (itsacheckmate.com)
-  stage: Series B (inferred from $1B market opportunity and scaling to thousands of
-    stores)
-  focus: Voice AI systems for restaurant drive-thru automation
+  stage: null
+  focus: Voice AI ordering automation for US restaurant brands
 position:
   title: Principal Engineer - Voice AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying
-      agentic Voice AI systems using LLMs and Generative AI
-      technologies. The Principal Engineer will design, research,
-      and train LLM applications, integrate OpenAI/ChatGPT APIs,
-      implement agentic orchestration strategies, and fine-tune
-      models using LoRA/QLoRA. This is direct work ON AI systems,
-      not just supporting infrastructure.
+      The role shapes model behaviour directly: it provides
+      directional leadership on agentic system design,
+      architecture, and orchestration for an LLM-driven voice
+      ordering platform, builds Python systems integrating
+      LLM/GenAI frameworks, and researches, designs, and trains
+      LLM applications. Since the shaped models are LLMs and
+      agents, and prompt/agent-driven speech ordering is
+      explicitly ai-first, this is ai-first.
   responsibilities:
-  - Provide directional leadership in the voice ordering system's agentic system design,
-    architecture, and orchestration strategies
-  - Work directly with executive leadership to solve and roadmap business critical
-    implementations into the voice application
-  - Build and maintain enterprise-grade Python based systems that integrate LLM and
-    Generative AI frameworks to support end-to-end AI product pipeline
-  - Design CI/CD pipelines for orchestrated LLM driven agentic services and manage
-    deployments across cloud environments
-  - Own custom model testing, monitoring, and maintenance to ensure reliability throughout
-    the full ML model life cycle
+  - Provide directional leadership on agentic system design, architecture, and orchestration
+    strategies for the voice ordering system
+  - Build and maintain enterprise-grade Python systems integrating LLM and Generative
+    AI frameworks for the end-to-end AI product pipeline
+  - Design CI/CD pipelines for orchestrated LLM-driven agentic services and manage
+    deployments across cloud environments powering production drive-thru operations
+  - Own custom model testing, monitoring, and maintenance throughout the full ML model
+    lifecycle
   - Design prototypes and POCs that demonstrate feasibility, validate approach, and
-    support product direction
-  - Research, design, and train LLM applications aimed at solving real operational
-    challenges inside restaurant environments
-  - Provide technical guidance on adopting and integrating LLM capabilities with internal
-    teams and external partners
+    support product direction for the Voice AI platform
+  - Research, design, and train LLM applications that solve real operational challenges
+    in restaurant environments
+  - Partner with the VP of Machine Learning, CTO, and CEO to roadmap business-critical
+    implementations into the voice application
+  - Work with internal teams and external partners to provide technical guidance on
+    adopting and integrating LLM capabilities
   use_cases:
-  - Real-time drive-thru automation for restaurants
-  - Voice ordering systems for food service
-  - Agentic AI systems for customer service interactions
-  - LLM-powered conversational interfaces for high-volume environments
-  - Production AI solutions achieving 80%+ accuracy at scale
+  - Real-time drive-thru voice ordering automation for restaurant chains
+  - Agentic voice AI platform scaling to thousands of store locations
+  - Voice AI products used daily by restaurant staff and customers
+  - LLM applications solving operational challenges in restaurant environments
   skills:
-    domains: [NLTK, CoreNLP, NLP, ASR]
-    languages: [Python]
-    ml: [PyTorch, Fine-Tuning]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, OpenAI API, ChatGPT, GPT-4, HuggingFace Transformers, Pydantic AI,
-      LoRA, Agentic Workflows, RAG, Prompt Engineering]
-    data: []
-    other: []
-    ops: [MLOps, CI/CD, containerization, Model Monitoring, model testing]
-    web: [APIs]
+    languages: [Python]
+    ml: [PyTorch, Transformers, NLTK, CoreNLP, word2vec, Embeddings, Classifiers]
+    other: [Responsible AI]
+    ops: [MLOps, CI/CD, Containerization, Model Monitoring]
     databases: []
-  is_customer_facing: false
-  is_management: true
+    domains: [NLP, Voice AI, ASR]
+    web: [APIs]
+    data: []
+    genai: [LLMs, Generative AI, Agentic Workflows, OpenAI API, ChatGPT, GPT-4, Bard,
+      Synthesia, Pydantic AI, LoRA, Fine-Tuning]
+  is_customer_facing: true
+  is_management: false
 meta:
   job_id: '8122606'
   location: USA
-  extracted_at: '2026-02-05T12:04:33.296087'
+  extracted_at: '2026-08-15T22:44:17.291283'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

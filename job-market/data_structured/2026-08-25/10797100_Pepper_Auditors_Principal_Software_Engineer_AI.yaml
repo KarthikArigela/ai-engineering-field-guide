@@ -1,0 +1,53 @@
+company:
+  name: Pepper Auditors
+  stage: null
+  focus: Modern audit firm for employee benefit plan compliance
+position:
+  title: Principal Software Engineer, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds LLM extraction pipelines, eval
+      harnesses, prompts, and orchestration for an audit workbench
+      — directly shaping model behavior and output quality.
+      LLM/document-understanding systems are the core, so it is
+      ai-first.
+  responsibilities:
+  - Build and scale a pipeline-based audit workbench from raw evidence to reviewable
+    workpaper
+  - Own ingestion and extraction, recomputation and exception detection, and workpaper
+    generation stages
+  - Build eval infrastructure with golden datasets to catch regressions
+  - Design schemas and deterministic rule logic, deciding the boundary between model
+    and code
+  - Build a frontend review surface and structured human-review workflows
+  - Set technical direction as an early engineering hire, scaling from 100 to 10,000
+    clients
+  - Operate the system in production end-to-end
+  use_cases:
+  - Audit workbench converting raw financial evidence into reviewable workpapers
+  - Document ingestion and extraction from financial documents
+  - Recomputation and exception detection with deterministic regulatory logic
+  - Employee benefit plan (ERISA/401(k)) compliance auditing
+  - Narrative drafting and workpaper generation for CPA review
+  skills:
+    genai: [LLMs, Agentic Workflows, Prompt Engineering, Structured Outputs, LLM Evaluation,
+      OCR, Retrieval Systems]
+    ml: [Extraction Pipelines]
+    web: [Frontend Review UIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10797100'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:54:42.508471'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

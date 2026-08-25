@@ -1,54 +1,54 @@
 company:
   name: Celonis
-  stage: Late-stage (unicorn SaaS, pre-IPO)
-  focus: Process mining and process intelligence SaaS platform
+  stage: null
+  focus: Process Intelligence and Process Mining enterprise software
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      maintaining production-ready AI systems including LLM-based
-      copilots, multi-agent systems, predictive models, and
-      generative AI features. The engineer handles end-to-end
-      development from use case identification to production
-      deployment, making this clearly an ai-first role.
+      The role designs and builds LLM-based copilots, autonomous
+      agents, and multi-agent systems with human-in-loop flows and
+      safety guardrails, directly shaping model behavior and
+      output quality. LLM and agent components are central to the
+      work, making it ai-first.
   responsibilities:
-  - Partner with product owners and finance experts to identify strong AI use cases
-    in Accounts Receivable
+  - Partner with product owners and finance experts to identify AI use cases in Accounts
+    Receivable
   - Design and build predictive models, generative AI features, and multi-agent systems
-    tailored to business problems
-  - Develop LLM-based copilots and autonomous agents including human-in-loop flows,
-    security guardrails, and audit trails
-  - Work closely with software engineers and data scientists to embed AI features
-    into the AR product
+    tailored to Finance domain problems
+  - Develop LLM-based copilots and autonomous agents with human-in-loop flows, security
+    guardrails, and audit trails
+  - Work with software engineers and data scientists to embed AI features into the
+    AR product
   - Build and maintain secure, scalable MLOps pipelines for training, deployment,
     and monitoring
   - Continuously evaluate and improve model performance and user impact
   - Set up and tailor AI demos for customers, stakeholders, and internal teams
-  - Stay current with advancements in LLMs, NLP, multi-agent frameworks, and applied
-    AI engineering
   use_cases:
-  - Accounts Receivable automation and intelligence for global enterprise customers
-  - LLM-based copilots for financial operations assistance
-  - Autonomous multi-agent systems for AR workflow automation
-  - Predictive modeling for financial outcomes and risk assessment
-  - Generative AI features for finance domain applications
+  - AI-powered automation of Accounts Receivable and financial operations
+  - LLM-based copilots and autonomous agents for finance workflows
+  - Predictive models for Accounts Receivable business problems
+  - Multi-agent systems with human-in-loop governance for financial processes
+  - Process intelligence for finance and accounting operations
   skills:
-    domains: [NLP]
-    languages: [Python, Java, R]
-    ml: [TensorFlow, PyTorch, scikit-learn, Predictive modeling, ML algorithms, Statistics]
     cloud: [AWS, Azure, GCP]
-    genai: [LLM-based solutions, Multi-Agent Systems, LLM copilots, Autonomous agents,
-      Human-in-loop flows, Prompt Engineering]
-    data: [Data Pipelines]
+    languages: [Python, R, Java]
+    ml: [TensorFlow, PyTorch, scikit-learn, Machine Learning, NLP, Predictive Modeling,
+      Statistics, Model Training]
     other: []
-    ops: [MLOps, CI/CD, GitHub/GitLab, Model Deployment]
-    web: [REST APIs]
+    ops: [MLOps, CI/CD, GitHub, GitLab CI, Model Deployment, Model Monitoring]
     databases: []
+    domains: []
+    web: [REST APIs, JSON, HTTP]
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, AI Agents, Multi-Agent Systems, Guardrails, Function
+        Calling, Human-in-the-Loop]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8942471'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T13:42:59.259272'
+  extracted_at: '2026-08-16T06:25:13.329831'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

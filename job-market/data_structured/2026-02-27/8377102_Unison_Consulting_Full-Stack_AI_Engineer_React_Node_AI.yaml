@@ -1,50 +1,53 @@
 company:
   name: Unison Consulting
   stage: null
-  focus: Technology consulting services
+  focus: IT consulting services
 position:
   title: Full-Stack AI Engineer (React, Node, AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with AI/ML technologies
-      including LLMs, prompt engineering, RAG pipelines, model
-      fine-tuning, and vector databases. The engineer will design,
-      build, and scale AI-powered web applications with direct
-      integration of AI components, not just supporting
-      infrastructure.
+      The role requires hands-on experience with LLMs, prompt
+      engineering, and RAG pipelines, and an understanding of
+      fine-tuning and model inference — these are direct model-
+      shaping activities (writing prompts, designing retrieval).
+      Since LLMs and RAG are central to the AI integration work,
+      it classifies as ai-first.
   responsibilities:
-  - Design and build AI-powered web applications across frontend, backend, and AI
-    integration layers
-  - Implement LLM integrations, prompt engineering, and RAG pipelines
-  - Develop and optimize React.js frontend with hooks and state management
-  - Build scalable backend services using Node.js (Express/NestJS)
-  - Integrate vector databases (Pinecone, FAISS, Weaviate) for AI workflows
-  - Work with AI APIs, model inference, and fine-tuning implementations
-  - Ensure AI security, ethics, and performance optimization
-  - Collaborate on microservices architecture and CI/CD pipelines
+  - Design, build, and scale AI-powered web applications across frontend, backend,
+    and AI integration layers
+  - Develop React frontends with state management and performance optimization
+  - Build backend services and APIs using Node.js with Express or NestJS
+  - Integrate LLMs, embeddings, and vector databases into applications
+  - Implement prompt engineering and RAG pipelines
+  - Work with PostgreSQL, MongoDB, and Redis databases
+  - Deploy and operate services using Docker, CI/CD, and microservices architecture
+    on AWS, Azure, or GCP
+  - Apply AI security, ethics, and performance optimization awareness across the stack
   use_cases:
+  - AI-powered web applications
   - AI-powered SaaS products
-  - Enterprise web applications with AI integration
-  - RAG-based information retrieval systems
-  - LLM-powered application features
-  - Intelligent data processing and embeddings
+  - LLM and RAG features embedded in full-stack products
+  - Banking and financial domain applications (payments, loans, accounts, treasury,
+    risk, compliance)
   skills:
-    domains: []
-    languages: [Python, Java]
-    ml: [Fine-Tuning]
     cloud: [AWS, Azure, GCP]
-    genai: [LLMs, Prompt Engineering, RAG, Embeddings, AI APIs]
+    languages: [Java, Python]
+    ml: []
+    other: [AI Security, Responsible AI, Banking and Financial Domain]
+    ops: [Docker, CI/CD, Jenkins, Git, Maven, Gradle, MLOps, Model Inference]
+    databases: [PostgreSQL, MySQL, MongoDB, Redis, Oracle, Vector Databases, Pinecone,
+      FAISS, Weaviate, Hibernate]
+    domains: []
+    web: [React, Node.js, Express.js, NestJS, Spring Boot, Spring MVC, Spring Data
+        JPA, Spring Security, REST APIs, Microservices, OAuth, JWT]
     data: []
-    other: []
-    ops: [Docker, CI/CD, MLOps]
-    web: [React, Node.js, Express, NestJS, Microservices, Spring Boot, Spring MVC,
-      Spring Security, REST APIs]
-    databases: [Vector Databases, Pinecone, FAISS, Weaviate, PostgreSQL, MongoDB,
-      Redis, MySQL, Oracle]
+    genai: [LLMs, Prompt Engineering, RAG, Embeddings, Fine-Tuning, AI APIs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8377102'
   location: Chennai, IND
-  extracted_at: '2026-03-03T11:35:34.380317'
+  extracted_at: '2026-08-16T01:04:03.414318'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

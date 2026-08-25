@@ -1,53 +1,59 @@
 company:
   name: Provenir, Inc.
   stage: null
-  focus: Fintech decisioning and analytics products
+  focus: |-
+    Fintech decisioning and analytics products for financial
+    services
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      productionizing ML/LLM models and GenAI applications on
-      Amazon Bedrock, developing AI agents with LangChain, and
-      implementing RAG workflows. The engineer works hands-on with
-      models and AI systems rather than just supporting
-      infrastructure for others.
+      The role designs and integrates AI Agents with LangChain for
+      orchestration and tool use, builds RAG workflows, and works
+      with vector databases and embeddings for LLM applications -
+      all direct shaping of model behaviour (Step 1 yes). Since
+      LLM and agent components are central, the classification is
+      ai-first.
   responsibilities:
   - Design and develop APIs and reusable components for ML and GenAI deployment
   - Build and scale ML/GenAI pipelines on AWS including Bedrock, SageMaker, Step Functions,
     and Kubeflow on EKS
   - Productionize LLMs, generative AI applications, and predictive models on Amazon
     Bedrock
-  - Develop and integrate AI Agents using frameworks like LangChain for orchestration
+  - Develop and integrate AI Agents with frameworks like LangChain for orchestration
     and tool use
   - Write robust, testable, and maintainable Python code for backend services, SDKs,
     and ML workflows
   - Package and deploy containerized services on Kubernetes (EKS) with attention to
     scalability, resilience, and observability
-  - Maintain MLOps environment with CI/CD, monitoring, and version control best practices
+  - Work in a modern MLOps environment with CI/CD, monitoring, and version control
+    best practices
   - Support and maintain cloud-native SaaS solutions at scale on AWS
   use_cases:
-  - AI-powered decisioning and analytics for financial services
-  - Generative AI applications for fintech and financial institutions
-  - RAG-based workflows for intelligent information retrieval
-  - AI agent orchestration for automated financial decision processes
-  - Predictive modeling for risk assessment and business growth
+  - AI-powered decisioning and analytics for fintechs, financial institutions, and
+    payment providers
+  - Predictive models for smarter and faster business decisions
+  - Generative AI applications and AI agents for financial services workflows
+  - Turning data into actionable insights and intelligent solutions
   skills:
-    domains: []
+    cloud: [AWS, AWS Bedrock, SageMaker, AWS Lambda, AWS S3, IAM, EKS, Step Functions]
     languages: [Python, Java, C#, C++]
-    ml: []
-    cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS S3, IAM, CloudWatch]
-    genai: [LangChain, LlamaIndex, RAG, AI Agents]
-    data: []
+    ml: [Machine Learning]
     other: [pytest, unittest]
-    ops: [Docker, Kubernetes, Kubeflow, ArgoCD, GitHub Actions, Terraform, CloudFormation,
-      MLOps]
+    ops: [Kubernetes, Docker, CI/CD, GitHub Actions, Infrastructure as Code, Terraform,
+      CloudFormation, MLOps, Kubeflow, ArgoCD, CloudWatch, Monitoring]
+    databases: [Vector Databases, Pinecone, FAISS, OpenSearch]
+    domains: []
     web: [FastAPI]
-    databases: [Pinecone, FAISS, OpenSearch]
+    data: []
+    genai: [LLMs, Generative AI, LangChain, LlamaIndex, AI Agents, RAG, Function Calling,
+      Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9577545'
   location: New York, USA
-  extracted_at: '2026-06-25T19:44:13.210326'
+  extracted_at: '2026-08-16T13:01:05.816738'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

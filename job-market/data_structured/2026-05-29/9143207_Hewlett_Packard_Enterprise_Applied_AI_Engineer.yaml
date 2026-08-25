@@ -1,57 +1,60 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud computing solutions and IT infrastructure
+  stage: null
+  focus: Edge-to-cloud IT solutions and financial services
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      Hands-on building and deploying agentic AI systems using
-      LangChain/LangGraph, integrating LLMs (Claude/GPT/Copilot)
-      via APIs, implementing RAG architectures, function-calling,
-      and prompt engineering. Works directly on model systems from
-      data wrangling through deployment.
+      The role directly shapes LLM behaviour: it engineers and
+      refines prompts (few-shot, chain-of-thought, structured
+      outputs), designs multi-step agentic pipelines with
+      LangChain/LangGraph/AutoGen/Semantic Kernel, builds RAG
+      architectures, and evaluates models. Since LLM and agent
+      components are central to the work, this is ai-first.
   responsibilities:
+  - Design, build, test, and support AI-enabled solutions aligned to business requirements
+    using established AI and data science techniques
   - Design and develop multi-step agentic AI pipelines using orchestration frameworks
-    such as LangChain, LangGraph, AutoGen, or Semantic Kernel
-  - Build and maintain conversational AI assistants and chatbots including retrieval-augmented
-    generation (RAG) architectures
-  - Engineer, test, and refine prompts for Claude, GPT, and Copilot and implement
-    few-shot, chain-of-thought, and structured output strategies
-  - Integrate LLMs into custom AI products via REST APIs, SDKs, and tool-use or function-calling
-    interfaces
-  - Apply established AI and data science techniques to design, build, test, and support
-    AI-enabled solutions aligned to business requirements
-  - Build and evaluate machine learning models including classification, regression,
-    and NLP for business insights
-  - Support integration of RPA solutions using UiPath and Power Automate into end-to-end
-    AI products
-  - Continuously evaluate emerging AI tools and frameworks and propose experiments
-    to validate capabilities
+    such as LangChain, LangGraph, AutoGen, and Semantic Kernel
+  - Build and maintain conversational AI assistants and chatbots including RAG architectures,
+    engineering prompts with few-shot, chain-of-thought, and structured output strategies
+  - Integrate LLMs (Claude, GPT, Copilot) into custom AI products via REST APIs, SDKs,
+    and function-calling interfaces
+  - Perform exploratory data analysis, feature engineering, statistical modelling,
+    and machine learning model evaluation for AI-driven use cases
+  - Develop dashboards and reports using Power BI, Tableau, or Python-based visualization
+    libraries for technical and non-technical stakeholders
+  - Support RPA integrations (UiPath, Power Automate) into end-to-end AI products
+    and propose AI-assisted automation for manual processes
+  - Evaluate emerging AI tools and frameworks, document learnings, and provide code
+    reviews and guidance to junior developers and interns
   use_cases:
-  - Agentic AI systems for business workflow automation
-  - Conversational AI assistants and chatbots for enterprise support
-  - RAG-powered knowledge retrieval and question answering
-  - AI-driven business intelligence and data analytics
-  - RPA automation integrated with AI capabilities
-  - LLM-powered financial services and IT asset management
+  - Agentic AI systems embedded into real-world business workflows
+  - Conversational AI assistants and chatbots with retrieval-augmented generation
+  - LLM-powered solutions for financial services and asset management operations
+  - AI-assisted automation of repetitive manual business processes via RPA
+  - Machine learning models for business insights and reporting
   skills:
-    domains: []
-    languages: [Python, SQL, TypeScript]
-    ml: [ML/DL models]
     cloud: []
-    genai: [LangChain, LangGraph, AutoGen, Semantic Kernel, Anthropic Claude API,
-      OpenAI GPT API, Microsoft Copilot, Azure OpenAI, Prompt Engineering, Function
-        Calling, RAG]
-    data: [Databricks, Power BI]
-    other: [UiPath, Power Automate, Collibra]
-    ops: [Git, Docker, Jupyter Notebooks]
-    web: [REST APIs, FastAPI, Flask]
+    languages: [Python, SQL, JavaScript, TypeScript]
+    ml: [Machine Learning, Model Evaluation, Feature Engineering, NLP, Statistical
+        Modeling, Jupyter Notebooks]
+    other: [Power BI, Tableau, Qlik Sense, Power Automate, UiPath, RPA]
+    ops: [Git, GitHub, Docker]
     databases: [Azure SQL]
+    domains: []
+    web: [REST APIs, FastAPI, Flask]
+    data: [Databricks, Data Pipelines, Exploratory Data Analysis, Collibra]
+    genai: [LangChain, LangGraph, AutoGen, Semantic Kernel, RAG, Prompt Engineering,
+      Function Calling, Structured Outputs, Anthropic API, OpenAI API, Azure OpenAI,
+      Microsoft Copilot, Gemini, LLMs, Agentic Workflows, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9143207'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:54:39.278064'
+  extracted_at: '2026-08-16T09:02:23.320585'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

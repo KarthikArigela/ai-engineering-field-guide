@@ -1,0 +1,60 @@
+company:
+  name: Global Software Solutions Group
+  stage: null
+  focus: Global software and technology solutions provider
+position:
+  title: Senior Technology Engineer - AI/ML Platforms
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is an MLOps/AI platform engineering role: the person
+      deploys, serves, monitors, and scales models built by others
+      using Triton, vLLM, Kubernetes, and CI/CD tooling. There is
+      no evidence of shaping model behaviour (no prompt
+      engineering, RAG design, fine-tuning, or evals). Per the
+      edge case, serving/hosting models is ai-support even when
+      vLLM, Triton, and TensorRT are named; GenAI collaboration
+      and agentic frameworks appear only as vague initiatives or
+      preferred exposure.
+  responsibilities:
+  - Design, build, and maintain containerized applications using OpenShift, OpenShift
+    AI, Kubernetes, and Helm Charts
+  - Integrate and optimize AI inference engines such as Triton Inference Server and
+    vLLM for high-performance model serving
+  - Lead end-to-end model lifecycle management including deployment, monitoring, scaling,
+    and maintenance in production environments
+  - Implement robust monitoring and alerting frameworks using Prometheus and Grafana
+  - Develop and manage CI/CD pipelines using Jenkins, Ansible, Groovy, and Terraform
+  - Build automation tools and scripts in Python to improve system efficiency and
+    reliability
+  - Architect and manage AI/ML solutions on AWS using services such as SageMaker and
+    AWS Bedrock across hybrid on-premise and cloud environments
+  - Collaborate on GenAI and LLM initiatives including Agentic AI systems, and contribute
+    to architecture decisions and the AI platform roadmap
+  use_cases:
+  - High-performance AI inference serving for GenAI and LLM-based applications
+  - Scalable AI/ML platform operations across hybrid on-premise and cloud environments
+  - Agentic AI systems and enterprise GenAI initiatives
+  - Production model lifecycle management with monitoring, alerting, and scaling
+  - Infrastructure automation and CI/CD for AI platform workloads
+  skills:
+    genai: [LLMs, Generative AI, AI Agents, LLM Orchestration]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, SageMaker, AWS Bedrock, Hybrid Cloud]
+    ops: [MLOps, Kubernetes, OpenShift, OpenShift AI, Helm, Triton, vLLM, TensorRT,
+      ONNX Runtime, Prometheus, Grafana, Jenkins, Ansible, Terraform, CI/CD, Infrastructure
+        as Code, Model Deployment, GPU Acceleration]
+    languages: [Python, Groovy]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8903138'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T06:03:23.674989'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

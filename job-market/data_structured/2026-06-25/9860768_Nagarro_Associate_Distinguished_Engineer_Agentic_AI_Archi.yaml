@@ -1,67 +1,69 @@
 company:
   name: Nagarro
-  stage: Private
-  focus: Digital product engineering and technology consulting
+  stage: null
+  focus: |-
+    Digital product engineering and technology consulting
+    services
 position:
   title: Associate Distinguished Engineer (Agentic AI Architect)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on architecting and designing
-      enterprise-scale Agentic AI and Generative AI solutions,
-      including multi-agent systems, RAG, and autonomous
-      workflows. The position requires hands-on expertise with LLM
-      frameworks, agent orchestration, and advanced reasoning
-      patterns — core building and deploying of AI systems.
+      The role architects enterprise agentic AI systems: designing
+      agent orchestration, multi-agent architectures, RAG/GraphRAG
+      retrieval, prompt engineering patterns, and evaluating
+      commercial and open-source LLMs. This is directly shaping
+      LLM and agent behavior, making it ai-first.
   responsibilities:
   - Architect and design enterprise-scale Agentic AI and Generative AI solutions aligned
     with business objectives and technology strategies
-  - Define scalable architectures for multi-agent collaboration, autonomous workflows,
-    hierarchical agent systems, planners, orchestrators, and human-in-the-loop processes
-  - Design and implement advanced reasoning frameworks including ReAct, Plan-and-Execute,
-    Reflection, Tree-of-Thoughts, and other agentic AI patterns
+  - Define scalable multi-agent architectures including orchestration, planners, supervisors,
+    autonomous workflows, and human-in-the-loop processes
+  - Design and implement advanced reasoning frameworks such as ReAct, Plan-and-Execute,
+    Reflection, and Tree-of-Thoughts
   - Develop enterprise AI architectures incorporating RAG, GraphRAG, Knowledge Graphs,
-    Semantic Search, and intelligent knowledge systems
-  - Architect scalable AI platforms supporting enterprise-wide agentic workloads with
-    robust governance, security, and observability
-  - Establish standards and best practices for AI Engineering, AgentOps, LLMOps, MLOps,
-    AI governance, evaluation, monitoring, and compliance
-  - Evaluate commercial and open-source LLMs, optimize model selection, orchestration
+    Semantic Search, and Enterprise Search
+  - Architect scalable AI platforms with governance, guardrails, security, observability,
+    and evaluation standards, and establish AgentOps/LLMOps/MLOps best practices
+  - Evaluate commercial and open-source LLMs and optimize model selection, orchestration
     strategies, and inference performance
   - Lead AI discovery workshops, architecture assessments, proof-of-concepts, MVPs,
-    and enterprise transformation initiatives
-  - Support presales activities including solutioning, proposals, RFP responses, effort
-    estimation, and executive presentations
-  - Mentor architects, engineers, data scientists, and technical teams by establishing
-    architecture standards and AI engineering best practices
+    and enterprise AI transformation initiatives
+  - Support presales activities including proposals, RFP responses, estimations, and
+    executive presentations, while mentoring architects and engineers
   use_cases:
-  - Enterprise multi-agent workflows and autonomous business process automation
-  - Enterprise knowledge systems with RAG, GraphRAG, and semantic search
-  - Agentic AI orchestration for complex enterprise decision-making
-  - AI-assisted software development across the SDLC
-  - AI governance, observability, and compliance for enterprise-scale deployments
-  - Industry-specific AI transformation across Retail, Manufacturing, Telecom, Financial
-    Services, and Healthcare
+  - Enterprise-scale agentic AI workflows and autonomous multi-agent systems
+  - Enterprise knowledge systems built on RAG, GraphRAG, knowledge graphs, semantic
+    search, and enterprise search
+  - Human-in-the-loop autonomous workflows for enterprise business processes
+  - AI-assisted software development across the SDLC including coding, testing, and
+    documentation
+  - Enterprise AI platforms with governance, evaluation, observability, and guardrails
+  - AI transformation and modernization initiatives across retail, manufacturing,
+    telecom, financial services, and healthcare
   skills:
-    domains: []
-    languages: [Python, Java, JavaScript, TypeScript, C#, Go]
-    ml: []
     cloud: [Azure, AWS, GCP]
-    genai: [LangGraph, LangChain, CrewAI, AutoGen, Semantic Kernel, LlamaIndex, OpenAI
-        Agent SDK, Google ADK, MCP, Prompt Engineering, RAG, GraphRAG, Agentic RAG,
-      Agentic Workflows, Multi-Agent Systems, ReAct, Plan-and-Execute, Tree-of-Thoughts,
-      Embeddings, Semantic Search, GitHub Copilot, Cursor, Claude Code, Windsurf,
-      Codex, Synthetic Data Generation]
-    data: [Ontology Design]
-    other: []
-    ops: [Kubernetes, Containerization, CI/CD, DevSecOps, MLOps, LLMOps, AgentOps,
-      AI Governance, AI Observability and Monitoring]
-    web: [APIs, Microservices, Event-driven Architecture]
+    languages: [Python, Java, JavaScript, TypeScript, C#, Go]
+    ml: [Synthetic Data]
+    other: [Responsible AI, Event-Driven Architecture, Enterprise Search, Ontology
+        Design, AI Evaluation Frameworks, Cloud-Native Development]
+    ops: [Kubernetes, CI/CD, DevSecOps, MLOps, LLMOps, AgentOps, Observability, Monitoring,
+      Distributed Systems]
     databases: [Vector Databases, Knowledge Graphs]
+    domains: []
+    web: [APIs, Microservices]
+    data: []
+    genai: [Agentic Workflows, AI Agents, Multi-Agent Systems, LangGraph, LangChain,
+      CrewAI, AutoGen, Semantic Kernel, LlamaIndex, OpenAI Agent SDK, Google ADK,
+      MCP, Prompt Engineering, RAG, GraphRAG, Agentic RAG, Semantic Search, Embeddings,
+      Generative AI, LLMs, Guardrails, ReAct, Plan-and-Execute, Reflection, Tree-of-Thoughts,
+      Human-in-the-Loop, GitHub Copilot, Cursor, Claude Code, Windsurf, Codex]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9860768'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:51:11.136603'
+  extracted_at: '2026-08-16T15:32:11.084047'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

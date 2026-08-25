@@ -1,61 +1,65 @@
 company:
   name: Digital Green
-  stage: Non-profit (backed by BMGF, USAID, Walmart Foundation, UKFCDO)
+  stage: Backed by philanthropic organizations (Bill & Melinda Gates Foundation, Walmart
+    Foundation, USAID, UKFCDO)
   focus: |-
-    Global non-profit using technology to empower smallholder
+    Nonprofit leveraging technology to empower smallholder
     farmers
 position:
   title: Associate AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, evaluating, and
-      deploying LLM-powered features for FarmerChat, including
-      prompt engineering, agentic workflows with MCP, embedding
-      pipelines, vector stores, and multimodal AI systems. The
-      engineer works hands-on with LLM provider APIs, evaluation
-      frameworks, and production AI features—clearly building and
-      deploying AI systems.
+      The role directly shapes LLM behaviour: writing and refining
+      prompts, building agentic workflows with MCP and tool-use
+      patterns, maintaining embedding and vector store retrieval
+      pipelines, and defining automated evaluation frameworks to
+      catch hallucination and bias. The primary target is an LLM-
+      driven conversational product (FarmerChat), with secondary
+      multimodal (speech/vision) work, making it ai-first.
   responsibilities:
   - Build and integrate LLM-powered features for FarmerChat using provider APIs (Anthropic
     Claude, OpenAI, Google Gemini)
   - Write and refine prompts and wire up tool-use patterns using provider SDKs and
     the Model Context Protocol (MCP)
-  - Run and extend automated evaluation test suites to check LLM outputs for accuracy,
-    hallucination, and bias using frameworks like Ragas, DeepEval, or Promptfoo
+  - Run and extend automated test suites that check LLM outputs for accuracy, hallucination,
+    and bias using Ragas, DeepEval, or Promptfoo
   - Test agent workflows end-to-end and document edge cases, failure modes, and regressions
   - Maintain embedding pipelines and vector stores (Qdrant, pgvector, FAISS) that
-    ground LLM responses with agricultural knowledge
-  - Support multimodal AI work including speech-to-text (Whisper, Deepgram), text-to-speech,
-    and image classification for crop and pest detection
+    ground LLM responses in agricultural knowledge
+  - Support multimodal work spanning speech-to-text, text-to-speech, and image classification
+    for crop and pest detection
   - Monitor system health and flag issues using observability tools (Langfuse, Arize
     Phoenix, Weights & Biases)
-  - Document prompts, experiments, and runbooks for team reproducibility
+  - Document prompts, experiments, and runbooks so the team can reproduce and build
+    on the work
   use_cases:
-  - Conversational AI advisory platform (FarmerChat) serving millions of smallholder
-    farmers with agricultural guidance
-  - Multilingual and low-resource AI systems for real-world agricultural contexts
-    in developing regions
-  - Automated evaluation pipelines to catch hallucination and bias before production
-    deployment
-  - Multimodal crop and pest detection via image classification
-  - Speech-based farmer interaction through speech-to-text and text-to-speech systems
-  - Agentic workflows for agricultural tool-use and advisory reasoning
+  - FarmerChat - a conversational AI advisory platform serving millions of smallholder
+    farmers
+  - Multilingual and low-resource agricultural advisory grounded in agricultural knowledge
+    via embeddings and vector stores
+  - Speech interfaces for farmers through speech-to-text and text-to-speech
+  - Crop and pest detection via image classification
+  - Evaluation pipelines that validate model updates for accuracy, hallucination,
+    and bias before production release
   skills:
-    domains: [Computer Vision, NLP]
+    cloud: [AWS Bedrock, SageMaker, Vertex AI, GCP, Azure]
     languages: [Python]
-    ml: [Whisper, Deepgram, ViT, CLIP, YOLO]
-    cloud: [AWS Bedrock, SageMaker, Vertex AI]
-    genai: [Anthropic Claude API, OpenAI API, Google Gemini API, Prompt Engineering,
-      MCP, Agentic Workflows, RAG, LoRA / PEFT, Ragas, DeepEval, Promptfoo]
-    data: []
-    other: [Git]
-    ops: [Langfuse, Arize Phoenix, Weights & Biases, Docker]
+    ml: [Whisper, Text-to-Speech, ViT, CLIP, YOLO]
+    other: [Deepgram]
+    ops: [Langfuse, Arize Phoenix, Weights & Biases, Git, Docker]
+    databases: [Vector Databases, Qdrant, pgvector, FAISS]
+    domains: []
     web: []
-    databases: [Qdrant, pgvector, FAISS]
+    data: []
+    genai: [LLMs, Embeddings, Prompt Engineering, Anthropic API, OpenAI API, Gemini,
+      Agentic Workflows, MCP, Function Calling, LLM Evaluation, Structured Outputs,
+      Fine-Tuning, LoRA, Llama, Mistral, Gemma, Ragas, DeepEval, Promptfoo]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9127823'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:49:31.735777'
+  extracted_at: '2026-08-16T08:57:14.570896'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

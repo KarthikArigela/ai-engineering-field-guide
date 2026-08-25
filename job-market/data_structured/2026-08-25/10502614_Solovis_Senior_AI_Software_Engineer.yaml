@@ -1,0 +1,54 @@
+company:
+  name: Solovis
+  stage: Backed by Insight Partners
+  focus: |-
+    Portfolio management and analytics software for
+    institutional investors
+position:
+  title: Senior AI Software Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The deliverable is portfolio-management product features;
+      agentic workflows (Claude Code, Cursor, multi-agent dev
+      setups) are the engineer's working mode and internal
+      tooling, not a shipped AI product. Per the edge case,
+      rolling out AI coding agents so engineers ship faster is ai-
+      support — the person validates agent-generated code, but the
+      agents are developer workflow tools, not model behaviour
+      being shaped for customers.
+  responsibilities:
+  - Deliver features and modernizations across the stack using agentic development
+    end-to-end
+  - Build and operate multi-agent workflows with distinct roles running in parallel
+    and in coordination
+  - Work in brownfield environments with the same discipline as greenfield builds
+  - Validate agent output and know when to intervene based on upfront requirements
+  - Pair with existing engineers to transfer agentic working habits through production
+    work
+  - Contribute consistently to sprint delivery and own quality over time
+  use_cases:
+  - Agentic development workflows for shipping production software
+  - Multi-agent orchestration with concurrent specialized roles
+  - Validating agent-generated code output in production delivery
+  - Portfolio management and analytics software for institutional investors
+  skills:
+    genai: [Claude Code, Cursor, Multi-Agent Systems, Agentic Workflows]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, Azure]
+    ops: []
+    languages: [Java, Python, C#]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10502614'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:25:34.921174'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

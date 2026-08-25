@@ -1,0 +1,64 @@
+company:
+  name: HERE Technologies
+  stage: null
+  focus: Location data and mapping technology platform
+position:
+  title: Principal AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates the AI Hub platform: CI/CD,
+      model registries, runtimes, observability, and governance.
+      While it manages prompt repositories and agent runtime
+      environments, the deliverable is platform capacity and
+      tooling, not shaping model behaviour or output quality. Per
+      the edge case on hosting/serving and governing models others
+      design, this is ai-support.
+  responsibilities:
+  - Design, build, and operate the enterprise AI Hub providing shared services, deployment
+    frameworks, and developer tooling for AI applications and agents
+  - Develop and maintain CI/CD pipelines, infrastructure-as-code, automated testing,
+    and release processes for AI/ML workloads
+  - Implement and manage model registries, prompt repositories, vector database integrations,
+    orchestration frameworks, and agent runtime environments
+  - Build and operate observability solutions with monitoring, logging, tracing, performance
+    metrics, and cost visibility
+  - Establish and enforce platform standards for security, governance, compliance,
+    and responsible AI practices
+  - Enable product teams with self-service capabilities, templates, SDKs, and reference
+    architectures
+  - Manage cloud-native AI infrastructure across cloud and hybrid environments
+  - Monitor platform costs and resource utilization, driving automation and operational
+    efficiency
+  use_cases:
+  - Enterprise AI platform enabling teams to build, deploy, and govern AI applications
+    and intelligent agents
+  - Model lifecycle management and AI governance across the organization
+  - Observability and cost monitoring for AI workloads
+  - Self-service developer platform for AI solution delivery
+  - Automotive navigation and mapping products powered by location data
+  skills:
+    genai: [LangChain, Semantic Kernel, Generative AI, Prompt Engineering]
+    ml: [Machine Learning]
+    web: []
+    databases: [Vector Databases]
+    data: [Databricks]
+    cloud: [Azure, AWS, Azure OpenAI, AWS Bedrock]
+    ops: [CI/CD, GitHub Actions, Azure DevOps, GitLab CI, Jenkins, Docker, Kubernetes,
+      Datadog, Grafana, Prometheus, OpenTelemetry, Splunk, Terraform, MLOps, LLMOps,
+      Infrastructure as Code, Model Monitoring, Monitoring]
+    languages: [Python, PowerShell, Bash]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10615150'
+  location: Berlin, DEU
+  locations:
+  - Berlin, DEU
+  - Kraków, POL
+  - Brno, CZE
+  extracted_at: '2026-08-25T10:55:57.455134'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

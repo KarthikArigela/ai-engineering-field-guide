@@ -1,58 +1,61 @@
 company:
   name: Micron Technology
-  stage: Public
-  focus: Memory and storage solutions technology
+  stage: null
+  focus: Memory and storage solutions (DRAM, NAND, NOR)
 position:
   title: Staff Engineer, IT, AI Enablement
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work building and deploying AI-
-      driven tools, including RAG implementations, multi-agent
-      workflows, and context-aware systems using LLMs. The
-      engineer will directly work with AI frameworks like Copilot
-      Studio, UiPath, and cloud AI platforms, implementing prompt
-      engineering, memory management, and agent orchestration -
-      not just supporting AI infrastructure.
+      The role directly shapes LLM/agent behavior: it designs
+      agent flows and multi-agent orchestration, builds RAG
+      solutions (semantic chunking, memory persistence), and does
+      prompt engineering, memory management, and MCP-based context
+      window optimization for LLMs. Since LLM and agent components
+      are central rather than classical ML, this is ai-first.
   responsibilities:
-  - Build and deploy AI-driven tools and workflows using Copilot Studio, UiPath, and
-    automation frameworks
-  - Connect AI agents with enterprise systems, external APIs, and knowledge bases
-    for seamless interoperability
+  - Build and deploy AI-driven tools and workflows using platforms like Copilot Studio,
+    UiPath, and other automation frameworks
+  - Connect AI agents with enterprise systems (SharePoint, M365), external APIs, and
+    knowledge bases to ensure seamless interoperability
   - Identify repetitive tasks and design intelligent automation solutions to improve
-    efficiency
-  - Partner with cross-functional teams to enable AI literacy and support internal
-    training sessions
-  - Collaborate with cybersecurity teams to enforce data protection and ensure AI
-    solution compliance
-  - Implement secure agent interactions using encryption, authentication, and authorization
-    mechanisms
-  - Design and implement context-aware systems leveraging Model Context Protocol for
-    user interaction continuity
-  - Implement multi-agent workflows for complex decision-making and collaborative
-    problem-solving tasks
+    business efficiency
+  - Implement multi-agent workflows for complex tasks such as decision-making, negotiation,
+    and collaborative problem-solving
+  - Design context-aware systems leveraging MCP, prompt engineering, memory management,
+    and context window optimization for large language models
+  - Ensure secure agent interactions using encryption, authentication, and authorization,
+    integrating with identity platforms (OAuth2, OIDC, SAML, Entra ID, AD FS)
+  - Collaborate with cybersecurity teams on data protection, threat modeling, and
+    compliance with security, ethical, and governance standards
+  - Partner with cross-functional teams to enable AI literacy, create best-practice
+    documentation, and support internal training
   use_cases:
-  - Enterprise productivity enhancement through AI-driven automation and workflows
-  - Intelligent process automation for repetitive business tasks
-  - Internal knowledge management and retrieval through RAG and semantic search
-  - Decision support systems using multi-agent collaboration and negotiation workflows
-  - Secure enterprise AI agent integration with identity and access management platforms
+  - Enterprise-wide AI adoption and enablement
+  - Intelligent process automation to improve business efficiency
+  - AI agent integration with enterprise systems like SharePoint and M365
+  - Multi-agent workflows for decision-making, negotiation, and collaborative problem-solving
+  - Context-aware assistants with RAG, semantic chunking, and memory persistence for
+    long-horizon tasks
+  - Secure and governed AI agent access via identity platforms and compliance standards
   skills:
-    domains: []
-    languages: [.NET, C#, Python, Java, SQL, PowerShell, Bash]
-    ml: []
     cloud: [Azure AI Foundry, AWS Bedrock, Vertex AI]
-    genai: [Copilot Studio, RAG, semantic chunking, memory persistence, multi-agent
-        workflows, MCP, Prompt Engineering, context window optimization, agent orchestration
-        frameworks, Agent to Agent]
-    data: []
-    other: [UiPath, OAuth2, OIDC, SAML, Entra ID, AD FS]
+    languages: [.NET, C#, Python, Java, SQL, PowerShell, Bash]
+    ml: [Machine Learning]
+    other: [UiPath, SharePoint, Microsoft 365, OIDC, SAML, Entra ID, AD FS, Threat
+        Modeling, Responsible AI]
     ops: []
-    web: [APIs, SharePoint]
     databases: []
+    domains: []
+    web: [OAuth, APIs]
+    data: []
+    genai: [Copilot Studio, RAG, Semantic Chunking, Memory Management, Agentic Workflows,
+      Multi-Agent Systems, MCP, A2A, Prompt Engineering, Generative AI, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8002037'
   location: Hyderabad, IND
-  extracted_at: '2026-02-27T12:29:44.426797'
+  extracted_at: '2026-08-16T00:21:06.629581'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

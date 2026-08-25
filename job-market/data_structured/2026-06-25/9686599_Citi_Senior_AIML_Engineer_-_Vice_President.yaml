@@ -1,58 +1,62 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global financial services and banking
 position:
   title: Senior AI/ML Engineer - Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves building, fine-tuning, and
-      deploying AI/ML systems including LLMs, multi-agent systems,
-      RAG, and GenAI optimization. The engineer works hands-on
-      with foundational models (Gemini, OpenAI, Claude, Llama), ML
-      frameworks (PyTorch, TensorFlow), and AI orchestration
-      (LangGraph, LangChain) to develop production AI
-      applications.
+      The role explicitly requires prompt engineering, RAG with
+      vector databases, multi-agent orchestration via LangGraph,
+      and fine-tuning of foundation models (Gemini, OpenAI,
+      Claude, Llama) — all direct shaping of model behavior. Since
+      LLM and agent components dominate, it is ai-first.
   responsibilities:
-  - Design and develop AI/ML-powered applications using foundational models (Gemini,
-    OpenAI, Claude, Llama) and multi-agent systems
-  - Build and optimize RAG solutions with vector databases and advanced retrieval
-    techniques
-  - Fine-tune machine learning models using PyTorch and TensorFlow
-  - Architect and deploy production-grade AI APIs and microservices using FastAPI
-    and Spring AI
-  - Design and implement data engineering pipelines (ETL/ELT) and data storage solutions
-    for AI workloads
-  - Build cloud-native architectures across AWS, Azure, and GCP
-  - Manage stakeholder relationships and provide executive reporting in a large-scale
-    enterprise environment
-  - Apply DevOps practices including CI/CD, container orchestration, and observability
-    for AI systems
+  - Design and develop AI/ML solutions using foundation models such as Gemini, OpenAI,
+    Claude, and Llama
+  - Build multi-agent systems and workflow orchestration with LangGraph, Google ADK,
+    LangChain, and LlamaIndex
+  - Implement retrieval augmented generation using PostgreSQL, vector databases, and
+    advanced retrieval techniques
+  - Apply prompt engineering, workflow design, and GenAI optimization to shape model
+    output quality
+  - Develop microservices and RESTful APIs in Python, FastAPI, and Java on distributed
+    architectures
+  - Build data engineering pipelines covering ETL/ELT, batch and stream processing,
+    data modeling, and governance
+  - Deploy and monitor production services using Docker, CI/CD, and observability
+    tooling across AWS, Azure, and GCP
+  - Deliver within the SAFe agile framework in large-scale financial services environments
+    with executive stakeholder reporting
   use_cases:
-  - Enterprise AI applications for financial services
-  - Multi-agent systems for complex business workflows
-  - Retrieval-augmented generation for enterprise knowledge access
-  - GenAI-powered automation and optimization in banking
-  - Production AI model deployment and serving at scale
+  - Enterprise GenAI applications in large-scale financial services environments
+  - Retrieval-augmented generation and advanced retrieval over enterprise data
+  - Multi-agent orchestration and agentic workflow automation
+  - Fine-tuned foundation models for domain-specific tasks
+  - Cloud-native microservices serving AI/ML workloads in production
   skills:
-    domains: []
-    languages: [Python, Java, TypeScript, SQL]
-    ml: [PyTorch, TensorFlow, Fine-Tuning, Hugging Face]
     cloud: [AWS, Azure, GCP]
-    genai: [Gemini, OpenAI API, Anthropic API, Llama, LangChain, LlamaIndex, LangGraph,
-      Multi-Agent Systems, Prompt Engineering, Google ADK]
-    data: [Data Pipelines, Batch/Stream Processing, Big Data Technologies]
-    other: [Microservices, Distributed Architectures, SAFe Agile]
-    ops: [Docker, Kubernetes, CI/CD, Observability Tools]
-    web: [FastAPI, Spring AI, REST APIs, React, Angular]
-    databases: [PostgreSQL, Vector Databases, Data Warehouses, Data Lakes]
+    languages: [Python, Java, asyncio, TypeScript]
+    ml: [PyTorch, TensorFlow, Fine-Tuning, Hugging Face]
+    other: [SAFe Agile]
+    ops: [Distributed Systems, Docker, Monitoring, DevOps, CI/CD, Container Orchestration,
+      Observability]
+    databases: [PostgreSQL, Vector Databases]
+    domains: []
+    web: [Microservices, REST APIs, FastAPI, React, Angular]
+    data: [Data Engineering, Data Pipelines, Data Warehousing, Data Lakes, Batch Processing,
+      Stream Processing, Data Modeling, Data Governance, Big Data]
+    genai: [Spring AI, Gemini, OpenAI API, Anthropic API, Llama, Google ADK, LangChain,
+      LlamaIndex, LangGraph, Multi-Agent Systems, RAG, Prompt Engineering]
   is_customer_facing: false
-  is_management: false
+  is_management: true
 meta:
   job_id: '9686599'
   location: Pune, IND
   locations:
   - Pune, IND
   - Chennai, IND
-  extracted_at: '2026-06-25T19:48:26.353533'
+  extracted_at: '2026-08-16T14:11:34.052034'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,66 @@
 company:
   name: Together AI
-  stage: Series A
-  focus: Open-source AI research and infrastructure
+  stage: null
+  focus: |-
+    Research-driven AI company building open-source AI
+    infrastructure
 position:
   title: Staff Engineer, Distributed Storage,HPC & AI Infrastructure
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building and managing distributed
-      storage infrastructure and high-performance parallel
-      filesystems that support AI workloads, not on building,
-      training, or deploying AI models. The engineer creates
-      storage platforms, caching systems, and Kubernetes operators
-      that enable AI/ML teams to run their workloads efficiently.
+      The role designs storage, caching, and networking
+      infrastructure that AI training and inference workloads
+      consume; it never shapes model behaviour (no prompting,
+      retrieval design, training, or evals). Hosting and scaling
+      infrastructure for models built by others is ai-support, and
+      judging the role rather than the employer, this is storage
+      engineering at an AI company.
   responsibilities:
-  - Design multi-petabyte AI/ML storage systems integrating WekaFS, Ceph, and other
-    parallel filesystems with capacity planning and cost optimization
-  - Design and optimize RDMA, InfiniBand, and 400GbE networks for maximum throughput
-    and minimum latency with NVMe-oF/iSCSI implementation
-  - Build Kubernetes storage operators and controllers enabling automated provisioning,
-    self-service abstractions, multi-tenant isolation, and quota management
-  - Deliver 10-50 GB/s per GPU node through caching optimization, parallel filesystem
-    tuning, and data path optimization across thousands of nodes
-  - Implement multi-tier caching architectures with local NVMe, distributed, and object
-    storage optimizing data locality and model-weight distribution
-  - Establish monitoring, alerting, and SLO frameworks with disaster recovery design
-    and chaos engineering to ensure 99.9%+ uptime
+  - Design multi-petabyte storage systems purpose-built for large-scale AI training
+    and inference workloads
+  - Integrate and tune parallel filesystems and object stores including WekaFS, Ceph,
+    and Lustre
+  - Build Kubernetes-native storage operators and self-service platforms with automated
+    provisioning, multi-tenancy isolation, and quota enforcement
+  - Optimize high-performance networking (RDMA, InfiniBand, 400GbE) and end-to-end
+    data paths delivering 10-50 GB/s per GPU node
+  - Design multi-tier caching architectures with intelligent prefetching and eviction
+    for model weights, datasets, and checkpoints
+  - Drive capacity planning and cost optimization (30-50% savings) through tiering,
+    lifecycle policies, and right-sizing
+  - Implement monitoring, SLOs, disaster recovery, and chaos engineering to sustain
+    99.9%+ uptime
+  - Partner with ML/SRE teams, mentor on storage best practices, and contribute to
+    open-source projects and public writeups
   use_cases:
-  - High-performance storage infrastructure for large-scale AI training and inference
+  - Multi-petabyte storage systems for the world's largest AI training and inference
     workloads
-  - Parallel filesystems and object stores for multi-petabyte ML data storage
-  - Optimized data paths for model weights, datasets, and checkpoint caching at GPU
-    scale
-  - Self-service storage platform with multi-tenancy for ML/SRE teams
-  - Cost-optimized storage tiering and lifecycle management for AI workloads
+  - Model-weight and checkpoint distribution across thousands of GPU nodes
+  - Dataset caching and intelligent prefetching for high-throughput GPU/HPC clusters
+  - Self-service, multi-tenant Kubernetes storage platform with quotas and performance
+    isolation
+  - Cost-optimized tiered storage and disaster recovery for AI infrastructure
   skills:
-    genai: []
-    ml: []
-    web: []
-    databases: [MinIO, S3]
-    data: []
-    cloud: [Kubernetes]
-    ops: [Terraform, Helm, Ansible, ArgoCD, Prometheus, Grafana, Thanos, Docker, WekaFS,
-      Ceph, Lustre, GPFS, BeeGFS, NVMe-oF, iSCSI, RDMA, InfiniBand, Linux Storage
-        Stack, LVM, RAID]
+    cloud: [AWS S3, R2]
     languages: [Go, Python]
+    ml: []
+    other: [WekaFS, Ceph, Lustre, GPFS, BeeGFS, MinIO, RDMA, InfiniBand, NVMe-oF,
+      iSCSI, TCP/IP, NVMe, GPU Direct Storage, HPC, ext4, XFS, LVM, RAID, fio, iperf3,
+      iostat, blktrace]
+    ops: [Kubernetes, CSI Drivers, StatefulSets, PersistentVolumes, kubebuilder, controller-runtime,
+      Terraform, Ansible, Helm, GitOps, ArgoCD, Linux, Prometheus, Grafana, Thanos,
+      Observability, Monitoring, Chaos Engineering, Velero, Restic]
+    databases: []
     domains: []
-    other: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8256176'
   location: Amsterdam, NLD
-  extracted_at: '2026-02-05T12:25:27.309122'
+  extracted_at: '2026-08-15T23:01:34.805610'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

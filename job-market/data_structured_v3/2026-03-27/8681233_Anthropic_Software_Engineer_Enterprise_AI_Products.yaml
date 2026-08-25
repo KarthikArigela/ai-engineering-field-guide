@@ -1,0 +1,69 @@
+company:
+  name: Anthropic
+  stage: ''
+  focus: AI safety and research company building Claude
+position:
+  title: Software Engineer, Enterprise AI Products
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behavior directly: engineers identify
+      capability gaps, collaborate with post-training researchers,
+      diagnose failure modes in Claude's output, and design
+      training data to fix them. They also design agent
+      infrastructure (plugins/skills, multi-agent context and
+      memory architecture), which is LLM/agent shaping, making
+      this ai-first.
+  responsibilities:
+  - Build general-purpose enterprise AI products on Claude, including Cowork, plugins,
+    skills, and workflow integrations that drive daily adoption
+  - Build purpose-built vertical AI products for financial services, healthcare, and
+    legal workflows
+  - Build Office add-ins that let Claude read, analyze, and generate content within
+    Excel and Word within host application sandbox constraints
+  - Design the plugins and skills infrastructure that lets Claude learn domain-specific
+    capabilities and makes them discoverable and composable for enterprise users
+  - Design the context and memory architecture that lets multiple Claude agents across
+    product surfaces share a unified understanding of user projects and preferences
+  - Build hybrid workflow systems where Claude agents and people collaborate asynchronously
+    on complex professional tasks
+  - Identify capability gaps and collaborate with post-training researchers to improve
+    Claude's performance on domain-specific tasks
+  - Instrument and diagnose activation funnels to understand adoption blockers and
+    ship product changes that close those gaps
+  use_cases:
+  - 'Enterprise knowledge-worker productivity: making Claude a daily-use tool for
+    professionals across industries'
+  - 'Financial services: data retrieval, analysis, and institutional-quality investment
+    research report generation'
+  - 'Healthcare: clinical documentation, prior authorization, care coordination, and
+    patient management'
+  - 'Legal: document review, contract analysis, regulatory compliance, and matter
+    management'
+  - Automating high-toil enterprise workflows such as report reformatting, data reconciliation,
+    and request triage
+  - Hybrid human-agent collaboration on complex tasks like overnight first-pass contract
+    review with structured attorney approval
+  skills:
+    genai: [Claude, AI Agents, Multi-Agent Systems, Plugins, Skills, Context Engineering,
+      Post-Training]
+    ml: []
+    web: [Full-Stack Development, APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [JavaScript]
+    domains: []
+    other: [Office JavaScript API, VSTO, COM, HIPAA Compliance, HL7/FHIR]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '8681233'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T03:51:32.867351'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

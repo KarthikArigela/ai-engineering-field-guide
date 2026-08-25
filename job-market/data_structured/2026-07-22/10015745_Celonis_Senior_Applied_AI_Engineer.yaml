@@ -1,60 +1,67 @@
 company:
   name: Celonis
-  stage: Late-stage (unicorn/rapid growth enterprise SaaS)
-  focus: Process Intelligence and Process Mining technology
+  stage: null
+  focus: |-
+    Process intelligence and process mining enterprise SaaS
+    platform
 position:
   title: Senior Applied AI Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a pre-sales/customer success/value engineering role
-      at an enterprise SaaS company. While the role involves
-      understanding AI strategies and deploying Celonis platform
-      solutions to customers, the core function is customer
-      advisory, value realization, and adoption — not building,
-      training, fine-tuning, or deploying ML/LLM models directly.
-      The AI/LLM work is about using Celonis products to feed
-      context to AI tools, not hands-on model engineering.
+      The core role is a pre-/post-sales value engineer: technical
+      discovery, demos, ROI/adoption programs, QBRs, and customer
+      value realization. Hands-on shaping work (RAG, function
+      calling, prompt engineering, guardrails, LangChain) appears
+      only in the "Nice to have" section, and the required AI
+      knowledge is basic prompting and use of LLMs to feed context
+      to the Celonis platform. Per the edge-case rules, AI skills
+      named only as nice-to-have make this ai-support.
   responsibilities:
-  - Drive the full customer lifecycle from pre-sales technical discovery through post-sale
-    implementation and adoption
-  - Own enterprise-wide ROI and adoption programs, including QBRs, strategic roadmaps,
-    and value realization frameworks
-  - Serve as internal and external technical subject matter expert for customer industry
-    domains
-  - Conduct AI discovery sessions to understand customer AI strategies and translate
-    requirements into innovative Celonis solutions
-  - Manage multiple projects across aligned accounts at different stages of the value
-    journey
-  - Deliver technical whiteboarding sessions, demonstrations, and formal readouts
-    to VP+ level executives
-  - Leverage the Celonis Process Intelligence platform to feed operational context
-    to AI and LLM tools for intelligent agent deployment
-  - Manage weekly cadences and value plans to demonstrate solution value to executive
-    stakeholders
+  - Drive the full customer lifecycle across pre- and post-sales, leading technical
+    discovery and capability demonstrations during pre-sales expansion cycles
+  - Remain deeply involved post-sale to guide implementation and ensure agreed value
+    and adoption thresholds are met
+  - Own enterprise-wide ROI and adoption programs, running weekly cadences, QBRs,
+    strategic roadmaps, and value plans for VP+ level executives
+  - Serve as internal and external technical subject matter expert for the customer's
+    industry domain
+  - Understand customer AI strategies and translate their requirements into Celonis
+    solutions with measurable impact
+  - Use the Celonis Process Intelligence platform to feed operational context to AI
+    and LLM tools, helping customers move past automation to intelligent, autonomous
+    agents
+  - Plan and manage scope, expectations, and timelines across multiple projects in
+    aligned accounts, leveraging the Celonis partner ecosystem
+  - Establish repeatable frameworks and train customer users so they can independently
+    track, realize, and expand business value
   use_cases:
-  - Deploying intelligent autonomous agents to solve complex business bottlenecks
-  - Feeding critical operational context from process mining to AI and LLM tools
-  - Modernizing legacy enterprise systems using process intelligence
-  - Optimizing finance and supply chain processes through AI-driven insights
-  - Moving customers from simple automation to agentic business operations
-  - Enterprise-wide process intelligence and digital transformation
+  - Feeding operational process context to AI and LLM tools via the Celonis Process
+    Intelligence platform
+  - 'Agentic business automation: deploying intelligent, autonomous agents to solve
+    complex business bottlenecks'
+  - Legacy system modernization and finance process optimization for enterprise customers
+  - Analyzing customer data to identify and prioritize business process improvement
+    use cases
+  - Enterprise SaaS value realization, adoption tracking, and ROI demonstration
   skills:
-    genai: [LLMs, Prompt Engineering, RAG, Function Calling, AI Agents, Guardrails,
-      Agentic Workflows, LLM Evaluation, Generative AI, LangChain, Claude Code, Copilot
-        Studio]
-    ml: [scikit-learn, PyTorch, Machine Learning]
-    web: []
-    databases: []
-    data: [Pandas, Data Engineering, Data Pipelines, Data Analysis, Data Modeling]
-    cloud: [AWS, Azure]
+    cloud: [Azure, AWS]
+    languages: [Python]
+    ml: [scikit-learn, PyTorch, Pandas]
+    other: [Data Analysis, Data Validation, Process Mining, Pre-Sales, Project Management,
+      Business Process Improvement]
     ops: []
-    languages: [Python, SQL]
+    databases: []
     domains: []
-    other: [Process Mining, Project Management, A/B Testing]
+    web: []
+    data: [Data Engineering]
+    genai: [LLMs, Anthropic API, Microsoft Copilot, Prompt Engineering, LangChain,
+      AI Agents, RAG, Function Calling, LLM Evaluation, Guardrails]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '10015745'
   location: New York, USA
-  extracted_at: '2026-07-22T13:22:59.256431'
+  extracted_at: '2026-08-16T16:09:35.799288'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

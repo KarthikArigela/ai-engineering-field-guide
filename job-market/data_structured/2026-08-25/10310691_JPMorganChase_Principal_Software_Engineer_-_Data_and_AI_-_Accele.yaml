@@ -1,0 +1,56 @@
+company:
+  name: JPMorganChase
+  stage: null
+  focus: Global financial services and retail digital banking
+position:
+  title: Principal Software Engineer - Data and AI - Accelerator Business
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG pipelines, agents with orchestration,
+      output guardrails, and testing/validation strategies to
+      reduce hallucinations - directly shaping LLM behaviour.
+      Multiple agentic frameworks and GenAI platforms are core
+      requirements.
+  responsibilities:
+  - Design and develop scalable, self-service solutions for documentation, SDKs, configurations
+    and pipelines enabling rapid deployment of GenAI applications and agents
+  - Implement tools and frameworks for model versioning, experiment tracking, and
+    lifecycle management
+  - Develop systems to monitor model performance and address data and model drift
+  - Design testing strategies including unit, integration, end-to-end, performance,
+    and champion/challenger tests, with output validation and guardrails to reduce
+    hallucinations
+  - Deploy scalable AI services to cloud infrastructure with monitoring and observability
+    for agent performance
+  - Design microservices-based architectures and orchestrate multi-step workflows,
+    instrumenting agents with tracing, metrics, and feedback loops
+  - Ensure platform compliance with data privacy, security, and regulatory standards
+  - Mentor team members on platform design principles and best practices
+  use_cases:
+  - Rapid deployment of GenAI applications and agents with planning, memory, and workflow
+    orchestration
+  - Retrieval-Augmented Generation pipelines for knowledge retrieval
+  - Monitoring and lifecycle management of LLM-based applications in production
+  - Reducing hallucinations via output validation and guardrails
+  - Agent observability with tracing, metrics, and feedback loops
+  skills:
+    genai: [OpenAI API, LangChain, LLMs, AI Agents, RAG, MCP, CrewAI, AutoGen, LangGraph,
+      Google ADK]
+    ml: []
+    web: [Microservices]
+    databases: [Pinecone, Vector Databases]
+    data: []
+    cloud: [Vertex AI, AWS Bedrock, AWS, Azure, GCP]
+    ops: [Distributed Systems, CI/CD, Infrastructure as Code, Docker, Kubernetes]
+    languages: [Java, Python]
+    domains: []
+    other: [Data Sharding]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10310691'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:38:45.185411'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

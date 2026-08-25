@@ -1,0 +1,61 @@
+company:
+  name: Kaufman Rossin
+  stage: null
+  focus: Accounting and advisory professional services firm
+position:
+  title: Artificial Intelligence Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds RAG pipelines, agentic
+      workflows, prompt-driven LLM features, and selects/evaluates
+      models — directly shaping model behavior and output quality
+      on LLM-based systems. Classical ML is absent; everything
+      centers on LLMs and agents.
+  responsibilities:
+  - Design, build, and deploy AI-powered applications on Azure for internal productivity
+    and client-facing advisory solutions
+  - Develop RAG pipelines covering document ingestion, chunking, embeddings, vector
+    indexing, and query-time retrieval
+  - Build LLM-powered features such as document intelligence, contract analysis, summarization,
+    conversational agents, and structured data extraction
+  - Stand up and maintain local/self-hosted model deployments with Ollama and vLLM
+    for on-premises and cost-controlled inference
+  - Architect multi-turn conversational interfaces and agentic workflows using Azure
+    AI Foundry Agent Service, Semantic Kernel, or LangChain
+  - 'Implement security and responsible AI practices: content filtering, PII detection,
+    audit logging, multi-tenant data isolation'
+  - Design cost-efficient AI architectures with cost monitoring, token quota management,
+    and build vs. buy vs. local model decisions
+  - Build CI/CD pipelines, API layers, and infrastructure-as-code for AI services
+    on Azure; mentor junior developers
+  use_cases:
+  - Document intelligence and contract analysis
+  - Automated summarization and regulatory content extraction
+  - Conversational agents for advisory and internal productivity
+  - Structured data extraction from unstructured sources
+  - Enterprise knowledge base retrieval with RAG
+  - On-premises AI processing for data residency compliance
+  skills:
+    genai: [RAG, Azure OpenAI, OpenAI API, Anthropic API, Llama, Mistral, Agentic
+        Workflows, Semantic Kernel, LangChain, LlamaIndex, Embeddings, Claude Code,
+      GitHub Copilot, Conversational AI]
+    ml: [Quantization]
+    web: [FastAPI, Flask, React]
+    databases: [Vector Search, Azure AI Search]
+    data: [Azure Data Lake Storage, Azure Data Factory]
+    cloud: [Azure, Azure AI Foundry, Azure AI Content Safety, Azure Functions, AKS]
+    ops: [vLLM, Azure DevOps, CI/CD, Terraform, Bicep, Docker, Azure Monitor, Application
+        Insights]
+    languages: [Python, JavaScript, TypeScript]
+    domains: []
+    other: [Ollama, LocalAI, Responsible AI, Azure Key Vault, Microsoft Entra ID,
+      Azure API Management, Azure Synapse, Azure AI Document Intelligence]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10774868'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:45:57.185753'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

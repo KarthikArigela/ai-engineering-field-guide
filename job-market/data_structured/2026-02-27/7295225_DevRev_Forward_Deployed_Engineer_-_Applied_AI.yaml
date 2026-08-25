@@ -1,56 +1,55 @@
 company:
   name: DevRev
-  stage: Series B
+  stage: Backed by Khosla Ventures and Mayfield, $150M+ raised
   focus: |-
-    AI teammate platform for enterprise collaboration and
-    workflow automation
+    AI-native platform building Computer, an AI teammate
+    unifying business data with agentic actions
 position:
   title: Forward Deployed Engineer - Applied AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role focused on
-      deploying AI solutions directly to customers. The role
-      involves hands-on work with AI agents, RAG systems, prompt
-      engineering, fine-tuning semantic search, and building AI-
-      native applications - not just infrastructure support. FDEs
-      who deploy and optimize AI systems are classified as ai-
-      first.
+      The role shapes model behavior directly: it applies prompt
+      engineering, fine-tunes semantic search engines, designs and
+      launches AI agents, and builds evals to validate agentic AI
+      solutions. LLM/agent components are central to the work, and
+      Forward Deployed Engineers adapting AI solutions at customer
+      sites are explicitly ai-first.
   responsibilities:
-  - Design, develop, and launch AI agents, integrations, and automations connecting
-    DevRev with customer tech stacks
-  - Build Knowledge Graphs integrating DevRev with SaaS and non-SaaS systems via APIs
-    and webhooks
-  - Apply prompt engineering, fine-tune semantic search engines, and leverage generative
-    AI techniques to enhance agent accuracy
-  - Write SQL queries, perform data analysis, and build dashboards to surface customer
-    insights
-  - Develop rapid proofs-of-concept and conduct live technical demos for customers
-  - Maintain cross-functional communication with customers, engineering, product,
-    and success teams
-  - Guide customers through technical workflows like code repository integrations
-    and advanced configurations
-  - Travel up to 30% for on-site implementations and technical workshops
+  - Design, develop, and launch AI agents, integrations, and automations that connect
+    DevRev with customers' existing tech stacks and workflows
+  - Build the Knowledge Graph by integrating DevRev with SaaS and non-SaaS systems
+    through APIs, webhooks, and real-time communication architectures
+  - Optimize AI performance by applying prompt engineering, fine-tuning semantic search
+    engines, and leveraging generative AI techniques to enhance agent accuracy
+  - Build evals to validate agentic AI solutions for customers
+  - Write SQL queries, perform data analysis, and build dashboards to surface insights
+    that drive customer decision-making
+  - Develop rapid proofs-of-concept, conduct live technical demos, and refine solutions
+    based on customer and stakeholder feedback
+  - Work directly with customers (~30%) including travel up to 30% for on-site implementations,
+    technical workshops, and customer engagements
+  - Maintain communication loops with customers, engineering, product, customer success,
+    support, and revenue teams
   use_cases:
-  - Enterprise knowledge unification across SaaS tools like Google Workspace, Jira,
-    and Notion
-  - AI-powered search, summarization, and proactive suggestions for employees
-  - Agentic workflow automation coordinating across teams and systems
-  - Customer-facing AI teammate for support and collaboration
-  - Real-time data synchronization between business systems
+  - AI agents and automations connecting DevRev with customers' existing tech stacks
+  - Knowledge Graph unification of structured and unstructured business data across
+    SaaS systems
+  - Semantic search and retrieval to improve agent accuracy and user experience
+  - Dashboards and data insights that drive customer decision-making
+  - Customer workflow integrations via APIs, webhooks, and event-driven architectures
   skills:
-    domains: []
+    cloud: [AWS Lambda, Google Cloud Functions]
     languages: [TypeScript, JavaScript, Python, Go, SQL]
     ml: []
-    cloud: [AWS Lambda, Google Cloud Functions]
-    genai: [LLMs, Prompt Engineering, RAG, Function Calling, AI Agents, Model Context
-        Programming (MCP)]
-    data: [Event-driven architecture, Pub/sub architectures, Data mapping and schema
-        alignment]
-    other: []
-    ops: [CI/CD, Docker, Observability]
-    web: [REST APIs, GraphQL, Webhooks]
+    other: [Event-Driven Architecture]
+    ops: [CI/CD, Docker, Observability, Telemetry, DevOps]
     databases: [Knowledge Graphs]
+    domains: []
+    web: [APIs, REST, GraphQL, Webhooks]
+    data: [Data Modeling]
+    genai: [Prompt Engineering, LLMs, RAG, Function Calling, MCP, Semantic Search,
+      Generative AI, AI Agents, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
@@ -59,4 +58,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-03T11:51:25.770575'
+  extracted_at: '2026-08-15T23:52:16.806081'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

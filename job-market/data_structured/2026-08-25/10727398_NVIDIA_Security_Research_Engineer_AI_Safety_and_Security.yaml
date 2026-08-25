@@ -1,0 +1,54 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPU and accelerated computing, AI hardware and software
+position:
+  title: Security Research Engineer, AI Safety and Security Engineering
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core deliverable is vulnerability research: validating
+      and patching software flaws against internal NVIDIA targets.
+      AI-assisted workflows are used as tools the engineer
+      consumes ("comfort using AI-assisted tools", "skepticism
+      about their outputs"), and agentic ML familiarity is only a
+      nice-to-have — the person does not themselves shape prompts,
+      retrieval, or agent behaviour as the product. The role is
+      security research with AI as an aid.
+  responsibilities:
+  - Develop validation methods that confirm vulnerabilities are real and reachable
+    rather than noise
+  - Advance techniques for generating and verifying safe, behavior-preserving fixes
+  - Define correctness, regression, and revalidation standards together with reviewers
+  - Apply security research to bounded vulnerability classes against NVIDIA-internal
+    targets
+  - Document reasoning to support independent security reviews with traceable evidence
+  - Use AI-assisted workflows while maintaining disciplined skepticism about their
+    outputs
+  - Help decide which vulnerability classes the team tackles next
+  use_cases:
+  - Finding, validating, and patching software vulnerabilities
+  - Confirming vulnerability reports are real and reachable
+  - Generating and verifying safe, regression-free security fixes
+  - Improving reliability of software NVIDIA relies on internally
+  skills:
+    genai: [AI Agents]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [C, C++, Python]
+    domains: []
+    other: [Vulnerability Research, Fuzzing, Program Analysis, Secure Development,
+      Static Analysis, Symbolic Execution]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10727398'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:29:29.649759'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

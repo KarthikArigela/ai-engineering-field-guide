@@ -1,0 +1,51 @@
+company:
+  name: Cornelis Networks
+  stage: null
+  focus: |-
+    High-performance networking solutions for AI and HPC
+    datacenters
+position:
+  title: Software Engineer – AI/HPC Middleware
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role enables and optimizes communication middleware
+      (MPI/SHMEM, NCCL/RCCL) over networking hardware. It moves
+      data between compute nodes and tunes transport performance
+      rather than shaping model behavior, prompts, or output
+      quality, so it is ai-support.
+  responsibilities:
+  - Implement and optimize HPC middleware (MPI/SHMEM) and AI middleware (NCCL/RCCL
+    and related CCL stacks) over Cornelis interconnects
+  - Integrate middleware capabilities with underlying transports and provider layers
+    (libfabric/OFI, UCX, verbs-like semantics)
+  - Prepare and submit upstream contributions to MPI/SHMEM projects and CCL ecosystems
+  - Collaborate with kernel/driver and switch teams to deliver end-to-end performance
+    aligned to the product roadmap
+  - Analyze performance traces and reproduce customer issues, translating findings
+    into fixes
+  use_cases:
+  - AI training and inference cluster communication over high-performance interconnects
+  - HPC workload scaling via MPI/SHMEM middleware on scale-out fabrics
+  - Collective communication (NCCL/RCCL) over RDMA/Ethernet-based networks
+  - End-to-end performance tuning of GPU/accelerator clusters
+  skills:
+    genai: []
+    ml: [CUDA, ROCm]
+    web: []
+    databases: []
+    data: [MPI, SHMEM]
+    cloud: []
+    ops: [Linux, NCCL, RCCL, libfabric, UCX, Profiling]
+    languages: [C++, C]
+    domains: []
+    other: [RDMA, RoCEv2, Collective Communication Libraries]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10677639'
+  location: New York, USA
+  remote: true
+  extracted_at: '2026-08-25T11:13:00.476212'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

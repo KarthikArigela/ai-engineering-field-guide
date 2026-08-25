@@ -1,54 +1,63 @@
 company:
   name: Infopro Learning, Inc
   stage: null
-  focus: Enterprise learning and AI solutions for business problems
+  focus: Building production AI solutions for real business problems
 position:
   title: AI Developer | Onsite, Noida | Open to India-based candidates only
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing ML/DL models and GenAI systems (LLMs, RAG,
-      transformers) for production use. The developer designs and
-      validates models, builds MLOps pipelines, and integrates
-      models into applications — all hands-on AI/ML work.
+      The role designs, develops, and validates ML/DL models and
+      applies Generative AI techniques including LLMs, retrieval-
+      based systems, prompt engineering, and RAG, which is direct
+      shaping of model behavior. Since both LLM and classical ML
+      components are shaped, the role is ai-first per the mixed
+      LLM/classical rule.
   responsibilities:
-  - Design, develop, and validate ML and DL models for domain-specific business challenges
-  - Apply GenAI techniques including LLMs and retrieval-based systems where appropriate
-  - Collaborate on data engineering tasks including sourcing, cleaning, and preprocessing
-    large datasets
+  - Design, develop, and validate machine learning and deep learning models across
+    classical ML, NLP, computer vision, reinforcement learning, and transformer-based
+    approaches
+  - Apply Generative AI techniques including large language models and retrieval-based
+    systems where appropriate
+  - Collaborate with data scientists and engineers to source, clean, and preprocess
+    large datasets and perform feature engineering
   - Deploy models into production environments supporting real-time or near real-time
     use cases
   - Build and maintain MLOps pipelines for deployment, monitoring, versioning, and
-    retraining
+    retraining using Docker, Kubernetes, CI/CD, and cloud platforms
   - Optimize models for performance, latency, scalability, and resource efficiency
-  - Integrate models into applications through APIs or model-serving frameworks
-  - Contribute to ethical AI practices including fairness, transparency, and bias
-    mitigation
+  - Implement testing strategies including unit, regression, and A/B testing and monitor
+    model performance to drive improvements
+  - Collaborate with cross-functional teams, document model architectures and experiments,
+    and contribute to ethical and responsible AI practices
   use_cases:
-  - NLP-based business solutions
-  - Computer vision applications
-  - Reinforcement learning systems
-  - Transformer-based generative AI applications
-  - Retrieval-Augmented Generation (RAG) and vector search systems
-  - Domain-specific AI solutions in healthcare, finance, retail, manufacturing, or
-    customer service
+  - Production AI/ML systems solving domain-specific business challenges
+  - Real-time or near real-time model inference integrated into applications via APIs
+  - Retrieval-augmented LLM applications using vector-based search
+  - AI applications in domains such as healthcare, finance, retail, manufacturing,
+    or customer service
+  - Continuous model retraining and performance monitoring driven by data, feedback,
+    and usage patterns
   skills:
-    domains: [NLP, Computer Vision, Reinforcement Learning]
-    languages: [Python]
-    ml: [TensorFlow, PyTorch, Keras, scikit-learn, Hugging Face, Transformers, CNNs,
-      RNNs/LSTMs]
     cloud: [AWS, Azure, GCP]
-    genai: [LangChain, LlamaIndex, RAG, Prompt Engineering, GPT, Anthropic API, Mistral,
-      LLaMA]
+    languages: []
+    ml: [Machine Learning, Deep Learning, TensorFlow, PyTorch, Keras, scikit-learn,
+      Transformers, CNNs, RNNs, LSTMs, NLP, Reinforcement Learning, Feature Engineering,
+      Hugging Face]
+    other: [A/B Testing, Statistics]
+    ops: [MLOps, Model Deployment, Docker, Kubernetes, CI/CD, Git, MLflow, Kubeflow,
+      DVC]
+    databases: [Pinecone, FAISS, Weaviate, Vector Search]
+    domains: [Computer Vision]
+    web: [APIs]
     data: [Pandas, NumPy, SciPy]
-    other: []
-    ops: [MLflow, Kubeflow, DVC, Docker, Kubernetes, CI/CD, Git]
-    web: []
-    databases: [Pinecone, FAISS, Weaviate]
+    genai: [Generative AI, LLMs, Prompt Engineering, RAG, LangChain, LlamaIndex, GPT,
+      Anthropic API, Mistral, Llama]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9054419'
   location: Noida, IND
-  extracted_at: '2026-04-22T13:43:19.559078'
+  extracted_at: '2026-08-16T07:31:38.088838'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

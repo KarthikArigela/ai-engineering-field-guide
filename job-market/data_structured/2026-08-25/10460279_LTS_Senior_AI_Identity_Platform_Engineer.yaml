@@ -1,0 +1,58 @@
+company:
+  name: LTS
+  stage: null
+  focus: Federal AI platform for legacy system modernization
+position:
+  title: Senior AI Identity Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is identity and access management engineering:
+      OAuth/OIDC, credential lifecycle, secrets management, and
+      enterprise IdP integration for an AI platform. The person
+      does not shape model behaviour via prompts, retrieval
+      design, training, or evals; AI frameworks (RAG, LangGraph,
+      MCP) appear only as nice-to-haves for securing their access.
+  responsibilities:
+  - Design identity services and lifecycles for autonomous and multi-agent AI systems
+  - Implement authentication and authorization frameworks including OAuth 2.0, OIDC,
+    JWT, mTLS, and delegated authorization
+  - Integrate the AI platform with enterprise identity providers such as Microsoft
+    Entra ID, Okta, and Active Directory
+  - Build fine-grained authorization models controlling AI agent access to enterprise
+    data, APIs, and tools
+  - Develop reusable identity services, SDKs, APIs, and libraries for secure AI application
+    development
+  - Automate identity provisioning, credential lifecycle management, and authorization
+    policies
+  - Ensure AI actions are authenticated, attributable, and auditable with identity-aware
+    logging
+  - Partner with security and platform teams on secure-by-design AI practices
+  use_cases:
+  - Secure identity and access foundation for an Agentic AI platform
+  - Safe operation of autonomous and multi-agent AI systems in enterprise environments
+  - Modernization of mission-critical federal healthcare systems serving Veterans
+  - Explainable plain-English querying of legacy production source code
+  - Governance, auditability, and compliance for AI actions in regulated federal environments
+  skills:
+    genai: []
+    ml: []
+    web: [OAuth, REST APIs, Microservices]
+    databases: []
+    data: []
+    cloud: [Azure, AWS, GCP]
+    ops: [Kubernetes]
+    languages: [Python, Go, Java, TypeScript]
+    domains: []
+    other: [OpenID Connect, JWT, SAML, PKI, Zero Trust Architecture, RBAC, Identity
+        Federation, Microsoft Entra ID, Okta, Active Directory, Mutual TLS, HashiCorp
+        Vault, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10460279'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:14:32.470249'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

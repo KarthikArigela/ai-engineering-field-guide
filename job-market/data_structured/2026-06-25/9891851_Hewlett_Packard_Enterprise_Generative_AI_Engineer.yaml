@@ -1,49 +1,52 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud computing and enterprise IT solutions
+  stage: null
+  focus: Global edge-to-cloud IT infrastructure and services
 position:
   title: Generative AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and fine-
-      tuning generative AI solutions including LLMs, RAG
-      architectures, AI agents, and chatbots. The engineer works
-      hands-on with models, prompt engineering, and GenAI
-      frameworks to create end-to-end AI applications.
+      The role develops AI applications using LLMs and RAG
+      frameworks, applies prompt engineering, and fine-tunes and
+      evaluates AI models — all direct shaping of model behaviour
+      and output quality. The model targets are LLMs and
+      agent/chatbot systems, making this ai-first.
   responsibilities:
   - Design, develop, and deploy AI/ML and Generative AI solutions
-  - Build and optimize machine learning models for prediction, classification, and
-    automation
   - Develop AI applications using Large Language Models and RAG frameworks
   - Create and maintain AI agents, chatbots, and intelligent automation workflows
+  - Build and optimize machine learning models for prediction, classification, and
+    automation
   - Fine-tune and evaluate AI models for accuracy, scalability, and performance
   - Collaborate with product, engineering, and business teams to deliver AI-driven
     solutions
-  - Apply responsible AI practices including security, privacy, and ethical considerations
+  - Apply responsible AI practices, including security, privacy, and ethical considerations
   - Stay current with advancements in AI, machine learning, and cloud-native AI services
   use_cases:
-  - Intelligent chatbots and conversational AI assistants
-  - Automated prediction and classification systems
-  - RAG-based enterprise knowledge retrieval and question answering
-  - Intelligent process automation workflows
-  - Domain-specific AI model fine-tuning and deployment
+  - AI applications built on Large Language Models and RAG frameworks
+  - Chatbots and intelligent automation workflows
+  - Prediction and classification models for automation
+  - Fine-tuned AI models optimized for accuracy, scalability, and performance
+  - AI-driven business solutions across product and engineering teams
   skills:
-    domains: [NLP, Computer Vision]
-    languages: [Python]
-    ml: [Hugging Face, PyTorch, TensorFlow, Deep Learning]
     cloud: [Cloud Platforms]
-    genai: [LangChain, LlamaIndex, OpenAI API, Azure OpenAI, RAG, Prompt Engineering,
-      AI Agents, LLMs, Embeddings]
-    data: []
-    other: [Agile, Distributed Computing]
-    ops: [Git, CI/CD, MLOps, DevOps]
-    web: [REST APIs, Microservices, Full-Stack Development]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, Transformers, Model
+        Evaluation]
+    other: [Agile]
+    ops: [Git, CI/CD, MLOps, DevOps, Distributed Systems]
     databases: [Vector Databases]
+    domains: [NLP, Computer Vision]
+    web: [REST APIs, Microservices, Full-Stack Development]
+    data: []
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, AI Agents, Conversational
+        AI, LangChain, LlamaIndex, OpenAI API, Azure OpenAI, Embeddings, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9891851'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:56:28.720230'
+  extracted_at: '2026-08-16T15:53:53.455038'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

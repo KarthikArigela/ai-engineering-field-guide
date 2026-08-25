@@ -1,0 +1,62 @@
+company:
+  name: Vertex, Inc.
+  stage: ''
+  focus: Enterprise tax technology and compliance software
+position:
+  title: Senior Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behavior directly: it personally
+      trains and fine-tunes LLMs (QLoRA/LoRA/PEFT), designs
+      retrieval/RAG end to end, architects LLM orchestration and
+      MCP/sub-agent layers, and owns evals, red-teaming, and
+      guardrails. LLM and agent components are central, so it is
+      ai-first.
+  responsibilities:
+  - Set the multi-year technical vision, reference architectures, and enterprise standards
+    for AI-as-a-Service across the organization
+  - Define and own the enterprise model-training strategy across traditional AI/ML
+    and LLMs, personally training, fine-tuning, and evaluating models
+  - Architect orchestration and abstraction layers connecting LLMs to tools, data,
+    and sub-agents, setting standards for MCP servers and tool-surface design
+  - Design retrieval/RAG systems end to end, including chunking, embeddings, vector
+    stores, hybrid search, re-ranking, context assembly, and memory
+  - Own the enterprise evaluation, observability, and safety strategy, including offline
+    and online evaluation, tracing, red-teaming, and guardrails
+  - Establish standards for sourcing, cleaning, versioning, storing, and governing
+    training data, and architect large-scale data and feature pipelines
+  - Drive build-versus-buy, model and vendor selection, and long-term architectural
+    bets
+  - Optimize performance, cost, scalability, and reliability of AI workloads, and
+    mentor Principal and Staff engineers
+  use_cases:
+  - AI-as-a-Service enablement at enterprise scale
+  - Agentic orchestration connecting LLMs to tools, data, and sub-agents
+  - Enterprise retrieval/RAG for Commercial AI products
+  - Model training and fine-tuning on governed enterprise data
+  - AI evaluation, safety, and responsible-AI compliance in regulated SaaS
+  - Cost and performance optimization of enterprise AI workloads
+  skills:
+    genai: [LLMs, Generative AI, RAG, MCP, Agentic Workflows, AI Agents, Fine-Tuning,
+      LoRA, QLoRA, PEFT, Embeddings, Guardrails, Prompt Engineering, Red-Teaming,
+      LLM Evaluation, Re-ranking]
+    ml: [Machine Learning, Model Training, Quantization, Distributed Training, Feature
+        Engineering, Model Evaluation, Statistics]
+    web: [APIs]
+    databases: [Vector Databases, Hybrid Search]
+    data: [Data Pipelines, Data Governance]
+    cloud: [Azure]
+    ops: [Distributed Systems, Observability, FinOps]
+    languages: []
+    domains: []
+    other: [Responsible AI, SDKs]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9327404'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T18:50:50.782176'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

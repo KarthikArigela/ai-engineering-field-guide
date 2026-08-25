@@ -1,0 +1,163 @@
+job_id: 10555378
+title: Principal AI Engineer
+company: BuzzBoard
+location: Hyderabad, IND
+work_type: FULL_TIME
+company_size: 112 Employees
+description: |
+  Principal AI Engineer BuzzBoard  ·  Remote (WFH)  ·
+  Engineering / AI
+
+  The role BuzzBoard builds AI products for the B2SMB market —
+  helping agencies, media companies, and sellers understand
+  small businesses and market to them at a level of
+  personalization that wasn't previously economical. Our
+  platform is built on frontier models end to end. Not AI
+  features bolted onto a legacy product — the products are
+  agent systems. Our products span multi-agent marketing
+  content generation, real-time AI voice intake, and pre- and
+  post-sales intelligence for SMBs — Zylo, IRIS, Ignite, and
+  Ember. They share a common internal pipeline for
+  orchestration, retrieval, tool use, evaluation, and
+  deployment. This role owns the architecture underneath that
+  pipeline. Not one feature — the shared layer every product
+  depends on: how retrieval is built and measured, how agents
+  reason and hold state and fail safely, which models run
+  where and what happens when one degrades, how output quality
+  is evaluated before it ships, and where the line sits
+  between what a model decides and what deterministic code
+  decides. You'll set that architecture, build the reusable
+  patterns products inherit, guide the engineers implementing
+  them, and own whether it holds up in production at volume.
+  It's a senior individual-contributor role. Two boundaries,
+  stated plainly:
+
+  - Not a research role. The deliverable is a shipped, reliable
+    capability, not a paper or a demo.
+  - Not a DevOps role. You need to be fluent in deployment and
+    able to get a service into production, but full-time
+    platform ownership sits elsewhere. Your center of gravity
+    is AI system design.
+
+  If your GenAI experience is mostly notebooks and proofs of
+  concept that never carried real traffic, this is not the
+  role. What you'll own AI system architecture. Design the
+  systems behind content generation, business intelligence,
+  recommendations, and agentic workflows — including where the
+  boundary sits between what a model decides and what
+  deterministic code decides. Create reusable patterns,
+  prompts, evaluation flows, and orchestration layers that
+  hold up across products rather than being rebuilt per
+  feature. Agentic workflows. Lead the design of agents that
+  reason, call tools and APIs, manage state, checkpoint, and
+  hand tasks off cleanly. Build the guardrails that keep them
+  grounded and predictable — the hard part is not making an
+  agent act, it's making it fail safely and legibly when it's
+  wrong. Retrieval and model strategy. Design RAG pipelines
+  end to end: chunking, embeddings, metadata, reranking, and
+  retrieval evaluation that actually measures whether the
+  right context arrived. Own model selection across ecosystems
+  on the axes that matter — cost, latency, accuracy,
+  reliability — and define the fallback and model-switching
+  behavior for when a provider degrades. Evaluation and
+  quality. Stand up the evaluation frameworks that decide
+  whether an AI output ships: output quality, edit ratio,
+  hallucination rate, schema adherence, latency, failure rate,
+  inference cost. Build regression testing so a prompt or
+  model change can't silently break production. Turn “the
+  output feels off” into a measured threshold. Production
+  readiness. Partner with engineering and platform teams so
+  systems are deployable, observable, and maintainable.
+  Package services (Python, FastAPI/Flask, Docker) when it's
+  the fastest path, and diagnose the production failure modes
+  specific to AI — rate limits, cost spikes, model failures,
+  degraded output — rather than escalating them blind.
+  Technical leadership. Mentor GenAI engineers, review designs
+  and prompts and workflows and evals, and translate product
+  requirements into architecture with measurable acceptance
+  criteria. Communicate the tradeoffs to engineers and to
+  leadership in language each can act on. What we're looking
+  for Required
+
+  - 5+ years in engineering, AI, ML, or data-product work; 3+
+    years hands-on with GenAI / LLM systems
+  - Production GenAI experience — non-negotiable. You have built
+    or scaled systems that carried real traffic, and you can
+    walk through one in detail: what broke, what it cost, what
+    you changed.
+  - Deep working knowledge of LLMs and SLMs: prompt engineering,
+    structured outputs, tool and function calling
+  - Hands-on with at least two major LLM ecosystems, and able to
+    reason about the tradeoffs between them rather than
+    defaulting to the one you know
+  - RAG built for real: vector stores (Chroma, Pinecone,
+    Weaviate, FAISS, or equivalent), embeddings, semantic
+    search, and retrieval quality you've actually measured
+  - Hands-on with at least one agentic framework (LangGraph,
+    CrewAI, AutoGen, Semantic Kernel, or equivalent) and the
+    underlying concepts — memory, state, tool integration,
+    failure handling — well enough to move across frameworks
+  - Strong Python; comfortable with REST APIs, Docker, a cloud
+    platform, and basic CI/CD
+  - Demonstrated evaluation work: regression testing,
+    hallucination checks, schema validation, output scoring —
+    you can define metrics for quality, reliability, cost, and
+    business impact
+  - Track record guiding a small team or owning AI architecture
+    end to end
+  - Comfort creating structure in a fast-moving environment with
+    shifting requirements
+
+  Preferred
+
+  - Fine-tuning or supervised training workflows
+  - SLM and open-source model deployment; model serving with
+    vLLM, Ollama, or TensorRT-LLM
+  - Multimodal work across text, image, audio, or video
+  - Kubernetes or serverless deployment
+  - Evaluation/observability tooling — LangSmith, MLflow,
+    Weights & Biases, or equivalent
+  - Marketing technology, SMB intelligence, or content-
+    automation domain experience
+  - Responsible AI, privacy, security, and compliance practice
+  - Experience scaling AI systems that generate high volumes of
+    content, recommendations, or insights
+
+  What we care most about
+
+  - You've built or scaled real GenAI systems, not just demos
+  - You design AI workflows that are reliable, testable, and
+    cost-aware from the start
+  - You make practical model, prompt, retrieval, and
+    architecture calls and can defend them
+  - You know how to balance model intelligence against
+    deterministic logic and engineering guardrails
+  - You stay hands-on while guiding engineers — neither purely a
+    manager nor purely an IC
+  - You think past “which model” to the whole system around the
+    model
+
+  What this role is not
+
+  - Not a research or publications role
+  - Not full-time DevOps or platform ownership
+  - Not a role for someone whose GenAI track record is demos
+    that never took production traffic
+
+  What we offer
+
+  - Fully remote
+  - A production GenAI foundation already carrying real volume —
+    you scale it, you don't start from zero
+  - Genuine architectural ownership over the agentic systems
+    that come next
+  - A small, high-context team that moves quickly and argues
+    about the work
+  - Real impact on small businesses
+
+  Apply if you've shipped GenAI systems that carried real
+  traffic and you want to own the architecture of what comes
+  next.
+posted_date: 2026-08-06
+url: "https://builtin.com/job/principal-ai-engineer/10555378"
+source: Built In

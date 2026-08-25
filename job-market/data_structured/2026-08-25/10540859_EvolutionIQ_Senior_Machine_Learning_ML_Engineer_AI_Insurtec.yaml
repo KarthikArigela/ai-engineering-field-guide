@@ -1,0 +1,52 @@
+company:
+  name: EvolutionIQ
+  stage: null
+  focus: AI technology for insurance claims handling
+position:
+  title: Senior Machine Learning (ML) Engineer (AI Insurtech)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds production ML models for time-series
+      forecasting and NLP text understanding, with no LLM, prompt,
+      or agent shaping work described. Claude Code is mentioned
+      only as a nice-to-have coding tool, which does not make the
+      role ai-first. Core work is classical ML training and
+      evaluation.
+  responsibilities:
+  - Build and deploy production ML models
+  - Perform exploratory data analysis to scope ML opportunities and inform model design,
+    training, and evaluation strategies
+  - Suggest and implement features to improve model performance and business logic
+  - Write and review production-quality code daily
+  - Translate client business problems into ML problems
+  - Build scalable models for claim time-series forecasting and NLP text understanding
+  use_cases:
+  - Claim time-series forecasting
+  - NLP text understanding of insurance claims
+  - Making claims handling more accurate, fair, and efficient
+  - Large-scale structured and unstructured insurance data analysis
+  skills:
+    genai: [Claude Code]
+    ml: [scikit-learn, Keras, PyTorch, Model Deployment, Machine Learning, Probabilistic
+        Programming, Statistical Modeling]
+    web: []
+    databases: [BigQuery]
+    data: [Pandas, Jupyter, Dagster, Spark]
+    cloud: [Vertex AI, GCP]
+    ops: [Terraform, Kubernetes]
+    languages: [Python]
+    domains: [NLP]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10540859'
+  location: USA
+  locations:
+  - USA
+  - New York, USA
+  remote: true
+  extracted_at: '2026-08-25T10:38:03.881753'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

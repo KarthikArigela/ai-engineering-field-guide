@@ -1,0 +1,60 @@
+company:
+  name: GlobalFoundries
+  stage: null
+  focus: |-
+    Semiconductor foundry providing design and fabrication
+    services
+position:
+  title: AI/ML Compiler & Runtime Software Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds AI compilers/runtimes (MLIR, IREE) that
+      transform and quantize neural network models for NPU/edge
+      hardware - optimizing model internals is shaping. The
+      targets are classical edge AI workloads (vision, audio, CNN-
+      style models on NPUs), with LLM/GenAI stacks only mentioned
+      as optional bonus exposure, so it is ml-first.
+  responsibilities:
+  - Architect and develop AI/ML compiler and runtime software for RISC-V IP, NPU,
+    and SoC platforms
+  - Develop IREE-based compiler flows including MLIR lowering, code generation, and
+    runtime integration for edge AI
+  - Create and maintain custom MLIR dialects, compiler passes, and lowering pipelines
+    targeting custom NPU hardware
+  - Optimize neural network workloads with operator fusion, tiling, memory planning,
+    and quantization
+  - Bring up AI workloads on simulators, FPGA platforms, emulation environments, and
+    silicon with cross-functional teams
+  - Analyze model performance and drive optimizations across graph, operator, and
+    kernel levels
+  - Build test infrastructure, validation flows, benchmarks, and CI pipelines for
+    compiler/runtime correctness
+  - Provide technical leadership and support customer-facing teams for AI workload
+    enablement and deployment
+  use_cases:
+  - Efficient execution of AI models on edge devices and RISC-V/NPU silicon platforms
+  - Physical AI workloads on next-generation RISC-V IP and SoC platforms
+  - Low-latency, power-efficient AI inference for real-time embedded use cases
+  - Edge AI deployment spanning vision, audio, transformers, robotics, and automotive
+    workloads
+  skills:
+    genai: [llama.cpp]
+    ml: [IREE, LLVM, MLIR, Quantization, PyTorch, ONNX, TFLite, Torch-MLIR, TOSA,
+      Linalg, ONNX Runtime, TVM, XNNPACK, TensorFlow Lite]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Linux, CI/CD, Jenkins, Git, FPGA]
+    languages: [C++, Python]
+    domains: []
+    other: [CMake, Bazel, Jira, RISC-V, GGML]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10757387'
+  location: Pune, IND
+  extracted_at: '2026-08-25T11:40:22.293286'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

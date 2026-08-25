@@ -1,54 +1,58 @@
 company:
   name: Sidetrade
-  stage: Public
-  focus: |-
-    AI-powered Order-to-Cash intelligence platform for
-    enterprises
+  stage: Publicly listed on Euronext Growth
+  focus: AI Order-to-Cash intelligence platform and Data Lake
 position:
   title: Marketing Engineer, AI and Agentic Systems
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves designing, deploying, and governing AI
-      agents for marketing workflows including lead scoring,
-      enrichment, prospection, and campaign orchestration. The
-      candidate will ship production agents, build evaluation
-      suites, prompt libraries, and guardrails — hands-on work
-      building and deploying AI/agent systems, even though the
-      domain is marketing operations rather than core ML
-      engineering.
+      The role shapes model behavior directly: it designs and
+      ships AI agents, authors prompt libraries and tool
+      definitions, and builds evaluation suites, guardrails, and
+      output-quality monitoring (accuracy, drift, escalation rate)
+      for LLM-driven agents. This is classic shaping of LLM/agent
+      systems, so it is ai-first rather than ai-support despite
+      the marketing ops context.
   responsibilities:
-  - Design, deploy, and govern production AI agents for lead scoring, enrichment,
-    MQL handoff, prospection, and revenue attribution
-  - Build and maintain prompt libraries, tool definitions, evaluation suites, and
-    guardrails for production-ready agents
-  - Stand up agent observability layer tracking cost per task, accuracy, drift, and
-    human escalation rate
-  - Run and optimize the Martech stack including Marketo, Salesforce, Salesloft, ZoomInfo,
-    and related tools
-  - Evaluate, onboard, and retire vendors against measurable value to reduce tool
-    redundancy
-  - Maintain database hygiene, segmentation, lifecycle scoring, and GDPR/CCPA compliance
-  - Quantify agentic layer output including hours saved, MQLs added, and pipeline
-    influenced with board-ready reporting
+  - Design, deploy, and govern the agentic layer that runs Sidetrade marketing across
+    lead scoring, enrichment, prospection, campaign orchestration, and attribution
+  - Build production AI agents for lead scoring, enrichment, MQL handoff, prospection,
+    and revenue attribution, co-owned with Sales, BDRs, and Demand Gen
+  - Author prompt libraries, tool definitions, evaluation suites, and guardrails that
+    define production-ready AI at Sidetrade
+  - Stand up agent observability covering cost, latency, accuracy, drift, and human
+    escalation rate, reported monthly to the exec team
+  - Run and optimize the Martech stack (Marketo, Salesforce, Salesloft, ZoomInfo,
+    Cognism, LinkedIn Sales Navigator, LetSignIt) and evaluate, onboard, and retire
+    vendors against measurable value
+  - Maintain database hygiene, segmentation, lifecycle scoring, and GDPR and CCPA
+    compliance
+  - Quantify agentic layer output (hours saved, MQLs added, pipeline influenced) and
+    defend it on a board-ready cadence
+  - Replace at least three manual marketing workflows with production agents and cut
+    the Martech stack cost or tool count by at least 20 percent
   use_cases:
-  - AI-driven lead scoring and enrichment for B2B marketing
-  - Autonomous prospecting and campaign orchestration agents
-  - MQL handoff automation between marketing and sales teams
-  - Revenue attribution powered by AI agents
-  - Marketing workflow automation replacing manual processes
+  - Autonomous marketing agents for lead scoring and enrichment
+  - MQL handoff and sales prospection automation
+  - Campaign orchestration and revenue attribution
+  - Replacing manual marketing workflows with production agents
+  - Agent performance monitoring and cost/quality measurement (accuracy, drift, escalation
+    rate)
   skills:
-    domains: []
-    languages: [JSON]
-    ml: []
     cloud: []
-    genai: [Prompt Engineering, AI Agents, Anthropic API, ChatGPT/OpenAI API]
-    data: []
-    other: [Marketo, Salesforce, HubSpot, Salesloft, ZoomInfo, Cognism, LinkedIn Sales
-        Navigator, GDPR compliance, CCPA compliance, 6sense, Demandbase, RevOps]
-    ops: [Agent observability, Evaluation suites]
-    web: [n8n, Make, Zapier, APIs]
+    languages: []
+    ml: []
+    other: [Marketo, Salesforce, HubSpot, Pardot, Salesloft, ZoomInfo, Cognism, LinkedIn
+        Sales Navigator, LetSignIt, n8n, Make, Zapier, GDPR, CCPA Compliance, 6sense,
+      Demandbase, Terminus]
+    ops: [Observability]
     databases: []
+    domains: []
+    web: [APIs, JSON]
+    data: []
+    genai: [AI Agents, Prompt Engineering, LLMs, LLM Evaluation, Guardrails, ChatGPT,
+      Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +62,6 @@ meta:
   - Calgary, CAN
   - Paris, FRA
   - London, GBR
-  extracted_at: '2026-05-29T08:52:22.921750'
+  extracted_at: '2026-08-16T08:59:31.789984'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

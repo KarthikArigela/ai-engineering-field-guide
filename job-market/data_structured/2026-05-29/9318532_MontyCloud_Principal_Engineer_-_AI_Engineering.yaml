@@ -1,58 +1,61 @@
 company:
   name: MontyCloud
   stage: null
-  focus: Intelligent cloud operations and automation via agentic AI
+  focus: Agentic AI for intelligent cloud operations
 position:
   title: Principal Engineer  - AI Engineering
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role focused on building
-      and deploying agentic AI systems. The role involves
-      designing multi-agent architectures, RAG systems, MCP
-      servers, and AI platform infrastructure - all core AI/ML
-      system development work. As a Principal Engineer, this
-      person is architecting and implementing AI solutions, not
-      just supporting them.
+      The role directly shapes model and agent behaviour:
+      architecting multi-agent systems, orchestration frameworks,
+      MCP tool ecosystems, RAG/retrieval and memory pipelines,
+      prompt engineering, and evaluation/observability of output
+      quality. Since LLM and agent components are central to the
+      work, this is ai-first. It is explicitly an individual-
+      contributor Principal role (mentoring, not people
+      management).
   responsibilities:
   - Define and own the technical vision for agentic AI systems across the platform
   - Architect scalable multi-agent systems, orchestration frameworks, MCP server infrastructure,
     retrieval and memory pipelines, and observability layers
-  - Design and develop critical AI platform components and infrastructure
-  - Establish AI engineering best practices including design patterns, evaluation
-    practices, prompt engineering, reliability standards, governance, and cost optimization
+  - Establish AI engineering best practices including design patterns, evaluation,
+    prompt engineering, reliability, governance, and cost optimization standards
+  - Design and develop critical AI platform components and LLMOps infrastructure
+  - Lead cross-functional technical initiatives to improve AI system quality, reliability,
+    and scalability
+  - Evaluate emerging AI technologies, frameworks, and models to influence engineering
+    and product roadmaps, including via ADRs
   - Mentor Lead and Staff AI Engineers through architecture reviews, design discussions,
     and problem-solving sessions
   - Build prototypes, technical proposals, and proof-of-concepts to validate new agentic
     AI ideas
-  - Collaborate with platform, infrastructure, and data engineering teams to embed
-    AI-driven automation into cloud operations workflows
-  - Evaluate emerging AI technologies, frameworks, and models to influence engineering
-    and product roadmaps
   use_cases:
-  - Agentic AI systems for intelligent cloud operations and infrastructure automation
-  - Multi-agent architectures with agent-to-agent communication, memory, and planning
-    strategies
-  - RAG and Graph-RAG systems for knowledge retrieval and augmentation
-  - MCP (Model Context Protocol) server and tool integration infrastructure
-  - AI-driven observability and monitoring for cloud operations
-  - Enterprise-scale AI governance and lifecycle management with prompt versioning
-    and evaluation frameworks
+  - Autonomous, agentic AI for intelligent cloud operations
+  - AI-driven automation embedded into cloud operations workflows
+  - Enterprise-scale multi-agent orchestration with MCP-based tool integration
+  - Agent knowledge retrieval and memory via RAG, graph-RAG, and knowledge graphs
+  - AI platform observability, evaluation, governance, and cost management at production
+    scale
   skills:
+    cloud: [AWS, AgentCore]
+    languages: []
+    ml: []
+    other: [Responsible AI]
+    ops: [LLMOps, Kubernetes, Docker, Terraform, Infrastructure as Code, Observability]
+    databases: [Knowledge Graphs]
     domains: []
-    languages: [Python]
-    ml: [Hugging Face]
-    cloud: [AWS Bedrock, AWS, Azure OpenAI]
-    genai: [LangGraph, CrewAI, AutoGen, RAG, Graph-RAG, MCP, OpenAI API, Anthropic
-        API, Prompt Engineering, Multi-Agent Systems, Agentic Workflows]
-    data: []
-    other: []
-    ops: [Kubernetes, Docker, Terraform, LLMOps]
     web: []
-    databases: []
+    data: []
+    genai: [AI Agents, Multi-Agent Systems, Agentic Workflows, LangGraph, Strands
+        Agents, CrewAI, AutoGen, MCP, RAG, Graph-RAG, Embeddings, Reranking, Prompt
+        Engineering, LLM Evaluation, OpenAI API, Anthropic API, AWS Bedrock, Azure
+        OpenAI, Hugging Face, Fine-Tuning, RLHF]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9318532'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:02:19.475499'
+  extracted_at: '2026-08-16T10:16:53.019831'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

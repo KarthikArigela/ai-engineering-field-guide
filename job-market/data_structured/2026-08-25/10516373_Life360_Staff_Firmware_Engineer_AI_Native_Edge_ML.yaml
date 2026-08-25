@@ -1,0 +1,57 @@
+company:
+  name: Life360
+  stage: null
+  focus: |-
+    Family location sharing app, Tile trackers, and pet GPS
+    tracking
+position:
+  title: Staff Firmware Engineer, AI Native, Edge ML
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role trains, optimizes (quantization, pruning), deploys,
+      and evaluates ML models on microcontroller-class hardware,
+      which is model shaping. All model work is classical edge ML
+      on sensors with no LLM/agent component, so it is ml-first.
+      AI coding tools are used for workflow, not as the product.
+  responsibilities:
+  - Design and build a reusable on-device inference framework including runtime, model
+    integration, sampling/preprocessing pipeline, and OTA model updates
+  - Integrate inference into resource-constrained RTOS firmware (Zephyr/FreeRTOS)
+    including drivers, DMA data paths, SPI/I2C, and middleware
+  - Get models running within firmware constraints, handling quantization, operator
+    support, and latency/memory tradeoffs
+  - Own the full loop from training output to validated on-device behavior
+  - Debug on real hardware with oscilloscope, logic analyzer, and JTAG across firmware/hardware
+    boundaries
+  - 'Carry regular firmware work: features, bug fixes, field issues, and on-call triage'
+  - Set technical direction for on-device ML and raise the team's embedded-ML fluency
+    through code review, design docs, and pairing
+  - Use AI tooling as a development partner across firmware and ML work
+  use_cases:
+  - On-device ML on GPS trackers and Tile devices for family safety
+  - Real-time inference on complex sensor data within tight power and memory budgets
+  - Multi-sensor telemetry processing (IMU and similar) on edge devices
+  - On-device intelligence features shipped to the Pet GPS tracker fleet
+  - Crash detection and location/safety features on connected trackers
+  skills:
+    genai: [Claude Code, Cursor]
+    ml: [TensorFlow Lite Micro, CMSIS-NN, ExecuTorch, Quantization, Model Training,
+      Fine-Tuning]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Docker, Zephyr, FreeRTOS, Linux]
+    languages: [C++, C]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10516373'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:29:12.526035'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

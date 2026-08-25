@@ -1,0 +1,53 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPU computing and accelerated hardware/software
+position:
+  title: Senior HPC AI Cluster Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds, operates, and troubleshoots HPC/AI cluster
+      infrastructure (scheduling, monitoring, networking,
+      storage). It hosts and scales compute for AI workloads but
+      does not shape model behaviour, prompts, retrieval, or
+      training itself, so it is ai-support.
+  responsibilities:
+  - Design, implement and maintain large-scale HPC/AI clusters with monitoring, logging
+    and alerting
+  - Manage Linux job/workload schedulers and orchestration tools
+  - Develop and maintain CI/CD pipelines
+  - Build tooling to automate deployment, management, and self-service consumption
+    of large-scale infrastructure
+  - Deploy monitoring solutions for servers, network, and storage
+  - Troubleshoot from bare metal through OS, software stack, and application level
+  - Develop and document standard methodologies for internal teams
+  - Support R&D activities and POCs/POVs for future improvements
+  use_cases:
+  - Large-scale HPC and AI supercomputing cluster infrastructure
+  - GPU cluster deployment and operations for accelerated computing
+  - Automated monitoring and self-service resource consumption at scale
+  - High-performance networking with InfiniBand/RDMA fabrics
+  - Support for scientific research and AI workloads on shared clusters
+  skills:
+    genai: []
+    ml: [CUDA, Deep Learning]
+    web: []
+    databases: [Lustre, GPFS, Weka.io]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Slurm, Kubernetes, CI/CD, Jenkins, Ansible, Puppet, Chef, Docker, Monitoring,
+      VMware, Linux, DevOps]
+    languages: [Python, Bash]
+    domains: []
+    other: [InfiniBand, RDMA, RoCE, DGX, Hyper-V, KVM, Citrix, TCP/IP, DNS, DHCP,
+      Wireshark, iptables]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10776201'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:47:25.685413'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

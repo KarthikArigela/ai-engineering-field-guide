@@ -1,53 +1,64 @@
 company:
   name: World Wide Technology
-  stage: Public (implied - founded 1990, 14,000+ employees)
-  focus: |-
-    Global technology solutions provider and systems integrator
-    for AI and digital transformation
+  stage: null
+  focus: Global technology solutions and consulting provider
 position:
   title: Full-Stack Software Engineer (AI-Enhanced Development)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a full-stack software engineering role that uses AI
-      code assistants as productivity tools (Copilot, Cursor,
-      Devin) to accelerate traditional software development work.
-      The role focuses on building general distributed systems and
-      transactional applications for clients, not on building,
-      training, or deploying AI/ML models or AI-powered products.
+      This is a full-stack software engineering role where AI code
+      assistants (Cursor, Windsurf, Devin, GitHub Copilot) are
+      used as productivity tools to develop, test, and iterate on
+      software. The engineer does not shape model behavior or
+      build AI products - per the rules, using AI coding
+      assistants to do engineering work is ai-support, even though
+      AI-assisted development is central to the role. Prompt
+      engineering here applies to driving coding assistants, not
+      shaping an LLM product.
   responsibilities:
-  - Work directly with clients to understand requirements, advise on technical trade-offs,
-    and develop software solutions that deliver business value
+  - Partner directly with clients to understand requirements, advise on technical
+    trade-offs, and design and develop software solutions that deliver business value
   - Leverage AI code assistants to accelerate development cycles, refactor code, generate
-    test suites, and validate code quality
+    comprehensive test suites, validate code quality, and explore technical solutions
   - Develop distributed, scalable systems and high-volume transaction applications
     deployed in 24/7 availability environments
-  - Apply Agile, Lean, and Scrum methodologies in daily development work
-  - Adapt fluidly across project types and programming languages to meet engagement
-    requirements
-  - Demonstrate best practices for AI-assisted development including prompt engineering
-    and code review of AI-generated code
+  - Adapt fluidly across project types and programming languages, picking up whatever
+    stack each engagement demands
+  - Approach customer interactions with a consultant mindset, advising clients on
+    risks and opportunities of their decisions
+  - Demonstrate best practices for AI-assisted development, including prompt engineering,
+    code review of AI-generated code, and human-AI collaboration
+  - Develop other engineers across technical craft, consulting judgment, and modern
+    AI-assisted workflows through talks, trainings, and written guides
+  - Write documentation that serves its audience and critically review AI-generated
+    material before it reaches clients or teammates
   use_cases:
-  - Legacy system modernization and evolution
-  - Product development and shipping
-  - Platform scaling for high-volume transaction processing
-  - Client-specific software solution development across various industries
-  - General distributed systems and application development
+  - AI-assisted full-stack software development for client engagements
+  - Accelerating code refactoring, test suite generation, and code quality validation
+    with AI code assistants
+  - Modernizing legacy systems, shipping products, and scaling platforms for clients
+  - Consulting and advising clients on technology trade-offs and AI-assisted development
+    practices
+  - Internal enablement and knowledge sharing on modern AI-assisted engineering workflows
   skills:
-    domains: []
-    languages: [Backend Languages, Python, Java, TypeScript, C#, Go]
-    ml: []
     cloud: []
-    genai: [GitHub Copilot, Cursor, Windsurf, Devin, Prompt Engineering]
+    languages: []
+    ml: []
+    other: [Cursor, Windsurf, Devin, GitHub Copilot, Static Code Analysis, Automated
+        Testing, Test-Driven Development, Code Review, Agile]
+    ops: [Git, CI/CD, Linux, Distributed Systems]
+    databases: []
+    domains: []
+    web: [Full-Stack Development]
     data: []
-    other: [Agile, Lean]
-    ops: [Git, CI/CD, Automated Testing, Static Code Analysis, Linux]
-    web: [Frontend Frameworks]
-    databases: [Databases]
+    genai: [Prompt Engineering]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9345110'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:01:15.188870'
+  extracted_at: '2026-08-16T10:27:15.522822'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

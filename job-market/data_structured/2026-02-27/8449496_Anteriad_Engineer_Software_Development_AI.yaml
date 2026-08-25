@@ -1,56 +1,61 @@
 company:
   name: Anteriad
-  stage: null
-  focus: B2B marketing data solutions
+  stage: ''
+  focus: B2B marketing data and demand generation solutions
 position:
   title: Engineer, Software Development (AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      The role uses AI-assisted development tools like GitHub
-      Copilot, Claude, and Cursor to enhance coding efficiency,
-      but does not involve building, training, fine-tuning, or
-      deploying AI/ML models. The focus is on traditional software
-      engineering (React.js, Node.js, REST APIs) with AI tools as
-      productivity enhancers rather than working directly on AI
-      systems.
+      This is a full-stack web developer role where AI coding
+      assistants (GitHub Copilot, Claude, Cursor, ChatGPT,
+      Lovable.ai) are used purely as productivity tools for
+      writing, refactoring, and documenting code. The person never
+      shapes model behavior, designs prompts or retrieval as a
+      product, or trains/evaluates models. Per the edge case
+      rules, using AI coding tools to do the engineering work is
+      ai-support.
   responsibilities:
-  - Leverage AI-assisted development tools to accelerate development, improve code
-    quality, and support problem-solving across the development lifecycle
+  - Leverage AI-assisted development tools (GitHub Copilot, Claude, Cursor, Lovable.ai)
+    to accelerate development, improve code quality, and support problem-solving across
+    the development lifecycle
   - Use AI tools to assist in code refactoring, debugging, test case generation, and
     documentation
-  - Manage code using GitHub, including versioning, pull requests, and code reviews
-  - Identify performance bottlenecks and reliability issues, using AI-driven insights
-    to optimize applications
+  - Manage code using GitHub, including versioning, pull requests, branching strategies,
+    and code reviews
   - Design, develop, and maintain scalable web applications using React.js on the
     frontend and Node.js/Express.js on the backend
   - Build reusable, responsive UI components using React, Tailwind CSS, and modern
     component libraries
-  - Develop, integrate, and optimize RESTful APIs, ensuring performance, scalability,
+  - Develop, integrate, and optimize REST APIs, ensuring performance, scalability,
     and security best practices
-  - Work closely with product, design, and QA teams in an agile environment
+  - Identify performance bottlenecks and reliability issues, using AI-driven insights
+    to optimize applications
+  - Collaborate with product, design, and QA teams in an agile environment, adapting
+    to evolving requirements
   use_cases:
-  - B2B marketing data-driven decision making
-  - Customer acquisition and demand generation
-  - Account-based marketing solutions
-  - Web applications for marketing analytics
-  - Enterprise search and data visualization
-  - API-driven marketing platform
+  - AI-assisted code generation, refactoring, and debugging to accelerate software
+    development
+  - AI-driven test case generation and documentation
+  - AI-driven insights for identifying and optimizing application performance bottlenecks
+  - AI-assisted query optimization and troubleshooting for databases
   skills:
-    domains: []
-    languages: [Java, JavaScript, TypeScript]
-    ml: []
     cloud: []
-    genai: [GitHub Copilot, Anthropic API, ChatGPT, Cursor, Lovable.ai]
-    data: []
-    other: []
-    ops: [GitHub]
+    languages: [JavaScript, TypeScript, Java]
+    ml: []
+    other: [Agile]
+    ops: [GitHub, DevOps]
+    databases: [PostgreSQL, MySQL, MongoDB]
+    domains: []
     web: [React, Tailwind CSS, Node.js, Express.js, REST APIs, Spring Boot, Spring
         MVC]
-    databases: [PostgreSQL, MySQL, MongoDB]
+    data: []
+    genai: [GitHub Copilot, Anthropic API, ChatGPT, Cursor, Lovable.ai]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8449496'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:25:01.867756'
+  extracted_at: '2026-08-16T01:24:51.021899'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

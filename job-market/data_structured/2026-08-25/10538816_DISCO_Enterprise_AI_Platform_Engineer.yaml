@@ -1,0 +1,58 @@
+company:
+  name: DISCO
+  stage: null
+  focus: Cloud-native AI-powered eDiscovery and legal case management
+position:
+  title: Enterprise AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role productionizes AI prototypes built by others: it
+      re-architects, secures, deploys, and monitors systems rather
+      than shaping model behavior through prompts, retrieval, or
+      fine-tuning. GenAI tools like LangChain and RAG appear only
+      as "nice to have", and Claude Code is a prototype tool the
+      citizens used, not something this engineer tunes.
+      Deliverable is infrastructure and compliance capacity, so
+      ai-support.
+  responsibilities:
+  - Re-architect citizen-developed AI prototypes (Python, Workato, Claude Code) into
+    secure, scalable production enterprise systems
+  - Design cloud infrastructure on AWS/Azure and implement CI/CD pipelines and containerized
+    deployments with Docker/Kubernetes
+  - Develop integration APIs and set up monitoring and observability for production
+    AI systems
+  - Ensure secure deployment by design with secrets management, encryption, audit
+    logging, and compliance validation
+  - Design production-ready architectures for 1,000+ users and establish engineering
+    standards and documentation
+  - Support and mentor non-engineering teams with code review, troubleshooting, and
+    DevOps training
+  - Build internal developer platforms and reusable infrastructure-as-code templates
+  use_cases:
+  - Hardening and deploying internal AI prototypes as enterprise production systems
+  - Secure enterprise AI deployment with compliance, audit logging, and secrets management
+  - Scalable architectures supporting 1,000+ internal users of AI tools
+  - Internal developer platforms and reusable IaC templates to accelerate AI development
+  - Integration of AI systems with enterprise workflows via APIs
+  skills:
+    genai: [LangChain, LlamaIndex, RAG]
+    ml: []
+    web: [REST APIs, OAuth, API Gateway, React, Vue]
+    databases: [PostgreSQL, Redis, NoSQL]
+    data: []
+    cloud: [AWS, Azure, EKS, IAM, AWS Lambda]
+    ops: [Claude Code, CI/CD, Docker, Kubernetes, Monitoring, Observability, Terraform,
+      CloudFormation, Infrastructure as Code, GitHub Actions, Jenkins, Datadog, Grafana]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: [Workato, Zapier, Secrets Manager, Full-Stack Development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10538816'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:37:43.478695'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

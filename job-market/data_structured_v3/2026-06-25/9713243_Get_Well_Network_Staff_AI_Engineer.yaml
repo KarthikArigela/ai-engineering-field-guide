@@ -1,0 +1,67 @@
+company:
+  name: Get Well Network
+  stage: ''
+  focus: |-
+    AI-native precision care and patient engagement technology
+    for health systems
+position:
+  title: Staff AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role architects, fine-tunes, and evaluates LLMs, designs
+      agentic systems with LangChain/LangGraph/CrewAI, and trains
+      STT/TTS models — directly shaping model behavior and output
+      quality. Since LLM and agentic components are central
+      (alongside speech models), the mixed LLM + classical ML role
+      classifies as ai-first.
+  responsibilities:
+  - Architect and develop production-ready AI models trained on real-world clinical
+    datasets from hospital systems, EHRs, and patient engagement platforms
+  - Design and train STT and TTS models to power voice-enabled AI applications and
+    virtual assistants in healthcare settings
+  - Integrate and optimize agentic systems using frameworks such as LangChain, LangGraph,
+    and CrewAI for autonomous decision-making and workflow automation
+  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases including
+    multimodal text, image, and structured clinical data
+  - Lead the end-to-end model lifecycle from data ingestion and preprocessing through
+    training, evaluation, and deployment into hospital IT ecosystems
+  - Design and optimize cloud-based AI infrastructure (Azure) with CI/CD pipelines,
+    GPU-optimized runtimes, and real-time/batch inference systems
+  - Establish observability and monitoring (Langfuse, Prometheus, Grafana) for model
+    performance, agent behavior, anomaly detection, and drift
+  - Ensure HIPAA, GDPR, and PHI/ePHI data governance compliance with ethical AI principles,
+    while mentoring junior engineers and partnering with clinical stakeholders
+  use_cases:
+  - Voice-enabled AI applications and virtual assistants for patients in healthcare
+    settings (STT/TTS)
+  - Autonomous decision-making and workflow automation via agentic AI systems
+  - Clinical insight extraction from structured and unstructured health data (EHRs,
+    FHIR, HL7, CCDA, clinical notes)
+  - Personalized precision care and patient engagement for health systems
+  - Production AI model monitoring, drift detection, and reliability in hospital IT
+    ecosystems
+  - Compliant handling of PHI/ePHI in regulated healthcare environments
+  skills:
+    genai: [LLMs, LangChain, LangGraph, CrewAI, Agentic Workflows, AI Agents, OpenAI
+        API, Llama, Claude, MCP, A2A, Fine-Tuning]
+    ml: [PyTorch, TensorFlow, Hugging Face, Machine Learning, Transformers, Multimodal
+        Learning, Model Evaluation, Anomaly Detection, Whisper, Tacotron, FastSpeech,
+      DeepSpeech, Speech-to-Text, Text-to-Speech]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure]
+    ops: [MLOps, CI/CD, Langfuse, Prometheus, Grafana, Infrastructure as Code, Monitoring,
+      Observability, Model Deployment]
+    languages: [Python, C++]
+    domains: [NLP, Healthcare]
+    other: [HIPAA Compliance, GDPR, Responsible AI, FHIR, HL7, CCDA, SNOMED, ICD-10]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9713243'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T14:29:43.061200'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

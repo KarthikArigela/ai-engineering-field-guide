@@ -1,0 +1,60 @@
+company:
+  name: Automation Anywhere
+  stage: null
+  focus: |-
+    Agentic Process Automation and enterprise AI automation
+    software
+position:
+  title: Sr. AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior: building multi-
+      agent workflows with tool use, memory, and output
+      validation, plus end-to-end RAG pipelines (chunking,
+      embeddings, retrieval evaluation) and structured prompt
+      engineering. Since these all target LLM and agent
+      components, it classifies as ai-first.
+  responsibilities:
+  - Build and maintain multi-agent workflows from solution design documents into production-ready
+    implementations
+  - Implement tool integrations (APIs, ERP, CRM, ITSM) with error handling and graceful
+    degradation
+  - Build end-to-end RAG pipelines covering ingestion, chunking, embedding, vector
+    store, and retrieval evaluation
+  - Monitor and improve retrieval quality and integrate RAG as knowledge backend for
+    agents
+  - Develop and maintain RPA task bots and implement AI agent to RPA handoff logic
+  - Write unit and integration tests and contribute to CI/CD pipelines and prompt
+    versioning
+  - Monitor deployed systems and participate in incident response for agent failure
+    modes
+  - Participate in stakeholder use-case discovery and document pipelines and agent
+    configurations
+  use_cases:
+  - Agentic process automation for enterprise workflows
+  - AI agent tool integrations with ERP, CRM, and ITSM systems
+  - RAG-based knowledge backends powering enterprise automation agents
+  - Hybrid AI agent and RPA task automation with handoff logic
+  - Production monitoring and incident response for agent failure modes
+  skills:
+    genai: [AI Agents, LangChain, LangGraph, AutoGen, CrewAI, Function Calling, OpenAI
+        API, Anthropic API, Gemini, Prompt Engineering, RAG, Embeddings, Fine-Tuning,
+      LoRA, QLoRA]
+    ml: []
+    web: [APIs]
+    databases: [Vector Databases]
+    data: [Data Pipelines]
+    cloud: [Cloud AI Services]
+    ops: [LangSmith, Arize, CI/CD]
+    languages: [Python]
+    domains: []
+    other: [UiPath, Automation Anywhere, Power Automate, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8774909'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T04:25:00.214093'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

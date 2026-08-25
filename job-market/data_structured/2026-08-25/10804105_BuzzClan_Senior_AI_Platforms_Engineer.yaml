@@ -1,0 +1,45 @@
+company:
+  name: BuzzClan
+  stage: null
+  focus: IT consulting and AI platform engineering services
+position:
+  title: Senior AI & Platforms Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements autonomous multi-agent
+      systems and cognitive architectures with agentic frameworks,
+      which is directly shaping agent behaviour (Step 1 yes,
+      LLM/agent component -> ai-first).
+  responsibilities:
+  - Design and implement autonomous multi-agent systems and cognitive architectures
+    using agentic frameworks
+  - Build high-performance asynchronous Python microservices and REST/gRPC APIs
+  - Establish end-to-end MLOps/AIOps pipelines automating testing, deployment, and
+    monitoring of AI models and data products
+  - Architect scalable data pipelines and query patterns across data platforms such
+    as Snowflake, Databricks, and Lakehouse
+  use_cases:
+  - Autonomous multi-agent systems for AI platform automation
+  - Cognitive architectures powering AI platform services
+  - Automated testing, deployment, and monitoring of AI models and data products
+  - Scalable data pipelines across Snowflake/Databricks Lakehouse platforms
+  skills:
+    genai: [Multi-Agent Systems, LangGraph, CrewAI, AutoGen, Semantic Kernel]
+    ml: []
+    web: [FastAPI, Microservices, REST APIs, gRPC]
+    databases: [Snowflake]
+    data: [Databricks, Delta Lake, Data Pipelines]
+    cloud: []
+    ops: [MLOps, CI/CD, GitHub Actions, GitLab CI, Prometheus, Grafana, MLflow, Monitoring]
+    languages: [Python, asyncio]
+    domains: []
+    other: [Pytest]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10804105'
+  location: Brooklyn, USA
+  extracted_at: '2026-08-25T11:58:06.901968'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

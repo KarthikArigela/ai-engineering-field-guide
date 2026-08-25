@@ -1,52 +1,57 @@
 company:
   name: Micron Technology
-  stage: Public
-  focus: |-
-    Memory and storage solutions (DRAM, NAND, NOR) for data
-    centers and edge computing
+  stage: null
+  focus: Memory and storage solutions (DRAM, NAND, NOR)
 position:
   title: Senior Silicon Design Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on implementation of LLM-based
-      solutions including fine-tuning, RAG pipelines, and pre-
-      training/adapting LLMs for domain-specific use cases. The
-      engineer will also apply reinforcement learning and neural
-      networks to solve semiconductor design problems, directly
-      building and deploying AI/ML systems.
+      The role explicitly shapes LLM behavior: it requires hands-
+      on fine-tuning, building RAG pipelines, and pre-
+      training/adapting LLMs for domain-specific semiconductor
+      design use cases, plus using Claude/Gemini for AI-based
+      design automation. Since LLM components are central to the
+      work being built, this is ai-first despite the silicon
+      design domain.
   responsibilities:
   - Architect, design, and implement AI/ML-driven workflows for DRAM/NAND memory subsystems
     and controllers
   - Improve design and layout efficiency through AI-based automation leveraging Python
-    and LLMs
+    and LLMs such as Claude and Gemini
+  - Build LLM-based solutions including fine-tuning, RAG pipelines, and domain-specific
+    LLM adaptation
   - Perform block- and chip-level simulations, debugging, and functional verification
   - Collaborate with design and CAD teams to develop and customize tools that accelerate
-    design qualification
-  - Apply industry-standard EDA tools for synthesis, simulation, parasitic estimation,
-    and layout-aware optimization
+    design qualification and turnaround time
+  - Apply industry-standard EDA tools such as Cadence Verisium, Virtuoso, and Siemens
+    Solido for synthesis, simulation, parasitic estimation, and layout-aware optimization
   - Develop standard cell layout automation using Python and SKILL programming
   use_cases:
-  - AI-driven DRAM/NAND memory subsystem design automation
-  - Layout efficiency optimization using LLMs
-  - Reinforcement learning for EDA and design problems
-  - Domain-specific LLM adaptation for semiconductor design
-  - Automated standard cell layout generation
+  - AI/ML-driven automation of DRAM/NAND memory subsystem and controller design
+  - LLM-assisted design and layout efficiency improvements in silicon/EDA workflows
+  - RAG and fine-tuned or pre-trained LLMs adapted for domain-specific semiconductor
+    use cases
+  - Reinforcement learning and optimization techniques applied to design and EDA problems
+  - Standard cell layout automation
+  - Block- and chip-level simulation, debugging, and functional verification
   skills:
-    domains: [CMOS fundamentals, Device physics]
-    languages: [Python, SystemVerilog, SKILL programming]
-    ml: [Reinforcement Learning, Neural Networks, Machine Learning, Mathematics of
-        Optimization]
     cloud: []
-    genai: [LLMs, Fine-Tuning, RAG]
-    data: []
-    other: [UVM]
-    ops: [Cadence Verisium, Virtuoso Layout Suite, Siemens Solido, Xcelium, ModelSim]
-    web: []
+    languages: [Python, SystemVerilog, SKILL]
+    ml: [Machine Learning, Neural Networks, Reinforcement Learning]
+    other: [Virtuoso, Cadence Verisium, Solido, Xcelium, ModelSim, Synopsys, UVM,
+      Functional Verification, Optimization]
+    ops: []
     databases: []
+    domains: [Semiconductor Design, CMOS, Device Physics, Memory Architectures]
+    web: []
+    data: []
+    genai: [LLMs, Fine-Tuning, RAG, Pre-training, Anthropic API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8806180'
   location: Hyderabad, IND
-  extracted_at: '2026-03-27T14:16:42.598892'
+  extracted_at: '2026-08-16T04:40:38.847526'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

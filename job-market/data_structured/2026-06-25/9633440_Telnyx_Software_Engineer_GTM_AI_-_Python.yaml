@@ -1,59 +1,65 @@
 company:
   name: Telnyx
-  stage: Profitable/Private
-  focus: Global connectivity, APIs, and telecom infrastructure
+  stage: null
+  focus: |-
+    Global connectivity platform with programmable telecom and
+    network APIs
 position:
   title: Software Engineer, GTM AI - Python
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, deploying, and operating
-      multi-agent AI systems that orchestrate LLM-powered agents
-      for real business workflows. The engineer designs agent
-      architectures, builds tool-use patterns, manages model
-      abstraction layers, and instruments AI systems in production
-      — all hands-on work with LLMs and agents as core primitives.
+      The role designs and builds multi-agent LLM systems:
+      architecting agent flows, designing tool-use/function-
+      calling patterns, abstracting across LLM providers, and
+      building evaluation infrastructure for prompt and model
+      experiments. This is direct shaping of model behavior with
+      LLM/agent components at the core, so it is ai-first.
   responsibilities:
   - Design and build multi-agent AI systems in Python that handle complex, multi-step
-    GTM business workflows such as lead qualification, email generation, routing,
-    enrichment, and outbound orchestration
-  - Architect model-agnostic abstraction layers decoupling business logic from LLM
-    providers (Claude, GPT, open-source models)
+    business workflows such as lead qualification, email generation, routing, enrichment,
+    and outbound orchestration
+  - Architect model-agnostic abstraction layers that decouple business logic from
+    LLM providers, enabling flexibility across Claude, GPT, and open-source models
   - Build and operate backend services (FastAPI/Flask) deployed on Kubernetes with
-    full CI/CD lifecycle management
-  - Design tool-use patterns for AI agents including structured function calling,
-    multi-step reasoning, state management, and graceful model failure handling
+    CI/CD, owning the full lifecycle from deployment configuration to production reliability
+  - Design tool-use patterns for AI agents, including structured function calling,
+    multi-step reasoning, state management across turns, and graceful handling of
+    model failures
   - Build integrations across external systems (CRM, enrichment APIs, outreach platforms,
-    Slack) with proper error handling, retries, rate limiting, and data contracts
-  - Instrument and monitor production AI systems — build observability into agent
-    behavior, track success rates, detect regressions, and debug non-deterministic
+    Slack) with error handling, retries, rate limiting, and data contracts
+  - Instrument and monitor AI systems in production, building observability into agent
+    behavior, tracking success rates, detecting regressions, and debugging non-deterministic
     failures
   - Design and run experiments (A/B tests, prompt variations, model comparisons) with
-    proper evaluation infrastructure
+    proper evaluation infrastructure to measure effectiveness
+  - Partner with Engineering Leads and Technical Product Managers to translate problems
+    into well-architected, observable, maintainable software
   use_cases:
-  - AI-powered lead qualification and routing
-  - Automated email generation and outbound campaign orchestration
-  - Contact enrichment using AI agents that call external APIs
+  - LLM-powered agents qualifying inbound leads
+  - Automated email generation for outreach
   - Meeting routing and scheduling automation
-  - Multi-agent orchestration for go-to-market workflows
+  - Contact enrichment from external data providers
+  - Outbound campaign orchestration managed by stateful agents
+  - Bot-facing GTM infrastructure supporting both human and AI workflows
   skills:
-    domains: []
+    cloud: []
     languages: [Python, SQL]
     ml: []
-    cloud: []
-    genai: [Multi-agent AI systems, LLM function calling / tool-use patterns, Prompt
-        engineering / prompt variations, Model-agnostic LLM abstraction layers, OpenAI
-        GPT API, Anthropic Claude API, Open-source LLMs, Structured Outputs]
-    data: []
-    other: [Salesforce, Slack API / bot development, A/B Testing]
-    ops: [Kubernetes, Docker, CI/CD, ArgoCD, Structured logging and tracing, Monitoring
-        and alerting, StatefulSets]
-    web: [FastAPI, Flask, REST APIs]
+    other: [A/B Testing, Salesforce, Apollo, Lusha, Slack]
+    ops: [Kubernetes, Docker, CI/CD, ArgoCD, Observability, Monitoring]
     databases: []
+    domains: []
+    web: [FastAPI, Flask, APIs]
+    data: [Data Pipelines]
+    genai: [AI Agents, Multi-Agent Systems, LLMs, Function Calling, Structured Outputs,
+      LLM Evaluation, Conversational AI, Anthropic API, GPT]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9633440'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:49:17.792659'
+  extracted_at: '2026-08-16T13:26:00.249671'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

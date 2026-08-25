@@ -1,57 +1,71 @@
 company:
   name: OneStream Software
-  stage: Public
-  focus: |-
-    Enterprise finance platform with embedded AI for financial
-    planning and forecasting
+  stage: null
+  focus: Enterprise finance platform with embedded AI
 position:
   title: Principal AI Forward Deployed Engineer
   ai_type:
     type: ai-first
     reasoning: |-
       This is a Forward Deployed Engineer role that directly
-      designs and delivers AI solutions at customer accounts,
-      including solution architecture, data pipeline
-      configuration, and implementation oversight for SensibleAI
-      products. While it emphasizes advisory and domain expertise
-      over deep ML engineering, the role involves hands-on
-      deployment and configuration of AI systems, making it ai-
-      first rather than ai-support.
+      designs, delivers, and refines AI use cases at customer
+      sites, including solution architecture, data pipeline
+      configuration, and validating AI solutions in the OneStream
+      ecosystem — the FDE edge case makes it ai-first. The
+      emphasis on translating non-deterministic AI outputs
+      indicates LLM/GenAI components in the SensibleAI portfolio.
+      Although the role is heavily advisory and does not require
+      deep ML engineering, the person adapts and deploys the AI
+      solutions themselves rather than merely consuming another
+      team's API.
   responsibilities:
-  - Serve as primary strategic advisor to senior finance stakeholders, owning AI adoption
-    roadmaps from deployment through operational ownership
-  - Participate directly in design and delivery of AI use cases including solution
-    architecture, data pipeline configuration, and implementation oversight
+  - Serve as primary strategic advisor to senior finance stakeholders (CFOs, FP&A
+    VPs), owning the AI adoption roadmap from initial deployment through sustained
+    operational ownership
+  - Participate directly in design and delivery of AI use cases at assigned accounts,
+    including solution architecture, data pipeline configuration, and implementation
+    oversight
   - Lead adoption and change management strategy for AI-enabled finance processes
-  - Design and facilitate executive workshops connecting AI capabilities to measurable
-    financial outcomes
-  - Build 24-36 month AI roadmaps per account, sequencing use cases by business impact
-    and feasibility
-  - Shape FDE engagement model by producing reusable playbooks, templates, and frameworks
-  - Coordinate with AI Delivery to transition validated solutions into scalable production
-    workflows
-  - Channel field learnings and customer signal to AI Engineering and Product teams
+    so customer organizations can independently own non-deterministic AI outputs
+  - Build 24-36 month account AI roadmaps, sequencing use cases by business impact,
+    technical feasibility, and organizational readiness
+  - Design and facilitate executive workshops, business reviews, and readouts connecting
+    AI capabilities to measurable financial outcomes
+  - Shape the FDE program by producing reusable playbooks, engagement templates, and
+    adoption benchmarks, and mentor other FDE team members and partner resources
+  - Partner with Sales and Account Management to position AI expansion opportunities
+    and support pre-sale feasibility and readiness assessments
+  - Channel field learnings, product gaps, and customer signal to AI Engineering and
+    Product teams to inform roadmap priorities
   use_cases:
-  - Financial planning and analysis (FP&A) automation
-  - Forecast accuracy improvement using AI
-  - Financial forecasting and predictive analytics
-  - Process efficiency optimization in finance workflows
-  - Enterprise financial planning transformation
+  - AI-enabled financial planning and forecasting to improve forecast accuracy, cycle
+    time, and process efficiency
+  - Enterprise AI adoption within OneStream finance implementations across strategic
+    accounts
+  - Cross-functional process and forecasting opportunities extending AI value beyond
+    single-function deployments
+  - Translating non-deterministic AI outputs into actionable business language for
+    finance organizations
+  - Expanding the SensibleAI product portfolio footprint through account-level AI
+    use case roadmaps
   skills:
-    domains: [Financial planning and forecasting]
-    languages: [Python, C#]
-    ml: [AI/ML concepts]
     cloud: []
-    genai: []
-    data: [Data Pipelines, Data Modeling]
-    other: [OneStream, Oracle EPM, SAP BPC/SAC]
+    languages: [Python, C#, SQL]
+    ml: [Machine Learning]
+    other: [SensibleAI, OneStream, Oracle EPM, SAP BPC/SAC, FP&A, Change Management,
+      Data Science]
     ops: []
+    databases: []
+    domains: []
     web: [REST APIs]
-    databases: [SQL]
+    data: [Data Modeling, Data Pipelines, Data Governance]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8844219'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T13:36:29.148776'
+  extracted_at: '2026-08-16T05:00:37.986506'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,55 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPU and accelerated computing hardware and software
+position:
+  title: Senior System Software Engineer - Local AI Automation
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds infrastructure to deploy, benchmark, and
+      qualify AI models and applications across inference backends
+      others built (vLLM, Ollama, etc.). It does not shape model
+      behavior via prompts, retrieval, training, or eval design;
+      the deliverable is automation, serving capacity, and
+      observability, which maps to ai-support per the edge cases.
+  responsibilities:
+  - Design and maintain system software and infrastructure to run AI workloads across
+    inference backends such as Llama.cpp, Ollama, PyTorch, vLLM, WinML, and TRT-RTX
+  - Scope system requirements for deploying AI applications and models in automation
+    and measure correctness, functionality, reliability, and performance
+  - Develop infrastructure to download AI models, manage a local model repository,
+    and synchronize it automatically
+  - Analyze large datasets and system workload metrics, build data processing pipelines,
+    and design visualizations
+  - Collaborate with internal developers on system-level instrumentation, diagnostics,
+    and debugging
+  - Build automated build, integration, deployment, and qualification infrastructure
+    across inference frameworks
+  - Debug issues in existing frameworks, identify performance bottlenecks, and improve
+    system efficiency and scalability
+  use_cases:
+  - Automated deployment and qualification of local AI applications and models
+  - Benchmarking correctness, reliability, and performance of inference backends
+  - Local AI model repository management and synchronization
+  - System telemetry and diagnostics for AI workloads
+  skills:
+    genai: []
+    ml: [PyTorch, Llama.cpp]
+    web: []
+    databases: [SQL]
+    data: []
+    cloud: []
+    ops: [vLLM, TRT-RTX, CI/CD, Git, Jenkins, Kubernetes, Docker, Grafana, Linux,
+      Observability]
+    languages: [C++, C, C#, Java, Python]
+    domains: []
+    other: [Ollama, WinML, Perforce, Kibana, Nsight Systems, Windows]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10381907'
+  location: Pune, IND
+  extracted_at: '2026-08-25T09:53:54.401352'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

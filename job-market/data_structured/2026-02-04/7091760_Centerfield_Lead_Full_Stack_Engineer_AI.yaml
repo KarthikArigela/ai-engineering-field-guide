@@ -2,23 +2,20 @@ company:
   name: Centerfield
   stage: null
   focus: |-
-    Digital marketing solutions and customer acquisition
-    platforms
+    Outcome-based digital marketing and customer acquisition
+    platform
 position:
   title: Lead Full Stack Engineer, AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Full Stack .NET engineering role focused
-      on building applications for Centerfield's marketing
-      platforms. While the job mentions AI/ML knowledge as "bonus
-      points" including RAG, agents, vector databases, and
-      transformers, the core responsibilities are about technical
-      leadership, system architecture, and software development -
-      not directly building, training, or deploying AI models. The
-      AI/ML skills are listed as nice-to-have for someone to work
-      with AI-related features, but the role itself is not AI-
-      first.
+      All AI/ML content (agents, RAG, prompt engineering, vector
+      databases, fine-tuning, AI tools) appears exclusively in a
+      "Bonus Points" nice-to-have section, while the actual
+      responsibilities are .NET full-stack development,
+      architecture, and mentoring. Per the edge-case rule, AI
+      named only as a bonus makes this ai-support despite the "AI"
+      in the job title.
   responsibilities:
   - Drive technical initiatives while staying hands-on in development
   - Partner with cross-functional teams to translate business needs into technical
@@ -28,28 +25,30 @@ position:
     applications
   - Document development phases and monitor systems for quality and goals alignment
   - Refine team processes and best practices
-  - Evaluate and recommend new technologies and tools to improve our platforms
+  - Evaluate and recommend new technologies and tools to improve the platforms
   use_cases:
-  - Outcome-based digital marketing solutions for customer acquisition
-  - Personalized omnichannel experiences for leading brands
-  - Scalable customer acquisition platform for residential service, insurance, e-commerce,
+  - Customer acquisition at scale for residential service, insurance, e-commerce,
     and B2B brands
-  - Digital experiences reaching 150 million in-market shoppers annually
-  - High-performance web applications for business and broadband services
+  - Personalized omnichannel digital marketing experiences
+  - Digital shopping experiences reaching over 150 million in-market shoppers annually
+  - Potential AI chatbot and agent capabilities on the Dugout marketing platform
   skills:
-    domains: []
-    languages: [C#, .NET, Python, Node.js, JavaScript]
-    ml: [Transformers, Embeddings, Fine-Tuning]
     cloud: [AWS, GCP, AWS SQS, AWS SNS]
-    genai: [RAG, Prompt Engineering, agentic frameworks]
-    data: [Kafka]
-    other: []
-    ops: [RabbitMQ, CI/CD]
-    web: [REST APIs, RPC APIs, React]
-    databases: [PostgreSQL, MySQL, Redis, Vector Databases, Pinecone]
+    languages: [C#, .NET, Python, Node.js, JavaScript]
+    ml: [Machine Learning, Transformers]
+    other: [Service-Oriented Architecture, Microservices]
+    ops: [CI/CD]
+    databases: [PostgreSQL, MySQL, Redis, Database Design, Vector Databases, Pinecone]
+    domains: []
+    web: [REST APIs, RPC, React]
+    data: [RabbitMQ, Kafka, Data Labeling]
+    genai: [MCP, A2A, AI Agents, RAG, Semantic Search, Redis VL, Prompt Engineering,
+      Embeddings, Chatbots, Fine-Tuning, Cursor, Anthropic API, Perplexity, ChatGPT]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7091760'
   location: Los Angeles, USA
-  extracted_at: '2026-02-05T10:14:30.432208'
+  extracted_at: '2026-08-15T21:17:08.747246'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,56 +1,64 @@
 company:
   name: PEMCO
-  stage: null
+  stage: ''
   focus: |-
-    Mutual insurance company providing auto, home, renters, and
-    boat coverage in the Northwest
+    Mutual insurance company offering auto, home, renters, and
+    boat coverage
 position:
   title: Senior Databricks AI/ML Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building and deploying AI/ML solutions,
-      operationalizing models into production systems,
-      implementing MLflow tracking, and developing MLOps
-      workflows. The engineer works directly ON ML systems -
-      deploying, monitoring, and scaling models for production use
-      across insurance use cases like underwriting, claims, and
-      fraud detection.
+      This role operationalizes models built by others: it
+      explicitly feeds raw data into "models defined by data
+      scientists," scales data scientist models, and builds ETL
+      pipelines, deployment pipelines, and MLOps monitoring. There
+      is no prompt engineering, RAG design, fine-tuning, or
+      output-quality evaluation by this person; Azure OpenAI and
+      Cognitive Services appear only as familiar APIs, not work
+      they shape. The deliverable is data and ML infrastructure,
+      not model behavior.
   responsibilities:
-  - Design and deploy Databricks architecture and workspaces across Dev, Test, and
-    Prod environments
-  - Implement Databricks Lakehouse architecture and integrate with Azure services
-  - Lead implementation of Databricks SQL, Delta Live Tables, and MLflow for scalable
-    experimentation
-  - Develop and maintain automated MLOps workflows for model deployment and monitoring
-  - Build and maintain ETL pipelines using Databricks, Spark, and SQL Server for data
-    ingestion and transformation
-  - Scale data scientist models to handle terabytes of data and build deployment pipelines
-  - Implement logging and observability for AI/ML performance monitoring
-  - Conduct customer workshops to identify requirements and provide architecture design
-    for analytics projects
+  - Serve as Databricks architect, designing and governing Databricks workspaces and
+    Lakehouse architecture across Dev, Test, and Prod environments
+  - Lead implementation of Databricks SQL, Delta Live Tables, and MLflow tracking
+    for reproducible and scalable experimentation
+  - Build and maintain ETL pipelines and data workflows using Databricks, Spark, and
+    SQL Server to ingest and transform structured and unstructured data
+  - Develop automated MLOps workflows for model deployment, monitoring, and observability
+  - Operationalize data scientist models, scaling them to terabyte-scale data and
+    production systems
+  - Conduct workshops and architecture design for analytics projects using Azure and
+    Databricks AI/ML products
+  - Develop and optimize complex SQL queries and stored procedures in SQL Server for
+    data processing and business rules
+  - Conduct code reviews and provide production support, incident resolution, and
+    performance tuning for data workflows
   use_cases:
-  - Underwriting optimization for insurance products
-  - Claims processing and analysis
-  - Pricing models for auto, home, renters, and boat coverage
-  - Fraud detection and anomaly identification
-  - Customer engagement and insights
+  - Insurance underwriting, pricing, and claims analytics
+  - Fraud detection
+  - Customer engagement analytics
+  - Pattern and anomaly identification in business data
+  - Real-time and offline analytics for data-driven decision making
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [PyTorch, scikit-learn]
-    cloud: [Databricks, Azure, Azure ML, Azure Cognitive Services, Microsoft Fabric,
-      Synapse Analytics, Azure Event Hubs]
-    genai: [Azure OpenAI]
-    data: [Delta Live Tables, Spark, Power BI, Kafka, Data Pipelines]
-    other: []
-    ops: [MLflow, CI/CD, MLOps]
-    web: []
+    cloud: [Azure, Azure ML, Azure OpenAI, Azure Cognitive Services, Microsoft Fabric,
+      Synapse Analytics]
+    languages: [SQL]
+    ml: [Machine Learning, Unsupervised Learning, Anomaly Detection]
+    other: [Power BI, Agile]
+    ops: [MLflow, MLOps, CI/CD, Model Deployment, Model Monitoring, Observability]
     databases: [SQL Server, Snowflake]
-  is_customer_facing: true
+    domains: []
+    web: []
+    data: [Databricks, Delta Live Tables, Spark, Data Pipelines, Data Engineering,
+      Kafka, Azure Event Hubs]
+    genai: []
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8793427'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T16:00:03.997239'
+  extracted_at: '2026-08-16T04:37:04.674946'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

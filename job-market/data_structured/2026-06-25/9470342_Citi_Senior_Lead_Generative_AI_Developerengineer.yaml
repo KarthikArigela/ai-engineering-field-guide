@@ -1,51 +1,54 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global banking and financial services
+  stage: null
+  focus: Global banking and financial services company
 position:
   title: Senior/ Lead Generative AI Developer/engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly developing, fine-tuning, and
-      optimizing LLMs using techniques like LoRA, QLoRA, and
-      parameter-efficient methods, as well as implementing RAG and
-      prompt engineering. The engineer is hands-on with building
-      and deploying generative AI solutions, making this clearly
-      an ai-first position.
+      The role directly shapes LLM behaviour through fine-tuning
+      (LoRA, QLoRA, instruction tuning, full fine-tuning), prompt
+      engineering, and RAG design, and optimizes model internals
+      via quantization and compression. Since LLM/generative
+      components are central to the responsibilities, this is ai-
+      first.
   responsibilities:
-  - Design and implement generative AI solutions addressing business challenges across
-    the enterprise Controls Technology platform
-  - Develop, fine-tune, and optimize large language models using parameter-efficient
-    techniques and full fine-tuning
-  - Implement advanced generative AI methods including prompt engineering and Retrieval-Augmented
-    Generation (RAG)
-  - Integrate AI models into production environments ensuring robust deployment, scalability,
-    and maintainability
-  - Develop and optimize real-time and streaming AI solutions
+  - Collaborate with AI architects, leads, and stakeholders to design and implement
+    generative AI solutions addressing business challenges
+  - Develop, fine-tune, and optimize LLMs using parameter-efficient and full fine-tuning
+    techniques
+  - Implement and experiment with advanced generative AI methods including prompt
+    engineering and Retrieval-Augmented Generation (RAG)
+  - Support integration of AI models into production environments with robust deployment,
+    scalability, and maintainability
+  - Contribute to development and optimization of real-time and streaming AI solutions
   - Ensure adherence to ethical AI guidelines, data privacy, and compliance standards
-  - Mentor junior team members, conduct code reviews, and foster technical excellence
+  - Mentor junior team members, provide code reviews, and stay current with generative
+    AI advances
   use_cases:
-  - Enterprise automation and operational efficiency enhancement
-  - Risk and controls technology powered by generative AI
-  - Real-time and streaming AI solutions for enterprise operations
-  - RAG-based knowledge retrieval and question answering
-  - LLM fine-tuning for domain-specific financial applications
+  - Automation and operational efficiency across an enterprise Controls Technology
+    platform
+  - LLM-based generative AI solutions for enterprise business challenges
+  - Real-time and streaming AI applications
+  - Production deployment of fine-tuned and optimized AI models
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Model Compression, Quantization, GPTQ]
     cloud: []
-    genai: [Fine-Tuning, LoRA, Adapter Tuning, Prefix Tuning, Instruction Tuning,
-      Prompt Engineering, RAG, LLMs]
-    data: []
+    languages: []
+    ml: [Quantization, DeepSpeed, GPTQ]
     other: []
-    ops: [DeepSpeed, vLLM]
-    web: []
+    ops: [vLLM]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Generative AI, Fine-Tuning, LoRA, Instruction Tuning, Adapter Tuning,
+      Prefix Tuning, Prompt Engineering, RAG]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9470342'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:41:28.298525'
+  extracted_at: '2026-08-16T12:44:15.025790'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

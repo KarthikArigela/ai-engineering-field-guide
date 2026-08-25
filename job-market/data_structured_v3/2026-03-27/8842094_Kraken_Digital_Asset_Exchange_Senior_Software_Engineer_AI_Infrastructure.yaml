@@ -1,0 +1,58 @@
+company:
+  name: Kraken Digital Asset Exchange
+  stage: null
+  focus: Cryptocurrency exchange and digital asset trading platform
+position:
+  title: Senior Software Engineer – AI Infrastructure
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates the serving, inference, and
+      orchestration infrastructure for AI agents whose behaviour
+      is designed by a separate Agent Systems team. The
+      deliverables are reliability, latency, throughput, and cost
+      (capacity), with no prompting, retrieval design, training,
+      or output-quality evaluation work; the guardrails,
+      observability, and failure handling mentioned are system
+      reliability concerns for agent workflows, not shaping of
+      model output quality. Per the serving/scaling edge case,
+      this is ai-support.
+  responsibilities:
+  - Design and build the infrastructure layer powering AI agent systems in production
+  - Develop high-performance Rust services that handle model inference, orchestration,
+    and execution
+  - Architect scalable systems supporting millions of users and high request throughput
+  - Build ML infrastructure and MLOps patterns for model deployment, evaluation, and
+    monitoring
+  - Define guardrails, observability, and failure handling for agent-driven workflows
+  - Optimize latency, throughput, and cost across inference and orchestration layers
+  - Partner with the Agent Systems team to translate experimental prototypes into
+    hardened production systems
+  - Contribute to foundational infrastructure decisions in a high-scale, high-impact
+    environment
+  use_cases:
+  - Production AI agent platform serving millions of users
+  - Model inference, orchestration, and execution layers for agent systems
+  - Agent-driven workflows safely operating across internal Kraken systems
+  - Reliable, low-latency execution of agent workflows under high throughput
+  skills:
+    genai: [AI Agents, LLMs]
+    ml: [Model Evaluation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Distributed Systems, Observability, Monitoring, MLOps, Model Deployment,
+      Model Serving, Container Orchestration]
+    languages: [Rust]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8842094'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T04:58:41.420745'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

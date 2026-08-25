@@ -1,56 +1,56 @@
 company:
   name: WEX Inc.
-  stage: Public
-  focus: |-
-    Fintech company providing payment processing and financial
-    services
+  stage: null
+  focus: Payments and financial technology services
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on development and deployment of
-      AI/ML systems, including LLMs, RAG architectures, and model
-      fine-tuning. The responsibilities explicitly include
-      building and deploying AI/ML platforms, advanced model
-      development with LLMs, and taking AI solutions from concept
-      to production.
+      The role leads development, evaluation, fine-tuning, and
+      monitoring of production AI/ML models explicitly including
+      LLMs and RAG architectures, and requires deep experience
+      with prompting strategies, fine-tuning, and agentic
+      workflows. This is direct shaping of LLM behavior and output
+      quality, so it is ai-first.
   responsibilities:
-  - Partner with stakeholders to translate complex customer challenges into robust
-    technical designs and AI strategies
-  - Architect, build, and deploy high-performance AI/ML platforms and tools, ensuring
-    scalability, reliability, and security
-  - Lead the development, evaluation, fine-tuning, and monitoring of production-grade
+  - Partner with stakeholders and product leadership to translate complex customer
+    challenges into robust technical designs and AI strategies
+  - Architect, build, and deploy high-performance AI/ML platforms and tools with scalability,
+    reliability, and security
+  - Lead development, evaluation, fine-tuning, and monitoring of production-grade
     AI/ML models including LLMs and RAG architectures
   - Design and standardize CI/CD pipelines (GitHub Actions) and Infrastructure as
-    Code (Terraform) to ensure reproducible and automated deployments
-  - Proactively monitor system health, lead incident response for critical AI systems,
-    and drive architectural refactoring to remove bottlenecks
-  - Mentor L1/L2 engineers, conduct code reviews, and foster a culture of engineering
-    excellence and best practices
-  - Evaluate emerging AI technologies/vendors and prototype new approaches to keep
-    the organization at the cutting edge of the industry
+    Code (Terraform) for reproducible automated deployments
+  - Monitor system health, lead incident response for critical AI systems, and drive
+    architectural refactoring to remove bottlenecks
+  - Mentor L1/L2 engineers and conduct code reviews to foster engineering excellence
+  - Evaluate emerging AI technologies and vendors and prototype new approaches
   use_cases:
-  - Payment processing and financial services optimization
-  - Decision-making enhancement for financial products
-  - Customer-facing AI-powered products and tools
-  - Enterprise AI platform development for fintech applications
+  - AI platforms that enhance decision-making for customers
+  - Production-grade LLM and RAG systems embedded in core fintech products
+  - Scalable model serving for AI/ML solutions at high scale
+  - AI-driven tools that help customers grow their business
   skills:
-    domains: []
-    languages: [Python, Java, Go, C#]
-    ml: [PyTorch, TensorFlow, scikit-learn, LLM fine-tuning]
     cloud: [AWS]
-    genai: [LangChain, LlamaIndex, vLLM, RAG, Prompt Engineering, Agentic Workflows]
-    data: [Data Pipelines]
-    other: [Distributed Systems, Microservices]
-    ops: [Kubernetes, Terraform, GitHub Actions, CI/CD, MLOps, feature stores, Model
-        Monitoring]
-    web: []
-    databases: [SQL, NoSQL, data lakes]
+    languages: [Python, Java, Go, C#]
+    ml: [Machine Learning, PyTorch, TensorFlow, scikit-learn, Model Evaluation]
+    other: []
+    ops: [MLOps, Feature Stores, Model Monitoring, vLLM, Kubernetes, CI/CD, GitHub
+        Actions, Terraform, Infrastructure as Code, Model Deployment, Distributed
+        Systems]
+    databases: [SQL, NoSQL]
+    domains: []
+    web: [Microservices]
+    data: [Data Lakes, Data Pipelines]
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, Fine-Tuning, Agentic Workflows,
+      LangChain, LlamaIndex]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8794896'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:09:07.896884'
+  extracted_at: '2026-08-16T04:36:57.618477'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,55 @@
 company:
   name: Zensar Technologies
-  stage: Public
-  focus: IT services and digital solutions provider
+  stage: null
+  focus: IT services and technology consulting
 position:
   title: Senior Full Stack Developer - AI
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is primarily a full-stack web developer role that
-      requires some AI-related skills (prompt engineering, Gen AI
-      tools) as supplementary competencies. The core
-      responsibilities are building web applications, APIs, and
-      managing databases using Python, FastAPI, React, and AWS. AI
-      tools like GitHub Co-pilot and Cursor are mentioned for
-      enhancing development efficiency, not for building or
-      deploying AI/ML models.
+      The role explicitly requires hands-on prompt engineering
+      (system prompts and user prompts) to integrate AI features
+      into applications, which is shaping LLM behavior, so Step 1
+      passes. The shaped components are LLM/generative (GenAI
+      tools, agentic development workflows), making it ai-first
+      under Step 2. While much of the job is standard full-stack
+      development and using Copilot/Cursor alone would be ai-
+      support, the explicit prompt-engineering responsibility for
+      application AI features tips it to ai-first.
   responsibilities:
-  - Design, build, and maintain efficient server-side applications using Python and
-    FastAPI
+  - Design, build, and maintain efficient, reusable, and reliable server-side code
+    using Python and FastAPI
   - Develop high-performance APIs with FastAPI, integrating with AWS cloud services
     such as SQS and Lambda
-  - Build engaging and responsive user interfaces using React JS and Angular JS
+  - Build engaging and responsive user interfaces using React and Angular
   - Manage and optimize data storage solutions using MongoDB
-  - Utilize prompt engineering and AI-driven development tools like GitHub Co-pilot
-    and Cursor to enhance development efficiency and integrate AI features
-  - Apply DevOps practices including CI/CD pipelines for deployment
-  - Troubleshoot existing scripts, perform bug fixes, and conduct application performance
-    tuning
-  - Collaborate with cross-functional teams in Agile and Scrum environment using Jira
-    and Git
+  - Apply prompt engineering (system and user prompts) and AI-driven development tools
+    like GitHub Copilot and Cursor to integrate AI features into applications and
+    enhance development efficiency
+  - Apply DevOps practices including CI/CD pipelines across the web development and
+    deployment process
+  - Troubleshoot existing scripts, perform point bug fixes, and tune application performance
+    and resource usage
+  - Collaborate with cross-functional teams in an Agile and Scrum environment using
+    Jira and Git for project and task tracking
   use_cases:
-  - AI-assisted software development using Co-pilot and Cursor
-  - Prompt engineering for system and user prompts in applications
-  - Integration of GenAI tools and agentic workflows into web applications
-  - Full-stack web application development with AI-enhanced features
+  - AI-assisted full-stack application development using coding assistants like GitHub
+    Copilot and Cursor
+  - Integration of AI features into web applications via prompt engineering
+  - Agentic GenAI development workflows
+  - High-performance API services and responsive user interfaces backed by AWS cloud
+    services
   skills:
-    domains: []
+    cloud: [AWS, AWS SQS, AWS Lambda]
     languages: [Python]
     ml: []
-    cloud: [AWS, AWS SQS, AWS Lambda]
-    genai: [Prompt Engineering, GitHub Co-pilot, Cursor, Gen AI tools, Agentic development
-        workflows]
-    data: [Kafka]
-    other: [Agile, Security domain knowledge]
-    ops: [CI/CD, DevOps, Git, Jira]
-    web: [FastAPI, Django, Flask, REST APIs, React, Angular JS]
+    other: [Agile, Jira, Security]
+    ops: [DevOps, CI/CD, Git]
     databases: [MongoDB]
+    domains: []
+    web: [Django, Flask, FastAPI, REST APIs, React, Angular]
+    data: [Kafka]
+    genai: [Prompt Engineering, GitHub Copilot, Cursor, Generative AI, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +59,6 @@ meta:
   - IND
   - Pune, IND
   remote: true
-  extracted_at: '2026-04-22T13:26:29.994109'
+  extracted_at: '2026-08-16T06:59:30.829811'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

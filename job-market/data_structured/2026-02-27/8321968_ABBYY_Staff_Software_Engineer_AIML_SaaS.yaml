@@ -1,20 +1,22 @@
 company:
   name: ABBYY
-  stage: Public
+  stage: null
   focus: |-
-    AI-powered document processing and intelligent automation
-    platform
+    Purpose-built AI and intelligent automation for document
+    processing
 position:
   title: Staff Software Engineer (AI/ML/ SaaS)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is an AI/ML platform engineering position focused
-      on building infrastructure and platforms that enable ML
-      workflows. The engineer builds deployment pipelines,
-      Kubernetes platforms, and MLOps workflows to support ML
-      researchers, but does not directly build, train, or fine-
-      tune models themselves.
+      The role owns AI platform infrastructure - Kubernetes,
+      CI/CD, model deployment, and ML lifecycle automation - not
+      model behaviour: model quality is owned by the ML
+      researchers this person collaborates with. Data pipelines,
+      dataset versioning, and auto-labeling workflows feed other
+      people's training runs, which is plumbing, and
+      serving/hosting models the person does not shape is ai-
+      support even though the platform is AI-focused.
   responsibilities:
   - Design and build scalable AI platform services using Python and microservice architectures
   - Own DevOps and MLOps workflows including CI/CD, model deployment, versioning,
@@ -22,32 +24,33 @@ position:
   - Build and maintain Kubernetes-based platforms for AI workloads
   - Work on data pipelines, dataset versioning, and auto-labeling workflows for model
     training
-  - 'Enable end-to-end ML lifecycle: data ingestion, training, evaluation, deployment,
+  - 'Enable the end-to-end ML lifecycle: data ingestion, training, evaluation, deployment,
     and monitoring'
   - Collaborate closely with ML researchers, product teams, and other platform engineers
   - Drive best practices in software design, reliability, security, and observability
   - Lead technical discussions, review designs, and mentor team members
   use_cases:
-  - Document processing and capture automation
-  - Enterprise information transformation
-  - Intelligent document processing (IDP) platform
-  - AI-powered workflow automation
-  - Natural Language Processing for documents
-  - Computer Vision for document understanding
+  - Intelligent document processing and data capture for enterprise customers
+  - Scalable AI platform services hosting AI workloads on Kubernetes in production
+  - Auto-labeling and dataset versioning workflows feeding model training runs
+  - End-to-end ML lifecycle automation from data ingestion to deployment and monitoring
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: [Azure]
-    genai: []
-    data: [Data Pipelines]
-    other: [Distributed Systems]
-    ops: [Kubernetes, MLOps, DevOps, CI/CD, Model Deployment, Observability]
-    web: [Microservices]
+    languages: [Python]
+    ml: [Machine Learning, Auto-Labeling, Weak Supervision, Human-in-the-Loop]
+    other: []
+    ops: [Distributed Systems, Kubernetes, DevOps, MLOps, CI/CD, Model Deployment,
+      Inference Optimization, Observability, Model Monitoring]
     databases: []
+    domains: []
+    web: [Microservices]
+    data: [Data Pipelines, Dataset Versioning]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8321968'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:37:59.929224'
+  extracted_at: '2026-08-16T00:51:19.097382'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,58 @@
 company:
   name: AuxoAI
   stage: null
-  focus: AI-driven solutions for automation and testing
+  focus: AI-driven solutions across multiple business domains
 position:
   title: Sr. Data Scientist / AI/ML Engineer
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      The role involves hands-on building, deploying, and
-      implementing AI/ML models using TensorFlow, PyTorch, and AWS
-      SageMaker. The engineer directly works on developing AI
-      solutions for NLP, predictive modeling, test case
-      generation, and decision-making systems.
+      The role builds and applies classical ML/DL models
+      themselves (decision trees, neural networks, reinforcement
+      learning, clustering, NLP algorithms) using TensorFlow,
+      PyTorch, and SageMaker, which is shaping model behaviour. No
+      LLM, prompt, retrieval, or agent component is mentioned
+      anywhere - the BRD-to-test-case automation is framed as NLP
+      algorithm work - so Step 2 yields ml-first.
   responsibilities:
-  - Lead the development of AI/ML models and solutions tailored to business needs
-    across multiple domains
-  - Apply well-known algorithms including decision trees, neural networks, reinforcement
-    learning, clustering, and NLP techniques to various business problems
-  - Develop solutions that analyze Business Requirement Documents and generate detailed
-    test scenarios including edge cases and negative testing
-  - Extract functional and non-functional requirements from BRDs and apply insights
-    to AI solutions and testing processes
+  - Lead development of AI/ML models and solutions tailored to business needs across
+    multiple domains
+  - Develop AI solutions that analyze Business Requirement Documents and generate
+    test scenarios, test cases, edge cases, and negative testing
+  - Apply well-known algorithms such as decision trees, neural networks, reinforcement
+    learning, clustering, and NLP techniques to business problems
+  - Collaborate on AI projects across verticals including predictive analytics, optimization,
+    fraud detection, and personalized recommendations
   - Design and implement comprehensive testing strategies including automated testing
     solutions
-  - Develop and deploy AI solutions across multiple cloud platforms AWS, GCP, and
-    Azure
-  - Research and implement cutting-edge AI technologies and techniques to enhance
-    organizational AI capabilities
-  - Mentor junior engineers, lead AI development teams, and ensure best practices
-    are followed
+  - Develop and deploy AI solutions across AWS, GCP, and Azure cloud platforms
+  - Research and implement cutting-edge AI technologies to enhance organizational
+    AI capabilities
+  - Mentor junior engineers and lead AI development teams to ensure best practices
   use_cases:
   - Automated test case generation from Business Requirement Documents
-  - NLP-based analysis for test scenario creation and edge case detection
-  - Predictive analytics and decision-making systems across business domains
-  - Fraud detection and personalized recommendations
-  - Test automation and optimization workflows
+  - Predictive analytics and predictive modelling
+  - Fraud detection
+  - Personalized recommendations
+  - Optimization and decision-making systems
+  - Requirement extraction from BRDs for AI solutions and testing
   skills:
-    domains: []
+    cloud: [AWS, SageMaker, AWS Lambda, AWS S3, GCP, Azure]
     languages: []
-    ml: [TensorFlow, PyTorch, Supervised Learning, Unsupervised Learning, Deep Learning,
-      NLP, Reinforcement Learning]
-    cloud: [SageMaker, AWS, AWS Lambda, AWS S3, GCP, Azure]
-    genai: []
-    data: [Data Pipelines]
-    other: [Selenium, TestNG]
-    ops: [Jenkins, Docker, Kubernetes, CI/CD]
-    web: []
+    ml: [TensorFlow, PyTorch, Neural Networks, Reinforcement Learning, NLP, Deep Learning,
+      Machine Learning, Decision Trees, Clustering]
+    other: [Selenium, TestNG, Test Automation]
+    ops: [CI/CD, Jenkins, Docker, Kubernetes]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: []
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9375649'
   location: Bengaluru South, IND
-  extracted_at: '2026-05-29T09:03:40.998918'
+  extracted_at: '2026-08-16T10:39:09.644169'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

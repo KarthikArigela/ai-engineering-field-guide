@@ -1,0 +1,65 @@
+company:
+  name: Clear Street
+  stage: null
+  focus: |-
+    Financial services firm modernizing brokerage and clearing
+    infrastructure
+position:
+  title: Senior / Staff AI Model Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it builds evals,
+      benchmarks, guardrail-style tool/action contracts, and
+      quality gates for an AI copilot, and runs improvement loops
+      including prompt/tooling changes, fine-tuning, and
+      preference optimization (Step 1 yes). The system being
+      shaped is an LLM copilot with tool-use/agent workflows, so
+      Step 2 yields ai-first.
+  responsibilities:
+  - Own the reliability and quality bar for an AI copilot embedded in a trading platform
+    used by sophisticated investors
+  - Design and build evaluation systems measuring correctness, safety, latency, and
+    regression risk across market analysis, portfolio/risk reasoning, and trading
+    workflows including order placement
+  - 'Develop and maintain benchmarks: curated golden sets, scenario suites, stress/adversarial
+    cases, and market/regime-based test corpora'
+  - Build automated quality gates and regression workflows that block releases when
+    key metrics degrade
+  - Partner with engineering and product to define safe tool/action contracts with
+    deterministic previews, confirmations, and auditability
+  - 'Own model improvement loops tied to evals: data collection/labeling strategies,
+    error taxonomy, prompt/tooling changes, and fine-tuning or preference optimization'
+  - 'Design and operate AI monitoring and incident response: telemetry, alerting,
+    RCA, and fix-forward processes'
+  - Develop deep understanding of trading concepts (margin, shorting, portfolio margin,
+    risk, execution) to express them accurately to users
+  use_cases:
+  - AI copilot embedded in a trading platform serving sophisticated active and institutional
+    traders
+  - Market analysis assistance for traders
+  - Portfolio and risk reasoning support
+  - Trading workflow assistance including safe order placement
+  - Evaluation, benchmarking, and monitoring of AI copilot correctness, safety, and
+    latency in a high-stakes financial context
+  skills:
+    genai: [LLMs, AI Agents, LLM Evaluation, Prompt Engineering, Function Calling,
+      Fine-Tuning, Preference Optimization]
+    ml: [Distillation, Model Training]
+    web: [React, React Native]
+    databases: [PostgreSQL]
+    data: []
+    cloud: []
+    ops: [Observability, Model Monitoring, Incident Response, Model Serving]
+    languages: [Rust, TypeScript]
+    domains: [Trading]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10123514'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T17:08:57.147803'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

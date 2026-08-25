@@ -2,55 +2,57 @@ company:
   name: AuxoAI
   stage: null
   focus: |-
-    AI-driven products, intelligent automation, and data-powered
+    AI solutions, intelligent automation, and data-powered
     operations
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on development of GenAI/LLM
-      solutions including RAG, fine-tuning, prompt engineering,
-      and agentic AI systems using LangGraph, AutoGen, and CrewAI.
-      The engineer is responsible for deploying AI/ML technology
-      stacks from concept to production and working directly with
-      LLMs (Claude, Llama, Mistral, GPT), which is core AI
-      engineering work rather than support infrastructure.
+      The role directly shapes LLM behavior through prompt
+      engineering, fine-tuning, RAG pipelines, and agentic
+      orchestration frameworks (AutoGen, LangGraph, CrewAI),
+      building LLM-based applications from concept to production.
+      This is squarely LLM work, making it ai-first.
   responsibilities:
   - Design, develop, and deploy AI/ML technology stacks from concept to production
-  - Provide technical leadership and mentorship to junior engineers
   - Develop and optimize Generative AI workflows including prompt engineering, fine-tuning,
-    RAG and LLM-based applications
-  - Work with Large Language Models such as Claude, Llama, Mistral, and GPT for various
+    RAG, and LLM-based applications
+  - Adapt large language models such as Claude, Llama, Mistral, and GPT for various
     use cases
   - Design and implement AI-driven automation using agentic AI systems and orchestration
-    frameworks
-  - Leverage cloud AI infrastructure for scalable deployment and performance tuning
-  - Lead customer discussions, customer engagement and success stories
-  - Collaborate with stakeholders to gather requirements and translate into technical
-    specifications
+    frameworks like AutoGen, LangGraph, and CrewAI
+  - Leverage cloud AI infrastructure (AWS, Azure, GCP) for scalable deployment and
+    performance tuning
+  - Provide technical leadership and mentorship to junior engineers on best practices
+    and advanced techniques
+  - Front customer discussions, customer engagement, and success stories
+  - Collaborate with stakeholders to gather requirements and translate them into technical
+    specifications, with an eye on AI governance
   use_cases:
-  - Generative AI and LLM-based applications for business solutions
-  - AI-driven automation with agentic AI systems
-  - Enterprise AI deployment using cloud AI services
-  - Prompt engineering and fine-tuning workflows for various use cases
-  - RAG-based knowledge retrieval systems
-  - AI governance and strategic implementation across projects
+  - Generative AI applications with prompt engineering, fine-tuning, and RAG
+  - Agentic AI-driven automation and workflow orchestration
+  - LLM adaptation across diverse enterprise use cases
+  - Scalable AI deployment and performance tuning on cloud platforms
+  - Data-powered operations and AI governance across projects
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Bedrock, Azure OpenAI]
     languages: [Python]
-    ml: [PyTorch, TensorFlow]
-    cloud: [AWS Bedrock, Azure OpenAI Studio, AWS, Azure, GCP]
-    genai: [LangGraph, AutoGen, CrewAI, Prompt Engineering, Fine-Tuning, RAG, LLMs,
-      Agentic AI Systems]
-    data: []
-    other: []
+    ml: [PyTorch, TensorFlow, Machine Learning]
+    other: [Agile, Responsible AI]
     ops: [Docker, Kubernetes, Git]
-    web: [Flask, Django, APIs]
     databases: []
+    domains: []
+    web: [Flask, Django, APIs]
+    data: []
+    genai: [Prompt Engineering, RAG, Fine-Tuning, LLMs, Generative AI, AI Agents,
+      Agentic Workflows, AutoGen, LangGraph, CrewAI, Anthropic API, Llama, Mistral,
+      GPT]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9375605'
   location: Bengaluru South, IND
-  extracted_at: '2026-05-29T09:03:25.719749'
+  extracted_at: '2026-08-16T10:38:53.089419'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

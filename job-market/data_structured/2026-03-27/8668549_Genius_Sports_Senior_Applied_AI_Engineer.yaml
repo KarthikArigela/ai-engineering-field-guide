@@ -1,55 +1,58 @@
 company:
   name: Genius Sports
   stage: null
-  focus: |-
-    Sports technology and data solutions for fans, broadcasts,
-    and live sports experiences
+  focus: Sports technology and live data experiences
 position:
   title: Senior Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and implementing production-
-      grade multimodal AI agents, LLM integration, and agentic
-      systems (sensor agents, specialist agents, decision logic).
-      The position requires hands-on work with AI models including
-      fine-tuning, prompt engineering, and building AI-powered
-      products like Audio Intelligence and automated tagging
-      systems.
+      The role directly shapes model behaviour: it designs agentic
+      components (sensor/specialist agents, decision logic),
+      writes prompt-as-code with schema validation and
+      deterministic post-processing, and builds evals and
+      regression checks for prompts and model routing. All of this
+      involves LLM and multimodal generative components, so it is
+      ai-first.
   responsibilities:
-  - Build and maintain multimodal agents processing audio/video/text streams
-  - Implement streaming-friendly pipelines with chunking, normalization, time-sync,
-    and async execution
-  - Develop prompt-as-code with JSON contracts, schema validation, and deterministic
-    post-processing
+  - Build and maintain multimodal (audio/video/text) agents that convert broadcast
+    and radio feeds into structured, real-time signals and event candidates
+  - Implement streaming-friendly pipelines including chunking, normalization, time-sync,
+    async execution, and robust retry/backoff for model and tool calls
+  - Develop prompt-as-code with strict JSON contracts, schema validation, and deterministic
+    post-processing to reduce brittleness
   - Improve system robustness under noisy inputs
-  - Partner with product and domain leads to translate sport rules into validation
-    logic
-  - Contribute to evaluation workflow with test cases and regression checks for prompts
-    and model routing
-  - Stay current with emerging GenAI technologies and best practices
-  - Mentor team members in data engineering principles
+  - Partner with product, platform, and domain leads to translate sport rules and
+    edge cases into validation logic and integrate outputs into downstream consumers
+    (tagging, live feeds, analytics)
+  - Contribute to the evaluation workflow by adding test cases, failure mode categories,
+    and regression checks for prompts and model routing
+  - Mentor and support other team members in data engineering principles and practices
+  - Stay up-to-date with emerging Gen AI technologies, tools, and best practices
   use_cases:
-  - Converting broadcast and radio feeds into structured real-time signals
-  - Audio Intelligence for sports content analysis
+  - Audio Intelligence product for sports broadcasts
   - Semi-automated broadcast-to-data tagging
-  - Highlight and momentum signal generation for sports events
-  - Real-time event candidate detection from multimodal sources
+  - Highlight and momentum signal generation
+  - Converting broadcast and radio feeds into structured real-time sports signals
+    and event candidates
+  - Live sports data feeds and downstream analytics
   skills:
-    domains: []
-    languages: [Python, Java, Rust]
-    ml: [Audio ML, Speech Recognition, Acoustic Event Detection]
     cloud: [AWS Bedrock, Vertex AI]
-    genai: [LLMs, Multimodal AI, Prompt Engineering, RAG, AI Agents, Gemini, ChatGPT,
-      Anthropic API]
-    data: [Kafka, Pulsar, Flink]
-    other: []
-    ops: [Git, Evaluation/Monitoring]
-    web: []
+    languages: [Python, Java, Rust]
+    ml: [Audio ML]
+    other: [Media Pipelines, Agile]
+    ops: [Git, Observability, Model Monitoring]
     databases: []
+    domains: []
+    web: []
+    data: [Kafka, Pulsar, Flink]
+    genai: [LLMs, Gemini, ChatGPT, Anthropic API, RAG, Prompt Engineering, AI Agents,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8668549'
   location: Los Angeles, USA
-  extracted_at: '2026-03-27T15:49:09.968283'
+  extracted_at: '2026-08-16T03:39:45.445196'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

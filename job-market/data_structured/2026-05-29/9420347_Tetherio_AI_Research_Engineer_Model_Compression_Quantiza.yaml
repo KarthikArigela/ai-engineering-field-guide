@@ -1,51 +1,61 @@
 company:
   name: Tether.io
-  stage: Public
-  focus: Stablecoin issuer and digital finance company
+  stage: null
+  focus: Stablecoin issuer and blockchain digital finance company
 position:
   title: AI Research Engineer (Model Compression & Quantization) - 100% Remote Worldwide
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on focused on optimizing AI model
-      serving, compression, quantization, and inference. The
-      engineer works directly on advanced AI architectures
-      (Diffusion Models, Vision Transformers) and implements low-
-      level GPU kernel optimizations for inference acceleration.
-      This qualifies as ai-first as the core work involves
-      building, optimizing, and deploying ML models and inference
-      systems.
+      The role shapes model internals directly: writing custom
+      Metal/compute shaders and GPU kernels from scratch, and
+      applying quantization, pruning, and inference techniques
+      like Flash Attention, KV Cache, and speculative decoding.
+      These targets include LLM components (token response, KV
+      cache, speculative decoding) alongside multi-modal/diffusion
+      models, and a role shaping both LLM and classical systems is
+      ai-first.
   responsibilities:
   - Design and deploy state-of-the-art model serving architectures that deliver high
-    throughput and low latency while optimizing memory usage
-  - Build, run, and monitor controlled inference tests in both simulated and live
-    production environments, tracking key performance indicators
+    throughput and low latency while optimizing memory usage across diverse environments,
+    including resource-constrained devices and edge platforms
+  - Build, run, and monitor controlled inference tests in simulated and live production
+    environments, tracking KPIs such as response latency, throughput, memory consumption,
+    and error rates
   - Identify and prepare high-quality test datasets and simulation scenarios tailored
     to real-world deployment challenges on low-resource devices
-  - Analyze computational efficiency and diagnose bottlenecks in the serving pipeline
-    by monitoring processing and memory metrics
-  - Work closely with cross-functional teams to integrate optimized serving and inference
+  - Analyze computational efficiency and diagnose bottlenecks in the serving pipeline,
+    including suboptimal batch processing, network delays, and high memory usage
+  - Write custom compute shaders in Metal Shading Language and perform low-level kernel
+    optimizations for on-device inference on mobile hardware
+  - Apply model compression and inference techniques such as quantization, pruning,
+    Flash Attention, KV Cache, and speculative decoding to minimize latency and memory
+    footprint
+  - Design distributed inference engines using tensor, pipeline, and expert parallelism
+    to handle massive models on GPU clusters
+  - Collaborate with cross-functional teams to integrate optimized serving and inference
     frameworks into production pipelines for edge and on-device applications
   use_cases:
-  - High-throughput, low-latency model inference for production AI systems
-  - On-device and edge AI deployment for resource-constrained environments
-  - Multi-modal AI systems integrating text, images, and audio
-  - Distributed inference systems using tensor, pipeline, and expert parallelism
-  - Model compression and quantization for efficient deployment
+  - Low-latency, high-throughput AI inference on resource-constrained and edge devices
+  - On-device AI on smartphones powered by custom GPU kernels
+  - Efficient serving of multi-modal models integrating text, images, and audio
+  - Distributed inference of massive models across GPU clusters
+  - Model compression and memory-optimized deployment for real-world production applications
   skills:
-    domains: [Diffusion Models, Vision Transformers]
-    languages: []
-    ml: [Model Compression, Quantization, GPU Kernel Programming, Pruning]
     cloud: []
-    genai: []
-    data: []
+    languages: []
+    ml: [Quantization, Pruning, Model Compression, Flash Attention, KV Cache, Speculative
+        Decoding, Metal Shading Language, GPU Kernels, Vision Transformers, Multimodal
+        Models, Machine Learning]
     other: []
-    ops: [Metal Shading Language, Mobile Inference Optimization, Model Deployment,
-      Tensor Parallelism, Pipeline Parallelism, Expert Parallelism, Flash Attention,
-      KV Cache, Speculative Decoding, Inference Optimization, Mobile Devices, Low-level
-        Kernel Optimization, Edge Computing, Distributed Inference]
-    web: []
+    ops: [Model Deployment, Inference Optimization, Distributed Inference, Tensor
+        Parallelism, Pipeline Parallelism, Expert Parallelism, Memory Management,
+      Edge Deployment]
     databases: []
+    domains: [Diffusion Models, NLP]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -87,4 +97,6 @@ meta:
   - Beograd, SRB
   - ARG
   remote: true
-  extracted_at: '2026-05-29T09:05:18.526415'
+  extracted_at: '2026-08-16T11:10:45.593702'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

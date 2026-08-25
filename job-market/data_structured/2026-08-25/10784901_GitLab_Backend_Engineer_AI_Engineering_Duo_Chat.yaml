@@ -1,0 +1,53 @@
+company:
+  name: GitLab
+  stage: null
+  focus: DevSecOps platform with AI-powered coding assistant
+position:
+  title: 'Backend Engineer, AI Engineering: Duo Chat'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds GitLab Duo Chat's agentic runtime: designing
+      and extending LangGraph agent flows, prompting,
+      tool/function calling, and evaluating non-deterministic LLM
+      systems. This is directly shaping LLM/agent behavior, so ai-
+      first.
+  responsibilities:
+  - Develop secure, well-tested, performant features for GitLab Duo Chat
+  - Implement and extend agentic flows in Python using LangGraph, registered through
+    the Flow Registry and served by the Duo Workflow Service
+  - Integrate Chat capabilities with the GitLab Rails monolith, including its GraphQL
+    API
+  - Write maintainable code meeting internal standards for a high-scale environment,
+    with tests in every merge request
+  - Review code per Code Review Guidelines and respond to community contributions
+  - Identify technical debt and implement efficiency improvements
+  - Collaborate with Product Management, UX, and Frontend teams on quality, security,
+    and performance
+  - Participate in on-call rotations for product, security, and urgent engineering
+    issues
+  use_cases:
+  - Conversational AI chat experience embedded across the GitLab platform
+  - Agentic AI runtime powering GitLab Duo Chat workflows
+  - Integration of generative AI capabilities into the DevSecOps platform
+  skills:
+    genai: [LangGraph, LangChain, LLMs, Prompt Engineering, Function Calling, LLM
+        Evaluation, Agentic Workflows]
+    ml: []
+    web: [GraphQL, Ruby on Rails, APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Python]
+    domains: []
+    other: [RSpec, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10784901'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:50:36.167171'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

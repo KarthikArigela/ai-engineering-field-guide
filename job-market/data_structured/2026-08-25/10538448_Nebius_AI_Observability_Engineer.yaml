@@ -1,0 +1,51 @@
+company:
+  name: Nebius
+  stage: null
+  focus: |-
+    Full-stack AI cloud infrastructure platform for training and
+    inference
+position:
+  title: AI Observability Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role runs observability and monitoring infrastructure
+      (Langfuse, Grafana, Prometheus, Azure Monitor) for AI
+      workloads. It captures traces and telemetry of LLM/agent
+      systems but does not shape model behaviour, prompts,
+      retrieval, or evals itself, so it is ai-support.
+  responsibilities:
+  - Stand up and operate LLM and agent monitoring with Langfuse
+  - Capture traces, latency, token usage, cost, quality scores, prompt and model-version
+    analytics, and safety signals
+  - Build lightweight internal tooling and exporters in Python
+  - Design and maintain Grafana dashboards, Prometheus metrics, and the Azure observability
+    stack
+  - Instrument platform and AI workloads for health, usage, cost, and SLA reporting
+  - Own Terraform IaC and CI/CD for observability tooling
+  - Support incident investigation and root-cause analysis
+  use_cases:
+  - LLM and agent observability for an AI cloud platform
+  - Platform and infrastructure health, usage, cost, and SLA monitoring
+  - Incident investigation and root-cause analysis for AI workloads
+  - Self-service observability for the Azure AI platform
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure, Azure Monitor, Application Insights, AKS]
+    ops: [Langfuse, Grafana, Prometheus, Terraform, CI/CD, OpenTelemetry, PromQL,
+      Kubernetes, Observability, Monitoring]
+    languages: [Python]
+    domains: []
+    other: [Kusto Query Language]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10538448'
+  location: Amsterdam, NLD
+  extracted_at: '2026-08-25T10:37:10.602620'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

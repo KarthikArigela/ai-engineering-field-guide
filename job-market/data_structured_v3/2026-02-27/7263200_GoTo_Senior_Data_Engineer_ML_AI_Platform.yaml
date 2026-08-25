@@ -1,0 +1,63 @@
+company:
+  name: GoTo
+  stage: null
+  focus: Remote work and business communication technology
+position:
+  title: Senior Data Engineer – ML / AI Platform
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role owns end-to-end ML development: building, training,
+      deploying, monitoring, and retraining models
+      (recommendations, churn/retention, anomaly detection) for
+      production SaaS, which is shaping model behaviour through
+      training and lifecycle ownership. The use cases are all
+      classical ML with no LLM or agent component in core
+      responsibilities; LLMs appear only in nice-to-haves (AI-
+      assisted dev tools and interest in applying AI/LLMs), so it
+      is ml-first rather than ai-first.
+  responsibilities:
+  - Design, build, and optimize scalable batch and near-real-time data pipelines using
+    PySpark, SQL, Airflow, and Databricks/AWS services
+  - Develop and maintain conceptual, logical, and physical data models for structured
+    and semi-structured datasets using Delta Lake, Hive, and Lakehouse architectures
+  - Implement data quality, governance, observability, and security best practices
+    across pipelines and participate in architecture discussions on scalability, reliability,
+    and cost
+  - Design, build, and deploy ML/AI solutions end-to-end for real SaaS use cases such
+    as recommendations, churn/retention, usage intelligence, and anomaly detection
+  - Own ML productionization including feature pipelines, training/inference workflows,
+    model packaging, deployment, and monitoring
+  - Implement and maintain MLOps pipelines covering model versioning, retraining strategies,
+    performance tracking, and rollback mechanisms
+  - Partner with product, sales, and marketing teams to translate business problems
+    into deployable ML solutions
+  - Mentor junior engineers and guide teams on data platform and ML/AI engineering
+    best practices
+  use_cases:
+  - Recommendations for SaaS products
+  - Churn and retention prediction
+  - Usage intelligence
+  - Anomaly detection
+  - Workflow automation
+  skills:
+    genai: [LLMs, LLM-based Coding Assistants]
+    ml: [Machine Learning, Feature Engineering]
+    web: []
+    databases: [Hive]
+    data: [PySpark, Airflow, Databricks, Delta Lake, Lakehouse Architecture, Data
+        Modeling, Data Pipelines, ETL, Data Governance, Data Quality, Data Engineering,
+      Kafka, Kinesis, Spark Streaming, Unity Catalog]
+    cloud: [AWS, EMR, EKS, AWS S3]
+    ops: [MLOps, CI/CD, Model Deployment, Model Monitoring, Observability]
+    languages: [SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7263200'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-15T23:51:44.661681'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

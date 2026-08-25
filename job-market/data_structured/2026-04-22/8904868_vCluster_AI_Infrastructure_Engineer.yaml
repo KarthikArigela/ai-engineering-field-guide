@@ -1,55 +1,55 @@
 company:
   name: vCluster
-  stage: Venture-backed startup (raised $30M+, likely Series A)
+  stage: Venture-backed startup, raised $30M+ from VCs including Khosla Ventures
   focus: |-
-    Kubernetes virtualization platform for GPU infrastructure in
-    the AI era
+    Kubernetes virtualization and GPU infrastructure platform
+    for AI clouds
 position:
   title: AI Infrastructure Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on deploying and configuring GPU
-      infrastructure (bare metal, Kubernetes, networking, storage)
-      for AI cloud providers and AI factories. The engineer works
-      ON the infrastructure layer that supports AI workloads, not
-      directly on building, training, or deploying AI/ML models.
-      While GPU fluency and AI/ML familiarity are valued, the core
-      work is infrastructure operations and customer deployments —
-      enabling others to run AI workloads.
+      The role deploys, configures, and validates Kubernetes and
+      bare metal GPU node infrastructure for neocloud and AI
+      Factory customers; it never shapes model behavior through
+      prompts, retrieval, fine-tuning, or evals. Inference serving
+      and LLM deployment tooling appear only as bonus familiarity,
+      not core work. Per the serving/hosting edge case, the
+      deliverable is GPU capacity and platform operation, not
+      model behaviour.
   responsibilities:
-  - Lead end-to-end technical deployments for GPU neocloud and AI Factory customers
-    from bare metal to validated vCluster environments
-  - Configure and troubleshoot bare metal GPU node infrastructure including CNI, GPU
-    Operator, distributed storage, and RDMA/InfiniBand
-  - Deploy and validate Kubernetes and vCluster to deliver GPU-powered managed Kubernetes
-    services
-  - Conduct knowledge transfer with customer teams to build operational self-sufficiency
-  - Document reusable playbooks and deployment architectures for scalable customer
-    onboarding
-  - Collaborate with Engineering and Product teams to relay field insights into the
-    product roadmap
-  - Support pre-sales technical engagements requiring deep infrastructure expertise
-    for proof of value
+  - Lead end-to-end technical deployments for GPU neocloud and AI Factory customers,
+    from initial bare metal configuration to a validated vCluster environment
+  - Configure and troubleshoot bare metal GPU node infrastructure including CNI configuration,
+    GPU Operator setup, distributed storage backends, and RDMA/InfiniBand
+  - Deploy and validate Kubernetes and vCluster to provide GPU-powered managed Kubernetes
+  - Work alongside customer teams to transfer knowledge and build self-sufficiency
+    in operating the platform
+  - Document reusable playbooks and deployment architectures so learnings scale to
+    future customers
+  - Collaborate with Engineering and Product to surface recurring infrastructure challenges
+    into the roadmap
+  - Join Sales in pre-sales technical work to achieve meaningful proofs of value
   use_cases:
-  - GPU cloud provider managed Kubernetes services on bare metal infrastructure
-  - AI Factory internal platform operations for GPU-intensive workloads
-  - Bare metal GPU node provisioning and lifecycle management
-  - Tenant isolation and fast provisioning for multi-tenant GPU data centers
-  - Kubernetes-native infrastructure for running AI/ML and GPU workloads
+  - Managed Kubernetes as a service on bare metal GPU infrastructure for GPU neoclouds
+  - GPU-powered virtualized Kubernetes platforms for AI Factory internal teams
+  - Fast isolated tenant provisioning and automated node lifecycle management in GPU
+    data centers
+  - Infrastructure for running AI, ML, and GPU-intensive workloads, including NVIDIA
+    DGX reference architectures
   skills:
-    domains: []
+    cloud: []
     languages: [Bash, Python, Go]
     ml: [CUDA]
-    cloud: []
-    genai: [LLM deployment tooling]
-    data: []
-    other: []
-    ops: [Kubernetes, NVIDIA GPU Operator, CNI plugins, RDMA/InfiniBand, CSI drivers,
-      Docker, CKA, GPU scheduling, Model Deployment, vCluster, Kubernetes Operators,
-      Load balancing, Overlay networks]
+    other: [CKA]
+    ops: [Kubernetes, NVIDIA GPU Operator, CNI, RDMA, InfiniBand, CSI Drivers, Ceph,
+      Rook, Weka, Longhorn, Kubernetes Operators, Load Balancing, Model Deployment,
+      GPU Scheduling, LLM Deployment, vCluster]
+    databases: []
+    domains: []
     web: []
-    databases: [Ceph, Rook]
+    data: []
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
@@ -62,4 +62,6 @@ meta:
   - San Francisco, USA
   - New York, USA
   remote: true
-  extracted_at: '2026-04-22T13:02:09.328408'
+  extracted_at: '2026-08-16T06:05:25.577418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

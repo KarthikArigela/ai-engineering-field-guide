@@ -1,0 +1,52 @@
+company:
+  name: Maxwell
+  stage: null
+  focus: Mortgage technology and fulfillment platform
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships production LLM-based agentic
+      systems including retrieval, tool use, orchestration, evals,
+      and prompt design — direct model-behavior shaping. The model
+      targets are LLMs/agents, so it's ai-first.
+  responsibilities:
+  - Design and deliver production AI and agentic systems across document intelligence,
+    workflow automation, and copilots
+  - Make architecture decisions for LLM-based systems including retrieval, tool use,
+    orchestration, memory, and evaluation
+  - Own evals and observability for production AI systems, including detecting regressions
+    and drift
+  - Manage cost and latency at production volume
+  - Partner with AI product on scoping and sequencing features
+  - Partner with data engineering on pipelines, schemas, and data quality
+  - Mentor other engineers on AI-adjacent systems
+  - Evaluate vendors and models via POCs, benchmarks, and cost-performance tradeoffs
+  use_cases:
+  - Document intelligence for mortgage lending
+  - Workflow automation for loan origination
+  - AI copilots for lending workflows
+  - Structured extraction from documents
+  skills:
+    genai: [LLMs, Agentic Workflows, Prompt Engineering, Structured Outputs, Function
+        Calling, RAG, Vector Databases, Embeddings, LLM Evaluation, Anthropic API,
+      OpenAI API, AWS Bedrock, LangGraph, CrewAI, AutoGen]
+    ml: [Machine Learning]
+    web: []
+    databases: [Snowflake, BigQuery]
+    data: [dbt]
+    cloud: [AWS, SageMaker, Serverless]
+    ops: [Observability]
+    languages: [Python]
+    domains: []
+    other: [OCR, Document AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10817441'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T12:05:23.123345'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,55 @@
+company:
+  name: Allata
+  stage: null
+  focus: Global consulting and technology services firm
+position:
+  title: Senior Software Test Engineer (Automation + AI)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a test automation engineer who uses AI tools as
+      aids (test generation, code review, RAG-based knowledge
+      retrieval) but does not shape model behavior, design
+      retrieval systems as a product, or evaluate models. AI is
+      used as a tool to speed up QA work, so classification is ai-
+      support.
+  responsibilities:
+  - Design and execute comprehensive test strategies across UI, API, and database
+    layers
+  - Build and maintain automated test frameworks with Selenium, Playwright, and Cypress
+    (POM, BDD)
+  - Test APIs including authentication, payloads, error handling, and contract validation
+  - Integrate test suites into CI/CD pipelines and monitor build health and flaky
+    tests
+  - Write SQL queries to validate data integrity and business logic
+  - Track defects in JIRA with reproduction steps and impact analysis
+  - Champion Shift-Left practices through requirement reviews and early test planning
+  - Use AI-powered tools and RAG approaches to speed up test generation, code reviews,
+    and defect pattern recognition
+  use_cases:
+  - Test automation for web, SaaS, API, and mobile applications
+  - API contract and integration testing
+  - Database data integrity validation via SQL
+  - AI-assisted test generation, code review, and defect pattern analysis
+  - RAG-based retrieval of knowledge from technical documentation and past test runs
+  - CI/CD pipeline test integration and release quality monitoring
+  skills:
+    cloud: [AWS, Azure]
+    languages: [SQL, Java, JavaScript, TypeScript]
+    ml: []
+    other: [Page Object Model, BDD, TestNG, Jira, Agile, Cucumber, JMeter, BrowserStack,
+      OWASP, Code Review, ISTQB]
+    ops: [Selenium, Cypress, Git, CI/CD, Jenkins, Azure DevOps, GitHub Actions, Docker]
+    databases: [Chroma, Pinecone, Vector Databases]
+    domains: []
+    web: [Playwright, Postman, REST APIs, OAuth]
+    data: []
+    genai: [GitHub Copilot, Cursor, Anthropic API, RAG]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10776120'
+  location: Pune, IND
+  extracted_at: '2026-08-25T11:47:17.063607'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

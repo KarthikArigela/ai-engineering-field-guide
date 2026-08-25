@@ -1,51 +1,61 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global banking and financial services
+  stage: null
+  focus: Global bank defining AI and engineering strategy
 position:
   title: Principal Software Engineer –Gen AI Platforms
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and architecting generative AI
-      platforms, including SDKs, runtimes, and scaled services
-      around GenAI. The position requires deep understanding of
-      LLMs, fine-tuning, RAG architectures, and managing large-
-      scale vector stores, which is hands-on AI system
-      development.
+      The role architects Citi's GenAI platforms and explicitly
+      requires RAG architectures, fine-tuning methodologies,
+      systematic evaluation of LLM behaviours at scale, and AI
+      safety/guardrail implementations - all direct model-
+      behaviour shaping activities. LLMs (Claude, Gemini,
+      proprietary models) are central to the work, making it ai-
+      first.
   responsibilities:
-  - Build scaled, robust services and platforms centered around generative AI, including
+  - Build scaled, robust services and platforms centred on generative AI, including
     CLIs, SDKs, and runtimes
-  - Drive architectural vision and lead 0-1 build of foundational, enterprise-grade
+  - Drive architectural vision and lead the 0-1 build of foundational, enterprise-grade
     AI platforms and products
   - Design and build high-quality, highly reliable, and secure distributed systems
     with developer and user experience at the center
-  - Define strategic technical direction for generative AI across the entire bank
-  - Scale and iterate Generative AI products to handle massive throughput for internal
-    customers
-  - Drive technical alignment across multiple engineering organizations to deliver
-    cohesive AI capabilities
+  - Define the strategic technical direction for Generative AI across the entire bank,
+    creating firsts in the GenAI space
+  - Iterate and scale Generative AI products to handle massive throughput while serving
+    the needs of internal customers
+  - Drive technical alignment across multiple engineering organizations, breaking
+    down silos to deliver cohesive AI capabilities
+  - Design control planes and sandboxing systems for AI experimentation, managing
+    large-scale vector stores and search
+  - Architect large-scale ETL development and data pipeline infrastructure supporting
+    AI platforms
   use_cases:
-  - Enterprise-grade generative AI platform development for a global bank
-  - Large-scale vector stores and search algorithms for AI applications
-  - Control planes and sandboxing systems for AI experimentation
-  - RAG architectures and JIT context retrieval strategies
-  - AI safety and guardrail implementations
+  - Enterprise generative AI platforms and products serving the entire bank at global
+    scale
+  - Internal developer tooling including CLIs, SDKs, and runtimes for AI consumption
+  - High-throughput generative AI services for internal customers
+  - Large-scale vector stores and search infrastructure for AI applications
+  - Control planes and sandboxing for AI experimentation with safety guardrails
+  - Large-scale ETL and data pipelines feeding AI platforms
   skills:
-    domains: []
+    cloud: [AWS S3]
     languages: [Go, Python, TypeScript]
-    ml: []
-    cloud: [Kubernetes, OpenShift]
-    genai: [Claude/Gemini/proprietary LLMs, RAG, fine-tuning methodologies, JIT context
-        retrieval]
-    data: [Data Pipelines, data pipeline architecture]
-    other: [OAuth, JWT, Vault, Microservices]
-    ops: [GitOps CI/CD, Prometheus, Grafana, ELK, Docker]
-    web: [React, REST, gRPC, WebSockets]
-    databases: [Vector Databases, MongoDB, Redis]
+    ml: [Machine Learning]
+    other: [Zero-Trust Security]
+    ops: [Kubernetes, OpenShift, GitOps, CI/CD, Prometheus, Grafana, ELK Stack, Vault,
+      Gatekeeper, Distributed Systems]
+    databases: [MongoDB, Redis, Vector Databases, Vector Search]
+    domains: []
+    web: [Microservices, React, REST, gRPC, WebSockets, OAuth, JWT]
+    data: [Data Pipelines]
+    genai: [Generative AI, LLMs, Anthropic API, Gemini, RAG, Fine-Tuning, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8861951'
   location: Pune, IND
-  extracted_at: '2026-03-27T15:48:42.072326'
+  extracted_at: '2026-08-16T05:19:44.124098'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

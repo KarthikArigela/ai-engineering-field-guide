@@ -1,59 +1,64 @@
 company:
   name: ImmunityBio
-  stage: Public
+  stage: 'Publicly traded (NASDAQ: IBRX), commercial-stage'
   focus: |-
-    Biotechnology company developing cell and immunotherapy
-    products for cancer treatment
+    Commercial-stage biotech developing immunotherapy and cell
+    therapy cancer treatments
 position:
   title: QA Engineer, AI & Platform Infrastructure
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a QA Engineer role focused on testing and quality
-      assurance for AI platforms rather than building or deploying
-      AI models. The responsibilities involve validating AI
-      workflow correctness, testing LangChain/CrewAI/LlamaIndex
-      pipelines, and ensuring platform reliability, but the core
-      work is testing infrastructure and quality standards rather
-      than hands-on model development or deployment.
+      This is a QA/test automation engineer who validates AI
+      workflows (LangChain, CrewAI, LlamaIndex) and software built
+      by other teams, but does not write prompts, design retrieval
+      or agent flows, train models, or build model
+      evals/guardrails themselves. Per the edge cases, QA and
+      validation oversight of models is ai-support.
   responsibilities:
-  - Serve as subject matter expert for quality assurance across AI platform and web
-    applications
-  - Design and implement automated test frameworks covering backend APIs, frontend
-    components, containerized services, and AI/LLM-powered workflows
-  - Build and maintain CI/CD-integrated QA pipelines using Docker Compose and Kubernetes
-    environments
+  - Serve as subject matter expert for automated and manual test frameworks covering
+    backend APIs, frontend components, containerized services, and AI/LLM-powered
+    workflows
+  - Design, implement, and maintain CI/CD-integrated QA pipelines using Docker Compose
+    and Kubernetes environments
   - Validate AI workflow correctness including LangChain pipelines, CrewAI task orchestration,
     and LlamaIndex document processing flows
-  - Conduct performance and load testing for containerized and GPU-enabled applications
+  - Conduct performance and load testing for containerized and GPU-enabled applications,
+    identifying bottlenecks and reliability risks
+  - Develop internal testing tools and frameworks in TypeScript, Python, or Bun to
+    improve platform reliability and developer velocity
+  - Reproduce, isolate, and report defects with high-quality context and work with
+    developers to drive rapid resolution
   - Lead integration, regression, and acceptance testing activities for new features
     and infrastructure changes
-  - Collaborate with cross-functional teams to define quality standards and establish
-    test plans
-  - Provide technical mentoring and oversight to less experienced engineers on testing
-    best practices
+  - Maintain QA documentation including test plans, test case libraries, defect reports,
+    and quality metrics dashboards, and mentor less experienced engineers
   use_cases:
-  - Biotechnology research and development for cancer immunotherapy
-  - AI-powered workflows for biological research and data processing
-  - Document processing and knowledge management using LLM technologies
-  - Containerized application infrastructure supporting biotech research platforms
-  - Web applications for immune system analysis and therapy development
+  - Quality assurance for the organization's AI platform and web applications supporting
+    biotech operations
+  - Functional and correctness testing of AI/LLM-powered workflows built with LangChain,
+    CrewAI, and LlamaIndex
+  - Automated testing of backend APIs, frontend components, and containerized services
+  - Performance and load testing of containerized and GPU-enabled AI applications
+  - CI/CD-integrated QA pipelines for reliable, performant software delivery
   skills:
-    genai: [LangChain, CrewAI, LlamaIndex]
-    ml: []
-    web: [Next.js, Svelte, React, Bun, Playwright, Cypress, Postman]
-    databases: []
-    data: []
     cloud: []
-    ops: [Docker, Kubernetes, GitHub Actions, Jenkins, Pytest, Prometheus, Grafana,
-      OpenTelemetry, CI/CD]
-    languages: [Python, TypeScript]
+    languages: [Python, TypeScript, Bun]
+    ml: []
+    other: [Pytest, Postman, REST Assured, Test Automation, Performance Testing]
+    ops: [Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, Prometheus, Grafana,
+      OpenTelemetry]
+    databases: []
     domains: []
-    other: []
+    web: [Next.js, Svelte, React, Playwright, Cypress]
+    data: []
+    genai: [LangChain, CrewAI, LlamaIndex, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9238834'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:58:12.398338'
+  extracted_at: '2026-08-16T09:46:23.250771'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

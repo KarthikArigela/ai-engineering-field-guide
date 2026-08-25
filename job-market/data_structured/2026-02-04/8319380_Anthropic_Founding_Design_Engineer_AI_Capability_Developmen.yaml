@@ -1,51 +1,54 @@
 company:
   name: Anthropic
-  stage: Public Benefit Corporation
-  focus: Building reliable, interpretable, steerable AI systems
+  stage: null
+  focus: |-
+    AI safety research company building reliable, interpretable
+    AI systems
 position:
   title: Founding Design Engineer, AI Capability Development, Education Labs
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a full-stack product engineering role focused on
-      building AI-native product features and user experiences,
-      not on building, training, or fine-tuning AI models. The
-      role involves shipping production features to millions of
-      users, working on interaction design, front-end/back-end
-      development, and integrating Claude as a capability-building
-      partner, but does not involve direct work on AI systems
-      themselves.
+      This is a full-stack design engineer role building product
+      features and interaction paradigms for an AI education
+      product. The responsibilities never include shaping model
+      behavior—no prompt design, retrieval/RAG architecture, agent
+      flows, fine-tuning, or evals—and LLM production experience
+      appears only under "strong candidates may also have" as a
+      bonus. The deliverable is product features and interaction
+      design, with Claude consumed as a product ingredient, so the
+      role is ai-support.
   responsibilities:
-  - Ship features that help users develop real skill with AI, measuring success by
-    capability growth rather than engagement metrics
-  - Architect end-to-end prototypes (front-end and back-end) that test new interaction
-    paradigms with focus on motion, polish, and interaction feel
+  - Ship production features that help users develop real skill with AI, measuring
+    success by capability growth rather than engagement metrics
+  - Architect end-to-end prototypes across front-end and back-end that test new interaction
+    paradigms, with attention to motion, polish, and interaction feel
   - Define technical direction for the team and establish patterns others can follow
   - Build relationships across Product, Design, and Research to influence how skill
-    development principles shape broader product strategy
+    development principles shape Anthropic's broader product strategy
   - Shape team strategy and roadmap by identifying high-leverage opportunities and
     building conviction across stakeholders
-  - Translate research insights about skill development and human-AI collaboration
-    into shipped products through collaboration with researchers
+  - Translate research insights on skill development and human-AI collaboration into
+    shipped product through collaboration with researchers
+  - Document and share work through clear writing, prototypes, and presentations that
+    influence thinking across the organization
   use_cases:
-  - Helping users develop genuine AI skills and capabilities through product experiences
-  - Integrating skill development directly into AI product design to make users progressively
-    more capable
-  - Using Claude as an active capability-building partner in the user experience
-  - Measuring user growth and capability outcomes rather than traditional engagement
-    metrics
-  - Exploring new AI interaction paradigms that enhance human agency and capability
+  - Product features that build genuine user skill with AI rather than driving engagement
+  - Capability-building experiences that use Claude as a skill-development partner
+  - AI-native learning paradigms integrated into product design
+  - Measurement of capability growth outcomes in production AI products
+  - Human-AI collaboration patterns for progressive user empowerment
   skills:
-    domains: []
+    cloud: []
     languages: [TypeScript, JavaScript, Python]
     ml: []
-    cloud: []
-    genai: [LLMs in production, AI-native product experiences]
-    data: [Data Pipelines, analytics infrastructure]
-    other: []
+    other: [A/B Testing, Interaction Design]
     ops: []
-    web: [React, CSS, APIs]
     databases: []
+    domains: [HCI]
+    web: [React, CSS, APIs, Full-Stack Development]
+    data: [Data Pipelines, Analytics Infrastructure]
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -54,4 +57,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T12:50:33.382853'
+  extracted_at: '2026-08-15T23:18:00.260975'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

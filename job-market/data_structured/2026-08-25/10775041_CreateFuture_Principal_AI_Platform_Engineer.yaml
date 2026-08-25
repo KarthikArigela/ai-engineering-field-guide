@@ -1,0 +1,56 @@
+company:
+  name: CreateFuture
+  stage: null
+  focus: AI-native digital product consulting and delivery
+position:
+  title: Principal AI Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and runs the inference control plane — an
+      API gateway, routing, failover, caching, RBAC/OIDC, and
+      governance around LLM providers somebody else's teams
+      consume. It serves and orchestrates models without shaping
+      model behaviour (no prompt design, retrieval design,
+      training, or output-quality evals), so it is ai-support.
+  responsibilities:
+  - Build, run, and evolve the API gateway and routing layer connecting engineers
+    and client workloads to multiple LLM providers, including failover and routing
+    strategies
+  - Design and build orchestration and lifecycle management for AI capabilities and
+    agents, enabling registration, discovery, and reuse across teams
+  - Implement and maintain RBAC/OIDC access controls and API key lifecycle management
+    across the platform
+  - Build caching layers and cost/latency optimisation strategies, plus adoption and
+    reuse analytics
+  - Contribute to API design, versioning, and promotion workflows as capabilities
+    move from experimental to production
+  - Apply a trust, safety, and governance lens to keep agents and capabilities governed,
+    auditable, and safe to scale
+  use_cases:
+  - Multi-provider LLM gateway with routing and failover for engineering teams
+  - Internal AI capability marketplace for reusable agents and integrations
+  - Trust, safety, and governance controls for scaled AI agent usage
+  - Cost and latency optimisation for LLM platform usage
+  skills:
+    genai: [MCP, LLMs, Anthropic API, OpenAI API]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [AWS Bedrock]
+    ops: [Distributed Systems]
+    languages: [Python, Go]
+    domains: []
+    other: [OIDC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10775041'
+  location: London, GBR
+  locations:
+  - London, GBR
+  - Manchester, GBR
+  extracted_at: '2026-08-25T11:46:04.648533'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

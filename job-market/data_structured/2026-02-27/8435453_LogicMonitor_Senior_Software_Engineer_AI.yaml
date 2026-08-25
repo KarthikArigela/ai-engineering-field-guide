@@ -2,54 +2,69 @@ company:
   name: LogicMonitor
   stage: null
   focus: |-
-    AI-first hybrid observability platform for digital
-    infrastructure monitoring
+    AI-first hybrid observability platform for IT infrastructure
+    monitoring
 position:
   title: Senior Software Engineer, AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly builds LLM orchestration systems using
-      FastAPI/LangGraph for Edwin AI and AIOps products. The
-      engineer develops APIs for LLM reasoning, works with
-      embeddings and vector retrieval, and builds data
-      infrastructure specifically for GenAI-powered insights.
+      Although much of the role is backend and data engineering
+      for an AI product, the description explicitly has this
+      engineer building retrieval frameworks themselves (data
+      indexing and semantic search, optimizing retrieval, query
+      expansion) and developing Python APIs with LangGraph for LLM
+      orchestration, summarization, and correlation reasoning. Per
+      the backend-engineer edge case, designing retrieval and LLM
+      orchestration flows yourself makes the role ai-first even
+      with a separate AI Platform team owning embeddings and model
+      context.
   responsibilities:
-  - Design and build streaming and batch data pipelines processing metrics, logs,
+  - Design and build streaming and batch data pipelines that process metrics, logs,
     and events for AI workflows
-  - Develop ETL and feature-extraction pipelines using Python and Java microservices
-  - Build and maintain Java microservices (Spring Boot) serving AI and analytics data
-    to Edwin and AIOps applications
-  - Develop Python APIs (FastAPI / LangGraph) for LLM orchestration, summarization,
-    and correlation reasoning
-  - Build data indexing and semantic search for large-scale observability and operational
-    data
-  - Integrate data ingestion and enrichment from multiple observability sources into
-    AI-ready formats
-  - Collaborate with AI Platform team to manage embeddings, metadata, and model context
-    storage
-  - Optimize latency and throughput for retrieval, query expansion, and AI response
+  - Develop ETL and feature-extraction pipelines in Python and Java microservices,
+    ingesting observability data into AI-ready formats
+  - Build data orchestration with Kafka, Airflow, and Redis Streams and work with
+    data lakes and warehouses (Delta Lake, Iceberg, ClickHouse)
+  - Develop data indexing and semantic search for large-scale observability data and
+    optimize latency and throughput for retrieval, query expansion, and AI response
     generation
+  - Build Java microservices (Spring Boot) and Python APIs (FastAPI/LangGraph) for
+    LLM orchestration, summarization, and correlation reasoning serving Edwin AI and
+    AIOps applications
+  - Implement schema contracts and streaming protocols (REST, gRPC, SSE, WebSockets)
+    with fault-tolerant, observable API infrastructure instrumented via OpenTelemetry
+  - Implement data validation, schema evolution, and lineage tracking and enforce
+    data privacy, RBAC, and compliance for model inputs and stored context
+  - Collaborate with the AI Platform team on embeddings, metadata, and model context
+    storage, and with SRE to monitor and optimize end-to-end AI system performance
   use_cases:
-  - AIOps for IT infrastructure monitoring and observability
-  - GenAI-powered insights and anomaly detection
-  - Semantic search and retrieval for operational data
-  - LLM-based summarization and correlation reasoning
-  - Real-time alert intelligence and root cause analysis
+  - AI-driven observability and AIOps insights (Edwin AI, Dexda) across on-premises,
+    cloud, and edge infrastructure
+  - LLM-powered summarization and correlation reasoning over metrics, logs, and events
+    telemetry
+  - Semantic search and vector retrieval over large-scale observability and operational
+    data
+  - Anticipating infrastructure issues before they strike and optimizing resources
+    in real time
+  - Alert correlation and root cause analysis for faster incident resolution
   skills:
-    domains: []
-    languages: [Python, Java, SQL]
-    ml: []
     cloud: []
-    genai: [LangGraph, Embeddings, LLMs]
-    data: [Kafka, Airflow, Spark, Redis Streams, Data Pipelines]
+    languages: [Python, Java]
+    ml: [Feature Engineering]
     other: []
-    ops: [Kubernetes, CI/CD, OpenTelemetry]
-    web: [FastAPI, Spring Boot, REST, gRPC]
-    databases: [Delta Lake, Iceberg, ClickHouse, Vector Search]
+    ops: [Kubernetes, CI/CD, Containerization, OpenTelemetry]
+    databases: [ClickHouse, Vector Search, Redis]
+    domains: []
+    web: [FastAPI, Spring Boot, REST, gRPC, WebSockets, SSE, Microservices]
+    data: [Kafka, Spark, Airflow, Data Pipelines, Data Modeling, Delta Lake, Iceberg,
+      Data Governance]
+    genai: [LangGraph, Semantic Search, Embeddings, LLMs, Generative AI, Query Expansion]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8435453'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:31:30.922044'
+  extracted_at: '2026-08-16T01:23:06.659411'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

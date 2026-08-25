@@ -1,53 +1,58 @@
 company:
   name: Gusto
-  stage: Late-stage (500K+ customers, competitive RSU compensation)
+  stage: null
   focus: Payroll, benefits, and HR platform for small businesses
 position:
   title: Sr. Staff AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building core AI platform
-      infrastructure including agent orchestration, RAG pipelines,
-      model serving, and eval frameworks. The engineer designs,
-      builds, and scales AI systems (LLMs, agents, RAG) that
-      enable product teams to ship AI-powered experiences. This is
-      hands-on work with models and AI systems, not just
-      supporting infrastructure for others' ML work.
+      The role designs and builds the AI platform itself — agent
+      orchestration, RAG pipelines, prompt management, eval
+      frameworks, and safety guardrails — which is direct model-
+      behaviour shaping (Step 1: yes). The systems shaped are LLM
+      and agent components, so Step 2 yields ai-first, despite
+      classical ML expertise also being listed.
   responsibilities:
-  - Design and build scalable AI platform services including agent orchestration,
-    RAG pipelines, eval frameworks, and model serving
-  - Lead technical strategy and architecture for the AI platform including model lifecycle,
-    observability, safety guardrails, and evaluation infrastructure
-  - Collaborate cross-functionally with app teams, PMs, and Designers to understand
-    AI needs and deliver platform capabilities
+  - Design and build scalable AI platform services — agent orchestration, RAG pipelines,
+    eval frameworks, and model serving — that internal teams use to ship AI-powered
+    products
+  - Lead technical strategy and architecture for the AI platform, including model
+    lifecycle, observability, safety guardrails, and evaluation infrastructure
   - Build, harden, and operate shared infrastructure powering intelligent agents across
     Gusto (retrieval, routing, prompt management, content selection)
-  - Rapidly prototype and productionize new AI/ML techniques to strengthen the platform
+  - Collaborate cross-functionally with app teams, PMs, and Designers to understand
+    AI needs and deliver platform capabilities that unblock them
+  - Stay current with AI/ML research and rapidly prototype and productionize new techniques
+    that strengthen the platform
   - Establish robust practices for validation, deployment, monitoring, and performance
-    management of platform services and agents
+    management of platform services and the agents built on them
   - Communicate technical strategy, tradeoffs, and impact to executives and non-technical
     partners
-  - Mentor engineers across teams on AI/ML best practices and foster a culture of
-    pragmatic innovation
+  - Mentor engineers across teams and raise the bar on AI/ML best practices
   use_cases:
-  - Intelligent agent orchestration for small business HR and payroll workflows
-  - RAG-powered retrieval and content selection for customer-facing AI experiences
-  - Automated payroll and benefits assistance through AI agents
-  - AI-powered HR support and compliance guidance for small businesses
-  - Safety-guardrailed AI interactions for sensitive financial and employee data
+  - Internal AI platform enabling product teams to rapidly build, test, and ship intelligent
+    agents
+  - Retrieval-augmented generation infrastructure powering AI experiences in Gusto's
+    small-business products (payroll, benefits, HR)
+  - Agent orchestration, routing, and content selection for AI-powered customer experiences
+  - Model serving, evaluation, and safety guardrails ensuring reliable LLM applications
+    in production
+  - Prompt management and observability tooling for LLM-based applications across
+    the company
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, Hugging Face, Deep Learning, Reinforcement Learning]
     cloud: [GCP, AWS, Azure]
-    genai: [Agentic Workflows, RAG, Prompt Engineering, LLM applications, LLM Evaluation,
-      Safety guardrails]
-    data: []
-    other: []
-    ops: [CI/CD, Model Deployment, Observability, Monitoring]
-    web: [APIs]
+    languages: [Python]
+    ml: [PyTorch, TensorFlow, Hugging Face, Deep Learning, Reinforcement Learning,
+      Machine Learning]
+    other: [Code Review]
+    ops: [CI/CD, Observability, Model Deployment]
     databases: []
+    domains: [NLP]
+    web: [APIs]
+    data: []
+    genai: [RAG, Agentic Workflows, AI Agents, LLMs, Prompt Engineering, Guardrails,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +62,6 @@ meta:
   - Denver, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-05-29T08:48:11.538392'
+  extracted_at: '2026-08-16T08:41:32.511037'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

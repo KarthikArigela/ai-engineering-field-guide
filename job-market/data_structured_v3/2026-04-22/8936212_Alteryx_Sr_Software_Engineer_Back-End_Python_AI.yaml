@@ -1,0 +1,62 @@
+company:
+  name: Alteryx
+  stage: null
+  focus: Data analytics, automation, and AI platform
+position:
+  title: Sr. Software Engineer (Back-End, Python, AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs service-side AI workflows, agent
+      orchestration, tool execution paths, and MCP-connected
+      integrations powering Copilot / Ask Alteryx, which is
+      directly shaping agent flows and tool calling. LLM/agent
+      components are central (LangGraph, LangChain, MCP,
+      retrieval/evaluation valued), so despite the backend center
+      of gravity, this is ai-first rather than ai-support.
+  responsibilities:
+  - Own and deliver backend features in the Python services powering Copilot / Ask
+    Alteryx and adjacent AI experiences
+  - Design and implement APIs, service integrations, and orchestration logic connecting
+    UI surfaces, backend systems, and AI capabilities
+  - Flex into agent workflows, tool execution paths, and MCP-oriented integrations
+    when roadmap needs require backend support for agent delivery
+  - Improve service reliability through observability, testing, performance, rate
+    limiting, background processes, and operational readiness
+  - Partner with product, design, frontend, data science, and platform teams to clarify
+    requirements and ship customer-facing improvements
+  - Contribute to software design, code reviews, technical planning, and engineering
+    practices that improve quality and delivery velocity
+  - Mentor engineers through thoughtful feedback, pairing, and day-to-day technical
+    collaboration
+  - Help the team respond quickly to new AI opportunities while balancing correctness,
+    cost, security, and maintainability tradeoffs
+  use_cases:
+  - Copilot / Ask Alteryx conversational AI experiences across Alteryx products
+  - Agent workflows and tool execution connecting Alteryx products and domain capabilities
+    into a shared AI platform
+  - MCP-connected skills and tool-based integrations for extensibility
+  - Service-side AI orchestration and infrastructure for reliable, scalable production
+    AI systems
+  - Retrieval, grounding, and evaluation patterns improving AI system quality and
+    reliability
+  skills:
+    genai: [LLMs, Agentic Workflows, LangGraph, LangChain, MCP, RAG, LLM Evaluation]
+    ml: []
+    web: [FastAPI, Flask, Django, APIs]
+    databases: [PostgreSQL, Redis]
+    data: [Kafka]
+    cloud: [GCP, Vertex AI]
+    ops: [Distributed Systems, CI/CD, GitLab, GitHub, Kubernetes, Observability]
+    languages: [Python]
+    domains: []
+    other: [Caching, Rate Limiting, Automated Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8936212'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T06:22:59.110613'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

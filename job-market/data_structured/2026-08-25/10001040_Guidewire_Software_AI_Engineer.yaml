@@ -1,0 +1,57 @@
+company:
+  name: Guidewire Software
+  stage: null
+  focus: Cloud software platform for P&C insurance
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role's core craft is harness and prompt engineering for
+      LLM agents: building agent loops, tool/function calling,
+      prompt design with eval datasets, and RAG pipelines. This is
+      directly shaping LLM behavior, so it is ai-first.
+  responsibilities:
+  - 'Build and maintain LLM harnesses powering AI features: agent loops, tool/function
+    calling, context construction, memory, retries, and failure handling'
+  - Design, iterate, and version prompts as first-class assets with structured experiments
+    and eval datasets
+  - 'Build and operate RAG pipelines: chunking, indexing, retrieval, reranking, and
+    prompt assembly'
+  - Generate embeddings and manage vector indexes (OpenSearch, Pinecone, pgvector),
+    tuning for retrieval quality and cost
+  - Build document and dataset parsing/curation pipelines for downstream AI work
+  - Write and operate accuracy validation scripts, maintain evaluation datasets, and
+    report quality metrics
+  - Apply traditional ML (classification, clustering, lightweight fine-tuning) to
+    complement LLM components
+  - Perform data analysis (sample inspection, error analysis) to inform AI design
+    decisions
+  use_cases:
+  - Turning LLMs into production AI features for insurance software
+  - Document extraction and RAG over insurance/regulatory documents
+  - Agent-based AI features with tool calling in production
+  - Accuracy validation and quality evaluation of AI features
+  - Data parsing and curation of document-heavy insurance datasets
+  skills:
+    genai: [LangChain, LlamaIndex, LangGraph, Prompt Engineering, RAG, Agentic Workflows,
+      Function Calling, Structured Outputs, LLMs, Anthropic API, OpenAI API, Claude
+        Code, Claude Agent SDK, OpenAI Agents, Embeddings, Semantic Search, Fine-Tuning,
+      LLM Evaluation]
+    ml: [scikit-learn, Machine Learning, Model Evaluation]
+    web: []
+    databases: [Vector Databases, OpenSearch, Pinecone, pgvector]
+    data: [Pandas, NumPy]
+    cloud: [AWS Bedrock, SageMaker, AWS]
+    ops: [Git, CI/CD]
+    languages: [Python]
+    domains: []
+    other: [Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10001040'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T09:25:00.854696'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

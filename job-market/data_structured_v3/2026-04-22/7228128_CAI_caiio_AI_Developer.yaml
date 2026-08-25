@@ -1,0 +1,63 @@
+company:
+  name: CAI (cai.io).
+  stage: Privately held
+  focus: Global technology services and consulting firm
+position:
+  title: AI Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it fine-tunes open-
+      weight LLMs with LoRA/QLoRA, PEFT, and RLHF, designs multi-
+      agent workflows with LangChain/LangGraph/CrewAI, and builds
+      RAG pipelines over vector databases. It also trains CNN/RNN
+      vision models, but a role shaping both LLM and classical ML
+      systems is classified ai-first.
+  responsibilities:
+  - Architect and train CNN/ViT deep learning models for classification, detection,
+    segmentation, and OCR
+  - Build and optimize RNN/LSTM/GRU models for sequence learning, speech, and time-series
+    forecasting
+  - Research and implement transformer-based architectures bridging vision and language
+    tasks in multimodal systems
+  - Design and implement multi-agent workflows using LangChain, LangGraph, and CrewAI,
+    optimizing agents for latency, cost, and reliability
+  - Fine-tune open-weight LLMs using LoRA/QLoRA, PEFT, and RLHF methods
+  - Develop RAG pipelines integrating vector databases such as FAISS, Weaviate, and
+    pgvector
+  - Develop reproducible training workflows and deploy models at scale with TorchServe,
+    Triton, or KServe, optimizing inference with ONNX/TensorRT, quantization, and
+    pruning for cloud and edge
+  - Mentor junior engineers, lead technical reviews, and promote best practices across
+    the team
+  use_cases:
+  - Computer vision pipelines for image classification, object detection, segmentation,
+    and OCR
+  - Sequence modelling for speech and time-series forecasting
+  - Multimodal systems combining CNN/RNN perception with LLM reasoning
+  - Autonomous multi-agent workflows spanning vision and language tasks
+  - Retrieval-augmented LLM applications grounded in vector databases
+  - Production model deployment and inference optimization for cloud and edge environments
+  skills:
+    genai: [LangChain, LangGraph, CrewAI, Agentic Workflows, AI Agents, RAG, LLMs,
+      Fine-Tuning, LoRA, PEFT, RLHF]
+    ml: [Deep Learning, CNNs, RNNs, LSTM, GRU, Transformers, ViT, PyTorch, TensorFlow,
+      Quantization, Pruning, OCR, Time Series Forecasting, Distributed Training, Multimodal
+        AI, Data Augmentation, Synthetic Data]
+    web: [FastAPI, gRPC, APIs, Microservices]
+    databases: [Vector Databases, FAISS, Weaviate, pgvector]
+    data: [Data Pipelines]
+    cloud: [AWS, GCP, SageMaker, Vertex AI]
+    ops: [MLOps, Model Deployment, Weights & Biases, MLflow, TorchServe, Triton, KServe,
+      ONNX, TensorRT, Kubernetes, Docker, CI/CD, Monitoring, Git]
+    languages: [Python]
+    domains: [Computer Vision]
+    other: [Edge AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7228128'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T05:38:54.647259'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

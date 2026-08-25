@@ -1,55 +1,62 @@
 company:
   name: Movado Group
-  stage: Public
-  focus: Watch and accessories design, manufacturing, and retail
+  stage: null
+  focus: Designer and manufacturer of watches
 position:
   title: Senior AI Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying
-      Generative AI solutions using Amazon Bedrock, custom GPTs,
-      and Amazon Lex, as well as developing predictive ML models.
-      The developer is hands-on with LLMs, chatbots, and AI-driven
-      automation tools integrated into business processes.
+      The role leads development of Generative AI automation tools
+      and bots (Amazon Bedrock, custom GPTs, Amazon Lex) that
+      interact with APIs and back-end systems, meaning this person
+      designs and shapes how LLM-driven agents behave rather than
+      merely consuming an AI API. The role also builds classical
+      ML predictive models, and a role shaping both LLM and
+      classical ML components is ai-first.
   responsibilities:
   - Design and architect AI-enhanced solutions integrating SAP data, external cloud
-    data sources (Google BigQuery, Amazon Redshift), and local file-based inputs
+    data sources (BigQuery, Redshift), and local file-based inputs
   - Lead development of automation tools and bots using Generative AI (Amazon Bedrock,
     custom GPTs, Amazon Lex) to interact with APIs, databases, and back-end systems
+    for real-time data processing
+  - Collaborate with functional and business teams to gather requirements, define
+    logic, and modularize business processes for AI-assisted code generation
   - Build, test, and deploy predictive models using machine learning and statistical
-    techniques including forecasting, regression, and simulation
-  - Develop intelligent frontend tools using Python, VBA, and Excel to automate business
-    workflows
-  - Define and maintain coding standards, Git repositories, and CI/CD pipelines for
-    AI and automation development
-  - Monitor and troubleshoot solution performance across SAP and non-SAP environments
-    ensuring high availability and scalability
-  - Drive innovation by applying AI and cloud services to modernize business processes
-    such as Order-to-Cash (OTC) and Procure-to-Pay (P2P)
-  - Oversee development of reusable code modules and AI frameworks while mentoring
-    junior Python developers
+    techniques (forecasting, regression, simulation)
+  - Develop intelligent frontend tools using Python, VBA, and Excel to streamline
+    and automate business workflows
+  - Define and maintain coding standards, Git-based repositories, and CI/CD pipelines
+    for AI and automation development
+  - Monitor and troubleshoot solution performance across SAP and non-SAP environments;
+    drive AI and cloud modernization of Order-to-Cash and Procure-to-Pay processes
+  - Oversee development of reusable AI code modules and mentor junior Python developers
   use_cases:
-  - Business process automation for Order-to-Cash (OTC) and Procure-to-Pay (P2P) workflows
-  - AI-powered chatbots and bots for real-time data processing and API interaction
-  - Predictive modeling for forecasting and business analytics
-  - SAP data integration and bi-directional data flow between enterprise systems
-  - Intelligent frontend tools for streamlining and automating business operations
+  - Business process automation and modernization for Order-to-Cash (OTC) and Procure-to-Pay
+    (P2P)
+  - Generative AI bots and chatbots that interact with APIs, databases, and back-end
+    systems for real-time data processing
+  - Predictive modeling for forecasting, regression, and simulation of business metrics
+  - SAP data integration and bi-directional data flow between SAC, BW, and external
+    cloud data platforms
+  - Intelligent frontend tools (Python, VBA, Excel) for business workflow automation
+  - AI-assisted code generation from modularized business process logic
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, GCP, Azure, Amazon Lex]
     languages: [Python, VBA, SQL]
-    ml: [scikit-learn, Forecasting, Regression, Simulation, Statistical modeling]
-    cloud: [AWS Lambda, AWS, Google BigQuery, Amazon Redshift, GCP, Azure]
-    genai: [Amazon Bedrock, Custom GPTs, Amazon Lex, OpenAI API, Chatbot development,
-      Prompt Engineering]
-    data: [Pandas, NumPy]
-    other: [SAP, Excel]
-    ops: [Git, GitHub, GitLab CI, CI/CD]
-    web: [REST APIs, Microservices]
-    databases: []
+    ml: [Machine Learning, Forecasting, Regression, scikit-learn]
+    other: [SAP, Excel, Agile]
+    ops: [Git, GitHub, GitLab CI, CI/CD, DevOps]
+    databases: [BigQuery, Redshift]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Pandas, NumPy, Data Analytics]
+    genai: [Generative AI, AWS Bedrock, Custom GPTs, OpenAI API, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9622612'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:45:41.344810'
+  extracted_at: '2026-08-16T13:19:41.804085'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

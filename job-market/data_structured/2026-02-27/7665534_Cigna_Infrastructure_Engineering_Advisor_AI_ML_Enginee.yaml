@@ -1,57 +1,63 @@
 company:
   name: Cigna
-  stage: Public
-  focus: |-
-    Global health services, pharmacy, care, and benefits
-    solutions
+  stage: Fortune 16
+  focus: Pharmacy, care and benefits health services
 position:
   title: Infrastructure Engineering Advisor – AI ML Engineer - HIH
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on design, building, and deployment
-      of GenAI solutions including LLMs, RAG, agents, and agentic
-      workflows. The engineer will work directly on model
-      optimization, fine-tuning, prompt engineering, and deploying
-      AI solutions to customers, not just supporting
-      infrastructure for AI teams.
+      The role designs and implements agentic workflows, RAG,
+      prompt engineering, and fine-tuning for LLM-based solutions
+      such as chatbots, directly shaping model behavior and output
+      quality (LangChain, LangGraph, LlamaIndex, MCP). The models
+      being shaped are LLMs and agents, so the classification is
+      ai-first. Customer-facing evangelism and
+      serving/troubleshooting work do not change this.
   responsibilities:
-  - Design, build, and deploy cutting-edge machine learning and generative AI solutions
-    including chatbots, LLMs, AI agents, RAG, and large-scale search
-  - Develop innovative agentic workflows and solutions for strategic customers using
-    ML technologies combined with AWS and Azure cloud platforms
-  - Work directly with key customers to understand requirements, design solutions,
-    and collaborate with ML engineering teams to remove blockers
-  - Design and implement agentic workflows using diverse frameworks with prompt engineering
-    to optimize performance
-  - Dive deep into model structure to optimize model performance and scalability
-  - Diagnose, troubleshoot, and resolve issues in AI model training and serving
-  - Build reusable solution patterns and reference solutions that can apply across
-    multiple customers
-  - Act as a product evangelist by engaging with customers and presenting at conferences
-    and external events
+  - Design, build, and deploy machine learning and generative AI solutions such as
+    chatbots, with a focus on LLMs, AI agents, RAG, and large-scale search
+  - Develop innovative agentic workflows and Gen AI solutions for strategic customers
+    across enterprise Databricks, Snowflake, Teradata, and Tableau teams
+  - Collaborate with data scientists, engineers, and product teams to turn complex
+    problems into scalable, cloud-ready enterprise AI solutions
+  - Dive deep into model structure to optimize performance and scalability, and diagnose,
+    troubleshoot, and resolve issues in AI model training and serving
+  - Work directly with key customers on their Gen AI journey, understanding requirements,
+    envisioning and designing solutions, and removing blockers with their ML engineering
+    teams
+  - Build reusable solution patterns, reference solutions, and showcases applicable
+    across multiple customers
+  - Act as product evangelist by engaging customers and partners and presenting at
+    external events and conferences
+  - Run experiments and explore new algorithms to optimize performance, customer experience,
+    and business outcomes while ensuring ethical and responsible AI practices
   use_cases:
-  - Enterprise healthcare solutions leveraging generative AI
-  - Chatbot and conversational AI systems for customer support
-  - Large-scale search and information retrieval using RAG architectures
-  - Code generation and automation through AI agents
-  - Agentic workflows for complex enterprise problem-solving
-  - Customer-facing AI solutions in healthcare and benefits management
+  - Enterprise chatbots and conversational assistants powered by LLMs
+  - Retrieval-augmented generation and large-scale search over enterprise data
+  - Agentic workflows and Gen AI solutions for enterprise Databricks, Snowflake, Teradata,
+    and Tableau teams
+  - AI solutions impacting healthcare and code generation domains
+  - Production AI model training, serving, and performance optimization for strategic
+    customers
   skills:
-    domains: [NLP, NLU]
-    languages: [Python, Bash]
-    ml: [Fine-Tuning, PyTorch, TensorFlow, JAX, Transformers]
     cloud: [AWS, Azure]
-    genai: [LLMs, Generative AI, RAG, AI Agents, LangChain, LangGraph, LlamaIndex,
-      MCP, Prompt Engineering, Agentic Workflows]
-    data: [Databricks]
-    other: []
-    ops: [Model Optimization, MLflow, KServe, Kubeflow, Triton]
+    languages: [Python, Bash]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, JAX, Transformers,
+      NLP, NLU, Model Training, Model Optimization]
+    other: [Tableau, Responsible AI]
+    ops: [MLflow, KServe, Kubeflow, Triton]
+    databases: [Snowflake, Teradata]
+    domains: []
     web: []
-    databases: [Snowflake]
+    data: [Databricks]
+    genai: [LLMs, AI Agents, RAG, Agentic Workflows, Prompt Engineering, Generative
+        AI, Fine-Tuning, MCP, Chat Bots, LangChain, LangGraph, LlamaIndex]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7665534'
   location: Hyderabad, IND
-  extracted_at: '2026-02-27T11:29:11.873441'
+  extracted_at: '2026-08-16T00:04:39.114535'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: Databricks
+  stage: null
+  focus: Data intelligence platform unifying analytics and AI
+position:
+  title: Staff Data and AI Engineer, Finance
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role is described as the technical authority behind the
+      team's AI systems and explicitly leads the technical design
+      of AI use cases including natural language interfaces to
+      financial data and Genie Spaces, meaning they shape how LLMs
+      behave over curated finance data rather than merely
+      consuming an API. The mix of LLM interfaces with classical
+      ML use cases (forecasting, anomaly detection) maps to ai-
+      first, even though data engineering dominates the day-to-
+      day.
+  responsibilities:
+  - Architect, build, and own the most complex finance data pipelines in the Finance
+    DataLake using Databricks Jobs and Lakeflow Declarative Pipelines with built-in
+    data validation and reconciliations
+  - Lead the technical design of AI use cases for the Finance and Accounting organization,
+    including forecasting automation, anomaly detection, and natural language interfaces
+    to financial data
+  - Build and maintain internal Finance applications (Databricks Apps, Genie Spaces,
+    dashboards) enabling self-service for non-technical Finance stakeholders
+  - Design and deliver curated Finance DataLake datasets enforcing row-level security,
+    data access policies, and Unity Catalog governance standards
+  - Define coding standards, data modeling conventions, documentation practices, and
+    testing frameworks across the Finance engineering team
+  - Enforce Git-based version control, pull-request reviews, and CI/CD pipelines (Declarative
+    Automation Bundles, GitHub Actions) to satisfy SOX change management requirements
+  - Serve as primary technical point of contact during financial close, ensuring data
+    accuracy and timely resolution of pipeline issues, and lead technical scoping
+    with Accounting, FP&A, Internal Audit, and Procurement
+  - Mentor junior and mid-level engineers through code reviews, pairing, and design
+    discussions, and drive resolution of architectural debt and performance bottlenecks
+  use_cases:
+  - Forecasting automation for the Finance and Accounting organization
+  - Anomaly detection in financial data and processes
+  - Natural language interfaces for querying financial data via Genie Spaces
+  - Self-service finance dashboards and reporting for non-technical stakeholders
+  - Automated, validated finance data pipelines powering financial close, reconciliations,
+    and reporting
+  skills:
+    genai: [LLMs, Genie]
+    ml: [Anomaly Detection, Forecasting]
+    web: []
+    databases: []
+    data: [Spark, Databricks, Lakeflow Declarative Pipelines, ETL, Data Modeling,
+      Unity Catalog]
+    cloud: []
+    ops: [Git, CI/CD, GitHub Actions, Declarative Automation Bundles]
+    languages: [Python, SQL]
+    domains: []
+    other: [NetSuite, Salesforce, Stripe, Zuora, Business Intelligence, Finance &
+        Accounting, SOX Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10022343'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T16:24:37.036361'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,54 @@
+company:
+  name: JPMorganChase
+  stage: null
+  focus: Global financial services and investment banking
+position:
+  title: Software Engineer III - AI/ML Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates infrastructure for serving LLMs
+      (routing, batching, scaling, GPU utilization) rather than
+      shaping model behaviour through prompts, retrieval, or
+      training. Edge case rules explicitly place serving/hosting
+      of models the person does not shape into ai-support, even
+      with KV cache, quantization, and GPU details named.
+  responsibilities:
+  - Build core backend services for LLM inference including request routing, batching,
+    scheduling, streaming responses, and quota/limits
+  - Implement and maintain APIs and SDKs used by product and application teams across
+    the firm
+  - Profile and optimize performance across CPU, memory, network, serialization, concurrency,
+    GPU utilization, and caching
+  - Improve reliability and operability through health checks, graceful degradation,
+    autoscaling, incident follow-ups, and runbooks
+  - Add observability with metrics, tracing, logging, dashboards, and SLO-tied alerts
+  - Support safe deployments through CI/CD improvements, canarying, feature flags,
+    and rollback plans
+  - Learn LLM serving fundamentals such as tokenization costs, KV cache, quantization,
+    and throughput vs latency tradeoffs
+  - Use enterprise-authorized AI coding assist tools to improve code quality and delivery
+    speed
+  use_cases:
+  - Firmwide LLM serving platform for internal product and application teams
+  - High-throughput low-latency LLM inference across the enterprise
+  - Internal developer enablement via APIs and SDKs for LLM access
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: [gRPC]
+    databases: [Redis]
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, CI/CD, Distributed Systems, Observability]
+    languages: [Go, Python, TypeScript]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10306854'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:36:12.786248'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

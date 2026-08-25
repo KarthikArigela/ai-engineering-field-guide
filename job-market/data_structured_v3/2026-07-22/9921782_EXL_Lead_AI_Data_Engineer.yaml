@@ -1,0 +1,59 @@
+company:
+  name: EXL
+  stage: 'Publicly traded (NASDAQ: EXLS)'
+  focus: Data analytics and digital operations solutions
+position:
+  title: Lead AI Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: designing prompts
+      and reasoning chains, building end-to-end RAG pipelines
+      (chunking, embeddings, vector indexing, retrieval),
+      architecting agentic tool-calling workflows, and
+      implementing LLM guardrails and evaluation frameworks. Since
+      LLMs and agents are central to every responsibility, it is
+      ai-first despite the data engineering title.
+  responsibilities:
+  - Architect enterprise-grade agentic and LLM solutions including single-agent, multi-agent,
+    and tool-driven workflows
+  - Lead end-to-end implementation of RAG pipelines from data ingestion and chunking
+    through embeddings, vector indexing, retrieval, and response generation
+  - Implement advanced prompt engineering strategies, prompt orchestration, and reasoning
+    chains
+  - Build tool-calling and function-calling frameworks for agent workflows
+  - Implement LLM guardrails (hallucination control, safety filters, policy enforcement)
+    and define evaluation frameworks including RAG benchmarking
+  - Develop production-grade APIs and services (FastAPI, Flask) optimised for latency,
+    cost, and reliability
+  - Mentor and guide junior engineers, conduct technical and code reviews, and support
+    pre-sales/RFPs with architecture inputs
+  - Partner with Data Engineering, MLOps, and Business/Product teams to drive end-to-end
+    delivery ownership across projects
+  use_cases:
+  - Knowledge assistants
+  - Document automation and document intelligence
+  - Workflow orchestration
+  - Enterprise GenAI delivery for insurance and BFSI clients
+  - AI-led business operations and analytics transformation
+  skills:
+    genai: [LLMs, Generative AI, RAG, Prompt Engineering, AI Agents, Agentic Workflows,
+      Function Calling, LangChain, LangGraph, Embeddings, Guardrails, LLM Evaluation,
+      Fine-Tuning, LoRA, PEFT, OpenAI API, Anthropic API]
+    ml: [Machine Learning, NLP, Data Science]
+    web: [FastAPI, Flask, APIs]
+    databases: [Snowflake]
+    data: [PySpark, Data Engineering, ETL, Data Pipelines, Databricks, Microsoft Fabric]
+    cloud: [Azure, AWS, GCP, Azure OpenAI, Azure AI Search]
+    ops: [CI/CD, Containers, Monitoring, MLOps]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9921782'
+  location: Gurugram, IND
+  extracted_at: '2026-08-16T19:11:36.809490'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

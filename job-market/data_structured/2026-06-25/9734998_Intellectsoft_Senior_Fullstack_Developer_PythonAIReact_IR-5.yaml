@@ -1,50 +1,57 @@
 company:
   name: Intellectsoft
   stage: null
-  focus: Custom software development and AI consulting solutions
+  focus: |-
+    Custom software development and IT services across multiple
+    industries
 position:
   title: Senior Fullstack Developer (Python+AI+React) (IR-528)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is primarily a full-stack developer role focused on
-      Python/FastAPI backend and React frontend development. The
-      AI-related work (vector databases, RAG, embeddings) is
-      described as "basic understanding" and "awareness" rather
-      than deep hands-on model building or fine-tuning. The role
-      supports and debugs AI-powered features rather than building
-      core AI/ML systems.
+      The role requires hands-on work on the retrieval layer of an
+      AI product: document ingestion, chunking, indexing,
+      embeddings, semantic search, RAG workflows, and connecting
+      backend logic with LLM responses. Designing and maintaining
+      RAG/retrieval shapes LLM output quality, so it qualifies as
+      shaping (Step 1 yes), and the target is an LLM-based
+      component, making it ai-first despite the fullstack
+      engineering framing.
   responsibilities:
   - Develop, maintain, and improve backend services using Python and FastAPI
-  - Build, update, and debug React frontend components
-  - Design, consume, and maintain REST APIs
-  - Work with databases, application logic, and integrations across the full stack
-  - Support features involving vector databases, embeddings, semantic search, and
-    RAG workflows
-  - Work with existing data pipelines and document ingestion processes
+  - Build, update, and debug React frontend components and REST APIs
+  - Work with databases, application logic, and integrations across the stack
+  - Support and improve features involving vector databases, embeddings, semantic
+    search, and RAG workflows
+  - Work with existing data pipelines and document ingestion processes including chunking
+    and indexing
   - Debug issues across frontend, backend, database, and AI-related layers
-  - Participate in testing, deployment, monitoring, and release processes
+  - Improve application performance, reliability, security, and maintainability
+  - Collaborate with product, design, and technical stakeholders to translate requirements
+    into working features
   use_cases:
-  - AI-powered product layers with vector databases and RAG workflows
-  - Semantic search and document retrieval
-  - Document ingestion, chunking, and indexing
-  - LLM-integrated backend application logic
-  - Chatbot, analytics, or knowledge-management applications
+  - RAG-powered document search and retrieval in web applications
+  - Semantic search over ingested business documents
+  - LLM-based response features integrated into product backends
+  - Chatbot, analytics, and knowledge-management applications
+  - AI-driven automation and data-driven business applications
   skills:
-    domains: []
-    languages: [Python, JavaScript, SQL]
+    cloud: [AWS, Azure, GCP, Render, Railway]
+    languages: [Python, JavaScript]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [RAG, Embeddings, Semantic Search, LLMs, Document Chunking and Indexing]
-    data: [Data Pipelines]
     other: []
-    ops: [Docker, Git]
-    web: [FastAPI, React, REST APIs]
+    ops: [Git, Docker]
     databases: [PostgreSQL, MySQL, Vector Databases]
+    domains: []
+    web: [FastAPI, React, REST APIs]
+    data: [Data Pipelines]
+    genai: [RAG, Embeddings, Semantic Search, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9734998'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:49:17.962727'
+  extracted_at: '2026-08-16T14:42:54.694631'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

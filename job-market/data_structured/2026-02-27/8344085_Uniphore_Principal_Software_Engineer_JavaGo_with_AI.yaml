@@ -1,55 +1,55 @@
 company:
   name: Uniphore
   stage: null
-  focus: |-
-    B2B AI-native company building multimodal enterprise AI
-    platform combining Generative AI, Knowledge AI, and Emotion
-    AI
+  focus: B2B AI-native enterprise customer experience platform
 position:
   title: Principal Software Engineer (Java/Go with AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience architecting and
-      integrating LLM-powered systems including RAG pipelines,
-      vector search, and multi-agent systems using frameworks like
-      LangChain and LangGraph. The position involves building AI-
-      native enterprise platforms, not just supporting
-      infrastructure for AI work.
+      Despite the software engineering title, the requirements
+      explicitly call for architecting and integrating LLM-powered
+      systems, designing RAG pipelines and vector search at scale,
+      and building multi-agent systems with
+      LangChain/LangGraph/crewAI. Designing retrieval and agent
+      flows directly shapes LLM behaviour, making this ai-first.
   responsibilities:
   - Own and evolve the architecture of large-scale, distributed, enterprise-grade
     SaaS platforms
   - Drive technical vision, design principles, and architectural standards across
-    teams
-  - Lead the design and implementation of complex, high-impact systems and services
+    multiple teams
+  - Lead the design and implementation of complex, high-impact systems and services,
+    including LLM-powered RAG and multi-agent architectures
   - Partner with product, platform, and engineering leadership to align technical
     solutions with business objectives
-  - Review and approve critical technical designs with guidance on trade-offs, scalability,
+  - Review and approve critical technical designs, guiding trade-offs on scalability,
     performance, and reliability
-  - Remain hands-on by contributing to core components, prototypes, and high-risk
-    or high-complexity areas
+  - Remain hands-on contributing to core components, prototypes, and high-complexity
+    areas
   - Establish and enforce best practices for code quality, testing, security, and
     operational excellence
-  - Mentor and guide senior and staff engineers, raising the overall technical bar
-    of the organization
+  - Mentor and guide senior and staff engineers across distributed, multi-location
+    teams
   use_cases:
-  - Enterprise customer experience automation
-  - Multimodal AI platform (voice, video, text analysis)
-  - Conversational AI and co-pilot systems
-  - Customer service and support automation
-  - Enterprise workflow automation
+  - Multimodal enterprise AI platform combining Generative AI, Knowledge AI, and Emotion
+    AI
+  - Capture and analyze voice, video, and text customer interaction data
+  - Enterprise knowledge retrieval via RAG pipelines and vector search at scale
+  - Multi-agent systems for enterprise workflow automation
+  - Copilot to guide customer-facing employees and processes
   skills:
-    domains: []
-    languages: [Java, Python, Go, Rust]
+    cloud: [Cloud-Native Deployments]
+    languages: [Java, Python, Go, Rust, SQL]
     ml: []
-    cloud: [Cloud-native deployments]
-    genai: [LangChain, LangGraph, CrewAI, RAG, Multi-Agent Systems, LoRA, Fine-Tuning,
-      LLM observability, Prompt guardrails]
-    data: [Kafka]
-    other: []
-    ops: [MLOps, LLMOps, Microservices architecture, Distributed Systems]
-    web: [REST, gRPC, WebSockets, MCP]
-    databases: [PostgreSQL, MongoDB, Vector Databases, Redis, ClickHouse]
+    other: [SLOs, System Design]
+    ops: [Distributed Systems, Linux, MLOps, LLMOps, LLM Observability]
+    databases: [PostgreSQL, MongoDB, Vector Search, Vector Databases, NoSQL, Graph
+        Databases, Time-Series Databases, Redis, ClickHouse]
+    domains: []
+    web: [APIs, REST, WebSockets, gRPC, Microservices]
+    data: [Kafka, Data Modeling]
+    genai: [LLMs, RAG, LangChain, LangGraph, CrewAI, Multi-Agent Systems, MCP, Guardrails,
+      LLM Evaluation, Fine-Tuning, LoRA, Instruction Tuning]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +58,6 @@ meta:
   locations:
   - Chennai, IND
   - Bengaluru, IND
-  extracted_at: '2026-03-03T12:12:52.418449'
+  extracted_at: '2026-08-16T00:57:04.631087'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

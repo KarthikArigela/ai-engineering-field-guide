@@ -1,48 +1,59 @@
 company:
   name: NVIDIA
-  stage: Public
-  focus: GPU computing, AI, deep learning, autonomous vehicles
+  stage: null
+  focus: |-
+    GPU-accelerated computing, graphics, and AI hardware and
+    software
 position:
   title: Senior AI Compiler Engineer
   ai_type:
-    type: ai-support
+    type: ml-first
     reasoning: |-
-      This is a compiler engineer role focused on building
-      compilers and development tools that support ML workloads,
-      not on building, training, or deploying ML models directly.
-      The role involves code generation, optimization passes, and
-      GPU architecture work that enables ML systems to run
-      efficiently, which is infrastructure/support work rather
-      than hands-on AI development.
+      This is a compiler engineering role whose core work is code
+      generation, optimization passes, and GPU architecture for
+      machine learning execution, which falls under optimizing a
+      model's internals — that counts as shaping. The ML expertise
+      named is entirely classical (reinforcement learning,
+      genetic/evolutionary algorithms, predictive modeling) with
+      no LLM or agent component, so the classification is ml-
+      first.
   responsibilities:
-  - Develop novel compiler technologies and development tools for applied machine
-    learning and artificial intelligence
-  - Design and implement code generation and optimization components for ML compilers
-  - Build compilers and compiler components using LLVM framework including optimization
-    passes and frontend integration
-  - Work on GPU architecture-related compiler optimizations for ML workloads
-  - Influence global AI/ML products through compiler and tool innovations
+  - Develop novel and inventive compiler and development tool solutions with a focus
+    on applied machine learning and artificial intelligence
+  - Build compilers and compiler components using the LLVM framework, including optimization
+    passes, code generation, and frontend integration
+  - Apply machine learning techniques such as reinforcement learning and evolutionary
+    algorithms to compiler and tooling problems
+  - Optimize code generation and performance for GPU architectures
+  - Deploy AI/ML solutions to production environments and embedded systems
+  - Innovate across machine learning, system design, and development tools to influence
+    global products
   use_cases:
-  - Enabling efficient execution of machine learning models on GPU hardware
-  - Compiler optimization for deep learning and AI workloads
-  - Code generation for ML systems and embedded platforms
-  - Supporting reinforcement learning and predictive modeling through compiler infrastructure
-  - Optimizing ML model deployment in production and embedded systems
+  - ML-guided compiler optimization and code generation
+  - GPU acceleration of machine learning and deep learning workloads
+  - AI-enhanced compilers and developer tools
+  - AI/ML solutions deployed to embedded systems
+  - Predictive modeling and high-dimensional data analysis for compiler and system
+    optimization
   skills:
-    domains: []
+    cloud: []
     languages: [Python, C++, Julia, Lisp/Scheme]
-    ml: [Reinforcement Learning, Deep Learning]
-    cloud: [GPU Architecture]
-    genai: []
-    data: []
-    other: [Compiler Design, Code Generation, Optimization Passes]
-    ops: [LLVM]
-    web: []
+    ml: [Machine Learning, Reinforcement Learning, Genetic/Evolutionary Algorithms,
+      Predictive Modeling, Deep Learning]
+    other: [Compilers, Code Generation, GPU Architecture, LLVM, Domain-Specific Languages,
+      Embedded Systems]
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9161024'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:55:54.849319'
+  extracted_at: '2026-08-16T09:12:09.320293'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,51 @@
+company:
+  name: vCluster
+  stage: Venture-backed startup, raised $30M+
+  focus: |-
+    Kubernetes virtualization and GPU infrastructure platform
+    for AI
+position:
+  title: AI Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys and troubleshoots GPU/Kubernetes
+      infrastructure for customers; it does not shape any model's
+      behavior through prompts, retrieval, fine-tuning, or evals.
+      AI/LLM serving and GPU scheduling appear only as bonus-point
+      familiarity, and serving models others build is ai-support.
+  responsibilities:
+  - Lead end-to-end technical deployments for GPU neocloud and AI Factory customers
+    from bare metal to validated vCluster environments
+  - Configure and troubleshoot bare metal GPU node infrastructure including CNI, GPU
+    Operator, distributed storage backends, and RDMA/InfiniBand
+  - Deploy and validate Kubernetes and vCluster to deliver GPU-powered managed Kubernetes
+  - Work alongside customer teams for knowledge transfer and self-sufficiency
+  - Document reusable playbooks and deployment architectures for future customers
+  - Collaborate with Engineering and Product to feed field challenges into the roadmap
+  - Join pre-sales processes as deep technical support for proof-of-value engagements
+  use_cases:
+  - Managed Kubernetes on bare metal GPU infrastructure for neoclouds
+  - AI Factory internal platform enablement for GPU-intensive workloads
+  - GPU cluster validation and proof-of-value deployments
+  - Knowledge transfer and playbook-driven scaling of deployments
+  skills:
+    cloud: []
+    languages: [Bash, Python, Go]
+    ml: [CUDA]
+    other: [RDMA/InfiniBand]
+    ops: [Kubernetes, Docker, Monitoring, Model Deployment, Git]
+    databases: [Ceph]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10474799'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:19:37.884023'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

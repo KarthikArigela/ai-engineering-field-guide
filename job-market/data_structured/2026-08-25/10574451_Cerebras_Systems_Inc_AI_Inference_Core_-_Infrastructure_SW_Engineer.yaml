@@ -1,0 +1,54 @@
+company:
+  name: Cerebras Systems Inc.
+  stage: null
+  focus: AI chips and high-speed inference hardware
+position:
+  title: AI Inference Core - Infrastructure SW Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds internal engineering infrastructure
+      (orchestration, scheduling, test tooling) for Cerebras. It
+      doesn't shape model behaviour - no prompt, retrieval,
+      training, or eval work - it's platform software at an AI
+      company, so ai-support.
+  responsibilities:
+  - Design, develop, test, and maintain Python frameworks and services orchestrating
+    engineering workflows across machines and clusters
+  - Build reusable abstractions for scheduling, distributed execution, resource management,
+    test execution, workflow planning, and failure recovery
+  - Define APIs, module boundaries, extension points, and data models for infrastructure
+    systems
+  - Reason about concurrency, asynchronous execution, multiprocessing, state management,
+    retries, idempotency, and partial failures
+  - Debug complex issues spanning Python applications, operating systems, networking,
+    remote machines, and distributed services
+  - Write high-quality automated tests and documentation for widely reused infrastructure
+  - Partner with platform, CI, release, quality, ML systems, and product engineering
+    teams to translate requirements into scalable designs
+  use_cases:
+  - Engineering workflow orchestration across machines, clusters, and hardware systems
+  - Distributed execution, scheduling, and failure recovery infrastructure
+  - Test infrastructure and developer tooling
+  - Reusable software platforms for building, testing, and qualifying software at
+    scale
+  skills:
+    genai: []
+    ml: []
+    web: [APIs]
+    databases: []
+    data: [Event-Driven Architecture]
+    cloud: []
+    ops: [Kubernetes, Distributed Systems, CI/CD, Monitoring, Model Deployment]
+    languages: [Python, asyncio]
+    domains: []
+    other: [pytest]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10574451'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:45:51.065597'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

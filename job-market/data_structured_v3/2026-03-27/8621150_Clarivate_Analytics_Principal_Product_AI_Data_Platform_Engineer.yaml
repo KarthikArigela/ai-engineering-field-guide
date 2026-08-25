@@ -1,0 +1,61 @@
+company:
+  name: Clarivate Analytics
+  stage: null
+  focus: |-
+    Analytics and data intelligence for Life Sciences and
+    Healthcare
+position:
+  title: Principal Product AI Data Platform Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds AI-ready data platforms, ETL/ELT pipelines,
+      dimensional models, and feature stores that feed AI/ML
+      workloads, but never shapes model behavior itself - no
+      prompt design, retrieval/RAG, fine-tuning, evals, or model
+      selection. Curating datasets and establishing data pipelines
+      for others' machine learning is data plumbing, which
+      classifies as ai-support.
+  responsibilities:
+  - Define and evolve enterprise-level product data architecture across multiple product
+    lines, ensuring scalability, reliability, and AI/ML readiness
+  - Architect scalable ETL/ELT pipelines and distributed data workflows for analytics,
+    AI, and product intelligence
+  - Develop and enforce dimensional data modeling standards including star and snowflake
+    schemas across the organization
+  - Design and maintain fact and dimension tables with proper grain, SCD handling,
+    and hierarchical dimensions
+  - Establish data architecture principles, naming conventions, and best practices
+    for ETL/ELT, event tracking, and AI pipelines
+  - Serve as the technical authority guiding architecture decisions to meet product,
+    platform, and AI requirements
+  - Partner with cross-functional teams to translate requirements into scalable, analytics-
+    and AI-ready data models and pipelines
+  - Curate and validate datasets for machine learning and experimentation, and establish
+    feature store frameworks and reusable AI data pipelines across products
+  use_cases:
+  - AI-ready data platforms for the Life Sciences and Healthcare ecosystem
+  - Enterprise analytics and product intelligence pipelines
+  - Dimensional data warehousing for enterprise reporting and BI
+  - Machine learning dataset curation and feature stores for experimentation
+  - Event-driven data capture aligned with downstream analytics
+  skills:
+    genai: []
+    ml: [Machine Learning]
+    web: [JSON]
+    databases: [Relational Databases, Snowflake, BigQuery]
+    data: [Dimensional Modeling, ETL/ELT, Databricks, dbt, Airflow, Fivetran, Segment,
+      Data Governance]
+    cloud: [AWS, Azure, GCP]
+    ops: [Feature Stores]
+    languages: [SQL, Python]
+    domains: []
+    other: [Event-Driven Architecture, Power BI, Tableau, Looker, SAP BusinessObjects]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8621150'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T03:20:05.249711'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

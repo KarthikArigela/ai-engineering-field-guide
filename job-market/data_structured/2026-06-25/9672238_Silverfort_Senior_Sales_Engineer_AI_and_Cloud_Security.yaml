@@ -9,13 +9,12 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a pre-sales/sales engineering role focused on
-      identity security for AI agents and cloud environments.
-      While it involves deep technical knowledge of securing AI
-      agent identities and cloud workloads, the role is about
-      selling and designing POCs for Silverfort's existing
-      platform — not building, training, or deploying AI/ML
-      models. The work is near AI but not on AI.
+      This is a pre-sales sales engineering role for an identity
+      security platform. The person designs POCs and architectures
+      for securing AI agent identities and cloud identities, but
+      never shapes any model's behavior — no prompt engineering,
+      retrieval design, training, or evals. AI is the thing being
+      secured, not built.
   responsibilities:
   - Serve as the deep technical expert on AI agent security and cloud identity across
     North American account teams
@@ -26,32 +25,37 @@ position:
     across AWS, Azure, and GCP
   - Build repeatable delivery assets including technical guides, demo environments,
     and battle cards for account teams
-  - Partner cross-functionally with AEs, CSMs, and the product team to drive AI and
-    cloud identity wins to close
+  - Partner cross-functionally with AEs, CSMs, and the Silverfort product team to
+    drive AI and cloud identity wins to close
   - Bridge Silverfort's identity platform and the emerging AI and cloud identity threat
     landscape for customers
+  - Establish an AI agent security playbook and measurable wins in cloud identity
+    accounts within the first year
   use_cases:
-  - Securing AI agent identities in cloud environments
-  - Protecting non-human service accounts and API keys
-  - Cloud workload identity protection across AWS, Azure, and GCP
-  - Machine-to-machine authentication security
-  - Mitigating attack surface expansion from AI tooling adoption
+  - Securing identities and access at runtime for humans, machines, and AI agents
+  - Protecting AI agent identities and non-human service accounts in production cloud
+    environments
+  - Securing machine-to-machine authentication across AWS, Azure, and GCP
+  - Protecting cloud workload identities and API keys in automation pipelines
+  - Addressing the expanding attack surface created by AI developer tooling
   skills:
-    domains: [Cloud Identity Security, AI Agent Security, Cybersecurity]
+    cloud: [AWS, Azure, GCP, Microsoft Entra ID, IAM, Okta]
     languages: []
     ml: []
-    cloud: [IAM, Azure AD / Entra ID, GCP IAM, Okta, AWS, Azure, GCP]
-    genai: [Microsoft Copilot, Anthropic API]
-    data: []
-    other: [Pre-sales / Sales Engineering, CISSP, CCSP, Microsoft SC-300, CyberArk
-        Defender, POC Design, MSSP / Channel Partners]
-    ops: []
-    web: []
+    other: [Identity Security, Machine-to-Machine Authentication, CISSP, CCSP, Microsoft
+        SC-300, CyberArk Defender, Okta Professional]
+    ops: [Cursor]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [AI Agents, GitHub Copilot, Anthropic API]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9672238'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:44:43.886602'
+  extracted_at: '2026-08-16T14:03:30.200319'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

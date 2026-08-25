@@ -1,0 +1,63 @@
+company:
+  name: Point72
+  stage: null
+  focus: Global alternative investment management firm
+position:
+  title: IT Operations Engineer (Application Support) - AI & Data Technology
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role runs and supports AI/Data platforms in production:
+      monitoring inference layers, triaging incidents, supporting
+      deployments, and automating ops tasks. It never shapes model
+      behavior (no prompt engineering, retrieval design, fine-
+      tuning, or eval building) — it serves models that other
+      teams build, which per the edge cases is ai-support even
+      with model serving and inference named.
+  responsibilities:
+  - Own day-to-day operational health, high availability, performance, and reliability
+    of compliance-approved AI and Data platforms in production
+  - Monitor AI and Data services, model inference layers, APIs, and data dependencies
+    using logs, metrics, dashboards, and alerts
+  - Provide production-focused user support for AI tools and Data platforms, prioritizing
+    issue resolution
+  - Lead incident triage, coordination, and resolution for platform outages and service
+    degradations, partnering with development and infrastructure teams
+  - Perform deep technical troubleshooting across application, data, and system layers
+  - Enhance observability, alerting, and operational runbooks to reduce MTTD and MTTR,
+    and conduct post-incident root cause analysis with corrective and preventive improvements
+  - Support production deployments, configuration changes, and platform upgrades with
+    strong focus on risk mitigation and stability
+  - Automate repetitive operational tasks and support workflows using Python and scripting
+    tools, collaborating with AI and Data engineering teams to improve platform resilience
+    and supportability
+  use_cases:
+  - Production operations and high availability for AI and Data platforms at an investment
+    firm
+  - Monitoring and incident management for model inference services, APIs, and data
+    dependencies
+  - Production support and troubleshooting of AI tools and Data platforms for internal
+    users
+  - Automation of operational support workflows for platform reliability
+  - Support of Reference/Alternate Data applications
+  skills:
+    genai: []
+    ml: []
+    web: [APIs]
+    databases: [SQL Server]
+    data: [Databricks]
+    cloud: [AWS, Azure]
+    ops: [Windows, Distributed Systems, Model Serving, Inference Pipelines, Incident
+        Management, Observability, Monitoring]
+    languages: [Python, SQL, .NET]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9426220'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T11:14:42.261570'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

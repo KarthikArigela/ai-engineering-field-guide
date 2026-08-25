@@ -1,0 +1,53 @@
+company:
+  name: Chubb
+  stage: null
+  focus: Global insurance company
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds LLM systems directly: agentic
+      workflows, RAG pipelines, prompt/agent design, and retrieval
+      evaluation — clearly shaping model behavior and output
+      quality. LLMs and agents are central, so ai-first.
+  responsibilities:
+  - Lead design and build of end-to-end generative AI applications using LangGraph,
+    including agentic workflows, RAG pipelines, and LLM-integrated services
+  - Define architecture for scalable, secure, and maintainable production AI solutions
+  - Develop backend APIs with FastAPI, containerized with Docker and deployed on Kubernetes
+    (AKS)
+  - Architect search and retrieval solutions using Azure AI Search and MongoDB, including
+    indexing strategies and hybrid search configurations
+  - Integrate with Azure OpenAI and the broader Azure/Databricks data platform
+  - Evaluate and improve model quality, retrieval strategies, prompt and agent design,
+    and production performance
+  - Mentor junior engineers and contribute to AI engineering standards and best practices
+  - Partner with business and technical leaders to shape AI roadmaps
+  use_cases:
+  - Underwriting decision support and automation
+  - Claims processing and automation
+  - Customer service AI solutions
+  - Risk assessment across the insurance lifecycle
+  - Enterprise retrieval and search over insurance data
+  skills:
+    cloud: [Azure, AKS, Azure AI Search]
+    languages: [Python]
+    ml: []
+    other: [Responsible AI]
+    ops: [Docker, Kubernetes]
+    databases: [MongoDB, NoSQL]
+    domains: []
+    web: [FastAPI, REST APIs]
+    data: [Databricks, PySpark, Data Pipelines]
+    genai: [LangGraph, LangChain, Agentic Workflows, RAG, LLMs, Azure OpenAI, OpenAI
+        API, Anthropic API, Generative AI, Prompt Engineering, LLM Evaluation, Function
+        Calling, Vector Search]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10067101'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:27:59.936621'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

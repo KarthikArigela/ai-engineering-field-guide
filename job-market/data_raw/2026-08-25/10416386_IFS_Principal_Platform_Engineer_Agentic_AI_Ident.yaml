@@ -1,0 +1,195 @@
+job_id: 10416386
+title: "Principal Platform Engineer || Agentic AI || Identity and Access Management"
+company: IFS
+location: Staines-upon-Thames, GBR
+remote: true
+work_type: FULL_TIME
+company_size: 6,788 Employees
+description: |
+  Company Description
+
+  At IFS, we're building the next generation of AI-native
+  enterprise software, transforming how some of the world's
+  largest organisations manage assets, operations and critical
+  services.
+
+  This is an opportunity to work at the forefront of modern AI
+  engineering, building intelligent products that combine
+  Large Language Models (LLMs), agentic AI and cloud-native
+  technologies to solve complex, real-world business
+  challenges at enterprise scale.
+
+  We're looking for engineers who are passionate about
+  building production AI systems and excited by the
+  opportunity to shape the future of enterprise software.
+
+  Please note that this role requires demonstrable, hands-on
+  experience designing, building and shipping production AI
+  applications.
+
+  Candidates whose AI experience is limited to using tools
+  such as ChatGPT, Claude, Cursor or GitHub Copilot to assist
+  software development, without demonstrable experience
+  building AI-powered products or systems, will not meet the
+  requirements for this role.
+
+  IFS is a billion-dollar revenue company with 7000+ employees
+  on all continents. We deliver award-winning enterprise
+  software solutions through the use of embedded digital
+  innovation and a single cloud-based platform to help
+  businesses be their best when it really matters–at the
+  Moment of Service™.
+
+  At IFS, we're flexible, we're innovative, and we're focused
+  not only on how we can engage with our customers, but on how
+  we can make a real change and have a worldwide impact. We
+  help solve some of society's greatest challenges, fostering
+  a better future through our agility, collaboration, and
+  trust.
+
+  We celebrate diversity and accept that there are so many
+  different perspectives in this world. As a truly
+  international company serving people from around the globe,
+  we realize that our success is tantamount to the respect we
+  have for those different points of view.
+
+  By joining our team, you will have the opportunity to be
+  part of a global, diverse environment; you will be joining a
+  winning team with a commitment to sustainability; and a
+  company where we get things done so that you can make a
+  positive impact on the world.
+
+  We're looking for innovative and original thinkers to work
+  in an environment where you can #MakeYourMoment so that we
+  can help others make theirs.
+
+  If you want to change the status quo, we'll help you make
+  your moment. Join Team Purple. Join IFS.
+
+  Job Description
+
+  As Principal Platform Engineer - Identity & Access
+  Management, you will be the technical authority on
+  authorisation (AuthZ) and authentication (AuthN) across the
+  Kairos and Nexus platforms. You will architect, engineer,
+  and operate enterprise-scale identity and access solutions
+  that secure the IFS platform while remaining frictionless
+  for the developers and end-users who rely on them.
+
+  This is one of two Principal Platform Engineers being hired
+  into the Identity & Access Management domain, with a strong
+  emphasis on unifying authorisation across IFS hosting
+  environments. The authorisation problem is complex and high-
+  stakes: it must work consistently across Nexus, F1, and LEC,
+  it must scale to enterprise, multi-tenant workloads, and it
+  is currently a blocker for NGA (Kairos) adoption. You will
+  work directly with the team building this today (the
+  Authorisation subdomain under Udayanga Silva) and own the
+  technical outcome.
+
+  This is a hands-on engineering role with significant
+  architectural scope. You will design and implement IAM
+  patterns that are adopted as standards across IFS, and you
+  will work closely with platform, product, and security teams
+  to ensure identity and access are enablers, not bottlenecks.
+
+  - Architect and engineer the unified, enterprise-scale
+    authorisation platform across Nexus, F1, and LEC, built on
+    SpiceDB
+  - Design and implement fine-grained authorisation models:
+    relationship-based access control (ReBAC / Zanzibar-
+    inspired), alongside RBAC and ABAC where appropriate
+  - Model authorisation schemas, relationships, and permission
+    checks that are correct, performant, and maintainable at
+    scale
+  - Own the operation of the authorisation engine: SpiceDB on
+    PostgreSQL, including the migration to cloud-native
+    Postgres (CNPG) and blue-green deployment support
+  - Build the authorisation APIs and SDKs that product teams
+    consume, making correct access control the path of least
+    resistance
+  - Architect and engineer enterprise-scale AuthN solutions, and
+    own the implementation, configuration, and operation of
+    identity provider infrastructure, specifically Curity
+    and/or Keycloak
+  - Implement and enforce OAuth 2.0, OpenID Connect (OIDC), and
+    SAML patterns at scale, including token lifecycle
+    management and claims-based authorisation
+  - Define IAM patterns, standards, and golden paths for product
+    teams to implement securely and consistently
+  - Integrate identity and access services with the Internal
+    Developer Platform (IDP) to enable self-service
+    authentication and authorisation configuration
+  - Provide subject-matter expertise on identity and access
+    security to product teams, architects, and security
+    stakeholders
+  - Maintain platform identity and access service reliability,
+    performance, and security posture
+  - Contribute to the broader platform engineering roadmap with
+    an identity-and-access-first perspective
+
+  Qualifications
+
+  Authorisation (Must Have)
+
+  - Architecting and engineering fine-grained authorisation
+    systems at production scale, in distributed, multi-tenant
+    environments
+  - Hands-on production experience with a relationship-based /
+    policy-based authorisation engine, ideally SpiceDB (or
+    comparable Zanzibar-inspired systems such as OpenFGA, Ory
+    Keto, or equivalent)
+  - Deep, practical knowledge of authorisation models:
+    relationship-based access control (ReBAC), role-based
+    (RBAC), and attribute-based (ABAC), and knowing when to
+    apply each
+  - Experience designing authorisation schemas and permission
+    models, and reasoning about correctness, latency, and
+    consistency at scale
+  - Familiarity with policy-as-code approaches and tooling (OPA
+    / Rego, Cedar, or equivalent)
+  - Understanding of the operational side: running the
+    authorisation engine in production, backed by PostgreSQL,
+    with observability and traceability of authorisation
+    decisions
+
+  Authentication (Must Have)
+
+  - Architecting and engineering enterprise-scale AuthN
+    solutions, demonstrated at production scale
+  - Hands-on production experience with Curity and/or Keycloak:
+    configuration, customisation, operations, and integration
+  - Deep, practical knowledge of OAuth 2.0, OpenID Connect
+    (OIDC), SAML 2.0, and token-based authentication patterns
+    (JWT, opaque tokens, token introspection)
+  - Experience with enterprise identity federation, SSO, and
+    directory integration (LDAP, Active Directory)
+
+
+
+  - Strong hands-on engineering capability across the NGA stack,
+    or the ability to get there fast:
+    - Backend: Go
+    - Messaging / Streaming: Apache Kafka / RedPanda
+    - Data: PostgreSQL
+  - Comfortable operating in a cloud-native environment:
+    Kubernetes (AKS), containers, GitOps, Infrastructure as
+    Code
+  - Event-driven and distributed systems architecture
+  - Secure coding practices and security-by-design principles
+
+  Additional Information
+
+  We embrace flexibility and hybrid work opportunities to
+  support diverse needs and lifestyles, while also valuing
+  inclusive workplace experiences. By fostering a sense of
+  community, we drive innovation, strengthen connections, and
+  nurture belonging. Our commitment ensures you can work in a
+  way that suits you best, while also engaging with colleagues
+  to share ideas and build meaningful relationships.
+industries:
+  - Information Technology
+  - Software
+posted_date: 2026-08-23
+url: "https://builtin.com/job/principal-platform-engineer-agentic-ai-identity-and-access-management/10416386"
+source: Built In

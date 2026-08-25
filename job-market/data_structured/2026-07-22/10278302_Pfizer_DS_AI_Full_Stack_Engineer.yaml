@@ -1,51 +1,58 @@
 company:
   name: Pfizer
-  stage: Public
-  focus: Pharmaceuticals and healthcare
+  stage: null
+  focus: Global pharmaceutical company commercial AI solutions
 position:
   title: DS & AI Full Stack Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building GenAI and Agentic AI
-      applications using OpenAI, Gemini, Bedrock, LangGraph,
-      LangChain, and Vector DBs as a core responsibility within
-      the AI Acceleration function. The position requires full-
-      stack engineering with hands-on development of end-to-end AI
-      solutions, including designing, productionizing, and
-      deploying them.
+      This is a hands-on full-stack software engineering role
+      where responsibilities center on building, integrating,
+      deploying, and maintaining end-to-end software products
+      along with DevOps and MLOps practices. Gen AI and Agentic AI
+      experience (OpenAI, Gemini, Bedrock, LangGraph, LangChain)
+      is named only as "an added advantage" — a nice-to-have —
+      with no indication the person shapes model behavior,
+      prompts, or retrieval themselves. Per the edge-case rules,
+      AI named as a bonus qualifies as ai-support.
   responsibilities:
-  - Develop complex end-to-end software products from system design through productionization
-    and deployment
-  - Collaborate with front-end and backend engineers to integrate workflows end-to-end
-  - Build GenAI and Agentic AI applications using LLM technologies and frameworks
-  - Implement engineering best practices including QA, risk management, CI/CD, and
-    MLOps
-  - Work with cross-functional teams including Product Owners, Data Scientists, and
-    UI/UX Developers to deliver production solutions
-  - Develop features and fix bugs in an agile manner following the product roadmap
+  - Develop complex end-to-end software products, participating from system design
+    through productionizing and deployment
+  - Prototype code and participate in code reviews, and help manage the process by
+    which code is delivered
+  - Work closely with front-end and backend engineers to integrate workflows end-to-end
+  - Develop features and fix bugs defined by the product roadmap, working in an agile
+    manner
+  - Implement best practices for engineering standards, QA/risk management, CI/CD,
+    and MLOps
+  - Collaborate with a cross-functional team of Product Owners, Data Scientists, Product
+    Designers, UI/UX Developers, and business stakeholders to build production solutions
   - Proactively identify and resolve potential system issues
-  - Communicate complex technical concepts to both technical and business stakeholders
+  - Communicate complex technical concepts and insights to stakeholders and help colleagues
+    grow
   use_cases:
-  - Commercial AI capabilities for pharmaceutical marketing and sales processes
-  - Agentic AI applications for business workflow automation
-  - GenAI-powered solutions for commercial analytics and medical content workflows
-  - Enterprise AI solutions simplifying cross-functional business processes at Pfizer
+  - Production-grade AI solutions that simplify commercial operations across Pfizer
+  - Gen AI and agentic AI applications built on LLM providers and vector search
+  - End-to-end enterprise software products from design to production deployment
+  - Commercial analytics and scientific knowledge workflows in a pharmaceutical context
+  - Data engineering and ETL pipelines supporting AI solutions
   skills:
-    genai: [OpenAI API, Gemini, AWS Bedrock, LangGraph, LangChain, Embeddings, Agentic
-        Workflows]
+    cloud: [AWS, Azure, GCP, AWS Bedrock]
+    languages: [Python, JavaScript, .NET, Java]
     ml: []
-    web: []
-    databases: [Vector Databases, Oracle, Relational Databases]
-    data: [PySpark, ETL, Databricks]
-    cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, CI/CD, MLOps, DevSecOps]
-    languages: [Python, JavaScript, Java, .NET, SQL]
+    other: [Agile, Code Review, GxP, HIPAA Compliance]
+    ops: [DevOps, DevSecOps, Docker, Kubernetes, CI/CD, MLOps]
+    databases: [Oracle, Relational Databases, Vector Databases]
     domains: []
-    other: [Agile, HIPAA Compliance]
+    web: []
+    data: [PySpark, Data Pipelines, Databricks, Azure Data Fabric]
+    genai: [Generative AI, AI Agents, OpenAI API, Gemini, LangGraph, LangChain, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10278302'
   location: Mumbai, IND
-  extracted_at: '2026-07-22T13:38:25.842084'
+  extracted_at: '2026-08-16T18:26:21.938228'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

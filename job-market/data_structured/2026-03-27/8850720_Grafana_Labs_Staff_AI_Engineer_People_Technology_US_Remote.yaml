@@ -1,60 +1,66 @@
 company:
   name: Grafana Labs
-  stage: Series C+
-  focus: |-
-    Open-source observability and monitoring platform with
-    Grafana LGTM Stack
+  stage: null
+  focus: Open-source observability and visualization software
 position:
   title: Staff AI Engineer, People Technology | US | Remote
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves architecting and implementing AI-driven
-      solutions including LLM-based systems, AI-powered workflows,
-      agents, and prompt engineering standards. The position
-      requires hands-on work building AI systems that operate on
-      People data, including defining prompt engineering standards
-      and evaluation frameworks for LLM-based systems. This is
-      direct work ON AI systems, not support work.
+      The role designs AI agents and workflows, defines prompt
+      engineering standards, and builds evaluation and monitoring
+      frameworks for LLM-based systems operating on People data,
+      which is directly shaping model behavior. OpenAI, Gemini,
+      and Claude LLM platforms are central to the work, so it is
+      ai-first rather than ml-first.
   responsibilities:
-  - Design and build AI-powered workflows, agents, and analytics tools that transform
-    People data into actionable insights
-  - Architect solutions leveraging BigQuery integrating platforms like Workday, Greenhouse,
-    Docebo, Tangelo, and Salesforce
+  - Design and build AI-powered workflows, agents, and analytics tools that turn People
+    data into actionable insights and reduce manual processes
+  - Architect solutions using BigQuery as the central data layer, integrating Workday,
+    Greenhouse, Docebo, Tangelo, Salesforce, and other internal systems
+  - Define prompt engineering standards, version control practices, and evaluation
+    frameworks for LLM-based systems operating on People data
   - Establish CI/CD pipelines, testing frameworks, and observability standards for
     AI systems and automated workflows
-  - Define prompt engineering standards, version control practices, and evaluation
-    frameworks for LLM-based systems
-  - Build internal dashboards, AI assistants, or automated workflows supporting reporting
-    and operational efficiency
-  - Design systems with anonymization, aggregation, and robust access controls for
-    sensitive employee data
-  - Establish governance standards for AI models, prompts, and automation workflows
-    ensuring compliance
-  - Partner with Data Engineering and cross-functional teams to align data architecture
-    and AI capabilities
+  - Design systems that securely handle sensitive employee data using anonymization,
+    aggregation, and access controls, and set governance standards for AI models,
+    prompts, and automation workflows
+  - Build internal dashboards, AI assistants, and automated workflows that support
+    reporting, insights, and operational efficiency
+  - Partner with People Operations, Talent, Data Engineering, IT, Security, Finance,
+    and GTM teams to translate business problems into scalable technical solutions
+  - Set technical direction for People AI architecture, mentor engineers, and create
+    training materials and playbooks so People teams can build and run AI-assisted
+    workflows independently
   use_cases:
-  - People analytics and workforce intelligence from HR data
-  - Automated workflows for hiring, onboarding, and employee development
-  - AI assistants and copilots for People Operations teams
-  - Data-driven insights for workforce planning and talent decisions
-  - Operational efficiency automation across People systems
+  - AI-powered analytics and automation across People/HR data ecosystems (Workday,
+    Greenhouse, BigQuery)
+  - Employee lifecycle support across recruiting, onboarding, development, engagement,
+    and workforce planning
+  - Internal AI assistants and dashboards for reporting and decision support for People
+    leaders
+  - Automation of manual People Team processes to improve operational efficiency
+  - Responsible AI handling of sensitive employee data with anonymization, access
+    controls, and governance
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [GCP]
-    genai: [OpenAI API, Gemini, Anthropic API, LLM platforms, Prompt Engineering,
-      AI Agents]
-    data: [Data Pipelines, Data Modeling]
-    other: [Workday, Greenhouse, Salesforce, Workflow Automation]
-    ops: [CI/CD]
-    web: [REST APIs]
+    languages: [Python, SQL]
+    ml: [Machine Learning]
+    other: [Responsible AI, Workday, Greenhouse, Docebo, Tangelo, Salesforce, n8n,
+      Zapier, Workato, Zenphi, Make]
+    ops: [CI/CD, Observability, Monitoring]
     databases: [BigQuery]
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Modeling, Data Engineering, Data Governance]
+    genai: [Prompt Engineering, LLMs, AI Agents, LLM Evaluation, OpenAI API, Gemini,
+      Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8850720'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T14:30:08.789247'
+  extracted_at: '2026-08-16T05:06:06.501315'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

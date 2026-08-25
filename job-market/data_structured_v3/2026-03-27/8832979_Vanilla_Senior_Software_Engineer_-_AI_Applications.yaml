@@ -1,0 +1,58 @@
+company:
+  name: Vanilla
+  stage: startup
+  focus: AI-powered estate advisory and planning platform
+position:
+  title: Senior Software Engineer - AI Applications
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds applied applications on top of existing LLMs
+      and directly shapes model behavior and output quality: fine-
+      tuning, RAG, LLM orchestration, agentic workflows, and
+      building evaluation and inference-serving tooling. Step 1 is
+      satisfied with a clear LLM component, so the role is ai-
+      first even though it is framed as a software-engineer-first
+      position.
+  responsibilities:
+  - Build applied AI applications using existing Large Language Models, focused on
+    producing high accuracy rates, and construct services to ingest structured results
+  - Build models and services that ingest data, extract key information, and surface
+    insights
+  - Drive technical vision, leveraging open source technologies and cloud services
+    to build an AI/ML platform
+  - Build tooling to support model training, evaluation, inference serving, monitoring,
+    and alerting
+  - Develop new model training pipelines using the latest ML frameworks and open source
+    tools
+  - Build and maintain scalable microservices and integrate with backend services
+    and APIs
+  - Extract, transform, and load data from disparate sources into a centralized system,
+    normalizing, cleansing, and validating it
+  - Design and implement database schemas, optimize queries, and manage database performance
+  use_cases:
+  - Automating and streamlining estate planning workflows with applied LLM applications
+  - Extracting key information from ingested data to surface insights for advisors
+  - Scenario modeling and client visualization for wealth transfer planning
+  - AI-powered document creation for estate planning
+  skills:
+    genai: [LLMs, OpenAI API, Anthropic API, LangChain, LangGraph, RAG, Agentic Workflows,
+      Fine-Tuning, LLM Evaluation, LLM Orchestration]
+    ml: [Machine Learning, Model Training, NLP]
+    web: [Microservices, APIs]
+    databases: [Database Management]
+    data: [ETL]
+    cloud: []
+    ops: [Model Deployment, Monitoring, Observability]
+    languages: [Python, JavaScript, Go, Rust]
+    domains: []
+    other: [SaaS]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8832979'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T04:54:04.978800'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

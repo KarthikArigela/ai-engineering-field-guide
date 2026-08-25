@@ -1,0 +1,67 @@
+company:
+  name: Health Catalyst
+  stage: null
+  focus: Healthcare performance improvement via data and analytics
+position:
+  title: Site Reliability Engineer- AI Enablement
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role is an enablement and advisory position: it trains
+      engineering teams on AI tooling, reviews AI architectures
+      through a central intake process, and supports the AI
+      governance framework. The description explicitly states
+      hands-on coding is not a primary responsibility and frames
+      the person as a "trusted partner and advisor" helping other
+      teams build AI systems, so the deliverable is organizational
+      adoption and reliability, not directly shaping model
+      behavior.
+  responsibilities:
+  - Train and coach engineering teams on integrating AI into development workflows,
+    including AI-assisted coding tools, prompt engineering practices, and agentic
+    development patterns
+  - Evaluate AI system architectures submitted through the Central AI intake process,
+    providing guidance on integration patterns, reliability risks, observability gaps,
+    and governance alignment
+  - Serve as a technical resource for the organization's AI governance framework,
+    helping teams apply policies on model access, data handling, risk tiers, and responsible
+    AI use
+  - Partner with engineering teams during design and implementation of AI projects,
+    offering hands-on guidance on LLM integration, RAG pipelines, agentic architectures,
+    and AI service patterns
+  - Bring an SRE perspective to AI systems by advising on observability, SLOs, failure
+    modes, and operational readiness, and participate in incident calls as an AI subject
+    matter expert
+  - Develop internal standards, reference architectures, and reusable patterns that
+    make it easier for teams to build AI systems correctly
+  - Collaborate with product managers, data scientists, security, and compliance stakeholders
+    to ensure AI implementations meet organizational, regulatory, and clinical requirements
+  - Maintain documentation of AI architecture patterns, governance guidance, and review
+    decisions to support knowledge sharing
+  use_cases:
+  - AI-assisted coding and agentic development workflows for engineering teams
+  - LLM integration, RAG pipelines, and agentic architectures across healthcare analytics
+    products
+  - Reliable and observable AI-powered services supporting healthcare applications
+  - Responsible and governed AI adoption across a healthcare data and analytics platform
+  skills:
+    genai: [Prompt Engineering, LLMs, RAG, Agentic Workflows, LangChain, LlamaIndex,
+      Semantic Kernel, Anthropic API, AI Evaluation, Red-Teaming]
+    ml: []
+    web: []
+    databases: []
+    data: [Databricks]
+    cloud: [Azure, AWS, Azure AI Foundry]
+    ops: [Docker, Kubernetes, CI/CD, Observability, Datadog, Grafana, OpenTelemetry]
+    languages: []
+    domains: []
+    other: [Responsible AI, AI Governance, FHIR, HL7v2, CDA, EMR, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10091099'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T16:49:41.485790'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

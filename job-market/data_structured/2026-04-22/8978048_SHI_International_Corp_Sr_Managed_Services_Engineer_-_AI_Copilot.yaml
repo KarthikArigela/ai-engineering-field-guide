@@ -1,58 +1,61 @@
 company:
   name: SHI International Corp.
-  stage: Public
+  stage: ''
   focus: Global provider of IT solutions and managed services
 position:
   title: Sr. Managed Services Engineer - AI & Copilot
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves designing and operationalizing
-      Azure OpenAI solutions, implementing RAG patterns, building
-      Copilot Studio solutions, and configuring AI
-      governance/security controls. The engineer works hands-on
-      with AI models, embeddings, prompting, and RAG
-      architectures, making it an ai-first role despite being
-      within a managed services context.
+      The role designs and operationalizes Azure OpenAI solutions
+      involving prompting, embeddings, RAG patterns, and
+      evaluation, which directly shapes LLM behaviour and output
+      quality, and builds Copilot Studio agents and workflows.
+      Copilot readiness/enablement work is secondary, but the core
+      pillar involves designing retrieval, prompts, and evals for
+      LLM-based systems, so the role is ai-first.
   responsibilities:
-  - Design, build, and support AI and Copilot solutions using Microsoft platform services
-    for internal and customer purposes
-  - Deliver Microsoft Copilot readiness and enablement including identity, data, security,
+  - Design, build, support, and manage AI and platform solutions within customers'
+    managed environments under SHI's management
+  - Deliver Microsoft Copilot readiness and enablement covering identity, data, security,
     governance, licensing, and adoption
   - Design and operationalize Azure OpenAI and applied AI solutions including prompting,
     embeddings, RAG patterns, and evaluation
   - Build and maintain Copilot Studio solutions, integrations, and automation workflows
   - Implement AI governance, logging/monitoring, and security controls aligned to
     Responsible AI principles
-  - Manage and configure platform infrastructures, applications, and collaboration
-    tools
-  - Monitor and diagnose performance issues to ensure optimal system performance across
-    supported platforms
-  - Mentor and train lower tier engineering employees and serve as an escalation point
-    for complex incidents
+  - Monitor, diagnose, and optimize platform performance and standardize processes
+    via SOPs and documentation
+  - Engage directly with customers through status updates, change requests, meetings,
+    incident responses, and project delivery; assist with SOW scoping
+  - Mentor and train lower-tier engineers and service desk staff and serve as an escalation
+    point for complex incidents
   use_cases:
-  - Microsoft 365 Copilot readiness, enablement, and adoption for enterprise customers
-  - Azure OpenAI solution design and deployment including RAG architectures
-  - Copilot Studio custom solution development and workflow automation
-  - AI governance, security, and compliance monitoring for managed platforms
-  - Managed IT services with AI-powered platform optimization
+  - Managed services delivery of AI and Copilot solutions in customer environments
+  - Microsoft 365 Copilot adoption and readiness for enterprise customers
+  - Custom AI assistants and automation built on Azure OpenAI and Copilot Studio
+  - RAG-based applied AI solutions on Azure
+  - AI governance, monitoring, and security for managed platforms
   skills:
-    domains: []
+    cloud: [Azure]
     languages: [Python, PowerShell]
     ml: []
-    cloud: ['Azure core services (identity, networking, storage, compute)']
-    genai: [Microsoft Copilot (M365), Copilot Studio, Azure OpenAI, Prompt Engineering,
-      Embeddings, RAG]
-    data: []
-    other: [ITIL, Responsible AI principles]
-    ops: [Git, Azure DevOps, CI/CD, Docker/Containerization, Kubernetes, IT Glue,
-      Autotask, DattoRMM]
-    web: []
+    other: [IT Glue, Autotask, DattoRMM, ITIL, Responsible AI, Microsoft Extensibility
+        Patterns]
+    ops: [Git, Azure DevOps, CI/CD, Infrastructure Automation, Containerization, Kubernetes,
+      Monitoring]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Microsoft Copilot, Copilot Studio, Azure OpenAI, RAG, Embeddings, Prompt
+        Engineering, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8978048'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:24:31.287660'
+  extracted_at: '2026-08-16T06:46:34.997762'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

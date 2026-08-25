@@ -1,0 +1,49 @@
+company:
+  name: Global Software Solutions Group
+  stage: null
+  focus: Software solutions for banking and fintech clients
+position:
+  title: Senior Backend Engineer - Node.js/TypeScript (AI Integration)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and tunes RAG pipelines (chunking,
+      embedding, retrieval) and applies agentic workflow patterns
+      with LangChain/LangGraph, directly shaping LLM behavior in
+      production. This is more than consuming an AI API.
+  responsibilities:
+  - Design, build, and maintain scalable backend services using Node.js and TypeScript
+  - Integrate LLMs and AI services into production systems using Azure OpenAI, OpenAI
+    API, or AWS Bedrock
+  - Build and optimize RESTful APIs and data layers across PostgreSQL, Redis, and
+    MongoDB
+  - Implement RAG pipelines using vector databases, covering chunking, embedding,
+    and retrieval tuning
+  - Write and maintain automated tests using Jest and Playwright as part of CI
+  - Deploy and operate services on Azure and/or AWS
+  - Apply agentic workflow patterns using LangChain or LangGraph where appropriate
+  use_cases:
+  - Banking and fintech backend systems for UAE clients
+  - LLM-powered production services with real SLAs
+  - Retrieval-augmented search over enterprise data
+  - Data pipelines integrating AI models and APIs
+  skills:
+    genai: [LLMs, Azure OpenAI, OpenAI API, RAG, Embeddings, Agentic Workflows, LangChain,
+      LangGraph]
+    ml: []
+    web: [REST APIs, Express.js, Playwright]
+    databases: [PostgreSQL, Redis, MongoDB, Vector Databases]
+    data: []
+    cloud: [AWS Bedrock, Azure, AWS]
+    ops: [CI/CD]
+    languages: [Node.js, TypeScript]
+    domains: []
+    other: [Jest]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10793722'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T11:53:21.794394'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

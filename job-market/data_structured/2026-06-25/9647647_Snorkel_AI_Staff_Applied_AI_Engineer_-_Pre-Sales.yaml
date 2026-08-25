@@ -1,52 +1,56 @@
 company:
   name: Snorkel AI
-  stage: Series B+ (well-funded, scaling rapidly)
-  focus: AI data development platform for enterprise
+  stage: null
+  focus: Enterprise AI data development platform
 position:
   title: Staff Applied AI Engineer - Pre-Sales
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a pre-sales Applied AI Engineer role that requires
-      hands-on building of GenAI solutions including RAG systems,
-      fine-tuning workflows, agentic architectures, and evaluation
-      pipelines for customer pilots and demos. While customer-
-      facing, the engineer directly designs and prototypes AI
-      systems rather than just supporting infrastructure for other
-      AI teams.
+      This pre-sales role builds demos and pilots that directly
+      shape LLM behavior: designing RAG systems, prompt
+      engineering strategies, agentic architectures, fine-tuning
+      workflows, and evaluation pipelines for customer use cases.
+      Since LLM/agent components are central to the work, it is
+      ai-first. It is also explicitly customer-facing, but Forward
+      Deployed/pre-sales AI engineers who adapt and build these
+      solutions are ai-first.
   responsibilities:
   - Partner with Sales and AI Solution Practice Leaders to shape technical strategy,
-    win evaluations, and ensure seamless transition to delivery
-  - Lead structured technical discovery engagements to understand business objectives,
-    data landscape, architectural constraints, and organizational readiness
-  - Translate discovery findings into well-defined GenAI solution architectures demonstrating
-    technical feasibility and business impact
-  - Design, build, and deliver bespoke demos including evaluation pipelines, RAG systems,
-    fine-tuning workflows, prompt engineering, and agentic architectures
-  - Author custom proposals, Statements of Work, and RFP/RFI responses ensuring scope
-    clarity and architectural soundness
+    win technical evaluations, and ensure seamless handoff to post-sales delivery
+  - Lead structured technical discovery engagements with prospects covering business
+    objectives, success criteria, data landscape, and architectural and security constraints
+  - Translate discovery findings into well-defined GenAI solution architectures that
+    demonstrate technical feasibility and business impact
+  - Design, build, and deliver bespoke demos including evaluation pipelines, dataset
+    strategy, RAG systems, fine-tuning workflows, prompt engineering strategies, and
+    agentic architectures
+  - Author custom proposals, Statements of Work, and RFP/RFI responses with clear
+    scope, architectural soundness, and realistic effort estimates
   - Capture reusable patterns from bespoke demos and evolve them into reference architectures,
     benchmarks, and internal solution playbooks
-  - Collaborate with delivery teams during initial implementation to ensure smooth
-    handoff and expectation alignment
+  - Collaborate with delivery teams during initial implementation and surface field
+    insights to inform product and research roadmap
+  - Travel up to 25% annually
   use_cases:
-  - Retrieval-augmented generation (RAG) systems for enterprise knowledge access
-  - Fine-tuning and adapting LLMs for domain-specific use cases
-  - Agentic AI architectures for automated business workflows
-  - Predictive ML solutions for enterprise data problems
-  - Synthetic data curation and evaluation workflows for AI quality assurance
-  - Custom AI solutions across financial, scientific, engineering, and media domains
+  - Customer-specific GenAI and ML demos and pilots
+  - Retrieval-augmented generation systems for enterprise data
+  - Fine-tuned and prompt-engineered models for specialized business use cases
+  - Agentic AI architectures for customer workflows
+  - Model evaluation pipelines and benchmarks for proof-of-value engagements
+  - Classical/predictive ML solutions built on enterprise data
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Fine-Tuning, scikit-learn]
     cloud: []
-    genai: [RAG, Prompt Engineering, LLMs, Agent Authoring]
-    data: [Spark, Pandas, Data Processing, Synthetic Dataset Curation]
-    other: [Pre-sales / Solutions Engineering, Statement of Work Authoring]
-    ops: [Evaluation Pipelines]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, scikit-learn]
+    other: []
+    ops: []
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Synthetic Data, Pandas, Spark]
+    genai: [LLMs, RAG, LLM Evaluation, Agentic Workflows, Fine-Tuning, Prompt Engineering,
+      Generative AI]
   is_customer_facing: true
   is_management: false
 meta:
@@ -57,4 +61,6 @@ meta:
   - New York, USA
   - San Francisco, USA
   remote: true
-  extracted_at: '2026-06-25T19:48:57.834824'
+  extracted_at: '2026-08-16T13:46:28.399873'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

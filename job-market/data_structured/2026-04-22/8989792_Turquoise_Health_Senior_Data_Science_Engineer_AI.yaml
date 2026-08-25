@@ -1,54 +1,58 @@
 company:
   name: Turquoise Health
   stage: Series C
-  focus: Price transparency platform for healthcare finance leaders
+  focus: |-
+    Healthcare price transparency platform for enterprise
+    finance leaders
 position:
   title: Senior Data Science Engineer, AI
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is primarily a data engineering position focused
-      on building data pipelines, data models, and data
-      infrastructure that support AI use cases. While it requires
-      familiarity with AI tooling (OpenAI APIs, vector DBs, RAG),
-      the core responsibilities center on data
-      engineering—unifying datasets, building ingestion pipelines,
-      and creating analytics-ready data models—rather than
-      directly building, training, fine-tuning, or deploying AI/ML
-      models.
+      Although the responsibilities center on data engineering,
+      the role explicitly requires designing embedding workflows,
+      RAG architectures, and vector-database retrieval, plus
+      implementing evaluation strategies and monitoring
+      (hallucination mitigation, eval frameworks, feedback loops)
+      for LLM-based systems. Designing retrieval and building LLM
+      output-quality evals is shaping model behaviour, and all AI
+      components involved are LLM-based, so the role is ai-first.
   responsibilities:
   - Work cross-functionally with Product and subject matter experts to conceptualize,
     prototype, and build data solutions
-  - Unify and augment multi-source healthcare datasets (claims, contract rates, demographics)
-    into high-quality analytics-ready data models
-  - Build and maintain data engineering systems that support AI use cases including
-    scalable ingestion pipelines and feature generation
+  - Unify and augment multi-source healthcare datasets such as claims, contract rates,
+    and demographics into analytics-ready data models powering internal and external
+    products
+  - Build and maintain data engineering systems supporting AI use cases, including
+    scalable ingestion pipelines, feature generation, and downstream products
   - Contribute to building, maintaining, and testing data pipelines
   - Draft internal and external technical documentation
   - Seek and prioritize technical and product feedback from internal customers
-  - Iterate quickly with an eye towards delivering value
+  - Iterate quickly on solutions with an eye towards value
   use_cases:
-  - Healthcare price transparency data infrastructure
-  - Multi-source healthcare data unification (claims, contract rates, demographics)
-  - Data pipelines powering AI-driven healthcare analytics products
-  - Feature generation for AI workloads in healthcare
-  - Supporting internal and external products with analytics-ready data models
+  - Healthcare price transparency and cost analytics for enterprise finance leaders
+  - Unifying multi-source healthcare data (claims, contract rates, demographics) into
+    analytics-ready data models
+  - Scalable data ingestion and feature generation pipelines powering AI use cases
+  - LLM-based systems with evaluation, monitoring, and hallucination mitigation on
+    healthcare data
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS S3]
-    genai: [OpenAI API, Embedding workflows, RAG, LLM evaluation and monitoring, Hallucination
-        mitigation]
-    data: [ETL/ELT workflows, Airflow, dbt, Data Modeling, Data pipeline development]
-    other: []
+    languages: [Python, SQL]
+    ml: [Feature Engineering]
+    other: [Medical Billing]
     ops: []
+    databases: [Vector Databases, Pinecone, Weaviate, Redshift]
+    domains: []
     web: []
-    databases: [Pinecone, Weaviate, Redshift]
+    data: [Data Pipelines, Data Modeling, Data Engineering, Airflow, dbt]
+    genai: [OpenAI API, RAG, Embeddings, LLMs, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8989792'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:39:08.783662'
+  extracted_at: '2026-08-16T06:55:25.319688'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

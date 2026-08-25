@@ -1,54 +1,54 @@
 company:
   name: Delinea
-  stage: null
-  focus: |-
-    Identity security and authorization platform using AI-
-    powered intelligence
+  stage: Backed by strategic investment from TPG
+  focus: Cloud-native identity security and authorization platform
 position:
   title: Senior Software Engineer - Authorization AI
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is a Senior Software Engineer on an Authorization
-      AI team who builds cloud applications using C#/.NET Core and
-      Azure services. While the team develops AI-enabled security
-      features, the engineer's work focuses on infrastructure,
-      application development, and deployment rather than
-      building, training, or fine-tuning AI models directly.
+      This is a backend .NET engineer on a team named
+      "Authorization AI", but nothing in the responsibilities or
+      requirements involves shaping model behavior - no prompting,
+      retrieval/RAG design, agent flows, training, or evals are
+      mentioned. The core work is building cloud applications with
+      C#/.NET Core, Azure, and Kubernetes, and AI experience
+      appears only as a nice-to-have ("passion for AI"), which
+      makes this ai-support.
   responsibilities:
   - Design, develop, and deploy scalable and highly available cloud-based applications
-    using C#/.NET Core and Azure App Services in performant Kubernetes clusters
+    using C#/.NET Core and Azure App Services on Kubernetes clusters
   - Innovate on the Authorization AI team, bringing AI-enabled features and security
     to the platform
-  - Collaborate with cross-functional teams to understand requirements, propose technical
-    solutions, and contribute to architectural decisions
+  - Collaborate with cross-functional teams (PM, UX, Dev) using Scrum to understand
+    requirements, propose technical solutions, and contribute to architectural decisions
   - Mentor and provide technical guidance to other engineers, fostering a culture
     of continuous learning and growth
   - Improve development and automation processes including code quality, E2E testing,
-    security scans, monitoring, and tiered incidence response
+    security scans, monitoring, and tiered incident response
   use_cases:
-  - Intelligent authorization system for securing human and machine identities across
-    cloud and traditional infrastructure
-  - Real-time detection of irregularities and threats in identity access patterns
-  - Context-aware security governance across the entire identity lifecycle including
-    workforce, IT administrators, developers, and machines
-  - Automated discovery of all identities and assignment of appropriate access levels
-  - AI-powered identity security spanning cloud, traditional infrastructure, data,
-    SaaS applications, and AI systems
+  - AI-enabled authorization and security features for an identity security platform
+  - Centralized authorization governing human and machine identity interactions across
+    the enterprise
+  - Discovering identities, assigning access levels, and detecting irregularities
+  - Real-time threat detection and response across cloud, traditional infrastructure,
+    data, SaaS, and AI
   skills:
-    genai: []
-    ml: []
-    web: [Angular]
-    databases: [Azure Cosmos DB]
-    data: []
-    cloud: [Azure App Services, Azure Service Bus]
-    ops: [Kubernetes, CI/CD, DevOps]
+    cloud: [Azure, Azure App Services]
     languages: [C#, .NET Core]
+    ml: []
+    other: [Unit Testing, Automation Testing, E2E Testing, Agile]
+    ops: [Kubernetes, DevOps, CI/CD]
+    databases: [Azure Cosmos DB]
     domains: []
-    other: []
+    web: [Angular]
+    data: [Azure Service Bus]
+    genai: [AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8206838'
   location: USA
-  extracted_at: '2026-02-05T12:14:09.401689'
+  extracted_at: '2026-08-15T22:52:39.853961'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

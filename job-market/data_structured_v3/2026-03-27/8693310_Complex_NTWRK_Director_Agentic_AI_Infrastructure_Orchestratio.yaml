@@ -1,0 +1,61 @@
+company:
+  name: Complex NTWRK
+  stage: null
+  focus: |-
+    Youth culture media platform spanning content, commerce, and
+    live experiences
+position:
+  title: Director, Agentic AI Infrastructure & Orchestration Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and deploys an agentic AI infrastructure
+      layer itself: agent orchestration, task routing, quality
+      gates, RAG, prompt engineering, and human-in-the-loop
+      governance. This is hands-on shaping of LLM/agent behavior
+      and output quality, with explicit LLM and agent components,
+      so it is ai-first.
+  responsibilities:
+  - Architect and deploy a scalable agentic AI infrastructure layer including agent
+    orchestration, task routing, quality gates, and human-in-the-loop checkpoints
+  - Lead a tool replacement program using AI agents to write and test code for internal
+    tools that replace high-cost SaaS platforms (CRM, analytics, workflow tools)
+  - Codify operational workflows into a version-controlled, reusable agent skills
+    library that becomes durable company-owned IP
+  - Design a growth-oriented data access layer built on existing Snowflake infrastructure
+    enabling agent-native querying and experimentation
+  - Implement test-driven development enforcement, intelligent retry logic, and convergence
+    tracking across the agent runtime
+  - Establish governance frameworks with human-in-the-loop checkpoints for production
+    deployment and auditability
+  - Evaluate and integrate open-source orchestration tools to maintain vendor-agnostic
+    flexibility in a multi-model ecosystem
+  - Develop documentation, training protocols, and knowledge-transfer systems so the
+    existing engineering team can maintain and extend the infrastructure
+  use_cases:
+  - Automation of core media, commerce, and operations workflows
+  - Replacing high-cost SaaS platforms with internally owned, agent-built tools
+  - Agent-native data access and rapid experimentation on Snowflake
+  - Converting tribal knowledge into reusable, versioned agent skills libraries
+  - Agentic code generation with human review for internal tool development
+  - Proactive insight generation from audience, content, and commerce data
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, RAG, Prompt Engineering, Claude, Codex,
+      Gemini]
+    ml: []
+    web: [APIs]
+    databases: [Snowflake]
+    data: [Data Engineering]
+    cloud: []
+    ops: [CI/CD, Git, Observability]
+    languages: []
+    domains: []
+    other: [Test-Driven Development, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8693310'
+  location: New York, USA
+  extracted_at: '2026-08-16T03:56:03.810952'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

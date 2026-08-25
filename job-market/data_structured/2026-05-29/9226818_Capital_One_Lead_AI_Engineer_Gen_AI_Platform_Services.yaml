@@ -1,53 +1,52 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI-powered customer
-    experiences
+  stage: null
+  focus: Banking and financial services with AI-driven experiences
 position:
   title: Lead AI Engineer (Gen AI Platform Services)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs and AI
-      infrastructure: foundation model training, LLM inference,
-      similarity search, guardrails, model evaluation, and
-      implementing state-of-the-art LLM optimization techniques
-      for production systems. The engineer is directly building,
-      deploying, and optimizing AI models and services, not just
-      supporting infrastructure for others.
+      The role directly shapes model behavior: it includes
+      foundation model training, building guardrails and model
+      evaluation, and inventing LLM optimization techniques for
+      training and inference software. Optimizing a model's own
+      training/inference internals and building guardrails/evals
+      is shaping, and LLM components are central, so this is ai-
+      first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    customer and associate experiences
-  - Design, develop, and deploy AI software components including foundation model
-    training and LLM inference systems
-  - Build and support similarity search, guardrails, model evaluation, experimentation,
-    governance, and observability components
-  - Invent and implement state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, and PyTorch
-  - Contribute to the technical vision and long-term roadmap for foundational AI systems
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, HuggingFace,
+    VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Stay abreast of the latest AI research and judiciously apply novel techniques
+    in production
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Customer fraud detection and unusual charge notifications
-  - Real-time customer question answering and support
-  - AI-powered associate productivity tools
-  - Scalable and responsible AI infrastructure for banking applications
+  - Real-time personalized banking customer experiences
+  - Alerting customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered tools that change how internal associates work
+  - Platform services that enable teams across the company to add AI capabilities
+    to their products
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++, C#, SQL]
-    ml: [PyTorch, TensorFlow, scikit-learn, XGBoost]
-    cloud: [AWS, Azure, GCP]
-    genai: [LangChain, LlamaIndex, OpenAI API, Anthropic API, Hugging Face, LLaMA]
-    data: [Spark, Databricks, Kafka, Airflow, dbt]
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [MLflow, Kubeflow, Weights & Biases, Docker, Kubernetes, Terraform, CI/CD,
-      Datadog, Prometheus, Grafana, vLLM, Triton, TensorRT]
-    web: [FastAPI, REST, GraphQL]
-    databases: [PostgreSQL, Pinecone, Weaviate, Chroma, Qdrant, FAISS, Milvus, pgvector,
-      Snowflake]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +55,6 @@ meta:
   locations:
   - San Jose, USA
   - New York, USA
-  extracted_at: '2026-05-29T08:57:08.204637'
+  extracted_at: '2026-08-16T09:38:43.366716'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

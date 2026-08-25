@@ -1,18 +1,17 @@
 company:
   name: Makai Labs
   stage: null
-  focus: |-
-    Builds software that automates entire companies across
-    diverse domains
+  focus: Software that automates entire companies
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      Hands-on role building AI-powered applications using LLMs,
-      retrieval systems, agents, and structured outputs. Direct
-      involvement in prototyping, implementing, and improving AI
-      systems for enterprise automation.
+      The role implements workflows using LLMs, retrieval systems,
+      agents, and structured outputs, and runs benchmarking,
+      testing, and evaluation of AI approaches — direct shaping of
+      LLM behavior and output quality. Since LLMs and agent
+      workflows are the core model component, this is ai-first.
   responsibilities:
   - Build and improve AI-powered applications and internal tools
   - Rapidly prototype, experiment, and iterate across client and internal projects
@@ -20,27 +19,31 @@ position:
   - Contribute to shared platform work and reusable tooling
   - Turn prototypes into reliable, client-ready systems
   - Conduct research, benchmarking, testing, and evaluation of new approaches
+  - Own smaller projects or sub-projects with guidance from the team
+  - Write and maintain clear internal documentation
   use_cases:
-  - Enterprise automation across diverse domains and processes
-  - AI-powered internal tools and client products
-  - Document processing workflows with OCR and PDF handling
-  - Retrieval systems and search applications
-  - Agent-based workflows and automation systems
+  - Automating enterprise processes across a diversified portfolio of business domains
+  - AI-powered client applications and internal tools
+  - LLM-driven workflows combining retrieval, agents, and structured outputs
+  - Document processing workflows including OCR and PDF handling
+  - Turning AI prototypes into reliable client-ready automation systems
   skills:
-    domains: []
-    languages: [Python, TypeScript]
-    ml: [Fine-Tuning, Benchmarking]
     cloud: []
-    genai: [LLMs, AI Agents, Retrieval systems, RAG, Embeddings]
-    data: [OCR]
-    other: []
-    ops: [Docker]
-    web: [FastAPI, Flask, React, APIs]
+    languages: [Python, TypeScript]
+    ml: []
+    other: [OCR, Document Processing, Benchmarking, Workflow Automation]
+    ops: [Docker, Model Deployment]
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: [FastAPI, Flask, React, APIs]
+    data: []
+    genai: [LLMs, RAG, AI Agents, Structured Outputs, Embeddings, Fine-Tuning]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '9385843'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:04:03.911158'
+  extracted_at: '2026-08-16T10:44:23.021008'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,48 +1,60 @@
 company:
   name: Doctronic
-  stage: Series A
-  focus: AI-powered direct-to-patient healthcare consultations
+  stage: Seed (Union Square Ventures, Feb 2025) followed by Series A (Lightspeed Venture
+    Partners, Aug 2025)
+  focus: |-
+    AI doctor delivering direct-to-patient healthcare
+    consultations
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building multi-agent consensus
-      architectures, RAG pipelines, fine-tuning models, and real-
-      time inference systems. The engineer works directly with
-      LLMs (GPT, Claude, LLaMA), handles model optimization, and
-      deploys AI systems for medical consultations.
+      The role shapes LLM behavior directly: designing multi-agent
+      consensus architectures, building RAG pipelines over
+      clinical guidelines, prompt engineering, and fine-
+      tuning/distilling models for an LLM-based AI doctor. All
+      shaping work targets LLM/agent components, so it is ai-
+      first.
   responsibilities:
-  - Build multi-agent consensus architectures with specialized models debating cases
-    before conclusions
-  - Develop RAG pipelines processing thousands of clinical guidelines for LLM consumption
-  - Fine-tune and distill models for efficient performance in medical applications
-  - Implement real-time inference systems handling millions of medical consultations
-    monthly
-  - Create NLP pipelines extracting structured data from patient conversations with
-    HIPAA compliance
-  - Build emergency detection and validation layers ensuring 99%+ treatment plan accuracy
+  - Design multi-agent consensus architectures where specialized models debate medical
+    cases before conclusions
+  - Build RAG pipelines processing thousands of clinical guidelines for LLM consumption
+  - Fine-tune and distill models for efficient, domain-specific medical reasoning
+  - Build real-time inference systems handling millions of medical consultations each
+    month
+  - Develop HIPAA-compliant NLP pipelines extracting structured data from patient
+    conversations
+  - Implement QHIN integrations for automated EHR data retrieval and reconciliation
+  - Build safety systems including emergency detection with sub-second escalation
+    and validation layers ensuring 99%+ treatment plan accuracy
+  - Extend the platform with voice/video AI interfaces, multilingual medical NLP,
+    and predictive health modeling
   use_cases:
-  - AI doctor handling millions of medical consultations with human oversight
-  - Multi-agent consensus system for medical case review and decision accuracy
-  - Intelligent triage routing between AI and human healthcare providers
-  - Automated clinical documentation generation matching provider-specific protocols
-  - Real-time emergency detection with sub-second escalation to human oversight
-  - Multilingual medical NLP for accessible healthcare across diverse populations
+  - AI doctor providing free, accessible medical consultations to patients
+  - Automated triage routing between AI and human providers
+  - Treatment plan generation validated at 99%+ accuracy by clinicians
+  - Emergency detection with sub-second escalation to human oversight
+  - Structured clinical data extraction from patient conversations and EHR records
+  - Documentation generation matching provider-specific protocols
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, model optimization]
     cloud: []
-    genai: [OpenAI/Anthropic APIs, RAG, Prompt Engineering, Fine-Tuning, model distillation]
-    data: []
-    other: []
-    ops: [real-time inference]
-    web: []
+    languages: [Python]
+    ml: [Foundation Models, PyTorch, TensorFlow, NLP, Model Distillation, Model Optimization,
+      Bias Detection]
+    other: [HIPAA Compliance, HL7, FHIR]
+    ops: [Real-Time Inference, Distributed Systems]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [Multi-Agent Systems, RAG, LLMs, Generative AI, Prompt Engineering, Fine-Tuning,
+      OpenAI GPT, Anthropic API, Llama]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8111735'
   location: New York, USA
-  extracted_at: '2026-02-05T12:02:16.451783'
+  extracted_at: '2026-08-15T22:41:47.441038'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

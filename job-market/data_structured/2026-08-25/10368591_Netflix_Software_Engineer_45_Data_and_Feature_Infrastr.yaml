@@ -1,0 +1,50 @@
+company:
+  name: Netflix
+  stage: null
+  focus: Streaming entertainment with ML personalization
+position:
+  title: Software Engineer 4/5 –  Data and Feature Infrastructure, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds data and feature infrastructure (feature
+      stores, computation pipelines, data loading) that feeds ML
+      models owned by other practitioners. It moves and serves
+      data rather than shaping model behavior, so it is ai-
+      support.
+  responsibilities:
+  - Design and build a near-real-time feature computation engine for training and
+    inference
+  - Operate feature computation pipelines and feature serving infrastructure across
+    ML domains
+  - Build and scale systems for performant data loading, transformation, and writing
+    to accelerate training
+  - Create frameworks to streamline availability of new data for training and serving
+  - Develop centralized feature and embedding stores for feature discovery and sharing
+  - Collaborate with ML practitioners and the AI Platform org to improve ML practitioner
+    productivity
+  use_cases:
+  - Feature computation and serving for personalized recommendations
+  - ML data infrastructure for payments, games, and ads
+  - Centralized feature and embedding store for cross-domain sharing
+  - High-throughput training and low-latency inference data pipelines
+  skills:
+    genai: [Embeddings]
+    ml: [Embedding-Based Retrieval]
+    web: []
+    databases: [Apache Iceberg, Cassandra]
+    data: [Spark, Flink, Kafka]
+    cloud: [AWS]
+    ops: []
+    languages: [Java, Python]
+    domains: []
+    other: [Chronon, Jupyter, Polynote]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10368591'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:50:51.876666'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

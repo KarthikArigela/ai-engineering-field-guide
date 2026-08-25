@@ -1,50 +1,50 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs including writing
-      agentic code, refining prompts, adjusting inference
-      parameters, debugging agent self-reflection loops, and
-      writing integration tests for LLMs. The candidate works
-      directly on building and deploying AI/LLM-based application
-      systems rather than just supporting infrastructure or data
-      pipelines for other teams.
+      The role directly shapes LLM and agent behaviour: writing
+      and refining prompts, adjusting LLM inference parameters,
+      selecting context for the model window, debugging agent
+      self-reflection loops, and writing tests for LLM outputs.
+      Since the shaped components are LLMs and agents, this is ai-
+      first despite the generic Citi programmer-analyst framing.
   responsibilities:
-  - Build REST API endpoints to serve AI/ML application systems
-  - Refine prompts and write agentic code including adjusting LLM inference parameters
-    and debugging agent self-reflection loops
-  - Select and format context appropriate for given LLM window sizes
+  - Build REST endpoints for application systems
+  - Refine prompts and write agentic code, adjusting LLM inference parameters and
+    selecting context for the LLM window
+  - Debug agent self-reflection loops
   - Call external search libraries and write formatting code to connect prompt templates
-  - Write SQL queries and optimize them for LLM context retrieval
-  - Write code in compliance with risk restrictions and document code for compliance
-    and reusability
-  - Write unit and integration tests for LLM-based systems
+  - Write and optimize SQL queries for LLM context retrieval
+  - Write unit and integration tests for LLMs
+  - Write and document code in compliance with risk restrictions and for reusability
   use_cases:
-  - Agentic AI workflows with self-reflection loops
-  - LLM-powered application systems for banking/financial services
-  - Context retrieval and formatting for LLM prompting
-  - Prompt engineering and inference optimization for production systems
+  - Agentic LLM applications with self-reflection loops
+  - Prompt-driven AI features within a banking application system
+  - Context selection and retrieval optimized for LLM windows
+  - Risk-compliant AI code for a regulated financial environment
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [Hugging Face, PyTorch, TensorFlow, Model Training, Model Evaluation, Feature
-        Engineering]
     cloud: []
-    genai: [LangChain, Prompt Engineering, LLM Agents, LLM Inference Parameters]
-    data: [Pandas, NumPy, SciPy, SpaCy, NLTK, TextBlob, Data Cleaning and Preprocessing,
-      Data Pipelines]
+    languages: [Python, SQL]
+    ml: [PyTorch, TensorFlow, Hugging Face, Deep Learning, Machine Learning, spaCy,
+      NLTK, TextBlob, SciPy, Feature Engineering, Model Training, Model Evaluation,
+      Model Selection]
     other: []
-    ops: []
+    ops: [Model Deployment]
+    databases: []
+    domains: [NLP]
     web: [FastAPI, Flask, REST APIs]
-    databases: [SQL]
+    data: [Pandas, NumPy, Data Pipelines]
+    genai: [Prompt Engineering, AI Agents, LLMs, LangChain]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9579864'
   location: Chennai, IND
-  extracted_at: '2026-06-25T19:41:11.684356'
+  extracted_at: '2026-08-16T13:01:14.980018'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

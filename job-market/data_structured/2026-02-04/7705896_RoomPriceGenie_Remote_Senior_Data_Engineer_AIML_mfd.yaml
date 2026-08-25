@@ -1,51 +1,49 @@
 company:
   name: RoomPriceGenie
-  stage: Series B
-  focus: AI-powered hotel pricing optimization platform
+  stage: null
+  focus: Hotel pricing optimization and revenue management software
 position:
   title: Remote Senior Data Engineer (AI/ML) (m/f/d)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Data Engineer role focused on building data
-      pipelines and infrastructure (ETL/ELT with Dagster, dbt,
-      Snowflake) to power an existing optimization engine. The
-      role supports ML systems by providing data infrastructure
-      and platform capabilities, but does not involve building,
-      training, or deploying models directly.
+      This is a data engineering role: building and scaling
+      ETL/ELT pipelines, dbt models, and warehouse infrastructure
+      that feed a pricing optimization and forecasting engine
+      owned by ML engineers. There is no prompt work, retrieval
+      design, model training, or output-quality shaping, and GenAI
+      appears only as a nice-to-have (Databricks for GenAI use
+      cases), so the role is ai-support.
   responsibilities:
-  - Design and build scalable data pipelines using Dagster to handle increasing data
-    volumes and feature complexity
-  - Evolve data platform architecture to support scaling users, datasets, and feature
-    complexity
-  - Partner with Product and Design teams to take full ownership of projects from
-    conception through post-deployment
-  - Collaborate with ML and Backend Engineers to integrate data systems with optimization
+  - Design and maintain scalable ETL/ELT pipelines powering the pricing optimization
     engine and forecasting
-  - Maintain and optimize data warehousing solutions using Snowflake/Databricks and
-    dbt for modeling and testing
-  - Work with AWS Aurora/RDS (Postgres) to support data storage and retrieval needs
+  - Evolve the data platform and architecture to handle rapidly scaling users, datasets,
+    and feature complexity
+  - Model, test, document, and optimize data in the warehouse using dbt
+  - Collaborate with a Product Manager and a team of ML and Backend Engineers on the
+    RM engine
+  - Take full ownership of projects from conception through post-deployment, partnering
+    with Product and Design teams
+  - Serve as an Individual Contributor influencing data and architectural direction,
+    reporting to the RM Engine Engineering Manager
   use_cases:
-  - Hotel pricing optimization using algorithms that analyze internal hotel data and
-    market trends
-  - Revenue management system that recommends optimal pricing strategies to enhance
-    booking rates
-  - Demand forecasting engine that helps hotels predict and adjust to market conditions
-  - Real-time pricing recommendations generated from analysis of both historical and
-    market data
-  - Scalable data platform supporting global customer base across multiple geographic
-    markets
+  - Hotel room pricing optimization and revenue management
+  - Recommending optimal room prices in seconds based on internal hotel data and market
+    trends
+  - Demand and booking forecasting to improve occupancy
+  - Revenue enhancement for independent and small hotels
   skills:
-    domains: []
+    cloud: [AWS Aurora/RDS]
     languages: [Python]
     ml: [SciPy]
-    cloud: []
-    genai: []
-    data: [Dagster, dbt, Databricks, Pandas, polars, NumPy, Data Pipelines, Data warehousing]
     other: []
-    ops: [Terraform, Celery, RabbitMQ, Datadog]
+    ops: [Terraform, Datadog]
+    databases: [Snowflake, Data Warehousing, PostgreSQL, MongoDB, DocumentDB, DynamoDB]
+    domains: []
     web: [Django, FastAPI]
-    databases: [Snowflake, AWS Aurora, PostgreSQL, MongoDB, DynamoDB]
+    data: [Data Pipelines, Dagster, dbt, Databricks, Pandas, Polars, NumPy, Cube.dev,
+      Celery, RabbitMQ]
+    genai: [Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -59,4 +57,6 @@ meta:
   - DEU
   - IRL
   remote: true
-  extracted_at: '2026-02-05T11:21:16.451840'
+  extracted_at: '2026-08-15T21:58:11.201558'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

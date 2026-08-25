@@ -1,0 +1,58 @@
+company:
+  name: Enable Data Incorporated
+  stage: null
+  focus: Data and AI solutions on Azure Databricks
+position:
+  title: Lead AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it designs RAG
+      pipelines and vector retrieval, and fine-tunes LLMs using
+      LoRA/QLoRA with Azure OpenAI and Hugging Face models.
+      Although heavy on data engineering and classical ML
+      deployment, the LLM component makes it ai-first.
+  responsibilities:
+  - Design and build end-to-end data and AI pipelines using Azure Databricks
+  - Develop ETL/ELT workflows with Python (PySpark) and SQL
+  - Implement CI/CD pipelines and environment promotion for Databricks deployments
+    (jobs, notebooks, workflows)
+  - Integrate Databricks with Azure services including Data Lake, Blob Storage, Key
+    Vault, Azure OpenAI, and Azure Functions
+  - Develop and deploy ML and Generative AI models (LLMs, embeddings, RAG pipelines)
+    for NLP, computer vision, and predictive analytics
+  - Fine-tune LLMs using LoRA/QLoRA and integrate with Azure OpenAI or Hugging Face
+    models
+  - Implement vector search and retrieval pipelines using FAISS or Azure Cognitive
+    Search
+  - Implement logging, monitoring, and error handling; optimize pipelines for performance,
+    cost, and reliability, with responsible AI practices including bias detection
+    and governance
+  use_cases:
+  - NLP applications
+  - Computer vision applications
+  - Predictive analytics
+  - RAG-based retrieval and semantic search applications
+  - Production AI applications with governance, monitoring, and cost efficiency
+  skills:
+    genai: [Generative AI, LLMs, RAG, Embeddings, Fine-Tuning, LoRA, QLoRA, Azure
+        OpenAI, LangChain]
+    ml: [Machine Learning, Hugging Face]
+    web: []
+    databases: [FAISS, Vector Search]
+    data: [Databricks, PySpark, Pandas, ETL, Data Pipelines, Airflow, Unity Catalog]
+    cloud: [Azure, ADLS Gen2, Azure Blob Storage, Azure Key Vault, Azure Functions,
+      Azure Data Factory, IAM, Azure Cognitive Search, Azure ML, Azure Cognitive Services]
+    ops: [CI/CD, MLflow, MLOps, Model Deployment, Azure DevOps, Terraform, ARM, Bicep,
+      Databricks Asset Bundles, Monitoring]
+    languages: [Python, SQL]
+    domains: [NLP, Computer Vision]
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8676512'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T03:47:03.347440'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

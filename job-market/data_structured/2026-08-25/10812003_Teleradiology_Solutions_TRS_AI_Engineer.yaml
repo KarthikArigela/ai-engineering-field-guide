@@ -1,0 +1,56 @@
+company:
+  name: Teleradiology Solutions (TRS)
+  stage: null
+  focus: Teleradiology and AI-enabled radiology imaging services
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG pipelines, prompt engineering, fine-
+      tuning, and agentic workflows for LLMs, which is directly
+      shaping model behavior. It also involves classical CV, but a
+      role shaping both LLM and classical ML systems is ai-first.
+  responsibilities:
+  - Design, develop, and deploy GenAI/LLM solutions including RAG pipelines, prompt
+    engineering, fine-tuning, and agentic workflows
+  - Build and optimize OCR pipelines for structured data extraction from documents
+    and images
+  - Develop, train, and fine-tune computer vision models for classification, object
+    detection, and segmentation
+  - Develop and maintain RESTful APIs using FastAPI to serve AI/ML models
+  - Containerize applications with Docker and manage deployments
+  - Design and manage data storage using MongoDB and SQL databases
+  - Integrate LLM APIs and vector databases into production applications
+  - Monitor model performance, debug issues, and iterate based on production feedback
+  use_cases:
+  - OCR-based extraction of structured data from scanned documents, PDFs, images,
+    and forms
+  - Computer vision for image classification, object detection, and segmentation
+  - RAG-based retrieval and semantic search with vector databases
+  - GenAI/LLM-powered solutions with agentic workflows
+  - AI features integrated into teleradiology and medical imaging workflows
+  skills:
+    genai: [RAG, Prompt Engineering, Fine-Tuning, Agentic Workflows, LLMs, Embeddings,
+      LangChain, LlamaIndex, LangGraph, Generative AI, OpenAI API, Anthropic API,
+      Llama, Mistral, Semantic Search]
+    ml: [PyTorch, TensorFlow, Transformers, Hugging Face, CNNs, Neural Networks, OCR,
+      Tesseract, PaddleOCR, AWS Textract, Google Vision OCR, Azure Form Recognizer,
+      OpenCV, YOLO, Faster R-CNN, U-Net, Mask R-CNN, Detectron2, MMDetection, Model
+        Training]
+    web: [FastAPI, REST APIs]
+    databases: [MongoDB, SQL, FAISS, Pinecone, Chrom, Weaviate, Vector Databases]
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, CI/CD, Git]
+    languages: [Python, asyncio]
+    domains: [Computer Vision]
+    other: [DICOM, RabbitMQ, Kafka]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10812003'
+  location: Yelahanka, IND
+  extracted_at: '2026-08-25T12:02:26.376906'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

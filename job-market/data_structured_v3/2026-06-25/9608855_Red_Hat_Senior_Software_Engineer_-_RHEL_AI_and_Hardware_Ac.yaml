@@ -1,0 +1,54 @@
+company:
+  name: Red Hat
+  stage: null
+  focus: Enterprise open source software solutions
+position:
+  title: Senior Software Engineer - RHEL AI and Hardware Accelerators
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds CI/CD pipelines and automated test software
+      that validates Red Hat AI platforms (PyTorch, vLLM) running
+      on GPUs and networking hardware. The person verifies
+      platform performance and packaging, not model behaviour - no
+      prompt design, retrieval, training, or output-quality evals.
+      Using AI tools to accelerate development is explicitly a
+      support activity, so this is ai-support.
+  responsibilities:
+  - Deliver continuous integration and feature enhancements in an agile framework,
+    producing automated test software packaged as RPMs and container images
+  - Test advancing Red Hat AI platforms utilizing PyTorch, vLLM, and performance monitoring
+    tools
+  - Verify acceleration of Red Hat AI platforms via advanced GPUs and networking hardware
+  - Research and collaborate on integration and development certification policies
+    with subject matter experts and product managers for advanced hardware supporting
+    Red Hat AI platforms
+  - Develop tools to automate software deployments, upgrades, scaling, monitoring,
+    alerting, and testing
+  - Work with Product Engineering and Product Management teams to ensure integration
+    and feature development of high-quality results
+  use_cases:
+  - Validating hardware acceleration for enterprise AI platforms on GPUs and networking
+    hardware
+  - Automated testing and continuous integration for Red Hat AI platform releases
+  - Automating software deployments, upgrades, scaling, monitoring, and alerting
+  - Certification of advanced hardware systems and components for Red Hat AI platforms
+  skills:
+    genai: []
+    ml: [PyTorch]
+    web: []
+    databases: []
+    data: []
+    cloud: [OpenShift]
+    ops: [RHEL, Linux, CI/CD, Kubernetes, Containers, vLLM, Performance Monitoring]
+    languages: [Python]
+    domains: []
+    other: [RPM Packaging, Test Automation, GPU Acceleration, AI Tools]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9608855'
+  location: Hadapsar, IND
+  extracted_at: '2026-08-16T13:12:38.814976'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

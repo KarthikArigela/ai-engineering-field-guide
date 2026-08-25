@@ -1,0 +1,62 @@
+company:
+  name: JetBrains
+  stage: null
+  focus: Developer tools and AI-native software development platforms
+position:
+  title: Senior Full-stack QA Engineer (AI Platform)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a QA role building automated test infrastructure,
+      CI/CD pipelines, and API/performance tests for an AI
+      platform. Validating integrations with various language
+      models is QA and validation oversight of AI systems, not
+      shaping model behaviour through prompts, evals, guardrails,
+      or training, so the classification is ai-support.
+  responsibilities:
+  - Develop and maintain automated testing infrastructure, set up CI/CD pipelines,
+    and select, integrate, or design testing tools
+  - Write and improve automated tests, particularly for APIs
+  - Collaborate with QA and Development teams to design and execute test scenarios
+  - Work with logs and monitoring tools such as Kibana and Grafana to detect functional
+    issues and performance anomalies
+  - Ensure the quality of distributed AI-powered systems by validating integrations
+    with various language models and APIs
+  - Perform functional, regression, and performance testing of new features
+  use_cases:
+  - AI-native platform for software development connecting developer workflows, team
+    collaboration, and organizational control
+  - Execution and governance layer for AI-driven development integrated with developer
+    tools
+  - Distributed AI-powered systems integrating various language models and APIs
+  - Quality assurance of functional, regression, and performance behavior for AI-powered
+    developer tools
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: [REST APIs, OpenAPI, OAuth, JWT, Microservices]
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: [CI/CD, Docker, Docker Compose, Kubernetes, Helm, Grafana, Kibana, Monitoring,
+      TeamCity, GitHub Actions, Distributed Systems]
+    languages: [TypeScript, JavaScript]
+    domains: []
+    other: [Postman, Automated Testing, Performance Testing, k6]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8733500'
+  location: Prague, CZE
+  locations:
+  - Prague, CZE
+  - Paphos, CYP
+  - Yerevan, ARM
+  - Berlin, DEU
+  - Limassol, CYP
+  - Munich, DEU
+  - Warsaw, POL
+  - Belgrade, SRB
+  extracted_at: '2026-08-16T04:11:27.278175'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

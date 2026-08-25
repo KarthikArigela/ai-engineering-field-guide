@@ -1,56 +1,65 @@
 company:
   name: Wavestone
-  stage: Public
-  focus: Management consulting and digital transformation
+  stage: null
+  focus: |-
+    Global management and technology consulting for business
+    transformation
 position:
   title: Data and AI - Data Architect or Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data architecture and engineering consulting role
-      that builds data platforms, pipelines, and governance
-      frameworks to enable AI/analytics use cases. The role does
-      not involve building, training, fine-tuning, or deploying
-      AI/ML models directly, but rather establishes the data
-      foundations that support advanced analytics and AI
-      initiatives for clients.
+      This is a data architect/engineer consulting role: the
+      person designs data platforms, pipelines, and governance
+      frameworks that establish "data foundations" for AI/GenAI
+      use cases built by others. They never shape model behaviour
+      - no prompting, RAG design, training, or evaluation work -
+      so the role is ai-support. AI is mentioned only as a
+      downstream consumer of the data infrastructure.
   responsibilities:
-  - Lead and deliver complex data transformation programmes, defining data strategies
-    and enterprise data architectures for clients
-  - Advise clients on enterprise data strategies, governance frameworks, and modern
-    architecture patterns including data lakes, lakehouses, and data mesh
+  - Lead delivery of complex data transformation programmes, helping clients define
+    data strategies, enterprise data architectures, and modern cloud data platforms
+  - Advise clients on data strategies, target operating models, governance frameworks,
+    and architecture patterns including data lakes, warehouses, lakehouses, and data
+    mesh
   - Design scalable data pipelines, integration frameworks, and cloud-native data
-    solutions that enable advanced analytics, ML, AI, and GenAI use cases
-  - Act as trusted advisor during sales and pre-sales activities, shaping solution
-    approaches and contributing to proposals and RFP responses
-  - Contribute to thought leadership, proposition development, methodologies, and
-    accelerators for Wavestone's data practice
-  - Coach, mentor, and develop consultants and engineers within the Data & AI practice
-  - Stay current with emerging trends in data architecture, cloud technologies, analytics,
+    solutions enabling advanced analytics, machine learning, AI, and GenAI use cases
+  - Act as trusted advisor and subject matter expert in sales and pre-sales, shaping
+    proposals and RFP responses to grow the Data & AI practice
+  - Contribute to thought leadership, propositions, methodologies, and accelerators
+    for data architecture and AI-ready data ecosystems
+  - Coach, mentor, and share knowledge to develop consultants and engineers within
+    the Data & AI community
+  - Maintain expertise in data architecture, engineering, cloud technologies, analytics,
     and AI enablement
   use_cases:
-  - Data platforms and pipelines for Banking, Insurance, Wealth & Asset Management,
-    and Life Sciences clients
-  - Enterprise data architecture design in complex, regulated environments
-  - Data governance, metadata, lineage, and data quality frameworks
-  - Cloud-native data platforms enabling advanced analytics and AI/GenAI use cases
-  - Large-scale data transformation programmes across regulated industries
+  - Enterprise data platforms and pipelines for clients in Banking, Insurance, Wealth
+    & Asset Management, and Life Sciences
+  - Data governance, metadata, lineage, and data quality frameworks in regulated environments
+  - Data foundations enabling advanced analytics, machine learning, AI, and GenAI
+    use cases
+  - Cloud data platform modernization across Azure, AWS, and GCP
+  - Data-driven decision making within large-scale transformation programmes
   skills:
-    genai: [Generative AI]
-    ml: [Machine Learning]
-    web: []
-    databases: [Redshift, BigQuery, Snowflake, Snowpark]
-    data: [Databricks, PySpark, Spark, dbt, ETL/ELT, Data Pipelines, Data Engineering,
-      Data Governance, Data Modeling, Data Mesh, Data Lakes, Data Warehouses, Lakehouse]
-    cloud: [Azure, Azure Data Factory, Azure Synapse, Azure Fabric, ADLS, AWS, AWS
-        Glue, AWS EMR, GCP, Dataflow]
-    ops: [CI/CD, MLOps, Git]
+    cloud: [Azure, Azure Data Factory, Microsoft Fabric, Azure Synapse, Azure Data
+        Lake Storage, AWS, AWS Glue, Amazon EMR, GCP]
     languages: [SQL, Python]
+    ml: [Machine Learning]
+    other: [Power BI, Tableau]
+    ops: [Git, CI/CD, MLOps]
+    databases: [Data Warehouses, Data Lakes, Lakehouse, Redshift, BigQuery, Snowflake,
+      Snowpark]
     domains: []
-    other: [Power BI, Tableau, Microservices]
+    web: []
+    data: [Data Engineering, Data Architecture, Data Pipelines, Data Governance, Data
+        Quality, Data Lineage, Data Mesh, Data Fabric, Databricks, Spark, PySpark,
+      Dataflow, dbt, Data Modeling]
+    genai: [Generative AI]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10174319'
   location: London, GBR
-  extracted_at: '2026-07-22T13:32:21.312520'
+  extracted_at: '2026-08-16T17:33:35.184712'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

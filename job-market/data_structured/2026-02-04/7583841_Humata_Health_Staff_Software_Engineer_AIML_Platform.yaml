@@ -2,55 +2,59 @@ company:
   name: Humata Health
   stage: null
   focus: |-
-    Automating health insurance prior authorization document
+    AI automation of healthcare prior authorization document
     processing
 position:
   title: Staff Software Engineer (AI/ML Platform)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI/ML Platform and MLOps infrastructure role
-      focused on building the systems and tooling that SUPPORT ML
-      work rather than directly building, training, or deploying
-      models. The responsibilities center on MLOps infrastructure,
-      CI/CD pipelines, feature stores, model versioning, and
-      backend services that enable data scientists and ML
-      engineers.
+      The role designs and operates the AI/ML platform and MLOps
+      infrastructure — model versioning, feature stores, drift
+      monitoring, CI/CD, and backend services — rather than
+      shaping model behaviour. There is no evidence of prompt
+      design, retrieval/agent flows, or model training/fine-
+      tuning; the deliverable is platform reliability and scale
+      for models built by others, with drift monitoring being ops-
+      level monitoring infrastructure.
   responsibilities:
-  - Own the long-term technical roadmap, design, and implementation of highly available
-    and performant services and infrastructure across the AI/ML platform
-  - Serve as a technical leader driving alignment across engineering, data science,
-    product, and security teams on platform requirements and best practices
-  - Define and implement the strategic vision for MLOps including model versioning,
+  - Own the long-term technical roadmap, design, and implementation of highly available,
+    performant services and infrastructure across the AI/ML platform using Python,
+    Go, and JavaScript/TypeScript
+  - Serve as technical leader and subject matter expert, driving alignment across
+    engineering, data science, product, and security teams on platform requirements
+    and best practices
+  - Define and implement the strategic vision for MLOps, including model versioning,
     feature stores, drift monitoring, and CI/CD pipelines for regulated healthcare
     data
-  - Lead the development of resilient, high-throughput backend services and APIs that
-    integrate ML system components with core services
+  - Lead development of resilient, high-throughput backend services and APIs (REST,
+    gRPC) that integrate ML system components and core services
   - Mentor and coach senior and mid-level engineers, raising the bar for engineering
-    excellence, system observability, testing, and documentation
-  - Act as a critical escalation point for complex production issues, debugging and
+    excellence, observability, testing, and documentation
+  - Act as critical escalation point for complex production issues, debugging and
     optimizing performance bottlenecks across services and infrastructure
   use_cases:
-  - Automate prior authorization document processing for health insurance companies
-  - Process regulated healthcare data with rigorous security and compliance standards
-  - Enable ML model operations including versioning, monitoring, and deployment in
-    a polyglot environment
-  - Provide scalable backend infrastructure to support AI/ML services in healthcare
-    domain
+  - Automated prior authorization document processing for health insurance companies
+  - Handling regulated healthcare data with rigorous security and compliance standards
+  - ML platform services powering document processing to improve healthcare efficiency
+    and patient outcomes
   skills:
-    domains: [HIPAA Compliance, Healthcare Standards]
-    languages: [Python, Go, TypeScript, JavaScript]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: []
-    data: [feature stores]
-    other: []
-    ops: [Docker, Kubernetes, MLOps, CI/CD, model versioning, drift monitoring]
-    web: [REST APIs, gRPC, Microservices]
+    languages: [Python, Go, JavaScript, TypeScript]
+    ml: [ML Engineering]
+    other: [FHIR, HL7, HIPAA Compliance]
+    ops: [MLOps, CI/CD, Docker, Kubernetes, Model Versioning, Feature Stores, Model
+        Monitoring, Model Deployment, Experiment Tracking]
     databases: []
+    domains: []
+    web: [REST APIs, gRPC, Microservices]
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7583841'
   location: USA
-  extracted_at: '2026-02-05T11:08:52.469599'
+  extracted_at: '2026-08-15T21:48:36.266347'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

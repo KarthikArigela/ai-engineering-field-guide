@@ -1,63 +1,75 @@
 company:
   name: Life360
-  stage: Public
-  focus: Family location sharing and safety services
+  stage: null
+  focus: Family location sharing and safety tracking app and devices
 position:
   title: Senior Data Engineer (AI Native)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role focused on building and
-      maintaining data pipelines, infrastructure, and lakehouse
-      architecture. While the team uses AI tools (Claude Code,
-      Cursor) to accelerate development and builds Databricks
-      Genie chatbots for natural language data querying, the core
-      work is data infrastructure engineering, not building,
-      training, fine-tuning, or deploying AI/ML models. The role
-      supports AI adoption within the team but does not work
-      directly on AI/ML systems.
+      The core deliverables are data pipelines and lakehouse
+      infrastructure — Kafka/Kinesis ingestion, Databricks
+      medallion models, Airflow orchestration — not model
+      behaviour. The AI work is developer-workflow tooling (Claude
+      Code/Cursor, crafting prompts, custom slash commands,
+      agentic workflows that help engineers scaffold pipelines
+      faster) plus configuring Databricks Genie, a managed
+      natural-language-to-SQL service, rather than designing
+      prompts, retrieval, or evals that shape a model's output.
+      Per the rules, rolling out AI coding tools for engineering
+      velocity is ai-support even though the team calls itself AI-
+      native.
   responsibilities:
-  - Design and manage scalable data platforms for real-time analytics, batch processing,
-    and exploratory analysis
-  - Own the full data lifecycle including ingestion, ETL, storage, and serving across
-    streaming and batch sources
-  - Architect medallion-layer data models (Bronze/Silver/Gold) in Databricks with
-    clean, well-documented schemas
-  - Automate, test, and harden data workflows with data quality checks and CI/CD pipelines
-  - Build and maintain AI-assisted tooling including custom prompts, slash commands,
-    and agent workflows for the team
-  - Build and improve Databricks Genie chatbots enabling non-technical users to query
+  - Design and manage scalable data platforms powering real-time analytics, batch
+    processing, and exploratory analysis, using AI-assisted development as the default
+    workflow
+  - Own critical data pipelines end to end, ingesting 6+ billion events and ~2 TB
+    daily from streaming (Kafka, Kinesis) and batch sources (MySQL, DynamoDB, internal
+    and external APIs) into the Databricks Lakehouse
+  - Architect medallion-layer data models (Bronze/Silver/Gold) in Databricks, ensuring
+    clean, well-documented schemas that meet business needs
+  - Automate, test, and harden data workflows with AI-augmented tests, data quality
+    checks, and CI/CD pipelines that catch issues before production
+  - 'Build and maintain AI-ready team tooling: craft prompts, custom Claude Code slash
+    commands, and agent workflows for pipeline scaffolding, documentation generation,
+    and data quality validation'
+  - Build and improve Databricks Genie chatbots that let non-technical users query
     data using natural language
-  - Collaborate with product analytics and data science teams to transform messy data
-    into production-ready datasets
-  - Contribute to infrastructure-as-code using Terraform and Atmos for cloud data
-    infrastructure provisioning
+  - Partner with Analytics Engineering, Data Science, and product teams, providing
+    data infrastructure support and onboarding new data sources into the bronze layer
+  - Contribute to infrastructure-as-code (Terraform/Atmos) for provisioning and managing
+    cloud data infrastructure
   use_cases:
-  - Real-time and batch data ingestion processing over 6 billion events per day and
-    2 TB of data daily
-  - Data lakehouse architecture for analytics, product decisions, and partner integrations
-  - Natural language data querying via Databricks Genie chatbots for non-technical
-    users
-  - Medallion-layer data modeling unifying streaming and batch data sources into a
-    consistent platform
-  - AI-assisted data pipeline development using Claude Code for scaffolding, documentation,
-    and quality validation
+  - Family safety and location-sharing product powered by high-throughput event streams
+    (location sharing, safe driver reports, crash detection with emergency dispatch)
+  - Real-time and batch data ingestion unifying streaming (Kafka, Kinesis) and batch
+    sources (MySQL, DynamoDB, APIs) into a queryable lakehouse for product decisions
+    and analytics
+  - Natural-language data access for non-technical users via Databricks Genie chatbots
+    that automate frequently asked data questions
+  - Reliable, governed datasets powering analytics, data science, and partner integrations
+    for roughly 98 million monthly active users
+  - AI-assisted engineering workflows (Claude Code, custom slash commands, agentic
+    workflows) that accelerate pipeline development and team velocity
   skills:
-    domains: []
+    cloud: [AWS, EMR, AWS S3]
     languages: [Python, SQL, Java, Scala]
     ml: []
-    cloud: [AWS, AWS S3, AWS EMR]
-    genai: [Databricks Genie, Claude Code, Cursor]
-    data: [Databricks, Spark, Spark Streaming, Airflow, MWAA, Kafka, Kinesis, Data
-        Pipelines]
     other: []
-    ops: [Terraform, Atmos, CI/CD, Great Expectations, DQX]
-    web: []
+    ops: [Terraform, Atmos, CI/CD, Infrastructure as Code]
     databases: [MySQL, DynamoDB]
+    domains: []
+    web: [APIs]
+    data: [Databricks, Kafka, Kinesis, Spark, Airflow, Data Pipelines, Data Modeling,
+      Great Expectations, DQX]
+    genai: [Claude Code, Cursor, Databricks Genie, Prompt Engineering, Agentic Workflows,
+      LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9571211'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:43:48.370293'
+  extracted_at: '2026-08-16T12:58:45.681881'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

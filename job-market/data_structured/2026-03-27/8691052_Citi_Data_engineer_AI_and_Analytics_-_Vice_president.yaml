@@ -1,62 +1,67 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global banking and financial services
+  stage: null
+  focus: |-
+    Global bank providing consumer, corporate, and investment
+    financial services
 position:
   title: Data engineer AI and Analytics - Vice president
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering leadership role that builds and
-      manages the data platforms and pipelines that ENABLE AI/ML
-      work, but does not directly build, train, fine-tune, or
-      deploy models. The role involves feature engineering and
-      data preparation for model training, and partnering with
-      data science teams to provide curated data. This is classic
-      "enabling" work that supports AI initiatives rather than
-      hands-on AI/ML model development.
+      This is a data platform leadership role that owns OLTP/OLAP
+      infrastructure and delivers curated data, features, and
+      production pipelines to data science teams. The person does
+      not themselves shape model behavior - no prompt engineering,
+      RAG design, training, or eval ownership is described; the AI
+      work is enabling (feature engineering, data preparation,
+      deploying models into pipelines). Per the dataset/pipeline
+      rule, feeding someone else's models is ai-support.
   responsibilities:
   - Lead a team of skilled engineers responsible for the design, development, and
-    24/7 operation of the unified client and account data platform, encompassing both
-    high-throughput OLTP systems and large-scale OLAP analytical stores
+    24/7 operation of the unified client and account data platform spanning high-throughput
+    OLTP systems and large-scale OLAP analytical stores
   - Pioneer the application of AI/ML models on core client and account data to generate
-    actionable insights, identify patterns, and create intelligent features for advisor
-    and client applications. Partner with data science teams to provide them with
-    high-quality, curated data
-  - Oversee the entire lifecycle of the high-throughput, low-latency APIs that provide
-    real-time data to advisor workstations, client-facing portals, and other critical
-    applications, ensuring they are performant, reliable, and secure
+    actionable insights and intelligent features, partnering with data science teams
+    to provide high-quality curated data
+  - Oversee the full lifecycle of high-throughput, low-latency real-time APIs serving
+    advisor workstations, client-facing portals, and other critical applications
   - Take ultimate responsibility for the integrity, availability, and performance
-    of massive volumes of data across both transactional and analytical systems
-  - Champion a culture of measurement. Define, monitor, and report on key performance
-    indicators (KPIs) across the entire ecosystem, from database performance and API
-    latency to data quality and the efficacy of AI models
-  - Serve as the subject matter expert for the entire client and account data ecosystem,
-    from the foundational OLTP databases and real-time APIs to the analytical data
-    warehouses/lakes and the AI/ML models they feed
+    of massive data volumes across transactional and analytical systems
+  - Define, monitor, and report on KPIs across the ecosystem, from database performance
+    and API latency to data quality and AI model efficacy
+  - Serve as subject matter expert for the entire client and account data ecosystem,
+    from OLTP databases and real-time APIs to data warehouses, data lakes, and the
+    AI/ML models they feed
   - Partner with global architects and business leaders to define the technical roadmap
-    for the core data platforms, including strategies for data replication, ETL/ELT
-    processes, and the integration of AI/ML capabilities
+    for core data platforms, including data replication, ETL/ELT processes, and AI/ML
+    integration
   use_cases:
-  - Client and account data management for wealth management applications
-  - Real-time data delivery to advisor workstations and client-facing portals
-  - AI/ML model enablement for actionable insights and intelligent features
-  - High-throughput transactional and analytical data processing
-  - Data quality and integrity for financial services operations
+  - Generate actionable insights and identify patterns from core client and account
+    banking data
+  - Create intelligent features for advisor and client applications in wealth management
+  - Serve real-time client and account data to advisor workstations and client-facing
+    portals via low-latency APIs
+  - Provide high-quality curated data to data science teams for model training and
+    advanced analytics
+  - Feed AI-driven initiatives from foundational client and account data assets
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Feature Engineering, Data preparation for model training]
     cloud: []
-    genai: []
-    data: [Hadoop, Data Pipelines, Data Modeling]
+    languages: []
+    ml: [Feature Engineering, AI/ML]
     other: []
-    ops: [MLOps, AppDynamics, Splunk, Prometheus, Grafana]
+    ops: [MLOps, Model Deployment, Prometheus, Grafana, AppDynamics, Splunk]
+    databases: [Oracle, PostgreSQL, SQL Server, Snowflake, BigQuery, Redshift, Data
+        Warehousing, Data Lakes]
+    domains: []
     web: [REST APIs]
-    databases: [Oracle, PostgreSQL, SQL Server, Snowflake, BigQuery, Redshift, OLTP/OLAP]
+    data: [Hadoop, Data Pipelines, Data Modeling]
+    genai: []
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '8691052'
   location: Pune, IND
-  extracted_at: '2026-03-27T13:43:58.807314'
+  extracted_at: '2026-08-16T03:54:20.125046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

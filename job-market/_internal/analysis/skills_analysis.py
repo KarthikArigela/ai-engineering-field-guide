@@ -2,6 +2,7 @@
 """Analyze ML knowledge and non-GenAI skills for AI Engineers."""
 from collections import Counter, defaultdict
 
+from common import flat_skills, job_skills
 from common import load_structured_jobs as load_all_jobs
 
 
@@ -9,21 +10,20 @@ def analyze_ml_knowledge(jobs):
     """How much ML do AI-First engineers need to know?"""
     ai_first_jobs = [j for j in jobs if j.get('position', {}).get('ai_type', {}).get('type') == 'ai-first']
 
+    # Umbrella terms (machine learning, deep learning, neural networks) are
+    # deliberately absent: a job counts here for naming an ML capability, not
+    # for using the phrase "machine learning" somewhere in the ad.
     ml_skills = ['PyTorch', 'TensorFlow', 'Keras', 'JAX', 'scikit-learn', 'XGBoost',
                  'LightGBM', 'fine-tuning', 'model training', 'model evaluation',
-                 'embeddings', 'deep learning', 'machine learning', 'neural networks',
-                 'optimization', 'CUDA', 'transformers', 'huggingface']
+                 'embeddings', 'optimization', 'CUDA', 'transformers', 'huggingface']
 
     ml_skill_counts = Counter()
     jobs_with_ml = 0
     jobs_with_any_ml = []
 
     for job in ai_first_jobs:
-        skills = job.get('position', {}).get('skills', {})
-        all_skills = []
-        for cat, skill_list in skills.items():
-            if isinstance(skill_list, list):
-                all_skills.extend([s.lower() for s in skill_list])
+        skills = job_skills(job)
+        all_skills = sorted(flat_skills(job))
 
         # Check for ML skills
         job_ml_skills = [s for s in all_skills if any(ml.lower() in s for ml in ml_skills)]
@@ -52,13 +52,11 @@ def analyze_non_genai_skills(jobs):
     category_skill_counts = defaultdict(Counter)
 
     for job in ai_first_jobs:
-        skills = job.get('position', {}).get('skills', {})
-        for category, skill_list in skills.items():
+        for category, skill_list in job_skills(job).items():
             if category == 'genai':
                 continue
-            if isinstance(skill_list, list):
-                for skill in skill_list:
-                    category_skill_counts[category][skill] += 1
+            for skill in skill_list:
+                category_skill_counts[category][skill] += 1
 
     return category_skill_counts, len(ai_first_jobs)
 
@@ -75,11 +73,7 @@ def analyze_full_stack_overlap(jobs):
     backend_count = 0
 
     for job in ai_first_jobs:
-        skills = job.get('position', {}).get('skills', {})
-        all_skills = []
-        for cat, skill_list in skills.items():
-            if isinstance(skill_list, list):
-                all_skills.extend([s.lower() for s in skill_list])
+        all_skills = flat_skills(job)
 
         has_frontend = any(ind in s for s in all_skills for ind in ['react', 'vue', 'next.js', 'frontend', 'typescript', 'javascript'])
         has_backend = any(ind in s for s in all_skills for ind in ['fastapi', 'flask', 'django', 'api', 'graphql', 'rest'])
@@ -163,7 +157,7 @@ def main():
     genai_plus_ops = 0
 
     for job in ai_first_jobs:
-        skills = job.get('position', {}).get('skills', {})
+        skills = job_skills(job)
         genai = len(skills.get('genai', []))
         ml = len(skills.get('ml', []))
         web = len(skills.get('web', []))

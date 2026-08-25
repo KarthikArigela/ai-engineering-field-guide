@@ -1,52 +1,63 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud infrastructure and enterprise solutions
+  stage: null
+  focus: Global edge-to-cloud IT solutions and services
 position:
   title: Private Cloud AI Customer Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly
-      deploys AI solutions to customers. The hands-on work
-      includes building RAG pipelines, implementing
-      LangChain/LlamaIndex solutions, and guiding customers
-      through initial use case adoption with virtual assistants,
-      Q&A chatbots, and summarization applications.
+      This is a forward-deployed-style customer engineer providing
+      hands-on technical support for customers' first AI use cases
+      on HPE's Private Cloud AI platform, with required experience
+      in LangChain, LlamaIndex, RAG pipelines, vector DBs, LLMOps,
+      and vLLM. Guiding and standing up RAG, chatbot, and virtual
+      assistant use cases for customers means shaping LLM
+      behaviour through retrieval and application design, which
+      matches the Forward Deployed Engineer pattern rather than
+      pure account management.
   responsibilities:
-  - Assist customers in the initial adoption of the HPE Private Cloud AI product with
-    hands-on support and guidance
-  - Guide customers through the implementation of their first AI use cases, providing
-    technical expertise and best practices
-  - Conduct regular cadence calls with customers to track progress, address concerns,
-    and ensure smooth onboarding
-  - Collaborate with Sales, Product Management, and Technical Support teams to address
-    customer needs and resolve issues
-  - Monitor customer progress and provide proactive support to ensure early value
-    realization from the product
-  - Deliver informal product training sessions and explain complex technical concepts
-    clearly to customers
+  - Assist customers with initial adoption of the HPE PCAI Private Cloud AI product,
+    providing hands-on support during the first three months post-purchase
+  - Project manage the customer and their first use case through the onboarding phase
+  - Conduct informal product training sessions so customers understand and use the
+    product effectively
+  - Serve as the primary point of contact during onboarding, running regular cadence
+    calls to track progress, address concerns, and provide updates
+  - Guide customers through initial adoption of their first use case with technical
+    expertise and best practices, tailoring support to their specific requirements
+  - Collaborate with internal teams including Sales, Product Management, and Technical
+    Support to address customer needs and resolve issues
+  - Monitor customer progress, identify potential challenges, and proactively mitigate
+    risks to ensure early value realization
+  - Track customer satisfaction and feedback and work with internal teams to continuously
+    improve the onboarding process
   use_cases:
-  - Virtual assistants and Q&A chatbots for enterprise applications
-  - Text summarization for document processing and knowledge management
-  - Retrieval-Augmented Generation (RAG) pipelines for knowledge-based queries
-  - Enterprise AI solutions leveraging structured and unstructured data
-  - NLP-based applications for information extraction and analysis
+  - Enterprise AI use case adoption on a private cloud AI platform
+  - Virtual assistants
+  - Q&A chatbots
+  - Summarization
+  - RAG over enterprise data
   skills:
-    domains: [NLP]
+    cloud: [AWS S3, Cloud Architectures]
     languages: [Python, SQL]
     ml: []
-    cloud: [NVIDIA AI Enterprise]
-    genai: [LangChain, LlamaIndex, vLLM, RAG]
-    data: [Spark, Airflow, Ray, Livy, MLIS]
-    other: []
-    ops: [LLMOps, Kubernetes, Kubeflow, MLflow, Feast, Linux, Helm]
-    web: []
-    databases: [Vector Databases, S3, Presto, Superset, NoSQL]
+    other: [Superset, AuthN/AuthZ, Storage, Design Thinking, Development Fundamentals,
+      Security-First Mindset, Solutions Design, Testing & Automation, UX, Project
+        Management, Cross Domain Knowledge]
+    ops: [Kubernetes, Kubeflow, MLflow, MLIS, NVIDIA AI Enterprise, Linux, Containerization,
+      Helm, vLLM, LLMOps, DevOps, Distributed Systems]
+    databases: [Relational Databases, NoSQL, Vector Databases]
+    domains: [NLP]
+    web: [Microservices, Full-Stack Development]
+    data: [Presto, Airflow, Spark, Livy, Ray, Feast, Big Data]
+    genai: [LangChain, LlamaIndex, RAG, Conversational AI]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7373748'
   location: USA
   remote: true
-  extracted_at: '2026-02-05T10:44:30.515748'
+  extracted_at: '2026-08-15T21:34:52.440066'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

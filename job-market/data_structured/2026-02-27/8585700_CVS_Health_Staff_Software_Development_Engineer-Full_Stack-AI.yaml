@@ -1,46 +1,55 @@
 company:
   name: CVS Health
-  stage: Public
-  focus: Healthcare services and pharmacy
+  stage: ''
+  focus: Healthcare services, pharmacy, and retail health
 position:
   title: Staff Software Development Engineer-Full Stack-AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Full Stack / Frontend role focusing on
-      Angular frameworks and real-time chat UI development. The AI
-      work involves consuming AI/ML APIs and implementing AI-
-      powered features in the UI, but does not include building,
-      training, fine-tuning, or deploying models directly.
+      The core work is front-end Angular engineering for real-time
+      chat UIs, reusable frameworks, and DevOps/cloud support. AI
+      appears only as consuming AI/ML-powered APIs someone else
+      designed, using AI coding assistants like GitHub Copilot,
+      and a preferred-only familiarity with LLM concepts and
+      prompt engineering — the role never shapes model behavior or
+      output quality itself.
   responsibilities:
   - Develop and enhance real-time UI components for platform products and reusable
     Angular frameworks
-  - Architect and develop reusable UI frameworks and enhance platform-wide capabilities
-  - Support cloud integrations, configuration, and troubleshooting within Google Cloud
-    Platform for UI and platform product services
+  - Build and optimize real-time chat experiences supporting chat use cases across
+    multiple business lines
+  - Architect reusable UI frameworks and design systems and enhance platform-wide
+    capabilities
   - Contribute to DevOps activities including CI/CD pipelines, deployment automation,
     and environment support
-  - Partner with Product, Backend, Architecture, and UX teams to deliver seamless
-    and performant chat solutions
-  - Collaborate with cross-functional teams through code reviews, mentoring, and cross-team
+  - Support cloud integrations, configuration, and troubleshooting within Google Cloud
+    Platform for UI and platform product services
+  - Partner with Product, Architecture, Backend, and UX teams to align front-end solutions
+    with enterprise platform standards
+  - Implement accessible, user-centered, pixel-perfect interfaces in collaboration
+    with Design
+  - Engage with engineering peers through code reviews, mentoring, and cross-team
     coordination
   use_cases:
-  - Real-time chat experiences across the enterprise
-  - AI-powered chat interfaces with smart suggestions and automated insights
-  - Intelligent chat and search experiences using LLMs
-  - Chat intelligence and recommendation features for healthcare applications
-  - Generative UI enhancements for improved user experience
+  - Real-time enterprise chat experiences across multiple business lines
+  - Reusable UI frameworks and design systems for platform-wide products
+  - AI-powered UI features such as smart suggestions, automated chat insights, and
+    generative UI enhancements
+  - Intelligent chat and search experience components
+  - Connected digital health experiences for customers and patients
   skills:
-    domains: []
-    languages: [TypeScript]
-    ml: [Recommendation APIs]
     cloud: [GCP, Vertex AI, Azure OpenAI]
-    genai: [AI/ML API integration, NLP services, LLM concepts, Prompt Engineering]
-    data: []
-    other: [GitHub Copilot]
-    ops: [Container-based technologies, CI/CD]
-    web: [Angular, RxJS, HTML5, CSS3/SASS, REST APIs, WebSockets, GraphQL]
+    languages: [TypeScript]
+    ml: []
+    other: [Testing Frameworks]
+    ops: [CI/CD, DevOps, Docker]
     databases: []
+    domains: []
+    web: [Angular, RxJS, HTML5, CSS, SASS, State Management, REST APIs, WebSockets,
+      GraphQL]
+    data: []
+    genai: [GitHub Copilot, LLMs, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
@@ -75,4 +84,6 @@ meta:
   - Town of Nunda, USA
   - Village of Pleasant Prairie, USA
   remote: true
-  extracted_at: '2026-02-27T12:30:15.310230'
+  extracted_at: '2026-08-16T02:44:26.347615'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

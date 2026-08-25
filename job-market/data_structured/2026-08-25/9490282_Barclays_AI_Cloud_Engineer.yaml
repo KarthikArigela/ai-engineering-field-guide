@@ -1,0 +1,48 @@
+company:
+  name: Barclays
+  stage: null
+  focus: Global banking and financial services
+position:
+  title: AI & Cloud Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role requires hands-on training and fine-tuning of
+      language models, including PEFT methods (LoRA, QLoRA) and
+      quantization/pruning — this directly shapes model behavior.
+      Because the target models are LLMs, it classifies as ai-
+      first despite the infrastructure-heavy framing.
+  responsibilities:
+  - Build and maintain reliable, scalable, and secure cloud infrastructure platforms
+  - Develop and deliver high-quality infrastructure solutions meeting business requirements
+  - Monitor infrastructure performance and manage incidents to drive down mean time
+    to resolution
+  - Develop automated tasks and processes using software scripting and coding
+  - Implement secure configurations to protect infrastructure from cyber threats
+  - Train and fine-tune language models using efficient and optimized techniques
+  - Lead and coach team members, set objectives, and appraise performance
+  - Collaborate cross-functionally with product managers, architects, and engineers
+  use_cases:
+  - Cloud infrastructure platforms supporting applications and data systems
+  - AI/ML platform services with fine-tuned language models
+  - Infrastructure automation and incident management
+  - Secure and scalable enterprise cloud delivery for banking operations
+  skills:
+    genai: [LangChain, AutoGPT, CrewAI, LoRA, Embeddings]
+    ml: [PyTorch, TensorFlow, Hugging Face, Fine-Tuning, Quantization]
+    web: []
+    databases: [Vector Databases]
+    data: []
+    cloud: [AWS, AWS CLI]
+    ops: [Kubernetes, Docker, OpenShift, Terraform, CloudFormation, CI/CD, Linux]
+    languages: [Python, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '9490282'
+  location: Pune, IND
+  extracted_at: '2026-08-25T12:19:48.764496'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

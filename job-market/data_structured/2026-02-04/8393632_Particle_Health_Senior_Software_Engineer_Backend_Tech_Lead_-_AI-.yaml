@@ -1,55 +1,59 @@
 company:
   name: Particle Health
-  stage: Series B
+  stage: null
   focus: Healthcare data analytics and interoperability platform
 position:
   title: Senior Software Engineer (Backend, Tech Lead - AI-Enabled Systems)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a backend engineering role focused on building
-      healthcare data APIs and distributed systems. The AI
-      component is limited to using AI-assisted development tools
-      (Copilot, Cursor, Claude Code) to improve developer
-      productivity and code quality, not building or deploying AI
-      models/ML systems. The role involves general software
-      engineering for a data platform company.
+      The core work is designing, building, and operating backend
+      services and REST APIs in Golang/Python for a healthcare
+      data platform. AI appears only as AI-assisted development
+      tools (Copilot, Cursor, Claude Code) used to improve the
+      engineer's own productivity, debugging, and code quality —
+      the deliverable is backend systems, not model behavior, so
+      this is ai-support.
   responsibilities:
   - Design, develop, and maintain RESTful APIs and backend services using Golang and
-    Python
-  - Build scalable, secure, and performant services handling healthcare data with
-    privacy, security, and compliance requirements
+    some Python
+  - Build scalable, secure, and performant services that handle healthcare data with
+    strong privacy, security, compliance, and reliability requirements
   - Leverage AI-assisted development tools to improve productivity, debugging, testing,
-    documentation, and code quality
+    documentation, and code quality, and help define best practices and guardrails
+    for their use
   - Integrate backend services with data pipelines and processing workflows
-  - Take end-to-end ownership of complex systems including architecture, implementation,
+  - Take end-to-end ownership of complex systems, including architecture, implementation,
     observability, and operational health
-  - Lead architectural discussions and long-term technical planning
-  - Mentor engineers and contribute to improving engineering standards, tooling, and
-    development practices
-  - Partner with Product to translate requirements into durable technical solutions
-    and support customer integrations
+  - Lead architectural discussions and long-term technical planning, balancing near-term
+    delivery with platform health
+  - Identify and implement measurable improvements to system performance, efficiency,
+    scalability, and reliability
+  - Mentor engineers and partner with Product to translate requirements into durable
+    technical solutions, supporting customer integrations and production use cases
   use_cases:
-  - Care coordination across healthcare providers and systems
-  - Risk stratification for patient population management
-  - Patient identity management across fragmented data silos
-  - Regulatory compliance for healthcare data handling
-  - Real-time patient data access for value-based care providers and payers
-  - Healthcare data analytics for digital health companies and health systems
+  - Real-time access to standardized patient medical records
+  - Care coordination for healthcare providers and payers
+  - Risk stratification from patient data
+  - Patient identity management
+  - Healthcare regulatory compliance
+  - Customer data integrations and production API usage
   skills:
-    domains: [Healthcare Standards, HIPAA Compliance, SOC 2]
+    cloud: [GCP]
     languages: [Go, Python]
     ml: []
-    cloud: [GCP]
-    genai: []
-    data: [data engineering pipelines, ETL workflows]
-    other: [Distributed Systems, event-driven architectures, message queues]
-    ops: [Docker, Kubernetes, CI/CD, Terraform]
-    web: [RESTful API design, OAuth, JWT]
+    other: [FHIR, HL7, CCDA, Event-Driven Architecture, HIPAA Compliance, SOC 2]
+    ops: [Distributed Systems, Docker, Kubernetes, CI/CD, Terraform, Observability]
     databases: [SQL, NoSQL]
-  is_customer_facing: true
+    domains: []
+    web: [REST APIs, OAuth, JWT]
+    data: [Data Pipelines, Message Queues]
+    genai: [GitHub Copilot, Cursor, Claude Code]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8393632'
   location: New York, USA
-  extracted_at: '2026-02-05T13:05:02.959173'
+  extracted_at: '2026-08-15T23:34:07.193295'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

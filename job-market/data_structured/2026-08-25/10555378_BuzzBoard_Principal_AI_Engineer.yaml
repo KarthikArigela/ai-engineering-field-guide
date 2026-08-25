@@ -1,0 +1,55 @@
+company:
+  name: BuzzBoard
+  stage: null
+  focus: AI products for B2SMB marketing and intelligence
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs prompts, RAG pipelines, agent
+      orchestration, evaluation frameworks, and model
+      selection/fallback behavior across LLM-based agent products
+      — clearly shaping model behavior, with LLMs at the center.
+      It's a senior IC architecture role.
+  responsibilities:
+  - 'Own the shared AI system architecture underlying all products: retrieval, agent
+    orchestration, evaluation, and deployment'
+  - Design agentic workflows including tool calling, state management, checkpointing,
+    guardrails, and safe failure handling
+  - 'Design RAG pipelines end to end: chunking, embeddings, metadata, reranking, and
+    retrieval evaluation'
+  - Own model selection, fallback, and model-switching strategy across LLM ecosystems
+  - 'Stand up evaluation frameworks: output quality, hallucination rate, schema adherence,
+    latency, cost, and regression testing'
+  - Package services (Python, FastAPI/Flask, Docker) and diagnose AI-specific production
+    failure modes
+  - Mentor GenAI engineers, review designs, prompts, workflows, and evals
+  use_cases:
+  - Multi-agent marketing content generation for small businesses
+  - Real-time AI voice intake
+  - Pre- and post-sales SMB intelligence and recommendations
+  - Cross-product shared pipeline for orchestration, retrieval, tool use, evaluation,
+    and deployment
+  skills:
+    genai: [LLMs, Prompt Engineering, Structured Outputs, Function Calling, RAG, Embeddings,
+      Semantic Search, LangGraph, CrewAI, AutoGen, Semantic Kernel, Agentic Workflows,
+      Fine-Tuning, Generative AI]
+    ml: []
+    web: [REST APIs, FastAPI, Flask]
+    databases: [Chroma, Pinecone, Weaviate, FAISS]
+    data: []
+    cloud: []
+    ops: [Docker, CI/CD, Kubernetes, vLLM, TensorRT, LangSmith, MLflow, Weights &
+        Biases]
+    languages: [Python]
+    domains: []
+    other: [Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10555378'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-25T10:41:49.902596'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

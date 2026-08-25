@@ -1,0 +1,57 @@
+company:
+  name: CapsLock (capslock.global)
+  stage: null
+  focus: Global IT marketing and B2C customer acquisition
+position:
+  title: Generative AI Pipeline Engineer (Tech Lead)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The core work is training and controlling image/video
+      diffusion models (LoRA training, ControlNet, IP-Adapter,
+      inpainting) to match products 1:1 — generative image/video
+      output, which is ml-first by rule. LLM orchestration is only
+      listed as nice-to-have, so it doesn't make the role ai-
+      first.
+  responsibilities:
+  - 'Architect and run the AI Media Production platform: serving ComfyUI or similar
+    engines, GPU environments, and one-click UIs for non-technical teams'
+  - Ship modular, versioned, reproducible generative pipelines, node-based and/or
+    code-first
+  - Develop one-click presets and use cases for image and video generation
+  - Train LoRAs end-to-end from real product photography to evaluated production-ready
+    models
+  - Build control-first generation into every pipeline using ControlNet, IP-Adapter,
+    inpainting, and reference conditioning
+  - Engineer automated QC checks against product references into the pipeline itself
+  - Build a creative intelligence loop encoding best-performing assets into reusable
+    presets and styles
+  - Own the technical roadmap with the Design Director; qualify new models and tools
+    and drive adoption
+  use_cases:
+  - Generative media production of real product visuals for marketing assets
+  - 1:1 product-accurate image and video generation with no artifacts or hallucinations
+  - Automated quality control of generated visuals against product references
+  - Reusable style presets encoding top-performing creative assets for performance
+    marketing
+  skills:
+    genai: [Agentic Workflows]
+    ml: [ComfyUI, Diffusers, LoRA, Fine-Tuning, ControlNet, IP-Adapter, Inpainting,
+      Model Evaluation, Hugging Face]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [APIs]
+    languages: [Python]
+    domains: []
+    other: [Blender]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10436663'
+  location: GBR
+  remote: true
+  extracted_at: '2026-08-25T10:07:44.884496'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

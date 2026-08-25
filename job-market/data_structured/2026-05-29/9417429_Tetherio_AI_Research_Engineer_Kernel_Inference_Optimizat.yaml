@@ -1,55 +1,58 @@
 company:
   name: Tether.io
-  stage: Public
-  focus: Stablecoins and digital asset tokenization services
+  stage: null
+  focus: Blockchain-based stablecoins and digital finance products
 position:
   title: AI Research Engineer (Kernel & Inference Optimization) - 100% Remote Worldwide
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI Research Engineer role focused on kernel and
-      inference optimization for AI models. The role involves
-      hands-on work optimizing AI model deployment, writing custom
-      GPU kernels for mobile devices, implementing distributed
-      inference techniques, and applying advanced optimization
-      methods like quantization, pruning, and speculative decoding
-      directly to model serving architectures.
+      This role optimizes model internals directly: writing custom
+      GPU/Metal compute shaders from scratch and applying pruning,
+      quantization, Flash Attention, KV Cache, and speculative
+      decoding, which counts as shaping. The optimization targets
+      span LLM techniques (token response, KV Cache, speculative
+      decoding) alongside diffusion models and vision
+      transformers, and roles covering both LLM and classical
+      components are ai-first.
   responsibilities:
-  - Design and deploy state-of-the-art model serving architectures that deliver high
-    throughput and low latency while optimizing memory usage
-  - Build, run, and monitor controlled inference tests in both simulated and live
-    production environments
-  - Identify and prepare high-quality test datasets and simulation scenarios tailored
-    to real-world deployment challenges
-  - Analyze computational efficiency and diagnose bottlenecks in the serving pipeline
-    by monitoring both processing and memory metrics
-  - Work closely with cross-functional teams to integrate optimized serving and inference
-    frameworks into production pipelines
-  - Write custom GPU compute kernels from scratch for mobile devices and edge platforms
-  - Apply optimization techniques including pruning, quantization, flash attention,
-    and speculative decoding to improve model performance
+  - Design and deploy state-of-the-art model serving architectures delivering high
+    throughput and low latency while optimizing memory usage across environments including
+    resource-constrained devices and edge platforms
+  - Build, run, and monitor controlled inference tests in simulated and live production
+    environments, tracking latency, throughput, memory consumption, and error rates
+    against benchmarks
+  - Identify and prepare test datasets and simulation scenarios tailored to real-world
+    deployment challenges on low-resource devices
+  - Analyze computational efficiency and diagnose bottlenecks in serving pipelines,
+    addressing suboptimal batch processing, network delays, and high memory usage
+  - Write custom GPU compute shaders and perform low-level kernel optimization for
+    mobile and edge inference
+  - Apply pruning, quantization, Flash Attention, KV Cache, and speculative decoding
+    to reduce inference latency, memory footprint, and improve throughput
+  - Design and optimize distributed inference engines using tensor, pipeline, and
+    expert parallelism for massive models on GPU clusters
+  - Collaborate with cross-functional teams to integrate optimized serving and inference
+    frameworks into production pipelines for edge and on-device applications
   use_cases:
-  - Multi-modal AI systems integrating text, images, and audio
-  - Resource-efficient models for edge devices and mobile platforms
-  - Low-latency inference for real-time AI applications
-  - High-throughput model serving for production deployments
-  - On-device AI processing for resource-constrained environments
-  - Large-scale distributed inference using GPU clusters
+  - On-device and edge AI inference on resource-constrained mobile hardware
+  - High-throughput, low-latency, low-memory model serving in production environments
+  - Multi-modal AI architectures integrating text, images, and audio
+  - Distributed inference of massive models across GPU clusters
+  - Efficient deployment and serving of diffusion models and vision transformers
   skills:
-    genai: []
-    ml: [Tensor Parallelism, Pipeline Parallelism, Expert Parallelism, Distributed
-        Inference, Quantization, Pruning, Flash attention, KV Cache, Speculative Decoding,
-      Diffusion Models, Vision Transformers]
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [Metal Shading Language (MSL), GPU kernel optimization, Inference optimization,
-      Model serving frameworks, Edge deployment, Mobile optimization, Performance
-        monitoring]
     languages: []
-    domains: [NLP]
+    ml: [Metal Shading Language, GPU Kernels, Quantization, Pruning, Flash Attention,
+      Vision Transformers, Machine Learning, Model Evaluation]
     other: []
+    ops: [KV Cache, Speculative Decoding, Tensor Parallelism, Pipeline Parallelism,
+      Expert Parallelism, Model Deployment, Inference Optimization]
+    databases: []
+    domains: [Diffusion Models, NLP]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -91,4 +94,6 @@ meta:
   - Beograd, SRB
   - ARG
   remote: true
-  extracted_at: '2026-05-29T09:04:03.560438'
+  extracted_at: '2026-08-16T11:08:33.436153'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

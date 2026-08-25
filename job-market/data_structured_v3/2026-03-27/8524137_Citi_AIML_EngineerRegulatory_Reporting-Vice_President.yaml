@@ -1,0 +1,62 @@
+company:
+  name: Citi
+  stage: ''
+  focus: Global banking and financial services (regulatory reporting)
+position:
+  title: AI/ML Engineer–Regulatory Reporting-Vice President
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes both LLM systems and classical ML:
+      it designs RAG pipelines, builds agentic GenAI workflows,
+      and builds explainability/validation into model outputs,
+      alongside unsupervised anomaly detection models (Isolation
+      Forests, Autoencoders). Per the edge case, a role shaping
+      both LLM and classical ML systems is ai-first.
+  responsibilities:
+  - Build unsupervised and semi-supervised anomaly detection models (Isolation Forests,
+    Autoencoders) to scan millions of transactional records for complex outliers and
+    reduce false positives before data reaches regulators
+  - Design RAG pipelines to chat with unstructured credit agreements and loan documents
+    and extract key regulatory attributes such as maturity dates and collateral clauses
+  - Build agentic GenAI workflows that proactively suggest mapping logic or identify
+    root causes of breaks, requiring only human SME approval
+  - Build explainability (XAI) into every model so outputs include why a flag was
+    raised, not just a score
+  - Create human-in-the-loop validation interfaces (Streamlit or React) where business
+    users compare model predictions side-by-side with source documents to approve
+    or reject findings
+  - Work with Model Risk Management to establish a fast-track validation framework
+    for non-deterministic GenAI models
+  - Act as AI evangelist to Operations and Finance teams, demonstrating how AI assists
+    rather than replaces them
+  use_cases:
+  - Anomaly detection for data quality in regulatory reporting, catching issues before
+    they reach regulators
+  - Automated reconciliation and document review via GenAI workflows
+  - Chatting with unstructured legal and loan documents to extract regulatory attributes
+  - Human-in-the-loop validation of model outputs against legal loan documents for
+    auditability
+  - Explainable, auditable AI outputs meeting regulatory and model risk governance
+    standards
+  skills:
+    genai: [LangChain, LlamaIndex, RAG, Agentic Workflows, AI Agents, LLMs, Generative
+        AI, Human-in-the-Loop]
+    ml: [Scikit-learn, TensorFlow, PyTorch, Isolation Forests, Autoencoders, Anomaly
+        Detection, Explainable AI]
+    web: [Streamlit, Gradio, React]
+    databases: [Vector Databases, Pinecone, Milvus, pgvector]
+    data: []
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: [Fraud Detection, AML, Risk Modeling]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8524137'
+  location: Mumbai, IND
+  extracted_at: '2026-08-16T03:13:08.897922'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

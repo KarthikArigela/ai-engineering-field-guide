@@ -1,58 +1,61 @@
 company:
   name: Life360
-  stage: Public
-  focus: Family safety and location-sharing mobile app
+  stage: null
+  focus: Family location sharing and safety app with tracking devices
 position:
   title: Senior IT Automation Engineer II (AI Native)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role builds and deploys AI agents and LLM-powered
-      workflows for IT operations, including MCP servers, Claude
-      Code sub-agents, and autonomous workflows. The engineer
-      directly constructs, evaluates, and operates AI systems -
-      hands-on model implementation and agent development rather
-      than just infrastructure support.
+      The role explicitly designs, builds, evaluates, and operates
+      LLM-powered agents (MCP servers, Claude Code sub-agents) for
+      IT operations, monitoring, and remediation — that is shaping
+      agent/tool behaviour with LLM components. The agents are the
+      automation product itself, not a personal coding tool, so it
+      is ai-first.
   responsibilities:
-  - Design, build, and maintain SOX control automation to reduce manual work for IT
-    and control owners
-  - Build API-driven integrations across SaaS and infrastructure stack using Tray,
-    Terraform, GAM, and codeless tooling
+  - Design, build, and maintain SOX control automation with time-based and event-based
+    triggers, partnering with Compliance
+  - Build API-driven integrations across Okta, Google Workspace, GitHub, AWS, and
+    Atlassian using Tray, Terraform, GAM, and codeless tooling
   - Extend RBAC and access governance tooling with automated provisioning, deprovisioning,
     and entitlement reviews
-  - Develop AI- and agent-based workflows including LLM-powered agents for IT operations,
-    monitoring, and remediation
-  - Operate across Tray, AWS Lambda code, and AI using judgment to graduate workflows
-    from low-code to code-first
-  - Develop automated monitoring for proactive self-remediation and serve as senior
-    escalation point for IT Operations
-  - Maintain documentation for automation processes, agent behaviors, and integration
-    patterns while mentoring teammates
+  - Build, evaluate, and operate LLM-powered agents (MCP servers, Claude Code sub-agents)
+    for IT operations, monitoring, and remediation
+  - Extend Jira, GitHub, and AWS workflow systems with automation touchpoints to eliminate
+    manual handoffs
+  - Use judgment across Tray, AWS Lambda code, and AI to place each workflow in the
+    right home, graduating stable low-code workflows to code-first homes
+  - Develop automated monitoring with proactive self-remediation and serve as a senior
+    escalation point for the IT Operations team
+  - Maintain documentation for automation processes and agent behaviors, mentor teammates,
+    and participate in on-call rotations
   use_cases:
-  - Automated SOX compliance controls with time-based and event-based triggers
-  - Enterprise SaaS integration and automation across Okta, Google Workspace, GitHub,
-    AWS, and Atlassian
-  - Role-based access control (RBAC) automation for provisioning, deprovisioning,
+  - SOX compliance control automation for IT and control owners
+  - Identity and access governance automation including provisioning, deprovisioning,
     and entitlement reviews
-  - AI-powered IT operations and remediation through autonomous agents and workflows
-  - Self-remediating monitoring systems for proactive issue detection and resolution
-  - Low-code to code-first workflow migration using AI as leverage
+  - Agentic AI-driven IT operations for monitoring and self-remediation
+  - API integrations across enterprise SaaS and infrastructure stack
+  - Workflow automation to eliminate manual handoffs in internal IT operations
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, Okta]
     languages: [Python, JavaScript, Go, Groovy]
     ml: []
-    cloud: [AWS Lambda]
-    genai: [MCP, Claude Code, AI Agents, LLM-powered workflows]
-    data: []
-    other: [RBAC, SOX compliance, Airtable, GAM]
-    ops: [Terraform, Tray, Zapier]
-    web: [REST APIs, OAuth, SAML, OIDC, SCIM, Okta, Google Workspace, GitHub, Atlassian,
-      Jira, Postman]
+    other: [Google Workspace, Atlassian, Jira, Tray, Zapier, Workato, GAM, Airtable,
+      ScriptRunner, RBAC, SOX]
+    ops: [Terraform, GitHub]
     databases: []
+    domains: []
+    web: [REST APIs, OAuth, SAML, OIDC, SCIM, Postman]
+    data: []
+    genai: [MCP, Claude Code, AI Agents, Agentic Workflows, LLMs, Anthropic API, ChatGPT,
+      GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9329075'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:02:30.498791'
+  extracted_at: '2026-08-16T10:19:44.872068'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

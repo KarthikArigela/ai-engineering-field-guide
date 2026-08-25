@@ -1,0 +1,56 @@
+company:
+  name: Palona AI
+  stage: null
+  focus: AI agents for restaurant guest interactions
+position:
+  title: AI Infrastructure Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates infrastructure beneath AI
+      products — serving, deploying, observability, cost — but
+      does not shape model behavior through prompts, retrieval,
+      training, or evals. Partnering with AI engineers on
+      architecture is support work, so it's ai-support.
+  responsibilities:
+  - Design, build, and evolve secure, scalable cloud infrastructure for real-time
+    AI services
+  - Improve service reliability via SLOs, observability, capacity planning, and failure
+    testing
+  - Build deployment and release systems that make production changes fast and safe
+  - Own infrastructure as code and reusable platform patterns across environments
+  - Partner with product and AI engineers on architecture and operational readiness
+  - Diagnose complex distributed-system failures across application, network, and
+    provider boundaries
+  - Reduce infrastructure and model-serving cost without compromising experience
+  - Strengthen secrets management, access controls, backup/recovery, and security
+    foundations
+  use_cases:
+  - Real-time AI guest interactions for restaurants
+  - Continuous production AI agents integrating with restaurant systems
+  - High-traffic, low-latency AI service delivery
+  - Safe, observable deployment of customer-facing AI applications
+  skills:
+    genai: [LLMs, AI Agents]
+    ml: []
+    web: []
+    databases: [Relational Databases]
+    data: []
+    cloud: [AWS, Azure, ECS, AWS Lambda, API Gateway]
+    ops: [Docker, Terraform, Datadog, CI/CD, Infrastructure as Code, Distributed Systems,
+      Monitoring]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10632136'
+  location: Toronto, CAN
+  locations:
+  - Toronto, CAN
+  - New York, USA
+  - Los Altos, USA
+  extracted_at: '2026-08-25T10:59:45.211288'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

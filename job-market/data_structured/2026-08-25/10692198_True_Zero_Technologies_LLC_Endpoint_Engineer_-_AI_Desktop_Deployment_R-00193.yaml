@@ -1,0 +1,55 @@
+company:
+  name: True Zero Technologies, LLC
+  stage: null
+  focus: IT and cybersecurity services for government clients
+position:
+  title: Endpoint Engineer - AI Desktop Deployment (R-00193)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys and manages Windows endpoints that run AI-
+      enabled applications; it does not shape any model's behavior
+      via prompts, retrieval, or training. AI appears as
+      applications the engineer packages, secures, and readies
+      hardware for, so it is ai-support.
+  responsibilities:
+  - Design, deploy, secure, and maintain enterprise Windows 10/11 endpoints in regulated,
+    government, and Zero Trust environments
+  - Administer Microsoft Intune / Microsoft Endpoint Manager for enrollment, configuration,
+    app deployment, compliance, and security
+  - Design and troubleshoot Group Policy Objects for enterprise security and configuration
+  - Develop Windows provisioning and deployment solutions including Autopilot and
+    automated enrollment
+  - Evaluate Windows updates, drivers, firmware, and configuration changes before
+    production
+  - Support endpoint modernization and migration to cloud-managed or hybrid architectures
+  - Automate endpoint administration tasks using PowerShell
+  - Deploy enterprise AI desktop applications such as Microsoft Copilot and evaluate
+    hardware readiness for AI workloads
+  use_cases:
+  - Enterprise Windows endpoint management in government and Zero Trust environments
+  - Deployment of AI-enabled desktop applications and Microsoft Copilot
+  - Endpoint security compliance and AI governance for generative AI tools
+  - Hardware and software readiness evaluation for local AI workloads
+  - Telemetry integration with security, identity, and SIEM platforms
+  skills:
+    genai: [Microsoft Copilot]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [Microsoft Graph]
+    ops: [Microsoft Intune, Microsoft Endpoint Manager, Windows 10/11, Group Policy,
+      Windows Autopilot, SIEM, SIEM Platforms]
+    languages: [PowerShell]
+    domains: []
+    other: [Zero Trust, Data Loss Prevention]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10692198'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:18:04.180955'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

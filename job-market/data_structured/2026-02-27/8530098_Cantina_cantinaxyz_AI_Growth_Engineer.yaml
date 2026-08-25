@@ -1,52 +1,60 @@
 company:
   name: Cantina (cantina.xyz)
-  stage: Seed
-  focus: Web3 security platform connecting researchers with projects
+  stage: early-stage startup
+  focus: |-
+    Web3 code-security platform connecting security researchers
+    with projects
 position:
   title: AI Growth Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on building of AI agents, LLM
-      workflows, RAG systems, and agent orchestration - working
-      directly ON AI systems for growth and marketing automation
-      rather than supporting AI work for others. The requirements
-      explicitly mention 3+ years working with AI systems
-      including LLMs, embeddings, RAG, and prompt engineering,
-      with responsibility to build AI agents that run
-      continuously.
+      The role designs and builds AI agents, structured prompt
+      pipelines, LLM workflows, and retrieval (RAG) systems for
+      marketing automation, which is direct shaping of model
+      behaviour and agent flows. Since LLMs and agents are
+      central, it is ai-first rather than ml-first; there is no
+      classical ML training component.
   responsibilities:
   - Build AI agents that run continuously to identify, enrich, and qualify prospects
-  - Design automated lead-generation systems and multi-channel marketing automation
-    infrastructure
-  - Build lead scoring, segmentation, and routing pipelines using Python, TypeScript,
-    SQL, and data tooling
-  - Develop monitoring systems that detect market events and trigger contextual outreach
-  - Build AI-driven content systems with LLM workflows, structured prompt pipelines,
+  - Design automated lead-generation and lead scoring, segmentation, and routing pipelines
+    using Python, TypeScript, and SQL
+  - Architect marketing automation infrastructure orchestrating multi-channel campaigns
+    across email, social, community, and paid
+  - Optimize the marketing website for performance, SEO, AEO, and conversion architecture
+  - Build AI-driven content systems including LLM workflows, structured prompt pipelines,
     and retrieval systems
-  - Optimize Cantina's marketing website for performance, SEO, AEO, and conversion
-    architecture
+  - Develop monitoring systems that detect market events (exploits, launches, governance
+    proposals, funding rounds) and trigger contextual outreach
+  - Ensure clean, structured marketing data flows into the CRM and downstream systems
+  - Implement marketing performance tracking and campaign attribution systems within
+    the marketing automation stack
   use_cases:
-  - Automated prospect identification and qualification using AI agents
-  - Multi-channel marketing campaign orchestration and automation
-  - Real-time market event monitoring and contextual outreach triggering
-  - AI-driven content generation and workflow automation
-  - Lead scoring, segmentation, and intelligent routing for sales teams
-  - Data pipeline automation for CRM integration and marketing data flows
+  - Continuous AI prospecting agents that identify, enrich, and qualify leads
+  - Automated outbound and inbound lead generation with lead scoring and routing
+  - Multi-channel marketing campaign automation across email, social, community, and
+    paid
+  - Market event detection (exploits, launches, governance proposals, funding rounds)
+    triggering contextual outreach
+  - AI-driven content generation via LLM workflows and retrieval pipelines
+  - Marketing performance tracking and campaign attribution
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, TypeScript, SQL]
     ml: []
-    cloud: [AWS, GCP, Azure]
-    genai: [LLMs, Embeddings, RAG, Agentic Workflows, Prompt Engineering, LangChain]
-    data: [Data Pipelines, web scraping]
-    other: [HubSpot, Salesforce]
-    ops: [monitoring systems]
-    web: [APIs]
+    other: [HubSpot, Salesforce, SEO, AEO, Web3]
+    ops: []
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Web Scraping, Data Modeling]
+    genai: [LLMs, Embeddings, RAG, Agentic Workflows, Prompt Engineering, AI Agents,
+      LangChain, AgentSDK, ReAct]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8530098'
   location: New York, USA
-  extracted_at: '2026-02-27T11:36:17.861542'
+  extracted_at: '2026-08-16T02:11:41.102375'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

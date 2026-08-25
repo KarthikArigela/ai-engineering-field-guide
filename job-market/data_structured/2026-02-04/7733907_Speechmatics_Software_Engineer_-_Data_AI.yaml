@@ -2,59 +2,56 @@ company:
   name: Speechmatics
   stage: null
   focus: |-
-    Speech Intelligence using AI/ML to unlock business value in
-    human speech worldwide
+    AI-powered speech intelligence and voice recognition
+    technology
 position:
   title: Software Engineer - Data & AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building data pipelines, web scraping
-      infrastructure, and data management systems that power
-      speech models - it's clearly working NEAR AI but not ON the
-      AI models themselves. The engineer creates the datasets that
-      ML Engineers use, handles data infrastructure, and optimizes
-      data workflows, which is classic AI-support work enabling ML
-      teams rather than direct model development.
+      This role builds datasets and data pipelines (scraping, ETL,
+      storage) that feed speech models trained by separate ML
+      engineers; the person never trains, prompts, evaluates, or
+      otherwise shapes model behavior. Building datasets or
+      pipelines that feed someone else's training runs is ai-
+      support, even at an AI company.
   responsibilities:
   - Develop and maintain scalable web scraping solutions to extract data from multiple
     sources
   - Design, implement and maintain scalable data pipelines for ingestion, transformation,
     and storage of large datasets for high-performance AI models
-  - Ensure data quality and integrity through validation, cleaning, and normalisation
+  - Ensure data quality and integrity through validation, cleaning, and normalization
     processes
-  - Manage data infrastructure, including databases, and cloud storage solutions
-  - Optimise performance of scraping scripts and pipelines for speed, reliability,
+  - Manage data infrastructure including databases and cloud storage solutions
+  - Optimize performance of scraping scripts and pipelines for speed, reliability,
     and scalability
-  - Monitor and troubleshoot data workflows reliability and efficiency
-  - Identify new opportunities to source or generate relevant datasets
-  - Collaborate closely with ML Engineers to deliver richer data at bigger scale and
-    lower cost to power next-generation models
+  - Monitor and troubleshoot data workflows for reliability and efficiency
+  - Identify new opportunities to source or generate relevant datasets while staying
+    compliant with data privacy and security regulations
+  - Collaborate with ML engineers and leadership to shape the data roadmap powering
+    next-generation speech models
   use_cases:
-  - Powering state-of-the-art speech recognition models through large-scale, high-quality
-    datasets
-  - Enabling voice AI technology to unlock business value in human speech across global
-    industries
-  - Supporting cutting-edge speech intelligence projects that integrate into customer
-    stacks irrespective of industry
-  - Delivering data that shifts the cost/throughput/quality frontier for next-generation
-    speech models
-  - Extracting useful information from speech for business applications worldwide
+  - Large-scale dataset creation to train state-of-the-art speech models
+  - Voice AI and speech intelligence unlocking business value from human speech
+  - Automated web data acquisition for sourcing and generating new training datasets
+  - Privacy-compliant data ingestion, transformation, and quality control for machine
+    learning
   skills:
-    domains: []
+    cloud: [Cloud]
     languages: [Python, SQL]
-    ml: []
-    cloud: [AWS, Azure, GCP, cloud storage]
-    genai: []
-    data: [Data Pipelines, web scraping, crawlers, data quality and validation, data
-        compliance]
-    other: []
-    ops: [on-prem infrastructure]
+    ml: [Machine Learning]
+    other: [Data Privacy]
+    ops: [On-Prem Infrastructure]
+    databases: []
+    domains: []
     web: []
-    databases: [databases]
+    data: [Web Scraping, Data Pipelines, Data Engineering]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7733907'
   location: London, GBR
-  extracted_at: '2026-02-05T11:23:44.524298'
+  extracted_at: '2026-08-15T22:01:45.675111'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

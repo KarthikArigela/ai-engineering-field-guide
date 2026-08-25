@@ -1,54 +1,61 @@
 company:
   name: Kyndryl
-  stage: Public
-  focus: Mission-critical IT infrastructure and AI solutions
+  stage: null
+  focus: |-
+    Mission-critical IT infrastructure services and technology
+    systems
 position:
   title: Principal Forward Deployed Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role explicitly
-      requiring hands-on building, prototyping, and deploying
-      Agentic AI solutions, RAG systems, and multi-agent
-      architectures to production. The role involves direct work
-      with LLM/agent frameworks like LangChain/LangGraph, CrewAI,
-      and Azure AI Agents SDK to deliver production-grade AI
-      systems for customers.
+      The role requires hands-on delivery of Agentic AI solutions,
+      rapid prototyping with agentic AI frameworks, and building
+      RAG solutions with vector databases, which means the
+      engineer directly shapes agent flows and retrieval
+      behaviour. Forward Deployed Engineers who adapt and deploy
+      AI solutions at customer sites are explicitly ai-first. The
+      client-facing and advisory duties do not change this.
   responsibilities:
-  - Own client relationship including scoping, delivery assurance, escalation, and
-    team coordination across FDE squads for AI solutions
-  - Set technical direction, advise C-suite, shape strategy, and lead multiple squads
-  - Interact with client teams to understand requirements and datasets to determine
-    and refine objectives
-  - Build and iterate custom AI solutions tailored to customer needs leveraging agentic
-    AI frameworks
-  - Own end-to-end technical delivery from scoping to production of Agentic AI solutions
+  - Own client relationships, scoping, delivery assurance, escalation, and team coordination
+    across FDE squads for AI solutions
+  - Set technical direction, advise C-suite stakeholders, shape strategy, and lead
+    multiple squads
+  - Interact with client teams to understand requirements and datasets in order to
+    determine and refine objectives
+  - Contribute to building solutions and own end-to-end technical delivery of workstreams
+    including hands-on delivery of Agentic AI solutions
+  - Rapidly prototype and iterate custom AI solutions tailored to customer needs leveraging
+    agentic AI frameworks, and deploy production-ready solutions with client teams
   - Troubleshoot and enhance system performance, scalability, and reliability of deployed
     solutions
-  - Mentor FDEs on potential solutions and contribute to their skill development
-  - Contribute to evolution of Kyndryl's AI platforms through feedback, code contributions,
-    and collaboration with product teams
+  - Capture deployment learnings, document best practices, and share insights to inform
+    enhancements to Kyndryl's core AI platforms and frameworks
+  - Mentor FDEs on potential solutions and contribute to their upskilling
   use_cases:
-  - Enterprise agentic AI solutions deployed to customer environments
-  - Multi-agent ecosystems for complex business problem solving
-  - RAG-based knowledge retrieval and question answering systems
-  - Production-grade AI deployments driving measurable business outcomes
-  - Policy-as-code and AI governance for enterprise systems
+  - Tailored enterprise AI solutions built and deployed at customer sites
+  - Production-grade Agentic AI and multi-agent solutions for customer business outcomes
+  - RAG solutions over customer datasets using vector databases
+  - Rapid prototyping and iteration of custom AI solutions for client problems
+  - Field intelligence and deployment learnings fed back into Kyndryl AI platforms
+    and frameworks
   skills:
-    domains: []
-    languages: [Python, Java]
+    cloud: [AWS, Azure, Google AI]
+    languages: [Python, Java, SQL]
     ml: []
-    cloud: [AWS, Azure, Google Cloud AI]
-    genai: [LangChain, LangGraph, CrewAI, Google ADK, Azure AI Agents SDK, Agentic
-        AI Frameworks, RAG, Prompt Engineering, Policy-as-code]
-    data: [Data Pipelines, Batch/Stream Processing, Data Cleaning]
-    other: [SDLC]
-    ops: [Git, GitHub, Observability of Agentic AI Systems]
+    other: [Policy-as-Code, SDLC]
+    ops: [Git, GitHub, Observability, Model Deployment]
+    databases: [Vector Databases]
+    domains: []
     web: [APIs]
-    databases: [Vector Databases, SQL]
+    data: [Data Pipelines, Batch and Stream Processing]
+    genai: [AI Agents, Multi-Agent Systems, Generative AI, RAG, LangChain, LangGraph,
+      CrewAI, Google ADK, Azure AI Agents SDK]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9830406'
   location: Mumbai, IND
-  extracted_at: '2026-06-25T19:55:39.037762'
+  extracted_at: '2026-08-16T15:17:18.923278'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

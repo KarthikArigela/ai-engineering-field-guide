@@ -1,56 +1,58 @@
 company:
   name: Pythian
   stage: null
-  focus: Strategic database and analytics services
+  focus: Strategic database, analytics, and cloud data services
 position:
   title: AI / ML Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role involves hands-on deployment and optimization of
-      LLMs and Generative AI technologies, including integrating
-      pre-trained models into production. Responsibilities include
-      tuning model performance, latency, and managing AI/ML
-      pipelines, which qualifies as working directly ON AI systems
-      rather than just supporting infrastructure.
+      The role deploys, scales, and maintains AI/ML pipelines,
+      serving pre-trained LLMs and custom models that data
+      scientists design — the deliverable is production
+      reliability, latency, and cost efficiency, not model
+      behaviour. There is no prompt engineering, RAG design, agent
+      orchestration, fine-tuning, or output-quality evaluation.
+      Serving and scaling models the person does not shape is ai-
+      support per the stated edge cases.
   responsibilities:
   - Develop, deploy, and maintain robust AI and machine learning pipelines for internal
     and client-driven projects
-  - Deploy, manage, and scale AI models, including pre-trained models (LLMs) and custom
-    ML models, into production environments
+  - Deploy, manage, and scale AI models, including pre-trained LLMs and custom ML
+    models, into production environments
   - Work with data scientists to implement model prototypes into scalable, production-ready
     AI systems
   - Optimize and tune model performance, latency, and cost-efficiency on cloud platforms
-  - Integrate AI/ML solutions with major cloud platforms (AWS, GCP, Azure) and utilize
-    containerization technologies (Docker, Kubernetes)
-  - Apply standard MLOps practices, including continuous integration/continuous delivery
-    (CI/CD), model versioning, monitoring, and maintenance systems
-  - Collaborate with software engineering teams to ensure seamless integration of
-    AI capabilities into applications and user workflows
+  - Integrate AI/ML solutions with AWS, GCP, and Azure using Docker and Kubernetes
+    for consistent deployment
+  - Apply MLOps practices including CI/CD, model versioning, monitoring, and maintenance
+    systems
+  - Collaborate with software engineering teams to integrate AI capabilities into
+    applications and user workflows
   - Stay up to date with advancements in AI/ML technologies, Generative AI, and MLOps
     deployment strategies
   use_cases:
-  - Deploying and scaling pre-trained Large Language Models and Generative AI technologies
-    for client products
-  - Integrating AI/ML capabilities into internal and client-facing applications
-  - Building production-ready AI systems from data scientist prototypes
-  - Optimizing model performance for cloud platforms to improve latency and cost-efficiency
+  - Production AI/ML pipelines for internal and client-driven projects
+  - Deploying pre-trained LLMs and Generative AI models into client and internal products
+  - Scalable, cost-efficient model serving on cloud platforms
+  - Integration of AI capabilities into client applications and user workflows
   skills:
-    domains: []
-    languages: [Python]
-    ml: [TensorFlow, PyTorch, scikit-learn]
     cloud: [AWS, GCP, Azure]
-    genai: [LLMs, Generative AI]
-    data: [Data Engineering, Data Pipelines]
+    languages: [Python]
+    ml: [Machine Learning, TensorFlow, PyTorch, scikit-learn]
     other: []
-    ops: [Docker, Kubernetes, Kubeflow, CI/CD, MLOps, Model Monitoring, Model versioning,
-      Git]
-    web: []
+    ops: [Docker, Kubernetes, CI/CD, MLOps, Kubeflow, Git, Model Monitoring]
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: []
+    data: [Data Engineering, Data Pipelines]
+    genai: [LLMs, Generative AI]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8560886'
   location: GBR
   remote: true
-  extracted_at: '2026-02-27T12:10:44.111559'
+  extracted_at: '2026-08-16T02:27:15.925164'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

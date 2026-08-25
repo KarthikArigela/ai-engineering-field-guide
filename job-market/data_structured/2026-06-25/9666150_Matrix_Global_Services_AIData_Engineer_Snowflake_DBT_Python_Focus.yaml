@@ -1,55 +1,59 @@
 company:
   name: Matrix Global Services
-  stage: Public
-  focus: Technology services and consulting solutions
+  stage: null
+  focus: |-
+    Global IT services, consulting, and technology solutions
+    delivery
 position:
   title: AI/Data Engineer – Snowflake, DBT, Python Focus
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role that supports AI initiatives
-      by preparing datasets and building data pipelines, not
-      building or deploying AI models directly. The job
-      description explicitly states it needs "a strong data
-      engineering foundation who can support AI initiatives,
-      rather than a purely research-focused AI profile" and AI/ML
-      is listed as a "Secondary Requirement" with only "basic
-      understanding" needed.
+      This is a data engineering role that builds pipelines,
+      platforms, and datasets to feed AI/ML work owned by Data
+      Scientists and ML Engineers; the description explicitly
+      states it is a data engineering profile supporting AI
+      initiatives rather than shaping models. There is no
+      prompting, RAG design, training, or model evaluation work —
+      AI/ML is a secondary, nice-to-have requirement.
   responsibilities:
   - Design, build, and maintain scalable data platforms, pipelines, and data products
-    to support analytics and AI use cases
-  - Develop robust production-grade data workflows using Python, Snowflake, and DBT
-  - Build and optimize ELT/ETL pipelines for large-scale structured and unstructured
+    supporting analytics and AI use cases
+  - Develop production-grade data workflows using Python, Snowflake, and dbt
+  - Build and optimize ETL/ELT pipelines for large-scale structured and unstructured
     datasets
-  - Leverage DBT for data transformation, modeling, testing, and documentation
+  - Use dbt for data transformation, modeling, testing, and documentation
   - Optimize Snowflake architecture, performance, and cost efficiency for enterprise
     data workloads
   - Develop and maintain data models, data marts, and semantic layers
-  - Support AI/ML initiatives by preparing high-quality datasets and enabling downstream
+  - Prepare high-quality datasets and support AI/ML initiatives by enabling downstream
     model consumption
-  - Build APIs and backend services to expose data and AI capabilities
-  - Ensure data quality, governance, security, and scalability standards
+  - Build APIs and backend services to expose data and AI capabilities while ensuring
+    data quality, governance, and security
   use_cases:
-  - Data platform enablement for advanced analytics and AI-driven use cases
-  - Large-scale data pipeline automation for structured and unstructured datasets
-  - Data warehouse optimization for enterprise workloads
-  - Data preparation for downstream ML model consumption
-  - Operationalizing basic AI/ML workflows in collaboration with Data Scientists
+  - Modern data platform and pipeline enablement for enterprise analytics
+  - Dataset preparation and data supply for downstream AI/ML model consumption
+  - Large-scale data warehousing and transformation with Snowflake and dbt
+  - Operationalizing AI/ML workflows in collaboration with data scientists
+  - Exposing data and AI capabilities through APIs and backend services
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [Hugging Face, Embeddings]
     cloud: [AWS, Azure, GCP]
-    genai: [LangChain, LLMs, RAG]
-    data: [dbt, Airflow, Prefect, Data Pipelines, Data Modeling]
+    languages: [Python, SQL]
+    ml: [Hugging Face, Machine Learning]
     other: []
     ops: []
-    web: [APIs, Microservices]
     databases: [Snowflake]
+    domains: []
+    web: [APIs, Microservices]
+    data: [dbt, Data Pipelines, Data Modeling, Data Warehousing, Airflow, Prefect,
+      Data Governance]
+    genai: [LangChain, LLMs, Embeddings, RAG, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9666150'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:53:13.061854'
+  extracted_at: '2026-08-16T14:01:08.838334'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

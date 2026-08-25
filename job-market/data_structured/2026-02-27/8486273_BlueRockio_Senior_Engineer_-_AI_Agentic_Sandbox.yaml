@@ -1,51 +1,57 @@
 company:
   name: BlueRock.io
-  stage: early stage
-  focus: App runtime security for AI/ML applications
+  stage: well-funded early-stage
+  focus: Application runtime security and agentic AI sandbox platform
 position:
   title: Senior Engineer - AI & Agentic Sandbox
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      The role focuses on building security infrastructure and
-      observability systems that hook into AI frameworks (CrewAI,
-      OpenAI Agents, LangChain) to monitor and secure agent
-      execution. The engineer is NOT building, training, or fine-
-      tuning AI models, but rather creating security platforms and
-      instrumentation to protect and monitor AI systems built by
-      others.
+      The role builds the runtime security layer that hooks into
+      agent frameworks (CrewAI, Google ADK, OpenAI Agents) to
+      monitor and intercept malicious intent in real time — the
+      engineer builds the guardrails/interception infrastructure
+      themselves, which is shaping agent behavior rather than
+      merely consuming an API. Since the target is LLM/agent
+      systems, Step 2 yields ai-first.
   responsibilities:
-  - Develop BlueRock Agentic Sandbox multi-language runtime security platform
-  - Build Deep-Trace Observability infrastructure that hooks into AI frameworks like
-    CrewAI, Google ADK, and OpenAI Agents
-  - Monitor and intercept malicious intent in AI agents in real-time
-  - Secure the entire lifecycle from agent orchestration to execution
-  - Implement monkey patching, import hooking, and dynamic instrumentation for Python
-    or JS/Node.js
-  - Integrate observability solutions using OpenTelemetry or Datadog for distributed
-    tracing
+  - Build the BlueRock Agentic Sandbox, a multi-language runtime security platform
+  - Develop deep instrumentation that hooks into agent frameworks like CrewAI, Google
+    ADK, and OpenAI Agents
+  - Build deep-trace observability infrastructure to monitor and intercept malicious
+    intent in real time
+  - Harden the full agent lifecycle from orchestration to execution
+  - Apply dynamic instrumentation techniques such as monkey patching and import hooking
+    in Python and Node.js runtimes
+  - Deliver high-cardinality distributed tracing for visibility into agent and application
+    behavior
+  - Incorporate attacker techniques (SSRF, deserialization, privilege escalation)
+    into detection and interception capabilities
   use_cases:
-  - Real-time monitoring and interception of malicious intent in AI agents
-  - Runtime security for multi-language AI applications
-  - Agent orchestration security from development to execution
-  - Deep-trace observability for AI framework interactions
-  - Protection against security vulnerabilities in AI-powered applications
+  - Real-time monitoring and interception of malicious intent in AI agent activity
+  - Runtime security for multi-language applications and agent frameworks
+  - Deep-trace observability across the full agent orchestration and execution lifecycle
+  - Protection against runtime exploits such as SSRF, deserialization attacks, and
+    privilege escalation
+  - Enabling developers to build applications protected from runtime security threats
+    by default
   skills:
-    domains: []
+    cloud: []
     languages: [Python, JavaScript, Node.js, Rust]
     ml: []
-    cloud: []
-    genai: [LangChain, CrewAI, OpenAI Agents, Google ADK, MCP, A2A]
-    data: []
-    other: [Monkey patching, Import hooking, Dynamic instrumentation, OWASP, Deserialization
-        security, SSRF, Privilege escalation, Claude Code, Cursor, GitHub Copilot]
-    ops: [OpenTelemetry, Datadog, Distributed tracing, Kubernetes, Container runtimes,
-      OCI]
-    web: []
+    other: [Dynamic Instrumentation, OWASP]
+    ops: [OpenTelemetry, Datadog, Distributed Tracing, Kubernetes, Docker]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [CrewAI, Google ADK, OpenAI Agents, LangChain, MCP, A2A, Claude Code, Cursor,
+      GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8486273'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:29:04.857854'
+  extracted_at: '2026-08-16T01:42:43.914105'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

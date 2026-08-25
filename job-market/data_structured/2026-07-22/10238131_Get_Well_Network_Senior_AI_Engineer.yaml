@@ -1,53 +1,65 @@
 company:
   name: Get Well Network
-  stage: Acquired/Subsidiary (SymphonyAI Group company)
-  focus: AI-native healthcare precision care and patient engagement
+  stage: ''
+  focus: |-
+    AI-native healthcare technology for patient engagement and
+    care orchestration
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on work building, fine-
-      tuning, and deploying LLMs, ML models, and multimodal AI
-      systems including voice assistants. The engineer is
-      responsible for the full AI lifecycle from model training to
-      production deployment, making this clearly ai-first.
+      The role shapes model behavior directly: fine-tuning
+      SLMs/LLMs, applying PEFT/LoRA and prompt engineering, and
+      evaluating/integrating RAG, LangChain, and conversational
+      LLM systems, which makes it ai-first under Step 2. Although
+      STT/TTS and multimodal components are involved, any
+      LLM/agent component in a shaping role classifies as ai-
+      first.
   responsibilities:
-  - Fine-tune SLMs/LLMs and develop ML models for healthcare-specific use cases
-  - Build multimodal AI systems integrating text, structured medical data, and images
-  - Lead end-to-end model deployment using cloud-native tools and infrastructure (Azure
-    ML)
-  - Implement model performance monitoring, drift detection, and auto-retraining pipelines
+  - Fine-tune SLMs/LLMs and customize foundation models using domain adaptation, PEFT,
+    LoRA, and prompt engineering for healthcare-specific use cases
+  - Build multimodal AI systems integrating text, structured medical data, and images,
+    and integrate STT/TTS models into conversational voice interfaces
+  - Lead end-to-end model deployment on Azure ML with performance monitoring, drift
+    detection, and auto-retraining pipelines
   - Process and curate large-scale structured and unstructured healthcare datasets
-    including EHR data
-  - Lead bias mitigation, adversarial stress testing, and AI governance aligned with
-    clinical safety standards
-  - Provide technical leadership and mentorship to junior AI engineers
-  - Collaborate with clinical experts and cross-functional teams to deliver high-impact
-    AI applications
+    including EHR and clinical data, and design synthetic data generation strategies
+  - Lead evaluation strategies combining domain KPIs with clinical relevance, and
+    identify, measure, and mitigate algorithmic bias in patient-facing models
+  - Ensure HIPAA and GDPR compliance in data handling, encryption, and access management
+  - Provide technical guidance to junior AI engineers, conduct design reviews, and
+    contribute to architectural decisions
+  - Translate product and clinical stakeholder needs into scalable, reliable AI solutions
   use_cases:
-  - Voice assistants for patient care settings
-  - Multimodal AI systems combining text, medical data, and images
-  - Conversational interfaces using speech-to-text and text-to-speech
-  - Healthcare-specific AI applications for clinical decision support
-  - Patient engagement and care orchestration across health systems
-  - Bias-aware patient-facing AI models for healthcare
+  - Voice assistants and conversational interfaces for patients and caregivers in
+    real-world care settings
+  - Multimodal AI systems combining text, structured medical data, and images for
+    healthcare
+  - Healthcare-specific LLM and ML models fine-tuned on EHR and clinical provider
+    data
+  - Patient-facing AI applications improving clinical outcomes, patient safety, and
+    workflow efficiency
+  - Precision care and care orchestration intelligence across health systems
   skills:
-    genai: [LLMs, RAG, LangChain, Prompt Engineering, Fine-Tuning, LoRA, Generative
-        AI, Conversational AI, Embeddings]
-    ml: [PyTorch, TensorFlow, NLP, Deep Learning, Machine Learning, Model Training,
-      Model Evaluation, Feature Engineering]
-    web: [REST APIs]
+    cloud: [Azure, Azure ML]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, Whisper, Tacotron,
+      Speech-to-Text, Text-to-Speech, Multimodal AI, Model Evaluation, Synthetic Data
+        Generation]
+    other: [EHR, HIPAA Compliance, GDPR, Responsible AI, Explainable AI, Agile]
+    ops: [MLOps, CI/CD, Model Deployment, Model Monitoring, Drift Detection, Git]
     databases: [Vector Databases]
-    data: [Pipelines, Data Pipelines]
-    cloud: [Azure, Azure ML, Azure OpenAI]
-    ops: [MLOps, CI/CD, Docker, Kubernetes, Model Deployment, Model Monitoring, Git]
-    languages: [Python, SQL]
-    domains: []
-    other: [HIPAA Compliance, GDPR, Responsible AI, Agile, EHR Systems]
+    domains: [NLP]
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, Fine-Tuning, LoRA, Prompt Engineering, RAG, LangChain,
+      Conversational AI, ElevenLabs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10238131'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:36:33.843989'
+  extracted_at: '2026-08-16T18:07:57.059420'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

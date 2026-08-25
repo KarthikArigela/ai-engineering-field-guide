@@ -1,53 +1,53 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services
 position:
   title: Sr. Lead AI Engineer (Inference Optimization, FM hosting, AI Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI
-      systems including foundation model training, LLM inference
-      optimization, similarity search, guardrails, and model
-      evaluation. The engineer will invent and apply state-of-the-
-      art LLM optimization techniques to improve performance of
-      production AI systems, which is hands-on work with models
-      and inference infrastructure.
+      The role designs and develops foundation model training, LLM
+      inference optimization, guardrails, and model evaluation
+      itself — all activities that directly shape model behaviour
+      and output quality. Since the targets are LLMs and
+      foundation models (not classical ML), the role is ai-first.
   responsibilities:
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Invent and apply state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
-  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
-  - Partner with cross-functional teams of engineers, research scientists, program
-    managers, and product managers to deliver AI-powered products
+    experimentation, governance, and observability
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Apply novel techniques from the latest AI research to production systems
   - Lead and mentor engineering teams and influence cross-functional stakeholders
-  - Stay abreast of latest AI research and apply novel techniques in production
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - LLM inference optimization for large-scale production AI systems
-  - Foundation model hosting and serving on enterprise AI infrastructure
-  - Customer-facing AI assistants for real-time question answering
-  - AI-powered tools for internal associates
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Internal AI platform empowering teams across Capital One to enhance products with
+    AI
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation Model Training]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [LLM Inference Optimization, Guardrails, RAG]
-    data: []
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Java, Scala, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model Evaluation, AI Observability, AI Governance, Inference Optimization]
-    web: []
+    ops: [Model Deployment, Observability]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9617090'
   location: McLean, USA
@@ -57,4 +57,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:44:24.550131'
+  extracted_at: '2026-08-16T13:15:02.098731'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

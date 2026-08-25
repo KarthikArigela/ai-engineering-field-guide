@@ -1,0 +1,60 @@
+company:
+  name: Tessera Labs
+  stage: Series A ($60M led by Andreessen Horowitz)
+  focus: Multi-agent AI platform for enterprise transformation
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns agent harnesses, tool layers, prompt/context
+      engineering, retrieval design, guardrails, and evals —
+      directly shaping LLM/agent behavior, so ai-first. Classical
+      ML is used selectively inside agent pipelines, but the
+      primary shaped components are LLM agents.
+  responsibilities:
+  - Design and ship production agents that understand enterprise landscapes, plan
+    changes, and execute them across process, data, and code
+  - Build typed, permissioned tool interfaces for agents acting across enterprise
+    systems
+  - Improve agent performance via prompting, context construction, tool-use strategy,
+    and decision logic
+  - 'Build retrieval over enterprise artifacts: chunking, indexing, hybrid search,
+    reranking, grounding, and evaluation'
+  - Manage agent context deliberately across long multi-step runs
+  - Apply classical ML (routing, ranking, classification, anomaly detection, confidence
+    estimation) where appropriate
+  - Build eval, monitoring, and alerting layers with regression coverage per deploy
+  - Instrument runs for full auditability and design guardrails, approval gates, and
+    rollback paths
+  use_cases:
+  - Automated enterprise transformation across process, data, and code
+  - Governed agent execution with approval gates and rollback on live enterprise systems
+  - Reconciliation of merged companies' data
+  - Retirement and refactoring of custom enterprise code estates
+  - Replay evaluation of agent versions against recorded production runs
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, Function Calling, RAG, Prompt Engineering,
+      Context Engineering, Embeddings, MCP, LLM Evaluation, Guardrails]
+    ml: [Machine Learning, Model Evaluation, Supervised Learning, Feature Engineering,
+      Anomaly Detection, Classification, Ranking]
+    web: []
+    databases: [Knowledge Graphs, Snowflake]
+    data: []
+    cloud: []
+    ops: [Distributed Systems, Monitoring]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [SAP, Salesforce, Workday, Oracle, MuleSoft, ServiceNow, Semantic Search,
+      Tracing, Code Analysis, SSO, RBAC, PII Handling, SOC 2, Ontologies]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10802014'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - San José, CRI
+  extracted_at: '2026-08-25T11:57:35.822807'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,60 @@
+company:
+  name: Applied Systems
+  stage: null
+  focus: Insurance technology (insurtech) software and services
+position:
+  title: Security Engineer, AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a security engineering role overseeing AI/ML
+      systems: threat modeling, security reviews, hardening, and
+      governance of LLMs and ML infrastructure. The role secures
+      models rather than shaping model behavior through prompts,
+      retrieval, or training, so it is ai-support per the
+      safety/governance rule.
+  responsibilities:
+  - Evaluate the security posture of LLMs and generative AI systems used within or
+    by Applied Systems
+  - Conduct threat modeling and security architecture reviews for AI/ML systems and
+    data pipelines
+  - Implement and maintain security controls for AI model training, fine-tuning, and
+    inference infrastructure
+  - Develop security baselines and hardening configurations for AI platforms and frameworks
+  - Identify and remediate AI-specific vulnerabilities such as prompt injection, model
+    poisoning, and data exfiltration
+  - Implement data security and privacy controls for AI training datasets and inference
+    inputs
+  - Develop security runbooks and participate in security reviews of AI/ML applications
+    and vendor AI services
+  - Contribute to internal AI security policies, guidelines, training, and proof-of-concept
+    builds
+  use_cases:
+  - Securing LLMs and generative AI systems used in insurance software
+  - Protecting AI model training, fine-tuning, and inference infrastructure
+  - Mitigating AI-specific threats like prompt injection, jailbreaking, and model
+    poisoning
+  - Safeguarding data privacy in AI training datasets and inference inputs
+  - Securing AI/ML data pipelines and vendor AI services in an insurtech environment
+  skills:
+    cloud: [Vertex AI, Azure OpenAI]
+    languages: [Python, Bash, Go]
+    ml: [PyTorch, TensorFlow, scikit-learn]
+    other: [Threat Modeling, Container Security, Encryption, Key Management, Supply
+        Chain Security, Vulnerability Scanning, GDPR, SOC 2, Red-Teaming AI Systems,
+      CISSP, Security+]
+    ops: [Kubernetes, DevSecOps, Terraform, Ansible]
+    databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, Generative AI, OpenAI API, Anthropic API]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10777216'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:48:03.779605'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,64 @@
+company:
+  name: Parexel
+  stage: null
+  focus: Clinical research and pharmacovigilance services
+position:
+  title: Senior AI Engineer/AI Lead
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes LLM behavior directly: owns prompt
+      engineering, multi-agent orchestration with
+      LangGraph/Strands, MCP servers, evaluation pipelines, and
+      guardrails for Claude-based pharmacovigilance agents. Clear
+      ai-first.
+  responsibilities:
+  - Design and implement multi-agent AI platform architecture on AWS Bedrock with
+    LangGraph and Strands SDK
+  - Define agent topology including supervisor orchestration, state management, escalation
+    routing, and audit trails
+  - Own prompt engineering strategy including system prompts, few-shot examples, and
+    guardrails for pharmacovigilance agents
+  - Architect and build MCP servers exposing enterprise applications and data sources
+    as agent tools
+  - Build evaluation pipelines with benchmarks, ground-truth datasets, and accuracy
+    measurements
+  - Architect quality control layer with cross-model verification and deterministic
+    rule engines
+  - Migrate current systems to Claude on Bedrock, re-engineering prompts and evaluation
+    pipelines
+  - Define CI/CD and MLOps strategy including model/prompt versioning, monitoring,
+    and cost tracking
+  - Own technical validation strategy aligned to GAMP5 Category 5, producing IQ/OQ/PQ
+    documentation
+  use_cases:
+  - Automating adverse event data processing in pharmacovigilance
+  - Clinical research automation with regulatory compliance
+  - Drug safety operations oversight and data accuracy
+  - Structured data extraction from clinical documents and unstructured text
+  - Enterprise system integration as AI agent tools
+  skills:
+    genai: [AWS Bedrock, LangGraph, LangChain, CrewAI, Anthropic API, Prompt Engineering,
+      RAG, MCP, Guardrails, LLMs, LLM Evaluation, Multi-Agent Systems]
+    ml: [Machine Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, AWS Lambda, AWS S3, IAM]
+    ops: [CI/CD, MLOps, Infrastructure as Code]
+    languages: [Python]
+    domains: []
+    other: [GxP Compliance, MedDRA, OCR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10400434'
+  location: Mohali, IND
+  locations:
+  - Mohali, IND
+  - Hyderabad, IND
+  - Bengaluru, IND
+  remote: true
+  extracted_at: '2026-08-25T09:58:56.309795'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

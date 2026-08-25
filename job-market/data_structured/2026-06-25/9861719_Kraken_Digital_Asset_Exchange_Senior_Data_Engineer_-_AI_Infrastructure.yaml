@@ -1,19 +1,20 @@
 company:
   name: Kraken Digital Asset Exchange
-  stage: Late-stage / Established (founded 2011)
-  focus: Crypto and digital asset exchange platform
+  stage: null
+  focus: Crypto exchange and digital asset trading platform
 position:
   title: Senior Data Engineer - AI Infrastructure
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building streaming data pipelines,
-      feature stores, and data infrastructure that feed production
-      ML models and inference systems. While embedded in an AI-
-      focused team, the work itself is data engineering — not
-      building, training, fine-tuning, or deploying models
-      directly. The role enables ML/AI teams rather than working
-      hands-on with models or agents.
+      The role builds streaming pipelines, feature stores, and
+      data contracts that feed production ML models designed by
+      other engineers — it moves data to and around models rather
+      than shaping model behavior. Inference-related work is
+      pipeline tooling and serving infrastructure, which is
+      capacity plumbing, not output quality. No prompting,
+      retrieval design, training, or evaluation of model output,
+      so Step 1 is no → ai-support.
   responsibilities:
   - Own and evolve streaming data pipelines that power live inference and real-time
     model serving across Kraken's AI infrastructure
@@ -23,8 +24,8 @@ position:
     Streams, selecting the right tool for the workload
   - Partner with ML engineers and AI infra teams to define data contracts, feature
     schemas, and pipeline SLAs
-  - Drive pipelines toward real-time where batch exists today, reducing latency from
-    hours to seconds
+  - Drive existing batch pipelines toward real-time, reducing latency from hours to
+    seconds
   - Ensure data quality, observability, and auditability across all streaming and
     feature engineering systems
   - Contribute to inference pipeline tooling where data engineering and model serving
@@ -32,25 +33,28 @@ position:
   - Evaluate emerging streaming and feature store technologies and shape the team's
     technical roadmap
   use_cases:
-  - Real-time model serving and live inference for intelligent agents at scale
-  - Low-latency feature serving for production ML models
-  - Streaming data pipelines for AI infrastructure operating under real-world load
-  - Agent platform orchestration and execution layers
+  - Streaming data pipelines powering live inference and real-time model serving
+  - Low-latency feature stores serving production ML models
+  - Infrastructure for an agent platform running intelligent agents at scale
+  - Real-time stream processing replacing batch pipelines in a crypto trading platform
+  - Data quality, observability, and auditability for ML data systems
   skills:
-    domains: []
-    languages: [Python, Scala, SQL]
-    ml: [Feature stores]
     cloud: []
-    genai: []
-    data: [Flink, Kafka Streams, RisingWave, Kafka, Data quality frameworks]
+    languages: [Python, Scala, SQL]
+    ml: [Feature Stores, Machine Learning]
     other: []
-    ops: [Pipeline observability, Inference pipeline architecture, Model serving infrastructure]
-    web: []
+    ops: [Model Deployment, Observability]
     databases: []
+    domains: []
+    web: []
+    data: [RisingWave, Flink, Kafka Streams, Data Pipelines, Data Quality]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9861719'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:53:20.798328'
+  extracted_at: '2026-08-16T15:32:19.806311'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

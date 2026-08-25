@@ -1,55 +1,59 @@
 company:
   name: Optum
-  stage: Public
-  focus: Healthcare technology, pharmacy benefits, and care services
+  stage: null
+  focus: Healthcare services, pharmacy benefits, and care delivery
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on building, deploying, and
-      integrating GenAI, Agentic AI, LLM, and RAG-based solutions
-      in production environments. The engineer directly works with
-      LLM frameworks, agentic frameworks (LangGraph, LangChain,
-      CrewAI), RAG architectures, and vector databases to deliver
-      enterprise AI solutions.
+      The role hands-on builds GenAI, Agentic AI, LLM, and RAG-
+      based solutions using frameworks like LangGraph, LangChain,
+      and CrewAI, plus embeddings, vector databases, and semantic
+      search. This is directly shaping LLM and agent behavior
+      (retrieval design, agent flows, prompt-driven solutions), so
+      it is ai-first rather than support or classical ML.
   responsibilities:
   - Design, develop, and deploy AI-powered solutions using no-code, low-code, and
-    advanced platforms translating business needs into scalable applications
-  - Build and deploy GenAI, Agentic AI, LLM, and RAG-based solutions for enterprise
-    use cases across Talent Acquisition and Provider Services
+    advanced platforms that translate business needs into scalable applications
   - Design and develop AI-driven cloud-native applications, intelligent automation
-    workflows, and AI agents using Python, .NET, SQL, Azure and/or GCP
+    workflows, and AI agents using Python, .NET, SQL, and Azure/GCP
+  - Build, integrate, test, and deploy GenAI, Agentic AI, LLM, and RAG-based solutions
+    for enterprise use cases across Talent Acquisition and Provider Services
   - Create and maintain automation frameworks, validation engines, data extraction
-    capabilities, and autonomous remediation workflows
+    capabilities, and autonomous remediation workflows to reduce manual effort
   - Collaborate with business stakeholders, architects, product owners, and engineering
-    teams to translate requirements into production-ready solutions
-  - Ensure code quality, CI/CD readiness, testing coverage, monitoring, and compliance
-    with enterprise AI governance standards
+    teams to deliver scalable, secure, production-ready solutions
+  - Ensure code quality, CI/CD readiness, testing coverage, documentation, monitoring,
+    and compliance with enterprise AI governance standards
   - Create project documentation and reports for leadership updates
+  - Apply enterprise-approved AI productivity tools (GitHub Copilot, Microsoft 365
+    Copilot, Codex, Claude) across coding, documentation, analysis, and delivery workflows
   use_cases:
-  - AI-driven talent acquisition and recruitment automation
-  - Provider services automation and data accuracy improvement
-  - High-volume transaction failure remediation
-  - Intelligent automation workflows to reduce manual dependencies
-  - Enterprise knowledge retrieval and semantic search
-  - Autonomous remediation for operational efficiency
+  - AI-driven automation for Talent Acquisition workflows
+  - AI-powered solutions for Provider Services
+  - Autonomous remediation of high-volume transaction failures
+  - Data extraction and validation to improve data accuracy
+  - Enterprise workflow automation that reduces manual dependencies
+  - Delivering measurable hard savings for the business
   skills:
-    genai: [Generative AI, Agentic Workflows, RAG, LLMs, LangChain, LangGraph, CrewAI,
-      MCP, Embeddings, Semantic Search, Azure OpenAI, OpenAI API, Gemini, AI Agents,
-      GitHub Copilot, Claude Code, Codex, Cursor, Guardrails, Conversational AI]
-    ml: [NLP]
-    web: [REST APIs]
-    databases: [Vector Databases, Chroma, MongoDB, PostgreSQL]
-    data: [Databricks]
-    cloud: [Azure, GCP, Vertex AI, Azure AI Foundry]
-    ops: [CI/CD, DevOps, GitHub, GitHub Actions]
+    cloud: [Azure, GCP, Cognitive Services, Vertex AI]
     languages: [Python, .NET, SQL]
+    ml: []
+    other: [Visual Studio Code, Agile, Healthcare, Responsible AI, Low-Code Development]
+    ops: [GitHub, CI/CD, DevOps, Release Management]
+    databases: [Vector Databases, Azure AI Search, Chroma, MongoDB]
     domains: []
-    other: [Microservices, Responsible AI, Agile, System Design]
+    web: [APIs, Microservices]
+    data: [Databricks]
+    genai: [LLMs, Generative AI, AI Agents, RAG, LangGraph, LangChain, CrewAI, MCP,
+      Embeddings, Semantic Search, Guardrails, GitHub Copilot, Microsoft 365 Copilot,
+      Codex, Anthropic API, Gemini, Azure OpenAI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10085281'
   location: Gurugram, IND
-  extracted_at: '2026-07-22T13:26:57.809931'
+  extracted_at: '2026-08-16T16:46:54.046217'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

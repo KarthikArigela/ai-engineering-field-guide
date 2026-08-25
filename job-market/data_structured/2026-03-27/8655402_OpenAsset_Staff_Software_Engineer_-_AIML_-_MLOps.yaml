@@ -1,58 +1,64 @@
 company:
   name: OpenAsset
-  stage: Private Equity-backed
-  focus: |-
-    Marketing platform for Architecture, Construction, and
-    Engineering industries with AI-powered RFP analysis tools
+  stage: Backed by Marlin Equity Partners
+  focus: Marketing and digital asset platform for AEC industries
 position:
   title: Staff Software Engineer - AI/ML - MLOps
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with LLMs, agentic AI
-      frameworks, model training/fine-tuning, and model serving
-      infrastructure. The position requires building and deploying
-      AI models using tools like LangGraph, Amazon Bedrock, and
-      Vertex AI, and directly works on the Shred.ai product. This
-      is not support work - it's core AI system development.
+      The role is hands-on in developing and shaping AI systems
+      built on frontier LLMs, agentic AI frameworks, AI agentic
+      patterns, and fine-tuning pre-trained models, including
+      driving model training, evals, and accuracy improvements.
+      Shaping LLM/agent behaviour and output quality makes it ai-
+      first, even with a strong MLOps/serving component.
   responsibilities:
-  - Lead design, planning, and coordination of AI/ML initiatives including model development,
-    training, serving, data pipelines, and deployment
-  - Take ownership of the entire lifecycle of AI/ML systems from experimentation to
-    production
-  - Design and implement scalable, efficient, and maintainable AI/ML systems
-  - Partner with Product and Engineering teams to integrate AI/ML capabilities into
-    company-wide projects
+  - Lead design, planning, estimation, and coordination of AI/ML initiatives including
+    information extraction, model development, training, serving, data pipelines,
+    and deployment
+  - Own the entire lifecycle of AI/ML systems from experimentation to production,
+    ensuring timely and high-quality delivery
   - Provide strategic technical guidance on MLOps frameworks, tools, and best practices
-  - Research and propose advanced ML techniques and cloud-native AI services including
-    LLMs
-  - Mentor and guide team members through code reviews, technical coaching, and knowledge
-    sharing
-  - Drive initiatives to improve model accuracy, scalability, reliability, privacy,
-    and compliance
+    aligned with company goals
+  - Research and propose advanced machine learning techniques and cloud-native AI
+    services including LLMs, training and evals frameworks, and Amazon Bedrock
+  - Partner with Product, Engineering, and DevOps teams to integrate AI/ML capabilities
+    into company-wide projects and ensure seamless data flow and model deployment
+  - Mentor and guide engineers through agentic coding practices, code reviews, and
+    technical coaching, fostering continuous learning
+  - Drive model accuracy, scalability, and reliability while addressing data quality,
+    bias mitigation, and interpretability, and adhering to privacy, security, and
+    compliance standards
+  - Document models, pipelines, algorithms, and system architecture, and maintain
+    AI/ML playbooks and best practices
   use_cases:
-  - RFP/RFI document analysis and shredding for AEC marketers
-  - Automated proposal drafting grounded in organizational knowledge
-  - Information extraction from documents
-  - Speeding up manual and repetitive marketing tasks
-  - AI-enabled products for the Architecture, Engineering, and Construction industry
+  - Automated analysis ('shredding') of RFPs to speed up manual, repetitive tasks
+    for AEC marketers via Shred.ai
+  - Drafting high-quality compliant proposals grounded in firms' organizational knowledge
+  - Information extraction from documents and organizational data
+  - AI-enabled marketing and asset management products for the architecture, construction,
+    and engineering industry
   skills:
+    cloud: [AWS, AWS Bedrock, SageMaker, GCP, Vertex AI, Azure AI Foundry]
+    languages: [Python, Java, Rust]
+    ml: [Machine Learning, Model Evaluation, Model Training]
+    other: [Agile]
+    ops: [MLOps, LLMOps, AgentOps, DevOps, Infrastructure as Code, Model Deployment,
+      CI/CD, Distributed Systems, Datadog, MLflow, Grafana, OpenTelemetry, Langfuse,
+      Terraform, Docker, Kubernetes, GitHub, GitHub Actions]
+    databases: [Relational Databases, Graph Databases, Vector Databases]
     domains: []
-    languages: [Python, Rust, Java]
-    ml: [Fine-Tuning]
-    cloud: [AWS, AWS Bedrock, SageMaker, Vertex AI]
-    genai: [LangGraph, LangFuse, Pydantic AI, Anthropic API, Gemini, ChatGPT, LLMs,
-      Agentic AI frameworks, Claude Code]
-    data: [Databricks]
-    other: []
-    ops: [MLflow, Docker, Kubernetes, Terraform, CI/CD, Datadog, Grafana, MLOps, LLMOps,
-      AgentOps, Model serving infrastructure, GitHub Actions]
     web: [Microservices]
-    databases: [Vector Databases, Graph Databases]
+    data: [Data Pipelines, Data Engineering, Databricks]
+    genai: [LLMs, Agentic Workflows, Fine-Tuning, Claude Code, Codex, Anthropic API,
+      Gemini, ChatGPT, LangGraph, Pydantic AI, Agent SDK]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8655402'
   location: London, GBR
   remote: true
-  extracted_at: '2026-03-27T13:31:35.413824'
+  extracted_at: '2026-08-16T03:32:11.764227'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

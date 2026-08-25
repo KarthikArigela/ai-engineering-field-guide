@@ -1,0 +1,62 @@
+company:
+  name: Optum
+  stage: null
+  focus: |-
+    Healthcare technology, pharmacy benefits, and care delivery
+    services
+position:
+  title: Senior AI ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior: it trains and fine-
+      tunes LLMs end-to-end, designs GraphRAG retrieval pipelines
+      and embeddings, and applies RLHF/RLAIF to align model output
+      with preferences. Since LLMs and text-generation components
+      dominate the work, it classifies as ai-first despite the
+      contradictory Oracle BI boilerplate in the intro.
+  responsibilities:
+  - Develop end-to-end training and fine-tuning of LLMs across open-source (Qwen,
+    LLaMA, Mistral) and closed-source (OpenAI, Gemini, Anthropic) ecosystems
+  - Architect and implement GraphRAG pipelines with knowledge graph representation
+    and retrieval for enhanced contextual grounding
+  - Design, train, and optimize semantic and dense vector embeddings for document
+    understanding, search, and retrieval
+  - Develop semantic retrieval systems with advanced document segmentation and indexing
+    strategies
+  - Build and scale distributed training environments using NCCL and InfiniBand for
+    multi-GPU and multi-node training
+  - Apply reinforcement learning techniques (RLHF, RLAIF) to align model behavior
+    with human preferences and domain-specific goals
+  - Build hybrid NLP solutions combining symbolic and machine learning approaches
+  - Collaborate with cross-functional teams to translate business needs into AI-driven
+    solutions and deploy them in production
+  use_cases:
+  - Document understanding, search, and retrieval over large document collections
+  - Contextually grounded retrieval using knowledge graphs for enhanced LLM grounding
+  - Semantic search with vector embeddings and dense retrieval
+  - Aligning LLM behavior with human preferences and healthcare domain-specific goals
+  - AI-driven solutions for healthcare business needs deployed in production
+  skills:
+    genai: [LLMs, Fine-Tuning, GraphRAG, Embeddings, Semantic Search, AI Agents, RLHF,
+      LoRA, DSPy, AutoPrompt, GEPA, Qwen, Llama, Mistral, OpenAI API, Anthropic API,
+      Gemini]
+    ml: [PyTorch, Transformers, Machine Learning, Deep Learning, Reinforcement Learning,
+      Model Training, State Space Models, NCCL, QLoRA, Axolotl, Ensemble Methods,
+      Bayesian Optimization, Genetic Algorithms, Particle Swarm Optimization, Statistics]
+    web: []
+    databases: [Vector Databases, FAISS, Weaviate, Milvus, Knowledge Graphs]
+    data: [Exploratory Data Analysis]
+    cloud: [Azure ML, AWS]
+    ops: [InfiniBand]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [OCR, OTBI, BI Publisher, HCM Extracts, HDL]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9402174'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-16T10:56:10.493686'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

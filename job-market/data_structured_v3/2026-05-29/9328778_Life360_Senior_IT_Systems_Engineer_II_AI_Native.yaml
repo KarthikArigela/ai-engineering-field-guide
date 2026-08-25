@@ -1,0 +1,68 @@
+company:
+  name: Life360
+  stage: null
+  focus: |-
+    Family safety and location-sharing app with GPS tracking
+    devices
+position:
+  title: Senior IT Systems Engineer II (AI Native)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a generalist IT systems engineer role focused on
+      SaaS administration, Okta identity management, endpoints,
+      and internal IT operations. AI appears only as tools used to
+      accelerate IT work (Claude, ChatGPT, Copilot), AI-assisted
+      workflows and MCP integrations that speed up troubleshooting
+      and audits, and governance of AI tooling — the deliverable
+      is IT operations, not model behavior. There is no prompt
+      design, RAG, training, or eval work, so it is ai-support.
+  responsibilities:
+  - Serve as the senior technical escalation point for the Help Desk on identity,
+    SaaS, MDM, and authentication issues beyond Tier 2, owning resolution and feeding
+    fixes back into platform configuration
+  - Act as subject matter expert on Okta and the broader identity stack, including
+    user directories, SCIM provisioning, SSO integrations, group rules, and authentication
+    policies
+  - Design, configure, and maintain the SaaS estate (Okta, Google Workspace, Slack,
+    Zoom, Iru, Intune, Atlassian, GitHub, AWS) with focus on integration, governance,
+    and lifecycle
+  - Evaluate, deploy, and govern AI-powered tools across the organization and build
+    AI-assisted workflows, including MCP integrations, that accelerate troubleshooting,
+    audit investigations, and cross-platform operations
+  - Contribute low-code automations and scripts in PowerShell, Python, and JavaScript
+    in partnership with the automation and infrastructure specialists
+  - Define and refine IT processes and policies, including identity lifecycle, access
+    governance, and tool-selection criteria, to scale with company growth
+  - Maintain technical documentation and SOPs for critical workflows and mentor junior
+    team members
+  - Participate in on-call rotations
+  use_cases:
+  - AI-assisted troubleshooting for IT identity, SaaS, and endpoint issues
+  - AI-accelerated audit investigations and cross-platform IT operations
+  - MCP-based AI-assisted workflows embedded in internal IT operations
+  - Governance, deployment, and acceptable-use policy for AI-powered tools across
+    the organization
+  - AI-assisted documentation, scripting, and investigations for IT operations
+  skills:
+    genai: [LLMs, Claude, ChatGPT, Copilot, MCP]
+    ml: []
+    web: [SAML]
+    databases: []
+    data: []
+    cloud: [AWS, Okta]
+    ops: [Terraform, Infrastructure as Code, GitHub]
+    languages: [PowerShell, Python, JavaScript]
+    domains: []
+    other: [Google Workspace, Slack, Zoom, Atlassian, Intune, Kandji, MDM, SSO, SCIM,
+      Low-Code Automation, AI Governance, Zero Trust, CIS Hardening Standards, TCP/IP,
+      DHCP, DNS, VLAN, VPN]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9328778'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T10:20:02.285785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

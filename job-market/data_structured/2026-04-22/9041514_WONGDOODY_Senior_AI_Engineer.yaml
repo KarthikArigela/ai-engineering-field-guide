@@ -1,51 +1,49 @@
 company:
   name: WONGDOODY
-  stage: Subsidiary (part of Infosys)
-  focus: |-
-    Creative agency building human experiences through strategy,
-    creativity, data and technology
+  stage: null
+  focus: Creative experience and technology agency backed by Infosys
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building, designing, and deploying
-      production-ready AI services and LLM-based applications
-      including agentic architectures, RAG pipelines, and
-      integrations with GenAI tools. The engineer works hands-on
-      with LLM frameworks, visual AI tools, and orchestration
-      systems to create scalable AI systems.
+      The role directly shapes LLM behavior: it designs agentic
+      architectures, RAG pipelines, prompting techniques,
+      guardrails, and evaluation pipelines for GenAI/LLM-based
+      applications, which is Step 1 shaping with an LLM/agent
+      component. Visual AI tool integration (ComfyUI, Stable
+      Diffusion) is present, but a role shaping both LLM and other
+      generative systems is ai-first.
   responsibilities:
   - Design and build production-ready AI services and backend systems
   - Develop APIs, orchestrations, and integrations for GenAI and LLM-based applications
-  - Create technical foundations enabling teams to build, scale, and operate AI systems
-    reliably
   - Ensure AI solutions run reliably, perform efficiently, and remain cost-effective
   - Make architectural decisions around scalability, monitoring, security, and maintainability
-  - Lead technical discussions and support other engineers through reviews and best
-    practices
-  - Contribute to RFPs, pitches, and forward-looking AI solution concepts
+  - Integrate text-based AI APIs and visual AI tools into end-to-end workflow solutions
+  - Lead technical discussions and support other engineers through reviews, sparring,
+    and best practices
   - Engage in client-facing conversations and explain technical concepts to senior
     stakeholders
+  - Contribute to RFPs, pitches, and forward-looking AI solution concepts
   use_cases:
-  - GenAI and LLM-based application development for brand experiences
-  - Agentic AI architectures for workflow orchestration
-  - Visual AI integration (image generation) into broader creative workflow systems
-  - RAG pipelines and text-based AI API integration into end-to-end workflow solutions
-  - Scalable AI systems for enterprise clients across commerce and marketing automation
+  - GenAI and LLM-based applications for brand and creative experiences
+  - AI agent experiences running reliably in production environments
+  - Visual AI content generation integrated into creative workflow systems
+  - End-to-end AI workflow solutions for clients and brands
+  - Client-facing AI solution concepts for RFPs and pitches
   skills:
-    domains: []
+    cloud: [GCP, AWS, Azure, IBM watsonx]
     languages: [Python, TypeScript]
-    ml: []
-    cloud: [AWS Bedrock, AWS, GCP, Azure]
-    genai: [LangChain, LangGraph, n8n, MCP, A2A, RAG, Prompt Engineering, Agentic
-        architectures, ChatGPT API, Anthropic API, Gemini, Llama API, ComfyUI, Stable
-        Diffusion, Google Imagen, Adobe Firefly, Guardrails, IBM watsonx]
-    data: []
-    other: []
-    ops: [Docker, Terraform, CI/CD, Observability, Evaluation pipelines]
-    web: [REST APIs, FastAPI, gRPC, WebSockets, PubSub]
+    ml: [Diffusion Models, Google Imagen, Adobe Firefly]
+    other: [n8n]
+    ops: [CI/CD, Docker, Terraform, Observability]
     databases: []
+    domains: []
+    web: [APIs, WebSockets, gRPC]
+    data: [PubSub]
+    genai: [LangChain, LangGraph, MCP, A2A, AWS Bedrock, Agentic Workflows, AI Agents,
+      LLMs, Generative AI, Prompt Engineering, RAG, Guardrails, LLM Evaluation, ChatGPT,
+      Anthropic API, Gemini, Llama, ComfyUI]
   is_customer_facing: true
   is_management: false
 meta:
@@ -55,4 +53,6 @@ meta:
   - Berlin, DEU
   - Stuttgart, DEU
   remote: true
-  extracted_at: '2026-04-22T13:06:45.968667'
+  extracted_at: '2026-08-16T07:26:32.700732'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

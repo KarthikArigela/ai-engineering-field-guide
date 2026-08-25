@@ -1,0 +1,59 @@
+company:
+  name: Fuse Energy
+  stage: Venture-backed, raised $210M from investors including Multicoin, Balderton,
+    Lakestar, Accel, Creandum, Lowercarbon, Ribbit
+  focus: Renewable energy startup building AI compute infrastructure
+position:
+  title: AI Inference Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role owns how models get served, scaled, and delivered
+      against committed performance targets — the deliverable is
+      serving capacity and SLAs, not model behaviour. Kernel-level
+      and hardware optimization is explicitly owned by separate
+      CUDA/GPU hires, and the named techniques (batching, KV-
+      cache, speculative decoding, Triton) are serving-layer
+      optimizations. Per the serving edge case, serving or scaling
+      models the person does not shape is ai-support.
+  responsibilities:
+  - Define and build how Fuse serves AI inference workloads at scale as the founding
+    inference engineer
+  - 'Own the inference serving layer: how models get served, scaled, and delivered
+    against committed performance targets'
+  - Optimise inference serving frameworks using batching, KV-cache management, quantisation,
+    and speculative decoding
+  - Work directly with GPU/CUDA engineers to integrate low-level performance work
+    into the serving system
+  - Reason about the full path from incoming request to served response across a large
+    cluster
+  - Make high-stakes architecture calls and own the outcomes while shaping an early-stage
+    function without a playbook
+  - Report directly to the CTO and build out a new inference serving function
+  use_cases:
+  - AI inference serving at data center scale for inference-driven compute demand
+  - Multi-tenant, SLA-driven inference infrastructure
+  - Large-scale model serving across GPU clusters paired with real power delivery
+  - Energy-aware high-performance compute at the intersection of power and AI
+  skills:
+    genai: []
+    ml: [Quantization, CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Inference Serving, Batching, KV Cache Management, Speculative Decoding,
+      Triton, Kubernetes, Slurm, Autoscaling, Capacity Planning, Multi-Tenant Serving,
+      Distributed Systems]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10258871'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T18:15:14.740762'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

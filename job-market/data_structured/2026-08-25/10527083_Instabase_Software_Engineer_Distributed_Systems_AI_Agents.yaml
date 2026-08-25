@@ -1,0 +1,50 @@
+company:
+  name: Instabase
+  stage: null
+  focus: AI platform for unstructured data extraction
+position:
+  title: Software Engineer, Distributed Systems & AI Agents (Senior Level)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds agent runtimes that coordinate model calls,
+      tool execution, and multi-step loops, which is designing
+      agent orchestration and shaping model behavior. It also
+      evaluates emerging models via benchmarks. LLM/agent
+      components are central, so ai-first.
+  responsibilities:
+  - Build scalable distributed systems for large-scale unstructured-data extraction
+    and agentic workloads
+  - Develop reliable execution infrastructure for scheduling, retries, timeouts, cancellation,
+    rate limits, and failure recovery
+  - Build agent runtimes coordinating model calls, tool execution, durable state,
+    multi-step loops, and human approvals
+  - Evaluate emerging models and AI techniques through benchmarks and experiments
+    and apply them to platform and customer problems
+  - Take ideas from prototype to production systems scaling by orders of magnitude
+  - Own systems from design through production including testing, observability, and
+    trade-offs across reliability, performance, security, and cost
+  use_cases:
+  - Unstructured data extraction at large scale
+  - Agentic execution and long-running AI workflows
+  - Workflow orchestration for enterprise AI platform
+  skills:
+    genai: [AI Agents, LLMs, Agentic Workflows, Function Calling, RAG, MCP, Generative
+        AI, Model Gateways]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: []
+    data: [Kafka, Ray, Data Modeling]
+    cloud: []
+    ops: [Observability, Distributed Systems, Kubernetes]
+    languages: [Python, Go, Java, Kotlin, Rust, C++]
+    domains: []
+    other: [Temporal, Celery]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10527083'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:34:19.972508'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

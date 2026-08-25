@@ -1,58 +1,58 @@
 company:
   name: eClerx LLC
-  stage: Public
+  stage: Publicly traded (Bombay and National Stock Exchanges of India)
   focus: |-
     Business process management, automation, and analytics
-    services for enterprise
+    services for enterprises
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building, deployment, and
-      optimization of agentic AI solutions using LLMs, RAG,
-      function calling, and tool-calling agents. The engineer is
-      directly implementing model evaluation frameworks, prompt
-      synthesis, and guardrails for production AI systems, which
-      is core AI engineering work rather than infrastructure
-      support.
+      The role directly shapes LLM and agent behavior: designing
+      tool-calling agents with MCP, building LLM evaluation
+      frameworks, prompt synthesis, RAG pipelines, guardrails, and
+      self-correction loops. This is squarely Step 1 shaping work
+      with an LLM/agent component, so it is ai-first.
   responsibilities:
-  - Build agentic AI systems with tool-calling agents that combine retrieval, structured
-    reasoning, and secure action execution following MCP protocol
-  - Productionize LLMs by building evaluation frameworks, implementing retrieval pipelines,
-    prompt synthesis, response validation, and self-correction loops
+  - Design and implement tool-calling agents combining retrieval, structured reasoning,
+    and secure action execution following MCP protocol
+  - Build evaluation frameworks for open-source and foundational LLMs including retrieval
+    pipelines, prompt synthesis, response validation, and self-correction loops
   - Integrate agents with observability, incident management, and deployment systems
-    to enable automated diagnostics and remediation
-  - Collaborate with production engineers and application teams to translate pain
-    points into agentic AI roadmaps
-  - Build safety, reliability, and governance features including validator models,
-    adversarial prompts, policy checks, and deterministic fallbacks
-  - Optimize cost and latency through prompt engineering, context management, caching,
-    model routing, and distillation
-  - Build and maintain RAG pipelines with domain knowledge curation, data-quality
-    validation, and feedback loops for knowledge freshness
-  - Drive design reviews, experiment rigor, and mentor peers on agent architectures
+    to enable automated diagnostics, runbook execution, remediation, and post-incident
+    summarization
+  - Engineer guardrails, validator models, adversarial prompts, and policy checks
+    for safety, compliance, and least-privilege access
+  - Optimize cost and latency via prompt engineering, context management, caching,
+    model routing, and distillation under stringent SLOs
+  - Build RAG pipelines with domain-knowledge curation, data-quality validation, and
+    feedback loops for knowledge freshness
+  - Collaborate with production engineers and application teams to translate production
+    pain points into agentic AI roadmaps
+  - Drive design reviews and mentor peers on agent architectures, evaluation methodologies,
     and safe deployment patterns
   use_cases:
-  - Production environment diagnostics and issue resolution through agentic AI systems
-  - Automated runbook execution and incident remediation with full traceability
-  - Risk reduction and cost management in large-scale production environments
-  - Production support automation with reasoning agents that can diagnose and take
-    actions
-  - Post-incident summarization and automated reporting
-  - Domain-aware knowledge retrieval for production operations
+  - Agentic AI solutions that diagnose, reason, and take action in large-scale production
+    environments
+  - Automated production diagnostics, runbook execution, and remediation for production
+    support
+  - Post-incident summarization with full traceability
+  - Risk and cost reduction in managing complex production environments
+  - Productivity and reliability improvements for production operations teams
   skills:
-    domains: []
-    languages: [Python]
-    ml: [LLM fine-tuning]
-    cloud: [SageMaker, AWS]
-    genai: [LangChain, LangGraph, LlamaIndex, RAG, Function Calling, MCP protocol,
-      Prompt Engineering, OpenAI API, Anthropic API]
-    data: []
+    cloud: [AWS, ECS, EKS, AWS Lambda, SageMaker, Step Functions]
+    languages: [Python, C++, Go, Java]
+    ml: [Fine-Tuning, Machine Learning, Distillation, Model Training]
     other: []
-    ops: [Model evaluation, Model Deployment, Terraform, Docker, Kubernetes]
-    web: [FastAPI]
-    databases: [Vector Databases, PostgreSQL, Redis]
+    ops: [Model Deployment, Model Monitoring, Observability, Terraform, CloudFormation]
+    databases: [DynamoDB, Redshift, Vector Search]
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [AI Agents, RAG, Prompt Engineering, MCP, Function Calling, Guardrails,
+      LLMs, LLM Evaluation, Model Routing, OpenAI API, Gemini, Llama, Qwen, Anthropic
+        API]
   is_customer_facing: false
   is_management: false
 meta:
@@ -63,4 +63,6 @@ meta:
   - Dallas, USA
   - New York, USA
   remote: true
-  extracted_at: '2026-05-29T09:05:48.790219'
+  extracted_at: '2026-08-16T11:34:16.719717'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

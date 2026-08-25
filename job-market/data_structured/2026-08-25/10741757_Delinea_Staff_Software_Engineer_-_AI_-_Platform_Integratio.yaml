@@ -1,0 +1,51 @@
+company:
+  name: Delinea
+  stage: null
+  focus: Cloud-native identity security and authorization platform
+position:
+  title: Staff Software Engineer - AI - Platform Integrations
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds integrations that discover and govern AI
+      agents on third-party platforms via their APIs and identity
+      signals. The person never shapes model behavior—no prompts,
+      retrieval design, agent orchestration, or training—so it is
+      ai-support.
+  responsibilities:
+  - Build integrations extending Delinea's discovery, identity, and governance onto
+    third-party AI platforms
+  - Extend the existing Microsoft integration to new platforms, starting with Salesforce
+    Agentforce
+  - Retrieve platform-native identity signals (Salesforce, Microsoft Entra) and pass
+    them to the identity layer
+  - Govern agents through provider APIs and attestation where direct enforcement is
+    not possible
+  - Contribute upstream improvements to the shared discovery platform to expand AWS
+    and Google Cloud coverage
+  - Reuse shared identity and policy building blocks across integrations
+  use_cases:
+  - Discovery and governance of AI agents across third-party platforms
+  - Identity security for AI agents on Salesforce Agentforce and Microsoft ecosystems
+  - Attestation-based governance of agents where direct enforcement is not possible
+  - Extending agent discovery and identity coverage to AWS and Google Cloud
+  skills:
+    genai: [GitHub Copilot]
+    ml: []
+    web: [APIs, Webhooks, OAuth]
+    databases: []
+    data: []
+    cloud: [AWS, AWS Bedrock, GCP, Azure]
+    ops: []
+    languages: [C#, Go, Java, Python]
+    domains: []
+    other: [Salesforce]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10741757'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:34:16.621138'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

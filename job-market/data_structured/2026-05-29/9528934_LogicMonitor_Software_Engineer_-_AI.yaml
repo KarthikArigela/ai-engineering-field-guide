@@ -1,53 +1,58 @@
 company:
   name: LogicMonitor
-  stage: Series C+
+  stage: null
   focus: |-
-    AI-first hybrid observability and infrastructure monitoring
-    platform
+    AI-first hybrid observability platform for IT infrastructure
+    monitoring
 position:
   title: Software Engineer - AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role because the engineer builds and
-      implements AI/ML systems directly: RAG pipelines with vector
-      databases, LLM orchestration using LangGraph, embeddings
-      management, and semantic search for observability data. The
-      role focuses hands-on on building the data infrastructure
-      and retrieval frameworks that power GenAI-powered insights
-      in Edwin AI and Dexda products.
+      The role designs RAG pipelines with vector databases, builds
+      semantic search and retrieval, manages embeddings and model
+      context storage, and develops LLM orchestration APIs with
+      LangGraph — directly shaping how an LLM retrieves context
+      and generates output, not just moving data to it. LLM/agent
+      components (Edwin AI, Dexda, LangGraph) are central, making
+      it ai-first.
   responsibilities:
-  - Design and build streaming and batch data pipelines that process metrics, logs,
-    and events for AI workflows
-  - Develop ETL and feature-extraction pipelines using Python and Java microservices
-  - Build resilient data orchestration using Kafka, Airflow, and Redis Streams
-  - Implement retrieval-augmented generation (RAG) pipelines with vector databases
-    for semantic search
-  - Develop data indexing and semantic search for large-scale observability and operational
-    data
-  - Build and maintain Java microservices (Spring Boot) that serve AI and analytics
-    data
-  - Develop Python APIs (FastAPI / LangGraph) for LLM orchestration, summarization,
+  - Design and build streaming and batch data pipelines (Kafka, Airflow, Redis Streams)
+    that process metrics, logs, and events for AI workflows
+  - Implement RAG pipelines with vector databases (Milvus, Qdrant, OpenSearch, Neo4j
+    Vector) and semantic search over large-scale observability data
+  - Develop Python APIs (FastAPI, LangGraph) for LLM orchestration, summarization,
     and correlation reasoning
-  - Instrument services with OpenTelemetry for unified metrics, tracing, and logging
+  - Build and maintain Java microservices (Spring Boot) that serve AI and analytics
+    data to Edwin and AIOps applications
+  - Collaborate with the AI Platform team to manage embeddings, metadata, and model
+    context storage
+  - Work with structured and unstructured data lakes and warehouses (Delta Lake, Iceberg,
+    ClickHouse) and implement data validation, schema evolution, and lineage tracking
+  - Instrument services with OpenTelemetry and ensure fault-tolerant, observable API
+    infrastructure (REST, gRPC, SSE, WebSockets)
+  - Enforce data privacy, RBAC, and compliance for model inputs and stored context,
+    and optimize latency/throughput for retrieval and AI response generation
   use_cases:
-  - AIOps and IT infrastructure monitoring with AI-driven insights
-  - Real-time anomaly detection and issue prediction in hybrid environments
-  - Observability data correlation and root cause analysis using LLMs
-  - Enterprise search and semantic retrieval across metrics, logs, and events
-  - Automated incident response and operational intelligence
+  - AI-powered observability insights from telemetry (metrics, logs, events) for Edwin
+    AI, Dexda, and AIOps products
+  - Anticipating infrastructure issues before they strike across on-premises, cloud,
+    and edge environments
+  - LLM-driven summarization and correlation reasoning over operational data
+  - Semantic search and retrieval at scale over observability and operational data
+  - Real-time resource optimization and faster decision-making for IT and business
+    leaders
   skills:
-    domains: []
+    cloud: []
     languages: [Python, Java]
     ml: []
-    cloud: []
-    genai: [LangGraph, RAG, LLMs, Embeddings, vector retrieval]
-    data: [Kafka, Spark, Airflow, Data Pipelines]
-    other: []
-    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
-    web: [Spring Boot, FastAPI, REST, gRPC, SSE, WebSockets]
-    databases: [Milvus, Qdrant, OpenSearch, Neo4j Vector, Redis Streams, Delta Lake,
-      Iceberg, ClickHouse]
+    other: [RBAC]
+    ops: [Kubernetes, CI/CD, OpenTelemetry]
+    databases: [Milvus, Qdrant, OpenSearch, Neo4j, Delta Lake, ClickHouse, Redis]
+    domains: []
+    web: [FastAPI, Spring Boot, REST, gRPC, SSE, WebSockets, Microservices]
+    data: [Kafka, Airflow, Spark, Data Pipelines, Data Modeling, Data Governance]
+    genai: [RAG, LangGraph, LLMs, Embeddings, Semantic Search, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +61,6 @@ meta:
   locations:
   - Pune, IND
   - Bengaluru, IND
-  extracted_at: '2026-05-29T09:08:52.661324'
+  extracted_at: '2026-08-16T12:17:22.342991'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

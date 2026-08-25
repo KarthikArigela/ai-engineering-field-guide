@@ -1,0 +1,55 @@
+company:
+  name: PayPal
+  stage: null
+  focus: Global digital payments and commerce platform
+position:
+  title: Senior Engineer, AI platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds and operates PayPal's AIML platform
+      infrastructure (Kubernetes, model registry, model serving,
+      inferencing) that data scientists and ML engineers use; the
+      deliverable is capacity and platform capability, not model
+      behaviour. They do not write prompts, design retrieval, or
+      train/tune models themselves. Per the edge case, serving,
+      hosting, and scaling models the person does not shape is ai-
+      support even when it names Triton and serving frameworks.
+  responsibilities:
+  - Design, implement, and maintain PayPal's large-scale distributed AIML platform
+    supporting model training and deployment
+  - Develop reusable platform components for the model development lifecycle, especially
+    around model registry and inferencing
+  - Manage Kubernetes-based ML workloads and the orchestration system
+  - 'Deliver complete solutions across all SDLC phases: design, implementation, testing,
+    delivery, and operations'
+  - Lead technical discussions with data science and ML teams on architecture, solution
+    implementation, and integration
+  - Guide junior engineers and advise management on project-level issues
+  - Collaborate in a globally distributed team across US, India, and China
+  use_cases:
+  - Enterprise AIML platform serving data scientists and ML engineers across PayPal
+  - Scalable model training and deployment infrastructure
+  - Real-time model inferencing and serving for production ML systems
+  - Model registry and model development lifecycle management
+  - Kubernetes-based orchestration of ML workloads for PayPal's payments business
+  skills:
+    genai: []
+    ml: [Machine Learning, Model Training]
+    web: []
+    databases: []
+    data: []
+    cloud: [GCP, AWS, Azure]
+    ops: [Kubernetes, Model Serving, Model Registry, Model Deployment, Seldon, Triton,
+      TorchServe, Distributed Systems]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8559937'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T02:27:05.983710'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

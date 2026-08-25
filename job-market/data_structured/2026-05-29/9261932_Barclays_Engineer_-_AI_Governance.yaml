@@ -1,55 +1,56 @@
 company:
   name: Barclays
-  stage: Public
-  focus: Global banking and financial services
+  stage: null
+  focus: Banking and financial services
 position:
   title: Engineer - AI Governance
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a software engineering role focused on AI governance
-      frameworks and compliance, not building or deploying models.
-      The work involves implementing IBM Watson Governance,
-      managing risk workflows, and building software to support AI
-      governance processes, which is enabling infrastructure
-      rather than hands-on AI/ML development.
+      The role builds software and tooling around AI governance
+      processes (watsonx.governance, risk management workflows,
+      low-code BPM platforms) but never shapes model behaviour —
+      no prompt design, retrieval, agent flows, training, or
+      eval/guardrail building. Governance and compliance oversight
+      of models is ai-support unless the person builds the evals
+      or guardrails themselves, which this role does not.
   responsibilities:
-  - Design, develop, and deliver high-quality software solutions aligned with engineering
-    standards and best practices
-  - Implement AI governance frameworks using IBM Watson Governance or similar platforms
-    to manage model compliance
+  - Design, develop, and deliver high-quality software solutions aligned with Barclays
+    engineering standards and best practices
+  - Collaborate with cross-functional teams including product managers, designers,
+    and business stakeholders to define requirements and solution strategies
   - Drive automation and process optimization using low-code/no-code BPM platforms
-    and equivalent technologies
-  - Collaborate with cross-functional teams including engineers, business analysts,
-    and stakeholders to ensure scalable solutions
+  - Implement AI governance frameworks such as IBM watsonx.governance and support
+    risk management workflows
   - Participate in solution architecture discussions and contribute to technical decision-making
-    processes
-  - Ensure secure coding practices to mitigate vulnerabilities and protect sensitive
-    data
-  - Optimize SQL queries and manage data integrity for relational databases
-  - Support internal governance processes and risk management workflows for financial
-    services
+  - Adhere to secure coding practices and implement unit testing to ensure code quality
+    and reliability
+  - Deliver process design for foundational, consolidated, and business data products
+  - Stay informed of technology trends and contribute to the organization's technology
+    communities
   use_cases:
-  - AI model governance and compliance tracking for financial services
-  - Risk management workflow automation for banking regulatory requirements
-  - Data governance for foundational and consolidated business data products
-  - Process design and optimization for AI/ML model lifecycle management
-  - Integration of AI governance frameworks with enterprise BPM platforms
-  - Stakeholder management and communication for AI policy implementation
+  - AI model governance and compliance in a financial services bank
+  - Risk management workflows for AI systems
+  - Business process automation via low-code BPM platforms
+  - Delivery of foundational, consolidated, and business data products
+  - Secure, scalable enterprise software for business and platform capabilities
   skills:
-    domains: []
-    languages: [Java, Python, SQL]
+    cloud: [AWS, Azure]
+    languages: [SQL, Java, Python]
     ml: []
-    cloud: [IBM Watson Governance, AWS, Azure]
-    genai: [watsonx.governance]
+    other: [watsonx.governance, Responsible AI, Low-Code BPM Platforms, Appian, Pega,
+      Risk Management, Regulatory Compliance, Secure Coding, Agile]
+    ops: [CI/CD, Kubernetes]
+    databases: [Relational Databases]
+    domains: []
+    web: [APIs]
     data: []
-    other: [AI governance frameworks, Appian, Pega, low-code/no-code BPM tools, Agile]
-    ops: [CI/CD, testing, secure coding practices, Kubernetes]
-    web: [APIs, integration patterns]
-    databases: [relational database design]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9261932'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:59:45.435891'
+  extracted_at: '2026-08-16T09:52:26.839840'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

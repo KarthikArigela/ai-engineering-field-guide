@@ -1,0 +1,50 @@
+company:
+  name: BlackLine
+  stage: null
+  focus: Finance automation and accounting software
+position:
+  title: Software Engineer AI/ML Ops
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and operates data pipelines (PySpark ETL,
+      integrations, monitoring) that feed AI accounting agents;
+      the pipelines deliver data to models, not shape model
+      behaviour. Though LangChain/LangGraph expertise is required,
+      responsibilities center on running/hosting agentic systems
+      and infrastructure, which is ai-support.
+  responsibilities:
+  - Build and maintain PySpark ETL pipelines with high data quality and performance
+  - Establish integrations to client data sources via APIs, FiveTran, Plaid, and internal
+    connectors
+  - Monitor pipeline performance, automate testing, and validate data accuracy
+  - Implement performance improvements such as CDC mechanisms and indexing for large-scale
+    datasets
+  - Operate production pipelines for ML and LLM-based systems across cloud ecosystems
+  - Collaborate with business stakeholders to refine data requirements and integrate
+    AI and big data technologies
+  use_cases:
+  - AI-driven accounting agents
+  - Data pipelines powering finance automation
+  - Client financial data integrations (banking and accounting sources)
+  - Large-scale financial data processing
+  skills:
+    cloud: [Vertex AI, GCP, AWS, Azure]
+    languages: [Python, Java, Scala, Bash]
+    ml: [TensorFlow, PyTorch, scikit-learn]
+    other: [Responsible AI]
+    ops: [Kubeflow, MLflow, CI/CD, Infrastructure as Code, DevSecOps, Prometheus,
+      Grafana, New Relic, Docker, Kubernetes]
+    databases: []
+    domains: []
+    web: [APIs]
+    data: [PySpark, Data Pipelines, Fivetran, Plaid, Airflow]
+    genai: [LangChain, LangGraph, Google ADK]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10686685'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-25T11:16:44.467010'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

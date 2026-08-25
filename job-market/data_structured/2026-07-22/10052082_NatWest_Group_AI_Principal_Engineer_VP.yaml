@@ -1,54 +1,53 @@
 company:
   name: NatWest Group
-  stage: Public
-  focus: Banking and financial services
+  stage: null
+  focus: Banking and financial services provider
 position:
   title: AI Principal Engineer, VP
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience building and
-      optimizing pipelines for LLMs, traditional ML models, RAG,
-      embedding pipelines, LLM orchestration, prompt engineering,
-      and fine-tuning. The engineer will directly work on
-      deploying, evaluating, and integrating AI/ML models, making
-      this an ai-first role despite the principal-level
-      architecture and governance responsibilities.
+      The role explicitly requires RAG, embedding pipelines, LLM
+      orchestration, prompt engineering, and evaluating/fine-
+      tuning OpenAI and Anthropic models, which directly shape LLM
+      behaviour and output quality. An LLM/agent component is
+      clearly present alongside classical ML, so the role is ai-
+      first.
   responsibilities:
+  - Design and engineer software with customer or user experience as the primary objective
+  - Define and provide oversight and governance of engineering and design solutions
+    focused on end-to-end automation, resilience, security, performance, and scalability
   - Define and develop architecture models and roadmaps for application and software
     components to meet business and technical requirements
-  - Design and engineer complex software, scripts, and tools to enable the delivery
-    of bank platforms, applications, and services
-  - Build and optimize pipelines for LLMs, traditional ML models, and data processing
-    using OSS frameworks within AWS/GCP ecosystems
-  - Evaluate and integrate capabilities across OpenAI/Anthropic models, fine-tuning,
-    GPU compute, AutoML, and feature stores
+  - Collaborate with feature teams to rapidly deliver high-quality software that adds
+    business value
+  - Determine the design and delivery approach for the platform's software throughout
+    its lifecycle
+  - Design complex software, scripts, and tools enabling delivery of bank platforms,
+    applications, and services
+  - Build and optimize pipelines for LLMs, ML models, and data processing
   - Define and enforce standards for MLOps, CI/CD, experiment tracking, model deployment,
     observability, security, and performance tuning
-  - Collaborate with feature teams to deliver high-quality software that adds business
-    value
-  - Provide oversight and governance of engineering and design solutions focused on
-    automation, resilience, and scalability
   use_cases:
-  - LLM-powered solutions for banking applications
-  - Traditional ML for time-series forecasting and optimization
-  - RAG-based retrieval and embedding pipelines for enterprise knowledge access
-  - Automated model deployment and lifecycle management across cloud platforms
-  - Customer-centric AI-driven banking platform services
+  - AI and ML model pipelines supporting banking platforms and services
+  - RAG and LLM orchestration for bank applications
+  - Time-series forecasting and model optimization for banking
+  - Customer-centric digital banking experiences
+  - End-to-end automation of bank software delivery
   skills:
-    genai: [LLMs, RAG, Embeddings, Prompt Engineering, OpenAI API, Anthropic API,
-      Fine-Tuning, LLM Orchestration]
-    ml: [Machine Learning, Time-Series Forecasting, Feature Engineering, Model Evaluation,
-      scikit-learn, AutoML]
-    web: []
-    databases: []
-    data: [Feature Stores, Data Pipelines]
-    cloud: [AWS, GCP, GPU Compute]
-    ops: [MLOps, CI/CD, Experiment Tracking, Model Deployment, Observability, Monitoring,
-      Docker, Kubernetes, DevOps]
+    cloud: [AWS, GCP]
     languages: [Python]
+    ml: [Machine Learning, Supervised Learning, Unsupervised Learning, Time-Series
+        Forecasting, Feature Engineering, Model Evaluation, Model Retraining, AutoML]
+    other: [Agile, Software Architecture]
+    ops: [MLOps, CI/CD, Experiment Tracking, Model Deployment, Observability, DevOps,
+      Feature Stores, Performance Tuning, GPU Compute]
+    databases: [Database Design]
     domains: []
-    other: [Agile, Microservices, System Design]
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Embeddings, Prompt Engineering, OpenAI API, Anthropic API,
+      Fine-Tuning]
   is_customer_facing: false
   is_management: true
 meta:
@@ -58,4 +57,6 @@ meta:
   - Chennai, IND
   - Gurugram, IND
   - Bengaluru, IND
-  extracted_at: '2026-07-22T13:25:35.401661'
+  extracted_at: '2026-08-16T16:30:41.456365'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

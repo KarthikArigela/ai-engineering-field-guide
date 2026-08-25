@@ -1,0 +1,54 @@
+company:
+  name: Brown Brothers Harriman
+  stage: null
+  focus: Global financial services and custody firm
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM pipelines, RAG systems, agentic
+      workflows, and evaluation frameworks directly, shaping model
+      behavior and output quality. Clear LLM/agent focus makes it
+      ai-first.
+  responsibilities:
+  - Build and iterate on AI-powered product features such as natural language data
+    transformation generation and integration suggestions
+  - Implement production-ready LLM pipelines including prompt engineering, context
+    management, and RAG systems
+  - Build evaluation datasets and automated scoring frameworks to continuously improve
+    AI output quality
+  - Optimize AI systems for accuracy, latency, and cost
+  - Implement multi-step agentic workflows using Agno with error handling and human
+    escalation
+  - Integrate AI capabilities into the platform's API and workflow layer with Backend
+    Engineers
+  use_cases:
+  - Natural language generation of data transformations for financial services
+  - Intelligent integration configuration suggestions
+  - Data quality issue detection and automated validation
+  - Refining AI outputs based on user feedback
+  skills:
+    cloud: [Azure, AWS]
+    languages: [Python]
+    ml: []
+    other: [Temporal, Code Review]
+    ops: []
+    databases: [Pinecone, Weaviate, pgvector]
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Prompt Engineering, Agentic Workflows, Agno, Anthropic API,
+      OpenAI API, LangChain, LlamaIndex, Fine-Tuning, LLM Evaluation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10378705'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - Boston, USA
+  - Jersey City, USA
+  extracted_at: '2026-08-25T09:53:03.795219'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

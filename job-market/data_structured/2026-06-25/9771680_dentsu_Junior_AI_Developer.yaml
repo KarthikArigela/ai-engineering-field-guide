@@ -1,49 +1,48 @@
 company:
   name: dentsu
-  stage: Public
-  focus: Digital marketing and data-driven customer experience
+  stage: null
+  focus: Data, analytics, and marketing technology services
 position:
   title: Junior AI Developer
   ai_type:
-    type: ai-support
+    type: ml-first
     reasoning: |-
-      This is an entry-level data team role that spans analytics,
-      data engineering, and basic ML model building under
-      supervision. While ML and GenAI are mentioned, the core
-      responsibilities center on data wrangling, ETL pipelines,
-      dashboards, and analytics — supporting data infrastructure
-      rather than directly building or deploying AI systems. The
-      role may eventually lead to GenAI work but primarily
-      supports data workflows.
+      The core responsibilities include building, testing, and
+      deploying classical ML models (classification, regression,
+      clustering) and evaluating model performance, which is model
+      shaping. There is no LLM or agent component in the actual
+      responsibilities—GenAI and Agentic AI appear only as
+      optional exposure and career pathways—so the role is ml-
+      first.
   responsibilities:
   - Analyze large volumes of structured and unstructured data to extract meaningful
     business insights
   - Create dashboards, visualizations, and reports using Power BI, Tableau, or Excel
-  - Assist in building, testing, and deploying machine learning models under supervision
-  - Apply statistical and ML techniques for classification, regression, and clustering
-    tasks
-  - Support in designing and building data pipelines and ETL processes
-  - Perform data cleaning, transformation, and storage using SQL, Python, or cloud
+  - Assist in building, testing, and deploying machine learning models for classification,
+    regression, and clustering
+  - Collaborate on experiments, hypothesis testing, and performance evaluation of
+    models
+  - Support the design and building of data pipelines and ETL processes
+  - Assist in data cleaning, transformation, and storage using SQL, Python, or cloud
     platforms
-  - Maintain data integrity, quality, and documentation across data systems
-  - Collaborate with product, engineering, and business teams to solve real-world
-    problems using data
+  - Help maintain data integrity, quality, and documentation across data systems
   use_cases:
-  - Business intelligence and data visualization for enterprise decision-making
-  - Predictive modeling for classification and regression problems
-  - Data pipeline and ETL automation for analytics workloads
-  - Pattern detection and anomaly identification in business data
+  - Business intelligence dashboards and reporting for decision-making
+  - Predictive modeling for classification, regression, and clustering problems
+  - Pattern, trend, and anomaly detection in business data
+  - Scalable data pipelines and ETL processes feeding analytics
+  - Data wrangling and quality management across data systems
   skills:
-    domains: []
-    languages: [Python, SQL, Java, JavaScript]
-    ml: [scikit-learn, TensorFlow, Machine Learning, Statistics]
     cloud: [AWS, GCP]
-    genai: [Generative AI, AI Agents]
-    data: [Pandas, NumPy, PySpark, Data Pipelines]
-    other: [Power BI, Tableau, Excel, Jira, Confluence]
+    languages: [Python, Java, SQL]
+    ml: [Machine Learning, Predictive Modeling, scikit-learn, TensorFlow]
+    other: [Power BI, Tableau, Excel, Jira, Confluence, Kaggle]
     ops: [Git]
-    web: [React, Node.js]
     databases: []
+    domains: []
+    web: [React, Node.js]
+    data: [Pandas, NumPy, PySpark, Data Pipelines]
+    genai: [Generative AI, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
@@ -52,4 +51,6 @@ meta:
   locations:
   - Pune, IND
   - Jaya Mahal, IND
-  extracted_at: '2026-06-25T19:58:16.580284'
+  extracted_at: '2026-08-16T14:58:31.017551'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

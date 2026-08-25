@@ -1,57 +1,61 @@
 company:
   name: HubSpot
-  stage: Public
+  stage: 'Publicly traded (NYSE: HUBS)'
   focus: |-
     AI-powered customer platform for marketing, sales, and
-    service
+    service software
 position:
   title: Staff Software Engineer, AI Serving (AI Infrastructure)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role directly involves building and operating model
-      inference and serving infrastructure - the critical systems
-      that deploy, scale, and run AI models in production. The
-      engineer works hands-on with model deployment pipelines,
-      serving frameworks, GPU/CPU resource management, and batch
-      inference systems. This is core AI infrastructure work, not
-      peripheral support.
+      This role owns model inference and serving infrastructure -
+      deploying, scaling, observing, and cost-optimizing models
+      that others build. It does not shape model behaviour: no
+      prompt engineering, retrieval design, agent orchestration,
+      or model training/evaluation is done by this person. Per the
+      edge cases, hosting and scaling models one does not shape is
+      ai-support even with GPUs, serving frameworks, and batch
+      inference in scope.
   responsibilities:
-  - Write and ship production code that powers AI model serving and inference infrastructure
-    across HubSpot
-  - Lead evolution of model serving infrastructure improving reliability, scalability,
-    and cost-efficiency
-  - Set technical direction for deploying and operating ML models at scale including
-    architecture and cost optimization
-  - Build and maintain serving frameworks for synchronous, asynchronous, and offline
-    inference
+  - Own and operate HubSpot's model inference and serving infrastructure end-to-end
+    across all hublets and environments
+  - Lead the evolution of serving frameworks and libraries powering synchronous, asynchronous,
+    and offline inference
   - Own model deployment pipelines, autoscaling, and GPU/CPU resource management
-  - Develop and maintain core Python libraries and tooling across HubSpot
-  - Collaborate with ML Engineers and other teams to streamline model deployment and
-    serving
-  - Strengthen model observability and scale AI infrastructure cost-effectively
+  - Improve reliability and efficiency of batch inference and strengthen model observability
+  - Set technical direction for how HubSpot deploys and operates ML models at scale,
+    guiding architecture, cost optimization, and developer experience decisions
+  - Build and maintain core Python libraries and tooling, serving as the home for
+    modern Python at HubSpot
+  - Collaborate with Machine Learning Engineers, Product Software Engineers, and Infrastructure
+    teams to streamline model deployment and serving
+  - Coach and mentor engineers and drive cross-team technical initiatives across AI
+    Infrastructure
   use_cases:
-  - Deploying and serving AI/ML models in production at scale
-  - Batch inference processing for AI workloads
-  - GPU and CPU resource management for AI infrastructure
-  - Model observability and monitoring across environments
-  - Autoscaling AI inference systems based on demand
-  - Python library and tooling infrastructure for AI development
+  - Model inference and serving infrastructure for synchronous, asynchronous, and
+    offline inference
+  - Reliable and efficient batch inference at scale
+  - Scalable, cost-efficient deployment and autoscaling of AI models across environments
+  - Observability of deployed AI/ML models
+  - Core Python libraries and tooling for AI workloads across the company
   skills:
-    domains: []
-    languages: [Python, Java]
-    ml: [batch inference]
     cloud: []
-    genai: []
-    data: []
+    languages: [Python, Java]
+    ml: [Machine Learning]
     other: []
-    ops: [Model Deployment, inference infrastructure, GPU resource management, CPU
-        resource management, autoscaling, model deployment pipelines, model observability]
-    web: []
+    ops: [Model Deployment, Autoscaling, GPU/CPU Resource Management, Batch Inference,
+      Model Observability]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8479648'
   location: London, GBR
-  extracted_at: '2026-03-03T12:49:49.617536'
+  extracted_at: '2026-08-16T01:41:01.340420'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

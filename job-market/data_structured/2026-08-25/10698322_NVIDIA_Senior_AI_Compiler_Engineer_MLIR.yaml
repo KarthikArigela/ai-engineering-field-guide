@@ -1,0 +1,48 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: GPU hardware and AI computing platforms
+position:
+  title: Senior AI Compiler Engineer, MLIR
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds an MLIR-based compiler that optimizes model
+      internals (graph optimizations, kernel generation) for
+      NVIDIA's inference engine, which explicitly serves LLMs and
+      generative AI. Optimizing a model's own internals is
+      shaping, and since LLM/generative targets are involved
+      (alongside classical ML), the role classifies as ai-first.
+  responsibilities:
+  - Develop MLIR-based graph representations and optimizations for future GPU architectures
+  - Partner with framework and hardware teams to enable new model patterns and upcoming
+    GPU architectural features
+  - Define APIs and MLIR dialects for the AI compiler
+  - Conduct performance optimizations and analysis
+  - Implement compiler optimizations and kernel generation for neural networks
+  - Contribute to general software engineering work on the inference engine
+  use_cases:
+  - AI compiler powering NVIDIA's inference engine for LLMs and generative AI
+  - Neural network inference across data center and edge deployments
+  - Kernel generation and graph optimization for deep learning models on future GPU
+    architectures
+  skills:
+    genai: []
+    ml: [XLA, PyTorch, JAX, CUDA, OpenCL, GPU Kernel Generation, Deep Learning]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [MLIR, LLVM, Performance Analysis]
+    languages: [C++, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10698322'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:20:34.380066'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

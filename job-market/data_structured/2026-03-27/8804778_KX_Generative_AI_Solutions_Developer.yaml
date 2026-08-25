@@ -1,51 +1,51 @@
 company:
   name: KX
-  stage: Established
-  focus: Time-aware data analytics and AI platform for enterprise
+  stage: ''
+  focus: Time-series data analytics and AI platform software
 position:
   title: Generative AI Solutions Developer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work designing and implementing
-      LLM and generative AI solutions, including training, fine-
-      tuning, and serving models, implementing RAG architectures,
-      and building production pipelines with LangChain and other
-      GenAI tools. The focus is on building and deploying AI
-      systems directly.
+      The role designs RAG architectures, guardrails, prompt
+      orchestration, and embedding/tokenizer choices for LLM
+      solutions, directly shaping model behavior and output
+      quality (Step 1: yes). The shaped components are LLMs and
+      generative-AI systems (Bedrock, Azure OpenAI, Vertex AI), so
+      Step 2 yields ai-first.
   responsibilities:
   - Own end-to-end technical design for LLM and generative AI solutions across NVIDIA,
-    AWS, Azure, and GCP stacks
-  - Shape multi-cloud architectures for training, fine-tuning, and serving LLMs using
-    NeMo, Bedrock, Azure OpenAI, and Vertex AI
-  - Define MLOps/GitOps patterns for model lifecycle, vector-DB indexing, RAG implementations,
-    and guard-railing
-  - Build production pipelines in Python using FastAPI, LangChain, Ray, Triton, and
-    Airflow
-  - Benchmark and cost-optimize GPU, Grace Hopper, and CPU clusters for TCO and carbon
-    impact
-  - Establish security and compliance controls including encryption, IAM, SOC 2, FINRA,
-    and GDPR
+    AWS, Azure and GCP stacks
+  - Shape multi-cloud architectures for training, fine-tuning and serving LLMs (NeMo,
+    Bedrock, Azure OpenAI, Vertex AI)
+  - Define MLOps/GitOps patterns for model lifecycle, vector-DB indexing, RAG and
+    guardrails
+  - Benchmark and cost-optimize GPU, Grace Hopper and CPU clusters including TCO and
+    carbon impact
+  - Build production pipelines in Python (FastAPI, LangChain, Ray, Triton, Airflow)
+  - Establish security and compliance controls (encryption, IAM, SOC 2, FINRA, GDPR)
   - Support pre-sales and proofs-of-concept with capital-markets clients
-  - Mentor delivery teams for enterprise deployments in financial-services environments
+  - Lead reference implementations and mentor delivery teams for enterprise deployments
   use_cases:
-  - Enterprise LLM training, fine-tuning, and serving
-  - Retrieval-augmented generation (RAG) systems
-  - Risk analytics for financial services
-  - Enterprise chatbots
+  - Enterprise LLM and generative AI solution delivery in financial-services environments
+  - Risk analytics GenAI systems
+  - Chatbots
   - Document generation
-  - Capital markets AI solutions
+  - Capital-markets pre-sales and proofs-of-concept
+  - Secure, scalable multi-cloud LLM serving for enterprise deployments
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Bedrock, Azure OpenAI, Vertex AI, IAM]
     languages: [Python, JavaScript, TypeScript, Go, Java, C++, SQL]
-    ml: [NVIDIA NeMo]
-    cloud: [AWS Bedrock, Azure OpenAI, Vertex AI, AWS, Azure, GCP]
-    genai: [LangChain, OpenAI API, Anthropic API, RAG, Prompt Engineering, Embeddings]
-    data: [Ray, Airflow, Kafka, Pandas, NumPy]
-    other: [SOC 2, FINRA compliance, GDPR compliance]
-    ops: [Triton, Kubernetes, MLOps, GitOps, GPU scheduling, IAM]
+    ml: [Machine Learning, Model Training]
+    other: [SOC 2, FINRA, GDPR]
+    ops: [MLOps, GitOps, Triton, Kubernetes, Distributed Systems, Service Mesh, SRE,
+      FinOps]
+    databases: [Vector Databases, Redis, ClickHouse, kdb+]
+    domains: []
     web: [FastAPI]
-    databases: [Vector Databases, Redis, kdb+, ClickHouse]
+    data: [Ray, Airflow, Pandas, NumPy, Kafka]
+    genai: [LLMs, Generative AI, RAG, Guardrails, LangChain, Prompt Engineering, Embeddings,
+      OpenAI API, Anthropic API, Fine-Tuning, Tokenizer Optimization]
   is_customer_facing: true
   is_management: false
 meta:
@@ -54,4 +54,6 @@ meta:
   locations:
   - New York, USA
   - Mississauga, CAN
-  extracted_at: '2026-03-27T14:50:48.996915'
+  extracted_at: '2026-08-16T04:41:11.672311'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

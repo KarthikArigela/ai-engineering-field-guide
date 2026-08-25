@@ -1,52 +1,55 @@
 company:
   name: AutoScout24
-  stage: null
-  focus: Automotive leasing marketplace platform
+  stage: ''
+  focus: Online car leasing marketplace platform (DACH region)
 position:
   title: Senior Software Engineer / AI Enabler (m/f/d)
   ai_type:
     type: ai-support
     reasoning: |-
-      The role focuses on using GenAI tools to accelerate
-      development and build internal developer tools (coding
-      assistants, documentation, testing), not on building,
-      training, or deploying AI models. The engineer acts as a
-      multiplier and culture driver, helping teams adopt AI-first
-      practices rather than directly implementing AI systems for
-      customers.
+      The role's deliverable is developer workflow, not model
+      behaviour: the engineer uses GenAI coding assistants
+      (Copilot, Cursor, Claude Code) for their own engineering
+      work and rolls out GenAI tooling, internal assistants,
+      coaching, and playbooks so other engineers ship faster.
+      Integrating LLM APIs into internal tools consumes endpoints
+      designed elsewhere, and no prompt design, retrieval
+      architecture, agent design, or output-quality ownership is
+      described. Per the AI-tool-rollout edge case, this is ai-
+      support.
   responsibilities:
-  - Join builder teams to create products loved by customers using an AI-first mindset
-    across the software development lifecycle
-  - Work hands-on in product codebases using GenAI tools to accelerate development,
-    improve quality, and simplify systems
-  - Build and evolve AI-powered internal tools and workflows including coding assistants,
-    reviews, documentation, and testing tools
+  - Build robust, scalable applications for one of Europe's largest automotive leasing
+    marketplaces within a cross-functional builders' team
+  - Apply an AI-first mindset across the full you-build-it-you-run-it lifecycle, from
+    design and coding to testing, deployment and operations
+  - Work hands-on in product codebases (TypeScript/Node/Next.js or Java/Spring) using
+    GenAI tools to accelerate development, improve quality and simplify existing systems
+  - Build and evolve AI-powered internal tools and workflows such as assistants for
+    coding, reviews, documentation and testing for engineers across AutoScout24
   - Act as a multiplier and culture driver by coaching teams on effective GenAI usage
-    and establishing AI-first ways of working
-  - Run small, data-informed experiments to test AI approaches and turn successful
-    patterns into repeatable standards and playbooks
-  - Apply AI-first principles to design, coding, testing, deployment, and operations
-    in a you-build-it-you-run-it environment
+    and sharing patterns and anti-patterns
+  - Run small, data-informed experiments with teams and turn successful approaches
+    into repeatable standards and playbooks
   use_cases:
-  - Internal developer productivity tools including coding assistants, code reviews,
-    and documentation generators
-  - Automated testing and code quality improvement using GenAI tools
-  - Workflow automation for software development processes including debugging and
-    refactoring
-  - AI-powered development acceleration and innovation across engineering teams
-  - Code generation and decision support for engineering productivity
+  - AI assistants for coding, code reviews, documentation and testing used daily by
+    engineers
+  - GenAI-assisted code generation, refactoring, debugging, testing and documentation
+    in production codebases
+  - LLM API integrations embedded in applications and internal tools
+  - Developer productivity and AI-first workflow enablement across the engineering
+    organization
   skills:
-    domains: []
-    languages: [TypeScript, Java, PHP]
+    cloud: [AWS, Azure, GCP, Vertex AI]
+    languages: [TypeScript, Node.js, Java, PHP]
     ml: []
-    cloud: [Vertex AI, AWS, Azure, GCP]
-    genai: [GitHub Copilot, ChatGPT, Claude Code, Cursor, Codex, OpenAI API, Anthropic
-        API, Azure OpenAI, Prompt Engineering, Guardrails]
-    data: []
     other: []
-    ops: []
-    web: [Node.js, Next.js, Spring Boot, Laravel]
+    ops: [Observability]
     databases: []
+    domains: []
+    web: [Next.js, Spring Boot, Laravel]
+    data: []
+    genai: [Generative AI, GitHub Copilot, ChatGPT, Claude Code, Cursor, Codex, OpenAI
+        API, Anthropic API, Azure OpenAI, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +58,6 @@ meta:
   locations:
   - Berlin, DEU
   - Munich, DEU
-  extracted_at: '2026-02-27T12:27:29.518319'
+  extracted_at: '2026-08-16T02:05:36.191389'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

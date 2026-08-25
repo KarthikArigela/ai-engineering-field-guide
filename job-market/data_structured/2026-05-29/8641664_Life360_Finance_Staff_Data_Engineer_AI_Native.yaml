@@ -1,61 +1,65 @@
 company:
   name: Life360
-  stage: Public
-  focus: |-
-    Family safety and location sharing mobile app with GPS
-    tracking devices
+  stage: null
+  focus: Family location sharing and safety mobile app
 position:
   title: Finance Staff Data Engineer, AI Native
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Staff Data Engineer role focused on building data
-      platforms, ingestion/egress pipelines, and CI/CD
-      infrastructure for Finance & Accounting. While the team uses
-      LLM tools (Claude Code, Cursor) for development velocity and
-      the candidate is expected to leverage AI tools, the core
-      work is data engineering and platform building — not
-      building, training, fine-tuning, or deploying AI/ML models.
-      The AI usage is as a development aid, not the primary
-      product focus.
+      The core role is data platform engineering: ingestion,
+      transformation (dbt), egress, CI/CD, and AWS/Databricks
+      infrastructure for a finance data warehouse. LLM usage is
+      limited to AI coding assistants (Claude Code, Cursor) and
+      building internal tools/skills/agents to improve the team's
+      own development velocity, which is developer workflow rather
+      than product model behavior. Per the edge cases, enhancing
+      AI coding tools so engineers ship faster is ai-support even
+      when building context tooling for them.
   responsibilities:
   - Architect and evolve scalable data ingestion and egress frameworks and pipelines
     with strong data quality monitoring
-  - Architect and evolve CI/CD processes including LLM-driven code reviews with context
-    awareness through data diffing and lineage analysis
-  - Architect delivery architecture of data assets to external partners to reduce
-    manual operational overhead
-  - Enhance LLM development support capabilities by creating tools, skills, and agents
-    for improved debugging and code generation
+  - Architect and evolve CI/CD processes, including LLM-driven code reviews with context
+    awareness via data diffing and lineage analysis
+  - Enhance Claude Code / LLM development support by creating tools, skills, and agents
+    that improve debugging, code generation, and system maintenance
   - Design and implement distributed data processing systems using Spark and Databricks
     on AWS
-  - Establish clear ingestion and integration boundaries that eliminate single points
-    of failure
   - Design logical and physical data models balancing flexibility, performance, governance,
     and scalability
+  - Enhance security posture, access controls, and networking for the warehouse and
+    related connectors
   - Harden pipelines with monitoring, alerting, SLAs, and recovery mechanisms while
-    mentoring engineers across the team
+    eliminating single points of failure
+  - Mentor engineers and influence cross-team architecture and engineering standards
   use_cases:
-  - Finance data warehouse ingestion and transformation for SOX compliance
-  - Automated data asset delivery to reduce month-end close manual overhead
-  - LLM-assisted code generation and review for data engineering development velocity
-  - Data quality monitoring and validation across distributed data pipelines
-  - Cross-system data integration from multiple sources into finance reporting destinations
+  - Finance and accounting data warehouse ingestion, transformation, and egress
+  - SOX-compliant financial reporting and data delivery supporting month-end close
+  - Data quality monitoring and validation for high-volume ingestion pipelines
+  - LLM-assisted code generation, debugging, and development velocity tooling for
+    internal engineering
+  - LLM-driven code reviews and CI/CD observability using data diffing and lineage
+    analysis
   skills:
-    domains: []
+    cloud: [AWS, VPC Peering]
     languages: [Python, SQL]
     ml: []
-    cloud: [AWS, VPC Networking]
-    genai: [Claude Code, Cursor]
-    data: [Databricks, Spark, Airflow, dbt, Fivetran, Data Modeling]
-    other: [SOX Compliance]
-    ops: [Terraform, CI/CD, GitHub Actions, Docker]
-    web: []
+    other: [Event-Driven Architecture, SOX Compliance]
+    ops: [CI/CD, GitHub Actions, Terraform, Monitoring, Observability, Distributed
+        Systems]
     databases: []
+    domains: []
+    web: []
+    data: [Fivetran, dbt, Spark, Databricks, Airflow, Data Modeling, Data Quality,
+      Data Pipelines]
+    genai: [LLMs, Claude Code, Cursor, Anthropic API, Claude Cowork, Gemini, Codex,
+      Wispr Flow, AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8641664'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:48:18.936709'
+  extracted_at: '2026-08-16T08:40:20.258882'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

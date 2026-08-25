@@ -1,54 +1,60 @@
 company:
   name: Quadrivia AI
   stage: null
-  focus: Clinical AI assistant for healthcare professionals
+  focus: Clinical AI assistant for healthcare providers
 position:
   title: AI Automation Engineer (Remote - ES/UK only)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI agent
-      workflows using Claude Skills, MCP architectures, and
-      agentic toolchains to automate business processes. The
-      engineer orchestrates autonomous flows with LLMs and ships
-      production-grade agentic automations, which is hands-on work
-      with AI systems.
+      The role designs and builds agentic automation systems
+      directly - MCP servers and clients, Claude Skills, Claude
+      Cowork, and agent workflow orchestration with Claude and
+      Gemini - which is shaping agent behavior via flows and tool
+      calling (Step 1: yes). The shaped components are LLM/agent
+      systems, so ai-first; this is not merely consuming an AI API
+      someone else configured.
   responsibilities:
-  - Identify and prioritize high-leverage manual processes across the company for
-    automation
-  - Translate vague internal workflows into precise, automatable specifications
-  - Build automations using Python, APIs, MCP servers/clients, Claude Skills, and
-    agent workflows
-  - Instrument and monitor shipped automations with logging and alerts to ensure ongoing
-    reliability
-  - Drive adoption of automations among non-technical teams through training and support
-  - Recognize when automations should graduate to the core backend platform and coordinate
-    handoff
-  - Embed with internal teams across GTM, Content, HR, and Ops to deliver tailored
-    automation solutions
+  - Identify and rank high-leverage manual, repetitive internal processes worth automating
+    by talking to teams across the company
+  - Extract vague internal workflows from people's heads and specify them precisely
+    enough to automate
+  - Build automations with Python, API glue, MCP servers and clients, Claude Skills,
+    agent workflows, and small services
+  - Instrument shipped automations with logs and alerts so failures are caught and
+    reliability is measurable
+  - Drive adoption of automations with non-technical teams through training and close
+    post-launch support
+  - Escalate automations that outgrow their scope to the backend team for graduation
+    into the core platform
   use_cases:
-  - CRM automation, call logging, deal qualification, and prospect research for sales
-    teams
-  - Social media workflow automation including AI-driven video generation and post-production
-  - Candidate screening and employee onboarding automation for HR
-  - Patient onboarding and clinical operations process automation
-  - Internal business process automation across departments using AI agents
+  - GTM and sales intelligence automation (CRM updates, call logging, deal qualification,
+    prospect research, smart alerting)
+  - Content automation including AI video generation and post-production editing for
+    social media
+  - HR automation for candidate screening and employee onboarding
+  - Operations automation such as patient onboarding and other high-effort manual
+    processes
+  - Internal business process automation to free staff from repetitive administrative
+    work
   skills:
-    domains: []
+    cloud: []
     languages: [Python]
     ml: []
-    cloud: []
-    genai: [MCP, Claude Skills, Claude Cowork, Agent workflow orchestration, Gemini,
-      Anthropic API]
-    data: []
-    other: [CRM integration, UiPath]
-    ops: [Logging and monitoring, Alerting systems]
-    web: [REST APIs, Webhooks]
+    other: [UiPath, RPA]
+    ops: []
     databases: []
+    domains: []
+    web: [REST APIs, Webhooks, APIs]
+    data: []
+    genai: [MCP, Claude Skills, Claude Cowork, Agentic Workflows, AI Agents, Anthropic
+        API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9704314'
   location: GBR
   remote: true
-  extracted_at: '2026-06-25T19:49:27.262408'
+  extracted_at: '2026-08-16T14:23:04.572464'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

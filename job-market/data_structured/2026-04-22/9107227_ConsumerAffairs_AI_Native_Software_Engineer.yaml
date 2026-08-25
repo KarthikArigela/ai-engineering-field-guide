@@ -1,54 +1,56 @@
 company:
   name: ConsumerAffairs
   stage: null
-  focus: Consumer reviews and product comparison platform
+  focus: Consumer reviews and brand reputation marketplace platform
 position:
   title: AI Native, Software Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general full-stack software engineering role at a
-      consumer-focused company where AI tools (Cursor, Copilot,
-      Claude) are used as productivity aids for coding, not for
-      building AI/ML systems. The engineer uses AI assistants to
-      accelerate their development workflow but does not build,
-      train, fine-tune, or deploy AI/ML models or agents. The core
-      work is traditional back-end/front-end development.
+      This is a full-stack/back-end software engineer role where
+      AI appears only as coding assistants (Cursor, Copilot,
+      Claude) used as a daily workflow tool. The person never
+      shapes an LLM's behavior - no prompts-as-product, no
+      retrieval design, evals, or model work; they merely evaluate
+      AI-generated code as a consumer of those tools. Per the edge
+      case rules, AI as a tool the engineer uses to write code is
+      ai-support.
   responsibilities:
-  - Design, build, test, and maintain back-end systems and APIs ensuring scalability,
+  - Design, build, test, and maintain back-end systems and APIs to ensure scalability,
     reliability, and performance
-  - Work closely with front-end engineers, product managers, and designers to implement
-    features across the full stack
-  - Deliver clean, efficient, and well-documented code aligned with best practices
-    and coding standards
-  - Design and optimize database schemas, queries, and data storage solutions to support
+  - Own features end-to-end across a multi-service architecture, from database schema
+    to UI component
+  - Collaborate with front-end engineers, product managers, and designers to implement
+    features across the stack
+  - Design and optimize database schemas, queries, and data storage solutions for
     application performance
-  - Identify and resolve back-end issues promptly to maintain system reliability
-  - Participate in peer code reviews providing constructive feedback to ensure code
-    quality and maintainability
-  - Work across a multi-service architecture spanning Django/Python backend, React
-    frontends, and a shared component library
-  - Own features end-to-end from database schema to UI component
+  - Debug and troubleshoot back-end issues to maintain system reliability
+  - Participate in peer code reviews and provide constructive feedback on code quality
+  - Use AI coding assistants as a default part of the daily workflow, critically evaluating
+    AI-generated output and catching hallucinations
+  - Plan work multiple sprints ahead to identify dependencies and keep the team unblocked
   use_cases:
-  - Consumer reviews and product comparison web platform
-  - Full-stack feature development for customer-facing web application
-  - API development for multi-service architecture
-  - Database schema management and optimization for application performance
+  - Back-end services and APIs powering a consumer reviews platform
+  - Scalable, reliable web application infrastructure across a multi-service architecture
+  - Database schema design and query optimization for application performance
+  - React frontends and a shared component library for the consumer web experience
   skills:
-    domains: []
-    languages: [Python, JavaScript]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [Cursor, GitHub Copilot, Anthropic API]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, Git, CI/CD, Automated Testing]
-    web: [Django, React, REST APIs, GraphQL, CSS, WordPress]
+    languages: [Python, Java, JavaScript, Node.js, Go, Ruby]
+    ml: []
+    other: [WordPress]
+    ops: [Docker, Kubernetes, Git, CI/CD]
     databases: [SQL, NoSQL]
+    domains: []
+    web: [Django, React, REST APIs, GraphQL, CSS]
+    data: []
+    genai: [Cursor, GitHub Copilot, Anthropic API, LLMs, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9107227'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T12:35:02.230748'
+  extracted_at: '2026-08-16T08:05:59.848059'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

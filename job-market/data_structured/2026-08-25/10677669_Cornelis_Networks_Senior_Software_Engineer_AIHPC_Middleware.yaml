@@ -1,0 +1,52 @@
+company:
+  name: Cornelis Networks
+  stage: Venture-backed (top-tier VC and strategic investors)
+  focus: High-performance scale-out networking for AI/HPC datacenters
+position:
+  title: Senior Software Engineer – AI/HPC Middleware
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and optimizes networking middleware
+      (MPI/SHMEM, NCCL/RCCL) for AI/HPC interconnects — running
+      and transporting communication for workloads, not shaping
+      model behaviour or output quality. No prompt, retrieval, or
+      training work is involved, so it is ai-support.
+  responsibilities:
+  - Implement and optimize HPC middleware features (MPI and SHMEM) and AI middleware
+    (collective communication libraries such as NCCL/RCCL)
+  - Integrate middleware with underlying transports and provider layers such as libfabric/OFI,
+    UCX, and verbs-style semantics
+  - Prepare and submit upstream contributions to MPI/SHMEM projects, CCL ecosystems,
+    and related open-source components
+  - Collaborate with kernel/driver, switch, and systems teams to deliver end-to-end
+    performance
+  - Analyze performance traces and reproduce customer issues, translating findings
+    into fixes
+  use_cases:
+  - Enabling AI middleware (NCCL/RCCL collective communication libraries) over high-performance
+    interconnects
+  - Optimizing MPI/SHMEM HPC middleware for scale-out networking
+  - Low-latency/high-throughput communication for GPU and accelerator clusters
+  - Customer workload performance diagnosis and fixes across the networking stack
+  skills:
+    genai: []
+    ml: [CUDA]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Linux]
+    languages: [C++, C]
+    domains: []
+    other: [MPI, SHMEM, NCCL, RCCL, Open MPI, MPICH, MVAPICH, libfabric, UCX, RDMA,
+      RoCEv2, ROCm, Open Source, Profiling, Cluster Benchmarking, Ultra Ethernet]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10677669'
+  location: New York, USA
+  remote: true
+  extracted_at: '2026-08-25T11:13:10.237780'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

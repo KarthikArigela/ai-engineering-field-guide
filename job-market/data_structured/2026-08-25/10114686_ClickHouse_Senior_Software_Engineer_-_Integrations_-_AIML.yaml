@@ -1,0 +1,55 @@
+company:
+  name: ClickHouse
+  stage: Series D
+  focus: Real-time analytics and columnar OLAP database platform
+position:
+  title: Senior Software Engineer - Integrations - AI/ML
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs AI/LLM integration patterns, including RAG
+      architectures, embedding pipelines, and vector-store
+      connectors with ClickHouse, shaping how LLM workflows
+      retrieve and use data. That's designing retrieval for
+      LLM/agent systems, so it's ai-first despite the platform-
+      engineering framing.
+  responsibilities:
+  - Own and evolve ClickHouse's Python connector and SDK ecosystem, improving performance,
+    reliability, and API design
+  - Drive AI/LLM integration strategy designing connectors and patterns for RAG architectures,
+    ML feature pipelines, and LLM-powered data applications
+  - Build and maintain integrations with AI tooling such as LangChain, LlamaIndex,
+    and n8n
+  - 'Engage with the open-source community: triage issues, support contributors, and
+    shape the roadmap'
+  - Collaborate with Product, Cloud, and engineering teams to align integration work
+    with platform priorities
+  - Bring a Data Engineer/Data Scientist practitioner perspective to roadmap prioritization
+  use_cases:
+  - RAG pipelines using ClickHouse as a vector store
+  - LLM-powered agents backed by ClickHouse
+  - Real-time ML feature stores for inference
+  - Embedding generation and vector search at scale
+  - Real-time analytics and observability data platforms
+  - AI-powered data applications for data practitioners
+  skills:
+    genai: [LangChain, LlamaIndex, RAG, Embeddings, LLMs]
+    ml: [Machine Learning, Model Deployment, Feature Engineering, Pandas, NumPy]
+    web: []
+    databases: [Vector Databases, ClickHouse, Vector Search]
+    data: [Pydantic, Data Pipelines, Data Modeling, dbt, Airflow, Dagster, Prefect,
+      Spark, Flink, Kafka, Fivetran]
+    cloud: []
+    ops: []
+    languages: [Python, SQL, JVM]
+    domains: []
+    other: [n8n, Tableau, Power BI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10114686'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:29:08.026657'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

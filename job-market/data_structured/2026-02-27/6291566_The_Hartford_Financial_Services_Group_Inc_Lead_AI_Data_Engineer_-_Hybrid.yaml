@@ -1,56 +1,63 @@
 company:
   name: The Hartford Financial Services Group, Inc.
-  stage: Public
+  stage: ''
   focus: Insurance and financial services
 position:
   title: Lead AI Data Engineer - Hybrid
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on implementation of RAG
-      architectures, GenAI data pipelines, vector databases, and
-      agentic solutions using LangChain and LangGraph. The
-      position requires direct work on AI systems including
-      embedding strategies, prompt engineering, and integrating
-      retrieval mechanisms with LLMs - clearly building and
-      deploying AI solutions, not just supporting infrastructure.
+      The role designs and implements RAG architectures and pre-
+      processing with extraction, chunking, embedding, and
+      grounding strategies, plus requires prompt engineering
+      experience — all activities that directly shape LLM output
+      quality. The target systems are LLM-based generative AI and
+      agentic solutions, so it is ai-first rather than data
+      plumbing alone.
   responsibilities:
-  - Implement AI data pipelines combining structured, semi-structured, and unstructured
-    data for AI and Agentic solutions including pre-processing, extraction, chunking,
-    embedding, and grounding strategies
-  - Implement efficient Retrieval-Augmented Generation (RAG) architectures integrated
-    with enterprise data infrastructure
+  - Lead implementation of AI data pipelines that bring together structured, semi-structured,
+    and unstructured data to support AI and agentic solutions
+  - Pre-process data using extraction, chunking, embedding, and grounding strategies
+    to prepare it for models and agentic solutions
+  - Implement efficient Retrieval-Augmented Generation (RAG) architectures and integrate
+    them with enterprise data infrastructure
   - Design, build, and maintain scalable real-time data streaming pipelines using
-    Apache Kafka, AWS Kinesis, Spark Streaming, or similar technologies
+    Kafka, AWS Kinesis, Spark Streaming, or similar
+  - Develop data domains and data products for consumption archetypes including reporting,
+    data science, AI/ML, and analytics
   - Develop graph database solutions for complex data relationships supporting AI
     systems
-  - Apply GenAI solutions to insurance-specific data use cases and challenges
-  - Ensure reliability, availability, and scalability of data pipelines through effective
-    monitoring, alerting, and incident management
-  - Mentor junior team members and engage in communities of practice to deliver high-quality
-    data and AI solutions
-  - Partner with architects and stakeholders to influence and implement the vision
-    for AI and data pipelines
+  - Ensure reliability, availability, and scalability of data pipelines through monitoring,
+    alerting, and incident management, partnering with DevOps and infrastructure teams
+  - Mentor junior AI and data engineers and promote best practices, standards, and
+    reusable patterns across communities of practice
   use_cases:
-  - Insurance-specific data processing and analytics
-  - RAG-based information retrieval for enterprise knowledge
-  - Agentic AI solutions for business operations
-  - Real-time data streaming for insurance workflows
-  - Graph-based data relationship modeling for AI systems
-  - Enterprise AI data governance and compliance
+  - Preparing enterprise structured, semi-structured, and unstructured data for generative
+    AI and agentic solutions
+  - Retrieval-augmented generation over enterprise data infrastructure for insurance
+    operations
+  - Real-time data streaming pipelines supporting operational processes across business
+    functions
+  - Graph database solutions capturing complex data relationships for AI systems
+  - GenAI applied to insurance-specific data use cases such as P&C and employee benefits
+  - Scalable data domains and data products serving reporting, analytics, data science,
+    and AI/ML consumers
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, Vertex AI, AWS Lambda, AWS S3, EC2]
     languages: [Python, SQL]
     ml: [PyTorch, TensorFlow, NLP, Computer Vision]
-    cloud: [AWS Lambda, AWS S3, AWS EC2, AWS OpenSearch, AWS Kinesis, Vertex AI]
-    genai: [RAG, LangChain, LangGraph, Prompt Engineering]
-    data: [Kafka, Spark Streaming, Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, CI/CD]
+    other: [Agile]
+    ops: [CI/CD, Docker, Kubernetes, Monitoring]
+    databases: [Snowflake, NoSQL, Vector Databases, Graph Databases, OpenSearch, Neo4j,
+      Spanner Graph, Neptune, MongoDB, DynamoDB]
+    domains: []
     web: []
-    databases: [Snowflake, Neo4j, Neptune, MongoDB, DynamoDB, Spanner Graph]
+    data: [Kafka, Kinesis, Spark, Spark Streaming, Data Pipelines, Data Governance,
+      Big Data, Data Mesh, Data Lake, Data Fabric, Semantic Modeling]
+    genai: [RAG, Prompt Engineering, LangChain, LangGraph, Embeddings, Generative
+        AI, AI Agents, LLMs, Chunking]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '6291566'
   location: Frisco, USA
@@ -61,4 +68,6 @@ meta:
   - Hartford, USA
   - New York, USA
   - Charlotte, USA
-  extracted_at: '2026-03-03T11:20:56.219454'
+  extracted_at: '2026-08-15T23:40:31.106886'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

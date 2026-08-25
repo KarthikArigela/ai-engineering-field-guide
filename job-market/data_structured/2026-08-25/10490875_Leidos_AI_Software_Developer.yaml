@@ -1,0 +1,52 @@
+company:
+  name: Leidos
+  stage: null
+  focus: Defense and government technology, air traffic systems
+position:
+  title: AI Software Developer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a general software developer building
+      microservices for air traffic systems; AI appears as "AI-
+      assisted development tools" (e.g., Claude Code) to
+      accelerate coding, which per edge cases is ai-support. No
+      prompt design, retrieval, agent flows, or model shaping is
+      described.
+  responsibilities:
+  - Design, develop, and maintain microservices-based applications
+  - Collaborate with product owners, architects, and engineers in an Agile/SAFe environment
+  - Translate requirements into working software solutions with systems engineering
+    teams
+  - Develop clean, testable code following CI/CD and DevSecOps practices
+  - Integrate services with databases, messaging systems, and external APIs
+  - Implement automated testing strategies including unit, integration, contract,
+    and end-to-end tests
+  - Use AI-assisted development tools to accelerate coding, refactoring, debugging,
+    and test creation
+  - Support troubleshooting, performance tuning, and continuous improvement
+  use_cases:
+  - National air traffic operations automation
+  - Safety-critical real-time systems for air traffic control
+  - Modernizing government mission-critical software with AI-augmented development
+    practices
+  skills:
+    genai: [Claude Code]
+    ml: []
+    web: [Microservices, APIs]
+    databases: [Relational Databases, NoSQL]
+    data: [Kafka]
+    cloud: [AWS, Azure, GCP]
+    ops: [Linux, Git, CI/CD, Docker, Kubernetes, DevSecOps]
+    languages: [Java, Python, C++]
+    domains: []
+    other: [Agile, SAFe]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10490875'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:23:12.444577'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

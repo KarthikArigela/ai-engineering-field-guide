@@ -1,0 +1,64 @@
+company:
+  name: Aroundhome
+  stage: null
+  focus: Homeowner services platform for the German and DACH market
+position:
+  title: Senior Data Engineer (Modern Data Platform & AI) (all genders) | Berlin,
+    hybrid or remote
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data platform role: the person builds pipelines,
+      lakehouse/warehouse architecture, and governance, and
+      enables AI/ML by providing feature engineering, feature
+      stores, and model serving infrastructure for models built
+      elsewhere. They do not shape model behavior themselves - no
+      prompt engineering, retrieval design, agent flows, training,
+      or output-quality evaluation. Mentoring on AI tools like
+      Cursor/CodeRabbit is developer-workflow enablement, which is
+      also ai-support.
+  responsibilities:
+  - Design, develop, and maintain data models, pipelines, and transformations to support
+    analytics, reporting, and AI use cases
+  - Architect and implement a scalable modern data platform including data lakehouse
+    or warehouse supporting real-time and near-real-time data flows
+  - Optimize ETL/ELT pipelines using dbt, Spark, and Airflow, bridging upstream sources
+    (Debezium, MSK) and downstream processes
+  - Build and optimize real-time data pipelines using Kafka, Spark, and Delta Live
+    Tables
+  - Establish and enforce data governance frameworks including lineage, quality standards,
+    data catalog, and metadata management
+  - Integrate AI/ML capabilities such as feature engineering and model serving, and
+    operationalize ML models in business processes
+  - Mentor the team on best practices and modern tools including Databricks, Snowflake,
+    AI integrations, and cloud-native scalability
+  - Collaborate with Product Analytics, domain teams, and business stakeholders to
+    deliver data solutions aligned with business needs
+  use_cases:
+  - Analytics and reporting powering strategic business decisions
+  - Real-time data streaming and integration from Kafka to downstream consumers
+  - Data governance, lineage, and quality for reliable reporting
+  - AI/ML enablement including feature engineering and model serving for data products
+  - Self-service analytics on a modern lakehouse data platform
+  skills:
+    genai: [Cursor, CodeRabbit]
+    ml: [Feature Engineering, Feature Stores]
+    web: []
+    databases: [Snowflake]
+    data: [dbt, Spark, Spark Structured Streaming, Airflow, Kafka, Flink, Debezium,
+      Delta Live Tables, Delta Lake, Databricks, Data Pipelines, ETL, Data Modeling,
+      Data Governance, Data Lakehouse, Data Warehousing, Unity Catalog, Collibra]
+    cloud: [AWS, AWS S3, AWS Athena, AWS MSK]
+    ops: [Terraform, CI/CD, Git, MLOps, MLflow, Model Serving]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9782679'
+  location: Berlin, DEU
+  remote: true
+  extracted_at: '2026-08-16T15:03:38.251696'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

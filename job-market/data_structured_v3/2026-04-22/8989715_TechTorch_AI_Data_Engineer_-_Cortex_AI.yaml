@@ -1,0 +1,61 @@
+company:
+  name: TechTorch
+  stage: null
+  focus: |-
+    Enterprise technology and AI consultancy for private equity-
+    backed businesses
+position:
+  title: AI Data Engineer - Cortex AI
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core deliverable is data plumbing: Snowflake-centered
+      ELT pipelines, AI-ready data models, and data
+      quality/governance for downstream ML and GenAI consumers.
+      The role calls AI services (Snowflake Cortex AI, AWS
+      Bedrock) to operationalize AI workflows rather than shaping
+      model behavior, and RAG, LangChain, and agents appear only
+      as nice-to-haves. Per the dataset/pipeline rule, preparing
+      data for ML/LLM workloads is ai-support.
+  responsibilities:
+  - Design, build, and maintain scalable data pipelines using Snowflake as the central
+    data platform
+  - Develop AI-ready data models and feature layers to support analytics, ML, and
+    GenAI use cases
+  - Leverage Snowflake Cortex AI for embedding, classification, summarization, and
+    AI-assisted analytics
+  - Integrate and operationalize AI workflows using AWS Bedrock, Lambda, and Step
+    Functions
+  - Build and optimize ELT pipelines using dbt, SQL, and Python
+  - Integrate data from APIs, SaaS platforms, databases, and event streams
+  - Ensure data quality, observability, and governance across pipelines and AI workloads
+  - Collaborate with AI engineers, data scientists, and business teams to translate
+    use cases into scalable data solutions
+  use_cases:
+  - AI-driven analytics and insights for private equity-backed enterprises
+  - LLM-powered use cases and AI-driven automation across enterprise environments
+  - Embedding, classification, and summarization via warehouse-native AI (Snowflake
+    Cortex)
+  - AI agents and GenAI-enabled business workflows powered by modern data platforms
+  - Scalable data products and data-driven transformation programs
+  skills:
+    genai: [Snowflake Cortex AI, AWS Bedrock, Bedrock Agents, Embeddings, LangChain,
+      AI Agents, RAG, Generative AI, LLMs]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: [Snowflake, OpenSearch, Pinecone, Vector Databases, Data Warehousing]
+    data: [dbt, Airflow, Data Pipelines, ELT, Data Modeling, Data Governance]
+    cloud: [AWS, AWS Lambda, AWS S3, IAM, Step Functions]
+    ops: []
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8989715'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T06:53:49.340170'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

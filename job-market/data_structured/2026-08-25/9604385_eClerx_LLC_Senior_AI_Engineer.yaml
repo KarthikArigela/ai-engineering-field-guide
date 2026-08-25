@@ -1,0 +1,63 @@
+company:
+  name: eClerx LLC
+  stage: null
+  focus: |-
+    Business process management, automation and analytics
+    services
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs tool-calling agents, RAG pipelines,
+      guardrails, evaluation frameworks, and prompt engineering
+      for LLM-based agentic systems, directly shaping model
+      behavior and output quality. LLM/agent components dominate,
+      so it is ai-first.
+  responsibilities:
+  - Build agentic AI systems with tool-calling, retrieval, structured reasoning, and
+    secure action execution following the MCP protocol
+  - Productionize LLMs with evaluation frameworks, retrieval pipelines, prompt synthesis,
+    response validation, and self-correction loops
+  - Integrate agents with observability, incident management, and deployment systems
+    for automated diagnostics, runbook execution, and remediation
+  - Build validator models, adversarial prompts, and policy checks with deterministic
+    fallbacks, circuit breakers, and rollback strategies
+  - Optimize cost and latency via prompt engineering, context management, caching,
+    model routing, and distillation
+  - Build and maintain a RAG pipeline with domain knowledge curation, data-quality
+    validation, and feedback loops
+  - Partner with production engineers and application teams to translate pain points
+    into agentic AI roadmaps
+  - Mentor peers on agent architectures, evaluation methodologies, and safe deployment
+    patterns
+  use_cases:
+  - Automated production diagnostics and remediation via agentic AI
+  - Runbook execution and incident management automation
+  - Post-incident summarization with traceability
+  - Cost and risk reduction for large-scale production support
+  - RAG-based domain knowledge retrieval for production operations
+  skills:
+    genai: [Agentic Workflows, MCP, Function Calling, Guardrails, LLMs, Prompt Engineering,
+      Fine-Tuning, RAG, Embeddings, LLM Evaluation, OpenAI API, Gemini, Llama]
+    ml: [Model Deployment, Machine Learning, Distillation, Model Evaluation]
+    web: []
+    databases: [Vector Search]
+    data: [Data Pipelines]
+    cloud: [AWS, ECS, EKS, AWS Lambda, AWS S3, DynamoDB, Redshift, SageMaker, Step
+        Functions]
+    ops: [Observability, Monitoring, Terraform, CloudFormation, Docker]
+    languages: [Python, C++, Go, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9604385'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - Salt Lake City, USA
+  extracted_at: '2026-08-25T12:20:19.675749'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

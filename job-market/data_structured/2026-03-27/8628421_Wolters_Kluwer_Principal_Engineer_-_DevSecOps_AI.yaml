@@ -1,54 +1,59 @@
 company:
   name: Wolters Kluwer
-  stage: Public
-  focus: Expert software and information solutions for professionals
+  stage: null
+  focus: Professional software and information solutions
 position:
   title: Principal Engineer - DevSecOps & AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a DevSecOps and platform engineering role focused on
-      CI/CD pipelines, security automation, and infrastructure.
-      While the role includes building pipelines that support
-      AI/ML and Agentic AI workloads as one of many workload
-      types, the primary work is on delivery automation and
-      security - not building, training, fine-tuning, or deploying
-      AI models themselves. The role enables AI teams but doesn't
-      work directly on AI systems.
+      The role builds and secures CI/CD pipelines and platform
+      infrastructure that can deploy AI/ML and Agentic AI
+      workloads, but never shapes model behaviour: no prompts,
+      retrieval design, evals, or training. AI appears only as
+      pipeline targets and a nice-to-have. The deliverable is
+      delivery capacity and supply-chain security, so the role is
+      ai-support.
   responsibilities:
   - Design and build highly automated, scalable CI/CD pipelines for microservices,
-    APIs, infrastructure, and AI/ML workloads
-  - Embed security controls directly into pipelines including SAST, DAST, SCA, container
-    scanning, and IaC security checks
-  - Design and enforce secure software supply chain practices with provenance, artifact
-    signing, and secrets management
-  - Engineer platform automation using Kubernetes, Infrastructure-as-Code, and GitOps
-    patterns
-  - Build secure, repeatable environment provisioning for dev, test, staging, and
-    production across multi-tenant workloads
-  - Integrate observability into delivery pipelines with metrics, logs, traces, and
-    deployment health signals
-  - Act as principal-level technical advisor setting standards for CI/CD, secure delivery,
-    and platform automation
-  - Mentor senior engineers in DevSecOps and platform engineering practices
+    APIs, infrastructure-as-code, and AI/ML and Agentic AI workloads
+  - Establish reusable, self-service, secure-by-default pipeline blueprints and cloud-agnostic
+    delivery patterns
+  - Embed security controls directly into pipelines, including SAST, DAST, SCA, container
+    and IaC scanning, and SBOM generation
+  - Design and enforce secure software supply chain practices covering provenance,
+    artifact signing, dependency governance, and secrets management
+  - Engineer platform automation using Kubernetes, infrastructure-as-code, and GitOps
+    patterns for provisioning dev, test, staging, and production environments
+  - Enable progressive delivery with blue-green and canary deployments, feature flags,
+    and controlled rollouts
+  - Integrate observability (metrics, logs, traces) into delivery pipelines and support
+    SRE-aligned practices such as error budgets and rollback signals
+  - Act as principal-level technical authority across engineering teams, setting standards,
+    reviewing high-impact designs, and mentoring senior engineers
   use_cases:
-  - Automated software delivery for enterprise-scale applications
-  - Secure software supply chain management
-  - CI/CD pipeline automation for diverse workloads including AI/ML
-  - Platform reliability and observability
-  - Compliance automation for regulated environments
+  - Automated, secure-by-default software delivery platform for product engineering
+    teams
+  - CI/CD pipelines for microservices, APIs, platform services, and AI/ML workloads
+  - Secure software supply chain with SBOM, artifact signing, and dependency governance
+  - Self-service environment provisioning for multi-tenant and regulated workloads
+  - Progressive delivery with blue-green and canary deployments and feature flags
+  - Observability and reliability monitoring for deployments and production health
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python, Go, Java, Bash]
     ml: []
-    cloud: [Terraform, CloudFormation, AWS, Azure, GCP]
-    genai: []
-    data: []
-    other: []
-    ops: [GitHub Actions, GitLab CI, Azure DevOps, Jenkins, Kubernetes, Docker, SAST,
-      DAST, SCA, OPA, OpenTelemetry, ArgoCD, Flux, GitOps, Infrastructure-as-Code]
-    web: []
+    other: [SAST, DAST, SCA, SBOM, Container Scanning, Supply Chain Security, SOC
+        2, ISO 27001, PCI, Internal Developer Platforms]
+    ops: [CI/CD, DevSecOps, Kubernetes, Terraform, CloudFormation, GitOps, Infrastructure
+        as Code, GitHub Actions, GitLab CI, Azure DevOps, Jenkins, ArgoCD, Flux, OpenTelemetry,
+      Observability, Secrets Management, SRE, OPA, Blue-Green Deployments, Canary
+        Deployments, Feature Flags]
     databases: []
+    domains: []
+    web: [Microservices, APIs]
+    data: []
+    genai: [AI Agents]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +62,6 @@ meta:
   locations:
   - London, GBR
   - Alphen Aan Den Rijn, NLD
-  extracted_at: '2026-03-27T14:01:48.502178'
+  extracted_at: '2026-08-16T03:22:10.741388'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

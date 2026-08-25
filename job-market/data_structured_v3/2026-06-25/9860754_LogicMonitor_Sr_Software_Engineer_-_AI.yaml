@@ -1,0 +1,60 @@
+company:
+  name: LogicMonitor
+  stage: null
+  focus: AI-first hybrid observability platform
+position:
+  title: Sr. Software Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behaviour: it designs
+      retrieval frameworks (semantic search, embeddings, model
+      context storage) and builds LLM orchestration APIs with
+      FastAPI/LangGraph for summarization and correlation
+      reasoning. Since the shaped systems are LLM/GenAI components
+      (Edwin AI, Dexda, AIOps), this is ai-first despite the heavy
+      data-engineering scope.
+  responsibilities:
+  - Design and build streaming and batch data pipelines that process metrics, logs,
+    and events for AI workflows
+  - Develop ETL and feature-extraction pipelines using Python and Java microservices
+  - Build resilient data orchestration using Kafka, Airflow, and Redis Streams
+  - Develop data indexing and semantic search for large-scale observability and operational
+    data
+  - Collaborate with the AI Platform team to manage embeddings, metadata, and model
+    context storage
+  - Build Java microservices (Spring Boot) and Python APIs (FastAPI/LangGraph) for
+    LLM orchestration, summarization, and correlation reasoning
+  - Implement schema contracts and streaming protocols (REST, gRPC, SSE, WebSockets)
+    and instrument services with OpenTelemetry
+  - Enforce data validation, schema evolution, lineage tracking, data privacy, and
+    RBAC compliance across AI pipelines
+  use_cases:
+  - GenAI-powered insights for AIOps products (Edwin AI, Dexda)
+  - AI-driven data intelligence connecting telemetry streams with LLM reasoning
+  - Anomaly anticipation and issue prevention across on-premises, cloud, and edge
+    infrastructure
+  - LLM orchestration for summarization and correlation reasoning over operational
+    data
+  - Semantic search and vector retrieval over large-scale observability metrics, logs,
+    and events
+  skills:
+    genai: [LangGraph, LLMs, Generative AI, Embeddings, Semantic Search]
+    ml: [Feature Engineering]
+    web: [FastAPI, Spring Boot, Microservices, REST, gRPC, WebSockets, SSE]
+    databases: [Redis, ClickHouse, Vector Search]
+    data: [Kafka, Airflow, Spark, ETL, Data Pipelines, Data Modeling, Delta Lake,
+      Iceberg, Data Governance]
+    cloud: []
+    ops: [Kubernetes, CI/CD, OpenTelemetry]
+    languages: [Python, Java]
+    domains: []
+    other: [RBAC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9860754'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T15:31:31.002174'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

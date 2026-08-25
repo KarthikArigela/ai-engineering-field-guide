@@ -1,0 +1,52 @@
+company:
+  name: NVIDIA
+  stage: ''
+  focus: GPUs and accelerated computing hardware and software
+position:
+  title: AI Analytics and Visualization Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds and runs AI agent workflows involving LLMs
+      and tools, and designs orchestration services that
+      coordinate model calls, tool use, and human review — this is
+      directly shaping agent flows and tool calling, not merely
+      consuming an API. LLM/agent components are central to the
+      deliverables, so it is ai-first.
+  responsibilities:
+  - Build and run AI agent workflows involving LLMs and tools to automate multi-step
+    engineering and business processes
+  - Build orchestration services that coordinate model calls, tools, and human review
+  - Develop APIs that expose AI agents to internal apps and UIs
+  - Connect existing ETL and data pipelines as tools and context for agents
+  - Construct simple web or chat interfaces for AI-powered workflows
+  - Ensure scalability, performance, and security of AI services and data flows
+  - Partner with other teams to understand their workflows and turn them into AI-powered
+    agents and tools
+  use_cases:
+  - Automating multi-step engineering and business processes with AI agents
+  - Orchestrating data collection, decision-making, and actions across systems
+  - Streamlining complex silicon co-design engineering workflows via intelligent automation
+    tools
+  - Exposing AI agents to internal applications and UIs through APIs and chat interfaces
+  - Improving data-driven decision-making with dashboards and workflow automation
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, Cursor, GitHub Copilot]
+    ml: []
+    web: [APIs, Full-Stack Development]
+    databases: [SQL, NoSQL, Relational Databases]
+    data: [ETL, Data Pipelines, Data Modeling, Kafka, Kinesis]
+    cloud: [AWS, Azure, GCP]
+    ops: [Docker, Kubernetes, Git, Grafana]
+    languages: [Python]
+    domains: []
+    other: [Jira, Perforce, Power BI, EasyBI, Workflow Automation, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9010742'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T07:05:22.261621'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

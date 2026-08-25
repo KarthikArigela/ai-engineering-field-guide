@@ -1,0 +1,57 @@
+company:
+  name: Guild
+  stage: null
+  focus: Workforce education and talent development platform
+position:
+  title: Principal AI & Data Platforms Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering leadership role with no model-
+      shaping work: no prompt engineering, RAG design, agent
+      orchestration, training, or eval building. The only AI-
+      adjacent mention is Databricks' MCP platform as part of
+      required platform expertise, but the deliverable is data
+      pipelines, architecture, and governance, not model
+      behaviour. Per Step 3, this is ai-support.
+  responsibilities:
+  - Lead the architecture, design, and development of highly scalable data pipelines
+    leveraging Fivetran, dbt, AWS Glue, Airflow, custom Python applications, Snowflake,
+    Databricks, and cloud storage
+  - Provide technical leadership in integrating and transforming complex data sets
+    from diverse sources including AuroraDB, Snowflake, Postgres, MySQL, and DynamoDB
+  - Collaborate with analytics, engineering, and commercial stakeholders to design
+    and refine data models and marts that empower high-impact decision-making
+  - Champion and implement rigorous data quality, validation, observability, and reliability
+    standards across data workflows
+  - Mentor and upskill team members, influencing the development of Guild's data engineering
+    practices and standards
+  - Serve as a trusted advisor guiding enterprise-wide data strategy, prototyping
+    key data initiatives, and aligning data engineering with long-term business objectives
+  use_cases:
+  - Scalable data pipelines powering analytics and operational insights
+  - Enterprise-wide data strategy and architecture for Guild's data ecosystem
+  - Data quality, governance, and observability across data workflows
+  - Data models and marts supporting high-impact business decision-making
+  - Actionable talent insights for employer partners
+  skills:
+    genai: [MCP]
+    ml: []
+    web: [APIs]
+    databases: [Snowflake, PostgreSQL, MySQL, AuroraDB, DynamoDB, NoSQL]
+    data: [Databricks, Unity Catalog, Medallion Architecture, dbt, Fivetran, Change
+        Data Capture, Data Modeling, Data Warehousing, ETL, Data Pipelines, Data Governance,
+      Airflow]
+    cloud: [AWS Glue, AWS S3]
+    ops: [MLflow, Terraform, Linux, Git, CI/CD]
+    languages: [SQL, Python]
+    domains: []
+    other: [Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '6683796'
+  location: USA
+  extracted_at: '2026-08-15T21:02:37.082471'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

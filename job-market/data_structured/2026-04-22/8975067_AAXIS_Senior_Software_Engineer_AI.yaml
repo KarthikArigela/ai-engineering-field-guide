@@ -1,54 +1,57 @@
 company:
   name: AAXIS
-  stage: Unknown
-  focus: Software development and IT services consulting
+  stage: null
+  focus: null
 position:
   title: Senior Software Engineer, AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a full-stack web engineering role
-      (React/Node.js) that uses AI tools to accelerate development
-      workflows. While the role involves integrating LLM APIs into
-      applications, the core focus is building web applications
-      with AI as a feature layer, not building, training, or fine-
-      tuning models. AI integration is secondary to the full-stack
-      development responsibilities.
+      The core work is full-stack web development with React and
+      Node; AI appears as integrating third-party LLM APIs
+      (OpenAI, Claude, Gemini) into applications and using AI
+      coding assistants (Copilot, Cursor) to accelerate
+      development. Prompt engineering and LLM fine-tuning are only
+      listed as "good to have", so there is no evidence the person
+      shapes model behavior or output quality as a core
+      responsibility.
   responsibilities:
-  - Design, develop, and maintain scalable web applications using React.js and Node.js
+  - Design, develop, and maintain scalable, high-performance web applications using
+    React.js and Node.js
   - Build and consume RESTful APIs and GraphQL services
   - Integrate AI/ML APIs and LLM-based features (OpenAI, Claude, Gemini) into web
     applications
-  - Build intelligent features such as smart search, recommendations, chatbots, or
+  - Build intelligent features such as smart search, recommendations, chatbots, and
     automation workflows
   - Leverage AI coding tools (GitHub Copilot, ChatGPT, Cursor) to accelerate development
-    workflows
+    workflows and evaluate new tools for team adoption
   - Lead technical design discussions and contribute to system architecture decisions
-  - Conduct code reviews, mentor junior developers, and drive best practices around
-    CI/CD and DevOps
-  - Collaborate with Product Managers, QA, and cross-functional teams to deliver features
+  - Conduct code reviews and mentor junior developers
+  - Drive best practices around coding standards, CI/CD, and DevOps
   use_cases:
-  - Smart search functionality in web applications
-  - AI-powered recommendations
-  - Conversational chatbots integrated into web apps
-  - Automation workflows leveraging LLM APIs
-  - AI-accelerated software development workflows
+  - AI-powered full stack web application development
+  - Smart search and recommendation features
+  - Chatbots and conversational interfaces
+  - Automation workflows
+  - AI-accelerated developer workflows
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [JavaScript, TypeScript]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: [OpenAI API, Anthropic API, Gemini, GitHub Copilot, Cursor, Prompt Engineering,
-      Fine-Tuning]
-    data: [Kafka]
-    other: []
-    ops: [Git, Docker, Kubernetes, CI/CD]
-    web: [React, Node.js, Express.js, Next.js, REST APIs, GraphQL, Redux, WebSockets,
-      Microservices]
+    other: [Agile]
+    ops: [Git, GitHub, GitLab CI, Docker, Kubernetes, CI/CD]
     databases: [MongoDB, PostgreSQL, MySQL, Redis]
+    domains: []
+    web: [React, Node.js, Express.js, REST APIs, GraphQL, Next.js, Redux, Microservices,
+      WebSockets]
+    data: [Kafka, RabbitMQ]
+    genai: [GitHub Copilot, Cursor, ChatGPT, OpenAI API, Anthropic API, Gemini, LLMs,
+      Prompt Engineering, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8975067'
   location: Pune, IND
-  extracted_at: '2026-04-22T14:16:47.425216'
+  extracted_at: '2026-08-16T06:41:54.232693'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

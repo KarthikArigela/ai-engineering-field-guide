@@ -1,0 +1,66 @@
+company:
+  name: MeridianLink
+  stage: null
+  focus: Fintech software for regulated financial services
+position:
+  title: Staff Software Engineer - AI Platform
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behavior and output quality:
+      it owns prompt management, RAG and embedding pipeline
+      design, vector store management, output evaluation
+      pipelines, and guardrail/content safety patterns. The models
+      in question are explicitly LLMs ("large language models",
+      prompt management, RAG), so it is ai-first rather than ml-
+      first. Building shared platform infrastructure rather than
+      merely consuming an API confirms shaping, not ai-support.
+  responsibilities:
+  - Define and build the shared AI platform that product and engineering teams use
+    to deliver AI-powered features consistently and at scale
+  - Design platform services including model integration layers, prompt management,
+    RAG infrastructure, embedding pipelines, and vector store management
+  - Define the reference architecture and integration standards (interface contracts,
+    versioning, deprecation, cost attribution) for consuming AI capabilities across
+    products
+  - Design evaluation and monitoring pipelines giving teams visibility into AI output
+    quality, latency, cost, and degradation over time
+  - Establish guardrail patterns, content safety standards, and compliance approaches
+    (PII handling, data residency, audit logging) for a regulated financial services
+    environment
+  - Evaluate and select third-party AI infrastructure (cloud-managed model services,
+    orchestration frameworks, vector databases) and make build-vs-buy recommendations
+  - 'Lead development of core AI platform services: model serving and routing, retrieval
+    infrastructure, prompt management, output evaluation, and usage observability'
+  - Provide day-to-day technical direction across scrum teams without holding a management
+    title, own the platform roadmap, and grow Senior engineers toward Staff scope
+  use_cases:
+  - Shared internal platform powering AI features across MeridianLink's product lines
+  - Retrieval-augmented generation with vector search and embedding pipelines for
+    product AI capabilities
+  - Model integration, serving, and routing for LLM-backed features consumed via platform
+    APIs
+  - AI output quality evaluation, monitoring, and guardrails in a regulated financial
+    services environment
+  - Compliance-aware AI pipelines with PII handling, data residency, and audit logging
+    for AI-driven decisions
+  skills:
+    genai: [RAG, Prompt Engineering, Embeddings, LLMs, LLM Evaluation, Guardrails]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI]
+    ops: [Model Serving, Monitoring, Observability]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9820294'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T15:12:13.810283'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

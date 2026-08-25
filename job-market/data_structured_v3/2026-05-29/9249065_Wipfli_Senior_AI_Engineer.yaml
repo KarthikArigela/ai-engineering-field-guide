@@ -1,0 +1,57 @@
+company:
+  name: Wipfli
+  stage: ''
+  focus: Accounting, tax, and business consulting services
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes model behaviour: it designs RAG
+      systems (chunking, embeddings, retrieval parameters,
+      semantic search), evaluates LLM architectures, and maintains
+      prompt-engineering frameworks to improve output quality.
+      Since LLM/agent components dominate, it is ai-first.
+  responsibilities:
+  - Design, develop, and optimize full-stack applications using RAG for high-accuracy
+    retrieval and generation
+  - Build and maintain APIs and microservices with monitoring and logging for reliability
+    and performance
+  - Implement vector databases and semantic search, fine-tuning retrieval for strong
+    precision and recall
+  - Optimize chunking, embeddings, and retrieval parameters tailored to professional
+    services content
+  - Evaluate LLM architectures and maintain prompt-engineering frameworks to improve
+    response quality
+  - Build ETL pipelines and integrate with firm platforms such as document management,
+    CRM, and engagement systems
+  - Ensure data quality, security, and compliance, including role-based access, encryption,
+    audit logging, and confidentiality
+  - Partner across engagement, data science, and ML teams to deliver capabilities
+    and mentor junior engineers
+  use_cases:
+  - AI-driven functional requirements documentation platform used across the firm
+  - Automated creation of complex project documentation
+  - Semantic search and retrieval over professional services content
+  - Enterprise document processing with OCR integration
+  skills:
+    genai: [RAG, Prompt Engineering, LLMs, Embeddings, Semantic Search, LangChain,
+      LlamaIndex, Haystack]
+    ml: [Machine Learning]
+    web: [APIs, Microservices, Full-Stack Development, React, Vue, Angular, Node.js]
+    databases: [Vector Databases]
+    data: [ETL]
+    cloud: []
+    ops: [Monitoring]
+    languages: [Python, .NET]
+    domains: []
+    other: [OCR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9249065'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T09:49:03.720277'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

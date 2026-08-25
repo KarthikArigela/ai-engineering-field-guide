@@ -1,48 +1,51 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services leveraging AI/ML
+  stage: null
+  focus: Consumer banking and financial services powered by AI and ML
 position:
   title: Senior Distinguished AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying AI systems
-      including foundation model training, LLM inference, and
-      optimization. The position directly works on AI/ML models
-      and infrastructure with hands-on development of AI
-      components like guardrails, model evaluation, and LLM
-      optimization techniques.
+      The role shapes model behavior directly: it designs and
+      builds foundation model training, LLM inference
+      optimization, guardrails, and model evaluation components
+      for production AI systems. Since LLM and foundation-model
+      components are the explicit targets of the work, Step 2
+      classifies this as ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for customers
-    and associates
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training and LLM inference
-  - Implement similarity search, guardrails, model evaluation, experimentation, governance,
-    and observability systems
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, and PyTorch
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, and latency
-  - Contribute to technical vision and long-term roadmap of foundational AI systems
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Lead and mentor an engineering organization and influence cross-functional stakeholders
+    up to the SVP level
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - Real-time customer question answering
-  - AI-powered products for internal associates
-  - Enterprise AI infrastructure and platforms
+  - Informing customers about unusual charges and fraud alerts
+  - Answering customer questions in real time via AI assistants
+  - AI-powered products that change how associates work internally
+  - Platform capabilities enabling teams across the bank to enhance products with
+    AI
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation model training, Model Evaluation]
-    cloud: [AWS Ultraclusters, AWS, GCP, Azure]
-    genai: [LLM inference, Guardrails, LLM optimization]
-    data: []
-    other: []
-    ops: [Experimentation, Observability, Governance]
-    web: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
+    other: [Responsible AI]
+    ops: [Model Deployment, Observability]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [Guardrails, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +58,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T16:08:08.609274'
+  extracted_at: '2026-08-16T05:33:23.969117'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

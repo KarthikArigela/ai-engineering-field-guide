@@ -1,53 +1,62 @@
 company:
   name: Wolters Kluwer
-  stage: Public
-  focus: Professional information, software solutions, and services
+  stage: null
+  focus: Professional information services and software solutions
 position:
   title: Senior Product Software Engineer- (.Netcore + Angular + SQL) - AI Fluent
     (Mandatory)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a software engineering role focused on building and
-      maintaining enterprise applications using .NET Core,
-      Angular, and SQL. While the role requires AI-assisted
-      development skills using GitHub Copilot for code generation
-      and automation, it does not involve building, training, or
-      deploying AI/ML models. The AI tools are used as
-      productivity aids rather than working directly on AI
-      systems.
+      This is a full-stack .NET/Angular product engineer whose
+      deliverable is business software; the AI content is using
+      GitHub Copilot, Agent Mode, and Coding Agents as development
+      tools for code generation, refactoring, and test automation.
+      Per the coding-tool edge case, rolling out or using AI
+      coding assistants is developer workflow, not shaping model
+      behaviour, so the role is ai-support.
   responsibilities:
   - Collaborate across Agile teams to design, develop, test, implement, and support
     technical solutions using a variety of tools and technologies
   - Design and develop front-end solutions using Angular, React, and ASP.NET Core,
-    as well as back-end APIs used internally and by third-party systems
-  - Participate in architectural and technical decision-making processes and produce
-    technical designs aligned with business requirements
+    and back-end APIs used internally and by third-party systems
+  - Participate in architectural and technical decision-making processes
+  - Produce technical designs and working software solutions aligned with business
+    requirements
   - Enhance and maintain existing applications through performance improvements, code
     refactoring, and bug fixing
   - Develop dashboards and reports using Power BI to support business intelligence
     and decision-making
-  - Follow established organizational standards for design, coding, testing, and documentation
+  - Use GitHub Copilot, Agent Mode, and the Coding Agent for AI-assisted code generation,
+    multi-file edits, refactoring, and test automation
+  - Design and maintain custom Copilot agents such as security reviewers and test
+    generators with defined constraints, tools, and handoffs
   use_cases:
-  - Enterprise software solutions for business challenges
-  - Front-end web applications with responsive design
-  - Back-end API development for internal and third-party systems
-  - Business intelligence dashboards and data visualization
-  - Microservices architecture for scalable applications
+  - AI-assisted code generation, multi-file edits, and refactoring in day-to-day development
+  - Automated test generation and test coverage improvement via AI coding agents
+  - Delegating background coding tasks such as bug fixes, incremental features, and
+    documentation to the Copilot Coding Agent with draft PR review
+  - Custom security-reviewer and test-generator agents to support developer workflows
+  - Business intelligence dashboards and reports supporting decision-making
   skills:
-    domains: []
-    languages: [TypeScript, C#]
+    cloud: [Azure]
+    languages: [TypeScript, Node.js, .NET]
     ml: []
-    cloud: [Dapr, Azure]
-    genai: [GitHub Copilot, AI Agents]
-    data: [Power BI]
-    other: [Agile, SAFe, TDD, BDD, DDD, UML, OWASP]
-    ops: [Docker, Kubernetes, Azure DevOps, Git, Unit testing, Integration testing]
-    web: [.NET Core, Angular, React, ASP.NET MVC, Web API, WCF, REST, Node.js, NestJS]
-    databases: [RxDB, MS SQL, NoSQL]
+    other: [Power BI, Agile, SAFe, UML, Visual Studio, Visual Studio Code, Unit Testing,
+      Integration Testing, BDD, TDD, DDD, OWASP, Secure Coding, Design Patterns]
+    ops: [Docker, Kubernetes, Dapr, Azure DevOps, Git]
+    databases: [SQL Server, NoSQL, RxDB]
+    domains: []
+    web: [Angular, React, ASP.NET Core, ASP.NET MVC, Web APIs, WCF, REST APIs, Microservices,
+      NestJS, Responsive Web Design]
+    data: []
+    genai: [GitHub Copilot, Copilot Agent Mode, Copilot Coding Agent, Custom Agents,
+      AI-Assisted Development]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8464361'
   location: Chennai, IND
-  extracted_at: '2026-02-27T11:41:09.562525'
+  extracted_at: '2026-08-16T01:30:55.606619'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

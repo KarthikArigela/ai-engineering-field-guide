@@ -1,63 +1,64 @@
 company:
   name: Norbert Health
-  stage: Series B
+  stage: Backed by top-tier VCs
   focus: |-
-    Autonomous robots for healthcare delivery with AI-powered
-    patient monitoring
+    Autonomous healthcare robots for contactless patient
+    monitoring
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is hands-on AI/ML engineering role building, deploying,
-      and fine-tuning LLMs, VLMs, and foundation models directly.
-      The engineer will implement RAG, agents, PEFT/LoRA fine-
-      tuning, and deploy models across cloud and edge inference
-      surfaces - working directly ON the AI systems, not just
-      supporting infrastructure.
+      The role directly shapes model behavior: it builds RAG and
+      agent-style orchestration, fine-tunes models with LoRA/PEFT,
+      builds evaluation harnesses for model quality, and decides
+      when to prompt, RAG, fine-tune, or swap. It spans both
+      LLM/VLM components and classical ML (detection/segmentation,
+      ASR/TTS), and a role shaping both is ai-first.
   responsibilities:
   - Integrate foundation models and ML components (VLMs, LLMs, ASR/TTS, detection/segmentation,
     embeddings) into production pipelines using open-weight models and third-party
     APIs
   - Build RAG and agent-style orchestration for clinical reporting and conversational
     interfaces
-  - Ship real-time streaming pipelines (voice agents) alongside batch and request-response
+  - Ship real-time streaming voice agent pipelines alongside batch and request-response
     workloads
   - Build evaluation harnesses that catch regressions across model swaps and measure
     performance against clinical-grade accuracy targets
-  - Fine-tune and retrain models using LoRA, PEFT, and supervised fine-tuning with
-    data from deployed fleet
-  - Deploy across inference surfaces including third-party APIs, self-hosted, and
-    on-robot edge environments
-  - Build data flywheel pipelines that collect, label, version, and feed production
-    data back into model improvement
-  - Partner with algorithms team on integration with signal processing and computer
-    vision pipelines
+  - Fine-tune and retrain models (LoRA, PEFT, supervised fine-tuning) using data collected
+    from the deployed robot fleet
+  - 'Deploy models across inference surfaces: third-party APIs, self-hosted, and on-robot
+    edge'
+  - 'Build the data flywheel: pipelines that collect, label, version, and feed production
+    data back into model improvement'
+  - Partner with the algorithms team on integration with their signal processing and
+    computer vision pipelines
   use_cases:
-  - Autonomous patient monitoring and vital sign capture (FDA-cleared for pulse and
-    respiratory rate)
-  - Patient rounding and assessments without physical contact
-  - Real-time conversational AI and voice agents for clinical interactions
-  - Clinical documentation and EMR integration
-  - Care escalation and alerting when abnormalities detected
-  - Multimodal sensing using VLMs for healthcare robotics
+  - Autonomous robotic care team members rounding on patients in nursing facilities
+  - Contactless capture of patient vital signs (FDA-cleared pulse and respiratory
+    rate)
+  - Running patient assessments and documenting them to the EMR
+  - Escalating alerts when a patient's condition deteriorates
+  - Clinical reporting and conversational interfaces
+  - Real-time voice agent interaction with patients
   skills:
-    domains: [Computer Vision]
-    languages: [Python, C++]
-    ml: [PyTorch, TensorFlow, Hugging Face, Fine-Tuning, object detection, image segmentation,
-      Embeddings, active learning, human-in-the-loop]
     cloud: [Vertex AI, SageMaker, Azure ML]
-    genai: [LLMs, VLMs, RAG, AI Agents, LangChain, LangGraph, OpenAI API, Anthropic
-        API, LoRA, Prompt Engineering, ASR/TTS]
-    data: []
-    other: []
-    ops: [TensorRT, vLLM, llama.cpp, ONNX, quantization, MLflow, Weights & Biases,
-      DVC, Docker, Kubernetes, edge computing, NVIDIA Jetson]
-    web: []
+    languages: [Python, C++]
+    ml: [Detection and Segmentation, Model Training, Quantization, Active Learning]
+    other: [Jetson, ARM, Mobile NPUs]
+    ops: [MLOps, ONNX, TensorRT, vLLM, llama.cpp, Edge ML Deployment, MLflow, Weights
+        & Biases, DVC]
     databases: []
+    domains: [Computer Vision]
+    web: []
+    data: [Data Pipelines, Human-in-the-Loop Labeling]
+    genai: [LLMs, VLMs, RAG, Agentic Workflows, Prompt Engineering, Fine-Tuning, LoRA,
+      Embeddings, Voice Agents, ASR, TTS]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9189243'
   location: New York, USA
-  extracted_at: '2026-05-29T08:56:28.872504'
+  extracted_at: '2026-08-16T09:23:16.516462'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

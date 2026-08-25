@@ -1,55 +1,62 @@
 company:
   name: Southwest Airlines
-  stage: Public
-  focus: Airline transportation and aviation services
+  stage: null
+  focus: Passenger airline (domestic US carrier)
 position:
   title: Sr Data Engineer – AI Ops
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a data engineer supporting AI Platform
-      Operations, building data pipelines and infrastructure that
-      ENABLE AI workloads rather than working directly on models.
-      The responsibilities focus on data infrastructure, ETL
-      processes, observability, and scalability—working NEAR AI
-      but not ON AI. Key distinction: they implement retraining
-      pipelines and data quality checks for models, but don't
-      build, train, fine-tune, or deploy the models themselves.
+      This role builds and operates the data pipelines, ETL
+      infrastructure, and data quality/observability tooling that
+      feed production AI models and agentic systems owned by
+      others; it never shapes model behaviour directly (no prompt
+      design, RAG, training, evals, or guardrails). Per the edge
+      case, building datasets and pipelines that feed someone
+      else's training or retraining runs is ai-support.
   responsibilities:
-  - Build and operate data pipelines that power production AI workloads at scale
-  - Design reliable, observable, and scalable data infrastructure using modern AWS
-    data services and cloud-native practices
-  - Own pipeline performance and data quality end-to-end through monitoring, troubleshooting,
+  - Build and operate the data pipelines that power production AI workloads at scale
+    using AWS data services
+  - Own pipeline performance and data quality end-to-end, monitoring, troubleshooting,
     and tuning systems
-  - Implement retraining pipelines and data-quality checks for AI models and agentic
-    systems
-  - Redesign infrastructure for scalability while improving lineage and observability
-  - Automate manual processes and build analytical tools for actionable business insights
-  - Collaborate with Data, Product, Engineering, and Executive stakeholders on data
-    infrastructure needs
+  - Implement retraining pipelines and data-quality checks that keep AI models and
+    agentic systems performing as data evolves
+  - Identify, design, and implement internal process improvements including redesigning
+    infrastructure for scalability, optimizing data delivery, and automating manual
+    processes
+  - Build infrastructure for optimal extraction, transformation, and loading of data
+    from various sources using AWS and SQL technologies
+  - Build analytical tools that provide actionable insight into key business performance
+    metrics such as operational efficiency and customer acquisition
+  - Work with Data, Product, Engineering, and Executive stakeholders to support data
+    infrastructure needs and resolve data-related technical issues
+  - Improve data lineage and observability across the platform
   use_cases:
-  - Production AI workload orchestration and data pipelines
-  - AI model retraining pipelines with data quality checks
-  - Agentic systems data infrastructure
-  - Batch retraining workloads for ML/AI systems
-  - Feature stores and vector database support
-  - Business analytics and operational efficiency metrics
+  - Data pipelines powering production AI workloads at Southwest's AI platform
+  - Retraining pipelines and data-quality checks that keep AI models and agentic systems
+    performing as data evolves
+  - Trusted data foundations and lineage/observability for AI platform operations
+  - Analytics on business performance metrics such as operational efficiency and customer
+    acquisition
   skills:
-    domains: []
-    languages: [Python]
+    cloud: [AWS, AWS Glue, EMR, AWS S3, Athena]
+    languages: [Python, SQL]
     ml: []
-    cloud: [AWS, AWS Glue, AWS EMR, AWS Kinesis, AWS S3, AWS Athena, AWS ServiceBus]
-    genai: []
-    data: [Airflow, dbt, Spark, Databricks, Kafka, Data Pipelines, DataLake, Lakehouse
-        formats, XML, JSON, Parquet]
-    other: [Agile, Data contracts, Schema registry, Governance tooling]
-    ops: [Monte Carlo, Great Expectations, OpenLineage, CI/CD, Infrastructure as Code,
-      Container Technologies, Unit Testing, Code Quality tools]
+    other: [Agile, Unit Testing]
+    ops: [CI/CD, Infrastructure as Code, Observability, Monte Carlo, Great Expectations,
+      OpenLineage, Feature Stores, Model Registries, Docker]
+    databases: [Snowflake, Redshift, BigQuery, Vector Databases]
+    domains: []
     web: []
-    databases: [Snowflake, Redshift, BigQuery, Vector Databases, SQL]
+    data: [Data Pipelines, Data Warehousing, Data Lakes, Airflow, dbt, Spark, Databricks,
+      Delta Lake, Iceberg, Hudi, Parquet, Kafka, Kinesis, Service Bus, Data Contracts,
+      Schema Registry, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9394075'
   location: Choudwar, IND
-  extracted_at: '2026-05-29T09:03:03.081672'
+  extracted_at: '2026-08-16T10:49:21.172664'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

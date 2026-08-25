@@ -1,55 +1,63 @@
 company:
   name: GoTo
-  stage: Public
-  focus: Remote work technology solutions
+  stage: null
+  focus: Remote work and business communication technology
 position:
   title: Senior Data Engineer – ML / AI Platform
   ai_type:
-    type: ai-support
+    type: ml-first
     reasoning: |-
-      This role focuses primarily on data engineering (PySpark,
-      Airflow, Databricks, data pipelines) and ML infrastructure
-      (feature pipelines, MLOps, model deployment) rather than
-      hands-on model development or training. The engineer enables
-      ML work for others by building the data platform, feature
-      engineering pipelines, and MLOps infrastructure that support
-      production ML solutions, which aligns with ai-support.
+      The role owns end-to-end ML development: building, training,
+      deploying, monitoring, and retraining models
+      (recommendations, churn/retention, anomaly detection) for
+      production SaaS, which is shaping model behaviour through
+      training and lifecycle ownership. The use cases are all
+      classical ML with no LLM or agent component in core
+      responsibilities; LLMs appear only in nice-to-haves (AI-
+      assisted dev tools and interest in applying AI/LLMs), so it
+      is ml-first rather than ai-first.
   responsibilities:
   - Design, build, and optimize scalable batch and near-real-time data pipelines using
     PySpark, SQL, Airflow, and Databricks/AWS services
-  - Develop and maintain data models for structured and semi-structured datasets
-  - Work with Delta Lake, Hive, and Lakehouse architectures to manage large-scale
-    datasets efficiently
+  - Develop and maintain conceptual, logical, and physical data models for structured
+    and semi-structured datasets using Delta Lake, Hive, and Lakehouse architectures
   - Implement data quality, governance, observability, and security best practices
-    across pipelines
-  - Design, build, and deploy ML/AI solutions end-to-end for real SaaS use cases
+    across pipelines and participate in architecture discussions on scalability, reliability,
+    and cost
+  - Design, build, and deploy ML/AI solutions end-to-end for real SaaS use cases such
+    as recommendations, churn/retention, usage intelligence, and anomaly detection
   - Own ML productionization including feature pipelines, training/inference workflows,
     model packaging, deployment, and monitoring
-  - Implement and maintain MLOps pipelines including model versioning, retraining
-    strategies, performance tracking, and rollback mechanisms
-  - Mentor junior engineers and contribute to data platform and engineering best practices
+  - Implement and maintain MLOps pipelines covering model versioning, retraining strategies,
+    performance tracking, and rollback mechanisms
+  - Partner with product, sales, and marketing teams to translate business problems
+    into deployable ML solutions
+  - Mentor junior engineers and guide teams on data platform and ML/AI engineering
+    best practices
   use_cases:
   - Recommendations for SaaS products
-  - Churn prediction and retention analysis
-  - Usage intelligence and analytics
-  - Anomaly detection for system monitoring
-  - Automation of business processes
-  - AI-assisted development and data tools
+  - Churn and retention prediction
+  - Usage intelligence
+  - Anomaly detection
+  - Workflow automation
   skills:
-    domains: []
+    cloud: [AWS, EMR, EKS, AWS S3]
     languages: [SQL]
-    ml: []
-    cloud: [AWS, EMR, EKS, AWS S3, Kinesis]
-    genai: []
-    data: [PySpark, Airflow, Databricks, Data Pipelines, Spark Streaming, Kafka, Unity
-        Catalog, feature engineering pipelines]
+    ml: [Machine Learning, Feature Engineering]
     other: []
-    ops: [MLOps, CI/CD]
+    ops: [MLOps, CI/CD, Model Deployment, Model Monitoring, Observability]
+    databases: [Hive]
+    domains: []
     web: []
-    databases: [Delta Lake, Hive]
+    data: [PySpark, Airflow, Databricks, Delta Lake, Lakehouse Architecture, Data
+        Modeling, Data Pipelines, Data Governance, Data Quality, Data Engineering,
+      Kafka, Kinesis, Spark Streaming, Unity Catalog]
+    genai: [LLMs, LLM-based Coding Assistants]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7263200'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:30:32.806396'
+  extracted_at: '2026-08-15T23:51:44.661681'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

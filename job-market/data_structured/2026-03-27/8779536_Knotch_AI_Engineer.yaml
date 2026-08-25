@@ -1,58 +1,64 @@
 company:
   name: Knotch
-  stage: Growth-stage
+  stage: growth-stage
   focus: |-
-    B2B content intelligence and AI-powered marketing
-    optimization platform
+    Content intelligence platform for brand content performance
+    and AI-powered marketing
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying
-      production AI agents using LLM orchestration frameworks
-      (LangGraph, LangChain). The engineer will work on agentic
-      patterns, RAG pipelines, and build consequential AI systems
-      that enterprise clients depend on—clearly hands-on work
-      building and deploying AI/ML systems.
+      The role builds production AI agents with LLM orchestration
+      frameworks (LangGraph, LangChain), tool calling, MCP, RAG,
+      and prompt engineering with structured outputs, directly
+      shaping LLM behaviour. It also owns evals/benchmarks for
+      agent accuracy and the guardrails/safety layer, which are
+      core shaping activities on LLM and agent systems.
   responsibilities:
-  - Develop and deploy AI agents that automate complex workflows across the Knotch
-    platform
-  - Build the internal tools and infrastructure that power, monitor, and maintain
-    these agents in production
-  - Design and implement backend and frontend services, APIs, and data pipelines,
-    integrating AI functionality into user-facing features
-  - Contribute to system architecture and core platform design alongside the broader
-    engineering team
-  - Design and maintain a suite of evaluations and benchmarks to measure agent accuracy,
+  - Develop and deploy production AI agents that automate complex workflows across
+    the Knotch platform
+  - Build internal tools and infrastructure to power, monitor, and maintain agents
+    in production
+  - Design and implement backend and frontend services, APIs, and data pipelines integrating
+    AI functionality into user-facing features
+  - Design and maintain a suite of evaluations and benchmarks measuring agent accuracy,
     reliability, and cost-effectiveness
   - Optimize inference pipelines and backend systems for speed, scalability, and cost
   - Own the AI safety and governance layer including guardrails, audit logging, fallback
     logic, and access controls
-  - Collaborate closely with Product, Data Engineering, Backend, and Frontend teams
-    to align AI capabilities with product direction
+  - Contribute to system architecture and core platform design alongside the broader
+    engineering team
+  - Collaborate with Product, Data Engineering, Backend, and Frontend teams to align
+    AI capabilities with product direction
   use_cases:
-  - Content performance optimization for enterprise brands
-  - Marketing automation through AI agents
-  - Content intelligence and engagement analytics
-  - Autonomous content planning and execution across digital channels
-  - B2B content strategy optimization using proprietary data
+  - Autonomous agents that act on B2B content intelligence insights instead of just
+    surfacing them
+  - Automating complex marketing workflows across the Knotch platform for enterprise
+    clients
+  - Content performance optimization for brands using proprietary engagement data
+  - Marketing planning, adaptation, and execution across digital channels (AgentC
+    managed AI service)
+  - Grounding LLMs in proprietary structured data and content signals via RAG
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [NLP concepts, Tokenization, Embeddings, Semantic similarity]
     cloud: []
-    genai: [LangGraph, LangChain, RAG, Prompt Engineering, Agentic Workflows, Tool/function
-        calling, MCP, Anthropic API, LoRA, Guardrails, LlamaGuard]
-    data: [Data Pipelines]
+    languages: [Python]
+    ml: [NLP]
     other: []
-    ops: [Docker, Kubernetes, Inference optimization, Agent monitoring and observability]
-    web: [FastAPI, REST APIs]
-    databases: [Snowflake, Pinecone, pgvector, Weaviate]
+    ops: [Observability]
+    databases: [Snowflake, Vector Databases, Pinecone, pgvector, Weaviate]
+    domains: []
+    web: [APIs]
+    data: [Data Engineering, Data Pipelines]
+    genai: [LangGraph, LangChain, AI Agents, Agentic Workflows, Function Calling,
+      MCP, RAG, Prompt Engineering, Structured Outputs, Embeddings, LLMs, Generative
+        AI, Fine-Tuning, LoRA, Guardrails, LlamaGuard, LLM Evaluation, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8779536'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T13:27:40.814725'
+  extracted_at: '2026-08-16T04:28:53.898113'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

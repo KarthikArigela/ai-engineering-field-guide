@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Engineering Job Market Trends</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+<style>
+  .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+  .reveal h1 { font-size: 2.2em; }
+  .reveal h2 { font-size: 1.6em; }
+  .reveal h3 { font-size: 1.2em; }
+  .reveal { font-size: 32px; }
+  .reveal ul, .reveal ol { text-align: left; }
+  .reveal li { margin-bottom: 0.3em; }
+  .reveal .big-number { font-size: 3em; color: #60a5fa; font-weight: bold; }
+  .reveal .medium-number { font-size: 2em; color: #60a5fa; font-weight: bold; }
+  .reveal table { margin: 0 auto; font-size: 0.8em; }
+  .reveal th, .reveal td { padding: 0.3em 0.8em; }
+  .reveal .subtitle { color: #666; font-size: 0.7em; }
+  .reveal .section-title { color: #60a5fa; font-size: 0.6em; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0; }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ==================== TITLE ==================== -->
+
+<section>
+  <h1>AI Engineering<br>Job Market<br>Trends</h1>
+  <p>Alexey Grigorev</p>
+  <p class="subtitle">Eight scrapes, February - August 2026</p>
+</section>
+
+<!-- Agenda -->
+<section>
+  <h2>Today's Agenda</h2>
+  <ol>
+    <li>Dataset - 6,964 job descriptions across 8 monthly scrapes</li>
+    <li>A data quality fix that changed the numbers</li>
+    <li>What actually moved since February</li>
+    <li>Role archetypes, skills, and the stacks that predict them</li>
+    <li>What still hasn't happened - AI infra, junior hiring</li>
+  </ol>
+</section>
+
+<!-- Dataset -->
+<section>
+  <h2>The Dataset</h2>
+  <p class="big-number">6,964</p>
+  <p>job descriptions from 2,499 companies</p>
+  <p class="subtitle">builtin.com, LA, NY, London, Amsterdam, Berlin, India - 8 scrapes, Feb 4 to Aug 25, 2026</p>
+</section>
+
+<!-- Volume table -->
+<section>
+  <h2>Postings per Scrape</h2>
+  <table>
+    <tr><th>Scrape</th><th>Jobs</th></tr>
+    <tr><td>Feb 4</td><td>895</td></tr>
+    <tr><td>Feb 27</td><td>869</td></tr>
+    <tr><td>Mar 27</td><td>680</td></tr>
+    <tr><td>Apr 22</td><td>645</td></tr>
+    <tr><td>May 29</td><td>919</td></tr>
+    <tr><td>Jun 25</td><td>888</td></tr>
+    <tr><td>Jul 22</td><td>846</td></tr>
+    <tr><td>Aug 25</td><td>1,222</td></tr>
+  </table>
+  <p><br>Zero job-ID overlap between scrapes - each month is an independent cross-section, not a panel</p>
+</section>
+
+<!-- Part 0: data quality -->
+<section>
+  <p class="section-title">Before the trends</p>
+  <h1>A Data Quality Fix</h1>
+  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/job-market/_internal/eval/README.md">job-market/_internal/eval/README.md</a></p>
+</section>
+
+<!-- The problem -->
+<section>
+  <h2>The Extractor Silently Changed</h2>
+  <p>The LLM extraction model switched <code>glm-5.1</code> to <code>glm-5.2</code> partway through the six original scrapes</p>
+  <br>
+  <p>Some of what I previously reported as "market trends" was actually the extractor drifting, not the market moving</p>
+</section>
+
+<!-- The fix -->
+<section>
+  <h2>Re-Extraction, Then a Blind Eval</h2>
+  <p>Rewrote the prompt, re-extracted the full Feb-Jul corpus, then graded old vs. new head-to-head on 50 jobs - blind, random order</p>
+  <br>
+  <table>
+    <tr><th>Metric</th><th>Old</th><th>New</th></tr>
+    <tr><td>Preferred (of 50)</td><td>2</td><td>38</td></tr>
+    <tr><td>Classification clean</td><td>78.0%</td><td>98.0%</td></tr>
+    <tr><td>Invented skills</td><td>74</td><td>4</td></tr>
+  </table>
+  <p><br>All 8 months now use one consistent, validated extraction</p>
+</section>
+
+<!-- What that changed -->
+<section>
+  <h2>Two "Trends" That Were Actually Noise</h2>
+  <ul>
+    <li><code>SQL</code> was reported as the fastest-rising skill (+3.59 pp/scrape). On corrected data: a modest +0.5 pp/scrape.</li>
+    <li>ai-first share was reported climbing 69.4% &rarr; 75.9%. On corrected data: flat, 68-71% the whole time.</li>
+  </ul>
+  <p><br>Everything from here on uses the corrected, consistent extraction</p>
+</section>
+
+<!-- Part 1: since Feb -->
+<section>
+  <p class="section-title">Part 1</p>
+  <h1>Since February</h1>
+  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/job-market/trends.md">job-market/trends.md</a></p>
+</section>
+
+<!-- ai-first stable -->
+<section>
+  <h2>ai-first Share Held Steady</h2>
+  <p class="big-number">71.5% &rarr; 70.2%</p>
+  <p>Feb 4 to Aug 25 - essentially unchanged</p>
+  <br>
+  <p>The market has held a tight 68-71% ai-first band the whole eight months. No consolidation trend either direction.</p>
+</section>
+
+<!-- integrator vs trainer chart -->
+<section>
+  <img src="../../job-market/images/integrator-vs-trainer.png" style="max-height: 600px;">
+  <p class="subtitle">Within ai-first jobs, all 8 scrapes</p>
+</section>
+
+<!-- integrator vs trainer -->
+<section>
+  <h2>Integrators Are Still Eating Trainers</h2>
+  <p>This is the strongest directional signal in the whole dataset - it got stronger, not weaker, once the extraction was fixed</p>
+  <table>
+    <tr><th>Stack</th><th>Feb 4</th><th>Aug 25</th></tr>
+    <tr><td>Integrator (RAG/agents/APIs)</td><td>80.0%</td><td>88.0%</td></tr>
+    <tr><td>Trainer (PyTorch/TF/FT/CUDA)</td><td>37.5%</td><td>30.4%</td></tr>
+    <tr><td>RAG + agents together</td><td>33.1%</td><td>50.5%</td></tr>
+  </table>
+</section>
+
+<!-- Part 2: archetypes -->
+<section>
+  <p class="section-title">Part 2</p>
+  <h1>Role Archetypes</h1>
+  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/job-market/trends-appendix.md">job-market/trends-appendix.md</a></p>
+</section>
+
+<!-- archetype chart -->
+<section>
+  <img src="../../job-market/images/role-archetypes.png" style="max-height: 600px;">
+  <p class="subtitle">Spherical k-means, k=6, deterministic (seed=7)</p>
+</section>
+
+<!-- Six archetypes -->
+<section>
+  <h2>Six Archetypes - The Split</h2>
+  <table>
+    <tr><th>Archetype</th><th>%</th></tr>
+    <tr><td>RAG app builder</td><td>25.3%</td></tr>
+    <tr><td>Cloud / ML platform engineer</td><td>18.0%</td></tr>
+    <tr><td>Prompt-driven agent builder</td><td>14.9%</td></tr>
+    <tr><td>Pure agent builder</td><td>13.6%</td></tr>
+    <tr><td>DevOps / full-stack engineer</td><td>13.3%</td></tr>
+    <tr><td>ML trainer / researcher</td><td>8.2%</td></tr>
+  </table>
+  <p><br>Agent-building split into two clusters since the last analysis; DevOps and full-stack merged into one</p>
+</section>
+
+<!-- use case chart -->
+<section>
+  <img src="../../job-market/images/use-case-themes.png" style="max-height: 600px;">
+  <p class="subtitle">% of postings whose use cases match, all 8 scrapes</p>
+</section>
+
+<!-- what companies build -->
+<section>
+  <h2>What Companies Build</h2>
+  <ul>
+    <li>Automation / workflow: 52.2% &rarr; 59.6% - still the dominant use case</li>
+    <li>Agents / autonomous: 43.0% &rarr; 48.9%</li>
+    <li>RAG / Q&amp;A: 13.6% &rarr; 20.6% - up more than half</li>
+    <li>Recommend / personalize: 12.8% &rarr; 7.0% - fading</li>
+  </ul>
+</section>
+
+<!-- Part 3: skills -->
+<section>
+  <p class="section-title">Part 3</p>
+  <h1>Skills</h1>
+</section>
+
+<!-- trajectories chart -->
+<section>
+  <img src="../../job-market/images/skill-trajectories.png" style="max-height: 600px;">
+</section>
+
+<!-- momentum chart -->
+<section>
+  <img src="../../job-market/images/skill-momentum.png" style="max-height: 600px;">
+</section>
+
+<!-- risers -->
+<section>
+  <h2>Prompt Engineering and RAG Lead Now</h2>
+  <table>
+    <tr><th>Skill</th><th>Feb 4</th><th>Aug 25</th><th>pp/scrape</th></tr>
+    <tr><td>Prompt Engineering</td><td>26.1%</td><td>39.0%</td><td>+1.46</td></tr>
+    <tr><td>RAG</td><td>32.8%</td><td>43.2%</td><td>+1.02</td></tr>
+    <tr><td>LangGraph</td><td>7.4%</td><td>17.2%</td><td>+0.90</td></tr>
+    <tr><td>MCP</td><td>9.9%</td><td>17.6%</td><td>+0.86</td></tr>
+  </table>
+  <p><br>Not <code>SQL</code> - that earlier read was the extractor-switch artifact</p>
+</section>
+
+<!-- decliners -->
+<section>
+  <h2>The Training Stack Keeps Declining</h2>
+  <table>
+    <tr><th>Skill</th><th>Feb 4</th><th>Aug 25</th></tr>
+    <tr><td>PyTorch</td><td>20.8%</td><td>15.3%</td></tr>
+    <tr><td>Fine-Tuning</td><td>17.1%</td><td>12.7%</td></tr>
+    <tr><td>TensorFlow</td><td>12.2%</td><td>11.5%</td></tr>
+  </table>
+</section>
+
+<!-- two stacks -->
+<section>
+  <h2>Two Distinct Stacks, Still</h2>
+  <p class="subtitle">Skill co-occurrence lift across all 6,964 jobs</p>
+  <ul>
+    <li><code>LangChain</code> &rarr; <code>LangGraph</code> 46% of the time (x3.3 lift) - strongest pair in the dataset</li>
+    <li><code>RAG</code> &rarr; embeddings (x2.2), vector DBs (x2.0), function calling (x1.9)</li>
+    <li><code>PyTorch</code> &rarr; MLOps (x2.2), Kubernetes (x1.4)</li>
+  </ul>
+  <p><br><code>MCP</code> and <code>Fine-Tuning</code> now sit closer to the application stack than the training one</p>
+</section>
+
+<!-- title predicts stack -->
+<section>
+  <h2>Title Predicts the Stack</h2>
+  <table>
+    <tr><th>Title</th><th>ai-first</th><th>Cust-facing</th></tr>
+    <tr><td>ai engineer</td><td>88%</td><td>16%</td></tr>
+    <tr><td>applied / forward deployed</td><td>91%</td><td>47%</td></tr>
+    <tr><td>ml engineer / scientist</td><td>74%</td><td>10%</td></tr>
+    <tr><td>platform / infra / devops</td><td>47%</td><td>11%</td></tr>
+    <tr><td>data engineer</td><td>44%</td><td>8%</td></tr>
+  </table>
+  <p><br>Applied / forward deployed is the only majority customer-facing group, by a wide margin</p>
+</section>
+
+<!-- Part 4: what hasn't changed -->
+<section>
+  <p class="section-title">Part 4</p>
+  <h1>What Still Hasn't Happened</h1>
+</section>
+
+<!-- AI infra -->
+<section>
+  <h2>The "AI Infra Engineer" Still Isn't a Role</h2>
+  <p class="medium-number">19.8% &rarr; 9.9%</p>
+  <p>inference/serving share of ai-first jobs - roughly halved</p>
+  <br>
+  <p>Inference work keeps getting absorbed into the platform/infra archetype instead of forming its own mass role - a stronger null finding than before</p>
+</section>
+
+<!-- FDE -->
+<section>
+  <h2>Forward Deployed Engineer</h2>
+  <p class="medium-number">187 postings, 2.7%</p>
+  <p>Feb 2.0% &rarr; peaked 4.4% in July &rarr; Aug 2.9%</p>
+  <br>
+  <ul>
+    <li>89% customer-facing (vs 14% for other ai-first roles)</li>
+    <li>72% agents, only 47% RAG - agent-heavy generalists</li>
+    <li>Only 10% PyTorch/TF - less research, more delivery</li>
+  </ul>
+</section>
+
+<!-- Seniority -->
+<section>
+  <h2>The Bottom Rung Is Still Closed</h2>
+  <table>
+    <tr><th>Level</th><th>Feb 4</th><th>Aug 25</th></tr>
+    <tr><td>Staff+</td><td>18.5%</td><td>11.0%</td></tr>
+    <tr><td>Senior</td><td>30.8%</td><td>30.3%</td></tr>
+    <tr><td>Junior/Entry</td><td>1.5%</td><td>1.2%</td></tr>
+  </table>
+  <p><br>Junior hiring has stayed pinned near 1% the entire eight months. Now Staff+ is thinning too.</p>
+</section>
+
+<!-- Key Takeaways -->
+<section>
+  <h2>Key Takeaways</h2>
+  <ul>
+    <li>ai-first share is stable (68-71%), not rising - earlier "consolidation" was measurement noise</li>
+    <li>Integrator-vs-trainer shift is real and accelerating: 80% &rarr; 88% integrator within ai-first</li>
+    <li>Prompt Engineering and RAG are the fastest-rising named skills, not SQL</li>
+    <li>Agent-building is fragmenting into more specific sub-roles, not consolidating</li>
+    <li>AI infra still isn't a standalone role; junior hiring is still closed</li>
+  </ul>
+</section>
+
+<!-- End -->
+<section>
+  <h2>AI Engineering Field Guide</h2>
+  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide">github.com/alexeygrigorev/ai-engineering-field-guide</a></p>
+  <p>&#11088; Star the repo to keep an eye on updates</p>
+  <br>
+  <p>Newsletter: <a href="https://aishippingblog.com/">AI Shipping Blog</a></p>
+</section>
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: true,
+  transition: 'slide',
+  width: 1200,
+  height: 700,
+});
+</script>
+</body>
+</html>

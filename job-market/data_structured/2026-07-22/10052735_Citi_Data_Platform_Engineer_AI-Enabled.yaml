@@ -1,57 +1,58 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global financial services and banking
+  stage: null
+  focus: Global banking and financial services technology
 position:
   title: Data Platform Engineer (AI-Enabled)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is fundamentally a data platform engineering role
-      focused on building scalable data infrastructure, pipelines,
-      and warehousing. While it requires knowledge of AI agents,
-      MCP, RAG, and LLMs, the primary responsibility is data
-      engineering — these AI capabilities are applied to enhance
-      data workflows (e.g., automated schema inference, natural
-      language querying) rather than building or training AI/ML
-      systems themselves.
+      Although primarily a data engineering role, the description
+      explicitly requires designing and developing AI Agents,
+      designing MCP-compatible tool interfaces that let agents
+      autonomously query, transform, and validate data, and
+      applying RAG/vector retrieval to ground agents in enterprise
+      data. Per the edge case, a data engineer who designs agent
+      flows and retrieval themselves is ai-first.
   responsibilities:
-  - Design and build scalable, high-quality data-intensive platforms using Data Virtualization
-    and Data Domains methodologies
-  - Develop and maintain large-scale data pipelines, ETL/ELT processes, and data lake/warehouse
-    architectures
-  - Implement data federation and virtualization solutions using Starburst/Trino and
-    related technologies
-  - Design and integrate AI agents into data engineering workflows for autonomous
-    data querying, transformation, and validation
-  - Configure MCP servers to expose data tools, database connections, and APIs as
-    contextual resources for LLM-powered agents
-  - Implement RAG-based retrieval solutions to ground AI agents in enterprise data
-  - Ensure data quality, data lineage, and data governance across the platform
-  - Design OLTP, Operational Data Store, and Data Warehouse applications
+  - Build and scale a data-intensive platform using Data Virtualization and Data Domains
+    methodologies
+  - Develop large-scale data pipelines and ETL/ELT processes across data lakes and
+    data warehouses
+  - Design and integrate AI agents into data engineering workflows and software systems
+  - Set up and configure MCP servers exposing data tools, database connections, and
+    APIs as contextual resources for LLM-powered agents
+  - Design MCP-compatible tool interfaces enabling agents to autonomously query, transform,
+    and validate data
+  - Apply RAG and vector database retrieval techniques to ground agents in enterprise
+    data
+  - Develop and maintain large distributed database systems and ensure data quality
+    and lineage
   use_cases:
-  - Automated schema inference and intelligent data cataloging
+  - Scalable enterprise data platform for controllers and financial reporting
+  - Autonomous data querying, transformation, and validation by AI agents
   - Natural language querying of enterprise data
-  - Autonomous data querying, transformation, and validation via AI agents
-  - Real-time data processing and analytics for financial controllers
-  - Enterprise data federation and virtualization across distributed systems
+  - Automated schema inference and intelligent data cataloging
+  - Real-time data processing and analytics
   skills:
-    genai: [RAG, MCP, AI Agents, LLMs, OpenAI API, Gemini, Anthropic API, Llama, Semantic
-        Search, Agentic Workflows]
-    ml: []
-    web: []
-    databases: [Snowflake, Redshift, MongoDB, Oracle, Pinecone, Weaviate, Chroma,
-      Vector Databases]
-    data: [Databricks, Spark, Hadoop, Airflow, Flink, Data Pipelines, Data Modeling,
-      Data Engineering]
     cloud: []
-    ops: []
-    languages: [Scala, Java, Python, SQL, Bash]
+    languages: [Python, Scala, Java, SQL, PL/SQL, Bash]
+    ml: []
+    other: []
+    ops: [Distributed Systems]
+    databases: [Snowflake, Redshift, MongoDB, Oracle, Vector Databases, Pinecone,
+      Weaviate, Chroma, Relational Databases]
     domains: []
-    other: [Distributed Systems]
+    web: []
+    data: [Databricks, Spark, Starburst, Trino, Hadoop, Airflow, Ab Initio, Talend,
+      Flink, Data Pipelines, Data Modeling, Data Virtualization, Data Warehousing,
+      Data Quality, Data Lineage, Data Mesh, Data Lakes]
+    genai: [AI Agents, MCP, RAG, LLMs, OpenAI API, Gemini, Anthropic API, Llama]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10052735'
   location: Pune, IND
-  extracted_at: '2026-07-22T13:25:19.210700'
+  extracted_at: '2026-08-16T16:31:25.985801'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

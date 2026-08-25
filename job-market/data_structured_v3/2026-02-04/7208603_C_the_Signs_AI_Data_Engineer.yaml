@@ -1,0 +1,62 @@
+company:
+  name: C the Signs
+  stage: null
+  focus: Healthcare AI improving patient outcomes and health equity
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains data pipelines that gather,
+      clean, structure, and deliver datasets to ML engineers for
+      LLM/ML fine-tuning. The person never shapes model behaviour
+      themselves - no prompt work, retrieval design, evals, or
+      hands-on fine-tuning (fine-tuning familiarity is only a
+      preferred nice-to-have). Per the dataset-building rule,
+      moving and cleaning data that feeds someone else's training
+      runs is ai-support.
+  responsibilities:
+  - Collaborate with data scientists and machine learning engineers to understand
+    data requirements for LLM and ML model fine-tuning
+  - Design, build, and maintain scalable data pipelines to ingest, process, and store
+    massive and diverse healthcare datasets
+  - Implement robust data validation, cleaning, and transformation processes to ensure
+    integrity and quality of training datasets
+  - Develop and optimize data structures and schemas for efficient access and utilization
+    by LLMs and machine learning models
+  - Identify and acquire new data sources while ensuring compliance with healthcare
+    regulations such as HIPAA
+  - Monitor data pipeline performance, troubleshoot issues, and implement optimizations
+    for efficiency and reliability
+  - Document data engineering processes, data models, and data dictionaries
+  use_cases:
+  - Preparing large-scale healthcare datasets for LLM and machine learning model training
+    and fine-tuning
+  - Scalable ingestion, processing, and storage of diverse healthcare data
+  - Data quality validation and monitoring for training datasets
+  - Compliance-aware healthcare data sourcing under HIPAA regulations
+  skills:
+    genai: [LLMs]
+    ml: [Machine Learning, Fine-Tuning]
+    web: []
+    databases: []
+    data: [ETL, Data Modeling, Data Warehousing, Data Pipelines, Data Engineering,
+      Spark, Airflow, Big Data]
+    cloud: [AWS, GCP, Azure]
+    ops: []
+    languages: [Python, Scala, Java]
+    domains: []
+    other: [FHIR, HL7, HIPAA Compliance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '7208603'
+  location: USA
+  locations:
+  - USA
+  - New York, USA
+  - Boston, USA
+  remote: true
+  extracted_at: '2026-08-15T21:24:59.685249'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

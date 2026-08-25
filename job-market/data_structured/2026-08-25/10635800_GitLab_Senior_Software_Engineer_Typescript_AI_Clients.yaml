@@ -1,0 +1,53 @@
+company:
+  name: GitLab
+  stage: null
+  focus: DevSecOps platform with AI developer tooling
+position:
+  title: 'Senior Software Engineer (Typescript), AI Clients: Duo CLI'
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the GitLab Duo CLI developer tooling:
+      terminal UX, command/flag design, reliability, and IDE
+      extensions. There is no mention of shaping model behavior
+      via prompts, retrieval, agent design, fine-tuning, or evals;
+      the engineer consumes AI capabilities built elsewhere, so it
+      is ai-support.
+  responsibilities:
+  - Own design, development, and evolution of GitLab Duo CLI features from problem
+    definition through implementation, rollout, and iteration
+  - Build interactive terminal experiences in TypeScript with careful command and
+    flag design and backward compatibility
+  - Drive reliability, observability, and performance improvements for the CLI
+  - Collaborate with Product, Design, and engineers across Developer Clients and the
+    AI Clients stage
+  - Champion product quality, security, and developer experience through reviews and
+    mentorship
+  - Contribute to IDE extension work including the JetBrains plugin and VS Code extension
+  use_cases:
+  - AI-assisted terminal workflows via GitLab Duo CLI
+  - IDE integrations via JetBrains plugin and VS Code extension
+  - Developer productivity tooling with GitLab Duo
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Observability]
+    languages: [TypeScript, Kotlin]
+    domains: []
+    other: [CLI Design, Language Server Protocol, IDE Extension Development]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10635800'
+  location: POL
+  locations:
+  - POL
+  - GBR
+  remote: true
+  extracted_at: '2026-08-25T11:01:42.152509'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

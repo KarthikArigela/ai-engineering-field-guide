@@ -1,0 +1,185 @@
+job_id: 10315558
+title: Senior Data Engineer (AI-Native) — Data Layer
+company: Proton.ai
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - ARG
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 67 Employees
+description: |
+  Senior Data Engineer (AI-Native) — Data LayerAbout Us
+
+  Proton is building the AI operating system for wholesale
+  distribution, embedded in the workflows that move nearly
+  every physical product on the planet. Distribution is a $9
+  trillion industry, and the software that runs it has been
+  stuck in the past for decades — most tools create more work
+  than they eliminate. We unify CRM, PIM, eCommerce AI, and
+  Order & Quote Entry AI into one platform with one data layer
+  and one AI brain, so reps spend their time deepening
+  customer relationships, not entering data.
+
+  We hire people with high agency and high urgency. At Proton,
+  everyone is a builder who owns problems end to end and ships
+  AI-native software faster than anyone else in the category.
+
+  The median Proton customer reports 3x profit return per
+  dollar spent, an extra day of sales per rep per month, and
+  “the best ROI of any tech investment in 30 years.” Hundreds
+  of leading distributors — from family-owned shops to
+  publicly-traded enterprises across, industrial, HVAC,
+  electrical — run on Proton. We’re backed by Felicis Ventures
+  (Twitch, Shopify, Opendoor) and Battery Ventures.
+
+  If you want to build the systems that shape how trillions of
+  dollars of physical goods move through the economy, Proton
+  is the place to do it.
+
+  The Role
+
+  We're hiring a Senior Data Engineer to own and grow our Data
+  Layer — the unified foundation that every Proton product and
+  our AI brain are built on. You'll own the pipelines and
+  architecture end to end: the medallion-style layers (raw →
+  refined → curated), ingestion from a wide range of systems,
+  and the serving the whole company depends on. We're
+  investing heavily to make the Data Layer bigger and better,
+  and this role is for someone who wants to do the hands-on
+  building and shape where it goes next.
+
+  Two things make this role different from a standard data
+  engineering opening:
+
+  - You're an AI-native operator, not a pipeline author. Every
+    engineer at Proton uses Claude Code and other agentic
+    tools as first-class collaborators. We expect pipelines,
+    models, and migrations to be built and shipped with heavy
+    AI leverage — you guide the agents, validate the output,
+    and make the judgment calls they can't.
+  - You own the layer everything runs on. When the AI gives a
+    wrong answer or a number doesn't match the source, the
+    trail leads back to the data. You own correctness end to
+    end — ingestion, modeling, reconciliation, and the
+    contracts other teams depend on.
+
+  Location: Europe, remote. Meaningful daytime overlap with
+  our Boston (EST) team required.
+
+  What You'll Do
+
+  - Own the Data Layer end to end: ingestion from file-, event-,
+    and API-based sources; the medallion-style model (raw →
+    refined → curated); and the serving layer that powers the
+    product and the AI brain.
+  - Build and operate the ingestion and transformation pipelines
+    that power the Data Layer, using a modern orchestration
+    framework and cloud data warehouse.
+  - Ingest and reconcile large, messy, real-world data across
+    many source types and shapes — batch files, streaming
+    events, and APIs.
+  - Model data across medallion layers so it's trustworthy,
+    queryable, and stable for downstream teams and the AI.
+  - Help take the Data Layer to the next level — better
+    architecture, better tooling, more scale, more sources —
+    and have a real say in what that looks like.
+  - Operate AI coding agents (Claude Code and similar) at a high
+    level: scope work, structure context, run agents in
+    parallel where it makes sense, and ship reviewed,
+    production-quality output.
+  - Build the systems that make data trustworthy — validation,
+    reconciliation, lineage, backfills, idempotent and
+    incremental loads — so downstream teams and the AI don't
+    inherit silent errors.
+  - Partner with backend, AI, and product engineers (and
+    occasionally customers' IT teams) to define the data
+    contracts they build on.
+
+  Requirements
+
+  - 7+ years hands-on as a data engineer with real, demonstrable
+    production ownership — pipelines and data models serving
+    real users at scale.
+  - Strong fundamentals. You understand what your code and your
+    queries are doing and why. You can read a query plan,
+    reason about a slow or expensive pipeline, and debug a
+    data-correctness bug to its root.
+  - Strong programming and SQL skills. You build efficient
+    pipelines, schemas, and queries, and can model data for
+    both transactional and analytical access patterns.
+  - Hands-on orchestration experience, building reliable
+    ingestion/ELT pipelines against messy upstream sources.
+  - Experience with a cloud data warehouse and a major cloud
+    platform.
+  - Experience ingesting from multiple source types: file-based,
+    event/streaming, and API-based.
+  - Solid grasp of data-consistency failure modes — partial
+    loads, late or out-of-order data, idempotency, backfills,
+    schema drift.
+  - Daily, hands-on use of agentic dev tools (Claude Code,
+    Cursor agent mode, Codex, or equivalent) to ship real
+    work. You can talk concretely about how you structure
+    prompts, manage context, parallelize agents, and verify
+    their output.
+  - Ownership and judgment. You take data systems from idea to
+    production and exercise good taste on what to build and
+    what to cut.
+  - Startup mindset and strong communication — pragmatic, fast,
+    biased to ship, and able to explain data decisions to
+    engineers, PMs, and customers in writing.
+  - English at C1 or above.
+
+  Big Plus
+
+  - Deep cloud data warehouse experience and modern
+    transformation tooling.
+  - Streaming / event ingestion at scale.
+  - Medallion or lakehouse architecture experience on large,
+    multi-source data.
+  - Experience integrating enterprise sources such as ERP
+    (Epicor Eclipse, Prophet 21) or ecommerce systems, and
+    reconciling messy transactional data.
+  - Building data systems that feed AI/ML or agentic products —
+    serving/feature layers, retrieval, or data contracts for
+    model inputs.
+  - Prior experience at an early-stage SaaS startup.
+posted_date: 2026-08-17
+url: "https://builtin.com/job/senior-data-engineer-ai-native-data-layer/10315558"
+source: Built In

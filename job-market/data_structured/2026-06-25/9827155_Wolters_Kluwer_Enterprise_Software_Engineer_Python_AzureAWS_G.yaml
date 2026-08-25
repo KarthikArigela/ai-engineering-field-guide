@@ -1,53 +1,57 @@
 company:
   name: Wolters Kluwer
-  stage: Public
-  focus: Information services, software, and compliance solutions
+  stage: null
+  focus: Professional information services and software solutions
 position:
   title: Enterprise Software Engineer (Python, Azure/AWS, Gen AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general enterprise software engineering role that
-      requires building scalable cloud applications with
-      "exposure" to AI/ML services and "safe LLM integration
-      patterns," rather than directly building, training, or fine-
-      tuning models. The AI-related responsibilities involve
-      evaluating AI tools for team productivity, validating AI-
-      generated code, and establishing best practices — all
-      enabling activities rather than hands-on model/agent
-      development.
+      This is primarily an enterprise/cloud software engineer
+      role. AI appears as "exposure to Azure OpenAI" (consuming an
+      AI service someone else designed) and as internal AI tool
+      adoption: evaluating AI tools for team efficiency, setting
+      validation standards for AI-generated code, and designing
+      agentic workflows for team efficiency. The deliverable is
+      developer workflow and enterprise software, not shaping
+      model behavior, so ai-support.
   responsibilities:
-  - Design and develop scalable enterprise software leveraging cloud SDKs and APIs
-    in Python, Java, NodeJS, or Ruby
-  - Build and maintain applications using FastAPI/Django, React/TypeScript, and GraphQL
-  - Implement event-driven architectures using SNS/SQS, Azure Service Bus, Kafka/Kinesis,
-    and pub/sub patterns
-  - Contribute to shared Terraform modules, internal design standards, and cloud resiliency
-    patterns
-  - Manage automated deployments and release management using CI/CD tools and agile
-    SDLC practices
-  - Design and optimize AI agent workflows to improve team efficiency and productivity
-  - Establish validation standards and review processes for AI-generated code
-  - Lead responsible AI initiatives and establish team best practices for AI tool
-    usage
+  - Build scalable production-grade enterprise software using cloud SDKs and cloud
+    APIs in Python, Java, Node.js, or Ruby
+  - Develop backend services with FastAPI or Django and frontends with React/TypeScript,
+    including GraphQL APIs
+  - Implement event-driven architectures with SNS/SQS, Azure Service Bus, Kafka/Kinesis
+    streaming, and pub/sub patterns
+  - Contribute to shared Terraform modules and internal design standards
+  - Automate deployments with CI/CD tooling such as Azure DevOps, GitLab, GitHub,
+    or Jenkins
+  - Manage releases, product rollouts, and service operationalization
+  - Design SLO/SLA frameworks and perform capacity and performance testing at scale
+    with APM tooling
+  - Integrate AI/ML services such as Azure OpenAI with safe LLM integration patterns,
+    and drive AI tool adoption, AI-generated code validation standards, agentic workflow
+    design, and responsible AI best practices
   use_cases:
-  - Enterprise cloud application development with AI/ML service integration
-  - Event-driven and streaming data architectures at enterprise scale
-  - AI-assisted software development workflows and code generation validation
-  - Safe LLM integration into enterprise software products
-  - Cloud infrastructure automation and deployment pipeline management
+  - Enterprise software and cloud development at a professional information services
+    company
+  - Event-driven and streaming data processing at scale
+  - Safe LLM integration into enterprise applications via Azure OpenAI
+  - AI-assisted development workflows including agentic workflows and AI-generated
+    code validation
+  - Release management and service operationalization for cloud products
   skills:
-    domains: []
-    languages: [Python, TypeScript, Java, Node.js, Ruby, SQL]
+    cloud: [Azure, AWS, Azure Service Bus, Amazon SNS, Amazon SQS]
+    languages: [Python, Java, TypeScript, Node.js, Ruby]
     ml: []
-    cloud: [Azure, AWS, Azure OpenAI, SNS/SQS, Azure Service Bus]
-    genai: [LLM integration patterns, Agentic Workflows]
-    data: [Kafka, Kinesis]
-    other: [Event-Driven Architecture, Cloud resiliency patterns, SOLID principles]
-    ops: [Terraform, Docker, Kubernetes, CI/CD, Azure DevOps, GitLab CI, GitHub, Jenkins,
-      APM tools, SLO/SLA design]
-    web: [FastAPI, Django, React, GraphQL]
+    other: [Event-Driven Architecture, Agile, SAFe, Design Patterns, SOLID Principles,
+      Cloud Resiliency Patterns, Responsible AI]
+    ops: [Terraform, CI/CD, Azure DevOps, GitLab CI, GitHub, Jenkins, Kubernetes,
+      APM, SLO/SLA Design, Performance Testing, Release Management]
     databases: []
+    domains: []
+    web: [FastAPI, Django, React, GraphQL]
+    data: [Kafka, Amazon Kinesis]
+    genai: [Azure OpenAI, LLMs, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
@@ -56,4 +60,6 @@ meta:
   locations:
   - Pune, IND
   - Chennai, IND
-  extracted_at: '2026-06-25T19:55:06.038826'
+  extracted_at: '2026-08-16T15:15:43.370105'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

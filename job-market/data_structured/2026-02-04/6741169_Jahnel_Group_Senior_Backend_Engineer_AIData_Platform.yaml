@@ -1,50 +1,56 @@
 company:
   name: Jahnel Group
   stage: early-stage startup
-  focus: AI-powered procurement platform
+  focus: |-
+    Software engineering consultancy connecting developers with
+    clients
 position:
   title: Senior Backend Engineer (AI/Data Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Senior Backend Engineer who integrates LLM APIs
-      (OpenAI, Anthropic) into production using frameworks like
-      LangChain and builds AI-powered procurement workflows. The
-      role involves hands-on LLM integration and AI workflow
-      orchestration, not just supporting infrastructure for AI
-      teams.
+      The role takes the lead in integrating LLM APIs (OpenAI,
+      Anthropic) into production and orchestrating LLM workflows
+      with LangChain to drive intelligent sourcing decisions -
+      designing the LLM-driven workflow themselves rather than
+      consuming an integration another team built. Since an
+      LLM/agent component is central to the platform, this is ai-
+      first.
   responsibilities:
-  - Design and implement scalable systems for data ingestion, transformation, and
-    AI workflows using Python, NestJS, and PostgreSQL
-  - Integrate LLM APIs into production environments using frameworks like LangChain
-    to enable intelligent sourcing decisions
-  - Own the development and maintenance of REST APIs, services, and background jobs
-    while building robust ETL pipelines and analytics-ready data formats
-  - Implement infrastructure-as-code using Terraform and manage deployments via AWS
-    services including ECS, Lambda, S3, and API Gateway
+  - Design and implement scalable backend systems for data ingestion, transformation,
+    and AI workflows
+  - Integrate LLM APIs (OpenAI, Anthropic) into production environments using frameworks
+    like LangChain to enable intelligent sourcing decisions
+  - Own development and maintenance of REST APIs, services, and background jobs
+  - Build robust ETL pipelines and analytics-ready data formats
+  - Implement infrastructure-as-code with Terraform and manage deployments on AWS
+    (ECS, Lambda, S3, API Gateway)
   - Optimize data models and queries, ensure system reliability, and lead initiatives
     to enhance observability, monitoring, and CI/CD practices
-  - Make critical technical decisions to ensure system scalability, performance, and
-    extensibility as the platform evolves
+  - Collaborate cross-functionally with product and AI teams and mentor junior engineers
+  - Make critical architectural decisions to ensure platform scalability, performance,
+    and extensibility
   use_cases:
-  - AI-powered procurement platform for intelligent sourcing decisions
-  - Complex data ingestion and transformation workflows for procurement data
-  - LLM-driven workflow orchestration enabling smart procurement automation
-  - ETL pipelines processing procurement-related data into analytics-ready formats
+  - AI-powered procurement platform
+  - LLM-driven intelligent sourcing decisions
+  - Data ingestion and ETL pipelines for analytics-ready procurement data
+  - Production LLM workflows embedded in backend services
   skills:
-    domains: []
+    cloud: [AWS, ECS, AWS Lambda, AWS S3, API Gateway]
     languages: [Python, Node.js]
     ml: []
-    cloud: [AWS, ECS, AWS Lambda, AWS S3, API Gateway]
-    genai: [LangChain, OpenAI API, Anthropic API, LLMs]
-    data: [Data Pipelines]
     other: []
-    ops: [Terraform, Docker, CI/CD, Monitoring]
-    web: [NestJS, REST APIs]
+    ops: [Terraform, Docker, CI/CD, Monitoring, Observability]
     databases: [PostgreSQL]
+    domains: []
+    web: [NestJS, REST APIs]
+    data: [Data Pipelines, Data Modeling]
+    genai: [LangChain, OpenAI API, Anthropic API, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '6741169'
   location: New York, USA
-  extracted_at: '2026-02-05T09:50:47.534556'
+  extracted_at: '2026-08-15T21:04:44.504503'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

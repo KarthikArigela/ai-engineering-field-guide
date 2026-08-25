@@ -1,0 +1,73 @@
+company:
+  name: Optum
+  stage: null
+  focus: Healthcare technology and services improving health outcomes
+position:
+  title: Lead Data Engineer - AI Platforms
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data platform architecture role: the person builds
+      the pipelines and foundations (feature stores, embedding
+      generation pipelines, vectorized datasets, retrieval
+      platforms, semantic layers) that feed AI systems, while
+      explicitly collaborating with AI/ML Engineers and Data
+      Scientists who own the model work. The description never has
+      this person writing prompts, designing retrieval logic,
+      training, or evaluating models themselves - the platforms
+      merely "support" RAG, copilots, and Agentic AI. Building
+      data foundations for others' AI systems is plumbing, so this
+      is ai-support.
+  responsibilities:
+  - Lead the architecture, design, and implementation of AI-first enterprise data
+    platforms supporting AI/ML, Generative AI, Agentic AI, and advanced analytics
+    workloads
+  - Define enterprise data strategy and architecture standards spanning ingestion,
+    processing, storage, serving, governance, and consumption
+  - Build AI-ready data foundations including feature stores, embedding generation
+    pipelines, vectorized datasets, and semantic indexing
+  - Architect Lakehouse, Data Mesh, Medallion, Lambda, and Kappa patterns with batch,
+    streaming, and real-time processing at TB to PB scale
+  - Design semantic layers and knowledge architectures (knowledge graphs, ontologies,
+    semantic search) that make enterprise data AI-consumable for RAG and copilots
+  - Establish data governance, security, and compliance frameworks including RBAC,
+    encryption, masking, and HIPAA/GDPR/PII protections
+  - Implement observability, monitoring, lineage tracking, and operational excellence
+    practices for platform reliability and cost efficiency
+  - Mentor engineering teams and collaborate with AI/ML Engineers and Data Scientists
+    to ensure platforms support model training, inference, and RAG systems
+  use_cases:
+  - Enterprise data platforms powering AI/ML training, inference, Generative AI, and
+    Agentic AI workloads
+  - RAG and enterprise knowledge retrieval for AI copilots and intelligent applications
+  - Semantic knowledge layers that turn raw healthcare data into business-aware, AI-consumable
+    assets
+  - Governed and compliant data sharing under HIPAA, GDPR, and PII regulations
+  - Batch, streaming, and real-time data processing at TB to PB scale
+  - Advanced analytics and operational workloads for healthcare and pharmacy benefits
+  skills:
+    genai: [Generative AI, AI Agents, RAG, Embeddings, Semantic Search, Context Engineering]
+    ml: [Feature Stores, Anomaly Detection]
+    web: [REST APIs, Microservices]
+    databases: [BigQuery, Snowflake, Azure Synapse, PostgreSQL, MySQL, SQL Server,
+      Oracle, Cosmos DB, NoSQL, Pinecone, Chroma, FAISS, Vector Databases, Vector
+        Search, Knowledge Graphs, Graph Databases]
+    data: [Databricks, Delta Lake, Spark, PySpark, Spark SQL, Kafka, Spark Streaming,
+      Azure Event Hub, AWS Kinesis, HDFS, Parquet, ORC, Airflow, Azure Data Factory,
+      dbt, Apache Iceberg, Data Pipelines, Data Governance, Data Mesh, Data Modeling,
+      Data Engineering, Metadata Management, Lakehouse Architecture, Medallion Architecture,
+      Lambda Architecture, Kappa Architecture]
+    cloud: [AWS, Azure, GCP, IAM, AWS S3, Azure Data Lake Storage, GCS]
+    ops: [Docker, Kubernetes, CI/CD, Jenkins, GitHub Actions, Monitoring, Observability,
+      DataOps]
+    languages: [Python, SQL]
+    domains: []
+    other: [HIPAA Compliance, GDPR, Ontologies, RBAC, Enterprise Search]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10011330'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T16:14:04.187483'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

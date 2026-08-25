@@ -1,20 +1,20 @@
 company:
   name: CAI (cai.io).
-  stage: Private
-  focus: Global enterprise technology and business services
+  stage: Privately held
+  focus: Global technology and talent services firm
 position:
   title: AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, developing, and
-      deploying Generative AI and LLM-based solutions, including
-      prompt engineering, context design, and integrating AI
-      models with enterprise systems. The engineer works hands-on
-      with LLMs to build and optimize AI solutions, making this
-      clearly an ai-first role.
+      The role explicitly designs and refines prompts and context
+      frameworks to shape the quality of AI-generated outputs, and
+      evaluates model performance and output quality with
+      continuous improvements — both direct model-shaping
+      activities. The targets are Generative AI and LLM-based
+      solutions, so the classification is ai-first.
   responsibilities:
-  - Design and refine prompts and context frameworks to improve accuracy and effectiveness
+  - Design and refine prompts and context frameworks to improve the accuracy and effectiveness
     of AI-generated outputs
   - Develop and deploy Generative AI and LLM-based solutions aligned with business
     use cases
@@ -24,28 +24,29 @@ position:
     APIs
   - Evaluate model performance, test output quality, and implement continuous improvements
   - Measure and communicate the business impact of AI solutions
-  - Ensure responsible AI practices with a focus on privacy, security, compliance,
-    and ethical usage
+  - Ensure responsible AI practices covering privacy, security, compliance, and ethical
+    usage
   use_cases:
-  - Enterprise AI solution development and deployment
-  - Prompt engineering and context optimization for LLM outputs
-  - AI model integration with enterprise systems via APIs
-  - AI output quality evaluation and performance optimization
-  - Responsible AI governance including privacy, security, and compliance
+  - Generative AI and LLM-based solutions that drive business value
+  - Improving AI-generated output accuracy through prompt and context refinement
+  - Integrating AI models into enterprise applications and workflows
+  - Testing and validation of AI solutions using structured and unstructured data
   skills:
-    genai: [Prompt Engineering, Generative AI, LLMs]
-    ml: []
-    web: [APIs]
-    databases: []
-    data: [Data Pipelines]
     cloud: []
-    ops: []
-    languages: [Python, SQL]
-    domains: []
+    languages: []
+    ml: []
     other: [Responsible AI]
+    ops: []
+    databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Preparation]
+    genai: [Prompt Engineering, Context Engineering, Generative AI, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10036016'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:24:48.227017'
+  extracted_at: '2026-08-16T16:23:30.969209'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

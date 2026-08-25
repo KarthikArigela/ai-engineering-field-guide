@@ -1,0 +1,57 @@
+company:
+  name: Gusto
+  stage: null
+  focus: Payroll, benefits, and HR platform for small businesses
+position:
+  title: Manager - Developer Productivity, AI Tools
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns Gusto's agentic coding platform end-to-end:
+      agent orchestration for multi-step/multi-repo work, agent
+      autonomy/sandboxing models, and the AI code review accuracy
+      roadmap. These are decisions shaping agent behavior and
+      output quality, not merely consuming AI tools, so it is ai-
+      first.
+  responsibilities:
+  - Own the agentic coding roadmap including interactive and autonomous agent modes,
+    entry points (Slack, web, CLI), and multi-step/multi-repo orchestration
+  - Own the agentic code review accuracy and coverage roadmap, trading off review
+    quality, merge speed, and per-review inference cost
+  - Set the security and risk posture for autonomous coding agents, including sandboxing,
+    permission scoping, runtime isolation, and blast-radius containment
+  - Set and enforce AI infrastructure spend guardrails for the team based on usage
+    data
+  - Lead, mentor, and grow a team of senior engineers, running the hiring loop and
+    making calibration and leveling calls
+  - Partner with Infra, Security, and Legal on vendor contracts and AI risk posture,
+    and report strategy to the CTO
+  use_cases:
+  - Agentic coding environments (local and cloud) for Gusto engineers
+  - Automated AI code review across pull requests
+  - Autonomous multi-step and multi-repo agent work triggered from Slack, web, and
+    CLI
+  - Secure execution of AI agent workloads with sandboxing and permission scoping
+  skills:
+    genai: [Claude Code, Cursor, Codex, Agentic Workflows]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10831839'
+  location: Denver, USA
+  locations:
+  - Denver, USA
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-25T12:16:02.727822'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,57 +1,66 @@
 company:
   name: Morgan Stanley
-  stage: Public
-  focus: Global financial services and investment banking
+  stage: null
+  focus: |-
+    Global financial services firm managing and allocating
+    client capital
 position:
   title: Sr AI Developer - Director- Software Engineering
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building production-grade AI
-      applications and agentic LLM solutions, including working
-      with LLMs, multimodal models, retrieval systems, vector
-      databases, and orchestration frameworks like
-      LangChain/LangGraph. The developer owns the full lifecycle
-      from discovery to deployment of AI systems, making this a
-      hands-on AI-building role.
+      The role designs and builds agentic LLM solutions
+      themselves: retrieval/vector database systems, orchestration
+      frameworks (LangChain/LangGraph, MCP), guardrails for
+      agentic systems, and model evaluation/selection. This is
+      direct shaping of LLM behavior (Step 1 yes), and with LLM
+      and agent components at the core (Step 2), it is ai-first.
   responsibilities:
-  - Build systems using LLMs and multimodal models, retrieval and vector databases,
-    and orchestration frameworks integrated with internal tools and data
-  - Own the full AI application lifecycle from discovery and prototyping through deployment,
+  - Build production-grade AI applications and agentic LLM solutions using Python
+    and modern ML/LLM frameworks
+  - Design systems using LLMs and multimodal models, retrieval and vector databases,
+    and orchestration frameworks (LangChain/LangGraph, MCP) integrated with internal
+    tools and data
+  - Own the full lifecycle from discovery, prototyping, and validation through deployment,
     monitoring, iteration, and support
-  - Run targeted experiments with new AI capabilities and share recommendations that
-    influence roadmaps and standards
-  - Implement environment configuration solutions across Dev/QA/Prod and document
-    efforts to educate others
-  - Write production-quality code and integrate APIs across internal platforms and
-    external providers (Google, OpenAI, Databricks, AWS, Microsoft)
-  - Make pragmatic architectural decisions balancing speed, scale, security, reliability,
-    and cost
-  - Build reusable components, templates, and playbooks that accelerate future development
-    for downstream teams
   - Design guardrails for agentic systems including tool safety, security controls,
     data handling, and human-in-the-loop review
+  - Evaluate model capabilities, track new model releases and emerging agentic AI
+    patterns, and run experiments that influence roadmaps and standards
+  - Write production-quality code integrating APIs across internal platforms and external
+    providers (Google, OpenAI, Databricks, AWS, Microsoft)
+  - Implement Dev/QA/Prod environment configuration and build processes while documenting
+    efforts to ensure platform reliability and supportability
+  - Build reusable components, templates, and playbooks, and partner with Standards,
+    Legal, Security, and GRC to ensure compliant and responsible deployment
   use_cases:
-  - Non-financial risk management and assessment using AI
-  - Agentic LLM solutions for enterprise workflow automation
-  - Retrieval-augmented generation (RAG) systems over internal data and documents
-  - Production-grade AI application development for risk technology
-  - AI-powered analysis and decision support for compliance and governance
+  - Agentic LLM solutions for non-financial risk technology within the CDRR Technology
+    team
+  - Retrieval-augmented systems over internal tools and data using vector databases
+  - Production AI applications with guardrails for tool safety, secure data handling,
+    and human-in-the-loop review
+  - Model evaluation and capability experiments to inform AI adoption roadmaps and
+    standards
+  - Compliant, monitored AI deployment with incident response patterns at enterprise
+    scale
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, EKS, AKS, GKE]
     languages: [Python]
-    ml: []
-    cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LangGraph, MCP, OpenAI API, Anthropic API, RAG, LLMs, AI Agents,
-      Prompt Engineering, Multimodal models]
-    data: [Databricks]
-    other: [Linux, Agile/Scrum/Kanban, Security architecture]
-    ops: [Kubernetes, Docker, CI/CD, Jenkins, Git, GitHub]
-    web: [REST APIs]
+    ml: [Machine Learning]
+    other: [Jira, Agile, Kanban, Security Architecture]
+    ops: [Kubernetes, OpenShift, DevOps, CI/CD, Jenkins, Stash, GitHub, Git, Linux,
+      Monitoring]
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: [Databricks]
+    genai: [LLMs, LangChain, LangGraph, MCP, RAG, AI Agents, Agentic Workflows, Guardrails,
+      OpenAI API, ChatGPT, Anthropic API, GitHub Copilot, Multimodal Models]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9124544'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T14:10:59.254562'
+  extracted_at: '2026-08-16T08:27:18.745104'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

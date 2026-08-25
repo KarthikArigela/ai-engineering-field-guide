@@ -1,0 +1,64 @@
+company:
+  name: Samsara
+  stage: 'Recently public (NYSE: IOT)'
+  focus: IoT Connected Operations Cloud for physical operations
+position:
+  title: Senior Marketing AI Data Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires building and scaling RAG
+      infrastructure, including vector database integrations and
+      data-to-embedding pipelines for LLM applications, which is
+      designing retrieval and shaping LLM output quality (Step 1:
+      yes). An LLM component is clearly involved (GenAI pipelines,
+      unstructured data for LLMs), so Step 2 makes it ai-first
+      even though the role is framed as data engineering.
+  responsibilities:
+  - Architect and maintain marketing databases, datasets, pipelines, and Samsara's
+    Customer Data Platform to enable advanced segmentation, targeting, automation,
+    and analytics
+  - Design and implement data infrastructure for AI/ML initiatives, including pipelines
+    for Generative AI applications, feature stores, and vector database integrations
+    supporting predictive modeling and personalization
+  - Build and scale RAG infrastructure, including managing vector database integrations
+    and data-to-embedding pipelines for LLM applications
+  - Support the expansion of conversational BI and Ambient AI within the marketing
+    organization in partnership with the BI team
+  - Automate manual marketing tasks through the use of AI, driving efficiency gains
+    across the marketing organization
+  - Manage critical, high-volume data pipelines and their SLAs while continuously
+    improving efficiency and data quality
+  - Partner with non-technical stakeholders (Marketing, Sales, Ops) to translate ambiguous
+    business questions into technical requirements and scalable data solutions, writing
+    optimized Python/SQL data transformations
+  - Mentor junior engineers, conduct code reviews, and help define best practices
+    for the data engineering team
+  use_cases:
+  - Marketing and sales analytics enabling data-driven revenue decisions
+  - Customer segmentation, targeting, and personalization via the Customer Data Platform
+  - Predictive modeling for marketing applications
+  - RAG-powered LLM applications built on vector databases and embedding pipelines
+  - Automation of manual marketing tasks using AI
+  - Conversational BI and Ambient AI within the marketing organization
+  skills:
+    genai: [RAG, Generative AI, LLMs, Embeddings]
+    ml: [Feature Engineering, Feature Stores]
+    web: []
+    databases: [Vector Databases, BigQuery, Redshift, RDS, Snowflake, Data Warehousing]
+    data: [Data Modeling, Data Pipelines, ETL, Databricks, dbt]
+    cloud: []
+    ops: [MLOps, MLflow, Kubeflow]
+    languages: [Python, SQL]
+    domains: []
+    other: [Customer Data Platforms, Hightouch, Segment, Lattice, Blueshift, Lytics,
+      Adobe Real-time CDP, Marketing Automation, CRM, Web Analytics, Marketo, Salesforce,
+      Google Analytics, Looker, Domo, Tableau, MixPanel, MarTech]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8180915'
+  location: USA
+  extracted_at: '2026-08-15T22:49:25.948956'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

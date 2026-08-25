@@ -1,0 +1,62 @@
+company:
+  name: Credo AI
+  stage: Venture-backed
+  focus: AI governance, risk, and compliance platform
+position:
+  title: Senior AI Engineer, AI Systems (India)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it designs agent
+      architectures, behavioral constraint systems encoding policy
+      into agent operation, prompt architecture and output
+      validation, and evaluation frameworks measuring whether LLM
+      agent behavior aligns with governance intent. It also
+      designs hybrid retrieval/RAG systems for governance
+      knowledge. With LLM-based agents and retrieval as the core
+      deliverable, Step 2 makes this ai-first.
+  responsibilities:
+  - Design and implement agent architectures that reason about governance policies
+    and take action within defined constraints
+  - Build instrumentation, telemetry, filtering, and analytics infrastructure that
+    makes agent behavior auditable and verifiable at organizational scale
+  - Develop behavioral configuration and constraint systems that encode organizational
+    policies into how AI agents operate
+  - Architect evaluation frameworks that measure whether agent behavior aligns with
+    governance intent
+  - Develop retrieval and context systems for governance knowledge, including hybrid
+    architectures combining semantic search, structured knowledge traversal, and dynamic
+    context assembly
+  - Contribute to the broader AI systems architecture underlying the Credo AI platform
+    and translate governance intelligence into reliable, scalable product features
+  - Establish engineering standards and best practices for AI system development across
+    the team
+  use_cases:
+  - Governance-aware AI agents that monitor AI behavior in enterprise deployments
+  - AI governance, risk assessment, and regulatory compliance (EU AI Act, NIST AI
+    RMF, ISO 42001)
+  - Session-level auditing of how AI agents reason and act against governance intent
+  - Surfacing governance knowledge to the right system or user at the right moment
+    via retrieval
+  - Enabling enterprises to responsibly build, adopt, and scale AI deployments
+  skills:
+    genai: [LLMs, AI Agents, Multi-Agent Systems, Function Calling, Prompt Engineering,
+      RAG, Semantic Search, LLM Evaluation, Red-Teaming]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: []
+    ops: [Monitoring, Observability, Distributed Systems]
+    languages: []
+    domains: []
+    other: [AI Governance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9785784'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T15:04:19.739944'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

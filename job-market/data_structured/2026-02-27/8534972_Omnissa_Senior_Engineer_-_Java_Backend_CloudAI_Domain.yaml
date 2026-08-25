@@ -1,52 +1,55 @@
 company:
   name: Omnissa
-  stage: Private
+  stage: Global private company
   focus: |-
-    AI-driven digital workspace platform for secure remote
-    access and endpoint management
+    AI-driven digital work platform for secure endpoint and
+    application access
 position:
   title: Senior Engineer - Java (Backend, Cloud/AI Domain)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general backend engineering role that mentions AI
-      as one of several possible domain areas (alongside
-      containers and security). The role focuses on building
-      enterprise software for secure application access, not on
-      building, training, or deploying AI/ML models. The candidate
-      can have experience in "AI technology, Containers OR Cloud"
-      suggesting AI is just one potential background, not the core
-      work.
+      This is a Java backend engineer role building secure
+      enterprise application access services; AI appears only as
+      desirable "AI domain experience" with no responsibilities
+      involving prompting, retrieval, agent design, or model
+      training. The person does not shape model behavior, so the
+      role is ai-support.
   responsibilities:
+  - Design, develop, and optimize the Omnissa product enabling secure access to enterprise
+    applications
   - Design and implement highly usable REST APIs adhering to standards and best practices
-  - Write and deploy containerized Java applications for enterprise-grade systems
-  - Work closely with product management and architects to deliver high-quality features
+  - Write and deploy containerized Java backend services
+  - Build services with asynchronous event-driven frameworks such as Netty
   - Participate in component-level architectural design and code reviews
   - Automate unit and integration tests within a CI/CD pipeline
-  - Contribute to design, development, and optimization of the Omnissa product for
-    secure application access
+  - Work closely with product management and architects to deliver high-quality features
   - Build high-performance, reliable, and scalable software supporting remote access
-    across cloud platforms
+    across all cloud platforms
   use_cases:
-  - Secure remote access to enterprise applications from any device
-  - Unified endpoint management and virtual app/desktop delivery
-  - Digital employee experience optimization
-  - Security and compliance management including MFA and SSO
-  - Application delivery across multi-cloud environments
+  - Secure access to enterprise applications and resources from any device, anywhere
+  - Access management for virtualized desktops, SaaS applications, and internal enterprise
+    resources
+  - Multi-factor authentication, single sign-on, and secure session management
+  - Seamless remote application delivery across all cloud platforms
+  - Unified endpoint management and digital employee experience for autonomous workspaces
   skills:
-    domains: []
-    languages: [Java, Python, Bash]
+    cloud: [Cloud]
+    languages: [Java, Bash, Python]
     ml: []
-    cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Kafka]
-    other: [TCP/IP, TLS]
-    ops: [Docker, Kubernetes, CI/CD]
-    web: [Spring Boot, REST APIs, Netty, Angular, WebSockets]
+    other: [Multi-threading, Networking, Security, Code Review, TLS, Event-Driven
+        Architecture]
+    ops: [Docker, CI/CD, Distributed Systems]
     databases: []
+    domains: []
+    web: [Spring Boot, REST APIs, Netty, WebSockets, Angular]
+    data: [Kafka]
+    genai: [AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8534972'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:59:56.055067'
+  extracted_at: '2026-08-16T02:13:46.975183'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

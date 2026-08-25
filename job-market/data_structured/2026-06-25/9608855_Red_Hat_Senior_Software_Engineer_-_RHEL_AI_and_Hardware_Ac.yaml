@@ -1,51 +1,54 @@
 company:
   name: Red Hat
-  stage: Public
+  stage: null
   focus: Enterprise open source software solutions
 position:
   title: Senior Software Engineer - RHEL AI and Hardware Accelerators
   ai_type:
     type: ai-support
     reasoning: |-
-      This role involves testing, certifying, and integrating
-      hardware accelerators with Red Hat AI platforms, along with
-      building CI/CD pipelines and automation tooling. While the
-      role works near AI platforms (vLLM, PyTorch), the engineer
-      is building delivery, testing, and certification
-      infrastructure rather than directly building, training, or
-      deploying AI/ML models themselves.
+      The role builds CI/CD pipelines and automated test software
+      that validates Red Hat AI platforms (PyTorch, vLLM) running
+      on GPUs and networking hardware. The person verifies
+      platform performance and packaging, not model behaviour - no
+      prompt design, retrieval, training, or output-quality evals.
+      Using AI tools to accelerate development is explicitly a
+      support activity, so this is ai-support.
   responsibilities:
-  - Deliver continuous integration and feature enhancements in an agile framework
+  - Deliver continuous integration and feature enhancements in an agile framework,
     producing automated test software packaged as RPMs and container images
-  - Test Red Hat AI platforms utilizing PyTorch, vLLM, and performance monitoring
-    tools, verifying acceleration via advanced GPUs and networking hardware
-  - Develop and maintain tools to automate software deployments, upgrades, scaling,
-    monitoring, alerting, and testing
-  - Collaborate with Product Engineering and Product Management teams to ensure integration
+  - Test advancing Red Hat AI platforms utilizing PyTorch, vLLM, and performance monitoring
+    tools
+  - Verify acceleration of Red Hat AI platforms via advanced GPUs and networking hardware
+  - Research and collaborate on integration and development certification policies
+    with subject matter experts and product managers for advanced hardware supporting
+    Red Hat AI platforms
+  - Develop tools to automate software deployments, upgrades, scaling, monitoring,
+    alerting, and testing
+  - Work with Product Engineering and Product Management teams to ensure integration
     and feature development of high-quality results
-  - Research and develop certification policies with subject matter experts for advanced
-    hardware systems supporting Red Hat AI platforms
-  - Provide technical leadership in a global team environment
   use_cases:
-  - Hardware accelerator certification for AI platforms
-  - Performance verification of GPU and networking hardware for AI workloads
-  - Automated testing and CI/CD for enterprise AI platform delivery
-  - Integration of advanced hardware components with Red Hat AI infrastructure
+  - Validating hardware acceleration for enterprise AI platforms on GPUs and networking
+    hardware
+  - Automated testing and continuous integration for Red Hat AI platform releases
+  - Automating software deployments, upgrades, scaling, monitoring, and alerting
+  - Certification of advanced hardware systems and components for Red Hat AI platforms
   skills:
-    domains: []
+    cloud: [OpenShift]
     languages: [Python]
-    ml: [PyTorch, GPU acceleration]
-    cloud: [Red Hat OpenShift]
-    genai: []
-    data: []
-    other: []
-    ops: [vLLM, RHEL, Linux, CI/CD, Kubernetes, Docker, RPM packaging, Performance
-        monitoring tools]
-    web: []
+    ml: [PyTorch]
+    other: [RPM Packaging, Test Automation, GPU Acceleration, AI Tools]
+    ops: [RHEL, Linux, CI/CD, Kubernetes, Docker, vLLM, Performance Monitoring]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9608855'
   location: Hadapsar, IND
-  extracted_at: '2026-06-25T19:45:08.978501'
+  extracted_at: '2026-08-16T13:12:38.814976'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

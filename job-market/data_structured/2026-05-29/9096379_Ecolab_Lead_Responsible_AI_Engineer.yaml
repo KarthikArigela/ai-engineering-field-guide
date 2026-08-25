@@ -1,67 +1,67 @@
 company:
   name: Ecolab
-  stage: Public
-  focus: |-
-    Global leader in water, hygiene, and infection prevention
-    solutions
+  stage: null
+  focus: Water, hygiene, and infection prevention solutions
 position:
   title: Lead Responsible AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on technical leadership in
-      designing and implementing responsible AI controls, safety
-      guardrails, evaluation frameworks, and testing strategies
-      directly for GenAI and agentic AI systems (LLMs, RAG,
-      agents). While it focuses on quality/safety rather than
-      model training, it requires deep technical work on AI system
-      behavior, prompt safety, runtime guardrails, and production
-      AI observability — making it an ai-first role working
-      directly ON AI systems.
+      This role designs and implements evaluation frameworks,
+      guardrails, prompt controls, and red-teaming standards for
+      LLM, RAG, and agentic AI systems — building evals and
+      guardrails is explicitly shaping model output quality, and
+      the description emphasizes it is a hands-on technical role,
+      not a policy one. Since the shaped systems are LLMs and
+      agents, it is ai-first.
   responsibilities:
   - Lead the design and implementation of responsible AI, safety, and quality engineering
     practices for GenAI and agentic AI products
   - Define and operationalize AI validation strategies covering functional correctness,
-    hallucination risk, retrieval quality, prompt safety, agent behavior, and failure
-    handling
+    factual reliability, hallucination risk, retrieval quality, prompt safety, agent
+    behavior, tool use, and failure handling
   - Establish test approaches for LLM-powered applications, RAG systems, agentic workflows,
     multi-step reasoning, and tool orchestration
   - Design and implement evaluation frameworks for relevance, safety, groundedness,
     consistency, latency, token usage, and business outcome alignment
   - Work with AI engineers and architects to embed guardrails, prompt controls, model
     usage boundaries, escalation paths, and fallback strategies
-  - Drive adoption of governance and auditability practices including automated test
-    scripts, traceability, risk controls, and evidence collection
-  - Implement AI observability, logging, trace analysis, usage monitoring, cost awareness,
-    and incident diagnostics
-  - Mentor engineers and quality professionals on AI testing, safety validation, and
-    responsible AI engineering practices
+  - Drive governance and auditability practices across AI development, including automated
+    test scripts, traceability, review checkpoints, risk controls, and evidence collection
+  - Partner with engineering and platform teams to implement AI observability, logging,
+    trace analysis, usage monitoring, cost awareness, and incident diagnostics
+  - Mentor engineers and quality professionals on AI testing and safety validation,
+    and contribute reusable assets such as test harnesses, evaluation templates, and
+    red-team patterns
   use_cases:
-  - Responsible AI governance and safety validation for enterprise GenAI and agentic
-    AI systems
-  - RAG pipeline quality assurance including retrieval validation, grounding checks,
-    and chunking strategy testing
-  - Agentic AI workflow testing including multi-step reasoning, tool orchestration,
-    and multi-agent coordination
-  - LLM evaluation covering hallucination detection, factual reliability, prompt safety,
-    and content filtering
-  - Enterprise AI observability, monitoring, and incident diagnostics for production
-    AI systems
+  - Safety, quality, and governance assurance for enterprise GenAI and agentic AI
+    products
+  - Validation of LLM applications and RAG systems for factual reliability, groundedness,
+    and retrieval quality
+  - Testing and oversight of agentic AI workflows including tool calling, state management,
+    and multi-step reasoning
+  - AI observability, monitoring, auditability, and incident diagnostics for production
+    enterprise AI systems
+  - Fairness, bias, and responsible AI evaluation aligned with frameworks such as
+    NIST AI RMF
   skills:
-    domains: []
+    cloud: [Azure AI Content Safety, Vertex AI, watsonx.governance]
     languages: [Python]
     ml: [Fairlearn, AIF360]
-    cloud: [Azure AI Content Safety, Azure Monitor, Application Insights, Vertex AI]
-    genai: [RAG, Prompt Engineering, Guardrails, LangChain, MCP, AI Agents]
+    other: [pytest, Test Automation, Responsible AI, NIST AI RMF]
+    ops: [LangSmith, TruLens, DeepEval, Azure Monitor, Application Insights, OpenTelemetry,
+      MLflow, Azure DevOps, GitHub, Git, CI/CD, Observability]
+    databases: [Azure AI Search, Pinecone, Weaviate, FAISS, Vector Search]
+    domains: []
+    web: [API Testing]
     data: []
-    other: [NIST AI RMF, Red-teaming]
-    ops: [LangSmith, TruLens, DeepEval, MLflow, Azure DevOps, OpenTelemetry, pytest,
-      CI/CD, Docker, Kubernetes, GitHub]
-    web: []
-    databases: [Azure AI Search, Pinecone, Weaviate, FAISS]
+    genai: [LLMs, Generative AI, RAG, Agentic Workflows, AI Agents, Prompt Engineering,
+      Guardrails, LLM Evaluation, Function Calling, MCP, A2A, Red-Teaming]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9096379'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:51:27.735547'
+  extracted_at: '2026-08-16T08:53:39.929198'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

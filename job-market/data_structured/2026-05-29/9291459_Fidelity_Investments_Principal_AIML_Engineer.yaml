@@ -1,53 +1,57 @@
 company:
   name: Fidelity Investments
-  stage: Public
+  stage: null
   focus: |-
-    Financial services, retirement savings, workplace benefits,
-    investment management
+    Financial services firm providing workplace retirement and
+    investment solutions
 position:
   title: Principal, AI/ML Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      The role focuses on building ML infrastructure, MLOps
-      pipelines, and backend services to deploy and operationalize
-      models created by data scientists. The responsibilities
-      emphasize containerization, CI/CD pipelines, AWS SageMaker,
-      and bridging data science with production systems - all
-      infrastructure/platform work that supports AI rather than
-      building models directly.
+      The role builds and operates ML infrastructure — SageMaker
+      MLOps pipelines, Kubernetes/EKS deployment, CI/CD, and AWS
+      services — and collaborates with data scientists to
+      operationalize models they build. The person does not shape
+      model behaviour themselves (no prompting, retrieval design,
+      training, or eval/guardrail work of their own); the
+      deliverable is pipeline capacity and production readiness,
+      which per the edge cases is ai-support.
   responsibilities:
-  - Create, design, and maintain AI/ML-based applications
-  - Design, build, and maintain scalable MLOps pipelines using AWS SageMaker for model
-    training, validation, deployment, and monitoring
+  - Create, design, and maintain AI/ML based applications
+  - Design, build, and maintain scalable and secure MLOps pipelines using AWS SageMaker
+    for model training, validation, deployment, and monitoring
   - Develop and deploy APIs and backend services using Python, FastAPI, and Spring
     Boot
   - Manage containerized applications using Kubernetes and Amazon EKS
   - Implement CI/CD pipelines for ML workflows and application delivery
-  - Collaborate with data scientists and Data Engineers to operationalize ML models
+  - Collaborate with data scientists and data engineers to operationalize ML models
     in production
-  - Utilize AWS services for infrastructure, automation, and monitoring
-  - Ensure robust database integration and performance optimization
+  - Utilize AWS services for infrastructure, automation, and monitoring, and ensure
+    robust database integration and performance optimization
+  - Contribute to UI development using Angular
   use_cases:
-  - Workplace retirement savings plans and employee benefit solutions
-  - Recordkeeping and cash management products and services
-  - Personal advisory services and financial guidance
-  - Customer relationship management across online, phone, and investor center channels
-  - Employee retirement readiness programs and cost-effective employer solutions
+  - Operationalizing data science ML models in production systems
+  - ML-based applications supporting workplace retirement savings and employee benefit
+    solutions
+  - Model training, validation, deployment, and monitoring pipelines at scale
+  - Bridging data science and production systems via MLOps infrastructure
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
-    cloud: [SageMaker, EKS, AWS, Azure]
-    genai: []
-    data: [Data Pipelines]
+    cloud: [AWS, SageMaker, Azure, EKS, AKS, EC2, AWS S3, AWS Lambda]
+    languages: [Python, Java]
+    ml: [Machine Learning]
     other: []
-    ops: [Kubernetes, CI/CD, MLOps, Docker]
-    web: [FastAPI, Spring Boot, Angular]
-    databases: [NoSQL, Snowflake]
+    ops: [Kubernetes, MLOps, CI/CD, DevOps, Monitoring]
+    databases: [SQL, NoSQL, Snowflake]
+    domains: []
+    web: [FastAPI, Spring Boot, Angular, Backend Development]
+    data: [Data Engineering, Data Pipelines]
+    genai: []
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9291459'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:00:53.890072'
+  extracted_at: '2026-08-16T10:04:27.260983'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

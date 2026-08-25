@@ -1,53 +1,52 @@
 company:
   name: PlanHub
-  stage: Series B or later
+  stage: null
   focus: |-
-    Pre-construction SaaS platform and marketplace for
-    commercial construction
+    Pre-construction SaaS marketplace connecting contractors,
+    subcontractors, and suppliers
 position:
   title: Senior Full Stack Engineer - AI/ML Productization
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on productizing and deploying existing ML
-      models rather than building, training, or fine-tuning them.
-      The engineer works on inference systems, data pipelines, and
-      APIs that enable AI capabilities created by others, making
-      it an AI-support role.
+      The role productizes ML models built by others: it builds
+      APIs, inference/serving infrastructure, data pipelines, and
+      Angular frontends, and optimizes serving for latency and
+      cost. There is no prompt engineering, RAG/agent design,
+      training, fine-tuning, or model output evaluation, so the
+      deliverable is production capacity rather than model
+      behaviour — ai-support per the serving edge case.
   responsibilities:
   - Build production-ready APIs and microservices that expose ML model capabilities
     to applications and end users
-  - Design and implement scalable inference systems supporting both real-time and
-    batch prediction workflows
-  - Develop robust data pipelines for ingesting, processing, validating, and preparing
-    data for ML systems
-  - Create user-facing features powered by AI capabilities including intelligent search,
-    recommendations, and automation
-  - Implement frontend code using Angular to produce end-to-end user experiences that
-    consume AI and ML models at inference time
+  - Design and implement scalable inference systems supporting real-time and batch
+    prediction workflows
+  - Develop data pipelines for ingesting, processing, validating, and preparing data
+    for ML systems
+  - Create user-facing AI-powered features including intelligent search, recommendations,
+    and automation
+  - Implement frontend code and application integrations using Angular to deliver
+    end-to-end experiences
   - Optimize model serving for performance, latency, throughput, and cost efficiency
-  - Implement comprehensive logging, monitoring, error handling, and alerting for
-    AI-powered features
-  - Collaborate with AI Engineers to integrate model capabilities into production
+  - Implement logging, monitoring, error handling, and alerting for AI-powered features
+  - Leverage AWS services (Lambda, ECS, API Gateway, SQS, DynamoDB) to build resilient
     systems
   use_cases:
-  - Intelligent search capabilities for construction projects and bids
-  - Recommendation systems helping contractors connect with subcontractors and suppliers
-  - Automation features to boost productivity and maintain deadlines in construction
-    workflows
-  - Real-time prediction workflows for bid and project matching
-  - User-facing AI-powered features integrated into the PlanHub pre-construction platform
+  - Intelligent search across pre-construction platform content
+  - Recommendations for contractors, subcontractors, and suppliers
+  - Automation of construction bidding and project workflows
+  - Real-time and batch ML predictions embedded in PlanHub platform features
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, ECS, API Gateway, SQS, Serverless]
     languages: [Python, PHP]
-    ml: []
-    cloud: [AWS, AWS Lambda, ECS, API Gateway]
-    genai: []
-    data: [SQS, Kafka, RabbitMQ, Celery]
-    other: []
-    ops: [Docker, CI/CD, Datadog, Prometheus, Grafana]
+    ml: [Machine Learning]
+    other: [System Design]
+    ops: [Docker, CI/CD, Model Deployment, Monitoring, Datadog, Prometheus, Grafana]
+    databases: [DynamoDB, SQL, NoSQL, Redis, Memcached, ElastiCache]
+    domains: []
     web: [Angular, REST APIs, Microservices, Laravel]
-    databases: [DynamoDB, SQL, NoSQL, Redis]
+    data: [Data Pipelines, Kafka, RabbitMQ, Celery]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +56,6 @@ meta:
   - CAN
   - USA
   remote: true
-  extracted_at: '2026-02-05T12:22:41.033951'
+  extracted_at: '2026-08-15T23:00:12.117075'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

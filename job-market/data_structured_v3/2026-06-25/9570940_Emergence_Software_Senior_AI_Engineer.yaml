@@ -1,0 +1,61 @@
+company:
+  name: Emergence Software
+  stage: Thematic holding company backed by the Pritzker Organization
+  focus: |-
+    Holding company acquiring and scaling category-defining
+    software businesses
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role centers on integrating external AI tools (LLM APIs,
+      vector databases, inference systems) into existing backend
+      infrastructure and standardizing reusable ML plumbing -
+      feature pipelines, model serving layers, cost/latency
+      optimization - across portfolio companies. The deliverable
+      is integration architecture, capacity, and governance
+      playbooks rather than shaping model behaviour, with RAG and
+      prompt engineering appearing only as nice-to-haves. Per the
+      guidelines, calling LLM endpoints others designed, serving
+      models, and building pipelines that feed AI systems are non-
+      shaping work.
+  responsibilities:
+  - Design end-to-end AI integration architectures connecting LLM APIs, vector databases,
+    and inference systems to existing backend infrastructure
+  - Build reusable ML infrastructure components such as feature pipelines, model serving
+    layers, and evaluation frameworks standardized across portfolio companies
+  - Establish AI integration best practices and governance patterns as repeatable
+    playbooks across the holding company
+  - Own system design reviews for AI initiatives across portfolio companies, identifying
+    bottlenecks and recommending architectural improvements
+  - Optimize production AI systems for cost and latency by profiling pipelines, implementing
+    compression, and right-sizing compute infrastructure
+  - Mentor engineers at portfolio companies on production AI best practices, reproducibility,
+    monitoring, and safe deployment patterns
+  use_cases:
+  - Embedding AI capabilities at scale into portfolio companies' existing backend
+    services
+  - Production LLM applications integrated cleanly with backend infrastructure
+  - Vector search and ML inference pipelines deployed in production
+  - Cost- and latency-optimized production AI systems across multiple software businesses
+  skills:
+    genai: [LLMs, RAG, Prompt Engineering]
+    ml: [Model Evaluation]
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: [Data Pipelines]
+    cloud: [SageMaker, AWS, GCP, Azure]
+    ops: [Model Serving, MLOps, MLflow, Weights & Biases, Kubernetes, Docker]
+    languages: [Python, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9570940'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T12:56:22.674563'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

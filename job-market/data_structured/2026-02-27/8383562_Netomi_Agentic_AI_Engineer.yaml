@@ -1,52 +1,58 @@
 company:
   name: Netomi
-  stage: Series B
-  focus: |-
-    Agentic AI platform for enterprise customer experience
-    automation
+  stage: Backed by WndrCo, Y Combinator, and Index Ventures
+  focus: Agentic AI platform for enterprise customer experience
 position:
   title: Agentic AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves configuring, deploying, and scaling
-      Agentic AI solutions for enterprise customers, with hands-on
-      work on AI agent optimization and performance. While it's
-      customer-facing, it's similar to a Forward Deployed Engineer
-      role that directly deploys and configures AI systems rather
-      than just supporting them.
+      The role shapes agent behavior on Netomi's agentic platform:
+      translating business requirements into AI-driven workflows,
+      configuring AI agents and automation triggers, and
+      optimizing AI agent performance. This matches the Forward
+      Deployed Engineer pattern of adapting and deploying agentic
+      AI solutions at customer sites, which is ai-first; the
+      customer-facing nature does not make it ai-support.
   responsibilities:
-  - Scope projects and provide effort estimations and timelines with sales and CSM
-    teams
+  - Scope out projects and provide effort estimations and timelines in conjunction
+    with sales and customer success managers
   - Lead discovery calls with customers and cross-functional teams
-  - Design solution architecture for moderate to complex projects requiring multi-product
-    integrations
+  - Serve as solution architect on moderate to complex projects requiring integration
+    with multiple products
   - Perform complex configuration and troubleshooting of Netomi's AI agent solutions
-  - Analyze customer health metrics and create plans to optimize AI Agent performance
-  - Lead business discussions regarding Netomi's value proposition at various customer
-    organizational levels
-  - Collaborate with cross-functional teams for troubleshooting during and post deployment
-  - Ensure project and process documentation in centralized repository
+  - Translate complex business requirements into practical, AI-driven workflows and
+    define integration approaches
+  - Guide customers through their transition to autonomous, agent-based operations
+    and advise on best practices
+  - Collaborate with CSM, Integration Engineers, QA, Product, and Engineering for
+    end-to-end implementation and post-deployment issue resolution
+  - Analyze customer health and drive plans to optimize AI agent performance
   use_cases:
-  - Enterprise customer experience automation
-  - Agentic automation for customer journey workflows
-  - Customer service AI agents for large global brands
-  - Autonomous agent-based operations for enterprises
+  - Agentic automation of enterprise customer experience across the customer journey
+  - Autonomous AI agents for customer service automation at large global brands
+  - Integration of the AI agent platform with enterprise SaaS products such as CRM
+    and helpdesk systems
+  - Configuration of AI-driven workflows, business rules, and automation triggers
+    for customer operations
+  - Customer health analytics and AI agent performance optimization
   skills:
-    domains: []
-    languages: [JavaScript, Python, Node.js]
-    ml: []
     cloud: []
-    genai: []
-    data: []
-    other: [JSON, OAuth, JWT, Zapier, Salesforce, Zendesk, HubSpot, ServiceNow, Workday]
+    languages: [SQL, JavaScript, Python, Node.js]
+    ml: []
+    other: [Salesforce, Zendesk, HubSpot, Workday, ServiceNow, Zapier, Project Management]
     ops: [Datadog]
-    web: [Postman, APIs, Swagger]
-    databases: [SQL]
+    databases: [Relational Databases]
+    domains: []
+    web: [JSON, Postman, APIs, OAuth, JWT, Swagger]
+    data: [Data Analytics]
+    genai: [AI Agents]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8383562'
   location: Gurugram, IND
   remote: true
-  extracted_at: '2026-03-03T12:49:13.603021'
+  extracted_at: '2026-08-16T01:03:59.958306'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

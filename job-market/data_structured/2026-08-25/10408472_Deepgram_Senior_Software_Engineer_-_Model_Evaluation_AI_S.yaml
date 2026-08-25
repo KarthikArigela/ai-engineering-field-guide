@@ -1,0 +1,55 @@
+company:
+  name: Deepgram
+  stage: Series C
+  focus: |-
+    Real-time voice AI APIs for speech-to-text and text-to-
+    speech
+position:
+  title: Senior Software Engineer - Model Evaluation & AI Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds evaluation methodologies, pass/fail gates,
+      and monitoring for model output quality — explicitly
+      including LLMs, RAG, agents, and multimodal systems — which
+      is shaping model behavior and judging output quality.
+      Because LLM/agent components are involved, it is ai-first.
+  responsibilities:
+  - Define and build evaluation methodologies for speech-to-text, text-to-speech,
+    LLM, RAG, agent, and multimodal systems
+  - Design automated evaluation pipelines across batch and streaming environments
+    (WER, hallucination detection, latency, TTFB)
+  - 'Build scalable evaluation infrastructure: harnesses, orchestration, and result-aggregation
+    pipelines on production models and GPU clusters'
+  - Translate Research benchmarks into automated, enforceable pass/fail gates
+  - Build and operate canaries and continuous monitoring to detect quality regressions
+    before customer impact
+  - Integrate evaluation and quality gates into CI/CD
+  - Partner with Research, model training, inference, product, and DevOps teams on
+    evaluation signals and test environments
+  use_cases:
+  - Evaluating speech-to-text and text-to-speech model quality
+  - Regression and hallucination detection in production voice AI models
+  - Quality gates for LLM, RAG, agent, and multimodal systems
+  - Latency and streaming performance measurement for real-time voice systems
+  - Continuous monitoring of model quality to protect customer experience
+  skills:
+    genai: [LLMs, RAG, AI Agents]
+    ml: [Model Evaluation]
+    web: [React Native]
+    databases: []
+    data: []
+    cloud: [Cloud Infrastructure]
+    ops: [CI/CD, Grafana, Monitoring, Anomaly Detection]
+    languages: [Python, Rust, Go]
+    domains: []
+    other: [Speech Recognition, WER]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10408472'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:00:34.469801'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

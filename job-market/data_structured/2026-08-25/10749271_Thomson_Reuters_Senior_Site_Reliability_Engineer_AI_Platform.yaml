@@ -1,0 +1,51 @@
+company:
+  name: Thomson Reuters
+  stage: null
+  focus: Legal, tax, accounting and media information services
+position:
+  title: Senior Site Reliability Engineer, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role runs and hardens infrastructure for an AI Platform
+      (SRE work: SLAs, observability, CI/CD, IaC) but does not
+      shape model behaviour, prompts, retrieval, or evaluation.
+      Serving and scaling AI infrastructure others build is ai-
+      support.
+  responsibilities:
+  - Own long-term infrastructure strategy for the AI Platform team
+  - Own and improve operational posture of cloud-native services, containerized workloads,
+    serverless functions, and managed ML infrastructure
+  - Instrument services with observability tooling covering metrics, logs, and tracing
+  - Establish and enforce SLAs and error budgets; drive incident response and post-mortems
+  - Collaborate with platform engineering to harden infrastructure against security
+    findings and maintain compliance
+  - Design, build, and maintain CI/CD pipelines for AI Platform services, SDKs, and
+    infrastructure
+  - Automate toil including provisioning, security remediation, environment management,
+    and deployments
+  - Mentor junior team members and raise DevOps practices
+  use_cases: []
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Datadog, CloudWatch, CI/CD, Terraform, CloudFormation, Docker, Kubernetes,
+      DevOps, Monitoring, Infrastructure as Code]
+    languages: [Python, Bash]
+    domains: []
+    other: [Wiz, Snyk]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10749271'
+  location: Hyderabad, IND
+  locations:
+  - Hyderabad, IND
+  - Bengaluru, IND
+  extracted_at: '2026-08-25T11:36:40.176561'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

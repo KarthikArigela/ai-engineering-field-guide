@@ -1,0 +1,55 @@
+company:
+  name: Sift Stack
+  stage: null
+  focus: Data infrastructure platform for hardware telemetry analysis
+position:
+  title: Senior Software Engineer, Backend  (Agentic AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships agentic systems: agent tool
+      interfaces, context/memory management, compaction
+      algorithms, guardrails, eval suites, and MCP server - all
+      directly shaping LLM agent behavior. This makes it ai-first.
+  responsibilities:
+  - Talk directly to customers and partner with product to turn real review workflows
+    into agent capabilities
+  - Design, ship, and operate agentic systems that reason over large-scale time-series
+    data and hardware domain context
+  - Build tool interfaces, sandboxed execution for agent-generated code, context and
+    memory management, compaction algorithms, and guardrails
+  - Build distributed systems that let long-running agent work stream in real time
+    and resume across restarts
+  - Design job-based execution systems scheduling agent workloads on Kubernetes in
+    cloud and on-prem
+  - Develop and maintain Sift's MCP server and the APIs powering agentic capabilities
+  - Build evaluation suites and instrument quality, latency, cost, and failure modes
+    in production
+  - Integrate and assess frontier models across providers
+  use_cases:
+  - AI agents that investigate anomalies in hardware telemetry
+  - Agents that review rocket, satellite, autonomous vehicle, and energy system test
+    and flight data
+  - Generating dashboards and writing analysis scripts from telemetry
+  - Answering telemetry questions in minutes instead of days of scripting
+  - MCP server letting agents and customer AI tools query billions of telemetry points
+  skills:
+    genai: [MCP, AI Agents, Agentic Workflows, LLMs, Guardrails, LLM Evaluation]
+    ml: []
+    web: [REST APIs, gRPC, Protobuf, React, ECharts, Redux]
+    databases: [PostgreSQL, TimescaleDB]
+    data: [Kafka, Flink, Apache Arrow, DataFusion, Parquet]
+    cloud: [AWS]
+    ops: [Kubernetes, Docker, Observability, ArgoCD, GitHub Actions, Grafana, Prometheus,
+      Linux, Distributed Systems, Terragrunt, Kustomize]
+    languages: [Go, Python, Rust, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10327204'
+  location: Marina del Rey, USA
+  extracted_at: '2026-08-25T09:43:38.406112'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,56 @@
 company:
   name: ChargePoint
-  stage: Public
+  stage: 'Publicly traded (NYSE: CHPT)'
   focus: |-
-    EV charging network with hardware, software, and mobile
+    EV charging network with hardware, software and mobile
     solutions
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on building, deploying, and fine-
-      tuning LLM/ML systems including Voice AI, Computer Vision,
-      and Conversational AI. The position involves direct work
-      with LLM engineering, RAG architectures, model fine-tuning
-      (LoRA/QLoRA), and building production-grade AI systems - all
-      core AI/ML development work.
+      The role directly shapes model behavior: prompt engineering,
+      designing RAG architectures with LangChain/LangGraph and
+      Bedrock/OpenAI APIs, and fine-tuning LLMs (LoRA/QLoRA) plus
+      RLHF-style preference tuning. An LLM/generative component is
+      clearly in scope, so it is ai-first even though Voice AI and
+      computer vision are also included.
   responsibilities:
   - Lead development of AI solutions across Voice AI, Computer Vision, and Conversational
     AI domains
-  - Architect and build production-grade AI systems for monitoring and analytics platform
-  - Design and deploy AI-powered solutions that improve customer support experiences
+  - Architect and build production-grade AI systems for the monitoring and analytics
+    platform
+  - Enhance customer support experiences with AI-powered solutions
   - Enable intelligent automation across EV charging infrastructure
-  - Collaborate with cross-functional teams to build AI solutions for EV drivers and
-    operators
-  - Build LLM systems with focus on low-latency inference, caching, and observability
+  - Collaborate with cross-functional teams to design, build, and deploy AI-powered
+    solutions for EV drivers and operators
+  - Optimize production LLM systems for low-latency inference, caching, and observability
+  - Optimize system performance with measurable latency and cost improvements
   use_cases:
-  - Voice AI for customer support and interactions
-  - Computer Vision for EV charging infrastructure monitoring
-  - Conversational AI for enhanced customer experiences
-  - Intelligent automation of EV charging operations
-  - AI-powered monitoring and analytics platform
+  - Voice AI and telephony-based customer support automation
+  - Computer vision for monitoring EV charging infrastructure
+  - Conversational AI to improve customer support experiences
+  - Semantic search and retrieval for monitoring and analytics platform
+  - Intelligent automation across EV charging operations
+  - Domain-specific LLM applications for EV drivers and operators
   skills:
-    domains: [Computer Vision]
-    languages: [Python]
-    ml: [visual transformers, LoRA, RLHF, Fine-Tuning]
     cloud: [AWS, GCP]
-    genai: [LangChain, LangGraph, Amazon Bedrock, OpenAI API, Prompt Engineering,
-      RAG, embedding-based retrieval]
-    data: [Kafka, RabbitMQ, Airflow, dbt, Iceberg]
-    other: [Genesys, SIP]
-    ops: [Docker, Kubernetes, CI/CD, Observability]
-    web: [FastAPI, Django]
-    databases: [Elasticsearch, Vector Search, hybrid search, Qdrant, Chroma, Pinecone,
-      PostgreSQL, Redis, MongoDB, ClickHouse, Trino]
+    languages: [Python]
+    ml: []
+    other: [Voice AI, Speech Processing, Genesys, SIP, Event-Driven Architecture]
+    ops: [Docker, Kubernetes, CI/CD, Distributed Systems, Observability]
+    databases: [Elasticsearch, Vector Search, Hybrid Search, Qdrant, Chroma, Pinecone,
+      PostgreSQL, Redis, MongoDB, ClickHouse]
+    domains: [Computer Vision]
+    web: [FastAPI, Django, Microservices]
+    data: [Kafka, RabbitMQ, Airflow, dbt, Trino, Iceberg, Data Pipelines]
+    genai: [LangChain, LangGraph, AWS Bedrock, OpenAI API, Prompt Engineering, RAG,
+      LLMs, Embeddings, Semantic Search, Fine-Tuning, LoRA, RLHF, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8502571'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:25:48.922069'
+  extracted_at: '2026-08-16T01:54:38.511826'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

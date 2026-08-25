@@ -1,0 +1,48 @@
+company:
+  name: MeridianLink
+  stage: null
+  focus: Financial tools for credit unions and members
+position:
+  title: Sr AI Engineer - Data
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a data/backend engineer who consumes third-party
+      AI APIs (OpenAI, Anthropic) designed by others and uses AI
+      coding tools as a workflow aid. No prompt design, RAG,
+      evals, or model shaping is described, so it is ai-support
+      per the tooling edge case.
+  responsibilities:
+  - Own data-heavy features from design through production, planning for growing traffic
+    and data volume
+  - Improve data models, pipelines, migrations, and multi-tenant systems
+  - Develop in a TypeScript monorepo with Hono, Drizzle/Postgres, and AWS serverless
+    infrastructure
+  - Monitor production, investigate issues, and fix root causes
+  - Help the team make practical technical decisions
+  - Use and improve the team's AI coding agents as part of the engineering workflow
+  use_cases:
+  - Data foundation for financial products used by credit unions
+  - Turning complex credit information into clear next steps for members
+  - Multi-tenant production data systems for sensitive financial data
+  - AI-assisted engineering workflow with agents handling implementation work
+  skills:
+    genai: [OpenAI API, Anthropic API]
+    ml: []
+    web: [Hono, React, APIs]
+    databases: [PostgreSQL, Relational Databases]
+    data: [Data Pipelines, Data Modeling]
+    cloud: [AWS, AWS Lambda, AWS S3]
+    ops: [Terraform, Pulumi, AWS CDK]
+    languages: [TypeScript]
+    domains: []
+    other: [SST, SQS, EventBridge, Multi-Tenant Systems]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10579915'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:47:26.163439'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

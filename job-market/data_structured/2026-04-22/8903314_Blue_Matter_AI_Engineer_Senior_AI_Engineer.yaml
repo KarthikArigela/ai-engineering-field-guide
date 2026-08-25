@@ -1,59 +1,63 @@
 company:
   name: Blue Matter
-  stage: Growing/Scaled (not specified)
+  stage: null
   focus: Management consultancy for the biopharmaceutical industry
 position:
   title: AI Engineer / Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      integrating AI/ML solutions including LLMs, Generative AI
-      applications, RAG, and AI agents for both internal and
-      client-facing use. The engineer works hands-on with models,
-      APIs, and AI frameworks to deliver end-to-end AI-powered
-      solutions, making this clearly an ai-first role.
+      The role designs and builds Generative AI applications,
+      explicitly requiring prompt engineering, RAG, AI agent
+      frameworks, and fine-tuning workflows, which means the
+      engineer directly shapes LLM behavior and output quality.
+      Since the shaped models are LLMs and GenAI components
+      (OpenAI, Anthropic, Gemini APIs), this is ai-first rather
+      than ai-support.
   responsibilities:
-  - Design, develop, and deploy AI/ML solutions and Generative AI applications to
-    support commercial data and analytics for life sciences companies
-  - Integrate third-party AI APIs (OpenAI, Anthropic, Google Gemini, Hugging Face)
-    into internal and client-facing applications
-  - Build proof-of-concepts and rapid prototypes for product launch analytics, drug
-    discovery, patient analytics, and data operations
-  - Develop and maintain internal AI-powered tools that streamline workflows and automate
-    operational processes
-  - Build client-facing tools and services leveraging AI for actionable insights,
-    interactive dashboards, and intelligent recommendations
-  - Design and implement data pipelines and ETL processes to support AI model training,
+  - Design, develop, and deploy AI/ML solutions and Generative AI applications supporting
+    commercial data and analytics for life sciences companies
+  - Integrate third-party AI APIs (OpenAI, Anthropic, Gemini, Hugging Face) into internal
+    and client-facing applications
+  - Build proof-of-concepts and rapid prototypes demonstrating AI value for product
+    launch analytics, drug discovery, patient analytics, and data operations
+  - Develop internal tools that streamline workflows and automate operations, plus
+    client-facing tools delivering actionable insights, dashboards, and recommendations
+  - Design and implement data pipelines and ETL processes supporting AI model training,
     fine-tuning, and inference workflows
-  - Investigate and evaluate emerging AI frameworks, tools, and models to continuously
-    improve AI capabilities
-  - Collaborate with onshore/offshore teams and clients to gather requirements, provide
-    technical guidance, and deliver AI-powered solutions
+  - Build and deploy scalable AI solutions on cloud platforms using services like
+    S3, EC2, Lambda, Azure OpenAI, and SageMaker
+  - Collaborate with onshore/offshore teams providing technical guidance and code
+    reviews; address client questions and gather requirements
+  - Evaluate emerging AI frameworks, tools, and models and evangelize AI best practices
+    across the organization
   use_cases:
-  - Product launch analytics for life sciences companies
-  - Drug discovery support through AI-driven approaches
-  - Patient analytics and insights generation
-  - Commercial data and analytics for biopharmaceutical clients
-  - Automated operational workflow tools for consulting teams
-  - AI-powered interactive dashboards and intelligent recommendations for client decision
-    support
+  - Commercial data and analytics for life sciences and biopharmaceutical companies
+  - Product launch analytics and drug discovery support
+  - Patient analytics for specialty therapeutics including oncology and rare diseases
+  - Data operations automation for consultancy and client workflows
+  - Internal productivity tools that streamline workflows and automate operational
+    processes
+  - Client-facing tools with interactive dashboards and intelligent recommendations
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS S3, AWS EC2, AWS Lambda, SageMaker, Azure OpenAI,
+      Vertex AI]
     languages: [Python, SQL]
-    ml: [PyTorch, TensorFlow, NLP]
-    cloud: [AWS, Azure, GCP, Azure OpenAI, SageMaker, Vertex AI, AWS S3, AWS Lambda]
-    genai: [OpenAI API, Anthropic API, Gemini, LangChain, LlamaIndex, Hugging Face
-        Transformers, Prompt Engineering, RAG, AI Agent Frameworks, Fine-Tuning, Generative
-        AI]
-    data: [Airflow, dbt, Data Pipelines]
-    other: [Agile, Jira]
+    ml: [PyTorch, TensorFlow, Transformers, Machine Learning, NLP, Model Training,
+      Model Evaluation]
+    other: [Agile, Code Review, Responsible AI, AI Safety, Jira, Smartsheet]
     ops: [Git]
-    web: [FastAPI, Flask, Streamlit, Gradio, React, REST APIs, GraphQL]
-    databases: [Snowflake, Redshift, Databricks]
+    databases: [Snowflake, Redshift]
+    domains: []
+    web: [Streamlit, Gradio, Flask, FastAPI, React, REST APIs, GraphQL]
+    data: [Airflow, dbt, Databricks, Data Pipelines]
+    genai: [LLMs, Generative AI, LangChain, LlamaIndex, RAG, Prompt Engineering, Fine-Tuning,
+      AI Agents, OpenAI API, Anthropic API, Gemini, Hugging Face]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8903314'
   location: Gurugram, IND
-  extracted_at: '2026-04-22T13:59:25.402241'
+  extracted_at: '2026-08-16T06:04:34.883991'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,64 @@
+company:
+  name: Zensar Technologies
+  stage: null
+  focus: IT services and technology consulting
+position:
+  title: Senior Full Stack Developer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires hands-on prompt engineering
+      (system prompts and user prompts) to integrate AI features
+      into applications, which is shaping LLM behavior, so Step 1
+      passes. The shaped components are LLM/generative (GenAI
+      tools, agentic development workflows), making it ai-first
+      under Step 2. While much of the job is standard full-stack
+      development and using Copilot/Cursor alone would be ai-
+      support, the explicit prompt-engineering responsibility for
+      application AI features tips it to ai-first.
+  responsibilities:
+  - Design, build, and maintain efficient, reusable, and reliable server-side code
+    using Python and FastAPI
+  - Develop high-performance APIs with FastAPI, integrating with AWS cloud services
+    such as SQS and Lambda
+  - Build engaging and responsive user interfaces using React and Angular
+  - Manage and optimize data storage solutions using MongoDB
+  - Apply prompt engineering (system and user prompts) and AI-driven development tools
+    like GitHub Copilot and Cursor to integrate AI features into applications and
+    enhance development efficiency
+  - Apply DevOps practices including CI/CD pipelines across the web development and
+    deployment process
+  - Troubleshoot existing scripts, perform point bug fixes, and tune application performance
+    and resource usage
+  - Collaborate with cross-functional teams in an Agile and Scrum environment using
+    Jira and Git for project and task tracking
+  use_cases:
+  - AI-assisted full-stack application development using coding assistants like GitHub
+    Copilot and Cursor
+  - Integration of AI features into web applications via prompt engineering
+  - Agentic GenAI development workflows
+  - High-performance API services and responsive user interfaces backed by AWS cloud
+    services
+  skills:
+    genai: [Prompt Engineering, GitHub Copilot, Cursor, Generative AI, Agentic Workflows]
+    ml: []
+    web: [Django, Flask, FastAPI, REST APIs, React, Angular]
+    databases: [MongoDB]
+    data: [Kafka]
+    cloud: [AWS, AWS SQS, AWS Lambda]
+    ops: [DevOps, CI/CD, Git]
+    languages: [Python]
+    domains: []
+    other: [Agile, Scrum, Jira, Security]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9004603'
+  location: IND
+  locations:
+  - IND
+  - Pune, IND
+  remote: true
+  extracted_at: '2026-08-16T06:59:30.829811'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

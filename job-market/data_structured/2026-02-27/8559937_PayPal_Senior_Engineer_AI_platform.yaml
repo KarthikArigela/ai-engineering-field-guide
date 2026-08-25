@@ -1,49 +1,55 @@
 company:
   name: PayPal
-  stage: Public
-  focus: Global digital payments and financial services platform
+  stage: null
+  focus: Global digital payments and commerce platform
 position:
   title: Senior Engineer, AI platform
   ai_type:
     type: ai-support
     reasoning: |-
-      This role builds and maintains infrastructure/platform that
-      supports data scientists and ML engineers, rather than
-      directly building, training, or fine-tuning models. The
-      focus is on the platform layer (model registry, inferencing
-      systems, Kubernetes orchestration) that enables others to do
-      AI/ML work.
+      This role builds and operates PayPal's AIML platform
+      infrastructure (Kubernetes, model registry, model serving,
+      inferencing) that data scientists and ML engineers use; the
+      deliverable is capacity and platform capability, not model
+      behaviour. They do not write prompts, design retrieval, or
+      train/tune models themselves. Per the edge case, serving,
+      hosting, and scaling models the person does not shape is ai-
+      support even when it names Triton and serving frameworks.
   responsibilities:
-  - Design, implement and maintain large scale distributed AI/ML platform
-  - Build and maintain platform to support model training and deployment
-  - Develop reusable platform components for model development lifecycle including
-    model registry and inferencing
-  - Manage Kubernetes based ML workloads and orchestration systems
-  - Build real-time inferencing systems and model serving infrastructure
+  - Design, implement, and maintain PayPal's large-scale distributed AIML platform
+    supporting model training and deployment
+  - Develop reusable platform components for the model development lifecycle, especially
+    around model registry and inferencing
+  - Manage Kubernetes-based ML workloads and the orchestration system
+  - 'Deliver complete solutions across all SDLC phases: design, implementation, testing,
+    delivery, and operations'
+  - Lead technical discussions with data science and ML teams on architecture, solution
+    implementation, and integration
   - Guide junior engineers and advise management on project-level issues
-  - Deliver complete solutions spanning all phases of SDLC
-  - Work collaboratively in globally distributed team across US, India and China
+  - Collaborate in a globally distributed team across US, India, and China
   use_cases:
-  - Enterprise AI/ML platform for data scientists and ML engineers
-  - Model training and deployment infrastructure
-  - Real-time model inferencing and serving
-  - Model registry and lifecycle management
-  - Container orchestration for ML workloads
+  - Enterprise AIML platform serving data scientists and ML engineers across PayPal
+  - Scalable model training and deployment infrastructure
+  - Real-time model inferencing and serving for production ML systems
+  - Model registry and model development lifecycle management
+  - Kubernetes-based orchestration of ML workloads for PayPal's payments business
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: [GCP, AWS, Azure]
-    genai: []
-    data: []
-    other: [Distributed Systems]
-    ops: [Kubernetes, Docker, Seldon, Triton, TorchServe, Model serving frameworks,
-      Real-time inferencing]
-    web: []
+    languages: []
+    ml: [Machine Learning, Model Training]
+    other: []
+    ops: [Kubernetes, Model Deployment, Model Registry, Seldon, Triton, TorchServe,
+      Distributed Systems]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8559937'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:08:04.373497'
+  extracted_at: '2026-08-16T02:27:05.983710'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

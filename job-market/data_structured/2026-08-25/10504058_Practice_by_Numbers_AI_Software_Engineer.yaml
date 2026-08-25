@@ -1,0 +1,54 @@
+company:
+  name: Practice by Numbers
+  stage: null
+  focus: Dental practice management SaaS platform
+position:
+  title: AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds and iterates LLM conversation flows, writes
+      prompts, designs tool calling and RAG, builds guardrails,
+      and does LLM evaluation — directly shaping model behavior,
+      so it is ai-first. It also includes substantial backend
+      work, but the AI shaping responsibilities are explicit and
+      core.
+  responsibilities:
+  - Build and maintain backend services and REST APIs in Python (FastAPI/Django)
+  - Build and iterate on LLM-driven conversation flows with tool calling, multi-turn
+    state, and context handling
+  - Write and refine prompts and measure their impact
+  - Build guardrails and RAG/knowledge-base retrieval for patient-facing interactions
+  - Contribute to evaluation and regression testing of AI quality
+  - Integrate with practice management systems (Dentrix, Open Dental, Eaglesoft) and
+    internal APIs
+  - 'Own production operations: logging, metrics, alerting, debugging'
+  - Follow HIPAA-compliant practices across data handling, logging, and storage
+  use_cases:
+  - AI Receptionist for dental practices across voice, SMS, and web chat
+  - Patient-facing conversational automation under HIPAA constraints
+  - Practice-specific question answering via knowledge-base retrieval
+  - OTP-based secure patient verification
+  - Integration with dental practice management systems
+  skills:
+    genai: [LLMs, Prompt Engineering, Function Calling, RAG, Guardrails, LLM Evaluation,
+      Agentic Workflows, OpenAI API, Anthropic API, Conversational AI, LangChain,
+      LlamaIndex]
+    ml: []
+    web: [FastAPI, Django, REST APIs, Webhooks, WebSockets]
+    databases: [PostgreSQL, Redis]
+    data: [Celery]
+    cloud: [AWS, GCP, Azure, AWS SQS]
+    ops: [CI/CD, Datadog]
+    languages: [Python, asyncio]
+    domains: []
+    other: [Twilio, Vonage, Deepgram, ElevenLabs, AssemblyAI, HIPAA Compliance, New
+        Relic, Sentry, Papertrail, Multi-Tenant Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10504058'
+  location: Gurugram, IND
+  extracted_at: '2026-08-25T10:25:53.110604'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

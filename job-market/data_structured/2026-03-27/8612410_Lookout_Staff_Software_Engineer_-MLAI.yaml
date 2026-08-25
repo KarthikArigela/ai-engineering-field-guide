@@ -2,53 +2,59 @@ company:
   name: Lookout
   stage: null
   focus: |-
-    Cloud-native cybersecurity platform protecting against
-    mobile device attacks
+    Cloud-native mobile cybersecurity and endpoint threat
+    detection
 position:
   title: Staff Software Engineer -ML/AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves owning the full ML lifecycle from
-      research to production deployment, building and maintaining
-      ML/AI systems for threat detection, and hands-on work with
-      LLMs/RAG stack, embeddings, and vector databases. The
-      position requires translating complex models into production
-      solutions and working with model optimization techniques
-      like distillation and quantization.
+      This role owns the full ML lifecycle including training,
+      evaluating, stress-testing, and monitoring models to prevent
+      drift, which is directly shaping model behavior and output
+      quality. It also requires hands-on LLM/RAG work (prompt
+      engineering, embeddings, retrieval strategies, LoRA/PEFT
+      fine-tuning), and since LLM components are involved
+      alongside classical ML, the role classifies as ai-first.
   responsibilities:
-  - Own the full machine learning lifecycle from research and design to production
+  - Own the full machine learning lifecycle from research and design through production
     deployment, monitoring, and continuous retraining
-  - Establish and implement robust frameworks to train, evaluate, stress-test, and
-    monitor ML/AI systems to prevent model drift
-  - Address real-world scale and performance challenges ensuring ML/AI models are
-    efficient and maintain quality/latency under production constraints
+  - Establish frameworks to train, evaluate, stress-test, and monitor ML/AI systems,
+    driving continuous improvement and preventing model drift
+  - Build core backend components and services handling data ingestion, delivery,
+    and dynamic analysis at massive scale
+  - Ensure ML/AI models and systems are efficient, robust, and meet quality/latency
+    targets under production constraints
   - Set technical direction as a senior individual contributor and mentor junior engineers
   - Improve all forms of automated testing including unit, integration, and functional
-    testing
-  - Participate in end-to-end service ownership including on-call duties
-  - Build core components and services powering Lookout applications
+    tests
+  - Practice end-to-end service ownership, including participating in on-call duties
   use_cases:
-  - Mobile endpoint threat detection and response
-  - Behavioral analysis for identifying human-centric attacks
-  - Malware and software vulnerability detection
-  - Anomalous activity monitoring across enterprise systems
-  - AI-powered advanced threat detection for cybersecurity
+  - Mobile endpoint detection and response (EDR) monitoring for malware, software
+    vulnerabilities, and anomalous activity
+  - AI and behavioral analysis to detect human-centric and social engineering attacks
+    before they escalate
+  - Protecting enterprise mobile device users from credential theft and manipulation
+  - Real-time detection over a massive-scale data ingestion and dynamic analysis pipeline
+    serving millions of users
   skills:
-    domains: [NLP]
+    cloud: [AWS, GCP, Serverless, ECS, EKS]
     languages: [Python, Scala, Go]
-    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, model distillation, Quantization]
-    cloud: [AWS, GCP, ECS, EKS]
-    genai: [LangChain, LLMs, RAG, Embeddings, Prompt Engineering, LoRA]
-    data: [knowledge graphs, Kafka]
+    ml: [PyTorch, TensorFlow, scikit-learn, Hugging Face, Machine Learning, Deep Learning,
+      Model Evaluation, Model Distillation, Quantization]
     other: []
-    ops: [MLOps, feature stores, model management, training/serving pipelines, Kubernetes,
-      Docker]
-    web: []
-    databases: [Vector Databases]
+    ops: [MLOps, Feature Stores, Kubernetes, Docker]
+    databases: [Knowledge Graphs, Vector Databases]
+    domains: [NLP]
+    web: [APIs]
+    data: [Kafka]
+    genai: [LangChain, RAG, Prompt Engineering, Embeddings, LLMs, AI Agents, Fine-Tuning,
+      LoRA, Cursor, GitHub Copilot, Claude Code]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8612410'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T14:57:44.924069'
+  extracted_at: '2026-08-16T03:18:12.698934'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

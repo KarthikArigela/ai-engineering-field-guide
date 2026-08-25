@@ -1,47 +1,53 @@
 company:
   name: Capital One
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work with foundation models, LLM
-      inference optimization, similarity search, guardrails, and
-      model training. The engineer will directly build and deploy
-      AI software components including large language model
-      systems and optimization techniques for production AI
-      systems.
+      The role designs and builds AI system components that
+      directly shape model behavior: foundation model training,
+      LLM inference optimization, guardrails, and model evaluation
+      (Step 1: yes). Since LLM and foundation model components are
+      central to the responsibilities, it classifies as ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    how associates work and customers interact
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training and LLM inference
-  - Build systems for similarity search, guardrails, model evaluation, experimentation,
-    governance, and observability
-  - Invent and implement state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Lead and mentor engineering team members and influence cross-functional stakeholders
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Informing customers about unusual charges and fraud detection
-  - Answering customer questions in real time through AI-powered systems
-  - Enhancing banking products with AI-driven capabilities
-  - Enabling associates to work more efficiently through AI-powered tools
+  - Real-time personalized customer banking experiences
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - AI models and platforms that empower teams across the bank to enhance their products
+    with AI
   skills:
-    domains: []
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [PyTorch, Hugging Face, Model Evaluation]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [LLM Inference, Foundation Model Training, RAG, Guardrails]
-    data: []
+    cloud: [AWS, GCP, Azure, AWS Ultraclusters]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [ML Governance, Model Optimization, LLM Optimization]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
-  is_customer_facing: true
+    data: []
+    genai: [Guardrails, Memory]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '7645448'
@@ -52,4 +58,6 @@ meta:
   - New York, USA
   - Cambridge, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T11:17:30.030702'
+  extracted_at: '2026-08-15T21:55:19.492761'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

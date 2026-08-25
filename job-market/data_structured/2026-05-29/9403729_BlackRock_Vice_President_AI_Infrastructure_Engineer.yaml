@@ -1,57 +1,63 @@
 company:
   name: BlackRock
-  stage: Public
-  focus: Investment management and financial services
+  stage: null
+  focus: Asset management and investment platform technology
 position:
   title: Vice President, AI Infrastructure Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI Infrastructure Engineering role focused on
-      building and operating the foundational platforms and
-      infrastructure that ENABLE AI work, not building the models
-      themselves. The role is responsible for cloud-native
-      infrastructure, MLOps platforms, observability, and
-      governance - all supporting infrastructure for AI engineers
-      and data scientists who do the actual model work.
+      The role designs, builds, and operates the cloud
+      infrastructure and platform services that host AI workloads
+      (training, inference, serving, monitoring) for other AI
+      Engineering and Data Science teams. It does not shape model
+      behaviour itself — no prompt design, retrieval/RAG
+      engineering, agent orchestration, or training/evals done by
+      this person. The deliverable is capacity, reliability, and
+      governance, which per the serving/hosting edge case is ai-
+      support.
   responsibilities:
   - Design, build, and operate AI-focused infrastructure platforms supporting model
     development, training, evaluation, and inference
   - Engineer scalable, reliable, and secure cloud-native services to support AI workloads
     across AWS, Azure, and hybrid environments
-  - Partner with AI Engineering and Data Science teams to improve developer experience,
-    performance, and operational stability of AI systems
   - Enable production deployment of ML models and LLMs within governed enterprise
-    environments aligned with risk and compliance standards
-  - Implement and maintain infrastructure-as-code and automation for repeatable, auditable
-    platform provisioning
-  - Build and operate observability, monitoring, and alerting solutions for AI platforms
-    ensuring availability and performance
+    environments aligned with firmwide risk and compliance standards
+  - Implement and maintain infrastructure-as-code and automation to ensure repeatable,
+    auditable platform provisioning
+  - Build and operate observability, monitoring, and alerting solutions for AI platforms,
+    ensuring availability, performance, and cost transparency
   - Collaborate with Security and Risk partners to integrate identity, access controls,
     data protection, and governance into AI infrastructure
   - Contribute to architectural decisions and technical standards for AI platforms
-    across the enterprise
+    across Aladdin
+  - Participate in on-call rotations and operational support for critical platforms
   use_cases:
-  - Investment management and portfolio optimization AI systems
-  - Aladdin platform AI capabilities for investment and client platforms
-  - Enterprise ML model deployment for financial analysis
-  - Large language model applications for operational platforms
-  - Regulated AI workloads for financial services compliance
+  - Enterprise AI platform infrastructure supporting ML models and LLMs across Aladdin
+    and BlackRock platforms
+  - Production deployment, serving, and governance of ML and LLM workloads in a highly
+    regulated financial environment
+  - Managed compute and infrastructure for model training, fine-tuning, evaluation,
+    and inference
+  - Observability, monitoring, and cost transparency for AI platforms
+  - Security, identity, access control, and compliance integration for AI infrastructure
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, Azure ML, Azure AI Foundry, AWS Bedrock, Vertex AI]
     languages: [Python, Bash]
-    ml: []
-    cloud: [AWS, Azure, GCP, Azure ML, Azure Foundry, AWS Bedrock, Vertex AI]
-    genai: []
-    data: []
-    other: []
-    ops: [Terraform, ARM/Bicep, CloudFormation, Kubernetes, Docker, LLM infrastructure,
-      MLOps, Model Deployment, Observability, Infrastructure as Code, GPU infrastructure]
-    web: []
+    ml: [Machine Learning, Model Training, Fine-Tuning]
+    other: [Multi-Cloud Architectures]
+    ops: [Terraform, CloudFormation, Bicep, Kubernetes, Infrastructure as Code, MLOps,
+      Model Deployment, Monitoring, Observability, Disaster Recovery, GPU Infrastructure]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, Generative AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9403729'
   location: New York, USA
-  extracted_at: '2026-05-29T09:03:41.281361'
+  extracted_at: '2026-08-16T10:57:06.377011'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,59 +1,65 @@
 company:
   name: A.P. Moller - Maersk
-  stage: Public
-  focus: Global container shipping and integrated logistics services
+  stage: null
+  focus: Integrated container shipping and logistics services
 position:
   title: AIML Engineer(Gen AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building and deploying
-      production-grade Generative AI systems, including LLM-
-      powered applications, RAG systems, agentic frameworks, and
-      semantic search. The engineer designs, implements, and
-      deploys these AI solutions hands-on, making it clearly an
-      ai-first role.
+      The role designs, builds, and evaluates LLM-powered systems
+      (RAG, AI copilots, agents) and directly shapes model
+      behaviour through prompt design, guardrails, and structured
+      evaluation of output quality and hallucination risk. With
+      LLMs and agentic frameworks at the core of the
+      responsibilities, this is clearly ai-first.
   responsibilities:
   - Design, implement, and deploy production-grade Generative AI solutions that enhance
     operational intelligence and automation across terminal workflows
   - Develop LLM-powered systems including retrieval-based reasoning, AI copilots,
-    and task-oriented AI agents for complex operational environments
+    and task-oriented AI agents that support decision-making in complex operational
+    environments
   - Design robust data pipelines enabling reliable context retrieval, semantic understanding,
     and grounded response generation
   - Build and maintain end-to-end GenAI solution lifecycles from data preparation
-    through deployment, monitoring, and iteration
+    and experimentation through deployment, monitoring, and iteration
   - Implement structured evaluation frameworks to measure output quality, reliability,
     latency, cost efficiency, and hallucination risk
   - Enhance system robustness through prompt design, tool integration, validation
     layers, and guardrail mechanisms
-  - Collaborate with stakeholders to translate operational challenges into structured
-    AI problem statements with measurable success criteria
-  - Communicate model behavior, limitations, and trade-offs to technical and non-technical
+  - Work with stakeholders to translate operational challenges into structured AI
+    problem statements with measurable success criteria
+  - Communicate model behaviour, limitations, and trade-offs to technical and non-technical
     audiences
   use_cases:
-  - Enhancing operational intelligence and automation across container terminal workflows
-  - Optimizing yard flows and vessel operations at global shipping terminals
-  - Building AI copilots and task-oriented agents for decision support in complex
-    operational environments
-  - Automating complex workflows in container shipping logistics
-  - Generating actionable insights from terminal operations data to drive efficiency
-  - Integrating GenAI systems with optimization or simulation models for logistics
-    scheduling
+  - Automating complex workflows in container terminal operations
+  - Enhancing operational intelligence and decision-making for yard flows and vessel
+    operations
+  - AI copilots and task-oriented agents supporting decisions in complex operational
+    environments
+  - Grounded response generation and semantic retrieval over terminal operational
+    data
+  - Generating actionable insights to drive terminal efficiency across global shipping
+    operations
   skills:
-    domains: []
-    languages: [Python, SQL, Object-Oriented Programming]
-    ml: [Transformers, Deep Learning, NLP, Machine Learning Pipelines]
-    cloud: [Cloud environments]
-    genai: [LLMs, RAG, Embedding-based semantic search, Prompt Engineering, AI Agents,
-      Agentic AI frameworks]
-    data: [Spark, Apache Hadoop, Data Engineering, Statistical Analysis]
-    other: []
-    ops: [Model Deployment, Docker, CI/CD, AI observability and governance, MLflow]
-    web: []
+    cloud: [Cloud Environments]
+    languages: [Python, R, SQL]
+    ml: [Transformers, Machine Learning, Deep Learning]
+    other: [Object-Oriented Programming, Unit Testing, Version Control, Technical
+        Documentation, Statistical Analysis, Data Analysis, Data Architecture]
+    ops: [CI/CD, Docker, Monitoring, Model Deployment, AI Observability]
     databases: [Vector Databases]
+    domains: [NLP]
+    web: []
+    data: [Data Pipelines, Apache Hadoop, Spark, Data Engineering, Machine Learning
+        Pipelines, Big Data Technologies]
+    genai: [LLMs, Generative AI, RAG, Embeddings, Semantic Search, Prompt Engineering,
+      AI Agents, Guardrails, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8925516'
   location: Yelahanka, IND
-  extracted_at: '2026-04-22T13:57:51.291461'
+  extracted_at: '2026-08-16T06:17:04.635067'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

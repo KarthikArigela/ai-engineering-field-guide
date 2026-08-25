@@ -1,0 +1,56 @@
+company:
+  name: Upvest
+  stage: null
+  focus: Investment API for fintechs and financial institutions
+position:
+  title: AI Platform Engineer (f/m/d)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and operates infrastructure connecting LLMs
+      (Claude) to internal systems via MCP servers, and builds
+      evals, guardrails, and observability for AI systems in
+      production — that is directly shaping model behaviour and
+      output quality via tools/retrieval/agent infrastructure.
+      LLM/agent components dominate, so it is ai-first, not ml-
+      first.
+  responsibilities:
+  - Design, build and operate AI platform infrastructure connecting Claude and other
+    LLMs to internal systems via MCP servers and integrations to internal tools, APIs
+    and data sources
+  - Build and run the hosted automation and orchestration stack (n8n) that other teams
+    build on
+  - 'Harden AI systems in production: reliability, observability and evals'
+  - Enable teams in Operations, Compliance, Growth and Finance to build their own
+    AI workflows through templates, patterns, guardrails and teaching
+  - Turn existing AI experiments by internal champions into secure, compliant, durable
+    solutions
+  - Act as the technical point of contact with Security on access boundaries, audit
+    trails and data handling for AI systems
+  - Adopt and extend existing platform and engineering infrastructure rather than
+    building a parallel stack
+  use_cases:
+  - Internal workflow automation for Operations, Growth, Compliance and Finance
+  - Secure connection of LLMs to internal tools, APIs and data sources at a regulated
+    fintech
+  - Company-wide safe AI adoption via shared platform, templates and guardrails
+  - AI system reliability, observability and evaluation in production
+  skills:
+    genai: [MCP, Anthropic API, LLMs, AI Agents, Guardrails, LLM Evaluation]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Observability]
+    languages: []
+    domains: []
+    other: [n8n, Workflow Automation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9016584'
+  location: Berlin, DEU
+  extracted_at: '2026-08-25T12:18:20.178507'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

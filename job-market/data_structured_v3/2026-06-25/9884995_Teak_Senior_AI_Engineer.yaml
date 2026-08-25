@@ -1,0 +1,68 @@
+company:
+  name: Teak
+  stage: null
+  focus: Embedded SaaS refund protection platform for commerce
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM and agent behaviour: designing
+      multi-agent orchestration, MCP tool integrations,
+      prompt/system-prompt strategies, RAG pipelines, guardrails,
+      and LLM evaluation frameworks for compliant output.
+      LLM/agent components are central, so it is ai-first rather
+      than ml-first or ai-support.
+  responsibilities:
+  - Design, build, and maintain production-grade agentic systems including multi-agent
+    orchestration, specialist agents, and Human-in-the-Loop workflows with context
+    management, memory, and tool-calling
+  - Develop MCP servers and tool integrations connecting AI agents to Teak's platform
+    APIs and partner systems
+  - Orchestrate LLMs (Claude, GPT, Gemini, or similar), selecting the right model
+    per task and managing prompt and system-prompt strategies so agents present refund
+    solutions in compliant language
+  - Build RAG pipelines grounding agent responses in Teak's policy and product data
+    with versioning and isolation to prevent hallucination on compliance-sensitive
+    topics
+  - Implement guardrails that enforce compliant offer language, prevent unauthorized
+    coverage claims, and meet regulatory requirements across markets
+  - Build evaluation frameworks to monitor, test, and continuously improve agent performance,
+    reliability, and output quality
+  - Build and operate AI infrastructure on AWS with structured logging and tracing
+    for auditability and rapid issue resolution
+  - Contribute to backend services and APIs in Python, participate in code reviews,
+    documentation, Agile workflows, and the on-call rotation
+  use_cases:
+  - Agentic commerce layer that lets partner AI agents offer, explain, and fulfill
+    refund protection at the point of purchase
+  - Compliance-safe presentation of refund and insurance offers in pre-approved, regulated
+    language
+  - Grounding agent responses in policy and product data to prevent hallucination
+    on compliance-sensitive topics
+  - Regulatory guardrails preventing unauthorized coverage claims across insurance
+    and fintech markets
+  - Agent performance evaluation, tracing, and auditability for production reliability
+  skills:
+    genai: [Agentic Workflows, AI Agents, Human-in-the-Loop, Context Engineering,
+      Function Calling, MCP, LLMs, Claude, GPT, Gemini, Prompt Engineering, RAG, Guardrails,
+      LLM Evaluation, LangGraph, LangChain, Anthropic API, OpenAI API, Fine-Tuning,
+      Distillation]
+    ml: []
+    web: [APIs, Django]
+    databases: [Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure, AWS Bedrock]
+    ops: [Observability]
+    languages: [Python]
+    domains: []
+    other: [Agile, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9884995'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T15:48:08.438723'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

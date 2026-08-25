@@ -1,0 +1,234 @@
+job_id: 10507199
+title: Sr. AI Engineer
+company: Rightway
+location: USA
+remote: true
+work_type: FULL_TIME
+description: |
+  ABOUT THE ROLE:
+
+  Rightway helps members get the right care at the right time
+  and price. Hundreds of thousands of the requests we handle
+  every year involve questions like: What is the status of my
+  prior authorization? What will this drug cost? How does my
+  benefit apply?
+
+  Answering these questions well requires getting the right
+  data from the right systems, understanding the context, and
+  communicating the answer clearly. Today, much of that work
+  is done manually.
+
+  We are building Agent OS, our platform for creating and
+  operating AI-powered workflows across Rightway. It provides
+  the foundation for connecting AI to our systems, evaluating
+  its performance, and running it safely and reliably in
+  production.
+
+  This is an early, foundational platform build. You will be
+  one of a small number of engineers shaping the architecture
+  and engineering patterns behind how AI operates across
+  Rightway.
+
+  The hard problems here are not just about model or prompt
+  quality. They are about building systems whose correctness
+  can be measured, whose access to sensitive data can be
+  controlled, and whose architecture can support many
+  workflows without becoming fragile or overly specialized.
+
+  WHAT YOU’LL DO:
+
+  - Build the core platform for running AI-powered workflows
+    reliably in production.
+  - Create safe, well-defined ways for AI systems to interact
+    with Rightway's existing services and data.
+  - Design the authorization and data-access patterns required
+    to operate AI in a healthcare environment.
+  - Build evaluation infrastructure that helps us measure
+    quality, compare changes, catch regressions, and make
+    informed decisions about what is ready for production.
+  - Develop the observability, tracing, and auditability needed
+    to understand how AI systems behave in production.
+  - Design operational controls that allow us to deploy AI
+    workflows safely and evolve them over time.
+  - Establish reusable platform patterns that other engineers
+    can use to build AI-powered capabilities.
+  - Make thoughtful build-versus-buy decisions as the ecosystem
+    around agents, models, tools, and evaluation continues to
+    evolve.
+  - Partner closely with product, security, compliance, data,
+    and engineering teams to turn new AI capabilities into
+    production systems.
+  - Help shape the technical direction of Rightway's broader AI
+    platform as both the technology and our use cases evolve.
+
+  WHO YOU ARE:
+
+  - 5+ years of experience building and operating production
+    backend, infrastructure, or platform systems.
+  - Experience shipping LLM-based or AI-powered systems to
+    production, beyond prototypes and demos.
+  - Strong backend and distributed systems fundamentals,
+    including APIs, typed service contracts, service
+    boundaries, failure handling, schema evolution,
+    scalability, and operating against systems you do not
+    fully control.
+  - A strong understanding of authorization, data boundaries,
+    and the engineering controls required when AI systems
+    operate on sensitive information.
+  - Exercises good judgment about where models should be used,
+    where deterministic software is the better choice, and
+    where additional safeguards or human intervention are
+    required.
+  - Experience designing abstractions and platform capabilities
+    that can support multiple use cases without overfitting to
+    the first one.
+  - Comfort working in ambiguity and turning emerging problems
+    into clear technical decisions, documented patterns, and
+    working systems.
+  - Strong written and verbal communication across engineering,
+    product, security, compliance, and data teams.
+  - A bias toward pragmatism - shipping useful systems, learning
+    from real-world usage, and iterating.
+
+  We also expect depth in several of the following:
+
+  - Agent-based systems, including agent orchestration,
+    tool/function calling, MCP, structured outputs, context
+    management, or similar patterns for connecting models to
+    external systems and data.
+  - AI evaluation systems, including offline evals, regression
+    testing, version comparison, and measuring whether changes
+    improve or degrade system behavior.
+  - AI observability and tracing, including understanding model
+    calls, tool calls, agent execution paths, failures,
+    latency, and production behavior. Experience with
+    platforms or standards such as LangSmith, Braintrust,
+    Arize Phoenix, OpenTelemetry, or similar is valuable.
+
+  EXTRA CREDIT:
+
+  - Experience with gRPC, protobuf, GraphQL, or other strongly
+    typed service interfaces.
+  - Experience with OAuth, delegated authorization, service-to-
+    service authentication, or similar identity and access
+    patterns.
+  - Production experience with retrieval, structured output,
+    classification, or other common LLM application patterns.
+  - Experience building developer platforms or internal platform
+    infrastructure.
+  - Experience in healthcare technology or another highly
+    regulated environment.
+  - Familiarity with HIPAA, PHI, or other sensitive-data
+    requirements.
+  - Experience working with identity or data models that span
+    multiple systems and sources of truth.
+  - Experience with voice AI, such as speech-to-text, text-to-
+    speech, or real-time conversational voice systems.
+
+  Our Stack:
+
+  Rightway's platform spans TypeScript, Node.js, React, React
+  Native, Ruby, PostgreSQL, Kafka, and Kubernetes, with gRPC
+  and protobuf across a distributed set of internal services.
+
+  You do not need experience with every technology in our
+  stack. We care more about strong engineering fundamentals,
+  relevant depth, sound technical judgment, and the ability to
+  learn quickly.
+
+  COMPENSATION: $175,000 - $215,000 annually, in addition to
+  bonus and equity
+
+  Compensation offered will be determined by geographic
+  location, experience, and qualifications.
+
+  CYBERSECURITY AWARENESS NOTICE
+
+  In response to ongoing and industry-wide fraudulent
+  recruitment activities (i.e., job scams), Rightway wants to
+  inform potential candidates that we will only contact them
+  from the @rightwayhealthcare.com email domain. We will never
+  ask for bank details or deposits of any kind as a condition
+  of employment.
+
+  ABOUT RIGHTWAY:
+
+  Rightway is on a mission to harmonize healthcare for
+  everyone, everywhere. Our products guide patients to the
+  best care and medications by inserting clinicians and
+  pharmacists into a patient’s care journey through a modern,
+  mobile app. Rightway is a front door to healthcare, giving
+  patients the tools they need along with on-demand access to
+  Rightway health guides, human experts that answer their
+  questions and manage the frustrating parts of healthcare for
+  them.
+
+  Since its founding in 2017, Rightway has raised over $200mm
+  from investors including Khosla Ventures, Thrive Capital,
+  and Tiger Global. We’re headquartered in New York City, with
+  satellite offices in Denver and Dallas. Our clients rely on
+  us to transform the healthcare experience, improve outcomes
+  for their teams, and decrease their healthcare costs.
+
+  HOW WE LIVE OUR VALUES TO OUR TEAMMATES:
+
+  We’re seeking those with passion for healthcare and
+  relentless devotion to our goal. We need team members that
+  embody our core values:
+
+  1) We are human, first Our humanity binds us together. We
+  bring the same empathetic approach to every individual we
+  engage with, whether it be our members, our clients, or each
+  other. We are all worthy of respect and understanding and we
+  engage in our interactions with care and intention. We honor
+  our stories. We listen to—and hear—each other, we celebrate
+  our differences and similarities, we are present for each
+  other, and we strive for mutual understanding.
+
+  2) We redefine what is possible We always look beyond the
+  obstacles in front of us to imagine new solutions. We
+  approach our work with inspiration from other industries,
+  other leaders, and other challenges. We use ingenuity and
+  resourcefulness when faced with tough problems.
+
+  3) We debate then commit We believe that a spirit of open
+  discourse is part of a healthy culture. We understand and
+  appreciate different perspectives and we challenge our
+  assumptions. When working toward a decision or a new
+  solution, we actively listen to one another, approach it
+  with a “yes, and” mentality, and assume positive intent.
+  Once a decision is made, we align and champion it as one
+  team.
+
+  4) We cultivate grit Changing healthcare doesn’t happen
+  overnight. We reflect and learn from challenges and approach
+  the future with a determination to strive for better. In the
+  face of daunting situations, we value persistence. We
+  embrace failure as a stepping stone to future success. On
+  this journey, we seek to act with guts, resilience,
+  initiative, and tenacity.
+
+  5) We seek to delight Healthcare is complicated and
+  personal. We work tirelessly to meet the goals of our
+  clients while also delivering the best experience to our
+  members. We recognize that no matter the role or team, we
+  each play a crucial part in our members’ care and take that
+  responsibility seriously. When faced with an obstacle, we
+  are kind, respectful, and solution-oriented in our approach.
+  We hold ourselves accountable to our clients and our
+  members’ success.
+
+  Rightway is proud to be an Equal Opportunity Employer that
+  believes in the strength of diverse thought, beliefs,
+  backgrounds, and education. We foster an inclusive culture
+  where differences are celebrated to drive the best business
+  decisions possible. We do not discriminate on any basis
+  protected by applicable law. All employment decisions are
+  based on merit, qualifications, need, and performance.
+industries:
+  - Healthtech
+  - HR Tech
+  - Software
+posted_date: 2026-08-03
+url: "https://www.builtinla.com/job/sr-ai-engineer/10507199"
+source: Built In

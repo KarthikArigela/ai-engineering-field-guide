@@ -1,0 +1,70 @@
+company:
+  name: LogicMonitor
+  stage: null
+  focus: |-
+    AI-first hybrid observability platform for IT infrastructure
+    monitoring
+position:
+  title: Senior Software Engineer, AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      Although much of the role is backend and data engineering
+      for an AI product, the description explicitly has this
+      engineer building retrieval frameworks themselves (data
+      indexing and semantic search, optimizing retrieval, query
+      expansion) and developing Python APIs with LangGraph for LLM
+      orchestration, summarization, and correlation reasoning. Per
+      the backend-engineer edge case, designing retrieval and LLM
+      orchestration flows yourself makes the role ai-first even
+      with a separate AI Platform team owning embeddings and model
+      context.
+  responsibilities:
+  - Design and build streaming and batch data pipelines that process metrics, logs,
+    and events for AI workflows
+  - Develop ETL and feature-extraction pipelines in Python and Java microservices,
+    ingesting observability data into AI-ready formats
+  - Build data orchestration with Kafka, Airflow, and Redis Streams and work with
+    data lakes and warehouses (Delta Lake, Iceberg, ClickHouse)
+  - Develop data indexing and semantic search for large-scale observability data and
+    optimize latency and throughput for retrieval, query expansion, and AI response
+    generation
+  - Build Java microservices (Spring Boot) and Python APIs (FastAPI/LangGraph) for
+    LLM orchestration, summarization, and correlation reasoning serving Edwin AI and
+    AIOps applications
+  - Implement schema contracts and streaming protocols (REST, gRPC, SSE, WebSockets)
+    with fault-tolerant, observable API infrastructure instrumented via OpenTelemetry
+  - Implement data validation, schema evolution, and lineage tracking and enforce
+    data privacy, RBAC, and compliance for model inputs and stored context
+  - Collaborate with the AI Platform team on embeddings, metadata, and model context
+    storage, and with SRE to monitor and optimize end-to-end AI system performance
+  use_cases:
+  - AI-driven observability and AIOps insights (Edwin AI, Dexda) across on-premises,
+    cloud, and edge infrastructure
+  - LLM-powered summarization and correlation reasoning over metrics, logs, and events
+    telemetry
+  - Semantic search and vector retrieval over large-scale observability and operational
+    data
+  - Anticipating infrastructure issues before they strike and optimizing resources
+    in real time
+  - Alert correlation and root cause analysis for faster incident resolution
+  skills:
+    genai: [LangGraph, Semantic Search, Embeddings, LLMs, Generative AI, Query Expansion]
+    ml: [Feature Engineering]
+    web: [FastAPI, Spring Boot, REST, gRPC, WebSockets, SSE, Microservices]
+    databases: [ClickHouse, Vector Search, Redis]
+    data: [Kafka, Spark, Airflow, Data Pipelines, ETL, Data Modeling, Delta Lake,
+      Iceberg, Data Governance]
+    cloud: []
+    ops: [Kubernetes, CI/CD, Containerization, OpenTelemetry]
+    languages: [Python, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8435453'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T01:23:06.659411'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

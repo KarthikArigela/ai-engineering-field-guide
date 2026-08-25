@@ -1,0 +1,62 @@
+company:
+  name: ujet.cx
+  stage: null
+  focus: AI-powered cloud contact center platform
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core deliverable is customer data integration: technical
+      discovery, ingestion pipelines, cloud infrastructure,
+      orchestration, and reconciliation that move data into the
+      Spiral analytics product - the role never shapes model
+      behavior or output quality. LLMs appear only as tools the
+      engineer uses (LLM APIs, AI-assisted coding, prompt design)
+      and as stand-out nice-to-haves, which per the rules makes
+      this ai-support.
+  responsibilities:
+  - Run technical discovery with new customers to scope available data sources, their
+    locations, and how they will reach Spiral
+  - Design customer-specific integration approaches such as cloud-to-cloud bucket
+    access, vendor push uploads, scheduled API pulls, and auth-protected exports
+  - Shepherd credential and access exchange with customers, including OAuth and token-based
+    auth setup and cloud access policies, until access is verified end-to-end
+  - Write and ship production code that adapts each customer's data shape into the
+    ingestion contract through code review and CI
+  - Make infrastructure-as-code changes to provision cloud resources, identity grants,
+    and secrets for each new customer
+  - Configure and operate the orchestration running each customer's recurring ingest
+    and validate it through run history, logs, and metrics
+  - Reconcile ingested data against source-system counts, diagnose discrepancies,
+    and backfill historical gaps
+  - Own post-go-live customer relationships, handling schema changes, new feed requests,
+    data-format drift, and surfacing upsell opportunities
+  use_cases:
+  - 'Conversation analytics over contact center data: voice recordings, chat transcripts,
+    surveys, and ticket data ingested from CCaaS, CRM, and storage systems'
+  - Large-scale transcription and PII redaction of customer interaction data
+  - LLM-based surfacing of user stories, taxonomies, and trends from customer conversations
+  - Decision support for product, support, and CX leaders based on what customers
+    are actually saying at scale
+  - AI-powered contact center automation and customer journey optimization
+  skills:
+    genai: [LLMs, Prompt Engineering, LLM Evaluation, Anthropic API, OpenAI API, AWS
+        Bedrock]
+    ml: []
+    web: [OAuth]
+    databases: [ClickHouse, BigQuery, Snowflake, Redshift, DuckDB]
+    data: [Data Pipelines, ETL, Temporal]
+    cloud: [IAM, Object Storage, AWS CDK]
+    ops: [Terraform, Infrastructure as Code, Git, CI/CD, Code Review]
+    languages: [SQL]
+    domains: []
+    other: [Salesforce, Contact Center]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '9889667'
+  location: Los Angeles, USA
+  extracted_at: '2026-08-16T15:52:57.655482'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

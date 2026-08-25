@@ -1,50 +1,55 @@
 company:
   name: Capital One
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (LLM Customization and Finetuning)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on work with LLMs including
-      foundation model training, inference, fine-tuning,
-      optimization, and deploying production AI systems. The
-      engineer will build and deploy proprietary AI solutions, not
-      just support infrastructure or data pipelines.
+      The role shapes LLM behavior directly: it covers foundation
+      model training, LLM finetuning and customization, building
+      guardrails and model evaluation, and inventing LLM
+      optimization techniques for production systems. With LLMs
+      and foundation models as the explicit target (per the title
+      and responsibilities), Step 2 classifies this as ai-first.
   responsibilities:
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training and LLM inference
-  - Partner with cross-functional teams to deliver AI-powered products that change
-    how associates work and customers interact with Capital One
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, latency, and throughput
-  - Leverage a broad stack of AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate Open Source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Lead and mentor engineering teams while influencing cross-functional stakeholders
+  - Lead and mentor an engineering team and influence cross-functional stakeholders
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Customer service automation including answering questions in real time
-  - Fraud detection and unusual charge notifications
-  - Enterprise AI platforms that empower teams across the company to enhance products
-    with AI capabilities
-  - AI-powered tools that improve how associates work and serve customers
+  - Real-time personalized banking customer experiences
+  - Informing customers about unusual charges on their accounts
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Proprietary AI models and platforms that empower internal teams to enhance products
+    with AI
   skills:
-    domains: []
-    languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, Foundation model training, Fine-Tuning, Similarity
-        search]
     cloud: [AWS, GCP, Azure]
-    genai: [LLM inference, RAG, Guardrails]
-    data: []
-    other: []
-    ops: [Model evaluation, Model optimization, GPU acceleration]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [Foundation Model Training, Model Evaluation, Machine Learning, PyTorch, Hugging
+        Face]
+    other: [Responsible AI]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Fine-Tuning, LLMs, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8406491'
   location: McLean, USA
@@ -53,4 +58,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-02-27T11:53:14.838795'
+  extracted_at: '2026-08-16T01:08:38.054197'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,55 +1,58 @@
 company:
   name: PMG
-  stage: Public
-  focus: Marketing services and technology
+  stage: null
+  focus: |-
+    Global marketing services and technology company with AI-
+    powered Alli platform
 position:
   title: AI & Software Engineer Lead - London
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is primarily a backend software engineering lead
-      position focused on building and maintaining the Alli
-      platform's infrastructure and applications. While the role
-      mentions familiarity with AI technologies like OpenAI,
-      Bedrock, Vertex, and LangChain, the emphasis is on
-      integrating AI-driven solutions rather than directly
-      building, training, or fine-tuning models. The work is more
-      about enabling AI functionality through robust backend
-      systems and APIs.
+      This is a backend software engineer lead role building the
+      Alli marketing platform; AI technologies (OpenAI, Bedrock,
+      Vertex, LangChain, LLMs) appear only as "familiarity"
+      requirements and nice-to-have experience, with no
+      responsibilities for prompt design, retrieval/RAG, agents,
+      fine-tuning, or evals. The deliverable is scalable backend
+      features and architecture that integrate AI-driven solutions
+      others designed, so the role is ai-support.
   responsibilities:
-  - Lead the design, development, and deployment of innovative, scalable features
-    within the Alli suite of AI-powered applications
-  - Draft and implement architectural designs to produce reliable, complex, and highly
-    scalable technical solutions
+  - Lead the design, development, and deployment of scalable features within the Alli
+    suite of applications
+  - Draft and implement architectural designs for reliable, complex, and highly scalable
+    technical solutions
   - Collaborate with Product Managers, Designers, and cross-functional teams to integrate
-    AI-driven solutions that improve performance and drive business outcomes
-  - Build scalable products that drive measurable results for clients in the digital
-    marketing space
-  - Foster a culture of collaboration and innovation by mentoring junior and mid-level
-    engineers and promoting development best practices
-  - Conduct code reviews and provide critical feedback to ensure high-quality, maintainable
-    code across the Alli platform
+    AI-driven solutions that improve performance
+  - Build scalable products that drive measurable results for clients
+  - Mentor junior and mid-level engineers and promote development best practices
+  - Conduct coding, debugging, testing, and troubleshooting across the application
+    development lifecycle
+  - Perform code reviews and provide critical feedback to backend engineers
+  - Pioneer development of state-of-the-art technologies in the marketing technology
+    space
   use_cases:
-  - Digital marketing campaign optimization and management
-  - AI-powered insights and data analytics for marketing performance
-  - Scalable cloud-based marketing technology platform operations
-  - Action-oriented marketing automation and execution
-  - Consumer engagement solutions reaching global audiences
+  - AI-powered digital marketing tools in the Alli platform
+  - Digital campaign management reaching over 1 billion consumers across 80+ countries
+  - Marketing platform pillars spanning Actions, Data, and Insights
+  - Connecting brands with audiences through innovative media strategies
   skills:
-    domains: []
-    languages: [Python, Node.js, Go, JavaScript]
+    cloud: [AWS, GCP, Vertex AI]
+    languages: [Python, JavaScript, Node.js, Go]
     ml: []
-    cloud: [AWS, GCP]
-    genai: [OpenAI API, AWS Bedrock, Google Vertex AI, LangChain, LLMs]
-    data: []
-    other: []
-    ops: [Docker, Kubernetes, Terraform, Ansible, Git, CI/CD, Grafana, Prometheus,
+    other: [Agile]
+    ops: [Git, GitHub, CI/CD, Terraform, Ansible, Docker, Kubernetes, Grafana, Prometheus,
       ELK Stack]
-    web: [React, Django, Flask, Express.js, REST APIs, WebSockets]
     databases: [PostgreSQL, MongoDB, Redis, MySQL, BigQuery, Snowflake, Redshift]
+    domains: []
+    web: [Django, Flask, Express.js, REST APIs, Microservices, WebSockets, React]
+    data: []
+    genai: [OpenAI API, AWS Bedrock, LangChain, LLMs]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8549083'
   location: London, GBR
-  extracted_at: '2026-02-27T13:22:40.161606'
+  extracted_at: '2026-08-16T02:22:17.548394'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

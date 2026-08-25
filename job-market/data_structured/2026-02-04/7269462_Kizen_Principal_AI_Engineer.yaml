@@ -1,56 +1,60 @@
 company:
   name: Kizen
-  stage: Series B
-  focus: AI-powered workflow automation platform for enterprises
+  stage: null
+  focus: AI-first enterprise workflow automation and data platform
 position:
   title: Principal AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves direct hands-on work building,
-      architecting, and deploying AI systems including RAG
-      systems, multi-agent architectures, LLM fine-tuning, and
-      LLM-powered applications. This is core AI/ML development
-      work, not infrastructure or support.
+      The role directly shapes LLM behavior: designing and
+      implementing production RAG systems, architecting multi-
+      agent AI systems, leading LLM fine-tuning (RLHF, PEFT,
+      LoRA), prompt engineering, and optimizing LLM output
+      quality, cost, and reliability. Per Step 2, LLM/agent
+      components are central, making this ai-first.
   responsibilities:
-  - Lead the design and implementation of production-ready RAG systems integrating
-    with Django, Kafka, PostgreSQL, and Clickhouse
-  - Architect multi-agent AI systems that operate within platform constraints and
-    deliver business value
+  - Lead the design and implementation of production-ready RAG systems integrated
+    with backend infrastructure using Django, Kafka, PostgreSQL, and ClickHouse
+  - Architect multi-agent AI systems and highly scalable LLM-powered systems for enterprise-level
+    workloads
+  - Lead LLM fine-tuning initiatives including RLHF, PEFT, and LoRA to customize models
+    for specific business domains
   - Design and implement sophisticated vector search solutions, including graph-based
     RAG systems
-  - Architect and build highly scalable LLM-powered systems for enterprise-level workloads
-  - Lead LLM fine-tuning initiatives using RLHF, PEFT, and LoRA for specific business
-    domains
-  - Optimize LLM performance, cost, and reliability in production environments with
-    caching and vector store optimizations
-  - Establish MLOps best practices using Langfuse or LiteLLM for model monitoring
-    and evaluation
-  - Mentor junior engineers in AI/ML best practices and provide technical direction
-    for AI initiatives
+  - Optimize LLM performance, cost, and reliability in production environments
+  - Establish MLOps best practices using platforms like Langfuse or LiteLLM for model
+    monitoring and evaluation
+  - Design user feedback and evaluation systems to continuously improve AI system
+    quality
+  - Mentor junior engineers, lead AI system architecture decisions, and drive product
+    strategy with technical roadmaps
   use_cases:
-  - Automating insurance contracting and commissions workflows
+  - Workflow automation for insurance agents covering contracting and commissions
+    management
   - Enabling healthcare providers to deliver proactive patient care
-  - Financial document classification and automated data extraction
-  - Enterprise workflow automation using pre-built AI agents and use cases
-  - Low-code platform for business users to customize dashboards and AI agents
-  - Developer platform for building enterprise applications on AI-first architecture
+  - Automatic document classification and data extraction for financial institutions
+  - Building enterprise applications with pre-built AI agents and low-code customization
+  - Domain-customized LLM systems for large enterprise data in healthcare, finance,
+    and banking
   skills:
-    domains: [NLP]
-    languages: [Python]
-    ml: [LLM fine-tuning, LoRA, RLHF, PyTorch, TensorFlow, Transformers, graph algorithms,
-      A/B testing]
     cloud: [AWS]
-    genai: [RAG, graph-based RAG, Multi-Agent Systems, Prompt Engineering, OpenAI
-        API, Anthropic API, Llama]
-    data: [Kafka]
-    other: []
-    ops: [Docker, Kubernetes, Langfuse, LiteLLM, MLOps]
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, PyTorch, TensorFlow, Transformers, NLP]
+    other: [A/B Testing, Graph Algorithms]
+    ops: [Docker, Kubernetes, MLOps, Langfuse, LiteLLM, Model Monitoring, Distributed
+        Systems]
+    databases: [PostgreSQL, ClickHouse, Vector Search, Vector Databases]
+    domains: []
     web: [Django]
-    databases: [Vector Databases, PostgreSQL, ClickHouse]
+    data: [Kafka, Data Pipelines]
+    genai: [RAG, Generative AI, LLMs, Prompt Engineering, Fine-Tuning, RLHF, LoRA,
+      Multi-Agent Systems, OpenAI API, Anthropic API, Llama, LLM Evaluation, Human-in-the-Loop]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7269462'
   location: Los Angeles, USA
-  extracted_at: '2026-02-05T10:32:54.780322'
+  extracted_at: '2026-08-15T21:27:30.229475'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

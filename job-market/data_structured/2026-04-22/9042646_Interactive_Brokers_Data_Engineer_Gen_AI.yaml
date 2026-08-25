@@ -1,61 +1,65 @@
 company:
   name: Interactive Brokers
-  stage: Public
-  focus: Global electronic brokerage and financial services
+  stage: 'Publicly traded (Nasdaq: IBKR)'
+  focus: |-
+    Global electronic brokerage and financial services
+    technology
 position:
   title: Data Engineer (Gen AI)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a data engineering position focused
-      on building data pipelines, data lake infrastructure, and
-      ETL processes that feed into AI/ML applications and RAG
-      workflows. While it supports GenAI initiatives (RAG
-      workflows, knowledge bases), the core work is data
-      infrastructure and pipeline engineering — enabling others
-      who build AI systems rather than directly building,
-      training, or fine-tuning models.
+      The role builds data pipelines, data lake infrastructure,
+      and ingestion applications that feed Gen AI RAG workflows
+      built by others; it does not write prompts, design
+      retrieval, train models, or otherwise shape model behavior.
+      AI/ML appears only as a downstream consumer of the data and
+      as a subject the engineer is willing to learn, so this is
+      ai-support.
   responsibilities:
-  - Design, build, and maintain scalable data crawlers and ETL/ELT pipelines to ingest
+  - Design, build, and maintain scalable data crawlers and ETL/ELT pipelines ingesting
     data from enterprise collaboration tools, web applications, and internal databases
   - Develop and manage data lake platform infrastructure including S3-based storage,
-    Iceberg tables, AWS Glue data catalog, and cloud data warehouse solutions
+    Iceberg tables, AWS Glue data catalog, and cloud data warehouse solutions for
+    analytics workloads
   - Build and optimize real-time streaming data pipelines using Kafka for event-driven
     analytics and data processing
-  - Create and maintain data transformation pipelines to clean, curate, and prepare
-    data for analytics and AI/ML applications across structured, semi-structured,
-    and unstructured data formats
+  - Create data transformation pipelines to clean, curate, and prepare data for analytics
+    and AI/ML applications across structured, semi-structured, and unstructured formats
+    including text, images, audio, and video
   - Develop Python-based applications for data ingestion, processing, and integration
-    supporting GenAI RAG workflows and knowledge base systems
+    supporting Gen AI RAG workflows and knowledge base systems
   - Collaborate with internal development teams, data scientists, and stakeholders
-    to architect data solutions and create technical documentation
+    to architect data solutions and create comprehensive technical documentation
   - Monitor, troubleshoot, and optimize data pipelines for performance, reliability,
     and data quality
-  - Write clean, maintainable, well-tested code following software engineering and
-    data engineering best practices
+  - Write clean, maintainable, well-tested code following software and data engineering
+    best practices
   use_cases:
-  - Data pipeline infrastructure to support enterprise-wide AI/ML initiatives
-  - GenAI RAG workflow data preparation and knowledge base systems
-  - Real-time event-driven analytics and data processing
-  - Data lake platform for structured, semi-structured, and unstructured data (text,
-    images, audio, video)
-  - Enterprise data ingestion from collaboration tools, web applications, and internal
+  - Enterprise data lake platform supporting organization-wide analytics workloads
+  - Data ingestion from enterprise collaboration tools, web applications, and internal
     databases
+  - Real-time streaming and event-driven data processing
+  - Data preparation and curation for AI/ML applications
+  - Gen AI RAG workflows and enterprise knowledge base systems
+  - Multi-modal data processing covering text, images, audio, and video
   skills:
-    domains: []
+    cloud: [AWS, AWS S3, AWS Glue, Amazon Athena, Amazon EMR, AWS Lambda]
     languages: [Python, SQL]
     ml: []
-    cloud: [AWS S3, AWS Glue, AWS Athena, AWS EMR, AWS Lambda]
-    genai: [RAG workflows]
-    data: [PySpark, Kafka, Data Pipelines, Data Modeling, Data lake architecture,
-      Streaming data pipelines]
     other: []
-    ops: [Docker, CI/CD, Git]
+    ops: [CI/CD, Git, Docker]
+    databases: []
+    domains: []
     web: []
-    databases: [Apache Iceberg, Data warehousing]
+    data: [Data Pipelines, PySpark, Kafka, Data Modeling, Data Warehousing, Apache
+        Iceberg]
+    genai: [RAG, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9042646'
   location: New York, USA
-  extracted_at: '2026-04-22T13:15:41.178345'
+  extracted_at: '2026-08-16T07:24:30.582064'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

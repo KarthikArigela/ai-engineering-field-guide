@@ -1,52 +1,58 @@
 company:
   name: Solo.io
-  stage: Series B+ (valued at $1B in 2021)
+  stage: VC-backed; valued at $1B in 2021
   focus: |-
-    Cloud-native AI infrastructure, API gateways, service mesh,
-    and proxy solutions
+    Cloud-native API gateways, service mesh, and AI
+    infrastructure
 position:
   title: Senior AI Software Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building and contributing to AI
-      infrastructure products like kagent (Kubernetes-based AI
-      orchestration), agentgateway (AI proxy workflows), and
-      working with AI protocols like MCP and A2A. The role
-      combines deploying AI solutions with core infrastructure
-      work, making it ai-first rather than ai-support.
+      The role builds cloud-native infrastructure (gateways,
+      proxies, service mesh, Kubernetes orchestration platforms
+      like kagent and agentgateway) that AI workloads travel over,
+      not model behavior. No prompt engineering, RAG design,
+      agent-flow authoring, fine-tuning, or eval work appears in
+      the responsibilities; the core requirements are Go,
+      Kubernetes, and containers, with MCP/A2A/agentic frameworks
+      listed only as bonus experience. The deliverable is
+      infrastructure capacity and routing for AI traffic, so this
+      is ai-support.
   responsibilities:
-  - Build and contribute to AI infrastructure projects including kagent, agentgateway,
-    and kgateway
-  - Manage and optimize APIs within cloud-native environments for seamless user experience
-  - Deliver high-quality solutions to complex customer technical problems
-  - Transform ambiguous requirements into actionable high-impact deliverables
-  - Introduce and uphold best practices for codebase health and maintainability
-  - Act as mentor during code and design reviews
-  - Participate in hiring process to scale the engineering team
-  - Work with customers and contribute to open source projects
+  - Deliver high-quality solutions to complex technical problems customers face
+  - Manage and optimize APIs within evolving cloud-native environments
+  - Transform ambiguous requirements into actionable, high-impact tasks
+  - Propose ambitious and innovative solutions to drive the product forward
+  - Introduce and uphold engineering best practices for codebase health and maintainability
+  - Mentor teammates through constructive code and design reviews
+  - Participate in the hiring process to scale the engineering team
+  - Contribute to OSS projects (kagent, agentgateway, kgateway) and review customer
+    feedback to improve adoption and usability
   use_cases:
-  - Kubernetes-based AI orchestration and agent workflows
-  - AI proxy and gateway infrastructure for production AI workloads
-  - Service mesh integration for AI applications
-  - Cloud-native API management at scale
-  - Bridging AI projects from pilot to production
+  - Kubernetes-based AI agent orchestration (kagent)
+  - Proxies and gateways purpose-built for AI workflows (agentgateway)
+  - API gateway handling billions of API calls (kgateway)
+  - Sidecar-less service mesh for resource-efficient networking (Istio Ambient Mesh)
+  - Bridging enterprise GenAI projects from pilot to production
   skills:
-    domains: []
+    cloud: []
     languages: [Go]
     ml: []
-    cloud: [Kubernetes, Kubernetes controllers, Kubernetes operators, Kubernetes Gateway
+    other: [GlooShot]
+    ops: [Kubernetes, Docker, Istio, Service Mesh, Envoy, Kubernetes Operators, Gateway
         API]
-    genai: [MCP, A2A, Agentic frameworks, ADK]
-    data: []
-    other: []
-    ops: [Envoy, Istio, Docker, Service mesh]
-    web: [API gateways]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: [MCP, A2A, Google ADK, Agentic Frameworks]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8830427'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T16:11:53.450166'
+  extracted_at: '2026-08-16T04:52:49.073404'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

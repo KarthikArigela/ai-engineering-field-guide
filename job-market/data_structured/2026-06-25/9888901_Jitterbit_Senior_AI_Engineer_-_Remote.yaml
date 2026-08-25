@@ -1,51 +1,55 @@
 company:
   name: Jitterbit
-  stage: Private
-  focus: iPaaS, API management, and business process automation
+  stage: null
+  focus: |-
+    Integration, API management, and business process automation
+    (iPaaS)
 position:
   title: Senior AI Engineer - Remote
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves building, designing, and architecting AI
-      capabilities including LLM, RAG, LangChain, LlamaIndex, and
-      Azure AI/AWS Bedrock on the platform. The engineer will
-      directly work with AI models and GenAI technologies to
-      create robust, scalable AI systems.
+      The role explicitly requires designing and architecting AI
+      capabilities using LLMs, RAG, LangChain, and LlamaIndex on
+      the Jitterbit platform, meaning the engineer shapes LLM
+      behaviour through retrieval and GenAI patterns rather than
+      merely consuming an API. With a clear LLM/generative
+      component involved, this classifies as ai-first.
   responsibilities:
-  - Build, design, and architect AI capabilities on the Jitterbit iPaaS platform
-  - Develop robust and scalable AI-driven applications using LLM, RAG, and related
-    technologies
-  - Create AI systems that run seamlessly 24/7/365 for enterprise customers
-  - Collaborate with cross-functional teams including engineers, product management,
-    and operations to define and ship new features
-  - Mentor and help other engineers grow professionally
-  - Design microservices and cloud-based architectures for multi-tenant SaaS applications
-  - Build and maintain ETL processes, data pipelines, and data warehousing solutions
-  - Stay current with emerging trends in AI and cloud computing
+  - Build, design, and architect AI capabilities including LLM and RAG features on
+    the Jitterbit platform
+  - Create robust, scalable AI-driven applications that run reliably 24/7/365
+  - Design and develop multi-tenant SaaS and cloud-based distributed applications
+  - Collaborate with engineers, product management, and operations in a distributed
+    remote team
+  - Mentor and help other engineers and developers grow
+  - Define, design, and ship new features with cross-functional teams
+  - Stay current with emerging trends and technologies in AI and cloud computing
   use_cases:
-  - AI-powered business process automation for enterprise iPaaS platform
-  - Intelligent integration of critical business systems using LLM and RAG
-  - Automated API creation and management with AI capabilities
-  - AI-driven low-code application platform features
-  - Scalable AI systems for multi-tenant SaaS environments
+  - Business process automation for enterprises via an iPaaS platform
+  - AI-driven integration and automation of customers' systems
+  - Low-code application creation and API management
+  - Mission-critical B2B workflow automation
   skills:
+    cloud: [Azure AI, AWS Bedrock, AWS]
+    languages: [Python, Java, C++]
+    ml: [Transformers, spaCy, NLTK]
+    other: [Multi-Tenant SaaS Applications, Security Best Practices]
+    ops: [Linux, Nginx, Apache Tomcat, Apache, Docker, Kubernetes, TensorFlow Serving,
+      MLflow, Model Deployment, CI/CD, Jenkins, GitLab CI, CircleCI, Terraform, CloudFormation,
+      Infrastructure as Code, Distributed Systems]
+    databases: [MongoDB, AWS DocumentDB, SQL Server, MySQL, Redis, Elasticsearch,
+      InfluxDB]
     domains: [NLP]
-    languages: [Python, Java, C++, SQL]
-    ml: [spaCy, NLTK, Hugging Face]
-    cloud: [AWS, AWS Bedrock, Azure AI]
-    genai: [LLMs, RAG, LangChain, LlamaIndex, OpenAI API]
+    web: [Microservices]
     data: [Kafka, Data Pipelines, Data Warehousing]
-    other: []
-    ops: [TensorFlow Serving, MLflow, Docker, Kubernetes, Nginx, Apache Tomcat, Jenkins,
-      GitLab CI, CircleCI, Terraform, CloudFormation, CI/CD, Linux]
-    web: []
-    databases: [Elasticsearch, InfluxDB, Redis, MySQL, MongoDB, AWS DocumentDB, SQL
-        Server]
+    genai: [LLMs, RAG, LangChain, LlamaIndex, OpenAI API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9888901'
   location: Bengaluru, IND
   remote: true
-  extracted_at: '2026-06-25T19:56:02.931869'
+  extracted_at: '2026-08-16T15:51:39.902306'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

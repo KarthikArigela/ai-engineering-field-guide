@@ -1,0 +1,58 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Financial services and banking technology
+position:
+  title: Senior Lead Software Engineer, Full Stack (AI Platform & Knowledge Library)
+    (Enterprise Platforms Technology)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and tunes RAG pipelines (chunking,
+      embeddings, hybrid search), treats prompts as versioned
+      artifacts with evaluation loops, and builds LLM-as-judge
+      validators - clearly shaping LLM behavior, making it ai-
+      first.
+  responsibilities:
+  - Design and build the Content Moderation Knowledge Library, a RAG-backed corpus
+    of regulatory, brand, claims, and marketing context
+  - Own the embedding search pipeline including chunking strategy, embedding model
+    selection, index refresh, and hybrid search
+  - Lead Prompt MLOps, treating prompts as versioned artifacts and owning the evaluation
+    loop for generation quality
+  - Own AI content compliance and generation platform APIs as shared capabilities
+    across engineering teams
+  - Design the agentic critic validation stream combining deterministic validators
+    and LLM-as-judge semantic validators
+  - Lead technical design, architecture documents, design reviews, and mentor engineers
+    on RAG and eval methodology
+  use_cases:
+  - AI-generated compliant, on-brand marketing content at enterprise scale
+  - Content moderation knowledge library grounding generation in regulatory and brand
+    rules
+  - Automated content validation including compliance, sensitive data, and claims
+    checks
+  - Shared knowledge platform reusable across channels and product lines
+  skills:
+    genai: [RAG, Embeddings, Prompt Engineering, LLMs, LLM Evaluation, Agentic Workflows]
+    ml: [Applied AI/ML]
+    web: [APIs]
+    databases: [OpenSearch, Pinecone, pgvector, Weaviate, Vector Search]
+    data: []
+    cloud: [AWS, AWS S3, AWS Lambda, Azure, GCP]
+    ops: []
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10528650'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - Richmond, USA
+  - New York, USA
+  extracted_at: '2026-08-25T10:34:34.583931'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

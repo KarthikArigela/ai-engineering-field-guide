@@ -1,49 +1,56 @@
 company:
   name: ChargePoint
-  stage: Public
-  focus: EV charging network and infrastructure solutions
+  stage: 'Publicly traded (NYSE: CHPT)'
+  focus: EV charging network with hardware and software solutions
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on development of AI systems
-      including Voice AI, Computer Vision, and Conversational AI.
-      The position requires direct work with LLMs (LangChain,
-      LangGraph, RAG architectures), model fine-tuning
-      (LoRA/QLoRA), and building production AI systems - all core
-      AI/ML development activities.
+      The role hands-on shapes LLM behavior through prompt
+      engineering, RAG architecture design, LangChain/LangGraph
+      systems, LoRA/QLoRA fine-tuning, and RLHF-style preference
+      tuning. LLM and agent components dominate, so it is ai-first
+      even though the role also spans classical computer vision
+      and speech work (a role shaping both LLM and classical ML
+      systems is ai-first).
   responsibilities:
-  - Lead development of AI solutions across Voice AI, Computer Vision, and Conversational
+  - Lead the development of AI solutions across Voice AI, Computer Vision, and Conversational
     AI domains
-  - Architect and build production-grade AI systems for monitoring and analytics platform
-  - Design and deploy AI-powered solutions to improve customer support experiences
-  - Enable intelligent automation across EV charging infrastructure
-  - Collaborate with cross-functional teams to integrate AI solutions
-  - Optimize AI system performance including low-latency inference and caching strategies
-  - Build scalable data pipelines for AI/ML systems working with massive datasets
+  - Architect and build production-grade AI systems that enhance the monitoring and
+    analytics platform
+  - Build AI-powered solutions that improve customer support experiences
+  - Enable intelligent automation across the EV charging infrastructure
+  - Collaborate with cross-functional teams to design, build, and deploy AI-powered
+    solutions for EV drivers and operators
+  - Build production LLM systems focused on low-latency inference, caching strategies,
+    and observability
   use_cases:
-  - Voice AI for customer support and telephony integrations
-  - Computer vision for EV charging infrastructure monitoring
-  - Conversational AI for intelligent customer interactions
-  - Analytics and monitoring platform enhancement for EV charging network
+  - Voice AI and telephony-based support for EV charging customers
+  - Computer vision and image processing for EV charging infrastructure
+  - Conversational AI to improve customer support experiences
+  - Network monitoring and analytics for the EV charging platform
   - Intelligent automation across EV charging operations
+  - Semantic search and RAG-based retrieval over operational knowledge
   skills:
-    domains: [Computer Vision, NLP]
-    languages: [Python]
-    ml: [LoRA, RLHF]
     cloud: [AWS, GCP]
-    genai: [LangChain, LangGraph, Amazon Bedrock, OpenAI API, Prompt Engineering,
-      RAG]
-    data: [Kafka, RabbitMQ, Airflow, dbt, Trino, Iceberg]
-    other: [Genesys, SIP]
-    ops: [Docker, Kubernetes, CI/CD]
-    web: [FastAPI, Django]
-    databases: [Elasticsearch, Qdrant, Chroma, Pinecone, PostgreSQL, Redis, MongoDB,
-      ClickHouse]
+    languages: [Python]
+    ml: [Speech Processing, Image Processing, Vision Transformers]
+    other: [Event-Driven Architecture, Genesys, SIP]
+    ops: [Docker, Kubernetes, CI/CD, Observability, Monitoring, Distributed Systems]
+    databases: [Elasticsearch, Vector Search, Vector Databases, Qdrant, Chroma, Pinecone,
+      PostgreSQL, Redis, MongoDB, ClickHouse]
+    domains: [Computer Vision]
+    web: [FastAPI, Django, Microservices]
+    data: [Kafka, RabbitMQ, Airflow, dbt, Trino, Apache Iceberg, Data Pipelines]
+    genai: [LangChain, LangGraph, AWS Bedrock, OpenAI API, Prompt Engineering, RAG,
+      LLMs, Generative AI, Conversational AI, Voice AI, AI Agents, Embeddings, Semantic
+        Search, Fine-Tuning, LoRA, RLHF, Model Alignment]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8803156'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T14:51:45.720354'
+  extracted_at: '2026-08-16T04:39:34.012120'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,45 +1,47 @@
 company:
   name: Infinity Constellation
-  stage: Seed
-  focus: AI employees for SMBs with agentic workflows
+  stage: startup
+  focus: Agentic AI employees and AI teammates for SMBs
 position:
   title: Junior AI Platform Engineer - Supernal
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves building advanced AI agent workflows using
-      N8n and designing agentic systems with RAG, function-
-      calling, and LLM orchestration. This is hands-on work
-      directly implementing AI systems, not supporting
-      infrastructure for others.
+      The role directly shapes LLM/agent behavior: building
+      agentic workflows on N8n, owning RAG design, tool usage,
+      task decomposition, and applying prompt engineering,
+      function calling, and LLM orchestration. This is hands-on
+      shaping of AI agent systems, so it is ai-first.
   responsibilities:
   - Build advanced AI agent workflows on N8n and Supernal's proprietary platform
-  - Lead engineering delivery for highest-priority customers
+  - Lead engineering delivery for the company's highest-priority customers
   - Own technical architecture decisions for agentic systems including tool usage,
     RAG design, API orchestration, and task decomposition
   - Define, document, and evolve engineering best practices
   - Review technical work for quality, scalability, and maintainability
   - Contribute to internal tooling and system improvements that accelerate agent deployment
+  - Debug and optimize edge cases, flaky agents, and unreliable API behavior
   use_cases:
-  - AI employees for SMBs to automate business operations
-  - Agentic workflows powered by LLM orchestration
-  - RAG-based systems for knowledge retrieval and task completion
-  - Function-calling and API orchestration for business process automation
-  - Scalable agent systems for real business outcomes
+  - AI employees/teammates that SMBs hire to perform business work
+  - Agentic workflow automation driving real business outcomes
+  - Tool usage and API orchestration by AI agents to complete tasks
+  - Retrieval-augmented generation powering agent knowledge and decisions
   skills:
-    domains: []
-    languages: [Python, TypeScript]
-    ml: []
     cloud: []
-    genai: [agentic architectures, Prompt Engineering, Function Calling, RAG, LLMs]
-    data: [n8n]
-    other: [Workflow Automation]
+    languages: []
+    ml: []
+    other: [n8n, Zapier, Make]
     ops: []
-    web: [APIs, REST]
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [Agentic Workflows, Prompt Engineering, Function Calling, RAG, LLMs]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '7957789'
   location: USA
-  extracted_at: '2026-02-05T11:44:17.461547'
+  extracted_at: '2026-08-15T22:23:49.133498'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

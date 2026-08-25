@@ -1,20 +1,21 @@
 company:
   name: PwC
-  stage: Public
-  focus: 'Professional services: audit, assurance, and consulting'
+  stage: null
+  focus: Audit, assurance, and professional services
 position:
   title: AI Engineer / Data Scientist, AI Senior Associate
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an AI governance and compliance role within an audit
-      and assurance team. The responsibilities focus on
-      evaluating, assessing, and ensuring compliance of AI
-      solutions rather than building, training, or deploying
-      models. The role involves managing AI/ML controls,
-      governance frameworks, and reporting processes to support
-      audit functions, which is supporting AI work rather than
-      hands-on model development.
+      This is an AI governance, compliance, and validation role
+      within PwC's audit practice: the person evaluates AI
+      solutions against governance standards, manages AI/ML
+      controls, and improves transparency and reporting rather
+      than shaping model behavior. Per the edge cases,
+      governance/validation/QA oversight of models is ai-support
+      unless the person builds the evals or guardrails themselves;
+      here they apply existing model evaluation frameworks and
+      testing protocols for audit and compliance purposes.
   responsibilities:
   - Evaluate and assess AI solutions to confirm compliance with governance standards
   - Lead initiatives for managing AI/ML controls across diverse teams
@@ -22,29 +23,31 @@ position:
   - Collaborate with stakeholders to develop innovative thought leadership
   - Analyze and interpret data to inform governance strategies
   - Provide guidance on recommended practices for AI compliance
-  - Support the implementation of impactful reporting frameworks
-  - Drive continuous improvement in AI governance practices
+  - Support implementation of reporting frameworks and drive continuous improvement
+    in AI governance practices
   use_cases:
-  - AI governance and compliance auditing for financial services
-  - Risk assessment and control testing for AI/ML systems
-  - Transparency and reporting for AI project governance
-  - Evaluation of AI solutions in audit and assurance contexts
-  - Data-driven governance strategy development
-  - Compliance monitoring for emerging AI technologies
+  - Evaluating AI solutions used in audit and assurance for governance compliance
+  - Managing AI/ML controls and risk across client engagements
+  - Enhancing transparency and reporting for AI projects
+  - Analyzing data to inform AI governance and compliance strategies
+  - Validating and testing AI/ML models against regulatory and audit standards
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [AI/ML model testing and validation, Model evaluation frameworks]
     cloud: []
-    genai: []
-    data: [Data science lifecycle, Data Governance, Data analytics, Data wrangling]
-    other: [Risk management, Controls testing, Responsible AI]
-    ops: [Model Deployment, Automation tools]
-    web: []
+    languages: []
+    ml: [Machine Learning, Model Evaluation]
+    other: [Data Science, Responsible AI, Risk Management, Controls Testing, Advanced
+        Analytics]
+    ops: [Model Deployment]
     databases: []
+    domains: []
+    web: []
+    data: [Data Governance, Data Wrangling]
+    genai: []
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '9540364'
   location: Los Angeles, USA
-  extracted_at: '2026-05-29T08:53:58.464863'
+  extracted_at: '2026-08-16T12:24:51.332644'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

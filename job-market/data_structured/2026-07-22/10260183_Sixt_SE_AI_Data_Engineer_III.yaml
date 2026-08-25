@@ -1,54 +1,61 @@
 company:
   name: Sixt SE
-  stage: Public
-  focus: Global mobility and car rental services
+  stage: null
+  focus: |-
+    Global mobility platform spanning car rental, sharing, ride
+    and subscription services
 position:
   title: AI Data Engineer III
   ai_type:
     type: ai-first
     reasoning: |-
-      While the title is "AI Data Engineer," the role involves
-      hands-on design and implementation of multi-agent workflows,
-      RAG pipelines, semantic search, and LLM-driven agents for
-      data operations. The candidate is expected to directly build
-      and orchestrate AI/agentic systems, making this ai-first
-      despite the data engineering focus.
+      The role designs multi-agent workflows orchestrating LLM-
+      driven agents across data operations and builds RAG
+      pipelines and semantic search over the Data Catalogue,
+      directly shaping LLM/agent behavior and output quality with
+      structured quality gates rather than merely consuming an AI
+      API. Since LLM and agent components are central to the
+      responsibilities, it classifies as ai-first despite the data
+      engineering title.
   responsibilities:
-  - Lead and implement AWS and big data technologies to build integrations for the
-    SIXT Data Shop
+  - Lead, explore, and implement the latest AWS and big data technologies to build
+    integrations for the SIXT Data Shop
   - Partner with Data Engineers, BI Analysts, and Data Scientists to architect solutions
-    for analytical use cases including dashboarding, ad hoc analytics, and machine
-    learning
-  - Design and implement multi-agent workflows that automate end-to-end data operations
-    from ingestion and transformation to quality validation and distribution
-  - Drive adoption of LLM-augmented data capabilities including RAG pipelines, semantic
-    search over the Data Catalogue, and AI-assisted self-service experiences
+    for analytical use cases including dashboarding, ad hoc analytics, data-as-a-product,
+    and machine learning
   - Contribute to the Data Platform vision and roadmap through expertise and innovative
     ideas
-  - Build and maintain data models using ELT methodologies from source systems to
-    analytical dashboards
+  - Design and implement multi-agent workflows automating end-to-end data operations
+    from ingestion and transformation to quality validation and distribution, with
+    clear specs, acceptance criteria, and quality gates
+  - Drive adoption of LLM-augmented data capabilities within the SIXT Data Shop, including
+    RAG pipelines and semantic search over the Data Catalogue
+  - Deliver AI-assisted self-service experiences for internal data consumers
   use_cases:
-  - Automated end-to-end data operations using multi-agent workflows
-  - Semantic search over enterprise data catalogue
-  - RAG-powered data discovery and self-service analytics for internal consumers
-  - Real-time machine learning capabilities on a global mobility data platform
-  - AI-assisted data quality validation and pipeline automation
-  - Data-as-a-product and dashboarding for business intelligence
+  - Automated end-to-end data operations covering ingestion, transformation, quality
+    validation, and distribution via multi-agent workflows
+  - RAG pipelines and semantic search over the Data Catalogue for data discovery
+  - AI-assisted self-service analytics experiences for internal consumers in the SIXT
+    Data Shop
+  - Real-time ML enablement and dashboarding on the central data platform
+  - Data-as-a-product and ad hoc analytics supporting a global mobility business
   skills:
-    genai: [RAG, LLMs, Multi-Agent Systems, Semantic Search, Agentic Workflows, AI
-        Agents]
-    ml: []
-    web: []
-    databases: [Redshift, Snowflake, Vector Databases, Graph Databases, BigQuery]
-    data: [dbt, Airflow, Data Pipelines, Data Engineering, ELT]
     cloud: [AWS]
-    ops: [CI/CD, Jenkins, GitHub]
     languages: [Python, SQL]
+    ml: [Machine Learning]
+    other: [Agile, Code Review, Data Management]
+    ops: [GitHub, CI/CD, Jenkins, Distributed Systems]
+    databases: [Data Warehouses, Redshift, Snowflake, Vector Databases, Graph Databases]
     domains: []
-    other: [Distributed Systems, Agile, Code Review]
+    web: []
+    data: [Big Data, Data Lakes, Data Pipelines, dbt, Airflow, Data Engineering, Data
+        Quality]
+    genai: [AI Coding Assistants, Agentic Workflows, LLMs, RAG, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10260183'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:37:18.877295'
+  extracted_at: '2026-08-16T18:16:13.601851'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

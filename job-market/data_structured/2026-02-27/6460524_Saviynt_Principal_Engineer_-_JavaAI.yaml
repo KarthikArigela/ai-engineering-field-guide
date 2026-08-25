@@ -1,51 +1,50 @@
 company:
   name: Saviynt
-  stage: Growth (high-growth PaaS company)
+  stage: null
   focus: |-
-    AI-powered identity governance and security platform for
-    enterprise access management
+    AI-powered enterprise identity security and governance
+    platform
 position:
   title: Principal Engineer - Java/AI
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general Java software engineering role building
-      enterprise identity management solutions. While the
-      company's product is "AI-powered" and candidates need
-      experience with AI productivity tools like GitHub Copilot,
-      the role itself involves building SaaS identity platform
-      features, not developing, training, or deploying AI/ML
-      models. The AI is a product feature, not the engineering
-      focus.
+      This is a Java/Spring backend engineering role building
+      enterprise identity SaaS. The only AI involvement is hands-
+      on use of AI coding assistants (Amazon Q, GitHub Copilot,
+      Cursor) as SDLC productivity tools, which per the rules does
+      not constitute shaping model behaviour. No prompts,
+      retrieval, agents, fine-tuning, or evals are part of the
+      role.
   responsibilities:
-  - Participate in requirements analysis for enterprise identity solutions
+  - Participate in requirements analysis
   - Collaborate with internal teams to produce software design and architecture
-  - Develop state-of-the-art enterprise identity cloud solutions using Java and microservices
-  - Test and deploy applications and systems on cloud platforms
-  - Revise, update, refactor and debug code across existing services
+  - Develop state-of-the-art enterprise identity cloud solutions
+  - Test and deploy applications and systems
+  - Revise, update, refactor and debug code in new and existing services
   - Develop documentation throughout the software development life cycle
   - Serve as an expert on applications and provide technical support
-  - Build and maintain SaaS software following agile principles
   use_cases:
   - Enterprise identity governance and access management
-  - Human and non-human identity security
-  - Application and data access control
-  - Compliance and security policy enforcement
-  - Cloud-based identity platform for Fortune 500 and government institutions
+  - Managing human and non-human access to applications, data, and business processes
+  - Safeguarding customer digital assets and reducing compliance costs
+  - Helping organizations safely accelerate AI deployment and usage
   skills:
-    domains: []
-    languages: [Java]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [Amazon Q, GitHub Copilot, Cursor]
+    languages: [Java, SQL, Groovy]
+    ml: []
+    other: [Security, Agile, Kanban, JUnit, Maven, Ant, IntelliJ, Eclipse]
+    ops: [Docker, Kubernetes, CI/CD, Git]
+    databases: [Elasticsearch, Redis]
+    domains: []
+    web: [Spring Framework, REST, Microservices, Grails]
     data: []
-    other: [Agile, Kanban, IntelliJ, Eclipse, Maven, Ant, JUnit]
-    ops: [Docker, Kubernetes, CI/CD, Git, GitHub, GitLab CI]
-    web: [Spring Framework, REST, Microservices, Groovy on Grails]
-    databases: [SQL, Elasticsearch, Redis]
+    genai: [GitHub Copilot, Cursor, Amazon Q]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '6460524'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T11:55:23.186600'
+  extracted_at: '2026-08-15T23:40:32.790208'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

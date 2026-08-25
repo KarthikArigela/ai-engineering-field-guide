@@ -1,0 +1,59 @@
+company:
+  name: Placer.ai
+  stage: null
+  focus: |-
+    Location analytics and consumer behavior intelligence
+    platform
+position:
+  title: Senior AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds AI agents, MCP servers, tool-
+      calling and orchestration for LLM-based internal workflows,
+      directly shaping model behavior and capabilities. LLM/agent
+      components dominate, so it is ai-first.
+  responsibilities:
+  - Design and orchestrate agents that chain reasoning, tool calls, and decision-making
+    into reliable multi-step workflows
+  - Design, build, and deploy MCP servers for external SaaS integrations and custom
+    internal tools
+  - Build OAuth and credential management infrastructure for secure connector auth
+    at scale
+  - Define production-ready standards for MCP servers (security, deployment, logging,
+    access controls) with R&D Architecture
+  - Build and maintain Cowork plugins and Claude skills for Marketing, Operations,
+    and Data workflows
+  - Own the internal Databricks BI environment, restructure data and engineer pipelines
+    to make it AI-ready
+  - Build usage tracking tooling to measure AI adoption and inform investment decisions
+  - Triage connector requests and bug reports across the company
+  - Optimize platform infrastructure for performance and cost; implement security
+    and compliance best practices
+  use_cases:
+  - Internal AI agents automating manual business processes across functions
+  - Agent access to SaaS and internal tools via MCP connectors
+  - AI-ready internal BI on Databricks for analysis and research
+  - Cowork plugins and Claude skills for Marketing, Operations, and Data teams
+  - Usage tracking and adoption measurement of internal AI tools
+  skills:
+    genai: [MCP, AI Agents, Agentic Workflows, Function Calling, LLMs, Generative
+        AI]
+    ml: []
+    web: [REST APIs, OAuth]
+    databases: []
+    data: [Databricks, Data Pipelines]
+    cloud: [GCP]
+    ops: [Kubernetes]
+    languages: []
+    domains: []
+    other: [Claude, Google Analytics]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10396472'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:58:13.721401'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

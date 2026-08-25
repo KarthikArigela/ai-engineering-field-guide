@@ -1,0 +1,63 @@
+company:
+  name: Scimplify
+  stage: VC backed
+  focus: |-
+    Specialty chemicals manufacturing and B2B fulfillment
+    platform
+position:
+  title: Principal Engineer (Performance, Platform and AI Acceleration)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role centers on performance optimization, platform
+      reliability, DevOps maturity, and cloud cost efficiency. AI
+      appears only as enabling AI-assisted development workflows
+      and integrating AI tooling into engineering workflows -
+      rolling out AI tools so other engineers ship faster, which
+      is developer workflow enablement, not shaping model behavior
+      or output quality. Per the edge case rules, this is ai-
+      support despite the "AI Acceleration" title.
+  responsibilities:
+  - Lead performance diagnosis and optimization across frontend and backend systems,
+    including API efficiency and database performance
+  - Define and enforce performance standards and SLOs, improving Core Web Vitals and
+    backend response metrics
+  - Strengthen CI/CD pipelines, infrastructure patterns, observability, and resilience
+    mechanisms (retries, circuit breakers, auto-scaling)
+  - Lead incident management, postmortems, and root cause analysis to reduce MTTR
+    and improve deployment frequency
+  - Identify infrastructure waste and drive cloud cost optimization with per-service
+    cost visibility and FinOps discipline
+  - Enable responsible adoption of AI-assisted development workflows for test generation,
+    refactoring, and migrations
+  - Build reusable internal accelerators such as templates, scaffolds, shared libraries,
+    and golden paths
+  - Mentor engineers, set engineering standards, and drive cross-functional alignment
+    on architecture and roadmap
+  use_cases:
+  - B2B fulfillment platform for chemical development and manufacturing from lab to
+    commercial scale
+  - Application and API performance optimization across critical user journeys
+  - Platform reliability and operational predictability for safer, faster releases
+  - Cloud and infrastructure cost reduction across compute, storage, logs, and networking
+  - AI-assisted development workflows to improve engineering velocity and quality
+  skills:
+    genai: [AI-Assisted Development]
+    ml: []
+    web: [FastAPI, React, Next.js, APIs, Core Web Vitals]
+    databases: []
+    data: []
+    cloud: [AWS, GCP, FinOps]
+    ops: [CI/CD, Observability, OpenTelemetry, Grafana, Datadog, ELK Stack, Containers,
+      Distributed Systems, SLOs]
+    languages: [Python]
+    domains: []
+    other: [Caching, Incident Management, Developer Productivity]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9497565'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T11:53:31.386479'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,52 @@
 company:
   name: Deepgram
   stage: Series C
-  focus: Voice AI platform for speech-to-text and text-to-speech
+  focus: |-
+    Real-time voice AI APIs for speech-to-text, text-to-speech,
+    and voice agents
 position:
   title: Software Engineer - Applied AI (Senior or Staff Level)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves optimizing AI pipelines for speech
-      recognition in challenging audio environments, pushing the
-      boundaries of LLMs and voice AI technology, and building
-      automated order-taking agents powered by ASR and voice AI.
-      While it has significant backend engineering
-      responsibilities, the core focus is on deploying and
-      optimizing AI systems (voice agents, ASR, LLM-driven
-      ordering) for enterprise customers.
+      Beyond backend engineering, the role explicitly owns
+      optimizing the AI pipeline so the LLM-driven voice ordering
+      agents robustly handle ambiguous customer requests, adapt to
+      new menus, and push LLM/voice AI boundaries - that is
+      shaping agent and model behavior, not merely serving or
+      integrating models. The product is an LLM-based order-taking
+      agent, so the classification is ai-first.
   responsibilities:
   - Design, develop, and maintain scalable, high-performance backend systems for the
     automated order-taking platform
-  - Integrate backend systems with ML models and client devices for seamless voice
-    AI operations
+  - Ensure seamless integration of the backend with ML models and client devices
+  - Optimize the AI pipeline for challenging audio environments, ambiguous customer
+    requests, and rapid scaling to new menus
+  - Build and maintain integrations with third-party restaurant software such as POS,
+    loyalty, payment gateways, and customer data platforms
   - Monitor and optimize backend system performance in production environments
-  - Build and maintain integrations with 3rd party restaurant software systems including
-    POS, loyalty, payment gateways, and customer data platforms
-  - Optimize AI pipelines to improve performance in challenging audio environments
-    and handle ambiguous customer requests
-  - Push the boundaries of LLMs and voice AI technology to solve complex drive-thru
-    and phone ordering challenges
-  - Run experiments to validate product impact of new functionality
-  - Implement best practices in system design, code quality, and testing
+  - Implement best practices in system design, code quality, and testing for a reliable,
+    secure, maintainable system
+  - Run experiments to validate the product impact of new functionality
+  - Push the boundaries of LLMs and voice AI technology for voice ordering use cases
   use_cases:
-  - Automated drive-thru and phone order-taking using voice AI agents
-  - Ultra-robust speech recognition in noisy multi-mic restaurant environments
-  - Menu-aware conversational AI for restaurant ordering
-  - Real-time analytics and operational intelligence for restaurant operations
-  - Integration of voice AI with restaurant POS, loyalty, and payment systems
+  - High-accuracy, menu-aware drive-thru and phone voice ordering agents
+  - Ultra-robust ASR in noisy, multi-mic restaurant environments
+  - Automated order-taking platform for restaurant enterprises
+  - Real-time analytics and operational intelligence for restaurants
+  - In-restaurant hardware integration
+  - Integration with POS, loyalty, payment, and customer data platforms
   skills:
-    genai: [LLMs, Conversational AI, AI Agents]
-    ml: [Machine Learning]
-    web: [REST APIs, Microservices]
-    databases: []
-    data: []
     cloud: [AWS]
-    ops: [Docker, Kubernetes, Model Deployment, Monitoring]
     languages: [Python, Kotlin, Java]
+    ml: [Machine Learning]
+    other: []
+    ops: [Docker, Kubernetes]
+    databases: []
     domains: []
-    other: [System Design]
+    web: [APIs]
+    data: []
+    genai: [LLMs, Voice AI]
   is_customer_facing: true
   is_management: false
 meta:
@@ -54,4 +55,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-07-22T13:40:03.458522'
+  extracted_at: '2026-08-16T18:45:03.621524'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

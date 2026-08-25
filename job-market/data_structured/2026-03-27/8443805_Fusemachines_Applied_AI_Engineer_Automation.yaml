@@ -2,55 +2,65 @@ company:
   name: Fusemachines
   stage: null
   focus: |-
-    AI strategy, talent, and education services provider helping
-    enterprises implement and scale AI solutions
+    Enterprise AI products, strategy, talent, and education
+    services
 position:
   title: Applied AI Engineer (Automation)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building, deploying, and implementing
-      LLM-based solutions including agentic workflows, RAG
-      pipelines, and AI automation systems. The engineer directly
-      works with LangChain, LangGraph, vector databases, and LLM
-      APIs to create production AI systems for clients - this is
-      hands-on AI/ML implementation work.
+      The role directly shapes LLM behaviour: it designs and
+      deploys agentic workflows (LangChain, LangGraph, Google ADK
+      with tool calling and structured outputs), builds RAG
+      pipelines, and owns prompt design and prompt/model
+      improvements for client systems. Step 1 is clearly yes with
+      LLM/agent components throughout, so this is ai-first.
   responsibilities:
   - Design, develop, and deploy tailored AI and automation solutions aligned to client
     objectives
-  - Build production-grade AI workflows and services using Python, automation tools,
-    and LLM platforms/APIs
+  - Translate business problems into production-grade AI workflows and services using
+    Python, automation platforms, and LLM APIs
   - Build and deploy agentic workflows using LangChain, LangGraph, and Google ADK
     with tool calling and structured outputs
-  - Implement RAG pipelines using vector databases and search technologies
-  - Ship fast prototypes and harden them into scalable production systems with testing,
-    reliability, and monitoring
-  - Participate in client discovery, run technical calls/demos, and communicate tradeoffs
-    to stakeholders
+  - Implement RAG pipelines using vector databases, search technologies, and graph
+    databases
+  - Ship fast prototypes and harden them into scalable, monitored, production-ready
+    systems
+  - Participate in client discovery, run technical calls and demos, and communicate
+    tradeoffs to client and internal stakeholders
   - Improve deployed solutions through feature work, bug fixes, monitoring, and prompt/model
     improvements
-  - Produce clear technical documentation, client demos, and internal playbooks
+  - Produce technical documentation, client demos, and internal playbooks to enable
+    reuse and scalability
   use_cases:
-  - Enterprise AI transformation and automation for client organizations
-  - Business workflow automation using LLMs and automation platforms
-  - Agentic AI systems with tool calling for complex business processes
-  - Retrieval-augmented generation (RAG) for knowledge management and search
-  - Client-specific AI solutions for retail, manufacturing, and government industries
+  - Integrating LLMs into real business workflows via APIs, automation platforms,
+    and backend services
+  - Client workflow automation using n8n, Make, Zapier, and LLM platforms
+  - Agentic AI systems with tool calling and structured outputs for enterprise processes
+  - Retrieval-based knowledge systems and search over enterprise data using vector
+    and graph databases
+  - Enterprise AI transformation for retail, manufacturing, and government clients
+  - 'Measurable client impact: time saved, cost reduced, improved conversion/deflection,
+    faster cycle times'
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, AWS Bedrock, IBM watsonx.ai, IBM Cloud]
     languages: [Python]
-    ml: [fine-tuning LLMs, Embeddings, vector search]
-    cloud: [AWS, GCP, Azure, IBM Cloud]
-    genai: [LangChain, LangGraph, Google ADK, OpenAI API, IBM watsonx.ai, Amazon Bedrock,
-      Prompt Engineering, RAG, Agentic Workflows, Function Calling, Structured Outputs]
-    data: [Celery, Kafka]
-    other: [n8n, Make, Zapier]
-    ops: [Docker, LangSmith, OpenTelemetry]
+    ml: [Fine-Tuning, Machine Learning]
+    other: [n8n, Make, Zapier, Responsible AI]
+    ops: [Docker, Celery, LangSmith, OpenTelemetry, Monitoring]
+    databases: [Vector Databases, Vector Search, Pinecone, Elasticsearch, pgvector,
+      Graph Databases, Knowledge Graphs, Redis]
+    domains: []
     web: [FastAPI, APIs]
-    databases: [Pinecone, Elasticsearch, pgvector, Graph Databases, Redis]
+    data: [Kafka, Data Governance]
+    genai: [LangChain, LangGraph, Google ADK, RAG, Prompt Engineering, LLMs, OpenAI
+        API, Agentic Workflows, AI Agents, Generative AI, Structured Outputs, Function
+        Calling, Embeddings, LLM Evaluation]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8443805'
   location: New York, USA
-  extracted_at: '2026-03-27T15:39:08.351223'
+  extracted_at: '2026-08-16T03:10:07.423870'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

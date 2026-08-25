@@ -1,52 +1,50 @@
 company:
   name: LPL Financial
-  stage: Public
+  stage: 'Publicly traded (Nasdaq: LPLA)'
   focus: Wealth management and financial advisory services
 position:
   title: Kong AI Gateway Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building and maintaining the Kong AI
-      Gateway platform — infrastructure that routes and secures
-      AI/LLM traffic across the enterprise. The engineer is not
-      building, training, or deploying models themselves; rather
-      they are enabling other teams to integrate AI capabilities
-      through API gateway management, plugins, and platform
-      tooling. This is classic AI-support: working NEAR AI but not
-      ON AI.
+      The role builds and operates Kong AI Gateway infrastructure
+      that routes LLM and MCP traffic for other teams — plugins
+      for authentication, rate limiting, logging, and
+      request/response transformation. The engineer never shapes
+      model behaviour (no prompts, RAG, agent design, training, or
+      output evals); the deliverable is gateway capacity,
+      reliability, and standardized onboarding, which is
+      serving/plumbing work. Per the edge case for serving models
+      the person does not shape, this is ai-support.
   responsibilities:
-  - Collaborate with Product and Technology teams to maximize the value delivered
-    by the Kong AI Gateway platform
-  - Build, enhance, and maintain Kong gateway capabilities supporting MCP and LLM
-    traffic
-  - Design and develop Kong plugins for authentication, rate limiting, logging, and
-    request/response transformation
-  - Develop internal tools and solutions that improve how teams integrate AI capabilities
-    across the organization
+  - Build, enhance, and maintain Kong AI Gateway capabilities supporting MCP and LLM
+    traffic across the enterprise
+  - Design and develop Kong plugins for authentication, rate limiting (including token-based
+    throttling), logging, and request/response transformation
+  - Develop internal tools and reusable patterns that make AI integrations easier,
+    safer, and more scalable for development teams
   - Maintain platform health through upgrades, configuration management, and operational
     best practices
   - Write and maintain technical documentation and knowledge base articles to support
     platform adoption and usage
-  - Contribute to reusable patterns and reference implementations that enable consistent
-    onboarding across teams
+  - Collaborate with Product and Technology teams to maximize the value delivered
+    by the Kong AI Gateway platform
   use_cases:
-  - Enterprise AI gateway for routing and securing LLM traffic at scale
-  - MCP (Model Context Protocol) traffic management and integration
-  - Token-based rate limiting and throttling for AI API consumption
-  - Centralized authentication and governance for AI/LLM API access across the enterprise
+  - Secure and reliable routing of AI/LLM and MCP traffic at scale across the enterprise
+  - Enterprise-wide adoption of AI capabilities through a shared gateway platform
+  - Authentication and token-based throttling for AI API consumption
+  - Standardized onboarding of internal development teams onto AI integrations
   skills:
-    domains: []
-    languages: [Python, Java, Go]
+    cloud: [Google Apigee]
+    languages: []
     ml: []
-    cloud: []
-    genai: [MCP, LLM traffic routing]
-    data: []
-    other: [Enterprise security and governance, Technical documentation]
-    ops: [Kong AI Gateway, Kong API Gateway, Kong plugins, Docker, Kubernetes]
-    web: [API gateways, Microservices, REST APIs, Google Apigee, IBM API Connect,
-      IBM DataPower]
+    other: [IBM API Connect, IBM DataPower]
+    ops: [Kong Gateway, Docker]
     databases: []
+    domains: []
+    web: [APIs, Microservices]
+    data: []
+    genai: [MCP, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +55,6 @@ meta:
   - New York, USA
   - Fort Mill, USA
   - Charlotte, USA
-  extracted_at: '2026-06-25T19:45:33.927474'
+  extracted_at: '2026-08-16T13:04:31.046433'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

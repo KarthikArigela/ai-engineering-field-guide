@@ -1,0 +1,60 @@
+company:
+  name: Crexi
+  stage: null
+  focus: |-
+    AI-powered commercial real estate marketplace and deal
+    platform
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements agentic workflows, retrieval
+      pipelines, guardrails, evals, and structured
+      outputs—directly shaping LLM behavior using LangGraph, AWS
+      Bedrock, and Anthropic models. This is clearly ai-first
+      work.
+  responsibilities:
+  - Design and implement multi-step agentic workflows with routing, planning, tool
+    use, and state management using LangGraph/LangChain
+  - Build evaluation frameworks and production monitoring including offline evals
+    and human-in-the-loop annotation
+  - Build context and retrieval pipelines over proprietary CRE data for compound qualitative
+    queries
+  - Work with Anthropic frontier models on AWS Bedrock, using Bedrock AgentCore for
+    agent runtime, identity, and memory, and evaluate open-weight alternatives
+  - Implement guardrails, structured outputs, and ambiguity handling with trace-level
+    observability across LLM calls and tool invocations
+  - Use agentic coding tools (Claude Code, Codex) for scaffolding, refactoring, and
+    debugging while reviewing AI-generated output
+  - Rapidly prototype against user feedback with Product and Design and convert prototypes
+    into scalable capabilities
+  use_cases:
+  - AI-powered commercial real estate research and market intelligence
+  - Automated document generation for CRE deals
+  - Zoning intelligence for property evaluation
+  - Agentic assistant for brokers, appraisers, lenders, and investors that completes
+    real work from user intent
+  - Answering compound qualitative queries over proprietary CRE data via retrieval
+  skills:
+    genai: [Agentic Workflows, LangGraph, LangChain, RAG, Embeddings, Vector Search,
+      Function Calling, Guardrails, Structured Outputs, Anthropic API, Claude Code,
+      Codex, LLMs, LLM Evaluation]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [AWS, AWS Bedrock]
+    ops: [CI/CD, GitHub]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10649062'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:05:55.290384'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

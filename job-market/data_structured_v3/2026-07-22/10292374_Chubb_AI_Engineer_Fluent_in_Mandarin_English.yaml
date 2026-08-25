@@ -1,0 +1,56 @@
+company:
+  name: Chubb
+  stage: null
+  focus: Global insurance and financial services
+position:
+  title: AI Engineer (Fluent in Mandarin & English)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behaviour: it fine-tunes models
+      with LoRA/QLoRA/PEFT, applies quantization, does
+      sophisticated prompt engineering, and builds production RAG
+      systems. Since the models being shaped are LLMs, this is ai-
+      first, even though it also covers inference serving and
+      production engineering.
+  responsibilities:
+  - Lead adaptation of Large Language Models for domain-specific tasks using LoRA,
+    QLoRA, and PEFT
+  - Architect and optimize high-performance inference pipelines to minimize TTFT and
+    maximize throughput
+  - Implement quantization, caching strategies, and efficient batching for model optimization
+  - Build and maintain real-time AI pipelines using WebSockets and SSE for voice (ASR/TTS)
+    and text applications
+  - Deploy and orchestrate models within containerized microservice architectures
+    (Docker/Kubernetes)
+  - Ensure robust monitoring, security, and scalability of production AI systems
+  - Write high-quality, maintainable Python code with clean coding standards and comprehensive
+    testing
+  - Collaborate with Business Analysts and internal stakeholders to bridge commercial
+    requirements and technical implementation
+  use_cases:
+  - Domain-specific LLM adaptation for insurance and financial services
+  - Real-time voice agents using ASR and TTS
+  - Low-latency text generation applications
+  - Document processing and multimodal extraction
+  - Production Retrieval-Augmented Generation with semantic search
+  skills:
+    genai: [LLMs, Generative AI, Fine-Tuning, LoRA, QLoRA, PEFT, Prompt Engineering,
+      RAG, Semantic Search]
+    ml: [Model Training, Machine Learning, Quantization, CUDA, ASR, TTS]
+    web: [WebSockets, SSE, Microservices]
+    databases: [Vector Databases]
+    data: []
+    cloud: []
+    ops: [Docker, Kubernetes, vLLM, Triton, TGI, CI/CD, Linux, Monitoring]
+    languages: [Python]
+    domains: []
+    other: [OCR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10292374'
+  location: London, GBR
+  extracted_at: '2026-08-16T18:31:59.291333'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

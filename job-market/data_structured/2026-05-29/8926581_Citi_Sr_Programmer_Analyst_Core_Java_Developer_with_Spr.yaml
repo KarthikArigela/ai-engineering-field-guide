@@ -1,6 +1,6 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Sr Programmer Analyst Core Java Developer with Spring SQL with AI driven
@@ -8,14 +8,12 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Java/Spring enterprise developer role at
-      Citi that involves using AI coding assistants (GitHub
-      Copilot) to boost productivity, and integrating ML models
-      into Java applications. While the role touches AI, the core
-      work is traditional application development with AI tools as
-      an enabler. The candidate is not building, training, or
-      fine-tuning models themselves — they consume models and use
-      copilot tools.
+      This is a Java application developer role where AI (GitHub
+      Copilot, GenAI tools) is used as a productivity aid for code
+      generation, refactoring, testing, and documentation.
+      Integrating and deploying ML models built by data scientists
+      and AI specialists is not shaping model behavior, and using
+      AI coding assistants to write code is explicitly ai-support.
   responsibilities:
   - Conduct feasibility studies, time and cost estimates, IT planning, and risk analysis
     for applications development
@@ -25,36 +23,35 @@ position:
     design, construction, testing, and implementation
   - Integrate and deploy machine learning models and AI-powered features into Java-based
     enterprise applications
-  - Collaborate with data scientists and AI specialists to build scalable and secure
-    AI solutions
   - Apply Generative AI tools and techniques to accelerate development, optimize code,
     and improve documentation
   - Provide user and operational support on applications to business users
-  - Recommend and develop security measures and define operating standards and processes
+  - Consult with users, clients, and technology groups on issues and recommend advanced
+    programming solutions
+  - Serve as advisor or coach to lower-level analysts and act as Subject Matter Expert
+    to senior stakeholders
   use_cases:
-  - AI-assisted code generation, refactoring, debugging, and documentation for Java
-    enterprise applications
-  - Automated test case generation and code coverage analysis using AI copilot tools
-  - Integration of ML models and AI-powered features into banking/financial enterprise
-    systems
-  - Performance optimization and security enhancement of Java/J2EE applications using
-    AI tools
-  - Accelerating the software development lifecycle through AI-driven development
-    tooling
+  - Java-based enterprise application development for banking business needs
+  - AI-assisted code generation, refactoring, debugging, and unit test creation
+  - Automated test case generation and code coverage analysis
+  - Integration of ML models and AI-powered features into enterprise applications
+  - Code optimization and documentation improvement via AI development tools
   skills:
-    domains: []
-    languages: [Java]
-    ml: [Machine learning model integration]
     cloud: []
-    genai: [GitHub Copilot, Generative AI tools, Prompt Engineering]
+    languages: [Java, SQL]
+    ml: [Machine Learning]
+    other: [Automated Testing, Project Management]
+    ops: []
+    databases: []
+    domains: []
+    web: [Spring Boot, J2EE]
     data: []
-    other: []
-    ops: [Automated testing, Unit testing]
-    web: [Spring Boot, J2EE, REST APIs]
-    databases: [SQL]
+    genai: [GitHub Copilot, Generative AI, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8926581'
   location: Pune, IND
-  extracted_at: '2026-05-29T08:50:00.271763'
+  extracted_at: '2026-08-16T08:44:39.494089'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

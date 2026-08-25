@@ -1,58 +1,60 @@
 company:
   name: Astro (astro.com)
-  stage: Public
-  focus: Entertainment and media services
+  stage: null
+  focus: Malaysia's leading entertainment and media company
 position:
   title: Senior Engineer - Enterprise AI & Cloud Platforms (Azure &M365)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on development and delivery of AI
-      solutions using Azure OpenAI, Azure AI Services, Copilot
-      extensibility (plugins, agents, custom solutions), and
-      workflow orchestration. The candidate is expected to build,
-      integrate, and scale AI-driven business solutions, conduct
-      experiments/pilots, and monitor AI performance—clearly
-      placing this in the ai-first category.
+      The role explicitly develops and integrates AI-driven
+      business solutions on Azure OpenAI, Azure AI Services, and
+      Microsoft 365 Copilot, including building Copilot agents,
+      plugins, and custom solutions — agent-flow and tool-calling
+      design that shapes LLM behavior, plus running experiments
+      and validating AI solution quality. Although much of the job
+      is Azure/M365 and identity administration, the hands-on
+      GenAI solution engineering responsibilities make it ai-
+      first.
   responsibilities:
-  - Manage Hybrid Active Directory and Entra ID environments with SSO, MFA, and Conditional
-    Access policies
-  - Monitor, maintain, and govern Azure cloud services for performance, availability,
-    and compliance
+  - Manage hybrid identity and directory services including Hybrid Active Directory,
+    Entra ID, SSO, MFA, and Conditional Access policies
+  - Monitor, troubleshoot, and govern Azure cloud services, ensuring performance,
+    availability, and regulatory compliance
   - Administer Microsoft 365 services including Exchange Online, SharePoint Online,
     OneDrive, and Microsoft Teams
-  - Develop and deliver AI-driven business solutions leveraging Azure OpenAI, Azure
-    AI Services, Azure Machine Learning, and Microsoft 365 Copilot
-  - Build Copilot extensibility solutions including plugins, agents, and custom integrations
-    using Microsoft Graph APIs
-  - Conduct POCs, pilot programs, and solution validation activities, then scale successful
-    AI initiatives across the enterprise
-  - Oversee on-premises infrastructure including Windows/Linux servers, compute, storage,
-    and backup
-  - Manage vendors, infrastructure projects, and stakeholder relationships end-to-end
+  - Enforce security controls, Zero Trust principles, and conduct periodic security
+    reviews and audits across Azure and Microsoft 365
+  - Develop and integrate AI-driven business solutions using Azure OpenAI, Azure AI
+    Services, Azure Machine Learning, and Microsoft 365 Copilot
+  - Build Copilot extensibility solutions including plugins, agents, and custom enterprise
+    automation and workflow orchestration
+  - Conduct experiments, POCs, and pilots, validating solutions and monitoring AI
+    performance, adoption, and business impact
+  - Provide Level 2/3 escalation support, manage vendors and SLAs, and deliver end-to-end
+    infrastructure and cloud projects
   use_cases:
-  - Enterprise automation and workflow orchestration
-  - AI-driven business solutions leveraging Azure OpenAI and Copilot
-  - Identity and access management with Hybrid AD and Entra ID
-  - Microsoft 365 collaboration and productivity services
-  - Cloud governance, security, and compliance across Azure and M365
-  - Copilot extensibility with custom agents and plugins
+  - Enterprise identity and access management with SSO, MFA, and federation
+  - Azure cloud infrastructure operations, governance, and compliance
+  - Microsoft 365 collaboration and productivity platform administration
+  - AI-driven business solutions built on Azure OpenAI and Microsoft 365 Copilot
+  - Enterprise automation and workflow orchestration with Copilot agents and plugins
+  - Security enforcement and auditing across cloud and Microsoft 365 environments
   skills:
-    genai: [Azure OpenAI, Microsoft 365 Copilot, Copilot Studio, AI Agents, Generative
-        AI, Microsoft Graph APIs]
-    ml: []
-    web: [REST APIs, Microservices, OAuth]
+    cloud: [Azure, Entra ID, Azure AI Services, Azure ML, Azure AI Foundry, IAM]
+    languages: [Python, PowerShell]
+    ml: [Machine Learning]
+    other: [Hybrid Active Directory, MFA, Conditional Access, Microsoft 365, Exchange
+        Online, SharePoint Online, OneDrive, Microsoft Teams, Intune, Windows Server,
+      Zero Trust, Microsoft Defender, Power Platform, Power Automate]
+    ops: [Terraform, Bicep, Infrastructure as Code, CI/CD, GitHub Actions, Azure DevOps,
+      DevOps, Linux]
     databases: []
-    data: []
-    cloud: [Azure AI Services, Azure ML, Azure AI Foundry, Azure, AWS S3, IAM, Azure
-        Functions, Entra ID]
-    ops: [Azure DevOps, GitHub Actions, Terraform, CI/CD, Docker, Infrastructure as
-        Code, Monitoring, Linux]
-    languages: [PowerShell, Python, SQL]
     domains: []
-    other: [Active Directory, SAML, SSO, MFA, Microsoft 365, SharePoint Online, Exchange
-        Online, Microsoft Teams, Power Automate, Power Platform, Responsible AI, Windows
-        Server]
+    web: [OAuth, OpenID Connect, SAML, Single Sign-On, REST APIs, Microsoft Graph]
+    data: []
+    genai: [Azure OpenAI, Generative AI, Microsoft 365 Copilot, Copilot Studio, AI
+        Agents]
   is_customer_facing: false
   is_management: false
 meta:
@@ -77,4 +79,6 @@ meta:
   - USA
   - Singapore, SGP
   remote: true
-  extracted_at: '2026-07-22T13:39:43.307947'
+  extracted_at: '2026-08-16T18:39:03.587476'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

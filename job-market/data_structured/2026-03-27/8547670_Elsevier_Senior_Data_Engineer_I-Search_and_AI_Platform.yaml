@@ -1,6 +1,6 @@
 company:
   name: Elsevier
-  stage: Public
+  stage: null
   focus: |-
     Information and analytics for scientific research and
     healthcare
@@ -9,43 +9,43 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role that builds data pipelines
-      and infrastructure to support AI/ML systems, not working
-      directly on the AI models themselves. The role focuses on
-      ETL/ELT workflows, Spark, Airflow, and data services that
-      enable the AI platform - classic "enabling work for others
-      who work on AI".
+      The role builds and operates data pipelines, ETL/ELT
+      workflows, and services (Spark, Airflow, SQL) that feed an
+      AI-powered search platform, with no prompt design, RAG,
+      agent development, model training, or evals in the
+      responsibilities. Per the dataset/pipeline rule, data
+      plumbing that supports AI products built by others is ai-
+      support.
   responsibilities:
   - Design, build, and maintain scalable data pipelines and services
   - Develop batch and ELT/ETL data workflows for ingesting and processing large datasets
-  - Work with technologies such as Python, Java, Spark, SQL, and Airflow
-  - Apply good software engineering practices, including testing, documentation, and
-    CI/CD
-  - Contribute to cloud-based systems (AWS), focusing on reliability, monitoring,
-    and automation
+  - Apply software engineering practices including testing, documentation, and CI/CD
+  - Contribute to cloud-based AWS systems focusing on reliability, monitoring, and
+    automation
   - Collaborate with product, platform, and data science partners to deliver meaningful
     outcomes
   - Support team learning through code reviews and knowledge sharing
   use_cases:
-  - Scientific research discovery and search
-  - LLM-powered research systems
-  - Knowledge graph interrogation and insights
-  - Academic literature recommendations
-  - Analytics for scientific collaboration
+  - Large-scale search and analytics powering Scopus and ScienceDirect
+  - LLM-powered next-generation research systems
+  - Agentic services interrogating knowledge graphs and search/recommendation systems
+  - Ingesting and processing large research datasets for scientific insight delivery
   skills:
-    domains: []
+    cloud: [AWS]
     languages: [Python, Java, SQL]
     ml: []
-    cloud: [AWS]
-    genai: []
-    data: [Spark, Airflow, Data Pipelines, Distributed Systems]
     other: []
-    ops: [CI/CD]
+    ops: [CI/CD, Monitoring, Distributed Systems]
+    databases: []
+    domains: []
     web: []
-    databases: [Data Lakes]
+    data: [Spark, Airflow, Data Pipelines, Data Lakes, Batch Processing]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8547670'
   location: London, GBR
-  extracted_at: '2026-03-27T13:36:42.136563'
+  extracted_at: '2026-08-16T03:13:47.649504'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,46 +1,55 @@
 company:
   name: Five9
-  stage: Public
+  stage: null
   focus: Cloud contact center software
 position:
   title: Senior Staff Engineer | AI Voice Engineering
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves directly building and deploying AI Agent
-      voice orchestration software that integrates ASR, TTS, and
-      real-time AI inference services. The engineer works hands-on
-      with GenAI voice platforms, model execution, and
-      interruption model inference, making this clearly an ai-
-      first role.
+      The role architects and operates the voice orchestration
+      platform - RTP/SIP streaming, integration of ASR/TTS/AI
+      inference services, latency/scalability/reliability - rather
+      than shaping model behavior. There is no prompt writing,
+      retrieval/agent design, training/fine-tuning, or model
+      output-quality evaluation; the engineer calls and serves
+      models (end-of-turn, interruption inference) that other
+      teams build, which per the serving/orchestration rule makes
+      this ai-support.
   responsibilities:
-  - Lead architecture and development of real-time AI voice orchestration systems
-  - Design and optimize low-latency voice pipelines using RTP/SIP protocols
-  - Integrate ASR, TTS, and AI inference services into the voice platform
-  - Mentor engineers and establish technical best practices across the team
+  - Lead architecture and development of Five9's AI Agent voice orchestration platform
+    handling real-time streaming voice
+  - Design and optimize low-latency voice pipelines using RTP/SIP
+  - Integrate ASR, TTS, and AI inference services including end-of-turn model execution
+    and interruption model inference
+  - Mentor junior engineers and set technology direction and technical best practices
+    for the platform
   - Collaborate cross-functionally with Product, AI, Infrastructure, and SRE teams
-  - Own full software lifecycle from design through deployment and operations
-  - Ensure platform scalability, reliability, observability, and low latency
+  - Own the full lifecycle from design and development through deployment and operations
+  - Ensure the platform is low latency, scalable, reliable, observable, and maintainable
   use_cases:
-  - Real-time AI-powered voice agents for customer experience
-  - Voice orchestration with streaming audio and speech recognition
-  - Text-to-speech synthesis for automated voice interactions
-  - End-of-turn and interruption model inference for natural voice conversations
-  - Low-latency voice pipeline processing for contact centers
+  - Real-time AI voice agent orchestration for cloud contact center conversations
+  - Low-latency streaming voice transport over RTP/SIP
+  - Speech recognition and speech synthesis integration for voice interactions
+  - End-of-turn detection and interruption handling to enable natural conversational
+    turn-taking
+  - Scalable, reliable, observable voice platform serving customer experience workloads
   skills:
-    genai: [ASR/TTS Integration, AI APIs, Generative AI]
-    ml: []
-    web: []
-    databases: []
-    data: []
     cloud: [AWS, Azure, GCP]
-    ops: [CI/CD, Docker, Kubernetes, Monitoring, Observability, DevOps]
     languages: [C++]
-    domains: []
-    other: [RTP/SIP, Audio Codecs, SIP/SDP]
+    ml: []
+    other: [RTP/SIP, SIP/SDP, Audio Codecs, ASR/TTS Integration]
+    ops: [CI/CD, Docker, DevOps, SRE, Observability]
+    databases: []
+    domains: [Real-Time Voice Systems]
+    web: []
+    data: []
+    genai: [AI APIs, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10257185'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:36:50.448755'
+  extracted_at: '2026-08-16T18:15:03.452785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

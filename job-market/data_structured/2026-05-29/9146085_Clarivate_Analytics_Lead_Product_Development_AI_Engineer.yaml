@@ -1,55 +1,55 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: Analytics and intellectual property insights
+  stage: null
+  focus: Data analytics and research intelligence product platforms
 position:
   title: Lead Product Development AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on building, architecting,
-      and deploying GenAI and agentic AI systems. The engineer
-      will work directly with LLMs, RAG architectures, agent
-      frameworks (LangChain, AutoGen, CrewAI, LlamaIndex), MCP-
-      based systems, and production-grade AI platforms. The role
-      involves hands-on development of prompt engineering, agent
-      orchestration, and enterprise knowledge platforms.
+      The role directly shapes LLM and agent behaviour: it leads
+      prompt engineering, designs and optimizes RAG architectures,
+      and builds MCP-based agent orchestration and context
+      management. Since LLMs, agents, and GenAI platforms are the
+      core deliverable, this is ai-first.
   responsibilities:
-  - Define and drive the technical vision for GenAI, agentic AI and MCP-based capabilities
+  - Define and drive the technical vision for GenAI, agentic AI, and MCP-based capabilities
     across multiple product lines
-  - Lead prompt engineering, memory management and MCP-based context orchestration
+  - Lead prompt engineering, memory management, and MCP-based context orchestration
     for scalable AI systems
-  - Design and optimize RAG, enterprise knowledge and MCP-backed context platforms,
+  - Design and optimize RAG, enterprise knowledge, and MCP-backed context platforms,
     including secure data ingestion and governance
-  - Guide the integration of GenAI and agentic AI features into core products, APIs
+  - Guide the integration of GenAI and agentic AI features into core products, APIs,
     and enterprise platforms
   - Drive production readiness covering reliability, observability, performance, and
-    responsible agent behaviour
-  - Shape the AI roadmap and mentor senior engineers across the organization
-  - Own the architecture and evolution of GenAI, agentic AI, and MCP-based systems
+    responsible safe agent behaviour
+  - Mentor senior engineers and build a technical leadership bench for next-generation
+    GenAI engineers
   - Ensure AI capabilities are scalable, secure, cost-efficient, and responsibly deployed
+    across product lines
   use_cases:
-  - Enterprise knowledge platforms with secure data ingestion and governance
-  - Multi-product agent-based systems and AI copilots
-  - Scalable RAG and context management frameworks for enterprise products
-  - Company-wide GenAI and agentic AI product platforms
-  - AI-powered analytics and insights products
-  - MCP-based context orchestration systems
+  - GenAI and agentic AI powered product platforms across multiple product lines
+  - Enterprise knowledge retrieval through RAG and MCP-backed context platforms
+  - Scalable agent orchestration and context management frameworks
+  - Enterprise standards for AI quality, safety, and reliability
+  - Secure data ingestion and AI governance for regulated environments
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Embeddings]
     cloud: []
-    genai: [LangChain, AutoGen, CrewAI, LlamaIndex, LLMs, Prompt Engineering, RAG,
-      MCP, Agentic Workflows]
-    data: []
-    other: [System Design, Responsible AI, Enterprise Architecture]
-    ops: [Distributed Systems]
+    languages: [Python]
+    ml: [Machine Learning]
+    other: [System Design, Responsible AI]
+    ops: [Distributed Systems, Observability]
+    databases: [Vector Databases, FAISS, Pinecone, Milvus, Weaviate]
+    domains: []
     web: [APIs, Microservices]
-    databases: [FAISS, Pinecone, Milvus, Weaviate, Vector Databases]
+    data: []
+    genai: [LLMs, Generative AI, AI Agents, Agentic Workflows, LangChain, AutoGen,
+      CrewAI, LlamaIndex, RAG, Embeddings, MCP, Prompt Engineering]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9146085'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T08:55:22.466315'
+  extracted_at: '2026-08-16T09:05:24.946025'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

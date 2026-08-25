@@ -1,59 +1,61 @@
 company:
   name: Lenskart.com
   stage: null
-  focus: Retail technology and e-commerce eyewear
+  focus: Retail technology and large-scale store operations
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deployment of LLM-
-      powered agents, RAG pipelines, prompt engineering workflows,
-      and AI-driven dashboards using models like Claude, GPT-4,
-      and Gemini. The candidate directly builds, evaluates, and
-      fine-tunes AI/ML systems for retail operations, making this
-      an ai-first role.
+      The role hands-on builds prompt pipelines, RAG workflows,
+      and autonomous LLM agents using frameworks like LangChain,
+      LangGraph, CrewAI, and AutoGen, and shapes output quality
+      via prompt engineering, fine-tuning strategies, feedback
+      loops, and model evaluations. LLMs and agents are the core
+      deliverable, so this is ai-first.
   responsibilities:
-  - Design and build LLM-powered operational dashboards integrating outputs from Claude,
-    GPT-4, and Gemini for store ops, maintenance, and leadership teams
-  - Build prompt pipelines and RAG workflows to power dashboard intelligence and surface
-    AI-driven insights
-  - Monitor, evaluate, and improve ML/AI model performance using A/B testing, feedback
-    loops, fine-tuning, and prompt engineering
-  - Build and deploy autonomous AI agents using LangChain, LangGraph, CrewAI, or AutoGen
-    for CEO escalation handling, store ops, maintenance, remote optimization, and
-    new store openings
-  - Develop and maintain ETL/ELT pipelines ingesting data from POS, ERP, IoT, ticketing,
-    and SaaS platforms into cloud data warehouses
-  - Ensure data quality, lineage, and governance for all pipelines feeding AI/ML systems
-  - Translate retail business problems into well-scoped ML/AI problem statements and
-    support rollout to non-technical retail staff
+  - Design and build LLM-powered operational dashboards using LLM APIs and visualization
+    tools, surfacing AI-driven insights for store ops, maintenance, and leadership
+  - Build prompt pipelines and RAG workflows to power dashboard intelligence
+  - Develop and deploy autonomous AI agents for CEO escalation triage, store operations,
+    store maintenance, remote optimization (Optum), and new store openings (NSO)
+  - Define agent architectures, tool integrations, memory strategies, and escalation
+    rules, ensuring agent outputs are reliable and auditable
+  - Monitor and evaluate deployed ML/AI models, implementing feedback loops, fine-tuning
+    strategies, prompt engineering improvements, and A/B testing
+  - Work with domain experts to curate retail-specific training data and validation
+    sets
+  - Build and maintain ETL/ELT pipelines ingesting data from POS systems, ERP platforms,
+    IoT sensors, ticketing tools, and SaaS platforms
+  - Work with cloud data warehouses and orchestration tools, ensuring data quality,
+    lineage, and governance for pipelines feeding AI/ML systems
   use_cases:
-  - CEO escalation triage — summarize, prioritize, and route escalated issues with
-    context and recommended actions
-  - Store operations automation — anomaly detection, operational reporting, and automated
-    query handling for store managers
-  - Store maintenance — predictive maintenance agents with auto-ticketing and scheduling
-    workflows to reduce downtime
-  - Remote workforce optimization — agent-driven task assignment and operational efficiency
-    recommendations
-  - New store opening readiness — document generation, checklist tracking, vendor
-    coordination, and alert workflows
-  - LLM-powered dashboards for real-time visibility across hundreds of retail stores
+  - 'CEO escalation handling: LLM agents that triage, summarize, prioritize, and route
+    escalated issues with context and recommended actions'
+  - 'Store operations intelligence: real-time LLM-powered dashboards, anomaly alerts,
+    and automated reporting across hundreds of stores'
+  - 'Store maintenance: predictive maintenance agents, auto-ticketing, and scheduling
+    workflows to reduce store downtime'
+  - 'Remote workforce optimization (Optum): agent-driven staffing, task assignment,
+    and efficiency recommendations'
+  - 'New store openings (NSO): readiness tracking, document generation, and vendor
+    coordination agents'
+  - Retail KPI translation into automated dashboard metrics for leadership decision-making
   skills:
-    genai: [Anthropic API, OpenAI API, Gemini, Mistral, Prompt Engineering, RAG, AI
-        Agents, Agentic Workflows, LangChain, LangGraph, CrewAI, AutoGen, Function
-        Calling, MCP, Embeddings, LLMs]
-    ml: [NumPy, scikit-learn, Fine-Tuning, Machine Learning]
-    web: [FastAPI, Flask, Streamlit, React]
-    databases: [Snowflake, BigQuery, Redshift, Pinecone, Weaviate, Chroma, Vector
-        Databases]
-    data: [Pandas, dbt, Airflow, Prefect, Data Pipelines, Kafka]
     cloud: []
-    ops: [Git, CI/CD]
     languages: [Python, SQL]
+    ml: [Machine Learning, scikit-learn, Model Evaluation, Model Training]
+    other: [Tableau, Power BI, Metabase, A/B Testing, Responsible AI]
+    ops: [Git, CI/CD, Model Deployment, Model Monitoring]
+    databases: [Vector Databases, Pinecone, Weaviate, Chroma, Snowflake, BigQuery,
+      Redshift]
     domains: []
-    other: [Tableau, Power BI, A/B Testing, Responsible AI]
+    web: [FastAPI, Flask, React, Streamlit]
+    data: [Data Engineering, Data Pipelines, dbt, Airflow, Prefect, Kafka, Kinesis,
+      Pandas, NumPy, Data Modeling, Data Governance]
+    genai: [LLMs, Generative AI, RAG, Prompt Engineering, AI Agents, LangChain, LangGraph,
+      CrewAI, AutoGen, Anthropic API, OpenAI API, Gemini, Mistral, Fine-Tuning, Function
+        Calling, MCP, Multimodal AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -62,4 +64,6 @@ meta:
   locations:
   - New Delhi, IND
   - Bengaluru, IND
-  extracted_at: '2026-07-22T13:40:06.996715'
+  extracted_at: '2026-08-16T18:43:26.205735'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,20 +1,20 @@
 company:
   name: Thomson Reuters
-  stage: Public
+  stage: null
   focus: |-
-    Trusted information and technology for legal, tax,
-    accounting, compliance, and media professionals
+    Information and technology services for legal, tax,
+    accounting, and media professionals
 position:
   title: Senior Software Engineer - AI I
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building AI systems
-      including RAG pipelines, agentic workflows with function
-      calling, and integrating Azure OpenAI services directly. The
-      engineer designs retrieval strategies, implements Semantic
-      Kernel orchestration, and deploys AI capabilities to
-      production - not just supporting infrastructure.
+      The role directly shapes LLM behavior: designing RAG
+      pipelines (chunking, hybrid retrieval, citations,
+      grounding), building agentic workflows with function
+      calling, memory, and guardrails, and developing Semantic
+      Kernel orchestration. These are LLM/agent components, so it
+      is ai-first despite the .NET software engineer title.
   responsibilities:
   - Build and own .NET services and REST APIs integrated with Azure OpenAI and Azure
     AI Services
@@ -24,31 +24,33 @@ position:
     for safe execution
   - Develop Semantic Kernel skills, connectors, and planners to orchestrate intelligent
     behavior
-  - Implement robust observability across latency, cost, token usage, and quality
-    metrics using App Insights and OpenTelemetry
-  - Lead through engineering excellence including mentoring teammates, writing RFCs,
-    and guiding architecture decisions
+  - Implement observability across latency, cost, token usage, and quality metrics
+    using App Insights and OpenTelemetry
+  - Collaborate with product, security, and data partners to ensure compliant and
+    impactful solutions
+  - Mentor teammates, write RFCs, and guide architecture decisions
   use_cases:
-  - AI-powered search and retrieval systems for legal, tax, and compliance professionals
-  - Document intelligence and information extraction using Azure AI Services
-  - Agentic AI workflows that automate complex professional tasks with tool integration
-  - Hybrid semantic and keyword search providing accurate, citable results from specialized
-    content
-  - Enterprise-grade AI applications with compliance, security, and audit capabilities
-    for regulated industries
+  - AI-powered .NET services and applications integrated with Azure OpenAI
+  - Grounded retrieval-augmented generation with hybrid search, citations, and citation
+    accuracy
+  - Agentic AI workflows with tool calling, planning, memory, and guardrails for safe
+    execution
+  - Production AI systems with observability for latency, cost, token usage, and quality
+  - Compliant AI solutions serving legal, tax, accounting, and compliance domains
   skills:
-    domains: []
+    cloud: [Azure AI Services, Azure AI Search, Azure AI Foundry, Azure App Service,
+      Azure Functions, AKS, Azure Container Apps, Azure API Management, Azure Key
+        Vault, Azure Cognitive Services]
     languages: [C#, .NET]
     ml: []
-    cloud: [Azure, Azure AI Foundry, App Service, Azure Functions]
-    genai: [Azure OpenAI, RAG, Function Calling, Semantic Kernel, Agentic Workflows,
-      prompt flows]
+    other: [PII Handling]
+    ops: [CI/CD, Application Insights, OpenTelemetry, Observability]
+    databases: [Neo4j, Knowledge Graphs, RDF]
+    domains: []
+    web: [REST APIs, ASP.NET Core, OAuth, OIDC, JWT, React, Blazor]
     data: []
-    other: []
-    ops: [AKS, Container Apps, API Management, Key Vault, Docker, Kubernetes, CI/CD,
-      OpenTelemetry, App Insights]
-    web: [ASP.NET Core, REST APIs, OAuth, OIDC, JWT]
-    databases: [Azure AI Search]
+    genai: [Azure OpenAI, RAG, Agentic Workflows, Function Calling, Guardrails, Semantic
+        Kernel, Embeddings, LLM Evaluation, RAGAS]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +60,6 @@ meta:
   - Eagan, USA
   - Toronto, CAN
   - New York, USA
-  extracted_at: '2026-02-05T13:00:43.005178'
+  extracted_at: '2026-08-15T23:29:21.615045'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

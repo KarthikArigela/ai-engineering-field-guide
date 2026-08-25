@@ -1,53 +1,55 @@
 company:
   name: KLA
-  stage: Public
-  focus: |-
-    Semiconductor manufacturing equipment and technology
-    solutions
+  stage: ''
+  focus: Semiconductor manufacturing equipment and process control
 position:
   title: Software Engineer - AI/ML
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, developing, training,
-      and deploying ML models and AI algorithms, including working
-      with RAG architectures. The engineer is hands-on with model
-      training, validation, deployment, and monitoring, which
-      squarely places this as an ai-first role.
+      The role designs and develops ML models end-to-end (data
+      preprocessing, training, validation, deployment), and RAG
+      experience is stated as essential, meaning the engineer
+      shapes LLM behavior through retrieval design. Since the role
+      shapes both LLM (RAG) and classical ML components, it is ai-
+      first.
   responsibilities:
-  - Design, develop, and implement machine learning models and AI algorithms including
+  - Design, develop, and implement machine learning models and AI algorithms, including
     data preprocessing, model training, validation, and deployment
-  - Architect and design scalable systems for large volumes of data and complex AI/ML
-    workloads
-  - Implement production-ready AI/ML solutions ensuring security, compliance, and
-    operational efficiency
-  - Research and explore new AI/ML methodologies to keep solutions innovative
-  - Collaborate with cross-functional teams including data engineers, product managers,
-    and business partners to integrate AI solutions
+  - Architect and design scalable systems handling large data volumes and complex
+    AI/ML workloads with high performance and reliability
+  - Implement robust, production-ready AI/ML solutions with considerations for security,
+    compliance, and operational efficiency
+  - Research new AI/ML and data science methodologies to keep solutions innovative
+  - Collaborate with data engineers, product managers, software developers, and business
+    partners to integrate solutions into products and services
   - Oversee deployment of AI/ML models into production and monitor post-deployment
-    performance
-  - Document processes, methodologies, and share knowledge through presentations and
-    workshops
+    performance, iterating as needed
+  - Document processes and methodologies and share knowledge through presentations,
+    workshops, and internal knowledge bases
   use_cases:
-  - AI-driven business transformation in semiconductor manufacturing
-  - Automated data analysis and model-based decision making
-  - Scalable AI/ML workloads for large-scale data processing
-  - Production-grade AI solution deployment for enterprise operations
+  - AI/ML solutions addressing business challenges and driving business transformation
+  - Scalable AI/ML systems processing large volumes of data with high performance
+    and reliability
+  - Production-deployed AI/ML applications integrated into KLA's products and services
+  - Data analysis and model-driven problem solving for business strategy
   skills:
-    domains: []
-    languages: [Python]
-    ml: [TensorFlow, scikit-learn, Deep Learning, Neural Networks, Machine Learning
-        Algorithms, Statistics]
     cloud: [Cloud Platforms]
-    genai: [RAG]
-    data: [Data Processing]
-    other: [System Design, Agile]
-    ops: [DevOps, Git, CI/CD]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, TensorFlow, scikit-learn, Deep Learning, Neural Networks,
+      Model Training]
+    other: [Statistics, System Design, Agile, Responsible AI]
+    ops: [DevOps, Git, CI/CD, Model Deployment, Model Monitoring]
     databases: []
+    domains: []
+    web: []
+    data: [Data Processing]
+    genai: [RAG]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8998777'
   location: Chennai, IND
-  extracted_at: '2026-04-22T13:26:47.956291'
+  extracted_at: '2026-08-16T06:58:17.020961'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,61 @@
+company:
+  name: Baseten
+  stage: Series F
+  focus: AI model inference and serving platform
+position:
+  title: Software Engineer - AI Developer Productivity
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent behaviour directly: tuning agent
+      configurations against the monorepo, building internal MCP
+      servers, shared skills/subagents/hooks, and eval harnesses
+      that judge which agent configs work. These are the
+      prompt/context/orchestration layers that shape LLM output
+      quality, not merely rolling out off-the-shelf coding
+      assistants.
+  responsibilities:
+  - Own the internal AI developer platform end to end — architecture, build, rollout,
+    operation, measurement
+  - Evaluate and integrate third-party AI coding tools and build the context layer
+    that makes them work against the monorepo
+  - Build frameworks that let other engineers create their own agents without deep
+    LLM expertise
+  - Establish the evaluation practice for AI-assisted development and use it to drive
+    investment decisions
+  - Drive adoption through developer experience — good defaults, clear docs, low friction
+  - Embed with teams to find where AI unblocks them and generalize wins into platform
+    capabilities
+  - 'Own the safety layer: permissions, secrets handling, audit trails, cost management'
+  use_cases:
+  - AI-native software development lifecycle (AI-first SDLC)
+  - Agent-assisted coding in a monorepo with repo-level context
+  - Agents integrated into CI/CD for PR review triage, test gap-filling, and migrations
+  - Incident context assembly and codebase Q&A via agents
+  - Evaluation of AI tooling impact on cycle time, review latency, and change failure
+    rate
+  skills:
+    genai: [MCP, AI Agents, Agentic Workflows, Function Calling, LLMs, LLM Evaluation,
+      Prompt Engineering, Claude Code, Cursor, Codex, Guardrails]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Kubernetes, Docker, Observability, Audit Logging]
+    languages: [Python, Go]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10632765'
+  location: Toronto, CAN
+  locations:
+  - Toronto, CAN
+  - Montréal, CAN
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-25T11:00:33.696195'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

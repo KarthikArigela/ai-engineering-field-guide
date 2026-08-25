@@ -1,52 +1,56 @@
 company:
   name: Spectris plc
-  stage: Public
-  focus: Precision instruments and scientific measurement tools
+  stage: null
+  focus: Scientific instruments for materials and chemical analysis
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and fine-
-      tuning LLM-powered chatbots, autonomous AI agents, and
-      integrating vector databases and embeddings into enterprise
-      AI solutions. The engineer works hands-on with Azure AI
-      services, LLMs, and agent development, making this clearly
-      ai-first.
+      The role develops, fine-tunes, and deploys LLM-powered
+      chatbots and autonomous AI agents, and designs retrieval
+      components (embeddings, vector databases) into enterprise
+      solutions. This directly shapes LLM and agent behaviour, so
+      it is ai-first rather than merely consuming or hosting AI
+      services.
   responsibilities:
   - Design and implement end-to-end AI solutions using Azure AI Foundry, Azure Machine
-    Learning, and Cognitive Services for business and scientific applications
-  - Develop, fine-tune, and deploy LLM-powered chatbots and autonomous AI agents
-  - Define, maintain, and optimize AI models, data flows, and integration patterns
+    Learning, and Cognitive Services
+  - Develop, fine-tune, and deploy LLM-powered chatbots and autonomous AI agents that
+    enhance user experiences and business processes
+  - Define, maintain, and optimise AI models, data flows, and integration patterns
     across enterprise platforms
   - Integrate AI services, vector databases, embeddings, and cloud-native technologies
-    into secure architectures
-  - Ensure AI solutions comply with governance standards, metadata management, and
-    traceability requirements
-  - Collaborate with data scientists, engineers, product managers, and business stakeholders
-    to translate requirements into scalable solutions
+    into secure and resilient architectures
+  - Ensure AI solutions comply with governance standards, metadata management practices,
+    and traceability requirements
+  - Collaborate with data scientists, data engineers, product managers, and business
+    stakeholders to translate requirements into scalable technical solutions
+  - Contribute to continuous improvement of AI platforms, frameworks, and engineering
+    practices
   - Support adoption of AI technologies across the business by providing technical
     expertise and guidance
   use_cases:
-  - Conversational AI chatbots for enterprise workflows
-  - Autonomous AI agents for business process automation
-  - Intelligent automation across scientific and business workflows
-  - Advanced analytics for scientific applications
-  - Enterprise-grade AI-powered search using vector databases and embeddings
+  - Enterprise conversational AI chatbots
+  - Autonomous AI agents for business process enhancement
+  - Intelligent automation of scientific and business workflows
+  - Advanced analytics integrated into secure enterprise AI platforms
   skills:
-    genai: [Conversational AI, LLMs, AI Agents, Fine-Tuning, Embeddings]
-    ml: [Machine Learning]
-    web: [JSON]
-    databases: [Vector Databases]
-    data: [Data Pipelines]
-    cloud: [Azure AI Foundry, Azure ML, Azure, Cognitive Services]
-    ops: []
+    cloud: [Azure AI Foundry, Azure ML, Azure Cognitive Services]
     languages: [Python, PowerShell, SQL]
-    domains: []
+    ml: []
     other: [Responsible AI]
+    ops: []
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [JSON]
+    data: [Data Pipelines]
+    genai: [LLMs, Fine-Tuning, Conversational AI, AI Agents, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10054971'
   location: Woking, GBR
-  extracted_at: '2026-07-22T13:25:31.845597'
+  extracted_at: '2026-08-16T16:32:15.708874'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

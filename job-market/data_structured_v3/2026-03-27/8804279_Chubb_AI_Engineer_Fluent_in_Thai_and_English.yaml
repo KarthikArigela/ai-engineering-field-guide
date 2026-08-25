@@ -1,0 +1,54 @@
+company:
+  name: Chubb
+  stage: null
+  focus: Global insurance and financial services
+position:
+  title: AI Engineer (Fluent in Thai and English)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The person directly shapes LLM behaviour: fine-tuning with
+      LoRA/QLoRA/PEFT, prompt engineering, quantization of model
+      internals, and building production RAG systems. LLMs are the
+      core target model, so this is ai-first despite the heavy
+      inference/serving focus.
+  responsibilities:
+  - Lead adaptation of LLMs for domain-specific tasks using LoRA, QLoRA, and PEFT
+    to balance performance with resource efficiency
+  - Architect and optimize inference pipelines to minimize Time to First Token and
+    maximize throughput via quantization, caching strategies, and efficient batching
+  - Build and maintain real-time AI pipelines using WebSockets and SSE for low-latency
+    voice (ASR/TTS) and text applications
+  - Deploy and orchestrate models in containerized microservice architectures (Docker/Kubernetes)
+    with robust monitoring, security, and scalability
+  - Build production-ready RAG systems including vector database management and semantic
+    search optimization
+  - Write high-quality, maintainable Python code with modular design and comprehensive
+    unit/integration testing
+  - Work with Business Analysts and internal stakeholders to bridge commercial requirements
+    and technical implementation
+  use_cases:
+  - Voice agents combining ASR and TTS for low-latency real-time delivery
+  - Document processing and multimodal extraction using OCR and layout analysis
+  - Domain-specific LLM applications adapted for insurance and financial services
+  - Real-time text AI applications served at global scale
+  skills:
+    genai: [LLMs, LoRA, QLoRA, PEFT, Fine-Tuning, Prompt Engineering, RAG, Semantic
+        Search, Generative AI]
+    ml: [Model Training, Quantization, CUDA]
+    web: [WebSockets, SSE, Microservices]
+    databases: [Vector Databases]
+    data: []
+    cloud: []
+    ops: [vLLM, TGI, Triton, Docker, Kubernetes, CI/CD, Linux, MLOps]
+    languages: [Python]
+    domains: []
+    other: [ASR, TTS, OCR, Document Intelligence, GPU Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8804279'
+  location: London, GBR
+  extracted_at: '2026-08-16T04:39:22.896506'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

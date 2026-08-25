@@ -1,0 +1,46 @@
+company:
+  name: Egnyte
+  stage: null
+  focus: Secure multi-cloud content security and governance platform
+position:
+  title: Machine Learning Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role fine-tunes SLMs (LLMs) with TRL, LoRA/QLoRA/PEFT,
+      and evaluates model quality, which is directly shaping LLM
+      behavior. Optimization of LLM internals (quantization,
+      distillation) is also shaping an LLM target, so ai-first.
+  responsibilities:
+  - Fine-tune and train SLMs using Hugging Face, TRL, and adapter methods (LoRA, QLoRA,
+    PEFT)
+  - Optimize models for inference via quantization, pruning, and knowledge distillation
+  - Deploy models to edge devices, mobile, and local servers with strict latency targets
+  - Build end-to-end MLOps pipelines from data ingestion to deployment
+  - Monitor model accuracy, latency, and hardware utilization in production
+  - Evaluate model quality using benchmarking frameworks and custom evaluation suites
+  use_cases:
+  - Small language models fine-tuned for Egnyte's content security and governance
+    products
+  - Efficient on-device/edge AI inference with strict latency constraints
+  - Production ML pipelines with monitoring of accuracy, latency, and hardware usage
+  skills:
+    genai: [LoRA]
+    ml: [Hugging Face, Fine-Tuning, Quantization, Model Evaluation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [MLOps, Model Deployment, Model Monitoring, CI/CD]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10732550'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T11:31:30.962367'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

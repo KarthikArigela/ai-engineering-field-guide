@@ -1,59 +1,66 @@
 company:
   name: Firestorm
-  stage: VC-backed (likely Series A or B based on funding stage and salary range)
+  stage: VC-backed
   focus: |-
-    Defense technology company building autonomous aerial
-    vehicles and mission-adaptable systems
+    Defense technology building mission-adaptable autonomous
+    aerial vehicles
 position:
   title: Senior AI Platform Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is building platform infrastructure and services
-      that SUPPORT AI/ML systems rather than directly building,
-      training, or deploying models. The focus is on backend
-      services, orchestration, observability, security, and
-      reliability patterns that enable other engineers to run AI
-      workflows safely.
+      This is a platform engineering role: the person builds the
+      backend services, registries, workflow orchestration
+      primitives, observability, and CI/CD foundations that AI and
+      application engineers build on, and explicitly partners with
+      separate AI engineers to define interfaces. Nothing in the
+      responsibilities involves shaping model behaviour themselves
+      - no prompt writing, retrieval/RAG design, agent flow
+      design, training, or output-quality evaluation - and
+      operating LLM-enabled systems and monitoring their quality
+      signals is serving/monitoring plumbing, which the rules
+      classify as ai-support.
   responsibilities:
-  - Build and operate core backend services that power AI-enabled workflows including
+  - Build and operate core backend services that power AI-enabled workflows, including
     APIs, orchestration, storage, and internal integrations
   - Design scalable data models and registries for versioned artifacts and metadata
     with strong traceability and auditability
-  - Implement secure-by-default service patterns including authentication, authorization,
-    audit logs, and secrets handling
-  - Build reliability foundations including observability, metrics, tracing, alerting,
+  - Implement secure-by-default service patterns including authN/authZ, audit logs,
+    secrets handling, and least-privilege access
+  - Build reliability foundations spanning observability, metrics, tracing, alerting,
     SLOs, and incident response playbooks
-  - Implement idempotent APIs and state-handling patterns for resilient workflows
-    with retries and reconciliation
-  - Create integration adapters and event-driven plumbing to safely connect AI workflows
-    to internal systems
-  - Establish CI/CD pipelines, environment promotion, rollback strategies, and safe
-    deployment practices
-  - Partner with AI and application engineers to define interfaces, validation layers,
-    and operational constraints
+  - Implement idempotent APIs and state-handling patterns for resilient workflows,
+    including retries, partial failure, and reconciliation
+  - Create integration adapters and event-driven plumbing to safely connect AI-driven
+    workflows to internal systems
+  - Establish release and deployment practices including CI/CD pipelines, environment
+    promotion, rollback strategies, and safe migrations
+  - Partner closely with AI and application engineers to define interfaces, validation
+    layers, and operational constraints
   use_cases:
-  - Autonomous aerial systems and vehicles for defense applications
-  - AI-enabled mission planning and execution for aerial operations
-  - Democratized deterrence through cost-effective defense technology
-  - Real-time decision support for aerial system operators in the field
+  - Autonomous aerial vehicle systems for U.S. ally defense ('democratized deterrence')
+  - AI-enabled mission software supporting operators in real-world field conditions
+  - Multi-step AI-driven pipelines orchestrated on internal platform services
+  - LLM-enabled workflows running under strict governance, auditability, safety, latency,
+    and cost constraints
   skills:
-    domains: []
-    languages: [Go, Java, Python, C++]
-    ml: []
     cloud: []
-    genai: [LLM systems, AI safety patterns, Prompt injection mitigation]
-    data: [Workflow orchestration, Message queues and pub/sub, Feature/data pipelines]
-    other: [Distributed Systems, Event-Driven Architecture, RBAC/ABAC]
-    ops: [CI/CD, Observability, Model serving infrastructure, Inference gateways,
-      GPU infrastructure, Secrets management, Experiment tracking, Artifact registries,
-      Evaluation platforms, A/B testing]
-    web: [REST APIs]
+    languages: [Python, Go, Java, C++]
+    ml: [Machine Learning]
+    other: [A/B Testing, Event-Driven Architecture, RBAC/ABAC]
+    ops: [MLOps, CI/CD, Observability, Model Deployment, Evaluation Platforms, Distributed
+        Systems, Secrets Management]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines, Data Modeling]
+    genai: [LLMs, Prompt Injection Mitigation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8874830'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T15:00:59.129298'
+  extracted_at: '2026-08-16T05:30:11.190080'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

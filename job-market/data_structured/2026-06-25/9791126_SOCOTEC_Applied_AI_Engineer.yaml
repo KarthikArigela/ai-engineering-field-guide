@@ -1,18 +1,21 @@
 company:
   name: SOCOTEC
   stage: null
-  focus: Architecture, engineering and construction consulting
+  focus: |-
+    Niche consulting for architecture, engineering and
+    construction industries
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing, developing, and
-      deploying AI models with a focus on NLP and chatbot systems.
-      The engineer will build ML pipelines, fine-tune models, and
-      integrate solutions using LangChain and cloud services,
-      which constitutes hands-on work building and deploying
-      AI/LLM systems.
+      The role designs and implements NLP and
+      chatbot/conversational AI systems, including building
+      conversational workflows with LangChain and directly fine-
+      tuning and evaluating model output quality for the chatbot
+      program. This is shaping LLM-driven behavior, so it is ai-
+      first; the role also spans classical ML (TensorFlow,
+      PyTorch, scikit-learn), and mixed roles resolve to ai-first.
   responsibilities:
   - Design and implement machine learning models for NLP and chatbot applications
     within enterprise systems
@@ -20,35 +23,39 @@ position:
     translate business requirements into AI-driven solutions
   - Build and optimize end-to-end machine learning pipelines from data preprocessing
     to model deployment
-  - Fine-tune and improve accuracy, speed, and robustness of AI models through hyperparameter
+  - Fine-tune and improve the accuracy, speed, and robustness of AI models using hyperparameter
     tuning and model optimization
-  - Integrate AI models into production environments using tools like LangChain and
-    cloud services
-  - Follow best practices for model training, testing, and evaluation to ensure reliability
-    and quality
-  - Maintain detailed documentation of AI workflows, models, and algorithms
-  - Stay current with AI/ML advancements and apply new techniques to improve the technology
+  - Ensure reliability and quality of AI models by following best practices for training,
+    testing, and model evaluation
+  - Integrate AI models into production environments with backend engineers using
+    LangChain and cloud services
+  - Document AI workflows, models, and algorithms to support collaboration and maintainability
+  - Stay current with AI/ML and NLP advancements and apply new techniques to the technology
     stack
   use_cases:
-  - Chatbot and conversational AI for enterprise systems
-  - NLP-driven solutions for the architecture, engineering, and construction industry
-  - AI-enhanced building envelope, energy efficiency, and sustainability advisory
-  - Enterprise AI integration for construction and specialty structures consulting
+  - Enterprise chatbot program for SOCOTEC's operations
+  - Conversational AI and NLP applications within enterprise systems
+  - AI-driven solutions addressing real-world challenges in the architecture, engineering
+    and construction industry
+  - Scalable machine learning pipelines supporting production AI services
   skills:
-    domains: [NLP]
-    languages: [Python, SQL]
-    ml: [scikit-learn, TensorFlow, PyTorch, Hugging Face, Reinforcement Learning,
-      Transfer Learning]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain]
-    data: []
-    other: [Jupyter Notebook, A/B Testing]
-    ops: [Git, GitHub, Docker]
-    web: []
+    languages: [Python]
+    ml: [scikit-learn, TensorFlow, PyTorch, Hugging Face, Machine Learning, Model
+        Training, Model Evaluation, Fine-Tuning, Hyperparameter Tuning, Reinforcement
+        Learning, Transfer Learning]
+    other: [Jupyter Notebook, A/B Testing, Agile]
+    ops: [Git, GitHub, Docker, Model Deployment, Model Monitoring]
     databases: []
+    domains: [NLP]
+    web: []
+    data: []
+    genai: [LangChain, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9791126'
   location: New York, USA
-  extracted_at: '2026-06-25T19:54:04.944569'
+  extracted_at: '2026-08-16T15:06:18.262322'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

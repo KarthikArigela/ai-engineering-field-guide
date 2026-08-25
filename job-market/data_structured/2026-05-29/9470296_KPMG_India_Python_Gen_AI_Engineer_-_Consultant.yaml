@@ -1,53 +1,52 @@
 company:
   name: KPMG India
-  stage: Public
-  focus: Professional services and consulting firm
+  stage: null
+  focus: Professional services firm
 position:
   title: Python + Gen AI Engineer - Consultant
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on development with LLMs, GenAI
-      frameworks (LangChain, LlamaIndex), RAG pipeline design, and
-      vector stores. The engineer will work directly with AI
-      models including fine-tuning (LoRA, QLoRA) and deploying on
-      cloud AI platforms (Azure OpenAI, AWS Bedrock, GCP Vertex
-      AI), which is direct AI engineering work rather than support
-      functions.
+      The role explicitly requires prompt engineering, RAG
+      pipeline design with vector stores, and fine-tuning large
+      language models (instruction-tuning, LoRA, QLoRA) - all
+      activities that directly shape LLM behavior and output
+      quality. Since the shaped models are LLMs, this is ai-first.
   responsibilities:
-  - Develop software and AI solutions across full lifecycle including coding and unit
-    testing
-  - Build and deploy GenAI applications using LLMs, LangChain, and LlamaIndex frameworks
-  - Design and implement RAG pipelines with vector stores for enhanced AI capabilities
-  - Collaborate with Technical Architects, Business Analysts, and designers on new
-    product offerings
-  - Fine-tune large language models using techniques like LoRA and QLoRA
-  - Implement AI solutions on cloud platforms including Azure OpenAI, AWS Bedrock,
-    and GCP Vertex AI
-  - Ensure compliance with KPMG development best practices and procedures
-  - Quickly ramp up on new technologies as project requirements evolve
+  - Develop software across the full development life cycle, writing code and unit
+    tests
+  - Build GenAI applications using LLMs, GenAI frameworks, and prompt engineering
+  - Design RAG pipelines with vector stores for retrieval-based solutions
+  - Collaborate with Technical Architects, Business Analysts, user interaction designers,
+    and software engineers to develop new product offerings and improve existing ones
+  - Ensure development practices comply with KPMG best practices policies and procedures
+  - Work with cloud AI environments (Azure OpenAI, AWS Bedrock, GCP Vertex AI) for
+    AI services
+  - Fine-tune large models using instruction-tuning and LoRA/QLoRA techniques
+  - Ramp up quickly on new technologies whenever required
   use_cases:
-  - Building GenAI-powered applications for enterprise clients
-  - Implementing RAG-based knowledge retrieval systems
-  - Developing LLM-powered conversational interfaces
-  - Fine-tuning models for domain-specific applications
-  - Multimodal AI solutions combining vision and language
-  - AI consulting and solutions for various business sectors
+  - LLM-powered applications and GenAI solutions for consulting projects
+  - RAG-based retrieval solutions built on vector stores
+  - Fine-tuned large language models for task-specific applications
+  - Cloud-hosted AI services across Azure, AWS, and GCP
+  - Multimodal AI applications spanning vision, language, and speech
   skills:
-    domains: []
-    languages: [Python, OOP, asyncio]
-    ml: [PyTorch, TensorFlow, Fine-Tuning]
     cloud: [Azure OpenAI, AWS Bedrock, Vertex AI]
-    genai: [LLMs, Prompt Engineering, LangChain, LlamaIndex, Transformers, HuggingFace,
-      RAG, instruction-tuning, LoRA, multimodal models]
-    data: []
-    other: []
-    ops: [MLflow, Weights & Biases, Distributed Systems]
-    web: [APIs]
+    languages: [Python, asyncio]
+    ml: [Transformers, Hugging Face, PyTorch, TensorFlow, Multimodal Models]
+    other: [OOP]
+    ops: [MLOps, MLflow, Weights & Biases, Distributed Systems]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [LLMs, Generative AI, Prompt Engineering, LangChain, LlamaIndex, RAG, Fine-Tuning,
+      LoRA]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9470296'
   location: Mumbai, IND
-  extracted_at: '2026-05-29T09:06:29.433273'
+  extracted_at: '2026-08-16T11:41:44.615647'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

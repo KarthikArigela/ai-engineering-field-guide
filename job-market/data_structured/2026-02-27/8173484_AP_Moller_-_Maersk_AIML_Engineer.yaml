@@ -1,55 +1,59 @@
 company:
   name: A.P. Moller - Maersk
-  stage: Public
-  focus: |-
-    Global container shipping and logistics services, supply
-    chain solutions
+  stage: null
+  focus: Integrated global container logistics and shipping services
 position:
   title: AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building, developing, and
-      deploying ML/deep learning models and LLM-based solutions to
-      production. The position requires implementing neural
-      networks, transformer architectures, and LLMs (LangChain,
-      Hugging Face), along with end-to-end AI/ML data products -
-      all direct work ON AI systems.
+      The role requires designing, training, and evaluating
+      ML/deep learning models themselves (model evaluation, A/B
+      testing, model selection), which is shaping. It explicitly
+      requires hands-on LLM/Transformer experience with LangChain,
+      Hugging Face, and multi-agent systems, so LLM components are
+      involved alongside classical ML. A role shaping both LLM and
+      classical ML systems is ai-first.
   responsibilities:
-  - Design, develop, and implement robust, scalable, and optimized machine learning
-    and deep learning models
-  - Write and integrate automated tests alongside models to ensure reproducibility
-    and quality standards
+  - Design, develop, and implement robust, scalable machine learning and deep learning
+    models for production systems
+  - Write and integrate automated tests alongside models and code to ensure reproducibility,
+    scalability, and quality standards
+  - Identify data-driven approaches to ambiguous business problems, leveraging data
+    engineering capabilities
+  - Research and integrate new models, technologies, and methodologies into production,
+    ensuring scalability and reliability
+  - Manage and optimize data solutions, perform A/B testing, and evaluate system and
+    model performance
+  - Contribute to design and documentation of AI/ML solutions, detailing methodologies,
+    assumptions, and findings for cross-team collaboration
   - Implement best practices in security, pipeline automation, and error handling
-  - Identify and implement data-driven approaches to solve ambiguous business problems
-  - Research and implement new models, technologies, and methodologies into production
-    systems
-  - Manage and optimize data solutions, perform A/B testing, and evaluate system performance
-  - Contribute to design and documentation of AI/ML solutions for cross-team collaboration
-  - Collaborate across teams to develop high-quality, scalable AI/ML solutions aligned
+  - Collaborate across teams to build high-quality, scalable AI/ML solutions aligned
     with business goals
   use_cases:
-  - Supply chain execution optimization and visibility-driven recommendation systems
-  - Strategic decision-making support with actionable insights for internal stakeholders
-    and customers
-  - Demand forecasting and time-series modeling for logistics
-  - Natural language processing applications for logistics operations
-  - Multi-agent systems and reinforcement learning for dynamic decision-making in
-    supply chain
-  - Multimodal AI integrating text, image, and other data modalities for unified intelligence
+  - Visibility-driven recommendation systems serving internal stakeholders and external
+    customers
+  - Actionable insights to enhance supply chain execution
+  - Support for strategic decision-making in logistics operations
+  - Predictive analytics and process automation across supply chain data
+  - Innovative service offerings built on AI/ML data products
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [scikit-learn, PyTorch, Deep Learning, Neural Networks, Reinforcement Learning,
-      NLP, Transformers, A/B testing]
     cloud: []
-    genai: [LangChain, Hugging Face transformers, BERT, GPT, LLaMA, Mistral, Anthropic
-        API, Gemini]
-    data: [Spark, Airflow, Big Data Technologies]
-    other: [Gurobi, PowerBI]
-    ops: [MLOps, Kubeflow, Kubernetes, Docker, GitHub, CI/CD]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, Deep Learning, scikit-learn, PyTorch, Transformers, Hugging
+        Face, Neural Networks, Model Evaluation, Reinforcement Learning, NLP, Time-Series
+        Modeling, Forecasting, Recommendation Systems, Statistical Analysis, Optimization
+        Techniques, Multimodal AI, Machine Learning Pipelines]
+    other: [A/B Testing, Power BI, Gurobi, Agile, Code Review, Technical Documentation]
+    ops: [MLOps, Model Deployment, CI/CD, DevOps, GitHub, Kubeflow, Kubernetes, Docker,
+      Distributed Systems]
     databases: []
+    domains: []
+    web: [Streamlit, Dash]
+    data: [Data Engineering, Data Analysis, Big Data Technologies, Data Architecture,
+      Data Processing Frameworks, Spark, Airflow]
+    genai: [LLMs, LangChain, Multi-Agent Systems, BERT, GPT, Llama, Mistral, Anthropic
+        API, Gemini]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +62,6 @@ meta:
   locations:
   - Yelahanka, IND
   - Viman Nagar, IND
-  extracted_at: '2026-03-03T12:22:46.552770'
+  extracted_at: '2026-08-16T00:36:19.950387'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

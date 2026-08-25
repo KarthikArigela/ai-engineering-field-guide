@@ -1,59 +1,60 @@
 company:
   name: Astellas Pharma
-  stage: Public
-  focus: Pharmaceutical company developing innovative therapies
+  stage: null
+  focus: |-
+    Global pharmaceutical company developing innovative
+    medicines
 position:
   title: Automation Engineer - AI & Machine Learning  Sr Developer
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is an Automation Engineer focused on workflow
-      automation using Python and Microsoft Power Automate. While
-      the job title mentions AI & ML, the actual responsibilities
-      involve developing automation scripts, integrating business
-      workflows, and supporting IT solutions - not building,
-      training, or deploying AI/ML models. The ML knowledge
-      appears to be optional (mentioned only as
-      training/certification preference) rather than a core
-      function of the role.
+      Despite the "AI & Machine Learning" title, the actual work
+      is business process and workflow automation using Python and
+      Microsoft Power Automate, with integrations into Power Apps,
+      SharePoint, and Dynamics 365. ML/AI appear only as preferred
+      qualifications and training areas, not as responsibilities.
+      The role never shapes model behavior (no prompting, RAG,
+      training, evals, or agent design), so it is ai-support.
   responsibilities:
-  - Design and implement robust Python applications for maximum speed and scalability
-  - Develop automated workflows using Microsoft Power Automate and integrate with
-    Microsoft products
-  - Analyze business process requirements to identify areas for workflow automation
-    and optimization
-  - Implement and manage workflow management tools to streamline business processes
-    ensuring security and data protection
-  - Collaborate with business stakeholders and cross-functional teams to gather requirements
-    and integrate solutions
-  - Monitor, troubleshoot, and optimize workflow processes to ensure smooth operations
-    and improve application performance
-  - Provide technical support to internal users and train users on workflow management
-    tools and best practices
-  - Participate in continuous delivery pipeline adhering to DevOps best practices
-    for version control and deployment
+  - Design and implement robust and scalable Python-based applications to support
+    workflow management
+  - Design, develop, and test automated workflows using Microsoft Power Automate
+  - Analyze business process requirements to identify workflow automation and optimization
+    opportunities
+  - Integrate Power Automate with other Microsoft products such as Power Apps, SharePoint,
+    and Dynamics 365
+  - Monitor, troubleshoot, and optimize workflow processes and application performance
+    to ensure smooth operations
+  - Collaborate with cross-functional teams and business stakeholders to gather requirements
+    and translate them into technical solutions
+  - Document procedures, maintain technical specifications, and train users and developers
+    on workflow management tools and best practices
+  - Participate in the continuous delivery pipeline following DevOps best practices
+    for version control, automation, and deployment
   use_cases:
-  - Business process automation across Commercial, Manufacturing, and Medical domains
-  - Workflow management and optimization using Python and Power Automate
-  - Integration of Microsoft products including Power Apps, SharePoint, and Dynamics
-    365
-  - Data visualization and reporting for automated processes
-  - Technical support and system troubleshooting for internal users
+  - Business process workflow automation and optimization
+  - Workflow management system development for pharmaceutical operations
+  - Integration of automation solutions across the Microsoft ecosystem
+  - Automation supporting Commercial, Manufacturing, and Medical functions in a regulated
+    life sciences environment
   skills:
-    domains: []
-    languages: [Python, JavaScript]
-    ml: [Machine Learning]
     cloud: []
-    genai: [Artificial Intelligence]
-    data: [Data Visualization]
-    other: [Microsoft Power Automate, Microsoft Power Apps, SharePoint, Dynamics 365,
-      Agile, Automation Anywhere, Ignio, MyWizard]
-    ops: [DevOps, CI/CD, Workflow Automation]
+    languages: [Python, SQL, JavaScript]
+    ml: [Machine Learning]
+    other: [Power Automate, Power Apps, SharePoint, Dynamics 365, Workflow Automation,
+      Agile, Data Visualization, Automation Anywhere, Ignio, MyWizard]
+    ops: [CI/CD, DevOps]
+    databases: []
+    domains: []
     web: [HTML, CSS, APIs]
-    databases: [SQL]
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8507209'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:10:06.705128'
+  extracted_at: '2026-08-16T02:00:03.034430'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

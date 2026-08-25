@@ -1,50 +1,57 @@
 company:
   name: CareSource
   stage: null
-  focus: Healthcare and managed care services
+  focus: Healthcare managed care services
 position:
   title: AI Engineer II
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying
-      generative AI solutions including LLMs, RAG systems, vector
-      databases, and inference pipelines. The engineer is
-      responsible for architecture design and proof of concept
-      development using modern GenAI tools like LangChain and
-      OpenAI APIs.
+      The role defines architecture for Generative AI platforms
+      including LLMs, vector databases, RAG, embeddings, and
+      semantic search, which means designing retrieval and LLM
+      systems that directly shape model output quality (Step 1:
+      yes). With LLMs explicitly at the core, Step 2 classifies
+      this as ai-first.
   responsibilities:
-  - Define and oversee architecture for Generative AI platforms including LLMs, vector
-    databases, and inference pipelines
+  - Define and oversee the architecture for Generative AI platforms, including LLMs,
+    vector databases, and inference pipelines
   - Design and develop complex software systems ensuring scalability, reliability,
     and maintainability
-  - Develop proof of concepts to evaluate new AI technologies and value-adding concepts
-  - Drive innovation and teamwork through hands-on implementation and exploration
-    of AI capabilities
+  - Rapidly develop proof of concepts to evaluate new technologies and value-adding
+    concepts
+  - Embrace AI-assisted software development using GitHub Copilot and internally developed
+    tools
   - Collaborate with leadership to evaluate deployed services and optimize delivery
-    mechanisms
-  - Provide progress updates to stakeholders and identify technical risks with mitigation
-    strategies
+    and support mechanisms
+  - Identify technical risks and propose effective mitigation strategies
+  - Collaborate with product managers to prioritize and schedule project deliverables
+    based on business objectives
+  - Provide progress updates to project stakeholders and stay current with industry
+    trends
   use_cases:
-  - Generative AI platform architecture for enterprise applications
-  - RAG-based semantic search systems for information retrieval
-  - LLM-powered solutions leveraging OpenAI and Llama models
-  - Vector database implementations for embedding-based search
-  - AI-assisted software development workflows using GitHub Copilot and internal tools
+  - Generative AI solutions delivery within a healthcare managed care organization
+  - Enterprise retrieval applications using RAG, embeddings, and semantic search
+  - Proof-of-concept prototypes to evaluate new generative AI technologies and business
+    value
+  - Optimization of currently deployed services and support mechanisms
   skills:
-    domains: []
+    cloud: [Serverless]
     languages: [Python]
     ml: []
-    cloud: [serverless]
-    genai: [OpenAI API, LangChain, Llama, RAG, Embeddings, semantic search, vectorization]
-    data: []
-    other: [GitHub Copilot, Agile]
-    ops: [Infrastructure as Code, inference pipelines, Docker]
-    web: [Streamlit]
+    other: [Agile]
+    ops: [Infrastructure as Code, Inference Pipelines, Docker]
     databases: [Vector Databases]
+    domains: []
+    web: [Streamlit]
+    data: []
+    genai: [LLMs, Generative AI, OpenAI API, Llama, LangChain, RAG, Embeddings, Semantic
+        Search, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8191380'
   location: USA
-  extracted_at: '2026-02-05T12:11:38.541273'
+  extracted_at: '2026-08-15T22:50:36.799224'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

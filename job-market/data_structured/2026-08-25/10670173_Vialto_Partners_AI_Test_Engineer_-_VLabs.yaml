@@ -1,0 +1,57 @@
+company:
+  name: Vialto Partners
+  stage: null
+  focus: |-
+    Tax and immigration services with AI-enabled delivery
+    solutions
+position:
+  title: AI Test Engineer - VLabs
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds LLM evaluation frameworks, AI-as-Judge
+      prompt design, hallucination detection, and validation of
+      LLM outputs and agentic workflows — this is shaping model
+      behaviour and output quality, with LLM/agent components
+      central, so ai-first.
+  responsibilities:
+  - Design and execute test scenarios for LLM outputs, document classification, extraction
+    accuracy, and agentic workflows
+  - Build reusable Python-based evaluation frameworks including hallucination detection
+    and scoring mechanisms
+  - Implement AI-as-Judge frameworks with prompt design, scoring logic, and calibration
+    of evaluation reliability
+  - Embed evaluation frameworks into CI/CD pipelines for continuous testing
+  - Design and operate drift detection frameworks with baseline datasets and scheduled
+    re-evaluation for release gating
+  - Build and maintain ground truth datasets in partnership with subject matter experts
+  - Test end-to-end agentic workflows, API endpoints, and data persistence across
+    system layers
+  - Ensure adherence to Responsible AI, data privacy, and governance requirements
+    and scale standardized AI evaluation patterns
+  use_cases:
+  - Validation of LLM outputs for tax and immigration service workflows
+  - Document classification and extraction accuracy testing via OCR and document AI
+  - Reliability testing of multi-step agentic workflows and AI-driven automation
+  - Hallucination detection and grounding checks on AI outputs
+  - Drift detection and regression gating for AI releases in production
+  skills:
+    genai: [LLMs, LLM Evaluation, Agentic Workflows, Prompt Engineering, LangChain,
+      LlamaIndex]
+    ml: [Model Evaluation, Ground Truth Datasets]
+    web: []
+    databases: []
+    data: []
+    cloud: [Azure AI Foundry, AWS Bedrock]
+    ops: [CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [Postman, Newman, OCR, Drift Detection, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10670173'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:11:55.489637'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

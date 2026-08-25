@@ -1,17 +1,20 @@
 company:
   name: Harman
-  stage: Public
-  focus: Connected car, audio, and enterprise technology
+  stage: null
+  focus: |-
+    Automotive infotainment, audio, and connected technology
+    solutions
 position:
   title: Software Engineer - Classic AI/ML
   ai_type:
     type: ml-first
     reasoning: |-
-      This role focuses on building and optimizing traditional
-      ML/DL models including CNNs, RNNs, and reinforcement
-      learning using frameworks like TensorFlow, Keras, and
-      scikit-learn. There is no mention of LLMs, agents, RAG, or
-      GenAI techniques, making it ml-first rather than ai-first.
+      The role shapes model behaviour directly through building,
+      training, and optimizing models across Computer Vision, NLP,
+      and Recommendation Systems using Deep Learning (CNN, RNN)
+      and Reinforcement Learning. There is no LLM, prompt,
+      retrieval, or agent component anywhere in the description,
+      so this is classical ML/DL work, making it ml-first.
   responsibilities:
   - Design, develop, and deploy machine learning and AI solutions to solve business
     problems
@@ -24,26 +27,27 @@ position:
   - Ensure code is secure, scalable, and performance-optimized
   - Document solutions and communicate technical concepts to non-technical stakeholders
   use_cases:
-  - Computer Vision for automotive and enterprise applications
-  - Natural Language Processing solutions
+  - Computer vision model solutions for business problems
+  - Natural language processing applications
   - Recommendation systems
-  - In-vehicle infotainment and connected ecosystem intelligence
-  - Business problem solving through ML and AI
+  - ML-driven solutions supporting the automotive and connected ecosystem
   skills:
-    domains: [Computer Vision, NLP, Recommender Systems]
-    languages: [Python, R, PySpark, Scala, SQL]
-    ml: [Machine Learning, Deep Learning, CNN, RNN, Reinforcement Learning, Model
-        Optimization, TensorFlow, Keras, scikit-learn, Spark ML]
     cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Spark, Databricks, Big Data Processing]
-    other: [Data Structures, Algorithms]
+    languages: [Python, R, Scala]
+    ml: [Machine Learning, Deep Learning, CNNs, RNNs, Reinforcement Learning, TensorFlow,
+      scikit-learn, Keras, Spark ML]
+    other: []
     ops: [Linux]
-    web: []
     databases: []
+    domains: [Computer Vision, NLP, Recommender Systems]
+    web: []
+    data: [PySpark, Databricks, Data Pipelines]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9708472'
   location: Pune, IND
-  extracted_at: '2026-06-25T19:45:32.628205'
+  extracted_at: '2026-08-16T14:25:37.376137'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

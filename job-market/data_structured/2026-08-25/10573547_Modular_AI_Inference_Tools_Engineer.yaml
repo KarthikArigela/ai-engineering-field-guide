@@ -1,0 +1,53 @@
+company:
+  name: Modular
+  stage: null
+  focus: AI infrastructure and ML serving frameworks
+position:
+  title: AI Inference Tools Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent-native tooling and writes agents to
+      profile, triage, and debug AI systems, which is designing
+      agent flows and tool-calling integration — directly shaping
+      agentic components (Step 1 yes, Step 2 LLM/agent involved).
+      The core tooling (profilers, debuggers, dashboards) alone
+      would be ai-support, but the explicit agent-building
+      responsibility makes it ai-first.
+  responsibilities:
+  - Enhance the MAX developer experience with tools for traditional and agentic workflows
+    across heterogeneous hardware platforms
+  - Design, build, and maintain profiling, tracing, debugging, correctness-checking,
+    and monitoring tools for the MAX framework
+  - Create agent-native tooling usable by humans and agents, and write agents to bring
+    up models, triage issues, and optimize workloads
+  - Connect tooling interfaces across MAX, Mojo, and underlying driver APIs and orchestration
+    layers
+  - Participate in design discussions and code reviews to uphold engineering standards
+  - Work with kernel, model, and serving engineers to turn recurring pain points into
+    better tools
+  use_cases:
+  - Developer tooling for AI model and kernel creation, debugging, and optimization
+  - Agent-native profiling, triage, and debugging of AI inference systems
+  - Performance and health monitoring of ML serving deployments
+  - Bridging MAX, Mojo, and driver APIs across heterogeneous hardware
+  skills:
+    genai: [AI Agents, MCP, Agentic Workflows]
+    ml: [PyTorch, JAX, TensorFlow]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [CUDA, Monitoring]
+    languages: [C++, Rust, Go, Python, Mojo]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10573547'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:45:07.873539'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

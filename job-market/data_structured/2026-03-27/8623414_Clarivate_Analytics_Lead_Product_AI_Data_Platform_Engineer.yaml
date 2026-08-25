@@ -1,56 +1,60 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: Life Sciences and Healthcare analytics and data services
+  stage: null
+  focus: Data and analytics for Life Sciences and Healthcare
 position:
   title: Lead  Product AI Data Platform Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building data platforms and
-      infrastructure that enable AI/ML workloads, not directly
-      building or deploying AI models. The work involves
-      dimensional modeling, ETL/ELT pipelines, data architecture,
-      and feature stores - all enabling activities that support ML
-      teams rather than hands-on model development.
+      The role builds AI-ready data platforms, ETL/ELT pipelines,
+      and dimensional models, and curates datasets and feature
+      stores that feed ML and analytics workloads. It never shapes
+      model behavior itself - no prompts, retrieval design, agent
+      flows, training, evals, or guardrails. Data enablement that
+      feeds other teams' AI/ML work is plumbing, so this is ai-
+      support.
   responsibilities:
   - Define and evolve enterprise-level product data architecture across multiple product
-    lines ensuring scalability and AI/ML readiness
+    lines, ensuring scalability, reliability, and AI/ML readiness
   - Architect scalable ETL/ELT pipelines and distributed data workflows for analytics,
     AI, and product intelligence
-  - Develop and enforce dimensional data modeling standards including star and snowflake
-    schemas across the organization
-  - Design and maintain fact and dimension tables ensuring proper grain, SCD handling,
-    and hierarchical dimensions
-  - Establish data architecture principles and best practices for ETL/ELT, event tracking,
-    and AI pipelines
-  - Partner with cross-functional teams to translate requirements into analytics-
-    and AI-ready data models
+  - Develop and enforce dimensional data modeling standards (star and snowflake schemas)
+    across the organization
+  - Design and maintain fact and dimension tables with proper grain, SCD handling,
+    surrogate keys, and hierarchical dimensions
+  - Establish data architecture principles, naming conventions, and best practices
+    for ETL/ELT, event tracking, and AI pipelines
   - Curate and validate datasets for machine learning, experimentation, and advanced
     analytics
   - Establish feature store frameworks and reusable AI data pipelines across multiple
     products
+  - Serve as the technical authority guiding architecture decisions to meet product,
+    platform, and AI requirements
   use_cases:
-  - Enterprise data platform for Life Sciences and Healthcare analytics
-  - AI/ML-ready data infrastructure enabling model training and experimentation
-  - Analytics pipelines for business intelligence and product intelligence
-  - Feature store frameworks for machine learning workloads
-  - Event-driven data architectures for downstream analytics
+  - AI-ready enterprise data platforms for the Life Sciences and Healthcare ecosystem
+  - Analytics and product intelligence pipelines across multiple product lines
+  - Dataset and feature store enablement for machine learning experimentation
+  - Semi-structured and event-driven data (JSON, logs, clickstream) feeding downstream
+    analytics
+  - Enterprise BI and visualization on cloud data warehouses
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: [Feature stores]
     cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Databricks, dbt, Airflow, Fivetran, Segment, Data Pipelines, Dimensional
-        modeling]
-    other: [Power BI, Tableau, Looker]
+    languages: [Python, SQL]
+    ml: [Machine Learning, Feature Stores]
+    other: [Power BI, Tableau, Looker, SAP BusinessObjects, Event-Driven Architecture]
     ops: []
-    web: []
-    databases: [Snowflake, BigQuery]
+    databases: [Snowflake, BigQuery, Relational Databases]
+    domains: [Life Sciences and Healthcare]
+    web: [JSON]
+    data: [Databricks, dbt, Airflow, Fivetran, Segment, Data Pipelines, Data Engineering,
+      Dimensional Modeling, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8623414'
   location: Bengaluru, IND
-  extracted_at: '2026-03-27T15:14:14.381957'
+  extracted_at: '2026-08-16T03:20:51.137634'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

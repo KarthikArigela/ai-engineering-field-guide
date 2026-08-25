@@ -1,60 +1,59 @@
 company:
   name: StratLytics Consulting Private Limited
   stage: null
-  focus: Consulting for analytics and AI solutions
+  focus: AI and data analytics consulting for fintech clients
 position:
   title: Senior Cloud & DevOps Engineer — AI Platform Operations
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on cloud infrastructure, DevOps, and
-      platform operations for AI applications. The candidate
-      manages AWS infrastructure, CI/CD, monitoring, and incident
-      response to support AI systems built by others, rather than
-      building, training, or fine-tuning models themselves. They
-      configure access to Bedrock/Claude and deploy AI services,
-      but the core work is infrastructure and operations enabling
-      AI applications.
+      The role owns AWS infrastructure, CI/CD, monitoring, and
+      incident response for AI applications designed by others (AI
+      engineers and AI scientists handle L3). It configures secure
+      access to Bedrock/Claude but never shapes prompts,
+      retrieval, or model output quality; the deliverable is
+      capacity, reliability, and operational support, which makes
+      it ai-support.
   responsibilities:
   - Design, deploy, and manage AWS infrastructure for AI, data, and application workloads
-  - Set up and manage core AWS services including EC2/ECS/App Runner, RDS PostgreSQL,
+  - Set up and manage AWS services including EC2, ECS/App Runner, RDS PostgreSQL/Aurora,
     S3, IAM, VPC, Secrets Manager, KMS, and CloudWatch
   - Support deployment of FastAPI, Streamlit, background workers, and AI application
     services
-  - Configure secure access to Amazon Bedrock, Claude, and related AI platform services
+  - Configure secure access to Amazon Bedrock/Claude and related AI platform services
   - Build and maintain CI/CD pipelines for reliable application deployment
   - Implement monitoring, logging, alerting, backup, recovery, and incident-response
     processes
-  - Lead L1/L2 operational support and coordinate L3 escalation to AI engineers and
-    data scientists
-  - Manage, guide, and review the work of junior systems engineers
-  - Ensure infrastructure is secure, auditable, cost-aware, and suitable for financial-services
-    workloads
-  - Participate in client-facing technical discussions, status reviews, and incident
-    reviews
+  - Lead L1/L2 operational support and coordinate L3 escalation to AI engineers, data
+    engineers, and AI scientists
+  - Manage, guide, and review the work of junior systems engineers and maintain runbooks,
+    SOPs, and deployment documentation
   use_cases:
-  - AI-powered underwriting for a North American fintech client
-  - Production-grade AI and data application hosting on AWS
-  - Secure enterprise LLM platform operations using Amazon Bedrock and Claude
-  - Financial-services compliant cloud infrastructure with monitoring and incident
-    response
+  - AI underwriting platform for a North American fintech client
+  - Cloud infrastructure hosting for AI, data, and application workloads
+  - Secure access configuration for Amazon Bedrock and Claude AI platform services
+  - Production deployment and 18x7 operational support of AI applications
+  - CI/CD deployment automation and release reliability
+  - Monitoring, incident response, and disaster recovery for financial-services workloads
   skills:
-    domains: []
-    languages: [Bash, Python]
+    cloud: [AWS, EC2, ECS, Fargate, App Runner, AWS S3, IAM, VPC, Security Groups,
+      Secrets Manager, KMS, CloudTrail, AWS Bedrock]
+    languages: [Python, Bash]
     ml: []
-    cloud: [AWS, Amazon EC2, Amazon ECS/Fargate, AWS App Runner, AWS S3, IAM, AWS
-        VPC, AWS Secrets Manager, AWS KMS, Amazon CloudWatch, AWS CloudTrail, AWS
-        Bedrock]
-    genai: [Anthropic API, LangGraph, LangChain, OpenAI API]
-    data: [Celery]
-    other: []
-    ops: [Docker, CI/CD, Linux administration, Terraform, CloudFormation, GitHub Actions,
-      GitLab CI/CD, Jenkins, LLMOps]
-    web: [FastAPI, Streamlit]
-    databases: [Amazon RDS PostgreSQL, Amazon Aurora PostgreSQL, PostgreSQL, Redis]
+    other: [Celery, Networking]
+    ops: [CloudWatch, Docker, CI/CD, Linux, Monitoring, Incident Management, Release
+        Management, Terraform, CloudFormation, GitHub Actions, GitLab CI, Jenkins,
+      LLMOps, Model Deployment, Observability]
+    databases: [RDS, PostgreSQL, Aurora PostgreSQL, Redis]
+    domains: []
+    web: [FastAPI, Streamlit, APIs]
+    data: []
+    genai: [Anthropic API, OpenAI API, LangGraph, LangChain]
   is_customer_facing: true
   is_management: true
 meta:
   job_id: '9851370'
   location: Bhubaneswar, IND
-  extracted_at: '2026-06-25T19:57:10.867472'
+  extracted_at: '2026-08-16T15:27:09.100567'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

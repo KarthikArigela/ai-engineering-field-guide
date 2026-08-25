@@ -1,44 +1,45 @@
 company:
   name: Deepmind
-  stage: Public
-  focus: AI research and GenAI developer platforms
+  stage: ''
+  focus: AI research lab building Gemini developer tools
 position:
   title: Software Engineer, AI Studio iOS Mobile - New York or Mountain View
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a mobile software engineering role building the iOS
-      app for AI Studio, which is a developer tool/platform for
-      GenAI. The engineer will build the mobile application
-      interface and infrastructure, not work directly on AI
-      models, LLMs, or machine learning systems themselves. The
-      role focuses on iOS development, rapid prototyping, and
-      deploying mobile applications that enable others to use AI
-      tools.
+      The role is an iOS mobile engineer building the AI Studio
+      mobile app on top of Google's Gemini API and AI Studio
+      platform built by other teams. Responsibilities are mobile
+      prototyping, design, and deployment with no prompt design,
+      retrieval, agent orchestration, or model training/evaluation
+      work. The engineer consumes AI capabilities others designed,
+      so it is ai-support.
   responsibilities:
-  - Rapid prototyping of various iOS mobile app ideas
-  - Design, develop, and deploy iOS mobile applications
-  - Partner closely with PM and UX to iterate on working iOS mobile prototypes
+  - Rapidly prototype iOS mobile app ideas to explore product market fit for a mobile
+    vibe coding app
+  - Design, develop, and deploy iOS mobile applications for the new Google AI Studio
+    Build mobile app
+  - Partner closely with PM and UX to iterate on ideas via working iOS prototypes
+  - Advance AI-powered software development and the vibe coding capabilities of AI
+    Studio
   - Contribute to the development of new AI tools and platforms
-  - Launch a brand new Google AI Studio Build mobile app
   - Stay up-to-date with the latest advancements in AI and software engineering
   use_cases:
-  - Mobile vibe coding platform that expands who can be a developer
-  - GenAI playground showcasing cutting edge Google models
-  - Platform for Gemini API users to monitor and manage their usage
-  - AI-powered software development paradigm
-  - Mobile app for AI Studio GenAI IDE
+  - Mobile vibe coding app that expands development to creators and AI enthusiasts
+  - GenAI developer playground showcasing Google's cutting-edge models
+  - Platform for Gemini API users to monitor and manage usage
+  - AI-powered software development via a GenAI IDE and backend services
   skills:
-    genai: [Vibe coding]
-    ml: []
-    web: [iOS, Android, Flutter, Web development]
-    databases: []
-    data: []
     cloud: []
-    ops: []
     languages: [Swift, Kotlin]
+    ml: []
+    other: [iOS, Android, Flutter, Mobile Development, Middleware, Google3]
+    ops: []
+    databases: []
     domains: []
-    other: [Mobile development]
+    web: []
+    data: []
+    genai: [Vibe Coding, Gemini, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -47,4 +48,6 @@ meta:
   locations:
   - New York, USA
   - Mountain View, USA
-  extracted_at: '2026-02-05T11:41:07.509850'
+  extracted_at: '2026-08-15T22:21:07.175292'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

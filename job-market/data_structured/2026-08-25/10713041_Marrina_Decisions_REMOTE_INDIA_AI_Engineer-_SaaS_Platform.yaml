@@ -1,0 +1,51 @@
+company:
+  name: Marrina Decisions
+  stage: null
+  focus: SaaS AI platform for content generation and compliance
+position:
+  title: 'REMOTE (INDIA):   AI Engineer- SaaS Platform'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model output quality directly through prompt
+      engineering, fine-tuning, evaluation, and
+      feedback/reinforcement loops for LLM/VLM pipelines. LLMs are
+      central, making it ai-first.
+  responsibilities:
+  - Maintain and optimize LLM/VLM services for content generation, compliance scoring,
+    and campaign testing
+  - Manage and scale Flask/FastAPI microservices with high uptime and low latency
+  - Maintain Dramatiq queues for async AI workflows and pipeline orchestration
+  - Deploy, monitor, and debug Uvicorn/Gunicorn hosting in production
+  - Integrate LLM routing tools (OpenRouter) to balance cost, latency, and quality
+  - Design and refine prompt engineering strategies for reliability and compliance
+  - Build feedback pipelines for AI model evaluation (human-in-the-loop, automated
+    checks, reinforcement)
+  - Expose and maintain REST APIs and track token consumption, latency, and error
+    rates
+  use_cases:
+  - AI-driven content generation
+  - Compliance scoring
+  - Campaign testing and generation
+  - Async AI workflow orchestration
+  - LLM routing for cost, latency, and quality balancing
+  skills:
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, LLM Evaluation]
+    ml: []
+    web: [Flask, FastAPI, Microservices, REST APIs]
+    databases: []
+    data: []
+    cloud: [AWS, GCP]
+    ops: [Docker, CI/CD, Monitoring, Celery]
+    languages: [Python]
+    domains: []
+    other: [OpenRouter, Dramatiq, Uvicorn, Gunicorn]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10713041'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T11:25:05.874553'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

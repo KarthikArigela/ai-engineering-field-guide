@@ -1,0 +1,50 @@
+company:
+  name: Aptus Data Labs
+  stage: null
+  focus: null
+position:
+  title: AI Fullstack Developer
+  ai_type:
+    type: unknown
+    reasoning: |-
+      The description asks for integrating AI/ML models into web
+      apps and optimizing model deployment, but never specifies
+      that the developer shapes model behaviour via prompts,
+      retrieval, fine-tuning, or evals - they integrate and serve
+      models others build. With LLMs/NLP required, this leans ai-
+      support; however the responsibilities are generic enough
+      that the shaping question cannot be confidently resolved, so
+      unknown is safest... Given the integration-only framing, the
+      closest fit is ai-support.
+  responsibilities:
+  - Develop and integrate AI/ML models into web applications
+  - Optimize model performance and deployment
+  - Build responsive and interactive UI/UX with React.js, Angular, or Vue.js
+  - Develop RESTful or GraphQL APIs with Node.js and Python frameworks
+  - Manage SQL/NoSQL databases and cloud services
+  - Deploy AI models and applications on AWS, GCP, and Azure
+  - Work with Docker, Kubernetes, and CI/CD pipelines
+  - Collaborate with data scientists, designers, and product teams
+  use_cases:
+  - AI-driven web applications
+  - Integrating AI/ML models into scalable web products
+  - LLM and NLP features in full-stack applications
+  skills:
+    genai: [OpenAI API, LLMs]
+    ml: [PyTorch, TensorFlow]
+    web: [React, Angular, Vue, GraphQL, REST, Node.js, Django, Flask, FastAPI]
+    databases: [SQL, NoSQL, PostgreSQL, MongoDB, Firebase]
+    data: []
+    cloud: [AWS, GCP, Azure, AWS Lambda]
+    ops: [Docker, Kubernetes, CI/CD, MLOps]
+    languages: [Python, JavaScript, TypeScript]
+    domains: [NLP]
+    other: [Web3, Blockchain]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10821790'
+  location: Yelahanka, IND
+  extracted_at: '2026-08-25T12:09:01.822934'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

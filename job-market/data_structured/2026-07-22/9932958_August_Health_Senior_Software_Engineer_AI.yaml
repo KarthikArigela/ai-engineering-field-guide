@@ -1,60 +1,63 @@
 company:
   name: August Health
-  stage: Venture-backed (top-tier Silicon Valley investors)
-  focus: EHR and operating platform for senior living communities
+  stage: Backed by top-tier Silicon Valley investors
+  focus: EHR and operating platform for senior living care
 position:
   title: Senior Software Engineer, AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and shipping LLM-
-      powered product features end-to-end, including
-      prompt/context design, structured output, tool/agent
-      orchestration, and LLM evaluation/observability. The
-      engineer orchestrates Claude on AWS Bedrock and works hands-
-      on with applied LLM techniques like fine-tuning prompts,
-      agent orchestration, and hardening AI features for
-      production.
+      The role designs and ships LLM-powered features end to end:
+      prompt and context design, structured outputs, tool/agent
+      orchestration on Claude via AWS Bedrock, plus building evals
+      and observability to keep nondeterministic LLM behavior
+      trustworthy. That is direct model-behavior shaping, and
+      because the shaped system is an LLM/agent stack, Step 2
+      yields ai-first.
   responsibilities:
-  - Design and ship LLM-powered product features end-to-end, from prompt and context
-    design through structured output, agent orchestration, and UI/API implementation
-  - Pair with product-vertical engineers to unblock AI feature work and help teams
-    adopt reusable AI patterns
-  - Build evaluation infrastructure to measure AI quality, catch regressions, and
-    reason about nondeterministic behavior before production release
-  - Improve observability for AI workflows including traces, prompt visibility, errors,
+  - Design and ship LLM-powered product features end to end, including prompt and
+    context design, structured output, and tool/agent orchestration, plus the UI/API
+    work to land them in the product
+  - Build and extend the evaluation discipline that measures quality, catches regressions,
+    and reasons about nondeterministic behavior before customers feel it
+  - Improve observability for AI workflows, including traces, prompt visibility, errors,
     latency, cost, and production feedback loops
-  - Harden AI features for production with attention to latency, cost, caching, timeouts,
-    cancellation, and operational reliability
-  - Handle PHI and sensitive resident data with proper redaction, permissioning, and
-    tenancy boundaries
-  - Create reusable tools, documentation, and lightweight practices that other engineering
-    teams can adopt
-  - Partner with product managers and clinical teams to translate operational workflows
-    into AI capabilities
+  - 'Harden AI features for production: latency, cost, caching, pre-computation, timeouts,
+    cancellation, memory behavior, and operational reliability'
+  - Handle PHI and sensitive resident data with care, including redaction, permissioning,
+    tenancy boundaries, and safe access patterns
+  - Pair with product-vertical engineers, review designs and code, and turn repeated
+    AI work into reusable tools, examples, and practices other teams adopt
+  - Partner with PMs and clinical/operational stakeholders to translate EHR, Care
+    Track, and billing workflows into AI capabilities
+  - Prototype, measure, and refine AI ideas against real workflows, and review AI-assisted
+    code while raising engineering standards for responsible AI tool use
   use_cases:
-  - Resident summaries and assessment suggestions for caregivers
-  - Voice-to-chart documentation for clinical workflows
-  - Role-specific AI insights for senior living operators and caregivers
-  - Permissioned AI capabilities within an EHR platform
-  - AI-assisted feature prototyping and experimentation against real healthcare workflows
+  - Resident care summaries for caregivers and senior living operators
+  - Clinical assessment suggestions generated from existing care data
+  - Voice-to-chart documentation of caregiver notes
+  - Role-specific insights derived from PHI-aware EHR context
+  - Reliable AI capabilities embedded in production healthcare workflows (EHR, Care
+    Track, billing)
   skills:
-    genai: [LLMs, Claude, Prompt Engineering, Structured Outputs, Agentic Workflows,
-      Function Calling, LangChain, LlamaIndex, LLM Evaluation, Generative AI, Vercel
-        AI SDK]
+    cloud: [AWS Bedrock]
+    languages: [TypeScript, Node.js, Scala]
     ml: []
-    web: [REST APIs, Microservices]
+    other: [Effect, HIPAA Compliance, SOC 2, Healthcare]
+    ops: [Observability, Arize Phoenix, Langfuse, Helicone]
     databases: []
-    data: []
-    cloud: [AWS Bedrock, AWS]
-    ops: [Langfuse, Observability, Monitoring, LLMOps]
-    languages: [TypeScript, Node.js, Scala, Effect]
     domains: []
-    other: [Code Review, HIPAA Compliance, SOC 2]
+    web: [APIs]
+    data: [Data Modeling]
+    genai: [Anthropic API, LLMs, Prompt Engineering, Context Engineering, Structured
+        Outputs, Agentic Workflows, LLM Evaluation, Mastra, Vercel AI SDK, LangChain,
+      LlamaIndex]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9932958'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:47:00.656323'
+  extracted_at: '2026-08-16T19:17:39.131118'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

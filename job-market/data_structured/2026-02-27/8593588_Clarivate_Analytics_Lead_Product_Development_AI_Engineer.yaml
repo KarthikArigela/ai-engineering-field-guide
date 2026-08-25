@@ -1,51 +1,55 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: Analytics and information services provider
+  stage: ''
+  focus: Analytics and data intelligence product platforms
 position:
   title: Lead Product Development AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building, architecting, and
-      delivering GenAI and agentic AI systems including LLMs, RAG
-      architectures, agent frameworks (LangChain, AutoGen,
-      CrewAI), and MCP-based platforms. The position involves
-      hands-on work with prompt engineering, agent orchestration,
-      and production-grade AI deployment.
+      The role directly shapes LLM and agent behavior: leading
+      prompt engineering, memory management, MCP-based context
+      orchestration, and designing RAG architectures with
+      embeddings, vector databases, and agent orchestration
+      patterns. Since LLM and agentic components are central to
+      the responsibilities, this is ai-first.
   responsibilities:
-  - Define and drive the technical vision for GenAI, agentic AI and MCP-based capabilities
+  - Own the architecture and evolution of GenAI, agentic AI, and MCP-based systems
     across multiple product lines
-  - Lead prompt engineering, memory management and MCP-based context orchestration
+  - Define and drive the technical vision for GenAI, agentic AI, and MCP-based capabilities
+  - Lead prompt engineering, memory management, and MCP-based context orchestration
     for scalable AI systems
-  - Design and optimize RAG, enterprise knowledge and MCP-backed context platforms
+  - Design and optimize RAG, enterprise knowledge, and MCP-backed context platforms
     including secure data ingestion and governance
-  - Guide the integration of GenAI and agentic AI features into core products, APIs
-    and enterprise platforms
+  - Guide integration of GenAI and agentic AI features into core products, APIs, and
+    enterprise platforms
   - Drive production readiness covering reliability, observability, performance, and
     responsible agent behavior
-  - Mentor senior engineers and build technical leadership bench for GenAI capabilities
+  - Mentor senior engineers and build the technical leadership bench for GenAI engineering
   use_cases:
-  - Enterprise GenAI and agentic AI product platforms
-  - Scalable RAG and knowledge retrieval systems
-  - Agent orchestration and context management frameworks
+  - Company-wide GenAI, agentic AI, and MCP-based product platforms across multiple
+    product lines
+  - Enterprise knowledge retrieval through RAG and MCP-backed context platforms
+  - Scalable agent orchestration and context management frameworks
   - AI copilots and multi-product agent-based systems
-  - Enterprise AI governance and compliance platforms
+  - Enterprise standards for AI quality, safety, and reliability
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LLMs, LangChain, AutoGen, CrewAI, LlamaIndex, RAG, Prompt Engineering,
-      Agentic Workflows, MCP, Embeddings]
-    data: []
-    other: []
-    ops: [Distributed Systems]
+    languages: [Python]
+    ml: [Machine Learning]
+    other: [System Design, Responsible AI]
+    ops: [Distributed Systems, Observability]
+    databases: [Vector Databases, FAISS, Pinecone, Milvus, Weaviate]
+    domains: []
     web: [APIs, Microservices]
-    databases: [FAISS, Pinecone, Milvus, Weaviate, Vector Databases]
+    data: []
+    genai: [Generative AI, LLMs, AI Agents, Agentic Workflows, Prompt Engineering,
+      RAG, Embeddings, MCP, LangChain, AutoGen, CrewAI, LlamaIndex]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8593588'
   location: Bengaluru, IND
-  extracted_at: '2026-03-03T12:45:01.551799'
+  extracted_at: '2026-08-16T02:50:11.733697'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

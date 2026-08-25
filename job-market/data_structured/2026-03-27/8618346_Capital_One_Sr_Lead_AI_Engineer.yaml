@@ -1,50 +1,55 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-powered customer
-    experiences
+  stage: ''
+  focus: Banking and financial services with AI/ML
 position:
   title: Sr. Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI
-      systems including foundation model training, LLM inference,
-      and optimization techniques. The position requires hands-on
-      work with models, training, inference, and optimization -
-      core AI/ML engineering work, not support functions.
+      The role directly shapes model behavior and output quality:
+      it designs and builds foundation model training, LLM
+      inference, guardrails, and model evaluation components, and
+      invents LLM optimization techniques for production systems.
+      Since LLMs and generative components are the explicit
+      targets of this shaping work, the classification is ai-
+      first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for associates
-    and customers
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, and model evaluation
-  - Leverage Open Source and SaaS AI technologies including AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, latency, and throughput of production AI systems
-  - Contribute to technical vision and long-term roadmap of foundational AI systems
-    at Capital One
-  - Implement governance and observability for AI systems
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
+    VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+  - Lead and mentor engineering team members and influence cross-functional stakeholders
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and informing customers about unusual charges
-  - Real-time customer question answering and support
-  - AI-powered products that change how associates work
-  - Enhancing banking products with AI capabilities for millions of customers
+  - Informing customers about unusual charges and fraud
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and customers interact with
+    the bank
+  - Foundational AI platforms that empower teams across the company to add AI to their
+    products
   skills:
-    domains: []
+    cloud: [AWS Ultraclusters, AWS, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, LLM inference, Foundation model training, Model Evaluation]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Guardrails]
-    data: []
-    other: []
-    ops: []
+    ml: [Foundation Model Training, Model Evaluation, Machine Learning, PyTorch, Hugging
+        Face]
+    other: [Responsible AI]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Search, Vector Databases]
+    domains: []
     web: []
-    databases: [Vector Databases, Vector Search]
+    data: []
+    genai: [Guardrails, LLMs, Memory]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8618346'
   location: McLean, USA
@@ -53,4 +58,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-03-27T14:55:51.861008'
+  extracted_at: '2026-08-16T03:19:57.450992'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

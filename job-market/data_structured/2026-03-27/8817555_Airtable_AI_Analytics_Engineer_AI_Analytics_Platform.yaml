@@ -1,54 +1,63 @@
 company:
   name: Airtable
-  stage: Series F
-  focus: No-code app platform for business process automation
+  stage: null
+  focus: No-code app platform for business workflows
 position:
   title: AI Analytics Engineer (AI & Analytics Platform)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and orchestrating AI agent
-      systems, designing prompt pipelines, tool orchestration, and
-      query routing logic. The engineer will work directly on AI-
-      powered analytics tools including natural-language-to-SQL
-      capabilities, building the systems that make AI tools
-      accurate and trustworthy. This is hands-on work implementing
-      and optimizing AI/LLM systems, not just enabling
-      infrastructure for others.
+      The role directly shapes LLM behavior: it designs and
+      iterates on agent architectures (prompt pipelines, tool
+      orchestration, query routing, guardrails) and owns
+      evaluation frameworks and accuracy benchmarks for AI-
+      generated insights. All target systems are LLM-based
+      (natural-language-to-SQL, Claude, Omni Analytics agents), so
+      it is ai-first rather than ml-first.
   responsibilities:
   - Build and maintain context infrastructure including business glossaries, DBT model
-    enrichment, and semantic layer definitions for AI tools
-  - Design and run evaluation frameworks with test cases, accuracy benchmarks, and
-    validation workflows for AI-generated insights
-  - Build and orchestrate AI agent systems including prompt pipelines, tool orchestration,
-    query routing logic, and guardrails
-  - Experiment with and evaluate prompt configurations, agent behaviors, and model
-    outputs using accuracy metrics
-  - Develop internal AI tooling and automations to improve DS&A team efficiency
-  - Build automated insight generation systems that proactively surface patterns and
-    anomalies in business data
-  - Drive cross-functional adoption of AI-powered analytics tools across GTM, Product,
-    Finance, and other teams
-  - Monitor query logs and user behavior to identify gaps in context coverage and
-    opportunities to expand self-service capabilities
+    enrichment, and semantic layer definitions in Omni Analytics so AI tools answer
+    accurately
+  - Design and run evaluation frameworks with predefined test cases, accuracy benchmarks,
+    and validation workflows, owning the feedback loop between eval results and context
+    improvements
+  - Design, build, and iterate on AI agent systems including prompt pipelines, tool
+    orchestration, query routing logic, and guardrails that decide autonomous answers
+    versus human escalation
+  - Experiment with prompt configurations, agent behaviors, and model outputs, using
+    eval results and accuracy metrics to drive continuous improvement
+  - Develop internal AI tooling and workflows that accelerate the Data Science & Analytics
+    team's own work
+  - Build automated insight generation systems that proactively surface patterns,
+    anomalies, and meaningful changes in business data
+  - Drive cross-functional adoption with GTM, Product, Finance, and other teams by
+    onboarding users, fielding questions, triaging issues, and training stakeholders
+  - Monitor query logs and user behavior to identify context coverage gaps, recurring
+    questions worth standardizing, and self-service expansion opportunities
   use_cases:
-  - Natural-language-to-SQL query generation
-  - Self-service business analytics and data exploration
-  - Automated insight generation and anomaly detection in business data
-  - AI-powered analytics tools for organizational decision-making
-  - Context-aware data question answering systems
+  - Natural-language-to-SQL self-service analytics that removes analysts as the bottleneck
+    for every data question
+  - Trustworthy AI-generated insights validated through predefined test cases, accuracy
+    benchmarks, and feedback loops
+  - Automated proactive surfacing of patterns, anomalies, and meaningful changes in
+    business data
+  - Agent-based analytics tools with guardrails determining when AI answers autonomously
+    versus escalates for human validation
+  - Internal AI productivity tooling and automations for the Data Science & Analytics
+    organization
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
     cloud: []
-    genai: [Anthropic API, ChatGPT/OpenAI API, Prompt Engineering, Agent architectures,
-      LLMs, RAG, Context engineering]
-    data: [dbt, Databricks]
-    other: []
-    ops: [Evaluation frameworks]
+    languages: [SQL, Python]
+    ml: [Anomaly Detection, Time Series Analysis, Statistical Modeling, Clustering]
+    other: [Looker, Omni Analytics, Semantic Layer]
+    ops: []
+    databases: [Snowflake]
+    domains: []
     web: []
-    databases: [Snowflake, Omni Analytics, Looker]
+    data: [dbt, Databricks]
+    genai: [Prompt Engineering, AI Agents, Agentic Workflows, Guardrails, Context
+        Engineering, LLM Evaluation, LLMs, Natural Language to SQL, Anthropic API,
+      ChatGPT, Cursor]
   is_customer_facing: false
   is_management: false
 meta:
@@ -58,4 +67,6 @@ meta:
   - Austin, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-03-27T16:10:57.701851'
+  extracted_at: '2026-08-16T04:44:50.905784'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

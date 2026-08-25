@@ -1,0 +1,56 @@
+company:
+  name: NVIDIA
+  stage: null
+  focus: Accelerated computing, GPUs, and AI infrastructure
+position:
+  title: Senior HPC Cluster Engineer - AI, ML
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role operates and administers HPC/GPU clusters
+      (schedulers, upgrades, incident response, utilization)
+      rather than shaping model behavior, output quality, prompts,
+      retrieval, or training. Running and hosting models others
+      build is ai-support even at NVIDIA.
+  responsibilities:
+  - Provide leadership in systems administration and service delivery on the AI/HPC
+    fleet, coordinating upgrades and incident response
+  - Own day-to-day operations of production AI/HPC clusters, ensuring health, user
+    satisfaction, and efficient resource utilization
+  - Build and maintain heterogeneous AI/ML clusters on-premises and in the cloud
+  - Develop scalable automation solutions around GPU-accelerated computing
+  - Support researchers running workloads, including performance analysis and optimization
+  - Analyze and optimize cluster efficiency, job fragmentation, and GPU waste against
+    internal SLAs
+  - Lead SEV triage and postmortems for reliability incidents
+  - Participate in on-call rotation and incident response for critical production
+    GPU clusters
+  use_cases:
+  - Large-scale GPU cluster operations for AI/ML research
+  - Supporting researchers' AI/HPC workloads with performance tuning
+  - Automation of GPU-accelerated computing infrastructure
+  - Cluster efficiency and SLA optimization for AI training workloads
+  skills:
+    genai: []
+    ml: [CUDA, NCCL, PyTorch, TensorFlow]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Slurm, Kubernetes, Terraform, Ansible, Puppet, Salt, Docker, Linux]
+    languages: [Python, Bash]
+    domains: []
+    other: [MLPerf, InfiniBand, RDMA, MPI, Lustre, GPFS, HPC]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10551500'
+  location: IND
+  locations:
+  - IND
+  - Pune, IND
+  - Bengaluru, IND
+  remote: true
+  extracted_at: '2026-08-25T10:40:13.584531'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

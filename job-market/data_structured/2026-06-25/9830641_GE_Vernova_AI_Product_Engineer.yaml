@@ -1,54 +1,57 @@
 company:
   name: GE Vernova
-  stage: Public
-  focus: Wind energy and renewable power technology
+  stage: null
+  focus: Wind energy digital and AI transformation platform
 position:
   title: AI Product Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on work with AI/ML systems
-      including developing system prompts, prompt libraries,
-      designing multi-step AI workflows, integrating LLM APIs,
-      testing model outputs, and building evaluation frameworks
-      for prompt and model performance. While it has product
-      management elements, the core technical work centers on
-      configuring, deploying, and iterating on AI solutions using
-      LLMs and generative AI tooling.
+      The role directly shapes model behaviour: it develops system
+      prompts and prompt libraries, tests model outputs for
+      accuracy, tone, and safety, and builds evaluation frameworks
+      for prompt and model performance. The shaped components are
+      LLMs (LLM APIs, conversational AI, prompt engineering), so
+      it is ai-first.
   responsibilities:
-  - Own and prioritize the product backlog for assigned Wind.AI modules and capabilities
-  - Facilitate discovery sessions with stakeholders and conduct opportunity assessments
-    to identify AI use cases
+  - Own and prioritize the product backlog for assigned Wind.AI modules and define
+    acceptance criteria and success metrics for AI-enabled features
+  - Facilitate discovery sessions with stakeholders across the Wind business and conduct
+    opportunity assessments to identify AI use cases with business value
+  - Design end-to-end AI solution concepts, evaluate AI vendors, models, and APIs,
+    and document solution blueprints and recommendations
   - Develop and iterate on system prompts, prompt libraries, and reusable templates
-    for AI workflows
   - Design multi-step AI workflows using no-code and low-code tooling
-  - Build evaluation frameworks to measure prompt and model performance and test model
-    outputs for accuracy, tone, safety, and relevance
-  - Evaluate AI vendors, models, and APIs for fit, feasibility, and scalability
-  - Develop features and integrations that extend Wind.AI capabilities including data
-    pipelines, APIs, and automation scripts
-  - Integrate LLM APIs and third-party AI services into platform modules
+  - Test model outputs for accuracy, tone, safety, and relevance, and build evaluation
+    frameworks to measure prompt and model performance
+  - Build data pipelines, APIs, and automation scripts, and integrate LLM APIs and
+    third-party AI services into platform modules
+  - Contribute to code reviews focused on AI-generated code quality and support pilots
+    and proof-of-concept initiatives through to production handoff
   use_cases:
-  - AI-powered workflows for wind energy business processes
-  - Improving access to trusted data and reusable platform services via AI
-  - Faster experimentation, prototyping, and deployment of AI solutions
-  - Governance, safety, and responsible AI use in industrial renewable energy
-  - Translating business needs into AI-enabled solutions for the Wind business
+  - AI-powered workflows and applications embedded across Wind business processes
+  - Accelerating experimentation, prototyping, and deployment of AI solutions in wind
+    energy operations
+  - Reusable platform capabilities, common tools, and standards for repeatable AI
+    delivery
+  - Governance, safety, and responsible AI adoption across the business
+  - Collaboration between business and technical teams around AI solutions
   skills:
-    domains: []
-    languages: [Python, JavaScript, SQL]
-    ml: [AI/ML Concepts, Solution Design Patterns]
     cloud: []
-    genai: [Prompt Engineering, LLMs, Conversational AI Platforms, AI Workflow Design,
-      Model Evaluation]
-    data: [Data Pipelines]
-    other: [Agile, Product Management, Jobs-to-be-Done]
+    languages: [Python, JavaScript, SQL]
+    ml: []
+    other: [Agile, Code Review, Responsible AI]
     ops: [Git]
-    web: [REST APIs]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [Prompt Engineering, LLMs, Conversational AI, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9830641'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:55:47.722449'
+  extracted_at: '2026-08-16T15:16:52.079096'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

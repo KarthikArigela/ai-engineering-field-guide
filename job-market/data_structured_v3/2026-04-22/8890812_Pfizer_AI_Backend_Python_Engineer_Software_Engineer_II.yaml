@@ -1,0 +1,56 @@
+company:
+  name: Pfizer
+  stage: null
+  focus: Global pharmaceutical and biotechnology company
+position:
+  title: AI Backend Python Engineer (Software Engineer II) - Evergreen REQ
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds generative AI pipelines and LLM integrations
+      into production systems themselves using LangChain and
+      LiteLLM, deciding how LLMs are wired into applications
+      rather than merely consuming an endpoint designed elsewhere.
+      No other team is named as owning the LLM behaviour, so this
+      is shaping an LLM-based system -> ai-first.
+  responsibilities:
+  - Implement Python-based backend services on FastAPI for AI workloads, including
+    LLM integration and generative AI pipelines
+  - Develop APIs and microservices for model serving and inference with guidance from
+    senior engineers
+  - Integrate LLMs and generative AI models into production systems using LangChain,
+    Langfuse, and LiteLLM
+  - Build and maintain AWS-based infrastructure components for AI workloads such as
+    Lambda and EKS
+  - Implement monitoring, logging, and observability features for assigned backend
+    services
+  - Write clean, well-tested, maintainable code and participate in code reviews and
+    knowledge sharing
+  - Debug and resolve production issues with support from senior engineers
+  - Collaborate with cross-functional teams to understand requirements and deliver
+    features
+  use_cases:
+  - Backend services powering generative AI applications
+  - LLM integrations in production systems
+  - Model serving and inference APIs
+  - AWS-hosted AI workload infrastructure
+  - Monitoring and observability for LLM-powered services
+  skills:
+    genai: [LLMs, Generative AI, LangChain, LiteLLM]
+    ml: []
+    web: [FastAPI, REST APIs, Microservices]
+    databases: [NoSQL]
+    data: []
+    cloud: [AWS, AWS Lambda, API Gateway, EKS]
+    ops: [Langfuse, Model Serving, Observability, Docker, Git, CI/CD]
+    languages: [Python, SQL]
+    domains: []
+    other: [Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8890812'
+  location: Chennai, IND
+  extracted_at: '2026-08-16T05:57:47.397934'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,49 @@
+company:
+  name: Hitachi
+  stage: null
+  focus: Energy technology, transformer manufacturing engineering
+position:
+  title: AI/ML Engineer
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role trains and validates classical ML models (Random
+      Forest, Logistic Regression, KNN, time series forecasting)
+      for an industrial process monitoring solution, with no LLM
+      or agent component, so it is ml-first. The person shapes
+      model output directly through model training and validation.
+  responsibilities:
+  - Develop, deploy, and scale an end-to-end analytical solution for monitoring and
+    optimizing the Vapor Phase Drying process in transformer manufacturing
+  - Build and maintain data pipelines and ETL workflows across Azure cloud services
+  - Train and validate ML models including Random Forest, Logistic Regression, KNN,
+    and time series forecasting models
+  - Work with dashboard design experts and ML experts across software development
+    and data engineering
+  - Implement CI/CD pipelines with Azure DevOps
+  - Ensure compliance with applicable external and internal regulations, procedures,
+    and guidelines
+  use_cases:
+  - Monitoring and optimizing the Vapor Phase Drying process in transformer manufacturing
+  - Industrial IoT sensor data analysis for process optimization
+  - Time series forecasting of manufacturing process parameters
+  skills:
+    cloud: [Azure, Azure ML, Azure DevOps, Azure Data Factory]
+    languages: [Python, SQL]
+    ml: [scikit-learn, Machine Learning, Random Forest, Logistic Regression, KNN,
+      Time Series Forecasting, Prophet, Model Training, Model Evaluation]
+    other: [PyArrow, Seaborn, Plotly, Statistical Analysis, IoT Sensor Data]
+    ops: [MLflow, Git, Docker, Linux, CI/CD]
+    databases: [Azure Data Explorer, Hive Metastore, NoSQL]
+    domains: []
+    web: []
+    data: [Pandas, NumPy, Data Pipelines, Azure Databricks]
+    genai: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10361814'
+  location: Chennai, IND
+  extracted_at: '2026-08-25T09:49:01.385041'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

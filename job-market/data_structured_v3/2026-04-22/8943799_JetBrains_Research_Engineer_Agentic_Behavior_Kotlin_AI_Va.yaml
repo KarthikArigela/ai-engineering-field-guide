@@ -1,0 +1,75 @@
+company:
+  name: JetBrains
+  stage: null
+  focus: Developer tools and IDEs, including AI coding agents
+position:
+  title: Research Engineer (Agentic Behavior – Kotlin AI Value Stream)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role owns the end-to-end loop of shaping how LLM-based
+      coding agents behave on Kotlin: building evals, error
+      analysis, and post-training pipelines (SFT, DPO, GRPO), plus
+      context engineering (MCP tooling, CLAUDE.md/AGENTS.md).
+      These are direct model-behavior shaping activities on
+      LLM/agent components, so it is ai-first.
+  responsibilities:
+  - Design and implement tooling to systematically capture, classify, and analyse
+    errors that AI coding agents make when generating Kotlin code
+  - Build observability pipelines over agentic traces, mining patterns from agent
+    sessions in JetBrains IDEs, Junie, Claude Code, Cursor, and other coding agents
+  - Design, implement, and maintain evaluation pipelines measuring Kotlin code generation
+    quality across correctness, idiomaticity, build success, framework usage, and
+    test coverage
+  - Build simulation environments where coding agents can be measured on realistic
+    Kotlin developer tasks such as greenfield KMP projects, Gradle dependency management,
+    and Java-to-Kotlin Spring migrations
+  - Own evaluation infrastructure including metrics, experiment tracking, automated
+    regression checks, and reproducible benchmarking
+  - Experiment with post-training techniques (SFT, DPO, GRPO) to improve how models
+    handle Kotlin-specific patterns, idioms, and frameworks
+  - Investigate context engineering approaches such as CLAUDE.md/AGENTS.md files,
+    compiler-as-verifier feedback loops, Kotlin LSP integration, and MCP-based tooling
+  - Design and build open-source Kotlin benchmarks combining mined real-world and
+    synthetic tasks, and collaborate with model providers (Anthropic, OpenAI, Google)
+    to translate findings into model improvements
+  use_cases:
+  - Measuring and improving AI coding agent performance on Kotlin code generation
+  - Error analysis and classification of agent-generated Kotlin code across Android,
+    KMP, server-side, web, and desktop platforms
+  - Post-training LLMs to write more correct and idiomatic Kotlin (idioms, frameworks,
+    multiplatform patterns)
+  - Public open-source Kotlin benchmarks as the ecosystem reference for evaluating
+    coding agents
+  - Simulation environments for realistic Kotlin developer tasks including Gradle
+    builds and Spring migrations from Java
+  skills:
+    genai: [LLMs, AI Agents, Claude Code, Cursor, Junie, Context Engineering, MCP,
+      LLM Evaluation, Inspect AI, Promptfoo, LM Evaluation Harness]
+    ml: [PyTorch, SFT, DPO, GRPO, RLHF, TRL, Verl, Megatron]
+    web: [Spring, Ktor]
+    databases: [SQL]
+    data: [Data Pipelines, Athena, Statistical Analysis]
+    cloud: []
+    ops: [Weights & Biases, MLflow, Langfuse, Observability, Gradle]
+    languages: [Python, Kotlin, Java]
+    domains: []
+    other: [Android, Kotlin Multiplatform, A/B Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8943799'
+  location: Prague, CZE
+  locations:
+  - Prague, CZE
+  - Yerevan, ARM
+  - Berlin, DEU
+  - Limassol, CYP
+  - Munich, DEU
+  - Amsterdam, NLD
+  - Warsaw, POL
+  - Madrid, ESP
+  - Belgrade, SRB
+  extracted_at: '2026-08-16T06:28:23.105461'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

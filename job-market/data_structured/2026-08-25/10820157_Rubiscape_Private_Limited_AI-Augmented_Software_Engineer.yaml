@@ -1,0 +1,61 @@
+company:
+  name: Rubiscape Private Limited
+  stage: null
+  focus: |-
+    Decision Intelligence platform unifying data engineering,
+    BI, ML
+position:
+  title: AI-Augmented Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role goes beyond using AI coding assistants: the
+      engineer designs the AI-assisted development system itself —
+      writing prompt templates, agent configurations, and reusable
+      spec patterns, generating review prompts, interpreting and
+      validating LLM feedback, and monitoring AI-generated code
+      quality to feed learnings back into the prompt/spec library.
+      This is actively shaping LLM behaviour and output quality,
+      so it is ai-first.
+  responsibilities:
+  - Design and implement features across RubiFlow, RubiStudio, RubiSight, and RubiAI
+    studios using an AI-first, spec-driven development workflow
+  - Pair with GitHub Copilot, Cursor, and custom internal LLM agents to accelerate
+    code generation, refactoring, and test coverage
+  - Translate structured functional specs into implementation plans and verifiable
+    AI-executable tasks
+  - Participate in AI-assisted code review cycles, generating review prompts and validating
+    AI suggestions against architecture standards
+  - Write prompt templates, agent configurations, and reusable spec patterns for the
+    internal developer toolchain
+  - Monitor AI-generated code in production, identifying drift and feeding learnings
+    into the spec and prompt library
+  - Collaborate with Prompt Engineering and Spec Engineering teams to improve AI-assisted
+    output quality
+  use_cases:
+  - AI-assisted feature development across a multi-studio Decision Intelligence Platform
+  - Spec-driven code generation, refactoring, and test coverage using LLM pair-programming
+    agents
+  - AI-assisted code review validating suggestions against platform architecture standards
+  - Monitoring and quality feedback loop for AI-generated production code
+  - Internal developer toolchain with reusable prompt templates and agent configurations
+  skills:
+    genai: [LLMs, GitHub Copilot, Cursor, Prompt Engineering, AI Agents, LangChain,
+      LlamaIndex]
+    ml: []
+    web: [REST APIs, Microservices]
+    databases: []
+    data: [dbt, Spark, Airflow]
+    cloud: [AWS, Azure, GCP]
+    ops: []
+    languages: [Python, TypeScript, Java]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10820157'
+  location: Pune, IND
+  extracted_at: '2026-08-25T12:07:58.623991'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

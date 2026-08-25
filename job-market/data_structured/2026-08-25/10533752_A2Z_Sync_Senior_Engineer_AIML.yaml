@@ -1,0 +1,55 @@
+company:
+  name: A2Z Sync
+  stage: null
+  focus: Automotive SaaS platform for dealer operations
+position:
+  title: Senior Engineer, AI/ML
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds and operates LLM agents (Strands/LangGraph
+      on AgentCore) with tool orchestration, multi-agent
+      workflows, prompt engineering, evals, and guardrails —
+      squarely shaping model behaviour, with LLM/agent components
+      throughout.
+  responsibilities:
+  - Build production agents in Strands/LangGraph on AWS Bedrock AgentCore, including
+    agent logic, tool orchestration, and multi-agent workflows
+  - 'Design tool interfaces: framework-agnostic Python tools, MCP servers, and AgentCore
+    Gateway targets for safely calling production APIs'
+  - Build evaluation harnesses with offline/online eval pipelines and LLM-as-judge
+    CI/CD gates
+  - Implement guardrails, approval gates, and rollback paths for safe agent failure
+  - Manage per-agent cost tracking, latency, and multi-model routing
+  - Own production observability via AgentCore session tracing, OpenTelemetry, and
+    CloudWatch dashboards
+  - Contribute to Java Spring Boot services and AWS serverless components as needed
+  use_cases:
+  - Agentic AI workflows acting on real dealer transaction data and revenue
+  - Agents calling production dealer APIs (REST, SOAP, event-driven) via tools and
+    MCP servers
+  - Cost- and latency-aware multi-model agent routing for dealer workflows
+  - Automated decision-making and workflow execution across 5,000+ dealer tenants
+  - Safety guardrails and evaluation gates for production agents
+  skills:
+    cloud: [AWS, AWS Lambda, Vertex AI]
+    languages: [Python, Java]
+    ml: [Model Evaluation]
+    other: [Automotive]
+    ops: [CI/CD, OpenTelemetry, CloudWatch, Observability, Docker]
+    databases: [DynamoDB, Aurora]
+    domains: []
+    web: [REST APIs, APIs, Spring Boot]
+    data: [Data Pipelines]
+    genai: [LangGraph, Agentic Workflows, Multi-Agent Systems, MCP, Prompt Engineering,
+      LLM Evaluation, Guardrails, LLMs, Function Calling, Google ADK, OpenAI API,
+      AWS Bedrock]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10533752'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:36:15.828249'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

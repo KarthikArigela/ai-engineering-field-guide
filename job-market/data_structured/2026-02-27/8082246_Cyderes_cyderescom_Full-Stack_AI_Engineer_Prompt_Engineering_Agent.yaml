@@ -2,57 +2,61 @@ company:
   name: Cyderes (cyderes.com)
   stage: null
   focus: |-
-    Cybersecurity IAM, exposure management, and MDR augmented by
-    AI
+    Cybersecurity services: MDR, IAM, exposure management, risk
+    programs
 position:
   title: Full-Stack AI Engineer (Prompt Engineering & Agentic Systems) Python, Azure
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on AI engineering focused on building,
-      deploying, and optimizing agentic AI systems, RAG pipelines,
-      and multi-agent workflows. The engineer works directly with
-      prompt engineering, agent frameworks, model fine-tuning, and
-      AI service integration rather than just supporting
-      infrastructure.
+      The role's core work is shaping LLM behaviour: designing and
+      testing prompts and system instructions, building multi-step
+      agentic pipelines, implementing PromptOps evaluations and
+      hallucination mitigation, and building RAG pipelines with
+      grounding strategies. LLM/agent components dominate over
+      classical ML, making this ai-first.
   responsibilities:
   - Design, test, and optimize enterprise-grade prompts, system instructions, schemas,
     and agent workflows
   - Build multi-step agentic pipelines, self-refining loops, and deterministic fallback
     logic
-  - Implement PromptOps including versioning, evaluations, regression testing, hallucination
-    mitigation, and token optimization
+  - 'Implement PromptOps: versioning, evaluations, regression testing, hallucination
+    mitigation, token optimization, and governance'
   - Build RAG pipelines, vector search, memory layers, and grounding strategies
-  - Build and maintain Python-based microservices using FastAPI with async patterns
-    and REST APIs
-  - Deliver full-stack AI applications using React and TypeScript for multi-turn AI
-    interactions
-  - Deploy AI workloads on Azure App Services, Functions, AKS, Logic Apps, and Event
-    Grid
-  - Support model selection, fine-tuning strategies, safety constraints, and evaluation
-    frameworks
+  - Develop Python microservices (FastAPI) and full-stack AI applications (React,
+    TypeScript) for analyst-facing multi-turn AI interactions
+  - Deploy AI workloads on Azure (App Services, Functions, AKS, Logic Apps, Event
+    Grid) with IaC via Azure Bicep/ARM and CI/CD automation in GitHub
+  - Enforce security with RBAC, Key Vault, and secrets management while optimizing
+    cost, performance, observability, and reliability
+  - Maintain embeddings, feature pipelines, telemetry, and drift detection; support
+    model selection, fine-tuning strategies, safety constraints, and evaluation frameworks
   use_cases:
-  - Agentic AI systems for cybersecurity operations
-  - RAG-powered enterprise search and knowledge retrieval
+  - Agentic AI systems that automate security operations workflows
   - Multi-turn AI interactions for security analysts
-  - Automated threat detection and response workflows
-  - AI-augmented security operations and automation
+  - RAG and vector search for grounded, reliable AI responses
+  - Self-refining agentic pipelines with deterministic fallbacks for reliable automation
+  - AI-augmented cybersecurity services (MDR, IAM, exposure management)
   skills:
-    domains: []
-    languages: [Python, async, TypeScript]
-    ml: []
     cloud: [Azure, Azure App Services, Azure Functions, AKS, Logic Apps, Event Grid,
-      Key Vault]
-    genai: [Prompt Engineering, PromptOps, RAG, LangChain, LlamaIndex, AutoGen, Multi-Agent
-        Systems]
-    data: [KQL, Splunk SPL]
-    other: []
-    ops: [Azure Bicep, ARM, CI/CD, GitHub Actions, Docker, RBAC]
-    web: [FastAPI, React, REST APIs]
-    databases: [Vector Databases, Azure Search, Pinecone, FAISS]
+      Azure Key Vault, RBAC]
+    languages: [Python, TypeScript, KQL]
+    ml: []
+    other: [Splunk SPL, Event-Driven Architecture, SOC 2, Responsible AI]
+    ops: [CI/CD, GitHub Actions, GitHub, DevOps, MLOps, Infrastructure as Code, Azure
+        Bicep, ARM Templates, Observability]
+    databases: [Vector Databases, Vector Search, Azure Search, Pinecone, FAISS]
+    domains: [Security Operations]
+    web: [FastAPI, REST APIs, React, Microservices, Full-Stack Development]
+    data: [Feature Pipelines]
+    genai: [Prompt Engineering, PromptOps, RAG, Agentic Workflows, Multi-Agent Systems,
+      Multi-Model Systems, LangChain, LlamaIndex, AutoGen, Embeddings, Fine-Tuning,
+      LLM Evaluation, Gemini, GPT, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8082246'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:57:16.189188'
+  extracted_at: '2026-08-16T00:25:46.716428'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

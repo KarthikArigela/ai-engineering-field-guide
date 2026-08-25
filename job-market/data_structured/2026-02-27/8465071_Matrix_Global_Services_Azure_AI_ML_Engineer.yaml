@@ -1,57 +1,62 @@
 company:
   name: Matrix Global Services
   stage: null
-  focus: |-
-    Global technical consultancy providing IT services, software
-    solutions, and infrastructure consulting
+  focus: Global technology consulting and IT services company
 position:
   title: Azure AI / ML Engineer
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves directly implementing and enabling Azure
-      AI/ML services, including GenAI models, RAG architectures,
-      and AI/ML pipelines for training and production. The
-      position requires hands-on work with LangChain, Semantic
-      Kernel, and vector databases to build enterprise AI
-      platforms.
+      The responsibilities centre on building and securing AI/ML
+      platform infrastructure: IaC (Terraform, ARM), CI/CD, Azure
+      networking, PKI, RBAC, and enabling service pipelines for
+      training and production models. GenAI frameworks (LangChain,
+      Semantic Kernel), RAG, and vector databases appear only as
+      knowledge requirements, and the security/governance work
+      around Generative AI is oversight rather than building evals
+      or guardrails. The deliverable is platform capacity and
+      compliance, not model behaviour, so this is ai-support.
   responsibilities:
-  - Design and implement enterprise-grade AI/ML platform services across Azure and
-    GCP
-  - Build and automate AI/ML pipelines for training and production models using AIOps/MLOps
-    principles
-  - Develop APIs and Webhooks using Python, Git Actions, and Terraform for AI/ML service
-    integration
-  - Implement Azure AI security features including data protection, authentication,
-    and RBAC for AI workloads
-  - Write and maintain Azure Resource Manager (ARM) and Terraform templates for AI/ML
-    infrastructure
-  - Partner with development teams to leverage AI/ML services for solving business
-    objectives
-  - Ensure secure handling of data, model training, and deployment within cloud environments
-  - Support platform and analytics deployments via CI/CD pipelines
+  - Design and implement enterprise-grade data and AI/ML platform services across
+    Azure and GCP
+  - Apply an AIOps/MLOps mindset to enable AI/ML services and build pipelines for
+    training and production models
+  - Develop APIs, Webhooks, and platform orchestration code using Python, GitHub Actions,
+    and Terraform
+  - Write and maintain Azure Resource Manager (ARM) and Terraform templates
+  - Implement and support Azure security features (data protection, authentication,
+    RBAC) and manage PKI certificate handling for Azure PaaS services
+  - Troubleshoot Azure services, DNS, connectivity, NSGs, and routing, and automate
+    cloud operations using Azure CLI
+  - Support platform and analytics deployments via CI/CD pipelines while ensuring
+    adherence to internal security and compliance policies
+  - Partner with application development teams and business units to improve AI/ML
+    frameworks, tooling, and automation
   use_cases:
-  - Enterprise AI/ML platform enablement for regulated industries
-  - Generative AI solution deployment with security and compliance
-  - RAG architecture implementation for enterprise knowledge systems
-  - Automated AI/ML pipeline development for model training and production
-  - Secure cloud AI infrastructure for financial services
+  - Enterprise AI/ML platform enablement and automation across Azure and GCP
+  - Secure, self-service AI/ML platform services in regulated industries such as financial
+    services
+  - Automated pipelines for model training and production deployment
+  - Generative AI service adoption including RAG-based solution patterns
+  - Cloud security, governance, and compliance for AI/ML workloads
   skills:
-    domains: []
+    cloud: [Azure, Azure AI, GCP, Azure CLI, Azure Python SDK, RBAC, NSGs]
     languages: [Python]
-    ml: []
-    cloud: [Azure AI services, Azure Python SDK, Azure Resource Manager (ARM), Azure
-        CLI, GCP, RBAC]
-    genai: [LangChain, Semantic Kernel, RAG]
-    data: []
-    other: [Agile]
-    ops: [Terraform, GitHub Actions, CI/CD, MLOps, AIOps, PKI, DevOps]
-    web: []
+    ml: [Machine Learning]
+    other: [PKI, DNS, Agile]
+    ops: [Terraform, Infrastructure as Code, ARM Templates, CI/CD, GitHub Actions,
+      AIOps, MLOps, DevOps]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs, Webhooks]
+    data: []
+    genai: [LangChain, Semantic Kernel, RAG, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8465071'
   location: USA
   remote: true
-  extracted_at: '2026-03-03T12:45:57.733049'
+  extracted_at: '2026-08-16T01:32:46.116072'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

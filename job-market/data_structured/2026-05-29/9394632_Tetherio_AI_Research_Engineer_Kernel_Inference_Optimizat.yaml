@@ -1,56 +1,65 @@
 company:
   name: Tether.io
-  stage: Public
-  focus: Stablecoins, digital asset tokenization, AI infrastructure
+  stage: null
+  focus: Stablecoin issuer and digital finance technology company
 position:
   title: AI Research Engineer (Kernel & Inference Optimization)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on working directly ON AI systems -
-      optimizing model serving, inference pipelines, and writing
-      GPU kernels for LLMs and diffusion models. The engineer will
-      implement advanced techniques like quantization, speculative
-      decoding, flash attention, and distributed inference, which
-      are core to building and deploying AI/ML systems.
+      The role optimizes model internals directly - writing custom
+      compute shaders and GPU kernels from scratch and applying
+      pruning, quantization, flash attention, KV cache management,
+      and speculative decoding - which is model shaping, not
+      capacity engineering. LLM targets are explicit (KV cache,
+      speculative decoding, token response metrics) alongside
+      multi-modal, diffusion model, and vision transformer work. A
+      role shaping both LLM and classical ML systems is ai-first.
   responsibilities:
-  - Design and deploy state-of-the-art model serving architectures that deliver high
-    throughput and low latency while optimizing memory usage across diverse environments
-    including resource-constrained devices and edge platforms
-  - Build, run, and monitor controlled inference tests in both simulated and live
-    production environments, tracking key performance indicators such as response
-    latency, throughput, memory consumption, and error rates
-  - Identify and prepare high-quality test datasets and simulation scenarios tailored
-    to real-world deployment challenges, specifically those encountered on low-resource
-    devices
-  - Analyze computational efficiency and diagnose bottlenecks in the serving pipeline
-    by monitoring both processing and memory metrics, addressing issues like suboptimal
-    batch processing, network delays, and high memory usage
-  - Work closely with cross-functional teams to integrate optimized serving and inference
-    frameworks into production pipelines designed for edge and on-device applications
+  - Design and deploy model serving architectures that deliver high throughput, low
+    latency, and minimal memory footprint across diverse environments including resource-constrained
+    edge devices
+  - Write custom compute shaders and GPU kernels from scratch in Metal Shading Language
+    for mobile and edge inference optimization
+  - Build, run, and monitor controlled inference tests in simulated and live production
+    environments, tracking latency, throughput, memory, and error-rate KPIs against
+    benchmarks
+  - Prepare high-quality test datasets and simulation scenarios tailored to real-world
+    deployment challenges on low-resource devices
+  - Diagnose and resolve computational bottlenecks in serving pipelines, including
+    suboptimal batch processing, network delays, and high memory usage
+  - Apply model optimization techniques such as pruning, quantization, flash attention,
+    KV cache management, and speculative decoding
+  - Design distributed inference systems using tensor, pipeline, and expert parallelism
+    to handle massive models on GPU clusters
+  - Collaborate with cross-functional teams to integrate optimized serving and inference
+    frameworks into production pipelines for edge and on-device applications
   use_cases:
-  - Deploying AI models on resource-constrained mobile and edge devices including
-    smartphones
-  - Multi-modal AI systems integrating text, images, and audio data
-  - High-performance inference engines for massive models using distributed computing
-  - Diffusion models and Vision Transformers for generative AI applications
-  - Low-latency inference serving for real-time AI applications
+  - High-throughput, low-latency AI inference on resource-constrained mobile and edge
+    devices
+  - Multi-modal AI systems integrating text, image, and audio data
+  - Scalable serving of massive models across GPU clusters
+  - On-device AI deployment for real-world applications
   skills:
-    domains: []
-    languages: [Metal Shading Language (MSL)]
-    ml: [Distributed Inference, Tensor Parallelism, Pipeline Parallelism, Expert Parallelism,
-      Vision Transformers, Pruning, Flash Attention, KV Cache, Speculative Decoding]
     cloud: []
-    genai: [Diffusion Models, LLMs]
-    data: []
+    languages: [Metal Shading Language]
+    ml: [GPU Kernel Optimization, Pruning, Quantization, Flash Attention, Vision Transformers,
+      Multimodal Models, Machine Learning, NLP]
     other: []
-    ops: [GPU kernel development, Quantization, Model Deployment, Inference Optimization]
-    web: []
+    ops: [Model Deployment, Inference Optimization, Distributed Inference, Tensor
+        Parallelism, Pipeline Parallelism, Expert Parallelism, KV Cache, Speculative
+        Decoding]
     databases: []
+    domains: [Diffusion Models]
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9394632'
   location: London, GBR
   remote: true
-  extracted_at: '2026-05-29T09:03:10.657502'
+  extracted_at: '2026-08-16T10:53:19.646335'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

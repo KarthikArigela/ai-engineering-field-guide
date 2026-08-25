@@ -1,59 +1,60 @@
 company:
   name: McAfee
-  stage: Public
-  focus: |-
-    Personal security for consumers - protecting people and
-    devices
+  stage: null
+  focus: Consumer personal security and cybersecurity software
 position:
   title: Senior AI Engineer, MarTech
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on building and deployment of AI/ML
-      systems including LLMs, RAG systems, AI agents, and ML
-      models. The engineer will architect agentic workflows, build
-      generative asset pipelines, implement RAG systems, and
-      develop/productionalize ML models - all core AI/ML
-      development work.
+      The role shapes LLM/agent behaviour directly: architecting
+      agentic workflows and AI agents, building RAG-based
+      personalization systems, and fine-tuning Claude models with
+      LoRA/QLoRA. It also covers classical ML (LTV, churn, Next
+      Best Action), but a role shaping both LLM and classical ML
+      systems is ai-first.
   responsibilities:
-  - Design and deploy AI agents to automate complex marketing tasks including cross-channel
-    campaign orchestration and real-time lead qualification
-  - Build and maintain scalable pipelines for automated ad creative generation using
-    LLMs and multimodal models with brand-safe guardrails
-  - Implement RAG (Retrieval-Augmented Generation) systems to provide context-aware
-    personalized content across web, email, and SMS
-  - Develop and productionalize ML models for marketing use cases including LTV prediction,
-    churn propensity, and Next Best Action engines
-  - Own end-to-end ML model lifecycle from feature engineering to deployment via APIs
-    and production monitoring
-  - Ensure AI implementations comply with global privacy standards (GDPR, CCPA) with
-    Privacy-First AI features
-  - Implement Responsible AI governance frameworks to maintain customer trust while
-    enabling automation
+  - Architect and deploy agentic workflows and AI agents to automate marketing tasks
+    such as cross-channel campaign orchestration and real-time lead qualification
+  - Build and maintain scalable generative asset pipelines for automated ad creative
+    generation (text, image, video) with brand-safe guardrails
+  - Implement RAG systems for context-aware, real-time personalization across web,
+    email, and SMS
+  - Develop and productionalize predictive ML models for LTV prediction, churn propensity,
+    and Next Best Action engines
+  - Own the end-to-end model lifecycle from feature engineering in SQL/Python to API
+    deployment and data drift monitoring in production
+  - Ensure AI implementations comply with global privacy standards (GDPR, CCPA) and
+    build privacy-first features like differential privacy and synthetic data generation
+  - Implement Responsible AI governance frameworks for marketing automation
   use_cases:
-  - Autonomous campaign orchestration and optimization across marketing channels
-  - Automated generative ad creative production (text, image, video)
-  - Real-time personalized content delivery across web, email, and SMS
-  - Predictive analytics for customer lifetime value and churn propensity
-  - Next Best Action recommendation engines for marketing interventions
-  - Cross-channel lead qualification and scoring automation
+  - Cross-channel marketing campaign orchestration
+  - Automated ad creative generation across text, image, and video
+  - Real-time context-aware personalization for web, email, and SMS
+  - Real-time lead qualification
+  - Customer lifetime value prediction and churn propensity modeling
+  - Next Best Action recommendation engines
   skills:
-    domains: []
-    languages: [Python, SQL, JavaScript]
-    ml: [PyTorch, TensorFlow, Hugging Face]
     cloud: [SageMaker, Vertex AI, Azure AI Foundry]
-    genai: [LangChain, LlamaIndex, LangGraph, OpenAI API, Anthropic API, GPT-4o, Stable
-        Diffusion, Sora, RAG, LoRA]
-    data: [Databricks, Airflow, Prefect, HighTouch]
-    other: [Braze, Iterable, Adobe CJA, Adobe Experience Manager, Meta Conversions
-        API, Google Enhanced Conversions]
-    ops: [Docker, Kubernetes, Weights & Biases, Arize, Grafana, GitHub Actions]
-    web: []
-    databases: [Pinecone, Milvus, Weaviate]
+    languages: [Python, SQL, JavaScript]
+    ml: [PyTorch, TensorFlow, Hugging Face, Machine Learning, Feature Engineering]
+    other: [HighTouch, Braze, Iterable, Meta Conversions API, Google Enhanced Conversions,
+      Adobe CJA, Adobe Experience Manager, GDPR, CCPA, A/B Testing, Causal Inference,
+      Differential Privacy, Synthetic Data, Responsible AI]
+    ops: [Docker, Kubernetes, GitHub Actions, Weights & Biases, Arize, Grafana, MLOps]
+    databases: [Pinecone, Milvus, Weaviate, Cloud Data Warehouses]
+    domains: []
+    web: [APIs]
+    data: [Databricks, Airflow, Prefect]
+    genai: [LangChain, LlamaIndex, RAG, Agentic Workflows, AI Agents, LLMs, Anthropic
+        API, Fine-Tuning, LoRA, OpenAI API, GPT-4o, Stable Diffusion, Sora, LangGraph,
+      Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8852945'
   location: USA
   remote: true
-  extracted_at: '2026-03-27T16:07:32.374341'
+  extracted_at: '2026-08-16T05:07:37.416689'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

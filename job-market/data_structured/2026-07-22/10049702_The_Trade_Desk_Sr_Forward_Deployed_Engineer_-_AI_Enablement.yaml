@@ -1,55 +1,53 @@
 company:
   name: The Trade Desk
-  stage: Public
-  focus: Digital advertising technology platform
+  stage: ''
+  focus: Independent digital advertising technology platform
 position:
   title: Sr Forward Deployed Engineer - AI Enablement
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying agentic
-      systems, RAG applications, and conversational agents using
-      LLMs, LangChain, LlamaIndex, Semantic Kernel, and platforms
-      like Copilot Studio and Anthropic Claude. The engineer is
-      hands-on with designing, deploying, and iterating on AI
-      systems — not just supporting infrastructure for others' AI
-      work.
+      The role directly shapes LLM behaviour: designing and
+      deploying agentic systems with LangChain/LlamaIndex/Semantic
+      Kernel, developing RAG applications with Azure AI Search and
+      vector databases, and doing prompt engineering with LLM
+      APIs. It is also a Forward Deployed Engineer role adapting
+      AI solutions end-to-end, which maps to ai-first.
   responsibilities:
   - Design and deploy intelligent agentic systems integrating LLMs with enterprise
-    data, tools, and workflows using frameworks like LangChain, LlamaIndex, and Semantic
-    Kernel
+    data, tools, and workflows using LangChain, LlamaIndex, and Semantic Kernel
   - Develop RAG applications using Azure AI Search, vector databases, and secure enterprise
     connectors to deliver contextual insights
   - Build and deploy agents using Microsoft Copilot, Copilot Studio, and Anthropic
-    Claude to help teams operationalize solutions
+    Claude to help teams operationalize solutions within enterprise guardrails
   - Build and iterate on conversational agents that solve real-world problems and
     deliver measurable business value
-  - Collaborate across teams to deliver high-impact features aligned with business
-    goals
+  - Support AI enablement across the company by helping teams adopt Copilot, Claude,
+    and similar tools and designing custom AI agents
   - Drive quality and performance through automated testing, monitoring, and data-driven
-    evaluation
+    evaluation of success criteria and user adoption
+  - Collaborate with stakeholders across teams to identify opportunities and deliver
+    high-impact internal AI tools
   - Mentor teammates and contribute to a culture of innovation and continuous learning
-  - Support AI enablement across the company by helping teams adopt AI tools and guiding
-    partners through their AI journey
   use_cases:
-  - Internal productivity improvement through AI-powered tools
-  - Workflow automation and operational friction reduction
-  - Enterprise knowledge retrieval and contextual insights via RAG
-  - Conversational agents for business problem-solving
-  - AI enablement and adoption support across company teams
+  - Internal productivity improvement for teams across The Trade Desk
+  - Streamlined workflows and reduced operational friction via AI tools
+  - Contextual insights from enterprise data using RAG and vector search
+  - Conversational agents solving real-world business problems
+  - Enterprise AI enablement and adoption of Copilot, Claude, and custom agents
+  - Operationalizing AI solutions within enterprise guardrails
   skills:
-    genai: [LangChain, LlamaIndex, Semantic Kernel, RAG, Prompt Engineering, LLMs,
-      AI Agents, Agentic Workflows, Copilot Studio, GitHub Copilot, Anthropic API,
-      Conversational AI, Embeddings]
-    ml: []
-    web: [React, FastAPI, APIs]
-    databases: [Vector Databases, Azure AI Search]
-    data: [ETL Pipelines, Data Pipelines]
-    cloud: [Azure, Azure OpenAI]
-    ops: [CI/CD, Automated Testing, Monitoring]
+    cloud: [Azure AI Search]
     languages: [Python, C#, SQL, TypeScript]
-    domains: []
+    ml: []
     other: []
+    ops: [CI/CD, Monitoring]
+    databases: [Vector Databases]
+    domains: []
+    web: [React, APIs]
+    data: [Data Pipelines]
+    genai: [LangChain, LlamaIndex, Semantic Kernel, RAG, LLMs, AI Agents, Prompt Engineering,
+      Anthropic API, Microsoft Copilot, Copilot Studio, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -60,4 +58,6 @@ meta:
   - Bellevue, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-07-22T13:25:26.648697'
+  extracted_at: '2026-08-16T16:28:57.773482'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

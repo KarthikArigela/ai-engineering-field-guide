@@ -1,64 +1,56 @@
 company:
   name: ABBYY
-  stage: Public
-  focus: |-
-    AI-powered intelligent automation and document processing
-    solutions
+  stage: null
+  focus: Purpose-built AI and intelligent automation for enterprises
 position:
   title: Staff Engineer – Data/AI Platform Engineering
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure/platform engineering role focused
-      on building and maintaining the data and ML platform
-      infrastructure that enables AI work. While the role involves
-      ML model deployment and inference systems, the primary
-      responsibility is architecting the platform, data pipelines,
-      governance, and infrastructure that SUPPORT data science
-      teams and productionize their models. The engineer is not
-      building, training, or fine-tuning models themselves, but
-      rather creating the systems and infrastructure that enable
-      others to do so at scale.
+      The role architects enterprise data platforms and ML
+      deployment/inference infrastructure for models that Data
+      Science teams build; it never shapes model behavior through
+      prompts, retrieval, fine-tuning, or evals. Serving, hosting,
+      and scaling models the person does not shape is ai-support
+      even though the role names MLOps and inference systems — the
+      deliverable is platform capacity, governance, and
+      reliability.
   responsibilities:
   - Define and own the architecture of enterprise data platforms spanning data lakes,
     document management systems, and AI pipelines
-  - Lead the design and implementation of scalable, secure, and compliant data systems
-    and infrastructure
-  - Establish best practices for data governance, cataloging, lineage, and compliance
-    frameworks
-  - Define architecture for ML model deployment, inference, and lifecycle management
-    systems
-  - Design and scale batch and real-time inference systems in production
+  - Lead the design of scalable, secure, and compliant data systems across ingestion,
+    storage, processing, and access layers
+  - Define architecture for ML model deployment, inference, and lifecycle management,
+    including batch and real-time inference systems
   - Partner with Data Science teams to productionize models and improve reliability
-  - Ensure platform scalability, availability, and performance under production workloads
-  - Lead complex technical initiatives and mentor engineers across teams
+  - Establish standards for MLOps, experiment tracking, and model observability
+  - Establish data governance best practices for cataloging, lineage, and compliance
+    (e.g., Microsoft Purview, GDPR)
+  - Design and implement data anonymization and privacy-preserving pipelines
+  - Ensure platform scalability, availability, performance, and cost efficiency under
+    production workloads while mentoring engineers
   use_cases:
-  - Intelligent automation solutions for enterprise document processing and workflow
-    transformation
-  - Document processing and OCR/IDP systems for extracting structured information
-    from unstructured documents
-  - Data lake architecture for managing large-scale document storage and processing
-    pipelines
-  - Batch and real-time inference systems for deploying ML models in production environments
-  - Data governance and compliance systems for enterprise data protection and regulatory
-    adherence
-  - NLP and computer vision applications for document understanding and information
-    extraction
+  - Large-scale enterprise data platforms powering intelligent automation solutions
+  - ML model deployment and inference for production document processing workloads
+  - Privacy-preserving data processing and regulatory compliance at scale
+  - Enterprise data governance covering cataloging, lineage, and data quality
   skills:
-    domains: [GDPR, SOC2, NLP, OCR/IDP, Computer Vision, Data Privacy]
-    languages: [Python]
-    ml: []
     cloud: [Azure]
-    genai: []
-    data: [Data Lakes, Data Pipelines, Distributed Systems, Feature Stores, Microsoft
-        Purview, Data Governance]
-    other: []
-    ops: [MLflow, MLOps, Model Deployment, Inference Systems]
-    web: [Backend Systems]
+    languages: [Python]
+    ml: [Machine Learning]
+    other: [Platform Engineering, GDPR, SOC 2]
+    ops: [MLOps, Model Deployment, Feature Stores, Monitoring, Observability]
     databases: []
+    domains: []
+    web: []
+    data: [Data Engineering, Data Lakes, Data Pipelines, Data Governance, Data Anonymization,
+      Microsoft Purview]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9461087'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:06:00.623107'
+  extracted_at: '2026-08-16T11:38:41.699812'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

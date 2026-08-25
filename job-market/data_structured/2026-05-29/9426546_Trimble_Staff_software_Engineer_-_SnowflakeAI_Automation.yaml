@@ -1,57 +1,60 @@
 company:
   name: Trimble
-  stage: Public
+  stage: null
   focus: |-
-    Technology solutions for positioning, modeling, and
-    connectivity
+    Enterprise technology supporting financial and revenue
+    systems
 position:
   title: Staff software Engineer -  Snowflake/AI Automation Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is building data pipelines and infrastructure on
-      Snowflake to support AI/ML analytics, but not directly
-      building, training, or fine-tuning models. The candidate
-      will prepare governed datasets for advanced modeling done by
-      Data Science teams and work on automation using Snowflake's
-      Cortex Analyst and Intelligence features, which positions
-      this as enabling AI work rather than hands-on model
-      development.
+      The role builds Snowflake data models, pipelines, and
+      governed datasets that feed revenue automation and others'
+      AI/ML analytics. Snowflake AI features (Cortex Analyst,
+      Snowflake Intelligence) are consumed as platform
+      capabilities rather than shaped, and preparing datasets for
+      someone else's modeling is explicitly not shaping model
+      behavior.
   responsibilities:
-  - Design, build, and optimize Snowflake-based data models and pipelines to support
-    Revenue AI and automation use cases
+  - Design, build, and optimize Snowflake-based data models and pipelines for Revenue
+    AI and automation use cases
   - Develop scalable solutions to automate revenue recognition, forecasting, analytics,
     and reporting
   - Integrate Snowflake with ERP systems like Salesforce and Oracle to enable end-to-end
-    Quote-to-Revenue workflows
-  - Support AI/ML-enabled analytics by preparing high-quality, governed datasets for
-    advanced modeling and automation
-  - Ensure data accuracy, reconciliation, and compliance with SOX and audit requirements
-  - Optimize Snowflake performance, cost management, and security best practices
+    Quote-to-Revenue (Q2R) workflows
+  - Prepare high-quality, governed datasets to support AI/ML-enabled analytics and
+    automation
   - Collaborate with Finance, Revenue Accounting, IT, and Data Science teams to translate
     business requirements into technical solutions
+  - Ensure data accuracy, reconciliation, and compliance with SOX and audit requirements
+  - Optimize Snowflake performance, cost management, and security best practices
+  - Participate in system upgrades, enhancements, and production support; contribute
+    to documentation, controls, and operational runbooks
   use_cases:
-  - Revenue recognition automation and forecasting
-  - Financial analytics and reporting for enterprise revenue systems
-  - Quote-to-Revenue (Q2R) workflow automation
-  - AI/ML-enabled predictive modeling for revenue and finance
-  - SOX compliance and audit-ready data pipelines
+  - Revenue recognition automation
+  - Revenue forecasting and analytics
+  - End-to-end Quote-to-Revenue (Q2R) workflow integration across ERP and revenue
+    accounting systems
+  - Financial reporting and audit-ready SOX-compliant revenue processes
+  - AI/ML-enabled analytics on governed revenue datasets
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [Snowflake Cortex Analyst, Snowflake Intelligence]
-    data: [Oracle EBS, Oracle Cloud ERP, SAP, NetSuite, Salesforce, dbt, Airflow,
-      Data Pipelines, Data Governance]
-    other: [RevPro]
+    languages: [SQL, Python]
+    ml: [Predictive Modeling]
+    other: [Salesforce, Oracle EBS, Oracle Cloud ERP, SAP, NetSuite, RevPro, SOX Compliance]
     ops: [CI/CD]
+    databases: [Snowflake]
+    domains: []
     web: []
-    databases: [Snowflake, Snowflake Search]
+    data: [Data Modeling, Data Pipelines, dbt, Airflow, Data Governance]
+    genai: [Cortex Analyst, Cortex Search, Snowflake Intelligence]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9426546'
   location: Chennai, IND
   remote: true
-  extracted_at: '2026-05-29T09:05:33.274160'
+  extracted_at: '2026-08-16T11:15:38.042892'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

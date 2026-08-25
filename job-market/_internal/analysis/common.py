@@ -28,6 +28,78 @@ def load_structured_jobs() -> list[dict]:
     return jobs
 
 
+# ===== SKILLS =====
+#
+# Umbrella terms name a whole field rather than a specific capability. The
+# extractor tags them whenever the description uses the general phrase, so
+# their share measures how ads are worded, not what the work involves - after
+# the prompt started requiring them, "Machine Learning" went from 5.4% to
+# 48.4% of jobs without any change in the underlying market. Ranked next to
+# LangChain or PyTorch they crowd out the top of every table and tell a reader
+# nothing, so `job_skills` drops them by default.
+#
+# Matching is by exact name, so this assumes canonicalize_skills.py has
+# already run over the data - "large language models" only becomes "LLMs"
+# there. Analysis reads post-canonicalization, so that holds in the pipeline.
+#
+# They are still worth counting on their own (see `umbrella_skills`), and a
+# curated grouping that happens to use one - trends.py counts "Agents (any)"
+# as AI Agents + Agentic Workflows + Multi-Agent Systems - is a deliberate
+# choice, not an accident of ranking. Those name their members explicitly.
+
+UMBRELLA_SKILLS = frozenset({
+    "AI",
+    "AI Agents",
+    "Agentic Workflows",
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Generative AI",
+    "LLMs",
+    "Machine Learning",
+    "Multi-Agent Systems",
+    "Neural Networks",
+})
+
+_UMBRELLA_LOOKUP = {s.lower() for s in UMBRELLA_SKILLS}
+
+
+def is_umbrella(skill: str) -> bool:
+    """Whether a skill names a whole field rather than a specific capability."""
+    return skill.strip().lower() in _UMBRELLA_LOOKUP
+
+
+def job_skills(job: dict, *, umbrella: bool = False) -> dict[str, list[str]]:
+    """A job's skills by category, umbrella terms dropped unless asked for.
+
+    Categories left empty by the filter are omitted entirely, so callers can
+    keep testing `if category in skills`.
+    """
+    raw = (job.get("position") or {}).get("skills") or {}
+    out = {}
+    for category, skills in raw.items():
+        if not isinstance(skills, list):
+            continue
+        kept = skills if umbrella else [s for s in skills if not is_umbrella(s)]
+        if kept:
+            out[category] = kept
+    return out
+
+
+def flat_skills(job: dict, *, umbrella: bool = False) -> set[str]:
+    """A job's skills lowercased and deduped across categories.
+
+    Several skills are filed under two categories (Vector Databases under both
+    `databases` and `genai`), so counting the flattened lists double-counts.
+    """
+    return {s.lower() for skills in job_skills(job, umbrella=umbrella).values()
+            for s in skills}
+
+
+def umbrella_skills(job: dict) -> set[str]:
+    """Just the umbrella terms a job mentions, lowercased."""
+    return flat_skills(job, umbrella=True) - flat_skills(job)
+
+
 # ===== LOCATION =====
 #
 # Locations come from the job page's JSON-LD, not the LLM, and live under

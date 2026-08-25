@@ -1,55 +1,59 @@
 company:
   name: Optum
-  stage: Public
-  focus: Healthcare technology and pharmacy benefits
+  stage: null
+  focus: Healthcare technology and services improving health outcomes
 position:
   title: Associate AI or ML Engineer
   ai_type:
     type: ml-first
     reasoning: |-
-      This role focuses on building, training, deploying, and
-      monitoring traditional ML models using Scikit-Learn,
-      TensorFlow, and PyTorch. There is no mention of LLMs, GenAI,
-      agents, or RAG — the work centers on classical/deep learning
-      model development, feature engineering, and ML pipeline
-      orchestration. The healthcare use cases (prediction,
-      optimization) further indicate traditional ML rather than
-      generative AI.
+      The role shapes model behaviour through model training,
+      validation, tuning, model selection, and drift/monitoring of
+      deployed models (Step 1 yes). All named work is classical
+      ML/DL (Scikit-Learn, TensorFlow, PyTorch, MLflow, ONNX) with
+      no LLM, prompt, RAG, or agent component anywhere in the
+      description, so it classifies as ml-first rather than ai-
+      first.
   responsibilities:
-  - Design, develop, test, and deploy AI/ML solutions using Python and modern ML frameworks
-  - Support data preparation, EDA, feature engineering, model training, and validation
-    activities
-  - Develop and maintain machine learning models using Scikit-Learn, TensorFlow, or
-    PyTorch
+  - Assist in the design, development, testing, and deployment of AI/ML solutions
+    using Python and modern machine learning frameworks
+  - Support data preparation, exploratory data analysis, feature engineering, model
+    training, and validation activities
+  - Develop and maintain machine learning models using tools such as Scikit-Learn,
+    TensorFlow, or PyTorch
   - Collaborate with data engineers and data scientists to build scalable data pipelines
     and AI-enabled applications
   - Participate in model performance monitoring, drift analysis, and continuous improvement
     of deployed models
-  - Support ML workflows, experiment tracking, and model documentation for reproducibility
-  - Contribute to Responsible AI practices ensuring fairness, reliability, explainability,
-    and data privacy
-  - Mentor and coach data scientists and ML engineers on best practices
+  - Support ML workflows, experiment tracking, and model documentation to ensure reproducibility
+    and maintainability
+  - Contribute to the adoption of Responsible AI practices ensuring fairness, reliability,
+    explainability, and data privacy
+  - Create and maintain technical documentation, project artifacts, and knowledge-sharing
+    materials
   use_cases:
-  - Health outcome prediction and optimization
-  - Model drift analysis and health monitoring in production
-  - Scalable batch and real-time ML pipelines for healthcare data
-  - Feature engineering and exploratory data analysis on healthcare datasets
-  - Responsible AI ensuring fairness and explainability in health ML systems
+  - Machine learning models supporting healthcare and pharmacy benefits operations
+  - AI-enabled applications that improve health outcomes and health optimization
+  - Scalable production ML pipelines with real-time and batch data integration
+  - Model health monitoring and drift detection for deployed production models
   skills:
-    genai: []
-    ml: [scikit-learn, PyTorch, TensorFlow, Model Training, Feature Engineering, Model
-        Evaluation]
-    web: []
-    databases: [Vector Databases, BigQuery]
-    data: [Pandas, NumPy, Databricks, Kafka, Data Pipelines]
-    cloud: [Azure, GCP, AWS]
-    ops: [MLflow, ONNX, MLOps, Model Monitoring]
+    cloud: [Azure, GCP, AWS, Azure Synapse, Google Dataflow]
     languages: [Python, SQL]
+    ml: [Machine Learning, scikit-learn, TensorFlow, PyTorch, Feature Engineering,
+      Model Training, Model Evaluation]
+    other: [Responsible AI]
+    ops: [MLflow, ONNX, Feature Stores, Model Monitoring]
+    databases: [Vector Databases, BigQuery]
     domains: []
-    other: [Responsible AI, Distributed Systems, Microservices]
+    web: []
+    data: [Pandas, NumPy, Data Pipelines, Databricks, Kafka, Azure Event Hubs, Pub/Sub,
+      Exploratory Data Analysis]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10293354'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:42:29.890962'
+  extracted_at: '2026-08-16T18:33:32.213079'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,59 +1,63 @@
 company:
   name: Success Academy Charter Schools
-  stage: Public/Non-profit
-  focus: K-12 public charter school network
+  stage: null
+  focus: Public charter school network providing K-12 education
 position:
   title: AI Software Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is an integration specialist focused on connecting
-      AI tools with school systems rather than building or fine-
-      tuning AI models. The role involves API development,
-      middleware, and automation to enable AI-enhanced workflows,
-      but the actual AI systems are built by separate AI teams
-      that this position collaborates with.
+      This is an integration specialist role: the person connects
+      AI tools owned by other teams to school systems via APIs,
+      middleware, ETL pipelines, and event-driven architectures.
+      They consume AI endpoints and move data to/from models
+      rather than shaping prompts, retrieval, agent flows, or
+      model output quality; LLM familiarity is even listed only as
+      a plus.
   responsibilities:
-  - Design and implement integrations between AI models and school systems including
-    SIS, LMS, student data platforms, and assessment tools
-  - Develop middleware, APIs, and automation scripts to enable AI-enhanced workflows
+  - Design and implement integrations between AI models and school systems (SIS, LMS,
+    student data platforms, assessment tools)
+  - Work with SIS and LMS platforms such as PowerSchool, Infinite Campus, Blackbaud,
+    Canvas, Moodle, Google Classroom, and Microsoft Teams for Education
+  - Develop middleware, APIs, and automation scripts enabling AI-enhanced workflows
     for grading, student engagement analysis, and predictive insights
-  - Build and manage RESTful APIs, GraphQL APIs, and Webhooks to enable seamless communication
-    between AI tools and school infrastructure
+  - Build, deploy, and manage REST, GraphQL, and webhook APIs for communication between
+    AI tools and school infrastructure
   - Automate data extraction, transformation, and synchronization between systems
-    using ETL pipelines and API-driven workflows
-  - Develop integrations with LLM-based AI assistants, chatbots, and recommendation
-    engines to enhance learning experiences
-  - Ensure real-time data flow between AI tools and student management systems using
-    Pub/Sub, Kafka, or event-driven architectures
-  - Implement secure authentication and authorization protocols including OAuth 2.0,
-    SAML, and JWT to protect student and faculty data
-  - Work with cloud platforms to deploy serverless functions and event-driven architectures
-    for scalable automation
+    using ETL pipelines and event-driven architectures
+  - Implement secure authentication and authorization (OAuth 2.0, SAML, JWT) and ensure
+    FERPA compliance and IAM-controlled AI system permissions
+  - Deploy serverless functions and event-driven integrations in AWS and GCP alongside
+    AI, data engineering, and DevOps teams
+  - Collaborate with educators and administrators to define integration requirements
+    and automation opportunities
   use_cases:
-  - AI-enhanced grading workflows and automated assessment tools
-  - Student engagement analysis and predictive insights for academic performance
-  - LLM-based chatbots and AI assistants for educational support
-  - Recommendation engines for personalized learning experiences
-  - Real-time data synchronization between AI tools and school management systems
-  - Secure data exchange between educational platforms while maintaining FERPA compliance
+  - AI-enhanced grading workflows
+  - Student engagement analysis
+  - Predictive insights on student performance
+  - LLM-based AI assistants and chatbots for learning experiences
+  - Recommendation engines to enhance learning
+  - Automated data synchronization between AI tools and student management systems
   skills:
-    domains: []
+    cloud: [AWS, AWS Lambda, API Gateway, AWS Step Functions, AWS EventBridge, AWS
+        S3, GCP, Pub/Sub, Google Cloud Functions, Firestore, Azure, Azure Functions,
+      Azure Event Grid, IAM]
     languages: [Python, Node.js]
     ml: []
-    cloud: [API Gateway, AWS, GCP, Azure, AWS Lambda, Google Cloud Functions, Azure
-        Functions, Step Functions, EventBridge, AWS S3, DynamoDB, Firestore, BigQuery,
-      Event Grid, Cosmos DB]
-    genai: [LLMs, AI-powered automation]
-    data: [Kafka, RabbitMQ, Redis Pub/Sub, Data Pipelines, Talend, dbt, Pub/Sub]
-    other: []
-    ops: [IAM, RBAC, Data encryption, Serverless, Event-driven architectures]
-    web: [APIs, REST APIs, GraphQL, gRPC, FastAPI, Flask, Express.js, OAuth, JWT,
-      SAML, OpenID Connect, Postman, Swagger, Webhooks]
-    databases: []
+    other: [Event-Driven Architecture, RBAC, FERPA Compliance, PowerSchool, Infinite
+        Campus, Blackbaud, Canvas, Moodle, Google Classroom, Microsoft Teams for Education]
+    ops: []
+    databases: [DynamoDB, BigQuery, Cosmos DB]
+    domains: []
+    web: [REST APIs, GraphQL, gRPC, Webhooks, FastAPI, Flask, Express.js, OAuth, OpenID
+        Connect, SAML, JWT, Postman, OpenAPI]
+    data: [Data Pipelines, Talend, dbt, Kafka, RabbitMQ, Redis Pub/Sub]
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9419607'
   location: New York, USA
-  extracted_at: '2026-05-29T09:05:31.190343'
+  extracted_at: '2026-08-16T11:09:39.255658'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

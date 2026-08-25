@@ -1,54 +1,54 @@
 company:
   name: Wellthy
   stage: null
-  focus: |-
-    Care coordination and navigation platform supporting
-    families with healthcare and caregiving needs
+  focus: Family caregiving coordination and care navigation services
 position:
   title: Senior Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building applied AI systems
-      including RAG pipelines, LLM integrations, and agentic
-      workflows. The engineer will design, develop, and implement
-      AI solutions with hands-on work on retrieval-augmented
-      generation, LLM orchestration, and vector databases - all
-      core AI/ML model deployment and implementation work.
+      The role leads design of RAG pipelines, LLM orchestration,
+      agentic workflows, and builds guardrails, monitoring, and
+      LLM evaluation frameworks - directly shaping LLM behavior
+      and output quality. LLM and agent components are central to
+      the work, making this ai-first.
   responsibilities:
   - Lead design and development of applied AI systems including RAG pipelines, LLM
     integrations, and APIs
-  - Ensure safe, reliable AI outputs with guardrails, monitoring, and evaluation frameworks
-  - Build and maintain foundational AI capabilities including RAG/vector-database
-    solutions and agentic workflow solutions
-  - Mentor engineers on AI best practices and safe adoption of AI tools
-  - Partner with product and engineering leadership on AI initiative planning and
-    scope
-  - Run experiments and rapidly prototype to assess new AI tools and prospective features
-  - Create solutions for continuously improving AI through monitoring, analytics,
-    and user feedback
-  - Develop evaluation frameworks for comparing AI performance across models and prompts
+  - Ensure safe and reliable AI outputs through guardrails, monitoring, and evaluation
+    frameworks
+  - Prototype rapidly, then scale AI solutions to production with maintainable code
+  - Build foundational AI capabilities such as RAG/vector-database solutions and agentic
+    workflow solutions
+  - Evaluate AI performance across models and prompts and drive continuous improvement
+    via monitoring, analytics, and user feedback
+  - Mentor engineers on AI best practices and safe adoption, setting standards for
+    AI-assisted engineering across the team
+  - Partner with product and engineering leadership on AI project scope, timelines,
+    and integration into product features
+  - Contribute to testing strategies, documentation, and production support rotations
   use_cases:
-  - Healthcare and caregiving navigation support for families
-  - Care coordination and delivery optimization
-  - Family care management during all stages of life
-  - Scaling care professional expertise through AI-powered solutions
-  - Enterprise care support for Fortune 500 company workforces
+  - AI-powered care navigation and coordination for families managing caregiving journeys
+  - Retrieval-augmented knowledge access supporting care experts and families
+  - Safe agentic workflows embedded in product features for care delivery
+  - Scaling care support efficiently for employer and health plan members
   skills:
-    domains: []
+    cloud: [Cloud-Native Development]
     languages: [Python]
-    ml: [Evaluation frameworks]
-    cloud: []
-    genai: [LangChain, RAG, LLMs, Agentic Workflows, Guardrails, Prompt Engineering]
-    data: []
-    other: []
-    ops: [AI security, Unit testing, Integration testing, CI/CD]
-    web: [APIs]
+    ml: []
+    other: [Unit Testing, Integration Testing, AI Security, UX, Healthcare]
+    ops: [Monitoring, CI/CD, Containerization]
     databases: [Vector Databases]
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [LangChain, RAG, LLMs, Agentic Workflows, Guardrails, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8494239'
   location: USA
   remote: true
-  extracted_at: '2026-03-03T12:22:04.106877'
+  extracted_at: '2026-08-16T01:49:37.191025'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

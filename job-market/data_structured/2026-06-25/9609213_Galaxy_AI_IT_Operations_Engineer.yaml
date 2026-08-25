@@ -1,57 +1,57 @@
 company:
   name: Galaxy
-  stage: Public
-  focus: Digital assets and data center infrastructure for AI
+  stage: null
+  focus: Digital assets and data center infrastructure
 position:
   title: AI & IT Operations Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on IT operations and administration of
-      enterprise AI tools (ChatGPT, Claude, Cursor) rather than
-      building, training, or deploying AI/ML models. The person
-      manages configurations, access, governance, and connectors
-      for AI platforms used across the organization, which is
-      enabling work that supports AI adoption rather than hands-on
-      model development.
+      The role administers enterprise AI platforms —
+      configuration, access, connectors, permissions, and
+      governance — rather than shaping model behavior through
+      prompts, retrieval, agent design, or training. AI tools like
+      ChatGPT, Claude, and Cursor are managed as IT assets for
+      internal use, not built or steered. Per Step 3, with no
+      shaping activities found, this is ai-support.
   responsibilities:
   - Manage enterprise AI platforms including configuration, access, settings, connectors,
     permissions, and operational support
   - Track and evaluate new features, releases, integrations, and connector capabilities
-    across AI tools such as ChatGPT, Claude, Cursor, and related platforms
+    across AI tools such as ChatGPT, Claude, and Cursor
   - Support governance, risk review, and general oversight of AI tooling in coordination
-    with IT and security teams
+    with IT and security
   - Assist with API-related work, documentation, testing, and operational follow-up
     for AI-driven initiatives
-  - Handle operational cleanup, organization, process follow-through, and general
-    support tasks to improve efficiency
+  - Handle operational cleanup, organization, and process follow-through to improve
+    efficiency and reduce manual overhead
   - Partner on AI engineering efforts including testing, implementation support, and
     coordination of technical tasks
   - Provide support on adjacent IT and security work based on business needs and team
     priorities
-  - Transition work from reactive to proactive by identifying gaps, organizing next
-    steps, and ensuring important items are addressed
+  - Identify gaps and organize next steps to move work from reactive to proactive
   use_cases:
-  - Enterprise AI platform administration and governance
-  - AI tool evaluation and feature tracking across ChatGPT, Claude, Cursor, and related
-    platforms
-  - AI-driven initiative support including API integration and testing
-  - IT operations and security oversight for AI tooling
-  - Operational process improvement and automation of manual tasks
+  - Enterprise AI tool administration, rollout, and access management across the organization
+  - AI tool governance, risk review, and security oversight
+  - Connector and integration evaluation and setup for enterprise AI platforms
+  - Operational efficiency improvements and process automation for IT workflows
+  - Testing and implementation support for AI-driven internal initiatives
   skills:
-    domains: []
-    languages: [Python]
+    cloud: []
+    languages: []
     ml: []
-    cloud: [AWS]
-    genai: [ChatGPT Enterprise, Anthropic API, Cursor]
-    data: []
-    other: [Risk review and compliance, Technical documentation]
-    ops: [IT operations, Identity and access management, Security governance]
-    web: [API management]
+    other: [IT Operations, IT Security, Responsible AI]
+    ops: []
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [ChatGPT, Anthropic API, Cursor]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9609213'
   location: New York, USA
-  extracted_at: '2026-06-25T19:46:01.889706'
+  extracted_at: '2026-08-16T13:12:46.991580'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

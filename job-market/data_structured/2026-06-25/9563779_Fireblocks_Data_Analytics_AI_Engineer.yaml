@@ -1,53 +1,59 @@
 company:
   name: Fireblocks
-  stage: Series D+
-  focus: Digital asset and cryptocurrency security platform
+  stage: null
+  focus: |-
+    Digital asset and blockchain security platform for
+    institutions
 position:
   title: Data Analytics AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly involves designing and building LLM-
-      powered systems, data agents, prompt engineering, fine-
-      tuning, and model evaluation pipelines. The engineer is
-      hands-on with LLMs throughout their lifecycle—from
-      deployment to continuous optimization—making this an ai-
-      first position.
+      The role designs and builds LLM-powered systems and data
+      agents, iterates on prompt engineering, and runs model
+      evaluation to optimize LLM performance, with hands-on fine-
+      tuning explicitly required - all clear model-shaping work on
+      LLMs. AI coding assistants (Cursor, Claude Code) are merely
+      delivery tools, which does not change the classification.
   responsibilities:
-  - Design and build LLM-powered systems and data agents to enable GTM, Product, and
-    Engineering teams with faster data-driven decision making
+  - Design and build LLM-powered systems and data agents that improve internal capabilities
+    for GTM, Product, and Engineering teams
   - Analyze large-scale datasets to surface strategic insights across the customer
     lifecycle and revenue funnel, defining and tracking critical KPIs
-  - Evaluate and quantify business impact of AI initiatives through experimentation,
+  - Evaluate and quantify the business impact of AI initiatives through experimentation,
     benchmarking, and model evaluation to optimize LLM performance
-  - Monitor, refine, and evolve AI models by iterating on prompt engineering and deployment
-    practices
+  - Continuously monitor, refine, and evolve AI models, iterating on prompt engineering
+    and deployment practices
   - Ship and maintain production-grade analytics and AI applications through modern
-    CI/CD pipelines ensuring reliable and observable deployments
+    CI/CD pipelines (GitLab/GitHub)
   - Manage and influence senior business stakeholders up to CRO level, owning projects
     end-to-end and translating AI concepts into business outcomes
-  - Leverage AI-assisted development tools to accelerate team delivery speed
+  - Leverage AI-assisted development tools (Cursor, Claude Code) to accelerate team
+    delivery
   use_cases:
-  - LLM-powered data agents for internal analytics and decision support
-  - AI-driven customer lifecycle and revenue funnel analysis
-  - Automated KPI tracking and forecasting for Sales, Marketing, and Customer Operations
-  - Prompt engineering and model evaluation for continuously optimized AI performance
-  - Production AI applications supporting GTM and Product teams
+  - AI-driven data analysis and decision-making for internal GTM, Product, and Engineering
+    teams
+  - Sales, Marketing, and revenue pipeline analytics and forecasting
+  - Customer lifecycle and revenue funnel insights with KPI tracking
+  - Data agents enabling self-service analysis and forecasting for business teams
+  - Measuring and optimizing the business impact of AI initiatives
   skills:
-    domains: []
-    languages: [SQL, Python]
-    ml: []
     cloud: []
-    genai: [LLMs, Prompt Engineering, Fine-Tuning, Model evaluation, Data agents,
-      MCP]
-    data: [dbt]
-    other: [Cursor, Claude Code]
+    languages: [SQL, Python]
+    ml: [Model Evaluation]
+    other: []
     ops: [CI/CD, GitLab CI, GitHub]
-    web: []
     databases: [Snowflake]
+    domains: []
+    web: []
+    data: [dbt]
+    genai: [LLMs, Prompt Engineering, Fine-Tuning, AI Agents, MCP, Cursor, Claude
+        Code]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9563779'
   location: New York, USA
-  extracted_at: '2026-06-25T19:43:22.077608'
+  extracted_at: '2026-08-16T12:55:24.307084'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

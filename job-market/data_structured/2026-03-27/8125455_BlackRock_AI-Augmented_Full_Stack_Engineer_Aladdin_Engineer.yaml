@@ -1,59 +1,70 @@
 company:
   name: BlackRock
-  stage: Public
-  focus: Investment management and financial technology services
+  stage: ''
+  focus: Asset management and investment technology platform
 position:
   title: AI-Augmented Full Stack Engineer, Aladdin Engineering, Post Trade Accounting
     - Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on work building and deploying
-      agentic AI systems, including multi-agent orchestration
-      using frameworks like LangChain, LangGraph, AutoGen, and
-      CrewAI. The position involves architecting autonomous task
-      execution pipelines and integrating LLMs into production
-      applications, which is direct work ON AI systems rather than
-      supporting infrastructure.
+      The role explicitly requires architecting and
+      operationalizing agentic AI workflows (multi-agent
+      orchestration, tool-use patterns, autonomous task execution
+      pipelines) plus hands-on RAG, prompt engineering, and
+      function calling, which is direct shaping of LLM/agent
+      behaviour. Although much of the job is full-stack
+      engineering accelerated by AI coding assistants, designing
+      the agent flows and retrieval themselves makes it ai-first.
   responsibilities:
-  - Design, develop, and maintain web applications across frontend and backend using
-    AI-powered development tools for accelerated delivery
+  - Design, develop, and maintain full stack web applications across frontend and
+    backend, leveraging AI-powered development tools to accelerate build cycles
   - Architect, build, and operationalize agentic AI workflows including multi-agent
-    orchestration and autonomous task execution pipelines
-  - Provide technical leadership incorporating AI-assisted development practices into
-    product roadmap and team standards
-  - Implement responsive UI applications using Angular with API-first backend integration
-  - Collaborate with cross-functional teams across multiple offices and countries
-    to deliver high-quality software solutions
+    orchestration, tool-use patterns, and autonomous task execution pipelines to automate
+    complex business processes
+  - Implement responsive Angular frontend applications and integrate them with backend
+    services through an API-first approach
+  - Establish team-wide standards for responsible AI tool adoption and champion AI-augmented
+    development practices across teams
+  - Deliver plans, define milestones, prioritize initiatives, and allocate resources
+    using AI tooling to improve estimation accuracy and delivery
+  - Collaborate with cross-functional teams across offices and countries, and manage
+    stakeholders to drive business decisions and technology adoption
   - Integrate AI-assisted testing, code review, and documentation generation into
-    standard SDLC workflows
-  - Manage stakeholders to drive business decisions and communicate value of AI-augmented
-    development
-  - Ensure scale, resilience, and stability through risk identification, AI-assisted
-    code reviews, and robust test suites
+    SDLC workflows
+  - Ensure scale, resilience, and stability through risk mitigation and robust test
+    suites, and evaluate emerging AI development tools, LLM-based agents, and agentic
+    frameworks
   use_cases:
-  - Automating complex post-trade investment lifecycle operational processes
-  - Investment accounting and reporting platform automation
-  - Performance calculation engines for investment portfolios
-  - Client reporting systems and reconciliation platforms
-  - Derivative management systems
-  - Engineering productivity augmentation through AI-assisted development workflows
+  - Automation of complex post-trade and investment accounting business processes
+    via agentic AI workflows
+  - Multi-agent orchestration and autonomous task execution pipelines for enterprise
+    process automation
+  - Augmenting engineering productivity through AI-assisted coding, testing, code
+    review, and documentation
+  - Integrating LLMs into enterprise applications via APIs with prompt engineering
+    and function calling
+  - AI-driven estimation, planning, and delivery acceleration for software development
   skills:
-    domains: [Investment Accounting, Post-trade Operations, Financial Services]
-    languages: [Java, Python, JavaScript, TypeScript, SQL]
+    cloud: [Azure, AWS, GCP, Vertex AI]
+    languages: [Java, Python, JavaScript, TypeScript, Node.js]
     ml: []
-    cloud: [Azure, AWS, GCP]
-    genai: [LangChain, LangGraph, AutoGen, CrewAI, Google ADK, RAG, Prompt Engineering,
-      Agentic Workflows, OpenAI API, Anthropic API, Azure OpenAI, Google Vertex AI,
-      GitHub Copilot, MCP]
-    data: [Event-driven Processing]
-    other: []
-    ops: [Azure DevOps, CI/CD, Docker, Microservices Architecture]
-    web: [Angular, Spring Boot, Node.js, Express, REST APIs]
+    other: [Event-Driven Architecture, Service-Oriented Architecture, Responsible
+        AI, Agile]
+    ops: [DevOps, CI/CD, Azure DevOps, Maven, JUnit, Tomcat, Distributed Systems]
     databases: [Sybase, NoSQL]
+    domains: []
+    web: [Angular, APIs, HTML, CSS, Responsive Web Design, Webpack, Spring Boot, Express.js,
+      Microservices]
+    data: []
+    genai: [LangChain, LangGraph, Google ADK, AutoGen, CrewAI, Agentic Workflows,
+      RAG, Prompt Engineering, Function Calling, LLMs, OpenAI API, Azure OpenAI, Anthropic
+        API, MCP, A2A, Context Engineering, GitHub Copilot, Cursor, Windsurf, ChatGPT]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8125455'
   location: New York, USA
-  extracted_at: '2026-03-27T13:22:47.889842'
+  extracted_at: '2026-08-16T03:03:29.801295'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

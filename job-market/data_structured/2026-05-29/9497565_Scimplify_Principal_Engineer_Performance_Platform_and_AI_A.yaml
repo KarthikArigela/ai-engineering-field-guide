@@ -1,53 +1,63 @@
 company:
   name: Scimplify
-  stage: Series B
-  focus: Specialty chemicals B2B fulfillment platform
+  stage: VC backed
+  focus: |-
+    Specialty chemicals manufacturing and B2B fulfillment
+    platform
 position:
   title: Principal Engineer (Performance, Platform and AI Acceleration)
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure/platform engineering role focused
-      on performance optimization, DevOps, and cloud efficiency.
-      While AI is mentioned as "AI-assisted development workflows"
-      for test generation and refactoring, the role does NOT
-      involve building, training, or deploying AI/ML models. The
-      AI aspect is about using AI tools to improve developer
-      productivity, which is ai-support.
+      The role centers on performance optimization, platform
+      reliability, DevOps maturity, and cloud cost efficiency. AI
+      appears only as enabling AI-assisted development workflows
+      and integrating AI tooling into engineering workflows -
+      rolling out AI tools so other engineers ship faster, which
+      is developer workflow enablement, not shaping model behavior
+      or output quality. Per the edge case rules, this is ai-
+      support despite the "AI Acceleration" title.
   responsibilities:
-  - Lead performance diagnosis and optimization across frontend and backend systems
-  - Improve API efficiency through caching, batching, pagination, and N+1 query elimination
-  - Optimize database performance including indexing, query analysis, and connection
-    pooling
-  - Strengthen CI/CD pipelines for faster builds and reliable deployments
-  - Implement resilience mechanisms including retries, circuit breakers, auto-scaling,
-    and async processing
-  - Identify and reduce infrastructure waste across compute, storage, logs, and networking
-  - Enable AI-assisted development workflows for test generation, refactoring, and
-    migrations
-  - Build reusable internal developer tools including templates, scaffolds, and golden
-    paths
+  - Lead performance diagnosis and optimization across frontend and backend systems,
+    including API efficiency and database performance
+  - Define and enforce performance standards and SLOs, improving Core Web Vitals and
+    backend response metrics
+  - Strengthen CI/CD pipelines, infrastructure patterns, observability, and resilience
+    mechanisms (retries, circuit breakers, auto-scaling)
+  - Lead incident management, postmortems, and root cause analysis to reduce MTTR
+    and improve deployment frequency
+  - Identify infrastructure waste and drive cloud cost optimization with per-service
+    cost visibility and FinOps discipline
+  - Enable responsible adoption of AI-assisted development workflows for test generation,
+    refactoring, and migrations
+  - Build reusable internal accelerators such as templates, scaffolds, shared libraries,
+    and golden paths
+  - Mentor engineers, set engineering standards, and drive cross-functional alignment
+    on architecture and roadmap
   use_cases:
-  - B2B fulfillment platform for chemicals manufacturing and global supply chain
-  - Chemical product development from lab to commercial scale
-  - Custom synthesis and route scouting services for manufacturers
-  - Global chemical distribution across 26+ countries
-  - R&D workflow management and collaboration tools
+  - B2B fulfillment platform for chemical development and manufacturing from lab to
+    commercial scale
+  - Application and API performance optimization across critical user journeys
+  - Platform reliability and operational predictability for safer, faster releases
+  - Cloud and infrastructure cost reduction across compute, storage, logs, and networking
+  - AI-assisted development workflows to improve engineering velocity and quality
   skills:
-    domains: []
+    cloud: [AWS, GCP, FinOps]
     languages: [Python]
     ml: []
-    cloud: [AWS, GCP, FinOps]
-    genai: [AI-assisted development]
+    other: [Caching, Incident Management, Developer Productivity]
+    ops: [CI/CD, Observability, OpenTelemetry, Grafana, Datadog, ELK Stack, Docker,
+      Distributed Systems, SLOs]
+    databases: []
+    domains: []
+    web: [FastAPI, React, Next.js, APIs, Core Web Vitals]
     data: []
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, Terraform, OpenTelemetry, Grafana, Datadog, ELK
-        Stack, Load Balancing, Incident Management, Observability]
-    web: [FastAPI, React, Next.js, APIs, GraphQL, REST, Distributed Systems, Caching]
-    databases: [PostgreSQL, Redis]
+    genai: [AI-Assisted Development]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9497565'
   location: Bengaluru, IND
-  extracted_at: '2026-05-29T09:08:40.796380'
+  extracted_at: '2026-08-16T11:53:31.386479'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

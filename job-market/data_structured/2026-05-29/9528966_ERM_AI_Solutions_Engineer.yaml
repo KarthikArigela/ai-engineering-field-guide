@@ -1,50 +1,52 @@
 company:
   name: ERM
   stage: null
-  focus: Global sustainability consulting and ESG services
+  focus: Global sustainability and ESG consulting services
 position:
   title: AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on building of AI-enabled solutions
-      using LLM orchestration frameworks (LangChain/LangGraph), AI
-      coding tools, and prompt engineering. The engineer directly
-      deploys working AI solutions into consulting workflows, not
-      just supporting AI infrastructure or building general
-      software for an AI company.
+      The role builds LLM-powered solutions for consulting
+      delivery, with prompts and templates as explicit reusable
+      deliverables and LangChain/LangGraph LLM orchestration
+      frameworks as preferred experience — this is directly
+      shaping LLM behaviour, not just consuming an API. Although
+      the person also uses AI coding assistants (Copilot, Cursor,
+      Claude), the core deliverable is AI-enabled workflows and
+      prompt assets embedded into live delivery, so the role is
+      ai-first.
   responsibilities:
   - Work directly with consulting teams to identify repeatable challenges and inefficiencies
   - Design and build AI-enabled workflows, automations, dashboards, and micro-applications
-  - Develop reusable assets including prompts, templates, and accelerators for global
-    deployment
+  - Develop reusable assets (prompts, templates, accelerators) for global deployment
   - Leverage LLMs and AI coding tools to rapidly prototype and iterate solutions
-  - Translate business needs into practical, scalable technical solutions
   - Support adoption through demos, coaching, and hands-on enablement
   - Evaluate when solutions should be scaled, standardized, or integrated into enterprise
     platforms
   - Ensure all solutions align with data governance and responsible AI principles
   use_cases:
-  - Transform manual, fragmented consulting processes into scalable, intelligent delivery
+  - Embedding AI into sustainability consulting delivery workflows
+  - Automating manual, fragmented consulting processes into scalable intelligent delivery
     systems
-  - Build AI-powered workflows for sustainability, ESG, EHS, and operational reporting
-  - Create accelerators that reduce manual effort and unlock higher-value consulting
-    time
-  - Deploy AI solutions across global projects, teams, and clients
-  - Enable enterprise-scale AI adoption in consulting delivery
+  - Reducing manual effort to unlock higher-value consulting time
+  - Automating ESG, EHS, and operational reporting workflows
+  - Reusable AI accelerators deployed across global projects, regions, and sectors
+  - Enabling consulting teams to adopt responsible, enterprise-ready AI
   skills:
-    domains: []
-    languages: [Python, SQL, JavaScript/TypeScript]
-    ml: []
     cloud: [Azure, AWS, GCP, Azure OpenAI]
-    genai: [LangChain, LangGraph, LLMs, Prompt Engineering, ChatGPT, GitHub Copilot,
-      Anthropic API]
-    data: [workflow orchestration, Power BI, Tableau]
-    other: [Power Platform, n8n]
+    languages: [Python, SQL, JavaScript, TypeScript]
+    ml: []
+    other: [Power Platform, n8n, Workflow Orchestration, Power BI, Tableau, Responsible
+        AI, ESG]
     ops: []
-    web: [Streamlit, APIs, integrations]
     databases: []
-  is_customer_facing: true
+    domains: []
+    web: [APIs, Streamlit]
+    data: [Data Governance]
+    genai: [LLMs, Prompt Engineering, LangChain, LangGraph, ChatGPT, GitHub Copilot,
+      Cursor, Anthropic API]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '9528966'
@@ -55,4 +57,6 @@ meta:
   - DEU
   - Lausanne, CHE
   remote: true
-  extracted_at: '2026-05-29T09:10:24.776707'
+  extracted_at: '2026-08-16T12:17:48.033934'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

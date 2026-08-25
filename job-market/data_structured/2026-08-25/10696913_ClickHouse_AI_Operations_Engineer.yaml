@@ -1,0 +1,53 @@
+company:
+  name: ClickHouse
+  stage: Series D
+  focus: Real-time analytics database and cloud data platform
+position:
+  title: AI Operations Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds AI agents and LLM workflows directly, uses
+      MCP to give agents access to internal context, and
+      evaluates/selects models by cost, latency, and quality —
+      clearly shaping model behavior on LLM-based systems, so ai-
+      first. It is internal IT-facing, not customer-facing, and
+      not management.
+  responsibilities:
+  - Develop and deploy LLM-powered solutions and automation workflows for business
+    and engineering use cases
+  - Integrate AI into existing systems (HRIS, ATS, ERP, ticketing, CI/CD, CLM) using
+    standards like MCP
+  - Build workflows for document generation, data extraction, knowledge retrieval,
+    and decision support
+  - Test and benchmark AI models on accuracy, latency, cost, and safety; support model
+    risk assessments with Security and GRC
+  - Build dashboards, tagging, and alerting for AI/LLM spend and execute cost optimizations
+  - Provision, monitor, version, and retire AI agent infrastructure with audit logging
+  - Design and deliver company-wide AI training, playbooks, and enablement programs
+  use_cases:
+  - Document generation and data extraction across business systems
+  - Knowledge retrieval and decision support over internal knowledge bases
+  - Model selection and routing framework balancing cost, latency, accuracy, and risk
+  - AI/LLM spend visibility, cost monitoring, and optimization
+  - AI agent identity, access, audit, and lifecycle management
+  - Org-wide AI literacy training and safe AI adoption
+  skills:
+    genai: [LLMs, MCP, AI Agents, Prompt Engineering]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: []
+    data: [Data Pipelines]
+    cloud: [AWS, GCP, Azure]
+    ops: [CI/CD, Monitoring, Model Deployment]
+    languages: []
+    domains: []
+    other: [Data Privacy]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10696913'
+  location: Amber, IND
+  extracted_at: '2026-08-25T11:20:17.074166'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

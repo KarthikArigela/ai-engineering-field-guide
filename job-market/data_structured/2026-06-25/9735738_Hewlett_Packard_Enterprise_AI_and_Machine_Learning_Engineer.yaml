@@ -1,55 +1,65 @@
 company:
   name: Hewlett Packard Enterprise
-  stage: Public
-  focus: Edge-to-cloud IT services and solutions
+  stage: null
+  focus: Global edge-to-cloud IT services and solutions company
 position:
   title: AI and Machine Learning Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves conducting advanced research in AI/ML,
-      evaluating GenAI-based applications, designing AI solutions
-      using agentic frameworks like LangGraph, and working with
-      deep learning architectures and LLM-related tools. The
-      engineer directly builds, evaluates, and deploys ML and
-      GenAI systems, making this an ai-first role.
+      The role architects and evaluates AI solutions spanning both
+      traditional ML (model selection, hyperparameter tuning, deep
+      learning) and Gen-AI/agent components, including proficiency
+      in agentic frameworks like LangGraph with lineage tracking
+      via Langfuse/LangSmith. Designing agent flows and evaluating
+      Gen-AI application output quality constitutes shaping model
+      behaviour, and since an LLM/agent component is involved
+      alongside classical ML, the role is ai-first.
   responsibilities:
-  - Conduct advanced research in AI and machine learning, staying current with emerging
-    technologies and identifying opportunities to apply cutting-edge techniques
-  - Design and architect scalable AI solutions for complex business problems, considering
-    performance and maintainability
-  - Evaluate traditional AI/ML and GenAI-based applications during development and
-    in production
-  - Build and deploy agentic architectures using frameworks like LangGraph with lineage
-    tracking via Langfuse or LangSmith
-  - Provide technical guidance and mentorship to junior team members, including code
-    reviews and design reviews
-  - Collaborate with cross-functional stakeholders to translate business requirements
-    into technical AI solutions
-  - Drive continuous improvement and innovation in AI/ML practices, evaluating and
-    integrating third-party tools
-  - Prepare and deliver technical presentations and reports to non-technical stakeholders
+  - Conduct advanced research in AI and machine learning, exploring emerging technologies
+    and identifying opportunities to apply cutting-edge techniques to complex business
+    problems
+  - Design and architect AI solutions for complex problems, considering scalability,
+    performance, and maintainability
+  - Evaluate traditional AI/ML and Gen-AI based applications both during development
+    and in production
+  - Build and maintain agentic architectures using frameworks like LangGraph, with
+    lineage tracking via tools such as Langfuse and LangSmith
+  - Provide technical guidance, mentorship, and thought leadership to junior team
+    members, including facilitating and mentoring during design review sessions
+  - Collaborate with stakeholders (product managers, data scientists, business analysts)
+    to translate requirements into technical solutions and ensure alignment across
+    cross-functional teams
+  - Evaluate and integrate third-party tools or services to enhance AI solution capabilities
+  - Drive continuous improvement in the organization's AI and machine learning practices
+    and deliver detailed technical presentations and reports to stakeholders
   use_cases:
-  - AI-powered digital transformation solutions for enterprise customers
-  - GenAI application development and deployment
-  - Complex business problem solving using machine learning models
-  - Agentic AI workflow automation
-  - Business intelligence and data-driven decision making
+  - AI and ML solutions for complex business problems across HPE's IT services operations
+  - Gen-AI based applications evaluated during development and in production
+  - Agentic AI workflows built on frameworks like LangGraph with lineage tracking
+  - Traditional ML models for prediction and analysis using algorithms like regression,
+    SVMs, and random forests
+  - Business intelligence and data reporting to support customer digital transformation
+    outcomes
   skills:
-    domains: []
-    languages: [Python, R, Java, SQL]
-    ml: [PyTorch, TensorFlow, Keras, scikit-learn, Deep Learning, Reinforcement Learning,
-      Hyperparameter Tuning, Transfer Learning, Transformers, CNNs, RNNs]
     cloud: []
-    genai: [LangGraph, Langfuse, LangSmith, Generative AI]
-    data: [Data Engineering, Data Science]
-    other: [Linear Algebra, Calculus, Probability Theory, Statistics, Business Intelligence]
-    ops: [Git, MLOps, Scalability Testing]
-    web: [Full-Stack Development]
+    languages: [Python, R, Java]
+    ml: [Machine Learning, Deep Learning, Neural Networks, CNNs, RNNs, Transformers,
+      Reinforcement Learning, Transfer Learning, Generative Models, TensorFlow, PyTorch,
+      scikit-learn, Keras, Linear Regression, Decision Trees, Support Vector Machines,
+      Random Forests, Hyperparameter Tuning, Model Evaluation]
+    other: []
+    ops: [Langfuse, LangSmith, Git, MLOps, Scalability Testing]
     databases: []
+    domains: []
+    web: [Full-Stack Development]
+    data: [Data Engineering, Data Science]
+    genai: [LangGraph, Agentic Workflows, Generative AI, LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9735738'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:50:20.044690'
+  extracted_at: '2026-08-16T14:43:26.744292'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,58 +1,61 @@
 company:
   name: Illumina
-  stage: Public
-  focus: Genomic technology and DNA sequencing
+  stage: null
+  focus: Genomic technology for disease detection and human health
 position:
   title: QA Engineer (AI)
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a QA Engineer role focused on testing and quality
-      assurance for AI systems rather than building or deploying
-      them. The responsibilities involve designing test
-      strategies, creating test cases, validating AI/ML features,
-      and ensuring quality metrics - all supporting the AI
-      development work of others rather than directly working on
-      models or AI systems.
+      The role designs AI-system test strategies and
+      defines/monitors AI-specific quality metrics (accuracy vs
+      ground truth, hallucination rates, safety/policy adherence)
+      for LLM and agentic systems like virtual agents, chatbots,
+      copilots, and RAG — that is building evals and output-
+      quality monitoring themselves, which counts as shaping.
+      Using LLM tools to accelerate test authoring alone would be
+      ai-support, but the eval and quality-metric design work on
+      LLM targets makes this ai-first.
   responsibilities:
-  - Develop and maintain test plans, test cases, and test data for AI/ML-powered features
-    and traditional software
-  - Design and execute test strategies for AI/LLM-powered capabilities including virtual
-    agents, chatbots, copilots, and RAG-based systems
-  - Use LLM-powered tools to accelerate test design, data generation, exploratory
+  - Own end-to-end quality for web, API, data, and AI/ML-powered features
+  - Develop and maintain test plans, test cases, traceability, and test data for product
+    and AI features
+  - Design and execute test strategies for AI/LLM capabilities including virtual agents,
+    chatbots, copilots, and RAG-based systems
+  - Define and monitor AI-specific quality metrics such as accuracy vs ground truth,
+    hallucination and error rates, and safety or policy adherence
+  - Use approved LLM-powered tools to accelerate test design, data generation, exploratory
     testing, and script authoring
-  - Define and monitor AI-specific quality metrics including accuracy, hallucination
-    rates, error rates, and safety/policy adherence
-  - Validate data integrity and transformation quality across biomedical data pipelines
-    and AI-enhanced workflows
-  - Partner with engineers and data scientists to ensure AI/ML models and integrations
-    are testable, observable, and measurable post-deployment
-  - Integrate automation into CI/CD pipelines (GitHub Actions, Jenkins, Azure DevOps,
-    GitLab CI) and monitor test health
-  - Communicate quality risks, trends, and mitigation plans to technical and non-technical
-    stakeholders including government partners
+  - Own automated regression suites, release readiness criteria, go/no-go quality
+    signals, and the full defect lifecycle including root cause analysis
+  - Plan performance, load, and scalability testing and validate data integrity across
+    biomedical data pipelines
+  - Integrate automation into CI/CD pipelines and communicate quality risks and trends
+    to stakeholders including government partners
   use_cases:
-  - Virtual agents and chatbots for genomic data interactions
-  - RAG-based systems for biomedical information retrieval
-  - AI copilots for laboratory and clinical workflows
-  - Quality assurance for FDA-regulated AI/ML applications in healthcare
-  - Test automation using GenAI tools for QA tasks
-  - AI-driven data comparison and validation for biomedical data
+  - Virtual agents, chatbots, and copilots for AI-powered user experiences
+  - RAG-based systems for grounded information retrieval
+  - Internal QA copilots and automation bots for test authoring and execution
+  - AI-enhanced biomedical and genomic data workflows
+  - Reliable, explainable, and safe AI features in an FDA-regulated genomic health
+    environment
   skills:
-    domains: []
-    languages: [Python, JavaScript]
-    ml: []
     cloud: []
-    genai: ['GenAI tools (ChatGPT, Claude, Copilot)', LangChain, LangGraph, AWS Bedrock
-        Agents, OpenAI Assistants API, MCP, RAG, LLM applications]
-    data: [Data validation, Data Pipelines]
-    other: [Jira, Test automation, QA methodology]
+    languages: [Python, JavaScript]
+    ml: [Machine Learning]
+    other: [Jira, Test Automation]
     ops: [CI/CD, GitHub Actions, Jenkins, Azure DevOps, GitLab CI]
-    web: [API testing, Microservices testing]
     databases: []
+    domains: []
+    web: [APIs, Microservices]
+    data: []
+    genai: [Generative AI, RAG, LLMs, AI Agents, LangChain, LangGraph, AWS Bedrock,
+      OpenAI API, MCP, ChatGPT, Anthropic API, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8548687'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T13:11:13.902002'
+  extracted_at: '2026-08-16T02:22:39.240336'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

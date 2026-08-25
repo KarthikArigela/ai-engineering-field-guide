@@ -1,0 +1,57 @@
+company:
+  name: Assembled
+  stage: Backed by $70M from NEA, Emergence Capital, and Stripe
+  focus: Customer support platform orchestrating human agents and AI
+position:
+  title: Software Engineer - AI Agents
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior and output quality:
+      enhancing the RAG engine with vector search, document re-
+      ranking, and hypothetical document embeddings, pioneering
+      new LLM evaluation techniques, and building evaluation and
+      logging systems. Since the work centers on LLMs and
+      autonomous AI agents, this is ai-first.
+  responsibilities:
+  - Build foundational product features such as LLM-powered translation and intelligent
+    categorization of incoming tickets
+  - Design and build a workflow builder that distills complex workflows into a simple
+    interface for support agents
+  - Enhance the retrieval augmented generation engine using vector search, document
+    re-ranking, and hypothetical document embeddings
+  - Leverage implicit knowledge bases like past tickets and macros to improve model
+    performance
+  - Architect LLM infrastructure abstractions that integrate various types of LLMs
+    for different applications
+  - Design and implement evaluation and logging systems to monitor LLM performance
+  - Engage with customers (support agents and managers) to understand their needs
+    and improve the product
+  - Contribute across coding, user research, planning, interviewing, and cross-team
+    collaboration
+  use_cases:
+  - Autonomous AI agents resolving customer support cases end-to-end
+  - AI Copilot assisting human support agents with faster replies
+  - LLM-powered translation for support conversations
+  - Intelligent categorization of incoming support tickets
+  - Retrieval-augmented answers grounded in past tickets, macros, and knowledge bases
+  - Workforce management optimizing both human and AI capacity
+  skills:
+    genai: [LLMs, RAG, AI Agents, LLM Evaluation, Hypothetical Document Embeddings]
+    ml: []
+    web: []
+    databases: [Vector Search, Hybrid Search, Reciprocal Rank Fusion, Document Re-Ranking]
+    data: []
+    cloud: []
+    ops: []
+    languages: [Golang]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '7312223'
+  location: New York, USA
+  extracted_at: '2026-08-15T21:30:15.150981'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

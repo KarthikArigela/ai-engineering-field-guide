@@ -1,20 +1,20 @@
 company:
   name: AbsenceSoft
   stage: null
-  focus: Employee experience and HR technology platform
+  focus: HR software for employee leave and absence management
 position:
   title: AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is a Data Engineer focused on building data
-      pipelines, infrastructure, and platforms that support ML and
-      LLM workloads. The engineer enables AI work by providing
-      scalable data architecture, vector databases, and feature
-      stores, but does not build, train, fine-tune, or deploy
-      models directly. The role explicitly states they partner
-      with data scientists and AI software engineers to support
-      model development, which is characteristic of ai-support.
+      The role designs and maintains data pipelines, ETL, and
+      cloud data infrastructure that back AI applications, while
+      data scientists and AI engineers own model training,
+      evaluation, and quality. Even the embeddings/vector database
+      work is framed as "implement scalable architectures" —
+      infrastructure plumbing, not shaping model behavior. Per the
+      dataset rule, building pipelines and platforms that feed
+      someone else's ML/LLM workloads is ai-support.
   responsibilities:
   - Design, build, and maintain data pipelines for structured, unstructured, and semi-structured
     data sources
@@ -23,32 +23,42 @@ position:
     ML and LLM models
   - Implement scalable architectures for embeddings, vector databases, and retrieval
     pipelines
-  - Ensure data quality, lineage, observability, and governance across all data products
-  - Deploy secure, cloud-native data infrastructure for high-volume AI workloads
+  - Enable real-time and offline analytics workflows and ensure data quality, lineage,
+    observability, and governance
+  - Deploy secure cloud-native data infrastructure on AWS, Azure, and GCP for high-volume
+    AI workloads
   - Contribute to the design of feature stores and MLOps platforms for continuous
     learning and model updates
+  - Collaborate on Responsible AI workflows to ensure compliant data usage and access
+    controls
   use_cases:
-  - HR and employee experience management through intelligent AI applications
-  - ML and LLM model training, evaluation, and deployment for HR workflows
-  - Vector search and retrieval pipelines for enterprise knowledge management
-  - Real-time and offline analytics for workplace insights and decision-making
-  - Compliant data usage with Responsible AI workflows in regulated HR environments
+  - Data infrastructure powering ML and LLM applications for HR/absence management
+    products
+  - Embeddings, vector database, and retrieval pipeline infrastructure for AI workloads
+  - Real-time and offline analytics on employee and HR data
+  - Feature stores and MLOps platforms for continuous model learning and updates
+  - Compliant, governed data usage for AI in regulated environments
   skills:
+    cloud: [AWS, Azure, GCP, AWS S3, AWS Lambda, Azure Data Lake, Azure Synapse, Google
+        Cloud Functions]
+    languages: [Python, SQL]
+    ml: [Machine Learning]
+    other: [Responsible AI]
+    ops: [Docker, Terraform, CI/CD, DevOps, MLOps, Feature Stores]
+    databases: [Snowflake, BigQuery, Redshift, Vector Databases, Vector Search, FAISS,
+      Pinecone, Weaviate, txtai]
     domains: []
-    languages: [SQL, Python]
-    ml: [feature stores]
-    cloud: [AWS, Azure, GCP, Kinesis, Pub/Sub]
-    genai: [txtai, Embeddings]
-    data: [Spark, Flink, Beam, Airflow, dbt, Prefect, Dagster, Databricks, Kafka,
-      Parquet, Delta Lake, Data Pipelines]
-    other: []
-    ops: [Docker, Terraform, CI/CD, MLOps]
     web: []
-    databases: [Snowflake, BigQuery, Redshift, FAISS, Pinecone, Weaviate, Vector Databases]
+    data: [Spark, Apache Beam, Flink, Spark Streaming, Kafka, Kinesis, Pub/Sub, Airflow,
+      dbt, Prefect, Dagster, Databricks, Parquet, Delta Lake, Data Pipelines, Data
+        Modeling, Data Governance]
+    genai: [Embeddings, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '7977014'
   location: USA
   remote: true
-  extracted_at: '2026-02-27T11:26:10.635768'
+  extracted_at: '2026-08-16T00:19:10.850286'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

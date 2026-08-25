@@ -1,0 +1,64 @@
+company:
+  name: JPMorganChase
+  stage: null
+  focus: Consumer and community banking financial services
+position:
+  title: 'Lead Software Engineer: Cloud Infrastructure & Platform Engineering (Java,
+    Python, Agentic AI)'
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      While the role is infrastructure-first (50%) and Java-heavy
+      (30%), it explicitly includes prototyping and delivering
+      agentic workflows with tool-using agents, orchestration
+      patterns, evaluation, and guardrails — direct shaping of
+      LLM/agent behavior. That makes it ai-first per Step 1/2.
+  responsibilities:
+  - Lead design, build, and operation of cloud platform capabilities and production
+    environments at scale
+  - Build and maintain secure Java 17+ and Spring Boot services including RESTful
+    APIs
+  - Implement Infrastructure-as-Code with Terraform including secure provisioning
+    and policy controls
+  - Support safe release practices such as rolling and blue/green deployments for
+    high-availability services
+  - Apply SRE-aligned practices (SLIs/SLOs, error budgets, incident response) and
+    change/incident management
+  - Use observability and APM tooling (Splunk, Datadog, Dynatrace) to monitor and
+    troubleshoot production services
+  - Deliver CI/CD pipelines using Git and enterprise tooling (Jules, Spinnaker)
+  - Prototype and deliver AI-enabled/agentic workflows including tool-using agents,
+    orchestration, evaluation, and guardrails
+  - Mentor engineers and partner with application teams on reliability, performance,
+    and compliance best practices
+  use_cases:
+  - Cloud platform and production environment operations for corporate functions (Finance,
+    Treasury, Risk, HR, Compliance, Legal)
+  - AI-enabled agentic workflows with tool-using agents and orchestration patterns
+  - Evaluation and safety guardrails for agentic workflows in production-like environments
+  - Automated remediation and runbook automation for operational stability
+  - Policy-as-code guardrails for cloud and Kubernetes environments
+  skills:
+    genai: [Agentic Workflows, AI Agents, Function Calling, LLM Evaluation, Guardrails]
+    ml: []
+    web: [Spring Boot, REST APIs, Microservices, JUnit, Mockito]
+    databases: [Redis]
+    data: []
+    cloud: [AWS, EKS, AWS Lambda, ECS, API Gateway]
+    ops: [Kubernetes, Terraform, Infrastructure as Code, CI/CD, Git, Spinnaker, Datadog,
+      Splunk, Dynatrace, Observability, Monitoring]
+    languages: [Java, Python]
+    domains: []
+    other: [JMeter, BlazeMeter, Responsible AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10449084'
+  location: Columbus, USA
+  locations:
+  - Columbus, USA
+  - New York, USA
+  - Jersey City, USA
+  extracted_at: '2026-08-25T10:10:23.649735'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

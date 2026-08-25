@@ -1,50 +1,53 @@
 company:
   name: Wolters Kluwer
-  stage: Public
-  focus: |-
-    Information services and software solutions for legal, tax,
-    finance, and healthcare
+  stage: null
+  focus: Professional information services and software solutions
 position:
   title: Senior Product Software Engineer (.netcore, Angular, AI)-  Pune & Chennai
     candidates can apply
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a general software engineering role focused on
-      .NET/Angular web development. Despite the job title
-      mentioning AI, the actual requirements and responsibilities
-      are centered on traditional full-stack web development with
-      no AI/ML frameworks, tools, or hands-on model work
-      mentioned.
+      Although "AI" appears in the job title, the description
+      contains no AI or ML responsibilities at all — no prompting,
+      retrieval design, agent flows, model training, or
+      evaluation. The work is full-stack .NET Core/Angular web
+      development, and the title cannot override the
+      responsibilities, so this is ai-support.
   responsibilities:
-  - Design and develop responsive web applications using Angular and .NET Core
-  - Build and maintain microservices architecture using .NET Core
-  - Develop data visualizations and dashboards using Power BI
-  - Implement cloud-native solutions using Docker, Kubernetes, and Azure services
-  - Configure and manage Azure DevOps pipelines for CI/CD
+  - Design and develop responsive web applications using Angular, React, and .NET
+    Core
+  - Build and deploy microservices using .NET Core
+  - Work with Azure cloud services and configure Azure DevOps pipelines
+  - Build data visualizations and dashboards using Power BI
+  - Work with SQL Server and NoSQL databases including RxDB
   - Write unit and integration tests following BDD and TDD practices
-  - Work with both SQL and NoSQL databases for data management
-  - Collaborate using Agile methodologies like Scrum and SAFe
+  - Collaborate in Agile teams using Scrum and SAFe methodologies
+  - Apply secure coding practices based on OWASP guidelines
   use_cases:
-  - Enterprise software solutions development
-  - Data visualization and business intelligence dashboards
-  - Cloud-native microservices applications
-  - Secure web application development for business domains
+  - Enterprise software product development
+  - Web-based dashboards and data visualization for business insights
+  - Microservice-based web applications on Azure
   skills:
-    domains: []
-    languages: [TypeScript]
+    cloud: [Azure]
+    languages: [.NET, .NET Core, TypeScript, Node.js]
     ml: []
-    cloud: [Azure, Azure DevOps]
+    other: [Power BI, Agile, SAFe, UML, Design Patterns, Visual Studio, Visual Studio
+        Code, Unit Testing, Test-Driven Development, Behavior-Driven Development,
+      OWASP]
+    ops: [Docker, Kubernetes, Dapr, Azure DevOps, Git]
+    databases: [SQL Server, NoSQL, RxDB]
+    domains: []
+    web: [Angular, React, ASP.NET MVC, WebAPI, WCF, REST, Microservices, NestJS, Responsive
+        Web Design]
+    data: []
     genai: []
-    data: [Power BI]
-    other: [Microsoft Visual Studio, Visual Studio Code, UML]
-    ops: [Docker, Kubernetes, Dapr, Git]
-    web: [.NET Core, ASP.NET MVC, Angular, React, WebAPI, WCF, REST, Node.js, NestJS]
-    databases: [MS SQL, NoSQL]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8728103'
   location: IND
   remote: true
-  extracted_at: '2026-03-27T15:04:31.784390'
+  extracted_at: '2026-08-16T04:10:56.806120'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

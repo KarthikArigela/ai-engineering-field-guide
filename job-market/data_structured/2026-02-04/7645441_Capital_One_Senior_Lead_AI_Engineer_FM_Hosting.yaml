@@ -1,48 +1,56 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (FM Hosting)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying
-      large language models and AI systems. The engineer will
-      design, develop, test, and deploy foundation model training,
-      LLM inference, similarity search, guardrails, and implement
-      LLM optimization techniques for production systems.
+      The role shapes model behaviour directly: it designs and
+      builds foundation model training, LLM inference
+      optimization, guardrails, and model evaluation for
+      production AI systems. Although the team is "FM Hosting",
+      the responsibilities go beyond serving capacity into
+      training, optimization, and output-quality tooling for
+      LLM/foundation-model targets, making it ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products that transform
-    how associates work and customers interact with Capital One
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    experimentation, governance, and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
+  - Lead and mentor engineering team members and influence cross-functional stakeholders
   use_cases:
-  - Informing customers about unusual charges in real-time
-  - Answering customer questions in real-time with AI-powered systems
-  - Creating personalized customer experiences through machine learning
-  - Deploying AI models that empower teams across Capital One to enhance products
-  - Building scalable, high-performance AI infrastructure for banking applications
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Foundational AI models and platforms that empower teams across the company to
+    enhance products with AI
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Foundation model training, Model Evaluation]
-    cloud: [AWS, GCP, Azure]
-    genai: [Huggingface, Guardrails, RAG]
-    data: []
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model Deployment, LLM optimization]
-    web: []
+    ops: [Model Deployment, Observability]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '7645441'
   location: McLean, USA
@@ -51,4 +59,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-02-05T11:17:23.603097'
+  extracted_at: '2026-08-15T21:55:05.228402'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

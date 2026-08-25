@@ -1,0 +1,70 @@
+company:
+  name: F5
+  stage: null
+  focus: Application security, delivery, and cybersecurity solutions
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This role builds, governs, and monitors the data pipelines
+      that feed AI models, with model training and deployment
+      owned by separate AI Deployment Engineers. The person shapes
+      data infrastructure, not model behaviour: no prompt
+      engineering, retrieval design, agent orchestration,
+      training, or model evaluation appears in the
+      responsibilities. Per the dataset/pipeline rule, building
+      pipelines that feed someone else's AI systems is ai-support.
+  responsibilities:
+  - Implement automated data quality checks, validation rules, and anomaly detection
+    across data pipelines to prevent corrupt, incomplete, or biased data from reaching
+    AI models
+  - Define and enforce data quality SLAs covering completeness, timeliness, consistency,
+    and accuracy
+  - Build monitoring and alerting systems to detect pipeline failures, data drift,
+    and schema changes that could degrade AI model performance
+  - Conduct root cause analysis on data quality incidents and implement preventative
+    controls
+  - Implement and maintain end-to-end batch and real-time/streaming data pipelines
+    for structured, semi-structured, and unstructured datasets
+  - Work with AI Deployment Engineers to optimize data pipelines for AI model training
+    and data stores for AI model retention
+  - Implement data retention, data lineage, and data governance standards across pipelines
+    and products
+  - Collaborate with technical and non-technical teams to align data processes with
+    business objectives and integrate automation tools
+  use_cases:
+  - Data pipelines powering AI model training and AI-driven automation across corporate
+    operations
+  - Data quality assurance preventing corrupt, incomplete, or biased data from reaching
+    AI models
+  - Pipeline monitoring and alerting for failures, data drift, and schema changes
+    that affect AI model performance
+  - Data governance including retention, lineage, and privacy compliance for operational
+    AI systems
+  - Batch and streaming data integration supporting diverse AI and automation use
+    cases
+  skills:
+    genai: []
+    ml: [Anomaly Detection]
+    web: []
+    databases: [Snowflake]
+    data: [Hadoop, Spark, dbt, Fivetran, ETL, Data Governance]
+    cloud: [Cloud Services]
+    ops: []
+    languages: [Python, SQL]
+    domains: []
+    other: [Tableau, GDPR, CCPA/CPRA]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9145433'
+  location: MEX
+  locations:
+  - MEX
+  - Hyderabad, IND
+  - Bengaluru, IND
+  remote: true
+  extracted_at: '2026-08-16T09:05:26.520674'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

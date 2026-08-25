@@ -1,58 +1,62 @@
 company:
   name: Clarivate Analytics
-  stage: Public
+  stage: null
   focus: Analytics and intellectual property data services
 position:
   title: Senior Product Development AI Engineer
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is primarily a senior Java/Spring Boot engineering role
-      focused on enterprise application development. AI
-      involvement is limited to using AI-assisted development
-      tools (GitHub Copilot, ChatGPT, Cursor) throughout the SDLC
-      and optionally building AI-enabled features with LLMs/RAG.
-      The core responsibility is traditional software engineering
-      with AI as an enhancement, not building or deploying AI/ML
-      systems as the primary function.
+      The role explicitly includes building AI-enabled features
+      using LLMs, prompt engineering, vector databases, and RAG
+      architectures, which is directly shaping model behavior
+      (Step 1 yes, LLM component → ai-first). While much of the
+      job is enterprise Java engineering and rolling out AI coding
+      tools across the SDLC (ai-support territory), the prompt
+      engineering and RAG feature-building responsibility makes
+      the role ai-first.
   responsibilities:
   - Lead architecture, design, and development of enterprise-grade Java applications
   - Design and implement scalable microservices using Java, Spring Boot, and REST
     APIs
-  - Drive technical leadership across multiple engineering teams and mentor senior
-    developers
-  - Integrate AI tools into the SDLC to improve developer productivity, code quality,
+  - Integrate AI tools across the SDLC to improve developer productivity, code quality,
     testing, and documentation
   - Build AI-enabled features using LLMs, prompt engineering, vector databases, and
     RAG architectures
-  - Establish engineering best practices for secure, scalable, and maintainable software
-    development
+  - Provide technical leadership across multiple engineering teams and mentor senior
+    developers
   - Lead code reviews, performance optimization, and production support activities
   - Drive CI/CD automation and cloud-native development practices
+  - Define technical roadmaps, guide modernization initiatives, and collaborate with
+    product, DevOps, QA, and data engineering teams
   use_cases:
-  - AI-assisted coding, automated test generation, code reviews, and documentation
-    throughout the SDLC
-  - Bug analysis, root cause analysis, and security scanning using AI tools
-  - AI-enabled application features using LLMs, RAG, and vector databases
-  - Engineering productivity and code quality improvement through AI adoption
+  - AI-assisted coding and developer productivity tooling across the SDLC
+  - Automated unit test generation and AI-assisted code reviews
+  - Documentation generation and refactoring support with AI tools
+  - Bug analysis, root cause analysis, and security scanning with AI
+  - AI-enabled product features built on LLMs, RAG, and vector databases
+  - Semantic search with vector embeddings
   skills:
-    genai: [GitHub Copilot, ChatGPT, Cursor, Claude, LLMs, Prompt Engineering, RAG,
-      AI Agents, MCP, LangChain, LangGraph, LlamaIndex, OpenAI API, Anthropic API,
-      Azure OpenAI, Generative AI, Agentic Workflows, Semantic Search, Embeddings]
-    ml: []
-    web: [Spring Boot, Spring MVC, Spring Security, Spring Data, Microservices, REST
-        APIs]
-    databases: [PostgreSQL, Oracle, MongoDB, Cassandra, Redis, NoSQL, Vector Databases]
-    data: []
     cloud: [AWS, Azure, GCP, Vertex AI]
+    languages: [Java]
+    ml: []
+    other: [Design Patterns, Multithreading, JVM Tuning, Performance Optimization,
+      Responsible AI]
     ops: [Docker, Kubernetes, CI/CD, Jenkins, GitHub Actions, GitLab CI, Azure DevOps,
-      Git, Maven, Gradle, SonarQube, Observability]
-    languages: [Java, SQL]
+      Git, Maven, Gradle, SonarQube, Nexus, Artifactory]
+    databases: [SQL, NoSQL, Oracle, PostgreSQL, MongoDB, Cassandra, Redis, Vector
+        Databases]
     domains: []
-    other: [Responsible AI, Code Review, JVM Tuning]
+    web: [Spring Boot, Spring MVC, Spring Security, Spring Data, REST APIs, Microservices]
+    data: []
+    genai: [LLMs, Prompt Engineering, RAG, AI Agents, MCP, LangChain, LangGraph, LlamaIndex,
+      OpenAI API, Anthropic API, Azure OpenAI, Generative AI, Embeddings, Semantic
+        Search, GitHub Copilot, ChatGPT, Cursor]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10020222'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:23:08.795686'
+  extracted_at: '2026-08-16T16:12:25.138693'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

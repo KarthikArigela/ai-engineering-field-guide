@@ -1,0 +1,70 @@
+company:
+  name: State Street
+  stage: null
+  focus: |-
+    Asset servicing and financial services for institutional
+    investors
+position:
+  title: Senior Data Engineer – AI & Intelligent Automation, Vice president
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The core work is data engineering and data stewardship:
+      building and operating production data pipelines, and owning
+      data quality, lineage, metadata, and controls. The AI-
+      related duties — supplying high-quality governed inputs for
+      training/inference and defining control gates and
+      auditability for agent-driven workflows — are enablement and
+      governance of AI systems designed by others, with no prompt
+      authoring, retrieval design, agent flow design, training, or
+      model evaluation. Feeding and governing data for someone
+      else's AI systems is ai-support.
+  responsibilities:
+  - Design, build, and operate scalable, resilient data pipelines supporting operational
+    analytics, reporting, and AI-driven automation across cloud and on-prem environments
+  - Model, store, and serve large-scale datasets optimized for analytical workloads
+    and low-latency consumption by AI and agent-based systems
+  - Integrate data from multiple internal and external sources, including vendor feeds,
+    APIs, files, and enterprise platforms
+  - Act as Data Steward for assigned business services, owning data quality, consistency,
+    lineage, critical data elements, and lifecycle management
+  - Define and enforce data standards, controls, and documentation aligned with governance
+    and platform requirements
+  - Enable AI and intelligent automation by ensuring high-quality, well-governed inputs
+    for training, inference, and decisioning
+  - Define agent action constraints, data quality gates, and human-in-the-loop triggers,
+    ensuring auditability through decision logs, lineage, and versioning of rules,
+    prompts, and models
+  - Monitor data quality dashboards, triage issues, coordinate remediation, and partner
+    with Product Owners and business teams to prioritize simplification and automation
+    use cases
+  use_cases:
+  - AI-driven intelligent automation of Global Delivery operational processes
+  - Agent-based systems executing automated actions with data quality gates and human-in-the-loop
+    controls
+  - Operational analytics and reporting across the asset servicing lifecycle
+  - Data governance and quality controls enabling AI decisioning in regulated financial
+    operations
+  - Business simplification initiatives in fund accounting, middle office, custody,
+    payments, and transfer agency
+  skills:
+    genai: [Generative AI, AI Agents, Human-in-the-Loop]
+    ml: [Machine Learning]
+    web: [APIs]
+    databases: [Data Lakes]
+    data: [Data Pipelines, ETL, Data Engineering, Data Warehouses, Data Modeling,
+      Workflow Orchestration, Data Quality, Data Governance, Data Cataloging, Data
+        Lineage]
+    cloud: []
+    ops: []
+    languages: [SQL, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8674999'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T05:46:45.538981'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

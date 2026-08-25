@@ -1,0 +1,90 @@
+company:
+  name: Nebius
+  stage: null
+  focus: Full-stack AI cloud infrastructure and AI R&D
+position:
+  title: Senior ML Engineer (AI Research/ Portability)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and evaluates model routing, agent
+      interoperability layers, portable memory/context systems,
+      distillation, and agent benchmarks - all shaping LLM/agent
+      behaviour and output quality. It involves both LLM-driven
+      agent systems and evaluation infrastructure, making it ai-
+      first.
+  responsibilities:
+  - Design, implement, train, and evaluate model routers selecting models or reasoning
+    profiles per turn
+  - Develop portable provider and protocol abstractions preserving auth, telemetry,
+    cache, and provenance signals
+  - Define versioned schemas and contracts for models, agents, skills, tools, memories,
+    and trajectories
+  - Build systems that discover, package, adapt, and validate agent skills across
+    coding agents and harnesses
+  - Research user-owned memory, scoped identity, retrieval quality, and reviewable
+    context compaction
+  - Create benchmark suites and evaluation protocols for quality, cost, latency, reliability,
+    and portability
+  - Investigate distillation, self-improving harnesses, multi-agent training, and
+    automated skill creation
+  - Write robust research software, APIs, integration layers, and test infrastructure
+    for reproducible experimentation
+  use_cases:
+  - Per-turn model routing balancing quality, cost, latency, and reliability
+  - Provider and protocol portability across frontier, open-source, and local models
+  - Agent and harness interoperability with transferable skills and conformance testing
+  - Portable user-owned memory, context, identity, and provenance
+  - Agent optimization via distillation and multi-agent learning
+  - Benchmarking and evaluation infrastructure for models, routers, and harnesses
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, Function Calling, MCP, OpenAI API,
+      Anthropic API, Embeddings]
+    ml: [Machine Learning, Model Evaluation, Reinforcement Learning, Recommender Systems,
+      Distillation]
+    web: [REST APIs]
+    databases: [Vector Search, Knowledge Graphs]
+    data: []
+    cloud: []
+    ops: [CI/CD, Distributed Systems, Observability]
+    languages: [Python, TypeScript, Go, Rust]
+    domains: []
+    other: [Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10546896'
+  location: GRC
+  locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  - GBR
+  - Amsterdam, NLD
+  remote: true
+  extracted_at: '2026-08-25T10:39:16.015228'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

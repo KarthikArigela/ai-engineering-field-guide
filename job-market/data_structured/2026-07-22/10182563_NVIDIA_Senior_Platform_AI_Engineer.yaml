@@ -1,61 +1,63 @@
 company:
   name: NVIDIA
-  stage: Public
-  focus: GPUs, accelerated computing, and AI hardware
+  stage: null
+  focus: GPUs and accelerated computing for graphics and AI
 position:
   title: Senior Platform AI Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building and operating the ML
-      infrastructure/platform that supports an "intelligent
-      automation ecosystem" for NVIDIA's silicon design group. The
-      engineer works ON the platform and infrastructure (serving,
-      orchestration, caching, job queues) that enables other
-      teams' AI/ML work, not directly on building or fine-tuning
-      models themselves. The emphasis is on platform architecture,
-      reliability, and scalability rather than model development.
+      The role builds and operates the infrastructure platform
+      (model serving, job orchestration, auth, observability,
+      storage/caching, SLAs) that other SCG teams' agents and
+      models run on — it owns platform contracts and onboarding
+      rather than shaping model behaviour, with no prompt design,
+      retrieval, fine-tuning, or eval work. Per the model-serving
+      edge case, serving and scaling models/agents someone else
+      builds is ai-support even though it is ML infrastructure at
+      heart.
   responsibilities:
-  - Define the architectural direction, infrastructure investments, and roadmap priorities
+  - Define architectural direction, infrastructure investments, and roadmap priorities
     for the efficiency platform across silicon architecture, build, methodology, validation,
     and applied AI teams
   - Define platform contracts and onboard new agents and skills from domain teams
     across SCG
   - Own end-to-end delivery of the platform from design and implementation through
-    sustained production operation with accountability for security, reliability,
-    performance, and evolution
-  - Lead unified solutions including orchestration patterns, authentication, authorization,
-    observability, and SLA enforcement across the platform
+    sustained production operation, with accountability for security, reliability,
+    and performance
+  - Lead unified solutions including orchestration patterns, authentication and authorization,
+    observability, and SLA enforcement
   - Manage storage and caching strategies that scale across heterogeneous compute
     environments
   - Serve as the technical authority for AI-powered infrastructure across SCG, setting
-    engineering standards and resolving cross-team architectural challenges
-  - Mentor senior engineers and shape the technical capabilities of the team
+    engineering standards, resolving cross-team architectural challenges, and mentoring
+    senior engineers
   use_cases:
-  - Intelligent automation ecosystem for NVIDIA silicon design workflows including
-    bring-up, characterization, and debug
-  - AI-powered platform supporting silicon architecture, build, methodology, and validation
-    teams
-  - Production sign-off workflows running on NVIDIA silicon
-  - Model serving and latency-sensitive backend services at scale for chip design
-    toolchains
-  - Orchestration of AI agents and skills across heterogeneous compute environments
-    in EDA/silicon development
+  - Efficiency platform powering an intelligent automation ecosystem for NVIDIA silicon
+    development
+  - Running agents and skills built by silicon architecture, build, methodology, and
+    validation teams
+  - ML infrastructure and model serving for silicon bring-up, characterization, debug,
+    and production sign-off workflows
+  - Scalable platform supporting chip development and EDA toolchain workloads
   skills:
-    genai: []
-    ml: []
-    web: [Microservices]
-    databases: []
-    data: [Celery]
     cloud: []
-    ops: [Kubernetes, Docker, Temporal, ML Infrastructure, Model Deployment, Observability]
-    languages: [Python, C++, Go, Java, Rust]
+    languages: [Python, C, C++, Go, Java, Rust]
+    ml: []
+    other: [Silicon Design, EDA Toolchains]
+    ops: [ML Infrastructure, Model Deployment, Kubernetes, Job Queues, Container Runtimes,
+      Celery, Sidekiq, Temporal, Observability, Distributed Systems]
+    databases: []
     domains: []
-    other: [Distributed Systems, System Design]
+    web: []
+    data: []
+    genai: [AI Agents]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10182563'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:36:35.505590'
+  extracted_at: '2026-08-16T17:37:52.149288'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,57 @@
+company:
+  name: MeridianLink
+  stage: null
+  focus: |-
+    Software platform for financial institutions and fintech
+    lending
+position:
+  title: AI Engineer II ( AI Platform)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements AI platform components
+      including prompt management systems, RAG infrastructure, and
+      evaluation pipelines — directly shaping model behavior and
+      output quality. LLM components are central, so ai-first.
+  responsibilities:
+  - Implement AI platform components including model integration layers, retrieval
+    infrastructure, prompt management, and output evaluation services
+  - Develop and maintain APIs that product teams use to integrate AI capabilities
+    into applications
+  - Build observability and monitoring into platform services to track output quality,
+    latency, cost, and system health
+  - Collaborate with product engineering teams to translate AI integration requirements
+    into platform features
+  - Define and enforce integration standards including API contracts, error handling
+    patterns, and cost attribution
+  - Implement evaluation and monitoring pipelines for AI output quality and model
+    behavior
+  - Contribute to compliance guardrails, PII handling, audit trails, and data residency
+    in AI pipelines
+  - Mentor junior engineers and contribute to documentation and reference implementations
+  use_cases:
+  - Shared AI platform powering AI features across MeridianLink's fintech products
+  - Model integration and serving layer for product teams
+  - RAG infrastructure and prompt management for consistent AI outputs
+  - Output quality evaluation and monitoring for AI systems
+  - Compliance and content safety guardrails for regulated financial services
+  skills:
+    genai: [LLMs, RAG, Embeddings, LangChain, LlamaIndex, Prompt Engineering]
+    ml: [Machine Learning]
+    web: [APIs, REST APIs]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus, SQL, Relational Databases]
+    data: []
+    cloud: [AWS Bedrock, Azure OpenAI]
+    ops: [Docker, Kubernetes, Monitoring, Git, CI/CD]
+    languages: [Python, C#, .NET, Java, Node.js]
+    domains: []
+    other: [Event-Driven Architecture, Code Review]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10505060'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:26:36.756579'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

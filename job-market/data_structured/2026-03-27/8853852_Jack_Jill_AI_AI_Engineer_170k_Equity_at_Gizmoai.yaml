@@ -1,44 +1,54 @@
 company:
   name: Jack & Jill AI
-  stage: Series A
-  focus: Edtech startup building gamified learning platform with AI
+  stage: Series A (backed by $22M in funding)
+  focus: |-
+    Edtech startup building gamified AI-powered learning
+    experiences
 position:
   title: AI Engineer (£170k + Equity) at Gizmo.ai
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying
-      production LLM features using models like Gemini, GPT-5, and
-      Claude. The engineer will design AI features, build
-      evaluation frameworks for AI systems, and integrate AI
-      models into production - all hands-on work with LLMs.
+      The role directly shapes LLM behaviour: designing production
+      AI features via advanced prompt engineering with Gemini,
+      GPT-5, and Claude, and building evaluation frameworks to
+      assess and improve LLM performance and grounding. Since the
+      models being shaped are LLMs serving production features,
+      this is ai-first.
   responsibilities:
-  - Design and ship production AI features using advanced prompt engineering and the
+  - Design and ship production AI features using advanced prompt engineering with
     latest models like Gemini and GPT-5
   - Build and maintain robust evaluation frameworks to systematically assess and improve
     the performance and grounding of AI systems
-  - Integrate complex AI models into a high-performance TypeScript production environment
-  - Own features from initial design through to deployment
-  - Report directly to the CEO and shape product architecture for millions of learners
+  - Integrate complex AI models into a high-performance TypeScript production environment,
+    owning features from design through deployment
+  - Leverage generative AI and cognitive science to transform passive learning into
+    interactive, gamified experiences
+  - Ship production-ready LLM features to over 1.5 million monthly active users
+  - Shape product architecture for millions of global learners while reporting directly
+    to the CEO
   use_cases:
-  - Transform passive learning into interactive gamified experiences
-  - Generate educational content using LLMs for 1.5M+ monthly active users
-  - Leverage generative AI and cognitive science for personalized learning
-  - Production-grade LLM systems for educational applications
+  - Gamified, interactive learning experiences ('Duolingo for anything')
+  - LLM-powered educational features for a consumer edtech app
+  - Production AI features serving 1.5 million monthly active users
+  - Systematic evaluation of LLM performance and grounding in learning content
   skills:
-    domains: []
-    languages: [TypeScript, Python]
-    ml: []
     cloud: []
-    genai: [Prompt Engineering, Gemini, GPT-5, Anthropic API, LLM evaluation frameworks]
-    data: []
-    other: []
+    languages: [TypeScript]
+    ml: [Machine Learning]
+    other: [Backend Systems]
     ops: []
-    web: [Backend systems]
     databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [Prompt Engineering, LLMs, Generative AI, Gemini, GPT-5, Anthropic API,
+      LLM Evaluation]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8853852'
   location: London, GBR
-  extracted_at: '2026-03-27T15:15:42.253260'
+  extracted_at: '2026-08-16T05:10:23.580626'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

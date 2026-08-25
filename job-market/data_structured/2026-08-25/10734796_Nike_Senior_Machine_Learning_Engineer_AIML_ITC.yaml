@@ -1,0 +1,52 @@
+company:
+  name: Nike
+  stage: null
+  focus: Athletic footwear and apparel company
+position:
+  title: Senior Machine Learning Engineer (AI/ML), ITC
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role centers on classical ML: prediction models,
+      optimization programs, and MLOps pipelines. Generative AI is
+      mentioned as a platform contribution but responsibilities
+      emphasize model development and scalable ML applications
+      with no LLM shaping details (no prompts, RAG, or agent
+      design), so the core ML focus governs; generative AI mention
+      is too vague to make it ai-first.
+  responsibilities:
+  - Design and implement scalable applications leveraging prediction models and optimization
+    programs for data-driven business decisions
+  - Contribute to advanced analytics, machine learning, and generative AI platforms
+    and tools
+  - Enable prediction and optimization model development across the ML lifecycle from
+    experimentation to production
+  - Mentor teammates and contribute knowledge and software back to analytics and engineering
+    communities
+  - Collaborate with business stakeholders, product owners, and technology teams to
+    deliver solutions
+  use_cases:
+  - Prediction models for corporate functions decision-making
+  - Optimization programs for business impact
+  - Generative AI capabilities for Nike's corporate functions
+  - Advanced analytics platforms and tools
+  skills:
+    cloud: [AWS, SageMaker, AWS Lambda, API Gateway]
+    languages: [Python, SQL]
+    ml: [scikit-learn, PyTorch, TensorFlow, Machine Learning]
+    other: [Agile, ETL]
+    ops: [MLOps, Docker, CI/CD, Kubernetes, Jenkins, Terraform]
+    databases: [PostgreSQL, Redis]
+    domains: []
+    web: [FastAPI]
+    data: [Databricks, Spark, Airflow, Data Pipelines, Data Engineering]
+    genai: [Generative AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10734796'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-25T11:32:40.622928'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

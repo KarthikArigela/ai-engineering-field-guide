@@ -1,56 +1,61 @@
 company:
   name: RTX
-  stage: Public
-  focus: Aerospace and defense systems
+  stage: null
+  focus: Aerospace and defense systems and technology
 position:
   title: AI Governance Platform and Automations Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on configuring AI governance platforms,
-      implementing policy controls, and building integrations for
-      AI governance workflows rather than building, training, or
-      deploying AI/ML models. The work is about governance,
-      compliance, and operational enablement around AI systems,
-      not hands-on model development. The MLOps literacy mentioned
-      is only a "preferred" qualification at a conceptual level.
+      The role configures AI governance platforms (OneTrust,
+      Archer, WatsonX), builds integrations and automations, and
+      operationalizes policy controls, metrics, and evidence
+      capture. It never shapes model behaviour — no prompt design,
+      retrieval/RAG work, training, or building evals or
+      guardrails for models. Per the edge case,
+      governance/oversight of models without building evals or
+      guardrails is ai-support.
   responsibilities:
-  - Configure and maintain enterprise AI governance capabilities including workflows,
-    controls, and evidence practices across teams and business units
-  - Design and maintain scalable integrations between AI governance platforms and
-    core enterprise systems using event-driven patterns
-  - Implement governance metrics, analytics, and automated reporting with data quality
-    and traceability practices for audit readiness
+  - Configure and maintain enterprise AI governance platform capabilities, standardizing
+    workflows, controls, and evidence practices for consistent execution across teams
+    and business units
+  - Design and maintain scalable integrations between AI governance capabilities and
+    core enterprise systems, establishing standardized data exchange and event-driven
+    patterns that automate assessments, approvals, evidence capture, and reporting
+  - Enable governance metrics, analytics, and automated reporting processes, implementing
+    data quality and traceability practices for accuracy and audit readiness
   - Translate Responsible AI, privacy, and security policies into operational controls
-    embedded in platform configurations
-  - Develop enablement materials, training, and onboarding guides to drive adherence
-    to governance workflows
-  - Coordinate with platform vendors for configuration guidance and capability enablement,
-    evaluating functionality against enterprise requirements
-  - Maintain a central control library and supporting artifacts in partnership with
-    compliance stakeholders
+    embedded in processes and platform configurations, maintaining a central control
+    library with compliance stakeholders
+  - Develop enablement materials, training, and onboarding guides, and provide hands-on
+    support and office hours to drive adherence to governance workflows
+  - Coordinate with platform vendors for configuration guidance, support, and capability
+    enablement, evaluating functionality against enterprise requirements to keep solutions
+    vendor-neutral
   use_cases:
-  - Enterprise AI governance and policy implementation across business units
-  - Automated AI risk assessment and approval workflows
-  - Evidence capture and audit readiness for AI/ML systems
-  - AI governance reporting and analytics with data quality monitoring
-  - Operationalization of Responsible AI controls and compliance frameworks
+  - Enterprise AI governance across an organization-wide AI/ML ecosystem
+  - Automated AI risk assessments, approvals, and evidence capture for audit readiness
+  - Operationalizing Responsible AI, privacy, and security policies into platform
+    controls
+  - Governance metrics, analytics, and automated reporting with data quality monitoring
+  - Model lifecycle oversight including monitoring, drift detection, and lineage
   skills:
-    genai: [WatsonX]
+    cloud: [WatsonX]
+    languages: []
     ml: []
-    web: [Microservices, REST APIs]
-    databases: [PostgreSQL]
-    data: [Data Quality, Data Pipelines, ETL]
-    cloud: []
-    ops: [MLOps, Model Monitoring]
-    languages: [Python, SQL, Python]
+    other: [OneTrust, Archer, Responsible AI, Event-Driven Architecture]
+    ops: [MLOps, Model Monitoring, Drift Detection]
+    databases: []
     domains: []
-    other: [OneTrust, Archer, Responsible AI, Event-Driven Architecture, AIGP, CIPP,
-      CIPM, GDPR, Power BI, Tableau]
+    web: []
+    data: [Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10067757'
   location: New York, USA
   remote: true
-  extracted_at: '2026-07-22T13:26:12.412176'
+  extracted_at: '2026-08-16T16:38:11.263423'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

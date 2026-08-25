@@ -1,0 +1,55 @@
+company:
+  name: Vertex, Inc.
+  stage: null
+  focus: Tax compliance and commercial AI software
+position:
+  title: Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role trains, fine-tunes, and evaluates LLMs (QLoRA,
+      LoRA, PEFT) alongside traditional ML models, directly
+      shaping model behavior. Since LLM fine-tuning and evaluation
+      are core responsibilities, it classifies as ai-first.
+  responsibilities:
+  - Define and own the end-to-end model training strategy across Commercial AI products,
+    spanning traditional ML models and LLMs
+  - Fine-tune large language models using parameter-efficient techniques (QLoRA, LoRA,
+    PEFT) and full fine-tuning
+  - Train, evaluate, and tune traditional AI/ML models including classification, regression,
+    ranking, and clustering
+  - Design and optimize data pipelines for ingestion, cleaning, labeling, and feature
+    engineering
+  - Define standards for training data storage, versioning, governance, lineage, and
+    PII handling
+  - Build reproducible training pipelines with experiment tracking
+  - Define evaluation methodology and benchmarks for model quality including offline
+    evaluation and regression testing
+  - Optimize training cost and compute utilization including GPU efficiency, distributed
+    training, and quantization
+  use_cases:
+  - Model training and fine-tuning for commercial tax software products
+  - LLM fine-tuning with parameter-efficient techniques
+  - Training data sourcing, curation, and governance
+  - Model quality evaluation and regression testing
+  skills:
+    genai: [Fine-Tuning, LoRA]
+    ml: [PyTorch, Hugging Face, Transformers, scikit-learn, Quantization, Model Training,
+      Feature Engineering, Model Evaluation, Distributed Training]
+    web: []
+    databases: []
+    data: [Spark, Ray, dbt, Data Pipelines, Data Governance]
+    cloud: []
+    ops: [MLflow, Weights & Biases]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10211176'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:32:43.960385'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

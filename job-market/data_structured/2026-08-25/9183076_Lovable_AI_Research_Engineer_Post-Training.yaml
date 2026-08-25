@@ -1,0 +1,56 @@
+company:
+  name: Lovable
+  stage: null
+  focus: |-
+    AI-powered platform for building software from plain
+    language
+position:
+  title: AI Research Engineer, Post-Training
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role personally runs post-training (RFT/RLVR, preference
+      optimization, SFT) on LLMs for code generation and agentic
+      workloads, shaping model behaviour directly. LLM targets
+      make this ai-first.
+  responsibilities:
+  - Own the full lifecycle of the post-training pipeline from data curation through
+    training, evaluation, and deployment
+  - Apply reinforcement learning, preference optimization, and supervised fine-tuning
+    to improve code generation, intent reasoning, and agentic reliability
+  - Build evaluation and experimentation infrastructure covering helpfulness, safety,
+    latency, and reliability
+  - Develop and operate production training systems including GPU orchestration and
+    data pipelines
+  - Collaborate with agent, product, and infrastructure engineers to ship model gains
+    to users
+  - Investigate and resolve failures across training, data, and serving
+  - Translate research into production within days or weeks
+  use_cases:
+  - Code generation from plain language prompts
+  - Agentic workloads for software building
+  - Reasoning about user intent
+  - Improving model helpfulness, safety, latency, and reliability
+  skills:
+    genai: []
+    ml: [PyTorch, JAX, Fine-Tuning, RLHF, Model Training, Reinforcement Learning,
+      LLMs, Model Evaluation, Embeddings, Model Deployment]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9183076'
+  location: Stockholm, SWE
+  locations:
+  - Stockholm, SWE
+  - London, GBR
+  extracted_at: '2026-08-25T12:18:46.296479'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,55 @@
+company:
+  name: Sandisk Corporation
+  stage: null
+  focus: Flash memory and data storage technology solutions
+position:
+  title: Staff Test Engineer - AI SW Stack ( 9-13 years)
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds and runs validation and benchmarking
+      frameworks that judge numerical correctness and performance
+      of neural network operators and inference pipelines (evals
+      against PyTorch/TensorFlow references), which is shaping
+      model output quality. The workloads are classical DL
+      operators, compilers, and runtimes; LLMs appear only as a
+      "familiarity" preference, so the classification is ml-first.
+  responsibilities:
+  - Own and define end-to-end validation strategy for the AI software stack
+  - Establish validation methodologies, coverage metrics, quality gates, and release-readiness
+    criteria
+  - Validate neural network operators, compute kernels, and graph-level execution
+    workflows
+  - Verify numerical correctness against reference frameworks such as PyTorch and
+    TensorFlow
+  - Validate memory allocation and movement across host and device environments, including
+    stress and multi-device scenarios
+  - Design and maintain benchmarking frameworks for operator-level and model-level
+    performance, latency, throughput, and scaling efficiency
+  - Mentor engineers and drive best practices for automation, performance validation,
+    and debugging
+  use_cases:
+  - Validation of an AI computational storage platform software stack
+  - Correctness verification of neural network operators and model inference
+  - Performance benchmarking of operators, models, latency, and throughput
+  - Multi-device scaling and concurrency validation of inference systems
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, Neural Networks, Deep Learning, Model Evaluation]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [TensorRT]
+    languages: [C++, Python]
+    domains: []
+    other: [MLIR, XLA, StableHLO, TVM, ONNX Runtime, VTune, Nsight Systems, Nsight
+        Compute, perf, Object-Oriented Programming, LLMs, Generative AI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10789294'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:51:48.417843'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

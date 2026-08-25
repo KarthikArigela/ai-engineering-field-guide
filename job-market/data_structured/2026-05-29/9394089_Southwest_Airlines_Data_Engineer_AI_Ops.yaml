@@ -1,54 +1,56 @@
 company:
   name: Southwest Airlines
-  stage: Public
-  focus: Airline transportation and commercial aviation services
+  stage: null
+  focus: Commercial passenger airline
 position:
   title: Data Engineer – AI Ops
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role focused on building and
-      operating data pipelines that SUPPORT AI/ML and agentic
-      systems, but not directly working on the models themselves.
-      The role handles infrastructure, ETL/ELT pipelines, data
-      quality, and observability for AI solutions, which is
-      enabling work for others rather than hands-on model
-      development or deployment.
+      This is a data engineering role that builds, operates, and
+      quality-checks the ETL/ELT pipelines feeding Southwest's
+      AI/ML and agentic systems. The person moves and validates
+      data rather than shaping model behaviour - no prompt design,
+      retrieval design, training, or evals. Per the
+      pipeline/dataset rule, this is ai-support.
   responsibilities:
-  - Build, operate, and improve data pipelines that power AI and analytics solutions
-    at scale
-  - Design and maintain ETL/ELT pipelines, retraining loops, and feedback systems
-    for AI/ML workloads
-  - Implement data quality checks, schema validation, and basic observability to keep
-    systems healthy
-  - Build infrastructure for optimal data extraction, transformation, and loading
-    using AWS and SQL technologies
-  - Assemble large, complex datasets that meet functional and non-functional business
-    requirements
-  - Partner with Data, Product, and Engineering teams to automate processes and support
-    analytics driving operational insights
+  - Build, operate, and improve the data pipelines that keep AI and analytics solutions
+    running reliably at scale
+  - Design and maintain ETL/ELT pipelines for extraction, transformation, and loading
+    of data from various sources using AWS and SQL technologies
+  - Support retraining and feedback loops for production AI/ML and agentic systems
+  - Apply data quality checks, schema validation, and basic observability to keep
+    systems healthy as they evolve
+  - Identify and implement internal process improvements, including redesigning infrastructure
+    for greater scalability, optimizing data delivery, and automating manual processes
+  - Build analytical tools that provide actionable insight into key business performance
+    metrics such as operational efficiency and customer acquisition
+  - Partner with Data, Product, Engineering, Design, and Executive teams to support
+    data infrastructure needs and resolve data-related technical issues
   use_cases:
-  - AI-powered operational insights for airline operations
-  - Agentic systems for customer service and business automation
-  - ML retraining pipelines and feedback loops for continuous model improvement
-  - Analytics for operational efficiency and customer acquisition metrics
-  - Real-time data flows supporting AI platform operations at enterprise scale
+  - Reliable large-scale production data flows powering AI/ML and agentic systems
+  - Analytics providing actionable insight into operational efficiency and customer
+    acquisition
+  - Retraining and feedback data loops for AI models
+  - Scalable, automated data infrastructure supporting business and executive decision-making
   skills:
-    domains: []
+    cloud: [AWS, AWS Glue, AWS S3, Amazon Athena, Step Functions]
     languages: [SQL, Python]
     ml: []
-    cloud: [AWS]
+    other: [XML, Agile]
+    ops: [Git, CI/CD, Unit Testing, Docker]
+    databases: [Pinecone, OpenSearch, pgvector]
+    domains: []
+    web: [JSON]
+    data: [Data Pipelines, Airflow, Kafka, Kinesis, Spark, Databricks, Delta Lake,
+      Iceberg, Hudi, Data Governance, Data Contracts, Data Quality, Data Observability,
+      Data Lake, Parquet, ServiceBus]
     genai: []
-    data: [Glue, Athena, Kinesis, Airflow, Data Pipelines, Data quality checks, Schema
-        validation, Spark, Databricks, Iceberg, Delta Lake, Hudi, Kafka, ServiceBus,
-      JSON, XML, Parquet]
-    other: []
-    ops: [Step Functions, CI/CD, Git, Data observability, Unit Testing, Docker, Kubernetes]
-    web: []
-    databases: [S3, Pinecone, OpenSearch, pgvector]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9394089'
   location: Choudwar, IND
-  extracted_at: '2026-05-29T09:03:57.605945'
+  extracted_at: '2026-08-16T10:50:18.772226'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

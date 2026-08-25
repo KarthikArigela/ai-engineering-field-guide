@@ -1,16 +1,20 @@
 company:
   name: Blue Altair
   stage: null
-  focus: Consulting firm for AI and digital transformation
+  focus: Technology consulting firm for AI and digital transformation
 position:
   title: Consultant/Sr. Consultant - AI Engineer (INAI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on with AI/ML systems, building and
-      deploying GenAI models, LLM applications, and RAG pipelines.
-      The engineer directly trains, fine-tunes, and deploys models
-      rather than just supporting infrastructure or platforms.
+      The role builds and deploys LLM applications (chatbots,
+      copilots, autonomous agents), architects and optimizes RAG
+      pipelines, develops embedding-based semantic search, designs
+      multi-agent workflows, and trains/fine-tunes GenAI models —
+      all direct shaping of LLM behavior, so ai-first. Classical
+      ML techniques (regression, forecasting, time series) are
+      also required, but a role shaping both LLM and classical ML
+      systems is ai-first.
   responsibilities:
   - Research, design, and implement GenAI-powered solutions for complex business problems
   - Build and deploy LLM-based applications including chatbots, copilots, and autonomous
@@ -20,36 +24,39 @@ position:
     and recommendation
   - Experiment with agentic AI frameworks to design multi-agent workflows and autonomous
     decision-making systems
-  - Research machine learning algorithms, develop solution formulations, and test
-    on large datasets
-  - Design experiments, test hypotheses, and build actionable models
-  - Translate unstructured, complex business problems into abstract mathematical frameworks
-    to produce working algorithms at scale
+  - Research machine learning algorithms and test solution formulations on large datasets
+  - Design experiments, test hypotheses, and build actionable models from unstructured
+    business problems
+  - Translate complex business problems into mathematical frameworks and communicate
+    methodologies and results
   use_cases:
-  - Enterprise knowledge retrieval and augmentation using RAG
-  - Semantic search and personalization for recommendation systems
-  - Chatbots, copilots, and autonomous agents for business automation
-  - Unstructured business problem solving with tailored analytic solutions
-  - Data-driven insights including trend identification and anomaly detection
+  - Chatbots, copilots, and autonomous agents for business users
+  - Enterprise knowledge retrieval and augmentation via RAG pipelines
+  - Semantic search, personalization, and recommendation systems
+  - Autonomous multi-agent decision-making workflows
+  - Analytic modeling for complex business problems including trend and anomaly detection
+    and forecasting
   skills:
-    domains: [NLP, Multimodal AI]
-    languages: [Python, R]
-    ml: [SAS, SPSS, MATLAB, Machine Learning, Classification, Regression, Feature
-        Selection, Feature Engineering, Hyperparameter Tuning, Unsupervised Learning,
-      Time Series Analysis, Forecasting, Model Training, Fine-Tuning, BERT, ELMo,
-      LSTM, CNN, Named Entity Recognition, Dependency Parsing, Coreference Resolution,
-      spaCy, NLTK, Probabilistic Graphical Models, Reinforcement Learning]
     cloud: [SageMaker, Azure ML]
-    genai: [Generative AI, LLMs, GPT, LLaMA, Mistral, Anthropic API, RAG, Embeddings,
-      LangChain, LlamaIndex, AutoGen, CrewAI, Hugging Face, OpenAI API]
-    data: []
-    other: []
-    ops: []
-    web: []
+    languages: [Python, R]
+    ml: [Machine Learning, Model Training, Feature Engineering, Hyperparameter Tuning,
+      Unsupervised Learning, Time Series Analysis, Forecasting, Recommendation Systems,
+      BERT, ELMo, LSTM, CNNs, Named Entity Recognition, spaCy, NLTK, Hugging Face,
+      NLP, Reinforcement Learning, Genetic Algorithms, Probabilistic Graphical Models]
+    other: [SAS, SPSS, Stata, MATLAB, Statistics]
+    ops: [Model Deployment]
     databases: [Vector Databases, Pinecone, Weaviate, Milvus, FAISS]
-  is_customer_facing: true
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, LLMs, GPT, Llama, Mistral, Anthropic API, RAG, Embeddings,
+      Semantic Search, LangChain, LlamaIndex, AutoGen, CrewAI, AI Agents, Agentic
+        Workflows, Multi-Agent Systems, OpenAI API, Fine-Tuning, Multimodal AI]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '8261826'
   location: Pune, IND
-  extracted_at: '2026-02-27T11:52:26.387981'
+  extracted_at: '2026-08-16T00:45:03.623378'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

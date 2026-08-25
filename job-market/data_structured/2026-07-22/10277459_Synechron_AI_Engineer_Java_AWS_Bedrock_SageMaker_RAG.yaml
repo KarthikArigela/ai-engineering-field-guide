@@ -1,56 +1,58 @@
 company:
   name: Synechron
-  stage: Public
-  focus: Digital transformation and technology consulting services
+  stage: null
+  focus: Global digital technology consulting and IT services
 position:
   title: AI Engineer | Java & AWS Bedrock, SageMaker & RAG
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and operationalizing
-      AI-powered solutions including RAG architectures, embedding
-      pipelines, AWS Bedrock integration, and vector search
-      components. The engineer designs and implements AI-enabled
-      features end-to-end, from models and embeddings to
-      production services.
+      The role designs RAG architectures end-to-end (chunking
+      strategies, embedding pipelines, retrieval mechanisms) with
+      Claude via Bedrock, builds Guardrails, and integrates
+      agent/tool calling via MCP — directly shaping LLM behaviour
+      and output quality. Step 1 is satisfied with an LLM
+      component, so ai-first.
   responsibilities:
   - Architect, develop, test, and maintain AI-enabled Java/Spring Boot applications
-    and services
-  - Design robust data and AI pipelines, embeddings, and retrieval mechanisms for
-    RAG scenarios
-  - Build and maintain vector search components using OpenSearch and Aurora PostgreSQL
-    with pgvector
-  - Develop with AWS Bedrock, SageMaker, Lambda, and Step Functions to operationalize
-    AI solutions
-  - Integrate with enterprise tools via MCP (Jira, ServiceNow, qTest) and ensure seamless
-    deployment
-  - Collaborate with cross-functional teams including frontend engineers and QA for
-    end-to-end quality
-  - Perform code reviews, debugging, performance tuning, and ensure secure coding
-    practices
-  - Advocate for scalable, cost-aware cloud-native AI solutions
+    and services on AWS
+  - Design RAG architectures with embedding pipelines, chunking strategies, and retrieval
+    mechanisms using SageMaker and Lambda
+  - Build and maintain vector search components with OpenSearch or Aurora PostgreSQL
+    (pgvector) and graph data with Amazon Neptune
+  - Integrate AI workflows with enterprise tools (Jira, ServiceNow, qTest) via MCP
+    and orchestrate them with AWS Step Functions
+  - Ensure code quality through reviews, testing, and documentation
+  - Ensure secure, scalable deployment and monitoring and promote cost-aware cloud
+    usage
+  - Collaborate with cross-functional and frontend (Angular) teams to translate business
+    needs into technical solutions
   use_cases:
-  - RAG-based enterprise knowledge retrieval and search
-  - AI-powered business applications with Java/Spring Boot backends
-  - Embedding pipelines and vector search for document retrieval
-  - Enterprise workflow automation integrating with Jira, ServiceNow, and qTest
-  - Secure, scalable AI service deployment on AWS infrastructure
+  - Enterprise RAG-based retrieval and semantic search over business data
+  - AI-assisted enterprise workflows integrating Jira, ServiceNow, and qTest via MCP
+  - AI-powered Java/Spring Boot business applications and services on AWS
+  - Knowledge retrieval combining vector databases (OpenSearch, pgvector) and graph
+    data (Neptune)
+  - Secure, cost-aware cloud-native AI services for enterprise integration
   skills:
-    genai: [AWS Bedrock, Claude, Embeddings, Guardrails, RAG, MCP, Generative AI]
-    ml: []
-    web: [Spring Boot, Angular, REST APIs, Microservices, Hibernate]
-    databases: [OpenSearch, pgvector, PostgreSQL, Neptune, Graph Databases, MySQL,
-      Oracle, SQL Server, Vector Search]
-    data: [Data Pipelines, Data Modeling]
-    cloud: [SageMaker, AWS Lambda, AWS, AWS S3, IAM, ECS, API Gateway, Azure OpenAI]
-    ops: [CI/CD, Git, Model Deployment, AWS Step Functions]
-    languages: [Java, Python, SQL]
+    cloud: [AWS Bedrock, SageMaker, AWS Lambda, AWS Step Functions, ECS, EventBridge,
+      API Gateway, IAM, AWS Secrets Manager, AWS S3]
+    languages: [Java, Python]
+    ml: [Machine Learning]
+    other: [Hibernate, JPA, JUnit, Mockito, Agile, Jira, ServiceNow, qTest]
+    ops: [Git, CI/CD, Model Deployment]
+    databases: [OpenSearch, PostgreSQL, pgvector, Amazon Neptune, Vector Search, MySQL,
+      Oracle, SQL Server]
     domains: []
-    other: [ServiceNow, Jira, Agile]
+    web: [Spring Boot, Struts, REST APIs, Angular, Microservices]
+    data: [Data Pipelines, Data Modeling]
+    genai: [RAG, Embeddings, Guardrails, MCP, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10277459'
   location: IND
   remote: true
-  extracted_at: '2026-07-22T13:38:19.991271'
+  extracted_at: '2026-08-16T18:26:30.395316'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

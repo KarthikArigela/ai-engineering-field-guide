@@ -1,45 +1,50 @@
 company:
   name: Baker Hughes
-  stage: Public
-  focus: Energy technology and oilfield services
+  stage: null
+  focus: |-
+    Energy technology and industrial analytics for the energy
+    sector
 position:
   title: 'Early Career Trainee: AI Engineer (India)'
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role explicitly involves supporting the development and
-      operation of AI services, contributing to AI model serving
-      solutions, and backend services for AI. While it is an
-      entry-level traineeship, the core responsibilities center on
-      building, deploying, and testing AI models, making it ai-
-      first.
+      The role supports the operation of AI services and
+      contributes to AI model serving solutions and backend
+      services - the deliverable is serving infrastructure,
+      validation, and troubleshooting, not shaping model
+      behaviour. There is no prompt design, retrieval, fine-
+      tuning, agent work, or output-quality eval work. Per the
+      serving edge case, this is ai-support.
   responsibilities:
   - Support the development and operation of AI services across the delivery lifecycle
   - Contribute to the design, implementation, testing, and integration of AI model
     serving solutions and backend services
-  - Assist in validation, troubleshooting, and performance testing of AI systems
+  - Assist in validation, troubleshooting, and performance testing
   - Prepare technical documentation
   - Collaborate with cross-functional teams including Platform & MLOps, Reliability
     & Support, Security, Data, and Product teams
-  - Apply analytics, physics-based modelling, and digital tools to practical challenges
+  - Develop technical knowledge and soft skills through an 11-month structured traineeship
   use_cases:
-  - AI model serving for energy industry applications
-  - Analytics and physics-based modelling for energy sector challenges
-  - AI services supporting energy transition initiatives
+  - AI service delivery and lifecycle operations within the Cordant analytics team
+  - Analytics and physics-based modelling applied to practical energy sector challenges
+  - Backend services supporting AI model serving in production
   skills:
-    genai: []
-    ml: []
-    web: [Backend services]
-    databases: []
-    data: [Data analytics]
     cloud: []
-    ops: [AI model serving]
-    languages: [Python]
-    domains: [Physics-based modelling]
-    other: [Technical documentation]
+    languages: []
+    ml: []
+    other: []
+    ops: [Model Deployment]
+    databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9516119'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:43:00.872401'
+  extracted_at: '2026-08-16T12:47:32.756034'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,61 +1,62 @@
 company:
   name: Optum
-  stage: Public
-  focus: |-
-    Healthcare technology, pharmacy benefits, and care
-    optimization
+  stage: ''
+  focus: Healthcare technology, care delivery, and pharmacy benefits
 position:
   title: Lead AI or ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on building, designing, and
-      deploying GenAI/ML systems including LLM integration, RAG
-      pipelines, agentic workflows, fine-tuning, and model
-      serving. The engineer works directly ON AI systems (building
-      AI services, implementing RAG, prompt engineering, AI
-      agents, embeddings) rather than just supporting
-      infrastructure for others.
+      The role directly shapes model behaviour: designing and
+      building prompt engineering frameworks, RAG pipelines,
+      agentic workflows, fine-tuning pipelines, evaluations, and
+      guardrails for LLMs (OpenAI, Anthropic, Gemini). With a
+      clear LLM/generative component and hands-on implementation,
+      this is ai-first despite the architecture and platform
+      responsibilities.
   responsibilities:
-  - Design enterprise-grade AI/ML and Generative AI architectures aligned with business
-    and technology strategies
+  - Design enterprise-grade AI/ML and Generative AI architectures defining scalable
+    patterns for LLM integration, RAG, agentic workflows, vector databases, AI gateways,
+    and model serving
+  - Architect multi-cloud AI solutions across Azure, AWS, and GCP and define AI platform
+    standards, reusable components, and reference architectures
   - Build production-ready AI services and APIs using Python, Java, or Node.js
+  - Develop and optimize prompt engineering frameworks, AI agents, semantic search
+    pipelines, embedding workflows, and fine-tuning pipelines
   - Evaluate and implement enterprise LLM solutions including OpenAI, Anthropic, Gemini,
-    and open-source models
-  - Design and optimize RAG pipelines, vector search, AI agents, prompt engineering
-    frameworks, and embedding workflows
-  - Architect multi-cloud AI infrastructure on Azure OpenAI, AWS Bedrock, and Vertex
-    AI with CI/CD and MLOps practices
-  - Define enterprise AI standards, governance policies, and reference architectures
-  - Mentor engineers and architects on AI best practices and conduct architecture
-    reviews
-  - Collaborate with data engineering teams to build scalable AI data pipelines and
-    event-driven architectures
+    and open-source models with guardrails, governance, and observability
+  - Implement RAG pipelines, vector search, knowledge grounding, AI evaluation frameworks,
+    and hallucination mitigation strategies
+  - Design AI infrastructure on Azure OpenAI, AWS Bedrock, Vertex AI, and Kubernetes
+    with CI/CD, MLOps, and LLMOps practices
+  - Define enterprise AI standards and architecture governance, mentor engineers,
+    and conduct architecture reviews with security and compliance teams
   use_cases:
-  - Enterprise LLM integration and GenAI solution deployment in healthcare
-  - Retrieval-Augmented Generation (RAG) for knowledge grounding and semantic search
-  - Agentic AI workflows for healthcare process automation
-  - AI-powered clinical decision support and health outcome optimization
-  - Secure and compliant AI governance including hallucination mitigation and bias
-    reduction
-  - Enterprise data interoperability with FHIR/HL7 healthcare standards
+  - Enterprise Generative AI and LLM platform architecture for a healthcare organization
+  - Retrieval-grounded LLM applications with knowledge grounding and hallucination
+    mitigation
+  - Agentic AI workflows and AI orchestration for enterprise processes
+  - Secure, compliant, and responsible AI in a regulated healthcare environment
+  - Model serving, evaluation, and lifecycle management for production AI workloads
   skills:
-    domains: []
-    languages: [Python, Java, Node.js, SQL]
-    ml: [PyTorch/TensorFlow]
     cloud: [Azure, AWS, GCP, Azure OpenAI, AWS Bedrock, Vertex AI]
-    genai: [LangChain/LangGraph, RAG, Prompt Engineering, AI Agents, AI Orchestration
-        Frameworks, OpenAI API, Anthropic API, Gemini, Fine-Tuning, Semantic Search,
-      Embeddings, AI Guardrails, Responsible AI]
-    data: [Kafka, Event-driven Architecture, Streaming Technologies, Data Pipelines]
-    other: [FHIR, HL7, Healthcare Interoperability]
-    ops: [Kubernetes, Docker, Terraform, Helm, GitHub Actions, Azure DevOps, CI/CD,
-      MLOps, LLMOps, Model Serving and Inference]
-    web: [REST APIs, Microservices, API-first Design]
-    databases: [Vector Databases]
+    languages: [Python, Java, Node.js]
+    ml: [Machine Learning]
+    other: [Event-Driven Architecture, Responsible AI, FHIR, HL7]
+    ops: [Kubernetes, Model Deployment, CI/CD, MLOps, LLMOps, Terraform, Helm, GitHub
+        Actions, Azure DevOps, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
+    web: [APIs, Microservices]
+    data: [Kafka, Data Pipelines]
+    genai: [LLMs, Generative AI, RAG, Agentic Workflows, AI Agents, Prompt Engineering,
+      Semantic Search, Embeddings, Fine-Tuning, OpenAI API, Anthropic API, Gemini,
+      Guardrails, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9763061'
   location: Hyderabad, IND
-  extracted_at: '2026-06-25T19:57:57.623966'
+  extracted_at: '2026-08-16T14:55:34.561206'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

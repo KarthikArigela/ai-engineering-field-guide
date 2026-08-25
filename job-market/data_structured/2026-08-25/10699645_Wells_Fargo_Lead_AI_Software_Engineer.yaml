@@ -1,0 +1,56 @@
+company:
+  name: Wells Fargo
+  stage: null
+  focus: Large banking and financial services company
+position:
+  title: Lead AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent workflows, MCP servers/clients, RAG
+      systems, and tool orchestration — directly shaping model
+      behavior via agents and retrieval. LLM/agent components
+      dominate, so ai-first.
+  responsibilities:
+  - Design, build, and maintain AI-enabled applications using React, TypeScript, Python,
+    and modern API frameworks
+  - Build and maintain Python backend services, APIs, MCP services, and integration
+    layers using FastAPI and Flask
+  - Design and integrate MCP servers and clients enabling secure context sharing between
+    models, tools, applications, and agent runtimes
+  - Develop agentic workflows executing complex multi-step tasks using LangChain,
+    Google ADK, or similar frameworks
+  - Build skill-based modular agents and reusable components, tool schemas, and integration
+    patterns
+  - Implement RBAC, authentication, and authorization policies for tools and services
+  - Integrate logging, tracing, and observability including Arize and Splunk-compatible
+    tooling
+  - Ensure deployment readiness on OpenShift or Kubernetes container platforms
+  use_cases:
+  - Agentic systems executing complex multi-step tasks in an enterprise banking environment
+  - Secure context sharing between models, tools, and applications via MCP servers
+    and clients
+  - RAG-based enterprise knowledge retrieval
+  - Skill-based modular agent capabilities reusable across AI applications
+  - AI-powered user interfaces integrated with backend APIs and agent runtimes
+  skills:
+    genai: [MCP, LLMs, RAG, LangChain, Google ADK, Agentic Workflows, Embeddings,
+      Vector Search, Prompt Engineering, Knowledge Graphs, Copilot Studio, Structured
+        Outputs]
+    ml: []
+    web: [React, FastAPI, Flask, REST APIs, Playwright, OAuth]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Kubernetes, Docker, Arize, LangSmith, OpenTelemetry]
+    languages: [TypeScript, Python, HTML, CSS, JavaScript]
+    domains: []
+    other: [Splunk, Pydantic, JSON Schema, Zod, RBAC, Event-Driven Architecture, OpenShift]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10699645'
+  location: City of London, GBR
+  extracted_at: '2026-08-25T11:21:13.225660'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

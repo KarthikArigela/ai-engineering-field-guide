@@ -1,52 +1,61 @@
 company:
   name: Experian
-  stage: Public
-  focus: Global data, analytics, and credit technology solutions
+  stage: FTSE 100 company listed on the London Stock Exchange (publicly traded)
+  focus: |-
+    Global data and technology company powering lending, fraud
+    prevention, and analytics
 position:
   title: Senior Software Engineer (AI,Java/Python)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly designing and implementing AI-
-      powered solutions using agent frameworks, multi-agent
-      systems, and LLM orchestration frameworks (MCP). The
-      engineer will build and maintain AI-powered APIs for
-      inference, orchestration, and agent-based workflows, which
-      constitutes hands-on work with AI/LLM systems.
+      The role explicitly designs and implements AI agents, multi-
+      agent systems, and multi-step LLM workflows using
+      orchestration frameworks like MCP, LangChain, LlamaIndex,
+      and Semantic Kernel, which is shaping LLM/agent behavior.
+      Integrating AI coding tools into developer workflows appears
+      as a secondary duty, but the core responsibility is building
+      agent-based AI systems, making this ai-first.
   responsibilities:
-  - Design highly scalable, flexible, and resilient cloud architectures in partnership
-    with Architecture, Product, CloudOps, and Engineering teams
+  - Partner with Architecture, Product, CloudOps, and Engineering teams to design
+    highly scalable, flexible, and resilient cloud architectures using AWS design
+    principles
   - Build and maintain robust APIs and microservices for internal and external consumption
   - Design and implement AI-powered solutions using agent frameworks and multi-agent
     systems
+  - Work with LLM orchestration frameworks such as MCP to enable intelligent workflows
+  - Build and maintain AI-powered APIs for inference, orchestration, and agent-based
+    workflows
   - Integrate AI tools into developer workflows and enterprise applications
-  - Work with LLM orchestration frameworks to enable intelligent workflows
   - Implement secure authentication and authorization mechanisms including OAuth 2.0
     and delegated access patterns
   - Communicate and explain technical and architectural decisions to product, development,
     and delivery teams
   use_cases:
-  - AI-powered APIs for inference, orchestration, and agent-based workflows
-  - Multi-agent systems for enterprise applications
-  - Intelligent workflow automation using LLM orchestration frameworks
-  - Internal developer platforms with AI-powered dev tools
-  - Enterprise data and analytics solutions for financial services, healthcare, and
-    automotive markets
+  - AI-powered enterprise applications with intelligent workflows
+  - Multi-agent systems and agent-based business process automation
+  - AI-powered APIs for inference and LLM orchestration
+  - Workflow automation of engineering, data, and business processes
+  - AI-augmented developer workflows and internal developer tools
+  - Scalable cloud microservices for internal and external consumers
   skills:
-    domains: []
+    cloud: [AWS, EKS, AWS S3, AWS Lambda, ECS, RDS, Aurora, SQS, AWS Well-Architected
+        Framework]
     languages: [Java, Python, Go, Node.js]
     ml: []
-    cloud: [AWS, EKS, AWS S3, AWS RDS, AWS Lambda, AWS Aurora, AWS ECS-Fargate]
-    genai: [LangChain, LlamaIndex, Semantic Kernel, MCP, Agentic Workflows, Multi-Agent
-        Systems, LLMs, Anthropic API]
-    data: [Kafka, RabbitMQ, AWS SQS]
-    other: [n8n, Zapier, Cursor, GitHub Copilot]
-    ops: [Jenkins, Harness, CI/CD, Prompt tracing, Token usage analysis]
-    web: [REST APIs, Microservices, OAuth]
+    other: [n8n, Zapier]
+    ops: [CI/CD, Jenkins, Harness, Observability]
     databases: []
+    domains: []
+    web: [APIs, Microservices, OAuth]
+    data: [Kafka, RabbitMQ]
+    genai: [LangChain, LlamaIndex, Semantic Kernel, MCP, Multi-Agent Systems, AI Agents,
+      Agentic Workflows, LLMs, Anthropic API, Cursor, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9661418'
   location: Hyderabad, IND
-  extracted_at: '2026-06-25T19:51:58.125752'
+  extracted_at: '2026-08-16T13:58:01.121396'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

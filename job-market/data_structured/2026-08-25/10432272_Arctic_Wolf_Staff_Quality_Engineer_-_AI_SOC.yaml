@@ -1,0 +1,58 @@
+company:
+  name: Arctic Wolf
+  stage: null
+  focus: |-
+    Cybersecurity managed detection and response (security
+    operations)
+position:
+  title: Staff Quality Engineer - AI SOC
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds testing frameworks and evaluation pipelines
+      for LLM applications, including hallucination detection,
+      prompt-response consistency validation, and LLM
+      accuracy/bias/toxicity measurement. Building evals for LLM
+      output quality is shaping model behaviour, so it is ai-
+      first.
+  responsibilities:
+  - Create and extend software frameworks and tools to execute, monitor, and report
+    on automated tests
+  - Build and maintain automation frameworks and CI/CD pipelines
+  - Architect and build automation solutions for API validation, performance, load,
+    and fuzz testing
+  - Develop and maintain testing frameworks for generative AI and machine learning
+    applications
+  - Validate model behavior, prompt-response consistency, hallucination detection,
+    and regression testing for AI inference APIs
+  - Implement evaluation pipelines to measure LLM accuracy, latency, bias, toxicity,
+    and reliability
+  - Review testing strategies and test plans while guiding development teams
+  - Continuously improve engineering quality, automation practices, and testing methodologies
+  use_cases:
+  - Quality validation of LLM-driven security operations applications
+  - Hallucination detection and prompt-response consistency checks for AI inference
+    APIs
+  - Automated testing of distributed microservices processing 600B security events
+    per day
+  - Performance, load, and fuzz testing of cloud-native cybersecurity services
+  - Threat detection and real-time security event analysis
+  skills:
+    genai: [LangChain, Prompt Engineering]
+    ml: [LLM Evaluation, Ragas, Machine Learning]
+    web: [Selenium, Playwright, OpenAPI]
+    databases: [PostgreSQL]
+    data: []
+    cloud: [AWS, AWS Bedrock, AWS Lambda, AWS S3, Azure, GCP]
+    ops: [Docker, Kubernetes, Linux, Locust, CI/CD, Microservices, Distributed Systems]
+    languages: []
+    domains: []
+    other: [Load Testing, Fuzz Testing, Cybersecurity]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10432272'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T10:06:40.294305'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

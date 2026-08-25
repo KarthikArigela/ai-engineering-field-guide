@@ -1,56 +1,60 @@
 company:
   name: Astreya
   stage: null
-  focus: IT services and AIOps automation
+  focus: IT services with AI-driven operations automation
 position:
   title: AI / ML Engineer II
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building and deploying
-      AI/ML systems, including fine-tuning LLMs, developing ML
-      models for anomaly detection, and creating AI agents for NOC
-      operations. The position requires direct implementation of
-      AI solutions, not just enabling infrastructure for others.
+      The role leads evaluation, fine-tuning, and integration of
+      open-source LLMs (Llama, GPT-4) and develops AI agents and
+      GenAI point solutions, which is directly shaping LLM
+      behavior. It also trains classical ML models (anomaly
+      detection, predictive maintenance, capacity planning), but
+      since both LLM and classical ML systems are shaped, the role
+      is ai-first per the edge-case rules.
   responsibilities:
-  - Lead the evaluation, fine-tuning, and integration of open-source Large Language
-    Models (LLMs) like Llama series & other LLMs
-  - Develop and train machine learning models for tasks such as anomaly detection,
-    predictive maintenance, and capacity planning in IT environments
-  - Collaborate with engineering and data teams to design and architect scalable AI
-    solutions including automated network diagnostics, bot recommendation systems,
-    and AI agents for NOC operations
-  - Act as Solution Owner in Agile/Scrum environment, managing product backlog, writing
-    user stories, and prioritizing features
-  - Develop and own key components of automation framework, including PowerShell and
-    Python runbook executors
-  - Work with large datasets of IT operational data, performing data cleaning, feature
-    engineering, and data analysis
-  - Engage with customers, IT operators, and stakeholders to gather requirements and
-    validate solutions
-  - Serve as Subject Matter Expert on AIOps, IT Process Automation, and Runbook Automation
+  - Lead the evaluation, fine-tuning, and integration of open-source LLMs such as
+    the Llama series and other LLMs
+  - Develop and train machine learning models for anomaly detection, predictive maintenance,
+    and capacity planning in IT environments
+  - Develop and deploy AI agents and GenAI point solutions for AI-driven automation
+    aligned with company and client goals
+  - Design and architect scalable AI solutions such as automated network diagnostics,
+    bot recommendation systems, and AI agents for NOC operations
+  - Act as Solution Owner in an Agile/Scrum environment, managing the product backlog,
+    writing user stories, and defining acceptance criteria
+  - Develop and own automation framework components including PowerShell and Python
+    runbook executors
+  - Work with large IT operational datasets, performing data cleaning, feature engineering,
+    and data analysis to improve model performance
+  - Engage with customers, IT operators, Network Engineers, and internal stakeholders
+    to gather requirements and validate solutions
   use_cases:
-  - Automated network diagnostics for IT infrastructure
-  - Bot recommendation systems for IT operations
-  - AI agents for NOC (Network Operations Center) operations
-  - Anomaly detection in IT environments
-  - Predictive maintenance for IT systems
-  - Capacity planning for IT infrastructure
+  - Automated network diagnostics
+  - Bot recommendation systems
+  - AI agents for NOC operations
+  - AI-driven IT service automation and orchestration
+  - Anomaly detection, predictive maintenance, and capacity planning for IT operations
+  - AIOps, IT process automation, and runbook automation
   skills:
-    domains: []
-    languages: [Python, PowerShell, Shell Script, Java]
-    ml: [PyTorch]
     cloud: [Azure, GCP]
-    genai: [Fine-Tuning, Llama, GPT-4, AI Agents]
-    data: [Data cleaning, Feature engineering]
-    other: [ITIL]
+    languages: [Python, PowerShell, Java, Bash]
+    ml: [PyTorch, Machine Learning, Deep Learning, Anomaly Detection, Feature Engineering]
+    other: [AIOps, IT Process Automation, Runbook Automation, ITIL, Networking]
     ops: [Docker, Kubernetes]
-    web: []
     databases: []
+    domains: []
+    web: []
+    data: [Data Analysis, Data Cleaning]
+    genai: [LLMs, Llama, GPT-4, Fine-Tuning, Generative AI, AI Agents]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7441817'
   location: IND
   remote: true
-  extracted_at: '2026-03-03T11:14:52.290722'
+  extracted_at: '2026-08-15T23:55:32.209391'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

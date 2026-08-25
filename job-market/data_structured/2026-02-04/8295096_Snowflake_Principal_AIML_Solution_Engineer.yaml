@@ -1,54 +1,67 @@
 company:
   name: Snowflake
-  stage: Public
-  focus: Cloud data platform and lakehouse
+  stage: ''
+  focus: |-
+    Cloud data platform for enterprise data warehousing and
+    analytics
 position:
   title: Principal AI/ML Solution Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a Solution Engineer role that provides technical
-      guidance and architecture design for Snowflake's platform in
-      AI/ML contexts. While the role requires AI/ML expertise, the
-      focus is on enabling customers to use Snowflake's data
-      platform for their AI/ML workloads rather than building,
-      training, or deploying models directly.
+      This is a pre-sales solution engineering role: the person
+      advises customers, demos Snowflake's data platform, runs
+      proof-of-concept support, and helps win sales cycles for
+      Healthcare & Life Sciences accounts. Nothing in the
+      description indicates they write prompts, design retrieval
+      or agent flows, train/fine-tune models, or build evals
+      themselves — they guide on AI/ML architecture and present
+      capabilities others built. Per Step 3, this is ai-support.
   responsibilities:
-  - Provide AI/ML technical guidance to healthcare and life sciences customers while
-    working with technical and business executives
-  - Design and architect Snowflake Cloud Data Platform solutions for customer enterprise
-    data ecosystems
-  - Work hands-on with prospects to demonstrate value through demos, proof of concepts,
-    and implementation guidance
-  - Collaborate with sales and solution engineering teams to understand customer AI/ML
-    needs and navigate sales cycles
-  - Leverage expertise in data ingestion, transformation, and lakehouse workloads
-    to create compelling demonstrations
-  - Partner with Product Management, Engineering, and Marketing to improve Snowflake's
-    AI/ML features and capabilities
+  - Provide AI/ML technical guidance to technical and business executives in designing
+    enterprise data architectures incorporating the Snowflake Cloud Data Platform
+  - Partner with sales and solution engineering teams to understand customer AI/ML
+    needs and strategize on winning sales cycles in the Healthcare & Life Sciences
+    sector
+  - Deliver value-based demonstrations and support enterprise Proof of Concepts from
+    demo through design and implementation
+  - Present Snowflake technology and vision to executives and technical contributors
+    at strategic prospects, customers, and partners
+  - Perform deep discovery of customer architecture frameworks and connect them with
+    Snowflake's data architecture across ingestion, transformation, and lakehouse
+    workloads
+  - Maintain deep understanding of competitive and complementary technologies and
+    vendors and how to position Snowflake against them
+  - Collaborate with Product Management, Engineering, and Marketing to improve Snowflake's
+    AI/ML products, features, and messaging
   use_cases:
-  - AI/ML workloads on cloud data platform
-  - Enterprise data architecture and lakehouse implementations
-  - Data ingestion, transformation, and analytics pipelines
-  - Healthcare and life sciences sector data solutions
-  - Multi-cloud data architecture design
+  - AI/ML technical enablement on an enterprise cloud data platform for Healthcare
+    & Life Sciences customers
+  - Data ingestion, transformation, and lakehouse workloads on the Snowflake platform
+  - Enterprise data architecture design including data lake, data mesh, and data fabric
+    patterns
+  - ETL/ELT data pipelines and data integration across enterprise ecosystems
+  - Real-time and near real-time streaming use cases such as CDC
+  - Enterprise proof-of-concept demonstrations of AI/ML and data platform capabilities
   skills:
-    domains: []
+    cloud: []
     languages: [SQL, Python]
-    ml: []
-    cloud: [Snowflake, Kinesis]
-    genai: []
-    data: [Data Lakehouse, Data Pipelines, Data Lake, Data Mesh, Data Fabric, Pandas,
-      Spark, PySpark, Hadoop, Hive, Apache NiFi, Matillion, Fivetran, Qlik, Informatica,
-      Kafka, Flink, Spark Streaming, Iceberg, Delta, Parquet, Data Engineering, Data
-        Integration]
-    other: [AI/ML Architecture]
+    ml: [AI/ML]
+    other: [Healthcare & Life Sciences]
     ops: []
+    databases: [Snowflake, Data Warehousing]
+    domains: []
     web: []
-    databases: []
+    data: [Data Engineering, Pandas, Spark, PySpark, Hadoop, Hive, Apache NiFi, Matillion,
+      Fivetran, Qlik, Informatica, Kafka, Flink, Spark Streaming, Kinesis, Change
+        Data Capture, Data Pipelines, Iceberg, Delta Lake, Parquet, Data Lake, Data
+        Mesh, Data Fabric, Data Lakehouse]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8295096'
   location: New York, USA
-  extracted_at: '2026-02-05T12:39:48.986840'
+  extracted_at: '2026-08-15T23:10:22.654606'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

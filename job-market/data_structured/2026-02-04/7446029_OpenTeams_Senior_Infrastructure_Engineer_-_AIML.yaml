@@ -1,56 +1,61 @@
 company:
   name: OpenTeams
   stage: null
-  focus: Open-source sovereign AI infrastructure platforms
+  focus: Open-source sovereign AI infrastructure and MLOps platforms
 position:
   title: Senior Infrastructure Engineer - AI/ML
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an infrastructure engineering role focused on
-      building and maintaining the platform that supports AI/ML
-      workflows, not directly building, training, or fine-tuning
-      models. The role involves designing infrastructure
-      components for model training, serving, and data pipelines
-      using Kubernetes, Terraform, and MLOps tools, which are
-      enabling technologies for the ML engineers who work on the
-      models themselves.
+      This is a platform/infrastructure engineering role: the
+      deliverables are Kubernetes-based infrastructure,
+      Terraform/Helm/ArgoCD automation, observability, and cost
+      optimization, not model behaviour. Training, quantizing, and
+      serving models is done by the ML engineers this role
+      supports, and serving/hosting models one does not shape is
+      ai-support even when vLLM, KServe, and GPU clusters are
+      named.
   responsibilities:
-  - Significantly contribute to the evolution of Nebari and design reusable, modular
-    infrastructure components for Kubernetes-based sovereign AI deployments
+  - Contribute to the evolution of Nebari and design reusable, modular infrastructure
+    components composed into Kubernetes-based platforms for sovereign AI deployments
   - Develop composable MLOps components and infrastructure patterns supporting model
-    training, serving, monitoring, and CI/CD pipelines
+    training, serving, monitoring, and CI/CD pipelines that organizations can own
+    and operate
   - Design and implement observability, monitoring, and cost optimization strategies
     for large-scale AI/ML workloads on client-owned Kubernetes infrastructure
   - Collaborate with ML engineers to optimize infrastructure for training ML models,
-    quantizing and packaging open weight LLMs, computer vision workloads, and other
-    AI applications in sovereign environments
+    quantizing and packaging open weight LLMs, and computer vision workloads in sovereign
+    environments
   - Contribute to open-source MLOps tooling and Kubernetes ecosystem projects that
     enable data sovereignty
   - Work with clients to deploy, configure, and optimize their sovereign AI infrastructure
+  - Collaborate with a fully remote distributed team using asynchronous communication
   use_cases:
-  - Sovereign AI infrastructure that organizations own and operate with complete control
-    over their data and AI systems
-  - Model training and inference serving for LLMs and computer vision workloads in
-    air-gapped or highly secure environments
-  - Large-scale AI/ML workloads with emphasis on data sovereignty, privacy, and security
-    requirements
-  - Energy-efficient and cost-effective AI deployments using open-source technologies
+  - Sovereign AI infrastructure that clients fully own and operate
+  - Model training and inference serving platforms on Kubernetes
+  - Experiment tracking and composable MLOps pipelines
+  - Data processing pipelines using the PyData ecosystem
+  - Packaging and serving open weight LLMs and computer vision workloads
+  - Cost-optimized, observable large-scale AI/ML workloads in air-gapped or hybrid
+    environments
   skills:
-    genai: []
-    ml: [PyTorch, TensorFlow, scikit-learn]
-    web: []
-    databases: []
-    data: [Airflow, Prefect]
     cloud: [AWS, Azure, GCP]
-    ops: [Kubernetes, Terraform, Helm, ArgoCD, Docker, CI/CD, GitOps, Prometheus,
-      Grafana, Kubeflow, MLflow, KServe, vLLM, Istio]
     languages: [Python, Go]
+    ml: [PyTorch, TensorFlow, scikit-learn, Machine Learning, Model Training, Quantization]
+    other: [PyData, Data Sovereignty]
+    ops: [Kubernetes, Terraform, Helm, ArgoCD, MLOps, CI/CD, GitOps, Observability,
+      Monitoring, Prometheus, Grafana, Distributed Tracing, KServe, vLLM, LLM-D, Kubeflow,
+      MLflow, Istio, Linkerd, Model Deployment, Experiment Tracking, GPU Infrastructure]
+    databases: []
     domains: []
-    other: []
+    web: []
+    data: [Airflow, Prefect, Data Pipelines]
+    genai: [LLMs]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '7446029'
   location: USA
-  extracted_at: '2026-02-05T10:53:33.970504'
+  extracted_at: '2026-08-15T21:39:20.809882'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

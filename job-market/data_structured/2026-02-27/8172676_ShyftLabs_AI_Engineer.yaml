@@ -1,49 +1,53 @@
 company:
   name: ShyftLabs
-  stage: Growth stage (founded early 2020)
-  focus: Data product company for Fortune 500
+  stage: ''
+  focus: |-
+    Data product company building digital solutions for Fortune
+    500 clients
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on building, fine-tuning,
-      deploying, and optimizing LLM-based systems. The role
-      directly involves model training with parameter-efficient
-      fine-tuning methods (LoRA, QLoRA), RAG pipelines, prompt
-      engineering, and model serving - all hands-on work with AI
-      models rather than support infrastructure.
+      The role directly shapes LLM behavior: it fine-tunes
+      foundation models, implements prompt engineering strategies,
+      builds RAG pipelines, and designs evaluation systems for LLM
+      quality. Since LLMs are the primary model being shaped, this
+      is ai-first.
   responsibilities:
   - Design and implement traditional ML and LLM-based systems and applications
   - Optimize model inference performance and cost efficiency
   - Fine-tune foundation models for specific use cases and domains
-  - Implement diverse prompt engineering strategies
+  - Implement prompt engineering strategies including few-shot and chain-of-thought
+    approaches
   - Build robust backend infrastructure for AI-powered applications
   - Implement and maintain MLOps pipelines for AI lifecycle management
-  - Design and implement comprehensive traditional ML and LLM monitoring and evaluation
-    systems
+  - Design monitoring and evaluation systems for traditional ML and LLMs
   - Develop automated testing frameworks for model quality and performance tracking
   use_cases:
-  - Enterprise data solutions for Fortune 500 companies
-  - RAG-powered knowledge retrieval systems
-  - Fine-tuned LLMs for domain-specific applications
-  - Production-scale AI model deployment
-  - Automated model evaluation and monitoring
-  - Real-time AI-powered backend APIs
+  - Taking LLM systems from experimentation to production-ready scalable AI solutions
+  - Retrieval-augmented generation pipelines for knowledge-grounded applications
+  - Domain and use-case specific fine-tuning of foundation models
+  - Automated model evaluation, testing, and continuous monitoring
+  - High-throughput, low-latency model serving for AI-powered applications
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, TensorFlow, Transformers, Fine-Tuning]
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, LlamaIndex, OpenAI API, RAG, Prompt Engineering, LoRA]
-    data: []
-    other: []
-    ops: [vLLM, TensorRT-LLM, SGLang, Docker, Kubernetes, CI/CD, Airflow, ML monitoring]
+    languages: [Python]
+    ml: [Quantization, Pruning, Model Distillation, Distributed Training, Transformers,
+      PyTorch, TensorFlow]
+    other: [A/B Testing]
+    ops: [MLOps, vLLM, SGLang, TensorRT, Docker, Kubernetes, CI/CD, Model Monitoring]
+    databases: [Vector Databases, PostgreSQL, Redis]
+    domains: []
     web: [FastAPI, Flask, REST APIs]
-    databases: [PostgreSQL, Redis, Vector Databases]
+    data: [Airflow]
+    genai: [LLMs, RAG, Prompt Engineering, Fine-Tuning, LoRA, Few-Shot Learning, Chain-of-Thought
+        Prompting, LLM Evaluation, LangChain, LlamaIndex, OpenAI API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8172676'
   location: Noida, IND
-  extracted_at: '2026-02-27T12:34:54.673515'
+  extracted_at: '2026-08-16T00:35:41.653548'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

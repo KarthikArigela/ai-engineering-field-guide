@@ -1,46 +1,47 @@
 company:
   name: Capgemini
-  stage: Public
-  focus: Global technology consulting and business transformation
+  stage: null
+  focus: Global IT consulting and technology services firm
 position:
   title: FBS Solution Engineer (AI Solution Architect)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves owning end-to-end architecture for AI
-      voice agent solutions, designing conversational flows, and
-      orchestrating AI-driven customer interaction platforms. The
-      solution architect works directly on building and deploying
-      AI conversational/voice agent systems, integrating telephony
-      with AI capabilities, making it an ai-first role.
+      The role designs conversational flows and prompt-based flows
+      for AI voice agents, which means shaping LLM/agent behavior
+      directly (agent flow and prompt design). Since an LLM/agent
+      component (AI voice agents, conversational platforms) is
+      central, this classifies as ai-first rather than ml-first or
+      ai-support.
   responsibilities:
   - Own end-to-end architecture for AI voice agent solutions across Cisco, GECX, and
     backend services
-  - Lead integration and orchestration across telephony, AI, and CX systems for real-time
-    interactions
-  - Define backend architecture, APIs, and scalability patterns for distributed real-time
-    systems
+  - Lead integration and orchestration across telephony, AI, and CX systems to enable
+    real-time interactions
+  - Define backend architecture, APIs, and scalability patterns
   - Design conversational flows, state management, and observability frameworks
   - Establish performance standards and optimize system scalability
-  - Collaborate with product, engineering, and vendors to drive roadmap and implementation
   - Build integration layers and services using Node.js and/or Python
+  - Collaborate with product, engineering, and vendors to drive roadmap and implementation
   use_cases:
-  - Real-time AI voice agent solutions for contact centers
-  - Conversational AI for customer interactions via voice and chat
-  - Telephony-AI integration for real-time customer experience
-  - Omnichannel customer interaction orchestration across Cisco and GECX platforms
+  - Real-time AI voice agents for customer interactions
+  - Contact center telephony integration and orchestration
+  - Customer experience (CX) platform automation across voice and chat
+  - Conversational self-service with session and state management
+  - Routing and handoffs between AI agents and live agents
   skills:
-    genai: [Conversational AI, AI Agents, Prompt Engineering]
-    ml: []
-    web: [REST APIs, Microservices]
-    databases: []
-    data: []
     cloud: []
-    ops: [Observability, Monitoring, Distributed Systems]
     languages: [Node.js, Python]
+    ml: []
+    other: [Event-Driven Architecture, Cisco Contact Center, Genesys, SIP, State Management,
+      System Design]
+    ops: [Observability, Monitoring]
+    databases: []
     domains: []
-    other: [Event-Driven Architecture, Cisco Contact Center, Genesys, System Design]
-  is_customer_facing: true
+    web: [APIs, Microservices]
+    data: []
+    genai: [Conversational AI, Prompt Engineering]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '10062846'
@@ -48,4 +49,6 @@ meta:
   locations:
   - Pune, IND
   - Hyderabad, IND
-  extracted_at: '2026-07-22T13:26:03.040239'
+  extracted_at: '2026-08-16T16:35:40.227065'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

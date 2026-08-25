@@ -1,0 +1,66 @@
+company:
+  name: Modern Relay
+  stage: null
+  focus: Knowledge platform for human and AI agent collaboration
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behavior end-to-end: it builds
+      retrieval, ranking, and structured extraction systems that
+      power agent task-solving, creates evaluation harnesses for
+      model quality, and improves models via training and feedback
+      loops (labeling, active learning). The systems being shaped
+      are explicitly agent/LLM-centric (agent memory, conversation
+      artifacts, hallucination reduction), so it is ai-first.
+  responsibilities:
+  - Design and build data pipelines that ingest, clean, and transform product and
+    customer data into high-signal training and evaluation datasets
+  - Own data infrastructure decisions (storage, orchestration, lineage, observability)
+    to ensure reliability, scalability, and fast iteration
+  - Develop and improve ML/AI systems that power agent behavior in task-solving, including
+    retrieval, ranking, classification, and structured extraction
+  - Create and maintain schemas for agent memory, tool outputs, and conversation artifacts
+    for consistent downstream modeling and analytics
+  - Build evaluation harnesses and metrics to measure model quality, regressions,
+    and real-world performance (offline + online)
+  - Work with knowledge representations such as knowledge graphs to connect entities,
+    events, and business context for better reasoning and retrieval
+  - Integrate models into production workflows with clear SLAs and monitoring, partnering
+    with Product and Engineering
+  - 'Continuously improve feedback loops: labeling strategies, active learning, error
+    analysis, and dataset/version management'
+  use_cases:
+  - Shared knowledge platform where humans and AI agents propose updates, contribute
+    knowledge, and trigger workflows
+  - Agent task-solving behavior powered by retrieval, ranking, classification, and
+    structured extraction
+  - Structured agent memory and conversation artifacts for consistent downstream modeling
+    and analytics
+  - Knowledge graph-based reasoning and retrieval connecting entities, events, and
+    business context
+  - Reducing hallucinations and increasing task completion rates in real customer
+    workflows
+  skills:
+    genai: [AI Agents]
+    ml: [Machine Learning, Model Training, Model Evaluation, Active Learning]
+    web: []
+    databases: [Knowledge Graphs]
+    data: [Data Pipelines, Data Engineering, Data Infrastructure, Data Modeling, Schema
+        Design, Data Quality]
+    cloud: []
+    ops: [Model Monitoring, Model Deployment, Model Serving, Experiment Tracking,
+      Dataset Versioning, Feature Stores]
+    languages: []
+    domains: []
+    other: [Information Retrieval, Information Theory, Artificial Intelligence]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9076136'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T07:47:26.744853'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

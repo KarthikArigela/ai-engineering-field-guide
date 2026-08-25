@@ -4,16 +4,21 @@ import os
 from collections import Counter, defaultdict
 from itertools import combinations
 
+from common import job_skills
 from common import load_structured_jobs as load_all_jobs
 
 
 def analyze_skill_combinations(jobs, category, min_count=5):
-    """Find common skill combinations within a category."""
+    """Find common skill combinations within a category.
+
+    Umbrella terms are excluded - they pair with everything, so leaving them
+    in fills the top of the list with ("Generative AI", <anything>).
+    """
     combos = Counter()
 
     for job in jobs:
-        skills = job.get('position', {}).get('skills', {}).get(category, [])
-        if isinstance(skills, list) and len(skills) >= 2:
+        skills = job_skills(job).get(category, [])
+        if len(skills) >= 2:
             # Get all pairs
             for combo in combinations(sorted(set(skills)), 2):
                 combos[combo] += 1
@@ -27,13 +32,12 @@ def analyze_cross_category_patterns(jobs):
     patterns = defaultdict(Counter)
 
     for job in jobs:
-        skills = job.get('position', {}).get('skills', {})
+        skills = job_skills(job)
         ai_type = job.get('position', {}).get('ai_type', {}).get('type', 'unknown')
 
         # Check if job has skills from both categories
-        for cat1, cat2 in combinations([k for k in skills.keys() if skills[k]], 2):
-            if skills[cat1] and skills[cat2]:
-                patterns[(cat1, cat2)][ai_type] += 1
+        for cat1, cat2 in combinations(skills, 2):
+            patterns[(cat1, cat2)][ai_type] += 1
 
     return patterns
 
@@ -109,7 +113,6 @@ def analyze_by_company_stage(jobs):
 
     for job in jobs:
         stage = job.get('company', {}).get('stage', '')
-        skills = job.get('position', {}).get('skills', {})
 
         # Map to group
         group = None
@@ -120,10 +123,9 @@ def analyze_by_company_stage(jobs):
                     break
 
         if group:
-            for category, skill_list in skills.items():
-                if isinstance(skill_list, list):
-                    for skill in skill_list[:10]:  # Limit per category
-                        stage_skills[group][skill] += 1
+            for category, skill_list in job_skills(job).items():
+                for skill in skill_list[:10]:  # Limit per category
+                    stage_skills[group][skill] += 1
 
     return stage_skills
 

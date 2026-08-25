@@ -1,59 +1,61 @@
 company:
   name: Citi
-  stage: Public
+  stage: null
   focus: Global banking and financial services
 position:
   title: Senior Generative AI Engineer - Vice President
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on building, deploying, and
-      orchestrating generative AI systems — including AI agents,
-      LLM integrations, RAG pipelines, prompt engineering, and
-      fine-tuning. The hands-on requirements around LangChain,
-      AutoGen, vector databases, and MLOps lifecycle management
-      confirm this is a builder/deployer role for AI systems.
+      The role hands-on builds and orchestrates AI agents, designs
+      prompt strategies and automated evaluation frameworks,
+      architects RAG pipelines, and applies fine-tuning techniques
+      (LoRA, QLoRA) - all directly shaping LLM behavior. LLM and
+      agent components dominate the responsibilities, so the
+      classification is ai-first despite the management-level
+      title.
   responsibilities:
-  - Manage one or more Applications Development teams, including hiring, performance
-    evaluations, and resource allocation
-  - Build and orchestrate AI agents using frameworks like LangChain, AutoGen, or CrewAI
-    with self-healing workflows
-  - Develop robust backend systems using Python and TypeScript, integrating LLMs into
-    microservices architectures
+  - Manage Applications Development teams, including hiring, performance evaluations,
+    disciplinary actions, and resource allocation
+  - Provide technical oversight across systems and applications and review proposed
+    technical solutions for projects
+  - Build and orchestrate AI agents using LangChain, AutoGen, and CrewAI, implementing
+    self-healing workflows (Act-Verify-Refine loops)
+  - Develop backend systems in Python and TypeScript, integrating LLMs into microservices
+    architectures
   - Architect RAG pipelines and utilize vector databases (Pinecone, Milvus, Weaviate)
     for agent memory and contextual understanding
-  - Design and optimize prompt strategies including automated evaluation frameworks
-    for high-quality LLM output
-  - Oversee end-to-end MLOps lifecycle of generative models with focus on inference
-    speed, cost-efficiency, and scalability on cloud platforms
-  - Ensure AI ethics and compliance with security standards, IP regulations, and safety
-    guidelines
-  - Define and manage API/tool access for AI agents to optimize accuracy through tool
-    orchestration
+  - Design and optimize prompt strategies with automated evaluation frameworks and
+    manage context engineering for LLMs
+  - Oversee the end-to-end MLOps lifecycle of generative models, focusing on inference
+    speed, cost-efficiency, and scalability on AWS, GCP, and Azure
+  - Ensure AI ethics, security standards, IP regulations, and safety compliance for
+    generative models, and define tool/API access for AI agents
   use_cases:
-  - AI agent orchestration with self-healing workflows for enterprise applications
-  - RAG-powered contextual retrieval and augmented generation for business knowledge
-    systems
-  - LLM-powered backend microservices for financial services applications
-  - Automated prompt evaluation and optimization frameworks for production LLM output
-    quality
-  - Scalable generative model deployment with cost and inference optimization on cloud
-    platforms
+  - AI agents with self-healing workflows (Act-Verify-Refine loops)
+  - LLM integration into enterprise application systems and microservices
+  - Retrieval-Augmented Generation to enhance LLM accuracy and contextual understanding
+  - Agent memory management using vector databases
+  - High-quality LLM output through prompt and context engineering
+  - Scalable, cost-efficient generative model deployment on cloud platforms
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure]
     languages: [Python, TypeScript]
     ml: [PyTorch, TensorFlow, Hugging Face]
-    cloud: [AWS, GCP, Azure]
-    genai: [LangChain, AutoGen, CrewAI, LlamaIndex, RAG, Prompt Engineering, LoRA,
-      Fine-Tuning, OpenAI API, Anthropic API]
+    other: [Responsible AI]
+    ops: [MLOps, Git, CI/CD, Docker]
+    databases: [Vector Databases, Pinecone, Milvus, Weaviate]
+    domains: []
+    web: [Microservices]
     data: []
-    other: []
-    ops: [Docker, CI/CD, Git, MLOps]
-    web: [FastAPI, REST APIs, Microservices]
-    databases: [Pinecone, Milvus, Weaviate]
+    genai: [LangChain, AutoGen, CrewAI, AI Agents, LLMs, RAG, Prompt Engineering,
+      Context Engineering, LLM Evaluation, LlamaIndex, Fine-Tuning, LoRA, OpenAI API,
+      Anthropic API, Tool Orchestration, Generative AI, Multimodal AI Models]
   is_customer_facing: false
   is_management: true
 meta:
   job_id: '9011493'
   location: Chennai, IND
-  extracted_at: '2026-04-22T12:32:45.644759'
+  extracted_at: '2026-08-16T07:05:55.125692'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

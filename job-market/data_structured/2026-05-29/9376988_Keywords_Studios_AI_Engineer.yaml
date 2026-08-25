@@ -1,6 +1,6 @@
 company:
   name: Keywords Studios
-  stage: Public
+  stage: null
   focus: |-
     Technical and creative services for video game and
     entertainment industries
@@ -9,11 +9,11 @@ position:
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves hands-on work with LLMs, RAG systems, and
-      agentic workflows - building, fine-tuning, and deploying AI
-      models directly. This includes using frameworks like
-      LangChain, LangGraph, and deploying models with FastAPI,
-      which are core AI engineering tasks.
+      The role directly shapes LLM behaviour: building autonomous
+      AI agents with LangGraph/AutoGen/CrewAI, designing RAG
+      pipelines, applying advanced prompt engineering, and fine-
+      tuning foundation models for production. LLMs and agentic
+      workflows are the core deliverable, so it is ai-first.
   responsibilities:
   - Design, develop, and deploy advanced AI solutions focused on generative capabilities
     and conversational AI
@@ -25,32 +25,35 @@ position:
     models for production
   - Build and deploy scalable, production-ready AI pipelines
   - Analyze and optimize the performance of AI models to meet business requirements
-  - Stay updated with the latest advancements in GenAI, LLMs, and agentic systems,
-    and propose innovative solutions to enhance products
+  - Stay current with advancements in GenAI, LLMs, and agentic systems and propose
+    innovative product enhancements
   use_cases:
-  - Generative AI applications for gaming and entertainment solutions
-  - Conversational AI systems for user interaction and support
-  - Autonomous AI agents for workflow automation and business logic
-  - RAG-powered knowledge retrieval and question answering
-  - Fine-tuned LLMs for domain-specific gaming applications
-  - Multimodal AI systems integrating vision and language models
+  - Generative AI applications with conversational AI capabilities
+  - Autonomous, context-aware AI agents for automating business workflows
+  - Domain-specific fine-tuning of foundation models for production use
+  - Production AI pipelines serving intelligent solutions at scale
+  - Workflow automation and complex business logic solving via multi-agent systems
   skills:
-    domains: [Multimodal learning]
+    cloud: [AWS, Azure, GCP]
     languages: [Python]
-    ml: [Transformers, accelerate, TensorFlow, PyTorch]
-    cloud: [Google AI SDK, AWS, Azure, GCP]
-    genai: [LoRA, DSPy, Gemini, GPT-4, Anthropic API, LangChain, LlamaIndex, OpenAI
-        SDK, LangGraph, AutoGen, CrewAI, RAG, MCP, Prompt Engineering, Few-Shot, Chain-of-Thought,
-      ReAct]
-    data: []
+    ml: [Machine Learning, Deep Learning, Transformers, Accelerate, Multimodal Learning,
+      PyTorch, TensorFlow]
     other: [n8n]
-    ops: [vLLM, LLMOps, MLOps, Docker, CI/CD]
-    web: [FastAPI, Flask, REST APIs]
+    ops: [vLLM, LLMOps, MLOps, CI/CD, Containerization]
     databases: [Vector Databases, Supabase]
+    domains: []
+    web: [FastAPI, Flask, REST APIs]
+    data: []
+    genai: [LLMs, Generative AI, Conversational AI, AI Agents, Agentic Workflows,
+      Multi-Agent Systems, LangChain, LlamaIndex, LangGraph, AutoGen, CrewAI, RAG,
+      Prompt Engineering, Chain-of-Thought, ReAct, Few-Shot, Fine-Tuning, LoRA, DSPy,
+      MCP, OpenAI API, Google AI SDK, Gemini, GPT-4, Anthropic API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9376988'
   location: IND
   remote: true
-  extracted_at: '2026-05-29T09:02:32.065238'
+  extracted_at: '2026-08-16T10:40:25.781620'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

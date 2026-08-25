@@ -1,52 +1,54 @@
 company:
   name: Imprint
-  stage: Series B
-  focus: Co-branded credit cards and financial products
+  stage: Backed by Kleiner Perkins, Thrive Capital, and Khosla Ventures
+  focus: Co-branded credit cards and financial products platform
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role focused on building AI agents and
-      agent orchestration platforms. The engineer will directly
-      implement RAG pipelines, embedding systems, multi-modal AI
-      solutions, and deploy agents for production workflows -
-      hands-on work with LLMs and agent frameworks, not just
-      support infrastructure.
+      The role designs and builds an agent platform, creates AI
+      agents, and implements RAG pipelines, embedding systems, and
+      prompt engineering — directly shaping LLM and agent
+      behavior. Model evaluation and agent orchestration are also
+      named as requirements, so this is unambiguously ai-first.
   responsibilities:
   - Design Imprint's internal agent platform from the ground up
   - Create 100+ specialized AI agents automating workflows across engineering, operations,
     customer success, finance, and business development
-  - Build secure, scalable agent orchestration systems integrating with existing tech
-    stack
-  - Implement RAG pipelines, embedding systems, and multi-modal AI solutions
+  - Build secure, scalable agent orchestration systems integrating with internal systems
+    such as CRMs, data warehouses, and communication tools
   - Partner with teams across Imprint to identify high-impact automation opportunities
+  - Implement RAG pipelines, embedding systems, and multi-modal AI solutions
+  - Rapidly prototype using cutting-edge AI frameworks and models while balancing
+    innovation with production reliability and security
   - Transform manual processes into intelligent, self-improving workflows
   - Create intuitive interfaces making advanced AI accessible to non-technical users
-  - Rapidly prototype using cutting-edge AI frameworks and models
+    and evangelize AI adoption company-wide
   use_cases:
-  - Automating workflows across engineering, operations, customer success, finance,
-    and business development
-  - Integrating AI with internal systems like CRMs, data warehouses, and communication
-    tools
-  - Transforming manual business processes into intelligent, self-improving automated
-    workflows
-  - Providing intuitive AI interfaces for non-technical users across the organization
-  - Building specialized agents for credit card and financial product operations
-  - Enabling cross-functional AI adoption with secure agent-based interfaces
+  - Internal AI agents automating workflows across engineering, operations, customer
+    success, finance, and business development
+  - Agent-based interfaces that integrate with internal systems like CRMs, data warehouses,
+    and communication tools
+  - Converting manual internal processes into intelligent, self-improving workflows
+  - RAG pipelines and embedding systems for retrieval over company data and knowledge
+  - Making advanced AI capabilities accessible to non-technical employees via intuitive
+    interfaces
+  - Company-wide AI adoption, enablement, and impact measurement
   skills:
-    domains: []
-    languages: [Go, Python, Java]
-    ml: [Model Evaluation]
     cloud: []
-    genai: [OpenAI API, Anthropic API, Gemini, LLMs, Prompt Engineering, Agentic Workflows,
-      RAG, Embeddings]
-    data: []
-    other: [AI safety, Security practices]
+    languages: [Go, Java, Python]
+    ml: [Model Evaluation]
+    other: [n8n, Zapier, Gumloop, AI Safety]
     ops: []
-    web: [APIs, System integration]
-    databases: [CRMs, Data warehouses]
-  is_customer_facing: true
+    databases: []
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [RAG, Prompt Engineering, LLMs, AI Agents, Agentic Workflows, Embeddings,
+      OpenAI API, Anthropic API, Gemini, Claude Code, Cursor, Notion AI, Dust, Multimodal
+        AI]
+  is_customer_facing: false
   is_management: false
 meta:
   job_id: '9384910'
@@ -54,4 +56,6 @@ meta:
   locations:
   - New York, USA
   - San Francisco, USA
-  extracted_at: '2026-05-29T09:03:45.257248'
+  extracted_at: '2026-08-16T10:43:04.506419'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

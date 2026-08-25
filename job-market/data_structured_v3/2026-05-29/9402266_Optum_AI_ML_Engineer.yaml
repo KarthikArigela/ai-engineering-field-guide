@@ -1,0 +1,58 @@
+company:
+  name: Optum
+  stage: null
+  focus: Healthcare services and technology
+position:
+  title: AI ML Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: end-to-end training
+      and fine-tuning of LLMs, applying RLHF/RLAIF alignment, and
+      architecting GraphRAG and embedding-based retrieval for
+      contextual grounding. Since LLMs are the model being shaped,
+      this is ai-first.
+  responsibilities:
+  - Develop end-to-end training and fine-tuning of Large Language Models across open-source
+    and closed-source ecosystems
+  - Architect and implement GraphRAG pipelines including knowledge graph representation
+    and retrieval for enhanced contextual grounding
+  - Design, train, and optimize semantic and dense vector embeddings for document
+    understanding, search, and retrieval
+  - Develop semantic retrieval systems with advanced document segmentation and indexing
+    strategies
+  - Build and scale distributed training environments using NCCL and InfiniBand for
+    multi-GPU and multi-node training
+  - Apply reinforcement learning techniques such as RLHF and RLAIF to align model
+    behavior with human preferences and domain-specific goals
+  - Collaborate with cross-functional teams to translate business needs into AI-driven
+    solutions and deploy them in production
+  use_cases:
+  - Document understanding, search, and retrieval
+  - Knowledge graph-grounded retrieval for enhanced contextual grounding
+  - Semantic search over segmented and indexed documents
+  - Alignment of LLM behavior with human preferences and domain-specific goals
+  - Production deployment of AI-driven solutions for business needs
+  skills:
+    genai: [LLMs, Fine-Tuning, GraphRAG, Embeddings, Semantic Search, RLHF, LoRA,
+      QLoRA, axolotl, DSPy, AI Agents, GPT, Llama, Mistral, Qwen, Gemini, OpenAI API,
+      Anthropic API]
+    ml: [PyTorch, Transformers, Machine Learning, Deep Learning, Reinforcement Learning,
+      Model Training, State Space Models, Ensemble Methods, Bayesian Optimization,
+      Genetic Algorithms, Distributed Training]
+    web: []
+    databases: [Vector Databases, FAISS, Weaviate, Milvus, Knowledge Graphs]
+    data: [Exploratory Data Analysis]
+    cloud: [Azure ML, AWS]
+    ops: [NCCL, InfiniBand]
+    languages: [Python, SQL]
+    domains: [NLP]
+    other: [OCR]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9402266'
+  location: Hyderabad, IND
+  extracted_at: '2026-08-16T11:00:33.967684'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

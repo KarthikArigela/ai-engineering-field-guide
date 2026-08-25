@@ -1,27 +1,26 @@
 company:
   name: E.L.F. Beauty
-  stage: Public
-  focus: |-
-    Beauty and cosmetics company with multi-brand portfolio
-    including e.l.f. Cosmetics, skincare, and lifestyle beauty
-    brands
+  stage: null
+  focus: Multi-brand clean beauty and cosmetics company
 position:
   title: Lead, AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on work building, deploying, and
-      fine-tuning AI models including LLMs, implementing RAG
-      systems, and managing the full model lifecycle. The position
-      requires direct work with LLM APIs, vector databases, and
-      fine-tuning techniques, making it an ai-first role.
+      The role directly shapes LLM behaviour: building LLM-based
+      applications with prompt-driven architectures, designing RAG
+      patterns with vector databases, and applying LLM fine-tuning
+      techniques like LoRA/QLoRA. Although classical ML
+      applications (recommendations, CV, forecasting) are also in
+      scope, a role shaping both LLM and classical ML systems is
+      ai-first.
   responsibilities:
   - Design and develop production-grade AI and machine learning models for real-world
-    applications including recommendation engines, NLP, computer vision, and forecasting
+    applications
   - Lead model lifecycle management from experimentation and prototyping to deployment
     and monitoring
-  - Collaborate with cross-functional teams including product, data engineering, MLOps,
-    and business to define AI-driven features and services
+  - Collaborate with cross-functional teams (product, data engineering, MLOps, and
+    business) to define AI-driven features and services
   - Perform feature engineering, data wrangling, and exploratory data analysis on
     large-scale structured and unstructured datasets
   - Build and maintain scalable AI infrastructure using cloud services and MLOps best
@@ -29,31 +28,31 @@ position:
   - Mentor junior AI engineers in model development, evaluation, and deployment
   - Continuously improve model performance by leveraging new research, retraining
     on new data, and optimizing pipelines
-  - Stay current with latest developments in AI, machine learning, and deep learning
-    through research and conferences
   use_cases:
-  - Recommendation engines for beauty products
-  - Natural language processing applications
-  - Computer vision systems
-  - Demand and sales forecasting
-  - AI assistants and multi-agent systems
-  - Enterprise AI solutions across the organization
+  - Recommendation engines
+  - NLP applications
+  - Computer vision
+  - Forecasting
+  - LLM-based applications with RAG retrieval
+  - Multi-agent systems and AI assistants
   skills:
-    domains: [NLP, Computer Vision]
+    cloud: [AWS, Azure, GCP, ECS, AWS Bedrock]
     languages: [Python]
-    ml: []
-    cloud: [AWS, AWS Bedrock, ECS]
-    genai: [RAG, Prompt Engineering, LoRA, Fine-Tuning, Multi-Agent Systems, OpenAI
-        API, Anthropic API]
-    data: []
+    ml: [Machine Learning, Deep Learning, Feature Engineering, Model Evaluation]
     other: []
-    ops: [CloudWatch, Terraform, AWS CDK, CI/CD]
-    web: [React]
-    databases: [Qdrant, AWS RDS, MySQL, MariaDB]
+    ops: [MLOps, CI/CD, Infrastructure as Code, Terraform, AWS CDK, CloudWatch]
+    databases: [Vector Databases, Qdrant, AWS RDS, MySQL, MariaDB]
+    domains: []
+    web: [React, APIs]
+    data: [Data Wrangling, Exploratory Data Analysis]
+    genai: [LLMs, Prompt Engineering, RAG, Fine-Tuning, LoRA, Multi-Agent Systems,
+      Agentic Workflows, OpenAI API, Anthropic API]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8464419'
   location: Ahmedabad, IND
   remote: true
-  extracted_at: '2026-03-03T12:08:21.416007'
+  extracted_at: '2026-08-16T01:31:20.683418'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

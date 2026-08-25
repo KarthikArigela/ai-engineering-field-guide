@@ -1,0 +1,54 @@
+company:
+  name: The Aerospace Corporation
+  stage: null
+  focus: Aerospace and defense systems and avionics
+position:
+  title: Senior AI Engineer - Python I FEA/CFD  Surrogate Modeling
+  ai_type:
+    type: ml-first
+    reasoning: |-
+      The role builds physics-informed ML models, surrogate models
+      (PINNs, Neural Operators, MeshGraphNets), and training data
+      pipelines for CFD/FEA simulation — shaping classical ML
+      model behaviour with no LLM or agent component, so ml-first.
+  responsibilities:
+  - Develop Physics-AI and surrogate models to accelerate CFD, thermal, structural,
+    and system-level simulation workflows
+  - Create scripted FEA/CFD models to generate training data across parameter and
+    load condition spaces
+  - Research and test new AI methodologies for multi-physics modeling of aerospace
+    components
+  - Utilize NVIDIA simulation and AI acceleration tools such as Physics NEMO
+  - Integrate surrogate models into engineering design processes for trade studies,
+    optimization, and predictive analysis
+  - Contribute to internal and government-sponsored R&D projects and proposal development
+  - Suggest improvements for data generation, data handling, and model utilization
+    processes
+  use_cases:
+  - Surrogate models accelerating CFD and FEA simulation for aerospace components
+  - Physics-informed neural networks for multi-physics modeling of engines, wheels
+    and brakes, and actuation systems
+  - Digital twins and high-fidelity model surrogates for engineering design
+  - Faster trade studies, optimization, and predictive analysis in mechanical design
+    workflows
+  skills:
+    genai: []
+    ml: [PyTorch, TensorFlow, JAX, Physics-Informed Neural Networks, Neural Operators,
+      MeshGraphNets, Physics NEMO, NVIDIA Modulus, NVIDIA Warp, Surrogate Modeling,
+      Machine Learning, Differentiable Models]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [MLOps]
+    languages: [Python, Abaqus Python Scripting Interface, PyAnsys, APDL]
+    domains: [CFD, Structural Analysis, Thermal Modeling, Multi-Physics Simulation]
+    other: [Digital Twins, PyVista, Matplotlib, Plotly]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10586964'
+  location: Torrance, USA
+  extracted_at: '2026-08-25T10:48:37.334782'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

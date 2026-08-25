@@ -1,0 +1,58 @@
+company:
+  name: Sunset
+  stage: Venture-backed (raised from Floodgate, Afore, Ludlow, Hustle Fund)
+  focus: |-
+    Startup dissolution support and proprietary business data
+    for frontier AI labs
+position:
+  title: AI Product Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs retrieval, context selection, structured
+      outputs, tool contracts, orchestration, and evaluations for
+      an LLM-backed support agent, directly shaping model behavior
+      and output quality. LLM/agent components dominate, so it is
+      ai-first.
+  responsibilities:
+  - Own AI-assisted dissolution support from customer problem through production behavior,
+    measurement, and iteration
+  - Design retrieval, context, structured outputs, tool contracts, orchestration,
+    and deterministic boundaries
+  - Build answer, status, no-action, and human-handoff experiences that handle incomplete
+    evidence or authority
+  - Create versioned evaluations for routing, grounding, usefulness, safety, stability,
+    and customer outcomes
+  - Ship with permissions, tenant boundaries, privacy controls, auditability, canaries,
+    rollback, and recovery
+  - Instrument runtime and tool reliability, latency, cost, repeat contact, and failure
+    modes
+  - Turn production failures into durable product, evaluation, and system improvements
+  - Decide whether workflows should be automated, AI-assisted, structured for humans,
+    or human-owned, and simplify or remove agentic components when appropriate
+  use_cases:
+  - AI-assisted dissolution support for startup shutdown customers
+  - Grounded, inspectable answers with human handoff for well-bounded customer needs
+  - Multi-step workflow automation decisions (automated, AI-assisted, or human-owned)
+  - Evaluation and rollout infrastructure for new support intents
+  - Privacy-sensitive, multi-tenant customer support product
+  skills:
+    genai: [LLMs, RAG, Structured Outputs, Function Calling, Agentic Workflows, LLM
+        Evaluation, LangGraph, LangChain, Guardrails, Embeddings]
+    ml: []
+    web: [React, Node.js]
+    databases: []
+    data: [Golden Datasets]
+    cloud: []
+    ops: [Observability, Shadow Deployments]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10730034'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:30:38.291654'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

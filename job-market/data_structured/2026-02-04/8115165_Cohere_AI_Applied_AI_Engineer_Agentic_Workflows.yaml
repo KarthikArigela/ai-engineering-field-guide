@@ -1,49 +1,52 @@
 company:
   name: Cohere AI
-  stage: Series A+ (growing startup)
-  focus: Building frontier models and enterprise AI agents
+  stage: fast-growing startup
+  focus: Training and deploying frontier AI models for enterprises
 position:
   title: Applied AI Engineer – Agentic Workflows
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an Applied AI Engineer role building, deploying, and
-      optimizing agentic workflows powered by LLMs. The role
-      requires hands-on experience with agent orchestration
-      frameworks, RAG implementation, prompt engineering, and tool
-      integration - all core AI/ML system development work.
+      The role shapes LLM behavior directly: designing and
+      building LLM-powered agents, improving prompts, tools, and
+      guardrails, and defining evaluation and quality standards
+      for agent output. All shaped components are LLM/agent
+      systems (ReAct workflows, tool use, RAG), so it classifies
+      as ai-first.
   responsibilities:
   - Work with enterprise customers and internal teams to turn business workflows into
     scalable, production-ready agentic AI systems
   - Design and build LLM-powered agents that reason, plan, and act across tools and
     data sources with enterprise-grade reliability
-  - Balance rapid iteration with enterprise requirements, evolving prototypes into
-    stable, reusable solutions
-  - Define and apply evaluation and quality standards to measure success, failures,
+  - Define and apply evaluation and quality standards to measure agent success, failures,
     and regressions
   - Debug real-world agent behavior and systematically improve prompts, workflows,
     tools, and guardrails
+  - Balance rapid iteration with enterprise requirements, evolving prototypes into
+    stable, reusable solutions
   - Contribute to shared frameworks and patterns that enable consistent delivery across
     customers
+  - Lead technical discussions with customers and partners on agentic system design
+    and deployment
   use_cases:
-  - Enterprise workflow automation through agentic AI systems
-  - Content generation and semantic search powered by LLMs
-  - Retrieval-Augmented Generation (RAG) for enterprise knowledge access
-  - Multi-step agent workflows that reason, plan, and act across tools and data sources
-  - Tool and API integration for autonomous task execution
-  - Human-in-the-loop workflows with enterprise-grade reliability and observability
+  - Enterprise business workflow automation via production-grade AI agents
+  - LLM agents that reason, plan, and act across tools, APIs, and data sources
+  - First-of-their-kind agent workflows solving real-world customer business problems
+  - RAG and semantic search systems for enterprise customers
+  - Content generation and agentic experiences powered by frontier models
   skills:
-    domains: [NLP]
-    languages: [Python, JavaScript/TypeScript]
-    ml: [LLM evaluation, Fine-Tuning]
-    cloud: [Cloud deployment]
-    genai: [LangChain, LangGraph, LlamaIndex, OpenAI API, Anthropic API, Google Gemini
-        API, Prompt Engineering, RAG, AI Agents, Function Calling]
-    data: []
+    cloud: []
+    languages: [Python, JavaScript, TypeScript]
+    ml: [Machine Learning, NLP]
     other: []
     ops: []
-    web: []
     databases: [Vector Databases]
+    domains: []
+    web: []
+    data: []
+    genai: [LLMs, GPT, Anthropic API, Gemini, LangChain, LangGraph, LlamaIndex, RAG,
+      Agentic Workflows, AI Agents, Prompt Engineering, Function Calling, ReAct, Guardrails,
+      LLM Evaluation, Fine-Tuning, Human-in-the-Loop]
   is_customer_facing: true
   is_management: false
 meta:
@@ -57,4 +60,6 @@ meta:
   - Vancouver, CAN
   - San Francisco, USA
   remote: true
-  extracted_at: '2026-02-05T12:03:16.375717'
+  extracted_at: '2026-08-15T22:43:15.564995'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

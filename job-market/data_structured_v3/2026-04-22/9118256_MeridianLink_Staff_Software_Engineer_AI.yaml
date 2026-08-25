@@ -1,0 +1,64 @@
+company:
+  name: MeridianLink
+  stage: null
+  focus: Credit union and financial services software
+position:
+  title: Staff Software Engineer ( AI )
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: it owns prompt and
+      version management, RAG infrastructure, vector retrieval,
+      evaluation harnesses, and LLM integration patterns such as
+      context management, prompt templating, and response
+      validation. Because LLM/GenAI components are the core
+      deliverable of the platform, this is ai-first; the AI-
+      assisted coding tools and serving infrastructure are
+      secondary to the behavior-shaping work.
+  responsibilities:
+  - Own the reference architecture for the AI platform, covering API abstractions,
+    prompt and version management, RAG infrastructure, vector retrieval, evaluation
+    harnesses, and model serving
+  - Implement LLM integrations including context management, prompt templating, response
+    validation, and robust fallback strategies
+  - Build and maintain evaluation frameworks for reproducible model testing and establish
+    observability and performance tracking for AI services
+  - Contribute to backend development in Python and RESTful API design, including
+    integrations with leading AI providers
+  - Participate in full-stack delivery using React, TypeScript, and Vite to ship AI
+    features
+  - Build tooling, SDKs, and platform APIs to enable safe, scalable AI adoption by
+    product teams
+  - Design foundational data pipelines and vector-based retrieval and model serving
+    infrastructure as custom model capabilities mature
+  - Mentor L3-L4 engineers, lead cross-team architecture reviews, and partner with
+    Product, Security, Data Engineering, and DevOps/SRE on the AI platform roadmap
+  use_cases:
+  - Customer-facing AI capabilities across credit union software product lines
+  - Third-party LLM integrations evolving toward custom model development
+  - Reliable, scalable, and responsible AI development in a regulated financial environment
+  - Self-service AI platform tooling and SDKs for internal product teams
+  - Vector retrieval and evaluation infrastructure for production-grade AI services
+  skills:
+    genai: [LLMs, Generative AI, Prompt Engineering, RAG, LLM Evaluation, AI Agents,
+      Context Engineering, Semantic Search, GitHub Copilot, Claude]
+    ml: []
+    web: [REST APIs, FastAPI, Django, React, Vite, Full-Stack Development]
+    databases: [Vector Databases, Pinecone, pgvector, OpenSearch]
+    data: [Data Pipelines]
+    cloud: [AWS, IAM, Cloud-Native Architecture]
+    ops: [CI/CD, Docker, Kubernetes, Terraform, Pulumi, Infrastructure as Code, Prometheus,
+      Grafana, Datadog, Observability, MLOps, LLMOps, Model Serving, Distributed Systems,
+      Version Control]
+    languages: [Python, TypeScript]
+    domains: []
+    other: [SDKs, SOC 2, AI Governance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9118256'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T08:19:29.862381'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

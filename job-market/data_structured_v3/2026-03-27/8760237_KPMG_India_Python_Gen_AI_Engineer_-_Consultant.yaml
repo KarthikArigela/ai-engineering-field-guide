@@ -1,0 +1,53 @@
+company:
+  name: KPMG India
+  stage: null
+  focus: Professional services and consulting firm
+position:
+  title: Python + Gen AI Engineer - Consultant
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly requires prompt engineering, RAG
+      pipeline design with vector stores, and hands-on work with
+      LLMs and GenAI frameworks, all of which directly shape model
+      behaviour and output quality. Fine-tuning large models with
+      LoRA/QLoRA is also listed, reinforcing the shaping role, and
+      since LLM/generative components are central, it is ai-first.
+  responsibilities:
+  - Develop software across the full development life cycle, including writing code
+    and unit tests
+  - Build GenAI solutions using LLMs, GenAI frameworks, and prompt engineering
+  - Design RAG pipelines leveraging vector stores for GenAI applications
+  - Work with libraries such as LangChain, LlamaIndex, Transformers, and PyTorch/TensorFlow
+  - Apply cloud AI environments (Azure OpenAI, AWS Bedrock, GCP Vertex AI) for solution
+    development
+  - Collaborate with Technical Architect, Business Analyst, interaction designers,
+    and other engineers to develop new product offerings and improve existing ones
+  - Ensure all development practices comply with KPMG's best-practice policies and
+    procedures
+  - Quickly ramp up on new technologies whenever required
+  use_cases:
+  - Development of GenAI-powered applications and product offerings
+  - Retrieval-augmented generation over document/data collections using vector stores
+  - Adapting large language models via instruction tuning and LoRA/QLoRA fine-tuning
+  - Multimodal AI applications combining vision, language, and speech
+  skills:
+    genai: [LLMs, Generative AI, Prompt Engineering, LangChain, LlamaIndex, RAG, Fine-Tuning,
+      LoRA, QLoRA]
+    ml: [Transformers, Hugging Face, PyTorch, TensorFlow]
+    web: [APIs]
+    databases: [Vector Databases]
+    data: []
+    cloud: [Azure OpenAI, AWS Bedrock, GCP, Vertex AI]
+    ops: [MLflow, Weights & Biases, Distributed Systems]
+    languages: [Python, Async Programming]
+    domains: []
+    other: [Multimodal Models]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8760237'
+  location: Mumbai, IND
+  extracted_at: '2026-08-16T04:21:32.063216'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

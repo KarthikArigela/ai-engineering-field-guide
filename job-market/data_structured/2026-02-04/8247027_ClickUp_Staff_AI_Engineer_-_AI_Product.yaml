@@ -1,53 +1,52 @@
 company:
   name: ClickUp
-  stage: Series C+
-  focus: Productivity software with AI-powered workspace
+  stage: null
+  focus: Converged AI workspace for productivity and work management
 position:
   title: Staff AI Engineer - AI Product
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves direct hands-on work with LLMs and AI
-      models, including integration, orchestration, and deployment
-      of AI-powered features. The engineer will prototype, test,
-      and iterate on AI features while ensuring production
-      reliability and performance - all characteristic of building
-      and deploying AI systems rather than just supporting them.
+      The role orchestrates multiple LLMs and AI models to deliver
+      context-aware, personalized user experiences and builds
+      evaluation frameworks and metrics for AI features, which
+      directly shapes model output quality. LLMs are the core
+      component, making this ai-first.
   responsibilities:
   - Lead the design, development, and deployment of AI-powered features and products
     that directly impact ClickUp users
-  - Collaborate with product managers, designers, and engineers to identify opportunities
-    for AI-driven innovation and translate user needs into technical solutions
   - Integrate and orchestrate multiple LLMs and AI models to deliver robust, context-aware,
     and personalized user experiences
-  - Prototype, test, and iterate on new AI features, leveraging user feedback and
-    data to drive continuous improvement
+  - Collaborate with product managers, designers, and engineers to translate user
+    needs into technical AI solutions
+  - Prototype, test, and iterate on new AI features using user feedback and data
   - Ensure the reliability, scalability, and performance of AI-powered features in
     production environments
-  - Address AI privacy, security, and compliance challenges, ensuring responsible
-    and ethical use of AI in user-facing applications
+  - Address AI privacy, security, and compliance challenges to ensure responsible
+    and ethical AI use
   - Mentor and guide other engineers in best practices for building AI-powered products
   use_cases:
-  - Context-driven AI productivity workspace that unifies tasks, docs, chat, calendar,
-    and enterprise search
-  - AI-powered features that help users break free from silos and reclaim time
-  - Personalized user experiences delivered through context-aware AI integration
-  - Enterprise search supercharged by AI for improved productivity
-  - AI-driven innovation in the productivity software space
+  - AI-powered user-facing productivity features across tasks, docs, chat, and calendar
+  - Context-aware and personalized AI experiences in a workspace product
+  - Enterprise search enhanced by AI
+  - Continuous improvement of AI features through prototyping, user feedback, and
+    evaluation metrics
   skills:
-    domains: []
-    languages: [Python, JavaScript, TypeScript]
-    ml: [evaluation frameworks]
     cloud: []
-    genai: [LLMs, AI models]
+    languages: [Python, JavaScript, TypeScript]
+    ml: []
+    other: [Responsible AI]
+    ops: [Observability]
+    databases: [PostgreSQL, MySQL, Elasticsearch]
+    domains: []
+    web: [Full-Stack Development]
     data: []
-    other: [AI privacy and security]
-    ops: [Observability, logging]
-    web: []
-    databases: [PostgresDB, MySQL, Elasticsearch]
+    genai: [LLMs, LLM Evaluation]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8247027'
   location: USA
-  extracted_at: '2026-02-05T12:19:56.339147'
+  extracted_at: '2026-08-15T22:57:49.080990'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,66 @@
+company:
+  name: Juniper Square
+  stage: Founder-led since 2014, backed by $350M+ in funding
+  focus: Private markets fund administration and technology platform
+position:
+  title: Staff Software Engineer, Data (AI)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role's core responsibilities include designing AI
+      evaluation frameworks, building cross-model comparison
+      tooling, and validating LLM-generated outputs in production,
+      plus required experience with prompt design and model
+      orchestration - all of which directly shape model behavior
+      and output quality. An LLM component is explicitly central,
+      so it is ai-first rather than a pure data engineering (ai-
+      support) role.
+  responsibilities:
+  - Design and ship the data normalization, schema mapping, validation, enrichment,
+    and distribution pipeline for a net-new intelligent data warehouse
+  - Write production code daily as a hands-on individual contributor, owning delivery
+    from architecture through deployment with accountability for reliability, performance,
+    and correctness
+  - Define the end-to-end architecture for an AI-native data warehouse serving institutional
+    financial clients, including schema design, API exposure patterns, and data distribution
+    approaches
+  - Design and implement AI evaluation frameworks, cross-model comparison tooling,
+    deterministic validation checks, and human-in-the-loop review workflows for trustworthy
+    AI-generated outputs
+  - Contribute shared AI evaluation infrastructure that can serve as a foundation
+    across multiple products
+  - Use agentic coding tools and LLM-assisted development as the primary daily workflow
+    and help evolve AI-accelerated SDLC practices
+  - Set coding standards, review practices, and architectural documentation that scale
+    with team growth
+  - Mentor engineers and provide technical guidance as the team expands
+  use_cases:
+  - Ingesting, normalizing, validating, enriching, and distributing private markets
+    financial data across a complex ecosystem
+  - AI-native data warehouse serving institutional financial clients
+  - Making AI-generated outputs trustworthy in high-stakes financial data contexts
+    via evaluation and validation
+  - Cross-model comparison and human-in-the-loop review of AI outputs
+  - Schema mapping and document extraction for fund administration and investment
+    data
+  skills:
+    genai: [Prompt Engineering, LLMs, LLM Evaluation, Model Orchestration, Agentic
+        Workflows, RAG]
+    ml: []
+    web: [APIs]
+    databases: [Vector Databases, Redshift]
+    data: [Data Pipelines, ETL, Data Warehousing, Schema Design, Document Extraction]
+    cloud: [AWS]
+    ops: []
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9509480'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T12:46:45.783970'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

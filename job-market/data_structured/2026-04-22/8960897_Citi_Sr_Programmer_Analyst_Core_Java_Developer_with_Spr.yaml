@@ -1,6 +1,6 @@
 company:
   name: Citi
-  stage: Public
+  stage: ''
   focus: Global banking and financial services
 position:
   title: Sr Programmer Analyst Core Java Developer with Spring SQL with AI driven
@@ -8,53 +8,53 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is primarily a Java/Spring developer role that uses AI-
-      driven development tools (GitHub Copilot) to enhance
-      productivity, not to build AI systems as an end product.
-      While the role mentions integrating ML models and AI-powered
-      features, the core focus is traditional application
-      development with AI tools as accelerators rather than
-      building, training, or deploying AI models as a primary
-      responsibility.
+      The AI content in this role is confined to using AI coding
+      assistants (GitHub Copilot) for the developer's own code
+      generation, refactoring, debugging, and testing, which
+      accelerates the engineering workflow without shaping any
+      model's behaviour. Integrating ML models and AI features
+      built by data scientists and AI specialists is consuming and
+      deploying others' work, not shaping. Rolling out and using
+      AI coding tools for productivity is explicitly ai-support.
   responsibilities:
   - Conduct feasibility studies, time and cost estimates, IT planning, and risk analysis
     for applications development
-  - Design, build, and implement new or revised application systems and programs using
-    Core Java and Spring
+  - Establish and implement new or revised application systems and programs to meet
+    business needs
+  - Monitor and control all phases of the development process including analysis,
+    design, construction, testing, and implementation
   - Integrate and deploy machine learning models and AI-powered features into Java-based
     enterprise applications
-  - Apply Generative AI tools like GitHub Copilot to accelerate development, optimize
-    code, and improve documentation
   - Collaborate with data scientists and AI specialists to build scalable and secure
     AI solutions
-  - Provide user and operational support on applications to business users and consult
-    with stakeholders
-  - Recommend and develop security measures and ensure compliance with applicable
-    laws and regulations
-  - Serve as advisor or coach to junior analysts and act as Subject Matter Expert
+  - Apply Generative AI tools and AI coding assistants to accelerate development,
+    optimize code, and improve documentation
+  - Provide user and operational support to business users and consult with users,
+    clients, and technology groups on programming solutions
+  - Serve as advisor or coach to lower-level analysts and act as Subject Matter Expert
     to senior stakeholders
   use_cases:
-  - AI-assisted code generation, refactoring, and debugging for enterprise Java applications
-  - Automated test case generation and code coverage analysis using AI co-pilots
-  - Integration of ML models and AI-powered features into banking/financial enterprise
-    systems
-  - Code optimization and security enhancement using AI-driven development tools
-  - Knowledge sharing and promotion of AI development tool adoption within engineering
-    teams
+  - AI-assisted Java code generation, refactoring, debugging, and unit test creation
+  - Integrating machine learning models and AI-powered features into Java-based enterprise
+    applications
+  - AI-driven code optimization, security enhancement, and documentation
+  - Automated test case generation to accelerate deployment cycles
   skills:
-    domains: []
-    languages: [Java, Python]
-    ml: [Machine Learning Model Integration]
     cloud: []
-    genai: [GitHub Copilot, Prompt Engineering, GenAI Tools]
-    data: []
-    other: []
-    ops: [Automated Testing]
+    languages: [Java, SQL]
+    ml: [Machine Learning]
+    other: [Automated Testing, Project Management]
+    ops: []
+    databases: []
+    domains: []
     web: [Spring Boot, J2EE]
-    databases: [SQL]
+    data: []
+    genai: [GitHub Copilot, Generative AI, Prompt Engineering]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8960897'
   location: Pune, IND
-  extracted_at: '2026-04-22T12:43:47.049846'
+  extracted_at: '2026-08-16T06:33:43.501045'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

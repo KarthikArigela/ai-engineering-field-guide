@@ -1,0 +1,58 @@
+company:
+  name: MongoDB
+  stage: null
+  focus: NoSQL document database and cloud data platform
+position:
+  title: Senior Software Engineer, AI Framework Integrations
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds and maintains MongoDB integrations
+      (connectors, plugins) for third-party AI frameworks like
+      LangChain and LlamaIndex. The deliverable is data-platform
+      connectivity and developer tooling, not shaping model
+      behaviour or output quality — prompts, retrieval design,
+      evals, or model training are not the responsibility.
+  responsibilities:
+  - Design, build, test, and ship MongoDB integrations for AI frameworks like LangChain,
+    LangGraph, LlamaIndex, n8n, and Mastra, from spike through production release
+    and maintenance
+  - Assess new frameworks, define the smallest useful integration version, and recommend
+    further investment
+  - Contribute code upstream to third-party repositories and work through external
+    maintainer review cycles
+  - Build engineering practices for the integration portfolio including CI/CD, automated
+    testing, version compatibility, and release readiness
+  - 'Own operational health of integrations: monitoring, upgrades, breaking-change
+    response, and issue triage'
+  - Partner with the Database Experience org to define driver, platform, and product
+    capabilities needed by integrations
+  - Work with product management, partners, field teams, and open source maintainers
+    to shape integration roadmap
+  - Raise the technical bar through architecture decisions, code reviews, and mentoring
+  use_cases:
+  - Making MongoDB usable as the data layer within popular AI frameworks and agentic
+    tooling
+  - Enabling RAG and retrieval workflows over MongoDB via framework integrations
+  - Vector search and embedding pipeline support for AI applications
+  - Plugin, MCP server, and agent skill integrations connecting MongoDB to agentic
+    applications
+  skills:
+    genai: [LangChain, LangGraph, LlamaIndex, Mastra, RAG, Embeddings, MCP]
+    ml: []
+    web: []
+    databases: [Vector Search, MongoDB]
+    data: []
+    cloud: []
+    ops: [CI/CD, Docker, Kubernetes]
+    languages: [Python, TypeScript, Java, Go, C#, Rust]
+    domains: []
+    other: [n8n, Jira]
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10553608'
+  location: Gurugram, IND
+  extracted_at: '2026-08-25T10:41:13.420176'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

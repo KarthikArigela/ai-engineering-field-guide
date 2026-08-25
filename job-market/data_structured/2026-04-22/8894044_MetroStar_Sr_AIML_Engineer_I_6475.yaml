@@ -1,55 +1,65 @@
 company:
   name: MetroStar
   stage: null
-  focus: IT services and technology solutions for government missions
+  focus: |-
+    Technology services provider for mission-focused government
+    clients
 position:
   title: Sr. AI/ML Engineer I (6475)
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves directly designing, developing, fine-
-      tuning, and deploying AI/ML models, along with building
-      training workflows and experimentation environments. The
-      engineer works hands-on with models using TensorFlow,
-      PyTorch, and Scikit-learn, and manages the full ML lifecycle
-      from data pipeline to production deployment.
+      The role designs, fine-tunes, and evaluates ML models
+      themselves (shaping model behavior and output quality), but
+      every named tool is classical ML/DL — TensorFlow, PyTorch,
+      scikit-learn, neural network architectures — with no LLM,
+      agent, prompt, or RAG component anywhere in the description.
+      Per Step 2, shaping classical ML/DL with no LLM component is
+      ml-first.
   responsibilities:
-  - Design, develop, implement, and fine-tune AI and machine learning models for secure
-    web-based applications
+  - Design, develop, implement, and fine-tune AI and machine learning models to support
+    secure, web-based applications with evolving use cases
   - Build and maintain data pipelines, training workflows, and experimentation environments
-    for rapid model iteration
-  - Evaluate model performance using quantitative and qualitative metrics and translate
-    results into actionable improvements
+    to enable rapid model iteration and evaluation
+  - Evaluate model performance using quantitative and qualitative metrics (accuracy,
+    robustness, stability, efficiency, generalization) and translate results into
+    actionable improvements
   - Analyze data, model outputs, and experimental results to recommend changes to
-    algorithms, features, or architecture
+    algorithms, features, data sources, or system architecture
   - Identify and assess tools, frameworks, and technologies that support platform
-    goals
+    goals, balancing performance, scalability, and maintainability
   - Collaborate with software developers, data engineers, DevSecOps teams, and stakeholders
-    to integrate AI into production
+    to integrate AI capabilities into production systems
   - Ensure AI and data science solutions are transparent, testable, and maintainable
     for long-term operational use
-  - Communicate technical approaches, tradeoffs, and results to technical and non-technical
-    audiences
+  - Communicate technical approaches, assumptions, tradeoffs, and results to technical
+    and non-technical audiences
   use_cases:
-  - Secure web-based AI/ML applications for government missions
-  - Production-ready machine learning capabilities in evolving mission environments
-  - Model experimentation and rapid iteration for adaptive use cases
-  - Data pipeline and training workflow automation for ML model lifecycle
+  - Machine learning capabilities embedded in secure, web-based applications for mission-focused
+    environments
+  - Rapid model experimentation and iteration to support evolving mission use cases
+  - Model training and evaluation workflows on Databricks data pipelines
+  - Production deployment and monitoring of AI models on cloud platforms in secure
+    government settings
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: [TensorFlow, PyTorch, scikit-learn, neural network architectures]
     cloud: [AWS, GCP, Azure]
-    genai: []
-    data: [Databricks, Data Pipelines, Data Modeling]
+    languages: [Python, SQL]
+    ml: [TensorFlow, PyTorch, scikit-learn, Machine Learning, Neural Networks, Fine-Tuning,
+      Model Evaluation]
     other: []
-    ops: [Docker, Kubernetes, MLflow, Kubeflow, MLOps, CI/CD, Model Deployment]
-    web: []
+    ops: [MLOps, MLflow, Kubeflow, Model Deployment, Model Monitoring, Docker, Kubernetes,
+      CI/CD]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines, Databricks, Data Modeling]
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8894044'
   location: USA
   remote: true
-  extracted_at: '2026-04-22T13:59:48.785202'
+  extracted_at: '2026-08-16T05:59:24.861000'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,60 @@
+company:
+  name: Weekday, Inc.
+  stage: null
+  focus: null
+position:
+  title: AI Research Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and trains VLMs/VLAs that connect text
+      instructions with visual and sensor data for scene
+      understanding — a prompt-driven multimodal model producing
+      intelligent text-conditioned output, which is an LLM-style
+      component per the rules. Since the role also shapes
+      classical ML (diffusion models, computer vision), a role
+      shaping both is ai-first.
+  responsibilities:
+  - Research and develop Diffusion-based Generative AI models for synthetic data,
+    defect simulation, photorealistic environments, and domain adaptation
+  - Design and train VLMs/VLAs connecting text instructions, visual data, CAD/spatial
+    information, and sensor inputs for scene understanding and decision-making
+  - Build scalable auto-annotation and data-centric AI pipelines using Active Learning,
+    Self-Training, Pseudo-Labeling, and Weak Supervision
+  - Develop AI workflows handling millions of images, video frames, and point clouds
+    with minimal manual annotation
+  - Optimize models for edge deployment using INT8 quantization, LoRA, Knowledge Distillation,
+    TensorRT, ONNX Runtime, CUDA, and C++
+  - Integrate AI models with robotics systems on NVIDIA Jetson-class edge hardware
+  - Own the complete research lifecycle from problem definition through training,
+    evaluation, and production handoff
+  - Contribute to research publications, documentation, and mentor junior engineers/interns
+  use_cases:
+  - Synthetic data generation and defect simulation for manufacturing
+  - Photorealistic environment generation and domain adaptation
+  - Scene understanding and decision-making for autonomous robotics via VLMs/VLAs
+  - Auto-annotation of images, video, and point clouds at scale
+  - Machine perception for edge-deployed robotic systems
+  skills:
+    genai: [Generative AI, LoRA, Embeddings]
+    ml: [Deep Learning, Diffusion Models, Model Training, Fine-Tuning, Active Learning,
+      Pseudo-Labeling, Self-Training, Weak Supervision, Synthetic Data, Domain Adaptation,
+      Quantization, Knowledge Distillation, CUDA, PyTorch, JAX, PyTorch Lightning,
+      DeepSpeed, Neural Networks, Machine Learning, NLP, Model Evaluation, Transformers,
+      Hugging Face, scikit-learn, Reinforcement Learning]
+    web: []
+    databases: []
+    data: [Ray]
+    cloud: []
+    ops: [TensorRT, ONNX Runtime]
+    languages: [C++, Python]
+    domains: [Computer Vision]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10826068'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T12:13:12.787988'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

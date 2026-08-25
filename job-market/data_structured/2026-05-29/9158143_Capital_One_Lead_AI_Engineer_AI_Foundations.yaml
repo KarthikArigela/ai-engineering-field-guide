@@ -1,55 +1,53 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-powered customer
-    experiences
+  stage: null
+  focus: Consumer banking and financial services
 position:
   title: Lead AI Engineer, AI Foundations
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely ai-first: the engineer will design,
-      develop, and deploy AI software components including
-      foundation model training, LLM inference, similarity search,
-      guardrails, and model evaluation. They will also invent and
-      apply state-of-the-art LLM optimization techniques to
-      improve production AI systems' scalability, cost, latency,
-      and throughput.
+      The role directly shapes model behavior: it designs and
+      builds foundation model training, LLM inference
+      optimization, guardrails, and model evaluation components,
+      and invents LLM optimization techniques for production
+      systems. Since LLM components are explicit and central to
+      the work, this classifies as ai-first.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products for associates
+    and customers
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch to build production AI systems
-  - Invent and introduce state-of-the-art LLM optimization techniques to improve performance,
-    scalability, cost, latency, and throughput of large-scale production AI systems
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Apply novel techniques from scientific publications to production AI systems
+  - Track the latest AI research and judiciously apply novel techniques in production
   use_cases:
-  - Real-time personalized banking customer experiences
+  - Real-time personalized customer experiences in banking
+  - Alerting customers to unusual charges
+  - Answering customer questions in real time
   - AI-powered products that change how associates work and customers interact with
-    Capital One
-  - Foundation model training and LLM inference at enterprise scale
-  - Fraud detection through informing customers about unusual charges
-  - Real-time customer question answering and support
+    the bank
+  - AI platform enabling teams across Capital One to enhance products with AI
   skills:
-    domains: []
+    cloud: [AWS, AWS Ultraclusters, GCP, Azure]
     languages: [Python, Go, Scala, Java, C++, C#]
-    ml: [PyTorch, Hugging Face, LLM Inference Optimization, Foundation Model Training,
-      Similarity Search]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Guardrails]
-    data: []
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model Evaluation, Experimentation, AI Governance, Observability]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [LLMs, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9158143'
   location: McLean, USA
@@ -58,4 +56,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-05-29T08:52:08.059603'
+  extracted_at: '2026-08-16T09:11:03.861117'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

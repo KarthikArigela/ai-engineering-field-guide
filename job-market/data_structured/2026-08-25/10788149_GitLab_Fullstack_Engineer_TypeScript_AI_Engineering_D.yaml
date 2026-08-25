@@ -1,0 +1,54 @@
+company:
+  name: GitLab
+  stage: null
+  focus: DevSecOps platform for software development lifecycle
+position:
+  title: 'Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK'
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds SDK/infrastructure packages (TypeScript,
+      Node.js, versioned APIs) that power GitLab Duo clients, but
+      nothing indicates the person writes prompts, designs RAG, or
+      shapes model behaviour - the AI logic is being
+      extracted/migrated from an existing Language Server, not
+      designed. The deliverable is SDK engineering and API design,
+      so it's ai-support.
+  responsibilities:
+  - Develop secure, well-tested, and performant TypeScript features across frontend
+    and backend
+  - Extract and publish versioned TypeScript packages from the GitLab Language Server
+    into a shared SDK
+  - Design durable public APIs with semantic versioning, changelogs, and deprecation
+    paths
+  - Build isomorphic core packages isolating platform-specific behavior in edge adapters
+  - Build SDK client surfaces including Vue 3 components in Duo Chat on the web
+  - Strengthen credential handling across hosts including bearer tokens, session cookies,
+    and CSRF protection
+  - Optimize bundle size, startup cost, and dependency weight for browser consumers
+  - Write tests with every merge request, contribute to code reviews, and support
+    a Tier 2 on-call rotation
+  use_cases:
+  - Shared SDK powering GitLab Duo AI assistants in editors and on the web
+  - Duo Chat on GitLab.com as a consumer of the SDK
+  - Language Server extraction into versioned, publishable packages for external applications
+  skills:
+    genai: []
+    ml: []
+    web: [Node.js, Vue, APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [Monitoring]
+    languages: [TypeScript]
+    domains: []
+    other: [Agile]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10788149'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:50:54.882791'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

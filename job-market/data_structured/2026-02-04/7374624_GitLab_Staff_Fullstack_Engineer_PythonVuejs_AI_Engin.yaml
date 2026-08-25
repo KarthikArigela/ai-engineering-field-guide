@@ -1,48 +1,55 @@
 company:
   name: GitLab
-  stage: Public
-  focus: AI-powered DevSecOps Platform for software development
+  stage: null
+  focus: AI-powered DevSecOps platform for software development
 position:
   title: 'Staff Fullstack Engineer (Python/Vue.js), AI Engineering: Duo Chat'
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves integrating and extending generative AI
-      capabilities, working directly with large language models
-      and providers like Google Vertex AI, and building AI-powered
-      chat features for GitLab Duo Chat. The engineer is hands-on
-      with AI model integration, not just supporting
-      infrastructure or working on adjacent systems.
+      This role sits on the core AI team building GitLab Duo Chat
+      itself: the engineer integrates generative AI models and LLM
+      providers (e.g., Google Vertex AI), designs new chat tools,
+      and works to expand capabilities and improve response
+      quality — shaping LLM behaviour rather than merely consuming
+      an API another team designed. With a clear LLM/chat
+      component at the centre of the work, this is ai-first under
+      Step 2.
   responsibilities:
-  - Develop, ship, and maintain features and improvements for GitLab Duo Chat across
-    the full stack in a secure, well-tested, and performant way
-  - Integrate and extend AI capabilities, including large language models and providers
-    such as Google Vertex AI, into GitLab's Ruby on Rails and Python-based services
-  - Design, implement, and review GraphQL APIs and related backend logic, ensuring
-    reliability, scalability, and clear contracts with frontend clients
-  - Collaborate with Product Management, UX, frontend, backend, and AI specialists
-    to refine requirements and deliver high-quality, iterative product enhancements
+  - Develop, ship, and maintain secure, well-tested, and performant full-stack features
+    for GitLab Duo Chat
+  - Integrate new generative AI models and providers such as Google Vertex AI into
+    Ruby on Rails and Python-based services to expand capabilities and improve response
+    quality
+  - Design, implement, and review GraphQL APIs and backend logic ensuring reliability,
+    scalability, and clear frontend contracts
+  - Craft clean, maintainable Python and JavaScript/Vue.js code and provide technical
+    guidance through code reviews
   - Improve and extend automated testing, including RSpec and other frameworks, to
-    strengthen quality, reliability, and developer feedback loops
-  - Identify, prioritize, and address technical debt and performance or optimization
-    issues, driving improvements that make the system more stable and efficient
+    strengthen quality and developer feedback loops
+  - Improve debugging, observability, and test coverage for AI-powered chat workflows
+    to increase reliability at scale
+  - Identify and address technical debt and performance or optimization issues to
+    make the system more stable and efficient
+  - Participate in Tier 2 on-call rotations to troubleshoot production issues, contribute
+    to root cause analysis, and enhance observability and resiliency
   use_cases:
-  - AI-powered chat experience embedded across the GitLab DevSecOps platform for developer
-    assistance
-  - Generative AI integration for code planning, writing, review, and security workflows
-  - Enterprise-scale AI chatbot with multi-provider model integration (e.g., Google
-    Vertex AI)
+  - AI-powered chat assistant embedded across the GitLab DevSecOps platform
+  - Helping customers use AI to plan, write, review, and secure their code
+  - Integrating large language models and providers (e.g., Google Vertex AI) to expand
+    chat capabilities and improve response quality
+  - Reliable, observable AI chat workflows at scale with strong testing coverage
   skills:
-    domains: []
+    cloud: [Vertex AI]
     languages: [Python, JavaScript]
     ml: []
-    cloud: [Vertex AI]
-    genai: [Generative AI, LLMs]
-    data: []
-    other: []
-    ops: [RSpec]
-    web: [Vue, GraphQL, Ruby on Rails]
+    other: [RSpec]
+    ops: []
     databases: []
+    domains: []
+    web: [Vue, React, Ruby on Rails, GraphQL, Full-Stack Development]
+    data: []
+    genai: [LLMs, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -81,4 +88,6 @@ meta:
   - CZE
   - GBR
   remote: true
-  extracted_at: '2026-02-05T18:55:06.903025'
+  extracted_at: '2026-08-15T21:34:02.145785'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

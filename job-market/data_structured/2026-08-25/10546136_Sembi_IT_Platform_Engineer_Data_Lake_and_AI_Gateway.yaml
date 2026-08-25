@@ -1,0 +1,51 @@
+company:
+  name: Sembi
+  stage: null
+  focus: AWS-native data lake and internal AI enablement platform
+position:
+  title: IT Platform Engineer (Data Lake and AI Gateway)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role operates and secures an internal AI platform (LLM
+      gateway, Bedrock) and data lake infrastructure, but never
+      shapes model behavior, prompts, retrieval, or training. The
+      deliverable is reliable, secure plumbing for other teams, so
+      it is ai-support.
+  responsibilities:
+  - Build and maintain the AWS-native lakehouse foundation with medallion-style layering
+    (Iceberg)
+  - Manage all infrastructure through code (Terraform) with version control and repeatable
+    deployments
+  - Build and maintain reliable data pipelines into the lake with monitoring and failure
+    handling
+  - Operate and support the internal AI platform including LLM gateway, Bedrock, and
+    zero-trust access controls
+  - Enforce security and access baselines across data and model layers (IAM, network
+    controls, secrets)
+  - Partner with IT, Security, and Engineering on operational standards
+  use_cases:
+  - Internal data lakehouse for analytics and data access
+  - Self-service AI/model access gateway for the organization
+  - Zero-trust secure access to data and models
+  - Medallion-architecture raw-to-curated data layering
+  skills:
+    genai: [LLMs]
+    ml: []
+    web: []
+    databases: []
+    data: [Data Pipelines]
+    cloud: [AWS, AWS Bedrock, IAM, AWS S3]
+    ops: [Terraform, Monitoring, Infrastructure as Code]
+    languages: [Python]
+    domains: []
+    other: [Agile, LLM Gateway]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10546136'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:39:05.597635'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

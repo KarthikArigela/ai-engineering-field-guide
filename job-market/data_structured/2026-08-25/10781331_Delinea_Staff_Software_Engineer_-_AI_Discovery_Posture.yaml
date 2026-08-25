@@ -1,0 +1,47 @@
+company:
+  name: Delinea
+  stage: null
+  focus: Cloud-native identity security and authorization platform
+position:
+  title: Staff Software Engineer - AI Discovery & Posture
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role discovers AI agents on clouds and endpoints and
+      assesses their security posture; it does not shape model
+      behavior via prompts, RAG, agent design, or training. It
+      builds discovery/inventory backend systems on cloud APIs, so
+      it is ai-support.
+  responsibilities:
+  - Build AI agent discovery on Delinea's existing cloud discovery, covering Azure
+    and expanding to AWS and Google Cloud
+  - Build discovery for AI agents running on endpoints
+  - Assess the security posture of discovered agents including configuration, access,
+    and risk
+  - Feed discovered agents and context into the identity and attribution layer for
+    governance
+  - Partner with platform teams whose discovery services the work builds on
+  use_cases:
+  - AI agent discovery across cloud platforms and endpoints
+  - Security posture assessment of discovered AI agents
+  - Identity governance and attribution of AI agents
+  skills:
+    genai: []
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: [Azure, AWS, GCP]
+    ops: []
+    languages: [C#, Go, Java, Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10781331'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:49:54.199136'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

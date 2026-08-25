@@ -1,0 +1,51 @@
+company:
+  name: Accrete AI
+  stage: null
+  focus: AI agents and analytics for business and government
+position:
+  title: Junior DevOps Engineer, AI Platform
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a DevOps role focused on CI/CD pipelines, cloud
+      infrastructure, infrastructure-as-code, and monitoring.
+      There is no prompt engineering, retrieval/RAG design, model
+      training, or eval/guardrail work, so the person never shapes
+      model behavior. Judge the role, not the employer:
+      infrastructure work supporting an AI platform at an AI
+      company is ai-support.
+  responsibilities:
+  - Support the design, deployment, and maintenance of CI/CD pipelines across development
+    and production environments
+  - Monitor and maintain cloud infrastructure (AWS, Kubernetes) to ensure uptime,
+    scalability, and performance
+  - Implement infrastructure-as-code using Terraform, Terragrunt, and Helm
+  - Assist in automating build, deployment, and monitoring processes
+  - Collaborate with development, InfoSec, and platform teams to improve reliability
+    and deployment efficiency
+  - Troubleshoot and resolve environment, build, and deployment issues
+  - Support security, compliance, and documentation requirements across environments
+  use_cases:
+  - AI agents that autonomously analyze data and generate insights
+  - Intelligent recommendations that streamline business operations and improve decision-making
+  - Security, intelligence, and operational efficiency for government organizations
+  skills:
+    genai: []
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [CI/CD, GitLab CI, Jenkins, GitHub Actions, Linux, Docker, Kubernetes, Infrastructure
+        as Code, Terraform, Terragrunt, Helm, Prometheus, Grafana, CloudWatch, GitOps]
+    languages: [Shell Scripting]
+    domains: []
+    other: [FedRAMP]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9458610'
+  location: New York, USA
+  extracted_at: '2026-08-16T11:36:03.860202'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

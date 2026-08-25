@@ -1,0 +1,57 @@
+company:
+  name: Rubiscape Private Limited
+  stage: null
+  focus: |-
+    Decision Intelligence Platform unifying data engineering,
+    BI, ML, and agentic AI
+position:
+  title: AI Development Toolchain Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds custom LLM agents, spec-to-code pipelines,
+      prompt versioning infrastructure, and operationalizes prompt
+      libraries — directly shaping how LLMs are used to generate
+      and review code, which is shaping LLM behaviour. LLM/agent
+      components are central, so ai-first.
+  responsibilities:
+  - 'Architect and build the internal AI developer platform: custom LLM agents, IDE
+    plugins, CLI tools, and spec-to-code automation pipelines'
+  - Design and maintain CI/CD hooks for AI-assisted code review, spec compliance checks,
+    and automated test generation
+  - Build infrastructure for prompt versioning, agent configuration management, and
+    LLM call logging
+  - Collaborate with Spec and Prompt Engineering teams to operationalize prompt libraries
+    and spec templates as versioned services
+  - Evaluate and integrate external AI developer tools (GitHub Copilot Enterprise,
+    Cursor, Codeium, OpenAI/Anthropic integrations)
+  - Define and monitor toolchain performance metrics such as AI code acceptance rate
+    and spec-to-PR cycle time
+  - Document toolchain architecture, onboarding guides, and runbooks for org-wide
+    adoption
+  use_cases:
+  - Internal AI-assisted developer platform and toolchain
+  - Spec-to-code automation and AI code generation
+  - AI-assisted code review and automated test generation in pull requests
+  - Prompt versioning and reproducible AI-generated code auditing
+  - Developer productivity via IDE plugins and CLI tools
+  skills:
+    genai: [LLMs, AI Agents, Prompt Engineering, OpenAI API, Anthropic API, GitHub
+        Copilot, Cursor, LangChain, LlamaIndex, Multi-Agent Systems]
+    ml: []
+    web: [VS Code Extensions, Language Server Protocol]
+    databases: []
+    data: []
+    cloud: [AWS, Azure, GCP]
+    ops: [CI/CD, GitHub Actions, GitLab CI, Jenkins, Docker, Kubernetes]
+    languages: [Python, TypeScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10820254'
+  location: Pune, IND
+  extracted_at: '2026-08-25T12:08:07.069795'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

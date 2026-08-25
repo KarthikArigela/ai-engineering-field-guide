@@ -1,52 +1,57 @@
 company:
   name: Capital One
-  stage: Public
-  focus: Banking and financial services with AI
+  stage: null
+  focus: Banking and financial services
 position:
   title: Senior Lead AI Engineer (Gen AI Platform Services)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, deploying, and
-      optimizing AI systems including foundation model training,
-      LLM inference, similarity search, and guardrails. The
-      engineer works hands-on with LLM optimization techniques and
-      AI infrastructure components, making this clearly an ai-
-      first role.
+      The role designs and builds core GenAI platform components
+      themselves — foundation model training, LLM inference,
+      similarity search, guardrails, and model evaluation — and
+      invents LLM optimization techniques for production systems,
+      which is directly shaping model behavior and output quality.
+      Since the target is explicitly LLM/generative (LLM
+      inference, guardrails, Gen AI platform), this is ai-first
+      despite also covering platform/infra work.
   responsibilities:
-  - Partner with cross-functional teams of engineers, research scientists, and product
-    managers to deliver AI-powered products
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
     model training, LLM inference, similarity search, guardrails, model evaluation,
-    and observability
-  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, Nemo Guardrails, and PyTorch
+    experimentation, governance, and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, VectorDBs, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
+    cost, latency, and throughput of large-scale production AI systems
+  - Optimize training and inference software to improve hardware utilization, latency,
+    throughput, and cost
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Stay abreast of latest AI research and apply novel techniques in production
-  - Lead and mentor engineering teams and influence cross-functional stakeholders
+  - Lead and mentor engineers and influence cross-functional stakeholders
   use_cases:
   - Real-time personalized customer experiences in banking
-  - Fraud detection and unusual charge notifications
-  - AI-powered customer question answering and chatbots
-  - Foundation model training and LLM inference infrastructure
-  - Similarity search and vector databases for AI applications
-  - AI governance, observability, and guardrails for responsible AI
+  - Informing customers about unusual charges
+  - Answering customer questions in real time
+  - AI-powered products that change how associates work and how customers interact
+    with the bank
+  - Gen AI platform services that enable teams across the company to add AI capabilities
+    to their products
   skills:
-    domains: []
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [Hugging Face, PyTorch]
-    cloud: [AWS, AWS Ultraclusters]
-    genai: [Foundation model training, LLM inference, LLM optimization, RAG, Guardrails]
-    data: []
+    cloud: [AWS, GCP, Azure]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    ml: [PyTorch, Hugging Face, Machine Learning, Foundation Model Training, Model
+        Evaluation]
     other: []
-    ops: [Model evaluation, Model governance, Observability]
-    web: []
+    ops: [Model Deployment, Observability]
     databases: [Vector Databases, Vector Search]
+    domains: []
+    web: []
+    data: []
+    genai: [Generative AI, Guardrails]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9420327'
   location: McLean, USA
@@ -54,4 +59,6 @@ meta:
   - McLean, USA
   - San Jose, USA
   - New York, USA
-  extracted_at: '2026-06-25T19:41:09.514912'
+  extracted_at: '2026-08-16T12:43:11.394533'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

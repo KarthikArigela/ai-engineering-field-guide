@@ -1,0 +1,55 @@
+company:
+  name: WorkHero
+  stage: null
+  focus: AI-powered back office for skilled trades/HVAC
+position:
+  title: Senior Software Engineer, Voice AI & Data Infrastructure
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and ships tool-using AI agents, RAG,
+      streaming voice agents, and evals/monitoring for those
+      agents — directly shaping model behaviour. LLM/agent
+      components dominate, so ai-first.
+  responsibilities:
+  - 'Build AI workflows in production: tool-using agents, RAG/search, classification/extraction,
+    human-in-the-loop flows'
+  - 'Own the realtime voice stack end-to-end: telephony/WebRTC, streaming STT/TTS,
+    turn-taking, interruption handling, latency optimization'
+  - Build the call-data pipeline from transcripts and events into the warehouse and
+    dashboards
+  - Build product screens and AI chat UI in React/React Native
+  - 'Build evals and monitoring for voice agents: quality metrics, drift detection,
+    cost/latency tracking'
+  - Design, build, test, deploy, and operate cloud infrastructure with IaC, queues,
+    and CI/CD
+  - Optimize performance, latency, and cost of realtime AI systems
+  - Mentor team members and collaborate with product and subject matter experts
+  use_cases:
+  - Realtime voice agents handling live phone calls for contractors
+  - 'Back-office automation for HVAC businesses: invoicing, permits, scheduling'
+  - Call transcription, event extraction, and conversation-intelligence analytics
+  - AI chat with human review and feedback loops in product workflows
+  - Quality, drift, cost, and latency monitoring for voice agents
+  skills:
+    genai: [AI Agents, RAG, Agentic Workflows, Prompt Engineering, LLMs, Function
+        Calling, Semantic Search, Claude Code, Cursor]
+    ml: [Model Evaluation, Speech-to-Text, Text-to-Speech, Deepgram]
+    web: [React, React Native, WebRTC]
+    databases: []
+    data: [Data Pipelines, Data Modeling, Data Warehousing]
+    cloud: [AWS, Twilio]
+    ops: [CI/CD, Infrastructure as Code, Terraform, Monitoring, Telephony, LiveKit,
+      Pipecat]
+    languages: [TypeScript]
+    domains: []
+    other: [n8n]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10698701'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:20:55.428253'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,61 +1,66 @@
 company:
   name: Databricks
-  stage: Public
-  focus: Unified data, analytics, and AI platform
+  stage: null
+  focus: Data intelligence platform unifying analytics and AI
 position:
   title: Staff Data and AI Engineer, Finance
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role is primarily a data engineering and technical lead
-      position within the Finance organization, focused on
-      building data pipelines, internal applications, and data
-      infrastructure. While it involves leading the technical
-      design of AI use cases (forecasting, anomaly detection, NL
-      interfaces), the core work is data pipeline architecture and
-      governance rather than directly building, training, or fine-
-      tuning models. AI/ML is listed as "nice to have" and the
-      role's primary deliverables are data infrastructure and
-      Finance DataLake management.
+      The role is described as the technical authority behind the
+      team's AI systems and explicitly leads the technical design
+      of AI use cases including natural language interfaces to
+      financial data and Genie Spaces, meaning they shape how LLMs
+      behave over curated finance data rather than merely
+      consuming an API. The mix of LLM interfaces with classical
+      ML use cases (forecasting, anomaly detection) maps to ai-
+      first, even though data engineering dominates the day-to-
+      day.
   responsibilities:
-  - Architect, build, and own complex finance data pipelines in the Finance DataLake
-    using Databricks Jobs and Lakeflow Declarative Pipelines
-  - Lead technical design of AI use cases for Finance including forecasting automation,
-    anomaly detection, and natural language interfaces to financial data
+  - Architect, build, and own the most complex finance data pipelines in the Finance
+    DataLake using Databricks Jobs and Lakeflow Declarative Pipelines with built-in
+    data validation and reconciliations
+  - Lead the technical design of AI use cases for the Finance and Accounting organization,
+    including forecasting automation, anomaly detection, and natural language interfaces
+    to financial data
   - Build and maintain internal Finance applications (Databricks Apps, Genie Spaces,
-    dashboards) for self-service by non-technical Finance stakeholders
-  - Design curated Finance DataLake datasets enforcing row-level security, data access
-    policies, and Unity Catalog governance standards
-  - Define and champion coding standards, data modeling conventions, documentation
-    practices, and testing frameworks across the Finance engineering team
-  - Enforce Git-based version control, pull-request reviews, and CI/CD pipelines to
-    satisfy SOX change management requirements
-  - Serve as primary technical point of contact during financial close ensuring data
-    accuracy and timely pipeline issue resolution
+    dashboards) enabling self-service for non-technical Finance stakeholders
+  - Design and deliver curated Finance DataLake datasets enforcing row-level security,
+    data access policies, and Unity Catalog governance standards
+  - Define coding standards, data modeling conventions, documentation practices, and
+    testing frameworks across the Finance engineering team
+  - Enforce Git-based version control, pull-request reviews, and CI/CD pipelines (Declarative
+    Automation Bundles, GitHub Actions) to satisfy SOX change management requirements
+  - Serve as primary technical point of contact during financial close, ensuring data
+    accuracy and timely resolution of pipeline issues, and lead technical scoping
+    with Accounting, FP&A, Internal Audit, and Procurement
   - Mentor junior and mid-level engineers through code reviews, pairing, and design
-    discussions
+    discussions, and drive resolution of architectural debt and performance bottlenecks
   use_cases:
-  - Forecasting automation for Finance and Accounting
-  - Anomaly detection in financial data
-  - Natural language interfaces to financial data
-  - Self-service Finance applications and dashboards for non-technical stakeholders
-  - Financial data lake governance with row-level security and access policies
-  - ETL pipelines from financial source systems into centralized data lake
+  - Forecasting automation for the Finance and Accounting organization
+  - Anomaly detection in financial data and processes
+  - Natural language interfaces for querying financial data via Genie Spaces
+  - Self-service finance dashboards and reporting for non-technical stakeholders
+  - Automated, validated finance data pipelines powering financial close, reconciliations,
+    and reporting
   skills:
-    genai: [LLMs]
-    ml: [Anomaly Detection, Machine Learning]
-    web: [FastAPI, Streamlit]
-    databases: [PostgreSQL, Snowflake]
-    data: [Apache Spark, PySpark, Databricks, Delta Lake, ETL, Data Pipelines, Data
-        Modeling, Data Governance, Airflow]
-    cloud: [AWS, Azure, GCP]
-    ops: [CI/CD, GitHub Actions, Git, Docker, Kubernetes]
+    cloud: []
     languages: [Python, SQL]
+    ml: [Anomaly Detection, Forecasting]
+    other: [NetSuite, Salesforce, Stripe, Zuora, Business Intelligence, Finance &
+        Accounting, SOX Compliance]
+    ops: [Git, CI/CD, GitHub Actions, Declarative Automation Bundles]
+    databases: []
     domains: []
-    other: [Salesforce, NetSuite, Agile]
+    web: []
+    data: [Spark, Databricks, Lakeflow Declarative Pipelines, Data Pipelines, Data
+        Modeling, Unity Catalog]
+    genai: [LLMs, Genie]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10022343'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:24:06.661254'
+  extracted_at: '2026-08-16T16:24:37.036361'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,60 @@
+company:
+  name: Reltio
+  stage: null
+  focus: |-
+    Cloud-native data management and Context Intelligence SaaS
+    platform
+position:
+  title: Sr. AI Engineer - Data Pipelines & Context Systems
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG/retrieval systems (chunking,
+      embeddings, reranking, provenance), builds MCP-style tool
+      layers for LLM agents, and creates evaluation harnesses for
+      prompts and agentic workflows - directly shaping model
+      behaviour and context quality, so it is ai-first.
+  responsibilities:
+  - Design production pipelines ingesting, normalizing, and synchronizing structured
+    and unstructured enterprise data from sources like MDM, Slack, Jira/Confluence,
+    and Google Workspace
+  - Build incremental indexing and vector update patterns preserving lineage, permissions,
+    and source metadata
+  - Build secure MCP/API-style tools exposing enterprise data and actions to LLM workflows
+    with schemas, guardrails, and audit trails
+  - Implement OAuth/SSO, RBAC/ABAC, tenant boundaries, and server-side permission
+    checks for retrieval and tool execution
+  - Design RAG/retrieval systems combining semantic search, keyword search, metadata
+    filters, reranking, and structured queries
+  - Define chunking, embedding, tagging, and provenance strategies; monitor freshness,
+    data quality, and hallucination risk
+  - Build harnesses for testing prompts, retrieval pipelines, tool calls, structured
+    outputs, and agentic workflows, with eval datasets and regression checks
+  - Build review, approval, rollback, and exception-handling workflows plus admin/debugging
+    tools for AI operations
+  use_cases:
+  - Context Intelligence Operating System (Reltio Brain) for governed enterprise AI
+  - Governed retrieval of fragmented enterprise knowledge for AI agents
+  - Secure tool access to enterprise data and actions with provenance and audit trails
+  - Human-in-the-loop review and approval of high-impact AI actions
+  - Freshness and permission-aware incremental indexing of enterprise data
+  skills:
+    genai: [RAG, Embeddings, Vector Search, Semantic Search, AI Agents, Function Calling,
+      MCP, Structured Outputs, LLM Evaluation, Codex, Claude Code, Cursor]
+    ml: []
+    web: [REST APIs, OAuth, React, Next.js]
+    databases: [Knowledge Graphs, OpenSearch, Pinecone, pgvector, Vector Databases]
+    data: [Data Pipelines]
+    cloud: [AWS Bedrock]
+    ops: [Docker, Kubernetes, Infrastructure as Code]
+    languages: [Python, TypeScript, Node.js]
+    domains: []
+    other: [RBAC, Data Governance, MDM, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10389442'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T09:55:33.253291'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

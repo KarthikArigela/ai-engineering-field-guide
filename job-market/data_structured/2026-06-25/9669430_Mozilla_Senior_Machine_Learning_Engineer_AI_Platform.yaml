@@ -1,59 +1,63 @@
 company:
   name: Mozilla
-  stage: Public (non-profit-backed)
-  focus: Open-source web browser and internet technology
+  stage: Wholly owned by the non-profit 501(c) Mozilla Foundation (non-profit-backed)
+  focus: Open-source internet products including Firefox browser
 position:
   title: Senior Machine Learning Engineer, AI Platform
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building and operating the
-      foundational AI platform infrastructure — model serving,
-      inference services, GPU orchestration, and deployment
-      automation — rather than building, training, or fine-tuning
-      models themselves. The work enables ML teams to deploy and
-      serve models at scale, making this an ai-support role.
+      The role builds and operates ML platform infrastructure:
+      model serving, inference workflows, GPU orchestration,
+      deployment automation, and observability. The deliverable is
+      capacity, reliability, and cost efficiency for models that
+      others build, with no prompting, retrieval, evals, or
+      behavior-shaping work in the core responsibilities.
+      Inference optimizations like batching and quantization
+      appear only as bonus skills for serving throughput and
+      latency, so this stays ai-support under the serving/scaling
+      edge case.
   responsibilities:
-  - Design, build, and operate core AI platform components for training, deploying,
-    and serving ML models in production
+  - Design, build, and operate core AI platform components used to train, deploy,
+    and serve machine learning models in production
   - Own model serving and inference workflows end-to-end, driving improvements in
-    reliability, scalability, and performance
+    reliability, scalability, performance, and operational excellence
   - Optimize inference systems for throughput, latency, and cost efficiency across
     CPU and GPU workloads
   - Design and manage GPU-based inference and training workloads including performance
-    tuning and capacity planning
-  - Improve critical parts of the model lifecycle including packaging, versioning,
-    testing, validation, and deployment automation
-  - Implement and evolve observability practices including metrics, logging, tracing,
-    and alerting for ML services
+    tuning, capacity planning, and resource utilization optimization
+  - Own the model lifecycle including packaging, versioning, testing strategies, validation,
+    and deployment automation
+  - Implement and evolve observability practices (metrics, logging, tracing, alerting)
+    for ML services and pipelines
   - Partner with product, infrastructure, security, and data teams to design scalable
-    platform capabilities
-  - Mentor junior engineers and contribute to technical design discussions and architectural
-    improvements
+    platform capabilities for AI-powered features
+  - Mentor junior engineers through code reviews and participate in on-call rotations,
+    incident response, and post-incident reviews
   use_cases:
-  - Model training pipelines at global scale
-  - High-throughput inference services for Mozilla products
-  - GPU orchestration for AI workloads
-  - Privacy-respecting AI systems for browser and content products
-  - Intelligent experiences across Mozilla's product ecosystem including Firefox and
-    Pocket
+  - Intelligent experiences across Mozilla products such as Firefox
+  - High-throughput, low-latency model inference serving at global scale
+  - Model training pipelines and GPU orchestration for ML workloads
+  - Secure, privacy-respecting AI systems operating in production
+  - Scalable platform capabilities that enable AI-powered product features
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
-    cloud: [Cloud infrastructure]
-    genai: []
-    data: []
-    other: [Privacy-preserving ML]
-    ops: [Model serving architectures, Inference optimization, GPU computing, Distributed
-        Systems, CI/CD, Docker, Kubernetes, Observability, Model packaging and versioning,
-      Batching, Quantization, Model conversion, ML system deployment]
-    web: []
+    cloud: [Cloud Computing]
+    languages: [Python]
+    ml: [Machine Learning, Model Training, Quantization, GPU Workloads]
+    other: [Privacy-Preserving ML]
+    ops: [Model Deployment, CI/CD, Docker, Kubernetes, Observability, Distributed
+        Systems]
     databases: []
+    domains: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9669430'
   location: USA
   remote: true
-  extracted_at: '2026-06-25T19:45:08.937676'
+  extracted_at: '2026-08-16T14:02:19.400545'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,53 +1,54 @@
 company:
   name: NTT DATA
-  stage: Public
+  stage: null
   focus: |-
-    Global business and technology services provider
-    specializing in enterprise AI, cloud, and digital
+    Global IT and business services, AI, cloud, and digital
     infrastructure
 position:
   title: Principal Power Platform AI Developer
   ai_type:
     type: ai-support
     reasoning: |-
-      Despite the "AI Developer" title, the job description
-      contains no AI/ML-specific responsibilities or skills. The
-      requirements focus on general software development (Java,
-      C++, Python), application development, databases, and Agile
-      methodologies. This appears to be a traditional software
-      engineering role with an AI-related title, possibly for
-      working at an AI company but not directly building AI
-      systems.
+      Despite "Power Platform AI" in the title, the
+      responsibilities are generic application development:
+      writing code in Java/Python/C++, maintaining databases,
+      testing, installing applications, and consulting clients.
+      Nothing describes shaping model behaviour (no prompts, RAG,
+      agents, training, or evals), so the role is ai-support.
   responsibilities:
-  - Develop applications that accomplish client objectives and user needs
-  - Design and write code for applications and maintain application databases
-  - Analyze and edit existing software applications to improve functionality and enable
-    use on new hardware platforms
-  - Remodel and adapt applications to optimize performance
+  - Develop new applications and improve existing applications for the internal organization
+    and external clients
+  - Design and write application code and maintain application databases
+  - Analyze, edit, and remodel existing software to optimize performance, fix problems,
+    and enable use on new hardware platforms
   - Test applications extensively to ensure they are error and bug-free
-  - Install applications and act as technical advisor to clients
-  - Communicate with technical stakeholders to obtain information on project requirements
-    and interfaces
-  - Produce software documentation following company processes
+  - Install applications and act as technical advisor
+  - Consult with clients and internal technical stakeholders to identify needs, project
+    limitations, performance requirements, and interfaces
+  - Produce software documentation following company process and templates and participate
+    in product review and team meetings
+  - Coach and mentor junior resources within the team
   use_cases:
-  - General application development for client needs
-  - Software application optimization and maintenance
-  - Cross-platform application deployment
-  - Client-facing technical advisory and consulting
+  - Custom application development for internal organizations and external clients
+  - Application optimization and modernization for new hardware platforms
+  - Application maintenance, bug fixing, and performance tuning
+  - Client-facing application design and technical advisory
   skills:
-    genai: []
-    ml: []
-    web: []
-    databases: [SQL]
-    data: []
     cloud: []
-    ops: [Linux, Unix, Windows, Scrum, Agile development]
-    languages: [Java, Python, C++, Perl, C]
+    languages: [Java, Python, Perl, C++, C]
+    ml: []
+    other: [Power Platform, Agile, Project Management]
+    ops: [Linux, Unix, Windows]
+    databases: [SQL]
     domains: []
-    other: []
+    web: []
+    data: []
+    genai: []
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '8536096'
   location: Hyderabad, IND
-  extracted_at: '2026-03-03T12:53:28.516772'
+  extracted_at: '2026-08-16T02:14:29.375373'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,51 +1,57 @@
 company:
   name: OnFrontiers, Inc.
-  stage: Seed
-  focus: Expert network for government contractors and AI workflows
+  stage: null
+  focus: Expert network for government contracting
 position:
   title: Software Engineer, Full-Stack (AI-First)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building LLM-powered systems for
-      expert matching and solicitation intelligence, working with
-      vector-backed indexes, and developing AI-first product
-      features. The engineer will be hands-on with LLMs, LLM
-      orchestration, and vector search as core responsibilities,
-      not just supporting infrastructure for others.
+      The engineer builds LLM-powered systems for expert matching
+      and solicitation intelligence, works with LLM orchestration,
+      and designs vector-backed retrieval/search (OpenSearch,
+      pgvector) — all Step 1 shaping activities with an explicit
+      LLM component, so ai-first per Step 2. Pairing with Claude
+      for coding is not shaping by itself, but the LLM feature and
+      retrieval design work clearly is.
   responsibilities:
   - Build LLM-powered systems for expert matching and solicitation intelligence
-  - Build and improve vector-backed indexes of experts and solicitations with semantic
-    search
+  - Build and improve vector-backed indexes of experts and solicitations and the search
+    that connects them (OpenSearch, pgvector, Go)
   - Ship features that accelerate talent mobility by graphing knowledge at the individual
     work-experience level
-  - Build core SaaS platform and API features across the full stack
-  - Take features from idea to production with clean, tested, maintainable code
-  - Pair with Claude and internal AI tooling to design, write, test, and review code
-  - Collaborate with engineering lead, product, and leadership to ship iteratively
-  - Maintain platform security, reliability, and scalability alongside fast startup
-    delivery
+  - Build core SaaS platform and API features across the stack (Python, Go, React)
+  - Take features from idea to production, writing clean, tested, maintainable code
+    and owning what ships
+  - Pair with Claude and internal AI tooling to design, write, test, and review code,
+    and help improve how the team builds
+  - Collaborate with the engineering lead, product, and leadership to ship quickly
+    and iteratively
+  - Balance startup speed with platform security, reliability, and scalability
   use_cases:
-  - Expert matching using LLM-powered intelligence
-  - Solicitation intelligence for government contracting
-  - Vector-backed semantic search connecting experts to solicitations
-  - Talent mobility through knowledge graphing at the work-experience level
-  - AI-first SaaS platform for government contractor ecosystem
+  - Expert matching that connects government contractors with the right subject-matter
+    expert
+  - Solicitation intelligence that analyzes government procurement solicitations
+  - Vector-backed search and indexing over experts and solicitations
+  - Knowledge graphing of individual work experience to accelerate talent mobility
+  - Expert network platform for the government contracting ecosystem
   skills:
-    genai: [LLMs, LLM Orchestration, Generative AI, Claude Code, GitHub Copilot]
-    ml: []
-    web: [React, FastAPI, Full-Stack Development]
-    databases: [Vector Search, OpenSearch, pgvector, Knowledge Graphs]
-    data: []
     cloud: [AWS]
-    ops: []
     languages: [Python, Go]
+    ml: []
+    other: []
+    ops: []
+    databases: [Vector Search, OpenSearch, pgvector, Knowledge Graphs]
     domains: []
-    other: [HIPAA Compliance, SOC 2, FedRAMP, CMMC, Microservices]
+    web: [React, APIs]
+    data: []
+    genai: [LLMs, Anthropic API, GitHub Copilot]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10028911'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:24:24.048648'
+  extracted_at: '2026-08-16T16:17:06.569229'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

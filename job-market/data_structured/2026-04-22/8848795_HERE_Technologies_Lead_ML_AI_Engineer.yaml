@@ -1,56 +1,53 @@
 company:
   name: HERE Technologies
-  stage: Public
-  focus: |-
-    Location data and technology platform for digital mapping
-    and navigation
+  stage: null
+  focus: Location data and digital mapping technology platform
 position:
   title: Lead ML & AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, training, deploying,
-      and optimizing ML models and systems including computer
-      vision, NLP, deep learning, and agentic/generative AI for
-      digital map creation. The engineer owns end-to-end ML system
-      architecture from data preprocessing through deployment,
-      making this clearly an ai-first role.
+      The role develops and trains models itself (computer vision,
+      NLP, deep learning) and explicitly builds systems using
+      Agentic AI and Generative AI, so it shapes model behaviour
+      and output quality. Since it shapes both LLM/agent
+      components and classical ML, it is classified ai-first.
   responsibilities:
-  - Design, develop, and deploy ML solutions for creating high-definition, ISA, and
-    ADAS maps
-  - Own end-to-end ML system architecture including data preprocessing, model training,
-    inference pipelines, deployment, monitoring, and scaling
-  - Lead innovation developing models based on computer vision, NLP, deep learning,
-    and machine learning
+  - Provide technical leadership in designing, developing, and deploying ML solutions
+    used to create high-definition, ISA, and ADAS maps
+  - Own and drive end-to-end ML system architecture, including data preprocessing,
+    model training, inference pipelines, deployment, monitoring, and scaling
+  - Develop models based on computer vision, NLP, deep learning, and machine learning
   - Build systems using Agentic AI, Generative AI, and foundational ML techniques
-  - Implement MLOps practices including CI/CD for ML, model versioning, feature stores,
-    drift detection, and experimentation frameworks
-  - Own one or more ML or data components within the broader mapping/routing ecosystem
+  - 'Implement MLOps practices: CI/CD for ML, model versioning, feature stores, drift
+    detection, and experimentation frameworks'
+  - Own one or more ML or data components within the broader mapping and routing ecosystem
   - Collaborate with platform and backend teams to integrate ML outputs into map compilation
     workflows
-  - Conduct code reviews, architecture reviews, and champion best practices in ML
+  - Conduct code reviews and architecture reviews, and share best practices in ML
     engineering
   use_cases:
-  - High-definition map creation from real-world sensor data for automotive navigation
-  - ADAS (Advanced Driver Assistance Systems) map generation
-  - Autonomous driving map support
-  - Intelligent Speed Assistance (ISA) map production
-  - Digital map compilation and NDS format delivery for in-vehicle systems
+  - Creating high-definition, ISA, and ADAS maps from real-world capture
+  - Digital map production and map compilation in the NDS ecosystem
+  - Advanced navigation and autonomous driving
+  - In-vehicle map delivery powering IVI, ADAS, and autonomous driving use cases
   skills:
-    domains: [Computer Vision, NLP]
-    languages: [Python]
-    ml: [Deep Learning, Machine Learning, ML system architecture, Model training and
-        inference]
     cloud: [AWS, AWS S3, AWS EMR, AWS Lambda, SageMaker]
-    genai: [AI Agents, Generative AI]
-    data: [Spark, Flink, Data Pipelines]
-    other: [NDS map data formats, GIS]
-    ops: [Docker, Kubernetes, CI/CD, Jenkins, MLOps]
+    languages: [Python, SQL]
+    ml: [Machine Learning, Deep Learning, Model Training]
+    other: [Code Review, NDS, GIS, RDF, GDF]
+    ops: [MLOps, CI/CD, Jenkins, Docker, Kubernetes, Model Deployment, Monitoring,
+      Feature Stores, Model Versioning, Drift Detection]
+    databases: [NoSQL]
+    domains: [Computer Vision, NLP]
     web: []
-    databases: [SQL, NoSQL]
+    data: [Spark, Flink, Data Pipelines, Data Engineering]
+    genai: [AI Agents, Generative AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8848795'
   location: Mumbai, IND
-  extracted_at: '2026-04-22T13:50:24.704579'
+  extracted_at: '2026-08-16T05:53:47.802448'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

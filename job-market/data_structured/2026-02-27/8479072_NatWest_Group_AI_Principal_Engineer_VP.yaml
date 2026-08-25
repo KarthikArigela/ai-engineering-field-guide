@@ -1,56 +1,58 @@
 company:
   name: NatWest Group
-  stage: Public
-  focus: Banking and financial services
+  stage: null
+  focus: Retail and commercial banking services
 position:
   title: AI Principal Engineer, VP
   ai_type:
     type: ai-first
     reasoning: |-
-      This role requires hands-on experience building and
-      optimizing pipelines for LLMs, implementing RAG, embedding
-      pipelines, LLM orchestration, and model fine-tuning. The
-      role involves direct work with AI/ML systems including model
-      deployment, evaluation, and integration with
-      OpenAI/Anthropic models, which goes beyond AI-support
-      infrastructure.
+      The role requires hands-on shaping of LLM behaviour:
+      designing RAG and embedding pipelines, LLM orchestration,
+      prompt engineering, and evaluating/fine-tuning OpenAI and
+      Anthropic models. Classical ML work (time-series
+      forecasting, supervised learning) is also present, and a
+      role shaping both LLM and classical ML systems is ai-first.
   responsibilities:
-  - Define and develop architecture models and roadmaps for application and software
+  - Design and engineer software with the customer or user experience as the primary
+    objective
+  - Define, create and provide oversight and governance of engineering and design
+    solutions focused on end-to-end automation, resilience, security, performance,
+    scalability and reusability
+  - Define and develop architecture models and roadmaps of application and software
     components to meet business and technical requirements
-  - Build and optimize pipelines for LLMs, traditional ML models, and data processing
-    using OSS frameworks or AWS/GCP ecosystems
-  - Implement supervised and unsupervised learning, time-series forecasting, RAG,
-    embedding pipelines, LLM orchestration, and prompt engineering
+  - Work with feature teams to produce high-quality software rapidly and determine
+    the design and delivery approach for platform software throughout its life
+  - Act as a point of contact for solution design considerations within a platform
+    or feature team
+  - Build and optimize pipelines for LLMs, traditional ML models and data processing
+    using OSS frameworks and AWS/GCP ecosystems
   - Define and enforce standards for MLOps, CI/CD, experiment tracking, model deployment,
-    observability, security, and performance tuning
-  - Evaluate and integrate capabilities across OpenAI/Anthropic models, fine-tuning,
-    GPU compute, AutoML, and feature stores
-  - Collaborate with feature teams to produce high-quality software rapidly that adds
-    business value
-  - Design and engineer complex software, scripts, and tools to enable delivery of
-    bank platforms, applications, and services
+    observability, security and performance tuning
+  - Contribute to the engineering centre of excellence to improve the bank's overall
+    software engineering capability
   use_cases:
-  - Time-series forecasting for financial predictions
-  - RAG-based systems for knowledge retrieval and question answering
-  - LLM-powered applications for customer service and banking operations
-  - Supervised and unsupervised learning for fraud detection and risk assessment
-  - Data processing pipelines for financial data transformation and analysis
+  - LLM and ML pipelines for banking platforms and applications
+  - RAG and embedding pipelines for information retrieval
+  - Integration of OpenAI and Anthropic model capabilities via APIs
+  - Time-series forecasting and model retraining for banking analytics
+  - End-to-end automation of bank platforms, applications and services
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Supervised learning, Unsupervised learning, Time-series forecasting, Feature
-        Engineering, Model Evaluation, Retraining strategies, AutoML]
     cloud: [AWS, GCP]
-    genai: [LLMs, RAG, Embedding pipelines, Prompt Engineering, Fine-Tuning, OpenAI
-        API, Anthropic API]
-    data: [Data Pipelines]
-    other: []
-    ops: [MLOps, CI/CD, Experiment tracking, Model Deployment, Observability, GPU
-        compute, Feature stores]
-    web: []
+    languages: [Python]
+    ml: [Machine Learning, Supervised Learning, Unsupervised Learning, Time-Series
+        Forecasting, Feature Engineering, Model Evaluation, AutoML]
+    other: [Agile]
+    ops: [MLOps, CI/CD, Experiment Tracking, Model Deployment, Observability, Performance
+        Tuning, GPU Compute, Feature Stores, DevOps]
     databases: []
-  is_customer_facing: true
-  is_management: true
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, RAG, Embeddings, Prompt Engineering, OpenAI API, Anthropic API,
+      Fine-Tuning]
+  is_customer_facing: false
+  is_management: false
 meta:
   job_id: '8479072'
   location: Chennai, IND
@@ -58,4 +60,6 @@ meta:
   - Chennai, IND
   - Gurugram, IND
   - Bengaluru, IND
-  extracted_at: '2026-02-27T11:31:29.783676'
+  extracted_at: '2026-08-16T01:41:03.548065'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

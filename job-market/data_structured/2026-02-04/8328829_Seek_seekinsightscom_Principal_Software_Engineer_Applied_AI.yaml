@@ -1,56 +1,62 @@
 company:
   name: Seek (seekinsights.com)
-  stage: Startup
-  focus: Marketplace for data apps and analytics
+  stage: null
+  focus: |-
+    Marketplace for secure exchange of production-ready data
+    apps
 position:
   title: Principal Software Engineer, Applied AI
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role focuses on integrating AI models via APIs/SDKs
-      into cloud-native applications rather than building or fine-
-      tuning models. The engineer works on full stack development,
-      system architecture, and enabling AI features through
-      integration patterns - supporting the AI work rather than
-      directly working on the AI systems themselves.
+      The role builds LLM-powered product features like
+      conversational data querying, intelligent recommendations,
+      and AI-assisted publishing, and explicitly defines patterns
+      for integrating LLMs into data workflows while evaluating
+      agent frameworks and orchestration layers. As the Applied AI
+      technical lead, this person designs the AI integration and
+      agent flows themselves rather than consuming an API another
+      team configured, with RAG and LLM integration named as core
+      (bonus) experience, making it ai-first.
   responsibilities:
-  - Build full stack features using React, Python, and modern APIs to deliver high-quality
-    user experiences
+  - Build full-stack features using React and Python that deliver AI-powered experiences
+    such as conversational data querying and guided workflows
   - Design and extend backend services and APIs that integrate AI models and external
     AI services into the platform
   - Define patterns and best practices for integrating LLMs and semantic modeling
     into data workflows
-  - Create intuitive user workflows that incorporate AI such as conversational data
-    querying, assisted discovery, or guided analytics
-  - Mentor and guide engineers, raising the bar on engineering craft, AI integration
-    strategies, and system reliability
+  - Integrate with Snowflake and the semantic modeling layer to deliver data-driven
+    applications
+  - Advance intelligent recommendations, AI-assisted publishing, and cross-app insights
+    in the app marketplace
   - Ensure reliability at scale by driving observability, automated testing, CI/CD
     improvements, and performance tuning across AI-enabled systems
-  - Shape the app marketplace experience by advancing intelligent recommendations,
-    AI-assisted publishing, and cross-app insights
-  - Partner with product and design leadership to translate ambiguous AI opportunities
-    into customer-ready features
+  - Mentor and guide engineers on engineering craft, AI integration strategies, and
+    system reliability
+  - Evaluate technology choices across agent frameworks, Snowflake integrations, and
+    orchestration layers, and partner with product and design leadership on AI opportunities
   use_cases:
-  - Conversational data querying allowing users to ask natural language questions
-    about their data
-  - Intelligent recommendations for data apps and cross-app insights within the marketplace
-  - AI-assisted publishing workflow that helps providers create and deploy data applications
-  - Guided analytics and assisted discovery to help users find relevant data and insights
-  - Semantic modeling integration for understanding and relating data across applications
+  - Conversational data querying over governed analytics data
+  - Assisted discovery and guided analytics workflows
+  - Intelligent recommendations for data apps in the marketplace
+  - AI-assisted publishing and cross-app insights across the marketplace
+  - Secure exchange of production-ready data applications between providers and consumers
   skills:
-    domains: []
+    cloud: []
     languages: [Python]
     ml: []
-    cloud: []
-    genai: [LLMs, OpenAI API, Anthropic API, RAG, Agentic Workflows, Semantic modeling]
-    data: []
-    other: [System Design]
-    ops: [Distributed Systems, CI/CD, Observability, Automated testing]
-    web: [React, REST APIs, APIs]
+    other: [Semantic Modeling, System Design, Performance Tuning, SaaS]
+    ops: [CI/CD, Observability, Distributed Systems]
     databases: [Snowflake]
+    domains: []
+    web: [React, APIs, Full-Stack Development]
+    data: []
+    genai: [LLMs, OpenAI API, Anthropic API, RAG, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8328829'
   location: USA
-  extracted_at: '2026-02-05T12:52:31.403611'
+  extracted_at: '2026-08-15T23:19:32.750381'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

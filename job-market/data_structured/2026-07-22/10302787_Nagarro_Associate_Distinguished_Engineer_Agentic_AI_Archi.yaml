@@ -1,63 +1,72 @@
 company:
   name: Nagarro
-  stage: Public
-  focus: Digital Product Engineering and consulting
+  stage: null
+  focus: |-
+    Digital product engineering and technology consulting
+    services
 position:
   title: Associate Distinguished Engineer (Agentic AI Architect)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on designing and architecting
-      enterprise-scale Agentic AI and Generative AI solutions,
-      including multi-agent systems, RAG architectures, reasoning
-      frameworks, and LLM-powered applications. The candidate
-      works hands-on with agent orchestration, model evaluation,
-      fine-tuning, and production AI deployment.
+      The role designs and architects agentic AI systems hands-on:
+      multi-agent orchestration, reasoning frameworks (ReAct,
+      Plan-and-Execute), RAG/GraphRAG retrieval architectures,
+      prompt engineering, embeddings, model evaluation, and LLM
+      fine-tuning - all directly shaping LLM behavior and output
+      quality. Every generative component is LLM/agent-based, so
+      it is ai-first.
   responsibilities:
-  - Design and architect enterprise-scale Agentic AI and Generative AI solutions aligned
-    with business objectives
-  - Define scalable architectures for multi-agent collaboration, autonomous workflows,
-    human-in-the-loop systems, and intelligent orchestration
+  - Architect enterprise-scale Agentic AI and Generative AI solutions including multi-agent
+    collaboration, autonomous workflows, human-in-the-loop systems, and intelligent
+    orchestration
+  - Lead design of advanced reasoning frameworks, agent communication protocols, memory
+    management, and tool integration strategies
   - Architect enterprise knowledge systems leveraging RAG, GraphRAG, Knowledge Graphs,
-    Semantic Search, and Enterprise Search technologies
+    Semantic Search, and Enterprise Search across structured and unstructured data
+    sources
+  - Establish AI governance frameworks, guardrails, evaluation methodologies, and
+    observability standards for production AI
   - Evaluate and optimize LLM selection, orchestration, inference strategies, and
     model performance across commercial and open-source platforms
-  - Establish engineering standards for AI Engineering, LLMOps, AgentOps, MLOps, deployment,
-    monitoring, and lifecycle management
-  - Act as a trusted advisor to business and technology stakeholders on AI strategy,
-    architecture, and enterprise transformation initiatives
-  - Lead Proof of Concepts, MVPs, and enterprise AI implementations from concept through
-    production deployment
-  - Mentor architects, engineers, and data scientists while promoting engineering
-    excellence and architectural best practices
+  - Define engineering standards for AI Engineering, LLMOps, AgentOps, and MLOps covering
+    deployment, monitoring, and lifecycle management
+  - Drive adoption of AI-enabled software development practices across the SDLC
+  - Act as trusted advisor to business and technology stakeholders, lead PoCs and
+    enterprise AI implementations from concept to production, and mentor architects,
+    engineers, and data scientists
   use_cases:
-  - Enterprise multi-agent collaboration and autonomous workflows
-  - Enterprise knowledge systems with RAG, GraphRAG, and semantic search
-  - Human-in-the-loop AI decision systems
-  - AI-enabled software development across the SDLC
-  - Enterprise AI transformation across Financial Services, Retail, Telecom, Manufacturing,
-    Healthcare, and CPG industries
+  - Enterprise multi-agent automation with autonomous workflows and human-in-the-loop
+    oversight
+  - Enterprise knowledge retrieval and search over structured and unstructured data
+    via RAG and GraphRAG
+  - LLM-powered enterprise applications across Financial Services, Retail, Telecom,
+    Manufacturing, Healthcare, and CPG
+  - AI-enabled software development and developer productivity across the SDLC
+  - Enterprise AI transformation, governance, and production AI platform standardization
   skills:
-    genai: [AI Agents, Multi-Agent Systems, Agentic Workflows, LangGraph, LangChain,
-      CrewAI, AutoGen, Semantic Kernel, LlamaIndex, MCP, Google ADK, OpenAI API, LLMs,
-      Prompt Engineering, Embeddings, Fine-Tuning, RAG, Semantic Search, Generative
-        AI, Guardrails, LLM Evaluation, ReAct, Plan-and-Execute, Reflection, Tree-of-Thoughts,
-      Context Engineering]
-    ml: [Machine Learning, Model Evaluation]
-    web: [Microservices, APIs]
-    databases: [Knowledge Graphs, Vector Databases, Graph Databases, Neo4j]
-    data: []
-    cloud: [AWS, Azure, GCP]
-    ops: [Kubernetes, CI/CD, DevSecOps, MLOps, LLMOps, Monitoring, Observability,
-      Docker]
+    cloud: [Cloud-Native Architectures, AWS, Azure, GCP]
     languages: [Python, Java, JavaScript, TypeScript, C#, Go]
+    ml: [Machine Learning, Model Evaluation]
+    other: [Data Science, Intelligent Automation, Enterprise Search, AI-Assisted Software
+        Development, Responsible AI, Ontology Design, Event-Driven Architecture, Workflow
+        Orchestration]
+    ops: [Distributed Systems, Kubernetes, Containerization, CI/CD, DevSecOps, MLOps,
+      LLMOps, AgentOps, Observability, Monitoring]
+    databases: [Knowledge Graphs, Vector Databases, Graph Databases]
     domains: []
-    other: [Event-Driven Architecture, Responsible AI, System Design, Data Science,
-      Intelligent Automation]
+    web: [APIs, Microservices]
+    data: []
+    genai: [AI Agents, Generative AI, Multi-Agent Systems, Agentic Workflows, ReAct,
+      Plan-and-Execute, Reflection, Tree-of-Thoughts, RAG, GraphRAG, Semantic Search,
+      LLMs, Prompt Engineering, Embeddings, Fine-Tuning, LangGraph, LangChain, CrewAI,
+      AutoGen, Semantic Kernel, LlamaIndex, OpenAI Agent SDK, Google ADK, MCP, Guardrails]
   is_customer_facing: true
-  is_management: true
+  is_management: false
 meta:
   job_id: '10302787'
   location: IND
   remote: true
-  extracted_at: '2026-07-22T13:39:44.829411'
+  extracted_at: '2026-08-16T18:41:36.144861'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

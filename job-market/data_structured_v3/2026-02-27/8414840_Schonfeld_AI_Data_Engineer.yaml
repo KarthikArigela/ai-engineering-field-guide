@@ -1,0 +1,64 @@
+company:
+  name: Schonfeld
+  stage: ''
+  focus: |-
+    Global multi-manager hedge fund with proprietary technology
+    and risk analytics
+position:
+  title: AI Data Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a data engineering role that builds pipelines and
+      infrastructure feeding SchonAI, the firm's internal AI
+      platform. The person moves, transforms, and governs data for
+      AI systems rather than shaping model behaviour - prompts,
+      retrieval design, and model work sit with the AI engineers
+      they partner with. Per the dataset/pipeline rule, plumbing
+      data to someone else's AI system is ai-support.
+  responsibilities:
+  - Design and build scalable data pipelines to ingest, transform, and deliver structured
+    and unstructured data to SchonAI using Prefect
+  - Develop ETL/ELT processes for diverse sources including market data, research
+    documents, internal databases, and third-party APIs
+  - Build and maintain data infrastructure optimized for AI/ML workloads, including
+    vector databases and semantic search systems
+  - Design data schemas and storage solutions supporting efficient retrieval and processing
+    for LLM applications
+  - Implement data versioning, lineage tracking, and observability for AI training
+    and inference pipelines
+  - Integrate pipelines with firm systems including risk platforms, trading systems,
+    portfolio management tools, and research databases
+  - Implement data access controls, encryption, and compliance measures in line with
+    data governance policies
+  - Monitor and maintain data pipeline performance, reliability, and cost efficiency
+  use_cases:
+  - Internal AI platform (SchonAI) serving investment professionals across a hedge
+    fund
+  - Delivering market data, research documents, and internal data to AI systems for
+    investment workflows
+  - Vector database and semantic search infrastructure for LLM applications
+  - Real-time and batch data processing for low-latency AI interactions and high-throughput
+    training
+  - Data integration across risk, trading, portfolio management, and research systems
+  skills:
+    genai: [RAG, LLMs, Embeddings, Semantic Search]
+    ml: [Machine Learning]
+    web: []
+    databases: [PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch, Vector Databases,
+      Pinecone, Weaviate, Qdrant, BigQuery, SingleStore, Redshift, ClickHouse]
+    data: [Airflow, Prefect, Dagster, Spark, Flink, ETL, Data Pipelines, Kafka, Kinesis,
+      Pub/Sub, Great Expectations, Deequ]
+    cloud: [AWS, AWS S3, GCP]
+    ops: [Kubernetes, Docker, MLOps]
+    languages: [Python, SQL, Java, Scala, Go, Rust]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8414840'
+  location: New York, USA
+  extracted_at: '2026-08-16T01:12:47.041066'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

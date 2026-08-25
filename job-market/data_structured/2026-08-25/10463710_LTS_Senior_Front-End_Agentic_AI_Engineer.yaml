@@ -1,0 +1,60 @@
+company:
+  name: LTS
+  stage: null
+  focus: Federal healthcare IT modernization and digital services
+position:
+  title: Senior Front-End Agentic AI Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds the front-end experience for an agentic AI
+      platform, but the person does not write prompts, design
+      retrieval, or shape agent/model behavior themselves - they
+      render and visualize AI output and partner with AI engineers
+      who own the models. RAG, embeddings, and agent orchestration
+      appear only as nice-to-haves, and AI coding assistants are
+      tools used to build the product, not the product's behavior
+      being shaped.
+  responsibilities:
+  - Own the end-to-end front-end experience for an enterprise-scale Agentic AI platform
+  - Design intuitive interfaces that translate complex AI reasoning into trustworthy
+    experiences for engineers
+  - Build conversational interfaces, embedded AI assistants, review workflows, and
+    authoring experiences
+  - Develop the rendering pipeline for streaming AI responses, markdown, source citations,
+    code blocks, and dependency graphs
+  - Build evidence and traceability experiences letting users validate AI answers
+    against source code and artifacts
+  - Design interaction patterns for agentic workflows including multi-step reasoning,
+    human-in-the-loop review, and long-running AI tasks
+  - Build responsive real-time experiences using WebSockets, streaming APIs, and modern
+    state management
+  - Build scalable component libraries and reusable design systems; instrument with
+    analytics, observability, and client-side monitoring
+  use_cases:
+  - Plain-English question answering over legacy source code with explainable, traceable
+    answers
+  - Modernization of mission-critical healthcare systems serving Veterans
+  - AI-assisted codebase understanding with citations back to exact source lines
+  - Human-in-the-loop review of agent reasoning and tool execution
+  - Enterprise deployment aligned with FedRAMP and federal compliance requirements
+  skills:
+    genai: [AI Agents, LLMs, RAG, Vector Search, Embeddings, Agentic Workflows]
+    ml: []
+    web: [React, WebSockets, REST APIs, GraphQL, tRPC, Server-Sent Events]
+    databases: []
+    data: []
+    cloud: [AWS, Azure]
+    ops: []
+    languages: [TypeScript, JavaScript]
+    domains: []
+    other: [Agile, Section 508, WCAG]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10463710'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:15:31.870846'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

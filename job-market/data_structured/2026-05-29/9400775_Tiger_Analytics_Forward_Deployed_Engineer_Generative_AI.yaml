@@ -1,56 +1,61 @@
 company:
   name: Tiger Analytics
-  stage: Series C
-  focus: |-
-    Advanced analytics consulting firm delivering AI and ML
-    solutions to Fortune 500 companies
+  stage: ''
+  focus: Advanced analytics, data science and AI consulting
 position:
   title: Forward Deployed Engineer (Generative AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a Forward Deployed Engineer role that directly
-      deploys, fine-tunes, and optimizes LLMs and GenAI models
-      within customer environments. The role involves hands-on
-      work with RAG systems, vector databases, model serving
-      frameworks, and prompt engineering - all core AI/ML
-      implementation tasks rather than just supporting
-      infrastructure.
+      The FDE fine-tunes Gen AI models, designs RAG and vector
+      database architectures, and guides prompt engineering
+      patterns directly — all activities that shape model
+      behaviour and output quality. Forward Deployed Engineers who
+      adapt and deploy AI solutions at customer sites are ai-first
+      per the edge case rules. The work centers on LLMs and
+      generative AI components rather than classical ML.
   responsibilities:
-  - Deploy, fine-tune, and optimize large-scale GenAI models and LLM orchestration
+  - Deploy, fine-tune, and optimize large-scale Gen AI models and LLM orchestration
     frameworks within customer cloud environments
   - Architect scalable infrastructure for AI workloads utilizing GPU/TPU orchestration,
     high-performance storage, and low-latency networking
-  - Design and implement high-throughput data ingestion pipelines and Vector Database
+  - Design and implement high-throughput data ingestion pipelines and vector database
     architectures for Retrieval-Augmented Generation (RAG)
-  - Build agnostic, resilient cloud deployments across AWS, Azure, and GCP using Infrastructure
-    as Code
-  - Act as primary technical consultant guiding enterprise clients through AI safety,
-    prompt engineering patterns, and inference cost optimization
+  - Build agnostic, resilient multi-cloud deployments across AWS, Azure, and GCP using
+    Infrastructure as Code
+  - Act as the primary technical consultant guiding enterprise clients through AI
+    safety, prompt engineering patterns, and inference cost optimization
   - Feed edge-case deployment insights back to core AI research and platform engineering
     teams to improve product robustness
+  - Travel to client sites to lead high-stakes, on-site deployment sprints embedded
+    within customer engineering teams
   use_cases:
-  - Enterprise Generative AI solutions deployed across multi-cloud environments
-  - Large-scale LLM orchestration and fine-tuning for customer business applications
-  - Retrieval-Augmented Generation (RAG) systems with vector database architectures
-  - AI-powered data processing and insight generation for Fortune 500 analytics
-  - Production-grade AI safety and prompt engineering implementations
-  - High-throughput inference serving with cost optimization
+  - On-site deployment and scaling of enterprise Generative AI solutions at client
+    organizations
+  - Operationalizing LLMs and LLM orchestration frameworks across multi-cloud production
+    environments
+  - Retrieval-Augmented Generation (RAG) systems backed by vector databases and data
+    ingestion pipelines
+  - GPU/TPU-backed AI infrastructure for high-performance inference workloads
+  - Inference cost optimization and AI safety guidance for enterprise clients
   skills:
-    domains: []
+    cloud: [AWS, Azure, GCP, AWS Bedrock, SageMaker, Azure OpenAI, Vertex AI]
     languages: [Python, Go]
-    ml: [PyTorch, Hugging Face]
-    cloud: [AWS, AWS Bedrock, SageMaker, Azure, Azure OpenAI, GCP, Vertex AI]
-    genai: [LangChain, LlamaIndex, AutoGen, RAG, Prompt Engineering]
-    data: []
+    ml: [PyTorch, Hugging Face, Deep Learning, Machine Learning]
     other: []
-    ops: [vLLM, TGI, Triton, Kubernetes, Terraform, Infrastructure as Code]
+    ops: [vLLM, TGI, Triton, LLMOps, Kubernetes, Terraform, Infrastructure as Code]
+    databases: [Vector Databases, Milvus, Pinecone, Qdrant, Chrom, pgvector]
+    domains: []
     web: []
-    databases: [Milvus, Pinecone, Qdrant, Chroma, pgvector]
+    data: [Data Pipelines]
+    genai: [LangChain, LlamaIndex, AutoGen, RAG, Prompt Engineering, LLMs, Generative
+        AI, Fine-Tuning]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9400775'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:04:56.146228'
+  extracted_at: '2026-08-16T10:54:56.838013'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

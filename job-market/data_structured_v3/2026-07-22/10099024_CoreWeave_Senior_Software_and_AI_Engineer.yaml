@@ -1,0 +1,67 @@
+company:
+  name: CoreWeave
+  stage: 'Publicly traded (Nasdaq: CRWV), IPO March 2025'
+  focus: Cloud infrastructure and compute platform for AI
+position:
+  title: Senior Software and AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly designs and builds AI agents and copilots
+      using LLM frameworks (LangChain, LangGraph, ChatGPT/OpenAI
+      API, Glean API), which is shaping agent flows and model
+      behavior, not merely consuming an API or serving models
+      others built. LLM/agent components are central, making it
+      ai-first; GenAI coding assistants like Cursor and Copilot
+      are just supporting tooling.
+  responsibilities:
+  - Develop AI agents and applications using frameworks such as LangChain, LangGraph,
+    ChatGPT API, and Glean API
+  - Build internal AI agents and copilots for Finance, Billing, and Supply Chain,
+    integrating with ERP, HRIS, MRP, DCIM, and Data Warehouse systems natively or
+    via iPaaS platforms like Workato or Boomi
+  - Design and build first-party web and mobile applications using React and TypeScript
+  - Develop scalable backend services in Node.js and Go for data processing, orchestration,
+    and automation
+  - Implement APIs and microservices enabling modular and event-driven application
+    architectures
+  - Leverage GenAI tools (Cursor, Claude, Copilot, ChatGPT Codex) to accelerate development,
+    testing, and documentation
+  - Ensure robust observability, maintainability, and security across the application
+    stack
+  - Collaborate with Finance, Accounting, Security, and Engineering stakeholders to
+    design intelligent, user-centered workflows
+  use_cases:
+  - Internal AI agents and copilots automating Finance, Billing, and Supply Chain
+    tasks
+  - Intelligent automation integrated with enterprise systems (ERP, HRIS, MRP, DCIM,
+    Data Warehouse)
+  - First-party internal web and mobile applications with embedded AI capabilities
+  - Backend services for data processing, orchestration, and automation
+  - Intelligent, user-centered workflows for non-technical internal stakeholders
+  skills:
+    genai: [LangChain, LangGraph, OpenAI API, Glean API, Cohere, Gemini, AI Agents,
+      Generative AI, LLMs, Cursor, Claude, GitHub Copilot, Codex]
+    ml: [Machine Learning]
+    web: [React, Next.js, FastAPI, gRPC, REST APIs, Microservices]
+    databases: []
+    data: [Ray, Kafka, Spark, Data Engineering]
+    cloud: [AWS, Azure, GCP]
+    ops: [Kubernetes, CI/CD, DevOps, Observability]
+    languages: [TypeScript, Python, Go, C++, C#, Java, Node.js, Bash]
+    domains: []
+    other: [Workato, Boomi, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10099024'
+  location: Bellevue, USA
+  locations:
+  - Bellevue, USA
+  - New York, USA
+  - Livingston, USA
+  - Sunnyvale, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-16T16:57:26.161359'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

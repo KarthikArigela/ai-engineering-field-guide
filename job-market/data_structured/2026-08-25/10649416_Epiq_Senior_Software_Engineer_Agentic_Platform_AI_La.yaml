@@ -1,0 +1,51 @@
+company:
+  name: Epiq
+  stage: null
+  focus: Legal services technology and alternative legal services
+position:
+  title: Senior Software Engineer,  Agentic Platform, AI Labs
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs agent orchestration runtimes, RAG retrieval
+      layers, and evaluation infrastructure, directly shaping LLM
+      agent behavior and output quality. Clear ai-first.
+  responsibilities:
+  - Design the agentic platform used by other teams, including orchestration, tool
+    registration and permissioning, durable state and memory, sandboxing, and trace-level
+    observability
+  - Build agent workflows with multi-step reasoning, tool use, human-in-the-loop checkpoints,
+    and failure recovery for long-running executions
+  - Design RAG systems with hybrid search over legal corpora and citation grounding
+  - Build evaluation infrastructure including golden datasets, regression harnesses,
+    and offline and online evaluation loops
+  - Establish model-operations practices for routing, latency and cost budgets, prompt
+    and context versioning, caching, and production reliability
+  - Build scalable backend services and APIs and produce technical design documentation
+  - Partner with product, research, security, and legal domain experts
+  use_cases:
+  - Litigation and investigation workflows
+  - Legal compliance automation
+  - Corporate knowledge work agents
+  - Grounded retrieval with citations over legal corpora
+  - Agent orchestration platform for legal teams
+  skills:
+    genai: [LLMs, Agentic Workflows, RAG, AI Agents, Fine-Tuning, LLM Evaluation,
+      Prompt Engineering]
+    ml: []
+    web: [APIs]
+    databases: [Qdrant, Solr, PostgreSQL]
+    data: [RabbitMQ, Data Pipelines]
+    cloud: [Azure]
+    ops: [Kubernetes, Docker, Prometheus, Grafana, OpenTelemetry]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10649416'
+  location: New York, USA
+  extracted_at: '2026-08-25T11:06:11.512843'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

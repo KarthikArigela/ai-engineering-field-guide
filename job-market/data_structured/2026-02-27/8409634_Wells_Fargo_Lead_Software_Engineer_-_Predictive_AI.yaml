@@ -1,54 +1,54 @@
 company:
   name: Wells Fargo
-  stage: Public
+  stage: null
   focus: Financial services and banking
 position:
   title: Lead Software Engineer - Predictive AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an ai-first role as it requires hands-on experience
-      building Generative AI, RAG pipelines, and agentic AI
-      systems using frameworks like LangGraph, Crew AI, LangChain,
-      and Microsoft AutoGen. The role involves developing full-
-      stack agentic AI automations, from chat experiences to
-      multi-agent systems, with direct work on LLMs, prompt
-      engineering, and vector databases.
+      The role explicitly requires designing and building GenAI,
+      RAG pipelines, prompt engineering, and full-stack agentic AI
+      automations using LLM/agent frameworks (LangGraph, CrewAI,
+      AutoGen, LangChain), which is directly shaping LLM and agent
+      behavior. Classical ML frameworks and cloud/infra skills are
+      secondary, making this an ai-first engineering role.
   responsibilities:
-  - Lead complex technology initiatives with companywide impact including AI and automation
+  - Lead complex, companywide technology initiatives with broad impact
+  - Develop standards and companywide best practices for engineering large-scale technology
     solutions
-  - Design, code, test, debug, and document AI solutions including GenAI and agentic
-    systems
-  - Develop standards and companywide best practices for engineering complex and large-scale
-    AI technology solutions
-  - Review and analyze complex, large-scale AI technology solutions for strategic
-    business objectives
-  - Collaborate with technical experts and external industry groups to resolve complex
-    AI technical issues
-  - Lead projects and teams, serving as a peer mentor for AI and automation initiatives
+  - Design, code, test, debug, and document for projects and programs
+  - Review and analyze complex, large-scale technology solutions for tactical and
+    strategic business objectives
+  - Influence and lead technology teams to meet deliverables and drive new initiatives
+  - Collaborate with key technical experts, senior technology teams, and external
+    industry groups to resolve complex technical issues
+  - Build GenAI, RAG, and agentic AI automation solutions including multi-agent systems
+  - Lead projects, teams, and serve as a peer mentor
   use_cases:
-  - Agentic AI automations from chat experiences to multi-agent systems
-  - RAG (Retrieval Augmented Generation) pipelines for enterprise search and knowledge
-    retrieval
-  - Generative AI solutions for banking and financial services operations
-  - Enterprise-scale AI deployments and model migration projects
-  - AI-powered automation solutions for business process optimization
+  - Enterprise agentic AI automation for workflows
+  - Chat experiences powered by multi-agent systems
+  - RAG-based retrieval for enterprise knowledge systems
+  - Enterprise-scale AI deployment and model migration
+  - Companywide predictive AI technology initiatives
   skills:
-    domains: []
-    languages: [Python, Java, Bash, SQL]
+    cloud: [GCP, Azure, AWS, Vertex AI, Agentspace, Azure ML]
+    languages: [Java, Python, Bash, SQL]
     ml: [TensorFlow, PyTorch]
-    cloud: [Vertex AI, Azure ML, GCP, Azure]
-    genai: [LangGraph, CrewAI, AutoGen, LangChain, Chainlit, Generative AI, RAG, agentic
-        AI systems, LLMs, Prompt Engineering]
-    data: []
     other: []
-    ops: [Terraform, Ansible, GitHub Actions, Harness CD, Playwright, MLOps frameworks,
-      Docker, OpenShift, Crossplane]
-    web: []
+    ops: [Terraform, Crossplane, OpenShift, Ansible, Harness CD, GitHub Actions, MLOps,
+      Infrastructure as Code]
     databases: [NoSQL, Vector Databases]
+    domains: []
+    web: [Playwright]
+    data: []
+    genai: [Generative AI, RAG, LLMs, Prompt Engineering, AI Agents, Multi-Agent Systems,
+      MCP, A2A, LangGraph, CrewAI, AutoGen, LangChain, Chainlit]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8409634'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T11:53:23.331873'
+  extracted_at: '2026-08-16T01:09:23.180718'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

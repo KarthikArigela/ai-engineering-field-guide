@@ -1,54 +1,61 @@
 company:
   name: E.L.F. Beauty
-  stage: Public
-  focus: Beauty and cosmetics company with multiple brands
+  stage: null
+  focus: Multi-brand clean cosmetics and skincare company
 position:
   title: Lead, AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is hands-on building, deploying, and fine-tuning
-      AI systems including LLM-based applications, RAG patterns,
-      and ML models. The engineer will work directly with
-      foundation models, fine-tuning techniques (LoRA, QLoRA), and
-      multi-agent systems, not just supporting infrastructure for
-      others.
+      The role centers on building LLM-based applications with
+      prompt-driven architectures, RAG, vector databases, and LLM
+      fine-tuning (instruction tuning, LoRA, QLoRA) — all directly
+      shaping model behaviour and output quality. Classical ML
+      applications (recommendations, NLP, computer vision,
+      forecasting) are also present, but the substantial LLM-
+      shaping component makes it ai-first.
   responsibilities:
-  - Design and develop production-grade AI and machine learning models for real-world
-    applications including recommendation engines, NLP, computer vision, and forecasting
+  - Design and develop production-grade AI and machine learning models for applications
+    such as recommendation engines, NLP, computer vision, and forecasting
+  - Build LLM-based applications with prompt-driven architectures, RAG patterns, and
+    vector databases
   - Lead model lifecycle management from experimentation and prototyping to deployment
     and monitoring
-  - Collaborate with cross-functional teams to define AI-driven features and services
   - Perform feature engineering, data wrangling, and exploratory data analysis on
-    large-scale datasets
-  - Build and maintain scalable AI infrastructure using cloud services and MLOps best
-    practices
-  - Mentor junior AI/ML engineers in model development, evaluation, and deployment
-  - Continuously improve model performance by leveraging research, retraining, and
-    pipeline optimization
+    large-scale structured and unstructured datasets
+  - Build and maintain scalable AI infrastructure using cloud services (AWS, Azure,
+    GCP) and MLOps best practices
+  - Deploy and manage containerized services in AWS ECS with CloudWatch logging and
+    diagnostics
+  - Collaborate with cross-functional teams (product, data engineering, MLOps, business)
+    to define AI-driven features and services
+  - Mentor junior AI/ML engineers on model development, evaluation, and deployment
   use_cases:
-  - Recommendation engines for beauty products
+  - Recommendation engines
   - Natural language processing applications
-  - Computer vision systems
-  - Demand and sales forecasting
-  - LLM-based applications and AI assistants
-  - Multi-agent AI systems
+  - Computer vision applications
+  - Forecasting
+  - Enterprise AI-driven features and services
+  - LLM-based applications with retrieval-augmented generation
   skills:
-    domains: [NLP, Computer Vision]
+    cloud: [AWS, Azure, GCP, ECS, AWS Bedrock]
     languages: [Python]
-    ml: [PyTorch, TensorFlow, scikit-learn]
-    cloud: [AWS, Azure, GCP, AWS Bedrock, ECS]
-    genai: [LLM-based applications, Prompt Engineering, RAG, Multi-Agent Systems,
-      Fine-Tuning, LoRA, OpenAI API, Anthropic API]
-    data: []
+    ml: [Machine Learning, Deep Learning, Feature Engineering, Recommendation Systems,
+      Forecasting]
     other: []
-    ops: [AWS CloudWatch, CI/CD, Terraform, AWS CDK, MLOps]
-    web: [React]
-    databases: [Qdrant, AWS RDS, MySQL, MariaDB]
+    ops: [MLOps, CI/CD, Terraform, AWS CDK, CloudWatch, Model Deployment, Model Monitoring]
+    databases: [Vector Databases, Qdrant, AWS RDS, MySQL, MariaDB]
+    domains: [NLP, Computer Vision]
+    web: [React, APIs]
+    data: [Data Wrangling, Exploratory Data Analysis]
+    genai: [LLMs, RAG, Prompt Engineering, Fine-Tuning, LoRA, Multi-Agent Systems,
+      OpenAI API, Anthropic API]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '6832171'
   location: Ahmedabad, IND
   remote: true
-  extracted_at: '2026-03-03T12:18:31.096371'
+  extracted_at: '2026-08-15T23:44:13.034515'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

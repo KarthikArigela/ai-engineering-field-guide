@@ -1,56 +1,55 @@
 company:
   name: Disseqt AI
   stage: null
-  focus: Agentic AI systems and enterprise developer platforms
+  focus: |-
+    Agentic AI systems and enterprise developer platforms for
+    IT/DevOps teams
 position:
   title: Senior Platform & SRE Engineer (On-Prem & AI Systems)
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is focused on building and maintaining the
-      infrastructure platform (SRE, DevOps, on-prem deployments)
-      that supports AI/ML workloads, not on building or deploying
-      the models themselves. The engineer works NEAR AI by
-      enabling reliable, scalable environments for AI services,
-      but does not directly build, train, fine-tune, or deploy
-      models. AI/ML workload support is listed as "great-to-have,"
-      confirming it is secondary to the core platform/SRE
-      responsibilities.
+      This is a platform/SRE role that designs, deploys, and
+      operates the infrastructure hosting AI services built by
+      others. The person optimizes serving capacity (CPU-based
+      model serving) rather than shaping model behavior through
+      prompts, retrieval, or training, and there is no eval or
+      fine-tuning work. Per the serving edge case, hosting and
+      scaling models someone else builds is ai-support.
   responsibilities:
-  - Own end-to-end infrastructure architecture for cloud, hybrid, and on-prem deployments
-  - Ensure platform reliability through SLO/SLA definitions, incident response, and
-    postmortems
-  - Build and manage CI/CD pipelines, GitOps workflows, and automated release processes
+  - Own end-to-end infrastructure architecture for cloud and on-prem AI service deployments
+  - Design scalable, reproducible deployments for AI, ML, and microservice workloads
+  - 'Handle SRE duties: uptime, SLO/SLA definitions, incident response, and postmortems'
+  - Build CI/CD pipelines, GitOps workflows, and automated release processes
   - Implement observability stacks using OpenTelemetry, Prometheus, Grafana, and ELK
-  - Design security-first infrastructure with secrets management, IAM, isolation,
-    and least-privilege access
-  - Create reusable Terraform, Helm, and Ansible modules for reproducible deployments
-  - Orchestrate scalable deployments of AI, ML, and microservice workloads including
-    CPU-based model serving
-  - Collaborate with backend, ML, and product teams on platform architecture decisions
+  - Optimize platform performance, CPU-based model serving, and cost efficiency
+  - Create reusable Terraform, Helm, and Ansible automation modules
+  - Design security-first infrastructure with secrets management, IAM, and least-privilege
+    access
   use_cases:
-  - On-prem and hybrid AI system deployments for enterprise customers
-  - Reliable and secure hosting of agentic AI services
-  - Observability and monitoring of AI/ML platform infrastructure
-  - Cost-efficient CPU-based model serving in enterprise environments
-  - Streamlined compliance and operational efficiency for enterprise IT and DevOps
-    teams
+  - Enterprise AI deployments across cloud, hybrid, and fully on-prem environments
+  - Agentic AI systems and developer platforms for IT and DevOps teams
+  - Testing, monitoring, compliance, and operational efficiency for enterprise AI
+  - Scalable CPU-based model serving for AI/ML workloads
+  - Cloud and customer VPC deployment architectures
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
-    cloud: [EKS, Google GKE]
-    genai: []
-    data: []
-    other: [SOC2 Compliance]
-    ops: [Terraform, Helm, Kubernetes, Ansible, Docker, Prometheus, Grafana, OpenTelemetry,
-      ELK Stack, GitHub Actions, GitLab CI, ArgoCD, Linux, CPU-based model serving,
-      Networking]
-    web: []
+    cloud: [EKS, GKE, IAM]
+    languages: []
+    ml: [Machine Learning]
+    other: [SOC2 Compliance, Load Testing, Networking]
+    ops: [Kubernetes, Terraform, Helm, Ansible, CI/CD, GitOps, GitHub Actions, GitLab
+        CI, ArgoCD, Prometheus, Grafana, OpenTelemetry, ELK Stack, Docker, Linux,
+      Monitoring, Observability, Model Deployment]
     databases: [Vector Databases]
+    domains: []
+    web: [Microservices]
+    data: []
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9715583'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:48:01.973165'
+  extracted_at: '2026-08-16T14:31:51.245715'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

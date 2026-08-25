@@ -1,51 +1,53 @@
 company:
   name: Smartbridge
-  stage: Unknown
-  focus: IT consulting and AI-driven business solutions
+  stage: null
+  focus: Enterprise AI and digital solutions consulting
 position:
   title: Offshore - AI Solutions Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, training, fine-tuning,
-      and deploying AI/ML models including LLMs. The engineer
-      works hands-on with LangChain, OpenAI, Azure AI, NLP, and
-      prompt engineering to develop AI-driven solutions. The core
-      responsibility is creating and optimizing AI systems, not
-      just supporting infrastructure for others.
+      The role explicitly involves LLMs and prompt engineering for
+      AI-driven applications, plus designing, training, and fine-
+      tuning AI models - direct shaping of model behavior and
+      output quality. Since LLM and prompt-engineering components
+      are named (LangChain, OpenAI, prompt engineering), it is ai-
+      first rather than ml-first.
   responsibilities:
   - Develop and customize AI-driven solutions to enhance business workflows and automate
     processes
-  - Integrate AI services from providers such as Microsoft, OpenAI, and other leading
-    platforms into enterprise applications
+  - Integrate AI services from providers such as Microsoft and OpenAI into enterprise
+    applications
   - Design, train, and optimize AI models for predictive analytics, automation, and
     intelligent decision-making
-  - Implement NLP, ML, and automation models to improve user experiences
+  - Implement NLP, machine learning, and automation models to improve user experiences
   - Collaborate with business users and developers to define AI integration needs
     and solution requirements
   - Perform data preprocessing, feature engineering, and fine-tuning of AI models
   - Ensure AI models are secure, scalable, and optimized for performance
+  - Stay current on emerging AI tools, frameworks, and best practices
   use_cases:
-  - Business workflow automation and process enhancement
+  - Business workflow automation and process automation
   - Predictive analytics and intelligent decision-making
-  - Enterprise AI integration for industries like Oil & Gas, Healthcare, and Food
-    & Beverage
-  - Natural language processing and conversational AI applications
-  - Intelligent automation of business processes
+  - Text and conversation modeling to improve user experiences
+  - AI integration into enterprise applications
+  - Industry solutions for Oil & Gas, Healthcare, and Food & Beverage
   skills:
-    domains: [NLP]
-    languages: [Python, R, SQL]
-    ml: [Machine Learning, Data Preprocessing, Feature Engineering]
-    cloud: [Azure AI, AWS AI, Google Cloud AI]
-    genai: [LangChain, OpenAI API, Prompt Engineering, LLMs]
-    data: [Power Query, Data Pipelines]
+    cloud: [Azure AI, AWS, GCP]
+    languages: [Python, R]
+    ml: [Machine Learning, Feature Engineering]
     other: [Power Automate, Agile]
     ops: [Git, DevOps]
+    databases: [SQL]
+    domains: [NLP]
     web: []
-    databases: []
+    data: [Power Query, Data Pipelines, Data Preprocessing]
+    genai: [LangChain, OpenAI API, LLMs, Prompt Engineering, Fine-Tuning]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9102554'
   location: Hyderabad, IND
-  extracted_at: '2026-04-22T13:44:38.357042'
+  extracted_at: '2026-08-16T08:03:39.217454'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

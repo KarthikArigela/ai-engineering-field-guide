@@ -1,62 +1,65 @@
 company:
   name: SambaSafety
-  stage: Private
-  focus: Driver monitoring and safety risk management software
+  stage: null
+  focus: Driver monitoring and road safety risk software
 position:
   title: Senior Business Intelligence Engineer- AI-Driven Analytics
   ai_type:
     type: ai-support
     reasoning: |-
-      This role is primarily a BI/analytics engineer that uses AI
-      tools to accelerate development (Claude Code, GitHub
-      Copilot, ChatGPT) and builds AI-ready data foundations
-      (semantic layers, metadata) for AI agents to consume. The
-      role does not involve building, training, fine-tuning, or
-      deploying ML models or LLMs directly — it enables AI-driven
-      analytics through data quality, semantic modeling, and BI
-      dashboard work. The candidate prototypes GenAI use cases but
-      partners with data science/engineering teams to
-      productionize model outputs rather than building the models
-      themselves.
+      The core deliverables are BI dashboards, semantic layers,
+      OpenMetadata cataloging, and data quality governance; AI
+      appears mainly as tooling (Claude Code/Copilot/ChatGPT in
+      the dev workflow) and as LLM API integrations the person
+      consumes. Building AI-ready metadata and semantic views for
+      NL-to-SQL agents is data plumbing that others' agents
+      consume, and validating AI-generated outputs is QA oversight
+      rather than shaping model behavior, so the role does not
+      shape model output quality itself.
   responsibilities:
   - Design and build AI-augmented dashboards and self-service analytics experiences
-    using Power BI and Looker, including natural-language query interfaces
+    in Power BI and Looker, including natural-language query interfaces backed by
+    Semantic Views
   - Use AI-assisted development tools (Claude Code, GitHub Copilot, ChatGPT) daily
     to accelerate SQL development, dashboard scaffolding, testing, and documentation
   - Prototype and evaluate GenAI use cases such as automated insight generation, anomaly
-    narratives, and AI-written executive summaries
-  - Build and maintain AI-ready metadata in OpenMetadata that powers natural-language-to-SQL
-    agents and AI query tools
-  - Define, monitor, and enforce data quality rules to ensure AI-generated outputs
-    are built on trusted data
+    narratives, and AI-written executive summaries to reduce manual reporting effort
+  - Build and maintain AI-ready metadata and certified lineage in OpenMetadata to
+    power natural-language-to-SQL agents and other AI query tools
+  - Guide engineering teams on Semantic View design and define, monitor, and enforce
+    data quality rules so AI-generated outputs rest on trusted data
   - Partner with data engineering and data science to productionize forecasting, anomaly
     detection, and clustering outputs into BI dashboards
-  - Guide engineering teams on Semantic View design so business terms map cleanly
-    to underlying tables for human and AI consumption
-  - Present insights to stakeholders up to the C-suite, translating technical AI/analytics
-    outputs into actionable business recommendations
+  - Write Python for advanced analysis, automation, and integration with LLM/AI APIs
+    where SQL and point-and-click BI tools fall short
+  - Translate AI-driven and traditional analytics findings into reports and presentations
+    for stakeholders up to the C-suite
   use_cases:
-  - Natural-language-to-SQL analytics for business users and AI agents
-  - Automated insight generation and AI-written executive summaries from BI data
-  - Anomaly detection narratives and forecasting integration into dashboards
-  - Self-service analytics with semantic layer abstraction over Snowflake data
-  - Driver safety risk monitoring and analytics powered by data insights
+  - AI-augmented dashboards and self-service analytics for business users
+  - Natural-language querying of governed data via Semantic Views and NL-to-SQL agents
+  - Automated insight generation, anomaly narratives, and AI-written executive summaries
+    to reduce manual reporting effort
+  - Productionizing forecasting, anomaly detection, and clustering outputs into actionable
+    BI dashboards
+  - Driver monitoring and road safety risk analytics built on trusted data
   skills:
-    genai: [Claude Code, GitHub Copilot, ChatGPT, Prompt Engineering, LLMs, RAG, Generative
-        AI]
-    ml: [Anomaly Detection, Forecasting]
-    web: []
-    databases: [Snowflake, NoSQL]
-    data: [OpenMetadata, ETL, Data Governance, Data Pipelines]
     cloud: []
-    ops: []
     languages: [SQL, Python]
+    ml: [Machine Learning, Forecasting, Anomaly Detection, Clustering]
+    other: [Power BI, Looker, Semantic Views, OpenMetadata, Atlan, Redash]
+    ops: []
+    databases: [Snowflake, NoSQL]
     domains: []
-    other: [Power BI, Looker, Semantic Views, Data Quality, Redash, Tableau]
+    web: []
+    data: [Data Pipelines, Data Quality, Data Governance]
+    genai: [Claude Code, GitHub Copilot, ChatGPT, Prompt Engineering, RAG, AI Agents,
+      LLMs, Generative AI, Natural Language to SQL]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10298902'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:40:26.686944'
+  extracted_at: '2026-08-16T18:39:32.889099'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

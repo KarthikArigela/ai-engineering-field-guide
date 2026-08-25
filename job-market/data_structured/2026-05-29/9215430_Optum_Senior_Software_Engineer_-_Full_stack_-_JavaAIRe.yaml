@@ -1,53 +1,53 @@
 company:
   name: Optum
-  stage: Public
-  focus: |-
-    Healthcare technology and services delivering care and
-    optimizing health outcomes
+  stage: null
+  focus: Healthcare technology, care delivery, and pharmacy benefits
 position:
   title: Senior Software Engineer - Full stack - Java/AI/React
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This is a full-stack software engineering role that USES AI
-      tools (Copilot, Einstein GPT) to assist with development
-      tasks like code generation and creating custom skills,
-      rather than building, training, or deploying AI models. The
-      role focuses on developing custom applications with Java,
-      Spring Boot, and React, and using AI tools as productivity
-      aids - which is working NEAR AI, not ON AI systems.
+      The role explicitly builds custom Copilot skills using
+      Copilot Builder, Prompt Builder, and Model Builder in
+      Einstein 1 Studio, which means writing prompts and designing
+      agent/LLM behaviour for a business-facing assistant — that
+      is shaping. While most of the role is full-stack Java/React
+      and Salesforce platform development, the prompt- and agent-
+      building responsibility (not merely using Copilot to write
+      code) makes it ai-first.
   responsibilities:
   - Design, code, test, and implement custom applications using Java, Python, Spring
     Boot, and platform tools
   - Develop interactive UIs with Visualforce and Lightning Web Components
-  - Build tailored business solutions using low-code and no-code capabilities when
-    appropriate
+  - Build tailored business solutions using low-code and no-code capabilities
   - Create custom objects, fields, workflows, automation, and system configurations
   - Use AI tools like Copilot to generate code, improve existing logic, auto create
     test classes, and scan for vulnerabilities
   - Build custom Copilot skills using Copilot Builder, Prompt Builder, and Model Builder
     in Einstein 1 Studio
   use_cases:
-  - Code generation and automation using AI Copilot tools
-  - Healthcare application development for care delivery and pharmacy benefits
-  - Custom business solution development with low-code/no-code platforms
-  - Vulnerability scanning and test class automation
-  - Custom AI skill building for Copilot assistants
+  - Custom healthcare applications supporting care, pharmacy benefits, and data services
+  - Interactive business application UIs on the Salesforce platform
+  - AI-assisted code generation, test class creation, and vulnerability scanning
+  - Custom AI copilot skills and prompts for business workflows via Einstein 1 Studio
   skills:
-    domains: []
-    languages: [Java, Python, JavaScript]
-    ml: []
     cloud: [Azure]
-    genai: [Einstein GPT, GitHub Copilot, Prompt Builder]
-    data: [Data Modeling]
-    other: []
+    languages: [Java, Python, JavaScript, Node.js]
+    ml: []
+    other: [Automated Testing, Low-Code/No-Code]
     ops: [Git, CI/CD]
-    web: [Spring Boot, HTML, CSS, React, jQuery, Angular, Node.js, Visualforce, Lightning
-        Web Components]
     databases: []
+    domains: []
+    web: [Spring Boot, React, Angular, jQuery, HTML, CSS, Visualforce, Lightning Web
+        Components, APIs]
+    data: [Data Modeling]
+    genai: [GitHub Copilot, Einstein GPT, Copilot Builder, Prompt Builder, Model Builder,
+      Einstein 1 Studio]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9215430'
   location: Hyderabad, IND
-  extracted_at: '2026-05-29T08:56:18.503608'
+  extracted_at: '2026-08-16T09:32:41.419504'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

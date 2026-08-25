@@ -1,52 +1,51 @@
 company:
   name: Capital One
-  stage: Public
-  focus: |-
-    Banking and financial services with AI/ML-driven customer
-    experiences
+  stage: null
+  focus: Consumer banking and financial services leveraging AI/ML
 position:
   title: Lead AI Engineer (FM Hosting, LLM Inference)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on building and optimizing
-      foundational AI systems at Capital One, including foundation
-      model training, LLM inference, and deploying state-of-the-
-      art LLM optimization techniques. The engineer works hands-on
-      with models, training, inference, and production AI
-      infrastructure — clearly placing this in the ai-first
-      category.
+      Although the title emphasizes FM hosting, the
+      responsibilities explicitly include foundation model
+      training, building guardrails, model evaluation, and
+      inventing LLM optimization techniques to improve inference -
+      all of which shape model behaviour and output quality rather
+      than merely serving capacity. LLMs are the shaping target,
+      so this is ai-first.
   responsibilities:
-  - Partner with cross-functional teams to deliver AI-powered products for associates
-    and customers
+  - Partner with a cross-functional team of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
   - Design, develop, test, deploy, and support AI software components including foundation
-    model training, LLM inference, similarity search, guardrails, and model evaluation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    experimentation, governance, and observability
+  - Leverate open source and SaaS AI technologies such as AWS Ultraclusters, Hugging
+    Face, vector databases, NeMo Guardrails, and PyTorch
   - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
-    cost, latency, and throughput of production AI systems
-  - Leverage Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
-    VectorDBs, NeMo Guardrails, and PyTorch
+    cost, latency, and throughput of large-scale production AI systems
   - Contribute to the technical vision and long-term roadmap of foundational AI systems
     at Capital One
-  - Build and deploy proprietary AI solutions that deliver value to millions of customers
-  - Implement governance, observability, and experimentation frameworks for AI systems
   use_cases:
-  - Real-time personalized customer experiences in banking
-  - Informing customers about unusual charges using AI
-  - Answering customer questions in real time via LLM-powered systems
-  - Enhancing internal products with AI for associate productivity
-  - Scalable foundation model hosting and LLM inference serving for enterprise AI
-  - Similarity search and retrieval-augmented AI applications
+  - Large-scale foundation model hosting and LLM inference for production AI systems
+  - AI-powered products that change how associates work and how customers interact
+    with Capital One
+  - Real-time personalized banking experiences, such as alerting customers to unusual
+    charges and answering questions in real time
+  - Foundational AI platform enabling teams across Capital One to enhance products
+    with AI in a responsible and scalable way
   skills:
-    domains: []
-    languages: [Python, Go, Java, Scala, C++, C#]
-    ml: [Foundation Model Training, PyTorch, Hugging Face, LLM Optimization]
     cloud: [AWS, AWS Ultraclusters, GCP, Azure]
-    genai: [LLM Inference, Similarity Search, Guardrails, Prompt Engineering]
-    data: []
+    languages: [Python, Java, Go, Scala, C++, C#]
+    ml: [PyTorch, Hugging Face, Foundation Model Training, Model Evaluation, Machine
+        Learning]
     other: []
-    ops: [Model Evaluation, Observability, Experimentation]
+    ops: [Model Deployment, Observability]
+    databases: [Vector Databases, Vector Search]
+    domains: []
     web: []
-    databases: [Vector Databases]
+    data: []
+    genai: [Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
@@ -57,4 +56,6 @@ meta:
   - San Jose, USA
   - New York, USA
   - Cambridge, USA
-  extracted_at: '2026-05-29T08:46:55.348610'
+  extracted_at: '2026-08-16T08:37:23.949617'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,52 +1,58 @@
 company:
   name: KKR
-  stage: Public
-  focus: Global investment and asset management
+  stage: null
+  focus: |-
+    Global alternative asset management, capital markets, and
+    insurance firm
 position:
   title: Principal Data Engineer (Python, Snowflake, AWS & DBT) - AI, Data & Platforms
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role focused on building data
-      pipelines, ETL/ELT workflows, and data platforms. While the
-      role supports advanced data science use cases and the
-      broader team does R&D on GenAI, this position itself does
-      not involve building, training, or deploying AI/ML models —
-      it enables them through data infrastructure.
+      The role is a pure data engineering position: designing
+      pipelines, ETL/ELT with dbt, data modeling, and governance
+      for analytics and data science consumers. It does not shape
+      any model's behavior — no prompts, retrieval, training, or
+      evals appear in the responsibilities; Generative AI is
+      mentioned only as broader team context. Per Step 3, no
+      shaping means ai-support.
   responsibilities:
   - Design, develop, and maintain robust data pipelines for batch and real-time processing
   - Build and manage data ingestion frameworks from multiple structured and unstructured
     data sources
-  - Develop and optimize ETL/ELT workflows using dbt with modular, tested, and version-controlled
-    transformations
+  - Develop and optimize ETL/ELT workflows with modular, tested, version-controlled
+    dbt transformations
   - Ensure data quality, integrity, availability, and security across platforms
   - Collaborate with analytics, data science, and product teams to understand data
     requirements
-  - Model data for analytics and reporting using dimensional modeling and star/snowflake
-    schemas
+  - Model data for analytics and reporting using dimensional modeling (star/snowflake
+    schemas)
   - Monitor and troubleshoot data pipelines and resolve performance or reliability
     issues
   - Implement best practices for data governance, documentation, and lineage
   use_cases:
-  - Scalable data pipelines enabling analytics and reporting across the firm
-  - Data ingestion and transformation for advanced data science use cases
-  - Democratization of data through modern data and collaboration platforms
-  - Supporting Generative AI based tools and services with reliable data infrastructure
+  - Analytics and reporting enablement across the firm
+  - Advanced data science use cases supported by production-ready data
+  - Batch and real-time data processing from structured and unstructured sources
+  - Enterprise data warehousing and lakehouse platform
+  - Data governance, documentation, and lineage tracking
   skills:
-    domains: [Asset management domain]
-    languages: [Python, Java, Scala, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: []
-    data: [Spark, Flink, Airflow, Dagster, dbt, Kafka, Kinesis, Databricks, Dimensional
-        modeling, Data Pipelines]
-    other: []
-    ops: [Docker, Kubernetes, Git, CI/CD]
+    languages: [Python, SQL, Java, Scala]
+    ml: []
+    other: [Agile, Asset Management]
+    ops: [Git, CI/CD, Data Observability]
+    databases: [Snowflake, BigQuery, Redshift, Relational Databases, NoSQL]
+    domains: []
     web: []
-    databases: [Snowflake, BigQuery, Redshift, PostgreSQL, MySQL, MongoDB, Redis]
+    data: [dbt, Data Pipelines, Spark, Flink, Airflow, Dagster, Databricks, Kafka,
+      Kinesis, Data Modeling, Dimensional Modeling, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9642381'
   location: Gurugram, IND
-  extracted_at: '2026-06-25T19:48:07.802679'
+  extracted_at: '2026-08-16T13:30:57.785442'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

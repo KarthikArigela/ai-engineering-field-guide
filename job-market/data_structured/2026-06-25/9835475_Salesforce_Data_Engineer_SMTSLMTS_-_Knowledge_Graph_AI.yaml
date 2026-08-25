@@ -1,56 +1,57 @@
 company:
   name: Salesforce
-  stage: Public
-  focus: AI-powered enterprise CRM and cloud software
+  stage: null
+  focus: AI CRM and enterprise cloud software
 position:
   title: Data Engineer (SMTS/LMTS) - Knowledge Graph & AI
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying RAG architectures,
-      semantic routing frameworks with embeddings, vector search
-      platforms, and agentic workflows directly on a Knowledge
-      Graph platform that powers AI-driven experiences. While it
-      includes data engineering and graph engineering work, the
-      core mandate is building AI-powered infrastructure (semantic
-      routing, RAG, vector search, agentic workflows) making it an
-      ai-first role.
+      Although titled Data Engineer, the role hands-on designs
+      semantic routing frameworks, RAG architectures, vector
+      search, and agentic workflows — directly shaping retrieval
+      and how LLMs access and act on knowledge. Building ingestion
+      pipelines alone would be ai-support, but this person writes
+      the routing and retrieval layer themselves (Python,
+      LangChain, embeddings), and LLM/agent components are
+      central, making it ai-first.
   responsibilities:
-  - Design and implement scalable Enterprise Knowledge Graph platform components with
-    focus on performance, reliability, and data integrity
-  - Develop graph data models, write complex graph queries, and construct data pipelines
-    to map structured and unstructured data to enterprise ontologies
-  - Build and maintain Python-based semantic routing frameworks to parse, classify,
-    and dynamically direct queries to knowledge graph indexes or vector databases
-  - Integrate and leverage AI-powered developer tools and automation platforms using
-    Claude, Cursor, Windsurf, AI Agents, and MCP frameworks
-  - Build scalable data pipelines to ingest, transform, and orchestrate structured
-    and unstructured data into graph-based platforms mapped to enterprise ontologies
-  - Own technical execution of platform features from concept through design, coding,
-    testing, and production deployment
-  - Provide technical mentorship to engineers and participate in code reviews ensuring
-    engineering standards
-  - Collaborate cross-functionally with Principal Engineers, Product Managers, and
-    Data Engineering teams to deliver features aligned with enterprise AI priorities
+  - Build and scale core Enterprise Knowledge Graph platform components with focus
+    on performance, data throughput, reliability, and data integrity
+  - Develop graph data models, complex graph queries, and scalable data pipelines
+    mapping structured and unstructured data to enterprise ontologies and taxonomies
+  - Write and maintain Python-based semantic routing frameworks that parse, classify,
+    and direct queries to appropriate knowledge graph indexes or vector databases
+  - Design semantic layers, entity resolution frameworks, graph APIs, and vector search
+    capabilities supporting advanced RAG and agentic workflows
+  - Build, integrate, and optimize AI-powered developer tools and engineering automation
+    platforms using Claude, Cursor, Windsurf, AI Agents, and MCP frameworks
+  - Own technical execution of platform features from design and coding through testing
+    and production deployment
+  - Provide technical mentorship, code reviews, and design guidance to engineers across
+    levels
+  - Collaborate with Principal Engineers, Product Management, Ontology experts, and
+    Data Engineering teams on enterprise AI priorities
   use_cases:
-  - Enterprise knowledge graph platform powering AI-driven experiences across Salesforce
-  - Agentic applications and workflows leveraging semantic search and entity resolution
-  - RAG-based retrieval and semantic routing for enterprise data discovery
-  - Intelligent decision-making through ontology-driven knowledge representation
-  - AI-powered developer tooling and engineering automation to improve productivity
+  - Enterprise Knowledge Graph platform powering AI-driven experiences across Salesforce
+  - Semantic search and enterprise data discovery
+  - Agentic AI applications and intelligent decision-making across the enterprise
+  - Graph-powered RAG and query routing for knowledge retrieval
+  - AI-assisted developer productivity and engineering automation
   skills:
-    domains: []
-    languages: [Python, SQL]
-    ml: []
     cloud: [AWS, GCP, Azure]
-    genai: [LangChain, RAG, AI Agents, MCP, Prompt Engineering, Semantic Routing,
-      Vector Search, Anthropic API, GitHub Copilot]
-    data: [Kafka, ETL/Data Pipelines]
-    other: [Cursor, Windsurf, Protege, TopQuadrant, Salesforce Data Cloud, Knowledge
-        Graphs, Ontology Engineering]
-    ops: []
-    web: [REST APIs, gRPC, Microservices]
-    databases: [Neo4j, RDF/OWL, SPARQL, SHACL, Property Graphs]
+    languages: [Python]
+    ml: []
+    other: [RDF/OWL, SHACL, Protégé, TopQuadrant, Semantic Web, Cosine Similarity,
+      Event-Driven Architecture, Salesforce Data Cloud, Code Review]
+    ops: [Distributed Systems]
+    databases: [Knowledge Graphs, Graph Databases, Neo4j, Vector Databases, Vector
+        Search, SPARQL, Property Graphs]
+    domains: []
+    web: [Microservices, REST APIs, gRPC]
+    data: [Data Pipelines, Kafka, Entity Resolution]
+    genai: [RAG, Agentic Workflows, AI Agents, LangChain, Embeddings, Semantic Search,
+      Semantic Router, LLMs, Anthropic API, Cursor, Windsurf, GitHub Copilot, MCP]
   is_customer_facing: false
   is_management: false
 meta:
@@ -61,4 +62,6 @@ meta:
   - Seattle, USA
   - Indianapolis, USA
   - San Francisco, USA
-  extracted_at: '2026-06-25T19:54:40.667075'
+  extracted_at: '2026-08-16T15:18:54.075193'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

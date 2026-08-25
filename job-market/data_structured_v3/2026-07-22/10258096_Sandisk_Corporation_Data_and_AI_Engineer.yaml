@@ -1,0 +1,60 @@
+company:
+  name: Sandisk Corporation
+  stage: null
+  focus: Flash memory and data storage technology and devices
+position:
+  title: Data and AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM output quality by designing RAG
+      pipelines, embeddings/vector retrieval, and prompt
+      engineering for Azure OpenAI, Bedrock, and Copilot
+      solutions, which satisfies Step 1. Step 2: an LLM/generative
+      component is explicitly involved, so ai-first (the classical
+      ML model work is secondary but would not change the result).
+  responsibilities:
+  - Design, build, and maintain scalable ETL/ELT pipelines ingesting structured and
+    unstructured data from SAP S/4HANA, Oracle, Salesforce, and third-party APIs into
+    enterprise data lakes/lakehouses
+  - Develop and optimize data products using medallion architecture on Databricks
+  - Implement data quality, lineage, and governance controls using tools such as Purview,
+    Alation, or Unity Catalog
+  - Build, deploy, and monitor ML models for classification, regression, forecasting,
+    and anomaly detection
+  - Develop GenAI and LLM-powered solutions including RAG pipelines, embeddings, vector
+    databases, and prompt engineering for Copilot, Azure OpenAI, and Bedrock
+  - Operationalize models through MLOps practices including CI/CD for ML, model versioning,
+    drift monitoring, and automated retraining
+  - Deploy and manage data/AI workloads on Azure, AWS, or GCP using services like
+    ADF, Databricks, Glue, Lambda, Functions, and Kubernetes
+  use_cases:
+  - Enterprise data lake and lakehouse ingestion from ERP, CRM, and API sources
+  - Supply chain, procurement, and logistics analytics including spend analysis, demand
+    forecasting, and supplier risk
+  - GenAI assistants and copilots grounded in enterprise data via RAG
+  - ML-driven forecasting and anomaly detection on business data
+  - Governed data products with quality, lineage, and catalog controls
+  skills:
+    genai: [Generative AI, LLMs, RAG, Embeddings, Prompt Engineering, Azure OpenAI,
+      AWS Bedrock, Copilot Studio, AI Agents]
+    ml: [Machine Learning, scikit-learn, TensorFlow, PyTorch, Anomaly Detection, Model
+        Training]
+    web: [APIs]
+    databases: [Pinecone, Vector Databases, Azure AI Search, Oracle]
+    data: [ETL, Databricks, PySpark, Data Governance, Azure Data Factory, AWS Glue,
+      Change Data Capture, Data Lakes, Medallion Architecture]
+    cloud: [Azure, AWS, GCP, Azure ML, SageMaker, Vertex AI, AWS Lambda, Azure Functions]
+    ops: [MLOps, CI/CD, MLflow, Kubernetes, Model Monitoring, Model Deployment]
+    languages: [Python]
+    domains: []
+    other: [SAP S/4HANA, Salesforce, Microsoft Purview, Alation, Unity Catalog, IDoc,
+      OData]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10258096'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T18:14:13.994842'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

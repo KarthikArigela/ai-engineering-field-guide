@@ -1,0 +1,65 @@
+company:
+  name: Sophos
+  stage: null
+  focus: AI-driven cybersecurity platform and managed services
+position:
+  title: Senior Software Engineer (AI and Networking)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role builds production LLM agents (multi-agent
+      orchestration, tool integrations, MCP servers), designs
+      evaluation frameworks and regression safeguards for LLM-
+      based systems, and fine-tunes models (LoRA, QLoRA, SFT, DPO)
+      — all direct shaping of model behaviour and output quality.
+      Since LLMs and agents are the core of the Firewall Assistant
+      product, this is ai-first.
+  responsibilities:
+  - Build the AI-powered Firewall Assistant that interprets natural language queries,
+    delivers intelligent recommendations, and automates firewall operations
+  - Develop and deploy production-grade agents using frameworks such as LangGraph,
+    Claude Agent SDK, OpenAI Agents, and Pydantic-AI, including tool integrations,
+    MCP servers, and multi-agent orchestration
+  - Design and own end-to-end distributed systems covering APIs, data models, caching,
+    queuing, failure handling, and scalability
+  - Build evaluation frameworks, tracing mechanisms, and regression safeguards for
+    LLM-based systems
+  - Improve cost efficiency and reliability through prompt caching, KV-cache optimization,
+    model routing, and context engineering
+  - Fine-tune models (e.g., LoRA, QLoRA, SFT, DPO) for real-world firewall use cases
+    with measurable quality improvements
+  - Deploy solutions across AWS cloud, on-premises, and hybrid environments using
+    infrastructure as code, observability, and safe rollout practices
+  - Implement safety mechanisms for agent-driven actions such as approvals, dry runs,
+    blast-radius control, and audit trails
+  use_cases:
+  - Conversational firewall management via natural language queries
+  - Intelligent recommendations for firewall configuration and network security operations
+  - Automation of firewall operations for router and switch mode deployments
+  - Safe agent-driven actions with approvals, dry runs, blast-radius control, and
+    audit trails
+  - Enterprise-grade security and compliance in an AI assistant experience
+  - Cost-efficient and reliable LLM serving at scale in cloud and hybrid environments
+  skills:
+    genai: [LangGraph, Claude Agent SDK, OpenAI Agents, Pydantic-AI, MCP, FastMCP,
+      Agentic Workflows, LLM Evaluation, Context Engineering, Prompt Caching, Model
+        Routing, LoRA, QLoRA, Fine-Tuning]
+    ml: [SFT, DPO]
+    web: [FastAPI, APIs]
+    databases: []
+    data: []
+    cloud: [AWS]
+    ops: [Temporal, Infrastructure as Code, Observability, Distributed Systems, KV-Cache
+        Optimization]
+    languages: [Python, Go, Java]
+    domains: []
+    other: [Pydantic]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9188911'
+  location: IND
+  remote: true
+  extracted_at: '2026-08-16T12:35:47.554054'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,58 +1,56 @@
 company:
   name: Inari Medical
-  stage: Public
-  focus: Medical device technology for surgery and intervention
+  stage: null
+  focus: |-
+    AI-powered medical devices and surgical healthcare
+    technology
 position:
   title: Senior AI Deployment Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI deployment role involving direct work
-      with models including optimization for real-time inference,
-      deploying LLMs and GenAI features, and implementing multi-
-      agentic AI frameworks. The engineer builds, optimizes, and
-      deploys AI systems (CV, multimodal, LLMs) across cloud and
-      edge platforms, which qualifies as ai-first rather than
-      support.
+      The role requires optimizing model internals themselves -
+      quantization, pruning, ONNX Runtime, TensorRT, OpenVINO,
+      CoreML - to meet latency targets, which is shaping rather
+      than pure serving, and also involves deploying GenAI/LLM and
+      multi-agent microservices. Since LLM/generative components
+      are involved alongside computer vision models, Step 2 yields
+      ai-first.
   responsibilities:
   - Develop and deploy AI-powered software on cloud and edge devices including iPhone,
-    iPad, Vision Pro, Android, and NVidia devices
+    iPad, Vision Pro, Android, and NVIDIA devices
   - Optimize AI/ML models and pipelines for real-time inference on edge devices to
     meet latency and performance requirements
-  - Build containerized AI services using Docker and orchestrate deployments across
-    platforms
+  - Build containerized AI services and orchestrate their deployments
   - Deploy and maintain real-time microservices for AI applications including GenAI
-    applications
-  - Work with MLOps and AI security platform team to support continuous integration,
-    testing, and monitoring of AI models
-  - Design deployment evaluation frameworks and develop unit tests for software components
-    in compliance with regulatory requirements
-  - Perform software verification and validation testing along with code reviews following
-    best coding standards
+    apps
+  - Support continuous integration, testing, and monitoring of AI models together
+    with MLOps and AI security platform teams
+  - Design deployment evaluation frameworks and develop unit tests in compliance with
+    regulatory requirements
   - Generate and review necessary documentation with project teams
+  - Perform software verification and validation testing and independent code reviews
   use_cases:
-  - Computer vision applications for medical device products in surgical and healthcare
-    settings
-  - Augmented reality and mixed reality interfaces for operating room navigation and
-    guidance
-  - Generative AI features including LLMs for clinical decision intelligence and treatment
-    selection
-  - Multi-modal AI systems for image-guided surgery and outcome assessment
-  - Real-time AI inference on edge devices for surgical robotics and operating room
-    safety
-  - Multi-agentic AI frameworks for orchestrating complex clinical workflows
+  - Computer vision, augmented reality, mixed reality, and multimodal AI models in
+    medical device products
+  - GenAI features embedded into existing and new medical devices
+  - Surgical robotics and navigation
+  - Image-guided surgery and treatment selection
+  - Outcome assessment and clinical decision intelligence
+  - Operating room safety and efficiency across orthopedics, neurosurgery, and emergency
+    care
   skills:
-    domains: [Computer Vision, augmented reality, mixed reality, multi-modal AI]
+    cloud: [Azure, GCP, AWS]
     languages: [Python, C++]
-    ml: [model optimization, real-time inference, Quantization, pruning]
-    cloud: [AWS, Azure, GCP]
-    genai: [Generative AI, LLMs, multiagent systems]
-    data: []
-    other: []
-    ops: [ONNX Runtime, TensorRT, OpenVINO, CoreML, Docker, Kubernetes, CI/CD, MLOps,
-      Git, Prometheus, Grafana, Azure Monitor]
-    web: [Microservices]
+    ml: [Quantization, Pruning, Model Optimization, Multimodal AI]
+    other: [Augmented Reality, Mixed Reality, ISO 13485, IEC 62304, ISO 14971]
+    ops: [Docker, Kubernetes, CI/CD, Git, MLOps, ONNX Runtime, TensorRT, OpenVINO,
+      CoreML, Prometheus, Grafana, Azure Monitor]
     databases: []
+    domains: [Computer Vision]
+    web: [Microservices]
+    data: []
+    genai: [LLMs, Generative AI, Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
@@ -71,4 +69,6 @@ meta:
   - Lyon, FRA
   - Freiburg im Breisgau, DEU
   - Pusignan, FRA
-  extracted_at: '2026-02-05T12:54:29.306265'
+  extracted_at: '2026-08-15T23:22:02.562207'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

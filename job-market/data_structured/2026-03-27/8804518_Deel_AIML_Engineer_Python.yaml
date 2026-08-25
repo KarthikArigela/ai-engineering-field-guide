@@ -1,52 +1,52 @@
 company:
   name: Deel
-  stage: Late-stage (valued at $17.3B with $1B ARR)
-  focus: |-
-    Global payroll and HR platform with AI-powered tools for
-    international teams
+  stage: null
+  focus: Global payroll and HR platform for international teams
 position:
   title: AI/ML Engineer, Python
   ai_type:
-    type: ai-first
+    type: ml-first
     reasoning: |-
-      This role involves developing and maintaining AI/ML
-      algorithms, building and deploying AI models, and
-      implementing research in NLP, text processing, and machine
-      learning. The position requires hands-on work with AI models
-      in production environments and specifically mentions
-      delivering AI/ML solutions within a product.
+      The role shapes model behaviour by developing AI/ML
+      algorithms and building/deploying AI models, with hands-on
+      experience explicitly in information retrieval, text
+      processing, NLP, and machine learning. No LLM, prompt
+      engineering, RAG, or agent components are named anywhere, so
+      the shaped models are classical ML/NLP, making this ml-
+      first.
   responsibilities:
   - Develop and maintain AI and machine learning algorithms using Python
-  - Build and deploy scalable, reliable, and efficient AI models using cloud computing
-    platforms
   - Create and maintain data pipelines and ETL processes to extract, transform, and
     load data from various sources
-  - Collaborate with cross-functional teams including data scientists, data engineers,
-    Product and business stakeholders to develop solutions
-  - Write clean and efficient code implementing best practices for optimization, testing,
-    and deployment through Jupyter Notebooks and Google Colab
-  - Conduct research on latest AI and Machine Learning techniques and incorporate
-    new methods into existing systems
+  - Build and deploy scalable, reliable, and efficient AI models using cloud computing
+    platforms
+  - Collaborate with data scientists, data engineers, Product, and business stakeholders
+    to define requirements and deliver solutions
+  - Write clean and efficient code with best practices for optimization, testing,
+    and deployment via Jupyter Notebooks and Google Colab
+  - Research latest AI and Machine Learning techniques and incorporate new methods
+    into existing systems
   - Troubleshoot and debug code, resolving technical issues during development, testing,
     and deployment
-  - Create documentation for code, data pipelines, and models for stakeholder access
+  - Create documentation for code, data pipelines, and models, and participate in
+    code reviews
   use_cases:
-  - Information retrieval and search within payroll/HR platform
-  - Text processing and natural language understanding for HR documents and workflows
-  - Machine learning solutions integrated into the Deel payroll and HR product
-  - AI-powered tools supporting global payroll, compliance, and HR operations
+  - AI and machine learning features embedded in a global payroll and HR platform
+  - Information retrieval and text processing to support product functionality
+  - ETL pipelines extracting, transforming, and loading data from various sources
+    for ML solutions
+  - Scalable AI models deployed on cloud platforms powering in-product ML capabilities
   skills:
-    domains: [NLP]
+    cloud: [Cloud Computing Platforms]
     languages: [Python]
-    ml: [information retrieval, text processing, Machine Learning, Jupyter Notebooks,
-      Google Colab]
-    cloud: [cloud computing platforms]
-    genai: []
-    data: [Data Pipelines]
-    other: []
+    ml: [Machine Learning, Text Processing]
+    other: [Jupyter Notebooks, Google Colab, Data Science, Back-End Engineering]
     ops: []
-    web: []
     databases: [PostgreSQL]
+    domains: [NLP, Information Retrieval]
+    web: []
+    data: [Data Pipelines]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -60,4 +60,6 @@ meta:
   - BRA
   - IRL
   remote: true
-  extracted_at: '2026-03-27T13:43:35.075536'
+  extracted_at: '2026-08-16T04:39:39.835041'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

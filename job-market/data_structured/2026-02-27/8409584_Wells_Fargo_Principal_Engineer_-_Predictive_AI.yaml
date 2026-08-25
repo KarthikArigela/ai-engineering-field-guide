@@ -1,55 +1,58 @@
 company:
   name: Wells Fargo
-  stage: Public
-  focus: Financial services and banking
+  stage: null
+  focus: Consumer banking and financial services
 position:
   title: Principal Engineer - Predictive AI
   ai_type:
     type: ai-first
     reasoning: |-
-      The role requires hands-on experience building Gen AI, RAG
-      pipelines, and agentic AI systems using frameworks like
-      LangGraph, LangChain, CrewAI, and AutoGen. The desired
-      qualifications explicitly mention 2+ years of experience
-      designing and developing AI/Gen AI/agentic automation
-      solutions, and the responsibilities involve implementing
-      innovative AI solutions at enterprise scale.
+      The role requires hands-on building of full-stack agentic AI
+      automations with LangGraph, CrewAI, AutoGen, and LangChain,
+      plus designing RAG pipelines, prompt engineering, and multi-
+      agent systems - direct shaping of LLM behavior. LLM and
+      agent components clearly dominate, so it classifies as ai-
+      first.
   responsibilities:
-  - Act as an advisor to leadership to develop applications, network, information
-    security, database, operating systems, or web technologies for complex business
-    needs
-  - Lead the strategy and resolution of highly complex challenges requiring in-depth
-    evaluation across multiple areas or the enterprise
-  - Translate advanced technology experience and organizational objectives into technical
+  - Act as an advisor to leadership on applications, information security, database,
+    operating systems, and web technologies for highly complex business and technical
+    needs across multiple groups
+  - Lead the strategy and resolution of highly complex, unique challenges across the
+    enterprise, delivering long-term, large-scale solutions
+  - Translate business objectives and the enterprise technology environment into technical
     engineering solutions
-  - Provide vision, direction and expertise to leadership on implementing innovative
+  - Provide vision, direction, and expertise to leadership on implementing innovative
     and significant business solutions
-  - Maintain knowledge of industry best practices and recommend innovations that enhance
-    operations or provide competitive advantage
-  - Strategically engage with all levels of professionals and managers and serve as
-    an expert advisor to leadership
+  - Design and develop AI, Generative AI, and agentic automation solutions including
+    full-stack agentic AI automations from chat experiences to multi-agent systems
+  - Maintain knowledge of industry best practices and new technologies and recommend
+    innovations that enhance operations
+  - Strategically engage with professionals and managers across the enterprise and
+    serve as an expert advisor to leadership
   use_cases:
-  - Agentic AI automation solutions from chat experiences to multi-agent systems
-  - RAG pipelines for enterprise knowledge retrieval and question answering
+  - Agentic automation of enterprise business workflows
+  - Chat experiences built on LLMs
+  - Multi-agent systems for enterprise automation
+  - Retrieval-augmented generation (RAG) pipelines for knowledge access
   - Enterprise-scale AI deployments and model migration projects
-  - Generative AI applications for banking and financial services
-  - MLOps frameworks for production ML model lifecycle management
   skills:
-    domains: []
+    cloud: [AWS, GCP, Azure, Vertex AI, Azure ML]
     languages: [Python, Java, Bash, SQL]
     ml: [TensorFlow, PyTorch]
-    cloud: [AWS, GCP, Azure, Vertex AI, Azure ML]
-    genai: [LangGraph, LangChain, CrewAI, AutoGen, Chainlit, RAG, AI Agents, Prompt
-        Engineering, Generative AI, Vector databases]
-    data: []
     other: []
-    ops: [Terraform, Ansible, GitHub Actions, Harness CD, Docker, Kubernetes, OpenShift,
-      MLflow, Kubeflow, MLOps]
+    ops: [Terraform, Crossplane, Infrastructure as Code, OpenShift, Ansible, Harness
+        CD, GitHub Actions, MLOps]
+    databases: [NoSQL, Vector Databases]
+    domains: []
     web: [Playwright]
-    databases: [NoSQL]
+    data: []
+    genai: [Generative AI, LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems,
+      MCP, A2A, Agentspace, LangGraph, CrewAI, AutoGen, LangChain, Chainlit]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8409584'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:33:11.191241'
+  extracted_at: '2026-08-16T01:10:48.473498'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,50 @@
+company:
+  name: US Bank
+  stage: null
+  focus: Banking and payment processing services
+position:
+  title: AI DevOps Engineer
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role deploys, hosts, and operates an AI-SDLC platform
+      someone else built: infrastructure, CI/CD, monitoring, and
+      reliability. Model-serving, gateway management, and
+      prompt/version management are nice-to-haves focused on
+      operations, not shaping model behaviour, so it is ai-
+      support.
+  responsibilities:
+  - Own AI-SDLC deployment, operations, and platform reliability including uptime,
+    performance, and incident response
+  - Manage infrastructure, monitoring, observability, and on-call operational support
+  - Build and maintain CI/CD pipelines and automation for platform releases
+  - Drive the transition to a centralised, hosted multi-tenant AI-SDLC service with
+    scalability, cost, and resilience
+  - Enforce security and compliance operations including secrets management, least-privilege
+    IAM, and PCI DSS-aligned controls
+  - Manage LLM token/credit cost and capacity
+  use_cases:
+  - Productionising an internal AI-SDLC platform as a hosted enterprise service
+  - Multi-tenant hosting of AI/agentic development tooling across teams
+  - Reliable and secure operation of AI platform infrastructure under enterprise SLAs
+  - Cost and usage management for LLM workloads
+  skills:
+    genai: [LangGraph, LangChain]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, EKS, ECS, AWS Lambda, AWS S3, IAM, AWS Bedrock]
+    ops: [CI/CD, Jenkins, Terraform, Docker, Kubernetes, OpenTelemetry, CloudWatch,
+      Infrastructure as Code, LLMOps, MLOps, Model Deployment]
+    languages: [Python, Bash]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10394806'
+  location: London, GBR
+  extracted_at: '2026-08-25T09:57:43.260580'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

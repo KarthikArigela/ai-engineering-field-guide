@@ -1,54 +1,62 @@
 company:
   name: Micron Technology
-  stage: Public
-  focus: Memory and storage solutions for data centers and computing
+  stage: null
+  focus: Memory and storage solutions manufacturer (DRAM, NAND, NOR)
 position:
   title: Sr Engineer, IT, AI Enablement
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying AI agents,
-      implementing RAG systems, multi-agent workflows, and prompt
-      engineering. The engineer directly works ON AI systems
-      including Copilot Studio and agent orchestration, not just
-      supporting infrastructure.
+      The role explicitly requires prompt engineering, RAG with
+      semantic chunking, MCP-based context and memory management,
+      and multi-agent orchestration via Copilot Studio and A2A —
+      all activities that directly shape LLM/agent behavior and
+      output quality. Since the shaped components are LLMs and
+      agents, this is ai-first; the automation, integration, and
+      identity work are supporting duties rather than the core
+      deliverable.
   responsibilities:
-  - Build and deploy AI-driven tools and workflows using Copilot Studio, UiPath, and
-    automation frameworks
+  - Build and deploy AI-driven tools and workflows using platforms like Copilot Studio,
+    UiPath, and other automation frameworks
   - Connect AI agents with enterprise systems (SharePoint, M365), external APIs, and
-    knowledge bases
-  - Design intelligent automation solutions to improve efficiency for repetitive tasks
-  - Implement multi-agent workflows for complex tasks like decision-making and collaborative
-    problem-solving
-  - Design and manage context-aware systems using RAG, semantic chunking, and memory
-    persistence
-  - Integrate agents with identity platforms (OAuth2, OIDC, SAML, Entra ID) for secure
-    access control
-  - Partner with cross-functional teams to enable AI literacy and create best-practice
-    documentation
-  - Collaborate with cybersecurity teams to ensure AI solutions adhere to security
-    and compliance standards
+    knowledge bases to ensure seamless interoperability
+  - Design context-aware systems leveraging MCP with prompt engineering, memory management,
+    RAG, and semantic chunking
+  - Implement multi-agent workflows (including A2A) for complex tasks such as decision-making,
+    negotiation, and collaborative problem-solving
+  - Identify repetitive tasks and design intelligent automation solutions to improve
+    efficiency
+  - Ensure secure agent interactions using encryption, authentication, and authorization,
+    integrating identity platforms such as OAuth2, OIDC, SAML, Entra ID, and AD FS
+  - Collaborate with cybersecurity teams on data protection, threat modeling, and
+    compliance for AI solutions
+  - Enable AI literacy across the organization through training sessions, best-practice
+    documentation, and cross-functional collaboration
   use_cases:
-  - Enterprise AI adoption and enablement across business functions
-  - Process automation for repetitive enterprise tasks
-  - Knowledge retrieval and management with RAG systems
-  - Multi-agent decision-making and collaborative workflows
-  - Secure AI agent integration with enterprise identity systems
+  - Enterprise-wide AI adoption and enablement across diverse business areas
+  - Productivity enhancement through automation of repetitive business tasks
+  - Intelligent workflow automation connecting AI agents to enterprise systems like
+    SharePoint and M365
+  - Secure AI agent access control via identity platform integration
+  - Internal AI literacy training and best-practice documentation
   skills:
-    domains: []
-    languages: [Python, .Net/C#, Java, SQL, PowerShell, Bash]
-    ml: []
     cloud: [Azure AI Foundry, AWS Bedrock, Vertex AI]
-    genai: [Copilot Studio, RAG, Prompt Engineering, Multi-Agent Systems, Agentic
-        Workflows, MCP, Semantic chunking]
-    data: []
-    other: [UiPath, SharePoint, Microsoft 365, OAuth2, OIDC, SAML, Entra ID]
+    languages: [.NET, C#, Python, Java, SQL, PowerShell, Bash]
+    ml: [Machine Learning]
+    other: [Entra ID, AD FS, UiPath, SharePoint, Microsoft 365, Threat Modeling]
     ops: []
-    web: [APIs]
     databases: []
+    domains: []
+    web: [APIs, OAuth, OIDC, SAML]
+    data: [Data Quality]
+    genai: [Copilot Studio, RAG, Prompt Engineering, AI Agents, Agentic Workflows,
+      Multi-Agent Systems, MCP, Generative AI, Semantic Chunking, Context Engineering,
+      Memory Management, A2A]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8806812'
   location: Hyderabad, IND
-  extracted_at: '2026-03-27T13:47:58.076766'
+  extracted_at: '2026-08-16T04:41:36.050255'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

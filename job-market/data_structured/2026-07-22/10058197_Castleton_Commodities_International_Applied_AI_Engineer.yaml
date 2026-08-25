@@ -1,60 +1,61 @@
 company:
   name: Castleton Commodities International
   stage: null
-  focus: Commodities trading and merchant energy
+  focus: Global commodities and energy trading
 position:
   title: Applied AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves hands-on configuration of GenAI
-      platforms, designing AI context/prompt templates, building
-      RAG workflows, setting up agents and MCP-enabled tools, and
-      evaluating AI outputs. The engineer directly builds and
-      deploys AI-enabled solutions using enterprise GenAI tooling,
-      making this clearly ai-first despite the internal enablement
-      framing.
+      The role directly shapes model behaviour: it designs AI
+      context (system instructions, prompt templates, guardrails),
+      builds RAG and document-intelligence pipelines (chunking,
+      metadata, retrieval quality), configures agents and MCP-
+      enabled tools, and evaluates LLM output quality to iterate
+      on configurations. Because LLMs, agents, and GenAI tooling
+      are the object being shaped, this is ai-first.
   responsibilities:
-  - Partner with traders, analysts, operators, and business stakeholders to identify
-    workflows where AI can reduce manual effort and accelerate analysis
-  - Configure and support approved AI tools and platform capabilities including GenAI
-    projects, agents, skills, knowledge bases, SQL resources, and MCP-enabled tools
-  - Design and maintain high-quality AI context including system instructions, prompt
-    templates, examples, retrieval sources, guardrails, and output formats
-  - Support RAG and document-intelligence workflows including document ingestion,
-    chunking, metadata design, retrieval quality, and structured extraction
-  - Evaluate AI outputs for accuracy, groundedness, completeness, and business value
-    using feedback and test cases to improve configurations
-  - Create reusable playbooks, templates, demos, and reference materials to help teams
-    use AI safely and effectively
+  - Partner with traders, analysts, operators, technologists, and business stakeholders
+    to identify workflows where AI can reduce manual effort or accelerate analysis
+  - Configure and support approved AI tools and platform capabilities, including GenAI
+    projects, agents, skills, knowledge bases, SQL resources, model presets, and MCP-enabled
+    tools
+  - Design and maintain high-quality AI context, including system instructions, prompt
+    templates, retrieval sources, workflow guardrails, and output formats
+  - Support RAG and document-intelligence workflows covering ingestion, chunking,
+    metadata design, retrieval quality, structured extraction, and SME validation
+  - Evaluate AI outputs for accuracy, groundedness, completeness, usability, and business
+    value, using feedback and test cases to improve configurations
+  - Create reusable playbooks, templates, demos, and reference materials that help
+    technology and commercial teams use AI safely
   - Communicate AI capabilities, limitations, risks, and recommended usage patterns
     to technical and non-technical stakeholders
-  - Stay current on advancements in applied AI, context engineering, enterprise copilots,
-    agentic workflows, RAG, and AI evaluation methods
   use_cases:
-  - RAG and document intelligence for commodity and trading document workflows
-  - AI-powered knowledge base and assistant configuration for internal teams
-  - Agentic workflows and tool calling for business process automation
-  - Structured document extraction and validation in trading and operations
-  - AI-driven workflow discovery and productivity improvement across commercial and
-    technology teams
+  - Internal AI enablement for trading, commercial, and operational workflows
+  - Document intelligence and structured extraction from enterprise documents
+  - Knowledge retrieval and Q&A over enterprise knowledge bases and retrieval sources
+  - AI assistants and agents configured on the approved enterprise GenAI platform
+  - Governed, evaluated, and reusable AI solutions for business productivity
   skills:
-    genai: [RAG, Prompt Engineering, Context Engineering, AI Agents, Agentic Workflows,
-      MCP, LLMs, Structured Outputs, Function Calling, Embeddings, LangChain, LangGraph,
-      Guardrails, Anthropic API, OpenAI API, Gemini, GitHub Copilot, Cursor, Generative
-        AI, LLM Evaluation, Document Extraction]
-    ml: []
-    web: [FastAPI, APIs]
-    databases: [Vector Search, Vector Databases, Snowflake, SQL]
-    data: [NumPy]
     cloud: [AWS, Azure]
+    languages: [Python, SQL]
+    ml: [NumPy]
+    other: [Pydantic, Document Extraction, Responsible AI]
     ops: [Git]
-    languages: [Python, JSON]
+    databases: [Snowflake, Vector Databases, Vector Search]
     domains: []
-    other: [Responsible AI]
+    web: [FastAPI, APIs, JSON]
+    data: []
+    genai: [RAG, Prompt Engineering, Context Engineering, MCP, Agentic Workflows,
+      AI Agents, Guardrails, LLMs, Structured Outputs, Embeddings, Function Calling,
+      LangChain, LangGraph, LLM Evaluation, Generative AI, Anthropic API, ChatGPT,
+      OpenAI API, Gemini, Microsoft 365 Copilot, Cursor, GitHub Copilot, Knowledge
+        Bases]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10058197'
   location: London, GBR
-  extracted_at: '2026-07-22T13:26:04.341690'
+  extracted_at: '2026-08-16T16:34:46.480955'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

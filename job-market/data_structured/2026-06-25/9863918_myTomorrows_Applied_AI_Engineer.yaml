@@ -1,6 +1,7 @@
 company:
   name: myTomorrows
-  stage: Series C+ (€25M raised Oct 2025)
+  stage: Scale-up backed by €25M investment from Avego Healthcare Capital (October
+    2025)
   focus: |-
     Health tech platform for treatment access and clinical
     trials
@@ -9,54 +10,59 @@ position:
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building production AI-enabled
-      tools using LLMs, agents, RAG, structured outputs, tool
-      calling, and agentic workflows. The engineer deploys AI
-      solutions internally using a Forward Deployed Engineer
-      model, which qualifies as ai-first. They are hands-on
-      building, deploying, and evaluating AI systems — not just
-      supporting infrastructure for others' ML work.
+      The role directly shapes LLM/agent behaviour: it builds AI-
+      enabled tools using structured outputs, tool calling, RAG,
+      agentic workflows, prompt/context engineering, and designs
+      evals and guardrails itself. Although the focus is internal
+      tooling rather than model training, the AI components are
+      the deliverable, not merely consumed APIs or a coding-
+      assistant rollout.
   responsibilities:
-  - Embed with internal teams (Operations, Regulatory, Commercial, Marketing) to map
-    workflows and identify high-leverage AI intervention points
+  - Embed with internal teams such as Operations, Regulatory, Commercial, and Marketing
+    to map workflows and identify high-leverage AI intervention points
   - Build production-capable AI-enabled internal tools, workflow automations, agents,
-    and integrations
-  - Use LLM capabilities including structured outputs, tool calling, RAG, agentic
-    workflows, and prompt/context engineering to solve real business problems
+    and integrations that solve real business problems
+  - Use modern LLM capabilities such as structured outputs, tool calling, RAG, agentic
+    workflows, prompt/context engineering, and evals
+  - Build backend services, APIs, integrations, and internal applications using modern
+    software engineering practices
   - Design and implement evaluation approaches for AI systems including test sets,
-    human review loops, quality criteria, and monitoring
-  - Build backend services, APIs, and internal applications using modern software
-    engineering practices
-  - Create reusable playbooks, templates, prompts, MCPs, and examples to help other
-    teams adopt AI effectively
-  - Translate ambiguous business problems into clear, testable, AI-assisted delivery
-    plans
-  - 'Deliver complete missions with handoff: running systems, eval frameworks, runbooks,
-    and ownership transfer to internal champions'
+    human review loops, quality criteria, failure mode analysis, and monitoring
+  - Define reusable patterns, guardrails, and engineering practices so AI-assisted
+    work becomes reliable, secure, maintainable, and scalable
+  - Create reusable playbooks, templates, prompts, Skills, MCPs, and examples that
+    help other teams adopt AI effectively
+  - Hand off running systems with clear ownership, eval frameworks, and runbooks,
+    and assess whether solutions stay lightweight, get hardened, get transferred,
+    or stop
   use_cases:
-  - Internal workflow automation for Operations, Regulatory, Commercial, and Marketing
-    teams
-  - AI-assisted clinical trial patient recruitment processes
-  - Expanded Access Program management automation
-  - Regulatory and compliance-heavy document processing
-  - Internal knowledge retrieval and agentic tooling for health tech operations
+  - Internal AI-enabled tools and workflow automation for Operations, Regulatory,
+    Commercial, and Marketing teams
+  - Agentic engineering improvements and AI-assisted product delivery pilots
+  - Reusable AI substrate of connectors, pipelines, and workflow patterns for the
+    organization
+  - Supporting operations behind clinical trial patient recruitment, Expanded Access
+    Programs, and treatment access
   skills:
-    domains: []
-    languages: [Python, TypeScript, SQL]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [LLMs, AI Agents, Agentic Workflows, RAG, Structured Outputs, Function
-        Calling, Prompt Engineering, MCPs, LangChain, LangGraph, LlamaIndex, AI evaluation
-        frameworks, Claude Code, Cursor, GitHub Copilot, AI-assisted coding, Human-in-the-loop
-        review]
+    languages: [Python, TypeScript]
+    ml: []
+    other: [Cursor, GitHub Copilot, n8n, Pydantic, uv, ruff, pre-commit, Renovate,
+      Workflow Automation, Code Review, Healthcare]
+    ops: [Docker, Kubernetes, Terraform, Infrastructure as Code, GitHub Actions, Observability,
+      Model Monitoring]
+    databases: [MySQL, PostgreSQL, Oracle, DynamoDB, Neo4j, SQLAlchemy]
+    domains: []
+    web: [FastAPI, APIs, Angular, React, Full-Stack Development]
     data: []
-    other: [Pydantic, SQLAlchemy, n8n]
-    ops: [Docker, Kubernetes, Terraform, GitHub Actions, CI/CD]
-    web: [FastAPI, REST APIs, Angular, React]
-    databases: [PostgreSQL, MySQL, Oracle, DynamoDB, Neo4j]
+    genai: [LLMs, AI Agents, Agentic Workflows, Structured Outputs, Function Calling,
+      RAG, Prompt Engineering, Context Engineering, MCP, Guardrails, LLM Evaluation,
+      LangChain, LangGraph, LlamaIndex, Claude Code, Codex]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9863918'
   location: Amsterdam, NLD
-  extracted_at: '2026-06-25T19:55:51.560449'
+  extracted_at: '2026-08-16T15:36:28.414041'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

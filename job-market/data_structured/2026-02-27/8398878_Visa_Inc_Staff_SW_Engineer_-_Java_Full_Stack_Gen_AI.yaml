@@ -1,55 +1,62 @@
 company:
   name: Visa Inc,
-  stage: Public
-  focus: Global payments technology and processing
+  stage: null
+  focus: |-
+    Global payments technology and transaction processing
+    networks
 position:
   title: Staff SW Engineer - Java, Full Stack & Gen AI
   ai_type:
     type: ai-support
     reasoning: |-
-      The role is primarily a Staff Software Engineer focused on
-      Java full-stack development for payment systems at Visa.
-      While "Exposure to GenAi tools and Agentic development is a
-      must," this appears to be an additional requirement for a
-      traditional software engineering role building payment
-      platforms, microservices, and distributed systems rather
-      than hands-on work building, training, fine-tuning, or
-      deploying AI models.
+      This is a staff full-stack Java engineering role building
+      Visa's payment platforms and distributed systems. GenAI
+      appears only as a qualification ("Exposure to GenAI tools
+      and Agentic development is a must") with no responsibilities
+      involving shaping model behavior - no prompt engineering,
+      RAG design, evals, or fine-tuning. AI is named as tool
+      exposure rather than as the work itself, so this is ai-
+      support.
   responsibilities:
-  - Design code and systems that touch 40% of the world population while influencing
-    Visa's internal standards for scalability, security, and reusability
-  - Collaborate multi-functionally to create design artifacts and develop best-in-class
-    software solutions for multiple Visa technical offerings
-  - Design, implement and evolve highly scalable and fault-tolerant distributed components
-    using functional programming paradigm
-  - Design, document and implement new systems, as well as enhancements and modifications
-    to existing software with code that complies with design specifications and meets
-    security and Java best practices
-  - Design and implement testing procedures for APIs, abstractions and integration
-    patterns to solve challenging distributed computing problems
-  - Review code and accountability for team's development/testing activities and technically
-    lead software engineering teams
+  - Design, code, and evolve highly scalable, fault-tolerant distributed components
+    and systems for Visa payment technology at global scale
+  - Develop next-generation Payment Services, Transaction Platforms, Real-Time Payments,
+    and Buy Now Pay Later technology
+  - Write code that fulfills technical requirements and complies with security and
+    Java best practices across e-commerce website products
+  - Design and implement testing procedures for APIs, abstractions, and integration
+    patterns covering end-to-end and integration scenarios
+  - Review code and provide guidance and technical leadership to junior team members
+    on quality methodology and release processes
+  - Participate in business requirements reviews, design reviews, and creation of
+    functional and technical design documentation
+  - Collaborate multi-functionally with Product, Test, DevOps, and Agile/Scrum teams
+    to deliver best-in-class software solutions
+  - Participate in proof of concepts and technical evaluations of new technologies,
+    including GenAI tools and agentic development
   use_cases:
-  - Global payment processing and transaction platforms
-  - Real-time payments infrastructure
-  - Buy Now Pay Later technology solutions
+  - Digital payment processing and transaction platforms at massive global scale
+  - Real-Time Payments infrastructure
+  - Buy Now Pay Later technology
   - B2B and business-to-government payment solutions
-  - E-commerce payment integration and services
+  - E-commerce website experiences for end-user merchants
   skills:
-    domains: []
-    languages: [Java, JavaScript, C++, HTML]
-    ml: []
     cloud: []
-    genai: [GenAI tools, Agentic development]
+    languages: [Java, JavaScript, C++, C#]
+    ml: []
+    other: [XML, Unit Testing, Agile, Code Review, Functional Programming]
+    ops: [Kubernetes, Docker, Linux, JBoss, Tomcat, WebSphere, CI/CD, Distributed
+        Systems]
+    databases: [Relational Databases, Cassandra, Solr, NoSQL]
+    domains: []
+    web: [Spring Boot, J2EE, React, Angular, HTML, Web Services, Microservices]
     data: [Kafka]
-    other: [Agile]
-    ops: [Kubernetes, Docker, Microservices architecture, JBoss, Tomcat, WebSphere,
-      Linux/Unix, CI/CD, Unit testing]
-    web: [J2EE, Spring Boot, XML, Angular, React]
-    databases: [Cassandra, Solr, NoSQL, Relational Databases]
+    genai: [Generative AI, AI Agents]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '8398878'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:18:29.036589'
+  extracted_at: '2026-08-16T01:06:20.181581'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,59 +1,62 @@
 company:
   name: Credo AI
-  stage: Venture-backed (likely Series B+)
-  focus: AI governance, risk assessment, and compliance platform
+  stage: Venture-backed
+  focus: AI governance, risk, and compliance platform
 position:
   title: Senior AI Engineer, AI Systems (India)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying LLM-based
-      agent systems, RAG architectures, and evaluation frameworks
-      that power Credo AI's governance products. The engineer
-      designs agent architectures, retrieval systems, and
-      behavioral constraint systems — all hands-on work with
-      LLM/agent systems in production.
+      The role directly shapes LLM behavior: it designs agent
+      architectures, behavioral constraint systems encoding policy
+      into agent operation, prompt architecture and output
+      validation, and evaluation frameworks measuring whether LLM
+      agent behavior aligns with governance intent. It also
+      designs hybrid retrieval/RAG systems for governance
+      knowledge. With LLM-based agents and retrieval as the core
+      deliverable, Step 2 makes this ai-first.
   responsibilities:
-  - Design and implement LLM-based agent architectures that reason about governance
-    policies and operate within defined constraints
-  - Build instrumentation and telemetry infrastructure that makes agent behavior auditable
-    and observable at organizational scale
+  - Design and implement agent architectures that reason about governance policies
+    and take action within defined constraints
+  - Build instrumentation, telemetry, filtering, and analytics infrastructure that
+    makes agent behavior auditable and verifiable at organizational scale
   - Develop behavioral configuration and constraint systems that encode organizational
-    policies into AI agent operations
-  - Architect evaluation frameworks to measure whether agent behavior aligns with
+    policies into how AI agents operate
+  - Architect evaluation frameworks that measure whether agent behavior aligns with
     governance intent
-  - Build retrieval-augmented generation systems with hybrid retrieval architectures
-    combining semantic search, structured knowledge traversal, and dynamic context
-    assembly
-  - Contribute to the broader AI systems architecture underlying Credo AI's governance
-    platform
+  - Develop retrieval and context systems for governance knowledge, including hybrid
+    architectures combining semantic search, structured knowledge traversal, and dynamic
+    context assembly
+  - Contribute to the broader AI systems architecture underlying the Credo AI platform
+    and translate governance intelligence into reliable, scalable product features
   - Establish engineering standards and best practices for AI system development across
     the team
   use_cases:
-  - AI governance policy reasoning and enforcement via autonomous agents
-  - Enterprise AI behavior monitoring and auditing at organizational scale
-  - Governance knowledge retrieval and context assembly for compliance decisions
-  - AI agent behavioral evaluation and alignment verification against governance intent
-  - Regulatory compliance automation including EU AI Act, NIST AI RMF, and ISO 42001
+  - Governance-aware AI agents that monitor AI behavior in enterprise deployments
+  - AI governance, risk assessment, and regulatory compliance (EU AI Act, NIST AI
+    RMF, ISO 42001)
+  - Session-level auditing of how AI agents reason and act against governance intent
+  - Surfacing governance knowledge to the right system or user at the right moment
+    via retrieval
+  - Enabling enterprises to responsibly build, adopt, and scale AI deployments
   skills:
-    domains: [AI governance and compliance, AI alignment and safety]
-    languages: [Python, SQL]
-    ml: []
     cloud: []
-    genai: [LLM-based agents, 'Agent architectures (tool use, planning, multi-step
-        reasoning)', RAG, 'Hybrid retrieval (semantic search, structured knowledge
-        traversal)', Prompt engineering and architecture, Output validation and policy-grounded
-        constraints, Multi-Agent Systems, Red-teaming and adversarial evaluation,
-      LLM evaluation methodology]
-    data: [Data Pipelines]
-    other: []
-    ops: [Distributed systems design, AI observability and monitoring]
-    web: [APIs]
+    languages: []
+    ml: [Machine Learning]
+    other: [Responsible AI]
+    ops: [Monitoring, Observability, Distributed Systems]
     databases: []
+    domains: []
+    web: [APIs]
+    data: [Data Pipelines]
+    genai: [LLMs, AI Agents, Multi-Agent Systems, Function Calling, Prompt Engineering,
+      RAG, Semantic Search, LLM Evaluation, Red-Teaming]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9785784'
   location: IND
   remote: true
-  extracted_at: '2026-06-25T19:58:56.127267'
+  extracted_at: '2026-08-16T15:04:19.739944'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

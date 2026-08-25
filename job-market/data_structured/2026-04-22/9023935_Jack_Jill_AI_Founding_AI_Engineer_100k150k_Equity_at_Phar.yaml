@@ -1,49 +1,50 @@
 company:
   name: Jack & Jill AI
-  stage: Pre-seed
+  stage: Pre-seed startup backed by Entrepreneurs First (EF)
   focus: |-
-    AI-powered competitive intelligence automation for pharma
-    and biotech
+    AI competitive intelligence for pharmaceutical and biotech
+    industries
 position:
   title: Founding AI Engineer (£100k–150k + Equity) at Pharosyn
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a founding AI engineer role focused on building LLM
-      orchestration layers and AI-powered systems that monitor
-      pharmaceutical signals. The role requires hands-on
-      experience shipping production-grade LLM-powered systems,
-      making it clearly ai-first.
+      The role's core responsibility is designing and implementing
+      LLM orchestration layers and shipping production LLM-powered
+      systems, which is directly shaping LLM behaviour. No
+      classical ML is involved, so it is ai-first.
   responsibilities:
-  - Design and implement core LLM orchestration layers and data pipelines to monitor
-    and triage global pharmaceutical signals
+  - Design and implement core LLM orchestration layers to monitor and triage global
+    pharmaceutical signals
+  - Build data pipelines that monitor clinical trials and regulatory filings
   - Build and maintain the full-stack platform using Python, TypeScript, and React
-    to deliver contextualized insights to enterprise customers
-  - Collaborate with founders to shape the product roadmap and translate complex regulatory
-    data into actionable strategic intelligence
-  - Ship production code to strategic teams weekly with full technical ownership of
-    architectural decisions
-  - Automate competitive intelligence workflows in pharma and biotech industries,
-    replacing manual processes for enterprise clients
+  - Deliver contextualized strategic intelligence and insights to enterprise customers
+  - Ship production code to strategic enterprise client teams weekly, working directly
+    with the CTO
+  - Collaborate with founders to shape the product roadmap
+  - Ensure the AI platform is privacy-first and SOC 2 compliant
   use_cases:
-  - Automated competitive intelligence for pharmaceutical and biotech industries
-  - Monitoring and triaging clinical trial data using LLM orchestration
-  - Tracking and analyzing regulatory filings for strategic insights
-  - Delivering contextualized intelligence to enterprise pharma teams
+  - Automated competitive intelligence for pharma and biotech industries
+  - Monitoring clinical trials
+  - Monitoring regulatory filings
+  - Automating manual strategic analyst workflows for enterprise clients
+  - Delivering contextualized strategic insights to pharmaceutical enterprises
   skills:
-    domains: [NLP]
+    cloud: []
     languages: [Python, TypeScript]
     ml: []
-    cloud: []
-    genai: [LLMs]
-    data: [Data Pipelines]
     other: [SOC 2]
     ops: []
-    web: [React]
     databases: []
+    domains: []
+    web: [React, Full-Stack Development]
+    data: [Data Pipelines]
+    genai: [LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9023935'
   location: London, GBR
-  extracted_at: '2026-04-22T12:47:21.734329'
+  extracted_at: '2026-08-16T07:13:47.624924'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

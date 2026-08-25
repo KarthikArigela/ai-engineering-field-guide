@@ -1,0 +1,54 @@
+company:
+  name: Cerence Inc.
+  stage: null
+  focus: Automotive voice assistants and in-car AI experiences
+position:
+  title: Senior Principal AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly optimizes the internals and training of
+      large LLMs (Megatron-LM, DeepSpeed, ZeRO offload, activation
+      checkpointing, parallelism strategies), which counts as
+      shaping model training. Since the targets are LLMs and
+      foundation models, this is ai-first.
+  responsibilities:
+  - Design and operate distributed training systems for large neural networks across
+    GPU clusters
+  - Optimize multi-node, multi-GPU execution to maximize throughput and utilization
+  - Diagnose and resolve bottlenecks across compute, memory, and network
+  - Improve training stability and fault tolerance at scale
+  - Build and optimize GPU cluster orchestration with Slurm, Kubernetes, Ray, and
+    RunAI
+  - Optimize and debug distributed communication using NCCL, RDMA, InfiniBand, and
+    NVLink
+  - Scale large-model training using PyTorch Distributed, Megatron-LM, and DeepSpeed
+  - Apply memory optimization techniques including activation checkpointing and ZeRO
+    offload strategies
+  use_cases:
+  - Distributed training of large language models and foundation models
+  - Scaling training from single node to hundreds of GPUs
+  - Maximizing GPU utilization and training throughput
+  - Fault-tolerant long-running training jobs for automotive voice AI models
+  skills:
+    genai: []
+    ml: [PyTorch, DeepSpeed, Megatron-LM, Fine-Tuning, LLMs, Foundation Models, Activation
+        Checkpointing, ZeRO, Parallelism Strategies, Diffusion Models, State Space
+        Models]
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Kubernetes, Ray, Slurm, NCCL, Distributed Training, Distributed Systems]
+    languages: []
+    domains: []
+    other: [RDMA, InfiniBand, NVLink, RunAI, GPU Clusters]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10565341'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:44:09.541719'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

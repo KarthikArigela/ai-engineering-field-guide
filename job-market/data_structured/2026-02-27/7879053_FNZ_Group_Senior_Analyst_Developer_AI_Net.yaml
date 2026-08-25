@@ -1,55 +1,64 @@
 company:
   name: FNZ Group
-  stage: Public
-  focus: Global wealth management platform technology
+  stage: null
+  focus: |-
+    Global end-to-end wealth management platform for financial
+    institutions
 position:
   title: Senior Analyst Developer (AI + .Net)
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      The role explicitly requires expertise in AI/ML with
-      specific mention of Gen AI, Semantic Kernel, MCP, LangGraph,
-      and Agentic AI. While the primary platform is .NET/C#, the
-      role involves creating novel solutions using cutting-edge AI
-      technologies and requires building AI-powered features end-
-      to-end, placing it in ai-first rather than ai-support.
+      The responsibilities describe a full-stack .NET analyst
+      developer - user story analysis, API and interface design,
+      high-transactional financial systems, code reviews, and
+      ETL/data migration work - with no activities that shape
+      model behaviour such as prompting, RAG design, agent
+      orchestration, or model evaluation. GenAI frameworks
+      (Semantic Kernel, MCP, LangGraph, Agentic AI) appear only as
+      an expertise requirement, with no described work designing
+      or tuning AI systems. The deliverables are wealth platform
+      features, not model behaviour, so this is ai-support.
   responsibilities:
-  - Work with analysts to create user story definitions and acceptance criteria for
-    cohesive implementation
-  - Design underlying solutions for features including APIs and external system integrations
+  - Create user story definitions and acceptance criteria with analyst testers and
+    define the underlying designs to deliver changes
+  - Design and build APIs and external system interfaces for integration into core
+    FNZ products and third-party vendor applications
   - Translate complex financial business requirements into high-transactional, high-availability,
-    secure systems
-  - Build high complexity features end-to-end across the full stack
-  - Ensure code quality through automated testing, code reviews, and adherence to
-    coding standards
-  - Collaborate with developers to share knowledge and establish expertise in multiple
-    technical areas
-  - Analyze, design, and maintain ETL workflows for data mapping solutions in migrations
-  - Mentor new starters and provide training on technical topics of expertise
+    secure working systems
+  - Ensure solutions are secure, reusable, maintainable, and performant, supporting
+    millions of trades daily in real time
+  - Write automated unit tests, perform manual regression testing, and conduct code
+    reviews against quality and security standards
+  - Analyze, design, and maintain ETL workflows for complex data mapping solutions
+    in migrations, including testing and post-implementation support
+  - Mentor new starters, provide solution-centre-wide training, and function as squad
+    lead when required
+  - Proactively evaluate and recommend new technologies, tools, and methods to the
+    business
   use_cases:
-  - Real-time transaction processing for investment securities across multiple world
-    markets
-  - Intuitive user interfaces and interactive financial tools for financial advisers
-    and investors
-  - High-volume data migration and ETL workflows for complex financial data mapping
-  - API development for integration with core FNZ products and third-party vendor
+  - High-volume, real-time transaction processing supporting millions of daily investment
+    trades across world markets
+  - Interactive financial tools and user interfaces for financial advisers and investors
+  - API and third-party integrations into core wealth management products and vendor
     applications
-  - Secure and compliant wealth management platform processing millions of trades
-    daily
+  - ETL-based data mapping and migration of client data onto the wealth platform
   skills:
-    domains: []
-    languages: [.NET, C#, VB.NET]
-    ml: []
     cloud: []
-    genai: [Generative AI, Semantic Kernel, MCP, LangGraph, AI Agents]
-    data: [Data Pipelines]
+    languages: [C#, .NET, JavaScript, VB.NET]
+    ml: []
     other: []
-    ops: [Code analysis tools, Automated testing, Unit testing, Code review]
-    web: [ASP.NET, JavaScript, React, ASP.NET MVC, REST APIs]
+    ops: []
     databases: [SQL Server]
-  is_customer_facing: false
+    domains: []
+    web: [ASP.NET, ASP.NET MVC, React, APIs, Web Services]
+    data: [Data Pipelines]
+    genai: [Generative AI, Semantic Kernel, MCP, LangGraph, AI Agents]
+  is_customer_facing: true
   is_management: false
 meta:
   job_id: '7879053'
   location: Gurugram, IND
-  extracted_at: '2026-02-27T11:57:13.650247'
+  extracted_at: '2026-08-16T00:14:56.024799'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

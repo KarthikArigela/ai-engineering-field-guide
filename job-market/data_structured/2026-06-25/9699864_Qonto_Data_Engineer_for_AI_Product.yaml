@@ -1,49 +1,47 @@
 company:
   name: Qonto
-  stage: Profitable (Series D+)
-  focus: SME finance workspace with banking
+  stage: null
+  focus: SME banking and finance workspace for Europe
 position:
   title: Data Engineer for AI Product
   ai_type:
     type: ai-support
     reasoning: |-
-      This role builds data pipelines, feature stores, and model
-      serving infrastructure that supports ML engineers but
-      explicitly does NOT build models. The job description states
-      "You don't build models, but you understand the full ML
-      lifecycle" and the focus is on data engineering and
-      infrastructure enabling ML workflows.
+      The role builds ML data pipelines, feature stores, and model
+      serving infrastructure for 15 ML Engineers, and explicitly
+      states the person does not build models. There is no prompt
+      writing, retrieval/agent design, model training, or model
+      output evaluation. Building datasets and infrastructure that
+      feed someone else's ML workflows is ai-support.
   responsibilities:
-  - Build and own ML data pipelines using Python to ingest, transform, and deliver
-    datasets for model training and inference
-  - Design and maintain the feature store, balancing latency and cost for reliable
-    feature retrieval at training and serving time
-  - Drive model serving infrastructure including versioning, scaling, and rollback
-    for production model deployment
+  - Build and own Python data pipelines that ingest, transform, and deliver datasets
+    for model training and inference
+  - Design and own the feature store, defining storage and access patterns for large-scale
+    feature datasets while balancing latency and cost
+  - Implement and maintain model serving infrastructure, including versioning, scaling,
+    and rollback of deployed models
   - Build data quality and drift detection systems to catch data issues before they
-    degrade model performance
-  - Establish reusable Python and pipeline patterns as data engineering standards
-    for the team
-  - Collaborate with 15 ML Engineers to ensure infrastructure meets the needs of all
-    ML lifecycle stages
+    degrade model performance in production
+  - Establish reusable Python and pipeline patterns as the team's data engineering
+    standards
+  - Work alongside ML Engineers supporting fraud detection, credit scoring, and accounting
+    automation use cases
   use_cases:
-  - Fraud detection for financial transactions
-  - Credit scoring for SMEs and freelancers
+  - Fraud detection
+  - Credit scoring
   - Accounting automation
-  - Transaction processing for SMEs across Europe
-  - Production ML data infrastructure for financial services
+  - ML models processing transactions for SMEs and freelancers across Europe
   skills:
-    domains: []
-    languages: [Python]
-    ml: [ML Lifecycle]
     cloud: []
-    genai: []
-    data: [Spark, dbt, Airflow, Ray, ETL/Data Pipelines]
+    languages: [Python]
+    ml: [Machine Learning]
     other: []
-    ops: [Feature Store, Model Deployment, Model Registry, Data Quality Monitoring,
-      Continuous Delivery]
-    web: []
+    ops: [Feature Stores, Model Registries, Model Deployment, Drift Detection, CI/CD]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines, Spark, dbt, Airflow, Ray]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
@@ -55,4 +53,6 @@ meta:
   - Barcelona, ESP
   - Paris, FRA
   remote: true
-  extracted_at: '2026-06-25T19:52:50.405213'
+  extracted_at: '2026-08-16T14:19:32.633046'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

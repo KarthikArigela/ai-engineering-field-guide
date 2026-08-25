@@ -1,0 +1,48 @@
+company:
+  name: MeridianLink
+  stage: null
+  focus: Financial software for credit unions
+position:
+  title: Sr AI Engineer - Product
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role is a full-stack product engineer that consumes
+      OpenAI/Anthropic APIs and uses AI coding agents as
+      development tools. Nothing in the responsibilities involves
+      shaping model behavior through prompts, retrieval, evals, or
+      training, so it is ai-support.
+  responsibilities:
+  - Own member- and credit-union-facing features from idea through production
+  - Build across a TypeScript stack with React 19, Hono, and Drizzle/Postgres
+  - Manage AWS infrastructure via SST/Pulumi across Lambda, SQS, EventBridge, and
+    S3
+  - Turn product needs into simple, reliable experiences and integrations
+  - Monitor production, investigate issues, and improve shipped features
+  - Partner with design, customers, and stakeholders on product decisions
+  - Use, improve, and extend AI coding agents in the engineering workflow
+  use_cases:
+  - Adverse action notices for credit union members
+  - Warm-decline lending journeys
+  - Credit monitoring
+  - Member and credit union portals handling financial data
+  skills:
+    genai: [OpenAI API, Anthropic API]
+    ml: []
+    web: [React, React Router, Tailwind CSS, Hono, REST APIs, Playwright]
+    databases: [PostgreSQL, Drizzle]
+    data: []
+    cloud: [AWS, AWS Lambda, AWS S3, AWS CDK]
+    ops: [Terraform, Infrastructure as Code, Pulumi, SST, Vitest]
+    languages: [TypeScript, Bun]
+    domains: []
+    other: []
+  is_customer_facing: true
+  is_management: false
+meta:
+  job_id: '10579945'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:47:33.406451'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

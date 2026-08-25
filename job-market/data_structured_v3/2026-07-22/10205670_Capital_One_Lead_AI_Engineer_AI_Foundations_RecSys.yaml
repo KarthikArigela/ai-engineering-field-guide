@@ -1,0 +1,61 @@
+company:
+  name: Capital One
+  stage: null
+  focus: Banking and financial services
+position:
+  title: Lead AI Engineer (AI Foundations, RecSys)
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behaviour directly: it lists
+      foundation model training, building guardrails, model
+      evaluation, and inventing LLM optimization techniques as
+      core responsibilities. While the inference-optimization work
+      borders on serving, the combination of training, guardrails,
+      and eval work is clearly shaping, and the targets are LLMs
+      and foundation models, making this ai-first.
+  responsibilities:
+  - Partner with cross-functional teams of engineers, research scientists, technical
+    program managers, and product managers to deliver AI-powered products
+  - Design, develop, test, deploy, and support AI software components including foundation
+    model training, LLM inference, similarity search, guardrails, model evaluation,
+    and observability
+  - Leverage open source and SaaS AI technologies such as AWS Ultraclusters, Huggingface,
+    VectorDBs, NeMo Guardrails, and PyTorch
+  - Invent and introduce state-of-the-art LLM optimization techniques to improve scalability,
+    cost, latency, and throughput of large-scale production AI systems
+  - Apply novel techniques from AI research in production systems
+  - Contribute to the technical vision and long-term roadmap of foundational AI systems
+    at Capital One
+  use_cases:
+  - Real-time personalized customer experiences in banking
+  - Informing customers about unusual charges (fraud/anomaly alerts)
+  - Answering customer questions in real time
+  - AI models and platforms that empower internal teams to enhance their products
+    with AI
+  - Tools that change how associates work and how customers interact with the bank
+  skills:
+    genai: [LLM Inference, Guardrails, NeMo Guardrails, Memory]
+    ml: [Foundation Model Training, Model Evaluation, PyTorch, Hugging Face, Machine
+        Learning]
+    web: []
+    databases: [Vector Databases, Vector Search]
+    data: []
+    cloud: [AWS, GCP, Azure]
+    ops: [Observability]
+    languages: [Python, Go, Scala, Java, C++, C#]
+    domains: [Recommender Systems]
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10205670'
+  location: McLean, USA
+  locations:
+  - McLean, USA
+  - San Jose, USA
+  - New York, USA
+  - Cambridge, USA
+  extracted_at: '2026-08-16T17:52:06.625634'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

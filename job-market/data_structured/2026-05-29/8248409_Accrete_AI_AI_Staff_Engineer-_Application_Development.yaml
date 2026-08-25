@@ -1,63 +1,67 @@
 company:
   name: Accrete AI
-  stage: Unknown
+  stage: null
   focus: |-
-    Building intelligence-driven AI platforms for enterprise
-    decision-making using GenAI
+    AI company building intelligence-driven platforms for
+    enterprise information analysis
 position:
   title: AI Staff Engineer- Application Development
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is squarely focused on building agentic, AI-native
-      systems where LLMs reason, plan, and act. The engineer will
-      directly implement agentic frameworks (LangGraph, CrewAI,
-      AutoGen), design agent-first architectures, integrate MCP
-      protocols, and apply agentic design patterns like planners,
-      routers, and tool-use. This is hands-on work building and
-      deploying AI systems, not just supporting infrastructure.
+      The role explicitly designs and builds agent-first systems
+      where LLMs reason, plan, and act, implementing agentic
+      frameworks (LangGraph, CrewAI, AutoGen), agentic design
+      patterns (planners, routers, tool-use, memory), and MCP-
+      based tool orchestration. This is direct shaping of
+      LLM/agent behavior, so it is ai-first despite the heavy
+      backend and data engineering duties.
   responsibilities:
-  - Design and implement agent-first systems where LLMs reason, plan, and act alongside
+  - Design and implement backend services, data integration layers, and distributed
+    systems using Python
+  - Build scalable microservices and REST/gRPC APIs for real-time and batch workloads
+  - Design and build agent-first systems where LLMs reason, plan, and act alongside
     deterministic services
-  - Build scalable backend microservices, REST/gRPC APIs, and distributed systems
-    using Python and modern frameworks
-  - Implement and evaluate agentic frameworks such as LangGraph, CrewAI, AutoGen,
-    and apply agentic design patterns including planners, routers, evaluators, memory,
-    and tool-use
-  - Integrate Model Context Protocols (MCP) and equivalent mechanisms to standardize
-    tool access, context sharing, and orchestration across agents
-  - Design and build data-intensive systems including ETL pipelines, stream processing,
-    and transformation workflows
-  - Build and deploy cloud-native services on AWS using containers, Kubernetes, serverless,
-    and event-driven patterns
-  - Collaborate with ML teams to move models from experimentation into scalable production-grade
-    systems
-  - Lead technical design, mentor engineers, and own production outcomes including
-    monitoring and incident resolution
+  - Implement and evaluate agentic frameworks such as LangGraph, CrewAI, and AutoGen,
+    applying patterns like planners, routers, memory, tool-use, and feedback loops
+  - Integrate MCP or equivalent mechanisms to standardize tool access, context sharing,
+    and orchestration across agents
+  - Build and deploy cloud-native services on AWS and Kubernetes with reliability,
+    observability, and production safety
+  - Design ETL data pipelines, stream processing, and transformation workflows using
+    Kafka, Airflow, Dagster, and multiple databases
+  - Maintain Git-based CI/CD pipelines, own production outcomes through monitoring
+    and root-cause fixes, and mentor engineers
   use_cases:
-  - Enterprise-scale AI platforms for understanding and acting on complex information
-    at scale
-  - Agentic systems where LLMs reason, plan, and act within production workflows
-  - Data integration and ingestion pipelines for enterprise information processing
-  - Real-time and batch workloads combining probabilistic AI behavior with deterministic
-    services
+  - Enterprise platforms that help organizations understand, assess, and act on complex
+    information at scale
+  - Agent-first AI-native systems where LLMs reason, plan, and act alongside deterministic
+    services and workflows
+  - Real-time and batch data ingestion, stream processing, and transformation pipelines
+  - Production-grade, reliable and observable AI systems balancing probabilistic model
+    behavior with deterministic workflows
+  - Enterprise-scale backend services and APIs supporting real customer workloads
   skills:
+    cloud: [AWS, EC2, AWS Lambda, AWS S3, AWS Step Functions, Azure, Azure Functions,
+      GCP]
+    languages: [Python, SQL]
+    ml: [NumPy, Pandas, Machine Learning]
+    other: [PyDantic, Selenium, PyTest, JUnit, AMQP, System Design, Event-Driven Architecture]
+    ops: [Kubernetes, Docker, CI/CD, Git, Distributed Systems]
+    databases: [Amazon RDS, DynamoDB, MongoDB, OpenSearch, Elasticsearch, PostgreSQL,
+      MySQL, Oracle, Cassandra, Graph Databases, Neo4j, Memgraph, Redis, Memcached,
+      Redshift, BigQuery, Snowflake]
     domains: []
-    languages: [Python, Pydantic]
-    ml: []
-    cloud: [AWS, AWS Lambda, AWS EC2, AWS S3, AWS RDS]
-    genai: [LangGraph, CrewAI, AutoGen, MCP, Claude Agents, Google ADK, 'Agentic design
-        patterns (planners, routers, evaluators, memory, tool-use)']
-    data: [Kafka, Airflow, Dagster, Spark, AWS Step Functions, Data Pipelines, NumPy,
-      Pandas]
-    other: []
-    ops: [Docker, Kubernetes, CI/CD, PyTest]
-    web: [FastAPI, Flask, Django, REST APIs, GraphQL, gRPC]
-    databases: [PostgreSQL, MongoDB, DynamoDB, OpenSearch/Elasticsearch, Redis, Neo4j,
-      Snowflake, BigQuery]
+    web: [FastAPI, Flask, Django, REST APIs, gRPC, GraphQL, WebSockets, Microservices]
+    data: [Kafka, Airflow, Dagster, Spark, AWS Glue, Google Dataflow, Hadoop, HBase,
+      Data Pipelines]
+    genai: [LangGraph, CrewAI, AutoGen, MCP, Claude Agents, Google ADK, LLMs, Function
+        Calling, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8248409'
   location: Mumbai, IND
-  extracted_at: '2026-05-29T08:47:06.682263'
+  extracted_at: '2026-08-16T08:37:26.587387'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,60 +1,60 @@
 company:
   name: LogicMonitor
-  stage: Late-stage / PE-backed
-  focus: |-
-    AI-first hybrid observability and IT infrastructure
-    monitoring platform
+  stage: null
+  focus: AI-first hybrid observability platform
 position:
   title: Sr. Software Engineer - AI
   ai_type:
-    type: ai-support
+    type: ai-first
     reasoning: |-
-      This role builds data pipelines, ETL infrastructure, and
-      backend APIs that feed AI systems (Edwin AI, Dexda) but does
-      not directly build, train, fine-tune, or deploy ML models.
-      The engineer works "at the intersection of backend systems
-      and data engineering" to make data AI-ready, managing
-      embeddings/metadata storage and retrieval frameworks in
-      support of AI teams. There is GenAI adjacency (LangGraph,
-      LLM orchestration) but the core responsibility is data and
-      API infrastructure enabling AI products.
+      The role directly shapes model behaviour: it designs
+      retrieval frameworks (semantic search, embeddings, model
+      context storage) and builds LLM orchestration APIs with
+      FastAPI/LangGraph for summarization and correlation
+      reasoning. Since the shaped systems are LLM/GenAI components
+      (Edwin AI, Dexda, AIOps), this is ai-first despite the heavy
+      data-engineering scope.
   responsibilities:
-  - Design and build streaming and batch data pipelines processing metrics, logs,
+  - Design and build streaming and batch data pipelines that process metrics, logs,
     and events for AI workflows
   - Develop ETL and feature-extraction pipelines using Python and Java microservices
   - Build resilient data orchestration using Kafka, Airflow, and Redis Streams
   - Develop data indexing and semantic search for large-scale observability and operational
     data
-  - Work with structured and unstructured data lakes and warehouses including Delta
-    Lake, Iceberg, and ClickHouse
-  - Build and maintain Java microservices (Spring Boot) serving AI and analytics data
-    to Edwin and AIOps applications
-  - Develop Python APIs (FastAPI / LangGraph) for LLM orchestration, summarization,
-    and correlation reasoning
-  - Implement data validation, schema evolution, lineage tracking, and data privacy/RBAC
-    compliance across AI pipelines
+  - Collaborate with the AI Platform team to manage embeddings, metadata, and model
+    context storage
+  - Build Java microservices (Spring Boot) and Python APIs (FastAPI/LangGraph) for
+    LLM orchestration, summarization, and correlation reasoning
+  - Implement schema contracts and streaming protocols (REST, gRPC, SSE, WebSockets)
+    and instrument services with OpenTelemetry
+  - Enforce data validation, schema evolution, lineage tracking, data privacy, and
+    RBAC compliance across AI pipelines
   use_cases:
-  - AI-driven observability data intelligence connecting telemetry streams with LLM
-    reasoning
-  - Real-time incident detection and anomaly alerting for IT infrastructure
-  - Semantic search and retrieval over large-scale operational and observability data
-  - LLM-powered summarization and correlation reasoning for AIOps workflows
-  - Automated root cause analysis and remediation guidance for digital infrastructure
+  - GenAI-powered insights for AIOps products (Edwin AI, Dexda)
+  - AI-driven data intelligence connecting telemetry streams with LLM reasoning
+  - Anomaly anticipation and issue prevention across on-premises, cloud, and edge
+    infrastructure
+  - LLM orchestration for summarization and correlation reasoning over operational
+    data
+  - Semantic search and vector retrieval over large-scale observability metrics, logs,
+    and events
   skills:
+    cloud: []
+    languages: [Python, Java]
+    ml: [Feature Engineering]
+    other: [RBAC]
+    ops: [Kubernetes, CI/CD, OpenTelemetry]
+    databases: [Redis, ClickHouse, Vector Search]
     domains: []
-    languages: [Python, Java, SQL]
-    ml: []
-    cloud: [AWS]
-    genai: [LangGraph, LLMs, Embeddings, Vector retrieval, Semantic search]
-    data: [Kafka, Airflow, Redis Streams, Spark, Data Pipelines, Delta Lake, Apache
-        Iceberg]
-    other: [Data governance, Schema evolution, Data lineage, RBAC]
-    ops: [Kubernetes, Docker, CI/CD, OpenTelemetry]
-    web: [FastAPI, Spring Boot, REST, gRPC, GraphQL]
-    databases: [ClickHouse, Redis]
+    web: [FastAPI, Spring Boot, Microservices, REST, gRPC, WebSockets, SSE]
+    data: [Kafka, Airflow, Spark, Data Pipelines, Data Modeling, Delta Lake, Iceberg,
+      Data Governance]
+    genai: [LangGraph, LLMs, Generative AI, Embeddings, Semantic Search]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9860754'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T19:52:26.274078'
+  extracted_at: '2026-08-16T15:31:31.002174'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

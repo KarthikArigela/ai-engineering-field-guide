@@ -1,0 +1,55 @@
+company:
+  name: Rubiscape Private Limited
+  stage: null
+  focus: |-
+    Unified Decision Intelligence Platform with data
+    engineering, BI, ML and agentic AI
+position:
+  title: AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs RAG orchestration, prompt management,
+      guardrails, and LLM gateway routing—directly shaping model
+      behavior and output quality for LLM-based systems, so it is
+      ai-first.
+  responsibilities:
+  - Design and operate the LLM gateway with request routing, model failover, token
+    budgeting, cost attribution, and rate limiting
+  - Build and maintain RAG pipeline infrastructure including chunking, embedding generation,
+    vector store management, and retrieval orchestration
+  - Own the prompt management system with versioning, A/B evaluation, regression testing,
+    and deployment of prompt templates
+  - Architect low-latency synchronous and streaming inference APIs
+  - Implement guardrails, content filtering, and PII redaction for regulated-sector
+    deployments
+  - Integrate fine-tuned and quantised open-source models into the model registry
+    and serving infrastructure with the MLOps team
+  - Establish end-to-end AI observability with OpenTelemetry tracing and dashboards
+  use_cases:
+  - Agentic AI copilot (RubiAI) serving enterprise customers
+  - Shared AI services for decision intelligence studios
+  - RAG-based document retrieval and orchestration
+  - Real-time AI responses with streaming for front-end and third-party integrations
+  - Regulated-sector AI deployments in BFSI, healthcare, and government with guardrails
+    and PII redaction
+  skills:
+    genai: [RAG, LangChain, LlamaIndex, Prompt Engineering, Guardrails, Agentic Workflows,
+      OpenAI API, Anthropic API, Azure OpenAI, AI Agents, Embeddings, LLMs, Fine-Tuning]
+    ml: [Llama, Mistral, Quantization, Model Training]
+    web: [FastAPI]
+    databases: [Weaviate, Qdrant, Pinecone, pgvector, Vector Databases]
+    data: []
+    cloud: []
+    ops: [vLLM, OpenTelemetry, Observability, WebSockets]
+    languages: [Python, asyncio]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10820310'
+  location: Pune, IND
+  extracted_at: '2026-08-25T12:08:15.069019'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

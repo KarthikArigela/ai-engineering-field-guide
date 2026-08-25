@@ -1,61 +1,66 @@
 company:
   name: Alkami
-  stage: Public
+  stage: null
   focus: |-
-    Digital banking SaaS platform for U.S. banks and credit
+    Digital sales and service platform for U.S. banks and credit
     unions
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building, designing, and deploying
-      agentic workflows, multi-agent systems, AI-powered code
-      generation frameworks, and agent-based orchestration
-      pipelines using tools like MCP, A2A protocols, and agentic
-      platforms. The engineer is hands-on implementing AI/LLM-
-      based systems (agents, automation pipelines, AI-assisted
-      development tools), which constitutes working directly ON AI
-      systems.
+      The role goes beyond rolling out AI coding tools: it
+      architects and implements agentic workflows, builds agent-
+      based orchestration pipelines (n8n, OpenClaw, multi-agent
+      systems, A2A, MCP), and designs agentic QA/bug remediation
+      systems hands-on — the agents themselves are the product of
+      this person's work, which is shaping under Step 1. Since
+      LLM/agent components dominate, Step 2 yields ai-first.
   responsibilities:
-  - Drive adoption of AI-assisted software development practices across the SDLC
-  - Implement context-driven AI code generation using tools such as GitHub Copilot,
-    Claude Code, and enterprise code assistants
-  - Architect and implement agentic workflows to automate bug detection, code quality
-    validation, test generation, and release readiness
-  - Build agent-based orchestration pipelines using tools such as n8n, OpenClaw, and
-    emerging agent orchestration platforms
+  - Drive adoption of AI-assisted software development practices across the SDLC,
+    including context-driven AI code generation with GitHub Copilot and Claude Code
+  - Architect and implement agentic workflows and agent-based orchestration pipelines
+    using tools such as n8n and OpenClaw to automate engineering processes like bug
+    detection, code quality validation, test generation, and release readiness
   - Implement engineering automation using multi-agent systems, A2A protocols, and
     Model Context Protocol (MCP)
   - Design and deploy AI-powered development lifecycle solutions including AI-assisted
-    code reviews, automated testing, and AI-driven root cause analysis
-  - Lead initiatives to modernize legacy applications using AI-assisted refactoring
-    and migration
-  - Apply AI models to codebase understanding, architecture reconstruction, and automated
-    migration strategies
+    code reviews, automated testing and quality engineering, agent-based CI/CD augmentation,
+    and AI-driven root cause analysis
+  - Implement Agentic QA and bug remediation systems that proactively detect and resolve
+    defects
+  - Modernize legacy applications using AI-assisted refactoring, codebase understanding,
+    and automated migration strategies
+  - Design scalable cloud-native architectures across major cloud platforms and apply
+    Infrastructure as Code practices with modern tooling
+  - Establish guardrails for enterprise AI-assisted development following Responsible
+    AI, AI ethics, model governance, and data protection principles
   use_cases:
-  - AI-assisted software development and code generation across the SDLC
-  - Agentic automation of engineering processes (bug detection, testing, CI/CD)
-  - AI-powered legacy application modernization and refactoring
-  - Intelligent code review and quality engineering
-  - AI-driven root cause analysis and operational anomaly detection
-  - Automated documentation synthesis and refactoring
+  - AI-assisted developer productivity and intelligent code generation
+  - Automated software quality engineering including bug detection, automated testing,
+    and AI-assisted code review
+  - Agent-based engineering automation across the SDLC and CI/CD pipelines
+  - AI-driven legacy application modernization and automated migration
+  - AI-powered operational insights, anomaly detection, and performance optimization
   skills:
-    domains: []
-    languages: [Python, Java, .NET, JavaScript]
-    ml: []
     cloud: [AWS, Azure, GCP]
-    genai: [GitHub Copilot, Claude Code, MCP, Agentic workflow orchestration, Multi-Agent
-        Systems, A2A protocols, Prompt Engineering, LLM-based developer tools, n8n,
-      Cursor]
-    data: []
-    other: [Microservices, Distributed Systems, Responsible AI, AI ethics and governance]
-    ops: [Infrastructure as Code, CI/CD, Docker, Observability platforms, Terraform]
-    web: [Vue, REST APIs]
+    languages: [Python, Java, .NET, JavaScript]
+    ml: [Anomaly Detection]
+    other: [n8n, Responsible AI, Agile, Legacy Modernization, Cloud-Native Architecture,
+      Enterprise Architecture, Platform Engineering, Mobile Development]
+    ops: [CI/CD, Observability, Infrastructure as Code, Distributed Systems, Automated
+        Testing]
     databases: []
+    domains: []
+    web: [Vue, REST APIs, APIs, Microservices]
+    data: []
+    genai: [GitHub Copilot, Claude Code, Cursor, Generative AI, LLMs, Agentic Workflows,
+      Multi-Agent Systems, MCP, OpenClaw, A2A Protocol, Guardrails]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8904198'
   location: Gurugram, IND
-  extracted_at: '2026-04-22T13:29:29.919676'
+  extracted_at: '2026-08-16T06:05:20.861789'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

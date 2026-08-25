@@ -1,52 +1,62 @@
 company:
   name: Get Well Network
-  stage: Public
-  focus: AI-native healthcare precision care and patient engagement
+  stage: null
+  focus: |-
+    AI-native healthcare precision care and patient engagement
+    technology
 position:
   title: AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, fine-tuning, and
-      deploying LLMs and multimodal models for healthcare
-      applications. The engineer works hands-on with model
-      training, PEFT/LoRA, RAG, and productionizing AI systems —
-      clearly ai-first work.
+      The role directly shapes model behaviour: fine-tuning and
+      evaluating LLMs, customizing foundation models with
+      PEFT/LoRA, prompt engineering, and building RAG and
+      multimodal generative systems for healthcare. Since LLM and
+      generative components dominate the work (with speech STT/TTS
+      integration also present), it is ai-first rather than ml-
+      first.
   responsibilities:
-  - Fine-tune and evaluate LLMs for real-world healthcare use cases
+  - Fine-tune, evaluate, and customize LLMs (PEFT, LoRA, domain adaptation, prompt
+    engineering) for real-world healthcare use cases
   - Build multimodal AI systems integrating text, structured medical data, and images
-  - Optimize models for accuracy, latency, and resource efficiency in production
-  - Develop and integrate speech-to-text and text-to-speech models into conversational
+  - Evaluate and integrate STT and TTS models into conversational voice assistant
     interfaces
-  - Customize foundation models using PEFT, LoRA, and prompt engineering techniques
-  - Process and curate large-scale structured and unstructured healthcare datasets
-  - Implement data privacy controls compliant with HIPAA and GDPR
-  - Evaluate model bias, drift, explainability, and reliability using benchmarks and
-    gold standard datasets
-  - Build and support voice assistant applications for clinical and patient-facing
-    use cases
+  - Develop and productionalize AI algorithms with healthcare data, optimizing accuracy,
+    latency, and resource efficiency
+  - Process and curate large-scale healthcare datasets with HIPAA/GDPR privacy controls
+    and synthetic data strategies
+  - Run evaluation benchmarks, address bias, drift, and explainability, and apply
+    responsible AI practices
+  - Implement continuous learning workflows with feedback-driven retraining loops,
+    reproducibility, and experiment tracking
+  - Collaborate across engineering, data, clinical, and product teams in Agile workflows
+    throughout the AI lifecycle
   use_cases:
-  - Precision care and patient engagement in healthcare settings
-  - Clinical decision support using multimodal medical data
-  - Conversational AI and voice assistants for patient-clinician interaction
-  - Clinical and operational workflow optimization in health systems
-  - Healthcare-specific NLP and language understanding from medical records
+  - Precision care and patient engagement for health systems
+  - Conversational voice assistants for clinical and patient-facing use
+  - Multimodal healthcare AI combining text, structured medical data, and images
+  - Operational efficiency for care delivery and clinical workflows
+  - Production AI integrated into clinical systems and healthcare products
   skills:
-    genai: [LLMs, Fine-Tuning, RAG, Prompt Engineering, LoRA, PEFT, LangChain, OpenAI
-        API, Conversational AI, Hugging Face, Generative AI, Multimodal AI]
-    ml: [PyTorch, TensorFlow, NLP, Model Training, Model Evaluation, Machine Learning]
-    web: [REST APIs]
-    databases: [Vector Databases]
-    data: [Data Pipelines, Synthetic Data Generation]
     cloud: [Azure]
-    ops: [MLOps]
-    languages: [Python, SQL]
-    domains: [Computer Vision]
-    other: [Speech-to-Text, Text-to-Speech, HIPAA Compliance, GDPR, Responsible AI,
-      Agile]
+    languages: [Python]
+    ml: [Machine Learning, PyTorch, TensorFlow, Hugging Face, NLP, Whisper, Elevenlabs,
+      Speech-to-Text, Text-to-Speech, Multimodal Models, Foundation Models, Domain
+        Adaptation, Model Evaluation, BLEU, ROUGE, Human-in-the-Loop]
+    other: [HIPAA Compliance, GDPR, Responsible AI, Agile, EHR, Voice Assistants]
+    ops: []
+    databases: [Vector Databases]
+    domains: []
+    web: [API Deployment]
+    data: [Data Engineering, Synthetic Data Generation]
+    genai: [LLMs, Fine-Tuning, Prompt Engineering, LoRA, RAG, LangChain, OpenAI API,
+      Conversational AI, Generative AI]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10281359'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:41:58.295081'
+  extracted_at: '2026-08-16T18:29:02.862265'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

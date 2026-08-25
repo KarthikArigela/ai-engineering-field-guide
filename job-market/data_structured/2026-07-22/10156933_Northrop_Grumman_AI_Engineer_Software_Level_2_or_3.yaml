@@ -1,53 +1,57 @@
 company:
   name: Northrop Grumman
-  stage: Public
+  stage: null
   focus: Aerospace and defense technology systems
 position:
   title: AI Engineer Software (Level 2 or 3)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building, fine-tuning, and
-      deploying RAG pipelines, agentic AI workflows, and LLM
-      solutions into production. The engineer works hands-on with
-      models, vector stores, and LLM APIs to solve concrete
-      business problems, which is squarely ai-first work.
+      The role builds and fine-tunes RAG pipelines, designs
+      agentic AI workflows with pretrained LLMs, uses prompt
+      engineering, function calling, and structured outputs, and
+      embeds fine-tuned models — clearly shaping LLM behavior and
+      output quality. With LLM and agent components central to the
+      work, it is ai-first.
   responsibilities:
-  - Define, develop, and deliver AI solutions to meet mission and sector needs for
-    internal and external customers
-  - Design and implement RAG pipelines and agentic AI workflows integrating pretrained
-    and self-hosted LLMs
-  - Embed fine-tuned models into existing microservice architectures and expose them
-    via APIs or internal SDKs
-  - Rapidly prototype AI solutions within 2-4 weeks and iterate to production quality
+  - Work with customers to define, develop, and deliver AI solutions that meet mission
+    and sector needs
+  - Build and fine-tune RAG pipelines, agentic AI pipelines, and LLM solutions that
+    solve concrete business problems
+  - Design, develop, document, test, and debug application software and systems containing
+    logical and mathematical solutions
+  - Embed fine-tuned models into micro-service architectures (REST/GraphQL, gRPC)
+    and expose them via APIs or internal SDKs
+  - Turn medium-priority use-case specifications into working AI prototypes within
+    2-4 weeks and iterate to production quality
   - Set up monitoring, logging, and automated testing for AI services; troubleshoot
     model drift and latency issues
   - Collaborate with data engineers to curate, clean, and annotate domain-specific
     datasets for fine-tuning and evaluation
-  - Write technical documentation, create example notebooks, and mentor junior teammates
-    on AI best practices
-  - Deploy machine learning algorithms for testing and production systems in collaboration
-    with cross-functional teams
+  - Write technical documentation, create example notebooks, mentor junior teammates,
+    and regularly demonstrate progress to customers
   use_cases:
-  - Retrieval-augmented generation pipelines for domain-specific knowledge retrieval
-  - Agentic AI workflows for automated business problem solving
-  - LLM-powered services integrated into existing microservice architectures
-  - Model fine-tuning and evaluation for defense and aerospace mission applications
-  - AI prototyping and proof-of-concept demonstrations for DoD customers
+  - AI solutions for defense mission and sector business problems
+  - Retrieval-augmented generation for domain-specific knowledge access
+  - Agentic AI workflows integrating pretrained LLMs via APIs and self-hosted deployments
+  - Fine-tuned models embedded in production micro-service architectures
+  - AI prototyping to production for internal and DoD customers
   skills:
-    genai: [RAG, Agentic Workflows, LLMs, LangChain, LangGraph, Prompt Engineering,
-      Function Calling, Structured Outputs, Embeddings, Fine-Tuning, OpenAI API, Llama,
-      Generative AI, AI Agents]
-    ml: [PyTorch, TensorFlow, Transformers, Hugging Face, Neural Networks, Deep Learning,
-      JAX, Reinforcement Learning, Machine Learning, Model Training, Model Evaluation]
-    web: [REST APIs, GraphQL, gRPC, Microservices, APIs]
-    databases: [Pinecone, FAISS, Milvus, Vector Databases, Vector Search]
-    data: [ETL, Data Pipelines]
     cloud: [AWS, Azure, GCP]
-    ops: [Docker, Kubernetes, MLOps, CI/CD, Git, Monitoring, Model Deployment]
-    languages: [Python, SQL]
+    languages: [Python]
+    ml: [PyTorch, Hugging Face, TensorFlow, JAX, Machine Learning, Deep Learning,
+      Neural Networks, Reinforcement Learning, Supervised Learning, Unsupervised Learning,
+      Statistical Modeling]
+    other: [Agile, Code Review, Responsible AI, Explainable AI, Adversarial AI, Signal
+        Processing, Information Theory, Topological Data Analysis, Genetic Algorithms]
+    ops: [MLOps, Docker, Kubernetes, CI/CD, Git, Monitoring]
+    databases: [Pinecone, FAISS, Milvus, Vector Databases, Vector Search]
     domains: []
-    other: [Responsible AI, Agile, Code Review]
+    web: [REST, GraphQL, gRPC, Microservices]
+    data: [Data Pipelines]
+    genai: [RAG, LLMs, AI Agents, Agentic Workflows, LangChain, LangGraph, Prompt
+        Engineering, Function Calling, Structured Outputs, Embeddings, Fine-Tuning,
+      Llama]
   is_customer_facing: true
   is_management: false
 meta:
@@ -56,4 +60,6 @@ meta:
   locations:
   - El Segundo, USA
   - Redondo Beach, USA
-  extracted_at: '2026-07-22T13:31:34.025809'
+  extracted_at: '2026-08-16T17:24:08.611861'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

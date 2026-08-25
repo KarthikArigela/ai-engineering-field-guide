@@ -1,0 +1,59 @@
+company:
+  name: ChiStats
+  stage: null
+  focus: Insurance quoting with agentic AI platform
+position:
+  title: AI System Quality Assurance Engineer – Data & Agentic AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role defines and builds validation checks, acceptance
+      criteria, and guardrails for AI-agent outputs, and evaluates
+      non-deterministic LLM outcomes (hallucination checks,
+      thresholds) — this is building evals/guardrails for
+      LLM/agent systems, which is shaping model output quality.
+      Hence ai-first.
+  responsibilities:
+  - Map and trace how data moves through the system pipeline from source payloads
+    to UI
+  - Perform data validation during migration testing including source-to-target comparison,
+    completeness, accuracy, and transformation checks
+  - Validate SubmissionLink data against expected Small Business Owner information
+    and downstream insurance application outputs
+  - Verify that AI agents correctly consume, interpret, and apply SubmissionLink data
+    when creating insurance applications
+  - Build and execute validation scripts for data integrity, completeness, schema
+    conformance, and transformation accuracy
+  - Test agentic workflows including AI-agent decisions, tool usage, fallback behavior,
+    exception handling, and human-review handoffs
+  - Define and execute validations for AI-generated outputs including hallucination,
+    consistency, and policy-violation checks
+  - Develop integration and regression tests covering negative, edge-case, and AI-output
+    scenarios
+  - Communicate defects, quality risks, guardrail gaps, and findings to US-based stakeholders
+  use_cases:
+  - Agentic AI insurance quoting platform
+  - Automated insurance application creation from Small Business Owner data
+  - Data migration validation between source systems
+  - Validation of AI-agent decisions and tool usage in workflows
+  - Guardrail enforcement and AI-output quality checks for insurance quoting
+  skills:
+    genai: [AI Agents, Agentic Workflows, LLMs, Guardrails, MCP, LLM Evaluation]
+    ml: []
+    web: [APIs, JSON]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [SQL]
+    domains: []
+    other: [Data Validation, Migration Testing, Postman, Regression Testing, Integration
+        Testing, Insurance]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10819751'
+  location: Pune, IND
+  extracted_at: '2026-08-25T12:07:18.828491'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

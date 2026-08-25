@@ -1,0 +1,54 @@
+company:
+  name: TransUnion
+  stage: null
+  focus: Credit reporting and information services
+position:
+  title: Advisor -AI Security Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and implements LLM guardrails, threat-
+      models RAG pipelines and agentic workflows, and secures
+      autonomous AI agents — directly shaping model output quality
+      and safety mechanisms, which is shaping an LLM system. Hence
+      ai-first.
+  responsibilities:
+  - Design, implement, and enforce LLM guardrails across applications and cloud environments
+    to prevent prompt injection, data exfiltration, and toxic outputs
+  - Architect secure execution boundaries, sandboxing, and IAM frameworks for autonomous
+    cloud-hosted AI agents
+  - Conduct advanced threat modeling on LLM architectures, RAG pipelines, and agentic
+    workflows
+  - Configure and maintain security postures across AWS and GCP environments hosting
+    AI workloads
+  - Define, implement, and monitor DLP policies across cloud infrastructure to protect
+    data ingested by AI models
+  - Integrate automated security scanning into CI/CD pipelines using Harness and secure
+    artifacts in JFrog Artifactory
+  - Build custom AI/ML-powered security scanning capabilities to detect anomalies,
+    code vulnerabilities, and misconfigurations
+  use_cases:
+  - LLM prompt injection, data exfiltration, and toxic output prevention
+  - Security of autonomous cloud-hosted AI agents
+  - Threat modeling of LLM, RAG, and agentic architectures
+  - Data loss prevention for AI workloads in multi-cloud environments
+  - AI-powered security scanning for anomalies and code vulnerabilities
+  skills:
+    genai: [Guardrails, RAG, Agentic Workflows, AI Agents, Prompt Engineering]
+    ml: [Machine Learning, Anomaly Detection]
+    web: []
+    databases: []
+    data: []
+    cloud: [AWS, GCP, IAM]
+    ops: [CI/CD, Harness, Docker, Kubernetes, DevSecOps]
+    languages: [Python, Go]
+    domains: []
+    other: [OWASP Top 10 for LLMs, Threat Modeling, Data Loss Prevention]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10715010'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:26:07.287233'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

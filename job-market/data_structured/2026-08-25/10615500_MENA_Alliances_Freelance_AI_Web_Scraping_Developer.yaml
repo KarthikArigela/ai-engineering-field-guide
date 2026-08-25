@@ -1,0 +1,50 @@
+company:
+  name: MENA Alliances
+  stage: null
+  focus: Business process outsourcing and digital talent services
+position:
+  title: Freelance AI & Web Scraping Developer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role integrates LLM APIs to analyze website content and
+      evaluates lead quality, designing prompts and scoring
+      mechanisms that shape model output. Prompt engineering for
+      multilingual content is explicitly required, so model
+      behaviour is shaped with an LLM component, making it ai-
+      first.
+  responsibilities:
+  - Develop a web crawling and scraping system to collect data from a list of company
+    websites
+  - Extract and process meaningful content from crawled pages
+  - Integrate AI/LLM capabilities to analyze website content and evaluate industry
+    vertical fit
+  - Design a scoring or ranking mechanism that qualifies and prioritizes leads
+  - Produce structured output of qualified leads with reasoning or scores
+  - Deliver a standalone, maintainable application ready for client handover
+  use_cases:
+  - AI-powered lead qualification for marketing targeting
+  - Web crawling and content extraction from company websites
+  - Industry vertical classification of companies (e.g., utilities, telecom)
+  - Lead scoring and ranking with reasoning
+  skills:
+    genai: [LLMs, OpenAI API, Anthropic API, Prompt Engineering]
+    ml: []
+    web: [BeautifulSoup, Playwright, Puppeteer]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: []
+    domains: []
+    other: [Web Scraping, Web Crawling, Scrapy, Content Extraction, Open-Source Models,
+      Lead Generation]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10615500'
+  location: GBR
+  remote: true
+  extracted_at: '2026-08-25T10:56:20.110582'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

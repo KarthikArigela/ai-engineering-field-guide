@@ -1,0 +1,51 @@
+company:
+  name: Airbus
+  stage: null
+  focus: Aerospace and aviation manufacturing
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role shapes model behaviour directly: developing prompt
+      architectures, RAG pipelines, and fine-tuned LLMs, and
+      selecting models for cost/quality tradeoffs. LLM/GenAI
+      components dominate, so ai-first.
+  responsibilities:
+  - Lead end-to-end lifecycle of AI products from architecture and model selection
+    to deployment and monitoring
+  - Design intelligent systems that parse, translate, and modernize legacy codebases
+    and technical documentation using NLP and LLMs
+  - Develop prompt architectures, RAG pipelines, and fine-tuned models for domain-specific
+    artifact generation
+  - Build scalable serverless AI microservices and batch pipelines on GCP
+  - Establish CI/CD pipelines, automated testing, and API design standards for AI
+    assets
+  - Monitor and optimize inference costs including token spend, vector database queries,
+    and GPU/TPU utilization
+  - Collaborate cross-functionally and mentor junior engineers on production ML practices
+  use_cases:
+  - Automated modernization and translation of legacy codebases
+  - Parsing and generating technical documentation from engineering artifacts
+  - Domain-specific artifact generation from high-level user prompts
+  - Intelligent software automation for engineering workflows
+  - Cost tracking and optimization of AI inference workloads
+  skills:
+    genai: [RAG, Prompt Engineering, Fine-Tuning, LLMs, LangChain, LlamaIndex]
+    ml: [Machine Learning, Model Training]
+    web: [REST APIs, gRPC, Microservices]
+    databases: [Vector Databases, Pinecone, Chroma, Vector Search]
+    data: []
+    cloud: [GCP, Vertex AI, BigQuery, Cloud Run, Cloud Functions, GKE]
+    ops: [MLOps, CI/CD, Docker, Kubernetes, OpenTelemetry]
+    languages: [Python]
+    domains: [NLP]
+    other: [AST Analysis, Static Code Analysis, FinOps]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10778525'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-25T11:48:33.900833'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

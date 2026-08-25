@@ -1,0 +1,59 @@
+company:
+  name: Kaufman Rossin
+  stage: null
+  focus: Accounting and professional services firm
+position:
+  title: Automation Engineer - Workflow and AI Agents
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and deploys AI agents end-to-end, including
+      agent flows for data processing, decision-making, and task
+      automation, and integrates LLM APIs (OpenAI, Anthropic) into
+      those agents and workflows. Designing agent orchestration is
+      shaping model behaviour, and an LLM/agent component is
+      central, so this is ai-first rather than generic integration
+      support.
+  responsibilities:
+  - Design, build, and maintain automated workflows using orchestration platforms
+    for data synchronization, alerts, and business process automation
+  - Develop and deploy AI agents for data processing, content generation, decision-making,
+    and task automation
+  - Build and maintain API integrations connecting Salesforce, Azure, Domo, and other
+    enterprise platforms using REST APIs, webhooks, and OAuth
+  - Write custom Python and JavaScript scripts when low-code tools are insufficient
+    for complex requirements
+  - Integrate LLM APIs such as OpenAI and Anthropic Claude into workflows and agents
+    to enable intelligent, data-driven decisions
+  - Monitor, optimize, and troubleshoot existing workflows for reliability, performance,
+    and proper error handling
+  - Create and maintain documentation for workflows, API integrations, authentication
+    methods, and retry logic
+  - Collaborate with business stakeholders and the Application Developer to define
+    automation requirements and share best practices
+  use_cases:
+  - Data synchronization and alerts across enterprise platforms
+  - Business process automation for professional services and back-office operations
+  - AI-powered data processing and content generation
+  - Intelligent decision-making automations based on business data
+  - Internal process automations improving team efficiency and data quality
+  skills:
+    genai: [AI Agents, Agentic Workflows, LLMs, OpenAI API, Anthropic API, ChatGPT,
+      GitHub Copilot, Cursor]
+    ml: []
+    web: [REST APIs, Webhooks, OAuth, JSON]
+    databases: []
+    data: [ETL]
+    cloud: [Azure, Azure Logic Apps, Azure Functions]
+    ops: []
+    languages: [Python, JavaScript]
+    domains: []
+    other: [n8n, Zapier, Make, Power Automate, Salesforce, Domo, XML, Version Control]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '9629056'
+  location: Bengaluru, IND
+  extracted_at: '2026-08-16T13:21:50.844115'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

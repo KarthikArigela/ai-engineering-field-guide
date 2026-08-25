@@ -1,50 +1,52 @@
 company:
   name: Citi
-  stage: Public
-  focus: Global bank building internal GenAI assistant platform
+  stage: null
+  focus: Global banking and financial services company
 position:
   title: Lead Application Development Engineer, Generative AI Products - Senior Vice
     President
   ai_type:
-    type: ai-first
+    type: ai-support
     reasoning: |-
-      This role involves building and owning core platform
-      capabilities for 'Citi Assist', a GenAI assistant, including
-      autonomous agents and background job services. The role is
-      hands-on with GenAI systems (LLMs, agents) in a platform
-      engineering capacity, making it ai-first despite being
-      primarily a backend engineering role.
+      This is a hands-on backend platform engineering lead role
+      whose core duties are building reliable, scalable services
+      that run background jobs and autonomous agents for a GenAI
+      assistant. There is no evidence the person writes prompts,
+      designs retrieval or agent flows, or shapes model output
+      quality; Generative AI and LLM experience appears only under
+      "bonus points", which makes this ai-support.
   responsibilities:
-  - Lead design and development of backend services for Citi Assist, a GenAI assistant
-    platform reaching all Citi employees globally
-  - Own and build critical platform capabilities including autonomous agents and background
-    job services
-  - Contribute high-quality code regularly while setting engineering standards for
-    the team
-  - Shape technical architecture and roadmap, partnering with product owner and scrum
-    master
-  - Champion safety, security, and compliance in AI systems
-  - Mentor engineers through code reviews, guidance, and knowledge-sharing
-  - Foster clear communication in a distributed team environment
+  - Lead the design and development of robust, scalable backend services while contributing
+    high-quality code regularly
+  - Own core platform capabilities including services that run background jobs and
+    autonomous agents
+  - Shape technical direction, architecture, and technical roadmap in partnership
+    with product owner and scrum master
+  - Champion safety, security, and compliance including emerging AI safety challenges
+  - Elevate the team through mentoring, constructive code reviews, and unblocking
+    others
+  - Foster clear, direct, and proactive communication in a distributed agile team
   use_cases:
-  - Internal GenAI digital assistant (Citi Assist) for all Citi employees globally
-  - Autonomous agents for enterprise workflows
-  - Common platform enabling organization-wide safe GenAI adoption
-  - Background job orchestration for AI-powered services
+  - Citi Assist - a Generative AI digital assistant for all Citi employees globally
+  - Core platform services running background jobs and autonomous agents
+  - Central GenAI platform and guidance enabling safe organization-wide AI adoption
+    at a global bank
   skills:
-    domains: []
-    languages: [Python, TypeScript, Go, Java, SQL]
-    ml: []
     cloud: []
-    genai: [LLMs, Autonomous Agents]
-    data: [Airflow, Dagster, Data Pipelines]
+    languages: [Python, Java, Go, TypeScript, Node.js]
+    ml: []
     other: []
-    ops: [Kubernetes, OpenShift, CI/CD, Tekton, Harness, Docker]
-    web: [React, Next.js]
+    ops: [Kubernetes, OpenShift, CI/CD, Tekton, Harness, GitHub, Distributed Systems]
     databases: [PostgreSQL]
+    domains: []
+    web: [React, Next.js]
+    data: [Airflow, Dagster, Data Pipelines]
+    genai: [Generative AI, LLMs, AI Agents]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9116157'
   location: Pune, IND
-  extracted_at: '2026-04-22T12:54:57.010816'
+  extracted_at: '2026-08-16T08:17:14.331519'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

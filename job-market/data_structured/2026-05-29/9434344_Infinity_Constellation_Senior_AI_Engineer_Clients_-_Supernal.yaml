@@ -1,62 +1,57 @@
 company:
   name: Infinity Constellation
-  stage: Seed
-  focus: SMB AI employee platform with agentic workflows
+  stage: null
+  focus: Agentic AI Employees for SMB businesses
 position:
   title: Senior AI Engineer (Clients) - Supernal
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on engineering role building AI Employees
-      with agentic workflows, conversational agents, and voice
-      systems. The role involves direct implementation of LLM
-      orchestration, RAG design, prompt engineering, function
-      calling, and multi-turn conversation systems - all core
-      AI/ML development work. The engineer deploys production
-      voice agents and owns technical delivery of AI systems.
+      The role directly shapes LLM/agent behaviour: it designs and
+      deploys conversational agents with multi-turn flows, prompt
+      engineering, function calling, LLM orchestration, and RAG
+      design. The work is client-facing production delivery of
+      agentic AI systems with no classical-ML-only component.
   responsibilities:
-  - Build production software including backend services, data models, and CRUD applications
-    using Supernal's proprietary platform
-  - Build and maintain integrations with external systems including APIs, webhooks,
-    and third-party tools that AI Employees interact with
-  - Design, implement, and deploy conversational agents with multi-turn flows, state
-    management, and tool usage capabilities
-  - Own end-to-end technical delivery for high-priority customer implementations from
-    architecture through production launch
+  - Build production software on Supernal's proprietary platform, including backend
+    services, data models, and CRUD applications
+  - Build and maintain integrations with external systems (APIs, webhooks, third-party
+    tools) that AI Employees can safely act on
+  - Design, implement, and deploy conversational agents including multi-turn flows,
+    state management, and tool usage
+  - Own end-to-end technical delivery for high-priority customer implementations,
+    from architecture through production launch
+  - Translate customer requirements and SOWs into technical designs, execution plans,
+    and deliverables
   - Make architectural decisions across application design, API integrations, LLM
     orchestration, RAG design, and workflow decomposition
-  - Handle real-world voice system challenges including latency management, interruptions,
-    fallbacks, and error recovery
-  - Write automated tests including unit tests and end-to-end tests for full system
-    validation
+  - Handle real-world voice system challenges including latency, interruptions, fallbacks,
+    and error handling
   - Debug complex production issues across agent logic, prompts, integrations, and
     external dependencies
   use_cases:
-  - AI employees for SMBs handling business workflows and tasks
-  - Voice-first AI agents with real-time conversational capabilities
-  - Multi-turn conversational systems for customer interactions
-  - Agentic workflows that integrate with external business systems and APIs
-  - Production AI systems that handle live users with real-time constraints
-  - Intelligent agents deployed on proprietary platform for business automation
+  - AI Employees (agentic AI teammates) serving as the first AI hire for SMBs
+  - Voice-first conversational agents handling live users under real-time constraints
+  - Multi-turn conversations with tool usage across integrated external business systems
+  - Production client implementations delivered end-to-end from SOW to launch
   skills:
-    domains: []
-    languages: [Python]
-    ml: []
     cloud: []
-    genai: [LLMs, Prompt Engineering, RAG, Function Calling, Conversational agents,
-      Agentic architectures, Multi-turn conversation design, State management, Voice
-        agents, ElevenLabs, Retell, Nextiva]
-    data: []
-    other: []
-    ops: [Error handling, Retry strategies, Unit testing, Integration testing, End-to-end
-        testing, Production debugging]
-    web: [APIs, Webhooks, Backend services, CRUD applications, Streaming audio, Telephony
-        integration]
-    databases: [Data modeling]
+    languages: []
+    ml: []
+    other: [Automated Testing, Telephony, Streaming Audio, Nextiva]
+    ops: [Monitoring]
+    databases: []
+    domains: []
+    web: [APIs, Webhooks]
+    data: [Data Modeling]
+    genai: [Agentic Workflows, Conversational AI, Voice Agents, LLMs, Prompt Engineering,
+      Function Calling, RAG, ElevenLabs, Retell]
   is_customer_facing: true
   is_management: false
 meta:
   job_id: '9434344'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T09:05:27.170345'
+  extracted_at: '2026-08-16T11:22:26.461794'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

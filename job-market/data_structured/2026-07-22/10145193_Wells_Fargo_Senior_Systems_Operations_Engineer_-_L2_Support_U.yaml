@@ -1,6 +1,6 @@
 company:
   name: Wells Fargo
-  stage: Public
+  stage: null
   focus: Banking and financial services
 position:
   title: Senior Systems Operations Engineer - L2 Support, UNIX, ITIL, SQL queries,
@@ -8,50 +8,54 @@ position:
   ai_type:
     type: ai-support
     reasoning: |-
-      This is an SRE/Systems Operations role focused on platform
-      reliability, observability, and L2 support for payments
-      infrastructure. While "Gen AI" and "AI tools" are mentioned,
-      they appear only as secondary skills for automation
-      scripting — the core work is systems operations, incident
-      management, and production engineering, not building or
-      deploying AI/ML systems.
+      This is an SRE/L2 systems operations role where AI appears
+      only as an assistive tool ("Gen AI" in the title, "AI tools"
+      for automation scripting). The person does not shape model
+      behavior, design retrieval or agent flows, or evaluate model
+      output — the deliverable is platform operability,
+      reliability, and production support for payment systems. Per
+      the rules, AI named as a tool the engineer uses is ai-
+      support.
   responsibilities:
-  - Lead management of installed systems and infrastructure within the Systems Operations
-    functional area
-  - Increase system efficiencies and reduce human intervention time on operational
-    tasks through automation
-  - Review and analyze operational support systems, application software, and system
-    management tools to maximize availability
-  - Collaborate with Application Engineering, Architecture, and Service Operations
-    teams throughout the Payments Modernization lifecycle
-  - Ensure platforms are operable, resilient, observable, and supportable by design
-    before go-live
-  - Work with vendors and technical personnel to resolve issues and achieve highest
-    levels of infrastructure availability
-  - Provide L2 support with strong ITIL processes and troubleshooting for the International
-    Payments platform
-  - Represent the production and operational lens when partnering with engineering
-    teams on new payment capabilities
+  - Manage installed systems and infrastructure within the Systems Operations functional
+    area to ensure highest availability
+  - Provide L2 production support for payment platforms with strong ITIL processes
+    and troubleshooting
+  - Embed operability, resiliency, observability, and supportability into the Payments
+    Modernization lifecycle before go-live
+  - Automate operational tasks using shell, Perl, Python, and AI tools to reduce manual
+    intervention time
+  - Monitor and analyze systems using tools such as ITRS Geneos, AppDynamics, and
+    Splunk
+  - Collaborate with vendors and technical personnel to resolve technical issues and
+    maximize infrastructure availability
+  - Partner with Application Engineering, Architecture, and Service Operations teams
+    to shape how payment capabilities are built, tested, released, and stabilized
+  - Lead technical deliverables and increase system efficiencies across the International
+    Payments team
   use_cases:
-  - Payments modernization platform reliability and observability
-  - International payments infrastructure operations and incident management
-  - Productionizing new payment platforms at scale
-  - Automation of systems operations and support workflows
+  - International payments platform operations and reliability
+  - Productionizing and supporting the Payments Modernization platform
+  - Production monitoring, incident support, and troubleshooting for payment systems
+  - Automation of operational and support tasks to reduce manual effort
+  - Resilience validation and observability of distributed payment architectures
   skills:
-    genai: [Generative AI]
-    ml: []
-    web: []
-    databases: []
-    data: []
     cloud: []
-    ops: [UNIX, ITIL, Observability, Distributed Tracing, SLO, Monitoring, Splunk,
-      Docker, Kubernetes, AppDynamics, Autosys]
-    languages: [Python, Bash, Perl, SQL]
+    languages: [Python, Perl, SQL, Bash]
+    ml: []
+    other: [ITIL, Event-Driven Architecture, Middleware]
+    ops: [UNIX, Autosys, Observability, ITRS Geneos, AppDynamics, Splunk, BlazeMeter,
+      Chaos Monkey, Site Reliability Engineering, Distributed Systems]
+    databases: [Databases]
     domains: []
-    other: [Event-Driven Architecture, Microservices, Distributed Systems]
+    web: []
+    data: [Message Queues]
+    genai: [Generative AI]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '10145193'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:29:55.038916'
+  extracted_at: '2026-08-16T17:17:05.873488'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

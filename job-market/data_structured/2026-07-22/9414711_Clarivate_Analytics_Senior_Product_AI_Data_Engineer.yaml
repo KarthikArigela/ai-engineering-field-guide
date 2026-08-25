@@ -1,58 +1,64 @@
 company:
   name: Clarivate Analytics
-  stage: Public
-  focus: Life sciences and healthcare data analytics
+  stage: null
+  focus: Analytics and SaaS for life sciences and healthcare
 position:
   title: Senior Product AI Data Engineer
   ai_type:
     type: ai-support
     reasoning: |-
-      This role focuses on building data platforms, ETL/ELT
-      pipelines, and dimensional data models that enable AI/ML
-      workloads, rather than directly building, training, or
-      deploying models. The work is infrastructure and data
-      engineering in service of AI teams, making it an ai-support
-      role.
+      This role architects enterprise data platforms, ETL/ELT
+      pipelines, dimensional models, and feature stores that feed
+      analytics and AI/ML workloads built by others. There is no
+      prompt engineering, RAG or agent design, model training, or
+      output evaluation. Per the dataset/pipeline rule, building
+      data infrastructure that serves someone else's models is ai-
+      support.
   responsibilities:
   - Define and evolve enterprise-level product data architecture across multiple product
-    lines ensuring scalability and AI/ML readiness
+    lines, ensuring scalability, reliability, and AI/ML readiness
   - Architect scalable ETL/ELT pipelines and distributed data workflows for analytics,
     AI, and product intelligence
-  - Develop and enforce dimensional data modeling standards including star and snowflake
-    schemas across the organization
-  - Design and maintain fact and dimension tables with proper SCD handling, hierarchical
-    dimensions, and high-performance queries
+  - Develop and enforce dimensional data modeling standards, including star and snowflake
+    schemas, across the organization
+  - Design and maintain fact and dimension tables with proper grain, SCD handling,
+    hierarchical dimensions, and high-performance queries
   - Establish data architecture principles, naming conventions, and best practices
     for ETL/ELT, event tracking, and AI pipelines
   - Serve as the technical authority guiding architecture decisions to meet product,
     platform, and AI requirements
-  - Partner with cross-functional teams to translate requirements into scalable analytics-
+  - Partner with cross-functional teams to translate requirements into scalable, analytics-
     and AI-ready data models and pipelines
-  - Curate and validate datasets for machine learning, experimentation, and advanced
-    analytics
-  - Establish feature store frameworks and reusable AI data pipelines across multiple
-    products
+  - Curate and validate datasets for machine learning and establish feature store
+    frameworks and reusable AI data pipelines across products
   use_cases:
-  - Enterprise AI-ready data platforms for Life Sciences and Healthcare products
-  - Scalable ETL/ELT pipelines for analytics, AI, and product intelligence
-  - Dimensional data modeling for pharma, biotech, and healthcare SaaS applications
-  - Feature store frameworks and reusable AI data pipelines across multiple products
-  - Event-driven data architectures for downstream analytics and AI enablement
+  - Enterprise AI-ready data platforms for the Life Sciences and Healthcare ecosystem
+  - Analytics, product intelligence, and AI/ML workloads powered by scalable data
+    pipelines
+  - Feature stores and reusable AI data pipelines serving machine learning and experimentation
+    across multiple products
+  - Data- and workflow-intensive SaaS applications used by global pharma, biotech,
+    and healthcare customers
+  - Event-driven and dimensional data architectures feeding downstream analytics and
+    BI
   skills:
-    genai: []
-    ml: [Feature Store]
-    web: [JSON]
-    databases: [Snowflake, BigQuery, Relational Databases]
-    data: [Databricks, dbt, Airflow, Fivetran, Segment, ETL/ELT Pipelines, Dimensional
-        Modeling, Data Architecture, Data Governance, Data Pipelines]
     cloud: [AWS, Azure, GCP]
-    ops: []
     languages: [SQL, Python]
+    ml: [Machine Learning, Feature Stores]
+    other: [Power BI, Tableau, Looker, SAP BusinessObjects, Event-Driven Architecture,
+      Life Sciences & Healthcare Analytics]
+    ops: []
+    databases: [Snowflake, BigQuery, Relational Databases]
     domains: []
-    other: [Power BI, Tableau, Looker, Event-Driven Architecture, SAP BusinessObjects]
+    web: [JSON]
+    data: [Databricks, dbt, Airflow, Fivetran, Segment, Data Pipelines, Dimensional
+        Modeling, Data Governance]
+    genai: []
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9414711'
   location: Bengaluru, IND
-  extracted_at: '2026-07-22T13:41:23.155691'
+  extracted_at: '2026-08-16T18:51:55.257271'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

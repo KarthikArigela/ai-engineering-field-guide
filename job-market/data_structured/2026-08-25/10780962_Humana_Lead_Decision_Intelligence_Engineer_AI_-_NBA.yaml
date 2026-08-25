@@ -1,0 +1,61 @@
+company:
+  name: Humana
+  stage: null
+  focus: Health insurance and healthcare services company
+position:
+  title: Lead Decision Intelligence Engineer (AI) - NBA
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role designs and builds agentic workflows with
+      LangGraph/LangChain, does prompt engineering, RAG, tool
+      calling, and builds evaluation frameworks and guardrails —
+      clearly shaping LLM behavior. Customer-facing work is not
+      indicated.
+  responsibilities:
+  - Model and formalize business decision processes governing member engagement into
+    structured decision models
+  - Decompose complex processes into decision graphs, decision services, and optimization
+    opportunities
+  - Design and implement production agentic workflows using LangGraph and LangChain
+    with human-in-the-loop patterns
+  - Build AI-assisted capabilities in the Action Library for creating, validating,
+    and optimizing member actions
+  - Integrate Azure OpenAI and enterprise models via Humana's AI Gateway including
+    prompt engineering, structured outputs, and tool calling
+  - Design RAG architectures with vector search, semantic retrieval, and knowledge
+    grounding for decision context
+  - Build evaluation frameworks measuring recommendation, decision, and agent quality
+  - Implement guardrails, observability, and policy controls appropriate for healthcare
+    governance
+  - Lead and mentor a small team of AI engineers while remaining hands-on
+  use_cases:
+  - Next-best-action decision intelligence for member engagement in healthcare
+  - AI-assisted creation, validation, and governance of member actions in an Action
+    Library
+  - Agentic workflows that generate recommendations and explain tradeoffs
+  - Retrieval-augmented knowledge grounding for decision context
+  - Contextual bandit and RL-driven optimization of member recommendations
+  - Policy eligibility and rules evaluation for regulated healthcare engagement
+  skills:
+    genai: [LangGraph, LangChain, Azure OpenAI, Agentic Workflows, Prompt Engineering,
+      Structured Outputs, Function Calling, RAG, AutoGen, CrewAI, Azure AI Foundry,
+      Gemini, Anthropic API, OpenAI API, LLMs, Guardrails]
+    ml: [Reinforcement Learning, Machine Learning, Recommendation Systems, LLM Evaluation]
+    web: [REST APIs]
+    databases: [Vector Databases, Vector Search]
+    data: [Databricks]
+    cloud: [Azure, Vertex AI, Azure AI Search]
+    ops: [MLflow, MLOps, LangSmith, OpenTelemetry, Microservices]
+    languages: [Python]
+    domains: []
+    other: [Drools, IBM ODM, OPA, Salesforce, Adobe Experience Platform]
+  is_customer_facing: false
+  is_management: true
+meta:
+  job_id: '10780962'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T11:49:48.978263'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

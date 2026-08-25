@@ -1,58 +1,58 @@
 company:
   name: MLabs
-  stage: Seed
-  focus: Autonomous agent runtime for high-frequency trading
+  stage: null
+  focus: |-
+    Autonomous trading agent runtime for high-frequency
+    financial markets
 position:
   title: Staff AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves building and deploying autonomous AI
-      agents, fine-tuning domain-specific models (PEFT/LoRA),
-      optimizing LLM inference (vLLM, TGI), and implementing
-      reinforcement/online learning systems for a fleet of trading
-      agents. The engineer directly works on training, fine-
-      tuning, serving, and optimizing AI models and multi-agent
-      systems in production.
+      The role shapes model behaviour directly: fine-tuning
+      domain-specific LLMs (PEFT/LoRA), building evaluation
+      frameworks for model/signal output quality, designing multi-
+      agent fleet coordination, and deciding between prompting vs.
+      domain-specific training. It shapes both LLM components
+      (external LLMs, fine-tuned models) and classical ML
+      (reinforcement/online learning), which makes it ai-first.
   responsibilities:
-  - Design and implement feedback loop systems connecting trade outcomes to strategy
-    improvement including signal selection, risk parameters, position sizing, and
-    timing
-  - Build evaluation frameworks to quantify which signals and market conditions predict
-    profitable trades versus noise
+  - Design and implement feedback loops connecting trade outcomes to strategy improvement
+    across signal selection, risk parameters, position sizing, and timing
+  - Build evaluation frameworks that quantify which signals and market conditions
+    predict profitable trades versus noise
   - Develop automated strategy generation systems that explore new configurations,
-    backtest against real fleet data, and surface deployment candidates
-  - Build market adaptation mechanisms to detect shifts in market conditions and adapt
-    fleet behavior in real-time
+    backtest them against real fleet data, and surface deployment candidates
+  - Build mechanisms to detect shifts in market conditions and adapt fleet behavior
+    in real time
   - Create higher-order monitoring agents to catch configuration errors and performance
     degradation across concurrent agents
-  - Decompose trades into component drivers to feed insights back into strategy design
-    and manage concentration risk across the fleet
-  - Own model infrastructure transition from external LLM dependence to controlled
-    intelligence including hosting strategies and fine-tuned domain-specific models
-  - Build telemetry and data capture layer ensuring every decision and outcome is
-    structured and queryable
-  - Optimize inference for many concurrent agents ensuring structured decision outputs
-    and cost-efficiency at scale
+  - Decompose trade performance into component drivers and manage concentration risk
+    and capital allocation across the fleet
+  - Evaluate hosting strategies ranging from proxied external LLMs to fine-tuned domain-specific
+    models and build the training pipelines to support them
+  - Build the telemetry and data capture layer and optimize inference for many concurrent
+    agents with structured, cost-efficient decision outputs
   use_cases:
-  - Autonomous trading agents that learn from real-time market outcomes
-  - Real-time market condition detection and adaptive fleet behavior
-  - Automated strategy generation and backtesting against live trading data
-  - Multi-agent coordination with concentration risk and capital allocation management
-  - Domain-specific model fine-tuning for financial decision-making in DeFi/on-chain
-    environments
+  - Autonomous trading agent fleet that learns from real-time market outcomes
+  - Signal and market-condition evaluation to separate profitable predictors from
+    noise
+  - Automated strategy generation, backtesting, and deployment candidate surfacing
+  - Real-time market regime detection and fleet behavior adaptation
+  - Fleet-wide monitoring, performance attribution, and concentration risk management
+  - Self-hosted, fine-tuned domain-specific LLM inference at scale for concurrent
+    trading agents
   skills:
-    domains: [Signal generation, Alpha research, Portfolio optimization, On-chain
-        data, DeFi protocols]
-    languages: [Python, Go, TypeScript]
-    ml: [Reinforcement Learning, Online learning, Production ML engineering]
     cloud: []
-    genai: [PEFT/LoRA, Fine-Tuning, Multi-Agent Systems]
-    data: [Data Pipelines]
-    other: [Distributed Systems]
-    ops: [vLLM, TGI, Custom inference pipelines, ML model deployment]
-    web: []
+    languages: [Python, Go, TypeScript]
+    ml: [Machine Learning, Reinforcement Learning]
+    other: [Backtesting, Signal Generation, Alpha Research, Portfolio Optimization]
+    ops: [vLLM, TGI, Distributed Systems]
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [LLMs, Fine-Tuning, LoRA, AI Agents, Multi-Agent Systems]
   is_customer_facing: false
   is_management: false
 meta:
@@ -63,4 +63,6 @@ meta:
   - CAN
   - New York, USA
   remote: true
-  extracted_at: '2026-06-25T19:46:49.396030'
+  extracted_at: '2026-08-16T13:25:22.162529'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

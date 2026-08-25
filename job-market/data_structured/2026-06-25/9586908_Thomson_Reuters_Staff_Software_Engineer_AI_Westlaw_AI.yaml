@@ -1,56 +1,60 @@
 company:
   name: Thomson Reuters
-  stage: Public
-  focus: Legal, tax, accounting, and compliance information services
+  stage: null
+  focus: |-
+    Trusted content and software for legal, tax, accounting, and
+    compliance professionals
 position:
   title: Staff Software Engineer – AI (Westlaw AI)
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and architecting AI
-      systems including RAG pipelines, autonomous AI agents with
-      multi-step reasoning, and LLM adaptation for specialized
-      domains. The engineer works hands-on with model integration,
-      LLMOps practices, and AI system optimization rather than
-      supporting others' AI work.
+      The role directly shapes model behaviour by designing
+      advanced RAG architectures, autonomous multi-step AI agents,
+      and domain adaptation/customization of AI models for
+      production. LLM and agent components are central to the
+      responsibilities, making this ai-first.
   responsibilities:
-  - Design and lead implementation of enterprise-scale AI systems including RAG architectures
-    and autonomous AI agents with multi-step reasoning
-  - Architect scalable AI model integration strategies through APIs, distributed data
-    pipelines, and microservices
-  - Lead adaptation and customization of AI models for specialized domains like legal,
-    tax, fraud, and compliance
-  - Evaluate cutting-edge AI technologies and lead proof-of-concept projects and feasibility
-    assessments
-  - Provide senior technical leadership by mentoring engineers and championing MLOps
-    and LLMOps practices
+  - Design and lead implementation of enterprise-scale AI systems including multi-component
+    pipelines, advanced RAG architectures, and autonomous AI agents with multi-step
+    reasoning
+  - Architect scalable AI model integration strategies for production software through
+    APIs, distributed data pipelines, and microservices
+  - Lead adaptation and customization of AI models for specialized domains such as
+    legal, tax, fraud, and compliance
+  - Evaluate cutting-edge AI technologies, oversee proof-of-concept projects, and
+    translate AI research into technical roadmaps
+  - Champion MLOps and LLMOps practices across the organization, leading both design
+    and implementation
   - Design testing frameworks, monitoring systems, and observability solutions for
     AI model performance at scale
-  - Partner with AI researchers, product teams, and design to translate AI capabilities
-    into market-leading applications
-  - Lead compliance initiatives ensuring adherence to ethical AI principles, security
-    standards, and regulatory requirements
+  - Lead AI governance, model risk, and compliance initiatives ensuring ethical AI
+    principles, security standards, and regulatory requirements
+  - Mentor senior and junior engineers and serve as a senior thought leader in executive
+    forums and industry conferences
   use_cases:
-  - Legal research and expert systems (Westlaw AI)
-  - Tax and accounting advisory solutions
-  - Fraud detection and prevention
-  - Regulatory compliance monitoring
-  - Enterprise knowledge retrieval and semantic search
+  - AI-powered legal research and solutions for Westlaw
+  - Expert systems for legal, tax, fraud, and compliance domains
+  - Autonomous AI agents with multi-step reasoning for professional workflows
+  - RAG-based retrieval and semantic search over large-scale enterprise data
+  - Enterprise AI delivery with governance, ethical AI, and model risk management
   skills:
-    domains: [NLP, Legal Domain Expertise]
+    cloud: []
     languages: [Python]
-    ml: [PyTorch, TensorFlow, JAX, Model Training, Fine-Tuning]
-    cloud: [Cloud Platforms]
-    genai: [RAG, AI Agents, Multi-step Reasoning, Prompt Engineering, OpenAI API,
-      Anthropic API, LLM Architectures]
-    data: [Distributed Data Pipelines]
+    ml: [PyTorch, TensorFlow, JAX]
     other: [Responsible AI, Model Risk Management]
-    ops: [MLOps, LLMOps, Docker, Kubernetes, Model Monitoring, Observability]
-    web: [REST APIs, Microservices]
-    databases: [Vector Databases, Semantic Search, Information Retrieval]
+    ops: [MLOps, LLMOps, Model Monitoring, Observability]
+    databases: [Vector Databases]
+    domains: []
+    web: [Microservices, APIs]
+    data: [Data Pipelines]
+    genai: [RAG, AI Agents, Multi-Agent Systems, LLMs, OpenAI API, Anthropic API,
+      Semantic Search, Information Retrieval]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9586908'
   location: Bengaluru, IND
-  extracted_at: '2026-06-25T20:07:00.647662'
+  extracted_at: '2026-08-16T13:04:06.268152'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

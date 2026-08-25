@@ -1,51 +1,53 @@
 company:
   name: Kanerika
   stage: null
-  focus: Data analytics, AI/ML, and digital transformation services
+  focus: |-
+    Data and AI solutions for data-driven enterprise digital
+    transformation
 position:
   title: Lead AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI-driven
-      applications, specifically RAG-based chatbot solutions using
-      LLMs, embeddings, and vector databases. The engineer works
-      hands-on with generative AI technologies (LangChain, Hugging
-      Face Transformers, RAG) and deploys them on cloud
-      infrastructure, making it clearly ai-first.
+      The role leads hands-on design and development of RAG-based
+      chatbots, working directly with vector databases, embedding
+      models, and LLM integrations, which means shaping LLM output
+      quality through retrieval design. Since the shaped
+      components are LLMs and generative AI applications, this is
+      ai-first.
   responsibilities:
   - Lead the design and development of AI-driven applications, particularly RAG-based
     chatbot solutions
-  - Architect robust solutions leveraging Python and Java to ensure scalability, reliability,
-    and maintainability
-  - Deploy, manage, and scale AI applications using AWS cloud infrastructure, optimizing
-    performance and resource utilization
-  - Collaborate with cross-functional teams to understand requirements, define project
-    scopes, and deliver solutions
-  - Mentor team members on best practices in software development, AI methodologies,
-    and cloud deployments
-  - Ensure solutions meet quality standards through testing, debugging, performance
-    tuning, and documentation
-  - Research emerging AI technologies and methodologies to drive innovation in products
+  - Architect robust, scalable solutions in Python and Java ensuring reliability and
+    maintainability
+  - Deploy, manage, and scale AI applications on AWS infrastructure, optimizing performance
+    and resource utilization
+  - Collaborate with cross-functional teams to define project scope and deliver solutions
+  - Mentor team members on software development, AI methodologies, and cloud deployment
+    best practices
+  - Ensure quality through testing, debugging, performance tuning, and documentation
+  - Research emerging AI technologies and methodologies to drive product innovation
   use_cases:
-  - RAG-based chatbot solutions for enterprise applications
-  - Generative AI applications leveraging LLMs and embeddings
-  - AI-driven digital transformation for data-driven enterprises
-  - Scalable AI application deployment on cloud infrastructure
+  - RAG-based chatbot solutions for conversational enterprise applications
+  - AI-driven applications supporting digital transformation for data-driven enterprises
+  - GenAI/LLM-powered custom solutions for optimizing operations and enhancing customer
+    experiences
   skills:
-    genai: [RAG, LangChain, LLMs, Generative AI, Conversational AI, Embeddings]
-    ml: [Hugging Face, Transformers, TensorFlow, PyTorch]
-    web: []
-    databases: [Vector Databases, DynamoDB]
-    data: []
-    cloud: [AWS, AWS Lambda, SageMaker, API Gateway, EC2]
-    ops: [CloudWatch]
+    cloud: [AWS, EC2, AWS Lambda, SageMaker, API Gateway]
     languages: [Python, Java]
-    domains: [NLP]
-    other: [Agile, AWS Solutions Architect Certification]
+    ml: [PyTorch, TensorFlow, Hugging Face, Machine Learning, NLP]
+    other: [Agile]
+    ops: [CloudWatch]
+    databases: [Vector Databases, DynamoDB]
+    domains: []
+    web: []
+    data: []
+    genai: [RAG, LLMs, Generative AI, LangChain, Embeddings]
   is_customer_facing: false
-  is_management: true
+  is_management: false
 meta:
   job_id: '9916586'
   location: Hyderabad, IND
-  extracted_at: '2026-07-22T13:42:34.285730'
+  extracted_at: '2026-08-16T19:07:12.535914'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,25 +1,23 @@
 company:
   name: Wipfli
-  stage: Public
-  focus: Professional services and consulting firm
+  stage: ''
+  focus: Accounting, tax, and business consulting services
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is a hands-on AI engineering role focused on building
-      RAG (Retrieval-Augmented Generation) systems. The engineer
-      will directly work on implementing vector databases,
-      semantic search, optimizing embeddings, fine-tuning
-      retrieval parameters, and evaluating LLM architectures - all
-      core AI/ML implementation work rather than support or
-      infrastructure tasks.
+      The role directly shapes model behaviour: it designs RAG
+      systems (chunking, embeddings, retrieval parameters,
+      semantic search), evaluates LLM architectures, and maintains
+      prompt-engineering frameworks to improve output quality.
+      Since LLM/agent components dominate, it is ai-first.
   responsibilities:
   - Design, develop, and optimize full-stack applications using RAG for high-accuracy
     retrieval and generation
   - Build and maintain APIs and microservices with monitoring and logging for reliability
     and performance
-  - Implement vector databases and semantic search with fine-tuned retrieval for strong
+  - Implement vector databases and semantic search, fine-tuning retrieval for strong
     precision and recall
   - Optimize chunking, embeddings, and retrieval parameters tailored to professional
     services content
@@ -27,35 +25,33 @@ position:
     response quality
   - Build ETL pipelines and integrate with firm platforms such as document management,
     CRM, and engagement systems
-  - Ensure data quality, security, and compliance including role-based access, encryption,
+  - Ensure data quality, security, and compliance, including role-based access, encryption,
     audit logging, and confidentiality
-  - Partner across teams to deliver capabilities and mentor junior engineers while
-    staying current on emerging AI/ML technologies
+  - Partner across engagement, data science, and ML teams to deliver capabilities
+    and mentor junior engineers
   use_cases:
-  - AI-powered functional requirements documentation platform that automates creation
-    of complex project documentation
-  - Enterprise application for document management and professional services content
-    processing
-  - Semantic search and retrieval system for accessing and generating professional
-    documentation
-  - Integration with CRM and engagement systems for comprehensive document workflow
-  - RAG-based system for high-accuracy information retrieval and content generation
-    across the firm
+  - AI-driven functional requirements documentation platform used across the firm
+  - Automated creation of complex project documentation
+  - Semantic search and retrieval over professional services content
+  - Enterprise document processing with OCR integration
   skills:
-    domains: []
-    languages: [Python]
-    ml: [Embeddings]
     cloud: []
-    genai: [RAG, LangChain, LlamaIndex, Haystack, LLM architectures, Prompt Engineering]
-    data: [Data Pipelines, document processing, OCR]
-    other: []
-    ops: []
-    web: [APIs, Microservices, React, Vue, Angular, Node.js, .NET]
-    databases: [Vector Databases, Semantic Search]
+    languages: [Python, .NET]
+    ml: [Machine Learning]
+    other: [OCR]
+    ops: [Monitoring]
+    databases: [Vector Databases]
+    domains: []
+    web: [APIs, Microservices, Full-Stack Development, React, Vue, Angular, Node.js]
+    data: [Data Pipelines]
+    genai: [RAG, Prompt Engineering, LLMs, Embeddings, Semantic Search, LangChain,
+      LlamaIndex, Haystack]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9249065'
   location: USA
   remote: true
-  extracted_at: '2026-05-29T08:59:14.107450'
+  extracted_at: '2026-08-16T09:49:03.720277'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

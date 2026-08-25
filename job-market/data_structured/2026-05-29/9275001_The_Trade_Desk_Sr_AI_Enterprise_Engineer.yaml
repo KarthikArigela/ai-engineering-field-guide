@@ -1,56 +1,57 @@
 company:
   name: The Trade Desk
-  stage: Public
-  focus: |-
-    Independent digital advertising platform for brands and
-    agencies
+  stage: null
+  focus: Programmatic digital advertising platform
 position:
   title: Sr AI Enterprise Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This is an AI-first role because the engineer is hands-on
-      building, deploying, and fine-tuning agentic systems, LLM-
-      based applications, and RAG pipelines using LangChain,
-      LlamaIndex, and Semantic Kernel. The role involves direct
-      implementation of conversational agents and AI solutions,
-      not just supporting infrastructure for others.
+      The role designs and deploys agentic systems integrating
+      LLMs with enterprise data using LangChain, LlamaIndex, and
+      Semantic Kernel, builds RAG applications with Azure AI
+      Search and vector databases, and builds conversational
+      agents with Copilot and Claude. This is direct shaping of
+      LLM behavior through retrieval design, agent flows, and
+      platform configuration, so it is ai-first.
   responsibilities:
-  - Design and deploy intelligent agentic systems that integrate large language models
-    (LLMs) with enterprise data, tools, and workflows using frameworks like LangChain,
-    LlamaIndex, and Semantic Kernel
-  - Build Retrieval-Augmented Generation (RAG) applications using tools like Azure
-    AI Search, vector databases, and secure enterprise connectors to deliver contextual
-    insights
-  - Build and deploy agents using Microsoft Copilot, Copilot Studio, Anthropic Claude,
-    and similar platforms to help teams operationalize solutions within enterprise
-    guardrails
-  - Build and iterate on conversational agents that solve real-world problems, meet
-    stakeholder needs, and deliver measurable business value
+  - Design and deploy intelligent agentic systems integrating LLMs with enterprise
+    data, tools, and workflows using frameworks like LangChain, LlamaIndex, and Semantic
+    Kernel
+  - Contribute to RAG applications using Azure AI Search, vector databases, and secure
+    enterprise connectors to deliver contextual insights
+  - Build and deploy agents using Microsoft Copilot, Copilot Studio, and Anthropic
+    Claude within enterprise guardrails
+  - Build and iterate on conversational agents that solve real-world problems and
+    deliver measurable business value
+  - Support AI enablement across the company, helping teams adopt Copilot, Claude,
+    and similar tools
   - Drive quality and performance through automated testing, monitoring, and data-driven
     evaluation of success criteria, user adoption, and operational efficiency
-  - Enable AI adoption across the company by supporting teams in adopting Copilot,
-    Claude, and similar tools, and guiding partners through their AI journey
+  - Collaborate across teams with stakeholders, identifying opportunities and aligning
+    technical solutions with business goals
+  - Mentor teammates and contribute to a culture of innovation, technical excellence,
+    and continuous learning
   use_cases:
-  - Internal AI solutions for improving productivity and streamlining workflows across
-    The Trade Desk
-  - Enterprise conversational agents and agentic systems to reduce operational friction
-  - AI-powered contextual insights and knowledge retrieval using RAG and enterprise
-    data
-  - AI enablement platform supporting adoption of Microsoft Copilot and Anthropic
-    Claude across teams
+  - Internal AI solutions that improve productivity, streamline workflows, and reduce
+    operational friction
+  - Contextual enterprise insights via RAG over company data and secure connectors
+  - Custom AI agents operationalized within enterprise guardrails using Copilot and
+    Claude platforms
+  - Conversational agents solving real-world stakeholder problems
+  - Company-wide AI enablement and adoption of AI tooling
   skills:
-    domains: []
+    cloud: [Azure AI Search]
     languages: [Python, C#, SQL, TypeScript]
     ml: []
-    cloud: [Azure AI Search]
-    genai: [LangChain, LlamaIndex, Semantic Kernel, Microsoft Copilot, Copilot Studio,
-      Anthropic API, RAG]
-    data: [Data Pipelines]
     other: []
-    ops: [Automated testing, Monitoring]
-    web: [React, APIs]
+    ops: []
     databases: [Vector Databases]
+    domains: []
+    web: [React, APIs]
+    data: [Data Pipelines]
+    genai: [LangChain, LlamaIndex, Semantic Kernel, LLMs, RAG, AI Agents, Microsoft
+        Copilot, Copilot Studio, Anthropic API, Conversational AI]
   is_customer_facing: false
   is_management: false
 meta:
@@ -59,4 +60,6 @@ meta:
   locations:
   - Ventura, USA
   - Los Angeles, USA
-  extracted_at: '2026-05-29T08:58:03.635442'
+  extracted_at: '2026-08-16T09:56:35.014562'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

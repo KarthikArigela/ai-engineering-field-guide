@@ -1,0 +1,57 @@
+company:
+  name: PwC
+  stage: null
+  focus: Professional services and consulting firm
+position:
+  title: AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role involves shaping LLM behavior: prompt engineering,
+      LLM evaluation and fine-tuning, LLM-as-judge pipelines,
+      agent workflows with LangGraph, and context engineering.
+      These are clearly LLM/agent-shaping activities, making it
+      ai-first despite also involving classical ML (TensorFlow).
+  responsibilities:
+  - Design and implement AI systems to transform raw data into actionable insights
+  - Develop scalable machine learning models using Python and TensorFlow
+  - Build and maintain data pipelines to support AI model deployment and integrate
+    data sources
+  - Build and orchestrate AI agent workflows using frameworks like LangGraph for multi-step
+    reasoning and tool integration
+  - Apply generative AI techniques including prompt engineering, LLM evaluation, and
+    fine-tuning for production applications
+  - Develop automated evaluation frameworks including LLM-as-judge pipelines, regression
+    testing, and adversarial benchmarking
+  - Utilize NLP tools like NLTK for text analytics and sentiment analysis
+  - Implement neural networks and deep learning methods for advanced AI applications
+  use_cases:
+  - Text analytics and sentiment analysis
+  - Automated multi-step reasoning and agent-driven workflows
+  - Production generative AI applications powered by foundation models
+  - Transforming raw data into actionable business insights
+  - AI-based solutions deployed at scale for internal firm services
+  skills:
+    genai: [LangGraph, Prompt Engineering, LLM Evaluation, Fine-Tuning, Context Engineering,
+      Agentic Workflows, Quantization, Structured Outputs]
+    ml: [TensorFlow, scikit-learn, Neural Networks, Deep Learning, NLP, NLTK, Machine
+        Learning]
+    web: []
+    databases: [Snowflake]
+    data: [Data Pipelines, Databricks]
+    cloud: [AWS, GCP, Azure]
+    ops: []
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10408735'
+  location: Irvine, USA
+  locations:
+  - Irvine, USA
+  - Los Angeles, USA
+  extracted_at: '2026-08-25T10:00:44.363296'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

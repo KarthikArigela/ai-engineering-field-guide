@@ -1,0 +1,53 @@
+company:
+  name: Cellebrite
+  stage: null
+  focus: Digital forensics and investigation software
+position:
+  title: Senior AI Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role researches and develops ML algorithms that shape
+      output quality (evaluating algorithm performance,
+      prototyping new algorithms to turn forensic data into
+      intelligence), and explicitly involves LLM integration with
+      Bedrock in an AI solution, making it ai-first.
+  responsibilities:
+  - Design and implement features for the AWS-based AI solution, including job orchestration,
+    manifest generation, and API integrations
+  - Develop and maintain CI/CD pipelines using GitHub Actions, CDK, and AWS infrastructure
+    including SageMaker, Lambda, and Bedrock
+  - Research and develop machine learning algorithms to turn forensic data into investigation
+    leads, evidence, and intelligence insights
+  - Take projects end to end from idea inception through data and algorithm research
+    and POC development
+  - Ensure code quality through unit testing, performance testing, and observability
+    enhancements
+  - Integrate AI services into broader investigation workflows and runtime environments
+    with cross-functional teams
+  - Troubleshoot deployment issues and improve dashboards and monitoring tools
+  use_cases:
+  - Turning forensic data into investigation leads, evidence, and intelligence insights
+  - Digital investigations and intelligence gathering for public safety organizations
+  - Real-time ML inference and job orchestration in an AWS-based AI solution
+  - Integrating AI services into digital evidence collection and analysis workflows
+  skills:
+    genai: [LLMs, Semantic Caching]
+    ml: [PyTorch, Machine Learning]
+    web: [APIs]
+    databases: []
+    data: [Pandas, NumPy]
+    cloud: [AWS, SageMaker, AWS Lambda, AWS Bedrock, EKS]
+    ops: [CI/CD, GitHub Actions, Docker, Kubernetes, Datadog, Observability]
+    languages: [Python, TypeScript, SQL]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10524158'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T10:31:29.576674'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

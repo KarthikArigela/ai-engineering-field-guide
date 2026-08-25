@@ -1,0 +1,61 @@
+company:
+  name: Renew Home
+  stage: null
+  focus: Residential energy management and virtual power plant
+position:
+  title: Staff Engineer, AI Developer Experience (Remote, US)
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      This is a Developer Experience role that rolls out and
+      governs AI coding tools (GitHub Copilot, Claude, Cursor,
+      Codex) so other engineers ship faster — the deliverable is
+      developer workflow, not model behaviour. The person
+      evaluates and adopts tools built by others; they do not
+      design prompts, retrieval, agent flows, or train models
+      themselves. Per the edge-case rule on AI developer tooling
+      rollout, this is ai-support.
+  responsibilities:
+  - Lead the evolution of AI Developer Experience, enabling engineers to safely and
+    effectively leverage AI throughout the software development lifecycle
+  - Drive evaluation, adoption, and governance of AI development tooling including
+    code generation, in-editor assistance, and agentic workflows
+  - Measure and improve the speed of developer actions across TypeScript/Node and
+    Python codebases, covering builds, pre-push hooks, linting, type checking, and
+    Nx task orchestration
+  - Own the devcontainer strategy (local and cloud-based) for a secure, consistent,
+    and reproducible development experience
+  - Maintain and improve local testing frameworks and developer-facing test infrastructure
+  - Own and evolve shared internal libraries and configuration systems used across
+    application teams
+  - Contribute to CI/CD and delivery pipelines, SDLC definition, language and library
+    upgrade cycles, onboarding, documentation, and observability
+  - Mentor engineers and influence engineering culture as the dedicated owner and
+    point of accountability for DevX progress
+  use_cases:
+  - AI-assisted code generation and in-editor coding assistance for engineers
+  - Agentic AI workflows embedded in the software development lifecycle
+  - Governed, secure, and measurable adoption of AI development tools across engineering
+  - Faster developer inner loop across TypeScript/Node and Python codebases
+  - Reproducible development environments via devcontainers
+  skills:
+    genai: [GitHub Copilot, Claude, OpenAI API, Cursor, Codex, Agentic Workflows,
+      Guardrails]
+    ml: []
+    web: []
+    databases: []
+    data: []
+    cloud: []
+    ops: [Nx, Devcontainers, CI/CD, Observability]
+    languages: [TypeScript, Node.js, Python]
+    domains: []
+    other: [NPM, PyPI]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10195094'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-16T17:42:00.438655'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

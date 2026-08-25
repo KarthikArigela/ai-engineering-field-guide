@@ -1,52 +1,58 @@
 company:
   name: Esko
-  stage: Public
-  focus: |-
-    Integrated software and hardware for packaging design and
-    print processes
+  stage: 'Publicly traded (Veralto, NYSE: VLTO)'
+  focus: Packaging design and print software solutions
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly focused on designing, building, and
-      deploying Generative AI systems including agentic AI, RAG
-      pipelines, model inference optimization, and fine-tuning.
-      The engineer works hands-on with LLMs, orchestration
-      frameworks, and production-grade AI capabilities.
+      This role directly shapes LLM and agent behavior: designing
+      agentic orchestration systems, advanced RAG retrieval
+      strategies, evaluation pipelines, guardrails, red-teaming,
+      and fine-tuning with LoRA/QLoRA. LLMs and agents are
+      central, so it is ai-first.
   responsibilities:
-  - Design and scale agentic AI systems using orchestration frameworks such as LangGraph,
-    CrewAI, or AutoGen for complex workflows
-  - Develop evaluation and benchmarking pipelines using G-Eval, RAGAS, and LLM-as-a-Judge
-    to measure performance, hallucinations, and latency
+  - Lead the design, optimization, and governance of Esko's Generative AI ecosystem
+    for production-grade AI capabilities across products
+  - Design and scale agentic AI systems supporting long-running, complex workflows
+    using orchestration frameworks such as LangGraph, CrewAI, or AutoGen
+  - Develop systematic evaluation and benchmarking pipelines using G-Eval, RAGAS,
+    and LLM-as-a-Judge to measure performance, hallucinations, and latency
   - Implement advanced RAG strategies including multi-stage re-ranking, hybrid search,
     and query expansion for high-precision knowledge retrieval
-  - Optimize model inference performance using quantization approaches (AWQ, GGUF)
-    and caching strategies for cost-efficient throughput
-  - Collaborate with Data Science and DevOps teams to transition prototypes into production-ready
-    APIs
-  - Implement safety guardrails, red-teaming workflows, and alignment mechanisms for
-    regulatory and brand-safety compliance
+  - Optimize model inference performance using quantization approaches such as AWQ
+    and GGUF along with caching strategies for cost-efficient high throughput
+  - Collaborate with Data Science and DevOps teams to transition experimental prototypes
+    into hardened, production-ready APIs
+  - Implement safety guardrails, red-teaming workflows, and alignment mechanisms to
+    meet industry regulations and brand-safety standards
   use_cases:
-  - Packaging design workflow automation using agentic AI systems
-  - High-precision knowledge retrieval for packaging and print domain
-  - Production-grade Generative AI capabilities across Esko's product line
-  - Safe and compliant AI outputs meeting industry regulations and brand standards
+  - Agentic AI systems automating long-running, complex packaging-industry workflows
+  - High-precision knowledge retrieval over domain content via advanced RAG
+  - Production-grade generative AI capabilities embedded across Esko's packaging design
+    and print software products
+  - Cost-efficient, high-throughput LLM inference through quantization and caching
+  - Brand-safety and regulatory compliance of AI outputs via guardrails, red-teaming,
+    and alignment
   skills:
-    domains: []
-    languages: [Python]
-    ml: [PyTorch, JAX, Quantization, parameter-efficient fine-tuning]
     cloud: []
-    genai: [LangGraph, CrewAI, AutoGen, G-Eval, RAGAS, LLM-as-a-Judge, RAG, LangChain,
-      LlamaIndex, Haystack, LoRA, prompt versioning]
-    data: []
+    languages: []
+    ml: [PyTorch, JAX, Quantization, AWQ, GGUF]
     other: []
-    ops: [Weights & Biases, MLflow, CI/CD, LLMOps, model endpoint management]
-    web: [REST APIs]
-    databases: [Pinecone, Weaviate, Milvus, Vector Databases]
+    ops: [LLMOps, CI/CD, Weights & Biases, MLflow]
+    databases: [Vector Databases, Pinecone, Weaviate, Milvus]
+    domains: []
+    web: [APIs]
+    data: []
+    genai: [LangGraph, CrewAI, AutoGen, AI Agents, RAG, RAGAS, G-Eval, LLM-as-a-Judge,
+      LLM Evaluation, LangChain, LlamaIndex, Haystack, Fine-Tuning, LoRA, Guardrails,
+      Generative AI, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9120781'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T13:54:30.541816'
+  extracted_at: '2026-08-16T08:21:42.319367'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,54 @@
+company:
+  name: Virtuous
+  stage: null
+  focus: Nonprofit fundraising and donor CRM software
+position:
+  title: AI Design Engineer - Momentum
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role owns a design system in code; AI appears only as
+      tooling the engineer uses and as making the system legible
+      to AI coding agents so generated interfaces stay on brand.
+      The person never shapes an LLM through prompts, retrieval,
+      or evals — the deliverable is the design system, not model
+      behavior.
+  responsibilities:
+  - 'Own the design system end to end: tokens, primitives, components, patterns, and
+    documentation in code'
+  - Define the operating model for how new patterns are shipped and promoted into
+    the core system
+  - Drive adoption by treating engineers as users, instrumenting coverage and watching
+    for drift
+  - Build production interface work in the codebase on covered surfaces
+  - Make the system an AI guardrail so generated interfaces stay on brand and legible
+    to models
+  - Build accessibility structurally into the system
+  - Partner with product designers to turn validated patterns into system defaults
+  - Own documentation, enablement, and metrics proving system effectiveness
+  use_cases:
+  - Design system serving internal engineers across nonprofit fundraising products
+  - Keeping AI-generated interfaces on brand via a model-legible component system
+  - Unified accessible UI across the fundraising, marketing, and giving platform
+  - Component coverage and adoption instrumentation for frontend consistency
+  skills:
+    genai: [MCP]
+    ml: []
+    web: [React, CSS]
+    databases: []
+    data: []
+    cloud: []
+    ops: []
+    languages: [Vue]
+    domains: []
+    other: [Component Architecture, Accessibility, Storybook, Figma, Design Tokens,
+      Performance Testing]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10246034'
+  location: USA
+  remote: true
+  extracted_at: '2026-08-25T09:33:33.632397'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

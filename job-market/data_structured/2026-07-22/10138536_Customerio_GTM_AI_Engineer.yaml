@@ -1,58 +1,59 @@
 company:
   name: Customer.io
-  stage: Late Stage / Growth
-  focus: Automated customer messaging and engagement platform
+  stage: null
+  focus: |-
+    Automated customer messaging platform for email, SMS, push
+    notifications
 position:
   title: GTM AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role directly owns taking AI agents from prototype to
-      production: hardening prompts, writing evals, refining
-      tool/function definitions, and deploying agent systems at
-      scale on GCP. The engineer works hands-on with LLM-based
-      applications, agent frameworks, and prompt engineering daily
-      — this is building and deploying AI systems, not just
-      supporting them.
+      The role explicitly writes evals, hardens prompts and tool
+      definitions, and refactors agent scaffolding for production
+      LLM agents — direct shaping of model behavior. Step 1 is
+      yes, and since the targets are LLM agents with prompts, tool
+      calling, and evals, it is ai-first; the infrastructure and
+      deployment duties are secondary to shaping agent behavior.
   responsibilities:
-  - Take newly built AI agents from working prototypes to production-ready systems
-    by writing evals, hardening prompts and tool definitions, and refactoring prototype
-    code into clean production-quality code
+  - 'Take newly built agents from working v1 to production-ready: write evals, harden
+    prompts and tool definitions, and refactor prototype scaffolding into clean production
+    code'
   - Instrument tracing, logging, and monitoring across the agent fleet to catch regressions
-    before users are impacted
-  - Stand up and maintain deployment pipelines and infrastructure on GCP, owning environment
-    parity and release hygiene
-  - Own database administration for how agents read from and write to databases safely
-    and at scale
+    before GTM users do
+  - Stand up and maintain deployment pipelines for agents, owning environment parity
+    and release hygiene on the GCP stack
+  - Own database administration, including how agents read from and write to databases
+    safely and at scale
   - Monitor agent behavior in production, triage issues, and ship continuous improvements
-    to the agent fleet
-  - Partner with the GTM AI team to own scale and reliability while enabling agent
-    builders to focus on zero-to-one development
+    across the fleet
+  - Partner closely with the GTM AI team, owning scale and reliability while agent
+    builders focus on zero-to-one work
+  - Bring an outside point of view on existing builds and back it up with a plan to
+    fix them
   use_cases:
-  - Scaling AI agents from prototype to production-grade systems serving GTM teams
-  - Agent fleet observability, stability monitoring, and regression detection
-  - Production deployment infrastructure for AI agent CLIs used by 120+ active users
-  - Database read/write management for AI agents at scale (25,000+ tool calls per
-    day)
-  - GTM automation through AI agents for marketing, sales, and customer operations
-    workflows
+  - Internal GTM AI agents supporting marketing and revenue teams
+  - Agent fleet serving 120 active users with roughly 25,000 tool calls per day
+  - Production-grade agent deployments with tracing, logging, and monitoring
+  - Safe, at-scale database reads and writes performed by AI agents
   skills:
-    genai: [AI Agents, Prompt Engineering, Function Calling, LLM Evaluation, Agentic
-        Workflows, Claude Code]
+    cloud: [GCP, Virtual Machines]
+    languages: []
     ml: []
-    web: []
-    databases: [PostgreSQL, Vector Databases]
-    data: []
-    cloud: [GCP]
-    ops: [Kubernetes, CI/CD, Docker, Monitoring, Observability, Model Deployment,
-      LangSmith, GitHub]
-    languages: [Python, SQL, Bash]
+    other: []
+    ops: [Kubernetes, GitHub, Observability]
+    databases: [Database Administration]
     domains: []
-    other: [Microservices]
+    web: []
+    data: []
+    genai: [AI Agents, Prompt Engineering, Function Calling, LLM Evaluation, LLMs,
+      Agentic Workflows]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '10138536'
   location: USA
   remote: true
-  extracted_at: '2026-07-22T13:29:55.214223'
+  extracted_at: '2026-08-16T17:14:27.579505'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

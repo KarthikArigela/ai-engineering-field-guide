@@ -1,0 +1,56 @@
+company:
+  name: Conversica
+  stage: null
+  focus: AI-powered customer engagement solutions for businesses
+position:
+  title: Staff AI Software Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role directly shapes LLM behavior: designing agentic
+      orchestration, tool use, RAG retrieval foundations,
+      prompt/agent evals, and guardrails such as hallucination
+      mitigation and HITL review. Since LLM-powered systems and
+      agents are the core deliverable, this is ai-first.
+  responsibilities:
+  - Design, implement, and ship AI-driven features and systems into production environments
+  - Own technical decision-making for AI architecture, data modeling, and system integration
+  - Design agentic systems including orchestration, tool use, state/memory, and multi-step
+    workflows
+  - Build eval harnesses, regression tests, and online/offline quality metrics for
+    prompts and agents
+  - Implement guardrails including hallucination mitigation, grounding, HITL review,
+    and safe degradation paths
+  - Own production operations including cost/latency tradeoffs, caching, rate limits,
+    fallbacks, and observability
+  - Design retrieval and data foundations including RAG choices, indexing, freshness,
+    and data quality constraints
+  - Mentor engineers and establish applied AI engineering best practices across the
+    organization
+  use_cases:
+  - AI-powered customer engagement for businesses
+  - Agentic automation of multi-step business workflows
+  - RAG-grounded responses over enterprise data from CRMs, CDPs, and marketing automation
+    platforms
+  - Production LLM applications with quality evals, safety guardrails, and reliability
+    monitoring
+  skills:
+    genai: [LLMs, AI Agents, Agentic Workflows, RAG, Function Calling, Guardrails,
+      LLM Evaluation]
+    ml: []
+    web: []
+    databases: [PostgreSQL, MySQL]
+    data: [Data Modeling]
+    cloud: [AWS, EKS, Cloud Architectures]
+    ops: [Terraform, Datadog, GitLab, Monitoring, Observability]
+    languages: [Python]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8235395'
+  location: USA
+  extracted_at: '2026-08-15T22:56:35.300736'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

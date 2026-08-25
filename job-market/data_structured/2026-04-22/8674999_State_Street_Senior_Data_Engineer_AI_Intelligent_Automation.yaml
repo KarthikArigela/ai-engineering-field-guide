@@ -1,59 +1,69 @@
 company:
   name: State Street
-  stage: Public
-  focus: Global financial services and asset management custody
+  stage: null
+  focus: |-
+    Asset servicing and financial services for institutional
+    investors
 position:
   title: Senior Data Engineer – AI & Intelligent Automation, Vice president
   ai_type:
     type: ai-support
     reasoning: |-
-      This is a data engineering role that sits near AI but does
-      not build, train, fine-tune, or deploy AI/ML models
-      directly. The role focuses on building data pipelines,
-      ensuring data quality, and governing data that feeds into AI
-      and agent-based systems built by others. The AI enablement
-      aspect is about providing high-quality data inputs and
-      governance controls, not hands-on model work.
+      The core work is data engineering and data stewardship:
+      building and operating production data pipelines, and owning
+      data quality, lineage, metadata, and controls. The AI-
+      related duties — supplying high-quality governed inputs for
+      training/inference and defining control gates and
+      auditability for agent-driven workflows — are enablement and
+      governance of AI systems designed by others, with no prompt
+      authoring, retrieval design, agent flow design, training, or
+      model evaluation. Feeding and governing data for someone
+      else's AI systems is ai-support.
   responsibilities:
-  - Design, build, and operate scalable data pipelines supporting operational analytics,
-    reporting, and AI-driven automation across cloud and on-prem environments
+  - Design, build, and operate scalable, resilient data pipelines supporting operational
+    analytics, reporting, and AI-driven automation across cloud and on-prem environments
   - Model, store, and serve large-scale datasets optimized for analytical workloads
     and low-latency consumption by AI and agent-based systems
-  - Act as Data Steward for assigned business services, accountable for data quality,
-    consistency, lineage, lifecycle management, and metadata
+  - Integrate data from multiple internal and external sources, including vendor feeds,
+    APIs, files, and enterprise platforms
+  - Act as Data Steward for assigned business services, owning data quality, consistency,
+    lineage, critical data elements, and lifecycle management
   - Define and enforce data standards, controls, and documentation aligned with governance
     and platform requirements
   - Enable AI and intelligent automation by ensuring high-quality, well-governed inputs
     for training, inference, and decisioning
-  - Define agent action constraints, data quality gates, and human-in-the-loop triggers
-    before automated actions are executed
-  - Establish data quality rules, monitor dashboards, triage issues, and coordinate
-    remediation across teams
-  - Partner with Product Owners, AI engineers, and platform teams to identify and
-    prioritize high-value simplification and automation use cases
+  - Define agent action constraints, data quality gates, and human-in-the-loop triggers,
+    ensuring auditability through decision logs, lineage, and versioning of rules,
+    prompts, and models
+  - Monitor data quality dashboards, triage issues, coordinate remediation, and partner
+    with Product Owners and business teams to prioritize simplification and automation
+    use cases
   use_cases:
-  - AI-driven automation of Global Delivery operations in asset servicing
-  - Agent-based systems for operational decisioning in financial services
-  - Intelligent workflow automation across fund accounting, middle office, custody,
-    and payments
-  - Operational analytics and reporting for enterprise-scale data platforms
-  - Data quality governance and auditability for AI-driven operational workflows
+  - AI-driven intelligent automation of Global Delivery operational processes
+  - Agent-based systems executing automated actions with data quality gates and human-in-the-loop
+    controls
+  - Operational analytics and reporting across the asset servicing lifecycle
+  - Data governance and quality controls enabling AI decisioning in regulated financial
+    operations
+  - Business simplification initiatives in fund accounting, middle office, custody,
+    payments, and transfer agency
   skills:
-    domains: [Financial services domain knowledge]
+    cloud: []
     languages: [SQL, Python]
-    ml: []
-    cloud: [Cloud platforms]
-    genai: [Agent-based systems, Human-in-the-loop workflows, Prompt Engineering,
-      Generative AI systems]
-    data: [Data Pipelines, Data pipeline design, Data quality management, Data Governance,
-      Workflow orchestration, Data cataloging, Metadata management, Data lineage]
+    ml: [Machine Learning]
     other: []
     ops: []
+    databases: [Data Lakes]
+    domains: []
     web: [APIs]
-    databases: [Data warehousing, Data lakes]
+    data: [Data Pipelines, Data Engineering, Data Warehouses, Data Modeling, Workflow
+        Orchestration, Data Quality, Data Governance, Data Cataloging, Data Lineage]
+    genai: [Generative AI, AI Agents, Human-in-the-Loop]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8674999'
   location: Bengaluru, IND
-  extracted_at: '2026-04-22T12:50:15.032847'
+  extracted_at: '2026-08-16T05:46:45.538981'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

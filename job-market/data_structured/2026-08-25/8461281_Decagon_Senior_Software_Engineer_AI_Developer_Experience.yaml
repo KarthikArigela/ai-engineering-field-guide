@@ -1,0 +1,56 @@
+company:
+  name: Decagon
+  stage: null
+  focus: |-
+    Conversational AI platform for enterprise customer
+    experience
+position:
+  title: Senior Software Engineer, AI Developer Experience
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role builds an internal agentic developer platform
+      (coding agents, CI/CD tooling, harnesses) whose deliverable
+      is developer workflow and productivity, not model behaviour
+      of a customer-facing product. Per the edge case,
+      agents/prompts used to make other engineers ship faster are
+      ai-support; the agents here are internal tooling, not the
+      company's product.
+  responsibilities:
+  - Build the agentic developer platform including coding agents, harnesses, and cloud
+    execution infrastructure
+  - Give agents safe access to code, tools, tests, and internal systems
+  - Apply AI across planning, design, implementation, testing, and review workflows
+  - Build agent-based testing, evaluation, and code review systems
+  - Design CI/CD, local development, and platform tooling for humans and agents
+  - Build frameworks and reusable primitives for rapid internal tool and dashboard
+    creation
+  - Drive adoption of AI-powered developer productivity workflows across engineering
+  use_cases:
+  - Agent-driven software development and code review
+  - Automated testing and evaluation of human- and agent-generated code changes
+  - Paved-road CI/CD and deployment workflows for humans and agents
+  - Rapid internal tool and dashboard building
+  - AI-assisted developer productivity across the engineering lifecycle
+  skills:
+    genai: [AI Agents]
+    ml: []
+    web: [APIs]
+    databases: []
+    data: []
+    cloud: []
+    ops: [CI/CD, Docker, Kubernetes, Terraform, Observability, Infrastructure as Code]
+    languages: [Python, TypeScript, JavaScript]
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '8461281'
+  location: New York, USA
+  locations:
+  - New York, USA
+  - San Francisco, USA
+  extracted_at: '2026-08-25T12:17:22.594751'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

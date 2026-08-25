@@ -1,47 +1,49 @@
 company:
   name: Paces
-  stage: Series A
+  stage: Raised $18M+ led by Navitas Capital, Resolute Ventures and Y Combinator
   focus: |-
-    Building AI-powered software to accelerate renewable energy
-    and power infrastructure development
+    Software accelerating renewable energy infrastructure
+    development
 position:
   title: Software Engineer, AI Automation
   ai_type:
     type: ai-first
     reasoning: |-
-      This role involves directly building and deploying AI agents
-      using Agent SDK, Messages API, and LangGraph to automate
-      human-driven work in renewable energy development. The
-      engineer is hands-on with agentic AI systems, deploying them
-      in production environments.
+      The role builds and deploys AI agents (Agent SDK, Messages
+      API, LangGraph) that automate due diligence workflows, which
+      is designing agent flows and orchestration — directly
+      shaping model behavior. The agents are LLM-based, so it
+      classifies as ai-first.
   responsibilities:
-  - Build AI agents to automate human-driven work in power development and permitting
-  - Build automation to unlock new modeling capabilities that change the market
-  - Take full ownership of projects and iterate closely with industry experts on end-to-end
-    features
-  - Scale up the platform and system to support growing traffic
-  - Collaborate tightly with the product team on product roadmap
-  - Gain deep domain knowledge in power development and permitting
+  - Build AI agents to automate human-driven power development work
+  - Build automation that unlocks new modeling capabilities for the market
+  - Own projects end-to-end and iterate closely with industry experts on features
+  - Work across the stack including backend, ETL, database, and infrastructure
+  - Scale the platform and systems to support growing traffic
+  - Collaborate with the product team on the product roadmap
   use_cases:
-  - Automating early-stage due diligence for renewable energy projects
-  - Streamlining siting, interconnection, and permitting for renewable energy developers
-  - Automating power development workflows to accelerate project timelines
-  - Supporting renewable energy, data center, EV charging, and real estate developers
-  - Enabling climate-positive infrastructure planning
+  - Automating early-stage due diligence for renewable energy and power projects
+  - Streamlining siting, interconnection, and permitting for renewable energy and
+    data center developers
+  - Accelerating power project development from siting to construction-ready
+  - Supporting real estate firms and EV charging companies in green infrastructure
+    development
   skills:
-    domains: []
+    cloud: []
     languages: [Python, SQL]
     ml: []
-    cloud: []
-    genai: [LangGraph, Agent SDK, Messages API, AI Agents]
-    data: [Data Pipelines]
-    other: [Geospatial data]
-    ops: [Infrastructure]
-    web: [Backend development]
+    other: [Geospatial Data, Energy Grid Modeling]
+    ops: []
     databases: []
+    domains: []
+    web: []
+    data: [Data Pipelines]
+    genai: [AI Agents, LangGraph, Agent SDK, Messages API]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '9021503'
   location: Brooklyn, USA
-  extracted_at: '2026-04-22T14:10:38.677839'
+  extracted_at: '2026-08-16T07:13:37.261007'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,0 +1,51 @@
+company:
+  name: Barclays
+  stage: null
+  focus: Global banking and financial services
+position:
+  title: Liquid Financing Data/AI Engineer – VP
+  ai_type:
+    type: ai-support
+    reasoning: |-
+      The role integrates AI capabilities (LLM APIs, embeddings,
+      retrieval patterns) into software applications but does not
+      indicate the person designs prompts, RAG, agent flows, or
+      evaluates model output quality themselves — they consume and
+      integrate AI APIs. Core work is data/software engineering
+      for the Liquid Financing business, so it is ai-support.
+  responsibilities:
+  - Design, develop, and deliver high-quality, scalable software solutions for the
+    Liquid Financing business
+  - Leverage data engineering and AI capabilities to enhance strategic insights and
+    optimize financing platforms
+  - Collaborate cross-functionally with product managers, designers, and engineers
+    to define requirements and solution strategies
+  - Deploy and operate containerized services on AWS and Kubernetes in production
+  - Participate in code reviews and promote code quality and knowledge sharing
+  - Adhere to secure coding practices and implement effective unit testing
+  - Manage risks and support the control and governance agenda
+  use_cases:
+  - Optimizing Liquid Financing platforms and workflows
+  - Enhancing strategic insights via data-driven solutions
+  - Supporting Quants and Strats workflows and data needs
+  - Real-time data processing for financing business lines such as Prime Brokerage,
+    Fixed Income Financing, and SBL
+  skills:
+    genai: [LLMs, Embeddings]
+    ml: []
+    web: []
+    databases: []
+    data: [Kafka, Data Pipelines]
+    cloud: [AWS, ECS, AWS Lambda, AWS S3, API Gateway, IAM, Step Functions]
+    ops: [Kubernetes]
+    languages: [Python, Java]
+    domains: []
+    other: [DevSecOps, Event-Driven Architecture]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10830027'
+  location: New York, USA
+  extracted_at: '2026-08-25T12:15:28.419869'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

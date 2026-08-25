@@ -1,0 +1,55 @@
+company:
+  name: IQVIA
+  stage: null
+  focus: Clinical research services and healthcare intelligence
+position:
+  title: Senior AI Platform Engineer
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role optimizes model internals for LLMs — quantization
+      (GPTQ, AWQ), mixed precision, LoRA, distributed training
+      strategies, and kernel-level GPU acceleration — which is
+      shaping model behavior/output, and the targets are LLMs, so
+      ai-first.
+  responsibilities:
+  - Own the AI platform and infrastructure roadmap for LLM initiatives, translating
+    research requirements into scalable engineering solutions
+  - Design high-performance compute environments across AWS and on-premises, including
+    GPU infrastructure and Slurm clusters
+  - Optimize LLM training and inference workloads for performance, scalability, and
+    reliability
+  - Establish model and data lifecycle capabilities including dataset versioning,
+    lineage tracking, and model registry integration
+  - Lead evolution of knowledge graph infrastructure including technology selection
+    and migration
+  - Coordinate technical dependencies across AI Research, Data Engineering, MLOps,
+    Product, and Infrastructure teams
+  - Provide technical leadership for vendor selection, procurement, and compute architecture
+    decisions
+  - Define platform engineering standards and governance while mentoring engineers
+  use_cases:
+  - Healthcare and life sciences LLM applications
+  - LLM training and inference infrastructure for IQVIA products
+  - Knowledge graph infrastructure for AI workflows
+  - Research-to-production translation of AI models
+  skills:
+    genai: [LLMs, LoRA]
+    ml: [PyTorch, CUDA, Quantization, cuDNN, NCCL, Model Training]
+    web: []
+    databases: [Knowledge Graphs]
+    data: [Ray]
+    cloud: [AWS]
+    ops: [vLLM, TensorRT, NVIDIA NIM, SGLang, Kubernetes, Slurm, NVIDIA Nsight, DCGM,
+      Distributed Systems, MLOps]
+    languages: []
+    domains: []
+    other: []
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10539348'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:37:54.228608'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

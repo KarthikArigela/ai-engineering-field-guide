@@ -1,17 +1,18 @@
 company:
   name: ChargePoint
-  stage: Public
-  focus: EV charging network and electric mobility solutions
+  stage: 'Publicly traded (NYSE: CHPT)'
+  focus: EV charging network and hardware/software solutions
 position:
   title: Senior AI Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      This role is directly building and deploying LLM-powered
-      applications including copilots, chatbots, and AI agents.
-      The engineer will architect RAG systems, develop agentic
-      workflows, and own AI inference services - all hands-on work
-      with generative AI models and systems.
+      The role designs and optimizes RAG/grounded AI systems,
+      leads agentic workflow development with function calling,
+      and applies prompt engineering - directly shaping LLM
+      behavior and output quality. The core deliverables are LLM-
+      powered applications (copilots, agents, chatbots), making it
+      ai-first.
   responsibilities:
   - Architect and build LLM-based applications such as copilots, chatbots, and AI
     agents
@@ -19,32 +20,34 @@ position:
   - Lead development of agentic workflows with tool/function calling and multi-step
     reasoning
   - Own backend services and APIs for AI inference and orchestration
-  - Drive LLMOps / GenAIOps practices including evaluation, monitoring, CI/CD, and
-    versioning
+  - Drive LLMOps/GenAIOps practices including evaluation, monitoring, CI/CD, and versioning
   - Optimize AI systems for quality, cost, latency, and reliability
-  - Apply and advocate for Responsible AI and security-by-design principles
+  - Apply and advocate for Responsible AI and security-by-design
   - Mentor engineers and influence AI engineering best practices across teams
   use_cases:
-  - Enterprise copilot-style experiences for EV charging operations
-  - Conversational AI assistants and chatbots
-  - AI agents for automation at enterprise scale
-  - Grounded AI systems using enterprise data for EV charging domain
-  - Intelligent search and retrieval for EV charging network management
+  - Copilot-style AI experiences for enterprise users
+  - Chatbots for conversational interactions
+  - AI agents for enterprise-scale automation
+  - Grounded AI and retrieval over enterprise data
+  - AI platform services supporting an EV charging network business
   skills:
-    domains: []
-    languages: [Python, Java]
-    ml: [Embeddings]
     cloud: [AWS, GCP]
-    genai: [LangChain, LangGraph, Amazon Bedrock, OpenAI API, Prompt Engineering,
-      RAG, AI Agents]
+    languages: [Python, Java]
+    ml: []
+    other: [Event-Driven Architecture, Responsible AI]
+    ops: [LLMOps, MLOps, CI/CD, Docker, Kubernetes, Distributed Systems, Observability]
+    databases: [Elasticsearch, Vector Databases, Qdrant, Chroma, Pinecone, Vector
+        Search]
+    domains: []
+    web: [FastAPI, Django, APIs, Microservices]
     data: []
-    other: [Distributed Systems, Microservices, Event-driven patterns]
-    ops: [Docker, Kubernetes, CI/CD, LLMOps, MLOps]
-    web: [FastAPI, Django]
-    databases: [Elasticsearch, Vector Search, Hybrid search, Qdrant, Chroma, Pinecone]
+    genai: [LangChain, LangGraph, RAG, Prompt Engineering, OpenAI API, AWS Bedrock,
+      LLMs, Generative AI, AI Agents, Agentic Workflows, Function Calling, Embeddings]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8605865'
   location: Sardarpur, IND
-  extracted_at: '2026-03-27T13:16:17.100221'
+  extracted_at: '2026-08-16T03:16:46.033202'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

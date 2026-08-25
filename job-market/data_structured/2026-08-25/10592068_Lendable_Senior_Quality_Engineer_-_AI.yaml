@@ -1,0 +1,51 @@
+company:
+  name: Lendable
+  stage: null
+  focus: Fintech consumer lending and credit products
+position:
+  title: Senior Quality Engineer - AI
+  ai_type:
+    type: ai-first
+    reasoning: |-
+      The role explicitly involves building AI agents that
+      exploratory test changes and using LLMs to author tests,
+      triage failures, and surface coverage gaps - the person
+      designs agent flows and decides how LLM tooling shapes
+      quality output themselves. Shaping LLM/agent behaviour is
+      the core AI responsibility, so the role is ai-first.
+  responsibilities:
+  - Build AI agents that exploratory test changes and catch issues before production
+  - Use LLMs and AI tooling to accelerate test authoring, cluster failures, and surface
+    coverage gaps
+  - Define and evolve the pragmatic test pyramid across unit, component, and E2E layers
+  - Build reliable E2E automation, test environments, and data fixtures; drive down
+    flakiness
+  - Set up performance benchmarks and Service Level Objectives to prevent regressions
+  - Partner with product and engineering on shift-left quality and risk surfacing
+  - Rotate across product teams to level up quality practices through hands-on collaboration
+  - Close the loop on production issues using observability tooling
+  use_cases:
+  - Automated exploratory testing of software changes before production
+  - AI-assisted test authoring and failure triage
+  - Coverage gap analysis for fintech credit products
+  - E2E and contract testing for loans, credit cards, and car finance systems
+  - Performance benchmarking and SLO monitoring for customer-facing systems
+  skills:
+    genai: [AI Agents, LLMs]
+    ml: []
+    web: [REST APIs, React, React Native]
+    databases: [PostgreSQL]
+    data: [RabbitMQ]
+    cloud: [AWS]
+    ops: [CI/CD, GitHub Actions, Docker, Kubernetes, Datadog, Grafana, GitHub]
+    languages: [TypeScript, PHP, Kotlin]
+    domains: []
+    other: [Sentry, PHPUnit, Behat, JUnit, Kotest, Jest, K6, Jira]
+  is_customer_facing: false
+  is_management: false
+meta:
+  job_id: '10592068'
+  location: London, GBR
+  extracted_at: '2026-08-25T10:50:51.639839'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2

@@ -1,49 +1,67 @@
 company:
   name: Optum
-  stage: Public
-  focus: Healthcare technology and data analytics
+  stage: null
+  focus: |-
+    Healthcare services, pharmacy benefits, and care delivery
+    technology
 position:
   title: Senior AI/ML Engineer
   ai_type:
     type: ai-first
     reasoning: |-
-      The role involves building and productionizing AI systems
-      including agentic services, RAG/CAG pipelines, and
-      APIs/SDKs. The candidate will directly work with GenAI
-      agents, LLMs, and deep learning frameworks to deploy models
-      into production, which aligns with hands-on AI/ML system
-      development.
+      The role explicitly builds agentic services, RAG pipelines,
+      prompt/route registries, and LLM evaluation methods,
+      directly shaping LLM behaviour and output quality. It also
+      covers classical ML (scikit-learn, XGBoost,
+      PyTorch/TensorFlow) and MLOps, but the presence of a
+      substantial LLM/agent component makes a role shaping both
+      ai-first. Observability and serving duties do not change
+      this since the person also designs the AI systems
+      themselves.
   responsibilities:
-  - Building and Productionizing AI Systems including agentic services, APIs/SDKs,
-    RAG/CAG, and E2E pipelines
-  - Ensure Model Quality, Evaluation, Security and Safety
-  - Implement Observability and Operations excellence
-  - Drive Architecture, Governance and Engineering Standards
-  - Cross-Functional Leadership and Collaboration
-  - Responsible AI and Compliance implementation
+  - Build and productionize AI systems including agentic services, APIs/SDKs, RAG/CAG,
+    and end-to-end pipelines
+  - Ensure model quality, evaluation, security, and safety of deployed AI systems
+  - Implement observability and operational excellence for production ML models and
+    AI services
+  - Drive architecture, governance, and engineering standards
+  - Ensure Responsible AI and compliance including explainability, fairness testing,
+    and PHI/PII handling
+  - Apply NLP, NLU, semantic understanding, intent classification, computer vision,
+    deep learning, and automatic speech recognition
+  - Deploy ML models and algorithms into production and communicate complex analytics
+    results to leadership and internal stakeholders
+  - Provide cross-functional leadership, work on less structured complex issues, and
+    serve as a resource to others
   use_cases:
-  - Natural language processing and understanding for healthcare applications
-  - Computer vision and deep learning for medical data analysis
-  - Automatic speech recognition systems
-  - Intent classification and semantic understanding
-  - Healthcare outcome optimization through AI-driven insights
+  - Healthcare AI systems that improve health outcomes and care delivery
+  - Natural language processing and understanding with semantic understanding and
+    intent classification
+  - Computer vision and deep learning for visualizing and responding to complex situations
+  - Automatic speech recognition
+  - Agentic services and RAG pipelines for production AI applications
+  - Interactive user experiences including robotics and AI products
   skills:
-    domains: [NLP, Computer Vision, ASR]
-    languages: [Python, SQL]
-    ml: [scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Deep Learning]
     cloud: [GCP, Vertex AI, AWS, Azure]
-    genai: [RAG, LLM evaluation methods, LangChain, Prompt Engineering, AI Agents,
-      Hugging Face]
-    data: [Airflow]
-    other: [Responsible AI]
-    ops: [Kubeflow, Vertex AI Pipelines, MLflow, Vertex AI Model Registry, Docker,
-      Kubernetes, CI/CD, GitHub Actions, Infrastructure as Code, Open Telemetry, Prometheus,
-      Grafana]
-    web: []
+    languages: [Python, SQL, Bash]
+    ml: [scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Deep Learning, Machine
+        Learning, Hugging Face]
+    other: [Responsible AI, A/B Testing, Explainability, PHI/PII Handling, Access
+        Controls, Statistics, pytest]
+    ops: [Observability, Model Monitoring, OpenTelemetry, Prometheus, Grafana, Kubeflow,
+      MLflow, Experiment Tracking, Model Deployment, MLOps, DevOps, CI/CD, GitHub
+        Actions, Infrastructure as Code, Docker, Kubernetes]
     databases: []
+    domains: [NLP, Computer Vision, Speech Recognition, Robotics]
+    web: [APIs]
+    data: [Airflow]
+    genai: [RAG, LLM Evaluation, Prompt Engineering, LangChain, Generative AI, AI
+        Agents, LLMs]
   is_customer_facing: false
   is_management: false
 meta:
   job_id: '8529002'
   location: Bengaluru, IND
-  extracted_at: '2026-02-27T12:32:08.612598'
+  extracted_at: '2026-08-16T02:11:38.132307'
+  model: glm-5.2
+  prompt_sha: ef6fdeb19af2
