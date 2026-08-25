@@ -202,11 +202,12 @@ Title-group sizes and signatures:
 | `ai engineer` | 2,131 | 88 | 16 | 56% RAG, 68% agents, 25% PyTorch/TF |
 | `software` / `backend engineer` | 1,637 | 62 | 11 | 32% RAG, 55% agents, 28% Kubernetes |
 | `ml engineer` / `scientist` | 578 | 74 | 10 | 45% RAG, 46% agents, 49% PyTorch/TF |
-| `applied` / `forward deployed` | 587 | 91 | 47 | 50% RAG, 74% agents, 13% PyTorch/TF |
+| `applied` (excludes FDE titles) | 408 | 90 | 28 | 51% RAG, 76% agents, 15% PyTorch/TF |
+| Forward Deployed / FDE | 187 | 94 | 89 | 47% RAG, 72% agents, 10% PyTorch/TF |
 | `platform` / `infra` / `devops` | 711 | 47 | 11 | 27% RAG, 46% agents, 42% Kubernetes |
 | `data engineer` | 189 | 44 | 8 | 41% RAG, 39% agents, 88% Python |
 
-The `applied` / `forward deployed` group is still the only one that is majority customer-facing, and by a wide margin - 47% versus 8-16% everywhere else.
+Forward Deployed / FDE is the only group that is majority customer-facing, and by a wide margin - 89% versus 8-28% everywhere else. I previously grouped `applied` and FDE titles together (47% customer-facing), which blended a 28% rate with an 89% rate into a number that describes neither group - they're different roles and are now reported separately.
 
 ## Forward Deployed Engineer (FDE)
 

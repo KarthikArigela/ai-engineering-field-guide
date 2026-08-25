@@ -94,7 +94,8 @@ Among jobs using any agent framework, `LangChain` held roughly flat at 84-86% sh
 ## Title predicts the stack
 
 - `ai engineer` (n=2,131): 88% ai-first, 56% `RAG`, 68% agents - the canonical RAG-and-agents builder
-- `applied` / `forward deployed` (n=587): 91% ai-first, 47% customer-facing - the only title group where customer-facing is common, and by a wide margin (8-16% everywhere else)
+- `applied` (n=408, excludes FDE titles): 90% ai-first, only 28% customer-facing - despite the name, mostly not customer-facing
+- Forward Deployed / FDE (n=187): 94% ai-first, 89% customer-facing - the only title group where customer-facing is common, and by a wide margin. I originally grouped this with `applied`, which blended a 28% and an 89% customer-facing rate into a meaningless 47% - they're different roles and should be read separately.
 - `ml engineer` / `scientist` (n=578): 49% `PyTorch`/`TensorFlow` - the title still most rooted in traditional ML, though now also 45% `RAG`
 - `platform` / `infra` / `devops` (n=711): only 47% ai-first, 42% `Kubernetes`
 - `data engineer` (n=189): 44% ai-first, 88% Python - data work with AI increasingly layered on top
