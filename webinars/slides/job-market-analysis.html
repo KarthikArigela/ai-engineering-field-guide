@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Engineering Skills Analysis</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+<style>
+  .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+  .reveal h1 { font-size: 2.2em; }
+  .reveal h2 { font-size: 1.6em; }
+  .reveal h3 { font-size: 1.2em; }
+  .reveal { font-size: 32px; }
+  .reveal ul, .reveal ol { text-align: left; }
+  .reveal li { margin-bottom: 0.3em; }
+  .reveal .big-number { font-size: 3em; color: #60a5fa; font-weight: bold; }
+  .reveal .medium-number { font-size: 2em; color: #60a5fa; font-weight: bold; }
+  .reveal table { margin: 0 auto; font-size: 0.8em; }
+  .reveal th, .reveal td { padding: 0.3em 0.8em; }
+  .reveal .subtitle { color: #666; font-size: 0.7em; }
+  .reveal .section-title { color: #60a5fa; font-size: 0.6em; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0; }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ==================== TITLE ==================== -->
+
+<section>
+  <h1>AI Engineering<br>Skills<br>Analysis</h1>
+  <p>Alexey Grigorev</p>
+  <p class="subtitle">6,964 job postings &middot; 2,499 companies &middot; Feb - Aug 2026</p>
+</section>
+
+<!-- Agenda -->
+<section>
+  <h2>Today's Agenda</h2>
+  <ol>
+    <li>The dataset - how I collected and classified 6,964 postings</li>
+    <li>What AI-First, AI-Support, and ML roles actually are</li>
+    <li>The skills employers actually ask for - RAG, agents, frameworks</li>
+    <li>How skills diverge by role type</li>
+  </ol>
+</section>
+
+<!-- Dataset -->
+<section>
+  <h2>The Dataset</h2>
+  <p class="big-number">6,964</p>
+  <p>job postings from 2,499 companies</p>
+  <p class="subtitle">Searched "AI Engineer" on builtin.com - LA, NY, London, Amsterdam, Berlin, India - 8 monthly scrapes, Feb 4 to Aug 25, 2026</p>
+</section>
+
+<!-- Why this matters -->
+<section>
+  <h2>Why Job Postings, Not Opinions</h2>
+  <ul>
+    <li>Every hot take about "what AI engineers do" is somebody's opinion</li>
+    <li>Job postings are what 2,499 employers are actually willing to pay for, this month</li>
+    <li>Zero job-ID overlap between scrapes - each month is an independent cross-section of the market</li>
+  </ul>
+  <p><br>This talk is the data. <a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/role/02-skills.md">role/02-skills.md</a> has the full writeup.</p>
+</section>
+
+<!-- Three types -->
+<section>
+  <h2>Three Types Hide Under One Title</h2>
+  <table>
+    <tr><th>Type</th><th>Jobs</th><th>Works...</th></tr>
+    <tr><td>AI-First</td><td>4,874 (70.0%)</td><td>ON AI - RAG, agents, LLM features</td></tr>
+    <tr><td>AI-Support</td><td>1,685 (24.2%)</td><td>NEAR AI - platforms, infra, tooling</td></tr>
+    <tr><td>ML</td><td>340 (4.9%)</td><td>Classic ML rebranded, no LLMs</td></tr>
+  </table>
+  <p><br>The key question for any posting: does this role work ON AI systems, or NEAR them?</p>
+</section>
+
+<!-- RAG + agents dominant -->
+<section>
+  <h2>RAG + Agents Are the Baseline</h2>
+  <ul>
+    <li>LLMs - 62.2% of all jobs</li>
+    <li>Agents (any framing) - 55.4%</li>
+    <li>RAG - 39.8% - the single most common named pattern in the dataset</li>
+    <li>Prompt engineering - 34.7%</li>
+  </ul>
+  <p><br>Within AI-First roles specifically: RAG 53.9%, agents 71.6%. Learn these two patterns deeply and you cover most of the work.</p>
+</section>
+
+<!-- Framework ecosystem -->
+<section>
+  <h2>The Framework Ecosystem</h2>
+  <table>
+    <tr><th>Framework</th><th>Jobs</th><th>%</th></tr>
+    <tr><td>LangChain</td><td>1,530</td><td>22.0%</td></tr>
+    <tr><td>LangGraph</td><td>961</td><td>13.8%</td></tr>
+    <tr><td>LlamaIndex</td><td>576</td><td>8.3%</td></tr>
+    <tr><td>CrewAI</td><td>465</td><td>6.7%</td></tr>
+    <tr><td>AutoGen</td><td>369</td><td>5.3%</td></tr>
+  </table>
+</section>
+
+<!-- Fine-tuning overhyped -->
+<section>
+  <h2>Fine-Tuning Is Overhyped</h2>
+  <table>
+    <tr><th>Level</th><th>Jobs</th><th>%</th></tr>
+    <tr><td>Primary responsibility</td><td>174</td><td>3.6%</td></tr>
+    <tr><td>Secondary/occasional</td><td>578</td><td>11.9%</td></tr>
+    <tr><td>Not mentioned</td><td>4,122</td><td>84.6%</td></tr>
+  </table>
+  <p><br>27.3% of AI-First roles mention fine-tuning somewhere - but it's the main job for only 3.6%. Focus on RAG and agents first; learn fine-tuning for domain-specific work (healthcare, legal, finance).</p>
+</section>
+
+<!-- Skill comparison table -->
+<section>
+  <h2>Skills Split Cleanly by Role Type</h2>
+  <table>
+    <tr><th>Skill</th><th>AI-First</th><th>AI-Support</th></tr>
+    <tr><td>RAG</td><td>54.8%</td><td>10.5%</td></tr>
+    <tr><td>Agents (any)</td><td>71.6%</td><td>20.9%</td></tr>
+    <tr><td>Fine-tuning</td><td>24.8%</td><td>1.7%</td></tr>
+    <tr><td>Kubernetes</td><td>22.2%</td><td>31.0%</td></tr>
+    <tr><td>Terraform</td><td>8.1%</td><td>16.7%</td></tr>
+  </table>
+  <p><br>GenAI skills separate the two groups cleanly. Infrastructure skills don't - AI-Support engineers often ask for more of them.</p>
+</section>
+
+<!-- Key Takeaways -->
+<section>
+  <h2>Key Takeaways</h2>
+  <ul>
+    <li>RAG and agents are what employers actually pay for - fine-tuning and PyTorch-style training are niche by comparison</li>
+    <li>Frameworks travel together - LangChain, LangGraph, and LlamaIndex show up as an ecosystem, not competing choices</li>
+    <li>Fine-tuning is mentioned often but rarely the main job - only 3.6% of AI-First roles focus on it</li>
+    <li>GenAI skills split cleanly between AI-First and AI-Support roles; infrastructure skills don't</li>
+  </ul>
+</section>
+
+<!-- End -->
+<section>
+  <h2>AI Engineering Field Guide</h2>
+  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide">github.com/alexeygrigorev/ai-engineering-field-guide</a></p>
+  <p>&#11088; Star the repo to keep an eye on updates</p>
+  <br>
+  <p>Newsletter: <a href="https://aishippingblog.com/">AI Shipping Blog</a></p>
+</section>
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: true,
+  transition: 'slide',
+  width: 1200,
+  height: 700,
+});
+</script>
+</body>
+</html>
