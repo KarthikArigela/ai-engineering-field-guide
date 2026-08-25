@@ -31,20 +31,19 @@ Within ai-first jobs, the move from model-training toward integration and orches
 
 The responsibility verbs point the same direction: `train`/`research`/`optimize` fell in six of the last seven scrapes (64.5% to 45.9%), while `build`/`develop` stayed near-universal (97.3% to 98.0%).
 
-## Six role archetypes, and the split that happened
+## Five role archetypes
 
-![Six role archetypes and their skill signatures](../job-market/images/role-archetypes.png)
+Running the same spherical k-means clustering (k=6, deterministic, seed=7) on the current corpus, k-means initially split agent-building into two clusters that differed almost entirely on whether `Prompt Engineering` was tagged as a skill (97% vs 0% - everything else, including `RAG` and `Agents` share, was close between them). That's a skill-tagging artifact, not a distinct role, so I merged them:
 
-Running the same spherical k-means clustering (k=6, deterministic, seed=7) on the current corpus turns up six archetypes again, but the shape has changed:
+1. Agent builder - 28.6%. `Agents` (88%) + `Prompt Engineering` (51%) + provider APIs. Now the largest archetype.
+2. RAG app builder - 25.3%. `RAG` + vector databases + `LangChain` + `LangGraph`.
+3. Cloud / ML platform engineer - 18.0%. Multi-cloud, `PyTorch`/`TensorFlow`, `Kubernetes`, inference/serving.
+4. DevOps / full-stack engineer - 13.3%. `CI/CD` + `Kubernetes` + `React`/frontend. Only 33% ai-first - the least AI-native cluster.
+5. ML trainer / researcher - 8.2%. `PyTorch`/`TensorFlow` + inference/serving. Still the smallest archetype.
 
-1. RAG app builder - 25.3%. `RAG` + vector databases + `LangChain` + `LangGraph`. Still the largest archetype.
-2. Cloud / ML platform engineer - 18.0%. Multi-cloud, `PyTorch`/`TensorFlow`, `Kubernetes`, inference/serving.
-3. Prompt-driven agent builder - 14.9%. `Prompt Engineering` (97% of the cluster) + provider APIs + `RAG`.
-4. Pure agent builder - 13.6%. Agent frameworks with almost no retrieval layer (`RAG` under-indexes here).
-5. DevOps / full-stack engineer - 13.3%. `CI/CD` + `Kubernetes` + `React`/frontend. Only 33% ai-first - the least AI-native cluster.
-6. ML trainer / researcher - 8.2%. `PyTorch`/`TensorFlow` + inference/serving. Still the smallest archetype.
+The old DevOps/infra and full-stack clusters merged into one since six months ago. Agent-building overtaking RAG-building as the largest archetype, read together with the FDE numbers below, points at agent-style work becoming the default shape of the role rather than a specialization within it.
 
-The agent-builder archetype split into two distinct clusters since February - one built around prompt engineering and provider APIs, one built around agent frameworks with little to no retrieval. Meanwhile the old DevOps/infra and full-stack clusters merged into one. Read together with the FDE numbers below, agent-building keeps fragmenting into more specific sub-roles rather than consolidating into one job description.
+Note: [images/role-archetypes.png](../job-market/images/role-archetypes.png) still shows the unmerged six-cluster chart - regenerating it needs a change to `_internal/analysis/charts.py`'s cluster-naming logic, not just this doc.
 
 ## What companies build
 

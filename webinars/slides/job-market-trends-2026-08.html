@@ -39,7 +39,6 @@
   <h2>Today's Agenda</h2>
   <ol>
     <li>Dataset - 6,964 job descriptions across 8 monthly scrapes</li>
-    <li>A data quality fix that changed the numbers</li>
     <li>What actually moved since February</li>
     <li>Role archetypes, skills, and the stacks that predict them</li>
     <li>What still hasn't happened - AI infra, junior hiring</li>
@@ -57,57 +56,39 @@
 <!-- Volume table -->
 <section>
   <h2>Postings per Scrape</h2>
-  <table>
-    <tr><th>Scrape</th><th>Jobs</th></tr>
-    <tr><td>Feb 4</td><td>895</td></tr>
-    <tr><td>Feb 27</td><td>869</td></tr>
-    <tr><td>Mar 27</td><td>680</td></tr>
-    <tr><td>Apr 22</td><td>645</td></tr>
-    <tr><td>May 29</td><td>919</td></tr>
-    <tr><td>Jun 25</td><td>888</td></tr>
-    <tr><td>Jul 22</td><td>846</td></tr>
-    <tr><td>Aug 25</td><td>1,222</td></tr>
-  </table>
-  <p><br>Zero job-ID overlap between scrapes - each month is an independent cross-section, not a panel</p>
-</section>
-
-<!-- Part 0: data quality -->
-<section>
-  <p class="section-title">Before the trends</p>
-  <h1>A Data Quality Fix</h1>
-  <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/job-market/_internal/eval/README.md">job-market/_internal/eval/README.md</a></p>
-</section>
-
-<!-- The problem -->
-<section>
-  <h2>The Extractor Silently Changed</h2>
-  <p>The LLM extraction model switched <code>glm-5.1</code> to <code>glm-5.2</code> partway through the six original scrapes</p>
-  <br>
-  <p>Some of what I previously reported as "market trends" was actually the extractor drifting, not the market moving</p>
-</section>
-
-<!-- The fix -->
-<section>
-  <h2>Re-Extraction, Then a Blind Eval</h2>
-  <p>Rewrote the prompt, re-extracted the full Feb-Jul corpus, then graded old vs. new head-to-head on 50 jobs - blind, random order</p>
-  <br>
-  <table>
-    <tr><th>Metric</th><th>Old</th><th>New</th></tr>
-    <tr><td>Preferred (of 50)</td><td>2</td><td>38</td></tr>
-    <tr><td>Classification clean</td><td>78.0%</td><td>98.0%</td></tr>
-    <tr><td>Invented skills</td><td>74</td><td>4</td></tr>
-  </table>
-  <p><br>All 8 months now use one consistent, validated extraction</p>
-</section>
-
-<!-- What that changed -->
-<section>
-  <h2>Two "Trends" That Were Actually Noise</h2>
-  <ul>
-    <li><code>SQL</code> was reported as the fastest-rising skill (+3.59 pp/scrape). On corrected data: a modest +0.5 pp/scrape.</li>
-    <li>ai-first share was reported climbing 69.4% &rarr; 75.9%. On corrected data: flat, 68-71% the whole time.</li>
-  </ul>
-  <p><br>Everything from here on uses the corrected, consistent extraction</p>
+  <svg viewBox="0 0 800 380" style="width: 100%; max-width: 800px; height: auto;">
+    <line x1="40" y1="340" x2="782.5" y2="340" stroke="#666" stroke-width="1"/>
+    <g fill="#60a5fa">
+      <rect x="57.5"  y="126.4" width="60" height="213.6"/>
+      <rect x="152.5" y="132.7" width="60" height="207.3"/>
+      <rect x="247.5" y="177.8" width="60" height="162.2"/>
+      <rect x="342.5" y="186.1" width="60" height="153.9"/>
+      <rect x="437.5" y="120.7" width="60" height="219.3"/>
+      <rect x="532.5" y="128.1" width="60" height="211.9"/>
+      <rect x="627.5" y="138.1" width="60" height="201.9"/>
+      <rect x="722.5" y="48.4"  width="60" height="291.6"/>
+    </g>
+    <g fill="#ddd" font-size="14" text-anchor="middle" font-family="inherit">
+      <text x="87.5"  y="118">895</text>
+      <text x="182.5" y="124">869</text>
+      <text x="277.5" y="170">680</text>
+      <text x="372.5" y="178">645</text>
+      <text x="467.5" y="112">919</text>
+      <text x="562.5" y="120">888</text>
+      <text x="657.5" y="130">846</text>
+      <text x="752.5" y="40" fill="#60a5fa">1,222</text>
+    </g>
+    <g fill="#999" font-size="13" text-anchor="middle" font-family="inherit">
+      <text x="87.5"  y="360">Feb 4</text>
+      <text x="182.5" y="360">Feb 27</text>
+      <text x="277.5" y="360">Mar 27</text>
+      <text x="372.5" y="360">Apr 22</text>
+      <text x="467.5" y="360">May 29</text>
+      <text x="562.5" y="360">Jun 25</text>
+      <text x="657.5" y="360">Jul 22</text>
+      <text x="752.5" y="360">Aug 25</text>
+    </g>
+  </svg>
 </section>
 
 <!-- Part 1: since Feb -->
@@ -117,31 +98,87 @@
   <p><a href="https://github.com/alexeygrigorev/ai-engineering-field-guide/blob/main/role/07-trends.md">role/07-trends.md</a></p>
 </section>
 
-<!-- ai-first stable -->
-<section>
-  <h2>ai-first Share Held Steady</h2>
-  <p class="big-number">71.5% &rarr; 70.2%</p>
-  <p>Feb 4 to Aug 25 - essentially unchanged</p>
-  <br>
-  <p>The market has held a tight 68-71% ai-first band the whole eight months. No consolidation trend either direction.</p>
-</section>
-
-<!-- integrator vs trainer chart -->
-<section>
-  <img src="../../job-market/images/integrator-vs-trainer.png" style="max-height: 600px;">
-  <p class="subtitle">Within ai-first jobs, all 8 scrapes</p>
-</section>
-
 <!-- integrator vs trainer -->
 <section>
   <h2>Integrators Are Still Eating Trainers</h2>
-  <p>This is the strongest directional signal in the whole dataset - it got stronger, not weaker, once the extraction was fixed</p>
+  <p>The strongest directional signal in the whole dataset</p>
+  <br>
+  <p class="subtitle">Integrator = connects LLMs to data/tools (RAG, agents, calling APIs). Trainer = trains or fine-tunes models directly (PyTorch, TensorFlow, CUDA).</p>
   <table>
     <tr><th>Stack</th><th>Feb 4</th><th>Aug 25</th></tr>
     <tr><td>Integrator (RAG/agents/APIs)</td><td>80.0%</td><td>88.0%</td></tr>
     <tr><td>Trainer (PyTorch/TF/FT/CUDA)</td><td>37.5%</td><td>30.4%</td></tr>
     <tr><td>RAG + agents together</td><td>33.1%</td><td>50.5%</td></tr>
   </table>
+  <p class="subtitle">Jobs can ask for both - the shares don't have to sum to 100%</p>
+</section>
+
+<!-- integrator vs trainer chart -->
+<section>
+  <svg viewBox="0 0 760 420" style="width:100%;max-width:760px;height:auto;" font-family="inherit">
+<line x1="50" y1="248.8" x2="740" y2="248.8" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="252.8" fill="#888" font-size="11" text-anchor="end">26%</text>
+<line x1="50" y1="172.5" x2="740" y2="172.5" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="176.5" fill="#888" font-size="11" text-anchor="end">51%</text>
+<line x1="50" y1="96.2" x2="740" y2="96.2" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="100.2" fill="#888" font-size="11" text-anchor="end">77%</text>
+<line x1="50" y1="20.0" x2="740" y2="20.0" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="24.0" fill="#888" font-size="11" text-anchor="end">103%</text>
+<line x1="50" y1="325" x2="740" y2="325" stroke="#888" stroke-width="1"/>
+<text x="50.0" y="343" fill="#999" font-size="11" text-anchor="middle">Feb 4</text>
+<text x="148.6" y="343" fill="#999" font-size="11" text-anchor="middle">Feb 27</text>
+<text x="247.1" y="343" fill="#999" font-size="11" text-anchor="middle">Mar 27</text>
+<text x="345.7" y="343" fill="#999" font-size="11" text-anchor="middle">Apr 22</text>
+<text x="444.3" y="343" fill="#999" font-size="11" text-anchor="middle">May 29</text>
+<text x="542.9" y="343" fill="#999" font-size="11" text-anchor="middle">Jun 25</text>
+<text x="641.4" y="343" fill="#999" font-size="11" text-anchor="middle">Jul 22</text>
+<text x="740.0" y="343" fill="#999" font-size="11" text-anchor="middle">Aug 25</text>
+<polyline points="50.0,213.8 148.6,198.6 247.1,200.7 345.7,224.4 444.3,222.1 542.9,230.1 641.4,227.7 740.0,234.8" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="213.8" r="10" fill="transparent" data-tip="Trainer stack @ Feb 4: 37.5%"/><circle cx="50.0" cy="213.8" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Feb 4: 37.5%"><title>Trainer stack @ Feb 4: 37.5%</title></circle>
+<circle cx="148.6" cy="198.6" r="10" fill="transparent" data-tip="Trainer stack @ Feb 27: 42.6%"/><circle cx="148.6" cy="198.6" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Feb 27: 42.6%"><title>Trainer stack @ Feb 27: 42.6%</title></circle>
+<circle cx="247.1" cy="200.7" r="10" fill="transparent" data-tip="Trainer stack @ Mar 27: 41.9%"/><circle cx="247.1" cy="200.7" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Mar 27: 41.9%"><title>Trainer stack @ Mar 27: 41.9%</title></circle>
+<circle cx="345.7" cy="224.4" r="10" fill="transparent" data-tip="Trainer stack @ Apr 22: 33.9%"/><circle cx="345.7" cy="224.4" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Apr 22: 33.9%"><title>Trainer stack @ Apr 22: 33.9%</title></circle>
+<circle cx="444.3" cy="222.1" r="10" fill="transparent" data-tip="Trainer stack @ May 29: 34.7%"/><circle cx="444.3" cy="222.1" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ May 29: 34.7%"><title>Trainer stack @ May 29: 34.7%</title></circle>
+<circle cx="542.9" cy="230.1" r="10" fill="transparent" data-tip="Trainer stack @ Jun 25: 32.0%"/><circle cx="542.9" cy="230.1" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Jun 25: 32.0%"><title>Trainer stack @ Jun 25: 32.0%</title></circle>
+<circle cx="641.4" cy="227.7" r="10" fill="transparent" data-tip="Trainer stack @ Jul 22: 32.8%"/><circle cx="641.4" cy="227.7" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Jul 22: 32.8%"><title>Trainer stack @ Jul 22: 32.8%</title></circle>
+<circle cx="740.0" cy="234.8" r="10" fill="transparent" data-tip="Trainer stack @ Aug 25: 30.4%"/><circle cx="740.0" cy="234.8" r="4" fill="#f87171" fill-opacity="1" data-tip="Trainer stack @ Aug 25: 30.4%"><title>Trainer stack @ Aug 25: 30.4%</title></circle>
+<polyline points="50.0,87.7 148.6,80.0 247.1,69.3 345.7,69.9 444.3,72.5 542.9,63.3 641.4,59.8 740.0,63.9" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="87.7" r="10" fill="transparent" data-tip="Integrator stack @ Feb 4: 80.0%"/><circle cx="50.0" cy="87.7" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Feb 4: 80.0%"><title>Integrator stack @ Feb 4: 80.0%</title></circle>
+<circle cx="148.6" cy="80.0" r="10" fill="transparent" data-tip="Integrator stack @ Feb 27: 82.6%"/><circle cx="148.6" cy="80.0" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Feb 27: 82.6%"><title>Integrator stack @ Feb 27: 82.6%</title></circle>
+<circle cx="247.1" cy="69.3" r="10" fill="transparent" data-tip="Integrator stack @ Mar 27: 86.2%"/><circle cx="247.1" cy="69.3" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Mar 27: 86.2%"><title>Integrator stack @ Mar 27: 86.2%</title></circle>
+<circle cx="345.7" cy="69.9" r="10" fill="transparent" data-tip="Integrator stack @ Apr 22: 86.0%"/><circle cx="345.7" cy="69.9" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Apr 22: 86.0%"><title>Integrator stack @ Apr 22: 86.0%</title></circle>
+<circle cx="444.3" cy="72.5" r="10" fill="transparent" data-tip="Integrator stack @ May 29: 85.1%"/><circle cx="444.3" cy="72.5" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ May 29: 85.1%"><title>Integrator stack @ May 29: 85.1%</title></circle>
+<circle cx="542.9" cy="63.3" r="10" fill="transparent" data-tip="Integrator stack @ Jun 25: 88.2%"/><circle cx="542.9" cy="63.3" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Jun 25: 88.2%"><title>Integrator stack @ Jun 25: 88.2%</title></circle>
+<circle cx="641.4" cy="59.8" r="10" fill="transparent" data-tip="Integrator stack @ Jul 22: 89.4%"/><circle cx="641.4" cy="59.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Jul 22: 89.4%"><title>Integrator stack @ Jul 22: 89.4%</title></circle>
+<circle cx="740.0" cy="63.9" r="10" fill="transparent" data-tip="Integrator stack @ Aug 25: 88.0%"/><circle cx="740.0" cy="63.9" r="4" fill="#4ade80" fill-opacity="1" data-tip="Integrator stack @ Aug 25: 88.0%"><title>Integrator stack @ Aug 25: 88.0%</title></circle>
+<polyline points="50.0,174.0 148.6,188.8 247.1,175.8 345.7,153.8 444.3,155.6 542.9,145.8 641.4,144.6 740.0,138.7" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-opacity="0.6" stroke-dasharray="6,4"/>
+<circle cx="50.0" cy="174.0" r="10" fill="transparent" data-tip="Pure integrator @ Feb 4: 50.9%"/><circle cx="50.0" cy="174.0" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Feb 4: 50.9%"><title>Pure integrator @ Feb 4: 50.9%</title></circle>
+<circle cx="148.6" cy="188.8" r="10" fill="transparent" data-tip="Pure integrator @ Feb 27: 45.9%"/><circle cx="148.6" cy="188.8" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Feb 27: 45.9%"><title>Pure integrator @ Feb 27: 45.9%</title></circle>
+<circle cx="247.1" cy="175.8" r="10" fill="transparent" data-tip="Pure integrator @ Mar 27: 50.3%"/><circle cx="247.1" cy="175.8" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Mar 27: 50.3%"><title>Pure integrator @ Mar 27: 50.3%</title></circle>
+<circle cx="345.7" cy="153.8" r="10" fill="transparent" data-tip="Pure integrator @ Apr 22: 57.7%"/><circle cx="345.7" cy="153.8" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Apr 22: 57.7%"><title>Pure integrator @ Apr 22: 57.7%</title></circle>
+<circle cx="444.3" cy="155.6" r="10" fill="transparent" data-tip="Pure integrator @ May 29: 57.1%"/><circle cx="444.3" cy="155.6" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ May 29: 57.1%"><title>Pure integrator @ May 29: 57.1%</title></circle>
+<circle cx="542.9" cy="145.8" r="10" fill="transparent" data-tip="Pure integrator @ Jun 25: 60.4%"/><circle cx="542.9" cy="145.8" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Jun 25: 60.4%"><title>Pure integrator @ Jun 25: 60.4%</title></circle>
+<circle cx="641.4" cy="144.6" r="10" fill="transparent" data-tip="Pure integrator @ Jul 22: 60.8%"/><circle cx="641.4" cy="144.6" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Jul 22: 60.8%"><title>Pure integrator @ Jul 22: 60.8%</title></circle>
+<circle cx="740.0" cy="138.7" r="10" fill="transparent" data-tip="Pure integrator @ Aug 25: 62.8%"/><circle cx="740.0" cy="138.7" r="4" fill="#4ade80" fill-opacity="0.6" data-tip="Pure integrator @ Aug 25: 62.8%"><title>Pure integrator @ Aug 25: 62.8%</title></circle>
+<polyline points="50.0,300.1 148.6,307.5 247.1,307.2 345.7,308.4 444.3,304.8 542.9,312.8 641.4,312.8 740.0,309.6" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity="0.6" stroke-dasharray="6,4"/>
+<circle cx="50.0" cy="300.1" r="10" fill="transparent" data-tip="Pure trainer @ Feb 4: 8.4%"/><circle cx="50.0" cy="300.1" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Feb 4: 8.4%"><title>Pure trainer @ Feb 4: 8.4%</title></circle>
+<circle cx="148.6" cy="307.5" r="10" fill="transparent" data-tip="Pure trainer @ Feb 27: 5.9%"/><circle cx="148.6" cy="307.5" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Feb 27: 5.9%"><title>Pure trainer @ Feb 27: 5.9%</title></circle>
+<circle cx="247.1" cy="307.2" r="10" fill="transparent" data-tip="Pure trainer @ Mar 27: 6.0%"/><circle cx="247.1" cy="307.2" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Mar 27: 6.0%"><title>Pure trainer @ Mar 27: 6.0%</title></circle>
+<circle cx="345.7" cy="308.4" r="10" fill="transparent" data-tip="Pure trainer @ Apr 22: 5.6%"/><circle cx="345.7" cy="308.4" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Apr 22: 5.6%"><title>Pure trainer @ Apr 22: 5.6%</title></circle>
+<circle cx="444.3" cy="304.8" r="10" fill="transparent" data-tip="Pure trainer @ May 29: 6.8%"/><circle cx="444.3" cy="304.8" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ May 29: 6.8%"><title>Pure trainer @ May 29: 6.8%</title></circle>
+<circle cx="542.9" cy="312.8" r="10" fill="transparent" data-tip="Pure trainer @ Jun 25: 4.1%"/><circle cx="542.9" cy="312.8" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Jun 25: 4.1%"><title>Pure trainer @ Jun 25: 4.1%</title></circle>
+<circle cx="641.4" cy="312.8" r="10" fill="transparent" data-tip="Pure trainer @ Jul 22: 4.1%"/><circle cx="641.4" cy="312.8" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Jul 22: 4.1%"><title>Pure trainer @ Jul 22: 4.1%</title></circle>
+<circle cx="740.0" cy="309.6" r="10" fill="transparent" data-tip="Pure trainer @ Aug 25: 5.2%"/><circle cx="740.0" cy="309.6" r="4" fill="#f87171" fill-opacity="0.6" data-tip="Pure trainer @ Aug 25: 5.2%"><title>Pure trainer @ Aug 25: 5.2%</title></circle>
+<line x1="10" y1="390" x2="32" y2="390" stroke="#f87171" stroke-width="3"/>
+<text x="38" y="394" fill="#ddd" font-size="12">Trainer stack</text>
+<line x1="390" y1="390" x2="412" y2="390" stroke="#4ade80" stroke-width="3"/>
+<text x="418" y="394" fill="#ddd" font-size="12">Integrator stack</text>
+<line x1="10" y1="410" x2="32" y2="410" stroke="#4ade80" stroke-width="3" stroke-dasharray="4,3"/>
+<text x="38" y="414" fill="#ddd" font-size="12">Pure integrator</text>
+<line x1="390" y1="410" x2="412" y2="410" stroke="#f87171" stroke-width="3" stroke-dasharray="4,3"/>
+<text x="418" y="414" fill="#ddd" font-size="12">Pure trainer</text>
+</svg>
+  <p class="subtitle">Within ai-first jobs, all 8 scrapes</p>
 </section>
 
 <!-- Part 2: archetypes -->
@@ -153,28 +190,355 @@
 
 <!-- archetype chart -->
 <section>
-  <img src="../../job-market/images/role-archetypes.png" style="max-height: 600px;">
-  <p class="subtitle">Spherical k-means, k=6, deterministic (seed=7)</p>
+  <h2>Archetype Skill Signatures</h2>
+  <svg viewBox="0 0 808 310" style="width:100%;max-width:808px;height:auto;" font-family="inherit">
+<text x="213.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 213.0 82)">RAG</text>
+<text x="259.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 259.0 82)">Agents</text>
+<text x="305.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 305.0 82)">Prompt Engineering</text>
+<text x="351.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 351.0 82)">LangChain</text>
+<text x="397.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 397.0 82)">LangGraph</text>
+<text x="443.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 443.0 82)">Vector DB</text>
+<text x="489.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 489.0 82)">PyTorch/TF</text>
+<text x="535.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 535.0 82)">MLOps</text>
+<text x="581.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 581.0 82)">Kubernetes</text>
+<text x="627.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 627.0 82)">CI/CD</text>
+<text x="673.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 673.0 82)">Terraform</text>
+<text x="719.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 719.0 82)">React/Frontend</text>
+<text x="765.0" y="82" fill="#ccc" font-size="12" text-anchor="start" transform="rotate(-40 765.0 82)">OpenAI/Anthropic API</text>
+<text x="180" y="114.0" fill="#eee" font-size="13" text-anchor="end">Agent builder</text>
+<text x="180" y="128.0" fill="#888" font-size="10" text-anchor="end">1990 jobs, 28.6%</text>
+<rect x="190" y="90" width="44" height="38" fill="rgb(47,111,85)" data-tip="Agent builder - RAG: 38.9%"><title>Agent builder - RAG: 38.9%</title></rect>
+<text x="212.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">39</text>
+<rect x="236" y="90" width="44" height="38" fill="rgb(68,200,119)" data-tip="Agent builder - Agents: 88.1%"><title>Agent builder - Agents: 88.1%</title></rect>
+<text x="258.0" y="114.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">88</text>
+<rect x="282" y="90" width="44" height="38" fill="rgb(52,132,93)" data-tip="Agent builder - Prompt Engineering: 50.5%"><title>Agent builder - Prompt Engineering: 50.5%</title></rect>
+<text x="304.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">50</text>
+<rect x="328" y="90" width="44" height="38" fill="rgb(33,54,64)" data-tip="Agent builder - LangChain: 7.7%"><title>Agent builder - LangChain: 7.7%</title></rect>
+<text x="350.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">8</text>
+<rect x="374" y="90" width="44" height="38" fill="rgb(32,52,63)" data-tip="Agent builder - LangGraph: 6.5%"><title>Agent builder - LangGraph: 6.5%</title></rect>
+<text x="396.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">6</text>
+<rect x="420" y="90" width="44" height="38" fill="rgb(34,57,65)" data-tip="Agent builder - Vector DB: 9.2%"><title>Agent builder - Vector DB: 9.2%</title></rect>
+<text x="442.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">9</text>
+<rect x="466" y="90" width="44" height="38" fill="rgb(31,48,62)" data-tip="Agent builder - PyTorch/TF: 4.4%"><title>Agent builder - PyTorch/TF: 4.4%</title></rect>
+<text x="488.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">4</text>
+<rect x="512" y="90" width="44" height="38" fill="rgb(32,49,62)" data-tip="Agent builder - MLOps: 4.6%"><title>Agent builder - MLOps: 4.6%</title></rect>
+<text x="534.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="558" y="90" width="44" height="38" fill="rgb(32,49,62)" data-tip="Agent builder - Kubernetes: 4.6%"><title>Agent builder - Kubernetes: 4.6%</title></rect>
+<text x="580.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="604" y="90" width="44" height="38" fill="rgb(37,71,70)" data-tip="Agent builder - CI/CD: 16.7%"><title>Agent builder - CI/CD: 16.7%</title></rect>
+<text x="626.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">17</text>
+<rect x="650" y="90" width="44" height="38" fill="rgb(31,46,61)" data-tip="Agent builder - Terraform: 3.0%"><title>Agent builder - Terraform: 3.0%</title></rect>
+<text x="672.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">3</text>
+<rect x="696" y="90" width="44" height="38" fill="rgb(37,70,70)" data-tip="Agent builder - React/Frontend: 16.3%"><title>Agent builder - React/Frontend: 16.3%</title></rect>
+<text x="718.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">16</text>
+<rect x="742" y="90" width="44" height="38" fill="rgb(39,79,73)" data-tip="Agent builder - OpenAI/Anthropic API: 21.1%"><title>Agent builder - OpenAI/Anthropic API: 21.1%</title></rect>
+<text x="764.0" y="114.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">21</text>
+<text x="180" y="154.0" fill="#eee" font-size="13" text-anchor="end">RAG app builder</text>
+<text x="180" y="168.0" fill="#888" font-size="10" text-anchor="end">1763 jobs, 25.3%</text>
+<rect x="190" y="130" width="44" height="38" fill="rgb(69,203,120)" data-tip="RAG app builder - RAG: 89.6%"><title>RAG app builder - RAG: 89.6%</title></rect>
+<text x="212.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">90</text>
+<rect x="236" y="130" width="44" height="38" fill="rgb(64,182,113)" data-tip="RAG app builder - Agents: 78.4%"><title>RAG app builder - Agents: 78.4%</title></rect>
+<text x="258.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">78</text>
+<rect x="282" y="130" width="44" height="38" fill="rgb(56,149,100)" data-tip="RAG app builder - Prompt Engineering: 60.1%"><title>RAG app builder - Prompt Engineering: 60.1%</title></rect>
+<text x="304.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">60</text>
+<rect x="328" y="130" width="44" height="38" fill="rgb(58,158,103)" data-tip="RAG app builder - LangChain: 65.1%"><title>RAG app builder - LangChain: 65.1%</title></rect>
+<text x="350.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">65</text>
+<rect x="374" y="130" width="44" height="38" fill="rgb(47,114,87)" data-tip="RAG app builder - LangGraph: 40.7%"><title>RAG app builder - LangGraph: 40.7%</title></rect>
+<text x="396.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">41</text>
+<rect x="420" y="130" width="44" height="38" fill="rgb(61,169,108)" data-tip="RAG app builder - Vector DB: 71.1%"><title>RAG app builder - Vector DB: 71.1%</title></rect>
+<text x="442.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">71</text>
+<rect x="466" y="130" width="44" height="38" fill="rgb(39,80,74)" data-tip="RAG app builder - PyTorch/TF: 21.8%"><title>RAG app builder - PyTorch/TF: 21.8%</title></rect>
+<text x="488.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">22</text>
+<rect x="512" y="130" width="44" height="38" fill="rgb(46,107,84)" data-tip="RAG app builder - MLOps: 36.8%"><title>RAG app builder - MLOps: 36.8%</title></rect>
+<text x="534.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">37</text>
+<rect x="558" y="130" width="44" height="38" fill="rgb(44,102,82)" data-tip="RAG app builder - Kubernetes: 33.8%"><title>RAG app builder - Kubernetes: 33.8%</title></rect>
+<text x="580.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">34</text>
+<rect x="604" y="130" width="44" height="38" fill="rgb(54,143,98)" data-tip="RAG app builder - CI/CD: 56.6%"><title>RAG app builder - CI/CD: 56.6%</title></rect>
+<text x="626.0" y="154.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">57</text>
+<rect x="650" y="130" width="44" height="38" fill="rgb(35,62,67)" data-tip="RAG app builder - Terraform: 11.9%"><title>RAG app builder - Terraform: 11.9%</title></rect>
+<text x="672.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">12</text>
+<rect x="696" y="130" width="44" height="38" fill="rgb(36,65,68)" data-tip="RAG app builder - React/Frontend: 13.8%"><title>RAG app builder - React/Frontend: 13.8%</title></rect>
+<text x="718.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">14</text>
+<rect x="742" y="130" width="44" height="38" fill="rgb(45,106,84)" data-tip="RAG app builder - OpenAI/Anthropic API: 36.3%"><title>RAG app builder - OpenAI/Anthropic API: 36.3%</title></rect>
+<text x="764.0" y="154.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">36</text>
+<text x="180" y="194.0" fill="#eee" font-size="13" text-anchor="end">Cloud / ML platform</text>
+<text x="180" y="208.0" fill="#888" font-size="10" text-anchor="end">1257 jobs, 18.0%</text>
+<rect x="190" y="170" width="44" height="38" fill="rgb(40,84,75)" data-tip="Cloud / ML platform - RAG: 23.8%"><title>Cloud / ML platform - RAG: 23.8%</title></rect>
+<text x="212.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">24</text>
+<rect x="236" y="170" width="44" height="38" fill="rgb(46,107,84)" data-tip="Cloud / ML platform - Agents: 36.8%"><title>Cloud / ML platform - Agents: 36.8%</title></rect>
+<text x="258.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">37</text>
+<rect x="282" y="170" width="44" height="38" fill="rgb(37,72,71)" data-tip="Cloud / ML platform - Prompt Engineering: 17.5%"><title>Cloud / ML platform - Prompt Engineering: 17.5%</title></rect>
+<text x="304.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">18</text>
+<rect x="328" y="170" width="44" height="38" fill="rgb(35,61,67)" data-tip="Cloud / ML platform - LangChain: 11.6%"><title>Cloud / ML platform - LangChain: 11.6%</title></rect>
+<text x="350.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">12</text>
+<rect x="374" y="170" width="44" height="38" fill="rgb(32,50,62)" data-tip="Cloud / ML platform - LangGraph: 5.1%"><title>Cloud / ML platform - LangGraph: 5.1%</title></rect>
+<text x="396.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="420" y="170" width="44" height="38" fill="rgb(39,79,73)" data-tip="Cloud / ML platform - Vector DB: 21.2%"><title>Cloud / ML platform - Vector DB: 21.2%</title></rect>
+<text x="442.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">21</text>
+<rect x="466" y="170" width="44" height="38" fill="rgb(44,101,81)" data-tip="Cloud / ML platform - PyTorch/TF: 33.3%"><title>Cloud / ML platform - PyTorch/TF: 33.3%</title></rect>
+<text x="488.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">33</text>
+<rect x="512" y="170" width="44" height="38" fill="rgb(41,86,76)" data-tip="Cloud / ML platform - MLOps: 25.3%"><title>Cloud / ML platform - MLOps: 25.3%</title></rect>
+<text x="534.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">25</text>
+<rect x="558" y="170" width="44" height="38" fill="rgb(45,105,83)" data-tip="Cloud / ML platform - Kubernetes: 35.8%"><title>Cloud / ML platform - Kubernetes: 35.8%</title></rect>
+<text x="580.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">36</text>
+<rect x="604" y="170" width="44" height="38" fill="rgb(46,108,84)" data-tip="Cloud / ML platform - CI/CD: 37.5%"><title>Cloud / ML platform - CI/CD: 37.5%</title></rect>
+<text x="626.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">38</text>
+<rect x="650" y="170" width="44" height="38" fill="rgb(35,63,67)" data-tip="Cloud / ML platform - Terraform: 12.7%"><title>Cloud / ML platform - Terraform: 12.7%</title></rect>
+<text x="672.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">13</text>
+<rect x="696" y="170" width="44" height="38" fill="rgb(34,61,66)" data-tip="Cloud / ML platform - React/Frontend: 11.3%"><title>Cloud / ML platform - React/Frontend: 11.3%</title></rect>
+<text x="718.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">11</text>
+<rect x="742" y="170" width="44" height="38" fill="rgb(35,62,67)" data-tip="Cloud / ML platform - OpenAI/Anthropic API: 11.8%"><title>Cloud / ML platform - OpenAI/Anthropic API: 11.8%</title></rect>
+<text x="764.0" y="194.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">12</text>
+<text x="180" y="234.0" fill="#eee" font-size="13" text-anchor="end">DevOps / full-stack</text>
+<text x="180" y="248.0" fill="#888" font-size="10" text-anchor="end">923 jobs, 13.3%</text>
+<rect x="190" y="210" width="44" height="38" fill="rgb(33,55,64)" data-tip="DevOps / full-stack - RAG: 7.9%"><title>DevOps / full-stack - RAG: 7.9%</title></rect>
+<text x="212.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">8</text>
+<rect x="236" y="210" width="44" height="38" fill="rgb(40,82,74)" data-tip="DevOps / full-stack - Agents: 23.1%"><title>DevOps / full-stack - Agents: 23.1%</title></rect>
+<text x="258.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">23</text>
+<rect x="282" y="210" width="44" height="38" fill="rgb(34,60,66)" data-tip="DevOps / full-stack - Prompt Engineering: 10.7%"><title>DevOps / full-stack - Prompt Engineering: 10.7%</title></rect>
+<text x="304.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">11</text>
+<rect x="328" y="210" width="44" height="38" fill="rgb(32,52,63)" data-tip="DevOps / full-stack - LangChain: 6.6%"><title>DevOps / full-stack - LangChain: 6.6%</title></rect>
+<text x="350.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">7</text>
+<rect x="374" y="210" width="44" height="38" fill="rgb(31,48,61)" data-tip="DevOps / full-stack - LangGraph: 4.0%"><title>DevOps / full-stack - LangGraph: 4.0%</title></rect>
+<text x="396.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">4</text>
+<rect x="420" y="210" width="44" height="38" fill="rgb(32,50,62)" data-tip="DevOps / full-stack - Vector DB: 5.2%"><title>DevOps / full-stack - Vector DB: 5.2%</title></rect>
+<text x="442.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="466" y="210" width="44" height="38" fill="rgb(32,50,62)" data-tip="DevOps / full-stack - PyTorch/TF: 5.4%"><title>DevOps / full-stack - PyTorch/TF: 5.4%</title></rect>
+<text x="488.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="512" y="210" width="44" height="38" fill="rgb(35,62,67)" data-tip="DevOps / full-stack - MLOps: 11.7%"><title>DevOps / full-stack - MLOps: 11.7%</title></rect>
+<text x="534.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">12</text>
+<rect x="558" y="210" width="44" height="38" fill="rgb(50,126,91)" data-tip="DevOps / full-stack - Kubernetes: 47.2%"><title>DevOps / full-stack - Kubernetes: 47.2%</title></rect>
+<text x="580.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">47</text>
+<rect x="604" y="210" width="44" height="38" fill="rgb(61,171,108)" data-tip="DevOps / full-stack - CI/CD: 72.2%"><title>DevOps / full-stack - CI/CD: 72.2%</title></rect>
+<text x="626.0" y="234.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">72</text>
+<rect x="650" y="210" width="44" height="38" fill="rgb(41,87,76)" data-tip="DevOps / full-stack - Terraform: 25.9%"><title>DevOps / full-stack - Terraform: 25.9%</title></rect>
+<text x="672.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">26</text>
+<rect x="696" y="210" width="44" height="38" fill="rgb(47,114,87)" data-tip="DevOps / full-stack - React/Frontend: 40.6%"><title>DevOps / full-stack - React/Frontend: 40.6%</title></rect>
+<text x="718.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">41</text>
+<rect x="742" y="210" width="44" height="38" fill="rgb(35,64,67)" data-tip="DevOps / full-stack - OpenAI/Anthropic API: 12.9%"><title>DevOps / full-stack - OpenAI/Anthropic API: 12.9%</title></rect>
+<text x="764.0" y="234.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">13</text>
+<text x="180" y="274.0" fill="#eee" font-size="13" text-anchor="end">ML trainer / researcher</text>
+<text x="180" y="288.0" fill="#888" font-size="10" text-anchor="end">571 jobs, 8.2%</text>
+<rect x="190" y="250" width="44" height="38" fill="rgb(33,55,64)" data-tip="ML trainer / researcher - RAG: 7.9%"><title>ML trainer / researcher - RAG: 7.9%</title></rect>
+<text x="212.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">8</text>
+<rect x="236" y="250" width="44" height="38" fill="rgb(33,55,64)" data-tip="ML trainer / researcher - Agents: 8.2%"><title>ML trainer / researcher - Agents: 8.2%</title></rect>
+<text x="258.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">8</text>
+<rect x="282" y="250" width="44" height="38" fill="rgb(32,50,62)" data-tip="ML trainer / researcher - Prompt Engineering: 5.4%"><title>ML trainer / researcher - Prompt Engineering: 5.4%</title></rect>
+<text x="304.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+<rect x="328" y="250" width="44" height="38" fill="rgb(31,48,61)" data-tip="ML trainer / researcher - LangChain: 4.0%"><title>ML trainer / researcher - LangChain: 4.0%</title></rect>
+<text x="350.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">4</text>
+<rect x="374" y="250" width="44" height="38" fill="rgb(31,45,60)" data-tip="ML trainer / researcher - LangGraph: 2.3%"><title>ML trainer / researcher - LangGraph: 2.3%</title></rect>
+<text x="396.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">2</text>
+<rect x="420" y="250" width="44" height="38" fill="rgb(31,46,60)" data-tip="ML trainer / researcher - Vector DB: 2.8%"><title>ML trainer / researcher - Vector DB: 2.8%</title></rect>
+<text x="442.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">3</text>
+<rect x="466" y="250" width="44" height="38" fill="rgb(57,153,101)" data-tip="ML trainer / researcher - PyTorch/TF: 62.2%"><title>ML trainer / researcher - PyTorch/TF: 62.2%</title></rect>
+<text x="488.0" y="274.0" fill="#111" font-size="11" text-anchor="middle" pointer-events="none">62</text>
+<rect x="512" y="250" width="44" height="38" fill="rgb(43,97,80)" data-tip="ML trainer / researcher - MLOps: 31.3%"><title>ML trainer / researcher - MLOps: 31.3%</title></rect>
+<text x="534.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">31</text>
+<rect x="558" y="250" width="44" height="38" fill="rgb(37,70,70)" data-tip="ML trainer / researcher - Kubernetes: 16.3%"><title>ML trainer / researcher - Kubernetes: 16.3%</title></rect>
+<text x="580.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">16</text>
+<rect x="604" y="250" width="44" height="38" fill="rgb(37,70,70)" data-tip="ML trainer / researcher - CI/CD: 16.1%"><title>ML trainer / researcher - CI/CD: 16.1%</title></rect>
+<text x="626.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">16</text>
+<rect x="650" y="250" width="44" height="38" fill="rgb(31,47,61)" data-tip="ML trainer / researcher - Terraform: 3.7%"><title>ML trainer / researcher - Terraform: 3.7%</title></rect>
+<text x="672.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">4</text>
+<rect x="696" y="250" width="44" height="38" fill="rgb(30,42,59)" data-tip="ML trainer / researcher - React/Frontend: 0.9%"><title>ML trainer / researcher - React/Frontend: 0.9%</title></rect>
+<text x="718.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">1</text>
+<rect x="742" y="250" width="44" height="38" fill="rgb(32,49,62)" data-tip="ML trainer / researcher - OpenAI/Anthropic API: 4.9%"><title>ML trainer / researcher - OpenAI/Anthropic API: 4.9%</title></rect>
+<text x="764.0" y="274.0" fill="#fff" font-size="11" text-anchor="middle" pointer-events="none">5</text>
+</svg>
+  <p class="subtitle">% of cluster members with each skill (hover a cell for the exact value)</p>
 </section>
 
-<!-- Six archetypes -->
+<!-- Five archetypes -->
 <section>
-  <h2>Six Archetypes - The Split</h2>
-  <table>
-    <tr><th>Archetype</th><th>%</th></tr>
-    <tr><td>RAG app builder</td><td>25.3%</td></tr>
-    <tr><td>Cloud / ML platform engineer</td><td>18.0%</td></tr>
-    <tr><td>Prompt-driven agent builder</td><td>14.9%</td></tr>
-    <tr><td>Pure agent builder</td><td>13.6%</td></tr>
-    <tr><td>DevOps / full-stack engineer</td><td>13.3%</td></tr>
-    <tr><td>ML trainer / researcher</td><td>8.2%</td></tr>
-  </table>
-  <p><br>Agent-building split into two clusters since the last analysis; DevOps and full-stack merged into one</p>
+  <h2>Five Archetypes - The Split</h2>
+  <svg viewBox="0 0 800 280" style="width: 100%; max-width: 800px; height: auto;">
+    <g font-family="inherit">
+      <rect x="260" y="14"  width="462.6" height="34" fill="#4ade80" data-tip="Agent builder (28.6%, 88% ai-first): builds and runs agents - Agents 88%, Prompt Engineering 51%, Function Calling 23%. Now the largest archetype (merged from two k-means clusters that split only on whether &quot;Prompt Engineering&quot; was tagged)."><title>Agent builder (28.6%, 88% ai-first): builds and runs agents - Agents 88%, Prompt Engineering 51%, Function Calling 23%. Now the largest archetype (merged from two k-means clusters that split only on whether "Prompt Engineering" was tagged).</title></rect>
+      <rect x="260" y="62"  width="405.6" height="34" fill="#4ade80" data-tip="RAG app builder (25.3%, 96% ai-first): connects LLMs to a company's own data - RAG 90%, vector DBs 71%, LangChain 65%."><title>RAG app builder (25.3%, 96% ai-first): connects LLMs to a company's own data - RAG 90%, vector DBs 71%, LangChain 65%.</title></rect>
+      <rect x="260" y="110" width="288.0" height="34" fill="#60a5fa" data-tip="Cloud / ML platform (18.0%, only 58% ai-first): runs the multi-cloud infra and serving layer - AWS 94%, GCP 88%, Azure 88%."><title>Cloud / ML platform (18.0%, only 58% ai-first): runs the multi-cloud infra and serving layer - AWS 94%, GCP 88%, Azure 88%.</title></rect>
+      <rect x="260" y="158" width="212.8" height="34" fill="#f87171" data-tip="DevOps / full-stack (13.3%, only 33% ai-first): general software/infra engineering with AI layered on top - CI/CD 72%, Kubernetes 47%."><title>DevOps / full-stack (13.3%, only 33% ai-first): general software/infra engineering with AI layered on top - CI/CD 72%, Kubernetes 47%.</title></rect>
+      <rect x="260" y="206" width="131.2" height="34" fill="#f87171" data-tip="ML trainer / researcher (8.2%, 46% ai-first): classic ML work, training and serving models - PyTorch/TF 62%, inference/serving 52%. Smallest archetype."><title>ML trainer / researcher (8.2%, 46% ai-first): classic ML work, training and serving models - PyTorch/TF 62%, inference/serving 52%. Smallest archetype.</title></rect>
+      <g fill="#ddd" font-size="15" text-anchor="end">
+        <text x="250" y="36">Agent builder</text>
+        <text x="250" y="84">RAG app builder</text>
+        <text x="250" y="132">Cloud / ML platform</text>
+        <text x="250" y="180">DevOps / full-stack</text>
+        <text x="250" y="228">ML trainer / researcher</text>
+      </g>
+      <g fill="#fff" font-size="15" font-weight="bold">
+        <text x="728" y="36">28.6%</text>
+        <text x="672" y="84">25.3%</text>
+        <text x="555" y="132">18.0%</text>
+        <text x="480" y="180">13.3%</text>
+        <text x="398" y="228">8.2%</text>
+      </g>
+    </g>
+  </svg>
+  <p class="subtitle">Green = RAG/application-heavy · Blue = platform-heavy · Red = training/infra-heavy</p>
+</section>
+
+<!-- Archetype 1 -->
+<section>
+  <h2>1. Agent Builder - 28.6%</h2>
+  <p class="subtitle">1,990 postings, 88% ai-first - now the largest archetype</p>
+  <br>
+  <p>Builds and runs agents - via provider APIs, frameworks, or both. (Merged from two k-means clusters that split almost entirely on whether "Prompt Engineering" was tagged as a skill, 97% vs 0% - not a real difference in the work.)</p>
+  <ul>
+    <li>Agents - 88% (x1.6 lift)</li>
+    <li>Prompt Engineering - 51% (x1.5)</li>
+    <li>Function Calling - 23% (x1.7)</li>
+    <li>MCP - 19% (x1.3)</li>
+    <li>RAG - 39% (x1.0, roughly baseline)</li>
+  </ul>
+</section>
+
+<!-- Archetype 2 -->
+<section>
+  <h2>2. RAG App Builder - 25.3%</h2>
+  <p class="subtitle">1,763 postings, 96% ai-first</p>
+  <br>
+  <p>Connects LLMs to a company's own data: documents, databases, internal knowledge.</p>
+  <ul>
+    <li>RAG - 90% (x2.1 lift)</li>
+    <li>Vector databases - 71% (x2.6)</li>
+    <li>LangChain - 65% (x2.8)</li>
+    <li>LangGraph - 41% (x2.8)</li>
+    <li>Fine-Tuning - 36% (x2.1)</li>
+  </ul>
+</section>
+
+<!-- Archetype 3 -->
+<section>
+  <h2>3. Cloud / ML Platform Engineer - 18.0%</h2>
+  <p class="subtitle">1,257 postings, only 58% ai-first</p>
+  <br>
+  <p>Runs the multi-cloud infrastructure and serving layer that AI systems sit on.</p>
+  <ul>
+    <li>AWS - 94% (x2.2)</li>
+    <li>GCP - 88% (x3.0)</li>
+    <li>Azure - 88% (x2.8)</li>
+    <li>PyTorch/TensorFlow - 33% (x1.7)</li>
+    <li>Kubernetes - 36% (x1.4), inference/serving - 26% (x1.5)</li>
+  </ul>
+</section>
+
+<!-- Archetype 4 -->
+<section>
+  <h2>4. DevOps / Full-Stack Engineer - 13.3%</h2>
+  <p class="subtitle">923 postings, only 33% ai-first - least AI-native cluster</p>
+  <br>
+  <p>General software/infra engineering with AI layered on top, not the focus.</p>
+  <ul>
+    <li>CI/CD - 72% (x1.8)</li>
+    <li>Kubernetes - 47% (x1.8)</li>
+    <li>Docker - 44% (x1.7)</li>
+    <li>React/frontend - 41% (x2.4)</li>
+    <li>Terraform - 26% (x2.4)</li>
+  </ul>
+</section>
+
+<!-- Archetype 5 -->
+<section>
+  <h2>5. ML Trainer / Researcher - 8.2%</h2>
+  <p class="subtitle">571 postings, 46% ai-first - the smallest archetype</p>
+  <br>
+  <p>Classic ML work: training and serving models, not integrating LLMs into apps.</p>
+  <ul>
+    <li>PyTorch/TensorFlow - 62% (x3.1)</li>
+    <li>Inference/serving - 52% (x3.0)</li>
+    <li>MLOps - 31% (x1.5)</li>
+    <li>SQL - 22% (x1.4)</li>
+  </ul>
 </section>
 
 <!-- use case chart -->
 <section>
-  <img src="../../job-market/images/use-case-themes.png" style="max-height: 600px;">
+  <svg viewBox="0 0 760 440" style="width:100%;max-width:760px;height:auto;" font-family="inherit">
+<line x1="50" y1="248.8" x2="740" y2="248.8" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="252.8" fill="#888" font-size="11" text-anchor="end">19%</text>
+<line x1="50" y1="172.5" x2="740" y2="172.5" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="176.5" fill="#888" font-size="11" text-anchor="end">37%</text>
+<line x1="50" y1="96.2" x2="740" y2="96.2" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="100.2" fill="#888" font-size="11" text-anchor="end">56%</text>
+<line x1="50" y1="20.0" x2="740" y2="20.0" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="24.0" fill="#888" font-size="11" text-anchor="end">74%</text>
+<line x1="50" y1="325" x2="740" y2="325" stroke="#888" stroke-width="1"/>
+<text x="50.0" y="343" fill="#999" font-size="11" text-anchor="middle">02-04</text>
+<text x="148.6" y="343" fill="#999" font-size="11" text-anchor="middle">02-27</text>
+<text x="247.1" y="343" fill="#999" font-size="11" text-anchor="middle">03-27</text>
+<text x="345.7" y="343" fill="#999" font-size="11" text-anchor="middle">04-22</text>
+<text x="444.3" y="343" fill="#999" font-size="11" text-anchor="middle">05-29</text>
+<text x="542.9" y="343" fill="#999" font-size="11" text-anchor="middle">06-25</text>
+<text x="641.4" y="343" fill="#999" font-size="11" text-anchor="middle">07-22</text>
+<text x="740.0" y="343" fill="#999" font-size="11" text-anchor="middle">08-25</text>
+<polyline points="50.0,110.7 148.6,76.2 247.1,74.6 345.7,61.4 444.3,73.3 542.9,59.8 641.4,76.6 740.0,80.3" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="110.7" r="10" fill="transparent" data-tip="Automation / workflow @ 02-04: 52.2%"/><circle cx="50.0" cy="110.7" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 02-04: 52.2%"><title>Automation / workflow @ 02-04: 52.2%</title></circle>
+<circle cx="148.6" cy="76.2" r="10" fill="transparent" data-tip="Automation / workflow @ 02-27: 60.6%"/><circle cx="148.6" cy="76.2" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 02-27: 60.6%"><title>Automation / workflow @ 02-27: 60.6%</title></circle>
+<circle cx="247.1" cy="74.6" r="10" fill="transparent" data-tip="Automation / workflow @ 03-27: 61.0%"/><circle cx="247.1" cy="74.6" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 03-27: 61.0%"><title>Automation / workflow @ 03-27: 61.0%</title></circle>
+<circle cx="345.7" cy="61.4" r="10" fill="transparent" data-tip="Automation / workflow @ 04-22: 64.2%"/><circle cx="345.7" cy="61.4" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 04-22: 64.2%"><title>Automation / workflow @ 04-22: 64.2%</title></circle>
+<circle cx="444.3" cy="73.3" r="10" fill="transparent" data-tip="Automation / workflow @ 05-29: 61.3%"/><circle cx="444.3" cy="73.3" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 05-29: 61.3%"><title>Automation / workflow @ 05-29: 61.3%</title></circle>
+<circle cx="542.9" cy="59.8" r="10" fill="transparent" data-tip="Automation / workflow @ 06-25: 64.6%"/><circle cx="542.9" cy="59.8" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 06-25: 64.6%"><title>Automation / workflow @ 06-25: 64.6%</title></circle>
+<circle cx="641.4" cy="76.6" r="10" fill="transparent" data-tip="Automation / workflow @ 07-22: 60.5%"/><circle cx="641.4" cy="76.6" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 07-22: 60.5%"><title>Automation / workflow @ 07-22: 60.5%</title></circle>
+<circle cx="740.0" cy="80.3" r="10" fill="transparent" data-tip="Automation / workflow @ 08-25: 59.6%"/><circle cx="740.0" cy="80.3" r="4" fill="#60a5fa" fill-opacity="1" data-tip="Automation / workflow @ 08-25: 59.6%"><title>Automation / workflow @ 08-25: 59.6%</title></circle>
+<polyline points="50.0,148.5 148.6,139.8 247.1,136.6 345.7,120.1 444.3,121.0 542.9,116.8 641.4,123.4 740.0,124.2" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="148.5" r="10" fill="transparent" data-tip="Agents / autonomous @ 02-04: 43.0%"/><circle cx="50.0" cy="148.5" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 02-04: 43.0%"><title>Agents / autonomous @ 02-04: 43.0%</title></circle>
+<circle cx="148.6" cy="139.8" r="10" fill="transparent" data-tip="Agents / autonomous @ 02-27: 45.1%"/><circle cx="148.6" cy="139.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 02-27: 45.1%"><title>Agents / autonomous @ 02-27: 45.1%</title></circle>
+<circle cx="247.1" cy="136.6" r="10" fill="transparent" data-tip="Agents / autonomous @ 03-27: 45.9%"/><circle cx="247.1" cy="136.6" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 03-27: 45.9%"><title>Agents / autonomous @ 03-27: 45.9%</title></circle>
+<circle cx="345.7" cy="120.1" r="10" fill="transparent" data-tip="Agents / autonomous @ 04-22: 49.9%"/><circle cx="345.7" cy="120.1" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 04-22: 49.9%"><title>Agents / autonomous @ 04-22: 49.9%</title></circle>
+<circle cx="444.3" cy="121.0" r="10" fill="transparent" data-tip="Agents / autonomous @ 05-29: 49.7%"/><circle cx="444.3" cy="121.0" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 05-29: 49.7%"><title>Agents / autonomous @ 05-29: 49.7%</title></circle>
+<circle cx="542.9" cy="116.8" r="10" fill="transparent" data-tip="Agents / autonomous @ 06-25: 50.7%"/><circle cx="542.9" cy="116.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 06-25: 50.7%"><title>Agents / autonomous @ 06-25: 50.7%</title></circle>
+<circle cx="641.4" cy="123.4" r="10" fill="transparent" data-tip="Agents / autonomous @ 07-22: 49.1%"/><circle cx="641.4" cy="123.4" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 07-22: 49.1%"><title>Agents / autonomous @ 07-22: 49.1%</title></circle>
+<circle cx="740.0" cy="124.2" r="10" fill="transparent" data-tip="Agents / autonomous @ 08-25: 48.9%"/><circle cx="740.0" cy="124.2" r="4" fill="#4ade80" fill-opacity="1" data-tip="Agents / autonomous @ 08-25: 48.9%"><title>Agents / autonomous @ 08-25: 48.9%</title></circle>
+<polyline points="50.0,269.2 148.6,234.3 247.1,246.6 345.7,251.1 444.3,253.6 542.9,243.3 641.4,231.8 740.0,240.4" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="269.2" r="10" fill="transparent" data-tip="RAG / Q&A @ 02-04: 13.6%"/><circle cx="50.0" cy="269.2" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 02-04: 13.6%"><title>RAG / Q&A @ 02-04: 13.6%</title></circle>
+<circle cx="148.6" cy="234.3" r="10" fill="transparent" data-tip="RAG / Q&A @ 02-27: 22.1%"/><circle cx="148.6" cy="234.3" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 02-27: 22.1%"><title>RAG / Q&A @ 02-27: 22.1%</title></circle>
+<circle cx="247.1" cy="246.6" r="10" fill="transparent" data-tip="RAG / Q&A @ 03-27: 19.1%"/><circle cx="247.1" cy="246.6" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 03-27: 19.1%"><title>RAG / Q&A @ 03-27: 19.1%</title></circle>
+<circle cx="345.7" cy="251.1" r="10" fill="transparent" data-tip="RAG / Q&A @ 04-22: 18.0%"/><circle cx="345.7" cy="251.1" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 04-22: 18.0%"><title>RAG / Q&A @ 04-22: 18.0%</title></circle>
+<circle cx="444.3" cy="253.6" r="10" fill="transparent" data-tip="RAG / Q&A @ 05-29: 17.4%"/><circle cx="444.3" cy="253.6" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 05-29: 17.4%"><title>RAG / Q&A @ 05-29: 17.4%</title></circle>
+<circle cx="542.9" cy="243.3" r="10" fill="transparent" data-tip="RAG / Q&A @ 06-25: 19.9%"/><circle cx="542.9" cy="243.3" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 06-25: 19.9%"><title>RAG / Q&A @ 06-25: 19.9%</title></circle>
+<circle cx="641.4" cy="231.8" r="10" fill="transparent" data-tip="RAG / Q&A @ 07-22: 22.7%"/><circle cx="641.4" cy="231.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 07-22: 22.7%"><title>RAG / Q&A @ 07-22: 22.7%</title></circle>
+<circle cx="740.0" cy="240.4" r="10" fill="transparent" data-tip="RAG / Q&A @ 08-25: 20.6%"/><circle cx="740.0" cy="240.4" r="4" fill="#f87171" fill-opacity="1" data-tip="RAG / Q&A @ 08-25: 20.6%"><title>RAG / Q&A @ 08-25: 20.6%</title></circle>
+<polyline points="50.0,243.7 148.6,208.0 247.1,221.1 345.7,233.9 444.3,227.3 542.9,230.6 641.4,219.1 740.0,224.0" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="243.7" r="10" fill="transparent" data-tip="Search / retrieval @ 02-04: 19.8%"/><circle cx="50.0" cy="243.7" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 02-04: 19.8%"><title>Search / retrieval @ 02-04: 19.8%</title></circle>
+<circle cx="148.6" cy="208.0" r="10" fill="transparent" data-tip="Search / retrieval @ 02-27: 28.5%"/><circle cx="148.6" cy="208.0" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 02-27: 28.5%"><title>Search / retrieval @ 02-27: 28.5%</title></circle>
+<circle cx="247.1" cy="221.1" r="10" fill="transparent" data-tip="Search / retrieval @ 03-27: 25.3%"/><circle cx="247.1" cy="221.1" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 03-27: 25.3%"><title>Search / retrieval @ 03-27: 25.3%</title></circle>
+<circle cx="345.7" cy="233.9" r="10" fill="transparent" data-tip="Search / retrieval @ 04-22: 22.2%"/><circle cx="345.7" cy="233.9" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 04-22: 22.2%"><title>Search / retrieval @ 04-22: 22.2%</title></circle>
+<circle cx="444.3" cy="227.3" r="10" fill="transparent" data-tip="Search / retrieval @ 05-29: 23.8%"/><circle cx="444.3" cy="227.3" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 05-29: 23.8%"><title>Search / retrieval @ 05-29: 23.8%</title></circle>
+<circle cx="542.9" cy="230.6" r="10" fill="transparent" data-tip="Search / retrieval @ 06-25: 23.0%"/><circle cx="542.9" cy="230.6" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 06-25: 23.0%"><title>Search / retrieval @ 06-25: 23.0%</title></circle>
+<circle cx="641.4" cy="219.1" r="10" fill="transparent" data-tip="Search / retrieval @ 07-22: 25.8%"/><circle cx="641.4" cy="219.1" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 07-22: 25.8%"><title>Search / retrieval @ 07-22: 25.8%</title></circle>
+<circle cx="740.0" cy="224.0" r="10" fill="transparent" data-tip="Search / retrieval @ 08-25: 24.6%"/><circle cx="740.0" cy="224.0" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Search / retrieval @ 08-25: 24.6%"><title>Search / retrieval @ 08-25: 24.6%</title></circle>
+<polyline points="50.0,304.1 148.6,300.0 247.1,299.5 345.7,292.6 444.3,293.8 542.9,295.0 641.4,295.4 740.0,288.1" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="304.1" r="10" fill="transparent" data-tip="Copilot / dev tools @ 02-04: 5.1%"/><circle cx="50.0" cy="304.1" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 02-04: 5.1%"><title>Copilot / dev tools @ 02-04: 5.1%</title></circle>
+<circle cx="148.6" cy="300.0" r="10" fill="transparent" data-tip="Copilot / dev tools @ 02-27: 6.1%"/><circle cx="148.6" cy="300.0" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 02-27: 6.1%"><title>Copilot / dev tools @ 02-27: 6.1%</title></circle>
+<circle cx="247.1" cy="299.5" r="10" fill="transparent" data-tip="Copilot / dev tools @ 03-27: 6.2%"/><circle cx="247.1" cy="299.5" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 03-27: 6.2%"><title>Copilot / dev tools @ 03-27: 6.2%</title></circle>
+<circle cx="345.7" cy="292.6" r="10" fill="transparent" data-tip="Copilot / dev tools @ 04-22: 7.9%"/><circle cx="345.7" cy="292.6" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 04-22: 7.9%"><title>Copilot / dev tools @ 04-22: 7.9%</title></circle>
+<circle cx="444.3" cy="293.8" r="10" fill="transparent" data-tip="Copilot / dev tools @ 05-29: 7.6%"/><circle cx="444.3" cy="293.8" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 05-29: 7.6%"><title>Copilot / dev tools @ 05-29: 7.6%</title></circle>
+<circle cx="542.9" cy="295.0" r="10" fill="transparent" data-tip="Copilot / dev tools @ 06-25: 7.3%"/><circle cx="542.9" cy="295.0" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 06-25: 7.3%"><title>Copilot / dev tools @ 06-25: 7.3%</title></circle>
+<circle cx="641.4" cy="295.4" r="10" fill="transparent" data-tip="Copilot / dev tools @ 07-22: 7.2%"/><circle cx="641.4" cy="295.4" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 07-22: 7.2%"><title>Copilot / dev tools @ 07-22: 7.2%</title></circle>
+<circle cx="740.0" cy="288.1" r="10" fill="transparent" data-tip="Copilot / dev tools @ 08-25: 9.0%"/><circle cx="740.0" cy="288.1" r="4" fill="#c084fc" fill-opacity="1" data-tip="Copilot / dev tools @ 08-25: 9.0%"><title>Copilot / dev tools @ 08-25: 9.0%</title></circle>
+<polyline points="50.0,272.4 148.6,289.7 247.1,291.7 345.7,288.9 444.3,290.9 542.9,293.4 641.4,293.0 740.0,296.3" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="272.4" r="10" fill="transparent" data-tip="Recommend / personalize @ 02-04: 12.8%"/><circle cx="50.0" cy="272.4" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 02-04: 12.8%"><title>Recommend / personalize @ 02-04: 12.8%</title></circle>
+<circle cx="148.6" cy="289.7" r="10" fill="transparent" data-tip="Recommend / personalize @ 02-27: 8.6%"/><circle cx="148.6" cy="289.7" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 02-27: 8.6%"><title>Recommend / personalize @ 02-27: 8.6%</title></circle>
+<circle cx="247.1" cy="291.7" r="10" fill="transparent" data-tip="Recommend / personalize @ 03-27: 8.1%"/><circle cx="247.1" cy="291.7" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 03-27: 8.1%"><title>Recommend / personalize @ 03-27: 8.1%</title></circle>
+<circle cx="345.7" cy="288.9" r="10" fill="transparent" data-tip="Recommend / personalize @ 04-22: 8.8%"/><circle cx="345.7" cy="288.9" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 04-22: 8.8%"><title>Recommend / personalize @ 04-22: 8.8%</title></circle>
+<circle cx="444.3" cy="290.9" r="10" fill="transparent" data-tip="Recommend / personalize @ 05-29: 8.3%"/><circle cx="444.3" cy="290.9" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 05-29: 8.3%"><title>Recommend / personalize @ 05-29: 8.3%</title></circle>
+<circle cx="542.9" cy="293.4" r="10" fill="transparent" data-tip="Recommend / personalize @ 06-25: 7.7%"/><circle cx="542.9" cy="293.4" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 06-25: 7.7%"><title>Recommend / personalize @ 06-25: 7.7%</title></circle>
+<circle cx="641.4" cy="293.0" r="10" fill="transparent" data-tip="Recommend / personalize @ 07-22: 7.8%"/><circle cx="641.4" cy="293.0" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 07-22: 7.8%"><title>Recommend / personalize @ 07-22: 7.8%</title></circle>
+<circle cx="740.0" cy="296.3" r="10" fill="transparent" data-tip="Recommend / personalize @ 08-25: 7.0%"/><circle cx="740.0" cy="296.3" r="4" fill="#22d3ee" fill-opacity="1" data-tip="Recommend / personalize @ 08-25: 7.0%"><title>Recommend / personalize @ 08-25: 7.0%</title></circle>
+<line x1="10" y1="390" x2="32" y2="390" stroke="#60a5fa" stroke-width="3"/>
+<text x="38" y="394" fill="#ddd" font-size="12">Automation / workflow</text>
+<line x1="390" y1="390" x2="412" y2="390" stroke="#4ade80" stroke-width="3"/>
+<text x="418" y="394" fill="#ddd" font-size="12">Agents / autonomous</text>
+<line x1="10" y1="410" x2="32" y2="410" stroke="#f87171" stroke-width="3"/>
+<text x="38" y="414" fill="#ddd" font-size="12">RAG / Q&A</text>
+<line x1="390" y1="410" x2="412" y2="410" stroke="#fbbf24" stroke-width="3"/>
+<text x="418" y="414" fill="#ddd" font-size="12">Search / retrieval</text>
+<line x1="10" y1="430" x2="32" y2="430" stroke="#c084fc" stroke-width="3"/>
+<text x="38" y="434" fill="#ddd" font-size="12">Copilot / dev tools</text>
+<line x1="390" y1="430" x2="412" y2="430" stroke="#22d3ee" stroke-width="3"/>
+<text x="418" y="434" fill="#ddd" font-size="12">Recommend / personalize</text>
+</svg>
   <p class="subtitle">% of postings whose use cases match, all 8 scrapes</p>
 </section>
 
@@ -195,38 +559,217 @@
   <h1>Skills</h1>
 </section>
 
-<!-- trajectories chart -->
+<!-- risers chart -->
 <section>
-  <img src="../../job-market/images/skill-trajectories.png" style="max-height: 600px;">
+  <h2>Prompt Engineering and RAG Lead - Not SQL</h2>
+  <svg viewBox="0 0 760 440" style="width:100%;max-width:760px;height:auto;" font-family="inherit">
+<line x1="50" y1="248.8" x2="740" y2="248.8" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="252.8" fill="#888" font-size="11" text-anchor="end">12%</text>
+<line x1="50" y1="172.5" x2="740" y2="172.5" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="176.5" fill="#888" font-size="11" text-anchor="end">24%</text>
+<line x1="50" y1="96.2" x2="740" y2="96.2" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="100.2" fill="#888" font-size="11" text-anchor="end">35%</text>
+<line x1="50" y1="20.0" x2="740" y2="20.0" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="24.0" fill="#888" font-size="11" text-anchor="end">47%</text>
+<line x1="50" y1="325" x2="740" y2="325" stroke="#888" stroke-width="1"/>
+<text x="50.0" y="343" fill="#999" font-size="11" text-anchor="middle">02-04</text>
+<text x="148.6" y="343" fill="#999" font-size="11" text-anchor="middle">02-27</text>
+<text x="247.1" y="343" fill="#999" font-size="11" text-anchor="middle">03-27</text>
+<text x="345.7" y="343" fill="#999" font-size="11" text-anchor="middle">04-22</text>
+<text x="444.3" y="343" fill="#999" font-size="11" text-anchor="middle">05-29</text>
+<text x="542.9" y="343" fill="#999" font-size="11" text-anchor="middle">06-25</text>
+<text x="641.4" y="343" fill="#999" font-size="11" text-anchor="middle">07-22</text>
+<text x="740.0" y="343" fill="#999" font-size="11" text-anchor="middle">08-25</text>
+<polyline points="50.0,253.4 148.6,219.8 247.1,242.4 345.7,228.9 444.3,223.7 542.9,236.6 641.4,235.9 740.0,223.0" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="253.4" r="10" fill="transparent" data-tip="SQL @ 02-04: 11.1%"/><circle cx="50.0" cy="253.4" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 02-04: 11.1%"><title>SQL @ 02-04: 11.1%</title></circle>
+<circle cx="148.6" cy="219.8" r="10" fill="transparent" data-tip="SQL @ 02-27: 16.3%"/><circle cx="148.6" cy="219.8" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 02-27: 16.3%"><title>SQL @ 02-27: 16.3%</title></circle>
+<circle cx="247.1" cy="242.4" r="10" fill="transparent" data-tip="SQL @ 03-27: 12.8%"/><circle cx="247.1" cy="242.4" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 03-27: 12.8%"><title>SQL @ 03-27: 12.8%</title></circle>
+<circle cx="345.7" cy="228.9" r="10" fill="transparent" data-tip="SQL @ 04-22: 14.9%"/><circle cx="345.7" cy="228.9" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 04-22: 14.9%"><title>SQL @ 04-22: 14.9%</title></circle>
+<circle cx="444.3" cy="223.7" r="10" fill="transparent" data-tip="SQL @ 05-29: 15.7%"/><circle cx="444.3" cy="223.7" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 05-29: 15.7%"><title>SQL @ 05-29: 15.7%</title></circle>
+<circle cx="542.9" cy="236.6" r="10" fill="transparent" data-tip="SQL @ 06-25: 13.7%"/><circle cx="542.9" cy="236.6" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 06-25: 13.7%"><title>SQL @ 06-25: 13.7%</title></circle>
+<circle cx="641.4" cy="235.9" r="10" fill="transparent" data-tip="SQL @ 07-22: 13.8%"/><circle cx="641.4" cy="235.9" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 07-22: 13.8%"><title>SQL @ 07-22: 13.8%</title></circle>
+<circle cx="740.0" cy="223.0" r="10" fill="transparent" data-tip="SQL @ 08-25: 15.8%"/><circle cx="740.0" cy="223.0" r="4" fill="#60a5fa" fill-opacity="1" data-tip="SQL @ 08-25: 15.8%"><title>SQL @ 08-25: 15.8%</title></circle>
+<polyline points="50.0,156.6 148.6,123.7 247.1,91.4 345.7,97.2 444.3,108.2 542.9,79.8 641.4,86.9 740.0,73.3" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="156.6" r="10" fill="transparent" data-tip="Prompt Engineering @ 02-04: 26.1%"/><circle cx="50.0" cy="156.6" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 02-04: 26.1%"><title>Prompt Engineering @ 02-04: 26.1%</title></circle>
+<circle cx="148.6" cy="123.7" r="10" fill="transparent" data-tip="Prompt Engineering @ 02-27: 31.2%"/><circle cx="148.6" cy="123.7" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 02-27: 31.2%"><title>Prompt Engineering @ 02-27: 31.2%</title></circle>
+<circle cx="247.1" cy="91.4" r="10" fill="transparent" data-tip="Prompt Engineering @ 03-27: 36.2%"/><circle cx="247.1" cy="91.4" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 03-27: 36.2%"><title>Prompt Engineering @ 03-27: 36.2%</title></circle>
+<circle cx="345.7" cy="97.2" r="10" fill="transparent" data-tip="Prompt Engineering @ 04-22: 35.3%"/><circle cx="345.7" cy="97.2" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 04-22: 35.3%"><title>Prompt Engineering @ 04-22: 35.3%</title></circle>
+<circle cx="444.3" cy="108.2" r="10" fill="transparent" data-tip="Prompt Engineering @ 05-29: 33.6%"/><circle cx="444.3" cy="108.2" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 05-29: 33.6%"><title>Prompt Engineering @ 05-29: 33.6%</title></circle>
+<circle cx="542.9" cy="79.8" r="10" fill="transparent" data-tip="Prompt Engineering @ 06-25: 38.0%"/><circle cx="542.9" cy="79.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 06-25: 38.0%"><title>Prompt Engineering @ 06-25: 38.0%</title></circle>
+<circle cx="641.4" cy="86.9" r="10" fill="transparent" data-tip="Prompt Engineering @ 07-22: 36.9%"/><circle cx="641.4" cy="86.9" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 07-22: 36.9%"><title>Prompt Engineering @ 07-22: 36.9%</title></circle>
+<circle cx="740.0" cy="73.3" r="10" fill="transparent" data-tip="Prompt Engineering @ 08-25: 39.0%"/><circle cx="740.0" cy="73.3" r="4" fill="#4ade80" fill-opacity="1" data-tip="Prompt Engineering @ 08-25: 39.0%"><title>Prompt Engineering @ 08-25: 39.0%</title></circle>
+<polyline points="50.0,145.0 148.6,64.3 247.1,92.7 345.7,59.8 444.3,99.1 542.9,82.4 641.4,86.9 740.0,70.8" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="145.0" r="10" fill="transparent" data-tip="CI/CD @ 02-04: 27.9%"/><circle cx="50.0" cy="145.0" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 02-04: 27.9%"><title>CI/CD @ 02-04: 27.9%</title></circle>
+<circle cx="148.6" cy="64.3" r="10" fill="transparent" data-tip="CI/CD @ 02-27: 40.4%"/><circle cx="148.6" cy="64.3" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 02-27: 40.4%"><title>CI/CD @ 02-27: 40.4%</title></circle>
+<circle cx="247.1" cy="92.7" r="10" fill="transparent" data-tip="CI/CD @ 03-27: 36.0%"/><circle cx="247.1" cy="92.7" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 03-27: 36.0%"><title>CI/CD @ 03-27: 36.0%</title></circle>
+<circle cx="345.7" cy="59.8" r="10" fill="transparent" data-tip="CI/CD @ 04-22: 41.1%"/><circle cx="345.7" cy="59.8" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 04-22: 41.1%"><title>CI/CD @ 04-22: 41.1%</title></circle>
+<circle cx="444.3" cy="99.1" r="10" fill="transparent" data-tip="CI/CD @ 05-29: 35.0%"/><circle cx="444.3" cy="99.1" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 05-29: 35.0%"><title>CI/CD @ 05-29: 35.0%</title></circle>
+<circle cx="542.9" cy="82.4" r="10" fill="transparent" data-tip="CI/CD @ 06-25: 37.6%"/><circle cx="542.9" cy="82.4" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 06-25: 37.6%"><title>CI/CD @ 06-25: 37.6%</title></circle>
+<circle cx="641.4" cy="86.9" r="10" fill="transparent" data-tip="CI/CD @ 07-22: 36.9%"/><circle cx="641.4" cy="86.9" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 07-22: 36.9%"><title>CI/CD @ 07-22: 36.9%</title></circle>
+<circle cx="740.0" cy="70.8" r="10" fill="transparent" data-tip="CI/CD @ 08-25: 39.4%"/><circle cx="740.0" cy="70.8" r="4" fill="#f87171" fill-opacity="1" data-tip="CI/CD @ 08-25: 39.4%"><title>CI/CD @ 08-25: 39.4%</title></circle>
+<polyline points="50.0,302.4 148.6,305.6 247.1,284.3 345.7,277.2 444.3,266.9 542.9,254.7 641.4,260.5 740.0,267.6" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="302.4" r="10" fill="transparent" data-tip="Coding tools @ 02-04: 3.5%"/><circle cx="50.0" cy="302.4" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 02-04: 3.5%"><title>Coding tools @ 02-04: 3.5%</title></circle>
+<circle cx="148.6" cy="305.6" r="10" fill="transparent" data-tip="Coding tools @ 02-27: 3.0%"/><circle cx="148.6" cy="305.6" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 02-27: 3.0%"><title>Coding tools @ 02-27: 3.0%</title></circle>
+<circle cx="247.1" cy="284.3" r="10" fill="transparent" data-tip="Coding tools @ 03-27: 6.3%"/><circle cx="247.1" cy="284.3" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 03-27: 6.3%"><title>Coding tools @ 03-27: 6.3%</title></circle>
+<circle cx="345.7" cy="277.2" r="10" fill="transparent" data-tip="Coding tools @ 04-22: 7.4%"/><circle cx="345.7" cy="277.2" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 04-22: 7.4%"><title>Coding tools @ 04-22: 7.4%</title></circle>
+<circle cx="444.3" cy="266.9" r="10" fill="transparent" data-tip="Coding tools @ 05-29: 9.0%"/><circle cx="444.3" cy="266.9" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 05-29: 9.0%"><title>Coding tools @ 05-29: 9.0%</title></circle>
+<circle cx="542.9" cy="254.7" r="10" fill="transparent" data-tip="Coding tools @ 06-25: 10.9%"/><circle cx="542.9" cy="254.7" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 06-25: 10.9%"><title>Coding tools @ 06-25: 10.9%</title></circle>
+<circle cx="641.4" cy="260.5" r="10" fill="transparent" data-tip="Coding tools @ 07-22: 10.0%"/><circle cx="641.4" cy="260.5" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 07-22: 10.0%"><title>Coding tools @ 07-22: 10.0%</title></circle>
+<circle cx="740.0" cy="267.6" r="10" fill="transparent" data-tip="Coding tools @ 08-25: 8.9%"/><circle cx="740.0" cy="267.6" r="4" fill="#fbbf24" fill-opacity="1" data-tip="Coding tools @ 08-25: 8.9%"><title>Coding tools @ 08-25: 8.9%</title></circle>
+<polyline points="50.0,261.1 148.6,245.0 247.1,246.3 345.7,234.7 444.3,230.1 542.9,215.3 641.4,240.5 740.0,211.4" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="261.1" r="10" fill="transparent" data-tip="MCP @ 02-04: 9.9%"/><circle cx="50.0" cy="261.1" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 02-04: 9.9%"><title>MCP @ 02-04: 9.9%</title></circle>
+<circle cx="148.6" cy="245.0" r="10" fill="transparent" data-tip="MCP @ 02-27: 12.4%"/><circle cx="148.6" cy="245.0" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 02-27: 12.4%"><title>MCP @ 02-27: 12.4%</title></circle>
+<circle cx="247.1" cy="246.3" r="10" fill="transparent" data-tip="MCP @ 03-27: 12.2%"/><circle cx="247.1" cy="246.3" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 03-27: 12.2%"><title>MCP @ 03-27: 12.2%</title></circle>
+<circle cx="345.7" cy="234.7" r="10" fill="transparent" data-tip="MCP @ 04-22: 14.0%"/><circle cx="345.7" cy="234.7" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 04-22: 14.0%"><title>MCP @ 04-22: 14.0%</title></circle>
+<circle cx="444.3" cy="230.1" r="10" fill="transparent" data-tip="MCP @ 05-29: 14.7%"/><circle cx="444.3" cy="230.1" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 05-29: 14.7%"><title>MCP @ 05-29: 14.7%</title></circle>
+<circle cx="542.9" cy="215.3" r="10" fill="transparent" data-tip="MCP @ 06-25: 17.0%"/><circle cx="542.9" cy="215.3" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 06-25: 17.0%"><title>MCP @ 06-25: 17.0%</title></circle>
+<circle cx="641.4" cy="240.5" r="10" fill="transparent" data-tip="MCP @ 07-22: 13.1%"/><circle cx="641.4" cy="240.5" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 07-22: 13.1%"><title>MCP @ 07-22: 13.1%</title></circle>
+<circle cx="740.0" cy="211.4" r="10" fill="transparent" data-tip="MCP @ 08-25: 17.6%"/><circle cx="740.0" cy="211.4" r="4" fill="#c084fc" fill-opacity="1" data-tip="MCP @ 08-25: 17.6%"><title>MCP @ 08-25: 17.6%</title></circle>
+<polyline points="50.0,277.2 148.6,240.5 247.1,228.9 345.7,232.7 444.3,234.0 542.9,239.8 641.4,225.0 740.0,214.0" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="277.2" r="10" fill="transparent" data-tip="LangGraph @ 02-04: 7.4%"/><circle cx="50.0" cy="277.2" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 02-04: 7.4%"><title>LangGraph @ 02-04: 7.4%</title></circle>
+<circle cx="148.6" cy="240.5" r="10" fill="transparent" data-tip="LangGraph @ 02-27: 13.1%"/><circle cx="148.6" cy="240.5" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 02-27: 13.1%"><title>LangGraph @ 02-27: 13.1%</title></circle>
+<circle cx="247.1" cy="228.9" r="10" fill="transparent" data-tip="LangGraph @ 03-27: 14.9%"/><circle cx="247.1" cy="228.9" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 03-27: 14.9%"><title>LangGraph @ 03-27: 14.9%</title></circle>
+<circle cx="345.7" cy="232.7" r="10" fill="transparent" data-tip="LangGraph @ 04-22: 14.3%"/><circle cx="345.7" cy="232.7" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 04-22: 14.3%"><title>LangGraph @ 04-22: 14.3%</title></circle>
+<circle cx="444.3" cy="234.0" r="10" fill="transparent" data-tip="LangGraph @ 05-29: 14.1%"/><circle cx="444.3" cy="234.0" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 05-29: 14.1%"><title>LangGraph @ 05-29: 14.1%</title></circle>
+<circle cx="542.9" cy="239.8" r="10" fill="transparent" data-tip="LangGraph @ 06-25: 13.2%"/><circle cx="542.9" cy="239.8" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 06-25: 13.2%"><title>LangGraph @ 06-25: 13.2%</title></circle>
+<circle cx="641.4" cy="225.0" r="10" fill="transparent" data-tip="LangGraph @ 07-22: 15.5%"/><circle cx="641.4" cy="225.0" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 07-22: 15.5%"><title>LangGraph @ 07-22: 15.5%</title></circle>
+<circle cx="740.0" cy="214.0" r="10" fill="transparent" data-tip="LangGraph @ 08-25: 17.2%"/><circle cx="740.0" cy="214.0" r="4" fill="#22d3ee" fill-opacity="1" data-tip="LangGraph @ 08-25: 17.2%"><title>LangGraph @ 08-25: 17.2%</title></circle>
+<line x1="10" y1="390" x2="32" y2="390" stroke="#60a5fa" stroke-width="3"/>
+<text x="38" y="394" fill="#ddd" font-size="12">SQL</text>
+<line x1="390" y1="390" x2="412" y2="390" stroke="#4ade80" stroke-width="3"/>
+<text x="418" y="394" fill="#ddd" font-size="12">Prompt Engineering</text>
+<line x1="10" y1="410" x2="32" y2="410" stroke="#f87171" stroke-width="3"/>
+<text x="38" y="414" fill="#ddd" font-size="12">CI/CD</text>
+<line x1="390" y1="410" x2="412" y2="410" stroke="#fbbf24" stroke-width="3"/>
+<text x="418" y="414" fill="#ddd" font-size="12">Coding tools</text>
+<line x1="10" y1="430" x2="32" y2="430" stroke="#c084fc" stroke-width="3"/>
+<text x="38" y="434" fill="#ddd" font-size="12">MCP</text>
+<line x1="390" y1="430" x2="412" y2="430" stroke="#22d3ee" stroke-width="3"/>
+<text x="418" y="434" fill="#ddd" font-size="12">LangGraph</text>
+</svg>
+  <p class="subtitle">Not <code>SQL</code>, which moved only 11.1% &rarr; 15.8%</p>
+</section>
+
+<!-- decliners chart -->
+<section>
+  <h2>The Training Stack Keeps Declining</h2>
+  <svg viewBox="0 0 760 420" style="width:100%;max-width:760px;height:auto;" font-family="inherit">
+<line x1="50" y1="248.8" x2="740" y2="248.8" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="252.8" fill="#888" font-size="11" text-anchor="end">6%</text>
+<line x1="50" y1="172.5" x2="740" y2="172.5" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="176.5" fill="#888" font-size="11" text-anchor="end">12%</text>
+<line x1="50" y1="96.2" x2="740" y2="96.2" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="100.2" fill="#888" font-size="11" text-anchor="end">18%</text>
+<line x1="50" y1="20.0" x2="740" y2="20.0" stroke="#444" stroke-width="0.5"/>
+<text x="42" y="24.0" fill="#888" font-size="11" text-anchor="end">25%</text>
+<line x1="50" y1="325" x2="740" y2="325" stroke="#888" stroke-width="1"/>
+<text x="50.0" y="343" fill="#999" font-size="11" text-anchor="middle">02-04</text>
+<text x="148.6" y="343" fill="#999" font-size="11" text-anchor="middle">02-27</text>
+<text x="247.1" y="343" fill="#999" font-size="11" text-anchor="middle">03-27</text>
+<text x="345.7" y="343" fill="#999" font-size="11" text-anchor="middle">04-22</text>
+<text x="444.3" y="343" fill="#999" font-size="11" text-anchor="middle">05-29</text>
+<text x="542.9" y="343" fill="#999" font-size="11" text-anchor="middle">06-25</text>
+<text x="641.4" y="343" fill="#999" font-size="11" text-anchor="middle">07-22</text>
+<text x="740.0" y="343" fill="#999" font-size="11" text-anchor="middle">08-25</text>
+<polyline points="50.0,67.2 148.6,59.8 247.1,66.0 345.7,104.4 444.3,85.8 542.9,132.9 641.4,126.7 740.0,135.4" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="67.2" r="10" fill="transparent" data-tip="PyTorch @ 02-04: 20.8%"/><circle cx="50.0" cy="67.2" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 02-04: 20.8%"><title>PyTorch @ 02-04: 20.8%</title></circle>
+<circle cx="148.6" cy="59.8" r="10" fill="transparent" data-tip="PyTorch @ 02-27: 21.4%"/><circle cx="148.6" cy="59.8" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 02-27: 21.4%"><title>PyTorch @ 02-27: 21.4%</title></circle>
+<circle cx="247.1" cy="66.0" r="10" fill="transparent" data-tip="PyTorch @ 03-27: 20.9%"/><circle cx="247.1" cy="66.0" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 03-27: 20.9%"><title>PyTorch @ 03-27: 20.9%</title></circle>
+<circle cx="345.7" cy="104.4" r="10" fill="transparent" data-tip="PyTorch @ 04-22: 17.8%"/><circle cx="345.7" cy="104.4" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 04-22: 17.8%"><title>PyTorch @ 04-22: 17.8%</title></circle>
+<circle cx="444.3" cy="85.8" r="10" fill="transparent" data-tip="PyTorch @ 05-29: 19.3%"/><circle cx="444.3" cy="85.8" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 05-29: 19.3%"><title>PyTorch @ 05-29: 19.3%</title></circle>
+<circle cx="542.9" cy="132.9" r="10" fill="transparent" data-tip="PyTorch @ 06-25: 15.5%"/><circle cx="542.9" cy="132.9" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 06-25: 15.5%"><title>PyTorch @ 06-25: 15.5%</title></circle>
+<circle cx="641.4" cy="126.7" r="10" fill="transparent" data-tip="PyTorch @ 07-22: 16.0%"/><circle cx="641.4" cy="126.7" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 07-22: 16.0%"><title>PyTorch @ 07-22: 16.0%</title></circle>
+<circle cx="740.0" cy="135.4" r="10" fill="transparent" data-tip="PyTorch @ 08-25: 15.3%"/><circle cx="740.0" cy="135.4" r="4" fill="#60a5fa" fill-opacity="1" data-tip="PyTorch @ 08-25: 15.3%"><title>PyTorch @ 08-25: 15.3%</title></circle>
+<polyline points="50.0,113.1 148.6,100.7 247.1,85.8 345.7,140.3 444.3,145.3 542.9,141.6 641.4,147.8 740.0,167.6" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="113.1" r="10" fill="transparent" data-tip="Fine-Tuning @ 02-04: 17.1%"/><circle cx="50.0" cy="113.1" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 02-04: 17.1%"><title>Fine-Tuning @ 02-04: 17.1%</title></circle>
+<circle cx="148.6" cy="100.7" r="10" fill="transparent" data-tip="Fine-Tuning @ 02-27: 18.1%"/><circle cx="148.6" cy="100.7" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 02-27: 18.1%"><title>Fine-Tuning @ 02-27: 18.1%</title></circle>
+<circle cx="247.1" cy="85.8" r="10" fill="transparent" data-tip="Fine-Tuning @ 03-27: 19.3%"/><circle cx="247.1" cy="85.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 03-27: 19.3%"><title>Fine-Tuning @ 03-27: 19.3%</title></circle>
+<circle cx="345.7" cy="140.3" r="10" fill="transparent" data-tip="Fine-Tuning @ 04-22: 14.9%"/><circle cx="345.7" cy="140.3" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 04-22: 14.9%"><title>Fine-Tuning @ 04-22: 14.9%</title></circle>
+<circle cx="444.3" cy="145.3" r="10" fill="transparent" data-tip="Fine-Tuning @ 05-29: 14.5%"/><circle cx="444.3" cy="145.3" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 05-29: 14.5%"><title>Fine-Tuning @ 05-29: 14.5%</title></circle>
+<circle cx="542.9" cy="141.6" r="10" fill="transparent" data-tip="Fine-Tuning @ 06-25: 14.8%"/><circle cx="542.9" cy="141.6" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 06-25: 14.8%"><title>Fine-Tuning @ 06-25: 14.8%</title></circle>
+<circle cx="641.4" cy="147.8" r="10" fill="transparent" data-tip="Fine-Tuning @ 07-22: 14.3%"/><circle cx="641.4" cy="147.8" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 07-22: 14.3%"><title>Fine-Tuning @ 07-22: 14.3%</title></circle>
+<circle cx="740.0" cy="167.6" r="10" fill="transparent" data-tip="Fine-Tuning @ 08-25: 12.7%"/><circle cx="740.0" cy="167.6" r="4" fill="#4ade80" fill-opacity="1" data-tip="Fine-Tuning @ 08-25: 12.7%"><title>Fine-Tuning @ 08-25: 12.7%</title></circle>
+<polyline points="50.0,321.3 148.6,322.5 247.1,325.0 345.7,318.8 444.3,323.8 542.9,323.8 641.4,323.8 740.0,323.8" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="321.3" r="10" fill="transparent" data-tip="RLHF @ 02-04: 0.3%"/><circle cx="50.0" cy="321.3" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 02-04: 0.3%"><title>RLHF @ 02-04: 0.3%</title></circle>
+<circle cx="148.6" cy="322.5" r="10" fill="transparent" data-tip="RLHF @ 02-27: 0.2%"/><circle cx="148.6" cy="322.5" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 02-27: 0.2%"><title>RLHF @ 02-27: 0.2%</title></circle>
+<circle cx="247.1" cy="325.0" r="10" fill="transparent" data-tip="RLHF @ 03-27: 0.0%"/><circle cx="247.1" cy="325.0" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 03-27: 0.0%"><title>RLHF @ 03-27: 0.0%</title></circle>
+<circle cx="345.7" cy="318.8" r="10" fill="transparent" data-tip="RLHF @ 04-22: 0.5%"/><circle cx="345.7" cy="318.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 04-22: 0.5%"><title>RLHF @ 04-22: 0.5%</title></circle>
+<circle cx="444.3" cy="323.8" r="10" fill="transparent" data-tip="RLHF @ 05-29: 0.1%"/><circle cx="444.3" cy="323.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 05-29: 0.1%"><title>RLHF @ 05-29: 0.1%</title></circle>
+<circle cx="542.9" cy="323.8" r="10" fill="transparent" data-tip="RLHF @ 06-25: 0.1%"/><circle cx="542.9" cy="323.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 06-25: 0.1%"><title>RLHF @ 06-25: 0.1%</title></circle>
+<circle cx="641.4" cy="323.8" r="10" fill="transparent" data-tip="RLHF @ 07-22: 0.1%"/><circle cx="641.4" cy="323.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 07-22: 0.1%"><title>RLHF @ 07-22: 0.1%</title></circle>
+<circle cx="740.0" cy="323.8" r="10" fill="transparent" data-tip="RLHF @ 08-25: 0.1%"/><circle cx="740.0" cy="323.8" r="4" fill="#f87171" fill-opacity="1" data-tip="RLHF @ 08-25: 0.1%"><title>RLHF @ 08-25: 0.1%</title></circle>
+<polyline points="50.0,173.8 148.6,100.7 247.1,135.4 345.7,165.1 444.3,150.3 542.9,172.6 641.4,175.0 740.0,182.5" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-opacity="1"/>
+<circle cx="50.0" cy="173.8" r="10" fill="transparent" data-tip="TensorFlow @ 02-04: 12.2%"/><circle cx="50.0" cy="173.8" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 02-04: 12.2%"><title>TensorFlow @ 02-04: 12.2%</title></circle>
+<circle cx="148.6" cy="100.7" r="10" fill="transparent" data-tip="TensorFlow @ 02-27: 18.1%"/><circle cx="148.6" cy="100.7" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 02-27: 18.1%"><title>TensorFlow @ 02-27: 18.1%</title></circle>
+<circle cx="247.1" cy="135.4" r="10" fill="transparent" data-tip="TensorFlow @ 03-27: 15.3%"/><circle cx="247.1" cy="135.4" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 03-27: 15.3%"><title>TensorFlow @ 03-27: 15.3%</title></circle>
+<circle cx="345.7" cy="165.1" r="10" fill="transparent" data-tip="TensorFlow @ 04-22: 12.9%"/><circle cx="345.7" cy="165.1" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 04-22: 12.9%"><title>TensorFlow @ 04-22: 12.9%</title></circle>
+<circle cx="444.3" cy="150.3" r="10" fill="transparent" data-tip="TensorFlow @ 05-29: 14.1%"/><circle cx="444.3" cy="150.3" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 05-29: 14.1%"><title>TensorFlow @ 05-29: 14.1%</title></circle>
+<circle cx="542.9" cy="172.6" r="10" fill="transparent" data-tip="TensorFlow @ 06-25: 12.3%"/><circle cx="542.9" cy="172.6" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 06-25: 12.3%"><title>TensorFlow @ 06-25: 12.3%</title></circle>
+<circle cx="641.4" cy="175.0" r="10" fill="transparent" data-tip="TensorFlow @ 07-22: 12.1%"/><circle cx="641.4" cy="175.0" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 07-22: 12.1%"><title>TensorFlow @ 07-22: 12.1%</title></circle>
+<circle cx="740.0" cy="182.5" r="10" fill="transparent" data-tip="TensorFlow @ 08-25: 11.5%"/><circle cx="740.0" cy="182.5" r="4" fill="#fbbf24" fill-opacity="1" data-tip="TensorFlow @ 08-25: 11.5%"><title>TensorFlow @ 08-25: 11.5%</title></circle>
+<line x1="10" y1="390" x2="32" y2="390" stroke="#60a5fa" stroke-width="3"/>
+<text x="38" y="394" fill="#ddd" font-size="12">PyTorch</text>
+<line x1="390" y1="390" x2="412" y2="390" stroke="#4ade80" stroke-width="3"/>
+<text x="418" y="394" fill="#ddd" font-size="12">Fine-Tuning</text>
+<line x1="10" y1="410" x2="32" y2="410" stroke="#f87171" stroke-width="3"/>
+<text x="38" y="414" fill="#ddd" font-size="12">RLHF</text>
+<line x1="390" y1="410" x2="412" y2="410" stroke="#fbbf24" stroke-width="3"/>
+<text x="418" y="414" fill="#ddd" font-size="12">TensorFlow</text>
+</svg>
 </section>
 
 <!-- momentum chart -->
 <section>
-  <img src="../../job-market/images/skill-momentum.png" style="max-height: 600px;">
-</section>
-
-<!-- risers -->
-<section>
-  <h2>Prompt Engineering and RAG Lead Now</h2>
-  <table>
-    <tr><th>Skill</th><th>Feb 4</th><th>Aug 25</th><th>pp/scrape</th></tr>
-    <tr><td>Prompt Engineering</td><td>26.1%</td><td>39.0%</td><td>+1.46</td></tr>
-    <tr><td>RAG</td><td>32.8%</td><td>43.2%</td><td>+1.02</td></tr>
-    <tr><td>LangGraph</td><td>7.4%</td><td>17.2%</td><td>+0.90</td></tr>
-    <tr><td>MCP</td><td>9.9%</td><td>17.6%</td><td>+0.86</td></tr>
-  </table>
-  <p><br>Not <code>SQL</code> - that earlier read was the extractor-switch artifact</p>
-</section>
-
-<!-- decliners -->
-<section>
-  <h2>The Training Stack Keeps Declining</h2>
-  <table>
-    <tr><th>Skill</th><th>Feb 4</th><th>Aug 25</th></tr>
-    <tr><td>PyTorch</td><td>20.8%</td><td>15.3%</td></tr>
-    <tr><td>Fine-Tuning</td><td>17.1%</td><td>12.7%</td></tr>
-    <tr><td>TensorFlow</td><td>12.2%</td><td>11.5%</td></tr>
-  </table>
+  <h2>Skill Momentum: Risers vs Decliners</h2>
+  <svg viewBox="0 0 760 460" style="width:100%;max-width:760px;height:auto;" font-family="inherit">
+<line x1="445.0" y1="10" x2="445.0" y2="450" stroke="#888" stroke-width="1"/>
+<rect x="289.4" y="15.3" width="155.6" height="18.8" fill="#f87171" data-tip="PyTorch: -0.95 pp/scrape"><title>PyTorch: -0.95 pp/scrape</title></rect>
+<text x="160" y="28.7" fill="#ddd" font-size="12" text-anchor="end">PyTorch</text>
+<text x="439.0" y="28.7" fill="#aaa" font-size="11" text-anchor="end">-0.95</text>
+<rect x="320.5" y="44.6" width="124.5" height="18.8" fill="#f87171" data-tip="Fine-Tuning: -0.76 pp/scrape"><title>Fine-Tuning: -0.76 pp/scrape</title></rect>
+<text x="160" y="58.0" fill="#ddd" font-size="12" text-anchor="end">Fine-Tuning</text>
+<text x="439.0" y="58.0" fill="#aaa" font-size="11" text-anchor="end">-0.76</text>
+<rect x="361.5" y="73.9" width="83.5" height="18.8" fill="#f87171" data-tip="TensorFlow: -0.51 pp/scrape"><title>TensorFlow: -0.51 pp/scrape</title></rect>
+<text x="160" y="87.3" fill="#ddd" font-size="12" text-anchor="end">TensorFlow</text>
+<text x="439.0" y="87.3" fill="#aaa" font-size="11" text-anchor="end">-0.51</text>
+<rect x="441.7" y="103.3" width="3.3" height="18.8" fill="#f87171" data-tip="RLHF: -0.02 pp/scrape"><title>RLHF: -0.02 pp/scrape</title></rect>
+<text x="160" y="116.7" fill="#ddd" font-size="12" text-anchor="end">RLHF</text>
+<text x="439.0" y="116.7" fill="#aaa" font-size="11" text-anchor="end">-0.02</text>
+<rect x="445.0" y="132.6" width="9.8" height="18.8" fill="#4ade80" data-tip="Docker: +0.06 pp/scrape"><title>Docker: +0.06 pp/scrape</title></rect>
+<text x="160" y="146.0" fill="#ddd" font-size="12" text-anchor="end">Docker</text>
+<text x="460.8" y="146.0" fill="#aaa" font-size="11" text-anchor="start">+0.06</text>
+<rect x="445.0" y="161.9" width="26.2" height="18.8" fill="#4ade80" data-tip="Embeddings: +0.16 pp/scrape"><title>Embeddings: +0.16 pp/scrape</title></rect>
+<text x="160" y="175.3" fill="#ddd" font-size="12" text-anchor="end">Embeddings</text>
+<text x="477.2" y="175.3" fill="#aaa" font-size="11" text-anchor="start">+0.16</text>
+<rect x="445.0" y="191.3" width="45.9" height="18.8" fill="#4ade80" data-tip="SQL: +0.28 pp/scrape"><title>SQL: +0.28 pp/scrape</title></rect>
+<text x="160" y="204.7" fill="#ddd" font-size="12" text-anchor="end">SQL</text>
+<text x="496.9" y="204.7" fill="#aaa" font-size="11" text-anchor="start">+0.28</text>
+<rect x="445.0" y="220.6" width="119.6" height="18.8" fill="#4ade80" data-tip="CI/CD: +0.73 pp/scrape"><title>CI/CD: +0.73 pp/scrape</title></rect>
+<text x="160" y="234.0" fill="#ddd" font-size="12" text-anchor="end">CI/CD</text>
+<text x="570.6" y="234.0" fill="#aaa" font-size="11" text-anchor="start">+0.73</text>
+<rect x="445.0" y="249.9" width="122.8" height="18.8" fill="#4ade80" data-tip="Guardrails: +0.75 pp/scrape"><title>Guardrails: +0.75 pp/scrape</title></rect>
+<text x="160" y="263.3" fill="#ddd" font-size="12" text-anchor="end">Guardrails</text>
+<text x="573.8" y="263.3" fill="#aaa" font-size="11" text-anchor="start">+0.75</text>
+<rect x="445.0" y="279.3" width="140.9" height="18.8" fill="#4ade80" data-tip="MCP: +0.86 pp/scrape"><title>MCP: +0.86 pp/scrape</title></rect>
+<text x="160" y="292.7" fill="#ddd" font-size="12" text-anchor="end">MCP</text>
+<text x="591.9" y="292.7" fill="#aaa" font-size="11" text-anchor="start">+0.86</text>
+<rect x="445.0" y="308.6" width="140.9" height="18.8" fill="#4ade80" data-tip="Function Calling: +0.86 pp/scrape"><title>Function Calling: +0.86 pp/scrape</title></rect>
+<text x="160" y="322.0" fill="#ddd" font-size="12" text-anchor="end">Function Calling</text>
+<text x="591.9" y="322.0" fill="#aaa" font-size="11" text-anchor="start">+0.86</text>
+<rect x="445.0" y="337.9" width="147.4" height="18.8" fill="#4ade80" data-tip="LangGraph: +0.90 pp/scrape"><title>LangGraph: +0.90 pp/scrape</title></rect>
+<text x="160" y="351.3" fill="#ddd" font-size="12" text-anchor="end">LangGraph</text>
+<text x="598.4" y="351.3" fill="#aaa" font-size="11" text-anchor="start">+0.90</text>
+<rect x="445.0" y="367.3" width="167.1" height="18.8" fill="#4ade80" data-tip="RAG: +1.02 pp/scrape"><title>RAG: +1.02 pp/scrape</title></rect>
+<text x="160" y="380.7" fill="#ddd" font-size="12" text-anchor="end">RAG</text>
+<text x="618.1" y="380.7" fill="#aaa" font-size="11" text-anchor="start">+1.02</text>
+<rect x="445.0" y="396.6" width="172.0" height="18.8" fill="#4ade80" data-tip="Coding tools: +1.05 pp/scrape"><title>Coding tools: +1.05 pp/scrape</title></rect>
+<text x="160" y="410.0" fill="#ddd" font-size="12" text-anchor="end">Coding tools</text>
+<text x="623.0" y="410.0" fill="#aaa" font-size="11" text-anchor="start">+1.05</text>
+<rect x="445.0" y="425.9" width="239.1" height="18.8" fill="#4ade80" data-tip="Prompt Engineering: +1.46 pp/scrape"><title>Prompt Engineering: +1.46 pp/scrape</title></rect>
+<text x="160" y="439.3" fill="#ddd" font-size="12" text-anchor="end">Prompt Engineering</text>
+<text x="690.1" y="439.3" fill="#aaa" font-size="11" text-anchor="start">+1.46</text>
+<text x="445.0" y="458" fill="#888" font-size="11" text-anchor="middle">pp change per scrape</text>
+</svg>
 </section>
 
 <!-- two stacks -->
@@ -238,7 +781,7 @@
     <li><code>RAG</code> &rarr; embeddings (x2.2), vector DBs (x2.0), function calling (x1.9)</li>
     <li><code>PyTorch</code> &rarr; MLOps (x2.2), Kubernetes (x1.4)</li>
   </ul>
-  <p><br><code>MCP</code> and <code>Fine-Tuning</code> now sit closer to the application stack than the training one</p>
+  <p><br>Even <code>Fine-Tuning</code> has switched sides: it now co-occurs more with RAG/agent skills than with PyTorch/training skills - today it usually means adapting an LLM for an app, not training a model from scratch</p>
 </section>
 
 <!-- title predicts stack -->
@@ -246,13 +789,14 @@
   <h2>Title Predicts the Stack</h2>
   <table>
     <tr><th>Title</th><th>ai-first</th><th>Cust-facing</th></tr>
-    <tr><td>ai engineer</td><td>88%</td><td>16%</td></tr>
-    <tr><td>applied / forward deployed</td><td>91%</td><td>47%</td></tr>
-    <tr><td>ml engineer / scientist</td><td>74%</td><td>10%</td></tr>
-    <tr><td>platform / infra / devops</td><td>47%</td><td>11%</td></tr>
-    <tr><td>data engineer</td><td>44%</td><td>8%</td></tr>
+    <tr><td>AI Engineer</td><td>88%</td><td>16%</td></tr>
+    <tr><td>Applied</td><td>90%</td><td>28%</td></tr>
+    <tr><td>Forward Deployed / FDE</td><td>94%</td><td>89%</td></tr>
+    <tr><td>ML Engineer / Scientist</td><td>74%</td><td>10%</td></tr>
+    <tr><td>Platform / Infra / DevOps</td><td>47%</td><td>11%</td></tr>
+    <tr><td>Data Engineer</td><td>44%</td><td>8%</td></tr>
   </table>
-  <p><br>Applied / forward deployed is the only majority customer-facing group, by a wide margin</p>
+  <p><br>Forward Deployed is its own distinct, mostly customer-facing role - a plain "Applied AI Engineer" title is not</p>
 </section>
 
 <!-- Part 4: what hasn't changed -->
@@ -264,17 +808,18 @@
 <!-- AI infra -->
 <section>
   <h2>The "AI Infra Engineer" Still Isn't a Role</h2>
+  <p class="subtitle">Inference/serving = running models in production: vLLM, Triton, TensorRT, CUDA, model deployment</p>
   <p class="medium-number">19.8% &rarr; 9.9%</p>
-  <p>inference/serving share of ai-first jobs - roughly halved</p>
+  <p>share of ai-first jobs that mention this work - roughly halved</p>
   <br>
-  <p>Inference work keeps getting absorbed into the platform/infra archetype instead of forming its own mass role - a stronger null finding than before</p>
+  <p>There's no dedicated "AI infra engineer" job category forming. That work keeps getting folded into the general Cloud/ML Platform archetype (archetype #2) instead of becoming its own specialized title.</p>
 </section>
 
 <!-- FDE -->
 <section>
   <h2>Forward Deployed Engineer</h2>
   <p class="medium-number">187 postings, 2.7%</p>
-  <p>Feb 2.0% &rarr; peaked 4.4% in July &rarr; Aug 2.9%</p>
+  <p>Feb 2.0% &rarr; peaked 4.4% in July</p>
   <br>
   <ul>
     <li>89% customer-facing (vs 14% for other ai-first roles)</li>
@@ -285,7 +830,7 @@
 
 <!-- Seniority -->
 <section>
-  <h2>The Bottom Rung Is Still Closed</h2>
+  <h2>Junior Hiring Is Still Closed</h2>
   <table>
     <tr><th>Level</th><th>Feb 4</th><th>Aug 25</th></tr>
     <tr><td>Staff+</td><td>18.5%</td><td>11.0%</td></tr>
@@ -299,7 +844,7 @@
 <section>
   <h2>Key Takeaways</h2>
   <ul>
-    <li>ai-first share is stable (68-71%), not rising - earlier "consolidation" was measurement noise</li>
+    <li>ai-first share is stable (68-71%), not rising - no consolidation trend either direction</li>
     <li>Integrator-vs-trainer shift is real and accelerating: 80% &rarr; 88% integrator within ai-first</li>
     <li>Prompt Engineering and RAG are the fastest-rising named skills, not SQL</li>
     <li>Agent-building is fragmenting into more specific sub-roles, not consolidating</li>
@@ -318,6 +863,7 @@
 
 </div>
 </div>
+<div id="chart-tip" style="position:fixed; display:none; pointer-events:none; z-index:1000; background:#1a1a1a; border:1px solid #60a5fa; color:#fff; font-size:14px; padding:6px 10px; border-radius:4px; max-width:320px; box-shadow:0 2px 8px rgba(0,0,0,0.5);"></div>
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
 <script>
 Reveal.initialize({
@@ -327,6 +873,32 @@ Reveal.initialize({
   width: 1200,
   height: 700,
 });
+
+(function () {
+  var tip = document.getElementById('chart-tip');
+  document.addEventListener('mouseover', function (e) {
+    var el = e.target.closest('[data-tip]');
+    if (el) {
+      tip.textContent = el.getAttribute('data-tip');
+      tip.style.display = 'block';
+    }
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (tip.style.display === 'block') {
+      var x = e.clientX + 14, y = e.clientY + 14;
+      var maxX = window.innerWidth - tip.offsetWidth - 10;
+      var maxY = window.innerHeight - tip.offsetHeight - 10;
+      tip.style.left = Math.min(x, maxX) + 'px';
+      tip.style.top = Math.min(y, maxY) + 'px';
+    }
+  });
+  document.addEventListener('mouseout', function (e) {
+    var el = e.target.closest('[data-tip]');
+    if (el && !e.relatedTarget?.closest('[data-tip]')) {
+      tip.style.display = 'none';
+    }
+  });
+})();
 </script>
 </body>
 </html>

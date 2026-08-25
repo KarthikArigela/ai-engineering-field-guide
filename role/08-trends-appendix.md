@@ -27,16 +27,17 @@ The "slope" metric in the trajectory sections is the slope of an OLS line fit to
 
 ## Cluster signatures
 
-Spherical k-means (cosine distance, k-means++ init, k=6, seed=7, implemented in numpy) on a 31-skill binary signature per posting. Each cluster's top skills (share of cluster members, with lift over baseline):
+Spherical k-means (cosine distance, k-means++ init, k=6, seed=7, implemented in numpy) on a 31-skill binary signature per posting. K-means originally split the agent-building population into two clusters, but they differed almost entirely on whether `Prompt Engineering` was tagged as a skill (97% vs 0% - everything else, including `RAG`, `Agents`, and `LangChain` share, was close between them). That's a skill-tagging artifact, not a distinct role, so I merged them into one Agent builder cluster below (k=5 effective).
 
-- RAG app builder (1,763 postings, 25.3%, 96% ai-first). `LangChain` 65% (x2.8), `LangGraph` 41% (x2.8), vector databases 71% (x2.6), `Fine-Tuning` 36% (x2.1), `RAG` 90% (x2.1), AI cloud services 29% (x2.1), `FastAPI`/`Flask` 22% (x2.1). The dominant archetype.
+Each cluster's top skills (share of cluster members, with lift over baseline):
+
+- Agent builder (1,990 postings, 28.6%, 88% ai-first). `Agents` 88% (x1.6), `Prompt Engineering` 51% (x1.5), `Function Calling` 23% (x1.7), `MCP` 19% (x1.3), `OpenAI`/`Anthropic API` 21% (x1.1), `RAG` 39% (x1.0, roughly baseline). Now the largest archetype.
+- RAG app builder (1,763 postings, 25.3%, 96% ai-first). `LangChain` 65% (x2.8), `LangGraph` 41% (x2.8), vector databases 71% (x2.6), `Fine-Tuning` 36% (x2.1), `RAG` 90% (x2.1), AI cloud services 29% (x2.1), `FastAPI`/`Flask` 22% (x2.1).
 - Cloud / ML platform engineer (1,257, 18.0%, 58% ai-first). `GCP` 88% (x3.0), `Azure` 88% (x2.8), `AWS` 94% (x2.2), `PyTorch`/`TensorFlow` 33% (x1.7), inference/serving 26% (x1.5), `Kubernetes` 36% (x1.4), `Docker` 35% (x1.3).
-- Prompt-driven agent builder (1,040, 14.9%, 92% ai-first). `Prompt Engineering` 97% (x2.6), `Function Calling` 30% (x2.0), `OpenAI`/`Anthropic API` 30% (x1.5), `MCP` 21% (x1.4), agents 77% (x1.3), `RAG` 46% (x1.1).
-- Pure agent builder (950, 13.6%, 84% ai-first). Agents 100% (x1.7), `RAG` 31% (x0.7, under-index). Agent frameworks without a retrieval layer - a distinct cluster from the RAG-and-agents builders above.
 - DevOps / full-stack engineer (923, 13.3%, only 33% ai-first). `Terraform` 26% (x2.4), `React`/frontend 41% (x2.4), coding tools 23% (x1.9), `Kubernetes` 47% (x1.8), `CI/CD` 72% (x1.8), `Docker` 44% (x1.7). The infra and full-stack archetypes that were separate six months ago now cluster together - the least AI-native group.
 - ML trainer / researcher (571, 8.2%, 46% ai-first). `PyTorch`/`TensorFlow` 62% (x3.1), inference/serving 52% (x3.0), `MLOps` 31% (x1.5), `SQL` 22% (x1.4). Still the smallest archetype.
 
-The agent-builder archetype has split into two distinct clusters since February: one built around prompt engineering and provider APIs, one built around agent frameworks with little to no retrieval. Meanwhile the old DevOps/infra and full-stack clusters merged into one.
+Meanwhile the old DevOps/infra and full-stack clusters merged into one since six months ago.
 
 ## AI-type mix (% of all postings)
 
@@ -76,8 +77,8 @@ First and last values:
 
 First and last values:
 
-- RAG builder: 43.4% to 58.4%
-- Agent builder: 63.8% to 77.2%
+- Has RAG skill: 43.4% to 58.4%
+- Has agent skill: 63.8% to 77.2%
 - Fine-tuner: 24.2% to 24.9% - flat, not declining
 - Inference / serving: 19.8% to 9.9% - roughly halved
 - RAG and agents (both): 33.1% to 50.5% - now a majority of ai-first jobs
